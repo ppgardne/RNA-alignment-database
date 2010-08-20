@@ -1,0 +1,46 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-255
+#=GF AC    RF00900
+#=GF DE    microRNA mir-255
+#=GF AU    Wilkinson A
+#=GF GA    21.0
+#=GF NC    0.0
+#=GF TC    99.3
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000368
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    4
+
+#=GS C.remanei.1  AC    AAGD02012095.1/86646-86750
+#=GS C.elegans.1  AC    U64847.1/31040-31149
+#=GS C.brenneri.1 AC    ABEG01017878.1/3513-3625
+#=GS C.briggsae.1 AC    AC084561.1/3609-3711
+
+C.remanei.1              .........AAC..GUUAUACUGAU....AAAAUCAGGUAAGAAAUCUUU
+C.elegans.1              .........CAGUGGUUCGACUAAAUUUU....GGAGGUAAGAAAUCUUU
+C.brenneri.1             .........UGUUGGAGUGAGUAUUCCUUAUU.UCAGGUAAGAAAUCUUU
+C.briggsae.1             AUUUUGUUAGAU..GU.......CUCUUCAUUAUCAGGUAAGAAAUCUUU
+#=GC SS_cons             .......................<<<<<<........<<<<<<<<<<<<<
+#=GC RF                  AuuuuguuAgAuugGUucgAcuAcacuucAuuAugAGGuAAgAAAuCuuu
+
+C.remanei.1              GUGGUUUUCCGUGUUUAAACGCGAAAACUGAAGAGAUUUUUUACAGAUUC
+C.elegans.1              GUAGUUCUCCGUAUUGUGACGUGAAAACUGAAGAGAUUUUUUACAGACUU
+C.brenneri.1             GUGGUUUUCCGUUAUGAGACGAGAAAACUGAAGAGAUUUUUUACAGAUUU
+C.briggsae.1             GUAGUUUUCCGCGAGUCAACGUGAAAACUGAAGAGAUUUUUUACAGAUUC
+#=GC SS_cons             .<<<<<<<<<<........>>.>>>>>>>>.>>>>>>>>>>>>>......
+#=GC RF                  GuAGuuuuCCGuaauuuaACGUGaaaaCUgAagaGaUUUuUUaCAGAuUu
+
+C.remanei.1              UGC....AUAAUUUUCGAUUCGUC
+C.elegans.1              CA.CAAAUUUGAAAUAUAUUCCUG
+C.brenneri.1             CU.GCAGAAUUCUACUUGCAUUCA
+C.briggsae.1             CG.GAGGAGCA...........UC
+#=GC SS_cons             ...>>>>>>...............
+#=GC RF                  Ca.gaaguguaAAAuAuAuuccUg
+//

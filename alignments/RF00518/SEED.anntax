@@ -1,0 +1,115 @@
+# STOCKHOLM 1.0
+#=GF ID    speF
+#=GF AC    RF00518
+#=GF DE    speF leader
+#=GF AU    Barrick JE
+#=GF GA    27.0
+#=GF NC    0.0
+#=GF TC    27.4
+#=GF SE    Barrick JE
+#=GF SS    Predicted; Barrick JE
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  -g  --fil-no-hmm  CM SEQDB
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    16086852
+#=GF RT    Evidence for a second class of S-adenosylmethionine riboswitches and
+#=GF RT    other regulatory RNA motifs in alpha-proteobacteria.
+#=GF RA    Corbino KA, Barrick JE, Lim J, Welz R, Tucker BJ, Puskarz I, Mandal
+#=GF RA    M, Rudnick ND, Breaker RR;
+#=GF RL    Genome Biol. 2005;6:R70.
+#=GF CC    This family is a putative regulatory RNA structure that is found
+#=GF CC    upstream of the speF gene encoding ornithine decarboxylase in
+#=GF CC    Agrobacterium tumefaciens and other alpha-proteobacteria.
+#=GF WK    http://en.wikipedia.org/wiki/speF_leader
+#=GF SQ    6
+
+#=GS B.henselae.1           AC    BX897699.1/1421707-1422017
+#=GS B.quintana.1           AC    BX897700.1/1185013-1185322
+#=GS Rhodopseudomonas_pal.1 AC    BX572595.1/267970-268384
+#=GS Brucella_melitensis_.1 AC    AM040265.1/96947-97255
+#=GS Agrobacterium_tumefa.1 AC    AE007870.2/205477-205785
+#=GS Sinorhizobium_melilo.1 AC    AL591688.1/3105137-3105448
+
+B.henselae.1                       UUUGCCCAAAGUCGCACGUGCCUGUGGGUGUCCGCUGGU...UCUCAAA.
+B.quintana.1                       CUUGCCCAAAGUCGCACGUGCCUGUGGGUGUCCGCUGGU...UCUCAAA.
+Rhodopseudomonas_pal.1             CUUGCCCAAUUUCGCACGUGCCCGUGGUCGUGUGUCAGUCGGUAGGUAU.
+Brucella_melitensis_.1             CUUGCCCAAAGUCGCACGUGCCUGUGGGUGUCCGCCGAU...CCUCGAA.
+Agrobacterium_tumefa.1             GCUGCCCAAAGUCGCACGUGCCCAUGUGUGUCCGCCGAG..UCCUCGAUG
+Sinorhizobium_melilo.1             CUUGCCCAAAGUCGCACGUGCCUGUGGGUGUCCGCCGAC...CCUCGAUU
+#=GC SS_cons                       .........................<<<<<<<<.................
+#=GC RF                            cUUGCCCAAAgUCGCACGUGCCuGUGGgcGucCGccGgu...ucucaAu.
+
+B.henselae.1                       UGGUGAGAUUAACCGGU.................................
+B.quintana.1                       UGGUGAGAUUAACCGGU.................................
+Rhodopseudomonas_pal.1             CCGGACAAGAGGCCGGACAGCCGCCAAGGGAUGAAGAGCCGAGGGUCUCC
+Brucella_melitensis_.1             UGGUGAGGAAU.UCGGU.................................
+Agrobacterium_tumefa.1             UGGUGAGGAUU.UAGGU.................................
+Sinorhizobium_melilo.1             AGGUGAGGUUA.UCGGU.................................
+#=GC SS_cons                       ..................................................
+#=GC RF                            ugGuGAGAuuaacCGGu.................................
+
+B.henselae.1                       ..................................................
+B.quintana.1                       ..................................................
+Rhodopseudomonas_pal.1             AAGCGUUCGCGCAGCGAGGCCAGCAUCUCUCUCAAGAGAUGCCGUUGAAG
+Brucella_melitensis_.1             ..................................................
+Agrobacterium_tumefa.1             ..................................................
+Sinorhizobium_melilo.1             ..................................................
+#=GC SS_cons                       ..................................................
+#=GC RF                            ..................................................
+
+B.henselae.1                       .............ACGGUACCUGGAACUAACCGCUCCAGUCAU.UCUUAC
+B.quintana.1                       .............ACGGUACAUGGAAUUAACCACUCCAGUCAU.UCUUAC
+Rhodopseudomonas_pal.1             GUGGCUUCCUCUCUUGCAACCGUGACUGACAGCCGGAGGCGAACCGGCGC
+Brucella_melitensis_.1             .............ACGGUACCUGGACCUAACCGCUCCAGUCGA.UCUGAU
+Agrobacterium_tumefa.1             .............AAGGUACCUGGAACUAACCCCUCCAGUCGC.UAUUCC
+Sinorhizobium_melilo.1             .............AAGGUACCUGGAACUAACCCCUCCAGUCGC.UAUUCC
+#=GC SS_cons                       ..................................................
+#=GC RF                            .............AaGguACCugGAAuuAAcccCUccAGUcaa.UaUuaC
+
+B.henselae.1                       GGCCAACCGAAAGA.AUGAGGACAUCUUGAAGCAACGACGGUGCGGGCCU
+B.quintana.1                       GGCCAACCGAAAGA.GUGAGGACAUCUUGAAGCAACGACGGUGCGGGCCU
+Rhodopseudomonas_pal.1             ACCUCGUUCUCAACGAGGGACGCGACUUAAAGCAACGACGGAGCGGGCUU
+Brucella_melitensis_.1             GGCCAACCGCCAGA.UCGAGGACAUCUUGAAGCAACGACGGUGCGGGCCU
+Agrobacterium_tumefa.1             GGCCAACCGGGAAAUGCGAGGACAUAU.GAAGCAACGACGGUGCGGGCCU
+Sinorhizobium_melilo.1             GGCCAACCGGGAAAUGCGAGGACAUCUUGAAGCAACGACGGUGCGGGCCU
+#=GC SS_cons                       ...................>>>>>>>>....<<<<.<<.<<<<...<<<<
+#=GC RF                            GGCCAACCGaaAaAuacGAGgaCguCUUGAAGCAACGACGGuGCGGGCCU
+
+B.henselae.1                       UUCUGGU.GUCUUCCAGCUGUCCAAAUGCUGGGAUA...ACUAUAGAGGC
+B.quintana.1                       UUCUGGU.GUCUUCCAGCUGUCAAAAUGCUGGGGUA...ACUAUAGAGGC
+Rhodopseudomonas_pal.1             UUUUGGU.CUCUGCCGGCUUUCCAUCAGCCGGCGCGAAUACCGAAGAGGC
+Brucella_melitensis_.1             UUCUAGU.GUCUUUCGGCUGUCCAAAAGUCGAAAUU...ACUGAAGAGGC
+Agrobacterium_tumefa.1             UUCUGGUUCUCUGCCGGCUUUCCAUCAGCCGGGGU....ACUGAAGAGGC
+Sinorhizobium_melilo.1             UUCUGGU.GUCUGCCGGCUCUCCAACAGCCGGGGUU...ACUGAAGAGGC
+#=GC SS_cons                       <<.<<<<......<<<<<<.......>>>>>>.......>>>>.>>>>>>
+#=GC RF                            UUCugGU.gUCUgCCGGCuuUCCAaaaGCCGGgGUu...ACcgAAGAGGC
+
+B.henselae.1                       A.CACC.UCAUUGCCUUCAGUGCGGAAGU.GGU.UUUCUCAACUCCAAUC
+B.quintana.1                       A.CACC.UCAUUGCCUUCAGUGCGGAAGU.GGU.UUUCUCAACUCCAAUC
+Rhodopseudomonas_pal.1             UUGUCCUUCAUUGCC.AGUGAGCGGGC.GGGAUCCUUCCCAA..CCAAUC
+Brucella_melitensis_.1             A.CACCUUCAUUGCCAGAAGUGCGGAUGC.GGU.UCUCC.AAUUCCAAGC
+Agrobacterium_tumefa.1             A.CACCAUCAUUGCCUGAAGUGCGGUC.G.GGUCAUUCCC...UCCAAUC
+Sinorhizobium_melilo.1             A.CACCUUCAUUGCCGGAAGUGCGGUU.GGGUU.AUUCCC...UCCAAUC
+#=GC SS_cons                       ..>>>>.>>.>>>>....................................
+#=GC RF                            A.CaCCUUCAUUGCCugaAGUGCGGauGg.GgU.uUUCCCAAuUCCAAUC
+
+B.henselae.1                       AAAAAGGCAGAAAAAGUAAAGCAACGCGAUUUU...CGCGCUGUUUU..U
+B.quintana.1                       AAAAAGGCAGAAAAAGUAGAGCAACGUGGUUUU...CACGCUGUUUU...
+Rhodopseudomonas_pal.1             CAAG..GCAGCACUGCUCGUCCGAGCUGA.UCGCUCGUCGCGCCUCC..A
+Brucella_melitensis_.1             CAAG..GCAGACAAAGCGGAGUAACGCU..UAGUUUAGCGUUGUUCC..A
+Agrobacterium_tumefa.1             GAUG..GCAGACAAAGCCGAAUGAUGCUC.UGGCAGGGCAU.CGUUC..A
+Sinorhizobium_melilo.1             CAUG..GCAGACAAAGCCGAAUCCUAGCCUUUGCG.GGCUUUGAUUCAAA
+#=GC SS_cons                       ..................................................
+#=GC RF                            cAAG..GCAGAaAAAGucGAauaAugugaUUuGcuuggCGuuguUuC..A
+
+B.henselae.1                       UCGCUGCAUGCAAUGCUGCUUUCUUC
+B.quintana.1                       UCGCUGCAUGCAAUGUUGCUUUCUUC
+Rhodopseudomonas_pal.1             UCGCGCGACGGCGCUGAAGCCGUCGG
+Brucella_melitensis_.1             UCGCCGCAUAAAGUUUUCGCGUGACA
+Agrobacterium_tumefa.1             CAUUCGCGCCUUGAGCGUAUGCUAUC
+Sinorhizobium_melilo.1             UUCGCGCAUCGAGCGCAUGCAUGGUU
+#=GC SS_cons                       ..........................
+#=GC RF                            UcGccGcAuggaGuguaagcauuaua
+//

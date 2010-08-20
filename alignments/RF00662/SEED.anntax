@@ -1,0 +1,110 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-132
+#=GF AC    RF00662
+#=GF DE    microRNA mir-132
+#=GF AU    Wilkinson A
+#=GF GA    34.0
+#=GF NC    23.3
+#=GF TC    35.0
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000065
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    20
+
+#=GS C.milii.1              AC    AAVX01086956.1/967-1051
+#=GS C.milii.2              AC    AAVX01172706.1/316-404
+#=GS O.latipes.1            AC    BAAF04037894.1/2065-2153
+#=GS O.latipes.2            AC    BAAF04037894.1/2326-2420
+#=GS O.latipes.3            AC    BAAF04066384.1/1751-1845
+#=GS Gasterosteus_aculeat.1 AC    AANH01000634.1/22334-22422
+#=GS T.rubripes.1           AC    CAAB01001741.1/3307-3401
+#=GS T.rubripes.2           AC    CAAB01000451.1/6672-6761
+#=GS T.rubripes.3           AC    CAAB01000451.1/6971-7065
+#=GS T.nigroviridis.1       AC    CAAE01008555.1/5373-5461
+#=GS D.rerio.1              AC    BX088586.8/108540-108628
+#=GS D.rerio.2              AC    BX663516.23/51665-51759
+#=GS D.rerio.3              AC    BX663516.23/51989-52075
+#=GS L.africana.1           AC    AAGU02378451.1/1244-1332
+#=GS H.sapiens.1            AC    AADB02296530.1/405-487
+#=GS M.murinus.1            AC    ABDC01230941.1/4323-4406
+#=GS Otolemur_garnettii_s.1 AC    AAQR01668865.1/3647-3729
+#=GS F.catus.1              AC    AANG01158591.1/2793-2876
+#=GS F.catus.2              AC    ACBE01418795.1/3125-3213
+#=GS M.lucifugus.1          AC    AAPE01105627.1/4939-5025
+
+C.milii.1                          CCUGGUUCCAUGGUGACCGUGGCUUUCGAUUG.UUAUUGUCAGUGUGGU.
+C.milii.2                          ACGUCAGUCACCAGCACCUUGGCUCUAGACUGAUUACUGUGUGUGUGUG.
+O.latipes.1                        ACUGUCUCCAUGGUAACCGUGGCAUUAGAUUG.UUACUGUAGCAACAGCA
+O.latipes.2                        AGUCAGUGCACCAAUACCUUGGCUCUAGACUGCUUACUGCUAAAAGUGCU
+O.latipes.3                        CGCUAGAGCAUCAGCACCUUGGCUUUAGACUGCUUACUGCUUAUACAAUC
+Gasterosteus_aculeat.1             GCUGUCUCCAUGGCGACCGUGGCUUUAGAUUG.UUACUCUAGCAACAGCA
+T.rubripes.1                       GGUCAGCGCAUCAACACCUUGGCUCUAGACUGCUUACUGCUAAAACCGC.
+T.rubripes.2                       GCUGUCUCCAUGGCGACCGUGGCUUUAGAUUG.UUACUCUUUGCAAUAGC
+T.rubripes.3                       GGCCAGAGCAUCAGCACCUUGGCUUUAGACUGCUUACUGUUUAUACAGU.
+T.nigroviridis.1                   GUUGUCUCCAUGGUUACCGUGGCAUUAGAUUG.UUACUGUAGCAACUGCA
+D.rerio.1                          GCUGUCUCCAUGGCGACCGUGGCAUUAGAUUG.UUACUGUAGGAACAGAA
+D.rerio.2                          UGUCAGAACUUCAUGACCUUGGCUCUAGACUGCUUACUGCUUAUGGAGU.
+D.rerio.3                          GCUGUCUCCAUGCUGACCGUGGCUUUAGAUUG.UUACUGUAGCGUUGGC.
+L.africana.1                       GGGCAGUGCGCCGUCUCUUUGGCUCUAGACUGCUUACUGCCCGGGCCGC.
+H.sapiens.1                        CGCGUCUCCAGGCAAACCGUGCUAUUCGAUUG.UUACUGUGGAACUGGA.
+M.murinus.1                        CGCGUCUCCAGGGCAACCGUGGC.UUCGAUUG.UUACUGUGGGAACCGG.
+Otolemur_garnettii_s.1             CGCGUCUCCAGGGCAACCGUGGCUUUCGAUUG.UUACUGUGGAACCGG..
+F.catus.1                          CGCGUCUCCAGGGCAACCGUGGCUUUCGAUUG.UUACUGUGGGAAC....
+F.catus.2                          GGGCAGCGCGCCGGCACCUUGGCUCUAGACUGCUUACUGCCCGGGCCGC.
+M.lucifugus.1                      GGGCAGCGCGCCGGCACCUUGGCUGCAGACUGCUUACUGCCCGG..CGC.
+#=GC SS_cons                       ................<<.<<<<....<<<<<.<<<<<............
+#=GC RF                            ggugagucCAugguaACCgUGGCUuUAGAcUG.UUACuGuauaaacaGu.
+
+C.milii.1                          .............GUAGUAA.CAGUCUACAGCCAUGGUUGUUUGGA.CAG
+C.milii.2                          .....U......CUGAGUAA.CAGUCUACAGUCAUGGCUACUGAGGGUUG
+O.latipes.1                        C....C......ACUGGUAA.CAGUCUACAGCCAUGGUCGCUAGGG.GGC
+O.latipes.2                        C....CAAAG..UACAGUAA.CAGUCUACAGUCAUGGCUACUGACGCCUG
+O.latipes.3                        UCACAG......UACAGUAA.CAGUCUACAGUCAUGGCUACUGAAGCCUG
+Gasterosteus_aculeat.1             .....G......CAUGGUAA.CAGUCUACAGCCAUGGUCGUUAGGGGCAG
+T.rubripes.1                       .....UCAUAAGUACAGUAA.CAGUCUACAGUCAUGGCUACUGACGCCUG
+T.rubripes.2                       U....C......CAUGGUAA.CAGUCUACAGCCAUGGUCGUUAGGGGCAG
+T.rubripes.3                       .....AUCACAGUACAGUAA.CAGUCUACAGUCAUGGCUACUGACGCCUG
+T.nigroviridis.1                   C....C......AGCGGUAA.CAGUCUACAGCCAUGGUCGCUAGGG.GGC
+D.rerio.1                          U....U......UUUGGUAA.CAGUCUACAGCCAUGGUCGCUAGUG.GGC
+D.rerio.2                          .....CCGACAGUACAGUAA.CAGUCUACAGUCAUGGCUACUGAAGUCUG
+D.rerio.3                          .....A......CGUGGUAA.CAGUCUACAGCCAUGGUCGCCAAGG.GGC
+L.africana.1                       .....C......UUCAGUAA.CAGUCUCCAGUCACGGCCACCGACGCCUG
+H.sapiens.1                        ...............GGUAA.CAGUCUACAGCCAUGGUCGCCCCGC.AGC
+M.murinus.1                        ..............AGGUAA.CAGUCUACAGCCAUGGUCGCCCCGCAACA
+Otolemur_garnettii_s.1             ...............AGUAAACAGCCUACAGUCAUGAUCGCCCCGC.AGC
+F.catus.1                          .....C......GGAGGUAA.CAGUCUACAGCCAUGGUCGCCCCGC.AGC
+F.catus.2                          .....C......CUCAGUAA.CAGUCUCCAGUCACGGCCACCGACGCCUG
+M.lucifugus.1                      .....C......CCGAGUAA.CAGUCUCCAGUCACGGCCGCCGACGCCUG
+#=GC SS_cons                       ...............>>>>>.>>>>>....>>>>.>>.............
+#=GC RF                            .....c......uauaGUAA.CAgUCUACAGCCAUGGuugCUgagGccug
+
+C.milii.1                          GA
+C.milii.2                          GC
+O.latipes.1                        AA
+O.latipes.2                        GC
+O.latipes.3                        GC
+Gasterosteus_aculeat.1             GU
+T.rubripes.1                       AC
+T.rubripes.2                       GU
+T.rubripes.3                       GU
+T.nigroviridis.1                   AA
+D.rerio.1                          AG
+D.rerio.2                          GC
+D.rerio.3                          AG
+L.africana.1                       GC
+H.sapiens.1                        AC
+M.murinus.1                        GG
+Otolemur_garnettii_s.1             AC
+F.catus.1                          AC
+F.catus.2                          GC
+M.lucifugus.1                      GC
+#=GC SS_cons                       ..
+#=GC RF                            gc
+//

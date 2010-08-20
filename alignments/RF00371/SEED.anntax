@@ -1,0 +1,46 @@
+# STOCKHOLM 1.0
+#=GF ID    sroE
+#=GF AC    RF00371
+#=GF DE    sroE RNA
+#=GF AU    Moxon SJ
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    35.6
+#=GF SE    PMID:14602901
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; sRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000655 SO:ncRNA
+#=GF RN    [1]
+#=GF RM    14602901
+#=GF RT    RNomics in Escherichia coli detects new sRNA species and indicates
+#=GF RT    parallel transcriptional output in bacteria.
+#=GF RA    Vogel J, Bartels V, Tang TH, Churakov G, Slagter-Jager JG,
+#=GF RA    Huttenhofer A, Wagner EG;
+#=GF RL    Nucleic Acids Res 2003;31:6435-6443.
+#=GF CC    This family consists of a number of bacterial sroE RNA genes of around 90
+#=GF CC    bases in length. sroE is found in several Enterobacterial species but its
+#=GF CC    function is unknown [1].
+#=GF WK    http://en.wikipedia.org/wiki/sroE_RNA
+#=GF SQ    4
+
+#=GS E.coli.1               AC    M11843.1/93-184
+#=GS Klebsiella_pneumonia.1 AC    CP000647.1/3122822-3122897
+#=GS Salmonella_enterica_.1 AC    FM200053.1/390269-390360
+#=GS marine_metag.1         AC    AACY020347183.1/327-418
+
+E.coli.1                           AUAACGUGAUGGGAAGCGCCUCGCUUCCCGUGUAUGAUUGAACCCGCAUG
+Klebsiella_pneumonia.1             AUAACGUGUUGGGAAGCGAUACGCUUCCCGUGUAUGAUUGAACCUG....
+Salmonella_enterica_.1             AGAACGUGAUGGGAAGCGGCGCGCUUCCCGUGUAUGAUUGAACCCGCAUG
+marine_metag.1                     AUAACGUGAUGGGAAGCGGCGUGCUUCCCGUGUAUGAUUGAACCCGCAUG
+#=GC SS_cons                       .........<<<<<<<<<...>>>>>>>>>........<<<<<<<.....
+#=GC RF                            AuAAcGUGAuGGGaaGCGgcuCGCuuCCCgUGUAUGAUuGaaCCCGcAUG
+
+E.coli.1                           GCUCCCGAAACAUUGAGGGAAGCGUUGAGGGUUCAUUUUUAU
+Klebsiella_pneumonia.1             ...CGGGCGCGAGGCGCCG.........GGGUUCAUUUUUGU
+Salmonella_enterica_.1             GCUCCCGGUUCGUUCGGGGAAGCGCUGAGGGUUCAUUUUUAU
+marine_metag.1                     GCUCCCGUAUCGCUCGGGGAAGCGCUGAGGGUUCAUUUUUAU
+#=GC SS_cons                       ...<<<..........>>>.........>>>>>>>.......
+#=GC RF                            GcUCCCGaaacaUUgaGGGAAGcGuUGAGGGuuCaUUUUUAU
+//

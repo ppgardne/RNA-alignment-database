@@ -1,0 +1,79 @@
+# STOCKHOLM 1.0
+#=GF ID    msr
+#=GF AC    RF00170
+#=GF DE    Retron msr RNA
+#=GF AU    Griffiths-Jones SR
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    24.2
+#=GF SE    Griffiths-Jones SR
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    12892895
+#=GF RT    msDNA-St85, a multicopy single-stranded DNA isolated from Salmonella
+#=GF RT    enterica serovar Typhimurium LT2 with the genomic analysis of its
+#=GF RT    retron.
+#=GF RA    Ahmed AM, Shimamoto T;
+#=GF RL    FEMS Microbiol Lett 2003;224:291-297.
+#=GF RN    [2]
+#=GF RM    12459273
+#=GF RT    A partial copy of msDNA from a new retron element is likely a
+#=GF RT    retrotransposed DNA found in the myxobacterium Nannocystis exedens.
+#=GF RA    Lampson BC, Xu C, Rice SA, Inouye S;
+#=GF RL    Gene 2002;299:251-261.
+#=GF CC    Retron elements are found in a wide range of mainly Gram-negative 
+#=GF CC    bacteria.  The retron encodes a reverse transcriptase that is 
+#=GF CC    responsible for the production of a small satellite DNA called msDNA
+#=GF CC    (multi-copy single-stranded DNA).  msDNA has both DNA (encoded by 
+#=GF CC    the retron msd gene) and RNA (encoded by the msr gene) components.
+#=GF CC    The 5' end of msDNA is linked to an internal guanosine residue of 
+#=GF CC    the RNA strand by a 2'-5' linkage.  The components of msDNA are 
+#=GF CC    poorly conserved in sequence between different organisms -- this
+#=GF CC    family therefore represents only a subset of known msr genes.
+#=GF CC    Despite considerable investigation, very little is known about the 
+#=GF CC    function of msDNA, the mobility of retron elements, or their effect
+#=GF CC    on the host cell.
+#=GF WK    http://en.wikipedia.org/wiki/Retron_msr_RNA
+#=GF SQ    10
+
+#=GS N.exedens.1            AC    AF427793.1/1040-1105
+#=GS E.coli.1               AC    U02551.1/12-76
+#=GS E.coli.2               AC    X62583.1/626-698
+#=GS E.coli.3               AC    X60206.1/2132-2205
+#=GS E.coli.4               AC    Z12832.1/542-622
+#=GS S.enterica.1           AC    AF261825.2/44164-44233
+#=GS Yersinia_frederiksen.1 AC    AALE01000059.1/1978-2046
+#=GS V.parahaemolyticus.1   AC    AB079134.1/692-757
+#=GS Vibrio_cholerae_2740.1 AC    AAUT01000053.1/25963-26033
+#=GS marine_metag.1         AC    AACY022254679.1/14-79
+
+N.exedens.1                        UGACAACGGCGAA....GGCCGAGCCU.......AGCAA...CCCGGGC.
+E.coli.1                           ACUCUUUAGCGUU....GGAC.............GGUUA.CGUCUAGUCG
+E.coli.2                           AAACUUUUUCGAUA...GCAUUAGCUG.......GUUACAGGUCUGGCG.
+E.coli.3                           CACCCUUAGCGAGA...GGUUUAUCAUUAA....GGUCAACCUCUGGAU.
+E.coli.4                           GCUCUUUAGCGUUUUAUGGAUUUACCACCUGAUUGGUCA.AAUCUAGUUG
+S.enterica.1                       ACUCUUUAGCGUUA...GGCUUUG..........AUUUAUAGCCUUGUCG
+Yersinia_frederiksen.1             GCUCUUUAGCGUAU...GGACGGU..........UUUUG.CGUCUAGUCG
+V.parahaemolyticus.1               GCUCUUUAGCUUA....GGACG............AAUUU.CGUCUAGUCG
+Vibrio_cholerae_2740.1             GCUCUUUAGCGAAU...GGACUACACA.......UAUUA..GUCUAGUCG
+marine_metag.1                     GCUCUUUAGCUUA....GGACG............AAAUC.CGUCUAGUCG
+#=GC SS_cons                       ..<<<<<<<....................................<<<<.
+#=GC RF                            aaaccUuAgCGauA...GGaUuAgCau.......GgUaA.agUCUgGuCG
+
+N.exedens.1                        GGCGGAUCGCC.GUCC...UUGCAACAAGCUCGUU
+E.coli.1                           GGUGAUUAGCCAGACUC..UAACUUAUUGAACGUA
+E.coli.2                           UGUGUUUCGCCAGGCCCAGUUGCCACGUAAU.GUG
+E.coli.3                           GUUGUUUCGGC.AUCCUGCAUUGAAUCUGAGUU..
+E.coli.4                           GGCGUUGCGCA.AACUC..UAAUUUAUUGAUUACA
+S.enterica.1                       AGCGUUUCGCCAGACAC..UAACUUAUUGAGUACU
+Yersinia_frederiksen.1             GGCGGUUAGCCAGACUC..UAACUUAUUGAGCACU
+V.parahaemolyticus.1               GGUGAUUAGCCAGACUC..UAACUUAUUGAACGGG
+Vibrio_cholerae_2740.1             GGCGUUUAGCCAGACUG..AAAUUUAUUGAACGAC
+marine_metag.1                     GGUGUUUAGCCAGACUC..UAAAUUAUUGAACGAC
+#=GC SS_cons                       <<<<...>>>>.>>>>..........>>>>>.>>.
+#=GC RF                            gGcGuUUCgCcAGaCcC..UuacaaacUgAguguu
+//

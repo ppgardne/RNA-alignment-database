@@ -1,0 +1,57 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-322
+#=GF AC    RF00737
+#=GF DE    microRNA mir-322
+#=GF AU    Wilkinson A
+#=GF GA    50.0
+#=GF NC    0.0
+#=GF TC    71.7
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000164
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    10
+
+#=GS L.africana.1    AC    AAGU02249221.1/801-884
+#=GS E.telfairi.1    AC    AAIY01107643.1/134-218
+#=GS O.cuniculus.1   AC    AAGW01455164.1/340-423
+#=GS C.porcellus.1   AC    AAKN02053360.1/159387-159470
+#=GS R.norvegicus.1  AC    AABR04016052.1/34691-34773
+#=GS P.troglodytes.1 AC    AADA01203598.1/1-80
+#=GS C.lupus.1       AC    AAEX02004019.1/2679-2762
+#=GS B.taurus.1      AC    AAFC03117779.1/30350-30433
+#=GS M.lucifugus.1   AC    AAPE01553004.1/700-783
+#=GS S.araneus.1     AC    AALT01307157.1/2319-2402
+
+L.africana.1                CGAGGGGAUGCAGCAGC.AAUUCAUGUUUUGGAGUGCUCUACAAGGUUCA
+E.telfairi.1                CGGGGGGAUGCAGCAGCAAAUUCAUGUUUUGGAGUGUUGUACAAAGUUCA
+O.cuniculus.1               CGAGGGGAUGCAGCAGC.AAUUCAUGUUUUGAAGUGCUAUGAUUCAUUCA
+C.porcellus.1               CGAGGGGAUGCAGCAGC.AAUUCAUGUUUUGAAGUAUUCUAAACUGUUCA
+R.norvegicus.1              CGAAGGGAUGCAGCAGC.AAUUCAUGUUUUGGAGUAUUGCCAA.GGUUCA
+P.troglodytes.1             ....GGGAUACAGCAGC.AAUUCAUGUUGUGAAGUGUUCUAAAUGGUUCA
+C.lupus.1                   CGAGGGGAUGCAGCAGC.AAUUCAUGUUUUGAAGUGCUUUAAAUGGUUCA
+B.taurus.1                  CGAGGGGAUGCAGCAGC.AAUUCAUGUUUUGAAGUGCUUUAAACGGUUCA
+M.lucifugus.1               CGAAGGGAUACAGCAGC.AAUUCAUGUUUUGAAGUGCUUUACAUAGUUCA
+S.araneus.1                 CGAGGGGAUGCAGCAGC.AAUUCAUGUUUUGAAGUGCUUUCAAAGAUUCA
+#=GC SS_cons                <<<<<<<.<<.<<<<<<...<<<<<<<<<<<<<.<<<.....>>>.>>>>
+#=GC RF                     cgaggggAugcagcagc.AAcucacguuuuggagcgcuguaagcggucca
+
+L.africana.1                AAACGUGAGGCGCUGCUAUACCCCCUCGCGGAGAA
+E.telfairi.1                AAACGUGAAGCGCUGCUACACCCCCUCGCGGGAAA
+O.cuniculus.1               AAACGUGAGGCGCUGCUAUACCCCCUCGCGGGGAA
+C.porcellus.1               AAACGUGAGGCGCUGCUAUACCCCCUCGUGGGAAA
+R.norvegicus.1              AAACAUGAAGCGCUGCAACACCCCUUCGUGGGAAA
+P.troglodytes.1             AAACGUGAGGCGCUGCUAUACCCCCUCGUGGGGAA
+C.lupus.1                   AAACGUGAGGCGCUGCUAUACCCCUUCGUGGGGAA
+B.taurus.1                  AAACGUGAGGCGCUGCUAUACCCCCUUGCGAGGAA
+M.lucifugus.1               AAACGUGAGGCGCUGCUAUACCCCCUCGAGGGGAA
+S.araneus.1                 AAACGUGAGGCGCUGCUAUACCCCUUUGGGGGGAA
+#=GC SS_cons                >>>>>>>>>..>>>>>>.>>.>>>>>>>.......
+#=GC RF                     aaacgugaggcgcugcuAcacccccucgugggaAA
+//

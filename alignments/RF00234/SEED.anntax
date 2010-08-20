@@ -1,0 +1,158 @@
+# STOCKHOLM 1.0
+#=GF ID    glmS
+#=GF AC    RF00234
+#=GF DE    glmS glucosamine-6-phosphate activated ribozyme
+#=GF AU    Winkler WC, Nahvi A, Roth A, Collins JA, Barrick JE, Breaker RR
+#=GF GA    23.0
+#=GF NC    17.0
+#=GF TC    25.8
+#=GF SE    Barrick JE, Breaker RR
+#=GF SS    Published; PMID:15029187
+#=GF TP    Cis-reg; riboswitch;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000035 SO:riboswitch
+#=GF RN    [1]
+#=GF RM    15029187
+#=GF RT    Control of gene expression by a natural metabolite-responsive
+#=GF RT    ribozyme.
+#=GF RA    Winkler WC, Nahvi A, Roth A, Collins JA, Breaker RR;
+#=GF RL    Nature 2004;428:281-286.
+#=GF RN    [2]
+#=GF RM    16699515
+#=GF RT    Backbone and nucleobase contacts to glucosamine-6-phosphate in the
+#=GF RT    glmS ribozyme.
+#=GF RA    Jansen JA, McCarthy TJ, Soukup GA, Soukup JK;
+#=GF RL    Nat Struct Mol Biol. 2006;13:517-523.
+#=GF RN    [3]
+#=GF RM    16784238
+#=GF RT    Evidence for preorganization of the glmS ribozyme ligand binding
+#=GF RT    pocket.
+#=GF RA    Hampel KJ, Tinsley MM;
+#=GF RL    Biochemistry. 2006;45:7861-7871.
+#=GF CC    This entry contains a glucosamine-6-phosphate activated ribozyme
+#=GF CC    that is found in the mRNA for GlmS.  GlmS is an enzyme that uses
+#=GF CC    fructose-6-phosphate and glutamine to generate glucosamine-6-phosphate.
+#=GF CC    The ribozyme catalyses self cleavage of the glmS mRNA that is
+#=GF CC    thought to regulate GlmS activity [1]. 
+#=GF WK    http://en.wikipedia.org/wiki/glmS_glucosamine-6-phosphate_activated_ribozyme
+#=GF SQ    17
+
+#=GS Bacillus_licheniform.1 AC    AE017333.1/183152-183325
+#=GS B.subtilis.1           AC    AB006424.1/2989-3156
+#=GS Geobacillus_thermode.1 AC    CP000557.1/163698-163870
+#=GS Geobacillus_kaustoph.1 AC    BA000043.1/166978-167147
+#=GS L.innocua.1            AC    AL596166.1/50734-50929
+#=GS Listeria_welshimeri_.1 AC    AM263198.1/720655-720850
+#=GS Listeria_monocytogen.1 AC    AARQ02000011.1/391-585
+#=GS Listeria_monocytogen.2 AC    AE017262.2/770944-771139
+#=GS S.aureus.1             AC    AC078934.3/32405-32621
+#=GS S.epidermidis.1        AC    AF270378.1/2051-2268
+#=GS Staphylococcus_sapro.1 AC    AP008934.1/759374-759589
+#=GS Staphylococcus_haemo.1 AC    AP006716.1/888948-889158
+#=GS Clostridium_acetobut.1 AC    AE001437.1/179915-180075
+#=GS Thermoanaerobacter_p.1 AC    CP000924.1/498335-498489
+#=GS Thermoanaerobacter_t.1 AC    AE008691.1/2101448-2101605
+#=GS Enterococcus_faecali.1 AC    AE016830.1/2055313-2055460
+#=GS Lactobacillus_planta.1 AC    AL935254.1/94449-94600
+
+Bacillus_licheniform.1             UUUAUAGUUAUAGCGCCCGGACUAAGCGUA....................
+B.subtilis.1                       CCUAUAAUUAUAGCGCCCGAACUAAGCGCC....................
+Geobacillus_thermode.1             GACGACAAAAAAGCGCCUGGACUAAGCGCG....................
+Geobacillus_kaustoph.1             GACGAGACAAAAGCGCCUGGACUAAGCGUUGGA.................
+L.innocua.1                        AACUGAAUAGAAGCGCCAGAACUGAUUGGG....................
+Listeria_welshimeri_.1             AAUUAAAUAGAAGCGCCAGAACUGAUUGGG....................
+Listeria_monocytogen.1             AAUUGAAUAGAAGCGCCAGAACUGAUUGGG....................
+Listeria_monocytogen.2             AAUUAAAUAGAAGCGCCAGAACUGAUUGGG....................
+S.aureus.1                         AGUACAGUUAAAGCGCCUGUGCAAAUAAAUAUUUGUAUUUGAAGAUUAA.
+S.epidermidis.1                    UUAAUAAUUAAAGCGCCUGUGCAAAAUACCUAAAUAGUUAUCAAGUAUUA
+Staphylococcus_sapro.1             AGUUCAAUUAAAGCGCCUGUACAAGUGAAGAGGUUAUGUGUUUGUAAUUU
+Staphylococcus_haemo.1             AUAAAUUAUAAAGCGCCAGGGCAAAAU.AUAAGUGUACCUAUAAUCAAA.
+Clostridium_acetobut.1             AUUAUAGUUAAAGCGCCCGAACUUGAGUGA....................
+Thermoanaerobacter_p.1             AAAAUUUAAAAAGCGCCUGGGCUUAAAGUG....................
+Thermoanaerobacter_t.1             UUUAAUUUAGAAGCGCCUGGACUUAAAGCC....................
+Enterococcus_faecali.1             CAAUAUCGGAUAGCGCCAGACCUGAAC.......................
+Lactobacillus_planta.1             UAAAGCGGAAUAGCGCCAGGACUUUAG.......................
+#=GC SS_cons                       ...................<<<<<<<<.<.....................
+#=GC RF                            uauAaAaUaAAAGCGCCuGaaCuaaaagcc....................
+
+Bacillus_licheniform.1             ...CGGAUGA.............................AACA..GCUUA
+B.subtilis.1                       ...CGGAAAA..............................AG...GCUUA
+Geobacillus_thermode.1             ...GGAACG...........................GACGCGC..GCUUA
+Geobacillus_kaustoph.1             ...CGGAAGA...............................AC..GCUUA
+L.innocua.1                        ...ACGAAAAUGCU..UAAAGGUGAAAUUCCUGGAAAGUAAAC..AAUCA
+Listeria_welshimeri_.1             ...ACGAAAAUACU..UGAAGGUGAAAUUCCUGAAAAGUAAC...GGUCA
+Listeria_monocytogen.1             ...ACGAAAAUGC...UUGAAGGUGAAAUCCCUGAAAAGUAUC..GAUCA
+Listeria_monocytogen.2             ...ACGAAAAUACU..UGAAGGUGAAAUCCCUGAAAAGUAAAC..AGUCA
+S.aureus.1                         ...AGGUUAAUAUAUGAGUGGCCUUUAUAGAGUGCAAUAUAUG..UAUUU
+S.epidermidis.1                    AAAGUUAAAAUA....GUAGAACUUUUAUAGAUAACGAUUUGG..AUUUU
+Staphylococcus_sapro.1             A..AGGUUUAUA....ACAGAAAUCUUAAUAGACACGAUAAUCGAAGUUU
+Staphylococcus_haemo.1             ...AGUUAAAUA....UGAGAGCUUUUGUAGGGCAAUUUAUU...UCUUU
+Clostridium_acetobut.1             ...UAUAGU...............................UCA..UUUAA
+Thermoanaerobacter_p.1             ......UAU................................AC..UUUAA
+Thermoanaerobacter_t.1             ......UUAA..............................GGC..UUUAA
+Enterococcus_faecali.1             .............................................GUUCA
+Lactobacillus_planta.1             ......AAU....................................CUAAA
+#=GC SS_cons                       .........................................>...>>>>>
+#=GC RF                            ...aggAAAAUa....aaAggauuaaAuuaaaugAAAauaagg..uuuua
+
+Bacillus_licheniform.1             GUUGACGAGGAUGGAGGUUUAUCGA.AUUU..UCGGCGGAUG.CCUCCCG
+B.subtilis.1                       GUUGACGAGGAUGGAGG.UUAUCGA.AUU...UCG.CGGAU..CCUCCCG
+Geobacillus_thermode.1             GUUGACGAGGA.GGAGGUUUAUCGAGGUUU..UCGGCGGAUG.CCUCCCG
+Geobacillus_kaustoph.1             GUUGACGAGGA.GGAGGUUUAUCGAGGUUU..UCGGCGGAUG.CCUCCCG
+L.innocua.1                        GUUGACGAGGA.GGAGAUUAAUCGA.AAUU..UCGGCGGGAG.UCUCCCG
+Listeria_welshimeri_.1             GUUGACGAGGA.GGAGAUUAAUCGA.AAGU..UCGGCGGGAG.UCUCCCG
+Listeria_monocytogen.1             GUUGACGAGGA.GGAGAUUAAUCGA.AGUU..UCGGCGGGAG.UCUCCCG
+Listeria_monocytogen.2             GUUGACGAGGA.GGAGAUUAAUCGA.AGUU..UCGGCGGGAG.UCUCCCG
+S.aureus.1                         GUAGACGAGGA.GGAUAGUGAUCGAAUAGA..UCGGCGGAUGCUAUCCCG
+S.epidermidis.1                    GUAGACGAGGA.GGAUAGUGAUCGA.AUCAGAUCGGCGGAUGCUAUCCCG
+Staphylococcus_sapro.1             GUAGACGAGGA.GGGUAGUUAUCGA.ACCA..UCGGCGGAUGCUAUCCCG
+Staphylococcus_haemo.1             GCAGACGAGGA.GAAUAGUCAUCGAAAAUA..UCGGCGGAUGCUAUUCCG
+Clostridium_acetobut.1             GUUGACGAGGA.UGGGGAGAAUCGA.AUCU..UCGGCGGAUG.CCCCACG
+Thermoanaerobacter_p.1             GCUGACGAGGA.CAGGGUUUAUCGA.GUUA..UCGGCGGGUG.CCCUGCG
+Thermoanaerobacter_t.1             GUUGACGAGGG.CAGGGUUUAUCGA.GACA..UCGGCGGGUG.CCCUGCG
+Enterococcus_faecali.1             GGUGACGAGGAGAGAGC.UUAUCGA.AGAU..UCGGCGGGUG.GCUCUAG
+Lactobacillus_planta.1             GUUGACGAGGAUGACGU.UUAUCGA.UAA...UCGACGGGUG.ACGUCAG
+#=GC SS_cons                       >>>.........<<<<<....<<<<.......>>>>.......>>>>><<
+#=GC RF                            GuuGACGAGGA.Ggagg.UuAuCGA.aAuA..UCGgCGGgUG.ccucCCG
+
+Bacillus_licheniform.1             GCUGACCUCAAAGAUCACAGCCGCAAG.GAUUUCC.UCAAACCAAAGAGG
+B.subtilis.1                       GCUGAGUGUGCAGAUCACAGCCGUAAG.AAUUUCU.UCAAACCAAGGGGG
+Geobacillus_thermode.1             GCUGGA.GCGAUG...ACAGCCGCAA..GUCCUCUCUUAAAACAAAGGGG
+Geobacillus_kaustoph.1             GCUGGA.GCGAUG...ACAGCCGCAAGUCCUCUC..UUAAAACAAAGGGG
+L.innocua.1                        GCUG...UGCAUG....CAGUCGUUAAGUCUUACUUACAAAUCAUUUGGG
+Listeria_welshimeri_.1             GCUGU..AGCAUG....CAGUCGUUAAGUCUUACUUACAAAACAUUUGGG
+Listeria_monocytogen.1             GCUG...UGCAUG....CAGUCGUUAAGUCUUACUUACAAAUCAUUUGGG
+Listeria_monocytogen.2             GCUG...UGCAUG....CAGUCGUUAAGUCUUACUUACAAAUCACUUGGG
+S.aureus.1                         GAUG...UGGCU.....CAUUCGUUAG.CUUAUUAAGUAAAACAUUAGGG
+S.epidermidis.1                    GAUG...UGGCA.....CAUUCGUUAG.CUUAUUAAGUAAAUCAUUAAGG
+Staphylococcus_sapro.1             GAUG...UGGCU.....CAUUCGUUAA.CUUAUUAAGGAAAACAUUAGGG
+Staphylococcus_haemo.1             GAUG...AGGCU.....CAUUCGUUAG.CUUAUUAUUUAAAACAUUUAGG
+Clostridium_acetobut.1             GUA....CCGCA.....CUACCGUUAG.CGGUUG..GUAAAAGCAGAAAG
+Thermoanaerobacter_p.1             GUU.....UCCUG....CGACCGAUAAAGGACUG..GUAAAA.CCACAGG
+Thermoanaerobacter_t.1             GUC....UUCCUG....CGACCGUUAGAGGACUG..GUAAAA.CCACAGG
+Enterococcus_faecali.1             GG.....ACUGCA......CUCUACA..GAUAACAAAGAAAAACUAAUUG
+Lactobacillus_planta.1             GG.....ACUGCA......CUCUACA..GGUCAAUUACAAAAACCGACUG
+#=GC SS_cons                       <<<<.............>>>>>>.....<<<<<<<.......<<<<<<<.
+#=GC RF                            gcuG...uggcug....CagcCGUuAG.ggucucuaauAAAaCacgagGG
+
+Bacillus_licheniform.1             CGACUCUUUGAACAAAG..GGAAAUUGCAUGAUCUU
+B.subtilis.1                       UGACUCCUUGAACAAAG..AGAAAUCACAUGAUCUU
+Geobacillus_thermode.1             UGACCCUUUGGACAAAG.GGGAGGAUGUCAUCGCAC
+Geobacillus_kaustoph.1             UGACCCUUUGCACAAAG...GGGAGGAUGUCAUCGC
+L.innocua.1                        UGACCAAGUGGACAGAG.UAGUAAUGAAACAUGUGC
+Listeria_welshimeri_.1             UGACCAAAUGGACAGAG.UAGUAAUGAAAUAUGUGU
+Listeria_monocytogen.1             UGACCAAGUGGACAGAG.UAGUAAUGAAACAUGCUU
+Listeria_monocytogen.2             UGACCAAGUGGACAGAG.UAGUAAUGAAACAUGUUU
+S.aureus.1                         UGACUUAAUGGACAAAG.UUAAUAAGAUCGCCAGAA
+S.epidermidis.1                    UGACUUAGUGGACAAAG.UUAAUAAGAUCGCCAAAC
+Staphylococcus_sapro.1             UAACCUGGUGCACAAAG.UUAAUAAGAUAGCCAAAA
+Staphylococcus_haemo.1             UAACUAAAUGCACAAAA.AUAAUAAGAAUGCCUAAA
+Clostridium_acetobut.1             UGAUUUCUGUCACAAAG.C.CAAUCUGGUGUUAAAA
+Thermoanaerobacter_p.1             CGACUGUGG.CAUAGAG...CAGUCUGGGCAGGGAG
+Thermoanaerobacter_t.1             CGACUGUGG.CAUAGAG...CAGUCCGGGCAGGAAA
+Enterococcus_faecali.1             UGAAGUUAG.AACAAAG.CGGUUAUCACGCAGGUAG
+Lactobacillus_planta.1             UGAGGUUGGUGACAGAUAUAUUGACCACGCAGCUAG
+#=GC SS_cons                       ...>>>>>>>.........>>>>>>>..........
+#=GC RF                            UGACcucguGgACAgAG.UagagaccAuacaaaaAa
+//

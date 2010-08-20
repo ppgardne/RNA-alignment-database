@@ -1,0 +1,50 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-50
+#=GF AC    RF00824
+#=GF DE    microRNA mir-50
+#=GF AU    Wilkinson A
+#=GF GA    30.0
+#=GF NC    0.0
+#=GF TC    50.8
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000266
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    5
+
+#=GS C.remanei.1  AC    AAGD02001051.1/27516-27617
+#=GS C.brenneri.1 AC    ABEG01020864.1/20077-20176
+#=GS C.briggsae.1 AC    CAAC02000589.1/893157-893260
+#=GS C.elegans.1  AC    AC025726.2/98206-98306
+#=GS B.malayi.1   AC    AAQA01001434.1/1718-1796
+
+C.remanei.1              ACCCACCCCCUGGCCGCUGAUAUGUCUGGUAUUCUUGGGU..UCGAUACU
+C.brenneri.1             UCUCACCCACCGGCCGCUGAUAUGUCUGGUAUUCUUGGGU...UCA.UUC
+C.briggsae.1             UUCCACCCACCGGCCGCUGAUAUGUCUGAUAUUCUUGGGUUAUCUG.AUA
+C.elegans.1              UCCUGCCCGCCGGCCGCUGAUAUGUCUGGUAUUCUUGGGU..UUGA.ACU
+B.malayi.1               AUGCAGUG........UUGAUAUGUCUGAUAUUCUUGGGUUGU.......
+#=GC SS_cons             ..<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<...<<<<<..<<......
+#=GC RF                  uuccgcccgccGGccGccGauacGucugguacucucGgGuuAucua.Aua
+
+C.remanei.1              CUGAAAAACG.AACCAAAGUAGCAGACGUAUCGACGGCCGG.GAGGGUGG
+C.brenneri.1             CUUACUCUGA..ACCAGUUUAUUAGACGUAUCGACGGCCGGAUCGGGUGA
+C.briggsae.1             AUGAUUGUUGUAACUCAAGUAUUAGACGUAUCGACGGCCGG.CUGGGUUG
+C.elegans.1              UCCAGCGUUG.AACCCGCAUAUUAGACGUAUCGACGGCCGG.CGGGGCAG
+B.malayi.1               .GCAAAGUC..AACCAGCAUCUCAGACGUAUCGG.........CCACUGU
+#=GC SS_cons             .........>.>>>>>>.>>>>>>>>>>>>>>>>>>>>>>>.>.>>>>>>
+#=GC RF                  auaAuuguuguaaCcCgaguaccagaCguauCggCggCCgg.cugggcgg
+
+C.remanei.1              GAAUUU
+C.brenneri.1             GAAUUU
+C.briggsae.1             GAAUCA
+C.elegans.1              GUAAUG
+B.malayi.1               GUAUUG
+#=GC SS_cons             ......
+#=GC RF                  gaAAug
+//

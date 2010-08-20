@@ -1,0 +1,70 @@
+# STOCKHOLM 1.0
+#=GF ID    HIV-1_SL4
+#=GF AC    RF01382
+#=GF DE    HIV-1 stem-loop 4 packaging signal
+#=GF AU    Chen A, Brown C, Daub J
+#=GF GA    22.0
+#=GF NC    20.8
+#=GF TC    22.1
+#=GF SE    Chen A
+#=GF SS    Published; PMID:18713870
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    18713870
+#=GF RT    MS3D structural elucidation of the HIV-1 packaging signal.
+#=GF RA    Yu ET, Hawkins A, Eaton J, Fabris D;
+#=GF RL    Proc Natl Acad Sci U S A. 2008;105:12248-12253.
+#=GF WK    http://en.wikipedia.org/wiki/Human_immunodeficiency_virus_type_1_stem-loop_4_packaging_signal
+#=GF SQ    22
+
+#=GS Human_immunodeficien.1  AC    DQ396394.1/226-245
+#=GS Human_immunodeficien.2  AC    AY169803.1/272-291
+#=GS Human_immunodeficien.3  AC    AY314167.1/3-22
+#=GS Simian_immunodeficie.1  AC    EF394357.1/353-372
+#=GS Human_immunodeficien.4  AC    AF538306.1/790-809
+#=GS Human_immunodeficien.5  AC    M22639.1/791-810
+#=GS Human_immunodeficien.6  AC    M38429.1/791-810
+#=GS Simian_immunodeficie.2  AC    DQ373064.1/337-356
+#=GS Human_immunodeficien.7  AC    AY290899.1/1-19
+#=GS Human_immunodeficien.8  AC    AF418366.1/2-21
+#=GS Human_immunodeficien.9  AC    AY134942.1/2-21
+#=GS Human_immunodeficien.10 AC    EU047601.1/21-40
+#=GS Human_immunodeficien.11 AC    AJ251056.1/3-22
+#=GS Human_immunodeficien.12 AC    K03455.1/791-810
+#=GS Human_immunodeficien.13 AC    AY169805.1/239-258
+#=GS Human_immunodeficien.14 AC    K03454.1/337-356
+#=GS Human_immunodeficien.15 AC    AY887091.1/1-20
+#=GS Human_immunodeficien.16 AC    AF533139.1/2-21
+#=GS Simian_immunodeficie.3  AC    AF382828.1/9328-9347
+#=GS Human_immunodeficien.17 AC    M62320.1/258-277
+#=GS Human_immunodeficien.18 AC    X04415.1/351-370
+#=GS Human_immunodeficien.19 AC    AY803377.1/2-21
+
+Human_immunodeficien.1              UGGGUGCGAGAGCGUCAAUA
+Human_immunodeficien.2              UGGGUGCGAGAGCGUCUGUG
+Human_immunodeficien.3              GGGUUGCGAGAGCGUCAGUA
+Simian_immunodeficie.1              UGGGUGCGAGAGCGUCAGUG
+Human_immunodeficien.4              UGGGUGCGAGAGCGUCGCUC
+Human_immunodeficien.5              UGGGUGCGAGAGCGUCAGUA
+Human_immunodeficien.6              UGGGUGCGAGAGCGUCAGUA
+Simian_immunodeficie.2              UGGGUGCGAGAGCGUCAAUC
+Human_immunodeficien.7              .GGGUGCGAGAGCGUCAGUA
+Human_immunodeficien.8              UGGGUGCGAGAGCGUCAGUU
+Human_immunodeficien.9              UGGGUGCGAGAGCGUCAGAA
+Human_immunodeficien.10             UAGGUGCGAGAGCGUCAGUA
+Human_immunodeficien.11             AGGGUGCGAGAGCGUCAGUG
+Human_immunodeficien.12             UGGGUGCGAGAGCGUCAGUA
+Human_immunodeficien.13             UGGGUGCGAGUGCGUCAGUG
+Human_immunodeficien.14             UGGGUGCGAGAGCGUCAGUA
+Human_immunodeficien.15             AUGGUGCGAGAGCGUCAGUA
+Human_immunodeficien.16             UGGGUGCGAGAGCGUCACGG
+Simian_immunodeficie.3              UGGGUGCGAGAGCGUCUAUA
+Human_immunodeficien.17             UGGGUGCGAGAGCGUCAGUA
+Human_immunodeficien.18             UGGGUGCGAGAGCGUCAGUA
+Human_immunodeficien.19             UGGGUGCGAGAGCGUCAAAU
+#=GC SS_cons                        ..<<<<<....>>>>>....
+#=GC RF                             uGGgcGCGAGAGCgcCAgua
+//

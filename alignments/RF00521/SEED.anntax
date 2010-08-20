@@ -1,0 +1,161 @@
+# STOCKHOLM 1.0
+#=GF ID    SAM_alpha
+#=GF AC    RF00521
+#=GF DE    SAM riboswitch (alpha-proteobacteria)
+#=GF AU    Barrick JE, Corbino KA, Breaker RR
+#=GF GA    26.0
+#=GF NC    25.0
+#=GF TC    28.7
+#=GF SE    Barrick JE
+#=GF SS    Predicted; Barrick JE
+#=GF TP    Cis-reg; riboswitch;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0000035 SO:riboswitch
+#=GF DR    GO:0045814 GO:negative regulation of gene expression, epigenetic
+#=GF RN    [1]
+#=GF RM    16086852
+#=GF RT    Evidence for a second class of S-adenosylmethionine riboswitches and
+#=GF RT    other regulatory RNA motifs in alpha-proteobacteria.
+#=GF RA    Corbino KA, Barrick JE, Lim J, Welz R, Tucker BJ, Puskarz I, Mandal
+#=GF RA    M, Rudnick ND, Breaker RR;
+#=GF RL    Genome Biol. 2005;6:R70.
+#=GF CC    This family is a riboswitch found predominantly in
+#=GF CC    alpha-proteobacteria that binds S-adenosyl methionine (SAM). Its
+#=GF CC    structure and sequence appear to be unrelated to the SAM
+#=GF CC    riboswitch Rfam:RF00162 found in Gram-positive bacteria.  This
+#=GF CC    SAM riboswitch is located upstream of the metA and metC genes in
+#=GF CC    Agrobacterium tumefaciens, and other methionine and SAM
+#=GF CC    biosynthesis genes in other alpha-proteobacteria.  Like the other
+#=GF CC    SAM riboswitch, it probably functions to turn off expression of
+#=GF CC    these genes in response to elevated SAM levels.
+#=GF WK    http://en.wikipedia.org/wiki/SAM_riboswitch_(alpha-proteobacteria)
+#=GF SQ    40
+
+#=GS Aurantimonas.1         AC    AAPJ01000002.1/433409-433486
+#=GS Fulvimarina_pelagi_H.1 AC    AATP01000002.1/342466-342543
+#=GS Bradyrhizobium_japon.1 AC    BA000040.2/1515209-1515288
+#=GS Bradyrhizobium.1       AC    CU234118.1/6715169-6715248
+#=GS Bradyrhizobium.2       AC    CP000494.1/790361-790440
+#=GS Nitrobacter_winograd.1 AC    CP000115.1/164739-164818
+#=GS Nitrobacter.1          AC    AAMY01000002.1/143710-143789
+#=GS Nitrobacter_hamburge.1 AC    CP000319.1/239336-239415
+#=GS Rhodopseudomonas_pal.1 AC    CP000301.1/5473167-5473246
+#=GS Rhodopseudomonas_pal.2 AC    BX572607.1/122549-122628
+#=GS Rhodopseudomonas_pal.3 AC    CP000283.1/4563880-4563959
+#=GS Rhodopseudomonas_pal.4 AC    CP000250.1/4839098-4839177
+#=GS Rhodopseudomonas_pal.5 AC    CP000463.1/5459740-5459819
+#=GS Rhodopseudomonas_pal.6 AC    BX572608.1/148770-148849
+#=GS Ochrobactrum_anthrop.1 AC    CP000758.1/425394-425473
+#=GS Mesorhizobium_loti_M.1 AC    BA000012.4/2853663-2853740
+#=GS Mesorhizobium.1        AC    CP000390.1/128049-128127
+#=GS Parvibaculum_lavamen.1 AC    CP000774.1/443012-443091
+#=GS Agrobacterium_tumefa.1 AC    AE007869.2/2703451-2703527
+#=GS Agrobacterium_tumefa.2 AC    AE007869.2/429356-429434
+#=GS Rhizobium_etli_CFN_4.1 AC    CP000133.1/4272024-4272101
+#=GS Rhizobium_leguminosa.1 AC    AM236080.1/4895351-4895428
+#=GS R.etli.1               AC    AJ012295.1/100-178
+#=GS Rhizobium.1            AC    CP001389.1/177071-177149
+#=GS Sinorhizobium_medica.1 AC    CP000738.1/3178367-3178444
+#=GS Sinorhizobium_melilo.1 AC    AL591688.1/3461766-3461843
+#=GS Xanthobacter_autotro.1 AC    CP000781.1/516281-516361
+#=GS Rhodobacterales_bact.1 AC    AAMT01000001.1/270050-270128
+#=GS Hyphomonas_neptunium.1 AC    CP000158.1/3446417-3446494
+#=GS Dinoroseobacter_shib.1 AC    CP000830.1/2546702-2546778
+#=GS Labrenzia_aggregata_.1 AC    AAUW01000005.1/136978-137057
+#=GS Rhodobacter_sphaeroi.1 AC    CP000661.1/637462-637539
+#=GS Rhodobacter_sphaeroi.2 AC    CP000577.1/522526-522602
+#=GS Roseovarius.1          AC    ABCL01000002.1/530642-530718
+#=GS Roseovarius.2          AC    AAMV01000014.1/88291-88367
+#=GS Gluconobacter_oxydan.1 AC    CP000009.1/1829537-1829616
+#=GS Granulibacter_bethes.1 AC    CP000394.1/99022-99101
+#=GS Magnetospirillum_mag.1 AC    AP007255.1/4636197-4636275
+#=GS M.magnetotacticum.1    AC    AAAP01003864.1/43108-43186
+#=GS Rhodospirillum_rubru.1 AC    CP000230.1/3707042-3707118
+
+Aurantimonas.1                     CAAAGCAGAAGUGGUG.AUUUGGCC.GGCCGGCUUGCA.GCCACGUUAAA
+Fulvimarina_pelagi_H.1             GCAAAGGACAGUGGUG.AUUUGGCC.GGCCGGCUUGCA.GCCACGUUAAA
+Bradyrhizobium_japon.1             UGCCUGUUCCGUGGUC.AUUUGAGCCGGCCGGCUUGCA.GCCACGUUAAA
+Bradyrhizobium.1                   UGCCCGUUCCGUGGUC.AUUUGAGCCGGCCGGCUUGCA.GCCACGUUAAA
+Bradyrhizobium.2                   CACUUAUCCCGUGGUG.AUUUGAGCCGGCCGGCUUGCA.GCCACGUUAAA
+Nitrobacter_winograd.1             UACGUCUCCCGUGGUG.AUUUGAGCCGGCCGGCUUGCA.GCCACGUUAAA
+Nitrobacter.1                      GACGCGCUCCGUGGUG.AUUUGAGCCGGCCGGCUUGCA.GCCACGUUAAA
+Nitrobacter_hamburge.1             GACCUGUCCCGUGGUG.AUUUGAGCCGGCCGGCUUGCA.GCCACGUUAAA
+Rhodopseudomonas_pal.1             GACUUAUCCCGUGGUG.AUUUGAGCCGGCCGGCUUGCA.GCCACGUUAAA
+Rhodopseudomonas_pal.2             ACCAGAACUCGUGGUC.AUUUGAGCCGGCCGGCUUGCA.GCCACGUUAAA
+Rhodopseudomonas_pal.3             CCGCGAUCCCGUGGUC.AUUUGAGCCGGCCGGCUUGCA.GCCACGUUAAA
+Rhodopseudomonas_pal.4             GCCAGAUCCCGUGGUC.AUUUGAGCCGGCCGGCUUGCA.GCCACGUUAAA
+Rhodopseudomonas_pal.5             AACUUAUCCCGUGGUG.AUUUGAGCCGGCCGGCUUGCA.GCCACGUUAAA
+Rhodopseudomonas_pal.6             GACUUAUCCCGUGGUG.AUUUGAGCCGGCCGGCUUGCA.GCCACGUUAAA
+Ochrobactrum_anthrop.1             AAUGUGUUCCGUGGUG.AUUUGGCC.GGCCGGCUUGCA.GCCACGUUAAA
+Mesorhizobium_loti_M.1             CAACAGUUCCGUGGUG.AUUUGGCC.GGUCGGCUUGCA.GCCACGUUAAA
+Mesorhizobium.1                    CUUUAUCCCCGUGGUG.AUUUGGCC.GGUCGGCUUGCA.GCCACGUUAAA
+Parvibaculum_lavamen.1             GCCCGAACUCGUGGUG.AUUUGAGCCGACCGGCUUGCG.GCCACGUUAAA
+Agrobacterium_tumefa.1             AAACGCCUCAGUGGUG.AUUUGCC..GACCGGCUUGCA.GCCACUUUAAA
+Agrobacterium_tumefa.2             AGCUUAUCCCGUGGUG.AUUUGGCC.GGUCGGCUUGCA.GCCACGUUAAA
+Rhizobium_etli_CFN_4.1             AAGGCACUCCGUGGUG.AUUUGGCC.GGCCGGCUUGCA.GCCACGUUAAA
+Rhizobium_leguminosa.1             UAAGGCCUCCGUGGUG.AUUUGGCC.GGCCGGCUUGCA.GCCACGUUAAA
+R.etli.1                           GAAUUAUCCCGUGGUG.AUUUGGCC.GGUCGGCUUGCA.GCCACGUUAAA
+Rhizobium.1                        GCUUUAUCCCGUGGUG.AUUUGGCC.GGUCGGCUUGCA.GCCACGUUAAA
+Sinorhizobium_medica.1             CAAACAAUCCGUGGUG.AUUUGGCC.GGCCGGCUUGCA.GCCACGUUAAA
+Sinorhizobium_melilo.1             CAAAUGAUCCGUGGUG.AUUUGGCC.GGCCGGCUUGCA.GCCACGUUAAA
+Xanthobacter_autotro.1             CCGCUCACUCGUGGUGAAUUUGAGCCGGCCCGCUUGCA.GCCACGUUAAA
+Rhodobacterales_bact.1             CGCGAUUGCCGUGGCG.AUUUGUC..UUCCGGAUUGCGGGCCACGUUAAU
+Hyphomonas_neptunium.1             AUCCUCGUCCGUGGUG.AUUUGGCC.GGCCGGCUUGCA.GCCACGUUAAA
+Dinoroseobacter_shib.1             CCGCGACACCGUGGUG.AUUUGGU...GCCGGAUUGCAGGCCACGUAAAA
+Labrenzia_aggregata_.1             GGCGCACUUCGUGGUG.AUUUGGGCCGGCCGGCUUGCA.GCCACGUUAAA
+Rhodobacter_sphaeroi.1             GCCGGGCCUCGUGGUG.CUUUGUU...GCCGGAUUGCGGGCCACGUUAAA
+Rhodobacter_sphaeroi.2             GGCAAAUGCCGUGGUG.CUUUGU....GCCGGAUUGCGGGCCACGUUAAA
+Roseovarius.1                      AGUCGCAACCGUGGCG.AUUUGUU...ACCGGAUUGCGGGCCACGUUAAA
+Roseovarius.2                      AUGCGCGACUGUGGCG.AUUUGUU...ACCGGAUUGCGGGCCACGUUAAA
+Gluconobacter_oxydan.1             GUGCCUGACCCUCGUG.AUUUGAGC.GGCCGGCUUGCG.GCGAGGCUAAA
+Granulibacter_bethes.1             AGUCCUCUCCCUCGCG.AUUUGUCC.GGCCAGCUUGCG.GCGAGGUUAAA
+Magnetospirillum_mag.1             GACUCGAAGCGUGGUG.AUUUGUCC.GACCGGAUUGCG.GCCACGUAAAA
+M.magnetotacticum.1                GUCUUGGUCCGUGGUG.AUUUGUCC.GACCGGAUUGCG.GCCACGUUAAA
+Rhodospirillum_rubru.1             CCCCAGAUUCGUGGGG.AUUUGAG...ACCGGCUUGCG.CCCACGUUAAA
+#=GC SS_cons                       .........<<<<<<........................>>>>>>.....
+#=GC RF                            aaaaaauucCGUGGuG.AUUUGacC.GGCCGGcUUGCA.gCCACGUUAAA
+
+Aurantimonas.1                     GAAGU.CGCUAAAG..GGCCGUU.CUGACGAUAUG
+Fulvimarina_pelagi_H.1             CAACU.CGCUAAAG..GGCCGAU.CCGAUCGUGGA
+Bradyrhizobium_japon.1             AAACU.CGCUAAAC.AGGCCGGG.GACGCUUCCGA
+Bradyrhizobium.1                   AAACU.CGCUAAAC.AGGCCGGG.GACGUUAUCGA
+Bradyrhizobium.2                   UAAGU.CGCUAAAC.AGGCCGGG.GACGAAUGUGA
+Nitrobacter_winograd.1             CAAGU.CGCUAAAC.AGGCCGGG.GACAAUGUGAU
+Nitrobacter.1                      CAAGU.CGCUAAAC.AGGCCGGG.GACAGCGCGAU
+Nitrobacter_hamburge.1             UAAGU.UGCUAAAC.AGGCCGGG.GACAAUGUGAU
+Rhodopseudomonas_pal.1             UAAAU.CGCUAAAC.AGGCCGGG.GACAGUGUGAU
+Rhodopseudomonas_pal.2             CAACU.CGCUAAAC.AGGCCGGG.GACAGUUCCGA
+Rhodopseudomonas_pal.3             CAAUU.CGCUAAAC.AGGCCGGG.GAUAGUUUCGA
+Rhodopseudomonas_pal.4             CAACU.CGCUAAAC.AGGCCGGG.GACAGUUUCUG
+Rhodopseudomonas_pal.5             UAAAU.CGCUAAAC.AGGCCGGG.GAUAUGUGUCC
+Rhodopseudomonas_pal.6             CAAGU.CGCUAAAC.AGGCCGGG.GACGUUGUGGU
+Ochrobactrum_anthrop.1             GAAUU.CGCUAAAAAAGGCCGCG.GUUCGUUACCG
+Mesorhizobium_loti_M.1             CAAUU.CGCUAAAG..GGCCGUU.UGCGUGACGUA
+Mesorhizobium.1                    GAAGU.CGCUAAAA.AGGCCGUG.CUCGAAGCUCG
+Parvibaculum_lavamen.1             UAAUU.CGCUAAAA.AGGUCGGG.ACGCGAGCCCC
+Agrobacterium_tumefa.1             GAAGU.CGCUAAAG..GGUCGAG.GAAAAGGGCAA
+Agrobacterium_tumefa.2             CAAGU.GGCUAAAA.AGACCGGG.UGCUAGGAACC
+Rhizobium_etli_CFN_4.1             AAAGU.CGCUAAAG..GGCCGCG.UGCGGACCGGU
+Rhizobium_leguminosa.1             AAAGU.CGCUAAAG..GGCCGCG.UGCGGACCGGU
+R.etli.1                           CAAGU.GGCUAAAA.AGACCGGG.UUGAAACCGGU
+Rhizobium.1                        CAAGU.AGCUAAAA.AGGCCGGGUGUCAAACCGG.
+Sinorhizobium_medica.1             GAAGU.CGCUAAAG..GGCCGAG.GGAACGAUAGA
+Sinorhizobium_melilo.1             GAAGU.CGCUAAAG..GGCCGAG.GGAACAAUGGA
+Xanthobacter_autotro.1             CAACCUUGCUAAAA..GGCCGGG.GACGAACAGAC
+Rhodobacterales_bact.1             CACUC.CGCUAAAG.AGGUCUGG.GACGAUGAACG
+Hyphomonas_neptunium.1             CAAGU.CGCUAAAG..GGCCGAG.AUGCAGGAAAC
+Dinoroseobacter_shib.1             CACGC.UGCUAAAA..GGACGCG.GAACCCCCGAG
+Labrenzia_aggregata_.1             CAAGU.UGCUAAAA.AGGCCGGA.GGUGAGAACCC
+Rhodobacter_sphaeroi.1             GAAGC.CGCUAAAG.AGGCGAGG.GCGCACAGCCC
+Rhodobacter_sphaeroi.2             GAAAC.CGCUAAAG.AGGCGAGG.GCCCGCCGCCC
+Roseovarius.1                      CAAAC.CGCUAAAA..GGUCAGG.AUGAAAGGCCC
+Roseovarius.2                      CAAAC.CGCUAAAA..GGUCAGG.AUGAAAGGCCC
+Gluconobacter_oxydan.1             GAACUGCGCUAAAG.AGGCCCUG.CGUCGUUAUCG
+Granulibacter_bethes.1             UAAUCGCGCUAAAG.AGGCCUGG.GGAGCGUUGUU
+Magnetospirillum_mag.1             CAUCC.CGCUAAAG.AGGUCCGA.GCGCUCCGCCA
+M.magnetotacticum.1                CAUCC.CGCUAAAG.AGGUCCGA.GCGCUCCGCUA
+Rhodospirillum_rubru.1             CAAAC.AGCUAAAA.GGGUCGUG.UGACGAAAGUC
+#=GC SS_cons                       ...................................
+#=GC RF                            cAAgu.cGCUAAAa.AGGcCGgG.gaaaaaaaaaa
+//

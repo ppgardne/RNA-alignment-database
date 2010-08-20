@@ -1,0 +1,48 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-458
+#=GF AC    RF00750
+#=GF DE    microRNA mir-458
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    74.6
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000179
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    7
+
+#=GS O.latipes.1            AC    BAAF04063537.1/2085-2161
+#=GS Gasterosteus_aculeat.1 AC    AANH01006599.1/90129-90205
+#=GS T.rubripes.1           AC    CAAB01001761.1/10078-10153
+#=GS T.nigroviridis.1       AC    CAAE01013759.1/80040-80116
+#=GS D.rerio.1              AC    BX322629.8/12494-12571
+#=GS G.gallus.1             AC    AADN02066998.1/215-292
+#=GS A.carolinensis.1       AC    AAWZ01000609.1/9228-9305
+
+O.latipes.1                        CUGCAGACUCCAGCGCCAUUUUCAGAGCUAUAAGUGUGAAGU.GAUGAUA
+Gasterosteus_aculeat.1             GUGUGGACGGCAGCGCCAUUUUCAGAGCUAUAAGUGUGAAGU.GGUCAUA
+T.rubripes.1                       CUGCAGACAGCAGCGCCAUUUUCAGAGCUAUCAGU..CAACGUGGUCAUA
+T.nigroviridis.1                   GUGCAGACGGCAGCGCCAUUUUCAGAGCUAUCAGUGCCAGCG.GGUCAUA
+D.rerio.1                          GUGCAGAUAGCAGCGCCAUUUACAGAGCUAUAAGCAUCAUAGUUGUCAUA
+G.gallus.1                         GUGCAGAUGGCAGCGCCAUUUUCAGAGCUAUAAACAGCGUCAUUGUCAUA
+A.carolinensis.1                   GUGCAGAUGGCAGCGCCAUUUUUGGAGCUAUAAACACUCUCACUGUCAUA
+#=GC SS_cons                       <<<<..<<<<<<<.<<<<<<<..<<<<<<<<................>>>
+#=GC RF                            gugcAGacgGCaGcgCCauuuucaGaGCuauAAguauaAaaauggucaua
+
+O.latipes.1                        GCUCUUUCAAUGGUACUGCAGUAAGCAU
+Gasterosteus_aculeat.1             GCUCUUUAAAUGGUACUGCCGUGUGCAC
+T.rubripes.1                       GCUCUUUAAAUGGUACUGCUGUAGGCAC
+T.nigroviridis.1                   GCUCUUUAAAUGGUUCUGCUGUAGGCAC
+D.rerio.1                          GCUCUUUGAAUGGUACUGCCAUAUGCAC
+G.gallus.1                         GCUCUUUGAAUGGUACUGCCAUAUGUAC
+A.carolinensis.1                   GCUCUUUGAAUGGUACUGCCAUAUGUAC
+#=GC SS_cons                       >>>>>..>>>>>>>.>>>>>>>..>>>>
+#=GC RF                            GCuCuuuaaauGGuACuGCcguAagcac
+//

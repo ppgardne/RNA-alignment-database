@@ -1,0 +1,63 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-1255
+#=GF AC    RF00994
+#=GF DE    microRNA mir-1255
+#=GF AU    Wilkinson A
+#=GF GA    45.0
+#=GF NC    45.0
+#=GF TC    45.0
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000506
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    12
+
+#=GS M.mulatta.1            AC    AANU01269624.1/9-80
+#=GS H.sapiens.1            AC    AADB02006467.1/217743-217678
+#=GS P.troglodytes.1        AC    AACZ02010423.1/1523-1457
+#=GS P.abelii.1             AC    AC199862.3/67944-67879
+#=GS Callithrix_jacchus_w.1 AC    AC187354.5/97864-97931
+#=GS M.murinus.1            AC    ABDC01417052.1/3023-2958
+#=GS Otolemur_garnettii_s.1 AC    AAQR01518594.1/153-88
+#=GS C.lupus.1              AC    AAEX02008674.1/43056-43121
+#=GS F.catus.1              AC    AANG01676531.1/2754-2819
+#=GS B.taurus.1             AC    AAFC03122281.1/6641-6708
+#=GS E.caballus.1           AC    AAWR02008080.1/187905-187970
+#=GS Dasypus_novemcinctus.1 AC    AAGV020889804.1/238-303
+
+M.mulatta.1                        UCUCAAGGAUGAGCAAAGGAAGUAGUUUUUUUAGAUUCCAAAGAAACUAC
+H.sapiens.1                        UCUUACGGAUGAGCAAAGAAAGUGGUUUCUUAAAAU.....GGAAUCUAC
+P.troglodytes.1                    UCUUACGGAUGAGCAAAGAAAGUGGUUUGC.....GCCUCAAGAAACCAC
+P.abelii.1                         UCUUAUGGAUGAUCAAAGAAAGUGGUUUCUUGAGAU.....AGAAUCUAC
+Callithrix_jacchus_w.1             UCUUAUGGACGAGCAAAGGAAGUGGUUUCUUGAGAC.....AGAAUCUAC
+M.murinus.1                        UCUUAUGGAUGAGCAAAGAGAGUGGUUUCUUAAGAU.....GGAACCUAC
+Otolemur_garnettii_s.1             UCUUACGGAUGAGCAAAGAAAGUGGUUUCUUGAGAU.....GGAAACUAC
+C.lupus.1                          UCUUGUGGAUGAGCAUAGAGAGUGGUUUCUUAAGAU.....GGAAUCUAC
+F.catus.1                          UCAUACGGAUGAGCAAAGAAAGUGGUUUCUUGGGAU.....AGAAUCUAC
+B.taurus.1                         UCUCAUGGAUGAGCAAAGAAAGUGGUUUCUUGAAAU.....GGAGUCUAC
+E.caballus.1                       UCUUAUGCAUGAGCAAAGAAAGUGGUUUCUUGAGAU.....GGAAACUGC
+Dasypus_novemcinctus.1             UCUUAUGGAUGAUUAAAAAAAGUAGUUUCUUGAGAU.....GGAAUCUAC
+#=GC SS_cons                       <<<<<.<.<<...<<..<<.<<<<<.<<<<...........>>>>.>>>>
+#=GC RF                            ccccaaggacgagcaccgggggugguuuccuaAaAu.....ggaaaccac
+
+M.mulatta.1                        CUACUUUGCUCAU.CU.UUGAGAA
+H.sapiens.1                        UCUUUGUGAAGAU.GC..UGUGAA
+P.troglodytes.1                    UUUCUUUGCUCAU.CC.AUAAGGA
+P.abelii.1                         UCCUGUUGAAAGU.GC..UGUGAA
+Callithrix_jacchus_w.1             UUCUGGUGAAGAUACU.AUGAGAA
+M.murinus.1                        UUUUGGUGAACAU.GC..UGUGAA
+Otolemur_garnettii_s.1             UCUUGGUGAAGAU.GC..UGAGAA
+C.lupus.1                          UCCUGGUGAACAU.GC..CAAGGA
+F.catus.1                          UCUUGGUGAAGAU.GC..UGUGAA
+B.taurus.1                         UCUCGGUGAAGAU.GCGAUGAGGA
+E.caballus.1                       UCUUGGUGAAGAU.GC..UGUGAA
+Dasypus_novemcinctus.1             UUUUGGUGAAGAU.AC..UGUGAA
+#=GC SS_cons                       >.>>..>>...>>..>..>>>>>.
+#=GC RF                            ccccggugcucgu.cc..uggggA
+//

@@ -1,0 +1,60 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-675
+#=GF AC    RF00897
+#=GF DE    microRNA mir-675
+#=GF AU    Wilkinson A
+#=GF GA    25.0
+#=GF NC    0.0
+#=GF TC    29.5
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000365
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    11
+
+#=GS Elephantidae_gen.1 AC    AF190054.1/443-515
+#=GS C.porcellus.1      AC    AAKN02038607.1/34464-34536
+#=GS T.monticola.1      AC    AF190055.1/453-521
+#=GS P.maniculatus.1    AC    AF214115.1/794-866
+#=GS M.musculus.1       AC    AC013548.13/138280-138351
+#=GS M.mulatta.1        AC    AANU01093282.1/4224-4296
+#=GS H.sapiens.1        AC    AADB02013519.1/46039-46111
+#=GS F.catus.1          AC    AF190057.1/504-575
+#=GS L.lynx.1           AC    AF190056.1/465-536
+#=GS S.scrofa.1         AC    AY044827.1/35459-35529
+#=GS E.caballus.1       AC    AAWR02038016.1/7615-7687
+
+Elephantidae_gen.1             CCCAGGGGCUGGUGCGGGAAGGGCCCACAGUGUGCUUGGUGACACUGUAU
+C.porcellus.1                  CCCAGGACCUGGCGCGGAGAGGGCCCACAGUGGACUUGGUGACACUGUAU
+T.monticola.1                  CCCAGGG.CUGGCGCGGAAAGGC..CACAGUGGACUUGUUCACGCUGUAU
+P.maniculatus.1                CCCAAGGACUGGCGCGGAAAGGGCCCACAGUGGACGCUUGUGCACUGUAU
+M.musculus.1                   CCCAGGGACUGGUGCGGAAAGGGCCCACAGUGGACUUGGU.ACACUGUAU
+M.mulatta.1                    CCCAGGGUCUGGUGCGGAGAGGGCCCACAGUGGACUUGGUGACACUGUAU
+H.sapiens.1                    CCCAGGGUCUGGUGCGGAGAGGGCCCACAGUGGACUUGGUGACGCUGUAU
+F.catus.1                      CCCAAGGGCCGGCGCGGAAAAGGC.CACAAUUGCCUCGGUUACCUUGUAU
+L.lynx.1                       CCCAGGGUCUGGCGCGGAGA.GGCCCACAGCGUACUUGGUGACACUGUAU
+S.scrofa.1                     CCCAGGGGCUGGCGCGGC.AGGGCCCCCGGUGUCCUUGGUGGCACUGUGC
+E.caballus.1                   CCCAGGGGCUGGCGCGGAGAGGGCCCACAGUGCACUCAGUGACACUGUAU
+#=GC SS_cons                   <<<<<<<.<<<<.<<<<..<<<<<..<<<<<<..........>>>>>>..
+#=GC RF                        cccaggggccggugcggagagggcaaacagcggAauugguaAcgcuguAu
+
+Elephantidae_gen.1             GCCUUAACCGCCCAGUCCCUGGG
+C.porcellus.1                  GCCCUAACCGCUCAGCCCCUGGG
+T.monticola.1                  .GCCUAACCGCUCAGCCCCUGGG
+P.maniculatus.1                GCCCUAACCGCUCAGCCCCUGGG
+M.musculus.1                   GCCCUAACCGCUCAGUCCCUGGG
+M.mulatta.1                    GCCCUCACCGCUCAGCCCCUGGG
+H.sapiens.1                    GCCCUCACCGCUCAGCCCCUGGG
+F.catus.1                      GCCCUCACCGCUCAGCCCCUGGG
+L.lynx.1                       GCCUUCACCGCUCAGCCCCCGGU
+S.scrofa.1                     GCCCUCGCCGCUC.GCCCCUGGG
+E.caballus.1                   GCCUUCACCGCUCAGCCCCUGGG
+#=GC SS_cons                   >>>>>..>>>>>>>>.>>>>>>>
+#=GC RF                        gcccucuccgcccggccccuggg
+//

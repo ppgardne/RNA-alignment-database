@@ -1,0 +1,380 @@
+# STOCKHOLM 1.0
+#=GF ID    PyrR
+#=GF AC    RF00515
+#=GF DE    PyrR binding site
+#=GF AU    Bateman A
+#=GF GA    22.0
+#=GF NC    21.9
+#=GF TC    22.3
+#=GF SE    Bateman A
+#=GF SS    Published; PMID:11726695
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  --fil-no-hmm  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    11726695
+#=GF RT    Molecular recognition of pyr mRNA by the Bacillus subtilis
+#=GF RT    attenuation regulatory protein PyrR.
+#=GF RA    Bonner ER, D'Elia JN, Billips BK, Switzer RL;
+#=GF RL    Nucleic Acids Res 2001;29:4851-4865.
+#=GF CC    This family represents the PyrR binding site and terminator
+#=GF CC    structure.  This RNA structure is found upstream of a variety of
+#=GF CC    genes involved in pyrimidine biosynthesis and transport. The
+#=GF CC    alignment also includes a portion of the antiterminator
+#=GF CC    structure.
+#=GF WK    http://en.wikipedia.org/wiki/PyrR_binding_site
+#=GF SQ    56
+
+#=GS Janibacter.1           AC    AAMN01000002.1/828893-829048
+#=GS B.caldolyticus.1       AC    X73308.1/235-367
+#=GS B.subtilis.1           AC    M59757.2/2712-2828
+#=GS Bacillus_licheniform.1 AC    AE017333.1/1725773-1725889
+#=GS B.subtilis.2           AC    M59757.2/547-663
+#=GS Bacillus_subtilis_su.1 AC    AL009126.3/1620329-1620445
+#=GS B.caldolyticus.2       AC    X76083.1/1336-1438
+#=GS B.caldolyticus.3       AC    X76083.1/647-773
+#=GS B.subtilis.3           AC    M59757.2/1239-1357
+#=GS Bacillus_licheniform.2 AC    CP000002.3/1724430-1724551
+#=GS Bacillus_subtilis_su.2 AC    ABQL01000005.1/599722-599838
+#=GS B.caldolyticus.4       AC    X76083.1/2797-2929
+#=GS Bacillus_subtilis_su.3 AC    AL009126.3/1618161-1618277
+#=GS B.subtilis.4           AC    U48870.1/2609-2725
+#=GS B.anthracis.1          AC    AE017225.1/3709736-3709821
+#=GS Bacillus_thuringiens.1 AC    AE017355.1/3732639-3732753
+#=GS Bacillus_thuringiens.2 AC    AE017355.1/3731220-3731320
+#=GS B.anthracis.2          AC    AE017334.2/3710572-3710686
+#=GS B.anthracis.3          AC    AE017225.1/3711140-3711254
+#=GS B.anthracis.4          AC    AE017334.2/3709168-3709253
+#=GS Geobacillus_thermode.1 AC    CP000557.1/1070259-1070361
+#=GS Geobacillus_kaustoph.1 AC    BA000043.1/1165375-1165499
+#=GS L.monocytogenes.1      AC    AL591981.1/164471-164574
+#=GS Listeria_monocytogen.1 AC    AE017262.2/1897530-1897637
+#=GS Listeria_welshimeri_.1 AC    AM263198.1/1891421-1891529
+#=GS L.monocytogenes.2      AC    AL591981.1/165154-165262
+#=GS L.innocua.1            AC    AL596170.1/182555-182663
+#=GS L.innocua.2            AC    AL596170.1/181872-181975
+#=GS Thermoanaerobacter_t.1 AC    AE008691.1/1498739-1498827
+#=GS Thermoanaerobacter_t.2 AC    AE008691.1/2296196-2296293
+#=GS E.faecalis.1           AC    AF044978.1/176-335
+#=GS L.leichmannii.1        AC    X84262.1/148-332
+#=GS Lactobacillus_delbru.1 AC    CR954253.1/898260-898444
+#=GS Lactobacillus_planta.1 AC    AL935259.1/253883-253975
+#=GS Lactobacillus_reuter.1 AC    CP000705.1/148104-148220
+#=GS Lactobacillus_reuter.2 AC    AAPZ02000001.1/1290955-1291071
+#=GS Lactobacillus_planta.2 AC    AL935258.1/285311-285425
+#=GS L.plantarum.1          AC    AJ012720.1/1924-2038
+#=GS L.plantarum.2          AC    Z54240.2/641-760
+#=GS L.lactis.1             AC    AJ132624.1/224-346
+#=GS L.lactis.2             AC    X74207.1/3091-3251
+#=GS Lactococcus_lactis_s.1 AC    AE005176.1/1384872-1385029
+#=GS Lactococcus_lactis_s.2 AC    AE005176.1/1401583-1401723
+#=GS L.lactis.3             AC    AJ000109.1/697-884
+#=GS Lactococcus_lactis_s.3 AC    AE005176.1/1080400-1080547
+#=GS Streptococcus_pneumo.1 AC    CP001033.1/1229224-1229356
+#=GS Streptococcus_agalac.1 AC    AL766848.1/175198-175311
+#=GS Streptococcus_agalac.2 AC    AE009948.1/1054599-1054718
+#=GS Streptococcus_agalac.3 AC    AL766848.1/172364-172483
+#=GS Streptococcus_thermo.1 AC    CP000023.1/493796-493904
+#=GS Streptococcus_pyogen.1 AC    AE009949.1/721177-721294
+#=GS S.pneumoniae.1         AC    CP000919.1/624651-624755
+#=GS S.pneumoniae.2         AC    AF068902.1/6383-6487
+#=GS Streptococcus_mutans.1 AC    AE014133.1/803283-803394
+#=GS Streptococcus_pyogen.2 AC    CP000259.1/744106-744214
+#=GS Streptococcus_pyogen.3 AC    CP000259.1/678792-678909
+
+Janibacter.1                       A......CAUCCUUU....AACGACCUGUC.CCGUGAGGCAGG..GAAGG
+B.caldolyticus.1                   A......GCACCUUU...UAAU..UAAGUC.CCGCGAGGCUUA.AAAAGG
+B.subtilis.1                       A......AAACCUUU...UAAUG.AAAGUC.CAGAGAGGCUUG..GAAGG
+Bacillus_licheniform.1             A......AAACCUUU...UAAAU.GAAGUC.CAGAGAGGCUUG..AAAGG
+B.subtilis.2                       A......GAUUCUUU....AAA..ACAGUC.CAGAGAGGCUGA..GAAGG
+Bacillus_subtilis_su.1             A......AAACCUUU...UAAUG.AAAGUC.CAGAGAGGCUUG..GAAGG
+B.caldolyticus.2                   C......GACCCUUU...UAAGC.GCAGUC.CCGUGAGGCUGC.AAAAGG
+B.caldolyticus.3                   G......GAACCUUU....AAGU.UCAGUC.CUGUGAGGCUGA..AAAGG
+B.subtilis.3                       A......UCACCUUUU..UAAGG.GCAAUC.CAGAGAGGUUGCAAAGAGG
+Bacillus_licheniform.2             A......UCCUUUUU...UAAAU.GCAUUC.CAGUGAGUUUGC..AAAGA
+Bacillus_subtilis_su.2             A......UCACCUUU...UUAA..GCAAUC.CAGAGAGGUUGC..AAAGA
+B.caldolyticus.4                   A......GCACCUUU...UAAU..UAAGUC.CCGCGAGGCUUA.AAAAGG
+Bacillus_subtilis_su.3             A......GAUUCUUU....AAA..ACAGUC.CAGAGAGGCUGA..GAAGG
+B.subtilis.4                       A......GAUUCUUU....AAA..ACAGUC.CAGAGAGGCUGA..GAAGG
+B.anthracis.1                      A......UAACCUUU...UAAU..UCAGUC.CUGUGAGACCGG..AAAGG
+Bacillus_thuringiens.1             A......AGCCCUUU...UAAAU.GUAGUC.CUGUGAGGCUGC.CAAAGG
+Bacillus_thuringiens.2             A......UAACCUUU...UAAU..UCAGUC.CUGUGAGACCGG..AAAGG
+B.anthracis.2                      A......AGCCCUUU...UAAAU.GUAGUC.CUGUGAGGCUGC.CAAAGG
+B.anthracis.3                      A......AGCCCUUU...UAAAU.GUAGUC.CUGUGAGGCUGC.CAAAGG
+B.anthracis.4                      A......UAACCUUU...UAAU..UCAGUC.CUGUGAGACCGG..AAAGG
+Geobacillus_thermode.1             G......CUCCCUUU...UAAGC.GCAGUC.CCGCGAGGCUGC.AAAAGG
+Geobacillus_kaustoph.1             G......GAACCUUU....AAGU.UCAGUC.CUGUGAGGCUGA..AAAGG
+L.monocytogenes.1                  A......ACACUUUUU..UAAAA.GCAGUC.CUGUGAGGCUGA..CAAAG
+Listeria_monocytogen.1             A......AGUCCUUU....AAC..AUAGUC.CAGAGAGGCUAA..GAAGG
+Listeria_welshimeri_.1             A......CACUUUUU...UAAAA.GCAGUC.CUGUGAGGCUGA.CAAAGA
+L.monocytogenes.2                  A......AGUCCUUU....AAC..AUAGUC.CAGAGAGGCUAA..GAAGG
+L.innocua.1                        A......AGUCCUUU....AAC..AUAGUC.CAGAGAGGCUAA..GAAGG
+L.innocua.2                        A......ACACUUUUU..UAAAA.GCAGUC.CUGUGAGGCUGA..CAAAG
+Thermoanaerobacter_t.1             A......AAGCCUU....UAAG...CAGUC.CUGUGAGGCUGG..CAAGG
+Thermoanaerobacter_t.2             .......AAACCCUU...UAAU..UUAGCC.CAGCGAGGCUAA..AAAGG
+E.faecalis.1                       G......UAACCUUU....AAGU.UUAGUC.CCGUGAGGCUAA..GAAGG
+L.leichmannii.1                    A......UGACCUUU...AAAU..UUAGUC.CCGUGAGGCUAA..GAAGG
+Lactobacillus_delbru.1             AGCAAAAAGACCAUUUUAUACAC.UCAGUCUCCGU..GUCUAA..AAUGG
+Lactobacillus_planta.1             A......GCACCUU....UAAC..UUAGUC.CUGUGAGGCUAA..CAAGG
+Lactobacillus_reuter.1             C......CGACCAUU...UAAU..UGUUUC.CAGAGAGAGCAG..AACGG
+Lactobacillus_reuter.2             C......CGACCAUU...UAAU..UGUUUC.CAGAGAGAGCAG..AACGG
+Lactobacillus_planta.2             A......GUUCCUUU....AAA..UUAGCU.CAGAGAGGCUGA..AAAGG
+L.plantarum.1                      A......GUUCCUUU....AAA..UUAGCU.CAGAGAGGCUGA..AAAGG
+L.plantarum.2                      A......GCACCUU....UAAC..UUAGUC.CUGUGAGGCUAA..CAAGG
+L.lactis.1                         C......UAACCUU....UAAG..AUUGUC.CAGAGAGGCAGG..CAAGG
+L.lactis.2                         A......AAACCUU....UAAC..UAAGUC.CAGAGAGGCUUG..CAAGG
+Lactococcus_lactis_s.1             A......AAACCUU....UAAC..UAAGUC.CAGAGAGGCUUG..CAAGG
+Lactococcus_lactis_s.2             A......AAACUUU....UAAU..CUAGUC.CAGAGAGGCUAG..CAAGG
+L.lactis.3                         A......AAACUUU....UAAU..CUAGUC.CAGAGAGGCUAG..CAAGG
+Lactococcus_lactis_s.3             A......UAACUUU....UAAA..CUAGUC.CAGAGAGGCUAG..CAAGG
+Streptococcus_pneumo.1             U......AUUCCUU....UAAA..CCUGUC.CCGUGAGGCAGG..CAAGG
+Streptococcus_agalac.1             U......GUAUCUU....UAAG..UGAGUC.CAGAGAGGCGAA..CAAGG
+Streptococcus_agalac.2             A......UAUCCUU....UAAGGUAUUGUC.CAGAGAGGCAAA..CAAGG
+Streptococcus_agalac.3             A......UAUCCUU....UAAGGUAUUGUC.CAGAGAGGCAAA..CAAGG
+Streptococcus_thermo.1             A......AGUCCUU....UAAUU.ACUGUC.CAGAGAGGCAGG..CAAGG
+Streptococcus_pyogen.1             U......AUUCCUU....UAAA..ACAGUC.CUGUGAGGCUGU..CAAGG
+S.pneumoniae.1                     A......AAACCUU....UAAA..GCAGUC.CAGAGAGGCAGC..UAAGG
+S.pneumoniae.2                     A......AAACCUU....UAAA..GCAGUC.CAGAGAGGCAGC..UAAGG
+Streptococcus_mutans.1             U......AUUCCUU....UAAC..ACUGUC.CCGUGAGGCAGG..CAAGG
+Streptococcus_pyogen.2             G......ACACCUU....UAAG..UGAGUC.CAGAGAGGCAAA..CAAGG
+Streptococcus_pyogen.3             U......AUUCCUU....UAAA..ACAGUC.CUGUGAGGCUGU..CAAGG
+#=GC SS_cons                       ........<<<<<<<.........<<<<<<.......>>>>>>..>>>>>
+#=GC RF                            A......aaaCCUUU...UAAa..ucAGUC.CaGaGAGGCUga..AAAGG
+
+Janibacter.1                       AG..........................................GUCACG
+B.caldolyticus.1                   UGUGAA......................................AACAGG
+B.subtilis.1                       GU...........................................UAUGA
+Bacillus_licheniform.1             GU..........................................UGCGGA
+B.subtilis.2                       AUAACG......................................GAUAGA
+Bacillus_subtilis_su.1             GU...........................................UAUGA
+B.caldolyticus.2                   GG................................................
+B.caldolyticus.3                   GGUCG.......................................GAAUGA
+B.subtilis.3                       UGC............................................ACA
+Bacillus_licheniform.2             GGGAUGG.....................................AACGAA
+Bacillus_subtilis_su.2             GGUGC..........................................ACA
+B.caldolyticus.4                   UGUGAA......................................AACAGG
+Bacillus_subtilis_su.3             AUAACG......................................GAUAGA
+B.subtilis.4                       AUAACG......................................GAUAGA
+B.anthracis.1                      GU................................................
+Bacillus_thuringiens.1             GU..........................................CUUGGC
+Bacillus_thuringiens.2             GU................................................
+B.anthracis.2                      GU..........................................CUUGGC
+B.anthracis.3                      GU..........................................CUUGGC
+B.anthracis.4                      GU................................................
+Geobacillus_thermode.1             GG................................................
+Geobacillus_kaustoph.1             GGUCG.......................................GAAUGA
+L.monocytogenes.1                  AG................................................
+Listeria_monocytogen.1             UG...............................................A
+Listeria_welshimeri_.1             GU...............................................G
+L.monocytogenes.2                  UG...............................................A
+L.innocua.1                        UG.............................................ACG
+L.innocua.2                        AG................................................
+Thermoanaerobacter_t.1             ..................................................
+Thermoanaerobacter_t.2             AG.............................................GAU
+E.faecalis.1                       AAUC........................................AUGCAA
+L.leichmannii.1                    CAGCUCAAAAUCCAUAUAUAA.......................ACAAGA
+Lactobacillus_delbru.1             UCUCUCAAAGUCUA..............................CUUAAA
+Lactobacillus_planta.1             GG................................................
+Lactobacillus_reuter.1             UA............................................UGUU
+Lactobacillus_reuter.2             UA............................................UGUU
+Lactobacillus_planta.2             AU.............................................GAA
+L.plantarum.1                      AU..........................................GAACGG
+L.plantarum.2                      GG..............................................AA
+L.lactis.1                         UC.............................................AGA
+L.lactis.2                         AUACGGAAAAUUUAUCUUG.........................GAUUAC
+Lactococcus_lactis_s.1             AUACGGAAAAUUUAAUUUGGUUU.....................ACUGAC
+Lactococcus_lactis_s.2             UUGUGAACAAGAAAUAUUAU........................CCUUAA
+L.lactis.3                         UUGUGAACAGGAAAUAUUAUGCUUAAAAGUUACUGACAAAAGAGCGGUGU
+Lactococcus_lactis_s.3             UUGAAAUCAGGAAAAAUUGAU.......................UCUAUU
+Streptococcus_pneumo.1             AGC.........................................GCGAUA
+Streptococcus_agalac.1             UCACCAU.....................................CAUAAG
+Streptococcus_agalac.2             AAUUGCGU....................................UAACAA
+Streptococcus_agalac.3             AAUUGCGU....................................UAACAA
+Streptococcus_thermo.1             AG..........................................CUAUGA
+Streptococcus_pyogen.1             AGACGGAUU...................................AAAAAC
+S.pneumoniae.1                     UU............................................AGAC
+S.pneumoniae.2                     UU............................................AGAC
+Streptococcus_mutans.1             AGCG........................................ACAAAG
+Streptococcus_pyogen.2             UA..........................................UACAAG
+Streptococcus_pyogen.3             AGACGG......................................AUUAAA
+#=GC SS_cons                       >>..............................................<<
+#=GC RF                            uu..........................................aauaaa
+
+Janibacter.1                       ACACUGAUGUGUCC.......UGACAAUGCUGUGCCCCAGAGUCCCCAGA
+B.caldolyticus.1                   CGCAUCCAGGGCCGGAG....UGCACCUUCUUCGGCUCUGCCAUGCGCCG
+B.subtilis.1                       AGAGAAGGAAGCUUCA.....AUGCUGCCCUCUAUUUAA...........
+Bacillus_licheniform.1             GAGAGAAGUGCAAAAA.....AGCGCAUUCUCUGAUUCA...........
+B.subtilis.2                       CGGGAUGCGUGUAU.......AGGCGCGCACCUUGUCCU...........
+Bacillus_subtilis_su.1             AGAGAAGGAAGCUUCA.....AUGCUGCCCUCUAUUUAA...........
+B.caldolyticus.2                   ...CGGAAUCGUUU.......CGGCUGUUUCU..................
+B.caldolyticus.3                   CAAAGAAGGGCGAUG......UAUGCCCAUCUUGUUUGGUGAUAAGCG..
+B.subtilis.3                       ACAAAGGCCCAAAAAG.....UAUUCGGCAGGUCUUU.............
+Bacillus_licheniform.2             AGAAAGCCGCCUUA.......CCGUGCGGCGGUCUUU.............
+Bacillus_subtilis_su.2             ACAAAGGCCCAAAAAG.....UAUUCGGCAGGUCUUU.............
+B.caldolyticus.4                   CGCAUCCAGGGCCGGAG....UGCACCUUCUUCGGCUCUGCCAUGCGCCG
+Bacillus_subtilis_su.3             CGGGAUGCGUGUAU.......AGGCGCGCACCUUGUCCU...........
+B.subtilis.4                       CGGGAUGCGUGUAU.......AGGCGCGCACCUUGUCCU...........
+B.anthracis.1                      ...........GGC.......UUCU.U............U..........
+Bacillus_thuringiens.1             UUUCAUAUGUCAAA.......UUUGGCAUACGAAAGUGU...........
+Bacillus_thuringiens.2             .....GGCUUCUUU.......CUUGCACCCUAGU.....C..........
+B.anthracis.2                      UUUCAUAUGUCAAA.......UUUGGCAUACGAAAGUGU...........
+B.anthracis.3                      UUUCAUAUGUCAAA.......UUUGGCAUACGAAAGUGU...........
+B.anthracis.4                      ...........GGC.......UUCUU.............U..........
+Geobacillus_thermode.1             ...CGGAAUGGUUU.......CGGCUGUUUCU..................
+Geobacillus_kaustoph.1             CAAAGAAGGGCGAUG......UAUGCCCAUCUUGUUUGGUGAUAAGCGCG
+L.monocytogenes.1                  .UGAUUAAUUUCUA.......UAGGGGAUUAUU.................
+Listeria_monocytogen.1             CGAUAAUUUGACGGGU.....UAAUUGUAUACUCGU.AC...........
+Listeria_welshimeri_.1             AUUAAUUUCUAUAU.......AUUUAGGGGAUUAUU..............
+L.monocytogenes.2                  CGAUAAUUUGACGGGU.....UAAUUGUAUGCUCGU..............
+L.innocua.1                        AUAAUUUGACGGGU.......UAUUUGUAUACUCG....U..........
+L.innocua.2                        .UGAUUAAUUUCUA.......UAGGGGAUUAUU.................
+Thermoanaerobacter_t.1             ....UCUUAUAAAA.......AGAAGUACCA...................
+Thermoanaerobacter_t.2             AUAAAAAGUUCCUCCU.....UGGGGGUUUUUCA................
+E.faecalis.1                       AAGAACACUAGGUG.......CGCUUAGUUAGUAAGUUGUGUGGGCUACA
+L.leichmannii.1                    AAUUCUUGGCAAACAUUCG..AAUUGACAGGAAGACCGGGGAGGAAGCUU
+Lactobacillus_delbru.1             CUGCCCGGAAAGCU.......UCCUCCCCGGUCUUCCUGUCAAUUCGAAU
+Lactobacillus_planta.1             ........AACGGU.......CAUGU........................
+Lactobacillus_reuter.1             GUUUUUAGCCUACU.......UAUAUCCUAAAAGCAAAC...........
+Lactobacillus_reuter.2             GUUUUUAGCCUACU.......UAUAUUCUAAAAGCAAAC...........
+Lactobacillus_planta.2             CGGACGUGCGCUUUCAAGC..AAGCUGUGCGUAAUUU..C..........
+L.plantarum.1                      ACGUAC.GCUUUCA.......AGGAAGCCGUGCGUAAUUUC.........
+L.plantarum.2                      CGGUCAUGUAGGGU.......CUCCCACGCUUUUCGCAGGAAAACG....
+L.lactis.1                         AAUUAAUAAUGUAA.......UAAUAUGAUGGAUACUGUCCAUUUUCUGA
+L.lactis.2                         UGACAAACUAAGGAUG.....AACUUCUUUUUUAGCGUAUUUGUCUGUCA
+Lactococcus_lactis_s.1             AGCUUAAAGAUGAACUUUUUUAGCGCAUUUAUUCUGUCAGUAAAUUACCA
+Lactococcus_lactis_s.2             AAGUUACUGACAGA.......ACUGUCAGUAAGUUGCUAAGGCAUUUUAG
+L.lactis.3                         A.GCUU.GGUCCAU.......AAGUACCAAAGCGGACAGGGCUAGUUCUG
+Lactococcus_lactis_s.3             UUUACUGACAGGAU.......UUUCUGUCAGUAAAAGUGAAUUUGUUUUG
+Streptococcus_pneumo.1             AAGUAGAAGGGUGA.......AGUCUAUACUGUGUGCAGUAGGGCUCGCU
+Streptococcus_agalac.1             UCAAAUAGCGAGUGCU.....UUUUCGCUAACUUUUUA............
+Streptococcus_agalac.2             AUAGUAAGUUAGUUCCCU...AUCUAGCUUACUAUUUUG...........
+Streptococcus_agalac.3             AUAGUAAGUUAGUUCCCU...AUCUAGCUUACUAUUUUG...........
+Streptococcus_thermo.1             GAAGUGCGCAGGUG.......AA.CUGUGCCAUGUUUUU...........
+Streptococcus_pyogen.1             AUGCACCAUGAUACU......UAAUUGUGCUAUAUUUUG...........
+S.pneumoniae.1                     GGUGAAAGGGUGGAG......ACUACCCAUUUUU................
+S.pneumoniae.2                     GGUGAAAGGGUGGAG......ACUACCCAUUUUU................
+Streptococcus_mutans.1             AAAAAAGUGCAGGAAC.....AACUGUACUUAUAUUUUG...........
+Streptococcus_pyogen.2             AUAAAAAAAGGGAA.......UUCCCUUUUAGUUUGCUG...........
+Streptococcus_pyogen.3             AACAUGCACCAUGAUACU...UAAUUGUGCUAUAUUUUG...........
+#=GC SS_cons                       <<<<<<<<<<<<...........>>>>>>>>>>>>>>.............
+#=GC RF                            auaaaaagggggaa.......uacccccuuuuuauuuug...........
+
+Janibacter.1                       GUUCAGAGAAGCUCCAGAGCUCCUCGAGUG........AGACCGACCC..
+B.caldolyticus.1                   AUCG..................................UCACACCUUGC.
+B.subtilis.1                       ......................................CCAUACCCCGA.
+Bacillus_licheniform.1             ......................................CUGUACCCCA..
+B.subtilis.2                       ......................................AAAACCCCUCU.
+Bacillus_subtilis_su.1             ......................................CCAUACCCCGA.
+B.caldolyticus.2                   ......................................GCACCCUCUU..
+B.caldolyticus.3                   ......................................CGCCAUCCCC..
+B.subtilis.3                       ......................................GUAUGCCUCU..
+Bacillus_licheniform.2             ......................................GUCUGCCUCU..
+Bacillus_subtilis_su.2             ......................................GUAUGCCUCU..
+B.caldolyticus.4                   AUCG..................................UCACACCUUGC.
+Bacillus_subtilis_su.3             ......................................AAAACCCCUCU.
+B.subtilis.4                       ......................................AAAACCCCUCU.
+B.anthracis.1                      ......................................CUUGCACCCU..
+Bacillus_thuringiens.1             ......................................AGGACUCUUU..
+Bacillus_thuringiens.2             ......................................UUACACGACUA.
+B.anthracis.2                      ......................................AGGACUCUUU..
+B.anthracis.3                      ......................................AGGACUCUUU..
+B.anthracis.4                      ......................................CUUGCACCCU..
+Geobacillus_thermode.1             ......................................GCACCCUCUUUG
+Geobacillus_kaustoph.1             ......................................CCAUCCCCCG..
+L.monocytogenes.1                  ......................................CUAUACUCUU..
+Listeria_monocytogen.1             ......................................GCGUUCCCUU..
+Listeria_welshimeri_.1             ......................................CUAUACUCUU..
+L.monocytogenes.2                  ......................................ACGCGUUCCCU.
+L.innocua.1                        ......................................ACGCGUUCCCU.
+L.innocua.2                        ......................................CUAUACUCUU..
+Thermoanaerobacter_t.1             ......................................GAAACCUUCU..
+Thermoanaerobacter_t.2             ......................................GUAACCCAUA..
+E.faecalis.1                       UGGUACCCUUGUACCUUUUUAAACUGUAACCA......ACAUCCUCCU..
+L.leichmannii.1                    UUCGGACAGUUUAAGCAGACUUUG..............AGAGACCAUU..
+Lactobacillus_delbru.1             GUUUGCCAAGAAUUUCUUGUUUAUAUCUGGAUUUUGAGCUGCCUUCUU..
+Lactobacillus_planta.1             ......................................AGGGUCUCCCA.
+Lactobacillus_reuter.1             ......................................AGUGAUGACU..
+Lactobacillus_reuter.2             ......................................AGUGAUGACU..
+Lactobacillus_planta.2             ......................................GGACAGCCUAG.
+L.plantarum.1                      ......................................GGACAGCCUAG.
+L.plantarum.2                      ......................................GGGUGCCUCU..
+L.lactis.1                         U.....................................ACCUACCUGC..
+L.lactis.2                         GUAAAUGACCAAUUUUU.....................UAGUACACUU..
+Lactococcus_lactis_s.1             GUUUUUU...............................AGUACACUUG..
+Lactococcus_lactis_s.2             ......................................GACACAUCUG..
+L.lactis.3                         UCAGUAAACUGUCAGGGCAUAUUAG.............GACACAUCUG..
+Lactococcus_lactis_s.3             AUACUU................................UUUACACUUG..
+Streptococcus_pneumo.1             UGGCUAUAAAU...........................UUCAAGUCUC..
+Streptococcus_agalac.1             ......................................UGAAACCUUG..
+Streptococcus_agalac.2             ......................................CAGAGCCUCC..
+Streptococcus_agalac.3             ......................................CAGAGCCUCC..
+Streptococcus_thermo.1             ......................................GUGUAUCUCC..
+Streptococcus_pyogen.1             ......................................CUGAAUCUCC..
+S.pneumoniae.1                     .......................................CGUGGAACCU.
+S.pneumoniae.2                     .......................................CGUGGAACCU.
+Streptococcus_mutans.1             ......................................UGAAAUCUCC..
+Streptococcus_pyogen.2             .......................................UAGCCUCGC..
+Streptococcus_pyogen.3             ......................................CUGAAUCUCC..
+#=GC SS_cons                       ......................................<<<<<<<<<<..
+#=GC RF                            ......................................auaaacccuu..
+
+Janibacter.1                       CGCGACUG............ACGGGAGGACGGUCCUCGGA
+B.caldolyticus.1                   CUGG.................CCGGCAAGGUGUUUUUUUU
+B.subtilis.1                       GUCUAUCU............UAGACCGGGGUUUUUUUUCA
+Bacillus_licheniform.1             AGCCGUUA............UGGCCUGGGGUUUUUUUACG
+B.subtilis.2                       AUGCUCU.............GGCAGGAGGGGUUUUUUCUU
+Bacillus_subtilis_su.1             GUCUAUCU............UAGACCGGGGUUUUUUUUCA
+B.caldolyticus.2                   UGCGUCUUCGC.........GGGCAAAGAGGGAUUUUUUU
+B.caldolyticus.3                   CGCUUCAC............AGGCGGGGGAUUUUUUGUGC
+B.subtilis.3                       UUGCGUAAAAA.........AGCAAAGAGGUUUUUUUAUA
+Bacillus_licheniform.2             UUGCGCAAUUUA........AGCAAAGAGGCUUUUUUAAU
+Bacillus_subtilis_su.2             UUGCGUAAAAA.........AGCAAAGAGGUUUUUUUAUA
+B.caldolyticus.4                   CUGG.................CCGGCAAGGUGUUUUUUUU
+Bacillus_subtilis_su.3             AUGCUCU.............GGCAGGAGGGGUUUUUUCUU
+B.subtilis.4                       AUGCUCU.............GGCAGGAGGGGUUUUUUCUU
+B.anthracis.1                      AGUCUCACA...........UGACUAGGGUAUUUUUAUGC
+Bacillus_thuringiens.1             GUGCACA.............GGCACAAAGAGUUUUUUUAU
+Bacillus_thuringiens.2             GGGUAUUUU...........UAUGCAAAGGUUGUUAUAAA
+B.anthracis.2                      GUGCACA.............GGCACAAAGAGUUUUUUUAU
+B.anthracis.3                      GUGCACA.............GGCACAAAGAGUUUUUUUAU
+B.anthracis.4                      AGUCUCACA...........UGACUAGGGUAUUUUUAUGC
+Geobacillus_thermode.1             UGCCUUCGC...........GGGCCAAGAGGUUUUUUUUG
+Geobacillus_kaustoph.1             CUUC................ACAGGCGGGGGGUUUUUUGU
+L.monocytogenes.1                  UGUCGACAC...........AGACAAGGGGUAUUUUUUAU
+Listeria_monocytogen.1             GCUUACA.............CUGGCAGAGGGUUAUUUUUU
+Listeria_welshimeri_.1             UGUCGACAC...........AGACAAGGGGUAUUUUUUAU
+L.monocytogenes.2                  UGCUUACAC...........UGGCAGAGGGUUAUUUUUUU
+L.innocua.1                        UGCUUACAC...........UGGCAGAGGGUUAUUUUUUU
+L.innocua.2                        UGUCGACCG...........AGGCAAGGGGUAUUUUUUAU
+Thermoanaerobacter_t.1             UGCCA...............GUGCAAGAAGGUUUUUUGGA
+Thermoanaerobacter_t.2             AU.....................AAAGGAGGUUUUUUUAU
+E.faecalis.1                       AUCCUCAUA...........CGGGUAGGAGGAUUUUUUGU
+L.leichmannii.1                    UUAGACACGGAGACUGAGUGUAUAAAAUGGUCUUUUUGCU
+Lactobacillus_delbru.1             AGCCUCACG...........GGACUAAAUUUAAAGGUCAU
+Lactobacillus_planta.1             CGCUUUUCGCAGGA......AAACAGGGUGACUCUUUUUU
+Lactobacillus_reuter.1             CUCGAAAUUUAAA.......UGGGAAGUUAUCACUGUUUU
+Lactobacillus_reuter.2             CUCGAAAUCUAAA.......UGGGAAGUUAUCACUGUUUU
+Lactobacillus_planta.2             CCGCUUUG............AGUGGUGGGCUGUCUUUUCU
+L.plantarum.1                      CCGCUUUG............AGUGGUGGGCUGUCUUUUCU
+L.plantarum.2                      UUUUUUACCCCG........UGGAUUAAGGUGAAAUUACA
+L.lactis.1                         AUUCUCUUU...........GGAAUGCAGCUUUUUUGUAU
+L.lactis.2                         GUAAGUUCU...........CUUACAAGUGUUUUUUUAUU
+Lactococcus_lactis_s.1             UAAGUUC.............UCUUACAAGUGUUUUUUUGU
+Lactococcus_lactis_s.2             CUAGGUU.............UCUGGCAGAUGUUUUUGCUU
+L.lactis.3                         CUAGGUU.............UCUGGCAGAUGUUUUUGCUU
+Lactococcus_lactis_s.3             CUAGGAUU............CUUGGCAAGUGUUUUUUAU.
+Streptococcus_pneumo.1             CUUGUU...............UAAGGAGACUUUUCUUUUU
+Streptococcus_agalac.1             CCCU.................CAGGCAAGGUUUUUUGUGU
+Streptococcus_agalac.2             UUGU.................UUUAGGAGGCUUUUUUCUA
+Streptococcus_agalac.3             UUGU.................UUUAGGAGGCUUUUUUCUA
+Streptococcus_thermo.1             UUGU................UUCAAGGGGAUUUUUUGUAU
+Streptococcus_pyogen.1             UUGUUU...............CCAAGGAGAUCUUUUUAUU
+S.pneumoniae.1                     UGCUGUU..............GGCAGGUUCCUUUUUUCGU
+S.pneumoniae.2                     UGCUGUU..............GGCAGGUUCCUUUUUUCGU
+Streptococcus_mutans.1             UUGU.................AUGAGGAGAUUUUUUCUUA
+Streptococcus_pyogen.2             UUCUUU...............GGUAGCGAGGCUUUUUGGU
+Streptococcus_pyogen.3             UUGUUU...............CCAAGGAGAUCUUUUUAUU
+#=GC SS_cons                       <<<<.................>>>>>>>>>>>>>>.....
+#=GC RF                            uuccuuua............uggaaaaggguuuuuUUuuU
+//

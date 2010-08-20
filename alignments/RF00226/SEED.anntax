@@ -1,0 +1,94 @@
+# STOCKHOLM 1.0
+#=GF ID    IRES_n-myc
+#=GF AC    RF00226
+#=GF DE    n-myc internal ribosome entry site (IRES)
+#=GF AU    Moxon SJ
+#=GF GA    31.0
+#=GF NC    25.4
+#=GF TC    31.8
+#=GF PI    n-myc_IRES
+#=GF SE    PMID:11419940
+#=GF SS    Predicted; PFOLD
+#=GF TP    Cis-reg; IRES;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000243 SO:internal_ribosome_entry_site
+#=GF DR    GO:0043022 GO:ribosome binding
+#=GF RN    [1]
+#=GF RM    11420678
+#=GF RT    N-myc translation is initiated via an internal ribosome entry segment
+#=GF RT    that displays enhanced activity in neuronal cells.
+#=GF RA    Jopling CL, Willis AE;
+#=GF RL    Oncogene 2001;20:2664-2670.
+#=GF CC    This family represents the n-myc internal ribosome entry site (IRES). The
+#=GF CC    myc family of genes when expressed are known to be involved in the control
+#=GF CC    of cell growth, differentiation and apoptosis. n-myc mRNA has an
+#=GF CC    alternative method of translation via internal ribosome entry where
+#=GF CC    ribosomes are recruited to the IRES located in the 5' UTR thus bypassing
+#=GF CC    the typical eukaryotic cap-dependent translation pathway [1].
+#=GF WK    http://en.wikipedia.org/wiki/n-myc_internal_ribosome_entry_site_(IRES)
+#=GF SQ    6
+
+#=GS M.monax.1    AC    X53671.1/122-446
+#=GS S.beecheyi.1 AC    X93018.1/698-1022
+#=GS H.sapiens.1  AC    Y00664.1/3075-3398
+#=GS H.sapiens.2  AC    AF320053.1/5-324
+#=GS H.sapiens.3  AC    M13241.1/1329-1652
+#=GS H.sapiens.4  AC    AC010145.10/67113-67436
+
+M.monax.1                AUCUGGACGCGCUGAGUGGAUGCGGGGGUCUCCUGGGAACUGGGUUGGAG
+S.beecheyi.1             CUCUGGACGCGCUGAGUGGAUGCCGGGGUCUCCUGGGAACUGGGUUGGAG
+H.sapiens.1              CACAAAAGGAGGGCGGGAGGGAGGGAGCGAGAGGCACAACUUCCUCCACC
+H.sapiens.2              GUCUGGACGCGCUGGGUGGAUGCGGGGGGCUCCUGGGAACUGUGUUGGAG
+H.sapiens.3              CACAAAAGGAGGGCGGGAGGGAGGGAGCGAGAGGCACAACUUCCUCCACC
+H.sapiens.4              CACAAAAGGAGGGCGGGAGGGAGGGAGCGAGAGGCACAACUUCCUCCACC
+#=GC SS_cons             ......................<<<..............<<<<<......
+
+M.monax.1                CCGAACGAGAGCUAGCUAGGCGCAAGCGCUCACAGAGUGCAGCCGCCCCA
+S.beecheyi.1             CCGAACGAGCGCUAGCCAGGCGCAAGCGCUCACAGAGUGCAGCCGCCCCA
+H.sapiens.1              UUCGGGAGCAGUGGGCAGAGUGGGGGGCUUGGAGGGAAGAUUGGGGAACC
+H.sapiens.2              CCGAGCAAGCGCUAGCCAGGCGCAAGCGCGCACAGACUG..UAGCCAUCC
+H.sapiens.3              UUCGGGAGCAGUGGGCAGAGUGGGGGGCUUGGAGGGAAGAUUGGGGAACC
+H.sapiens.4              UUCGGGAGCAGUGGGCAGAGUGGGGGGCUUGGAGGGAAGAUUGGGGAACC
+#=GC SS_cons             ..............................>>>>>...............
+
+M.monax.1                GGACCCCUCCCCGCCCCCACAGACCACCCGGAGACCCCAGCGCAGAAUCG
+S.beecheyi.1             GGACCCCUCCCCGCCCCCACAGACCACCCGGAGACCCCAGCGCAGAAUCG
+H.sapiens.1              UGGUUAGAGGGGGCGCCCAUUGCCUAUCCCCUCGGUCU.GCCCCGUUUGC
+H.sapiens.2              GAGGACACCCCCGCCCCCCCGGCCCACCCGGAGACACCCGCGCAGAAUCG
+H.sapiens.3              UGGUUAGAGGGGGCGCCCAUUGCCUAUCCCCUCGGUCU.GCCCCGUUUGC
+H.sapiens.4              UGGUUAGAGGGGGCGCCCAUUGCCUAUCCCCUCGGUCU.GCCCCGUUUGC
+#=GC SS_cons             ..........<<<...............>>>...................
+
+M.monax.1                UCUCCGGAUUCCCAGCAGUCGCCUGG....AGUGUUGGAGAUUGGCUAUU
+S.beecheyi.1             UCUCCGGAUUCCCAGCAGUCGCCUGG....AGUGUUGGAGAUUGGCUCUU
+H.sapiens.1              CCACCCUCUCC.GGUGUGUCUGUCGGUUGCAGUGUUGGAGGUCGGCGCCG
+H.sapiens.2              CCUCCGGAUCCCCUGCAGUCGGCGGG....AGUGUUGGAGGUCGGCGCCG
+H.sapiens.3              CCACCCUCUCC.GGUGUGUCUGUCGGUUGCAGUGUUGGAGGUCGGCGCCG
+H.sapiens.4              CCACCCUCUCC.GGUGUGUCUGUCGGUUGCAGUGUUGGAGGUCGGCGCCG
+#=GC SS_cons             ...>>>.............................<<<<...<<<<.<<<
+
+M.monax.1                GCCCCCGCCCUCCGCACACCCUAGGGAAAGGAAGCACCCCCCGGUAUUAA
+S.beecheyi.1             GCCCCCGCCCUCCGCACACCCCAGGGAAAGGAAGCACCCCCCGGUAUUAA
+H.sapiens.1              GCCCCCGCCUUCCGCGCCCCCCACGGGAAGGAAGCAC.CCCCGGUAUUAA
+H.sapiens.2              GCCCCCGCCUUCCGCGCCCCCCACGGGAAGGAAGCAC.CCCCGGUAUUAA
+H.sapiens.3              GCCCCCGCCUUCCGCGCCCCCCACGGGAAGGAAGCAC.CCCCGGUAUUAA
+H.sapiens.4              GCCCCCGCCUUCCGCGCCCCCCACGGGAAGGAAGCAC.CCCCGGUAUUAA
+#=GC SS_cons             <<<...............<<....>>.........<<.<...>>>.....
+
+M.monax.1                AAAGAGCUGAGCGGAAAGAAGCUCUCUCAGUCGCUGGCGGGCAGGCGAGC
+S.beecheyi.1             AAAGAGCUGAGCGGAAAGAAGGUUUCUCAGUCGCUGGCGGGCAGGCGAGC
+H.sapiens.1              AACGAACGGGGCGGAAAGAAGCC..CUCAGUCGCCGGCCGGGAGGCGAGC
+H.sapiens.2              AACGAACGGGGCGGAAAGAAGCC..CUCAGUCGCCGGCCGGGAGGCGAGC
+H.sapiens.3              AACGAACGGGGCGGAAAGAAGCC..CUCAGUCGCCGGCCGGGAGGCGAGC
+H.sapiens.4              AACGAACGGGGCGGAAAGAAGCC..CUCAGUCGCCGGCCGGGAGGCGAGC
+#=GC SS_cons             .........<<<<..................>>>>>>>>>>.......>>
+
+M.monax.1                UGAUGCGGAGCUGCACCGUGUCCACCAUG
+S.beecheyi.1             UGAUGCGGAGCUGCACCGUGUCCACCAUG
+H.sapiens.1              CGAUGCCGAGCUGCUCCACGUCCACCAUG
+H.sapiens.2              CGAUGCCGAGCUGCUCCACGUCCACCAUG
+H.sapiens.3              CGAUGCCGAGCUGCUCCACGUCCACCAUG
+H.sapiens.4              CGAUGCCGAGCUGCUCCACGUCCACCAUG
+#=GC SS_cons             >>..<<...>>.........>>>>.....
+//

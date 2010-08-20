@@ -1,0 +1,58 @@
+# STOCKHOLM 1.0
+#=GF ID    HLE
+#=GF AC    RF00437
+#=GF DE    Hairy RNA localisation element (HLE)
+#=GF AU    Moxon SJ
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    26.3
+#=GF SE    PMID:12743042
+#=GF SS    Published; PMID:12743042
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    12743042
+#=GF RT    The Drosophila hairy RNA localization signal modulates the kinetics
+#=GF RT    of cytoplasmic mRNA transport.
+#=GF RA    Bullock SL, Zicha D, Ish-Horowicz D;
+#=GF RL    EMBO J 2003;22:2484-2494.
+#=GF CC    This family represents the hairy localisation element (HLE) found in
+#=GF CC    Drosophila species. HLE is located in the 3'-UTR of the hairy gene and
+#=GF CC    contains two stem-loops. HLE is essential for the mediation of
+#=GF CC    apical localisation and the two stem-loop structures act to allow the
+#=GF CC    recognition of hairy mRNA by the localisation machinery [1].
+#=GF WK    http://en.wikipedia.org/wiki/Hairy_RNA_localisation_element_(HLE)
+#=GF SQ    5
+
+#=GS D.erecta.1       AC    AAPQ01006549.1/31110-31239
+#=GS D.nebulosa.1     AC    AY262008.1/1-124
+#=GS D.melanogaster.1 AC    AY055841.1/7634-7765
+#=GS D.simulans.1     AC    AY055843.1/7514-7643
+#=GS D.melanogaster.2 AC    AY055833.1/7586-7717
+
+D.erecta.1                   GUUGACAUUUCACAUCAUU.CGCCGGGAUUGCGCAAAUGUUGCCUUGAAG
+D.nebulosa.1                 AGAGACAUUUCACAUCAUUUCGCCAGGAUAACGCAAAUGUUGCUUUGAAG
+D.melanogaster.1             GUAGACAUUUCACAUCAUU.CGCCGGGAUUGCGCAAAUGUUGCUUUGAAG
+D.simulans.1                 GUAGACAUUUCACAUCAUU.CGCCGGGAUUGCGCAAAUGUUGCUUUGAAG
+D.melanogaster.2             GUAGACAUUUCACAUCAUU.CGCCGGGAUUGCGCAAAUGUUGCUUUGAAG
+#=GC SS_cons                 .....<<<<<<....<<<<.<<<.......>>>..>>>>.......>>>>
+#=GC RF                      GUAGACauuuCAcAUCauu.CGCcGGGAUUGCGcAaauGUUGcUUUGaag
+
+D.erecta.1                   UG.UUGCAAACAUGCGAGUCCUAAC..UCGGUCCACGGCUUCGUCGGCUU
+D.nebulosa.1                 UGCUUUAAAACAUGCGAAUUCCUUC..AUGGUCCAAAACACUUCGCUGUG
+D.melanogaster.1             UG.UUGCAAACAUGCGAAUCCUAAAACUCGGUUCACGGCUUCGUUGGCUU
+D.simulans.1                 UG.UUGCAAACAUGCGAAUCCUAAA..UCGGUUCACGGCUUCGUUGGCUU
+D.melanogaster.2             UG.UUGCAAACAUGCGAAUCCUAAAACUCGGUUCACGGCUUCGUUGGCUU
+#=GC SS_cons                 >>........................................<<<<<<..
+#=GC RF                      uG.UUGcAAAcAUGcGAAUccUAAAAcUcGGUUcAcGGcUUcGcuGgCUU
+
+D.erecta.1                   AGUUUCCUGGCUUACAUCCGGGAAACCCGCCGGC
+D.nebulosa.1                 AGUUU...ACCUCAACC.....AACUUUCAGUGA
+D.melanogaster.1             AGUUUCCUGGCUUAUAUCCUGGAAACCCGUCGGC
+D.simulans.1                 AGUUUCCUCGCUUAUAUCCUGGAAACCCGCCGGC
+D.melanogaster.2             AGUUUCCUGGCUUAUAUCCUGGAAACCCGUCGAC
+#=GC SS_cons                 .<<<<<<.<<.......>>.>>>>>>..>>>>>>
+#=GC RF                      AGuuuCCUGGcUUAUAUCCUGGaaaCccGcCggC
+//

@@ -1,0 +1,78 @@
+# STOCKHOLM 1.0
+#=GF ID    CAESAR
+#=GF AC    RF00172
+#=GF DE    ctgf/hcs24 CAESAR
+#=GF AU    Griffiths-Jones SR
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    24.4
+#=GF SE    Griffiths-Jones SR
+#=GF SS    Published; PMID:11032028
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    10350062
+#=GF RT    Involvement of cis-acting repressive element(s) in the
+#=GF RT    3'-untranslated region of human connective tissue growth factor gene.
+#=GF RA    Kubota S, Hattori T, Nakanishi T, Takigawa M;
+#=GF RL    FEBS Lett 1999;450:84-88.
+#=GF RN    [2]
+#=GF RM    11032028
+#=GF RT    Identification of an RNA element that confers post-transcriptional
+#=GF RT    repression of connective tissue growth factor/hypertrophic
+#=GF RT    chondrocyte specific 24 (ctgf/hcs24) gene: similarities to retroviral
+#=GF RT    RNA-protein interactions.
+#=GF RA    Kubota S, Kondo S, Eguchi T, Hattori T, Nakanishi T, Pomerantz RJ,
+#=GF RA    Takigawa M;
+#=GF RL    Oncogene 2000;19:4773-4786.
+#=GF RN    [3]
+#=GF RM    12674494
+#=GF RT    Conserved repressive regulation of connective tissue growth
+#=GF RT    factor/hypertrophic chondrocyte-specific gene 24 (ctgf/hcs24) enabled
+#=GF RT    by different elements and factors among vertebrate species.
+#=GF RA    Mukudai Y, Kubota S, Takigawa M;
+#=GF RL    Biol Chem 2003;384:1-9.
+#=GF CC    The 3' UTR of human connective tissue growth factor/hypertrophic
+#=GF CC    chondrocyte specific 24 (ctgf/hcs24) mRNA has been shown to 
+#=GF CC    repress ctgf gene expression [1].  Reference [2] identified a
+#=GF CC    minimal RNA element, predicted to form a stable secondary
+#=GF CC    structure, which acts as a post-transcriptional cis-acting
+#=GF CC    element of structure-anchored repression (CAESAR), probably
+#=GF CC    through direct interactions with as yet unknown nuclear factors.
+#=GF WK    http://en.wikipedia.org/wiki/ctgf/hcs24_CAESAR
+#=GF SQ    9
+
+#=GS X.laevis.1     AC    U43523.1/3405-3479
+#=GS G.gallus.1     AC    AJ298335.1/1190-1262
+#=GS G.gallus.2     AC    AF463517.1/1097-1169
+#=GS M.musculus.1   AC    M70641.1/2922-3001
+#=GS R.norvegicus.1 AC    AB023068.1/1240-1320
+#=GS H.sapiens.1    AC    X78947.1/1179-1258
+#=GS B.taurus.1     AC    AF309555.1/3099-3180
+#=GS S.scrofa.1     AC    U70060.1/1339-1423
+#=GS S.scrofa.2     AC    U70060.1/1239-1321
+
+X.laevis.1                 AUGGAGACAUGGCAU...AGAGGCAGA....GAAACACACUUCAA.....
+G.gallus.1                 AUGGAGACAUGGCAU...AAAGCCA......GAAGGAGACGCUAACU...
+G.gallus.2                 AUGGAGACAUGGCAU...AAAGGCA......GAAGGAGACGCUAACU...
+M.musculus.1               ACGGAGACAUGGCGU...AAAGCCAGGAA..GUAAGGGACACGAACUCAU
+R.norvegicus.1             AUGGAGACAUGGCGU...AAAGCCAGGGA..GUAAGGGACACGAACUCAU
+H.sapiens.1                ACGGAGACAUGGCAU...GAAGCCAGAGA..GUGAGAGACAUUAACUCAU
+B.taurus.1                 AUGGAGACAUGGCCU...AAAGCCAGAGACAGUGAGACACGUGAACAUUU
+S.scrofa.1                 CAGUAGCACAGGUUAUUUAAAGCCAGAGAGAGUGAGACCCAUGAACACUU
+S.scrofa.2                 AUGGAGACAUGGCCU...AAAGCCAGAGAGAGUGAGAC.CAUGAACACUU
+#=GC SS_cons               ...<<<<..<<<<........>>>>......<<<<...............
+
+X.laevis.1                 ..AGACUUUUUCACUU.GAAAUAACUUUGCAUCUCAUUGC
+G.gallus.1                 ..AGAUUCUC.AACUU.GAACU.GAUUUGCAUCUCAUUUU
+G.gallus.2                 ..AGAUUCUC.AACUU.GAACU.GAUUUGCAUCUCAUUUU
+M.musculus.1               U.AGACUAU..AACUU.GAACU.GAGUUGCAUCUCAUUUU
+R.norvegicus.1             UUAGACUAU..AACUU.GAACU.GAGUUACAUCUCAUUUU
+H.sapiens.1                U.AGACUGG..AACUU.GAACU.GAUUCACAUCUCAUUUU
+B.taurus.1                 U.AGGCUGU..CACUU.GAAUC.GAUUCACAUCUCAUUUU
+S.scrofa.1                 G.AGACUGU..CACUU.GAACU.GAUUCACAUCUCAUUUU
+S.scrofa.2                 G.AGACUGU..CACUUUGAACUUGAUUCACAUCUCAUUUU
+#=GC SS_cons               ..........................>>>>.>>>>.....
+//

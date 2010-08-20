@@ -1,0 +1,296 @@
+# STOCKHOLM 1.0
+#=GF ID    SAH_riboswitch
+#=GF AC    RF01057
+#=GF DE    S-adenosyl-L-homocysteine riboswitch
+#=GF AU    Wang J
+#=GF GA    23.0
+#=GF NC    21.3
+#=GF TC    23.3
+#=GF SE    Published; PMID:18374645
+#=GF SS    Published; PMID:18374645
+#=GF TP    Cis-reg; riboswitch;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  --fil-no-hmm  CM SEQDB
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    18374645
+#=GF RT    Riboswitches that sense S-adenosylhomocysteine and activate genes
+#=GF RT    involved in coenzyme recycling.
+#=GF RA    Wang JX, Lee ER, Morales DR, Lim J, Breaker RR
+#=GF RL    Mol Cell. 2008;29:691-702.
+#=GF WK    http://en.wikipedia.org/wiki/SAH_riboswitch
+#=GF SQ    52
+
+#=GS B.glumae.1             AC    DQ996270.1/1706-1772
+#=GS Burkholderia_thailan.1 AC    CP000086.1/3610350-3610417
+#=GS Ralstonia_eutropha_H.1 AC    AM260479.1/256130-256245
+#=GS Ralstonia_eutropha_J.1 AC    CP000090.1/239471-239552
+#=GS Ralstonia_metallidur.1 AC    CP000352.1/177418-177491
+#=GS Limnobacter.1          AC    ABCT01000021.1/8794-8876
+#=GS Ralstonia_pickettii_.1 AC    CP001068.1/3828986-3829069
+#=GS Ralstonia_solanacear.1 AC    AAKL01000003.1/110951-111026
+#=GS Ralstonia_solanacear.2 AC    AL646052.1/107582-107656
+#=GS Acidovorax.1           AC    CP000539.1/650534-650615
+#=GS Comamonas_testostero.1 AC    AAUJ02000001.1/4967338-4967434
+#=GS Delftia_acidovorans_.1 AC    CP000884.1/6586470-6586554
+#=GS Polaromonas_naphthal.1 AC    CP000529.1/516171-516245
+#=GS Polaromonas.1          AC    CP000316.1/4338971-4339043
+#=GS Rhodoferax_ferriredu.1 AC    CP000267.1/475493-475563
+#=GS Verminephrobacter_ei.1 AC    CP000542.1/736181-736268
+#=GS Methylibium_petrolei.1 AC    CP000555.1/3494432-3494509
+#=GS Thiobacillus_denitri.1 AC    CP000116.1/2591597-2591667
+#=GS Nitrosomonas_eutroph.1 AC    CP000450.1/2008713-2008790
+#=GS Nitrosospira_multifo.1 AC    CP000103.1/2909888-2909965
+#=GS Aromatoleum_aromatic.1 AC    CR555306.1/1088385-1088448
+#=GS Azoarcus.1             AC    AM406670.1/4083321-4083393
+#=GS D.aromatica.1          AC    CP000089.1/57435-57505
+#=GS Stigmatella_aurantia.1 AC    AAMD01000008.1/133643-133710
+#=GS Myxococcus_xanthus_D.1 AC    CP000113.1/8035799-8035872
+#=GS Alkalilimnicola_ehrl.1 AC    CP000453.1/2565212-2565295
+#=GS Nitrococcus_mobilis_.1 AC    AAOF01000009.1/53352-53442
+#=GS M.capsulatus.1         AC    AE017282.2/144199-144280
+#=GS A.vinelandii.1         AC    CP001157.1/337216-337304
+#=GS Pseudomonas_aerugino.1 AC    CP000744.1/550494-550599
+#=GS Pseudomonas_syringae.1 AC    AE016853.1/5771306-5771415
+#=GS Pseudomonas_fluoresc.1 AC    CP000094.1/5940642-5940740
+#=GS Pseudomonas_fluoresc.2 AC    CP000076.1/6604864-6604970
+#=GS Pseudomonas_putida_K.1 AC    AE015451.1/5667868-5667964
+#=GS Pseudomonas_putida_W.1 AC    CP000949.1/537987-538083
+#=GS Pseudomonas_stutzeri.1 AC    CP000304.1/4264519-4264605
+#=GS Pseudomonas_syringae.2 AC    CP000075.1/499613-499723
+#=GS P.mendocina.1          AC    CP000680.1/478877-478968
+#=GS Pseudomonas_entomoph.1 AC    CT573326.1/5348242-5348337
+#=GS Stenotrophomonas_mal.1 AC    CP001111.1/739937-740018
+#=GS metag._sequence.1      AC    AATO01000357.1/409-538
+#=GS metag._sequence.2      AC    AATN01000007.1/45143-45222
+#=GS metag._sequence.3      AC    AAFX01048275.1/188-258
+#=GS metag._sequence.4      AC    AATN01000007.1/46422-46509
+#=GS metag._sequence.5      AC    AATO01002448.1/1018-1089
+#=GS metag._sequence.6      AC    AAFX01122445.1/87-162
+#=GS metag._sequence.7      AC    AASZ01001430.1/3830-3908
+#=GS metag._sequence.8      AC    AATN01000156.1/6481-6552
+#=GS metag._sequence.9      AC    AASZ01000145.1/12763-12838
+#=GS metag._sequence.10     AC    AATN01006348.1/58-129
+#=GS metag._sequence.11     AC    AASZ01004975.1/320-450
+#=GS marine_metag.1         AC    AACY020581805.1/324-399
+
+B.glumae.1                         ....UUU.CCGAGGAGCGUUGCGACGGGCA....................
+Burkholderia_thailan.1             G...UUU.CCGAGGAGCGUUGCGACGGGCC....................
+Ralstonia_eutropha_H.1             C...ACU.CCGAGGAGCGUUGCAACGGAUGGAGGCCUGCGAAGCACAUCG
+Ralstonia_eutropha_J.1             C...ACU.CCGAGGAGCGUUGCAACGGAUCGUGGCGUAAC..........
+Ralstonia_metallidur.1             C...ACU.CCGAGGAGCGUUGCAACGGAUGGCC.................
+Limnobacter.1                      C...CGU.UCGAGGAGCGUUGCGACACACCCAUGCUU.............
+Ralstonia_pickettii_.1             C...AUU.CCGAGGAGCGUUGCAACGACCGGCCCAAGUUCAGAC......
+Ralstonia_solanacear.1             A....UU.CCGAGGAGCGUUGCAACGGACCGGCAUGC.............
+Ralstonia_solanacear.2             A....UU.CCGAGGAGCGUUGCAACGGACCGGCAUC..............
+Acidovorax.1                       C...UUU.CCGAGGAGCGUUGCAGCGUCCCCAGCA...............
+Comamonas_testostero.1             C...CAU.CCGAGGAGCGUUGCAGCGUUCCCCAGCCAGCCAUGAGCUGGC
+Delftia_acidovorans_.1             C...UCU.CCGAGGAGCGUUGCAGCGGCCCCCACACAUCA..........
+Polaromonas_naphthal.1             U...CUC.CUGAGGAGCGUUGCAACCCACG....................
+Polaromonas.1                      C...UUC.CUGAGGAGCGUUGCAACCCACA....................
+Rhodoferax_ferriredu.1             U...CUU.CCAAGGAGCGUUGCAGUCGGCC....................
+Verminephrobacter_ei.1             C...GCU.CCGAGGAGCGUUGCAGCGCCUCCCACCGGCAGGGC.......
+Methylibium_petrolei.1             A...CUU.UCGAGGAGCGUUGCAACUCCCG....................
+Thiobacillus_denitri.1             G...GUU.CCGAGGAGCGCUGCGACGG...U...................
+Nitrosomonas_eutroph.1             U...UGUACCGAGGAGCGCUGCAACGGUCU....................
+Nitrosospira_multifo.1             C...AGA.CCGAGGAGCGCUGCAACGGGCA....................
+Aromatoleum_aromatic.1             U.....G.CCGAGGAGCGCUGCGAGAC.......................
+Azoarcus.1                         C...CUG.CCGAGGAGCGCUGCGACCCGAAA...................
+D.aromatica.1                      U...CUG.CCGAGGAGCGCUGCGACCCUUU....................
+Stigmatella_aurantia.1             C...AAC.CUGAGGAGCGCUGCAACGGGGA....................
+Myxococcus_xanthus_D.1             G...ACU.UCGAGGAGCGCUGCGAGGCCGG....................
+Alkalilimnicola_ehrl.1             C...GCC.CCGAGGAGCGCUGCAACAGGGCC...................
+Nitrococcus_mobilis_.1             C...UCG.CCGAGGAGCGCUGCAACAGGACACGUCU..............
+M.capsulatus.1                     ....GCG.CCGAGGAGCGCUGCGACGGCCCG...................
+A.vinelandii.1                     C...CUU.CCGAGGGGCGCUGCAGCAGGCCUGC.................
+Pseudomonas_aerugino.1             C...CGU.UCGAGGGGCGCUGCAGCAGGCC....................
+Pseudomonas_syringae.1             C...UGU.CCGAGGGGCGCUGCAGCAGGUU....................
+Pseudomonas_fluoresc.1             C...UGU.CCGAGGGGCGCUGCAGCAGGUU....................
+Pseudomonas_fluoresc.2             C...UGU.CCGAGGGGCGCUGCAGCAGGCA....................
+Pseudomonas_putida_K.1             C...UGU.CCGAGGGGCGCUGCAGCAGGCU....................
+Pseudomonas_putida_W.1             C...UGU.CCGAGGGGCGCUGCAGCAGGGU....................
+Pseudomonas_stutzeri.1             C...CAC.CCGAGGGGCGCUGCAGCAGGUU....................
+Pseudomonas_syringae.2             C...UGU.CCGAGGGGCGCUGCAGCAGGUU....................
+P.mendocina.1                      C...CGU.CCGAGGGGCGCUGCAGCAGGUCGGUCGA..............
+Pseudomonas_entomoph.1             C...CGG.CCGAGGGGCGCUGCAGCAGGUU....................
+Stenotrophomonas_mal.1             ....CUG.CCGAGGGGCGCUGCGACCGGAUCCC.................
+metag._sequence.1                  C...CCG.CCGAGGGGCGCUGCGACCAUGGACCUGCGGCCCGAGCCGCGA
+metag._sequence.2                  ......A.CUGAGGAGCGUUGCGACAGGUU....................
+metag._sequence.3                  CAU.UAG.CUGAGGAGCGCUGCAACUCCGG....................
+metag._sequence.4                  .....GC.CUGAGGAGCGCUGCAACGGUUAGCAGAUAUUAAC........
+metag._sequence.5                  ....AAU.CCGAGGGGCGCUGCAGGGCUGUCG..................
+metag._sequence.6                  ....GCU.UCGAGGAGCGCUGCGACUUGCGU...................
+metag._sequence.7                  C.....A.CCGAGGAGCGUUGCAACGGGAC....................
+metag._sequence.8                  ....AAU.CCGAGGAGCGCUGCAGGGCCGUCG..................
+metag._sequence.9                  CCUGUGU.GCGAGGAGCGCUGCGACAG...C...................
+metag._sequence.10                 ....AAU.CCGAGGAGCGCUGCAAGGCUGUCG..................
+metag._sequence.11                 CCUCCCA.CCGAGGAGCGCUGCAACCCCAUUAUUAAAUCGGCACCUGCGG
+marine_metag.1                     U...CUU.CCGAGGAGCGUUGCAACCGCCACUUU................
+#=GC SS_cons                       ....<<<.<<<<............<<<<<<....................
+#=GC RF                            c...uuu.CCGAGGAGCGcUGCAACgggcca...................
+
+B.glumae.1                         .............................CCGGCCCGCCAGGCUCGGAAA
+Burkholderia_thailan.1             ..............................CCGCCCGCCAGGCUCGGAAA
+Ralstonia_eutropha_H.1             CGCGGCCGGCGGCACAGCCGCCCC...AUGCCAUCCGCCAGGCUCGGACU
+Ralstonia_eutropha_J.1             ...........................AUGCCCUCCGCCAGGCUCGGACU
+Ralstonia_metallidur.1             ...........................UCGCCUUCCGCCAGGCUCGGAAU
+Limnobacter.1                      ...........................UUUUGGGGUGCUAGGCUCGAACA
+Ralstonia_pickettii_.1             ...........................GGGGCGGCCGCCAGGCUCGGAAG
+Ralstonia_solanacear.1             ...........................GCCCGGCCCGCCAGGCUCGGAA.
+Ralstonia_solanacear.2             ...........................CGCCCGGCCGCCAGGCUCGGAA.
+Acidovorax.1                       ...........................CGGCGGGGCGCGAGGCUCGGAAG
+Comamonas_testostero.1             CU.........................GCGCGGGGCGUGAGGCUCGGAUU
+Delftia_acidovorans_.1             ...........................GGCGUGGUCGCGAGGCUCGGAGU
+Polaromonas_naphthal.1             ............................GCAUGUGGUCUAGGCUCAGGAC
+Polaromonas.1                      ............................UCACGUGGACCAGGCUCAGGAC
+Rhodoferax_ferriredu.1             ...........................ACAUGGCCGGUCAGGCUUGGAUG
+Verminephrobacter_ei.1             ...........................CGGCGGGGCGUGAGGCUCGG.GC
+Methylibium_petrolei.1             .............................CCCGGGAGCCAGGCUCGAAAG
+Thiobacillus_denitri.1             ...........................UCAC...CCGCCAGGCUCGGGAC
+Nitrosomonas_eutroph.1             ...............................AUCUCGUGAGGCUCGGACA
+Nitrosospira_multifo.1             .............................UUGUCCCGCGAGGCUCGGCAA
+Aromatoleum_aromatic.1             ...........................UUCC...GUCCCAGGCUCGGC..
+Azoarcus.1                         ...........................UCACGCCGGGCCAGGCUCGGCAA
+D.aromatica.1                      ...........................AAUUCGGGGGCCAGGCUCGGCAA
+Stigmatella_aurantia.1             ..............................CUUCCCGCCAGGCUCAGGUU
+Myxococcus_xanthus_D.1             .............................ACCCGGCCCCAGGCUCGAAGC
+Alkalilimnicola_ehrl.1             ...........................GCCGGCCCUGCCAGGCUCGGGGA
+Nitrococcus_mobilis_.1             ...........................UGGAUUCCUGCCAGGCUCGGCGA
+M.capsulatus.1                     ...........................UCGAGGGCCGCCAGGCUCGGCGG
+A.vinelandii.1                     ...........................CAACGGCCUGUCAGGCUCGGAAG
+Pseudomonas_aerugino.1             .............................UAGGCCUGUCAGGCUCGAACG
+Pseudomonas_syringae.1             ..............................UACCCUGUCAGGCUCGGAUG
+Pseudomonas_fluoresc.1             ..............................CAACCUGUCAGGCUCGGAUG
+Pseudomonas_fluoresc.2             ..............................UGACCUGUCAGGCUCGGAUG
+Pseudomonas_putida_K.1             ..............................AGGCCUGUCAGGCUCGGAUG
+Pseudomonas_putida_W.1             ..............................CAUCCUGUCAGGCUCGGAUG
+Pseudomonas_stutzeri.1             ...........................CCAGAACCUGUCAGGCUCGGAUG
+Pseudomonas_syringae.2             ..............................UUCCCUGUCAGGCUCGGAUG
+P.mendocina.1                      ...........................CACCGGUUUGUCAGGCUCGGAUG
+Pseudomonas_entomoph.1             ..............................CGUCCUGUCAGGCUCGGUCG
+Stenotrophomonas_mal.1             ...........................UUGAGGCCGGCCAGGCUCGGCCA
+metag._sequence.1                  AGCCGCGCACACGUCCGUGCGCGCCUGCGAUCCCUGGCCAGGCUCGGCAG
+metag._sequence.2                  ...............................UUCCUGCCAGGCUCAGU..
+metag._sequence.3                  ............................UUUACGGAACCAGGCUCAGCAA
+metag._sequence.4                  ...........................UCGCUAACCGCUAGGCUCAGGC.
+metag._sequence.5                  ...........................UUCGACAGUUUCAGGCUCGGAUU
+metag._sequence.6                  ...........................GGUUUGCAAGCCAGGCUCGGAGC
+metag._sequence.7                  ............................AAGGUCCCGCCAGGCUCGGU..
+metag._sequence.8                  ...........................AUCGACGGUUUCAGGCUCGGAUU
+metag._sequence.9                  ...........................UUAA...CUGCCAGGCUCGCCCA
+metag._sequence.10                 ...........................UCCCACAGUUUCAGGCUCGGAUU
+metag._sequence.11                 UCGGGUUUCGACCACAGGUGCCGAUUUAGUCGCGGGGCCAGGCUCGGUGA
+marine_metag.1                     ...........................AGCUUGGCGGCCAGGCUCGGAAC
+#=GC SS_cons                       ...............................>>>>>>......>>>>>>>
+#=GC RF                            ...........................uuacggcccGcCAGGCUCGGaaa
+
+B.glumae.1                         .................................................U
+Burkholderia_thailan.1             .................................................U
+Ralstonia_eutropha_H.1             G................................................U
+Ralstonia_eutropha_J.1             G................................................U
+Ralstonia_metallidur.1             .................................................G
+Limnobacter.1                      A.G.....................................AAAU......
+Ralstonia_pickettii_.1             ..................................................
+Ralstonia_solanacear.1             .................................................G
+Ralstonia_solanacear.2             .................................................G
+Acidovorax.1                       U.C.....................................AUAC.....C
+Comamonas_testostero.1             U........................................CAU.....C
+Delftia_acidovorans_.1             C.A.....................................UA.......C
+Polaromonas_naphthal.1             ..U.....................................UCUA.....U
+Polaromonas.1                      .........................................UUC.....A
+Rhodoferax_ferriredu.1             .................................................A
+Verminephrobacter_ei.1             ..A.....................................UCAU.....C
+Methylibium_petrolei.1             U.C.....................................AUCC..CCCG
+Thiobacillus_denitri.1             ..G.....................................CUUC.....C
+Nitrosomonas_eutroph.1             A.A.....................................UGAA.CAACC
+Nitrosospira_multifo.1             G.G.....................................AAGG..AUCG
+Aromatoleum_aromatic.1             .........................................CCU.....U
+Azoarcus.1                         C................................................C
+D.aromatica.1                      .................................................U
+Stigmatella_aurantia.1             .................................................C
+Myxococcus_xanthus_D.1             G.G.....................................AAUC......
+Alkalilimnicola_ehrl.1             U.G...............................GCGCCCCAUC.....G
+Nitrococcus_mobilis_.1             U.U.............................AUCGGGACCUUU.....A
+M.capsulatus.1                     G.G.....................................ACAAUCGGUU
+A.vinelandii.1                     G.G............................GCGUUUUCCGAAC.....G
+Pseudomonas_aerugino.1             G.A......GCGCGCUCUCAGGCCGGCCUCGCCGGUCUGUCAAC.....G
+Pseudomonas_syringae.1             G.G.GCGUUGUUUGUCAGGUUGAUCACAGCCGGCAAGCCUUAAA.....C
+Pseudomonas_fluoresc.1             G.G............GCGUUGACCGGCUCAGGCCGGACACUAAA.....C
+Pseudomonas_fluoresc.2             G.G....GCGUUGUUGGUACAGGGCUCCCUGUAUGGACACUAAA.....C
+Pseudomonas_putida_K.1             G.G..............GCGUUGCUCGCUCCCGCGAGCGCUUAA.....C
+Pseudomonas_putida_W.1             G.G..............GCGUUGUCCGCUCCCGCGGACGCUCAA.....C
+Pseudomonas_stutzeri.1             G.G...........................GCGUUUCCUCGAAC.....G
+Pseudomonas_syringae.2             G.GGCGUUGUUUGCCAGGACGAUCCUCGACCGGCAAACCUUAAA.....C
+P.mendocina.1                      G.G............................GCGUUAACCAUAC.....G
+Pseudomonas_entomoph.1             G.G...............GCGUUGUCCGCGCAGCGGACGCUCAA.....C
+Stenotrophomonas_mal.1             G.G..................................UGGUACU.....G
+metag._sequence.1                  G.G...............................CGUUCCUUCA.....G
+metag._sequence.2                  A.G...........................AUUGAAGGACAAUU...UAA
+metag._sequence.3                  ..................................................
+metag._sequence.4                  A.A.....................................UCAU...UUA
+metag._sequence.5                  .................................................U
+metag._sequence.6                  A.U.....................................UCGA......
+metag._sequence.7                  G.A..............................GGGCUCCAUAA.....G
+metag._sequence.8                  .................................................C
+metag._sequence.9                  CUG.....................................GAUC.....A
+metag._sequence.10                 .................................................C
+metag._sequence.11                 G.G.....................................AGGU.AUCUU
+marine_metag.1                     C................................................G
+#=GC SS_cons                       ..................................................
+#=GC RF                            g.a.....................................aaau.....a
+
+B.glumae.1                         CUUCACCAGGCGGUGGCCCG..
+Burkholderia_thailan.1             GGUCAAC.CGAGCGGUGUGUCU
+Ralstonia_eutropha_H.1             CUUCAAC.GGCGCUCGCUGAUC
+Ralstonia_eutropha_J.1             CUUCAAC.GGCGCUCGCUGAUC
+Ralstonia_metallidur.1             UUUCAAC.GGCGCUCGCAGUUC
+Limnobacter.1                      AAACAAC.GGCGCUCACGCUUC
+Ralstonia_pickettii_.1             UUCAAAC.GGCGCUCGCAGUAU
+Ralstonia_solanacear.1             UUCAAAC.GGCGCUCGCACUAU
+Ralstonia_solanacear.2             UUCAAAC.GGCGCUCGCACUAU
+Acidovorax.1                       CAGCAAC.GACGCUCACCCACG
+Comamonas_testostero.1             CCGCAAC.GACGCUCGCCCACG
+Delftia_acidovorans_.1             CUGCAAC.GACGCUCGCCCACG
+Polaromonas_naphthal.1             UUGCAAC.CACGCUCACCCGCA
+Polaromonas.1                      UUGCAAC.CACGCUCACCCGCA
+Rhodoferax_ferriredu.1             CCCCAAC.GACGCUCACCUGAU
+Verminephrobacter_ei.1             UGGCAAC.GACGCUCAUCCACA
+Methylibium_petrolei.1             AUGCAAC.GGCGCUCACCCGCA
+Thiobacillus_denitri.1             UUUCAAC.GGCGCUCACGUUUU
+Nitrosomonas_eutroph.1             CAACAAC.GGCGCUCUUUCACU
+Nitrosospira_multifo.1             CUACAAC.GGCGCUCGUUCAUU
+Aromatoleum_aromatic.1             CAAAAAC.UGCGCUCACCUUAA
+Azoarcus.1                         GAACAAC.GGCGCUCGCAAACC
+D.aromatica.1                      GAUCAAC.GGCGCUCGCAAACC
+Stigmatella_aurantia.1             AUGUAAC.GGCGCUCGCUGACU
+Myxococcus_xanthus_D.1             ACCCAAC.GGCGCUCACCUGUA
+Alkalilimnicola_ehrl.1             UUCCAAC.GGCGCUCAGCGAAA
+Nitrococcus_mobilis_.1             AACCAAC.GGCGCUCGGUUCAG
+M.capsulatus.1                     UUCCAAC.GGCGCUCUGUUUAU
+A.vinelandii.1                     CAUCAAC.GGCGCCCAUUCGCA
+Pseudomonas_aerugino.1             CACCAAC.GGCGCCCAUUCGCA
+Pseudomonas_syringae.1             GCACAAC.GGCGCCCAUUCGCA
+Pseudomonas_fluoresc.1             GCACAAC.GGCGCCCAUUCGCA
+Pseudomonas_fluoresc.2             GCACAAC.GGCGCCCAUUCGCA
+Pseudomonas_putida_K.1             GCACAAC.GGCGCCCAUUCGCA
+Pseudomonas_putida_W.1             GCACAAC.GGCGCCCAUUCGCA
+Pseudomonas_stutzeri.1             CAUCAAC.GGCGCCCAUUCGCA
+Pseudomonas_syringae.2             GCACAAC.GGCGCCCAUUCGCA
+P.mendocina.1                      CAUCAAC.GGCGCCCAUUCGCA
+Pseudomonas_entomoph.1             GCACAAC.GGCGCCCAUUCGCA
+Stenotrophomonas_mal.1             CAACAAC.GGCGCCCGGCCAGA
+metag._sequence.1                  CGACAAC.GGCGCCCGGACCAA
+metag._sequence.2                  AUACAAC.GGCGCUCAGUCAUC
+metag._sequence.3                  AUGAAAC.GGCGCUCGUUCCAA
+metag._sequence.4                  GAUUAAC.UGCGCUCAUUCAAU
+metag._sequence.5                  CUCAAAC.GGCGCUCAUCCAAC
+metag._sequence.6                  CAGGAAC.GGCGCUCACCCACU
+metag._sequence.7                  UUUCAAC.GGCGCUUACUCUGA
+metag._sequence.8                  CUUAAAC.GGCGCUCAUCCGAC
+metag._sequence.9                  AUGCAAC.GGCGCUCGUAAAUA
+metag._sequence.10                 AUCAAAC.GGCGCUCAUCCCAC
+metag._sequence.11                 CAACGAC.GGCGCUCACUCUGA
+marine_metag.1                     UGACAAC.GGCGCUCACCCGCA
+#=GC SS_cons                       ......................
+#=GC RF                            auaCAAC.GGCGCUCauucaaa
+//

@@ -1,0 +1,83 @@
+# STOCKHOLM 1.0
+#=GF ID    snoZ157
+#=GF AC    RF00333
+#=GF DE    Small nucleolar RNA Z157/R69/R10
+#=GF AU    Moxon SJ
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    26.8
+#=GF SE    Moxon SJ
+#=GF SS    Predicted; PFOLD; Moxon SJ
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Arabidopsis_thaliana300069
+#=GF RN    [1]
+#=GF RM    12007400
+#=GF RT    Small nucleolar RNAs: an abundant group of noncoding RNAs with
+#=GF RT    diverse cellular functions.
+#=GF RA    Kiss T;
+#=GF RL    Cell 2002;109:145-148.
+#=GF RN    [2]
+#=GF RM    12736310
+#=GF RT    The high diversity of snoRNAs in plants: identification and
+#=GF RT    comparative study of 120 snoRNA genes from Oryza sativa.
+#=GF RA    Chen CL, Liang D, Zhou H, Zhuo M, Chen YQ, Qu LH;
+#=GF RL    Nucleic Acids Res 2003;31:2601-2613.
+#=GF CC    Z157, R69 and R10 are members of the C/D class of snoRNA which contain
+#=GF CC    the C (UGAUGA) and  D (CUGA) box motifs. Most of the members of the box
+#=GF CC    C/D family function in directing site-specific 2'-O-methylation of
+#=GF CC    substrate RNAs [1].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_Z157/R69/R10
+#=GF SQ    10
+
+#=GS O.sativa.1   AC    AP004797.3/108010-108108
+#=GS O.sativa.2   AC    AJ490368.1/1-90
+#=GS O.sativa.3   AC    AJ490353.1/1-97
+#=GS O.sativa.4   AC    AJ490369.1/1-99
+#=GS O.sativa.5   AC    AC135559.4/53306-53404
+#=GS O.sativa.6   AC    AJ490354.1/3-101
+#=GS A.thaliana.1 AC    AF317993.1/1-96
+#=GS A.thaliana.2 AC    AF317936.1/1-96
+#=GS A.thaliana.3 AC    AF317937.1/1-96
+#=GS A.thaliana.4 AC    AJ505638.1/15-116
+
+O.sativa.1               UUGGUAGCGGUGAUGA.G..CAAUUUUUAUUUGGACUAGAGUUUCUGAUA
+O.sativa.2               ...GGAGCGGUGAUGA.G..CAAUUUUU.UGUGGACUAGAGUUUCUGAUA
+O.sativa.3               GAACAUGUGGUGAUGA.G..CAACUUCUUUGUGGACUAGGGUUUCUGAUA
+O.sativa.4               UUGGUAGUGGUGAUGA.G..CAAUUUUUAUUUGGACUAGAGUUUCUGAUA
+O.sativa.5               AUGGGAG...UGAUGAAGAACAAUUUUUAUUUGGACUAGAGUUUCUGAUA
+O.sativa.6               AUGGGAG...UGAUGAAGAACAAUUUUUAUUUGGACUAGAGUUUCUGAUA
+A.thaliana.1             ...UUUAUGGUGAUGA.AACGAAUAUUU.CGUGGACUAGAGUUUCAGAUC
+A.thaliana.2             ...AAUAUGGUGAUGA.UA.CAAGAGUAUUGUGGACUAGAGUUUCAGAUC
+A.thaliana.3             ...AAUAUGGUGAUGA.UA.CAAGAGUAUUGUGGACUAGAGUUUCAGAUC
+A.thaliana.4             UUGAAUAUGGUGAUGA.UA.CAAGAGUAUUGUGGACUAGAGUUUCAGAUC
+#=GC SS_cons             <<<<<<<<.................................<<<<...<<
+
+O.sativa.1               CUGC.UACUUU.GUGGU.AGUUGAAGACCAAACCCUU.GGCUGUCUGAGC
+O.sativa.2               CUAC.UUUU...GUAGU.AUUUGAAGACCAAACCCUU.GGCUGUCUGAGC
+O.sativa.3               ACAC.UACGCA.GUGUU....UGAUGACCAAACCCUUUGGUUGUCUGAGC
+O.sativa.4               CUGC.UACUUU.GUGGU.AGUUGAAGACCAAACCCUU.GGCUGUCUGAGC
+O.sativa.5               CUGC.UACUUU.GUGGU.AGUUGAAGACUAAACCCUU.GGCUGUCUGAAC
+O.sativa.6               CUGC.UACUUU.GUGGU.AGUUGAAGACUAAACCCUU.GGCUGUCUGAAC
+A.thaliana.1             UGGG.CUCUUCACCCAGAAUUUGAAGAAACAACCCUU.GGCUGUCUGAGU
+A.thaliana.2             UGGGAUUCUUCUCCCAGAAGUUGAAGAUU.AACCCUU.GGCUGUCUGAGU
+A.thaliana.3             UGGGAUUCUUCUCCCAGAAGUUGAAGAUU.AACCCUU.GGCUGUCUGAGU
+A.thaliana.4             UGGGAUUCUUCUCCCAGAAGUUGAAGAUU.AACCCUU.GGCUGUCUGAGU
+#=GC SS_cons             <<<<........>>>>>.>...>>>>......................>>
+
+O.sativa.1               UUCCAG
+O.sativa.2               UCC...
+O.sativa.3               UCCUCU
+O.sativa.4               UUCCAG
+O.sativa.5               UUCCAU
+O.sativa.6               UUCCAU
+A.thaliana.1             AAA...
+A.thaliana.2             AUU...
+A.thaliana.3             AUU...
+A.thaliana.4             AUUAAU
+#=GC SS_cons             >>>>>>
+//

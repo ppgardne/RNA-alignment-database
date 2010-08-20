@@ -1,0 +1,128 @@
+# STOCKHOLM 1.0
+#=GF ID    snoZ279_R105_R108
+#=GF AC    RF00304
+#=GF DE    Small nucleolar RNA Z279/snoR105/snoR108
+#=GF AU    Moxon SJ, Daub J
+#=GF GA    32.0
+#=GF NC    28.7
+#=GF TC    35.5
+#=GF PI    snoZ279
+#=GF SE    Moxon SJ, Daub J, INFERNAL
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF RN    [1]
+#=GF RM    12007400
+#=GF RT    Small nucleolar RNAs: an abundant group of noncoding RNAs with
+#=GF RT    diverse cellular functions.
+#=GF RA    Kiss T;
+#=GF RL    Cell 2002;109:145-148.
+#=GF RN    [2]
+#=GF RM    12477388
+#=GF RT    Experimental RNomics: identification of 140 candidates for small
+#=GF RT    non-messenger RNAs in the plant Arabidopsis thaliana.
+#=GF RA    Marker C, Zemann A, Terhorst T, Kiefmann M, Kastenmayer JP, Green P,
+#=GF RA    Bachellerie JP, Brosius J, Huttenhofer A;
+#=GF RL    Curr Biol. 2002;12:2002-2013.
+#=GF CC    This family includes the plant snoRNAs known as Z279, snoR105 and
+#=GF CC    snoR108. All three are members of the C/D class of snoRNA which
+#=GF CC    contain the C (UGAUGA) and D (CUGA) box motifs. Most of the
+#=GF CC    members of the box C/D family function in directing site-specific
+#=GF CC    2'-O-methylation of substrate RNAs [1].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_Z279
+#=GF SQ    20
+
+#=GS O.sativa.1       AC    AJ536284.1/1-112
+#=GS O.sativa.2       AC    AJ536283.1/1-110
+#=GS O.sativa.3       AC    AL713946.3/150758-150869
+#=GS O.sativa.4       AC    AC123520.2/27049-27158
+#=GS O.sativa.5       AC    AL928750.3/55751-55862
+#=GS V.vinifera.1     AC    CAAP02006182.1/3674-3777
+#=GS S.lycopersicum.1 AC    AC193778.1/20986-21092
+#=GS S.lycopersicum.2 AC    AC193778.1/61393-61498
+#=GS M.truncatula.1   AC    CT868736.5/110719-110822
+#=GS M.truncatula.2   AC    CU024896.7/59229-59332
+#=GS M.truncatula.3   AC    AC137065.26/13599-13701
+#=GS R.communis.1     AC    AASG02000449.1/1873-1977
+#=GS P.trichocarpa.1  AC    AARH01001039.1/573251-573357
+#=GS P.trichocarpa.2  AC    AARH01002873.1/98413-98519
+#=GS A.thaliana.1     AC    AC010852.7/39410-39511
+#=GS A.thaliana.2     AC    AJ505636.1/8-110
+#=GS A.thaliana.3     AC    AC021043.4/111618-111721
+#=GS A.thaliana.4     AC    AB006707.1/79618-79722
+#=GS A.thaliana.5     AC    AJ505633.1/2-106
+#=GS B.rapa.1         AC    AC189264.1/14531-14636
+
+O.sativa.1                   GGG.AGAUGAGGAGUGG.CA..ACAUCUCGCAACUUU.UACUGCGAGAGG
+O.sativa.2                   GGG.AGAUGAUGAGUGG.UA..ACAUCUCGCUAAUUAAUGUUGCGAGAGG
+O.sativa.3                   GGG.AGAUGAGGAGUGG.UA..ACAUCUCGCAACUUU.UACUGCGAGAGG
+O.sativa.4                   GGG.AGAUGAUGAGUGG.UA..ACAUCUCGCUAAUUAAUGUUGCGAGAGG
+O.sativa.5                   GGG.AGAUGAGGAGUGG.UA..ACAUCUCGCAACUUU.UACUGCGAGAGG
+V.vinifera.1                 GGG.AUAUGAUGAGUGG.UC..AACGUUCGCAACAAA.UAU.GCGAGAUG
+S.lycopersicum.1             AGG.AUAUGAUGAGUGG.UCA.AAUGCUCAC.AAUAA.UUUUGUGAGAAG
+S.lycopersicum.2             GGG.AUGUGAUGAGUGG.UC..AAUACUCGCAUUAAA.AUAUGUGAGAAG
+M.truncatula.1               GGG.AUAUGAUGAGUGG.UU..GAGUCUCGCACAUAA.UAU.GCGAGUUG
+M.truncatula.2               GGG.AUAUGAUGAGAGG.UU..GAGUCUCGCACAUAA.UAU.GCGAGUUG
+M.truncatula.3               GGG.AAAUGAGGAGUGG.UU..GGAUCUCACCAAUUU.U...GUGAGUUG
+R.communis.1                 GGG.AUAUGAUGAGUGG.UC..AAUGCUCGCUAAUUG.CUAUGCGAGAUG
+P.trichocarpa.1              GGG.AUAUGAUGAGUGG.UC..AGUACUCGCAAUUAA.ACAUGCGAUAUG
+P.trichocarpa.2              GGG.AUAUGAUGAGUGG.UC..AAUGCUCGCAUAUAA.ACAUGCGAGAUG
+A.thaliana.1                 GGG.AAAUGAGGAGUGG.UUAUUAAACUCGC.....U.UAAUGCGAGAAG
+A.thaliana.2                 GGGGAAAUGAGGAAUGG.UUA.UAAUCUCGC....UU.UAAUGCGUGAUG
+A.thaliana.3                 GGG.AUAUGAUGAAUGG.UA..AAAACUCGC...UUA.UAUUGCGAGAAG
+A.thaliana.4                 GGG.AAAUGAGGAAUGGUUA..UAAUCUCGC....UU.UAAUGCGUGAUG
+A.thaliana.5                 GGG.AUAUGAUGAAUGG.UA..AAAACUCGC...UUA.UAUUGCGAGAAG
+B.rapa.1                     GGG.AAAUGAGGAGUGGUUA..UUUUCUCGC.UUUUA.UUAUGCGAGAAG
+#=GC SS_cons                 <<<.<.........<<<.<<......<<<<<...........>>>>>.<<
+#=GC RF                      GGG.AaAUGAuGAGuGG.ua..aAaaCuCGCAaauaA.uaaUGCGaGAaG
+
+O.sativa.1                   GG.UG.CCCGCCCCAACCCAAGCCU.GUUACGACA.AC.AGGGGC.A.UC
+O.sativa.2                   GG.UG.UCUGCCCCAACCAA.GCCU.GUUACGACA.AC.AGGG.C.A..C
+O.sativa.3                   GG.UG.CCCGCCCCAACCCAAGCCU.GUUACGACA.AC.AGGGGC.A.UC
+O.sativa.4                   GG.UG.UCUGCCCCAACCAA.GCCU.GUUACGACA.AC.AGGG.C.A..C
+O.sativa.5                   GG.UG.CCCGCCCCAACCCAAGCCU.GUUACGACA.AC.AGGGGC.A.UC
+V.vinifera.1                 GG.UG.UCCGCCCUAGCC.....UG.GUUACGACA.AU.UGGG.C.A..C
+S.lycopersicum.1             GA.UG.CCUAAGCUCAGC....CUG.GUUACGACA.AUUUAGG.C.C..U
+S.lycopersicum.2             GG.UG.UC.....CAGGCUUAGCCU.UUUACGACA.AU.UUGGGC.G..C
+M.truncatula.1               GG.UG.UUCGCCCCAAGC....CUG.GUUACGACA.AU.UGGG.C.A..C
+M.truncatula.2               GG.UG.UUCGCCCCAAGC....CUG.GUUACGACA.AU.UGGG.C.ACUC
+M.truncatula.3               AG.UGUUCCGCCCACAGC....CUG.GUUACGACA.AU.UGGG.C.A..C
+R.communis.1                 GG.UG.UCCGCCCCUUGCCA......GUUACGACA.AU.AUGGGC.A..C
+P.trichocarpa.1              GG.UG.UCCAACCCACUC....CCUGGUUACGACA.AC.AGGG.C.A.CU
+P.trichocarpa.2              GG.UG.UCCAGCCCACUC....CCUGGUUACGACA.AC.AGGG.C.A..C
+A.thaliana.1                 AG.UG.UUUCGCUC....A..GCCU.GUUACGACU.AU.UGAG.C.A..C
+A.thaliana.2                 AG.CG.CUCCGCUCAAAG....CCU.GUUACGACUAAU.UGGG.C.G..C
+A.thaliana.3                 AG.CG.UUCCGCCCA...AA.GCCU.GUUACGACU.AU.UGGG.C.G..C
+A.thaliana.4                 AG.CG.CUCCGCUCAAAGCCUG.....UUACGACU.AA.UUGGGC.G.CU
+A.thaliana.5                 AG.CG.UUCCGCCCAAAG....CCU.GUUACGACU.AU.UGGG.CAG..C
+B.rapa.1                     AGCGU.UUCGCUCC.......GCCU.GUUACGACA.AU.UGAGCG.C.UC
+#=GC SS_cons                 <<.<<.<<...............<<.<<........>>.>>>>.>.>..>
+#=GC RF                      gG.uG.cccgccccAaac...GCcu.guUACGACA.ac.aggg.C.a..C
+
+O.sativa.1                   CCCAUCAUUU.UACCA.UCUGAUCCC
+O.sativa.2                   UCCAAUAUUU.UACCA.UCUGAUCCC
+O.sativa.3                   CCCAUCAUUU.UACCA.UCUGAUCCC
+O.sativa.4                   UCCAAUAUUU.UACCA.UCUGAUCCC
+O.sativa.5                   CCCAUCAUUU.UACCA.UCUGAUCCC
+V.vinifera.1                 UCUCAUCUUU..ACCAAUCUGAUCCC
+S.lycopersicum.1             UCUCAAUUUU.AUCAA.UUUGAUCCU
+S.lycopersicum.2             UCU.CAAUUU.UACCAAUCUGAUCCC
+M.truncatula.1               UCU..CAUUU.AAUCAAUCUGAUCCC
+M.truncatula.2               UCGUUUAAUC.A...A.UCUGAUCCC
+M.truncatula.3               UCUCCCAAUU...CCAAUCUGAUCCC
+R.communis.1                 UCUCAUCUGU..ACCA.UCUGAUCCC
+P.trichocarpa.1              CCCAUC..UU.CACCAAUCUGAUCCC
+P.trichocarpa.2              UCCCAUCUUC.ACCUA.UCUGAUCCC
+A.thaliana.1                 UCUCCUUCUUUUAUCA.UCUGAUCCC
+A.thaliana.2                 UCCAAUUUUUAUACAA.UCUGAU...
+A.thaliana.3                 UCUCUUUUUUACACAA.UCUGAUCCC
+A.thaliana.4                 CCAAUUUUUA.UACAA.UCUGAUCCC
+A.thaliana.5                 UCUCUUUUUUACACAA.UCUGAUCCC
+B.rapa.1                     UCCUUUGUCU.UACCA.UCUGAUCCC
+#=GC SS_cons                 >>>........>>>>>......>>>>
+#=GC RF                      cCuauuauUu.uaCCa.UCUGAUCCC
+//

@@ -1,0 +1,266 @@
+# STOCKHOLM 1.0
+#=GF ID    HepE_CRE
+#=GF AC    RF00550
+#=GF DE    Hepatitis E virus cis-reactive element
+#=GF AU    Moxon SJ
+#=GF GA    53.0
+#=GF NC    47.4
+#=GF TC    69.0
+#=GF SE    PMID:15890906
+#=GF SS    Published; PMID:15890906
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    15890906
+#=GF RT    The open reading frame 3 gene of hepatitis E virus contains a
+#=GF RT    cis-reactive element and encodes a protein required for infection of
+#=GF RT    macaques.
+#=GF RA    Graff J, Nguyen H, Yu C, Elkins WR, St Claire M, Purcell RH, Emerson
+#=GF RA    SU;
+#=GF RL    J Virol 2005;79:6680-6689.
+#=GF CC    This family represents a cis-reactive element from Hepatitis E virus
+#=GF CC    which is thought to be essential for "some step in gene expression" [1]. 
+#=GF WK    http://en.wikipedia.org/wiki/Hepatitis_E_virus_cis-reactive_element
+#=GF SQ    46
+
+#=GS Hepatitis_E_virus.1    AC    AF051352.1/30-179
+#=GS Hepatitis_E_virus.2    AC    AB099347.1/5093-5243
+#=GS Hepatitis_E_virus.3    AC    AY204877.1/5012-5161
+#=GS Hepatitis_E_virus.4    AC    U22532.1/1-90
+#=GS Hepatitis_E_virus.5    AC    D11092.1/5053-5202
+#=GS Hepatitis_E_virus.6    AC    D10330.1/5053-5202
+#=GS Hepatitis_E_virus.7    AC    AF051830.1/5053-5202
+#=GS Hepatitis_E_virus.8    AC    AB091394.1/5063-5209
+#=GS Hepatitis_E_virus.9    AC    M73218.1/5053-5202
+#=GS Hepatitis_E_virus.10   AC    AF065061.1/40-189
+#=GS Hepatitis_E_virus.11   AC    AF010422.1/22-171
+#=GS Hepatitis_E_virus.12   AC    AF058684.1/39-188
+#=GS Hepatitis_E_virus.13   AC    AB074920.3/5083-5229
+#=GS Hepatitis_E_virus.14   AC    AF455784.1/5066-5212
+#=GS Hepatitis_E_virus.15   AC    AF185822.1/5002-5151
+#=GS Hepatitis_E_virus.16   AC    AB074918.2/5099-5245
+#=GS Hepatitis_E_virus.17   AC    AY245779.1/1-105
+#=GS Hepatitis_E_virus.18   AC    AB089824.1/5099-5245
+#=GS Hepatitis_E_virus.19   AC    AB161719.1/5068-5218
+#=GS Hepatitis_E_virus.20   AC    AB080576.1/431-581
+#=GS Hepatitis_E_virus.21   AC    AF076239.3/5053-5202
+#=GS Hepatitis_E_virus.22   AC    AJ272108.1/5093-5243
+#=GS Hepatitis_E_virus.23   AC    M94177.1/5053-5202
+#=GS Hepatitis_E_virus.24   AC    AF001276.1/35-184
+#=GS Swine_hepatitis_E_vi.1 AC    AY115488.1/5097-5243
+#=GS Hepatitis_E_virus.25   AC    AF010418.1/22-171
+#=GS Swine_hepatitis_E_vi.2 AC    AY594199.1/5101-5251
+#=GS Hepatitis_E_virus.26   AC    AB074915.3/5077-5227
+#=GS Hepatitis_E_virus.27   AC    AF459438.1/5053-5202
+#=GS Swine_hepatitis_E_vi.3 AC    AB097811.1/5093-5243
+#=GS Hepatitis_E_virus.28   AC    X99441.1/5053-5202
+#=GS Hepatitis_E_virus.29   AC    M80581.1/5023-5172
+#=GS Hepatitis_E_virus.30   AC    AB075971.1/25-175
+#=GS Hepatitis_E_virus.31   AC    AF051351.1/28-177
+#=GS Hepatitis_E_virus.32   AC    AF010421.1/22-171
+#=GS Hepatitis_E_virus.33   AC    M74506.1/5023-5172
+#=GS Hepatitis_E_virus.34   AC    AB080578.1/431-577
+#=GS Hepatitis_E_virus.35   AC    AY575859.1/5097-5243
+#=GS Hepatitis_E_virus.36   AC    AF060669.1/5106-5252
+#=GS Hepatitis_E_virus.37   AC    X98292.1/5052-5201
+#=GS Hepatitis_E_virus.38   AC    L25547.1/5052-5201
+#=GS Swine_hepatitis_E_vi.4 AC    AB073912.1/5081-5227
+#=GS Hepatitis_E_virus.39   AC    AB108537.1/5074-5224
+#=GS Hepatitis_E_virus.40   AC    AP003430.1/5082-5228
+#=GS Hepatitis_E_virus.41   AC    AF060668.1/5041-5187
+#=GS Hepatitis_E_virus.42   AC    D11093.1/5053-5202
+
+Hepatitis_E_virus.1                GAGUCUAUAAAGCCUGUGCUCGACUUGACAAAUUCAAUCUUGUGUCGGGU
+Hepatitis_E_virus.2                GAAACAGUCAAACCCGUCCUUGAUCUUACUAGCUCUAUUAUAUACCGGGU
+Hepatitis_E_virus.3                GAGUCUAUAAAACCAGUGCUCGACUUGACAAAUUCAAUCUUGUGUCGGGU
+Hepatitis_E_virus.4                ..................................................
+Hepatitis_E_virus.5                GAGUCAGUGAAGCCAGUGCUCGACCUGACAAAUUCAAUCCUGUGUCGGGU
+Hepatitis_E_virus.6                GAGUCAGUAAAACCGGUGCUCGACUUGACAAAUUCAAUCUUGUGUCGGGU
+Hepatitis_E_virus.7                GAGUCAGUAAAACCAGUGCUCGACCUGACAAAUUCAAUUUGGUGUCGGGU
+Hepatitis_E_virus.8                GAGACUAUUAAACCUGUGCUUGAUCUAACAAAUUCCAUCAUACAGCGGGU
+Hepatitis_E_virus.9                GAGUCAGUAAAACCAGUGCUCGACUUGACAAAUUCAAUCUUGUGUCGGGU
+Hepatitis_E_virus.10               GAGUCGGUAAAGCCAGUGCUUGACCUGACGAAUUCAAUCUUGUGUCGGGU
+Hepatitis_E_virus.11               GAGUCAGUAAAGCCAGUGCUCGAUCUGACAAAUUCAAUCCUGUGUCGGGU
+Hepatitis_E_virus.12               GAGUCAGUAAAACCAGUGCUCGACCUGACAAAUUCAAUUUUGUGUCGGGU
+Hepatitis_E_virus.13               GAGACCAUUAAACCUGUGCUUGACCUUACGAAUUCCAUCAUACAGCGGGA
+Hepatitis_E_virus.14               GAGACUGUUAAACCGGUACUGGAUCUUACGAACUCCAUUAUACAGAGGCU
+Hepatitis_E_virus.15               GAGUCAGUAAAACCAGUGCUUGACCUGACAAAUUCAAUUCUGUGUCGGGU
+Hepatitis_E_virus.16               GAGACCAUUAAACCUGUGCUUGACCUUACGAAUUCCAUCAUACAGCGGGA
+Hepatitis_E_virus.17               ..............................................GGGU
+Hepatitis_E_virus.18               GAAACCAUUAAACCUGUGCUUGACCUUACGAAUUCUAUCAUACAGCGGGU
+Hepatitis_E_virus.19               GAGACAGUUAAACCUGUUUUAGACCUCACCAAUUCUAUUAUACAUCGGGU
+Hepatitis_E_virus.20               GAAACAGUCAAACCCGUCCUUGAUCUUACUAGCUCUAUUAUAUACCGGGU
+Hepatitis_E_virus.21               GAGUCAGUAAAACCAGUGCUCGACCUGACAAAUUCAAUCUUGUGUCGGGU
+Hepatitis_E_virus.22               GAGACAAUUAAGCCUGUCCUUGACCUUACUAGCUCCAUUAUAUACCGGGU
+Hepatitis_E_virus.23               GAGUCAGUGAAGCCAGUGCUCGACCUGACAAAUUCAAUCCUGUGUCGGGU
+Hepatitis_E_virus.24               GAGUCGAUAAAGCCAGUGCUUGACCUGACGAAUUCAAUCUUGUGUCGGGU
+Swine_hepatitis_E_vi.1             GAGACUAUUAAACCUGUGCUUGACUUAACAAACUCUAUCAUACAACGGGU
+Hepatitis_E_virus.25               GAGUCGGUAAAGCCAGUGCUUGACCUGACGAAUUCAAUCUUGUGUCGGGU
+Swine_hepatitis_E_vi.2             GAGACAAUUAAGCCUGUUCUUGACCUUACUAGCUCCAUCAUAUAUCGGGU
+Hepatitis_E_virus.26               GAAACUGUUAAACCUGUUUUGGAUCUCACCAAUUCCAUUAUACAUCGGGU
+Hepatitis_E_virus.27               GAGUCAGUAAAACCAGUGCUCGACCUGACAAAUUCAAUCUUGUGUCGGGU
+Swine_hepatitis_E_vi.3             GAAACAGUCAAACCUGUCCUUGAUCUUACUAGCUCUAUUAUAUACCGGGU
+Hepatitis_E_virus.28               GAGUCAGUAAAACCAGUGCUCGACCUGACAAAUUCAAUCCUGUGUCGGGU
+Hepatitis_E_virus.29               GAGUCAGUGAAGCCAGUGCUUGACCUGACAAAUUCAAUUCUGUGUCGGGU
+Hepatitis_E_virus.30               GAAACAAUCAAACCUGUUCUUGACCUUACUAGUUCCAUUAUAUAUCGGAU
+Hepatitis_E_virus.31               GAGUCUAUAAAGCCUGUGCUCGACUUGACAAAUUCAAUCUUGUGUCGGGU
+Hepatitis_E_virus.32               GAGUCUAUAAAGCCAGUGCUUGACUUGACAAAUUCAAUCUUGUGUCGGGU
+Hepatitis_E_virus.33               GAGUCUGUUAAGCCUAUACUUGACCUUACACACUCAAUUAUGCACCGGUC
+Hepatitis_E_virus.34               GAGACUGUCAAACCUGUACUUGACCUCACAAAUUCCAUCAUACAGCGGGU
+Hepatitis_E_virus.35               GAGACUAUUAAACCUGUGCUUGACCUUACAAACUCUAUCAUACAGCGGGU
+Hepatitis_E_virus.36               GARAAUAUUAAACCUGUGCUUGACCUUACAAAUUCCAUCAUACAACGGGU
+Hepatitis_E_virus.37               GAGUCAGUAAAGCCAGUGCUCGACCUGACAAAUUCAAUCCUGUGUCGGGU
+Hepatitis_E_virus.38               GAGUCAGUGAAGCCAGUGCUCGACCUGACAAAUUCAAUCCUGAGUCGGGU
+Swine_hepatitis_E_vi.4             GAGACUAUCAAACCUGUGCUUGACCUUACAAAUUCUAUCAUACAGCGGGU
+Hepatitis_E_virus.39               GAAACAGUCAAACCGGUCCUAGACUUAACUAACUCUAUCAUACAUCGGAU
+Hepatitis_E_virus.40               GAGUCAAUUAAACCUGUGCUUGACCUUACAAAUUCUAUUAUACAGCGGGU
+Hepatitis_E_virus.41               GAGACUAUUAAACCUGUACUUGAUCUCACAAAUUCCAUCAUACAGCGGGU
+Hepatitis_E_virus.42               GAGUCGGUGAAGCCAGUGCUCGACUUGACAAAUUCAAUCCUGUGUCGGGU
+#=GC SS_cons                       ..<<<<<<.<<<<....>>>>.>.>>>>>................<<<<<
+
+Hepatitis_E_virus.1                GGAAUGAAUAACAUGU.CUUUUGCUGCGCCCAUGGGUUCGCGACCAUGCG
+Hepatitis_E_virus.2                GGAAUGAAUAACAUGUUCUUUUGCUCUGUGCAUGGAGAUGCCACCAUGCG
+Hepatitis_E_virus.3                GGAAUGAAUAACAUGU.CUUUUGCUGCGCCCAUGGGUUCGCGACCAUGCG
+Hepatitis_E_virus.4                ...AUGGAUAACAUGU.CUUUUGCUGCGCCCAUGGGUUCUAGACCAUGGG
+Hepatitis_E_virus.5                GGAAUGAAUAACAUGU.CUUUUGCUGCGCCCAUGGGUUCGCGACCAUGCG
+Hepatitis_E_virus.6                GGAAUGAAUAACAUGU.CUUUUGCUGCGCCCAUGGGUUCGCGACCAUGCG
+Hepatitis_E_virus.7                GGAAUGAAUAACAUGU.CUUUUGCUGCGCCCACGGGUUCGCGAUCAUGCG
+Hepatitis_E_virus.8                GGAAUGAAUAACAUGU.UUUGUGCAUCGCCCAUGG.GAU..CACCAUGCG
+Hepatitis_E_virus.9                GGAAUGAAUAACAUGU.CUUUUGCUGCGCCCAUGGGUUCGCGACCAUGCG
+Hepatitis_E_virus.10               GGAAUGAAUAACAUGU.CUUUUGCUGCGCCCAUGGGUUCGCGACCAUGCG
+Hepatitis_E_virus.11               GGAAUGAAUAACAUGU.CUUUUGCUGCGCCCAUGGGUUCGCGACCAUGCG
+Hepatitis_E_virus.12               GGAAUGAAUAACAUGU.CUUUUGCUGCGCCCAUGGGUUCGCGACCAUGCG
+Hepatitis_E_virus.13               GGAAUGAAUAACAUGU.CUUUUGCACCGCCCAUGG.GAU..CACCAUGCG
+Hepatitis_E_virus.14               AGAAUGAAUAACAUGU.CUUGUGCAUCGCCCAUGG.GAU..CGCCAUGUG
+Hepatitis_E_virus.15               GGAAUGAAUAACAUGU.CUUUUGCUGCGCCCAUGGGUUCGCGACCAUGCG
+Hepatitis_E_virus.16               AGAAUGAAUAACAUGU.CUUUUGCAUCGCCCAUGG.GAU..CACCAUGCG
+Hepatitis_E_virus.17               GGAAUGAAUAACAUGUUCUUUUGCUCCUUGCAUGGCAAUGCCACCAUGCG
+Hepatitis_E_virus.18               GGAAUGAAUAACAUGU.CUUUUGCAUCGCCCAUGG.GAU..CACCAUGCG
+Hepatitis_E_virus.19               GGAAUGAAUAACAUGUUCUUUUGCUCUGUGCAUGGAGAUGCCACCAUGCG
+Hepatitis_E_virus.20               GGAGUGAAUAACAUGUUCUUUUGCUCUGUGCAUGGAGAUGCCACCAUGCG
+Hepatitis_E_virus.21               GGAAUGAAUAACAUGU.CUUUUGCUGCGCCCAUGGGUUCGCGACCAUGGG
+Hepatitis_E_virus.22               GGAAUGAAUAACAUGUUCUUUUGCUCCGUGCAUGGAGAUGCCACCAUGCG
+Hepatitis_E_virus.23               GGAAUGAAUAACAUGU.CUUCUGCUGCGCCCAUGGGUUCGCGACCAUGCG
+Hepatitis_E_virus.24               GGAAUGAAUAACAUGU.CUUUUGCUGCGCCCAUGGGUUCGCGACCAUGCG
+Swine_hepatitis_E_vi.1             GGAAUGAAUAACAUGU.CUUGUGCUUCACCCAUGG.GAC..CACCAUGCG
+Hepatitis_E_virus.25               GGAAUGAAUAACAUGU.CUUUUGCUGCGCCCAUGGGUUCGCGACCAUGCG
+Swine_hepatitis_E_vi.2             GGAAUGAAUAACAUGUUCUUUUGCUCUGCGCAUGGAGAUGCCACCAUGCG
+Hepatitis_E_virus.26               GGAAUGAAUAACAUGUUCUUUUGCUCUGUGCAUGGAGAUGCCACCAUGCG
+Hepatitis_E_virus.27               GGAAUGAAUAACAUGU.CUUUUGCUGCGCCCAUGGGUUCGCGACCAUGCG
+Swine_hepatitis_E_vi.3             GGAAUGAAUAACAUGUUCUUUUGCUCUGUGCAUGGAGAUGCCACCAUGCG
+Hepatitis_E_virus.28               GGAAUGAAUAACAUGU.CUUUUGCUGCGCCCAUGGGUUCGCGACCAUGCG
+Hepatitis_E_virus.29               GGAAUGAAUAACAUGU.CUUUUGCUGCGCCCAUGGGUUCGCGACCAUGCG
+Hepatitis_E_virus.30               GGAAUGAAUAACAUGUUCUUUUGCUCUGUGCAUGGAGAUGCCACCAUGCG
+Hepatitis_E_virus.31               AGAAUGAAUAACAUGU.CUUUUGCUGCGCCCAUGGGUUCGCGACCAUGCG
+Hepatitis_E_virus.32               GGAAUGAAUAACAUGU.CUUUUGCUGUGCCCAUGGGUUCGCGACCAUGCG
+Hepatitis_E_virus.33               UGAAUGAAUAACAUGU.GGUUUGCUGCGCCCAUGGGUUCGCCACCAUGCG
+Hepatitis_E_virus.34               GGAAUGAAUAACAUGU.CUUUUGCAUCGCCCAUGG.GAA..CACCAUGCG
+Hepatitis_E_virus.35               GGAAUGAAUAACAUGU.CUUUUGCAUCGCCCAUGG.GAU..CACCAUGCG
+Hepatitis_E_virus.36               GGAAUGAAUAACAUGU.CUUUUGCAUCGCCCAUGG.GAU..CACCAUGCG
+Hepatitis_E_virus.37               GGAAUGAAUAACAUGU.CUUUUGCUGCGCCCAUGGGUUCGCGACCAUGCG
+Hepatitis_E_virus.38               GGAAUGAAUAACAUGU.CUUUUGCUGCGCCCAUGGGUCCGCGACCAUGCG
+Swine_hepatitis_E_vi.4             AGAAUGAAUAACAUGU.CUUGUGCAUUGCCCAUGG.GAU..CGCCAUGUG
+Hepatitis_E_virus.39               GGAAUGAAUAACAUGUUCUUUUGCUCUGUGCAUGGAGAUGCCACCAUGCG
+Hepatitis_E_virus.40               GGAAUGAAUAACAUGU.CUUGUGCAUCGCCCAUGG.GAU..CACCAUGCG
+Hepatitis_E_virus.41               GGAAUGAAUAACAUGU.CUUUUGCAUCGCCCAUGG.GAU..CACCAUGCG
+Hepatitis_E_virus.42               GGAAUGAAUAACAUGU.CUUUUGCUGCGCCCAUGGGUUGGCGACCAUGCG
+#=GC SS_cons                       <<.<<<...<<<<<<.......<<.<<<...<<<<<<<.<<<......>>
+
+Hepatitis_E_virus.1                CCCUCGGCCUAUUUUGCUGCUGCUCCUCAUGUUUUUGCCUAUGUUGCCCG
+Hepatitis_E_virus.2                CUCUCGGGCUCUUCUGUUUCUGCUCUUCGUGCUUCUGCCUAUGCUGCCCG
+Hepatitis_E_virus.3                CCCUCGGCCUAUUUUGCUGCUGCUCCUCAUGUUUCUGCCUAUGUUGCCCG
+Hepatitis_E_virus.4                CCCUCGGCCUAUUUUGUUGCUGUUCCUCAUGUUUCUGCCUAUG.......
+Hepatitis_E_virus.5                CCCUCGGCCUAUUUUGCUGUUGCUCCUCAUGUUUCUGCCUAUGCUGCCCG
+Hepatitis_E_virus.6                ACCUCGGCCUAUUUUGUUGCUGCUCCUCAUGUUUUUGCCUAUGUUGCCCG
+Hepatitis_E_virus.7                CCCUCGGCCUAUUUUGUUGCUGUUCCUCAUGUUUCUGCCUAUGCUGCCCG
+Hepatitis_E_virus.8                CCCUAGGGCUGUUCUGUUGCUGUUCCUCGUGCUUUUGCCUAUGUUGCCCG
+Hepatitis_E_virus.9                CCCUCGGCCUAUUUUGUUGCUGCUCCUCAUGUUUUUGCCUAUGCUGCCCG
+Hepatitis_E_virus.10               CCCUCGGCCUAUUUUGUUGCUGUUCCUCAUGUUUCUGCCUAUGUUGCCCG
+Hepatitis_E_virus.11               CCCUCGGCCUAUUUUGCUGUUGCUCCUCAUGUUUUUGCCUAUGCUGCCCG
+Hepatitis_E_virus.12               CCCUCGGCCUAUUUUGUUGCUGUUCCUCAUGUUUCUGCCUAUGCUGCCCG
+Hepatitis_E_virus.13               CCCUAGGGCUGUUCUGUUGUUGUUCCUCGUGCUUCUGCCUAUGCUGCCCG
+Hepatitis_E_virus.14               CCCUCGGGCUGUUUUGCUGUUGUUCCUCGUGCUUUUGCCUAUGCUGCCCG
+Hepatitis_E_virus.15               CCCUCGGCCUAUUUUGUUGCUGCUCCUCAUGUUUUUGCCUAUGCUGCCCG
+Hepatitis_E_virus.16               CCCUAGGGCUGUUCUGUUGUUGUUCCUCGUGCUUUUGCCUAUGCUGCCCG
+Hepatitis_E_virus.17               CCCUCGGGCUCUUUUGUUUUUGCUCCUCCUGUUUUUGCUUAUGCUGCCCG
+Hepatitis_E_virus.18               CCCUAGGGCUGUUCUGCUGUUGUUCCUCAUGCUUCUGCCUAUGCUGCCCG
+Hepatitis_E_virus.19               CUCUCGGGCUUUUCUGUUUUUGUUCCUCGUGCUUCUGCCUAUGCUGCCCG
+Hepatitis_E_virus.20               CUCUCGGGCUCUUCUGUUUCUGCUCUUCGUGCUUCUGCCUAUGUUGCCCG
+Hepatitis_E_virus.21               CCCUCGGCCUAUUUUGUUGCUGUUCCUCAUGUUUCUGCCUAUGCUGCUCG
+Hepatitis_E_virus.22               CUCUCGGGCUCUUCUGUUUCUGCUCUUCGUGCUUCUGCCUAUGUUGCCCG
+Hepatitis_E_virus.23               CCCUCGGCCUAUUUUGCUGUUGCUCCUCAUGUUUCUGCCUAUGCUGCCCG
+Hepatitis_E_virus.24               CCCUCGGCCUAUUUUGCUGCUGUUCCUCAUGUUUUUGCCUAUGCUGCCCG
+Swine_hepatitis_E_vi.1             CCCUAGGGCUAUUUUGUUGUUGUUCUUCGUGCUUCUGCCUAUGCUGCCCG
+Hepatitis_E_virus.25               CCCUCGGCCUAUUUUGUUGCUGCUCCUCAUGUUUCUGCCUAUGUUGCCCG
+Swine_hepatitis_E_vi.2             CUCUCGGGCUCUUCUGUUUCUGCUCCUCGUGUUUUUGCCUAUGCUGCCCG
+Hepatitis_E_virus.26               CUCUCGGGCUCUUCUGUUUCUGCUCUUCGUGUUUUUGCCUAUGCUGCCCG
+Hepatitis_E_virus.27               CCCUCGGCCUAUUUUGUUGCUGUUCCUCAUGUUUCUGCCUAUGCUGCCCG
+Swine_hepatitis_E_vi.3             CUCUCGGGCUCUUCUGUUUUUGCUCUUCGUGCUUCUGCCUAUGCUGCCCG
+Hepatitis_E_virus.28               CCCUCGGCCUAUUUUGUUGCUGCUCCUCAUGUUUUUGCCUAUGCUGCCCG
+Hepatitis_E_virus.29               CCCUCGGCCUAUUUUGCUGUUGCUCCUCAUGUUUCUGCCUAUGCUGCCCG
+Hepatitis_E_virus.30               CUCUCGGGCUCUUCUGUUUCUGCUCCUCGUGCUUCUGCCUAUGCUGCCCG
+Hepatitis_E_virus.31               CCCUCGGCCUAUUUUGCUGCUGUUCCUCAUGUUUCUGCCUAUGCUGCCCG
+Hepatitis_E_virus.32               CCCUCGGCCUAUUUUGCUGCUGUUCUUCAUGUUUCUGCCUAUGUUGCCCG
+Hepatitis_E_virus.33               CCCUAGGCCUCUUUUGCUGUUGUUCCUCUUGUUUCUGCCUAUGUUGCCCG
+Hepatitis_E_virus.34               CCCUAGGGCUGUUCUGUUGCUGUUCUUCGUGCUUCUGCCUAUGCUGCCCG
+Hepatitis_E_virus.35               CCCUAGGGCUGUUCUGUUGUUGCUCUUCGUGCUUCUGCCUAUGCUGCCCG
+Hepatitis_E_virus.36               CCCUAGGGCUGUUCUGUUGUUGCUCUUCGUGCUUUUGCCUAUGCUGCCCG
+Hepatitis_E_virus.37               CCCUCGGCCUAUUCUGUUGUUGCUCCUCAUGUUUUUGCCUAUGUUGCCCG
+Hepatitis_E_virus.38               CCCUCGGCCUAUUUUGCUGUUGCUCCUCAUGUUUCUGCCUAUGCUGCCCG
+Swine_hepatitis_E_vi.4             CCCUAGGGCUGUUCUGUUGUUGCUCUUCGUGCUUUUGCCUAUGCUGCCCG
+Hepatitis_E_virus.39               CUCUCGGGCUCUUUUGUUUCUGCUCCUCGUGCUUCUGCCUAUGCUGCCCG
+Hepatitis_E_virus.40               CCCUAGGGCUGUUCUGUUGUUGCUCUUCGUGCUUCUGCCUAUGCUGCCCG
+Hepatitis_E_virus.41               CCCUAGGGCUGUUCUGUUGUUGUUCCUCAUGUUUCUGCCUAUGCUGCCCG
+Hepatitis_E_virus.42               CCCUCGGCCUAUUUUGCUGUUGCUCCUCAUGUUUCUGCCUAUCGUGCCCG
+#=GC SS_cons                       >....>>>>>>>..>>>....>>....>>>>>>......>>>.>>>>>>>
+
+Hepatitis_E_virus.1                C
+Hepatitis_E_virus.2                C
+Hepatitis_E_virus.3                C
+Hepatitis_E_virus.4                C
+Hepatitis_E_virus.5                C
+Hepatitis_E_virus.6                C
+Hepatitis_E_virus.7                C
+Hepatitis_E_virus.8                C
+Hepatitis_E_virus.9                C
+Hepatitis_E_virus.10               C
+Hepatitis_E_virus.11               C
+Hepatitis_E_virus.12               C
+Hepatitis_E_virus.13               C
+Hepatitis_E_virus.14               C
+Hepatitis_E_virus.15               C
+Hepatitis_E_virus.16               C
+Hepatitis_E_virus.17               C
+Hepatitis_E_virus.18               C
+Hepatitis_E_virus.19               C
+Hepatitis_E_virus.20               C
+Hepatitis_E_virus.21               C
+Hepatitis_E_virus.22               C
+Hepatitis_E_virus.23               C
+Hepatitis_E_virus.24               C
+Swine_hepatitis_E_vi.1             C
+Hepatitis_E_virus.25               C
+Swine_hepatitis_E_vi.2             C
+Hepatitis_E_virus.26               C
+Hepatitis_E_virus.27               C
+Swine_hepatitis_E_vi.3             C
+Hepatitis_E_virus.28               C
+Hepatitis_E_virus.29               C
+Hepatitis_E_virus.30               C
+Hepatitis_E_virus.31               C
+Hepatitis_E_virus.32               C
+Hepatitis_E_virus.33               C
+Hepatitis_E_virus.34               C
+Hepatitis_E_virus.35               C
+Hepatitis_E_virus.36               C
+Hepatitis_E_virus.37               C
+Hepatitis_E_virus.38               C
+Swine_hepatitis_E_vi.4             C
+Hepatitis_E_virus.39               C
+Hepatitis_E_virus.40               C
+Hepatitis_E_virus.41               C
+Hepatitis_E_virus.42               C
+#=GC SS_cons                       .
+//

@@ -1,0 +1,78 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-451
+#=GF AC    RF00722
+#=GF DE    microRNA mir-451
+#=GF AU    Wilkinson A
+#=GF GA    36.0
+#=GF NC    28.5
+#=GF TC    41.8
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000148
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    17
+
+#=GS C.milii.1              AC    AAVX01465249.1/530-602
+#=GS O.latipes.1            AC    BAAE01003505.1/1502-1574
+#=GS Gasterosteus_aculeat.1 AC    AANH01000562.1/126354-126425
+#=GS T.rubripes.1           AC    CAAB01000931.1/60519-60591
+#=GS T.nigroviridis.1       AC    CAAE01014557.1/33640-33712
+#=GS D.rerio.1              AC    BX548073.8/159677-159748
+#=GS G.gallus.1             AC    AADN02025858.1/509-580
+#=GS L.africana.1           AC    AAGU02141945.1/1955-2025
+#=GS C.porcellus.1          AC    AAKN02033337.1/59671-59742
+#=GS R.norvegicus.1         AC    AAHX01064968.1/4545-4616
+#=GS H.sapiens.1            AC    ABBA01015038.1/33404-33475
+#=GS Otolemur_garnettii_s.1 AC    AAQR01668505.1/694-765
+#=GS C.lupus.1              AC    AACN010082587.1/2136-2207
+#=GS F.catus.1              AC    AANG01161467.1/4580-4651
+#=GS B.taurus.1             AC    AAFC03123225.1/17309-17380
+#=GS Monodelphis_domestic.1 AC    AAFR03044825.1/5349-5420
+#=GS O.anatinus.1           AC    AAPN01323131.1/56-127
+
+C.milii.1                          CUGGGGGGUGUCAAUCAAACCGUUACCAUUACUUGUAUU.AAGUACUGGU
+O.latipes.1                        ACAGAGCGGGGCCGUCAAACCGUUACCAUUACUG.AGUU.UAGUAAUGGU
+Gasterosteus_aculeat.1             CAGAGGAGAGGCCGUCAAACCGUUACCAUUACUG.AGUUUCAGUUAUGGU
+T.rubripes.1                       GCAGGGGAGGCCCGUCAAACCGUUACCAUUACUG.AGUUUCAGUUAUGGU
+T.nigroviridis.1                   GCCGGGGAGGGCCGUCAAACCGUUACCAUUACUG.AGUUUCAGUAAUGGU
+D.rerio.1                          ACAGAGAGAGGCGGCGAAACCGUUACCAUUACUG.AGUU.UAGUAAUGGU
+G.gallus.1                         CACAUGGCUGGCAGGGAAACCGUUACCAUUACUG.AGUU.UAGUAAUGGU
+L.africana.1                       CUUGGGAAUGACGAGGAA.CCGUUACCAUUACUG.AGUU.UAGUAAUGGU
+C.porcellus.1                      CUUGGGGAUGGCGAGGAAACCGUUACCAUUACUG.AGUU.UAGUAAUGGU
+R.norvegicus.1                     UUUGGGAAUGGCGAGGAAACCGUUACCAUUACUG.AGUU.UAGUAAUGGU
+H.sapiens.1                        CUUGGGAAUGGCAAGGAAACCGUUACCAUUACUG.AGUU.UAGUAAUGGU
+Otolemur_garnettii_s.1             UGUGGGAAUGGCAAGGAAACCGUUACCAUUACUG.AGUU.UAGUAAUGGU
+C.lupus.1                          CUUGGGGAUGGCGAGGAAACCGUUACCAUUACUG.AGUU.UAGUAAUGGU
+F.catus.1                          CUUGGGAAUGGCGAGGAAACCGUUACCAUUACUG.AGUU.UAGUAAUGGU
+B.taurus.1                         ACUUGGGGUGGCGAGGAAACCGUUACCAUUACUG.AGUU.UAGUAAUGGU
+Monodelphis_domestic.1             GGGCAGCCUGGCGGGGAAACCGUUACCAUUACUG.UGUU.UAGUAAUGGU
+O.anatinus.1                       CGAGGGUCUGGCGAGGAAACCGUUACCAUUACUG.AGUU.UAGUAAUGGU
+#=GC SS_cons                       .....<<<<<<<<<<..<<<<<<<<<<<<<<<<<......>>>>>>>>>>
+#=GC RF                            aaagagggcggCggggAaaCCguuaCCauuaCug.Aguu.caGuaauGGu
+
+C.milii.1                          AAGGGUUAUAUUGCUGC.CUCCGAU
+O.latipes.1                        AAGGGUUCCACGGCCUCUGCUCAAA
+Gasterosteus_aculeat.1             AAGGGUUAUACGGCC.C.UCGCUCA
+T.rubripes.1                       AAGGGUUCCACGGCUCU.CGCUCAA
+T.nigroviridis.1                   AAGGGUUCCGCGGCCCU.CGCUCCA
+D.rerio.1                          AAGGGUUCUGCUGCCUU.UUCUCAA
+G.gallus.1                         AACGGUUCUGCUGACAG.CCAGGCA
+L.africana.1                       AAUGGUUCUCUUGCUGC.AUCCAAA
+C.porcellus.1                      GACGGUUCUCUUGCUGC.UCCCCGA
+R.norvegicus.1                     AAUGGUUCUCUUGCUGC.UCCCACA
+H.sapiens.1                        AAUGGUUCUCUUGCUAU.ACCCAGA
+Otolemur_garnettii_s.1             AACGGUUCUCUUGCUGC.ACCCAAA
+C.lupus.1                          AAUGGUUCUCUUGCUGU.ACCCACA
+F.catus.1                          AACGGUUCUCUUGCUGC.ACCCAGA
+B.taurus.1                         AACGGUUCUCUUGCUGC.ACCCAGA
+Monodelphis_domestic.1             AAGGGUUCUCCCGCUGC.GCUGAGU
+O.anatinus.1                       AACGGUUCUCUGGCUGG.GCCCACC
+#=GC SS_cons                       >>>>>>>..>>>>>>>>.>>.....
+#=GC RF                            aacGGuuaucccGccgc.ccaaaaa
+//

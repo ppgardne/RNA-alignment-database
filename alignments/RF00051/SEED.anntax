@@ -1,0 +1,208 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-17
+#=GF AC    RF00051
+#=GF DE    mir-17 microRNA precursor family
+#=GF AU    Griffiths-Jones SR
+#=GF GA    43.0
+#=GF NC    28.4
+#=GF TC    44.5
+#=GF SE    Griffiths-Jones SR
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF RN    [1]
+#=GF RM    11679670
+#=GF RT    Identification of novel genes coding for small expressed RNAs.
+#=GF RA    Lagos-Quintana M, Rauhut R, Lendeckel W, Tuschl T;
+#=GF RL    Science 2001;294:853-858.
+#=GF RN    [2]
+#=GF RM    11779458
+#=GF RT    microRNAs: tiny regulators with great potential.
+#=GF RA    Ambros V;
+#=GF RL    Cell 2001;107:823-826.
+#=GF CC    This family represents the microRNA (miRNA) precursor mir-17, 
+#=GF CC    family, which includes mir-20, mir-91, and mir-103.  miRNAs 
+#=GF CC    are transcribed as ~70nt precursors (modelled here) and 
+#=GF CC    subsequently processed by the Dicer enzyme to give a ~22nt 
+#=GF CC    product.  In this case the mature sequence comes from the 3' 
+#=GF CC    arm of the precursor.  The extents of the hairpin precursors
+#=GF CC    are not generally known and are estimated based on hairpin 
+#=GF CC    prediction.  The products are thought to have
+#=GF CC    regulatory roles through complementarity to mRNA.  The involvement
+#=GF CC    of Dicer in miRNA processing suggests a relationship with the 
+#=GF CC    phenomenon of RNA interference.  miRNAs are numbered based on
+#=GF CC    the sequence of the mature RNA.
+#=GF WK    http://en.wikipedia.org/wiki/mir-17_microRNA_precursor_family
+#=GF SQ    54
+
+#=GS G.gallus.1             AC    CR390304.1/91-169
+#=GS Macaca_nemestrina_pi.1 AC    AY866318.1/470-551
+#=GS M.mulatta.1            AC    AY866315.1/442-523
+#=GS Macaca_nemestrina_pi.2 AC    AY866318.1/924-1002
+#=GS M.mulatta.2            AC    AY866339.1/221-304
+#=GS Macaca_nemestrina_pi.3 AC    AY866368.1/548-628
+#=GS M.mulatta.3            AC    AY866363.1/941-1023
+#=GS M.mulatta.4            AC    AY866315.1/896-974
+#=GS M.mulatta.5            AC    AY866363.1/547-627
+#=GS Macaca_nemestrina_pi.4 AC    AY866342.1/235-318
+#=GS Macaca_nemestrina_pi.5 AC    AY866368.1/942-1024
+#=GS G.gorilla.1            AC    AY866359.1/544-624
+#=GS G.gorilla.2            AC    AY866309.1/827-905
+#=GS G.gorilla.3            AC    AY866334.1/211-294
+#=GS G.gorilla.4            AC    AY866359.1/938-1020
+#=GS G.gorilla.5            AC    AY866309.1/373-454
+#=GS H.sapiens.1            AC    AF480562.1/1-82
+#=GS H.sapiens.2            AC    AL138714.9/204-285
+#=GS H.sapiens.3            AC    AF480549.1/1-81
+#=GS H.sapiens.4            AC    AB176708.1/1503-1581
+#=GS H.sapiens.5            AC    AL138714.9/658-736
+#=GS H.sapiens.6            AC    AB176708.1/1049-1130
+#=GS P.paniscus.1           AC    AY866336.1/211-294
+#=GS P.paniscus.2           AC    AY866361.1/514-594
+#=GS P.troglodytes.1        AC    AY866338.1/212-295
+#=GS P.troglodytes.2        AC    AY866314.1/488-569
+#=GS P.paniscus.3           AC    AY866312.1/881-959
+#=GS P.paniscus.4           AC    AY866361.1/908-990
+#=GS P.troglodytes.3        AC    AY866314.1/942-1020
+#=GS P.troglodytes.4        AC    AY866365.1/896-978
+#=GS P.troglodytes.5        AC    AY866365.1/502-582
+#=GS P.paniscus.5           AC    AY866312.1/427-508
+#=GS P.pygmaeus.1           AC    AY866364.1/939-1021
+#=GS P.pygmaeus.2           AC    AY866313.1/472-553
+#=GS P.pygmaeus.3           AC    AY866364.1/545-625
+#=GS P.pygmaeus.4           AC    AY866337.1/226-309
+#=GS P.pygmaeus.5           AC    AY866313.1/926-1004
+#=GS Ateles_geoffroyi_bla.1 AC    AY866311.1/449-530
+#=GS Ateles_geoffroyi_bla.2 AC    AY866360.1/541-621
+#=GS Ateles_geoffroyi_bla.3 AC    AY866311.1/905-983
+#=GS Ateles_geoffroyi_bla.4 AC    AY866335.1/233-316
+#=GS Ateles_geoffroyi_bla.5 AC    AY866360.1/935-1017
+#=GS L.lagotricha.1         AC    AY866341.1/221-303
+#=GS L.lagotricha.2         AC    AY866317.1/659-737
+#=GS L.lagotricha.3         AC    AY866367.1/317-399
+#=GS L.lagotricha.4         AC    AY866317.1/203-284
+#=GS Saguinus_labiatus_re.1 AC    AY866340.1/206-289
+#=GS Saguinus_labiatus_re.2 AC    AY866366.1/190-270
+#=GS Saguinus_labiatus_re.3 AC    AY866316.1/431-512
+#=GS Saguinus_labiatus_re.4 AC    AY866316.1/888-966
+#=GS Saguinus_labiatus_re.5 AC    AY866366.1/584-666
+#=GS Lemur_catta_Ring-tai.1 AC    AY866310.1/634-712
+#=GS Lemur_catta_Ring-tai.2 AC    AY866362.1/366-448
+#=GS Lemur_catta_Ring-tai.3 AC    AY866310.1/184-265
+
+G.gallus.1                         CUCUUGUAGCACUAAAGUGCUUAUAGUGCAGGUAG.UGUUCACUA.A.U.
+Macaca_nemestrina_pi.1             UCAGAAUAAUGUCAAAGUGCUUACAGUGCAGGUAG.UGAUAUGUGCA.U.
+M.mulatta.1                        UCAGAAUAAUGUCAAAGUGCUUACAGUGCAGGUAG.UGAUAUGUGCA.U.
+Macaca_nemestrina_pi.2             CUUCUGUAGCACUAAAGUGCUUAUAGUGCAGGUAG.UGUUUAGUU.A.U.
+M.mulatta.2                        CCCUGCUGGGGCUAAAGUGCUGACAGUGCAGAUAGUGGUCCUCUCCG.UG
+Macaca_nemestrina_pi.3             CCUUGGCCAUGUAAAAGUGCUUACAGUGCAGGUAG.CUUUUUGAG.A.U.
+M.mulatta.3                        UCCUAGUAGUACCAAAGUGCUCAUAGUGCAGGUAG.UUUUGGCAUGACU.
+M.mulatta.4                        CUUCUGUAGCACUAAAGUGCUUAUAGUGCAGGUAG.UGUUUAGUU.A.U.
+M.mulatta.5                        CCUUGGCCAUGUAAAAGUGCUUACAGUGCAGGUAG.CUUUUUGAG.A.U.
+Macaca_nemestrina_pi.4             CCCUGCUGGGGCUAAAGUGCUGACAGUGCAGAUAGUGGUCCUCUCCG.UG
+Macaca_nemestrina_pi.5             UCCUAGUAGUACCAAAGUGCUCAUAGUGCAGGUAG.UUUUGGCAUGACU.
+G.gorilla.1                        CCUUGGCCAUGUAAAAGUGCUUACAGUGCAGGUAG.CUUUUUGAG.A.U.
+G.gorilla.2                        CUUCUGUAGCACUAAAGUGCUUAUAGUGCAGGUAG.UGUUUAGUU.A.U.
+G.gorilla.3                        CCCUGCCGGGGCUAAAGUGCUGACAGUGCAGAUAGUGGUCCUCUCCG.UG
+G.gorilla.4                        UCCUAGUAGUACCAAAGUGCUCAUAGUGCAGGUAG.UUUUGGCAUGACU.
+G.gorilla.5                        UCAGAAUAAUGUCAAAGUGCUUACAGUGCAGGUAG.UGAUAUGUGCA.U.
+H.sapiens.1                        UCAGAAUAAUGUCAAAGUGCUUACAGUGCAGGUAG.UGAUAUGUGCA.U.
+H.sapiens.2                        UCAGAAUAAUGUCAAAGUGCUUACAGUGCAGGUAG.UGAUAUGUGCA.U.
+H.sapiens.3                        CCUUGGCCAUGUAAAAGUGCUUACAGUGCAGGUAG.CUUUUUGAG.A.U.
+H.sapiens.4                        CUUCUGUAGCACUAAAGUGCUUAUAGUGCAGGUAG.UGUUUAGUU.A.U.
+H.sapiens.5                        CUUCUGUAGCACUAAAGUGCUUAUAGUGCAGGUAG.UGUUUAGUU.A.U.
+H.sapiens.6                        UCAGAAUAAUGUCAAAGUGCUUACAGUGCAGGUAG.UGAUAUGUGCA.U.
+P.paniscus.1                       CCCUGCCGGGGCUAAAGUGCUGACAGUGCAGAUAGUGGUCCUCUCCG.UG
+P.paniscus.2                       CCUUGGCCAUGUAAAAGUGCUUACAGUGCAGGUAG.CUUUUUGAG.A.U.
+P.troglodytes.1                    CCCUGCCGGGGCUAAAGUGCUGACAGUGCAGAUAGUGGUCCUCUCCG.UG
+P.troglodytes.2                    UCAGAAUAAUGUCAAAGUGCUUACAGUGCAGGUAG.UGAUAUGUGCA.U.
+P.paniscus.3                       CUUCUGUAGCACUAAAGUGCUUAUAGUGCAGGUAG.UGUUUAGUU.A.U.
+P.paniscus.4                       UCCUAGUAGUACCAAAGUGCUCAUAGUGCAGGUAG.UUUUGGCAUGACU.
+P.troglodytes.3                    CUUCUGUAGCACUAAAGUGCUUAUAGUGCAGGUAG.UGUUUAGUU.A.U.
+P.troglodytes.4                    UCCUAGUAGUACCAAAGUGCUCAUAGUGCAGGUAG.UUUUGGCAUGACU.
+P.troglodytes.5                    CCUUGGCCAUGUAAAAGUGCUUACAGUGCAGGUAG.CUUUUUGAG.A.U.
+P.paniscus.5                       UCAGAAUAAUGUCAAAGUGCUUACAGUGCAGGUAG.UGAUAUGUGCA.U.
+P.pygmaeus.1                       UCCUAGUAGUACCAAAGUGCUCAUAGUGCAGGUAG.UUUUGGCAUGACU.
+P.pygmaeus.2                       UCAGAAUAAUGUCAAAGUGCUUACAGUGCAGGUAG.UGAUACGUGCA.U.
+P.pygmaeus.3                       CCUUGGCCAUGUAAAAGUGCUUACAGUGCAGGUAG.CUUUUUGAG.A.U.
+P.pygmaeus.4                       CCCUGCCGGGGCUAAAGUGCUGACAGUGCAGAUAGUGGUCCUCUCCG.UG
+P.pygmaeus.5                       CUUCUGUAGCACUAAAGUGCUUAUAGUGCAGGUAG.UGUUUAGUU.A.U.
+Ateles_geoffroyi_bla.1             UCAGAAUAAUGUCAAAGUGCUUACAGUGCAGGUAG.UGAUAUGUGCA.U.
+Ateles_geoffroyi_bla.2             CCUUGGCCAUGUAAAAGUGCUUACAGUGCAGGUAG.CUUUUUGAG.A.U.
+Ateles_geoffroyi_bla.3             CUUCUGUAGCACUAAAGUGCUUAUAGUGCAGGUAG.UGUUUAGUU.A.U.
+Ateles_geoffroyi_bla.4             CCCUGCCGGGGCUAAAGUGCUGACAGUGCAGAUAGUGGUCCUCUCCG.UG
+Ateles_geoffroyi_bla.5             UCCUAGCAGUACCAAAGUGCUCAUAGUGCAGGUAG.UUUUGGCAUGACU.
+L.lagotricha.1                     CCCUGCCGGGGCUAAAGUGCUGACAGUGCAGAUAG.UGUCCUCUCCG.UG
+L.lagotricha.2                     CUUCUGUAGCACUAAAGUGCUUAUAGUGCAGGUAG.UGUUUAGUU.A.U.
+L.lagotricha.3                     UCCUAGCAGUACCAAAGUGCUCAUAGUGCAGGUAG.UUUUGGCAUGACU.
+L.lagotricha.4                     UCAGAAUAAUGUCAAAGUGCUUACAGUGCAGGUAG.UGAUAUGUGCA.U.
+Saguinus_labiatus_re.1             CCCUGCCGGGGCUAAAGUGCUGACAGUGCAGAUAGUGGUCCUCUCCG.UG
+Saguinus_labiatus_re.2             CCUUGGCCAUGUAAAAGUGCUUACAGUGCAGGUAG.CUUUUUGAG.A.U.
+Saguinus_labiatus_re.3             UCAGAAUAAUGUCAAAGUGCUUACAGUGCAGGUAG.UGAUAUGUGCA.U.
+Saguinus_labiatus_re.4             CUUUUGUAGCACUAAAGUGCUUAUAGUGCAGGUAG.UGUUUAGUU.A.U.
+Saguinus_labiatus_re.5             UCCUAGUAGUACCAAAGUGCUCAUAGUGCAGGUAG.UUUUGGCAUGACU.
+Lemur_catta_Ring-tai.1             CUUCUGUAGCACUAAAGUGCUUAUAGUGCAGGUAG.UGUUUAGUU.A.U.
+Lemur_catta_Ring-tai.2             UCCUAGUAGUACCAAAGUGCUCAUAGUGCAGGUAG.UUUUGGCAUUACU.
+Lemur_catta_Ring-tai.3             UCAGAAUAAUGUCAAAGUGCUUACAGUGCAGGUAG.UGAUAUGUGCA.U.
+#=GC SS_cons                       .....<<<<<<<..<<<<<<<<.<<.<<<<<.<<<...............
+
+G.gallus.1                         CUACUGCAUUAUAAGCACUUAAAGUACUGC..UAG
+Macaca_nemestrina_pi.1             CUACUGCAGUGAAGGCACUUGUAGCAUUAUGGUGA
+M.mulatta.1                        CUACUGCAGUGAAGGCACUUGUAGCAUUAUGGUGA
+Macaca_nemestrina_pi.2             CUACUGCAUUAUGAGCACUUAAAGUACUGC..UAG
+M.mulatta.2                        CUACCGCACUGUGGGUACUUGCUGCUCCAGCAGGG
+Macaca_nemestrina_pi.3             CUACUGCAAUGCAAGCACUUCUUACAUUACCAUGG
+M.mulatta.3                        CUACUGUAGUGUGGGCACUUCCAGUACUCUUGGAU
+M.mulatta.4                        CUACUGCAUUAUGAGCACUUAAAGUACUGC..UAG
+M.mulatta.5                        CUACUGCAAUGCAAGCACUUCUUACAUUACCAUGG
+Macaca_nemestrina_pi.4             CUACCGCACUGUGGGUACUUGCUGCUCCAGCAGGG
+Macaca_nemestrina_pi.5             CUACUGUAGUGUGGGCACUUCCAGUACUCUUGGAU
+G.gorilla.1                        CUACUGCAAUGCAAGCACUUCUUACAUUACCAUGG
+G.gorilla.2                        CUACUGCAUUAUGAGCACUUAAAGUACUGC..UAG
+G.gorilla.3                        CUACCGCACUGUGGGUACUUGCUGCUCCAGCAGGG
+G.gorilla.4                        CUACUGUAAUAUGGGCACUUCCAGUACUCUUGGAU
+G.gorilla.5                        CUACUGCAGUGAAGGCACUUGUAGCAUUAUGGUGA
+H.sapiens.1                        CUACUGCAGUGAAGGCACUUGUAGCAUUAUGGUGA
+H.sapiens.2                        CUACUGCAGUGAAGGCACUUGUAGCAUUAUGGUGA
+H.sapiens.3                        CUACUGCAAUGUAAGCACUUCUUACAUUACCAUGG
+H.sapiens.4                        CUACUGCAUUAUGAGCACUUAAAGUACUGC..UAG
+H.sapiens.5                        CUACUGCAUUAUGAGCACUUAAAGUACUGC..UAG
+H.sapiens.6                        CUACUGCAGUGAAGGCACUUGUAGCAUUAUGGUGA
+P.paniscus.1                       CUACCGCACUGUGGGUACUUGCUGCUCCAGCAGGG
+P.paniscus.2                       CUACUGCAAUGCAAGCACUUCUUACAUUACCAUGG
+P.troglodytes.1                    CUACCGCACUGUGGGUACUUGCUGCUCCAGCAGGG
+P.troglodytes.2                    CUACUGCAGUGAAGGCACUUGUAGCAUUAUGGUGA
+P.paniscus.3                       CUACUGCAUUAUGAGCACUUAAAGUACUGC..UAG
+P.paniscus.4                       CUACUGUAGUAUGGGCACUUCCAGUACUCUUGGAU
+P.troglodytes.3                    CUACUGCAUUAUGAGCACUUAAAGUACUGC..UAG
+P.troglodytes.4                    CUACUGUAGUAUGGGCACUUCCAGUACUCUUGGAU
+P.troglodytes.5                    CUACUGCAAUGCAAGCACUUCUUACAUUACCAUGG
+P.paniscus.5                       CUACUGCAGUGAAGGCACUUGUAGCAUUAUGGUGA
+P.pygmaeus.1                       CUACUGUAGUAUGGGCACUUCCAGUACUCUUGGAU
+P.pygmaeus.2                       CUACUGCAGUGAAGGCACUUGUAGCAUUAUGGUGA
+P.pygmaeus.3                       CUACUGCAAUGCAAGCACUUCUUACAUUACCAUGG
+P.pygmaeus.4                       CUACCGCACUGUGGGUACUUGCUGCUCCAGCAGGG
+P.pygmaeus.5                       CUACUGCAUUAUGAGCACUUAAAGUACUGC..UAG
+Ateles_geoffroyi_bla.1             CUACUGCAGUGAAGGCACUUGUAGCAUUAUGGUGA
+Ateles_geoffroyi_bla.2             CUACUGCAAUGCAAGCACUUCUUACAUUACCAUGG
+Ateles_geoffroyi_bla.3             CUACUGCAUUAUGAGCACUUAAAGUACUGC..UAG
+Ateles_geoffroyi_bla.4             CUACCGCACUGUGGGUACUUGCUGCUCCAGCAGGG
+Ateles_geoffroyi_bla.5             CUACUGUAGUGUGGGCACUUCCAGUACUCUUGGAU
+L.lagotricha.1                     CUACCGCACUGUGGGUACUUGCUGCUCCAGCAGGG
+L.lagotricha.2                     CUACUGCAUUAUGAGCACUUAAAGUACUGC..UAG
+L.lagotricha.3                     CUACUGUAGUGUGGGCACUUCCAGUACUCUUGGAU
+L.lagotricha.4                     CUACUGCAGUGAAGGCACUUGUAGCAUUAUGGUGA
+Saguinus_labiatus_re.1             CUACCGCACUGUGGGUACUUGCUGCUCCAGCAGGG
+Saguinus_labiatus_re.2             CUACUGCAAUGCAAGCACUUCUUACAUUACCAUGG
+Saguinus_labiatus_re.3             CUACUGCAGUGAAGGCACUUGUAGCAUUAUGGUGA
+Saguinus_labiatus_re.4             CUACUGCAUUAUGAGCACUUAAAGUACUGC..UAG
+Saguinus_labiatus_re.5             CUACUGUAGUGUGGGCACUUCCAGUACUCUUGGAU
+Lemur_catta_Ring-tai.1             CUACUGCAUCAUGAGCACUUAAAGUACUGC..UAG
+Lemur_catta_Ring-tai.2             CUACUGUAGUGUGGGCACUUCCAGUACUCUUGGAU
+Lemur_catta_Ring-tai.3             CUACUGCAGUGAAGGCACUUGUAGCAUUAUGGUGA
+#=GC SS_cons                       >>>>>>>>.>>.>>>>>>>>...>>>>>>>.....
+//

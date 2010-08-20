@@ -1,0 +1,62 @@
+# STOCKHOLM 1.0
+#=GF ID    RF_site8
+#=GF AC    RF01097
+#=GF DE    Gag/pro ribosomal frameshift site
+#=GF AU    Wilkinson A
+#=GF GA    43.0
+#=GF NC    43.0
+#=GF TC    43.1
+#=GF SE    Pseudobase
+#=GF SS    Pseudobase
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    PKBASE; PKB00107
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    2402881
+#=GF RT    RNA pseudoknots: translational frameshifting and readthrough on viral
+#=GF RT    RNAs.
+#=GF RA    ten Dam EB, Pleij CW, Bosch L;
+#=GF RL    Virus Genes. 1990;4:121-136.
+#=GF RN    [2]
+#=GF RM    7585244
+#=GF RT    Analysis of the role of the pseudoknot component in the SRV-1 gag-pro
+#=GF RT    ribosomal frameshift signal: loop lengths and stability of the stem
+#=GF RT    regions.
+#=GF RA    ten Dam EB, Verlaan PW, Pleij CW;
+#=GF RL    RNA. 1995;1:146-154.
+#=GF RN    [3]
+#=GF RM    9237911
+#=GF RT    Base-pairings within the RNA pseudoknot associated with the simian
+#=GF RT    retrovirus-1 gag-pro frameshift site.
+#=GF RA    Du Z, Holland JA, Hansen MR, Giedroc DP, Hoffman DW;
+#=GF RL    J Mol Biol. 1997;270:464-470.
+#=GF RN    [4]
+#=GF RM    9490779
+#=GF RT    Mutational analysis of the RNA pseudoknot involved in efficient
+#=GF RT    ribosomal frameshifting in simian retrovirus-1.
+#=GF RA    Sung D, Kang H;
+#=GF RL    Nucleic Acids Res. 1998;26:1369-1372.
+#=GF WK    http://en.wikipedia.org/wiki/Ribosomal_frameshift
+#=GF SQ    4
+
+#=GS Simian_retrovirus_se.1 AC    AF252389.1/572-623
+#=GS Simian_type_D_retrov.1 AC    AB181392.1/1897-1948
+#=GS J.sheep.1              AC    M80216.1/1954-2005
+#=GS Simian_retrovirus_1.1  AC    U85505.1/2460-2511
+
+Simian_retrovirus_se.1             GGGAAACGGGUGGAGGGGCCAGCCCCAGGCCCCGAAACAAGCUUAUGGGG
+Simian_type_D_retrov.1             GGGAAACGGACUGAGGGGCCAGCCCCAGGCCCCGAAACAAGCUUAUGGGG
+J.sheep.1                          GGGAAACUGGGUGAGGGGCCAGCCCCUGGCCCCGAAACAAUGUUAUGGGG
+Simian_retrovirus_1.1              GGGAAACGGGAUGAGGGGCCAGCCCCAGGCCCCGAAACAAGCAUAUGGGG
+#=GC SS_cons                       ..............<<<<<<.AAAAAA>>>>>>............aaaaa
+#=GC RF                            GGGAAAcGGAcUGAGGGGCCAGccccAGGCCCCGAAAcAAGcUUAUGGGG
+
+Simian_retrovirus_se.1             CG
+Simian_type_D_retrov.1             CG
+J.sheep.1                          CA
+Simian_retrovirus_1.1              CA
+#=GC SS_cons                       a.
+#=GC RF                            cG
+//

@@ -1,0 +1,42 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-318
+#=GF AC    RF00818
+#=GF DE    microRNA mir-318
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    82.3
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000259
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    5
+
+#=GS D.mojavensis.1    AC    AAPU01010980.1/46750-46818
+#=GS D.pseudoobscura.1 AC    AADE01000241.1/35557-35624
+#=GS D.melanogaster.1  AC    AC008357.8/142603-142670
+#=GS D.ananassae.1     AC    AAPP01019505.1/87819-87887
+#=GS D.willistoni.1    AC    AAQB01008603.1/8771-8840
+
+D.mojavensis.1                UUUAUGGGAUACACUAAGUUCAGUUUUGUCAGAUGU..CCAAGCAUCACU
+D.pseudoobscura.1             UUUAUGGGAUGCACCAAGUUCAGUUUUGUCACAUUU..CGA.GCAUCACU
+D.melanogaster.1              UUUAUGGGAUACACACAGUUCAGUUUUGUCACACUU..CAA.GCAUCACU
+D.ananassae.1                 UUUGUGGGAUACACACGGUUCAGUUGUGUCACUUUUG.CGA.GCAUCACU
+D.willistoni.1                UUUAUGGGAUACACCAAGUUCAGUUUUGUCGCAUUCCACGA.GCAUCACU
+#=GC SS_cons                  .<<<<<<<<<<<<<<<<<<<<<<<..<<<.............>>>..>>>
+#=GC RF                       uuuauGgGauacacaaaGcccaGuuuuGccAcAuuua.caA.gCaucaCu
+
+D.mojavensis.1                GGGCUUUGUUUAUCUCAUAAG
+D.pseudoobscura.1             GGGCUUUGUUUAUCUCAUAAG
+D.melanogaster.1              GGGCUUUGUUUAUCUCAUGAG
+D.ananassae.1                 GGGCUUUGUUUAUCUCAUAAG
+D.willistoni.1                GGGCUUUGUUUAUCUCAUAGA
+#=GC SS_cons                  >>>>>>>>>>>>>>>>>>>>.
+#=GC RF                       gggCuuuguguauCuCauaag
+//

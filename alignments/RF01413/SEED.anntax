@@ -1,0 +1,214 @@
+# STOCKHOLM 1.0
+#=GF ID    miR-430
+#=GF AC    RF01413
+#=GF DE    microRNA miR-430
+#=GF AU    Gardner PP
+#=GF GA    20.3
+#=GF NC    20.2
+#=GF TC    20.3
+#=GF SE    miRBase; Gardner PP
+#=GF SS    Predicted; CMfinder; Gardner PP
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000003
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    46
+
+#=GS C.milii.1              AC    AAVX01282906.1/993-906
+#=GS C.milii.2              AC    AAVX01519880.1/194-107
+#=GS C.milii.3              AC    AAVX01616752.1/71-158
+#=GS C.milii.4              AC    AAVX01559775.1/358-273
+#=GS C.milii.5              AC    AAVX01559775.1/215-126
+#=GS O.latipes.1            AC    BAAE01232573.1/595-508
+#=GS O.latipes.2            AC    BAAE01232575.1/294-211
+#=GS O.latipes.3            AC    BAAF04118514.1/7211-7298
+#=GS O.latipes.4            AC    BAAF04118514.1/941-1028
+#=GS O.latipes.5            AC    BAAF04118514.1/2175-2262
+#=GS O.latipes.6            AC    BAAE01306502.1/271-354
+#=GS O.latipes.7            AC    BAAE01001317.1/91-4
+#=GS O.latipes.8            AC    BAAE01001321.1/729-644
+#=GS Gasterosteus_aculeat.1 AC    AANH01007361.1/2782-2693
+#=GS Gasterosteus_aculeat.2 AC    AANH01007361.1/1221-1132
+#=GS Gasterosteus_aculeat.3 AC    AANH01007362.1/5180-5089
+#=GS Gasterosteus_aculeat.4 AC    AANH01007362.1/9092-9003
+#=GS Gasterosteus_aculeat.5 AC    AANH01014755.1/1267-1355
+#=GS Gasterosteus_aculeat.6 AC    AANH01014757.1/13117-13205
+#=GS Gasterosteus_aculeat.7 AC    AANH01014757.1/4511-4602
+#=GS Gasterosteus_aculeat.8 AC    AANH01007366.1/6449-6361
+#=GS L.macrochirus.1        AC    AY064510.1/970-1056
+#=GS L.macrochirus.2        AC    AY064510.1/532-619
+#=GS L.macrochirus.3        AC    AB095089.1/532-619
+#=GS L.macrochirus.4        AC    AB095087.1/352-440
+#=GS L.macrochirus.5        AC    AY064509.1/705-798
+#=GS L.macrochirus.6        AC    AY064510.1/391-477
+#=GS L.macrochirus.7        AC    AY064510.1/694-787
+#=GS T.rubripes.1           AC    CAAB01008374.1/4929-4842
+#=GS T.rubripes.2           AC    CAAB01008374.1/5046-4957
+#=GS T.rubripes.3           AC    CAAB01008374.1/5335-5249
+#=GS T.rubripes.4           AC    CAAB01008374.1/4796-4707
+#=GS T.rubripes.5           AC    CAAB01008374.1/5191-5101
+#=GS T.nigroviridis.1       AC    CAAE01012407.1/25982-25893
+#=GS T.nigroviridis.2       AC    CAAE01012407.1/37618-37528
+#=GS T.nigroviridis.3       AC    CAAE01012407.1/28765-28674
+#=GS T.nigroviridis.4       AC    CAAE01012407.1/31933-31844
+#=GS T.nigroviridis.5       AC    CAAE01012407.1/27569-27479
+#=GS D.rerio.1              AC    BX088538.26/191757-191668
+#=GS D.rerio.2              AC    BX088538.26/192490-192398
+#=GS D.rerio.3              AC    BX088538.26/186864-186778
+#=GS D.rerio.4              AC    BX088538.26/190526-190438
+#=GS D.rerio.5              AC    CAAK05031383.1/3184-3096
+#=GS D.rerio.6              AC    BX088538.26/191339-191247
+#=GS D.rerio.7              AC    BX088538.26/195245-195151
+#=GS D.rerio.8              AC    BX088538.26/186606-186514
+
+C.milii.1                          AGGACAGCAGAGGCACAUGU....AACCCAAACAGUAG.....CA.UUUU
+C.milii.2                          UGAACACUGAAGGCACACAU....CACCCAAACAGUAG.....CA.UUUU
+C.milii.3                          UGGAAACUAAAGGCACAUAU....CACCCAAACAGUAG.....CA.UUUU
+C.milii.4                          UGUAGAUUGAAGGGACAUGU....CACCUAAACAGCAG.....CA.UUUU
+C.milii.5                          UGUAGAUUAAAGGCAAAUGU....UACCUGAACAGGAG.....CA.UUUU
+O.latipes.1                        GAAAAGUCAGACAUUCAGAU....GACCUUAACAAAGG.....CA.CUGA
+O.latipes.2                        UCGCUUUUGGACAUCAAGAU....GACCUUGACACAGG.....CA.CUGA
+O.latipes.3                        GAAAAAUCAGACAUUCAGAU....GACCUUAACAUAGG.....CA.CUGA
+O.latipes.4                        AUGCUUUUGGACAUAAAGAU....GACCUUGACACAGG.....CA.CUGA
+O.latipes.5                        UCGCUUUUGGACAUAAAGAU....GACCUUGACACAGG.....CA.CUGA
+O.latipes.6                        UCGCUUUUGGACAUCAAAAU....GACCUUGACACAGG.....CA.CUGA
+O.latipes.7                        UCGCUUUUGGACAUCAAGAU....GACCUUGACACAGG.....CA.CUGA
+O.latipes.8                        UCGCUUUUGGACAUCAAGAU....GACCUUGACACAGG.....CA.CUGA
+Gasterosteus_aculeat.1             UCCUUAUUUGGCCAUUAGGAU...UACCCUUACAAAAA.....CA.CUGA
+Gasterosteus_aculeat.2             CCUGAUUUGGUCUUCAUGGU....UACCCUUACAAAAA.....CA.CUGA
+Gasterosteus_aculeat.3             CCUGAUUUGGUCUUCAUGGAU...UACCCUUACAAAAA.....CAACUGA
+Gasterosteus_aculeat.4             CCAGAUUUUGGCCAUUAGGAU...UACCCUUACAAAAA.....CA.CUGA
+Gasterosteus_aculeat.5             CCUGAUUUGGUCUUCAUGGU....UACCCUUACAAAAA.....CA.CUGA
+Gasterosteus_aculeat.6             CCAGAUUUGGCCACUAGGAU....UACCCUUACAAAAA.....CA.CUGA
+Gasterosteus_aculeat.7             CUAGAUCUGGCGAUUUAGGAUUA.UCCCUUAACAACAA.....CA.CUGA
+Gasterosteus_aculeat.8             CCAGAUUUGGUCAUUAGGAU....UACCCUUACAAAAA.....CA.CUGA
+L.macrochirus.1                    AUAACUUU.GACACCAACAU....CACCCAAACACUAG.....CA.CUGA
+L.macrochirus.2                    AUAACUUU.GUCACCAACAU....CACCCAAACACAAG.....CA.CUGA
+L.macrochirus.3                    AUGACUUU.GUCAACAACAA....CACCCAAACACAAG.....CA.CUGA
+L.macrochirus.4                    UUUGUGAGAAUCAUUCUCAGAC..CACUUCAGAGGGAGC....CA.CUGG
+L.macrochirus.5                    ACAGUGUUUACCAGUCAGUAAUAUUCCCCUAACUUCAG.....CA.UUGA
+L.macrochirus.6                    UUUUGGAAUCACGUUCAGAU....CACCUCAAAUGGAGA....CA.CUGA
+L.macrochirus.7                    UUUCUGUUUACCAGUCAGUAAUAUUACCCUAACUUGAG.....CA.UUGA
+T.rubripes.1                       GGAGCAGAUCACACCCAGAA....GACCUCAAUUGGAAA....CA.CUGU
+T.rubripes.2                       UACUGGCAAGUCUUUAUUGU....UCCCUCAAAUUUAG.....CA.UUUG
+T.rubripes.3                       UGAGGUAGUCACACCCAGAA....GACCUCAAAUGGAAA....CA.CUGU
+T.rubripes.4                       AACAAGUUAGUCACAAAAAU....CACCCAAACACUGG.....CA.CUGA
+T.rubripes.5                       UGAAUGUUAGUCACAAAAAU....UACCCAAACACGAG.....CA.CUGA
+T.nigroviridis.1                   AAAGUCUG.GUCAGUAACAU....GACCCAAACACUGG.....CA.CUGA
+T.nigroviridis.2                   AAAAGUCCGGUCAGUAACAU....GACCCAAACACUGG.....CA.CUGA
+T.nigroviridis.3                   AUUGGGCUAGUCACUUGAAGU...UACCCAAACACUGG.....CA.CUGA
+T.nigroviridis.4                   AAAAGUCCGGUCAGUAACAU....GACCCAAACACUGG.....CA.CUGA
+T.nigroviridis.5                   AUUGGGCUAGUCACUGAAGU....UACCCAAACACUGG.....CA.CUGA
+D.rerio.1                          GCUACUAUUGUCACUAUCGG....UACCCUCACAAAGG.....CA.CUGA
+D.rerio.2                          UUGAUAGAAACCAGUUGAGGUC..AACUCUAACUUUAG.....CAUCUUU
+D.rerio.3                          ..AAUCUAAAGCACAUUAAG....AUCACUUCAAACAGGAG..CA.UUGA
+D.rerio.4                          CCACCAUU.GUCUCUAUCGG....UACCCUCACAAAAG.....CA.CUGA
+D.rerio.5                          CUACUGUU.GUCACUAUCGG....UGCCCUCACAAAGG.....CA.CUGA
+D.rerio.6                          UGAUAGAAAACCAGUUGACGUC..AACUCUAACUUUAG.....CAUCUUU
+D.rerio.7                          UUACCGUCAGGCUUUCACAA....GCCAGCCUCAAAGUUUGUUCU.CAAA
+D.rerio.8                          AGAUAGAAAACCAGUUGACAUC..AACUCUAACUUUAG.....CAUCUUU
+#=GC SS_cons                       ...........<<<<.<.<......<<<<<.<<<..<<.....<<.<<.<
+#=GC RF                            uuaaaguuagaCAguaagau....uACCCcAACaaaaG.....CA.CuGa
+
+C.milii.1                          CC.UGUGUAUUUU.UUA..GAUAAG.UGCUACCU.GUUUGGGCAAC..G.
+C.milii.2                          CC.UGUGUAUUUU.UCU..GCUAAG.UGCUACUG.GUUUGGGCAAU..G.
+C.milii.3                          CC.UGUGUAUUUU.UCU..GCAAAG.UGCUACUG.GUUUGGGCAAU..G.
+C.milii.4                          CU.GUUUGUUUUU...U..GGUAAG.UGCUAUCU.GUUUGGGCAAC..C.
+C.milii.5                          CU.AUUAUGUGUUUUUU..AGUAAG.UGCUACCUUGUUUGGGUGAC..A.
+O.latipes.1                        UU.UG.AGUUUGUUUGC..AAUAAG.UGCUACAU.GUUGGGGUAGU..C.
+O.latipes.2                        CU......CUUCUUUGU..AGUAAG.UGCUACAU.GUUGGGGUAAU..U.
+O.latipes.3                        CU.UGAAUUUCUU.UGC..AGUAAG.UGCUACAU.GUUGGGGUAGU..C.
+O.latipes.4                        CU.CUUUCUUCUU.UGU..AGUAAG.UGCUACUU.GUUGGGGUAUU..U.
+O.latipes.5                        CU.UUUUCUUCUU.UGU..AGUAAG.UGCUACAU.GUUGGGGUAAU..U.
+O.latipes.6                        CU.CUGCUUUG.....U..AGUAAG.UGCUACUU.GUUGGGGUAAU..U.
+O.latipes.7                        CUCUUUCUUCUAUA..U..AGUAAG.UGCUACUU.GUUGGGGUAAU..U.
+O.latipes.8                        CU.CUUUCUUUUU...U..AGUAAG.UGCUACUU.GUUGGGGUAAU..U.
+Gasterosteus_aculeat.1             CU.UUGGUUCUCAAUAC..AGUAAG.UGCUUUUU.GUUGGGGUAGU..U.
+Gasterosteus_aculeat.2             CU.UUGUUUCUCAAAUA.CAGUAAG.UGCUUUUU.GUUGGGGUAGU..U.
+Gasterosteus_aculeat.3             CU.UUGGUUCUCAAUAC..AGUAAGUUGCUUUUU.GUUGGGGUAGU..U.
+Gasterosteus_aculeat.4             CU.UUGGUUCUCAAUAC..AGUAAG.UGCUUUUU.GUUGGGGUAGU..U.
+Gasterosteus_aculeat.5             CU.UUGAUUCUCAAUAC..AGUAAG.UGCUUUUU.GUUGGGGUAGU..U.
+Gasterosteus_aculeat.6             CU.UUAGUUCUCAACUC..AGUAAG.UGCUUUCU.GUUGGGGUAGU..U.
+Gasterosteus_aculeat.7             CU.UUGGUUCUCAAUAC..AGUAAG.UGCUUUUU.GUUGGGGUAGU..U.
+Gasterosteus_aculeat.8             CU.UUGGUUCUCAAUAC..AGUAAG.UGCUUUUU.GUUGGGGUAGU..U.
+L.macrochirus.1                    CU.UGAGCUCUGAAUUC..AGUAAG.UGCUUCUU.GUG.GGGUAAU..G.
+L.macrochirus.2                    CU.UGAGCUCUGAAUUC..AGUAAG.UGCUUCUU.GUUGGGGUAGU..G.
+L.macrochirus.3                    CU.UGAGCUCUGAAUUC..AUUAAG.UGCUUCUU.GUUGGGGUA.A..UG
+L.macrochirus.4                    UG.AUUUUUGUGU...U..CAUAAG.UGCUUCUC.UUUGGGGUUGU..C.
+L.macrochirus.5                    CU.UGACUGUUGAAUUC..AGUAAG.UGCUACUU.GUUGGGGCAGU..UG
+L.macrochirus.6                    UG.AUUCUUGUGU...U..CAUAAG.UGCUUCUC.UUUGGGGUUGU..C.
+L.macrochirus.7                    CU.UGACUGUUGAAUUC..AGUAAG.UGCUACUU.GUUGAGGCAGU..UG
+T.rubripes.1                       UG.ACAAUCAUGU...U..AAAAAG.UGCUUCUC.UUUGGGGUUGU..C.
+T.rubripes.2                       CU.UGUCAUGUGAUAUC..AGUAAG.UGCUAUCU.GUUGGGGCGGC..UG
+T.rubripes.3                       UG.ACUAUCAUGU...U..CAAAAG.UGCUUCUC.UUUGGGGUUAU..C.
+T.rubripes.4                       CU.UGUAAUUAGUAAAUGGGGUAAG.UGCUAUUU.GUUGGGGUAGU....
+T.rubripes.5                       CU.UGGAAAUACUAAAUGCGGUAAG.UGCUACUU.GUUGGGGUACU..U.
+T.nigroviridis.1                   CU.UGACAUGUUCAGAUAGGGUAAG.UGCUACUU.GUUGGGGUAAU..U.
+T.nigroviridis.2                   CU.UGACAUUUUCAGAUAGAGUAAG.UGCUACUU.GUUGGGGUAAU..U.
+T.nigroviridis.3                   CU.UGACAUUUUCAGAUACAGUAAG.UGCUACUU.GUUGGGGUAAU..U.
+T.nigroviridis.4                   CU.UGACAUUUCAGAUA.GAGUAAG.UGCUACUU.GUUGGGGUAAU..U.
+T.nigroviridis.5                   CU.UGACAUUUUCAGAUACAGUAAG.UGCUACUU.GUUGGGGUAAU..U.
+D.rerio.1                          CU.UGGAUGCUGUAAUU..GGUAAG.UGCUAUUU.GUUGGGGUAGU..UU
+D.rerio.2                          CU.UUUAAGCAAAG..U..AGAAAG.UGCUAUCAAGUUGGGGUAGA..UG
+D.rerio.3                          UU.UGUCCUUUGU...U..CAUAAG.UGCU.UCUCUUUGGGGUAGU..U.
+D.rerio.4                          CU.UUGAUGCUGUAUUU..GGUAAG.UGCUAUUU.GUUGGGGUAGU..UU
+D.rerio.5                          CU.UGGAUGCUGCAUGU..GGUAAG.UGCUAUUU.GUUGGGGUAGU..UU
+D.rerio.6                          CU.UUUAAGCAGAG..U..AGAAAG.UGCUAUCAAGUUGGGGUAGAUGU.
+D.rerio.7                          CU.UUAAGAAUCUAGUU..GGUAAG.UGCUAUUU.GUUGGGGUAGU..U.
+D.rerio.8                          CU.UUUAAGCAAAG..U..AGAAAG.UGCUAUCAAGUUGGGGUAGA..U.
+#=GC SS_cons                       <<.................>>>.>>.>>>>...>.>>.>>>>>.......
+#=GC RF                            Cu.UguauuuUguAuaU..aGuAaG.UGCuAuUu.GUUgGGGUAGU..U.
+
+C.milii.1                          U..UU.UCCU
+C.milii.2                          U..UU.ACCU
+C.milii.3                          U..UU.ACCU
+C.milii.4                          U..UU.UCCU
+C.milii.5                          U..UU.ACCU
+O.latipes.1                        U..UG.GUGU
+O.latipes.2                        U..UG.GUGU
+O.latipes.3                        U..UU.GUGU
+O.latipes.4                        U..UG.GUGU
+O.latipes.5                        U..UG.GUGU
+O.latipes.6                        U..UG.GUGU
+O.latipes.7                        U..UG.GUGU
+O.latipes.8                        U..UG.GUGU
+Gasterosteus_aculeat.1             U..UG.CUGA
+Gasterosteus_aculeat.2             U..UG.CUGA
+Gasterosteus_aculeat.3             U..UG.CUGA
+Gasterosteus_aculeat.4             U..UG.CUGA
+Gasterosteus_aculeat.5             U..UG.CUGA
+Gasterosteus_aculeat.6             U..UU.CUGA
+Gasterosteus_aculeat.7             U..UG.CUGA
+Gasterosteus_aculeat.8             U..UG.CUGA
+L.macrochirus.1                    U..UG.AUGA
+L.macrochirus.2                    U..UG.CUGA
+L.macrochirus.3                    U..UG.CUGA
+L.macrochirus.4                    U..UG.GUUG
+L.macrochirus.5                    A..AA.AUGA
+L.macrochirus.6                    U..UG.GUUG
+L.macrochirus.7                    A..AA.AUGA
+T.rubripes.1                       U..UGAAUGU
+T.rubripes.2                       U..AG.UUGA
+T.rubripes.3                       U..UG.UUUG
+T.rubripes.4                       U..UA.GAGA
+T.rubripes.5                       U..UA.CUGA
+T.nigroviridis.1                   U..UA.UUGA
+T.nigroviridis.2                   U..UA.UUGA
+T.nigroviridis.3                   U..UA.UUGA
+T.nigroviridis.4                   U..UA.UUGA
+T.nigroviridis.5                   U..UA.UUGA
+D.rerio.1                          C..AA.GUGA
+D.rerio.2                          U..UUGCUGA
+D.rerio.3                          U..UA.AUAA
+D.rerio.4                          U..AA.GUGA
+D.rerio.5                          C..AA.GUGA
+D.rerio.6                          U..UG.CUGA
+D.rerio.7                          U.CAA.GUGA
+D.rerio.8                          GUUUG.CUGA
+#=GC SS_cons                       >..>>.>>>.
+#=GC RF                            u..ua.cUGA
+//

@@ -1,0 +1,54 @@
+# STOCKHOLM 1.0
+#=GF ID    MIR473
+#=GF AC    RF00778
+#=GF DE    microRNA MIR473
+#=GF AU    Wilkinson A
+#=GF GA    26.0
+#=GF NC    22.1
+#=GF TC    27.6
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000214
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    6
+
+#=GS V.vinifera.1    AC    AM424499.2/17212-17291
+#=GS V.vinifera.2    AC    AM424499.2/17051-17153
+#=GS R.communis.1    AC    AASG02001028.1/43237-43323
+#=GS R.communis.2    AC    AASG02004731.1/12666-12744
+#=GS P.trichocarpa.1 AC    AY728389.1/1-100
+#=GS P.trichocarpa.2 AC    AY728388.1/84-183
+
+V.vinifera.1                AUUG...CUCACUCUUUCUCAAGGGCUUCUAGCAUUGCC...........
+V.vinifera.2                GUUG...CUCACUCUCCCUCAAGGGCUUCUGCACUUUGGCCAUGGCCAUA
+R.communis.1                UUCAUUCUUCACUCUCCCUCAAGGGCUUCUGUGUGUUUU...........
+R.communis.2                AUUG...UUCACUCUCUC.UGAAGGCUUCAAACAGUCUC...........
+P.trichocarpa.1             ..UG...CUCGCUCUCCCUC.AGGGCUUCCAACGCAGUAAGCAGGUACGU
+P.trichocarpa.2             AUUG...UUCACUCUCCCUC.AAGGCUUCCAACGCAAUAACCAGCUACGU
+#=GC SS_cons                ........<<<<<<<<<<.<<<<<<<<<<.....................
+#=GC RF                     gUUGauuuuccCuCuCCCUCaAaGgCuuCCAACguaaua...........
+
+V.vinifera.1                .........AGUAACAAAA........UGGCAAGCUCGAAGUCUUUG.GG
+V.vinifera.2                UACCAAUGUGGGGCAAGUGGG......AAAGAGGGUAGAAGCUCUUGAGG
+R.communis.1                .........UUGGUCGAAA........GACCAAUUCAGAGGUCCUGUAGG
+R.communis.2                .........CAGCUGGCC.........U..CAAGUUUGAGGCCUUUG.GU
+P.trichocarpa.1             G........CAUGUCAGCAUAUUCUCGCUGCAGGCUCGAGGUCUUUG.GU
+P.trichocarpa.2             A........CAUGUAACUGUGUUACGGCUGCAGGCUUGAGGCCUUUGGGG
+#=GC SS_cons                .....................................>>>>>>>>>>.>>
+#=GC RF                     .........uaUGuaAgc.........cagcAgGcUaGaaGcCuUuGuGG
+
+V.vinifera.1                GAGAGUGG...ACAA
+V.vinifera.2                GGGACUGA...AGAA
+R.communis.1                GAGAGUGGAUAAUAU
+R.communis.2                UAGAGUGGACAAAAG
+P.trichocarpa.1             GAGAGUAGUGAUCAA
+P.trichocarpa.2             GAGAGUGG...UCAA
+#=GC SS_cons                >>>>>>>>.......
+#=GC RF                     GaGaGggggAAaCAA
+//

@@ -1,0 +1,62 @@
+# STOCKHOLM 1.0
+#=GF ID    L19_leader
+#=GF AC    RF00556
+#=GF DE    Ribosomal protein L19 leader
+#=GF AU    Barrick JE
+#=GF GA    22.0
+#=GF NC    21.8
+#=GF TC    23.2
+#=GF SE    Barrick JE, CMFinder
+#=GF SS    Predicted; Barrick JE, CMFinder
+#=GF TP    Cis-reg; leader;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    7517053
+#=GF RT    Diverse mechanisms for regulating ribosomal protein synthesis in
+#=GF RT    Escherichia coli.
+#=GF RA    Zengel JM, Lindahl L;
+#=GF RL    Prog Nucleic Acid Res Mol Biol. 1994;47:331-370.
+#=GF CC    This family is a putative r-protein leader autoregulatory
+#=GF CC    structure [1] found in B. subtilis and other low-GC Gram-positive
+#=GF CC    bacteria. It is located in the 5' untranslated regions of mRNAs
+#=GF CC    encoding ribosomal protein L19 (rplS).
+#=GF WK    http://en.wikipedia.org/wiki/Ribosomal_protein_L19_leader
+#=GF SQ    16
+
+#=GS Bacillus_halodurans_.1 AC    BA000004.3/2598685-2598726
+#=GS Bacillus_licheniform.1 AC    AE017333.1/1781209-1781250
+#=GS Bacillus_subtilis_su.1 AC    AL009126.3/1675981-1676022
+#=GS Bacillus_clausii_KSM.1 AC    AP006627.1/2412672-2412709
+#=GS Bacillus_thuringiens.1 AC    AE017355.1/3678186-3678229
+#=GS Geobacillus_kaustoph.1 AC    BA000043.1/1221406-1221449
+#=GS Oceanobacillus_iheye.1 AC    BA000028.3/1580280-1580318
+#=GS Staphylococcus_sapro.1 AC    AP008934.1/1590520-1590561
+#=GS S.aureus.1             AC    CP000046.1/1265245-1265287
+#=GS Staphylococcus_haemo.1 AC    AP006716.1/1732407-1732449
+#=GS Clostridium_perfring.1 AC    BA000016.3/1987896-1987934
+#=GS L.acidophilus.1        AC    CP000033.3/1265467-1265505
+#=GS Lactobacillus_planta.1 AC    AL935256.1/241514-241549
+#=GS Streptococcus_agalac.1 AC    AL766846.1/50939-50975
+#=GS S.thermophilus.1       AC    AF013585.2/3133-3176
+#=GS Streptococcus_pneumo.1 AC    CP001015.1/1161843-1161880
+
+Bacillus_halodurans_.1             ACGAUGUUCCGCUG.CAGGGGUA...GAAGCUGUCAUGAGCAUCUG
+Bacillus_licheniform.1             ACGAUGUUCCGCUG.UGCCGGUU..AACUCGCG.CAAGAGCAUCUG
+Bacillus_subtilis_su.1             ACGAUGUUCCGCUGUGCCGGUU...UUUGUGGC.CAAGAGCAUCUG
+Bacillus_clausii_KSM.1             ACGAUAUUCCGCUG.CUGCAG......UGUUGG.CAUGAAUGUCUG
+Bacillus_thuringiens.1             ACGAUGUUCCGCUG.UAAUUUAUUUAGACUUUA.UAAGAGCAUCUG
+Geobacillus_kaustoph.1             ACGAUGUUCCGCUG.CAAUGAAGAG.AUCAUUGGCAUGAACAUCUG
+Oceanobacillus_iheye.1             ACGAUGUUCCGCUGUCCCAU.......ACUUGUUCAUGAGCAUUAG
+Staphylococcus_sapro.1             ACUAUGAUCCGCUG.CUAUAUUU...UGUCGAGGCAAGAACAUAGG
+S.aureus.1                         ACUAUGAUCCGCUG.CUAUAUAU..UUGUCGAGGCAAGAACAUAGG
+Staphylococcus_haemo.1             ACUAUGAUCCGCUG.CUAUAUGA..AUGUCUAGGCAAGAACAUAGG
+Clostridium_perfring.1             CCGGCGGUCCUCUGUCACAG.......AGUGUGUUAAGAACGUCAA
+L.acidophilus.1                    UGGGUAUUCCGCUG.ACGCUG......GUACGUUGAUGAAUGCCGA
+Lactobacillus_planta.1             ACGAUGUUCCGCUG.ACCAG........GUUGU.CACGAAUGUCGG
+Streptococcus_agalac.1             CGGCUAAUCCGCUG.AGACA.......AGUACU.UAAGAUUAGUAA
+S.thermophilus.1                   CGGCUAAUCCGCUG.AGACACAGAGGUUGCUCU.UAAGAUUAGUAA
+Streptococcus_pneumo.1             CAGUUUAUCCGCUG.AGGAAG......AUUCCU.CAAGAUUGACAA
+#=GC SS_cons                       ..<<<<<<<...<<.<<<<..........>>>>.>>.>>>>>>>..
+//

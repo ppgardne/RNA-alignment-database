@@ -1,0 +1,159 @@
+# STOCKHOLM 1.0
+#=GF ID    Thr_leader
+#=GF AC    RF00506
+#=GF DE    Threonine operon leader
+#=GF AU    Bateman A
+#=GF GA    34.0
+#=GF NC    33.8
+#=GF TC    34.5
+#=GF SE    Bateman A
+#=GF SS    Published; PMID:6186194
+#=GF TP    Cis-reg; leader;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    6186194
+#=GF RT    Attenuation in amino acid biosynthetic operons.
+#=GF RA    Kolter R, Yanofsky C;
+#=GF RL    Annu Rev Genet 1982;16:113-134.
+#=GF CC    At least 6 amino acid operons are known to be regulated by
+#=GF CC    attenuation [1].  In each a leader sequence of 150-200 bp
+#=GF CC    is found upstream of the first gene in the operon. This
+#=GF CC    leader sequence can assume two different secondary structures
+#=GF CC    known as the terminator and the anti-terminator structure.
+#=GF CC    In each case the leader also codes for very short peptide
+#=GF CC    sequence that is rich in the end product amino acid of the
+#=GF CC    operon. The terminator structure is recognised as a termination
+#=GF CC    signal for RNA polymerase and the operon is not transcribed.
+#=GF CC    This structure forms when the cell has an excess of the
+#=GF CC    regulatory amino acid and ribosome movement over the leader
+#=GF CC    transcript is not impeded [1]. When there is a deficiency of the
+#=GF CC    charged tRNA of the regulatory amino acid the ribosome 
+#=GF CC    translating the leader peptide stalls and the antiterminator 
+#=GF CC    structure can form. This allows RNA polymerase to transcribe
+#=GF CC    the operon [1].
+#=GF CC    In the Rfam alignment the consensus structure is of the
+#=GF CC    terminator.  The alternative consensus structure is the
+#=GF CC    antiterminator structure.
+#=GF WK    http://en.wikipedia.org/wiki/Threonine_operon_leader
+#=GF SQ    27
+
+#=GS Shewanella_denitrifi.1 AC    CP000302.1/3285104-3285222
+#=GS Enterobacter.1         AC    CP000653.1/632784-632902
+#=GS Escherichia_coli_O15.1 AC    AE005174.2/215-328
+#=GS E.coli.1               AC    V00360.1/26-152
+#=GS E.coli.2               AC    X68872.1/167-293
+#=GS E.coli.3               AC    M10393.1/16-122
+#=GS E.coli.4               AC    M28570.1/169-295
+#=GS Escherichia_coli_101.1 AC    AAMK02000025.1/34036-34149
+#=GS E.coli.5               AC    J01706.1/44-170
+#=GS E.coli.6               AC    U14003.1/332669-332795
+#=GS Escherichia_coli_str.1 AC    U00096.2/184-310
+#=GS E.coli.7               AC    AF487900.1/184-310
+#=GS Pectobacterium_atros.1 AC    BX950851.1/4357315-4357430
+#=GS Photorhabdus_lumines.1 AC    BX571860.1/286462-286580
+#=GS S.marcescens.1         AC    X60821.1/811-927
+#=GS Serratia_proteamacul.1 AC    CP000826.1/750669-750787
+#=GS S.marcescens.2         AC    D10386.1/76-192
+#=GS S.marcescens.3         AC    D10387.1/811-927
+#=GS S.marcescens.4         AC    D10385.1/76-192
+#=GS S.glossinidius.1       AC    AP008232.1/715571-715690
+#=GS Yersinia_pestis_biov.1 AC    AAYV01000002.1/459606-459724
+#=GS Actinobacillus_succi.1 AC    CP000746.1/858744-858862
+#=GS P.profundum.1          AC    CR378664.1/249363-249488
+#=GS Vibrio_cholerae_O395.1 AC    CP000627.1/2075573-2075691
+#=GS Vibrio_cholerae_MAK_.1 AC    AAUS01000036.1/11812-11930
+#=GS O.sativa.1             AC    AAAA02042190.1/2668-2785
+#=GS marine_metag.1         AC    AACY020357926.1/863-980
+
+Shewanella_denitrifi.1             CUCAG.......AGUAUUACUCUUA...UCACCAUUACAAC...CACCAC
+Enterobacter.1                     GCGUU.......AGCACCACCACCA...UUACAACAACCAU...CAUCAU
+Escherichia_coli_O15.1             CCACC.......ACCAUCACCACCA...CCAUCACCAU......UACCAU
+E.coli.1                           ACAUCCAUGAAACGCAUUAGCACCA...CCAUUACCACCACCAUCACCAU
+E.coli.2                           ACAUCCAUGAAACGCAUUAGCACCA...CCAUUACCACCACCAUCACCAU
+E.coli.3                           .CACC.......ACCAUUACCACCA...CCAUCACCAU......UACC..
+E.coli.4                           ACAUCCAUGAAACGCAUUAGCACCA...CCAUUACCACCACCAUCACCAU
+Escherichia_coli_101.1             UGAAA.......CGCAUUAGCACCA...CCAUUACCAU......CACCAU
+E.coli.5                           ACAUCCAUGAAACGCAUUAGCACCA...CCAUUACCACCACCAUCACCAU
+E.coli.6                           ACAUCCAUGAAACGCAUUAGCACCA...CCAUUACCACCACCAUCACCAU
+Escherichia_coli_str.1             ACAUCCAUGAAACGCAUUAGCACCA...CCAUUACCACCACCAUCACCAU
+E.coli.7                           ACAUCCAUGAAACGCAUUAGCACCA...CCAUUACCACCACCAUCACCAU
+Pectobacterium_atros.1             CUAUC.......AGCCUAAUCACCACGAUUAUUACCAU......CACCGA
+Photorhabdus_lumines.1             UUAUC.......AGCCUGAAAACCACAAUGAUUACCAC......CACCGG
+S.marcescens.1                     AUAUC.......AGCCUGACUACCACAAUUAUUACCAC......CACCGA
+Serratia_proteamacul.1             AUAUC.......AGCCUGAACACAA...CAAUUAUUACCAC...CACCGA
+S.marcescens.2                     AUAUC.......AGCCUGACUACCACAAUUAUUACCAC......CACCGA
+S.marcescens.3                     AUAUC.......AGCCUGACUACCACAAUUAUUACCAC......CACCGA
+S.marcescens.4                     AUAUC.......AGCCUGACUACCACAAUUAUUACCAC......CACCGA
+S.glossinidius.1                   GCUUC.......AGCCACAGCACCA...UUAUUACCACCAC...CACCGA
+Yersinia_pestis_biov.1             ACAUC.......AGCCUGAACACAA...CGAUUAUUACCAC...CACCGA
+Actinobacillus_succi.1             CCGAC.......CGCACUUUUACCA...UGAUGACGAUUAC...CACCAU
+P.profundum.1                      UUAUC.......AGCACAACCACAA...CCACAACCAUUAUUAUUACUGG
+Vibrio_cholerae_O395.1             GCCUA.......AUCGUAAUGACCA...CCAUUAUUACCAU...UACCGA
+Vibrio_cholerae_MAK_.1             GCCUA.......AUCGUAAUGACCA...CCAUUAUUACCAU...UACCGA
+O.sativa.1                         GCAUC.......AGCAUUACCACCA...UUACUACAACCAU...CAUCAU
+marine_metag.1                     GCAUC.......AGCAUGAUGACAA...CCAUUAUCACCAU...CACCAU
+#=GC SS_cons                       ...<<.......<<<.<<<<<..<<...<<.<<<<<..............
+#=GC RF                            auAuC.......cGCaucagCACCa...ccAuuaCcAccAu...cAccaa
+
+Shewanella_denitrifi.1             AAUCAAU...AUUGUGGGGG.CGGGCUAGCGCACC.UAAAAGAU.UUACA
+Enterobacter.1                     UACCACA...GGUAACGAUG.CGGGCUGACGCGUAACAGGAAAA.ACAGA
+Escherichia_coli_O15.1             UACCACA...GGUAACGGUG.CGGGCUGACGCGUA.CAGGAAAC.ACAGA
+E.coli.1                           UACCACA...GGUAACGGUG.CGGGCUGACGCGUA.CAGGAAAC.ACAGA
+E.coli.2                           UACCACA...GGUAACGGUG.CGGGCUGACGCGUA.CAGGAAAC.ACAGA
+E.coli.3                           ....ACA...GGUAACGGUG.CGGGCUGACGCGUA.CAGCAAAC.ACAGA
+E.coli.4                           UACCACA...GGUAACGGUG.CGGGCUGACGCGUA.CAGGAAAC.ACAGA
+Escherichia_coli_101.1             UACCACA...GGUAACGGUG.CGGGCUGACGCGUA.CAGGAAAC.ACAGA
+E.coli.5                           UACCACA...GGUAACGGUG.CGGGCUGACGCGUA.CAGGAAAC.ACAGA
+E.coli.6                           UACCACA...GGUAACGGUG.CGGGCUGACGCGUA.CAGGAAAC.ACAGA
+Escherichia_coli_str.1             UACCACA...GGUAACGGUG.CGGGCUGACGCGUA.CAGGAAAC.ACAGA
+E.coli.7                           UACCACA...GGUAACGGUG.CGGGCUGACGCGUA.CAGGAAAC.ACAGA
+Pectobacterium_atros.1             UACAACC...AGUAACGGUG.CGGGCUGACGCAUA.CAAAGAUU.CCAG.
+Photorhabdus_lumines.1             GACCACA...GGUUGCGGGG.CGGGCUGACGCAUA.UAUAAAAC.AGAGA
+S.marcescens.1                     UACCACA...GGUAACGGGG.CGGGCUGACGCGCA.CAGGAAAC.ACAGA
+Serratia_proteamacul.1             UACCACA...GGUAACGGGG.CGGGCUGACGCGUA.CAGGAAACAAAAGA
+S.marcescens.2                     UACCACA...GGUAACGGGG.CGGGCUGACGCGCA.CAGGAAAC.ACAGA
+S.marcescens.3                     UACCACA...GGUAACGGGG.CGGGCUGACGCGCA.CAGGAAAC.ACAGA
+S.marcescens.4                     UACCACA...GGUAACGGGG.CGGGCUGACGCGCA.CAGGAAAC.ACAGA
+S.glossinidius.1                   UACCACCACGGGUAGCGGCG.CGGGCUGACGCAUA.CAGGAAUC..CAGA
+Yersinia_pestis_biov.1             AACCACA...GGUUACGGGG.CGGGCUGACGCGUA.CAGGAAACAAUAGA
+Actinobacillus_succi.1             UAUGAC....CUUUAUAAUGGCGGGGUAGUGCGAA.CGAAAGAU.AUUCA
+P.profundum.1                      CACGAUUAUUCGUGUUGGUG.CGGGCUGAUACGCA.UAAGAUUC..UAAA
+Vibrio_cholerae_O395.1             CACGUCG...CAUGUUGGGG.CAGGCUGCUGAGCG.CAAAAUUU.CACAA
+Vibrio_cholerae_MAK_.1             CACGUCG...CAUGUUGGGG.CAGGCUGCUGAGCG.CAAAAUUU.CACAA
+O.sativa.1                         UACCACA...GGUAACGAUG.CGGGCUGACGCGUA.CAGGAAAA.ACAAA
+marine_metag.1                     UACCACA...GGUAACGGUG.CGGGCUGACGCGUA.CAGGAAAC.ACAGA
+#=GC SS_cons                       ..........>>>>>.>>>>....>>>>>.>>>......>>......<<<
+#=GC RF                            uAccAca...gGuaacgguG.CGGGcugacGCgUA.cAgGaAAc.AcAga
+
+Shewanella_denitrifi.1             AAAAAAGCCCGCU.UCCCAC..UGA.AGCGGGCUUUUUUGUU
+Enterobacter.1                     .AAAAAGCCCGCA.CCUAAA..CAG.UGCGGGCUUUUUUUUC
+Escherichia_coli_O15.1             .AAAAAGCCCGCA.CCUG.A..CAG.UGCGGGCUUUUUUUUC
+E.coli.1                           .AAAAAGCCCGCA.CCUG.A..CAG.UGCGGGCUUUUUUUUU
+E.coli.2                           .AAAAAGCCCGCA.CCUG.A..CAG.UGCGGGCUUUUUUUUU
+E.coli.3                           .AAAAAGCCCGCA.CCUG.A..CAG.UGCGGGCUUUUUUUUU
+E.coli.4                           .AAAAAGCCCGCA.CCUG.A..CAG.UGCGGGCUUUUUUUUU
+Escherichia_coli_101.1             .AAAAAGCCCGCA.CCUG.A..CAG.UGCGGGCUUUUUUUUU
+E.coli.5                           .AAAAAGCCCGCA.CCUG.A..CAG.UGCGGGCUUUUUUUUU
+E.coli.6                           .AAAAAGCCCGCA.CCUG.A..CAG.UGCGGGCUUUUUUUUU
+Escherichia_coli_str.1             .AAAAAGCCCGCA.CCUG.A..CAG.UGCGGGCUUUUUUUUU
+E.coli.7                           .AAAAAGCCCGCA.CCUG.A..CAG.UGCGGGCUUUUUUUUU
+Pectobacterium_atros.1             .AAAAAGCCCGCA.CCGA.A..CAG.UGCGGGCUUUUUUUUU
+Photorhabdus_lumines.1             .AAAAAGCCCGCA.UCCAAAU.CAGAUGCGGGCUUUUUUUU.
+S.marcescens.1                     .AAAAAGCCCGCA.CCUAAU..CAG.UGCGGGCUUUUUUUU.
+Serratia_proteamacul.1             .AAAAAGCCCGCA.CCUA.AC.CAG.UGCGGGCUUUUUUUUC
+S.marcescens.2                     .AAAAAGCCCGCA.CCUAAU..CAG.UGCGGGCUUUUUUUU.
+S.marcescens.3                     .AAAAAGCCCGCA.CCUAAU..CAG.UGCGGGCUUUUUUUU.
+S.marcescens.4                     .AAAAAGCCCGCA.CCUAAU..CAG.UGCGGGCUUUUUUUU.
+S.glossinidius.1                   .AAAAAGCCCGCA.CCUUGA..UAA.UGCGGGCUUUUUUUUA
+Yersinia_pestis_biov.1             .AAAAAGCCCGCA.CCUAGA..CAG.UGCGGGCUUUUUUUUU
+Actinobacillus_succi.1             .AUUAAGCCCGCAACCUGAA..AAG.UGCGGGCUUUUUUGCA
+P.profundum.1                      .AAAAAGCCCGCA.CUUCUUAUUAGAUGCGGGCUUUUUUUUU
+Vibrio_cholerae_O395.1             .AAAAGGCCUGUA.UCCCAAC.CGA.UACAGGCCUUUUUUUA
+Vibrio_cholerae_MAK_.1             .AAAAGGCCUGUA.UCCCAAC.CGA.UACAGGCCUUUUUUUA
+O.sativa.1                         .AAAAAGCCCGCA.CCUGAA..CAG.UGCGGGCUUUUUUUUC
+marine_metag.1                     .AAAAAGCCCGCA.CCUGAA..CAG.UGCGGGCUUUUUUUUC
+#=GC SS_cons                       .<<<<<<<<<<<<.<.........>.>>>>>>>>>>>>>>>.
+#=GC RF                            .aAaaaGCCCGCA.CcuaaA..cAG.UGCGGGCuuuUuucUu
+//

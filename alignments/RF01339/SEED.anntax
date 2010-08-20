@@ -1,0 +1,28 @@
+# STOCKHOLM 1.0
+#=GF ID    CRISPR-DR27
+#=GF AC    RF01339
+#=GF DE    CRISPR RNA direct repeat element
+#=GF AU    Wilkinson A
+#=GF GA    28.0
+#=GF NC    27.8
+#=GF TC    28.0
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; CRISPR;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    URL; http://crispr.u-psud.fr/crispr/CRISPRHomePage.php
+#=GF DR    SO:0001459 SO:CRISPR
+#=GF WK    http://en.wikipedia.org/wiki/CRISPR
+#=GF SQ    3
+
+#=GS Staphylothermus_mari.1 AC    CP000575.1/351100-351124
+#=GS Staphylothermus_mari.2 AC    CP000575.1/598094-598118
+#=GS Staphylothermus_mari.3 AC    CP000575.1/602999-603023
+
+Staphylothermus_mari.1             CUUUCAAUUCUUUCUGUGUUGUUAC
+Staphylothermus_mari.2             CUUUCAAUUCUUUCUAUGUUGUUAC
+Staphylothermus_mari.3             CUUUCAAUUCUUUCUGUGUUGCUAC
+#=GC SS_cons                       ....<<<<.........>>>>....
+#=GC RF                            CUUUCAAUUCUUUCURUGUUGYUAC
+//

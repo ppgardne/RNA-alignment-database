@@ -1,0 +1,154 @@
+# STOCKHOLM 1.0
+#=GF ID    snR10
+#=GF AC    RF01258
+#=GF DE    Small nucleolar RNA snR10
+#=GF AU    Wilkinson A
+#=GF GA    70.0
+#=GF NC    21.3
+#=GF TC    106.8
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; snRNA; snoRNA; HACA-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    snornadb; snR10
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF WK    http://en.wikipedia.org/wiki/SnoRNA
+#=GF SQ    14
+
+#=GS Clavispora_lusitania.1 AC    AAFT01000001.1/74020-74263
+#=GS D.hansenii.1           AC    CR382136.2/435988-436222
+#=GS Ashbya_gossypii_ATCC.1 AC    AE016819.4/315978-316214
+#=GS K.lactis.1             AC    CR382125.1/1700339-1700595
+#=GS Kluyveromyces_waltii.1 AC    AADM01000052.1/7763-8010
+#=GS Saccharomyces_kluyve.1 AC    AACE03000009.1/471264-471521
+#=GS Saccharomyces_castel.1 AC    AACF01000138.1/18890-19155
+#=GS Pichia_stipitis_CBS_.1 AC    AAVQ01000002.1/1147703-1147933
+#=GS Pichia_guilliermondi.1 AC    AAFM01000016.1/249797-250023
+#=GS Saccharomyces_bayanu.1 AC    AACA01000537.1/2521-2766
+#=GS Saccharomyces_mikata.1 AC    AABZ01000003.1/44958-45202
+#=GS S.cerevisiae.1         AC    Z72610.1/833-1077
+#=GS Vanderwaltozyma_poly.1 AC    AAZN01000229.1/53179-53449
+#=GS Candida_tropicalis_M.1 AC    AAFN01000138.1/73839-74089
+
+Clavispora_lusitania.1             AACGCAAAUUCA.CAGACGUCCACAACGU..U.ACA.GCAUCCCGUAGAG
+D.hansenii.1                       AACGCAAAACCA.CAGCCAUUCACAAC.G.UU.AAU.GCAUUCCCUUGAG
+Ashbya_gossypii_ATCC.1             AACGCAAAUUCA.CAGCCACUCGUAGCAC.AU.ACA.GCAUCCCCUUGAG
+K.lactis.1                         AACGCAAAACUCACAGACAUUCGCAGCGC.AU.AAAAGCAUCCUCUUGAG
+Kluyveromyces_waltii.1             AACGCAAAUUCA.CAGCCAUUCGCAGUGCAUA.ACA.GCAUCUCCUUGAG
+Saccharomyces_kluyve.1             AACGCAAAUUUCACGGCCAUUCGCAACAUAUA.ACA.GCAUCCCCUCGAG
+Saccharomyces_castel.1             AACGCAAAAACA.CAGCCAUUCACAACAU.AUAACA.GUAUCUCAUUGAG
+Pichia_stipitis_CBS_.1             AACGCAAAUUUCACAGCCAUUAGCAACGC..U.AAA.GCAUUCCUUUGAG
+Pichia_guilliermondi.1             AACGCAAAUUCA.CAGCCAUUCGCAAC.G.CU.AAU.GCAUUCCUUUGAG
+Saccharomyces_bayanu.1             AACGCAAAUUUAACAGCCAUUCGCAGCAC.GU.ACA.GUAUCUCAUCGAG
+Saccharomyces_mikata.1             AACGCAAAUUUAACGGCCAUUCGCAACAU.AU.ACA.GUAUCUCAUCGAG
+S.cerevisiae.1                     AACGCAAAUUUAACAGCCAUUCGUAACAC.GU.ACA.GUAUCUCGUCGAG
+Vanderwaltozyma_poly.1             AACGCAAAUUUCACAGCCAAUCGCAACAUAUA.ACA.GUAUCACAUCGAG
+Candida_tropicalis_M.1             AACGCAAAAUUCACAGCCAUUAACAACGU..C.AAA.GCGUUCCUUCGAG
+#=GC SS_cons                       .............<<<<<<...<<<<<<<..<.<<<...........<.<
+#=GC RF                            AACGCAAAuuuAACaGCCaUUcgCaaCac.ac.aca.GcAUcccaUuGAG
+
+Clavispora_lusitania.1             GCUGAACCCA..UUAC.GGCGUUCU.GGCCCAUGACCACUGGGGUAUU..
+D.hansenii.1                       GUUGAACCCA..UUA.UGGCGUUCUUGACCCA..UGACCAUCGGAAUA.U
+Ashbya_gossypii_ATCC.1             GUUGAACCCC..CCCGGGGCGUUCUUGACCCAUGACAAGCGCGGAUAU.G
+K.lactis.1                         GUUGAACCCC..UCCGGGGCGUUCUUGGCCCAUGAAAAGUUGGGAUAU.G
+Kluyveromyces_waltii.1             GUCGAACCCC..UCCGGGGCGUUCUUGGCCCAUGACAAGUGUAGAUAGUG
+Saccharomyces_kluyve.1             GUUGAACCCC..UCCGGGGCGUUCUUGACCCAUGACAAGCGUGGAUAUUG
+Saccharomyces_castel.1             GUUGAACCCC..UCCGGGGCGUUCCGGUCCCAUGACAAAUGUAGAAUU.G
+Pichia_stipitis_CBS_.1             GUUGAGCCCA..UUAC.GGCGCUCU.GACCCAUGACCAU..UGGGAUA.U
+Pichia_guilliermondi.1             GUUGAACCCU..UA..UGGCGUUCU.GACCCAUGACCAUA..GGAGUA.U
+Saccharomyces_bayanu.1             GUUGAACCCC..UCCGGGGCGUUCUUGACCCAUGAAGAAUGUGGAUUU.G
+Saccharomyces_mikata.1             GUUGAACCCC..UCCGGGGCGUUCUUGACCCAUGAAGAAUGUGGAUUU.G
+S.cerevisiae.1                     GUUGAACCCC..UCCGGGGCGUUCUUGACCCAUGAAGAAUGUGGAUUG.G
+Vanderwaltozyma_poly.1             GUUGAACCCC..UCCGGGGCGUUCUUGACCCAUGACAUUUGUUGAUUU.G
+Candida_tropicalis_M.1             GUUGAACCCAAUUAUUUGGCGUUCUUGACCCA..UGACCUUUGGAAUA.U
+#=GC SS_cons                       <<<<<<<<<<......>>>.>>>>..>>>>>........>>>>......>
+#=GC RF                            GuuGaaCCCc..UaaggGGCGuuCUugaCCCAUGAaaAaugugGAaua.g
+
+Clavispora_lusitania.1             .GUUGUA....UUGGAGGGCGCAAGCUCUCC.U.CUUGCGG.........
+D.hansenii.1                       AGUUGU.......GUU..........UUUUU.C.ACUGGA..........
+Ashbya_gossypii_ATCC.1             UGUUGC.........C..........UUUAU.G.C.UUGCU.........
+K.lactis.1                         UGUUGCA....GUUUG..........CAUAA.C.UAUUUUC.........
+Kluyveromyces_waltii.1             UGCUGCC....UUUUU..........AUUAA.GCUAUAGCU.........
+Saccharomyces_kluyve.1             UGUUGCC....UUUCG..........CUUUUGC.GAAGUCU.........
+Saccharomyces_castel.1             UGUUGUAAACUAAAAA..........UUCAU.U.UUUUUGU.........
+Pichia_stipitis_CBS_.1             UGUUGU.......GGA...........UACU.U.CCGUCGG.........
+Pichia_guilliermondi.1             AGUUGUC....GAAAG................U.GUCAGAA.........
+Saccharomyces_bayanu.1             UGUUGCA....GUAUA..........UUUAC.U.ACUGGCU.........
+Saccharomyces_mikata.1             UGUUGUA....AUAUA..........UUUAU.U.AUUAGCU.........
+S.cerevisiae.1                     UGUUGCA....AUAUA..........UUUAU.U.AUUGGCU.........
+Vanderwaltozyma_poly.1             UGUUGCA....ACGAU..........UCUGAUA.UUUUUUAAUGUUAGAG
+Candida_tropicalis_M.1             UGUUGUA....CUUUA..........UGUUU.U.AUUUGA..........
+#=GC SS_cons                       >>>>>>.......<<<................>.>>..............
+#=GC RF                            uGuuGca....augca..........uuuau.u.gcuagau.........
+
+Clavispora_lusitania.1             ...........CGGACUGGAGA.ACAA.....C........UGGUUGAUC
+D.hansenii.1                       ...........UGGACUGGAGA.AAAA.....U......U.UGGUUGAUC
+Ashbya_gossypii_ATCC.1             ...........UGGACUGGAGA.ACAA.....A......UCCAACUGGUC
+K.lactis.1                         ........GGAUGUACUGGAGA.ACGAAUCCCA......U.CGAAUGGUC
+Kluyveromyces_waltii.1             ...........UGGACUGGAGA.AGAA.....A......U.UUACUGAUC
+Saccharomyces_kluyve.1             ......GUGCCUGGACCGGAGA.GCAA.....ACC....G.UUACUGAUC
+Saccharomyces_castel.1             UUUAUUUUGCCUGUGCUGGAGA.AUAA.....ACUUUUCU.UUAUUGGUC
+Pichia_stipitis_CBS_.1             ...........UGGACUGGAGA.ACAA............U.CGGUUGAUC
+Pichia_guilliermondi.1             ...........UGGACUGGAGA.ACAA............U.UGGUUGAUC
+Saccharomyces_bayanu.1             ...........UGGACUGGAGA.ACAA.....A......G.UUAUCGAUC
+Saccharomyces_mikata.1             ...........UGGACCGGAGA.ACAA.....A......U.UUAUCGAUC
+S.cerevisiae.1                     ...........UGGACUGGAGA.ACAA.....A......U.UUAUCGAUC
+Vanderwaltozyma_poly.1             UUGUCUUUGCUUGGACUGGAGA.AUAA.....ACUAU..A.UAAAUGAUC
+Candida_tropicalis_M.1             ...........UGGACUGGAGAAAAAA.....A......U.UCAUUGAUC
+#=GC SS_cons                       ...........>>>.>>>.......................<<<<<<<<<
+#=GC RF                            ...........uGGACuGGAGA.AcAA.....A......u.cggcuGauC
+
+Clavispora_lusitania.1             UUGGGUGCGAUAUUCCAUCGGCG...AAUAC..UU.....U.GUAUUUCU
+D.hansenii.1                       UUGGGUGCAGCACUCCAUCUGUU..GAAUAAUUUA.....U.UUGUUUCU
+Ashbya_gossypii_ATCC.1             UUGGGUGCAGCGGCCCAUCCGUG...CCUGGCCUU......GCCAGGCCU
+K.lactis.1                         UUGGGUGCAGCGACUCAUCUGUU..GCUUGGUCUUAGU..UACCAGGUCU
+Kluyveromyces_waltii.1             UUGGGUGCGACGGCUCAUGUGUU..GCUUGUCUUCG....UGGCAGGUCU
+Saccharomyces_kluyve.1             UUGGGUGCAACGUUCCAUCUGUU..GUUUGUCCUUG....UGGCAGAUCU
+Saccharomyces_castel.1             UCGGGUGCAACAAUUCUUCUGUC..GUUUGCCUUC.....GUGCAAAUCU
+Pichia_stipitis_CBS_.1             UUGGGUGCAGCAUUCCAUCUGUA..A....AUACU.....UGUUAUUUCU
+Pichia_guilliermondi.1             UUGGGUGCAGCACCUCAUCGGUA...AAUACU.........UGUAUUUCU
+Saccharomyces_bayanu.1             UUGGGUGCAACAAUCUUUCUGUC..GUCUGUUUUUA....UAGCAGAUCU
+Saccharomyces_mikata.1             UUGGGUGCAACAGUCCUUCUGUC..GUCUGCUUUA.....UAGCAGAUCU
+S.cerevisiae.1                     UUGGGUGCAACAGUCUUUCUGUC..GUCUGUUUUU.....UAGCAGAUCU
+Vanderwaltozyma_poly.1             UUGGGUGCAACGAUUCAUCUGUU..GUCUGUCUUU.....GUGCAGAUCU
+Candida_tropicalis_M.1             UUGGGUGCAGCAUCUCAUCUGUUUUGAGAUUAACUUUGUUUUAAUUUCCU
+#=GC SS_cons                       .......<<<<.<<<<<<..<<<...<<<<<<.........>>>>>>...
+#=GC RF                            UUGGGUGCagCAgccCuucugua..gccugccuuu.....uggcaggUCU
+
+Clavispora_lusitania.1             AAGGG..ACUGCCUUCGUGCGCCCGUAUGGGGAGUGUUGCAAUGAUCAGC
+D.hansenii.1                       AAGGG..AUUACCUUCGUGUGCCCGUAUGGGGAGUGGUGCAAUGAUCAGC
+Ashbya_gossypii_ATCC.1             AAGGG..ACUGCCUUCGUGCCCCCGUAUGGGGGCUGCUGCAAGGAUCAGU
+K.lactis.1                         AAGGG..UUUACCUUCGUGUGCCCGUAUGAGAGUGGCUGCAAGGAUCAGU
+Kluyveromyces_waltii.1             AAGGG..AUUGCCUUCGUGCGCCCGUAUGGGAGUUGUUGCAAUGAUCACU
+Saccharomyces_kluyve.1             AAGGGAUUUUACCUUCGUGUGCCCGUAUGGGGAUCGUUGCAAUGAUCGUU
+Saccharomyces_castel.1             AAGGG..UUUACCUUCGUGUGCCCGUAUGGGAGUCGUUGCAAGGAUCACU
+Pichia_stipitis_CBS_.1             AAGGG..AUUACCUUCGUGUGCCCGUAUGGGGUUUGGUGCAAUGAUCAGC
+Pichia_guilliermondi.1             AAGGG..UUUACCUUCGUGUGCCCGUAUGGGAGGUGGUGCAAUGAUCAGC
+Saccharomyces_bayanu.1             AAGGG..UUUACCUUCGUGUGCCCGGAUGAGGACCGUUGCAAGGAUUGAU
+Saccharomyces_mikata.1             AAGGG..UUUACCUUCGUGUGCCCGGAUGAGGACCGUUGCAAGGAUUGAU
+S.cerevisiae.1                     AAGGG..UUUACCUUCGUGUGCCCGGAUGAGGACCGUUGCAAGGAUUGAU
+Vanderwaltozyma_poly.1             AAGAG..UUUACCUUCGUGUGCUCGUAUGGGAGUGGUUGCAAGGAUCAUU
+Candida_tropicalis_M.1             AAGGG..UUAACCUUCGUGUGCCCGUAUGGGAGAUGGUGCAAUGAUCAGU
+#=GC SS_cons                       ..<<<..<............>>>>.>>>>>>>>>.>>>>....>>>>>>>
+#=GC RF                            AAGGG..cuUACCUUCGUGugCCCGuaugaGggcuGcuGCAAuGauCagc
+
+Clavispora_lusitania.1             UAUACAUGU
+D.hansenii.1                       UGGACAUAU
+Ashbya_gossypii_ATCC.1             UGAACAUUA
+K.lactis.1                         CGAACAAAC
+Kluyveromyces_waltii.1             AAUACAAAU
+Saccharomyces_kluyve.1             AAUACAUCU
+Saccharomyces_castel.1             AAUACAUUU
+Pichia_stipitis_CBS_.1             UGUACAUCG
+Pichia_guilliermondi.1             UGUACAUUU
+Saccharomyces_bayanu.1             ACGACAUCU
+Saccharomyces_mikata.1             AAUACAUUU
+S.cerevisiae.1                     AAUACAACU
+Vanderwaltozyma_poly.1             AAUACAUCU
+Candida_tropicalis_M.1             GAGACAUUU
+#=GC SS_cons                       >>.......
+#=GC RF                            cguACAuau
+//

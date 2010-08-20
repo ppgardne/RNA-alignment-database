@@ -1,0 +1,95 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORA50
+#=GF AC    RF00407
+#=GF DE    Small nucleolar RNA SNORA50
+#=GF AU    Moxon SJ
+#=GF GA    30.0
+#=GF NC    28.9
+#=GF TC    30.4
+#=GF PI    snoACA50
+#=GF SE    Moxon SJ, INFERNAL
+#=GF SS    Predicted; RNAalifold_manual; Daub J
+#=GF TP    Gene; snRNA; snoRNA; HACA-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Gallus_gallus300045
+#=GF DR    snoopy; Rattus_norvegicus300977
+#=GF RN    [1]
+#=GF RM    15199136
+#=GF RT    Human box H/ACA pseudouridylation guide RNA machinery.
+#=GF RA    Kiss AM, Jady BE, Bertrand E, Kiss T;
+#=GF RL    Mol Cell Biol 2004;24:5797-5807.
+#=GF CC    ACA50 is a member of the H/ACA class of snoRNA that guide the sites of
+#=GF CC    modification of uridines to pseudouridines [1].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_SNORA50
+#=GF SQ    14
+
+#=GS O.latipes.1            AC    BAAF04042401.1/3300-3437
+#=GS Gasterosteus_aculeat.1 AC    AANH01005120.1/104420-104557
+#=GS T.rubripes.1           AC    CAAB01000022.1/107760-107899
+#=GS T.nigroviridis.1       AC    CAAE01015006.1/194471-194610
+#=GS D.rerio.1              AC    CR392029.12/79956-80090
+#=GS A.carolinensis.1       AC    AAWZ01043036.1/26500-26636
+#=GS E.telfairi.1           AC    AAIY01789533.1/679-813
+#=GS M.musculus.1           AC    AC127300.3/141571-141705
+#=GS R.norvegicus.1         AC    AAHX01097108.1/1222-1342
+#=GS H.sapiens.1            AC    AJ609468.1/1-136
+#=GS H.sapiens.2            AC    AC010287.9/54441-54576
+#=GS Dasypus_novemcinctus.1 AC    AAGV020190566.1/334-468
+#=GS Monodelphis_domestic.1 AC    AAFR03049113.1/29632-29769
+#=GS O.anatinus.1           AC    AAPN01068259.1/462-597
+
+O.latipes.1                        CUGCACUGUCUUUGAACC..UCGUUGGUCUUGUCUGUGACCAUUUUGGCC
+Gasterosteus_aculeat.1             CUGCACAGCUUUUAAACC..UUGUUGGUCUCGCCUGUGACCUCUUAGGCC
+T.rubripes.1                       CUGCACUGUCUUUGAACC..UGACCGGUCCUGUCGGUGACCUCUUAGGCC
+T.nigroviridis.1                   CAGCACUGUCUUUGAACC..UGACUGGUCCCAUCAGUGACCUCUCAGGCC
+D.rerio.1                          AAGCACUGUCUUUGAACC..UGUGUAGCC.CAUCCAUGGCUCAGCGGGCC
+A.carolinensis.1                   CAGCACUGUCUUUGAACC..UGACGUGUCU..UCUGUAGCUUCUCGGGCC
+E.telfairi.1                       AAGCACUGCCUUUGAACC..UGAUGUGUCUAGUUUGUAGCUUUACAGGCC
+M.musculus.1                       AAGCACUGCCUUUGAAUC..UGAUGUGUCUUGUUUGUAGCUUCACGGGCC
+R.norvegicus.1                     GAGCGCUGCCUUUGAAUC..UGAU..GUCUUACUUGUAGCUCAAG.GGCC
+H.sapiens.1                        AAGCACUGCCUUUGAACC..UGAUGUGUCUUGUUUGUAGCUUCACGGGCC
+H.sapiens.2                        AAGCACUGCCUUUGAACC..UGAUGUGUCUUGUUUGUAGCUUCACGGGCC
+Dasypus_novemcinctus.1             AAGCACUGCCUUUGAAUC..UAAUAUGUCUUGUUUGUAGCUUCUC.AGCC
+Monodelphis_domestic.1             AAGCACUGCCUUUGAACC..UGAUAUGUCUUGUUUGUAGCUUCUCAGGCC
+O.anatinus.1                       GUGCACUGUCUUUGAACCCAUGAAACGCCUCGUCCGUGGCUUGAUGGGCU
+#=GC SS_cons                       .<<<<<<<..........................................
+#=GC RF                            AaGCACuGcCUUUGAAcC..UaAUauGUCuuGcuuGUAGCcucacagGCC
+
+O.latipes.1                        AAGCAACAGUGCUAAAUCAAAC...UGCUUGUUC.AUAACUGGAGCUUCU
+Gasterosteus_aculeat.1             AAGCUACGUUGCUAAAGCAUUGC..AGCCUUGUUCAUAACUGGAGCCUCC
+T.rubripes.1                       AAGCGACAGUGCUACAUGAAAUCC.AAACUUGUUCAUAACUGGGGCAACC
+T.nigroviridis.1                   AAGCUACAGUGCUAAAUGAAACUU.GGACUUGUUCAUAACUGGGGCAACC
+D.rerio.1                          AAGCAACAGUGCAACAGUAAA.....GGGUUGUU.AUAACUGGAGCCCCU
+A.carolinensis.1                   AAGCCACAGUGCUAGAUUACGACCAGUCCUUGUU.AUAGCUGGGGAACUU
+E.telfairi.1                       GAGCAACAUUGCUAGAGCAUAA...GGACUUGUU.AUAACUGGG.CUCUU
+M.musculus.1                       AAGCAACAGUACUAGAGCAUAA...GGACUUGUU.AUAACUGGG.CUCUU
+R.norvegicus.1                     AGGCAACAGUGCUAGAGGAAAG...............AACUGGG.CUCUU
+H.sapiens.1                        AAGCAACAGUGCUAGAGCAUAA...CGACUUGUU.AUAACUGGGGCUCUU
+H.sapiens.2                        AAGCAACAGUGCUAGAGCAUAA...CGACUUGUU.AUAACUGGGGCUCUU
+Dasypus_novemcinctus.1             AAGCAACAGUACUAGAGCAUAA...GGACUUGUU.AUAACUGGGGCUCCU
+Monodelphis_domestic.1             AAGCAACAGUGCUAGACCAUAUUU.GGACUUGUU.AUAACUGGGGCUCUU
+O.anatinus.1                       ACGCAGCGGUGCAAAAUUAUGA...G..CUUGUUUAUAACUGGGGCUGCU
+#=GC SS_cons                       ......>>>>>>>...............<<<<<<.......<<<.<..<<
+#=GC RF                            aagCaaCaGUGCuAgAgcAuAa...gGaCuuGuu.AUAACUgGaGCUccu
+
+O.latipes.1                        UAGAAAAAACAG.CUAAGUUGCUCUUUUAAAAGCAAGUUACAACU
+Gasterosteus_aculeat.1             UGG..AAACCCC.CCAGUUAGCUCUUUUAAAUGCAAGUCACAGUU
+T.rubripes.1                       UGAC.AACAAUC.UCAUGUUGCUCUUUUAAAAGCAAGUCACAUCU
+T.nigroviridis.1                   UGGC.AACAAUC.CCAAGUUGCUCUUUUAAAAGCAAGUCAUAGCU
+D.rerio.1                          UGGC.UUUUCUUCCCAAGUUGCUCUUUUAAAAGCAACCUACAAAU
+A.carolinensis.1                   CAG..UUCUGAA.CUGAAAUGCUCCUUUAAAAACAAGGCACAUCU
+E.telfairi.1                       CAG..CUCCCAA.CUGAACUGCUCUUGUAAAAACAAGGUACAUUU
+M.musculus.1                       CAG..CUCGCAA.CUGAACUGCUCUUUUAAAAACAAGGUACAUUU
+R.norvegicus.1                     CAG..CGCUCAG.CUGAGCUGCUCUUUUACAAACAAGGUCCAUUU
+H.sapiens.1                        CAG..CUCUCAA.CUGAACUGCUCUUUUAAAAACAAGGUACAUUU
+H.sapiens.2                        CAG..CUCUCAA.CUGAACUGCUCUUUUAAAAACAAGGUACAUUU
+Dasypus_novemcinctus.1             CAG..CUCUCAG.CUGAACUGCAGUUUUAAAAAUGAGGUGCAUUU
+Monodelphis_domestic.1             CAG..GUUCAAA.CUGAAUUGUUCCUUUAAAAACAAGGUACAUUG
+O.anatinus.1                       UGG...UCAAAC.CCAAGUGGCUCUUUUAAGAACAAGUGACAUUU
+#=GC SS_cons                       <<<..........>>>>>..>.>>>......>>>>>>........
+#=GC RF                            cAG..aaaacAg.CUgaguUGcuCcUUUAAAaaCaaGgUACAuuU
+//

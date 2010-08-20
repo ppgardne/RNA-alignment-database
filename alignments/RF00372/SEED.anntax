@@ -1,0 +1,69 @@
+# STOCKHOLM 1.0
+#=GF ID    sroH
+#=GF AC    RF00372
+#=GF DE    sroH RNA
+#=GF AU    Moxon SJ
+#=GF GA    75.0
+#=GF NC    21.5
+#=GF TC    85.7
+#=GF SE    PMID:14602901, INFERNAL
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; sRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000655 SO:ncRNA
+#=GF RN    [1]
+#=GF RM    14602901
+#=GF RT    RNomics in Escherichia coli detects new sRNA species and indicates
+#=GF RT    parallel transcriptional output in bacteria.
+#=GF RA    Vogel J, Bartels V, Tang TH, Churakov G, Slagter-Jager JG,
+#=GF RA    Huttenhofer A, Wagner EG;
+#=GF RL    Nucleic Acids Res 2003;31:6435-6443.
+#=GF CC    This family consists of a number of bacterial sroH RNA genes of around 160
+#=GF CC    bases in length. The function of this family is unknown [1].
+#=GF WK    http://en.wikipedia.org/wiki/sroH_RNA
+#=GF SQ    6
+
+#=GS E.coli.1               AC    M88701.1/5870-6029
+#=GS E.coli.2               AC    V00339.1/12051-12211
+#=GS E.coli.3               AC    U00006.1/55568-55728
+#=GS Escherichia_coli_E22.1 AC    AAJV02000038.1/11461-11616
+#=GS E.coli.4               AC    M38288.1/2020-2180
+#=GS Yersinia_bercovieri_.1 AC    AALC01000034.1/30234-30377
+
+E.coli.1                           GAAAAUAAGAACACAUGUUCUCAUCU...UCCAGGAUGCAGCAGACUGAA
+E.coli.2                           GAAAAUAAGAACACAUGUUCUCAUCU...UCCAGGAUGCAGCAGACUGAA
+E.coli.3                           GAAAAUAAGAACACAUGUUCUCAUCU...UCCAGGAUGCAGCAGACUGAA
+Escherichia_coli_E22.1             AAUAUACACAUGCGGUCAUGAUAAUGCAGUUAAGGAUGCAGCAGACUG.A
+E.coli.4                           GAAAAUAAGAACACAUGUUCUCAUCU...UCCAGGAUGCAGCAGACUGAA
+Yersinia_bercovieri_.1             GGAUAGGA............UGAGUU...U...GGAUGCAGCAGACUGA.
+#=GC SS_cons                       ........<<<<....>>>>.............<<.<<.......<<<<.
+#=GC RF                            GAAAAUAAGaaCAcAUGuuCUcAUcU...UccAGgAuGcAGcAGACuGaA
+
+E.coli.1                           GAAAUUCAGACAUCCCGCAACCUGCGA.UUA.UCGCAAGGUCAAGGCAAA
+E.coli.2                           GAAAUUCAGACAUCCCGCAACCUGCGA.UUA.UCGCAAGGUCAAGGCAAA
+E.coli.3                           GAAAUUCAGACAUCCCGCAACCUGCGA.UUA.UCGCAAGGUCAAGGCAAA
+Escherichia_coli_E22.1             UUAAUCCAGACAUCCCGCUACAAGCGU.....ACGC..UGGUCAGGCCUG
+E.coli.4                           GAAAUUCAGACAUCCCGCAACCUGCGA.UUA.UCGCAAGGUCAAGGCAAA
+Yersinia_bercovieri_.1             .UUUUCCAGACAUCCAGCUACCGAGUUGUUAUUGUUUCGGUCGUGGCCAA
+#=GC SS_cons                       .....>>>>..............<<<<.....>>>>..............
+#=GC RF                            GAAAUuCaGAcAUcccGcAAccUGCGa.UUA.uCGCAAGGUcAAGGcAAA
+
+E.coli.1                           GUCCGGUAAUGGCGUUCUGAAUACCAGAGAUAAUUCUCUGGCCAAACCCA
+E.coli.2                           GUCCGGUAAUGGCGUUCUGAAUACCAGAGAUAAUUCUCUGGCGAAACCCA
+E.coli.3                           GUCCGGUAAUGGCGUUCUGAAUACCAGAGAUAAUUCUCUGGCGAAACCCA
+Escherichia_coli_E22.1             GUCCGGUAAAGGUGCUCUGAAUACCAGAGAUA..UUUCUGGCGAAACCCA
+E.coli.4                           GUCCGGUAAUGGCGUUCUGAAUACCAGAGAUAAUUCUCUGGCGAAACCCA
+Yersinia_bercovieri_.1             GCCCGGUAAAGGCGUUCUGAAUACCAGAAGAAAU..UCUGGCGAAACCCA
+#=GC SS_cons                       ............>>.>>......<<<<<<<....>>>>>>>..<<<<<<<
+#=GC RF                            GUccGGUAAUGGCgUuCUGAAUACCaGaGaUAAUuCuCuGGcgaaacCCa
+
+E.coli.1                           CCUUAAGGUGG.UGUU
+E.coli.2                           CCUUAAGGUGGGUUUU
+E.coli.3                           CCUUAAGGUGGGUUUU
+Escherichia_coli_E22.1             CCUCAAGGUGGGUUUU
+E.coli.4                           CCUUAAGGUGGGUUUU
+Yersinia_bercovieri_.1             CCAUAAGGUGGGUUUU
+#=GC SS_cons                       <<....>>>>>>>>>.
+#=GC RF                            CCUUAAGGuGGguuuU
+//

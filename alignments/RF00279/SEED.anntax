@@ -1,0 +1,82 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORD45
+#=GF AC    RF00279
+#=GF DE    Small nucleolar RNA SNORD45
+#=GF AU    Moxon SJ
+#=GF GA    27.0
+#=GF NC    26.4
+#=GF TC    28.0
+#=GF PI    U45
+#=GF SE    Moxon SJ
+#=GF SS    Predicted; PFOLD; Moxon SJ
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Mus_musculus300909
+#=GF DR    snoopy; Homo_sapiens300006
+#=GF RN    [1]
+#=GF RM    12215523
+#=GF RT    Purified box C/D snoRNPs are able to reproduce site-specific
+#=GF RT    2'-O-methylation of target RNA in vitro.
+#=GF RA    Galardi S, Fatica A, Bachi A, Scaloni A, Presutti C, Bozzoni I;
+#=GF RL    Mol Cell Biol 2002;22:6663-6668.
+#=GF RN    [2]
+#=GF RM    11387227
+#=GF RT    RNomics: an experimental approach that identifies 201 candidates for
+#=GF RT    novel, small, non-messenger RNAs in mouse.
+#=GF RA    Huttenhofer A, Kiefmann M, Meier-Ewert S, O'Brien J, Lehrach H,
+#=GF RA    Bachellerie JP, Brosius J;
+#=GF RL    EMBO J 2001;20:2943-2953.
+#=GF RN    [3]
+#=GF RM    8674114
+#=GF RT    Site-specific ribose methylation of preribosomal RNA: a novel
+#=GF RT    function for small nucleolar RNAs.
+#=GF RA    Kiss-Laszlo Z, Henry Y, Bachellerie JP, Caizergues-Ferrer M, Kiss T;
+#=GF RL    Cell 1996;85:1077-1088.
+#=GF CC    U45 belongs to the C/D class of snoRNA which contain the C (UGAUGA)
+#=GF CC    and D (CUGA) box motifs. Most of the members of the box C/D family function
+#=GF CC    in directing site-specific 2'-O-methylation of substrate RNAs [1].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_SNORD45
+#=GF SQ    11
+
+#=GS M.musculus.1 AC    AC087184.7/96758-96828
+#=GS M.musculus.2 AC    AC087184.7/97805-97885
+#=GS M.musculus.3 AC    AF357369.1/1-61
+#=GS H.sapiens.1  AC    X96645.1/1-71
+#=GS H.sapiens.2  AC    AL627443.6/42094-42164
+#=GS H.sapiens.3  AC    X96644.1/1-84
+#=GS H.sapiens.4  AC    AL357314.11/76561-76632
+#=GS H.sapiens.5  AC    AL033518.14/62081-62151
+#=GS H.sapiens.6  AC    AL357314.11/74156-74234
+#=GS H.sapiens.7  AC    AL499609.9/75947-76028
+#=GS H.sapiens.8  AC    AL590229.3/91513-91584
+
+M.musculus.1             GGUCAGUGAUGUCAUGGCAUGUAUUAGCUGAAUGCUAACCUGAUG.....
+M.musculus.2             GGUCAAUGAUGUGUUGGCAUGUAUUAUCUGAAUUCGCUGAUG.UGUCAUA
+M.musculus.3             ...............GGCAUGUAUU..CUGAAUCUAAAGUUGAUUAUAAA
+H.sapiens.1              GGUCAAUGAUGUAAUGGCAUGUAUUAGCUGAAUCUAAAGUUGAUG.....
+H.sapiens.2              GGUCAAUGAUGUCGUGGCAUGUAUCAGCUGAAUCCAAAGUUGAUG.....
+H.sapiens.3              GGUCAAUGAUGUGUUGGCAUGUAUUAUCUGAAUCUAUUGCUGAUGUGUAA
+H.sapiens.4              GGUCAAUGAUGUAAUGGCAUGUAUUAGCUGAAUCUAAAGUUGAUG.....
+H.sapiens.5              GGUCAAUGAUGUAAUGGCAUGUAUUAGCUGAAUCCAGAGUUGAUA.....
+H.sapiens.6              GGUCAAUGAUGAGUUGGCAUGUAUU..CUGAAUCUAAAGUUGAUUAUUA.
+H.sapiens.7              GGUCAAA.AUGUGUUGACAUGUAUUACCUGAAUUUAUUGCUGAUGUAUAA
+H.sapiens.8              GGUCAAUGAUGUAAUGGCAUGUAUUAGCUGAAUCCAAAGUUGAAG.....
+#=GC SS_cons             <<<<..............................................
+
+M.musculus.1             .......CAAGUUACAAA.UUACACUGAGACCUU
+M.musculus.2             ..ACACUUUAGCUCUAGAAUUACGCUGAGACCUU
+M.musculus.3             ..CCACUUUAGCUCUAGAAUUACUCUGAGA....
+H.sapiens.1              .......UGAGUUCUAGAAUUACACUGAGACCU.
+H.sapiens.2              .......UGAGUUCCAAAAUUAUACUGAGACUU.
+H.sapiens.3              UAACACUUUAGCUCUAGAAUUACUCUGAGACCUU
+H.sapiens.4              .......UGAGUUCUAAAAUUACACUGAGACCUU
+H.sapiens.5              .......UGAGUUCUAAAAUUACACUGAAGCUG.
+H.sapiens.6              ..CUACUUUAGCUCUAGAAUUACUCUGAGACCUG
+H.sapiens.7              UAACACUUCAACUCUAAAAUAAUAUAGCUUUUG.
+H.sapiens.8              .......UGAAUUCUAAAAUUACACCAAGACCUU
+#=GC SS_cons             ............................>>>>..
+//

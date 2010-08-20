@@ -1,0 +1,62 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-626
+#=GF AC    RF00968
+#=GF DE    microRNA mir-626
+#=GF AU    Wilkinson A
+#=GF GA    28.0
+#=GF NC    27.8
+#=GF TC    28.0
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000474
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    8
+
+#=GS M.mulatta.1     AC    AANU01297252.1/2538-2632
+#=GS P.troglodytes.1 AC    AACZ02154369.1/37969-38062
+#=GS C.lupus.1       AC    AACN010460612.1/284-379
+#=GS F.catus.1       AC    AANG01136823.1/1111-1209
+#=GS B.taurus.1      AC    AAFC03068996.1/4318-4415
+#=GS M.lucifugus.1   AC    AAPE01090956.1/673-769
+#=GS E.caballus.1    AC    AAWR02001476.1/3914-4012
+#=GS marine_metag.1  AC    AACY023101369.1/497-587
+
+M.mulatta.1                 ACCGAUAUCUUUGUCUUAUUUCUGAGCUGAGGG....GU...UAU.UU.U
+P.troglodytes.1             ACUGAUAUAUUUGUCUUAUUUGAGAGCUGAGGA....GU....AU.UU.U
+C.lupus.1                   AACUAAAUUCUUACCU.GUUUCUGAUUUUAGGA....GCUAGUAU.UUCU
+F.catus.1                   ACUAACAUCCUUAUCUAGUUUCUGACCUUAGGGGGCAGU...AGU.UC.U
+B.taurus.1                  ACUAAUAUCCUUGUGUUGUUUU.GGUCUAAGGAG...GU...AGUAUU.U
+M.lucifugus.1               GCUAACAUCCUUGUCUUGUUUCUGAUCUUAGGA....GAUAGUAU.UUCU
+E.caballus.1                GCCAAUAUCCUUGUCUUUUUUCUUAUCUUAGGAG...GU...GAUAUU.U
+marine_metag.1              UUCAAUUUAUUUGUCUUGUUUUCGACUUUAAGA....UC....AU.UU.U
+#=GC SS_cons                ............<<<<<......<<<.<<<<<<..........<<.<<.<
+#=GC RF                     acuAAuAUcuUUguCUugUUUcugAacUgAgGa....Gu...aaU.Uu.U
+
+M.mulatta.1                 UAUGCA..GUCUAAAUGAUCUCAGCUGUCCGAAAAUGUCUUCAAGUUUAA
+P.troglodytes.1             UAUGCA..AUCUGAAUGAUCUCAGCUGUCUGAAAAUGUCUUCAAUUUUAA
+C.lupus.1                   UAGGCA..GUCUCAAUUCUCUCAGUUGUCUGAAAGUGUCU..AUCUUCAA
+F.catus.1                   UGUACA..GUCUGACUUGUUUCAGCUGUUAGAAAAUGUCUUUAUCUUUGA
+B.taurus.1                  UUUGUGACGUGUGAAUUCUUUCAGAUGUCUGAAAAUGUGUUUAGCUUUGA
+M.lucifugus.1               UGUACA..GUCUGA..GUUCUCUGUUGUCUAAAAAUGUCUUCAGGUUUAA
+E.caballus.1                CUUGUGCUGUCUGAAUUCUGUCAGCUAUCUGAAAAUGUCUUUAGCCUUGA
+marine_metag.1              UU.AAC..CUAUUAAUUGGCUGAUUAUU..AAAAAUUUCUUCAAUUUCAA
+#=GC SS_cons                <..<<<....<<.<......>.>>.>>>..>>>>>>.>>>>>>..>>>.>
+#=GC RF                     cuUaca..gUCugAAUuaucUcaGcugucugAaAAuGuCuUcAauuUcAa
+
+M.mulatta.1                 AGGCUU
+P.troglodytes.1             AGGCUU
+C.lupus.1                   AGCCUU
+F.catus.1                   AGUCUU
+B.taurus.1                  AGGCUU
+M.lucifugus.1               AGGCUU
+E.caballus.1                AGACUU
+marine_metag.1              AGGAUU
+#=GC SS_cons                >>>>..
+#=GC RF                     AGacUU
+//

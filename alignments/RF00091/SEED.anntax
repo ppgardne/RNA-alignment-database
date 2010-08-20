@@ -1,0 +1,122 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORA62
+#=GF AC    RF00091
+#=GF DE    Small nucleolar RNA SNORA62/SNORA6 family
+#=GF AU    Griffiths-Jones SR, Moxon SJ, Daub J
+#=GF GA    22.0
+#=GF NC    0.0
+#=GF TC    22.7
+#=GF PI    E2
+#=GF SE    Griffiths-Jones SR
+#=GF SS    Predicted; PFOLD; Moxon SJ
+#=GF TP    Gene; snRNA; snoRNA; HACA-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    snoRNABase; E2
+#=GF DR    snoRNABase; ACA6
+#=GF DR    SO:0000594 SO:H_ACA_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Mus_musculus300694
+#=GF DR    snoopy; Homo_sapiens300658
+#=GF RN    [1]
+#=GF RM    8586453
+#=GF RT    The gene for human E2 small nucleolar RNA resides in an intron of a
+#=GF RT    laminin-binding protein gene.
+#=GF RA    Selvamurugan N, Eliceiri GL;
+#=GF RL    Genomics 1995;30:400-401.
+#=GF RN    [2]
+#=GF RM    9144174
+#=GF RT    Three small nucleolar RNAs that are involved in ribosomal RNA
+#=GF RT    precursor processing.
+#=GF RA    Mishra RK, Eliceiri GL;
+#=GF RL    Proc Natl Acad Sci U S A 1997;94:4972-4977.
+#=GF RN    [3]
+#=GF RM    15199136
+#=GF RT    Human box H/ACA pseudouridylation guide RNA machinery.
+#=GF RA    Kiss AM, Jady BE, Bertrand E, Kiss T;
+#=GF RL    Mol Cell Biol 2004;24:5797-5807.
+#=GF RN    [4]
+#=GF RM    11387227
+#=GF RT    RNomics: an experimental approach that identifies 201 candidates for
+#=GF RT    novel, small, non-messenger RNAs in mouse.
+#=GF RA    Huttenhofer A, Kiefmann M, Meier-Ewert S, O'Brien J, Lehrach H,
+#=GF RA    Bachellerie JP, Brosius J;
+#=GF RL    EMBO J 2001;20:2943-2953.
+#=GF RN    [5]
+#=GF RM    16381836
+#=GF RT    snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D box
+#=GF RT    snoRNAs.
+#=GF RA    Lestrade L, Weber MJ;
+#=GF RL    Nucleic Acids Res. 2006;34:D158-D162.
+#=GF CC    The members of this family belong to the H/ACA class of snoRNAs
+#=GF CC    which are predicted to guide the sites of modification of
+#=GF CC    uridines to pseudouridines [3].  This family includes human
+#=GF CC    snoRNAs E2 (SNORA62), ACA6 (SNORA6) and M2 and mouse MBI-136. In
+#=GF CC    humans both E2 and ACA6 are encoded in the introns on the same
+#=GF CC    host gene (LAMR1)[1,3]. E2 is involved in the processing of
+#=GF CC    eukaryotic pre-rRNA and has regions of complementarity to 28S
+#=GF CC    rRNA [2].  ACA6 is predicted to guide the pseudouridylation of
+#=GF CC    residue U3616 of 28S rRNA [5].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_SNORA62
+#=GF SQ    10
+
+#=GS X.laevis.1  AC    U64700.1/1-155
+#=GS G.gallus.1  AC    AF375473.1/1-156
+#=GS H.sapiens.1 AC    AF375472.1/1-148
+#=GS H.sapiens.2 AC    U43901.2/6709-6861
+#=GS H.sapiens.3 AC    AJ609429.1/1-149
+#=GS H.sapiens.4 AC    AK055991.1/796-948
+#=GS H.sapiens.5 AC    AC099332.2/52482-52634
+#=GS H.sapiens.6 AC    L22739.1/569-721
+#=GS H.sapiens.7 AC    L07383.1/1-153
+#=GS H.sapiens.8 AC    U36484.1/569-721
+
+X.laevis.1              .UUGCACACAGUUAGAACUUGG.AGCUGAG.GCCUU.UUCA.GCCAAUGA
+G.gallus.1              CACGCACACAGUUGGAACUUGGGAGCUGAGAGCCAACCUGUGGCCAAGGA
+H.sapiens.1             ..UGCACACUAUUAAAGCUCAG.GGUGGAG.GCCAGUCU.UGGCUCAUGA
+H.sapiens.2             UGUGCACAUUGUUAGAGCUUGG.AGUUGAG.GCUACUGACUGGCCGAUGA
+H.sapiens.3             ..UGCACACUAUUAAAGCUCAG.GGUGGAG.GCCAGUCU.UGGCUCAUGA
+H.sapiens.4             UGUGCACAUUGUUAGAGCUUGG.AGUUGAG.GCUACUGACUGGCCGAUGA
+H.sapiens.5             UGUGCACAUUGUUAGAGCUUGG.AGUUGAG.GCUACUGACUGGCCGAUGA
+H.sapiens.6             UGUGCACAUUGUUAGAGCUUGG.AGUUGAG.GCUACUGACUGGCCGAUGA
+H.sapiens.7             UGUGCACAUUGUUAGAGCUUGG.AGUUGAG.GCUACUGACUGGCCGAUGA
+H.sapiens.8             UGUGCACAUUGUUAGAGCUUGG.AGUUGAG.GCUACUGACUGGCCGAUGA
+#=GC SS_cons            ...<<<<<<<.....................<<<<.....>>>>......
+
+X.laevis.1              ACU.CUGAGUGUAGGAUGUGUGCUACAUUAACAUGGCAGACUUUUCGCUA
+G.gallus.1              ACU.CUCAGUGUAGGAUGUGUGCUACAGUAACAUGGCAGGACUUAC.UGA
+H.sapiens.1             ACUUCUGAGUGUCGGAAGUGUGCUAUAUCAA..UGGCAGGAUUUUCGCUA
+H.sapiens.2             ACUCGCAAGUGUAGGUAGUGUGCUACAUGAG..GGGCAAG.UUUUCGCUA
+H.sapiens.3             ACUUCUGAGUGUCGGAAGUGUGCUAUAUCAA..UGGCAGGAUUUUCGCUA
+H.sapiens.4             ACUCGCAAGUGUAGGUAGUGUGCUACAUGAG..GGGCAAG.UUUUCGCUA
+H.sapiens.5             ACUCGCAAGUGUAGGUAGUGUGCUACAUGAG..GGGCAAG.UUUUCGCUA
+H.sapiens.6             ACUCGCAAGUGUAGGUAGUGUGCUACAUGAG..GGGCAAG.UUUUCGCUA
+H.sapiens.7             ACUCGCAAGUGUAGGUAGUGUGCUACAUGAG..GGGCAAG.UUUUCGCUA
+H.sapiens.8             ACUCGCAAGUGUAGGUAGUGUGCUACAUGAG..GGGCAAG.UUUUCGCUA
+#=GC SS_cons            ................>>>>>>>...........<<<<<...........
+
+X.laevis.1              ACGCCACAAGGAGCUUUAGAGCUCCAGUGACUGGAGUUUGAUAGUAAUUC
+G.gallus.1              CAGCCU.GAGGGCCUUU.GUGGCCCAAUGAAAGGAGUUUGGUAGUCAAUC
+H.sapiens.1             ACACCAGUAGAG.CU....UGCCUCUAUGACUGGAGUUUGGUAGUACUCG
+H.sapiens.2             ACACCACAAGGGUCUC...UGGCCCAAUGAGUGGAGUUUGAUAGUAAUUC
+H.sapiens.3             ACACCAGUAGAG.CU....UGCCUCUAUGACUGGAGUUUGGUAGUACUCG
+H.sapiens.4             ACACCACAAGGGUCUC...UGGCCCAAUGAGUGGAGUUUGAUAGUAAUUC
+H.sapiens.5             ACACCACAAGGGUCUC...UGGCCCAAUGAGUGGAGUUUGAUAGUAAUUC
+H.sapiens.6             ACACCACAAGGGUCUC...UGGCCCAAUGAGUGGAGUUUGAUAGUAAUUC
+H.sapiens.7             ACACCACAAGGGUCUC...UGGCCCAAUGAGUGGAGUUUGAUAGUAAUUC
+H.sapiens.8             ACACCACAAGGGUCUC...UGGCCCAAUGAGUGGAGUUUGAUAGUAAUUC
+#=GC SS_cons            ...<<<<..<<<<<......>>>>>.....>>>>................
+
+X.laevis.1              UUGCCACAGCU
+G.gallus.1              UUGCCACAGU.
+H.sapiens.1             CUGCCACAUA.
+H.sapiens.2             UUGCUACAAGU
+H.sapiens.3             CUGCCACAUAG
+H.sapiens.4             UUGCUACAAGU
+H.sapiens.5             UUGCUACAAGU
+H.sapiens.6             UUGCUACAAGU
+H.sapiens.7             UUGCUACAAGU
+H.sapiens.8             UUGCUACAAGU
+#=GC SS_cons            >>>>>......
+//

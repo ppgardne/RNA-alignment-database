@@ -1,0 +1,211 @@
+# STOCKHOLM 1.0
+#=GF ID    Entero_CRE
+#=GF AC    RF00048
+#=GF DE    Enterovirus cis-acting replication element
+#=GF AU    Bateman A
+#=GF GA    30.0
+#=GF NC    0.0
+#=GF TC    30.7
+#=GF PI    CRE
+#=GF SE    Bateman A
+#=GF SS    Published; PMID:11044080
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    11044080
+#=GF RT    Identification of an RNA hairpin in poliovirus RNA that serves as the
+#=GF RT    primary template in the in vitro uridylylation of VPg.
+#=GF RA    Paul AV, Rieder E, Kim DW, van Boom JH, Wimmer E;
+#=GF RL    J Virol 2000;74:10359-10370.
+#=GF RN    [2]
+#=GF RM    10775595
+#=GF RT    Identification of a cis-acting replication element within the
+#=GF RT    poliovirus coding region.
+#=GF RA    Goodfellow I, Chaudhry Y, Richardson A, Meredith J, Almond JW,
+#=GF RA    Barclay W, Evans DJ;
+#=GF RL    J Virol 2000;74:4590-4600.
+#=GF CC    The first step in the replication of the plus-stranded poliovirus
+#=GF CC    RNA is the synthesis of a complementary minus strand. This process
+#=GF CC    is initiated by the covalent attachment of UMP to the terminal
+#=GF CC    protein VPg, yielding VPgpU and VPgpUpU. A small RNA hairpin in
+#=GF CC    the coding region of protein 2C as the site in PV1(M) RNA that
+#=GF CC    is used as the primary template for the in vitro uridylylation
+#=GF CC    [1-2].
+#=GF WK    http://en.wikipedia.org/wiki/Enterovirus_cis-acting_replication_element
+#=GF SQ    56
+
+#=GS Human_poliovirus_3.1    AC    K01392.1/4435-4495
+#=GS Human_enterovirus_73.1  AC    AF504534.1/666-726
+#=GS Human_enterovirus_70.1  AC    D00820.1/4386-4446
+#=GS Human_echovirus_11.1    AC    D10582.1/1188-1248
+#=GS Human_echovirus_30.1    AC    AF162711.1/4398-4458
+#=GS A-2_plaque_virus.1      AC    AF201894.1/4325-4385
+#=GS Human_coxsackievirus.1  AC    D00538.1/4407-4467
+#=GS Swine_vesicular_dise.1  AC    D00435.1/4364-4424
+#=GS Human_poliovirus_1.1    AC    V01148.1/4439-4499
+#=GS Human_coxsackievirus.2  AC    AF311939.1/4359-4419
+#=GS Enterovirus_CA55-198.1  AC    AF241359.1/4374-4434
+#=GS Human_coxsackievirus.3  AC    D90457.1/4467-4527
+#=GS Human_enterovirus_73.2  AC    AF504533.1/4287-4347
+#=GS Human_poliovirus_1.2    AC    AF462418.1/4444-4504
+#=GS Porcine_enterovirus_.1  AC    Y14459.1/4345-4405
+#=GS Human_poliovirus_3.2    AC    AJ293918.1/4440-4500
+#=GS Human_coxsackievirus.4  AC    D00627.1/4412-4472
+#=GS Human_echovirus_7.1     AC    AY036578.1/4389-4449
+#=GS Human_poliovirus_1.3    AC    AJ132961.1/4445-4505
+#=GS Echovirus_1_strain_F.1  AC    AF029859.2/4361-4421
+#=GS Human_echovirus_30.2    AC    AJ295214.1/163-223
+#=GS Swine_vesicular_dise.2  AC    AF268065.1/4364-4424
+#=GS Human_poliovirus_1.4    AC    AF405666.1/4444-4504
+#=GS Human_poliovirus_1.5    AC    AY056701.1/4247-4307
+#=GS Human_echovirus_30.3    AC    AF311938.1/4403-4463
+#=GS Human_poliovirus_1.6    AC    AF462419.1/4444-4504
+#=GS Human_coxsackievirus.5  AC    X05690.1/4358-4418
+#=GS Human_poliovirus_1.7    AC    AJ416942.1/4444-4504
+#=GS Human_poliovirus_2.1    AC    D00625.1/4443-4503
+#=GS Human_coxsackievirus.6  AC    AF039205.1/4361-4421
+#=GS Human_coxsackievirus.7  AC    AF085363.1/4369-4429
+#=GS Human_poliovirus_1.8    AC    AJ132960.1/4445-4505
+#=GS Human_echovirus_5.1     AC    AF083069.1/4396-4456
+#=GS Echovirus_9_strain_B.1  AC    X92886.1/4415-4475
+#=GS Human_enterovirus_73.3  AC    AF504536.1/666-726
+#=GS Human_coxsackievirus.8  AC    M16560.1/4353-4413
+#=GS Human_echovirus_7.2     AC    AY036579.1/4390-4450
+#=GS Human_coxsackievirus.9  AC    X67706.1/4364-4424
+#=GS Human_coxsackievirus.10 AC    U57056.1/4363-4423
+#=GS Human_echovirus_11.2    AC    AJ276224.1/4393-4453
+#=GS Human_poliovirus_1.9    AC    AF405669.1/4445-4505
+#=GS Echovirus_9_strain_H.1  AC    X84981.1/4384-4444
+#=GS Human_echovirus_30.4    AC    AJ295172.1/4347-4407
+#=GS Human_poliovirus_3.3    AC    X04468.1/4439-4499
+#=GS Human_coxsackievirus.11 AC    AF114383.1/4363-4423
+#=GS Human_poliovirus_1.10   AC    AF405682.1/4444-4504
+#=GS Human_coxsackievirus.12 AC    AF231763.1/4363-4423
+#=GS Human_coxsackievirus.13 AC    AF081485.1/4369-4429
+#=GS Human_enterovirus_71.1  AC    AF302996.1/4397-4457
+#=GS Enterovirus_5865sin0.1  AC    AF316321.2/4400-4460
+#=GS Human_coxsackievirus.14 AC    U05876.1/4404-4464
+#=GS Human_enterovirus_71.2  AC    AF304459.1/4399-4459
+#=GS Human_enterovirus_71.3  AC    AF119795.2/4397-4457
+#=GS Human_enterovirus_71.4  AC    U22522.1/4400-4460
+#=GS Human_coxsackievirus.15 AC    AF177911.1/4399-4459
+#=GS Human_enterovirus_71.5  AC    U22521.1/4397-4457
+
+Human_poliovirus_3.1                CAUUAAUAAUUACAUACAGUUCAAGAGCAAACACCGUAUUGAGCCAGUAU
+Human_enterovirus_73.1              GAUGAGCAACUACAUACAGUUCAAGUCCAAAUGCCGUAUUGAACCUGUCU
+Human_enterovirus_70.1              AAUUAACAACUACAUACAGUUCAAGUCCAAAUCUCGCAUUGAACCAGUAU
+Human_echovirus_11.1                GAUGAGCAAUUACAUACAGUUCAAGUCCAAAUGCCGUAUUGAACCUGUAU
+Human_echovirus_30.1                AAUGAGCAAUUACAUACAGUUCAAGUCCAAAUGCCGUAUUGAGCCUGUAU
+A-2_plaque_virus.1                  GAUGAAUAACUACAUACAGUUCAAGAGCAAAUCAAGGAUUGAACCCGUAU
+Human_coxsackievirus.1              AAUAAACAAUUAUAUACAGUUCAAGAGCAAACACCGUAUUGAGCCAGUAU
+Swine_vesicular_dise.1              GAUGAGCAAUUACAUACAGUUCAAGUCCAAAUGCCGUAUUGAACCUGUCU
+Human_poliovirus_1.1                UAUUAACAACUACAUACAGUUCAAGAGCAAACACCGUAUUGAACCAGUAU
+Human_coxsackievirus.2              AAUGAGCAAUUACAUACAGUUCAAGUCCAAAUGCCGUAUUGAACCUGUAU
+Enterovirus_CA55-198.1              GAUGAGCAAUUACAUACAGUUCAAGUCCAAAUGCCGUAUUGAGCCUGUAU
+Human_coxsackievirus.3              CAUUAACAACUAUAUCCAGUUCAAGAGCAAACACCGUAUUGAACCAGUAU
+Human_enterovirus_73.2              GAUGAGCAAUUACAUACAGUUCAAGUCCAAAUGCCGUAUUGAACCUGUAU
+Human_poliovirus_1.2                CAUAAAUAAUUACGUACAGUUCAAGAGCAAGCACCGUAUUGAGCCAGUAU
+Porcine_enterovirus_.1              AAUUUUAGGAUACAUACAGUUCAAGAGCAAGCAACGGAUUGAGCCUGUAU
+Human_poliovirus_3.2                AAUUAACAAUUACAUACAGUUCAAGAGCAAACACCGUAUUGAACCAGUAU
+Human_coxsackievirus.4              GAUGAGCAAUUACAUACAGUUCAAGUCCAAAUGCCGUAUUGAGCCUGUAU
+Human_echovirus_7.1                 AAUGAGCAACUACAUACAGUUCAAGUCCAAAUGCCGCAUUGAACCUGUCU
+Human_poliovirus_1.3                UAUUAACAACUACAUACAGUUCAAGAGCAAACACCGUAUUGAACCAGUAU
+Echovirus_1_strain_F.1              GAUGAGCAACUACAUACAGUUCAAGUCCAAAUGCCGUAUUGAGCCUGUAU
+Human_echovirus_30.2                GAUGAGCAACUACAUACAGUUCAAGUCCAAAUGCCGUAUUGAACCUGUCU
+Swine_vesicular_dise.2              GAUGAGCAAUUACAUACAGUUCAAGUCCAAAUGCCGUAUUGAACCUGUAU
+Human_poliovirus_1.4                AAUAAACAACUACAUACAGUUCAAGAGCAAACACCGUAUUGAACCAGUAU
+Human_poliovirus_1.5                AAUUAAUAAUUACAUACAGUUCAAGAGCAAACACCGGAUUGAACCAGUAU
+Human_echovirus_30.3                AAUGAGCAAUUACAUACAGUUCAAGUCCAAAUGCCGUAUUGAGCCUGUAU
+Human_poliovirus_1.6                CAUAAAUAAUUACGUACAGUUCAAGAGCAAGCACCGUAUUGAGCCAGUAU
+Human_coxsackievirus.5              AAUGAGCAAUUACAUACAGUUCAAGUCCAAAUGCCGUAUUGAACCUGUAU
+Human_poliovirus_1.7                CAUUAACAACUACAUACAGUUCAAGAGCAAACACCGUAUUGAACCAGUAU
+Human_poliovirus_2.1                GAUUAACAACUACGUACAGUUCAAGAGCAAACACCGUAUUGAACCAGUAU
+Human_coxsackievirus.6              AAUGAGUAAUUACAUACAGUUCAAGUCCAAAUGCCGUAUUGAACCUGUAU
+Human_coxsackievirus.7              GAUGAGCAAUUACAUACAAUUCAAGUCCAAAUGCCGUAUUGAACCUGUAU
+Human_poliovirus_1.8                CAUUAACAACUACAUACAGUUCAAGAGCAAACACCGUAUUGAACCAGUAU
+Human_echovirus_5.1                 GAUGAGUAAUUACAUACAGUUCAAGUCCAAAUGCCGUAUUGAGCCUGUAU
+Echovirus_9_strain_B.1              AAUGAGCAACUACAUACAGUUCAAGUCCAAAUGCCGUAUUGAACCUGUAU
+Human_enterovirus_73.3              GAUGAGCAAUUACAUACAGUUCAAGUCCAAAUGCCGUAUUGAACCUGUCU
+Human_coxsackievirus.8              AAUGAGUAACUACAUACAGUUCAAGUCCAAAUGCCGUAUUGAACCUGUAU
+Human_echovirus_7.2                 GAUGAGUAACUACAUACAGUUCAAGUCCAAAUGCCGUAUUGAACCCGUAU
+Human_coxsackievirus.9              AAUGAGUAAUUACAUACAGUUCAAGUCCAAAUGCCGUAUUGAACCUGUAU
+Human_coxsackievirus.10             GAUGAGUAAUUACAUACAGUUCAAGUCCAAAUGCCGUAUUGAGCCUGUAU
+Human_echovirus_11.2                GAUGAGCAACUACAUACAGUUCAAGUCCAAAUGCCGUAUUGAACCUGUCU
+Human_poliovirus_1.9                CAUCAAUAACUACAUACAGUUCAAGAGCAAACACCGUAUUGAACCAGUAU
+Echovirus_9_strain_H.1              GAUGAGCAAUUACAUACAGUUCAAGUCCAAAUGCCGUAUUGAGCCUGUAU
+Human_echovirus_30.4                ACUGAGCAAUUACAUACAGUUCAAGUCCAAAUGCCGUAUUGAGCCCGUAU
+Human_poliovirus_3.3                GAUUAACAAUUACAUACAGUUCAAGAGCAAACACCGUAUUGAACCAGUAU
+Human_coxsackievirus.11             AAUGAGCAAUUACAUACAGUUCAAGUCCAAAUGCCGUAUUGAGCCUGUAU
+Human_poliovirus_1.10               CAUUAAUAAUUACAUACAGUUCAAGAGCAAACACCGUAUUGAACCAGUAU
+Human_coxsackievirus.12             GAUGAGCAAUUACAUACAGUUCAAGUCCAAAUGCCGUAUUGAACCUGUAU
+Human_coxsackievirus.13             GAUGAGCAAUUACAUACAAUUCAAGUCCAAAUGCCGUAUUGAACCUGUAU
+Human_enterovirus_71.1              AAUGAAUUAUUACAUGCAGUUCAAGAGCAAACACCGAAUUGAACCUGUAU
+Enterovirus_5865sin0.1              AAUGAACAAUUACAUGCAGUUCAAGAGCAAACACCGUAUUGAACCUGUAU
+Human_coxsackievirus.14             GAUGAAUAACUACAUGCAGUUCAAGAGCAAACACCGUAUUGAACCUGUAU
+Human_enterovirus_71.2              AAUGAAUAAUUACAUGCAGUUCAAGAGCAAACACCGUAUUGAACCUGUAU
+Human_enterovirus_71.3              AAUGAAUAAUUACAUGCAGUUCAAGAGCAAACACCGUAUUGAACCUGUAU
+Human_enterovirus_71.4              AAUGAAUAAUUACAUGCAGUUCAAGAGCACACACCGUAUUGAACCUGUAU
+Human_coxsackievirus.15             GAUGAACAACUACAUGCAGUUCAAGAGCAAACACCGUAUUGAACCCGUAU
+Human_enterovirus_71.5              GAUGAAUAACUACAUGCAGUUCAAGAGCAAACACCGUAUUGAACCUGUAU
+#=GC SS_cons                        ............<<<<<.<<<<<<...<.......>..>>>>>>..>>>>
+
+Human_poliovirus_3.1                GUUUGUUAGUG
+Human_enterovirus_73.1              GUUUAUUGCUG
+Human_enterovirus_70.1              GUUUGAUAAUA
+Human_echovirus_11.1                GUCUACUUCUA
+Human_echovirus_30.1                GUUUACUCCUA
+A-2_plaque_virus.1                  GUUUAUUAAUC
+Human_coxsackievirus.1              GUAUGCUCGUU
+Swine_vesicular_dise.1              GUCUCUUGCUC
+Human_poliovirus_1.1                GUUUGCUAGUA
+Human_coxsackievirus.2              GCCUAUUGCUA
+Enterovirus_CA55-198.1              GUCUGCUCUUA
+Human_coxsackievirus.3              GUAUGUUGAUA
+Human_enterovirus_73.2              GUUUACUCCUG
+Human_poliovirus_1.2                GUUUGUUAGUG
+Porcine_enterovirus_.1              GUCUCCUGAUU
+Human_poliovirus_3.2                GCUUGUUAGUG
+Human_coxsackievirus.4              GUUUGCUCCUA
+Human_echovirus_7.1                 GUCUUCUGCUC
+Human_poliovirus_1.3                GCUUGCUAGUG
+Echovirus_1_strain_F.1              GUUUACUUCUC
+Human_echovirus_30.2                GUCUCUUGCUU
+Swine_vesicular_dise.2              GUCUCUUGCUC
+Human_poliovirus_1.4                GUCUGUUGGUA
+Human_poliovirus_1.5                GUCUAUUAGUG
+Human_echovirus_30.3                GUUUACUGCUA
+Human_poliovirus_1.6                GUUUGUUAGUA
+Human_coxsackievirus.5              GCUUGCUUUUG
+Human_poliovirus_1.7                GUUUGCUAGUA
+Human_poliovirus_2.1                GUUUGUUGGUG
+Human_coxsackievirus.6              GCUUGCUACUA
+Human_coxsackievirus.7              GUUUGCUCCUA
+Human_poliovirus_1.8                GUUUGCUAGUG
+Human_echovirus_5.1                 GUUUGCUCCUA
+Echovirus_9_strain_B.1              GUUUACUCCUU
+Human_enterovirus_73.3              GUUUAUUGCUG
+Human_coxsackievirus.8              GCUUGCUCUUG
+Human_echovirus_7.2                 GUCUGCUCUUG
+Human_coxsackievirus.9              GUUUGCUUCUG
+Human_coxsackievirus.10             GUCUGCUCCUG
+Human_echovirus_11.2                GUCUUUUGCUC
+Human_poliovirus_1.9                GUUUGUUAGUG
+Echovirus_9_strain_H.1              GUCUACUCCUA
+Human_echovirus_30.4                GUUUGCUCCUA
+Human_poliovirus_3.3                GUUUGUUAGUA
+Human_coxsackievirus.11             GUUUGCUCCUA
+Human_poliovirus_1.10               GUUUGUUAGUA
+Human_coxsackievirus.12             GUUUGCUCCUG
+Human_coxsackievirus.13             GUUUGUUCCUA
+Human_enterovirus_71.1              GUCUUAUUAUU
+Enterovirus_5865sin0.1              GUCUCAUCAUU
+Human_coxsackievirus.14             GUCUCAUCAUC
+Human_enterovirus_71.2              GCCUAAUUAUC
+Human_enterovirus_71.3              GCCUAAUCAUC
+Human_enterovirus_71.4              GUCUCAUCAUC
+Human_coxsackievirus.15             GUUUGAUCAUU
+Human_enterovirus_71.5              GCUUGAUCAUC
+#=GC SS_cons                        >..........
+//

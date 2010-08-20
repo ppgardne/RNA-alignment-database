@@ -1,0 +1,68 @@
+# STOCKHOLM 1.0
+#=GF ID    PK-repZ
+#=GF AC    RF01087
+#=GF DE    Pseudoknot of the regulatory region of the repZ gene
+#=GF AU    Wilkinson A
+#=GF GA    32.0
+#=GF NC    29.4
+#=GF TC    36.2
+#=GF SE    Pseudobase
+#=GF SS    Pseudobase
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    PKBASE; PKB00170
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    9565606
+#=GF RT    An RNA pseudoknot as the molecular switch for translation of the repZ
+#=GF RT    gene encoding the replication initiator of IncIalpha plasmid
+#=GF RT    ColIb-P9.
+#=GF RA    Asano K, Mizobuchi K;
+#=GF RL    J Biol Chem. 1998;273:11815-11825.
+#=GF WK    http://en.wikipedia.org/wiki/Regulatory_region_of_repZ_gene
+#=GF SQ    6
+
+#=GS E.coli.1             AC    AY686591.1/8888-9038
+#=GS Plasmid_incI-1.1     AC    M20413.1/189-337
+#=GS Plasmid_ColIb-P9.1   AC    AB021078.1/294-442
+#=GS Plasmid_pIE545.1     AC    M93064.1/561-711
+#=GS Plasmid_incI-gamma.1 AC    M20412.1/189-336
+#=GS Plasmid_pMU707.1     AC    M93062.1/561-709
+
+E.coli.1                         AAGGAAAACCCCCACUAUCUUUCCUCGAACUUUGGCGGACUC.GUGAAAG
+Plasmid_incI-1.1                 AAGGAAAACCCCCACUAUCUUUCUUACGAACUUGGCGGAACG.ACGAAAG
+Plasmid_ColIb-P9.1               AAGGAAAACCCCCACUAUCUUUCUUACGAACUUGGCGGAACG.ACGAAAG
+Plasmid_pIE545.1                 AAGGAAAACCCCCAUAAUCUUCCUGUCGAACUUGGCGGAACGCACAGAAG
+Plasmid_incI-gamma.1             AAGGAAAACCCCCACAAUCUUUC.GACGAACUUGGCGGGACG.GAGAAAG
+Plasmid_pMU707.1                 AAGGAAAACCCCCACUAUUUUUCCU.CGAACUUGGCGGAACG.CAGAAAA
+#=GC SS_cons                     .<<<....<<<<<<<<<<<<<<<.........AAAAAAA.AA.A.>>>>>
+#=GC RF                          AaGGAAAACCCCCaCuauCuuuCUUACGAACUUGGCGGAACG.ACGaaaG
+
+E.coli.1                         AUAGUAGGGGCGUUCACAGAAUACGGGAUAAGUAUAUAUGAAACCGUACC
+Plasmid_incI-1.1                 AUAGUGGGGGC.CUCACAGAAUACGGGUAAAGUAUA.AUGAAACCGUACC
+Plasmid_ColIb-P9.1               AUAGUGGGGGC.CUCACAGAAUACGGGUAAAGUAUA.AUGAAACCGUACC
+Plasmid_pIE545.1                 AUUAUGGGGGC.CUCACAGAAUACGGGAUAAGUAUAUAUGAAACCGUGUC
+Plasmid_incI-gamma.1             AUUAUGGGGGC.CUCACAGAAUACGGGUAAAGUAUA.AUGAAACCGUACC
+Plasmid_pMU707.1                 AUAAUGGGGGC.CUCACAGAAUACGGGAUAAGUAUAUAUGAAACCGUACC
+#=GC SS_cons                     >>>>>>>>>>>.>>....................................
+#=GC RF                          auaGuGGGGGC.CuCACAGAAUACGGGUAAAGUAUA.AUGAAACCGUACC
+
+E.coli.1                         AGAGAUUCAACCCUGUGCAGUGUAUAAAUACACGGCACAAUCGCUCCGCC
+Plasmid_incI-1.1                 AGAGAUUCAACCCUGUGCAGUGUAUAAAUACACGGCACAAUCGCUCCGCC
+Plasmid_ColIb-P9.1               AGAGAUUCAACCCUGUGCAGUGUAUAAAUACACGGCACAAUCGCUCCGCC
+Plasmid_pIE545.1                 AGAGAUUCAACCCUUCGCAGUGUAUUAACGCACGGCAUUCUGUUUCCGCC
+Plasmid_incI-gamma.1             AGAGAUUCAACCCUGUGCAGUGUAUAAAUACACGGCACAAUCGCUCCGCC
+Plasmid_pMU707.1                 AGAGAUUCAACCCUGUGCAGUGUAUAAAUACACGGCACAAUCGCUCCGCC
+#=GC SS_cons                     ........................................aaa.aaaaaa
+#=GC RF                          AGAGAUUCAACCCUGUGCAGUGUAUAAAUACACGGCACAAUCGCUCCGCC
+
+E.coli.1                         AU
+Plasmid_incI-1.1                 AU
+Plasmid_ColIb-P9.1               AU
+Plasmid_pIE545.1                 AU
+Plasmid_incI-gamma.1             AU
+Plasmid_pMU707.1                 AU
+#=GC SS_cons                     a.
+#=GC RF                          AU
+//

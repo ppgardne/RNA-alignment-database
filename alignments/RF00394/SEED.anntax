@@ -1,0 +1,73 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORA4
+#=GF AC    RF00394
+#=GF DE    Small nucleolar RNA SNORA4
+#=GF AU    Moxon SJ
+#=GF GA    36.0
+#=GF NC    34.6
+#=GF TC    36.1
+#=GF PI    snoACA4
+#=GF SE    Moxon SJ
+#=GF SS    Predicted; PFOLD; Moxon SJ
+#=GF TP    Gene; snRNA; snoRNA; HACA-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000594 SO:H_ACA_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Mus_musculus300370
+#=GF DR    snoopy; Loxodonta_africana300459
+#=GF RN    [1]
+#=GF RM    15199136
+#=GF RT    Human box H/ACA pseudouridylation guide RNA machinery.
+#=GF RA    Kiss AM, Jady BE, Bertrand E, Kiss T;
+#=GF RL    Mol Cell Biol 2004;24:5797-5807.
+#=GF CC    ACA4 is a member of the H/ACA class of snoRNA that guide the sites of
+#=GF CC    modification of uridines to pseudouridines [1].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_SNORA4
+#=GF SQ    7
+
+#=GS M.musculus.1   AC    AC098709.3/36935-37074
+#=GS M.musculus.2   AC    X56953.1/4645-4782
+#=GS R.norvegicus.1 AC    AC145474.2/49731-49871
+#=GS H.sapiens.1    AC    AL109931.18/1398-1543
+#=GS H.sapiens.2    AC    AC010746.8/140334-140470
+#=GS H.sapiens.3    AC    AC004830.1/58743-58886
+#=GS H.sapiens.4    AC    AJ609452.1/1-137
+
+M.musculus.1               CUACCAGAAGCUAUAUUUG.UGG..GGAAGGUUUUA.UUAAAUUACCUUA
+M.musculus.2               .UACCAAAAGCUAGAUUUG.UGG..GGAAGGUUUA..UUAAAUAACCUUA
+R.norvegicus.1             CAAACAAAUAAAAACCUAA.UAAUAUAAAGGUCUU..GCUAAUAACCUUA
+H.sapiens.1                .UACCAAAAGUUAAUGUUU.UCA.GAGAAUGCUUUGGUUAAAAAGCCUUU
+H.sapiens.2                CUACCAAAAGUUAAUUUUU.UAUGGGGAAGGCUUU..CUAAAUAACCUUU
+H.sapiens.3                CUAUCAAAAGUUACUUUUUGUGGGGUGGAAGUUUU..UAAAAUAACCUUU
+H.sapiens.4                .UACCAAAAGUUAGCUUUU.UGGGGGGCAGGUUU...UUAAGUAACCUUU
+#=GC SS_cons               ...<<<<<...<<<<<<....<<..<<<<<<<<..........>>>>..>
+
+M.musculus.1               ACCAAUGCAGGCUAUUUGGUAGAAUGAGU..AAGACCACACUCUGCAGUG
+M.musculus.2               ACCAAUUCAGGCUAUUUGGUAGAAUAAGU..AAGACCACACUCCACAGUG
+R.norvegicus.1             ACCAAUUCAUGCUAUUUGGCAGAAUGAGU..AAGACCACACUCCACAGUG
+H.sapiens.1                ACCAACUUGGGCUGUUUGGGAUAAUAAUG..UUGGCCACUUUCCACAGUG
+H.sapiens.2                ACCAAUUUGGGCUAUUUGGGAGAGUAAAGGAAAGACCACACUCCACAGCG
+H.sapiens.3                ACCUACGUGGGCUGUUUUGGAAAAUAAAGAAAAGACCACACUCAGCAGAG
+H.sapiens.4                GCCAACUUGGGCUAUUUGGAAGAGUAAA....AGACCACACUCCACAGUG
+#=GC SS_cons               >>>..>>.>>>>>>>>>>>.............<<.<<<<<......<<<<
+
+M.musculus.1               GGAUAUACCACUUA.....GUAUGGUUCAUUACUAUAUUGUGGCCUACAU
+M.musculus.2               GGCUAUACCACUUA.....GUAUGGUUCAUUACUAUAUUGUGGCCUACAU
+R.norvegicus.1             GACUAUACCACUUA.....CUAUGGUUCAUUACUAUAUUGUGGCCUACAU
+H.sapiens.1                GGUUAUAACAUUAAUAUAUAUAUAAGUCACUAUUAGUUUGUAAUCUACAU
+H.sapiens.2                GGCUAUACCA...........AUAGUUCACUACUAUUUUGUGGUCUACAU
+H.sapiens.3                GGCUAUACCCCUUA.....GUAUAGUUCACCACUAUUUUGCAGCUUAUAU
+H.sapiens.4                GGCUAUACCACUUA.....GUAUAGUUCGCUACUAUUUUGUGGCCUACAU
+#=GC SS_cons               <<<<<<<<...........>>>>>>>>>>>>.......>>>>>.>>....
+
+M.musculus.1               U
+M.musculus.2               U
+R.norvegicus.1             U
+H.sapiens.1                U
+H.sapiens.2                U
+H.sapiens.3                U
+H.sapiens.4                G
+#=GC SS_cons               .
+//

@@ -1,0 +1,85 @@
+# STOCKHOLM 1.0
+#=GF ID    IRES_Kv1_4
+#=GF AC    RF00447
+#=GF DE    Voltage-gated potassium-channel Kv1.4 IRES
+#=GF AU    Moxon SJ
+#=GF GA    33.0
+#=GF NC    0.0
+#=GF TC    49.7
+#=GF PI    IRES_Kv1.4
+#=GF SE    Published; PMID:15339906
+#=GF SS    Predicted; RNAalifold
+#=GF TP    Cis-reg; IRES;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000243 SO:internal_ribosome_entry_site
+#=GF DR    GO:0043022 GO:ribosome binding
+#=GF RN    [1]
+#=GF RM    15339906
+#=GF RT    Structurally distinct elements mediate internal ribosome entry within
+#=GF RT    the 5'-noncoding region of a voltage-gated potassium channel mRNA.
+#=GF RA    Jang GM, Leong LE, Hoang LT, Wang PH, Gutman GA, Semler BL;
+#=GF RL    J Biol Chem 2004;279:47419-47430.
+#=GF CC    This family represents the Kv1.4 voltage-gated potassium-channel
+#=GF CC    internal ribosome entry site (IRES). This region has been shown
+#=GF CC    to mediate internal ribosome entry in cells derived from brain,
+#=GF CC    heart, and skeletal muscle, tissues known to express Kv1.4 mRNA
+#=GF CC    species [1].
+#=GF WK    http://en.wikipedia.org/wiki/Voltage-gated_potassium-channel_Kv1.4_IRES
+#=GF SQ    6
+
+#=GS M.musculus.1 AC    U03723.1/645-902
+#=GS M.musculus.2 AC    BX293548.5/121143-121402
+#=GS R.rattus.1   AC    X16002.1/236-494
+#=GS H.sapiens.1  AC    M55514.1/896-1157
+#=GS M.putorius.1 AC    U06156.1/48-307
+#=GS B.taurus.1   AC    X57033.1/213-453
+
+M.musculus.1             UAAGUUUGAGGAACACUAGGC.GUUGUCUAGACGAGGCAAGCUCUGGAAA
+M.musculus.2             UAUGUUUGAGGAACACUAGGCUGUUGUCUAGACGAGGCAAGCUCUGGAAA
+R.rattus.1               AUGUUUGAGGAGCACUAGGCU.GUUGUCUAGACUAAGCAAGCUCUGGAAA
+H.sapiens.1              UAGUCUUGAGAGUGCCAGGCUAUUUAUCUCGACCAGCCAAGCUCUGGAGA
+M.putorius.1             UGGGCUUGAGAGUGCUAGGUUGUUUAUCUAGACCAGCCAAGCUCUGGAGA
+B.taurus.1               UUUACUUGA.AGUGCCAGGC....CAUCU............CUCUGGAGA
+#=GC SS_cons             .............................................<<<<<
+
+M.musculus.1             GCAACGCCGAGUCUCUGAGAAGAGGGAG.CAUGGGGUGUGCUGAUUUAAA
+M.musculus.2             GCAACGCCGAGUCUCUGAGAAGAGGGAG.CAUAGGCUGUGCUGAUUUAAA
+R.rattus.1               GCAAUGCUGAGUCUCUGAGAAGAGGGAG.CAUGGGGUGUGCUGAUUUAAA
+H.sapiens.1              GCAAUGUUGAAUCCCUGAGAAGAGAGAGGCAUGGGGCGUGCUGAUUUAAA
+M.putorius.1             GCAAUGUUGAAUCCCUGGGAACAGAGAG.CAUGGGGCGUACUGAUUUAAA
+B.taurus.1               GCAACGUUGAAUCCCUGAGAAGAGAGAG.CAUGGGGCGUGCUGAUUUAAA
+#=GC SS_cons             ................<<<<<<<<<<<<..<<<<<<<<.<<<..<<<...
+
+M.musculus.1             AACAGAAAAUGCAAAGUUGGA.CUGAAAA.UAUCCCACGUCUUCUAAGCA
+M.musculus.2             AACAGAAAAUGCAAAGUUGGA.CUGAAAA.UAUCCCACGUCUUCUAAGCA
+R.rattus.1               AACAGAAAAUGCAAAGUUGGA.CUGAAAA.UAUCCCAAGUCUUCUAAGCA
+H.sapiens.1              AACAGAAAAUGCAAAGUUGGAGCUGAAAA.UAUCCUUAGUCUUCCAAGCA
+M.putorius.1             AACAGAAAAUGCAAAGUUGGA.CUGAAAA.UAUCCUUAGUCUUCCAAGCA
+B.taurus.1               AACAGAAAAUGCAAAGUUGGA.CUGAAAAAUAUCCUUCAUCUUCCAAGCA
+#=GC SS_cons             ..<<<<...<<<....<<<<<...<<.............>>.>>>>>>>>
+
+M.musculus.1             AUCUGCUUAAGGCUUCCAAACUUACCUUAAUUUGGUAAGAAAAUAAGCUG
+M.musculus.2             AUCUGCUUAAGGCUUCCAAACUUACCUUAAUUUGGUAAGAAAAUAAGCUG
+R.rattus.1               AUCUGCUUAAGGCUUCCAAACUUACCUUAAUUUGGUAAGAAAAUAAGCUG
+H.sapiens.1              AUCUGCUUAAGGGUUCCAAACUUACCUUAAUUUGGUGAGAAAAGAAGCUG
+M.putorius.1             AUCUGCUUAAGGGUUCCAAACUUACCUUAAUUUGGUGAGAAAAGAAGCUG
+B.taurus.1               AUCUGCUUAAGGGUUCCAAACUUACCUUAAUUUGGUGAGAAAAGAAUCUG
+#=GC SS_cons             .>>>>...............<<<<<<.......>>>>>>.>>>..>>>>>
+
+M.musculus.1             CCCUAUUUUUCUUUCUUCUUCUCUUACAACUGGAACCAGGCAUUUCCA.A
+M.musculus.2             CCCUAUUUUUCUUUCUUCUUCUCUUACAACUGGAAGCAGCCAUUUCCCCA
+R.rattus.1               CCCUAUUUUUCUUUCUUCUUCUCUUACAACUGGAACCAGCCAUUUCCCCA
+H.sapiens.1              CCCUAUUUUUCUUUCUUCUUCUUCUACAACUGGAACCAGCCAUUUCCGAA
+M.putorius.1             CCCUAUUUUUCUUUCUUCUUCUUCUACAACUGGAACCAGCCAUUUCCAAA
+B.taurus.1               CCCUAUUUUUCUUUCUUCUUCUC...CAACUGGAACCAGCCAUUUCCCCA
+#=GC SS_cons             >>>>>>..>>>>>>>>>>>>......................>>>>>...
+
+M.musculus.1             AACCACCACCAUG
+M.musculus.2             AACCACCACCAUG
+R.rattus.1               AACUACCACCAUG
+H.sapiens.1              AACCACCACCAUG
+M.putorius.1             AACCACCACCAUG
+B.taurus.1               AACCGCCACCAUG
+#=GC SS_cons             .............
+//

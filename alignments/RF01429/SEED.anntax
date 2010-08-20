@@ -1,0 +1,43 @@
+# STOCKHOLM 1.0
+#=GF ID    snoR130
+#=GF AC    RF01429
+#=GF DE    small nucleolar RNA snoR130
+#=GF AU    Osuch I
+#=GF GA    30.0
+#=GF NC    29.3
+#=GF TC    30.1
+#=GF SE    INFERNAL
+#=GF SS    Predicted; RNAalifold; Osuch I
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF RN    [1]
+#=GF RM    19357091
+#=GF RT    Mining small RNA sequencing data: a new approach to identify small
+#=GF RT    nucleolar RNAs in Arabidopsis.
+#=GF RA    Chen HM, Wu SH;
+#=GF RL    Nucleic Acids Res. 2009;37:e69.
+#=GF WK    http://en.wikipedia.org/wiki/SnoRNA
+#=GF SQ    2
+
+#=GS A.thaliana.1 AC    AC013483.7/59930-60049
+#=GS B.rapa.1     AC    AC189454.2/18110-18228
+
+A.thaliana.1             UCCCAGUGAUGAACAUUUUAGUAAUCUGGAACGGUGAUAAAAUGGGGCUC
+B.rapa.1                 UCCCAGUGAUGAAAGUUUUAGCAAUCUGGAACGGUGAGAAAAUGGGACUC
+#=GC SS_cons             .<<<..............................................
+#=GC RF                  UCCCAGUGAUGAAaaUUUUAGuAAUCUGGAACGGUGAuAAAAUGGGaCUC
+
+A.thaliana.1             CCUCUUGG..AUUAUUUCCGUGGAGGUUUUAGAGGAACCAUUGUUGAAGA
+B.rapa.1                 CCUCUUUGGAAAUUUUCCCAUGGUGGUUA...AGGAACCAUUGUUGUAGA
+#=GC SS_cons             ..................................................
+#=GC RF                  CCUCUUuGgAAaUaUUuCCaUGGaGGUUauAgAGGAACCAUUGUUGaAGA
+
+A.thaliana.1             UACUUGGCAACUUCUGAGGGUC
+B.rapa.1                 UUCUUGGCAACUUCUGAGGGUU
+#=GC SS_cons             .................>>>..
+#=GC RF                  UaCUUGGCAACUUCUGAGGGUu
+//

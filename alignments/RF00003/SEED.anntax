@@ -1,0 +1,665 @@
+# STOCKHOLM 1.0
+#=GF ID    U1
+#=GF AC    RF00003
+#=GF DE    U1 spliceosomal RNA
+#=GF AU    Griffiths-Jones SR, Mifsud W, Moxon SJ
+#=GF GA    28.0
+#=GF NC    28.0
+#=GF TC    28.0
+#=GF SE    Zwieb C, The uRNA database, PMID:9016512
+#=GF SS    Published; PMID:2405391
+#=GF TP    Gene; snRNA; splicing;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000391 SO:U1_snRNA
+#=GF DR    GO:0000368 GO:U2-type nuclear mRNA 5'-splice site recognition
+#=GF DR    GO:0030627 GO:pre-mRNA 5'-splice site binding
+#=GF DR    GO:0005685 GO:snRNP U1
+#=GF RN    [1]
+#=GF RM    9016512
+#=GF RT    The uRNA database.
+#=GF RA    Zwieb C;
+#=GF RL    Nucleic Acids Res 1997;25:102-103.
+#=GF RN    [2]
+#=GF RM    2405391
+#=GF RT    Saccharomyces cerevisiae U1 small nuclear RNA secondary structure
+#=GF RT    contains both universal and yeast-specific domains.
+#=GF RA    Kretzner L, Krol A, Rosbash M;
+#=GF RL    Proc Natl Acad Sci U S A 1990;87:851-855.
+#=GF RN    [3]
+#=GF RM    7984237
+#=GF RT    Crystal structure at 1.92 A resolution of the RNA-binding domain of
+#=GF RT    the U1A spliceosomal protein complexed with an RNA hairpin.
+#=GF RA    Oubridge C, Ito N, Evans PR, Teo CH, Nagai K;
+#=GF RL    Nature 1994;372:432-438.
+#=GF RN    [4]
+#=GF RM    11297556
+#=GF RT    Two functionally distinct steps mediate high affinity binding of U1A
+#=GF RT    protein to U1 hairpin II RNA.
+#=GF RA    Katsamba PS, Myszka DG, Laird-Offringa IA;
+#=GF RL    J Biol Chem 2001;276:21476-21481.
+#=GF CC    U1 is a small nuclear RNA (snRNA) component of the spliceosome
+#=GF CC    (involved in pre-mRNA splicing). Its 5' end forms complementary
+#=GF CC    base pairs with the 5' splice junction, thus defining the 5'
+#=GF CC    donor site of an intron.
+#=GF CC    There are significant differences in sequence and secondary
+#=GF CC    structure between metazoan and yeast U1 snRNAs, the latter being
+#=GF CC    much longer (568 nucleotides as compared to 164 nucleotides in
+#=GF CC    human). Nevertheless, secondary structure predictions suggest
+#=GF CC    that all U1 snRNAs share a 'common core' consisting of helices I,
+#=GF CC    II, the proximal region of III, and IV [1].
+#=GF CC    This family does not contain the larger yeast sequences.
+#=GF WK    http://en.wikipedia.org/wiki/U1_spliceosomal_RNA
+#=GF SQ    100
+
+#=GS T.thermophila.1       AC    X63783.1/2024-2186
+#=GS T.thermophila.2       AC    X58845.1/1-161
+#=GS T.thermophila.3       AC    X63783.1/596-756
+#=GS T.thermophila.4       AC    X63783.1/1394-1556
+#=GS P.polycephalum.1      AC    X13841.1/396-551
+#=GS P.polycephalum.2      AC    X13842.1/1-150
+#=GS S.pombe.1             AC    M29062.1/238-387
+#=GS A.aquaticus.1         AC    AY198212.1/1-163
+#=GS A.aquaticus.2         AC    AY198211.1/1-163
+#=GS A.aquaticus.3         AC    AJ243001.2/347-509
+#=GS A.aquaticus.4         AC    AY198213.1/1-163
+#=GS P.coxalis.1           AC    AY198214.1/1-163
+#=GS D.melanogaster.1      AC    X53543.1/383-547
+#=GS D.melanogaster.2      AC    K00787.1/2-165
+#=GS D.melanogaster.3      AC    X53544.1/1653-1817
+#=GS D.melanogaster.4      AC    X53542.1/2592-2756
+#=GS D.melanogaster.5      AC    X01725.1/69-233
+#=GS D.melanogaster.6      AC    X04257.1/1-164
+#=GS D.melanogaster.7      AC    X53541.1/1195-1359
+#=GS D.melanogaster.8      AC    J01156.1/9-172
+#=GS D.melanogaster.9      AC    X53544.1/117-281
+#=GS X.laevis.1            AC    X00549.1/150-313
+#=GS X.laevis.2            AC    X02585.1/923-1086
+#=GS X.laevis.3            AC    X02585.1/1513-1676
+#=GS A.mexicanum.1         AC    M59827.1/771-934
+#=GS G.gallus.1            AC    X01092.1/374-537
+#=GS G.gallus.2            AC    X01091.1/442-605
+#=GS G.gallus.3            AC    V00444.1/1-162
+#=GS G.gallus.4            AC    J00914.1/146-309
+#=GS G.gallus.5            AC    X01093.1/329-492
+#=GS M.musculus.1          AC    Y00131.1/944-1108
+#=GS M.musculus.2          AC    M32271.1/288-452
+#=GS M.musculus.3          AC    M32270.1/371-535
+#=GS M.musculus.4          AC    J00645.1/51-213
+#=GS M.musculus.5          AC    K03128.1/241-77
+#=GS R.norvegicus.1        AC    V01266.1/1-168
+#=GS R.norvegicus.2        AC    X12936.1/575-738
+#=GS R.norvegicus.3        AC    K02430.1/690-853
+#=GS H.sapiens.1           AC    DQ058356.1/1-168
+#=GS H.sapiens.2           AC    J00318.1/433-596
+#=GS H.sapiens.3           AC    M14586.1/106-268
+#=GS H.sapiens.4           AC    M14587.1/106-268
+#=GS H.sapiens.5           AC    V00590.1/1-162
+#=GS H.sapiens.6           AC    M28012.1/108-271
+#=GS H.sapiens.7           AC    M14385.1/106-268
+#=GS H.sapiens.8           AC    V00591.1/394-557
+#=GS H.sapiens.9           AC    K00788.1/2-165
+#=GS H.sapiens.10          AC    M14585.1/106-268
+#=GS H.sapiens.11          AC    DQ058357.1/1-164
+#=GS H.sapiens.12          AC    K00529.1/225-388
+#=GS H.sapiens.13          AC    M14387.1/399-562
+#=GS H.sapiens.14          AC    M14386.1/106-268
+#=GS H.sapiens.15          AC    M28013.1/108-271
+#=GS B.taurus.1            AC    M38483.1/1-164
+#=GS H.viridis.1           AC    DQ092354.1/1778-1949
+#=GS A.punctulata.1        AC    X75936.1/1034-1195
+#=GS S.purpuratus.1        AC    X56629.1/421-582
+#=GS S.purpuratus.2        AC    M27880.1/1-161
+#=GS L.variegatus.1        AC    X04993.1/647-808
+#=GS L.variegatus.2        AC    X04994.1/620-781
+#=GS L.variegatus.3        AC    X01749.1/448-609
+#=GS A.lumbricoides.1      AC    L22246.1/4551-4714
+#=GS A.lumbricoides.2      AC    L22246.1/3195-3356
+#=GS A.lumbricoides.3      AC    L22246.1/5535-5699
+#=GS A.lumbricoides.4      AC    L22246.1/2071-2235
+#=GS C.elegans.1           AC    X51371.1/181-345
+#=GS E.multilocularis.1    AC    M73768.1/361-517
+#=GS S.mansoni.1           AC    L25917.1/1-158
+#=GS S.mansoni.2           AC    L25921.1/1-159
+#=GS S.mansoni.3           AC    L25919.1/1-159
+#=GS S.mansoni.4           AC    L25916.1/1-159
+#=GS S.mansoni.5           AC    L25914.1/1-159
+#=GS S.mansoni.6           AC    L25915.1/1-159
+#=GS C.reinhardtii.1       AC    X70869.1/1-161
+#=GS .saccharophila.1      AC    X06880.1/1-162
+#=GS T.aestivum.1          AC    X69328.1/1-158
+#=GS T.aestivum.2          AC    X69333.1/1-157
+#=GS T.aestivum.3          AC    S72336.1/2-161
+#=GS T.aestivum.4          AC    X69334.1/1-160
+#=GS T.aestivum.5          AC    X69329.1/1-160
+#=GS S.tuberosum.1         AC    Z11883.1/3441-3603
+#=GS S.tuberosum.2         AC    Z11881.1/1515-1675
+#=GS S.tuberosum.3         AC    Z11881.1/315-475
+#=GS S.tuberosum.4         AC    Z11883.1/2839-2998
+#=GS S.tuberosum.5         AC    Z11881.1/2581-2742
+#=GS S.tuberosum.6         AC    Z11882.1/353-512
+#=GS S.tuberosum.7         AC    Z11883.1/1496-1656
+#=GS S.tuberosum.8         AC    Z11883.1/361-521
+#=GS S.lycopersicum.1      AC    X14417.1/177-340
+#=GS S.lycopersicum.2      AC    X14414.1/152-312
+#=GS S.lycopersicum.3      AC    X14419.1/178-338
+#=GS S.lycopersicum.4      AC    X14415.1/175-335
+#=GS S.lycopersicum.5      AC    X14416.1/171-331
+#=GS P.sativum.1           AC    X15926.1/1-161
+#=GS P.sativum.2           AC    X15927.1/1-160
+#=GS P.sativum.3           AC    X15928.1/1-160
+#=GS Glycine_max_soybean.1 AC    X06810.1/261-421
+#=GS Glycine_max_soybean.2 AC    X06809.1/232-392
+#=GS P.vulgaris.1          AC    J03563.1/352-512
+#=GS A.thaliana.1          AC    AY222070.1/1-157
+
+T.thermophila.1                   UUACUUACCUGGCUGG.AGUUU.GCUA...UCGAUCAU.GAAG.GGUAG.
+T.thermophila.2                   ..ACUUACCUGGCUGG.AGUUU.GCUA...UCGAUCAU.GAAG.GGUAG.
+T.thermophila.3                   UAAAUUACAAUGUUGU.AGUUA.GCUA...UAUAUCAA.AAAA.UAUAG.
+T.thermophila.4                   UUACUUACCUGGCUGG.AGUUA.GCUA...UCGAUCAU.GAAG.GGUAG.
+P.polycephalum.1                  AUACAUACCUGGCCGG.GGGAA.GUCG...GUGAUCAA.GACG.GCCGA.
+P.polycephalum.2                  ......ACCUGGCCGG.GGGAA.GUCG...GUGAUCAA.GACG.GCCGA.
+S.pombe.1                         UUACUUACCUGGCAUG.AGUUU..CUG...CAGCACAA.GAAU.UGUGG.
+A.aquaticus.1                     AUACUUACCUGGCACA.GGGGA.UACC...ACGAUCAC.CAAG.GUGGU.
+A.aquaticus.2                     AUACUUACCUGGCACA.GGGGA.UACC...ACGAUCAC.CAAG.GUGGU.
+A.aquaticus.3                     AUACUUACCUGGCACA.GGGGA.UACC...ACGAUCAC.CAAG.GUGGU.
+A.aquaticus.4                     AUACUUACCUGGCACA.GGGAA.UACC...ACGAUCAC.UAAG.GUGGU.
+P.coxalis.1                       AUACUUACCUGGCACA.GGGGA.UACC...ACGAUCAC.UAAG.GUGGU.
+D.melanogaster.1                  AUACUUACCUGGCGUA.GAGGUUAACC...GUGAUCAC.GAAG.GCGGU.
+D.melanogaster.2                  AUACUUACCUGGCGUA.GAGGUUAACC...GUGAUCAC.GAAG.GCGGU.
+D.melanogaster.3                  AUACUUACCUGGCGUA.GAGGUUAACC...GUGAUCAC.GAAG.GCGGU.
+D.melanogaster.4                  AUACUUACCUGGCGUA.GAGGUUAACC...GUGAUCAC.GAAG.GCGGU.
+D.melanogaster.5                  AUACUUACCUGGCGUA.GAGGUUAACC...GUGAUCAC.GAAG.GCGGU.
+D.melanogaster.6                  AUACUUACCUGGCGUA.GAGGUUAACC...GUGAUCAC.GAAG.GCGGU.
+D.melanogaster.7                  AUACUUACCUGGCGUA.GAGGUUAACC...GUGAUCAC.GAAG.GCGGU.
+D.melanogaster.8                  AUACUUACCUGGCGUA.GAGGUUAACC...GUGAUCAC.GAAG.GCGGU.
+D.melanogaster.9                  AUACUUACCUGGCGUA.GAGGUUAACC...GUGAUCAC.GAAG.GCGGU.
+X.laevis.1                        AUACUUACCUGGCAGG.GGAGA.UACC...AUGAUCAU.GAAG.GUGGU.
+X.laevis.2                        AUACUUACCUGGCAGG.CGAGA.UACC...AUGAUCAC.GAAG.GUGGU.
+X.laevis.3                        AUACUUACCUGGCAGG.GGAGA.UACC...AUGAUCAC.GAAG.GUGGU.
+A.mexicanum.1                     AUACUUACCUGGCAGG.GGAGC.AUCU...GUGAUCAG.CAAG.GCAGA.
+G.gallus.1                        AUACUUACCUGGCAGG.GGAGA.CACC...AUGAUCAG.GCAG.GUGGU.
+G.gallus.2                        AUACUUACCUGGCAGG.GGAGA.CACC...AUGAUCAG.GCAG.GUGGU.
+G.gallus.3                        ..ACUUACCUGGCAGG.GGAGA.CACC...AUGAUCAG.GCAG.GUGGU.
+G.gallus.4                        AUACUUACCUGGCAGG.GGAGA.CACC...AUGAUCAG.GCAG.GUGGU.
+G.gallus.5                        AUACUUACCUGGCAGG.GGAGA.CACC...AUGAUCAG.GCAG.GUGGU.
+M.musculus.1                      AUACUUACCUGGCAGG.GGAGA.UACC...AUGAUCAU.GAAG.GUGGU.
+M.musculus.2                      AUACUUACCUGGCAGG.GGAGA.UACC...AUGAUCAC.GAAG.GUGGU.
+M.musculus.3                      AUACUUACCUGGCAGG.GGAGA.UACC...AUGAUCAU.GAAG.GUGGU.
+M.musculus.4                      AUACUUACCUGGCAGG.GGAGA.UACC...AUGAUCAC.GAAG.GUGGU.
+M.musculus.5                      AUACUUACCUGGCAGG.GGAGA.UACC...AUGAUCAU.GAAG.GUGGU.
+R.norvegicus.1                    ..ACUUACCUGGCAGG.GAGAU..ACC...AUGAUCAC.GAAG.GUGUU.
+R.norvegicus.2                    AUACUUACCUGGCAGG.GGAGA.UACC...AUGAUCAC.GAAG.GUGGU.
+R.norvegicus.3                    AUACUUACCUGGCAGG.GGAGA.UACC...AUGAUCAC.GAAG.GUGGU.
+H.sapiens.1                       AUGUCUUCGUGGCGGG.GGAGA.GACGCUGUUGGUCCU.GAUAAAGUGU.
+H.sapiens.2                       AUACUUACCUGGCAGG.GGAGA.UACC...AUGAUCAC.GAAG.GUGGU.
+H.sapiens.3                       AUACUUACCUGGCAGG.GGAGA.UACC...AUGAUCAC.GAAG.GUGGU.
+H.sapiens.4                       AUACUUACCUGGCAGG.GGAGA.UACC...AUGAUCAC.GAAG.GUGGU.
+H.sapiens.5                       ..ACUUACCUGGCAGG.GGAGA.UACC...AUGAUCAC.GAAG.GUGGU.
+H.sapiens.6                       AUACUUACCUGGCAGG.GGAGA.UACC...AUGAUCAC.GAAG.GUGGU.
+H.sapiens.7                       AUACUUACCUGGCAGG.GGAGA.UACC...AUGAUCAC.GAAG.GUGGU.
+H.sapiens.8                       AUACUUACCUGGCAGG.GGAGA.UACC...AUGAUCAC.GAAG.GUGGU.
+H.sapiens.9                       AUACUUACCUGGCAGG.GGAGA.UACC...AUGAUCAC.GAAG.GUGGU.
+H.sapiens.10                      AUACUUACCUGGCAGG.GGAGA.UACC...AUGAUCAC.GAAG.GUGGU.
+H.sapiens.11                      AUACUUAACUGGCAAG.GGAAA.UAAC...AUGAUCAUUAAAG.GUGGA.
+H.sapiens.12                      AUACUUACCUGGCAGG.GGAGA.UACC...AUGAUCAC.GAAG.GUGGU.
+H.sapiens.13                      AUACUUACCUGGCAGG.GGAGA.UACC...AUGAUCAC.GAAG.GUGGU.
+H.sapiens.14                      AUACUUACCUGGCAGG.GGAGA.UACC...AUGAUCAC.GAAG.GUGGU.
+H.sapiens.15                      AUACUUACCUGGCAGG.GGAGA.UACC...AUGAUCAC.GAAG.GUGGU.
+B.taurus.1                        AUACUUACCUGGCAGG.GGAGA.UACC...AUGAUCAC.GAAG.GUGGU.
+H.viridis.1                       AUACUUACCUGACGGU.GAAGC.AAAC...CUGGUCAA.CAUG.GGGCU.
+A.punctulata.1                    AUACUUACCUGGCGCA.GGGGU.AGCA...UUGAUCAA.GAAG.GAUGC.
+S.purpuratus.1                    AUACUUACCUGGCGCA.GGGGU.CGCA...UUGAUCAA.GAAG.GAUGC.
+S.purpuratus.2                    AUACUUACCUGGCGCA.GGGGU.CGCA...UUGAUCAA.GAAG.GAUGC.
+L.variegatus.1                    AUACUUACCUGGCGCA.GGGGU.CGCA...UUGAUCAA.GAAG.GAUGC.
+L.variegatus.2                    AUACUUACCUGGCGCA.GGGGU.CGCA...UUGAUCAA.GAAG.GAUGC.
+L.variegatus.3                    AUACUUACCUGGCGCA.GGGGU.CGCA...UUGAUCAA.GAAG.GAUGC.
+A.lumbricoides.1                  AAACUUACCUGGCUGG.GAGGC.UUUC...GUGAUCAU.GAAG.GCGGA.
+A.lumbricoides.2                  AGACUUAUUUGGUUGG.GAGGA.UUUC...GUAAUCAG..AAG.GCGGG.
+A.lumbricoides.3                  AAACUAACCUGGCUGG.GAGGCAUCUC...GCGAUCAU.GAAG.GCGGG.
+A.lumbricoides.4                  AAACUAACCUGGCUGG.GGGGCAUCUC...GCGAUCAU.GAAG.GCGGG.
+C.elegans.1                       AAACUUACCUGGCUGG.GGGUUAUUUC...GCGAUCAC.AAAG.GCGGA.
+E.multilocularis.1                AAACUUACCUGGCGCC.GGGUU.CAGG...GUGAUCAG.CAAG.GCUCC.
+S.mansoni.1                       AAACUUACUUGGCGCC.GGGAC.CAGG...GUGAUCAC.GAAU.GCCCU.
+S.mansoni.2                       AAACUUACCUGGCGCC.GGGUU.CAGG...GUGAUCAG.GAAU.GCUCU.
+S.mansoni.3                       AAACUUACCUGGCGCC.GGGUU.CAGG...GUGAUCAG.GAAU.GCUCU.
+S.mansoni.4                       AAACUUACCUGGCGCC.GGGUU.CAGG...GUGAUCAG.GAAU.GCUCU.
+S.mansoni.5                       AAACUUACCUGGCGCC.GGGUU.CAGG...GUGAUCAG.GAAU.GCUCU.
+S.mansoni.6                       AAACUUACCUGGCGCC.GGGUU.CAGG...GUGAUCAG.GAAU.GCUCU.
+C.reinhardtii.1                   AUACUUACCUGGCCCG.CUUCU.CGAG...GUGGUCAC.CAUG.GCCUC.
+.saccharophila.1                  AUACUUACCUGUCCGG.CCUGC.GACC...UCGAGCAA.GAAG.GGGGU.
+T.aestivum.1                      ..ACUUACCUGGACGG.GGUCG.ACGG...CCGAUCAA.GAAG.GGUCG.
+T.aestivum.2                      ....UUACCUGGACGG.GGUCG.ACGA...GCGAUCAA.GAAG.GCUCG.
+T.aestivum.3                      AUACUUACCUGGACGG.GGUCG.ACGG...GCGAUCAA.GAAG.GCCCG.
+T.aestivum.4                      AUACUUACCUGGACGG.GGUCG.ACGA...GCGAUCAA.GAAG.GCUCG.
+T.aestivum.5                      AUACUUACCUGGACGG.GGUCG.ACGG...GCGAUCAA.GAAG.GCCCG.
+S.tuberosum.1                     UUACUG..GUGGGUGGCGGAGA.AGAGAUCGUGACAUC.GUAG.ACCUA.
+S.tuberosum.2                     AUACUUACCUGGACGG.GGUCA.AUGG...GCGAUCAA.UAAG.ACCUA.
+S.tuberosum.3                     AUACUUACCUGGACGG.GGUCA.AUGG...GCGAUCAA.UAAG.ACCUA.
+S.tuberosum.4                     AUACUUACCUGGACGG.GGUUA.AUGG...GCGAUCAA.UAAG.ACCCA.
+S.tuberosum.5                     AUACUUACCUGGACGG.GGUCA.AUGG...GUGAUCAA.UAAG.ACCCAA
+S.tuberosum.6                     AUACUUACCUGGACGG.GGUCA.AUGG...GCGAUCAA.UAAG.ACCCA.
+S.tuberosum.7                     UUACUUACCUGGACGG.GGUCA.AUGG...GCAAUCAA.UAAG.ACCCA.
+S.tuberosum.8                     AUACUUACCUGGACGG.GGUCA.AUGG...ACGAUCAA.UAAG.ACCCA.
+S.lycopersicum.1                  AUACUUACCUGGACGG.GGUCA.AUGG...GUAAUCAA.GAAG.UUCCA.
+S.lycopersicum.2                  AUACUUACCUGGACGG.GGUCA.AUAG...GCGAUCAA.UAAG.ACCCA.
+S.lycopersicum.3                  AUACUUACCUGGACGG.GGUCA.AUGG...GCGAUCAU.GAAC.ACCCA.
+S.lycopersicum.4                  UUACUUACCUGGACGG.GGUCA.AUUG...GCGAUCAU.GAAG.GUCCA.
+S.lycopersicum.5                  AUACUUACCUGGACGG.GGUCU.AUGG...GCGAUCAU.GUAG.GUCCA.
+P.sativum.1                       AUACUUACCUGGAUGG.GGUCG.AUGG...GUGAUCAU.GAAG.GCCCA.
+P.sativum.2                       AUACUUACCUGGAUGG.GGUCA.AUGG...GUGAUCAA.GAAG.GCCCA.
+P.sativum.3                       AUACUUACCUGGAUGG.GGUCA.AUGG...GUGAUCAU.GAAG.GCCCA.
+Glycine_max_soybean.1             AUACUUACCUGGACGG.GGUCA.AUGG...AUGAUCAA.UAAG.GUCCA.
+Glycine_max_soybean.2             AUACUUACCUGGACGG.GGUCA.AUGG...AUGAUCAA.GAAG.GUCCA.
+P.vulgaris.1                      AUACUUACCUGGACGG.GGUCA.AUGG...AUGAUCUA.UAAG.GUCCA.
+A.thaliana.1                      AUACUUACCUGGACGG.GGUCG.UUGG...GUGAUCAU.GAAG.AUCCG.
+#=GC SS_cons                      ...........<<<<<.<<<<<..<<<...<<............>>>>>.
+
+T.thermophila.1                   CGGCUU...AGG.GUGGAGCAGGUCAUU.....GCACAAAAGAUGU.CUG
+T.thermophila.2                   CGGCUU...AGG.GUGGAGCAGGUCAUU.....GCACAAAAGAUGU.CUG
+T.thermophila.3                   CAACUA...AGG..UGGAGCAAGUCAUU.....GUACUAAAGAUGU.UUG
+T.thermophila.4                   CGGCUU...AGG.GUGGAGCAGGUCAUU.....GCACAAAAGAUGU.CUG
+P.polycephalum.1                  GUCCCU...AGU.UGGGGUACCUCUCCU.....GCACUU.GAGAGG.G.G
+P.polycephalum.2                  GUCCCU...AGU.UGGGGAACCUCUCCU.....GCACUU.GAGAGG.G.G
+S.pombe.1                         AGACUCA..GUU.AUUUGUCUUGGCAUU.....GCACUG.AGCCCU.G.A
+A.aquaticus.1                     UCCCCC...AAG.ACGAGGCUCACCAUU.....GCACUC.CGG.UG.GCG
+A.aquaticus.2                     UCCCCC...AAG.ACGAGGCUCACCAUU.....GCACUC.CGG.UG.GCG
+A.aquaticus.3                     UCCCCC...AAG.ACGAGGCUCACCAUU.....GCACUC.CGG.UG.GCG
+A.aquaticus.4                     UCCCCCA..AGG.CGAGGCUCA.CCAUU.....GCACCU.CGG..UGGCG
+P.coxalis.1                       UCCCCCA..AGG.CGAGGCCCC.CCAUU.....GCACUU.CGG.UG.GUG
+D.melanogaster.1                  UCCUCCG..GAG.UGAGGCUUGGCCAUU.....GCACCU.CGG.CU.GAG
+D.melanogaster.2                  UCCUCCG..GAG.UGAGGCUUGGCCAUU.....GCACCU.CGG.CU.GAG
+D.melanogaster.3                  UCCUCCG..GAG.UGAGGCUUGGCCAUU.....GCACCU.CGG.CU.GAG
+D.melanogaster.4                  UCCUCCG..GAG.UGAGGCUUGGCCAUU.....GCACCU.CGG.CU.GAG
+D.melanogaster.5                  UCCUCCG..GAG.UGAGGCUUGGCCAUU.....GCACCU.CGG.CU.GAG
+D.melanogaster.6                  UCCUCCG..GAG.UGAGGCUUGGCCAUU.....GCACCU.CGG.CU.GAG
+D.melanogaster.7                  UCCUCCG..GAG.UGAGGCUUGGCCAUU.....GCACCU.CGG.CU.GAG
+D.melanogaster.8                  UCCUCCG..GAG.UGAGGCUUGGCCAUU.....GCACCU.CGG.CU.GAG
+D.melanogaster.9                  UCCUCCG..GAG.UGAGGCUUGGCCAUU.....GCACCU.CGG.CU.GAG
+X.laevis.1                        UCUCCCA..GGG.CGAGGCUCAGCCAUU.....GCACUC.CGG.UU.GUG
+X.laevis.2                        UCUCCCA..GGG.CGAGGCUCAGCCAUU.....GCACUC.CGG.CU.GUG
+X.laevis.3                        UCUCCCA..GGG.CGAGGCUCAGCCAUU.....GCACUC.CGG.CC.GUG
+A.mexicanum.1                     GCUCCCA..GGG.UGAGGCUCAUCCAUU.....GCACAU.CGGAUU..UG
+G.gallus.1                        UUUCCCA..GGG.CGAGGCUCAUCCCCU.....GCACUC.CGG.GU.GUG
+G.gallus.2                        UUUCCCA..GGG.CGAGGCUCAUCCCCU.....GCACUC.CGG.GU.GUG
+G.gallus.3                        UUUCCCA..GGG.CGAGGCUCAUCCCCU.....GCACUC.CGG.GU.GUG
+G.gallus.4                        UUUCCCA..GGG.CGAGGCUCAUCCCCU.....GCACUC.CGG.GU.GUG
+G.gallus.5                        UUUCCCA..GGG.CGAGGCUCAUCCCCU.....GCACUC.CGG.GU.GUG
+M.musculus.1                      UUUCCCA..GGG.CGAGGCUCACCCAUUU....GCACUGUUGGGGU.GUG
+M.musculus.2                      UUUCCCA..GGG.CGAGGCUCACCCAUU.....GCACUU.UGGGGU.GUG
+M.musculus.3                      UUUCCCA..GGG.CGAGGCUCACCCAUU.....GCACUU.UGGGGU.GUG
+M.musculus.4                      UUUCCCA..GGG.CGAGGUGUAUCCAUU.....GCA.UC.CGG.AU.GUG
+M.musculus.5                      UUUCCCA..GGG.CGAGGCUCACCCAUU.....GCACUU.UGGGGU.GUG
+R.norvegicus.1                    UUCUCUCCAGGG.CGUGGUCUAUCCAUUGAGGCGCACUC.CGU.GG.AUG
+R.norvegicus.2                    UUUCCCA..GGG.CGAGGCUUAUCCAUU.....GCACUC.CGG.AU.GUG
+R.norvegicus.3                    UUUCCCA..GGG.CGAGGCUUAUCCAUU.....GCACUC.CGG.AU.GUG
+H.sapiens.1                       UUUUCUUG.GGG.GAGGGUUUUUACUUU.....GUGUUU.GGGAUG.UGU
+H.sapiens.2                       UUUCCCA..GGG.CGAGGCUUAUCCAUU.....GCACUC.CGG.AU.GUG
+H.sapiens.3                       UUUCCCA..GGG.CGAGGCUUAUCCAUU.....GCACUC.CGG.AU.GUG
+H.sapiens.4                       UUUCCCA..GGG.CGAGGCUUAUCCAUU.....GCACUC.CGG.AU.GUG
+H.sapiens.5                       UUUCCCA..GGG.CGAGGCUUAUCCAUU.....GCACUC.CGG.AU.GUG
+H.sapiens.6                       UUUCCCA..GGG.CGAGGCUUAUCCAUU.....GCACUC.CGG.AU.GUG
+H.sapiens.7                       UUUCCCA..GGG.CGAGGCUUAUCCAUU.....GCACUC.CGG.AU.GUG
+H.sapiens.8                       UUUCCCA..GGG.CGAGGCUUAUCCAUU.....GCACUC.CGG.AU.GUG
+H.sapiens.9                       UUUCCCA..GGG.CGAGGCUUAUCCAUU.....GCACUC.CGG.AU.GUG
+H.sapiens.10                      UUUCCCA..GGG.CGAGGCUUAUCCAUU.....GCACUC.CGG.AU.GUG
+H.sapiens.11                      UUUUUCA..GGG.UGAGGUUUGUCUCUU.....GCAUUG.UGG.AU.GUG
+H.sapiens.12                      UUUCCCA..GGG.CGAGGCUUAUCCAUU.....GCACUC.CGG.AU.GUG
+H.sapiens.13                      UUUCCCA..GGG.CGAGGCUUAUCCAUU.....GCACUC.CGG.AU.GUG
+H.sapiens.14                      UUUCCCA..GGG.CGAGGCUUAUCCAUU.....GCACUC.CGG.AU.GUG
+H.sapiens.15                      UUUCCCA..GGG.CGAGGCUUAUCCAUU.....GCACUC.CGG.AU.GUG
+B.taurus.1                        UUUCCCA..GGG.CGAGGCUUAUCCAUU.....GCACUC.CGG.AU.GUG
+H.viridis.1                       UCUUCC...AGGGUGAGGCUUUUGCAUU.....GCACUU.CGCCUG.G.G
+A.punctulata.1                    ACCCCC...AGG.ACGAGGCUUGCUAUU.....GCACAC.CGG.CU..CG
+S.purpuratus.1                    ACCCCC...AGG.GCGAGGCUUGCCAUU.....GCACUC.CGG.CU..UG
+S.purpuratus.2                    ACCCCC...AGG.GCGAGGCUUGCCAUU.....GCACUC.CGG.CU..UG
+L.variegatus.1                    ACCCCC...AGG.GCGAGGCUUGCCAUU.....GCACUC.CGG.CU..UG
+L.variegatus.2                    ACCCCC...AGG.GCGAGGCUUGCCAUU.....GCACUC.CGG.CU..UG
+L.variegatus.3                    ACCCCC...AGG.GCGAGGCUUGCCAUU.....GCACUC.CGG.CU..UG
+A.lumbricoides.1                  ACCUCCA..UGG.UGAGGCUUGGUCAUU.....GCACUUUCGA.CC.AGG
+A.lumbricoides.2                  ACCUCCA..UGG.CGAGGCUUGGUCAUU.....GCACUUUCGA.CC.AGG
+A.lumbricoides.3                  ACCUCCA..UGG.CGAGGUUUGGCCAUU.....GCACUUUCGG.CC.AGG
+A.lumbricoides.4                  ACCUCCA..UGG.UGAGGUCUGGUCAUU.....GCACUUCCGA.CC.AGG
+C.elegans.1                       AUCCCCA..UGG.UUAGGCCUACCCAUU.....GCACUUUUGGUGC.GGG
+E.multilocularis.1                GACCCCA..GGU.GGAGGCUCA.GCAUU.....GCACUC.CGC..U.GUG
+S.mansoni.1                       GGCCCCA..GGU.GGAGGCUCG.CCAUU.....GCACUC.CGG..C.GUG
+S.mansoni.2                       GACCCCG..GGU.GGAGGCUCA.CCAUU.....GCACUU.CGG..U.GGG
+S.mansoni.3                       GACCCCG..GGU.GGAGGCUCA.CCAUU.....GCACUU.CGG..U.GGG
+S.mansoni.4                       GACCCCG..GGU.GGAGGCUCA.CCAUU.....GCACUU.CGG..U.GGG
+S.mansoni.5                       GACCCCG..GGU.GGAGGCUCA.CCAUU.....GCACUU.CGG..U.GGG
+S.mansoni.6                       GACCCCG..GGU.GGAGGCUCA.CCAUU.....GCACUU.CGG..U.GGG
+C.reinhardtii.1                   GGUUGU...GUG.GUCGGUCUUCACCUU.....GCACUU.UGU.GA.GGG
+.saccharophila.1                  CUAGGUA..GUG.CUUGUACCUCGCCUU.....GUACUA.UGCUUG.GGG
+T.aestivum.1                      UGGCCU...AGA..UCAAUGGUCACAUU.....GCACCU.GGUGAG.CGC
+T.aestivum.2                      UGGCCU...AGG.UUAGUGGCCCACAUU.....GCACUU.GGUGGGUG.C
+T.aestivum.3                      UGGCU....GGG.UCAAUGGCUCACAUU.....GCACUU.GGUGGGUG.C
+T.aestivum.4                      UGGCCU...GGG.UCAGUGGUCCACAUU.....GCACUU.GGU.GG.AUG
+T.aestivum.5                      UGGCU....GGG.UCAAUGGCUCACAUU.....GCACUU.GGUGGGUG.C
+S.tuberosum.1                     UGGCUU...AGA.UUGAUGACCUCCAUU.....GCACUU.UGGAGG.GGU
+S.tuberosum.2                     UGGCCU...AGG.CUUGUGACCUCCAUU.....GCACUU.UGGAGG.GGU
+S.tuberosum.3                     UGGCCU...AGG.CUUGUGACCUCCAUU.....GCACUU.UGGAGG.GGU
+S.tuberosum.4                     UGGGCCU..AGG.UUGGUGACCUCCAUU.....GCACUU.UGGAGG.GGU
+S.tuberosum.5                     UGACCC...AGG.CUUGUGACCUACAUU.....GCACUU.UGGAGG.GGU
+S.tuberosum.6                     UGGCCU...AGG.CUUGUGACCUCCAUU.....GCACUU.UGGAGG.GGU
+S.tuberosum.7                     UGGCCU...AGG.UUGGUGACCUCCAUU.....GCACUU.UGGAGG.GGU
+S.tuberosum.8                     UGGCCU...AGG.UUGGUGACCUCCAUU.....GCACUU.UGGAGG.GGU
+S.lycopersicum.1                  UGGCCU...AGG.UUGGUGACCUCCAUU.....GCACUA.AGGAGG.GGU
+S.lycopersicum.2                  UGGCCU...AGG.UUGGUGACCUCCAUU.....GCACUU.UGGAGG.GGU
+S.lycopersicum.3                  UGGCCU...AGG.UUGGUGACCAUCAUU.....GCACUU.UGAAGG.GGU
+S.lycopersicum.4                  UGGCCU...AGG.UUGGUAACCUCCAUU.....GCACUU.AGGAGA.GGU
+S.lycopersicum.5                  UGGCCU...AGG.UUGGUGACUUUCAUU.....GCACUU.UGGAGG.GGU
+P.sativum.1                       UGGCU....AGG.AUUGUGACCUCCAUU.....GCACUU.AGGAGG.GGU
+P.sativum.2                       UGGCU....AGG.CAAGUGACCUCCAUU.....GCACUU.AGGAGG.GGU
+P.sativum.3                       UGGCU....AGG.CAAGUGACUUCCAUU.....GCACUU.AGGAGG.GGU
+Glycine_max_soybean.1             UGGCCU...AGG.GAAGUAACCUCCAUU.....GCACUU.AGGAGG.GGU
+Glycine_max_soybean.2             UGGCCU...AGG.GAAGUAACCUCCAUU.....GCACUG.AGGAGG.GGU
+P.vulgaris.1                      UGGCCU...AGG.GAAGUGACCUUCAUU.....GCACUC.AGAAGG.GGU
+A.thaliana.1                      UGGCCUA..GCG.UGGUGGC...UUCCU.....GCACUU.GAGGU....G
+#=GC SS_cons                      >>>>>>...<<<.......<<<.<<................>>..>.>.>
+
+T.thermophila.1                   UAAUA.........CCUUAUUGUUC.CCCGU...GCGG...GGAACCGAA
+T.thermophila.2                   UAAUA.........CCUUAUUGUUC.CCCGU...GCGG...GGAACCGAA
+T.thermophila.3                   UAAUA.........CCUUG..AUGUUCCCGC....UGG..GAGCAAUA..
+T.thermophila.4                   UAAUA.........CCUUAUUGUUC.CCCGU...GCGG...GGAACCGAA
+P.polycephalum.1                  CCCCU.........UCUA.UGAUUG.CCUUC.....GG..GUA.ACUCA.
+P.polycephalum.2                  CUCCU.........UCUA.UGAUUG.CCUUC.....GG..GUA.ACUCA.
+S.pombe.1                         CGAAU.........AACUGUGGACUGGCUAA....GGU..CAG.CUCCG.
+A.aquaticus.1                     CUGACC........CUUG.CGAUGACCCCAAAU.GUGG..GUU.ACUCG.
+A.aquaticus.2                     CUGACC........CUUG.CGAGGACCCCAAAU.GUGG..GUU.ACUCG.
+A.aquaticus.3                     CUGACC........CUUG.CAAUGACCCCAAAU.GUGG..GUU.ACUCG.
+A.aquaticus.4                     CUGAC.........CCUUGCGAUGACCCCAAAU.GUGG..GUU.ACUCG.
+P.coxalis.1                       UUGAC.........CCUUGCGAUGAUCCCAAAU.GUGG..AUU.ACUCG.
+D.melanogaster.1                  UUGAC.........CUCUGCGAUUAUUCCUAAU.GUGA..AUA.ACUCG.
+D.melanogaster.2                  UUGAC.........CUCUGCGAUUAUUCCUAAU.GUGA..AUA.ACUCG.
+D.melanogaster.3                  UUGAC.........CUCUGCGAUUAUUCCUAAU.GUGA..AUA.ACUCG.
+D.melanogaster.4                  UUGAC.........CUCUGCGAUUAUUCCUAAU.GUGA..AUA.ACUCG.
+D.melanogaster.5                  UUGAC.........CUCUGCGAUUAUUCCUAAU.GUGA..AUA.ACUCG.
+D.melanogaster.6                  UUGAC.........CUCUGCGAUUAUUCCUAAU.GUGA..AUA.ACUCG.
+D.melanogaster.7                  UUGAC.........CUCUGCGAUUAUUCCUAAU.GUGA..AUA.ACUCG.
+D.melanogaster.8                  UUGAC.........CUCUGCGAUUAUUCCUAAU.GUGA..AUA.ACUCG.
+D.melanogaster.9                  UUGAC.........CUCUGCGAUUAUUCCUAAU.GUGA..AUA.ACUCG.
+X.laevis.1                        CUGAC.........CCCUGCGAUUUCCCCAAAU.GCGG...GAAACUCG.
+X.laevis.2                        CUGAC.........CCCUGCGAUUUCCCCAAAU.GCGG...GAAACUCG.
+X.laevis.3                        CUGAC.........CCCUGCGAUUUCCCCAAAU.GCGG...GAAAGUCG.
+A.mexicanum.1                     CUGAC.........CCCUGCGAUGUCCCCAAAU.GCGG...GAUUCUCG.
+G.gallus.1                        CUGAC.........CCCUGCGAUUUCCCCAAAU.GCGG...GAAACUCG.
+G.gallus.2                        CUGAC.........CCCUGCGAUUUCCCCAAAU.GCGG...GAAACUCG.
+G.gallus.3                        CUGAC.........CCCUGCGAUUUCCCCAAAU.GCGG...GAAACUCG.
+G.gallus.4                        CUGAC.........CCCUGCGAUUUCCCCAAAU.GCGG...GAAACUCG.
+G.gallus.5                        CUGAC.........CCCUGCGAUUUCCCCAAAU.GCGG...GAAACUCG.
+M.musculus.1                      CUGAC.........CCCUGCGAUUUCCCCAAAU.GCGG...GAAACUCG.
+M.musculus.2                      CUGAC.........CCCUGCGAUUUCCCAAAU..GCGG...GAAACUCG.
+M.musculus.3                      CUGAC.........CCCUGCGAUUUCCCCAAAU.GCGG...GAAACUCG.
+M.musculus.4                      CUGAC.........CACUGCGAUUUCCCCAAAU.GCGG...GAAACUCG.
+M.musculus.5                      CUGAC.........CCCUGCGAUUUCCCCAAAU.GCGG...GAAACUCG.
+R.norvegicus.1                    CUGAC.........CCCUGCGAUUUCCUCCAAAUGCGG...GAAACUCG.
+R.norvegicus.2                    CUGAC.........CCCUGCGAUUUCCCCAAAU.GCGG...GAAACUCG.
+R.norvegicus.3                    CUGAC.........CCCUGCGAUUUCCCCAAAU.GCGG...GAAACUCG.
+H.sapiens.1                       UUGCU.........CCCG.CGAUUUCCCCGA...AUGA..GAAAACUCG.
+H.sapiens.2                       CUGAC.........CCCUGCGAUUUCCCCAAAU.GUGG...GAAACUCG.
+H.sapiens.3                       CUGCC.........CCUG.CGAUUUCCCCAAAU.GUGG...GAAACUCG.
+H.sapiens.4                       CUGCC.........CCUG.CGAUUUCCCCAAAU.GUGG...GAAACUCG.
+H.sapiens.5                       CUGAC.........CCCUGCGAUUUCCCCAAAU.GUGG...GAAACUCG.
+H.sapiens.6                       CUGAC.........CCCUGCGAUUUCCCCAAAU.GUGG...GAAACUCG.
+H.sapiens.7                       CUGCC.........CCUG.CGAUUUCCCCAAAU.GUGG...GAAACUCG.
+H.sapiens.8                       CUGAC.........CCCUGCGAUUUCCCCAAAU.GUGG...GAAACUCG.
+H.sapiens.9                       CUGAC.........CCCUGCGAUUUCCCCAAAU.GUGG...GAAACUCG.
+H.sapiens.10                      CUGCC.........CCUG.CGAUUUCCCCAAAU.GUGG...GAAACUCG.
+H.sapiens.11                      CUGAC.........CCCUGUGGUUUUCUACAAAUGUGG...GAAACUUA.
+H.sapiens.12                      CUGAC.........CCCUGCGAUUUCCCCAAAU.GUGG...GAAACUCG.
+H.sapiens.13                      CUGAC.........CCCUGCGAUUUCCCCAAAU.GUGG...GAAACUCG.
+H.sapiens.14                      CUGCC.........CCUG.CGAUUUCCCCAAAU.GUGG...GAAACUCG.
+H.sapiens.15                      CUGAC.........CCCUGCGAUUUCCCCAAAU.GUGG...GAAACUCG.
+B.taurus.1                        CUGAC.........CCCUGCGAUUUCCCCAAAU.GUGG...GAAACUCG.
+H.viridis.1                       CUGACUCUGGGUUGACUG.CGAUUACCGCUAAC.GUCG..GUA.ACUCG.
+A.punctulata.1                    CUGAA.........GCUUGCGAUUCCCUCAAAC.GUAG...GGAACUCG.
+S.purpuratus.1                    CUGAA.........CCUUGCGAUUCCCCCAAAC.GUGG...GGAACUCG.
+S.purpuratus.2                    CUGAA.........CCUUGCGAUUCCCCCAAAC.GUGG...GGAACUCG.
+L.variegatus.1                    CUGAA.........CCUUGCGAUUCCCCCAAAC.GUGG...GGAACUCG.
+L.variegatus.2                    CUGAA.........CCUUGCGAUUCCCCCAAAC.GUGG...GGAACUCG.
+L.variegatus.3                    CUGAA.........CCUUGCGAUUCCCCCAAAC.GUGG...GGAACUCG.
+A.lumbricoides.1                  CUGAC.........CCGUGUGGCAGUCCCGAG..UUGGGAUUGG..CCA.
+A.lumbricoides.2                  CUGAC.........CAGUGUGGCAGACCCGAG..UUGGGAUUGG..CCA.
+A.lumbricoides.3                  CUGAC.........CCGUGUGGCAGUCCCGAG..UUGGGAUUGG..CCA.
+A.lumbricoides.4                  CUGAC.........CUGUGUGGCAGUCCCGAG..UUGGGAUUGG..CCA.
+C.elegans.1                       CUGAC.........CUGUGUGGCAGUCUCGAGU.UGAG..AUU.CGCCA.
+E.multilocularis.1                UUGAA.........GCCUGCGACGGACUCUAA..UCGG..GUUCGCUCG.
+S.mansoni.1                       UUGAA.........GCCUGCGACGAUCCCUAA..UUGG..GUGCGCUCG.
+S.mansoni.2                       UUGAA.........ACUCGCGACGAACCCUAA..UUGG..GUGCGCUCG.
+S.mansoni.3                       UUGAA.........ACUUGCGACGAACCCUAA..UUGG..GUGCGCUCG.
+S.mansoni.4                       UUGAA.........ACUCGCGACGAACCCUAA..UUGG..GUGCGCUCG.
+S.mansoni.5                       UUGAA.........ACUCGCGACGAACCCUAA..UUGG..GCUCGCUCG.
+S.mansoni.6                       UUGAA.........ACUCGCGACGAACCCUAA..UUGG..GUGCGCUCG.
+C.reinhardtii.1                   CCUUC.........CGCA.GUCGGCCCUUCG.....GG..UGU.CCGGC.
+.saccharophila.1                  UA..G.........CGCUGUGUGCGGGGCAA...GUCC...UCGUUACA.
+T.aestivum.1                      GUUGG.........CCUA.CCAUCUCCCCAA...GUGG...GAGAGUGG.
+T.aestivum.2                      GCUGG.........CCUA.UCAUCUCCCCAA...GUGG...GAGAGUGA.
+T.aestivum.3                      GUUGG.........CCCA.CCAUCUCCCCAA...GUGG...GAGAGUGG.
+T.aestivum.4                      CCUGG.........CCCA.CCAUCUCCCCAA...GUGG...GAGAGUGG.
+T.aestivum.5                      GUUGG.........CCCA.CCAUCUCCCCAA...GUGG...GAGAGUGG.
+S.tuberosum.1                     GCCUG.........CCUAAAGUCUG.CCCAA...GUGG..UCG.AGCCU.
+S.tuberosum.2                     GCCUG.........CCUA.AGGUCGGCCCAA...GUGG..UCG.AGCCU.
+S.tuberosum.3                     GCCUG.........CCUA.AGGUCGACCCAA...GUGG..UCG.AGCCU.
+S.tuberosum.4                     GCCUA.........CCUA.AGGUCGGCUCAA...GUAG..UCG.AGCCU.
+S.tuberosum.5                     GCCUG.........CCUA.AGGUCAGCCCAA...GUGG..UUG.AGCCU.
+S.tuberosum.6                     GCCUG.........CCUA.AGGUCGACCUAA...GUGG..UCG.GGCCU.
+S.tuberosum.7                     GCCUU.........CCUA.AGGUCGACCCAA...GUGG..UCG.AGCCU.
+S.tuberosum.8                     GCCUG.........CCUA.AGGUCGGCCCAA...GUGG..UCG.AGCCU.
+S.lycopersicum.1                  GCUUG.........CCUA.AGGUCGACCCAA...GUGG..UUG.AGCCU.
+S.lycopersicum.2                  GCCAA.........UCUA.AGGUCGGCCCAA...GUGG..UCG.AGCCU.
+S.lycopersicum.3                  GCCCG.........CCUA.AGGUCGGCCCAA...GUGG..UCG.AGCCU.
+S.lycopersicum.4                  GCCUA.........CCUA.AGAUCGGCCCAA...GUGG..CCG.AAUCU.
+S.lycopersicum.5                  GCCCG.........CCUA.AGAUCAGCCCAA...GAGG..UUG.AGUCU.
+P.sativum.1                       GCUUU.........CCUA.AGGUCUACCCAA...GUGG..UGG.AGCCU.
+P.sativum.2                       GCUAG.........CCUA.AGGUCUACCCAA...GUGG..UGG.AGCCU.
+P.sativum.3                       GCUUG.........CCUA.AGGUCUACCCAA...GUGG..UGG.AACCU.
+Glycine_max_soybean.1             GCUUU.........CCUA.AGGUCUGCCCAA...GUGG..CAG.AGCCU.
+Glycine_max_soybean.2             GCCUU.........UCUA.AGGUCUGUCCAA...GUGA..CAG.AGCCU.
+P.vulgaris.1                      GCUAC.........UCUA.AGGUCUGUCCAA...GUGA..UGG.AGCCU.
+A.thaliana.1                      GCUAA.........CGCAAAGGU.CACCCCAA..GUGG...GAGAUCCU.
+#=GC SS_cons                      ..............>>>..<<<.<<.<<........>>...>>...>>>.
+
+T.thermophila.1                   ACAGCACAAUUUCUGCUAG..GGGAGAC.GUGCACUU..A.GUGCUGUCU
+T.thermophila.2                   ACAGCACAAUUUCUGCUAG..GGGAGAC.GUGCACUU..A.GUGCUGUCU
+T.thermophila.3                   ACAACAAAAUUUCUGAUUG..GAAAUAG..UCAUUAAACUAACUGGCUAU
+T.thermophila.4                   ACAGCACAAUUUCUGCUAG..GGGAGAC.GUGCACUU..A.GUGCUGUCU
+P.polycephalum.1                  ACGGCAUAAUUUGUGAUAG..CGUGGG...GUGCGCUU.GUCGCGC.CCU
+P.polycephalum.2                  ACGGCAUAAUUUGUGAUAG..CGUGGG...GUGCGCUU.GUCGCGC.CCU
+S.pombe.1                         GAUGCAUCAUUUUUGAGUU..CGU.....CCCUCAUU....UGGGGC...
+A.aquaticus.1                     GGUGUGUAAUUUCUGUUAG..CUGGGG..ACUGCGUU..CGCGCUUUCCC
+A.aquaticus.2                     GGUGUGUAAUUUCUGUUAG..CUGGGG..ACUGCGUU..CGCGCUUUCCC
+A.aquaticus.3                     GGUGUGUAAUUUCUGUUAG..CUGGGG..ACUGCGUU..CGCGCUUUCCC
+A.aquaticus.4                     GGUGUGUAAUUUCUGUUAG..CUGGGG..ACUGCGUU..CGCGCUUUCCC
+P.coxalis.1                       GGUGUGUAAUUUUUGGUAG..CUGGGG..ACUGCGUU..CGCGCUAUCCC
+D.melanogaster.1                  UGCGUGUAAUUUUUGGUAG...CCGGGA.AUGGCGUU..CGCGCCGUCCC
+D.melanogaster.2                  UGCGUGUAAUUUUUGGUAG..CCGGGAA..UGGCGUU..CGCGCCG.UCC
+D.melanogaster.3                  UGCGUGUAAUUUUUGGUAG...CCGGGA.AUGGCGUU..CGCGCCGUCCC
+D.melanogaster.4                  UGCGUGUAAUUUUUGUUAG...CCGGGA.AUGGCGUU..CGCGCCGUCCC
+D.melanogaster.5                  UGCGUGUAAUUUUUGUUAG...CCGGGA.AUGGCGUU..CGCGCCGUCCC
+D.melanogaster.6                  UGCGUGUAAUUUUUGGUAG..CCGGGAA..UGGCGUU..CGCGCCG.UCC
+D.melanogaster.7                  UGCGUGUAAUUUUUGUUAG...CCGGGA.AUGGCGUU..CGCGCCGUCCC
+D.melanogaster.8                  UGCGUGUAAUUUUUGGUAG..CCGGGAA..UGGCGUU..CGCGCCG.UCC
+D.melanogaster.9                  UGCGCGUAAUUUUUGGUAG...CCGGGA.AUGGCGUU..CGCGCCGUCCC
+X.laevis.1                        ACUGCAUAAUUUCUGGUAG..UGGGGG..ACUGCGUU..CGCGCUUUCCC
+X.laevis.2                        ACUGCAUAAUUUCUGGUAG..UGGGGG..ACUGCGUU..CGCGCUUUCCC
+X.laevis.3                        ACUGCAUAAUUUCUGGUAG..UGGGGG..ACUGCGUU..CGCGCUUUCCC
+A.mexicanum.1                     ACUGUAUUAUUUCUGGUAG..UGGGGG..ACUGCGUU..CGCGCUUUCCC
+G.gallus.1                        ACUGCAUAAUUUGUGGUAG..UGGGGG..ACUGCGUU..CGCGCUCUCCC
+G.gallus.2                        ACUGCAUAAUUUGUGGUAG..UGGGGG..ACUGCGUU..CGCGCUCUCCC
+G.gallus.3                        ACUGCAUAAUUUGUGGUAG..UGGGGG..ACUGCGUU..CGCGCUCUCCC
+G.gallus.4                        ACUGCAUAAUUUGUGGUAG..UGGGGG..ACUGCGUU..CGCGCUCUCCC
+G.gallus.5                        ACUGCAUAAUUUGUGGUAG..UGGGGG..ACUGCGUU..CGCGCUCUCCC
+M.musculus.1                      A.UGCA.AAUUUGUGGUAG..UGGGGG..ACUGCGUU..CGCGCUCUCCC
+M.musculus.2                      ACUGCAUAAUUUGUGGUAG..UGGGGGA.GCUGCGUU..CGCGCGCCCCC
+M.musculus.3                      ACUGCAUAAUUUGUGGUAG..UGGGGG..ACUGCGUU..CGCGCUCUCCC
+M.musculus.4                      ACUGCAUAAUUUGUGGUAG..UGGGGG..ACUGCGUU..UGUGCUCUCCC
+M.musculus.5                      ACUGCAUAAUUUGUGGUAG..UGGGGG..ACUGCGUU..CGCGCUCUCCC
+R.norvegicus.1                    ACUGCAUAAUUUGUGGUAG..UGCGGGG..GACUGUU..CGCGCUC.CUC
+R.norvegicus.2                    ACUGCAUAAUUUGUGGUAG..UGGGGG..ACUGCGUU..CGCGCUCUCCC
+R.norvegicus.3                    ACUGCAUAAUUUGUGGUAG..UGGGGG..ACUGCGUU..CGCGCUCUCCC
+H.sapiens.1                       GCUGCAUAACUUGUGGUAG..UGGGGG..ACUGCUUU..UGCGCUUUUCU
+H.sapiens.2                       ACUGCAUAAUUUGUGGUAG..UGGGGG..ACUGCGUU..CGCGCUUUCCC
+H.sapiens.3                       ACUGCAUAAUUUGUGGUAG..UGGGGG..ACUGCGUU..CGCGCUUUCCC
+H.sapiens.4                       ACUGCAUAAUUUGUGGUAG..UGGGGG..ACUGCGUU..CGCGCUUUCCC
+H.sapiens.5                       ACUGCAUAAUUUGUGGUAG..UGGGGG..ACUGCGUU..CGCGCUUUCCC
+H.sapiens.6                       ACUGCAUAAUUUGUGGUAG..UGGGGG..ACUGCGUU..CGCGCUUUCCC
+H.sapiens.7                       ACUGCAUAAUUUGUGGUAG..UGGGGG..ACUGCGUU..CGCGCUUUCCC
+H.sapiens.8                       ACUGCAUAAUUUGUGGUAG..UGGGGG..ACUGCGUU..CGCGCUUUCCC
+H.sapiens.9                       ACUGCAUAAUUUGUGGUAG..UGGGGG..ACUGCGUU..CGCGCUUUCCC
+H.sapiens.10                      ACUGCAUAAUUUGUGGUAG..UGGGGG..ACUGCGUU..CGCGCUUUCCC
+H.sapiens.11                      AUUGCAUAAUUUGUGGUAG..UGGGGAC.U...AUGU..UGGUUCUCUCC
+H.sapiens.12                      ACUGCAUAAUUUGUGGUAG..UGGGGG..ACUGCGUC..CGCGCUUUCCC
+H.sapiens.13                      ACUGCAUAAUUUGUGGUAG..UGGGGG..ACUGCGUU..CGCGCUUUCCC
+H.sapiens.14                      ACUGCAUAAUUUGUGGUAG..UGGGGG..ACUGCGUU..CGCGCUUUCCC
+H.sapiens.15                      ACUGCAUAAUUUGUGGUAG..UGGGGG..ACUGCGUU..CGCGCUUUCCC
+B.taurus.1                        ACUGCAUAAUUUGUGGUAG..UGGGGG..ACUGCGUU..CGCGCUUUCCC
+H.viridis.1                       ACCGUACACUUUCUGGCUG..UGGGGG..CCUGCGUU..GGCGCUCGCCC
+A.punctulata.1                    GGCGUAUUAUUUAUGGUAG...CGGGGA.UCUGCGUU..CGCGCUAUCCC
+S.purpuratus.1                    GGCGUAUUAUUUAUGGUAG...CGGAGA.UCUGCGUU..CGCGCUAUCUC
+S.purpuratus.2                    GGCGUAUUAUUUAUGGUAG..CGGAGAU..CUGCGUU..CGCGCUA.UCU
+L.variegatus.1                    GGCGUACAAUUUAUGGUAG...CGGAGA.UCUGCGUU..CGCGCUAUCUC
+L.variegatus.2                    GGCGUACAAUUUAUGAUAG...CGGAGA.UCUGCGUU..CGCGCUAUCUC
+L.variegatus.3                    GGCGUACAAUUUAUGGUAG...CGGAGA.UCUGCGUU..CGCGCUAUCUC
+A.lumbricoides.1                  ACAGCAUAAUUUUUGCGUU....UGGGG.ACAGCGUU..CGCGCUUCCCC
+A.lumbricoides.2                  ACAGCAUAAUUUUUGCGUU...UGGGGA..CAGCGUU..CGCGCUU.CCC
+A.lumbricoides.3                  ACAGCAUAAUUUUUGCGUU....UGGGG.ACAGCGUU..CGCGCUUCCCC
+A.lumbricoides.4                  ACAGCAUAAUUUUUGCGUU....UGGGG.ACAGCGUU..CGCGCUUCCCC
+C.elegans.1                       ACAGCUUAAUUUUUGCGUA..UCGGGG...CUGCGUG..CGCGCGG.CCC
+E.multilocularis.1                GGUGCAUAGUUUUUGCCAG..UGGGGA.....GCCUU..CGGGC..GUCC
+S.mansoni.1                       GACGCGUAGUUUUUGUCAG..UGGGGA....GGUCUU..CGGAUCA.UCC
+S.mansoni.2                       GGCGUGUAGUUUUUGUCAG..UGGGGA....GGUCUU..CGGAUCA.UCC
+S.mansoni.3                       GACGCGUAGUUUUUGUCAG..UGGGGA....GGUCUU..CGGAUCA.UCC
+S.mansoni.4                       GGCGUGUAGUUUUUGUCAG..UGGGGA...GGUCUCA..C.AGUCA.UCC
+S.mansoni.5                       GACGCGUAGUUUUUGUCAG..UGGGGA....GGUCUU..CGGAUCA.UCC
+S.mansoni.6                       GGCGUGUAGUUUUUGUCAG..UGGGGA...GGUCUCA..C.AGUCC.UCC
+C.reinhardtii.1                   AGGGCUAAAUUUUUGUUAG..GCUGAGGACCCGCGCUA.UGCGCGGCCUC
+.saccharophila.1                  ACGGAAUAAUUUCUGGCAG..GCCGUUG.CACGCGCU..UGCGCGUCCUC
+T.aestivum.1                      ACGUCGUAAUUUGUGGUAG...AGGGGG.UACGCGUU..CGCGCGGCCCC
+T.aestivum.2                      ACGUCAUAAUUUGUGGUAG...AGGGGG.UACGCGUU..CGCGCGGCCCC
+T.aestivum.3                      ACGUCAUAAUUUGUGCUAG...AGGGGG.UACGCGUU..CGCGCGGCCCC
+T.aestivum.4                      AUGUCAUAAUUUGUGGUAG...AGGGGG.UACGCGUU..CGCGCGGCCCC
+T.aestivum.5                      ACGUCAUAAUUUGUGCUAG...AGGGGG.UACGCGUU..CGCGCGGCCCC
+S.tuberosum.1                     ACACUAUAAUUUGUGAUAG...UGGGGG.CUUGCGUU..CGCGCAGCCCC
+S.tuberosum.2                     ACGUCAUAAUUUGUUACAG..CGGGGG..CCUGCGUU..CGCGCGGCCCU
+S.tuberosum.3                     ACGUCAUAAUUUGUUGCUG..UGGGGG..CCUGCGUU..CGCGCGGCCCU
+S.tuberosum.4                     ACGUCAUAAUUUGUUGCAG....UGGG..CCUGCGUU..CGCGCGGCCCC
+S.tuberosum.5                     AUGUCAUAAUUUGUUGCAG...UGGGUG.CCUGUGUU..UGCGCACGCCC
+S.tuberosum.6                     AUGUCAUAAUUUGUUGCUG..UGGGGG..CCUGCGUU..C.UGCGCGCCC
+S.tuberosum.7                     AUGUCAUAAUUUGUUGCAG...UGGGGG.CCAGCGUU..CGCGCGGCCCC
+S.tuberosum.8                     ACGUCAUAAUUUGUUGCAG...UGGGGG.CCUGCGUU..CGCGCGGCCCC
+S.lycopersicum.1                  ACGUCAUAAUUUGUUGUUGCAGAGGGGG.CCUGUGUU..CGCGCAGCCCC
+S.lycopersicum.2                  ACGUCAUAAUUUGUUGCUG..UGAGGG..CCUGUGUU..CGCGCGGCCCC
+S.lycopersicum.3                  ACGUCAUAAUUUGUUGCUG...AGGGGG.CCUGCGUU..CGCGCGGCCCC
+S.lycopersicum.4                  ACGUCAUAAUUUGUUGCUG...AGGGGG.CCUGCGUU..CGCGCGGCCCC
+S.lycopersicum.5                  ACAUCAUAAUUUGUUGCUG...AGGGGG.CAUGCGUU..CGCGCAGCCCC
+P.sativum.1                       ACAUCAUAAUUUGUUGCCU..GAGGGGG.CCUGCGUU..CGCGCGGCCCC
+P.sativum.2                       ACAUCAUAAUUUGUUGCUG..UGGGGG..CCUGUGUU..CGCGCGGCCCC
+P.sativum.3                       ACAUCAUAAUUUGUUGCUG..UGGGGG..CCUGCGUU..CGCGCGGCCCU
+Glycine_max_soybean.1             ACGUCAUAAUUUGUGGUAG..UGGGGG..CUUGCGUU..CGCGCAGCCCC
+Glycine_max_soybean.2             ACGUCAUAAUUUGUGGUAG..UGGGGG..CCUGCGUU..CGCGCGGCCCC
+P.vulgaris.1                      ACGUCAUAAUUUGUGGUAG..UGGGGG..CCUGCGUU..CGCGCGGCCCC
+A.thaliana.1                      GCGUCAUUAUUUGUUGCCU...UGGGGG.CCUGCGUU..CGCGCAGCCCC
+#=GC SS_cons                      .>>>>.................<<<<<...<<<<<......>>>>>.>>>
+
+T.thermophila.1                   CCG
+T.thermophila.2                   CCG
+T.thermophila.3                   UUC
+T.thermophila.4                   CCG
+P.polycephalum.1                  GCA
+P.polycephalum.2                  GCA
+S.pombe.1                         ..A
+A.aquaticus.1                     CUU
+A.aquaticus.2                     CUU
+A.aquaticus.3                     CUU
+A.aquaticus.4                     CUU
+P.coxalis.1                       CUU
+D.melanogaster.1                  GAC
+D.melanogaster.2                  CGA
+D.melanogaster.3                  GAC
+D.melanogaster.4                  GAC
+D.melanogaster.5                  GAC
+D.melanogaster.6                  CGA
+D.melanogaster.7                  GAC
+D.melanogaster.8                  CGA
+D.melanogaster.9                  GAC
+X.laevis.1                        CUG
+X.laevis.2                        CUG
+X.laevis.3                        CUG
+A.mexicanum.1                     CUG
+G.gallus.1                        CUG
+G.gallus.2                        CUG
+G.gallus.3                        CUG
+G.gallus.4                        CUG
+G.gallus.5                        CUG
+M.musculus.1                      CUG
+M.musculus.2                      CUG
+M.musculus.3                      CUG
+M.musculus.4                      CUU
+M.musculus.5                      CUG
+R.norvegicus.1                    UCG
+R.norvegicus.2                    CUG
+R.norvegicus.3                    CUG
+H.sapiens.1                       GUC
+H.sapiens.2                       CUG
+H.sapiens.3                       CUG
+H.sapiens.4                       CUG
+H.sapiens.5                       CUG
+H.sapiens.6                       CUG
+H.sapiens.7                       CUG
+H.sapiens.8                       CUG
+H.sapiens.9                       CUG
+H.sapiens.10                      CUG
+H.sapiens.11                      CCU
+H.sapiens.12                      CUG
+H.sapiens.13                      CUG
+H.sapiens.14                      CUG
+H.sapiens.15                      CUG
+B.taurus.1                        CUG
+H.viridis.1                       CUU
+A.punctulata.1                    CUU
+S.purpuratus.1                    CUA
+S.purpuratus.2                    CCU
+L.variegatus.1                    CUA
+L.variegatus.2                    CUA
+L.variegatus.3                    CUA
+A.lumbricoides.1                  GCC
+A.lumbricoides.2                  CGC
+A.lumbricoides.3                  GCC
+A.lumbricoides.4                  GCC
+C.elegans.1                       UGA
+E.multilocularis.1                CUU
+S.mansoni.1                       UU.
+S.mansoni.2                       CUU
+S.mansoni.3                       CUU
+S.mansoni.4                       CUU
+S.mansoni.5                       CUU
+S.mansoni.6                       CUU
+C.reinhardtii.1                   GGC
+.saccharophila.1                  GGC
+T.aestivum.1                      UAC
+T.aestivum.2                      UGC
+T.aestivum.3                      UGC
+T.aestivum.4                      UGC
+T.aestivum.5                      UGC
+S.tuberosum.1                     UAG
+S.tuberosum.2                     ACC
+S.tuberosum.3                     GCC
+S.tuberosum.4                     UAC
+S.tuberosum.5                     UAC
+S.tuberosum.6                     CUG
+S.tuberosum.7                     UAC
+S.tuberosum.8                     UAU
+S.lycopersicum.1                  UAC
+S.lycopersicum.2                  UGC
+S.lycopersicum.3                  UGC
+S.lycopersicum.4                  UGC
+S.lycopersicum.5                  UGC
+P.sativum.1                       CAC
+P.sativum.2                       CUC
+P.sativum.3                       CUU
+Glycine_max_soybean.1             UUC
+Glycine_max_soybean.2             UUU
+P.vulgaris.1                      UUA
+A.thaliana.1                      CAC
+#=GC SS_cons                      >>.
+//

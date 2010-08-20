@@ -1,0 +1,64 @@
+# STOCKHOLM 1.0
+#=GF ID    Spi-1
+#=GF AC    RF00232
+#=GF DE    Spi-1 (PU.1) 5' UTR regulatory element
+#=GF AU    Moxon SJ
+#=GF GA    27.0
+#=GF NC    0.0
+#=GF TC    28.3
+#=GF SE    PMID:9207037
+#=GF SS    Published; PMID:9207037
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000204 SO:five_prime_UTR
+#=GF RN    [1]
+#=GF RM    9207037
+#=GF RT    The conserved 5'-untranslated leader of Spi-1 (PU.1) mRNA is highly
+#=GF RT    structured and potently inhibits translation in vitro but not in
+#=GF RT    vivo.
+#=GF RA    Hensold JO, Stratton CA, Barth D;
+#=GF RL    Nucleic Acids Res 1997;25:2869-2876.
+#=GF CC    Spi-1 regulates myeloid gene expression during haemopoietic
+#=GF CC    development. This family represents a regulatory element found in the 5'
+#=GF CC    UTR of Spi-1 mRNA which is able to inhibit the translation Spi-1
+#=GF CC    transcripts by 8-fold. Mutations in this regulatory region of the 5' UTR
+#=GF CC    can lead to overexpression of Spi-1 which has been linked to
+#=GF CC    erythroleukemic transformation [1].
+#=GF WK    http://en.wikipedia.org/wiki/Spi-1_(PU.1)_5'_UTR_regulatory_element
+#=GF SQ    5
+
+#=GS M.musculus.1 AC    M32370.1/1-150
+#=GS M.musculus.2 AC    X17463.1/689-858
+#=GS H.sapiens.1  AC    AC090582.9/66715-66882
+#=GS H.sapiens.2  AC    AC090559.7/2808-2975
+#=GS H.sapiens.3  AC    U34046.1/345-511
+
+M.musculus.1             CU....CAGGGGGC.........AGG.......CCUGAGCCCUGCGUCUG
+M.musculus.2             CUCACCCAGGGCUCCUGUAGCUCAGGGGGCAGGCCUGAGCCCUGCGUCUG
+H.sapiens.1              CUCACCCAGGGCUCCUGUAGCUCAAGGGGCAGGCCUGAGCCCUGCACCCG
+H.sapiens.2              CUCACCCAGGGCUCCUGUAGCUCAGGGGGCAGGCCUGAGCCCUGCACCCG
+H.sapiens.3              CUCACCCAGGGCUCCUGUAGCUCAGGGGGCAGGCCUGAGCCCUGCACCCG
+#=GC SS_cons             .......<<<<<<<..<<.<<<<...>>>>..>>..>>>>>>><<<<<<<
+
+M.musculus.1             ACCCACGACCGUCCAGUCCCCCGACGGGGCACCUGGUCCUGAGGGGGAUC
+M.musculus.2             ACCCACGACCGUCCAGUCCCCCGACGGGGCACCUGGUCCUGAGGGGGAUC
+H.sapiens.1              CCCCACGACCGUCCAGCCCCU.GACGGGGCACCCCAUCCUGA.GGGGCUC
+H.sapiens.2              CCCCACGACCGUCCAGCCCCU.GACGGGGCACCCCAUCCUGA.GGGGCUC
+H.sapiens.3              CCCCACGACCGUCCAGCCCCU.GACGGGC.ACCCCAUCCUGA.GGGGCUC
+#=GC SS_cons             .........<<<<<<.<<<<<<..<<<<<<.....>>>>>>.>>>>>><<
+
+M.musculus.1             CGCCUUGAUCCCCACCGAAGCAGGGGAUCUGACCAACCUGGAGCUCAGCU
+M.musculus.2             CGCCUUGAUCCCCACCGAAGCAGGGGAUCUGACCAACCUGGAGCUCAGCU
+H.sapiens.1              UGCAUUGGCCCCCACCGAGGCAGGGGAUCUGACCGACUCGGAGCCCGGCU
+H.sapiens.2              UGCAUUGGCCCCCACCGAGGCAGGGGAUCUGACCGACUCGGAGCCCGGCU
+H.sapiens.3              UGCAUUGGCCCCCACCGAGGCAGGGGAUCUGACCGACUCGGAGCCCGGCU
+#=GC SS_cons             <<..<<<<<<<<<.........>>>>>>>.>>......>>>><<<.>>>>
+
+M.musculus.1             GGAUGUUACAGGCGUGCAAA
+M.musculus.2             GGAUGUUACAGGCGUGCAAA
+H.sapiens.1              GGAUGUUACAGGCGUGCAAA
+H.sapiens.2              GGAUGUUACAGGCGUGCAAA
+H.sapiens.3              GGAUGUUACAGGCGUGCAAA
+#=GC SS_cons             >>>>>...>>>>>>>.....
+//

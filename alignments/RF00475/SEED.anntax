@@ -1,0 +1,66 @@
+# STOCKHOLM 1.0
+#=GF ID    snosnR69
+#=GF AC    RF00475
+#=GF DE    Small nucleolar RNA snR69
+#=GF AU    Moxon SJ
+#=GF GA    33.0
+#=GF NC    0.0
+#=GF TC    33.4
+#=GF SE    Moxon SJ
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Saccharomyces_cerevisiae300036
+#=GF RN    [1]
+#=GF RM    12007400
+#=GF RT    Small nucleolar RNAs: an abundant group of noncoding RNAs with
+#=GF RT    diverse cellular functions.
+#=GF RA    Kiss T;
+#=GF RL    Cell 2002;109:145-148.
+#=GF RN    [2]
+#=GF RM    10024243
+#=GF RT    A computational screen for methylation guide snoRNAs in yeast.
+#=GF RA    Lowe TM, Eddy SR;
+#=GF RL    Science 1999;283:1168-1171.
+#=GF CC    snR69 is a member of the C/D class of snoRNA which contain the C (UGAUGA)
+#=GF CC    and  D (CUGA) box motifs. Most of the members of the box C/D family
+#=GF CC    function in directing site-specific 2'-O-methylation of substrate RNAs
+#=GF CC    [1].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_snR69
+#=GF SQ    6
+
+#=GS N.crassa.1     AC    BX842623.1/49145-49237
+#=GS Y.lipolytica.1 AC    CR382128.1/364100-364187
+#=GS K.lactis.1     AC    CR382126.1/2373959-2374052
+#=GS C.glabrata.1   AC    CR380958.2/218391-218508
+#=GS S.cerevisiae.1 AC    AF064281.1/1-101
+#=GS S.pombe.1      AC    AJ617339.1/1-89
+
+N.crassa.1                 UUGAAUGAUGAUAAAAGGCCCAAGG..CCUGAAU.......UAUAAACCC
+Y.lipolytica.1             UGGAGUGAUGAUAACGAGCCAGAAG..GCUCUAU......UUAUAAACCC
+K.lactis.1                 UUUAAUGAUGAGAAAAUGUCCUUAG..UGACAAU.....GCUAUAAACCC
+C.glabrata.1               GUUUAUGAUGAUAACGUCAUCAAAAGAUGACAAUUUAUUGCUAUAAACCC
+S.cerevisiae.1             GUUUAUGAUGAGACCACGUCCUUAG..UGACAAU.....GCUAUAAACCC
+S.pombe.1                  UACCAUGAUGAACACGAGCCAGAAG..GCUCAAU..AUUCUAUUAAACCC
+#=GC SS_cons               ..................................................
+
+N.crassa.1                 AGCUCUUCGAU.UCCUCUAUGAGGAUCCAUGAGACAAAAACUUUAUC...
+Y.lipolytica.1             AGCUCGUCGAUAUUAUUUGAAAUGA.......GAAAAAAAGUUUAUG...
+K.lactis.1                 AGCUCUUCGA..UCAUUAGAAAUGA.......GAAGAGAUACCUGUCAAA
+C.glabrata.1               AGCUCUUCGAU.UCGUUUCAUCUCU.UCAGGAGAAGUAACAGACAUGAGA
+S.cerevisiae.1             AGCUCUUCGAU.UCGUUUUUAAUGA.AAGGGAGAAGAUUUUUUUGUCAAA
+S.pombe.1                  AGCUCUUUGAA.CCAAUAGUUGUGA.......AACGAGAAACAAGUU...
+#=GC SS_cons               ............<<<<.....>>>>.........................
+
+N.crassa.1                 ..............CUGACA
+Y.lipolytica.1             ..............CUGAUU
+K.lactis.1                 ..........CGCUCUGAUA
+C.glabrata.1               CCAAUAGUUUAUAUCUGAUA
+S.cerevisiae.1             ..........CGCUCUGAGU
+S.pombe.1                  ..............CUGA..
+#=GC SS_cons               ....................
+//

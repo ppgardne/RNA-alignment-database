@@ -1,0 +1,91 @@
+# STOCKHOLM 1.0
+#=GF ID    LhrC
+#=GF AC    RF00616
+#=GF DE    Listeria Hfq binding LhrC
+#=GF AU    Daub J
+#=GF GA    36.0
+#=GF NC    22.8
+#=GF TC    36.3
+#=GF SE    Daub J
+#=GF SS    Published; PMID:16682563
+#=GF TP    Gene; sRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0000655 SO:ncRNA
+#=GF RN    [1]
+#=GF RM    16682563
+#=GF RT    Identification of small Hfq-binding RNAs in Listeria monocytogenes.
+#=GF RA    Christiansen JK, Nielsen JS, Ebersbach T, Valentin-Hansen P,
+#=GF RA    Sogaard-Andersen L, Kallipolitis BH;
+#=GF RL    RNA. 2006;12:1383-1396.
+#=GF CC    This RNA was identifed by screening for RNA molecules which
+#=GF CC    co-immunoprecipitated with the RNA chaperone Hfq [1]. LhrC is
+#=GF CC    transcribed from the intergenic region between the protein coding
+#=GF CC    genes cysK, a putative cysteine synthase and sul, a putative
+#=GF CC    dihydropteroate synthase [1].  In Listeria monocytogenes four
+#=GF CC    additional copies of lhrC have been identifed in the genome,
+#=GF CC    three of which are located in tandem repeat upstream of the
+#=GF CC    originally characterised lhrC [1]. The function of LhrC is not
+#=GF CC    known. This RNA molecule appears to be conserved amongst Listeria
+#=GF CC    species but has not been identified in other bacterial species.
+#=GF WK    http://en.wikipedia.org/wiki/Listeria_Hfq_binding_LhrC
+#=GF SQ    12
+
+#=GS L.innocua.1            AC    AL596164.1/23546-23655
+#=GS Listeria_monocytogen.1 AC    AADR01000023.1/5368-5482
+#=GS L.monocytogenes.1      AC    AL591974.1/32086-32197
+#=GS Listeria_welshimeri_.1 AC    AM263198.1/188916-189028
+#=GS Listeria_monocytogen.2 AC    AE017262.2/237550-237663
+#=GS L.innocua.2            AC    AL596164.1/24153-24267
+#=GS L.innocua.3            AC    AL596164.1/23950-24060
+#=GS Listeria_monocytogen.3 AC    AARU02000014.1/4625-4738
+#=GS L.monocytogenes.2      AC    AL591974.1/32492-32605
+#=GS L.innocua.4            AC    AL596167.1/8204-8314
+#=GS Listeria_monocytogen.4 AC    AADR01000023.1/5162-5275
+#=GS Listeria_monocytogen.5 AC    FM242711.1/982673-982783
+
+L.innocua.1                        AUAAGCUAACAACAA.CAAAACAUUUU..CAUU...CU..U..UCCC.CU
+Listeria_monocytogen.1             AUAAGCUAACAACAAGCAAAACAUUUU..CAUUCUUCU..C..CCCCCUU
+L.monocytogenes.1                  AUAAGCUAACAACAAGCAAAACAUUU..UCAUU...CU..U..UCCCCUU
+Listeria_welshimeri_.1             AUAAGCUAACAACAAGCAAAACAUUUU..CAUU...CU..UCCUCCCCCU
+Listeria_monocytogen.2             AUAAGCUAACAACAAGCAAAACAUUUU..CAUU...CU..UCUCCCCCCU
+L.innocua.2                        AUAAGCUAACAACAAGCAUAACAUUUU..CAUU...CUUCU..CCCCCCU
+L.innocua.3                        AUAAGCUAACAACAAGCAAAACAAUU...CAUU...CU..U..UCCCCUU
+Listeria_monocytogen.3             AUAAGCUAACAACAAACAAAACAUUUU..CAUU...CUUCU..CCCCCCU
+L.monocytogenes.2                  AUAAGCUAACAACAAACAAAACAUUU.U.CAUU...CU..UCUCCCCCCU
+L.innocua.4                        AUAAGCUAACAACAAGCAAAACAUUUU..CAUUU..CU..U..UCCC.UU
+Listeria_monocytogen.4             AUAAGCUAACAACAAGCAAAACAUUUU..CAUUCUUCU..C..CCCCCUU
+Listeria_monocytogen.5             AUAAGCUAACAACAAGCAAAACAUUUU..CAUUU..CU..U..U.CCCUU
+#=GC SS_cons                       ......................<<<<<..<<<<...<.............
+#=GC RF                            AUAAGCUAACAACAAGCAAAACauuuu..Cauu...CU..U..UCCCcUU
+
+L.innocua.1                        UUUAGAAUGGAAAUCCCAAACUCCC.U..UUU.UA.GCCAGUGUGGUUUA
+Listeria_monocytogen.1             UUUAGAAUGAAGAUCCCAAACUCCC.U..UUU.UG.ACCAGUGUGGUUUA
+L.monocytogenes.1                  UUUAGAAUGAAGAUCCCAAACUCCC.U..UUUUGA..CCAGUGUGGUUUA
+Listeria_welshimeri_.1             AUUAGAAUGAAAAUCCCAACUCCCU.U..UUU.UG.ACCGAUGCGGUUUA
+Listeria_monocytogen.2             UUUAGAAUGAAGAUCCCAAACUCCC.U..UUU.UG.ACCAGUGUGGUUUA
+L.innocua.2                        AUUAGAAUGAAAACCCUAAACUCCC.UUUUUU.UG.ACCGAUGCGGUUUA
+L.innocua.3                        UUUAGAAUGAAAUUCCUAAACUCCC.U..UUU.UG.ACCAGUGUGGUUUA
+Listeria_monocytogen.3             UUUAGAAUGAAAAUCCCAAACUCCC.U..UUU.UUGACCGAUGCGGUUUA
+L.monocytogenes.2                  UUUAGAAUGAAAAUCCCAAACUCCCUU..UUU.UG.ACCGAUGCGGUUUA
+L.innocua.4                        UUUAGAAUGAAAAUCCCAAACUCCC.U..UUU.AG..CUAGUGCGGUUUA
+Listeria_monocytogen.4             UUUAGAAUGAAGAUCCCAAACUCCC.U..UUU.UG.ACCGAUGCGGUUUA
+Listeria_monocytogen.5             UUUAGAAUGAAAAUCCCAAACUCCC.U..UUU.AG..CUAGUGCGGUUUA
+#=GC SS_cons                       ....>>>>>>>>>>.......................<<<<<<<<<....
+#=GC RF                            UUUAGaauGaaaauCCcAAACUCCC.U..UUU.aG.ACcaGuGcGGUUUA
+
+L.innocua.1                        CUCC..CUUUUU.CCACACUGGUUUUUUA
+Listeria_monocytogen.1             CUCC..CUUUUU.CCACACUGGUUUUUUC
+L.monocytogenes.1                  CUCCCUUUUU...CCACACUGGUUUUUUG
+Listeria_welshimeri_.1             CUCC..CUUUU..CCGCAUCGGUUUUUUU
+Listeria_monocytogen.2             CUCC..CUUUU.UCCACACUGGUUUUUUA
+L.innocua.2                        CUCC..CUUUU..CCGCAUCGGUUUUUUU
+L.innocua.3                        CUCC..CUUUUU.CCACACUGGUUUUUUA
+Listeria_monocytogen.3             CUCC..CUUUU..CCGCAUCGGUUUUUUU
+L.monocytogenes.2                  CUCC..CUUUU..CCGCAUCGGUUUUUUU
+L.innocua.4                        CUCC..CUUUUU.CCGCGCUAGUUUUUUC
+Listeria_monocytogen.4             CUCC..CUUUU..CCGCAUCGGUUUUUUU
+Listeria_monocytogen.5             CUCC..CUUUUU.CCGCACUAGUUUUUUU
+#=GC SS_cons                       .............>>>>>>>>>.......
+#=GC RF                            CUCC..CUUUUU.CCgCaCugGUUUUUUa
+//

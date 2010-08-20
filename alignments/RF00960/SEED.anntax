@@ -1,0 +1,46 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-661
+#=GF AC    RF00960
+#=GF DE    microRNA mir-661
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    21.8
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000465
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    4
+
+#=GS M.mulatta.1            AC    AANU01106914.1/19059-19156
+#=GS H.sapiens.1            AC    AADB02012369.1/40205-40293
+#=GS M.murinus.1            AC    ABDC01279171.1/1088-1188
+#=GS Otolemur_garnettii_s.1 AC    AAQR01726745.1/782-885
+
+M.mulatta.1                        GGAGAGGCU..G.....UGCUGUGGGGCAGGCGCUGGCCUGGGUGGCCUG
+H.sapiens.1                        GGAGAGGCU..G.....UGCUGUGGGGCAGGCGCAGGCCUG.........
+M.murinus.1                        GGCGCAGCCCUG.....UGCUGUGGGACAGGCACUUGCUCACACUGCCUG
+Otolemur_garnettii_s.1             GGAGGUGCA..GCCCUGUGCUGUGGGGCAGGCUCUUGUUGUGGUGGCUGG
+#=GC SS_cons                       .....<<<<.........<<<.<..<<<<.<<<<<<<<<.<.........
+#=GC RF                            GGAGAgGCu..G.....ugCuGuGGgGCaGGCgCgGGCCuGgguggccug
+
+M.mulatta.1                        AGCCCUGAUUUUGGGCUGCCUGGGUAUCUGGCCCG.U.GCGUGACCUUGG
+H.sapiens.1                        AGCCCUGGUUUCGGGCUGCCUGGGUCUCUGGCCUG.C.GCGUGACUUUGG
+M.murinus.1                        GGCCCUGGGUCCAGGCUGCCUGGGUCUCUGGCCAG.CAGUGUGACCUUGG
+Otolemur_garnettii_s.1             GGCCCUGAUUCUGCGCUCCCUGGGUCUCUGGCCAGCA.GCGUGACCUUGG
+#=GC SS_cons                       <<<<<.<<<........>>>.>>>.>>>.>>>>>>.>.>>.>>.>>..>.
+#=GC RF                            agCCCuGguuuuGGGcugcCuGGGucuCuGGCCcG.c.GCGuGACcuugG
+
+M.mulatta.1                        GGCGGCU
+H.sapiens.1                        GGUGGCU
+M.murinus.1                        GGAGGCU
+Otolemur_garnettii_s.1             AGAUGCC
+#=GC SS_cons                       >>>>>>>
+#=GC RF                            gGcgGCu
+//

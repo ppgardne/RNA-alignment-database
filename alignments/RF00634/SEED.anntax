@@ -1,0 +1,242 @@
+# STOCKHOLM 1.0
+#=GF ID    SAM-IV
+#=GF AC    RF00634
+#=GF DE    S-adenosyl methionine (SAM) riboswitch,
+#=GF AU    Weinberg Z, Barrick JE
+#=GF GA    30.0
+#=GF NC    30.0
+#=GF TC    33.7
+#=GF SE    Published; PMID:18369181
+#=GF SS    Published; PMID:18369181
+#=GF TP    Cis-reg; riboswitch;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    18369181
+#=GF RT    The aptamer core of SAM-IV riboswitches mimics the ligand-binding site of SAM-I riboswitches.
+#=GF RA    Weinberg Z, Regulski EE, Hammond MC, Barrick JE, Yao Z, Ruzzo WL, Breaker RR
+#=GF RL    RNA. 2008 Mar; [Epub ahead of print]
+#=GF CC    SAM-IV is a mRNA element that regulates gene expression via
+#=GF CC    direct sensing of S-adenosylmethionine (SAM or AdoMet). SAM-IV
+#=GF CC    riboswitches share conserved nucleotide positions with the
+#=GF CC    previously described SAM-I riboswitches Sequence analysis and
+#=GF CC    molecular recognition experiments suggest that SAM-I and SAM-IV
+#=GF CC    riboswitches share similar ligand binding sites, but have
+#=GF CC    different scaffolds.
+#=GF WK    http://en.wikipedia.org/wiki/SAM-IV_riboswitch
+#=GF SQ    40
+
+#=GS C.glutamicum.1         AC    AP009044.1/1516225-1516341
+#=GS C.callunae.1           AC    AY102616.1/3767-3883
+#=GS Corynebacterium_effi.1 AC    BA000035.2/1474355-1474472
+#=GS Mycobacterium_vanbaa.1 AC    CP000511.1/1643626-1643745
+#=GS M.leprae.1             AC    U00022.1/34579-34697
+#=GS Mycobacterium_smegma.1 AC    CP000480.1/1361882-1361993
+#=GS Mycobacterium.1        AC    CP000518.1/928799-928910
+#=GS Mycobacterium.2        AC    CP000580.1/914249-914360
+#=GS Mycobacterium_gilvum.1 AC    CP000656.1/5194683-5194802
+#=GS Mycobacterium_ulcera.1 AC    CP000325.1/1553311-1553430
+#=GS Mycobacterium_smegma.2 AC    CP000480.1/1748264-1748393
+#=GS Mycobacterium.3        AC    CP000580.1/1312635-1312753
+#=GS Mycobacterium_gilvum.2 AC    CP000656.1/5531569-5531680
+#=GS Mycobacterium_avium_.1 AC    AE016958.1/3838572-3838694
+#=GS Mycobacterium_tuberc.1 AC    CP000611.1/3736812-3736931
+#=GS Nocardia_farcinica_I.1 AC    AP006618.1/5665528-5665640
+#=GS Nocardia_farcinica_I.2 AC    AP006618.1/396893-397006
+#=GS Rhodococcus_jostii_R.1 AC    CP000431.1/6724302-6724422
+#=GS Rhodococcus_jostii_R.2 AC    CP000431.1/4627893-4628007
+#=GS Frankia.1              AC    CP000820.1/5910498-5910611
+#=GS Frankia_alni_ACN14a.1  AC    CT573213.2/4831346-4831458
+#=GS Frankia_alni_ACN14a.2  AC    CT573213.2/4609200-4609314
+#=GS Kineococcus_radiotol.1 AC    CP000750.2/1351757-1351870
+#=GS Kineococcus_radiotol.2 AC    CP000750.2/3280049-3280159
+#=GS Brevibacterium_linen.1 AC    AAGP01000018.1/74460-74571
+#=GS Janibacter.1           AC    AAMN01000002.1/91115-91229
+#=GS Janibacter.2           AC    AAMN01000002.1/4575-4689
+#=GS Arthrobacter.1         AC    CP000454.1/2980407-2980520
+#=GS Arthrobacter_auresce.1 AC    CP000474.1/1618337-1618453
+#=GS Arthrobacter.2         AC    CP000454.1/1479286-1479401
+#=GS Arthrobacter_auresce.2 AC    CP000474.1/2904762-2904875
+#=GS Salinispora_tropica_.1 AC    CP000667.1/317841-317960
+#=GS Nocardioides.1         AC    CP000509.1/3644126-3644238
+#=GS Saccharopolyspora_er.1 AC    AM420293.1/6539066-6539181
+#=GS S.coelicolor.1         AC    AF052077.1/1481-1597
+#=GS Streptomyces_avermit.1 AC    BA000030.3/8585292-8585400
+#=GS Streptomyces_avermit.2 AC    BA000030.3/7291233-7291349
+#=GS M.magnetotacticum.1    AC    AAAP01003574.1/1814-1929
+#=GS marine_metag.1         AC    AACY020177622.1/1062-1175
+#=GS marine_metag.2         AC    AACY020524451.1/3655-3761
+
+C.glutamicum.1                     GAUCAAGAA.GAUCAGCC...GCUAGCCCUUCGGCA.GGCUGAC.UGGCA
+C.callunae.1                       GAUCAAGAA.GAUCAGCC...GCAAGCCCUUCGGCA.GGCUGAC.UGGCA
+Corynebacterium_effi.1             GAUCAAGAA.GUUCAGCCU..CUAAGCCCUUCGGCA.GGCUGAC.UGGCA
+Mycobacterium_vanbaa.1             GGUCAUGAG.UGCCAGCG...AUAAGC..CCCGGCU.UGCUGGC.CGGCA
+M.leprae.1                         GGUCAUGAG.CGCCAGCG...UCAAGC..CCCGACU.UGCUGGC.CGGCA
+Mycobacterium_smegma.1             CUUCACGAGACGCCGUCG...ACAAGC..UCCGACU.GGAUGGCGCGCCA
+Mycobacterium.1                    GCUCACGAG.CGGACGACUGUUCGGGUA.CCUGGCCCGUCGUCC.CGGCA
+Mycobacterium.2                    GCUCACGAG.CGGACGGCAGUUUGGGUA.CCUGGCCCGUCGUCC.CGGCA
+Mycobacterium_gilvum.1             GGUCAUGAG.UGCCAGCG...ACAAGC..CCCGGCU.UGCUGGC.CGGCA
+Mycobacterium_ulcera.1             GGUCAUGAG.CGCCAGCG...UCAAGC..CCCGGCU.UGCUGGU.CGGCA
+Mycobacterium_smegma.2             GGUCAUGAG.CGCCAGCG...ACAAGC..CCCGGCU.UGCUGGC.CGGCA
+Mycobacterium.3                    GGUCAUGAG.UGCCAGCG...UCAAGC..CCCGGCU.UGCUGGC.CGGCA
+Mycobacterium_gilvum.2             GCUCACGAG.CGGACGACUGUUCGGGUA.CCUGGCCCGUCGUCC.CGGCA
+Mycobacterium_avium_.1             GGUCAUGAG.CGCCAGCA...UCAAGC..CCCGGCU.UGCUGGC.CGGCA
+Mycobacterium_tuberc.1             GGUCAUGAG.CGCCAGCG...UCAAGC..CCCGGCU.UGCUGGC.CGGCA
+Nocardia_farcinica_I.1             GGUCAUGAG.CACCAGCG...CCAAGC..CCCGGCU.CGCUGGU.CGGCA
+Nocardia_farcinica_I.2             GGUCAUGAG.UGCCAGCG...CAAAGC..CCCGGCU.CGCUGGU.CGGCA
+Rhodococcus_jostii_R.1             GGUCAUGAG.UGCCAGCA...ACGAGC..CCCGGCU.AGCUGGC.CGGCA
+Rhodococcus_jostii_R.2             GGUCACGAG.UACCAGCG...UCAAGC..CCCGGCU.AGCUGGU.CGGCA
+Frankia.1                          GGUCCUGAG.CGCCAGCG...UCAAGC..CCCGGCU.UGCUGGC.CGGCA
+Frankia_alni_ACN14a.1              UGUCACGAG.UGCCAACG...UCCAGC..CCCGGCU.UGUUGGC.CGGCA
+Frankia_alni_ACN14a.2              CGUCUUGAG.UGCCAGCG...UUCAGC..CCCGGCU.UGCUGGC.CGGCA
+Kineococcus_radiotol.1             GGUCAUGAG.CGCCAGCG...ACAAGC..CCCGGCU.CGCUGGC.CGGCA
+Kineococcus_radiotol.2             GGUCAUGAG.UGACAGCG...ACAAGC..CCUGGCU.CGCUGUC.CGGCA
+Brevibacterium_linen.1             GUUCACGAG.UCGUGGCU...AUCGGUA.CCUGGCC.GGCCACG.CGGCA
+Janibacter.1                       GGUCAUGAG.UGCCAGCG...ACAAGC..CCCGGCU.CGCUGGC.CGGCA
+Janibacter.2                       GGUCACGAG.UACCAGUG...UUCAGC..CCCGGCU.UGCUGGU.CGGCA
+Arthrobacter.1                     GGUCACGAG.UGCCAGCG...CUAAAC..CCCGGUU.UGCUGGC.CGGCA
+Arthrobacter_auresce.1             GGUCAUGAG.UGCCAGCA...CACAGC..CCCGGCU.UGCUGGC.CGGCA
+Arthrobacter.2                     GGUCAUGAG.UGCCAGCG...AC.AGC..CCCGGCU.UGCUGGC.CGGCA
+Arthrobacter_auresce.2             GGUCACGAG.UGCCAGCG...CUAAAC..CCCGGUU.UGCUGGC.CGGCA
+Salinispora_tropica_.1             GGUCACGAG.CGCCAGCG...ACAAGC..CCCGGCU.UGCUGGC.CGGCA
+Nocardioides.1                     CGUCACGAG.UACUGGCG...CGAAGC..CCCGGCU.GGCCAGU.CGGCA
+Saccharopolyspora_er.1             GGUCAUGAG.CGCCAGCG...UCAAGC..CCCGGCU.UGCUGGC.CGGCA
+S.coelicolor.1                     GGUCAUGAG.UGACAGUCA..UGAGGC..CCCGGCC.GACUGUC.CGGCA
+Streptomyces_avermit.1             GGUCAAGAG.CGUCAGCG...ACAAGC..CCUGGCU.UGCUGAC.CGGCA
+Streptomyces_avermit.2             GGUCAUGAG.CGACAGUCA..UGAGGC..CCCGGCC.GACUGUC.CGGCA
+M.magnetotacticum.1                GGUCAUGAG.UGCCAGCG...CGAAAC..CCCGGUU.UGCUGGC.CGGCA
+marine_metag.1                     GGUCAUGAG.UCUCAGUU...CAUAGC..CCCGGCU.AACUGAG.CGGCA
+marine_metag.2                     GGUCAUGAG.UGCCAGCG...AUAAGC..CCCGGCU.UGCUGGC.CGGCA
+#=GC SS_cons                       <<<<....<..<<<<<<.......<<........>>..>>>>>>.><<<.
+#=GC RF                            gguCAuGAG.ugccaGCg...auAaGc..cccGGCu.uGCuggc.CGGCA
+
+C.glutamicum.1                     ACCGCGC......AUCGC.GCA.CGGUGCCCCCGAAGGAAGAUCGGCUC.
+C.callunae.1                       ACCGCGC......AUCGC.GCA.CGGUGCCCCCGAAGGAAGAUCGGCUC.
+Corynebacterium_effi.1             ACCGCGC......AACGC.ACA.CGGUGCCCCCGAAGGAAGAUCCGCUC.
+Mycobacterium_vanbaa.1             ACCCUCC.....AACCGC.GGUGGGGUGCC.CCGGGAGACGACCAGGUUG
+M.leprae.1                         ACCCUCC.....AACCGC.GUUGGAGUGCC.CC.GGUGAUGACCAGGUU.
+Mycobacterium_smegma.1             ACCCCAC.......GCUC.GU..GGGUGGC.UCGGAUGACGAAGCGGCC.
+Mycobacterium.1                    ACCGCGC.....GACCGCCGCA.CGGUGCC.CCAGGGGAAGAGCGGGCA.
+Mycobacterium.2                    ACCGCGC.....GACCACCGCA.CGGUGCC.CCAGGGGAAGAGCGGGCG.
+Mycobacterium_gilvum.1             ACCCUCC.....AACCGC.GGUGGGGUGCC.CCGGGAGACGACCAGGUUG
+Mycobacterium_ulcera.1             ACCCUCC.....AACCGC.GGUGGGGUGCC.CCGGGUGAUGACCAGGUU.
+Mycobacterium_smegma.2             ACCCUCC.....AACCGC.GGUGGGGUGCC.CCGGGUGAUGACCAGGUU.
+Mycobacterium.3                    ACCCUCC.....AACCGC.GGUGGGGUGCC.CCGGGUGAUGACCAGGUU.
+Mycobacterium_gilvum.2             ACCGCGC.....GACCACCGCA.CGGUGCC.CCAGGGGAAGAGCGGGCA.
+Mycobacterium_avium_.1             ACCCUCC.....AACCGC.GGUGGGGUGCC.CCGGGUGAUGACCAGGUU.
+Mycobacterium_tuberc.1             ACCCUCC.....AACCGC.GGUGGGGUGCC.CCGGGUGAUGACCAGGUU.
+Nocardia_farcinica_I.1             ACCCUCC......UCCGC.GGCGGGGUGCU.CCGGGUGACGACCUGGCC.
+Nocardia_farcinica_I.2             ACCCUCC......UCCGC.GGUGGGGUGCU.CCGGGUGACGACCUGGCC.
+Rhodococcus_jostii_R.1             ACCCUCC......ACCGC.GGUGGGGUGCC.CCGGGUGAUGACCUGGUU.
+Rhodococcus_jostii_R.2             ACCCUCC......ACCGC.GGCGGGGUGCU.CCGGGUGACGACCAGGCU.
+Frankia.1                          ACCCUCC......UCCGC.GGUGGGGUGCC.CCGGGUG.UGACCAGGCC.
+Frankia_alni_ACN14a.1              ACCCUCC......ACCGC.GAAGGGGUGCC.CCGGGUGAGGACACGGCC.
+Frankia_alni_ACN14a.2              ACCCUCC.....UUAUGC.AGCGGGGUGCC.CCGGGUGGUGACGAGGCC.
+Kineococcus_radiotol.1             ACCCUCC......UCCGC.GGCGGGGUGCC.CCGGGUGACGACCUGGCC.
+Kineococcus_radiotol.2             ACCCUCC......UCCGC.GGCGGGGUGCC.CCAGGUGAAGACCCGGCC.
+Brevibacterium_linen.1             ACCCGUC........AUC.GACCGGGUGCC.CCAGGGAAAGAACGGGCC.
+Janibacter.1                       ACCCUCC.....AACCGC.GGUGGGGUGCC.CCGGGUGAAGACCAGGCG.
+Janibacter.2                       ACCCUCC......UCCGC.GGUGGGGUGCU.CCGGGUGACGACCUGGUC.
+Arthrobacter.1                     ACCCUCC.....AUUCGC.GGUGGGGUGCC.CCGGGUGACGACCAGGCC.
+Arthrobacter_auresce.1             ACCCUCC......UCCGC.GGUGGGGUGCC.CCGGGUGAAGACCUGGCC.
+Arthrobacter.2                     ACCCUCC.....UUUCGC.GGCGGGGUGCC.CCGGGUGAAGACCUGGCC.
+Arthrobacter_auresce.2             ACCCUCC.....AUUCGC.GGUGGGGUGCC.CCGGGUGACGACCCGGCC.
+Salinispora_tropica_.1             ACCCUCGUCGAGGUUCGC.GGUGGGGUGCC.CCGGGUGAUGACCGGGCC.
+Nocardioides.1                     ACCCUCC......UCCGC.GGCGGGGUGCC.CCGGGUGAGGACACGGCC.
+Saccharopolyspora_er.1             ACCCUCC.....AACCGC.GGUGGGGUGCC.CCGGGUGAGGACCUGGCC.
+S.coelicolor.1                     ACCCUCC.....GUCCGU.GGCGGGGUGCC.CCGGGUGAAGACCAGGUC.
+Streptomyces_avermit.1             ACCCUCG.....CGACGC.GGUGGGGUGCC.CCAGGUGACGACCGGACC.
+Streptomyces_avermit.2             ACCCUCC.....GUCCGU.GGCGGGGUGCC.CCGGGUGAAGACCAGGUC.
+M.magnetotacticum.1                ACCCUCC.....UCUCGC.GGCGGGGUGCC.CCGGGUGACGACCAGGCC.
+marine_metag.1                     ACCCUCC......ACCAC.GGUGGGGUGCU.CCGGGUGAAGACCAGGUU.
+marine_metag.2                     ACCCUCC.....GACCGC.GGUGGGGUGCU.CCGGGUGAAGACCAGGCC.
+#=GC SS_cons                       .<<<.<<............>>..>>>.>>>..........>>>>..<<<.
+#=GC RF                            ACCcucC.....aaccGc.GguggGGUGCC.CCgGGuGAaGaccaGGcc.
+
+C.glutamicum.1                     .UG.UA.CUC.AAAA.............GAAUGCA..GAG.AAGAGCGAU
+C.callunae.1                       .UG.UA.CUC.AAAA.............GAAUGCA..GAG.AAGAGCGAU
+Corynebacterium_effi.1             .UG.UA.CUC.AAAA.............GACUGCA..GAG.AAGAGCGAU
+Mycobacterium_vanbaa.1             AGU.AG.CCG.GCCA.............CGGCUAUAAGGC.AAGCGCGGG
+M.leprae.1                         .GA.GU.AGCCAGAA..........CCGGCUACGC..GGC.AAGCGCGAG
+Mycobacterium_smegma.1             .UG.CA.CCA.CC...............CGGUGCG..GGU.AAGAGCGCC
+Mycobacterium.1                    .CG.A.......GCA.................UCG..UGC.AAGUGGUGG
+Mycobacterium.2                    .CG.G.......CUU.................ACG..UGC.AAGUGGUGG
+Mycobacterium_gilvum.1             AGU.AG.CCG.AACA.............CGGCUAUAAGGC.AAGCGCGGG
+Mycobacterium_ulcera.1             .GA.GU.AGCCACAG..........UCGGCUACAC..GGC.AAGCGCGGG
+Mycobacterium_smegma.2             .GA.GU.GGUUGACGGAUUCCUCCGUCGGCCGCAA..GGC.AAGCGCGGG
+Mycobacterium.3                    .GA.GU.AGCCGUGA...........CGGCUACGC..GGC.AAGCGCGGG
+Mycobacterium_gilvum.2             .CG.C.......GGU.................GCG..UGC.AAGCGGUGG
+Mycobacterium_avium_.1             .GA.GU.AGCCACCA.......CAACCGGCUAUCC..GGC.AAGCGCGGG
+Mycobacterium_tuberc.1             .GA.GU.AGCCAUCG..........CCGGCUGCGC..GGC.AAGCGCGGG
+Nocardia_farcinica_I.1             .GU.AC.CG..AAGA..............CGGUGC..GGC.AAGUGCGGA
+Nocardia_farcinica_I.2             .GC.CG.UCC.GACC.............GGACG.C..GGC.AAGCGCGGA
+Rhodococcus_jostii_R.1             .UC.CU.GAUUCACA........CAACAGUCGGGU..GAC.AAGCGCGGG
+Rhodococcus_jostii_R.2             .GA.GG.UCCAUACC.............GGACC.C..GGC.AAGCGCGGA
+Frankia.1                          .CG.CG.GCG.AACC.............CGCCGUC..GGC.AAGUGCGGA
+Frankia_alni_ACN14a.1              .GC.AU.CCA.G................UGGAGGC..GGCAAAGCGCGGG
+Frankia_alni_ACN14a.2              .G..CG.GCA.ACCC.............CGCCGAC..GGC.AAGUGCCGA
+Kineococcus_radiotol.1             .GG.UG.CCG.ACG..............UGGCGCC..GGC.AAGCGCGGA
+Kineococcus_radiotol.2             .GG.A...CG.AAAA.............CG..UCC..GGC.AAGCGCGGA
+Brevibacterium_linen.1             .CG.CA.CCA.CG...............UGGUGCU..GGC.AAGAUUCGA
+Janibacter.1                       .GA.GC.GUC.GACC.............GGCGC.C..CGC.AAGCACGGC
+Janibacter.2                       .GG.CU.GCA.GCAA.............CGCAGUU..GGC.AAGCGCGGA
+Arthrobacter.1                     .G..GU.CCG.GAA..............CGGACCC..GGC.AAGCGCGGA
+Arthrobacter_auresce.1             .UGUUC.GCACGCAA.............GGCGACG..GGC.AAGCGCGAG
+Arthrobacter.2                     .UG.CCGGCC.AGUU.............GGCGGCA..GGC.AAGCGCGAA
+Arthrobacter_auresce.2             .G..GU.CCG.GAA..............UGGAUGC..GGC.AAGCGCGGA
+Salinispora_tropica_.1             .UG.GC.GCG.GCG..............CGCGUCG..GGC.AAGCGCGGA
+Nocardioides.1                     .GA.CU.GCG.AC...............CGCAGCC..GGC.AAGCGCGGA
+Saccharopolyspora_er.1             .G..GU.CGCGCAGG.............GCGACCC..GGC.AAGCGCGGG
+S.coelicolor.1                     .GU.GG.ACA.GCAA.............GGUCCAC..GGC.AAGCGCGGA
+Streptomyces_avermit.1             .GG.A....U.GACC.................UUC..GGU.AAGCGCGAG
+Streptomyces_avermit.2             .GU.AG.GCA.GCGA.............GGUCUAC..GGC.AAGCGCGGA
+M.magnetotacticum.1                .GC.AC.GCC.GACC.............GGCGGGC..GGC.AAGCGCGGG
+marine_metag.1                     .GA.UU.GCA.AAG..............UGCAAUC..AGC.AAGCGUGGG
+marine_metag.2                     .UG.A.......UAG.................UCA..GGC.AAGCGCGGG
+#=GC SS_cons                       .<<.<<.<<<..................>>>>>>>..>>>..........
+#=GC RF                            .gg.gg.ccc.aaaa.............gggcccc..ggC.AAGaGcgGa
+
+C.glutamicum.1                     UU
+C.callunae.1                       UU
+Corynebacterium_effi.1             UA
+Mycobacterium_vanbaa.1             UC
+M.leprae.1                         UC
+Mycobacterium_smegma.1             UC
+Mycobacterium.1                    AC
+Mycobacterium.2                    AC
+Mycobacterium_gilvum.1             UC
+Mycobacterium_ulcera.1             UC
+Mycobacterium_smegma.2             UC
+Mycobacterium.3                    UC
+Mycobacterium_gilvum.2             AC
+Mycobacterium_avium_.1             UC
+Mycobacterium_tuberc.1             UC
+Nocardia_farcinica_I.1             UU
+Nocardia_farcinica_I.2             CU
+Rhodococcus_jostii_R.1             UC
+Rhodococcus_jostii_R.2             CU
+Frankia.1                          CC
+Frankia_alni_ACN14a.1              CC
+Frankia_alni_ACN14a.2              CC
+Kineococcus_radiotol.1             CC
+Kineococcus_radiotol.2             UC
+Brevibacterium_linen.1             UC
+Janibacter.1                       AU
+Janibacter.2                       CU
+Arthrobacter.1                     UC
+Arthrobacter_auresce.1             GU
+Arthrobacter.2                     GA
+Arthrobacter_auresce.2             UC
+Salinispora_tropica_.1             CC
+Nocardioides.1                     CU
+Saccharopolyspora_er.1             CC
+S.coelicolor.1                     UC
+Streptomyces_avermit.1             GC
+Streptomyces_avermit.2             CC
+M.magnetotacticum.1                GA
+marine_metag.1                     UC
+marine_metag.2                     UC
+#=GC SS_cons                       ..
+#=GC RF                            uc
+//

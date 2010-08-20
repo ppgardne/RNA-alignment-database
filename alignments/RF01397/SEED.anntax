@@ -1,0 +1,83 @@
+# STOCKHOLM 1.0
+#=GF ID    isrO
+#=GF AC    RF01397
+#=GF DE    isrO Hfq binding RNA
+#=GF AU    Daub J, Gardner PP
+#=GF GA    35.0
+#=GF NC    27.1
+#=GF TC    41.8
+#=GF SE    Predicted; ClustalW; Infernal
+#=GF SS    Predicted; RNAalifold
+#=GF TP    Gene; sRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF RN    [1]
+#=GF RM    18725932
+#=GF RT    Deep sequencing analysis of small noncoding RNA and mRNA targets
+#=GF RT    of the global post-transcriptional regulator, Hfq.
+#=GF RA    Sittka A, Lucchini S, Papenfort K, Sharma CM, Rolle K, Binnewies
+#=GF RA    TT, Hinton JC, Vogel J;
+#=GF RL    PLoS Genet. 2008;4:e1000163.
+#=GF RN    [2]
+#=GF RM    18267966
+#=GF RT    Small RNAs encoded within genetic islands of Salmonella
+#=GF RT    typhimurium show host-induced expression and role in virulence.
+#=GF RA    Padalon-Brauch G, Hershberg R, Elgrably-Weiss M, Baruch K,
+#=GF RA    Rosenshine I, Margalit H, Altuvia S
+#=GF RL    Nucleic Acids Res. 2008;36:1913-1927.
+#=GF WK    http://en.wikipedia.org/wiki/Hfq_binding_sRNA
+#=GF SQ    6
+
+#=GS Klebsiella_pneumonia.1 AC    CP000647.1/3636004-3636189
+#=GS Salmonella_enterica_.1 AC    ABEJ01000004.1/222903-223103
+#=GS Salmonella_enterica_.2 AC    CP000026.1/3016000-3016200
+#=GS Salmonella_enterica_.3 AC    CP001113.1/3181914-3182114
+#=GS Salmonella_enterica_.4 AC    AE014613.1/3046397-3046597
+#=GS Salmonella_enterica_.5 AC    AE006468.1/3198380-3198580
+
+Klebsiella_pneumonia.1             GCGCGCGGUCUGC.GGCAGGCAGAAA...UUCAUAUUUGCG.CCACGCGG
+Salmonella_enterica_.1             AUGCCCAAUCCAUUGAC.GCCGGAAAGGGUCCGCGCGGAUGAUGAUGCCG
+Salmonella_enterica_.2             AUGCCCAAUCCAUUGAC.GCCGGAAAGGGGCCGCGCGGAUGAUGAUGCGC
+Salmonella_enterica_.3             AUGCCCAAUCCAUUGAC.GCCGGAAAGGGUCCGCGCGGAUGAUGAUGCCG
+Salmonella_enterica_.4             AUGCCCAAUCCAUUGAC.GCCGGAAAGGGUCCGUGUGGAUGAUGAUGCCG
+Salmonella_enterica_.5             AUGCCCAAUCCAUUGAC.GCCGGAAAGGGGCCGCGUGGAUGAUGAUGCCG
+#=GC SS_cons                       <<<<.<<.......<<<.<<<<<<<.<<<<<<<<<<<<<<<<<<.<<<<<
+#=GC RF                            augcccaAuccAuuGac.gccggaaAgGGcccgcGcgGacGaugAuGccG
+
+Klebsiella_pneumonia.1             C.......GCGGCGGCCUCUCCUCGCU......AUUGCGCGUUGCCGUUC
+Salmonella_enterica_.1             CGAAUAUCCGAUAUGCCAGCAUAAUAUCGACUCACGGCGCAAUGGCGCUC
+Salmonella_enterica_.2             CGAAUAUCCGAUAUGCCAGCAUAAUAUCGACUCACGGCAUAAUGGCGCUC
+Salmonella_enterica_.3             CGAAUAUCCGAUAUGCCAGCAUAAUAUCGACUCACGGCACAAUGGUGCUC
+Salmonella_enterica_.4             CGAAUAUCCGAUAUGCCAGCAUAAUAUCGAAUCACGGCACAAUAGCGCUC
+Salmonella_enterica_.5             CGAAUAUCCGAUAUGCCAGCAUAAUAUCGACUCACGGCACAAUGGCGCUC
+#=GC SS_cons                       .<<.....<<<<<<.........>>>>>>..>>.>>>>>>>.......>>
+#=GC RF                            cGaAuAuccGauaugccAgcAuAauauCgAauCACggCacaAuggcgcuC
+
+Klebsiella_pneumonia.1             ACAGAGCUGCCUCCAGGGCUUGUUUUGGUAAUGCCUUUCUCCCAUUUAUG
+Salmonella_enterica_.1             GUCUGCGUUCUGUCAGGGCCUGUUUUGGUAAUGCCUUUCUUUCUGUUAUG
+Salmonella_enterica_.2             GUCUGCGUUCUGUCAGGGCCUGUUUUGGUAAUGCCUUUCUUUCUGUUAUG
+Salmonella_enterica_.3             GUCUGCGUUCUGUCAGGGCCUGUUUUGGUAAUGCCUUUCUUUCUGUUAUG
+Salmonella_enterica_.4             GUCUGCGUUCUGUCAGGGCCUGUUUUGGUAAUGCCUUUCUUUCUGUUAUG
+Salmonella_enterica_.5             GUCUGCGUUCUGUCAGGGCCUGUUUUGGUAAUGCCUUUCUUUCUGUUAUG
+#=GC SS_cons                       >>>>>>>>.......>>>>>>.>>>>>>>...............<<<<.<
+#=GC RF                            guCugCguucugucAgggCCuguuuugguAAugccuuucuuucugucauG
+
+Klebsiella_pneumonia.1             GGCUACCCUAGUGGCCUGAGUACAUGACCCGGCGGGUUUGUGCCGGGUCA
+Salmonella_enterica_.1             CGCUACGCUGAUCGUCUGAGUAUAUGGCCUGGC..CAUGCUGCUGGGUCA
+Salmonella_enterica_.2             CGCUACGCUGAUCGUCUGAGUAUAUGGCCUGGC..CAUGCUGCCGGGUCA
+Salmonella_enterica_.3             CGCUACGCUGAUCGUCUGAGUAUAUGGCCUGGC..CAUGCUGCCGGGUCA
+Salmonella_enterica_.4             CGCUACGCUGAUCGUCUGAGUAUAUGGCCUGGC..CAUGCUGCCGGGUCA
+Salmonella_enterica_.5             CGCUACGCUGAUCGUCUGAGUAUAUGGCCUGGC..CAUGCUGCCGGGUCA
+#=GC SS_cons                       <<...>>>>>>>.>>>>>.>>>><<<<<<<<<<........>>>>>>>>>
+#=GC RF                            cGcuACgCugaucguCugAguauauGgcccgGc..cAugcugCcggguCa
+
+Klebsiella_pneumonia.1             UUUU
+Salmonella_enterica_.1             UUUU
+Salmonella_enterica_.2             UUUU
+Salmonella_enterica_.3             UUUU
+Salmonella_enterica_.4             UUUU
+Salmonella_enterica_.5             UUUU
+#=GC SS_cons                       >...
+#=GC RF                            uuuu
+//

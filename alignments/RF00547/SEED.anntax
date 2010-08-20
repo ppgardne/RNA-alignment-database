@@ -1,0 +1,190 @@
+# STOCKHOLM 1.0
+#=GF ID    IRES_TrkB
+#=GF AC    RF00547
+#=GF DE    TrkB IRES
+#=GF AU    Moxon SJ
+#=GF GA    40.0
+#=GF NC    36.5
+#=GF TC    42.7
+#=GF SE    PMID:15908588; INFERNAL
+#=GF SS    Predicted; RNAFOLD
+#=GF TP    Cis-reg; IRES;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0000243 SO:internal_ribosome_entry_site
+#=GF DR    GO:0043022 GO:ribosome binding
+#=GF RN    [1]
+#=GF RM    15908588
+#=GF RT    Internal initiation of translation of the TrkB mRNA is mediated by
+#=GF RT    multiple regions within the 5' leader.
+#=GF RA    Dobson T, Minic A, Nielsen K, Amiott E, Krushel L;
+#=GF RL    Nucleic Acids Res 2005;33:2929-2941.
+#=GF CC    This family represents the TrkB internal ribosome entry site
+#=GF CC    (IRES) which is present in the 5' leader sequence of the
+#=GF CC    mRNA. TrkB is a neurotrophin receptor which is essential for the
+#=GF CC    development and maintenance of the nervous system. The IRES
+#=GF CC    element allows cap-independent translation of TrkB which may be
+#=GF CC    needed for efficient translation in neuronal dendrites [1].
+#=GF WK    http://en.wikipedia.org/wiki/TrkB_IRES
+#=GF SQ    15
+
+#=GS L.africana.1           AC    AAGU02011300.1/5705-6041
+#=GS E.telfairi.1           AC    AAIY01406106.1/1417-1742
+#=GS C.porcellus.1          AC    AAKN02016624.1/72067-72414
+#=GS Macaca_fascicularis_.1 AC    AB066522.1/601-957
+#=GS H.sapiens.1            AC    AL390777.13/31208-31560
+#=GS H.sapiens.2            AC    U12140.1/1-351
+#=GS H.sapiens.3            AC    AF410902.1/3685-4037
+#=GS H.sapiens.4            AC    AF410900.1/132-482
+#=GS H.sapiens.5            AC    BC031835.1/57-409
+#=GS M.murinus.1            AC    ABDC01308569.1/339-680
+#=GS Otolemur_garnettii_s.1 AC    AAQR01477793.1/3366-3705
+#=GS T.belangeri.1          AC    AAPY01539916.1/1339-1689
+#=GS C.lupus.1              AC    AACN010092991.1/2361-2691
+#=GS B.taurus.1             AC    AAFC03008207.1/17606-17938
+#=GS E.caballus.1           AC    AAWR02015439.1/103665-103996
+
+L.africana.1                       UCCCCGUGCGCAUUUAACCAGGAGCCUGCGCGGGAGCCAGUCCCGG.GAG
+E.telfairi.1                       UCCCGGAGCGCCUUUUGCCAGGAGCCUGCACCCCAGUGAACCCCGGAGAG
+C.porcellus.1                      AUCCCGCUAGC......CA.GGAGUCUGCGCCCUAGAGCGUCCC...CAG
+Macaca_fascicularis_.1             CCCCCAUUCGCGUCUAAUAAGGAGCCUGCACCCCAGAGAGUCCCGG.GAG
+H.sapiens.1                        CCCCCAUUCGCAUCUAACAAGGAAUCUGCGCCCCAGAGAGUCCCGG.GAG
+H.sapiens.2                        CCCCCAUUCGCAUCUAACAAGGAAUCUGCGCCCCAGAGAGUCCCGG...A
+H.sapiens.3                        CCCCCAUUCGCAUCUAACAAGGAAUCUGCGCCCCAGAGAGUCCCGG.GAG
+H.sapiens.4                        CCCCCAUUCGCAUCUAACAAGGAAUCUGCGCCCCAGAGAGUCCCGG...A
+H.sapiens.5                        CCCCCAUUCGCAUCUAACAAGGAAUCUGCGCCCCAGAGAGUCCCGG.GAG
+M.murinus.1                        UCCCUGUGCGCCUCUAGCCAGAAGCCUGCGCCUCGGAGAGUCCCGG....
+Otolemur_garnettii_s.1             UCCCUGUGCGCUUGUAGUAAGGAGCCUGUGCCCCAGAGAGUCCCGG.GUG
+T.belangeri.1                      UCCCCGUGCGCUUCUAGCAAGCAGCCUGCGCCCCAGAGAGUACC.G.GAG
+C.lupus.1                          UCCCAGUGCGCGUCUAGCAGGAG.CCUGCGUCCCCGGGG.UGCCGG.CAG
+B.taurus.1                         UCGCAGCGCGCGUCUAGCCAGAAGCCUGAGCCCCAGAGCAUCCCGG.GAG
+E.caballus.1                       UCCCAGUGUACGUCUAGCAAGGAGGCUGCGCCCCAGAGAGUCCGGG.GAG
+#=GC SS_cons                       <<<<<<<<<<..........<<<.<<<<.....>>>>...>>>.<<.<<<
+#=GC RF                            cCCCaGcgcGCaUcUAgcaAGgaGuCuGcGcccCaGaGAgucCcGG.GaG
+
+L.africana.1                       CGCCGCCGGCCGGUGCCCACCGCGCCAGGCCAUGCAGCGGCGGCCGCGGC
+E.telfairi.1                       CGCCGCCGGCGGGUGCUCCCAGAGCCAGGCCAUGCAGCGGUGGCCACGAC
+C.porcellus.1                      CGCCGAGGGCCGGUGCCCGGCGUGCUA.ACCAUGCGUCUGCGGCCAAGGC
+Macaca_fascicularis_.1             CGCCGCCGGUCGGUGCCCGGCGCCCCGGGCCAUGCAGCAACGGCCGCGGC
+H.sapiens.1                        CGCCGCCGGUCGGUGCCCGGCGCGCCGGGCCAUGCAGCGACGGCCGCCGC
+H.sapiens.2                        CGCCGCCGGUCGGUGCCCGGCGCGCCGGGCCAUGCAGCGACGGCCGCCGC
+H.sapiens.3                        CGCCGCCGGUCGGUGCCCGGCGCGCCGGGCCAUGCAGCGACGGCCGCCGC
+H.sapiens.4                        CGCCGCCGGUCGGUGCCCGGCGCGCCGGGCCAUGCAGCGACGGCCGCCGC
+H.sapiens.5                        CGCCGCCGGUCGGUGCCCGGCGCGCCGGGCCAUGCAGCGACGGCCGCCGC
+M.murinus.1                        .......GCAGCG..CCCGGCGCGCCGGGCCAUGCAGCGACGGCCGCGGC
+Otolemur_garnettii_s.1             .......GC.....ACCCGGCGCUCCAGGCCAUGCAGCCACGGCCACCAC
+T.belangeri.1                      CGCCGCGGGUCGGUCCCCGGCGCACCGGGCCAUGCAGUGGAGGCCGCGGC
+C.lupus.1                          CGCCGCCGGCCGGUGCUGGGUGCGCCGGGCCAUGCAGCGGCGGCCGCGGC
+B.taurus.1                         CGCCGCGGGCCGGUGCUCGGCUCGUUGGGCCAUGCAGCGGCGGCCGCCGC
+E.caballus.1                       CGCCGCCGGCUGGUGCCCGGCGCGCCAGGCCAUGCAACGGCGGCAGCGGC
+#=GC SS_cons                       .<<<...<.<<<<..<<<<<<<.<<<<.<<......>>..>>>>>>>>>.
+#=GC RF                            cGCCGccGgucgGUgCcCcGcGcGCCgGGCCAUGCAGCggcGGCCgCgGC
+
+L.africana.1                       GGAGAUCUGAGCGGCGGUAGCGCC.CCCUGUGAGGUUGCCCUCAAUGCCC
+E.telfairi.1                       AGAGCUUGGAGCGGCGGUAGCGCC.UCCUGUGUGGCGGUCCACGAUGCCC
+C.porcellus.1                      CGAGCUCCGAGCGGCGUUAGCGCC.CUCUGCGAAGCGCCCUGCGAUGCCC
+Macaca_fascicularis_.1             GGAGCUCCGAGCGGCGGUAGCACCCCCCUGUAAAGCGGUUCACGAUGCCG
+H.sapiens.1                        GGAGCUCCGAGCAGCGGUAGCGCCCCCCUGUAAAGCGGUUCGCUAUGCCG
+H.sapiens.2                        GGAGCUCCGAGCAGCGGUAGCGCCCCCCUGUAAAGCGGUUCGCUAUGCCG
+H.sapiens.3                        GGAGCUCCGAGCAGCGGUAGCGCCCCCCUGUAAAGCGGUUCGCUAUGCCG
+H.sapiens.4                        GGAGCUCCGAGCAGCGGUAGCGCCCCCCUGUAAAGCGGUUCGCUAUGCCG
+H.sapiens.5                        GGAGCUCCGAGCAGCGGUAGCGCCCCCCUGUAAAGCGGUUCGCUAUGCCG
+M.murinus.1                        GGAGCUCGCAGCGGCGGUAGCGCC.CCCUGUGAGGCGGCCCGCGAUGCCC
+Otolemur_garnettii_s.1             GUAGCUCGCAGCGGCGGUAGCGCC.CCCUGUGAAGCGGCCCGCGAUGCCC
+T.belangeri.1                      GGAGCUCCGAGCGGCGGUAGCGCC.CCCUGUGAAUUGGCCCGCGAUGCCC
+C.lupus.1                          GGAGCUCCGAGCGGCGGUAGCGCC.CCCUGUGAGGCGACCAGAGAUGCCC
+B.taurus.1                         GGAGCUGCGAGCGGCGGUAGCGCC.CCCUGUGAGAAGGCCCGAGAUGCCC
+E.caballus.1                       GGAGCUCAGAACGGCGGUAGCGCC.CCCUGUGAGGCGGCCAGAGAUGCCC
+#=GC SS_cons                       >>....>>>>.>.<<<<<.<.<<<.<...<<<.<<<<...>>>>.>>>.>
+#=GC RF                            gGAGcUCcgaGCGgCgGuAGCGCc.gcCUGcgAagcggcccgcuAugCCc
+
+L.africana.1                       CAGGCACUGUGAACCGUGCCGUCAGCCGGGACACACUCAGCCCCGGAGAC
+E.telfairi.1                       CAGCCACUGUGAACAGUGCC.CUACCCAG....CCCUGGA.......GAC
+C.porcellus.1                      CAGCCACUGUGAACCUUUCUGCCUGCCCAGAUACACUCAA..CCCAGGAC
+Macaca_fascicularis_.1             GGGCCACUGUGAACCCUGCCGCCUGCCGGAAUACGCUCCG..CUCCGGAC
+H.sapiens.1                        GGGCCACUGUGAACCCUGCCGCCUGCCGGAACACUCUUCG..CUCCGGAC
+H.sapiens.2                        GGACCACUGUGAACCCUGCCGCCUGCCGGAACACUCUUCG..CUCCGGAC
+H.sapiens.3                        GGGCCACUGUGAACCCUGCCGCCUGCCGGAACACUCUUCG..CUCCGGAC
+H.sapiens.4                        GGACCACUGUGAACCCUGCCGCCUGCCGGAACACUCUUCG..CUCCGGAC
+H.sapiens.5                        GGGCCACUGUGAACCCUGCCGCCUGCCGGAACACUCUUCG..CUCCGGAC
+M.murinus.1                        CGGCCGCUGUGAACUGUGCAGCCCGCCCGAACGCGCGCCG..C.CCGGGC
+Otolemur_garnettii_s.1             CUACCGCUGUGAACUCUGCAGCCCGCCCGAACACUCUCCG..CCCGGGAC
+T.belangeri.1                      CGGCCACUGUGAACGGUGCUGACGGCGGGAAUACGCUGAA..ACCAGGAC
+C.lupus.1                          CGGCCACUGUGAACCGCGCCGCCCGCCAGGACACGCUCAG..CC.....C
+B.taurus.1                         CUGCCACUGUGAACGGUGCCGCC....CGACAG..............GAC
+E.caballus.1                       CGGCCGCUGUAAACGGUGCCGCCCGCCAGGACACGCUCAG..C...CCU.
+#=GC SS_cons                       .>>>>>>>>>...<<<<<<.<<.<<<.<<....<<<<<.<..<<<<...<
+#=GC RF                            cgGCCaCuGuGAACgcuGCcGCccGCccgaAcACaCucag..ccccggAC
+
+L.africana.1                       G........CU..........CGGCUCUGCA..CGCCG..GCGACCA...
+E.telfairi.1                       G........CU..........UGCCUCUGCU..UGCCCGUGUGACCA...
+C.porcellus.1                      GAAAUCAGCCUUGGACACCCUGCACUCUGCGCACGCAC..GCAACAA...
+Macaca_fascicularis_.1             CAGCUCAGCCUGUGAUACGCUGGACUCCGCG..CGCCC..GCAGCAAGCA
+H.sapiens.1                        CAGCUCAGCCUCUGAUAAGCUGGACUCGGCA..CGCCC..GCAACAA...
+H.sapiens.2                        CAGCUCAGCCUCUGAUAAGCUGGACUCGGCA..CGCCC..GCAACAA...
+H.sapiens.3                        CAGCUCAGCCUCUGAUAAGCUGGACUCGGCA..CGCCC..GCAACAA...
+H.sapiens.4                        CAGCUCAGCCUCUGAUAAGCUGGACUCGGCA..CGCCC..GCAACAA...
+H.sapiens.5                        CAGCUCAGCCUCUGAUAAGCUGGACUCGGCA..CGCCC..GCAACAA...
+M.murinus.1                        CGGCUCAGCCUUGGGCACUCUGGACUGCGAG..CGGCC..GCGACGA...
+Otolemur_garnettii_s.1             CGGCUGUACUUCGGACACGCUCGACUCUGAG..CGCCA..GCGACAA...
+T.belangeri.1                      AAGCUGAGCCUCGGACACAGUCGACUCAGCG..CGCCC..GCAGCAA...
+C.lupus.1                          GGGA...........CACGCUCGGCUCUGCG..CGCCC..GCGACAG...
+B.taurus.1                         ACGCUCAGCCCCUGACACGCUCGGCUCUGCG..CGCCU..GAGACCA...
+E.caballus.1                       ....GGACACGCUCU........GCUCUGCG..CGCCC..GCGACGA...
+#=GC SS_cons                       <<<<<<<<...>>>>...>>>>>..<<<<.....<<..............
+#=GC RF                            gaGcucagccucugacAcgCucGaCuCgGcg..cGCcc..GcgACaA...
+
+L.africana.1                       .GCACCGACUAGUCCGAAG..GACCGGCGA...GCGCGGGGAAGGCCGCU
+E.telfairi.1                       .GCACCAAGGAA.UCCAGG..GACCCAGGA...GCGCAGCGAAGGCCGCC
+C.porcellus.1                      .ACAGAGAAGAG.UCCAGUCCGGAGGGCAGAAAGCG.CAGGAGGGCCUCC
+Macaca_fascicularis_.1             AGCACCGAGGAG.UCAAGA..GGGCCGCAA...GCGCGGGGAAGGCCUCC
+H.sapiens.1                        .GCACCGAGGAG.UUAAGA..GAGCCGCAA...GCGCAGGGAAGGCCUCC
+H.sapiens.2                        .GCACCGAGGAG.UUAAGA..GAGCCGCAA...GCGCAGGGAAGGCCUCC
+H.sapiens.3                        .GCACCGAGGAG.UUAAGA..GAGCCGCAA...GCGCAGGGAAGGCCUCC
+H.sapiens.4                        .GCACCGAGGAG.UUAAGA..GAGCCGCAA...GCGCAGGGAAGGCCUCC
+H.sapiens.5                        .GCACCGAGGAG.UUAAGA..GAGCCGCAA...GCGCAGGGAAGGCCUCC
+M.murinus.1                        .GCAGCCAGGAG.UCGAUA..GAGCUGCAG...GCGCGGGGAAGGCCUGC
+Otolemur_garnettii_s.1             .GCGACGAGGAG.UCCAGA..GAGCUGCAA...GCUCGGAGAAGGCCUCC
+T.belangeri.1                      .GCUCAGAGGAC.UCGGGA..GAGCGGCGA...GCGCGGGGAAGGCCUCC
+C.lupus.1                          .GCACCGG..GG.C.GAGG..GAGCGACCA...GCGCGGCGCAGGCCGCC
+B.taurus.1                         .GCACCGAGAG....GAGA..CAGCGGUGA...GCGCGGCAAAGGCCACU
+E.caballus.1                       .GCACCGA...G.UAGAGA..GAGCGGCGA...GCGCUGUGAAGGCUACC
+#=GC SS_cons                       .>>.>>>>>>>>.>.>>>>..>..>>>>>....>>>>>>>>..>>>>>>>
+#=GC RF                            .GCACcGagggg.ccgaGu..GAgcgGCgA...GCGCagcGAAGGCCuCC
+
+L.africana.1                       CGGCGCGGGCAGAGG...AAGCCG.ACCGGUGCAGC...GCGAGGACACG
+E.telfairi.1                       CAACGCGUGCAGAGG...AGGCCG.ACCCGCACAGC...GCAGGG.CACA
+C.porcellus.1                      CCGCGCCGGCAGGAG...AAGCCG.GCGGGUGCAAG...GAGGCGACACU
+Macaca_fascicularis_.1             CCGCACAGGUCGGGG...AAACCG.GCCGGUGCAGC...GUGGGGACACU
+H.sapiens.1                        CCGCACGGGUGGGGG...AAAGCG.GCCGGUGCAGC...GCGGGGACAGG
+H.sapiens.2                        CCGCACGGGUGGGGG...AAAGCG.GCCGGUGCAGC...GCGGGGACAGG
+H.sapiens.3                        CCGCACGGGUGGGGG...AAAGCG.GCCGGUGCAGC...GCGGGGACAGG
+H.sapiens.4                        CCGCACGGGUGGGGG...AAAGCG.GCCGGUGCAGC...GCGGGGACAGG
+H.sapiens.5                        CGGCACGGGUGGGGG...AAAGCG.GCCGGUGCAGC...GCGGGGACAGG
+M.murinus.1                        CCGCACAGGUGGGGG...AAGCCG.GCCGGUGCAGCAGCGCGGGGACAGA
+Otolemur_garnettii_s.1             CCGCACAGGUGGGGG...AAGCCG.GCCGGUGCAGC...GCGGGGACAGA
+T.belangeri.1                      CCGCACCGGCUGGGG...AAGCCG.GCCGGUGCCUC...GCGGGGACAGG
+C.lupus.1                          CAGCGGGGGCGGGGG...AGGCCG.GCCGGUGCGGC...GCGGGGCCACC
+B.taurus.1                         CGGCGCGGGCAGGGG...AGACCG.GCCGGGACAGC...UCAGCGACACG
+E.caballus.1                       UAGCC....CUGGGAGAGGAGGCCAGCCGGUGCAGCGCAGGGACACUACU
+#=GC SS_cons                       >....>>>>>>>>>>.....<<<<.<<<<<<<<<<<....<<<<......
+#=GC RF                            CaGCaCgcgCuGGGg...AAgcCg.GCCgGuGcaGC...GcGggGAcAca
+
+L.africana.1                       CACUUGG......GCUGACUCGGGCUGGCACUG
+E.telfairi.1                       UACUCAG......GCUGACUGGAGCUGGCACUG
+C.porcellus.1                      CAUCCGG......GCUGGCACUGGCGACUAGGG
+Macaca_fascicularis_.1             CACUCGG......GCUGGCACUGGCUGCUAGGG
+H.sapiens.1                        CACUCGG......GCUGGCACUGGCUGCUAGGG
+H.sapiens.2                        CACUCGG......GCUGGCACUGGCUGCUAGGG
+H.sapiens.3                        CACUCGG......GCUGGCACUGGCUGCUAGGG
+H.sapiens.4                        CACUCGG......GCUGGCACUGGCUGCUAGGG
+H.sapiens.5                        CACUCGG......GCUGGCACUGGCUGCUAGGG
+M.murinus.1                        CACUCGG......GCUGGCGCUGGCGGCGAGGG
+Otolemur_garnettii_s.1             CACUCGG......GCUGGCGCUGGCGGCUAGGC
+T.belangeri.1                      CGCUCGA......GCUGGCACUGGCGGCCAGGG
+C.lupus.1                          UACUCGC......UCUGACUCCGGCUGGCACUG
+B.taurus.1                         CACUCAG......GCUGACUCGGGCUGGCACUG
+E.caballus.1                       CAGUCUGACUCCGGCUGGCACUG..........
+#=GC SS_cons                       ..>>>>.......>>>.>>>>>>>>>>>>....
+#=GC RF                            cAccCgg......GCuGgCaCcGGCcGgcAggG
+//

@@ -1,0 +1,74 @@
+# STOCKHOLM 1.0
+#=GF ID    lin-4
+#=GF AC    RF00052
+#=GF DE    lin-4 microRNA precursor
+#=GF AU    Griffiths-Jones SR
+#=GF GA    33.0
+#=GF NC    31.6
+#=GF TC    36.5
+#=GF SE    Griffiths-Jones SR
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000303
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF RN    [1]
+#=GF RM    11533718
+#=GF RT    Control of developmental timing in animals.
+#=GF RA    Rougvie AE;
+#=GF RL    Nat Rev Genet 2001;2:690-701.
+#=GF RN    [2]
+#=GF RM    11779458
+#=GF RT    microRNAs: tiny regulators with great potential.
+#=GF RA    Ambros V;
+#=GF RL    Cell 2001;107:823-826.
+#=GF CC    This family represents the microRNA (miRNA) lin-4
+#=GF CC    (MIPF:MIPF0000303). lin-4 was identified from a study of
+#=GF CC    developmental timing in C. elegans [1], and was later shown to be
+#=GF CC    part of a much larger class of non-coding RNAs termed miRNAs [2].
+#=GF CC    miRNAs are transcribed as ~70nt precursors (modelled here) and
+#=GF CC    subsequently processed by the Dicer enzyme to give a ~22nt
+#=GF CC    product.  The extents of the hairpin precursors are not generally
+#=GF CC    known and are estimated based on hairpin prediction.  The
+#=GF CC    products are thought to have regulatory roles through
+#=GF CC    complementarity to mRNA.  The involvement of Dicer in miRNA
+#=GF CC    processing suggests a relationship with the phenomenon of RNA
+#=GF CC    interference.
+#=GF WK    http://en.wikipedia.org/wiki/lin-4_microRNA_precursor
+#=GF SQ    9
+
+#=GS D.melanogaster.1 AC    AC006590.11/38290-38358
+#=GS M.musculus.1     AC    AC122451.3/1935-2004
+#=GS H.sapiens.1      AC    AC018755.3/120411-120479
+#=GS H.sapiens.2      AC    AP001359.4/67724-67794
+#=GS H.sapiens.3      AC    AP000962.2/168508-168577
+#=GS C.remanei.1      AC    U01837.1/538-607
+#=GS C.remanei.2      AC    U01838.1/544-613
+#=GS C.elegans.1      AC    U01830.1/508-577
+#=GS C.briggsae.1     AC    U01829.1/524-593
+
+D.melanogaster.1             GCUGAUUCCCUGAGACCCU..AACUUGUGACUUUU.AAUACCAGUUUCAC
+M.musculus.1                 GCCUAGUCCCUGAGACCCU..AACUUGUGAGGUAU.UUUAGUAACAUCAC
+H.sapiens.1                  UCUAGGUCCCUGAGACCCUUUAACCUGUGAGG....ACAUCCAGGGUCAC
+H.sapiens.2                  UCUCAGUCCCUGAGACCCU..AACUUGUGAUGUUUACCGUUUAAAUCCAC
+H.sapiens.3                  UCCUAGUCCCUGAGACCCU..AACUUGUGAGGUAU.UUUAGUAACAUCAC
+C.remanei.1                  GCCUGCUCCCUGAGACCUC..AAG.UGUGAGCGCACUGUUGAUGCUUCAC
+C.remanei.2                  GCCUGCUCCCUGAGACCUC..AAG.UGUGAGCGUACUGUAGAUGCUUCAC
+C.elegans.1                  GCCUGUUCCCUGAGACCUC..AAG.UGUGAGUGUACUAUUGAUGCUUCAC
+C.briggsae.1                 GCCUGUUCCCUGAGACCUC..AAG.UGUGAGCGUUCUGAACAUGCUUCAC
+#=GC SS_cons                 .<<<<..<<<.<<<<.<<<...<<<<<<<<................>>>>
+
+D.melanogaster.1             AAGUUUUGAUCUCC.GGUA.UUGG
+M.musculus.1                 AAGUCAGGUUCUU.GGGACCUAGG
+H.sapiens.1                  AGGUGAGGUUCUU.GGGAGCCUGG
+H.sapiens.2                  GGGUUAGGCUCUU.GGGAGCUGCG
+H.sapiens.3                  AAGUCAGGCUCUU.GGGACCUAGG
+C.remanei.1                  GCCU.GGGCUCUCUGGGUACCAGG
+C.remanei.2                  ACCU.GGGCUCUCUGGGUACCAGG
+C.elegans.1                  ACCU.GGGCUCUCCGGGUACCAGG
+C.briggsae.1                 GCCU.GGGCUCUCCGGGUACCAGG
+#=GC SS_cons                 >>>>.>>>.>>>>.>>>...>>>>
+//

@@ -1,0 +1,54 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-498
+#=GF AC    RF00958
+#=GF DE    microRNA mir-498
+#=GF AU    Wilkinson A
+#=GF GA    35.0
+#=GF NC    31.5
+#=GF TC    36.5
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  -g  CM SEQDB
+#=GF DR    MIPF; MIPF0000463
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    6
+
+#=GS L.africana.1  AC    AAGU02511202.1/2831-2948
+#=GS O.princeps.1  AC    AAYZ01246662.1/215-336
+#=GS M.mulatta.1   AC    AANU01181661.1/3192-3315
+#=GS H.sapiens.1   AC    AADB02020212.1/391438-391561
+#=GS M.murinus.1   AC    ABDC01595467.1/983-1102
+#=GS T.belangeri.1 AC    AAPY01017646.1/247-369
+
+L.africana.1              AAUCCUCUGAGGGACA...AAACUCCAGCUGUGGUUUCAAGCU.GGGGGU
+O.princeps.1              GAGAGGCAUCGGG.AGUC.CAGCUCGGUGUGUGGUUUCAAGCUGGGGGGU
+M.mulatta.1               AAUCCUCCUUGGGAAGUG.AAGCUCAGGCUGUGAUUUCAAGCCAGGGGGC
+H.sapiens.1               AACCCUCCUUGGGAAGUG.AAGCUCAGGCUGUGAUUUCAAGCCAGGGGGC
+M.murinus.1               CCGUCUUUCCGGAGUG...CAGCUCAGGCUGUGAUUUCAAGCUCGGGGGU
+T.belangeri.1             CGGCGGCCUCGUGCAGCACAAGCUCAGGCUGUGGUUUCAAGCUGGAGGGU
+#=GC SS_cons              .....<<<<<<<<...<<....<<<<<<<<<<<<<<<<<<<<<.<<<<<.
+#=GC RF                   AAuccuCcuugGgAAauc.aAgCuCaggcuGuGauuuCaaGCcagGggGu
+
+L.africana.1              GCUUUCUGUGUUUAAGAAAGGAAAGGACUCCCAUUGCUUGAACUUCACAA
+O.princeps.1              GUUUUUA.UGACCGAGCUGAGAAAGCACCCC.AAAGCUUGAUACUCACAC
+M.mulatta.1               GUUUUUC.UGUGACUGGAUGAAAAGCACCUCCGGGGCUUGAAGCUCACAG
+H.sapiens.1               GUUUUUC.UAUAACUGGAUGAAAAGCACCUCCAGAGCUUGAAGCUCACAG
+M.murinus.1               GCUUUCUGUAACUCUG...AAAAAGGACCUCCAAGCCUUGAACAUCACAA
+T.belangeri.1             GCUUUCG.GGACUUCGGU.GGGAAGCACCG.CCAGGCUUGACCCACACAG
+#=GC SS_cons              <<<<<<<............>>>>>>>.>>>>>.>.>>>>>>>>.>>>>>>
+#=GC RF                   gcuuucc.UGaaaaaGaAaggaaagcACccCcAgaGCuuGaaauuCaCag
+
+L.africana.1              UUGGAGACAAACCGUC....GAAGAA
+O.princeps.1              ACUGAGACACAGCAUCCAAAGUCCUG
+M.mulatta.1               UUUGAGAGCAAUCAUCUAAGGAAGUU
+H.sapiens.1               UUUGAGAGCAAUCGUCUAAGGAAGUU
+M.murinus.1               UCUGAGGCAAACCAUCUAGAUUUAAA
+T.belangeri.1             CUUGGGACCAGUCAUCCGGGACUGCC
+#=GC SS_cons              >>>>>>..>>....>>>>>>>>....
+#=GC RF                   ccuGaGAcgaAuCauCcaagGaAaua
+//

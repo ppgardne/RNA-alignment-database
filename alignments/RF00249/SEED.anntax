@@ -1,0 +1,77 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-46
+#=GF AC    RF00249
+#=GF DE    mir-46/mir-47/mir-281 microRNA precursor family
+#=GF AU    Griffiths-Jones SR
+#=GF GA    40.0
+#=GF NC    0.0
+#=GF TC    45.1
+#=GF SE    Griffiths-Jones SR
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    MIR; MI0000017
+#=GF DR    MIR; MI0000018
+#=GF DR    MIR; MI0000366
+#=GF DR    MIR; MI0000370
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF RN    [1]
+#=GF RM    11679671
+#=GF RT    An abundant class of tiny RNAs with probable regulatory roles in
+#=GF RT    Caenorhabditis elegans.
+#=GF RA    Lau NC, Lim LP, Weinstein EG, Bartel DP;
+#=GF RL    Science 2001;294:858-862.
+#=GF RN    [2]
+#=GF RM    12844358
+#=GF RT    Computational identification of Drosophila microRNA genes.
+#=GF RA    Lai EC, Tomancak P, Williams RW, Rubin GM;
+#=GF RL    Genome Biol 2003;4:R42.
+#=GF RN    [3]
+#=GF RM    12919683
+#=GF RT    The small RNA profile during Drosophila melanogaster development.
+#=GF RA    Aravin AA, Lagos-Quintana M, Yalcin A, Zavolan M, Marks D, Snyder B,
+#=GF RA    Gaasterland T, Meyer J, Tuschl T;
+#=GF RL    Dev Cell 2003;5:337-350.
+#=GF CC    miR-46 (MIR:MI0000017) and miR-47 (MIR:MI0000018) are expressed
+#=GF CC    in C. elegans from related hairpin precursor sequences [1].  The
+#=GF CC    predicted hairpin precursor sequences for Drosophila miR-281
+#=GF CC    (MIR:MI0000366, MIR:MI0000370) [2,3] are also related and so are
+#=GF CC    also present in this family.  The hairpin precursors (represented
+#=GF CC    here) are predicted based on base pairing and cross-species
+#=GF CC    conservation -- their extents are not known.  In this case the
+#=GF CC    mature sequences are expressed from the 3' arms of the hairpin
+#=GF CC    precursors.
+#=GF WK    http://en.wikipedia.org/wiki/mir-46/mir-47/mir-281_microRNA_precursor_family
+#=GF SQ    7
+
+#=GS C.brenneri.1 AC    ABEG01013767.1/31746-31821
+#=GS C.elegans.1  AC    Z69663.1/519-592
+#=GS C.remanei.1  AC    AAGD02001364.1/44939-45012
+#=GS C.briggsae.1 AC    CAAC02000548.1/1087471-1087541
+#=GS C.remanei.2  AC    AAGD02008041.1/22073-22144
+#=GS C.elegans.2  AC    Z82094.1/4737-4814
+#=GS C.briggsae.2 AC    CAAC02000474.1/2327234-2327305
+
+C.brenneri.1             AGCUGAAGAGAGCCGUCUAUUGACAGUUCGUCUC..UGUUCAGUCAGGUA
+C.elegans.1              AACUGAAGAGAGCAGUCUAUUGACAGUCGGUUAC...UCGAAAUCUUU.A
+C.remanei.1              AGCUGAAGAGAGCCGUCUAUUGACAGUUCGUUUC....UAUACUUAUGUA
+C.briggsae.1             AGCUGAAGAGAGCCGUCUAUUGACAGUUCGCUUG.......UUUCAUGUG
+C.remanei.2              GACUGAAGAGAGCAUUCUGUUGACAGUUCGAUUC......CGAACUCCUA
+C.elegans.2              AGCUGAAGAGAGCCGUCUAUUGACAGUUCAAGACCACGAGUCGUUGUGUG
+C.briggsae.2             GACUGAAGGGAGCUUUCUUUUGACAGUUCGAUUU......CGAACUCUUA
+#=GC SS_cons             ..<<<<<<<<<<<..<<<<<.<<<<<<......................>
+#=GC RF                  AaCuGaaGaGaGCaGuCuauUGaCaGcugaauAccAcuaGaaaUuuUuug
+
+C.brenneri.1             CUGUCAUGGAGUCGCUCUCUUCAGAUGA
+C.elegans.1              CUGUCAUGGAGGCGCUCUCUUCAGAUGA
+C.remanei.1              CUGUCAUGGAGUCGCUCUCUUCAGAUGA
+C.briggsae.1             CUGUCAUGGAGUCGCUCUCUUCAGAUGA
+C.remanei.2              CUGUCAUGGAGGCGCUCUCUUCAGGUGA
+C.elegans.2              CUGUCAUGGAGUCGCUCUCUUCAGAUGA
+C.briggsae.2             CUGUCAUGGAGGCGCUCUCUUCAGGUGA
+#=GC SS_cons             >>>>>>>>>>...>>>>>>>>>>>....
+#=GC RF                  CuGuCaugGaGucGCuCuCuuCaGAUGA
+//

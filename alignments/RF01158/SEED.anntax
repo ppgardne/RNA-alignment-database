@@ -1,0 +1,39 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORD108
+#=GF AC    RF01158
+#=GF DE    Small nucleolar RNA SNORD108
+#=GF AU    Wilkinson A
+#=GF GA    50.0
+#=GF NC    21.8
+#=GF TC    57.0
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    snorna; HBII-437
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF WK    http://en.wikipedia.org/wiki/SnoRNA
+#=GF SQ    4
+
+#=GS M.mulatta.1  AC    AANU01099487.1/56160-56230
+#=GS H.sapiens.1  AC    AY055807.1/1-71
+#=GS F.catus.1    AC    AANG01133945.1/1523-1593
+#=GS E.caballus.1 AC    AAWR02000803.1/234424-234495
+
+M.mulatta.1              GCUUAAUGAUGAGAAUCAUUAUUUCUUAAAUUGGAUGACACUUUCCAUUC
+H.sapiens.1              GCUUAAUGAUGAGAAUCAUUAUUUCUUGAAUUGGAUGACACUUUCCAUUC
+F.catus.1                GCUUUAUGGUCAGACUCCUUGUUUCUUGACUCUGAUGAUAGUGUUCAUUC
+E.caballus.1             GCUUUAUGAUCAGACUCAUUGUUUCUUGAGCCUAAUGACAGCUUUCAUUC
+#=GC SS_cons             <.<<..............................................
+#=GC RF                  GCuuaAUGAUcAGAaUCAUUgUUUCUUGAauuuGAUGAcAguuUuCAUUC
+
+M.mulatta.1              CUGCAAAGAGAG.CCUGGGGUC
+H.sapiens.1              CUGCAAAGGGAG.CGUGAGGGC
+F.catus.1                CUACAAAGGGAU.UCUCAGGUU
+E.caballus.1             UUGCAAAGGGAAAUCUGAGGUC
+#=GC SS_cons             ..................>>.>
+#=GC RF                  cUGCAAAGGGAa.ucUgAgguC
+//

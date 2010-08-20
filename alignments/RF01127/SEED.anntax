@@ -1,0 +1,36 @@
+# STOCKHOLM 1.0
+#=GF ID    sR42
+#=GF AC    RF01127
+#=GF DE    Small nucleolar RNA sR42
+#=GF AU    Wilkinson A
+#=GF GA    60.0
+#=GF NC    11.9
+#=GF TC    82.9
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    URL; http://lowelab.ucsc.edu/snoRNAdb/
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF WK    http://en.wikipedia.org/wiki/SnoRNA
+#=GF SQ    3
+
+#=GS P.abyssi.1             AC    AJ248284.1/107786-107848
+#=GS Pyrococcus_furiosus_.1 AC    AE009950.1/1747630-1747694
+#=GS Pyrococcus_horikoshi.1 AC    BA000001.2/1615214-1615276
+
+P.abyssi.1                         UAUGGUGAUGAUCUUCACGGUACCCUGAG..AGACCCUCGAUGAUGAGCC
+Pyrococcus_furiosus_.1             CUUGAUGAUGAACUUCACGGUACCCUGAGUUCUAAAAACGAUGAUGAGCC
+Pyrococcus_horikoshi.1             UGUGAUGAUGAUCUUCACGGUACCCUGAG..AGGCGCUCGAUGAUGAGCC
+#=GC SS_cons                       ..................................................
+#=GC RF                            YDUGRUGAUGAWCUUCACGGUACCCUGAGuuMKRMVMWCGAUGAUGAGCC
+
+P.abyssi.1                         CCCUCUCAACUGACC
+Pyrococcus_furiosus_.1             CCCUCUCGUCUGAUU
+Pyrococcus_horikoshi.1             CCCUCUCAACUGAUC
+#=GC SS_cons                       ...............
+#=GC RF                            CCCUCUCRWCUGAYY
+//

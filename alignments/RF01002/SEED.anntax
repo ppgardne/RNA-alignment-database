@@ -1,0 +1,39 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-936
+#=GF AC    RF01002
+#=GF DE    microRNA mir-936
+#=GF AU    Wilkinson A
+#=GF GA    23.0
+#=GF NC    0.0
+#=GF TC    23.6
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000517
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    4
+
+#=GS M.mulatta.1            AC    AANU01193828.1/9000-9097
+#=GS P.troglodytes.1        AC    AACZ02117173.1/23443-23540
+#=GS Otolemur_garnettii_s.1 AC    AAQR01585101.1/9745-9842
+#=GS E.caballus.1           AC    AAWR02007614.1/358786-358882
+
+M.mulatta.1                        UCAAGGACACUGGGACAGGAGAGGGAGG.AAUCGCAGAAAUCACUC.CAG
+P.troglodytes.1                    UCAAGGCCACUGGGACAGUAGAGGGAGG.AAUCGCAGAAAUCACUC.CAG
+Otolemur_garnettii_s.1             UUGAAGCUGCUGGGGCAGGAGAGGGAGG.AGGCACAGAAGUAGGUC.CAG
+E.caballus.1                       GAGAGGCUGUUGG.ACAGUGGAGGGAGGGAGUCCCAGGG.CAGCUCCCAG
+#=GC SS_cons                       ....<<<<<..<<<<<<<<<<<<<<<<<...<<.<<<...<<.<.....>
+#=GC RF                            uuaAgGCcacUgGGgCaGgaGagggagg.AGccaCaGaaAcaGCUC.cAG
+
+M.mulatta.1                        GAGCAACUGAGAGACCUUGCUUCUACUUUACCAGGUCCUGCUGGCCCAGA
+P.troglodytes.1                    GAGCAACUGAGAGACCUUGCUUCUACUUUACCAGGUCCUGCUGGCCCAGA
+Otolemur_garnettii_s.1             GAGCCACUGAUGGACUUUGCUUCUGCUUUACCAGGUCCUGCAGGCCCUGA
+E.caballus.1                       AGGCC.CUGAGACACUGUGGUUCUGAUUUCCUAGGACCCGCUGGCCCAGA
+#=GC SS_cons                       >>....>>>.>>..>>>>.>>>>>>>>.......>>>>>..>>>>>....
+#=GC RF                            ugGuaACuGAgggaccucgccuCucCuUuaccAGGcCCcGCugGCcCaGA
+//

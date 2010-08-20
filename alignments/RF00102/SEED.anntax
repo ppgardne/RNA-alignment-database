@@ -1,0 +1,389 @@
+# STOCKHOLM 1.0
+#=GF ID    VA
+#=GF AC    RF00102
+#=GF DE    VA RNA
+#=GF AU    Bateman A, Moxon SJ
+#=GF GA    30.0
+#=GF NC    29.8
+#=GF TC    30.1
+#=GF SE    Bateman A, Moxon SJ
+#=GF SS    Published; PMID:8809020, Moxon SJ
+#=GF TP    Gene;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    95176559
+#=GF RT    Human and simian adenoviruses: phylogenetic inferences from analysis
+#=GF RT    of VA RNA genes.
+#=GF RA    Kidd AH, Garwicz D, Oberg M;
+#=GF RL    Virology 1995;207:32-45.
+#=GF RN    [2]
+#=GF RM    6297772
+#=GF RT    Adenovirus VAI RNA is required for efficient translation of viral
+#=GF RT    mRNAs at late times after infection.
+#=GF RA    Thimmappaya B, Weinberger C, Schneider RJ, Shenk T;
+#=GF RL    Cell 1982;31:543-551.
+#=GF RN    [3]
+#=GF RM    6201722
+#=GF RT    Adenovirus VA RNAI: a positive regulator of mRNA translation.
+#=GF RA    Svensson C, Akusjarvi G;
+#=GF RL    Mol Cell Biol 1984;4:736-742.
+#=GF RN    [4]
+#=GF RM    2583126
+#=GF RT    Adenovirus VAI-RNA regulates gene expression by controlling stability
+#=GF RT    of ribosome-bound RNAs.
+#=GF RA    Strijker R, Fritz DT, Levinson AD;
+#=GF RL    EMBO J 1989;8:2669-2675.
+#=GF RN    [5]
+#=GF RM    7555067
+#=GF RT    Structure, function, and evolution of adenovirus virus-associated
+#=GF RT    RNAs.
+#=GF RA    Mathews MB;
+#=GF RL    Curr Top Microbiol Immunol 1995;199:173-187.
+#=GF RN    [6]
+#=GF RM    8809020
+#=GF RT    Secondary and tertiary structure in the central domain of adenovirus
+#=GF RT    type 2 VA RNA I.
+#=GF RA    Ma Y, Mathews MB;
+#=GF RL    RNA 1996;2:937-951.
+#=GF CC    The VA (viral associated) RNA is found in adenovirus. It plays a role
+#=GF CC    in regulating translation.
+#=GF WK    http://en.wikipedia.org/wiki/VA_RNA
+#=GF SQ    54
+
+#=GS H.sapiens.1            AC    M35961.1/2-156
+#=GS Mastadenovirus.1       AC    M10281.1/2-159
+#=GS Human_adenovirus_21.1  AC    U52565.1/354-525
+#=GS Simian_adenovirus_25.1 AC    AF394196.1/10420-10579
+#=GS Human_adenovirus_41.1  AC    U52573.1/114-286
+#=GS Human_adenovirus_18.1  AC    U52567.1/117-264
+#=GS Simian_adenovirus_24.1 AC    AY530878.1/10641-10813
+#=GS Human_adenovirus_3.1   AC    U10680.1/24-195
+#=GS Human_adenovirus_11.1  AC    AY163756.1/10432-10590
+#=GS Human_adenovirus_16.1  AC    U52564.1/354-525
+#=GS Human_adenovirus_41.2  AC    L05511.1/76-247
+#=GS Human_adenovirus_21.2  AC    U52565.1/119-278
+#=GS Simian_adenovirus_7.1  AC    M14082.1/179-349
+#=GS Human_adenovirus_3.2   AC    U52534.1/362-535
+#=GS Simian_adenovirus_22.1 AC    AY530876.1/10428-10594
+#=GS Human_adenovirus_3.3   AC    U10680.1/268-440
+#=GS Simian_adenovirus_19.1 AC    U03007.1/36-206
+#=GS Human_adenovirus_7.1   AC    U52574.1/363-537
+#=GS H.adenovirus.1         AC    AY487947.1/10357-10516
+#=GS Human_adenovirus_4a.1  AC    U10681.1/21-180
+#=GS Human_adenovirus_7.2   AC    X03000.1/10423-10594
+#=GS Simian_adenovirus_25.2 AC    AF394196.1/10641-10799
+#=GS Simian_adenovirus_13.1 AC    U03015.1/24-172
+#=GS Simian_adenovirus_24.2 AC    AY530878.1/10419-10580
+#=GS Human_adenovirus_40.1  AC    L06496.1/76-247
+#=GS H.adenovirus.2         AC    AY339865.1/10621-10777
+#=GS Human_adenovirus_40.2  AC    M86665.1/672-843
+#=GS Human_adenovirus_14.1  AC    U52570.1/118-276
+#=GS H.adenovirus.3         AC    AY339865.1/10876-11033
+#=GS Simian_adenovirus_23.1 AC    U10684.1/21-181
+#=GS Human_adenovirus_31.1  AC    U10676.1/26-173
+#=GS H.adenovirus.4         AC    AY487947.1/10575-10742
+#=GS Human_adenovirus_12.1  AC    M14785.1/5430-5577
+#=GS Human_adenovirus_16.2  AC    U10674.1/256-426
+#=GS Human_adenovirus_7.3   AC    U52574.1/118-289
+#=GS Human_adenovirus_6.1   AC    U52533.1/117-273
+#=GS Human_adenovirus_6.2   AC    U52533.1/372-529
+#=GS Human_adenovirus_1.1   AC    AF534906.1/10629-10785
+#=GS Human_adenovirus_2.1   AC    J01917.1/10866-11023
+#=GS Human_adenovirus_44.1  AC    U52558.1/333-482
+#=GS Human_adenovirus_22.1  AC    U52542.1/333-482
+#=GS Human_adenovirus_23.1  AC    U52543.1/115-274
+#=GS Human_adenovirus_37.1  AC    U52553.1/333-482
+#=GS Human_adenovirus_9.1   AC    U52536.1/115-274
+#=GS Human_adenovirus_13.1  AC    U52537.1/333-482
+#=GS Human_adenovirus_8.1   AC    U10683.1/239-388
+#=GS Human_adenovirus_24.1  AC    U52544.1/333-482
+#=GS Human_adenovirus_8.2   AC    U10683.1/23-181
+#=GS Human_adenovirus_19.1  AC    U52540.1/115-274
+#=GS Human_adenovirus_20.1  AC    U52541.1/115-274
+#=GS Human_adenovirus_10.1  AC    U52566.1/115-274
+#=GS Human_adenovirus_25.1  AC    U52545.1/333-482
+#=GS Human_adenovirus_13.2  AC    U52537.1/115-274
+#=GS Human_adenovirus_17.1  AC    AF108105.1/10236-10396
+
+H.sapiens.1                        GGCACU.CUUCCGUGGUCUGGUGGAUAAAUU..CG..CAAGGGU..AUCA
+Mastadenovirus.1                   GGCACU.CUUCCGUGGUCUGGUGGAUAAAUU..CG..CAAGGGU..AUCA
+Human_adenovirus_21.1              GGCUCG.CGCCCGUAGUCUGGAGAAUC.AAU..CG..CCAGGGUUGC..G
+Simian_adenovirus_25.1             GGCUCG.ACUCCGUGGCCUGGAGGCU..AAG..CG..AACGGGUUG..GG
+Human_adenovirus_41.1              GACUCU.UCUCCGUAGCCUGGAGGAU..AGAC.CG..CCAGGGU.GC.GG
+Human_adenovirus_18.1              GACUCC.CUUCCGUGGCUUGGUGGAAA.AGU..CA..CAAGGGU..ACCA
+Simian_adenovirus_24.1             GGCUCG.CUGCCGUAGUCUGGAGAAAG.AAU..CG..CCAGGGUUGC..G
+Human_adenovirus_3.1               GGCUCG.ACUCCGUGGUCUGGGGGA...ACG..UG..AACGGGUUG..GG
+Human_adenovirus_11.1              GACUCG.ACUCCGUAGCCUGGAGGA...ACG..UG..AACGGGUUG..GG
+Human_adenovirus_16.1              GGCUCG.CGCCCGUAGUCUGGAGAAUC.AAU..CG..CCAGGGUUGC..G
+Human_adenovirus_41.2              GACUCU.UCUCCGUAGCCUGGAGGAU..AGAC.CG..CCAGGGU.GC.GG
+Human_adenovirus_21.2              GGCUCG.UCUCCGUGGCCUGGAGGCU..AAG..CG..AACGGGUUG..GG
+Simian_adenovirus_7.1              GACUCC.UCUCCGUAGCUUGGGGGUU..AGGU.CG..CAAGGGU.GC.GG
+Human_adenovirus_3.2               GGCUCG.CGCCCGUAGUCUGGAGAAUC.AGU..CG..CCAGGGUUGC..G
+Simian_adenovirus_22.1             GGCUCG.ACUCCGUGGCCUGGAGGCU..AAG..CG..AACGGGUUG..GG
+Human_adenovirus_3.3               GGCUCG.CGCCCGUAGUCUGGAGAAUC.AGU..CG..CCAGGGUUGC..G
+Simian_adenovirus_19.1             GACUCC.UCUCCGUAGUCUGGAGGUU..AGGU.CG..CAAGGGU.GC.GG
+Human_adenovirus_7.1               GGCUCG.CGCCCGUAGUCUGGAGAAUC.AGU..CG..CCAGGGUUGC..G
+H.adenovirus.1                     GGCUCG.ACUCCGUGGCCUGGAGGCU..AAG..CG..AACGGGUUG..GG
+Human_adenovirus_4a.1              GGCUCG.ACUCCGUGGCCUGGAGGCU..AAG..CA..AACGGGUUG..GG
+Human_adenovirus_7.2               GGCUCG.ACUCCGUGGCCUGGGGGA...ACG..UG..GACGGGUUG..GG
+Simian_adenovirus_25.2             GGCUCGUCUGCCGUAGUCUGGAGAAG..AAU..CG..CCAGGGUUGC..G
+Simian_adenovirus_13.1             GGCUCU.UCUCCGUGGUCUAGUGGAAA.AUU..UG..CAAUGGU..AUGU
+Simian_adenovirus_24.2             GGCUCG.ACUCCGUGGCCUGGAGGCU..AAG..CG..AACGGGUUG..GG
+Human_adenovirus_40.1              GACUUU.CCUCCGUAGCCUGGGGGA...CAGACCG..CCAGGGU.GCA.G
+H.adenovirus.2                     GGCACU.CUUCCGUGGUCUGGUGGAUAAAUU..CG..CAAGGGU..AUCA
+Human_adenovirus_40.2              GACUUU.CCUCCGUAGCCUGGAGGA...CAGACCG..CCAGGGU.GCA.G
+Human_adenovirus_14.1              GACUCG.ACUCUGUAGCCUGGAGGA...ACG..UG..AACGGGUUG..GG
+H.adenovirus.3                     GGCUCGCUCCCUGUAGCC.GGAGGGUU.AUU..U.UCCAAGGGUUGA..G
+Simian_adenovirus_23.1             GGCUCG.ACUCCGUGGCCUGGAGCU...AAG..CG..AACGGGUUG..GG
+Human_adenovirus_31.1              GACUCC.CCUCUGUGGCCUGGCGGAAA.AGU..CA..CAAGGGU..ACCA
+H.adenovirus.4                     GGCUCA.CUGCCGUAGAUUGGAGAAG..AAU..CG..CCAGGGUUGC..G
+Human_adenovirus_12.1              GACUCC.CUUCCGUGGUUUGGUGGAAA.AGU..CA..CAAGGGU..ACCA
+Human_adenovirus_16.2              GGCUCG.CGCCCGUAGUCUGGAGAAUC.AAU..CG..CCAGGGUUGC..G
+Human_adenovirus_7.3               GGCUCG.ACUCCGUGGCCUGGGGGA...ACG..UG..AACGGGUUG..GG
+Human_adenovirus_6.1               GGCACU.CUUCCGUGGUCUGGUGGAUAAAUU..CG..CAAGGGU..AUCA
+Human_adenovirus_6.2               GGCUCGCUCCCUGUAGCC.GGAGGGUU.AUU..U.UCCAAGGGUUGA..G
+Human_adenovirus_1.1               GGCACU.CUUCCGUGGUCUGGUGGAUAAAUU..CG..CAAGGGU..AUCA
+Human_adenovirus_2.1               GGCUCGCUCCCUGUAGCC.GGAGGGUU.AUU..U.UCCAAGGGUUGA..G
+Human_adenovirus_44.1              GGCUCG.CGCCCGUAGUCUGGAGAAG..CAU..CG..CCAGGGUUGA..G
+Human_adenovirus_22.1              GGCUCG.CGCCCGUAGUCUGGAGAAG..CAU..CG..CCAGGGUUGA..G
+Human_adenovirus_23.1              GGCUCUUCCUCCGUAGCCUGGCGGA...ACG..CA..AACGGGUUA..GG
+Human_adenovirus_37.1              GGCUCG.CGCCCGUAGUCUGGAGAAG..CAU..CG..CCAGGGUUGA..G
+Human_adenovirus_9.1               GGCUCUUCCUCCGUAGCCUGGCGGA...ACG..CA..AACGGGUUA..GG
+Human_adenovirus_13.1              GGCUCG.CGCCCGUAGUCUGGAGAAG..CAU..CG..CCAGGGUUGA..G
+Human_adenovirus_8.1               GGCUCG.CGCCCGUAGUCUGGACAAG..CAU..CA..CUAGGGUUAA..G
+Human_adenovirus_24.1              GGCUCG.CGCCCGUAGUCUGGAGAAG..CUU..UG..CCAGGGUUGA..G
+Human_adenovirus_8.2               GGCUCUUCCUCCGUAGCCUGGCGGA...ACG...A..AACGGGUUA..GG
+Human_adenovirus_19.1              GGCUCUUCCUCCGUAGCCUGGCGGA...ACG..CA..AACGGGUUA..GG
+Human_adenovirus_20.1              GGCUCUUCCUCCGUAGCCUGGCGGA...ACG..CA..AACGGGUUA..GG
+Human_adenovirus_10.1              GGCUCUUCCUCCGUAGCCUGGCGGA...ACG..CA..AACGGGUUA..GG
+Human_adenovirus_25.1              GGCUCG.CGCCCGUAGUCUGGAGAAG..CAU..CG..CCAGGGUUGA..G
+Human_adenovirus_13.2              GGCUCUUCCUCCGUAGCCUGGCGGA...ACG..CA..AACGGGUUA..GG
+Human_adenovirus_17.1              GGCUCUUCCUCCGUAGCCUGGCGGA...ACG..CA..AACGGGUUA..GG
+#=GC SS_cons                       <<<<<<.<<<<<<<<..<<<<<<.................<<<<....<<
+
+H.sapiens.1                        UGGC..GUGGA.CGACCGG.GGUUCGAACC...................C
+Mastadenovirus.1                   UGGCG.GACGA.C...CGG.GGUUCGAACC...................C
+Human_adenovirus_21.1              UUGCG.GUGUG.C...CC.CGGUUCGAGUCUUAGCGCG...........C
+Simian_adenovirus_25.1             CUGCGCGUGUA.C...CC.CGGUUCGAAUC...................U
+Human_adenovirus_41.1              UGGCG.AACAA.C...CCCCGGUUCGA.......................
+Human_adenovirus_18.1              UAGCG.AGGAA.C...CC.CGGUUCGA.......................
+Simian_adenovirus_24.1             UUGCG.GUGUG.C...CC.CGGUUCGAGCCUCAGCGC............U
+Human_adenovirus_3.1               UCGCG.GUGUA.C...CC.CGGUUCGAGUCCAAAGCUAAGCGAUCACGCU
+Human_adenovirus_11.1              UCGCG.GUGUA.C...CC.CGGUUCGAGACUUGUAC.............U
+Human_adenovirus_16.1              UUGCG.GUGUG.C...CC.CGGUUCGAGUCUUAGCGCG...........C
+Human_adenovirus_41.2              UGGCG.AACAA.C...CCCCGGUUCGA.......................
+Human_adenovirus_21.2              CUGCGCGUGUA.C...CC.CGGUUCGAAUC...................U
+Simian_adenovirus_7.1              UGGCG.GGGAA.C...CC.CGGUUCGA.......................
+Human_adenovirus_3.2               UUGCG.GUAUG.C...CC.CGGUUGGAGCCUAAGCGCGGC.........U
+Simian_adenovirus_22.1             CUGCGCGUGUA.C...CC.CGGUUCGAGUCCCUGC..............U
+Human_adenovirus_3.3               UUGCG.GUAUG.C...CC.CGGUUGGAGCCUAAGCGCGGC.........U
+Simian_adenovirus_19.1             CGGCG.GGGAA.C...CC.UGGUUCGA.......................
+Human_adenovirus_7.1               UUGCG.GUAUG.C...CCCCGGUUCGAGCCUAAGCGCGGC.........U
+H.adenovirus.1                     CUGCGCGUGUA.C...CC.CGGUUCGAAUC...................U
+Human_adenovirus_4a.1              CUGCGCGUGUA.C...CC.CGGUUCGAAUC...................U
+Human_adenovirus_7.2               UCGCG.GUGUA.C...CC.CGGUUCGAGUCCAAAGCUAAGCAAUCACACU
+Simian_adenovirus_25.2             UUGCG.GUGUG.C...CC.CGGUUCGA.......................
+Simian_adenovirus_13.1             UGGCG.GAGC.UC...ACG.GGUUCGA.......................
+Simian_adenovirus_24.2             CUGCGCGUGUA.C...CC.CGGUUCGAAUC...................U
+Human_adenovirus_40.1              UGGCA.AACAA.C...CCCCGGUUCGA.......................
+H.adenovirus.2                     UGGCG.GACGA.C...CGG.GGUUCGAGCC...................C
+Human_adenovirus_40.2              UGGCA.AACAA.C...CCCCGGUUCGA.......................
+Human_adenovirus_14.1              UCGCG.GUGUA.C...CC.CGGUUCAAGACUUGUAC.............U
+H.adenovirus.3                     UCGCG.GGAC..C...CC.CGGUUCGAGUC...................U
+Simian_adenovirus_23.1             CUGCGCGUGUA.C...CC.CGGUUCGAAUC...................U
+Human_adenovirus_31.1              CAGCG.AGGAA.C...CC.CGGUUCGA.......................
+H.adenovirus.4                     UUGCG.GUGUG.C...CC.CGGUUCGAGACCGC................U
+Human_adenovirus_12.1              UAGCG.AGGAA.C...CC.CGGUUCGA.......................
+Human_adenovirus_16.2              UUGCG.GUGUG.C...CC.CGGUUCGAGUCUUAGCGC............G
+Human_adenovirus_7.3               UCGCG.GUGUA.C...CC.CGGUUCGAGUCCAAAGCUAAGCAAUCACACU
+Human_adenovirus_6.1               UGGCG.GACGA.C...CGG.GGUUCGAACC...................C
+Human_adenovirus_6.2               UCGCG.GGAC..C...CC.CGGUUCGAGUC...................U
+Human_adenovirus_1.1               UGGCG.GACGA.C...CGG.GGUUCGAGCC...................C
+Human_adenovirus_2.1               UCGCA.GGAC..C...CC.CGGUUCGAGUC...................U
+Human_adenovirus_44.1              UCGCG.GCAGA.A...CC.CGGUUCGA.......................
+Human_adenovirus_22.1              UCGCG.GCAGA.A...CC.CGGUUCAA.......................
+Human_adenovirus_23.1              CCGCGUGUGUA.C...CC.CGGUUCGAAUCCCC................U
+Human_adenovirus_37.1              UCGCG.GCAGA.A...CC.CGGUUCAA.......................
+Human_adenovirus_9.1               CCGCGUGUGUA.C...CC.CGGUUCGAGUCCCC................U
+Human_adenovirus_13.1              UCGCG.GCAGA.A...CC.CGGUUCGC.......................
+Human_adenovirus_8.1               UUACA.GCAGA.A...CC.CGGUUCGC.......................
+Human_adenovirus_24.1              UCGCG.GCAGA.A...CC.CGGUUCGC.......................
+Human_adenovirus_8.2               CCGCGCGUGUA.C...CC.CGGUUCGAGUCCCC................U
+Human_adenovirus_19.1              UCGCGUGUGUA.C...CC.CGGUUCGAGUCCCC................U
+Human_adenovirus_20.1              CCGCGUGUGUA.C...CC.CGGUUCGAGUCCCC................U
+Human_adenovirus_10.1              CCGCGUGUGUA.C...CC.CGGUUCGAGUCCCC................U
+Human_adenovirus_25.1              UCGCG.GCAGA.A...CC.CGGUUCGA.......................
+Human_adenovirus_13.2              CCGCGCGUGUA.C...CC.CGGUUCGAGUCCCC................U
+Human_adenovirus_17.1              CCGCGCGUGUA.C...CC.CGGUUCGAGUCCCC................U
+#=GC SS_cons                       <<<<<.<<<<......<<..<<<<..........................
+
+H.sapiens.1                        CGG.AUCCGU....GA.UCCAUGCGGUU.ACC....GUC.C....GCCGC
+Mastadenovirus.1                   CGG.AUCCG.GC..CG.UCC..GCCGUGUAUC....CUGACGGUUACCGC
+Human_adenovirus_21.1              CGG.AUCGG.CCGGUU.UCC..GCGACA.AGC....GAG.GGUUUGGCAG
+Simian_adenovirus_25.1             CGA.AUCAG.GCUGGA.GCC..GCAGCU.AAC....GUG.GUAUUGGCAC
+Human_adenovirus_41.1              .G..ACC.G.GCUGGA.UCC..GCCACU.CCC....GAC.G..C.GCCGG
+Human_adenovirus_18.1              .A..ACC.G.GCAGGA.UCC..GCUAUG.AGC....GUA.AGUGAGGCGC
+Simian_adenovirus_24.1             CGGCGCC.G.GCCGGAUUCC..GCGGCU.AAC....GUG.GGCGUGGCUG
+Human_adenovirus_3.1               CGG.AUC.G.GCCGGA.GCC..GCGGCU.AAC....GUG.GUAUUGGCUA
+Human_adenovirus_11.1              CGA.GCC.G.GCCGGA.GCC..GCGGCU.AAC....GUG.GUAUUGGCAC
+Human_adenovirus_16.1              CGG.AUCGG.CCGGUU.UCC..GCGACA.AGC....GAG.GGUUUGGCAG
+Human_adenovirus_41.2              .G..ACC.G.GCUGGA.UCC..GCCACU.CCC....GAC.G..C.GCCGG
+Human_adenovirus_21.2              CGG.AUCAG.GCUGGA.GCC..GCAGCU.AAC....GUG.GUACUGGCAC
+Simian_adenovirus_7.1              .A..ACC.G.GCCGGA.UCC..GCCACU.CCC....GAC.G..C.GGCGG
+Human_adenovirus_3.2               CGU.AUCGG.CCGGUU.UCC..GCGACA.AGC....GAG.GGUUUGGCAG
+Simian_adenovirus_22.1             CGA.AUCAG.GCUGGA.GCC..GCAGCU.AAC....GUG.GUACUGGCAC
+Human_adenovirus_3.3               CGU.AUCGG.CCGGUU.UCC..GCGACA.AGC....A.G.GGUUUGGCAG
+Simian_adenovirus_19.1             .A..ACC.A.GCUGGA.UCC..GCCGUC.CCG....AUG.CGCUUGGCC.
+Human_adenovirus_7.1               CGU.AUCGG.CCGGUU.UCC..GCGACA.AGC....GAG.GGUUUGGCAG
+H.adenovirus.1                     CGA.AUCAG.GCUGGA.GCC..GCAGCU.AAC....GUG.GUACUGGCAC
+Human_adenovirus_4a.1              CGA.AUCAG.GCUGGA.GCC..GCAGCU.AAC....GUG.GUACUGGCAC
+Human_adenovirus_7.2               CGG.AUC.G.GCCGGA.GCC..GCGGCU.AAC....GUG.GUAUUGGCUA
+Simian_adenovirus_25.2             .G..GCC.G.GCCGGAUUCC..GCGGCU.AAC....GAG.GGCGUGGCUG
+Simian_adenovirus_13.1             .A..ACCCG.CCGG.C.UCU..GCCAGC.AUCG...GGG.UGAUUGGUCG
+Simian_adenovirus_24.2             CGA.AUCAG.GCUGGA.GCC..GCAGCU.AAC....GUG.GUACUGGCAC
+Human_adenovirus_40.1              .G..ACC.G.GCUGGA.UCU..GCCACU.CCC....GAC.G....CGCCG
+H.adenovirus.2                     CGU.AUCCG.GC..CG.UCC..GCCGUG.AUCC...AUG.CGGUUACCGC
+Human_adenovirus_40.2              .G..ACC.G.GCUGGA.UCU..GCCACU.CCC....GAC.G..C.GCCGG
+Human_adenovirus_14.1              CGA.GCC.G.GCCGGA.GCC..GCGGCU.AAC....GUG.GUAUUGGCAC
+H.adenovirus.3                     CGG.ACC.G.GCCG.G.ACU..GCGGCG.AAC....GGG.GGUUUGCCU.
+Simian_adenovirus_23.1             CGA.AUCAG.GCUGGA.GCC..ACAGCU.AAC....GUG.GUACUGGCAC
+Human_adenovirus_31.1              .A..ACC.G.GCAGGA.UCC..GCUGUG.AGC....GUA..UAUAGGGCG
+H.adenovirus.4                     CGG.GUC.G.GCCGAAUUCC..GCGGCU.AAC....GAG.GGCGUGGCUG
+Human_adenovirus_12.1              .A..ACC.G.GCAGGA.UCC..GCUAUG.AGCACAAGUG.A....GGCGC
+Human_adenovirus_16.2              CGG.AUCGG.CCGGUU.UCC..GCGACA.AGC....GAG.GGUUUGGCAG
+Human_adenovirus_7.3               CGG.AUC.G.GCCGGA.GCC..GCGGCU.AAC....GUG.GUAUUGGCUA
+Human_adenovirus_6.1               CGG.AUCCG.GC..CG.UCC..GCCGUG.AUCC...AUG.CGGUUACCGC
+Human_adenovirus_6.2               CGG.GCC.G.G.CCGG.ACU..GCGGCG.AAC....GGG.GGUUUGCCU.
+Human_adenovirus_1.1               CGU.AUCCG.GC..CG.UCC..GCCGUG.AUCC...AUG.CGGUUACCGC
+Human_adenovirus_2.1               CGG.GCC.G.GCCG.G.ACU..GCGGCG.AAC....GGG.GGUUUGCCU.
+Human_adenovirus_44.1              .GG.A.........CG.GCC..GCGGCG.AGC....G.G.GACUUGGUCA
+Human_adenovirus_22.1              .GG.AC..G........GCC..GCGGCA.AGC....G.G.GACUUGGUCA
+Human_adenovirus_23.1              CGA.AUCAG.GCUGGA.GCC..GCGACU.AAC....GUG.GUAUUGGCAC
+Human_adenovirus_37.1              .GG.A.........CG.GCC..GCGGCG.AGC....G.G.GACUUGGUCA
+Human_adenovirus_9.1               UGA.AUCAG.GCUGGA.GCC..GCGACU.AAC....GUG.GUAUUGGCAC
+Human_adenovirus_13.1              .GG.A.........CG.GCC..GCGGCG.AGC....G.G.GAAUUGGUCA
+Human_adenovirus_8.1               .GG.A.........CG.GCC..GCGGCA.AGC....G.G.GACUUAGUUA
+Human_adenovirus_24.1              .GG.A.........CG.GCC..GCGGCG.AGC....G.G.GACUUGGUCA
+Human_adenovirus_8.2               CGA.AUCAG.GCUAAA.GCC..GCGACU.AAC....GUG.GUAUUGGCAC
+Human_adenovirus_19.1              CGA.AUCAG.GCUGGA.GCC..GCGACU.AAC....GUG.GUAUUGGCAC
+Human_adenovirus_20.1              CGA.AUCAG.GCUGGA.GCC..GCGACU.AAC....GUG.GUAUUGGCAC
+Human_adenovirus_10.1              CGA.AUCAG.GCUGGA.GCC..GCGACU.AAC....GUG.GUAUUGGCAC
+Human_adenovirus_25.1              .GG.A.........CG.GCC..GCGGCG.AGC....G.G.GACUUGGUCA
+Human_adenovirus_13.2              CGA.AUCAG.GCUGGA.GCC..GCGACU.AAC....GUG.GUAUUGGCAC
+Human_adenovirus_17.1              CGA.AUCAG.GCUGGA.GCC..GCGACU.AAC....GUG.GUAUUGGCAC
+#=GC SS_cons                       .>..>>>.>.>...>>.>>>..>>>>>>........<<<.<.........
+
+H.sapiens.1                        CCGUGC....GUCG....................AACCCA..........
+Mastadenovirus.1                   CCGCGU....GUCG....................AACCCA..........
+Human_adenovirus_21.1              CCCCGUC..AUUUC.................UAAGACCCC..........
+Simian_adenovirus_25.1             UCCCGUC....UMG.....................ACCCA..........
+Human_adenovirus_41.1              CCCCGU....GUCC............ACGACGGAAACCCCGCCGAGACCU
+Human_adenovirus_18.1              UUGCGC....GUUG....................AACCCG..........
+Simian_adenovirus_24.1             CCCCGUC.GUUUCC..................AAGACCCC........UU
+Human_adenovirus_3.1               UCCCGUC....UCG.....................ACCCA..........
+Human_adenovirus_11.1              UCCCGUC....UCG.....................ACCCA..........
+Human_adenovirus_16.1              CCUCGUC..AUUUC.................UAAGACCCC..........
+Human_adenovirus_41.2              CCCCGU....GUCC............ACGACGGAAACCCCGCCGAGACCU
+Human_adenovirus_21.2              UCCCGUC....UCG.....................ACCCA..........
+Simian_adenovirus_7.1              CCCCGC....GUCCACGACCCCACCAGAGGCCGAGACCCA..........
+Human_adenovirus_3.2               CCCCGU.UAUUUCC..................AAGACCCC..........
+Simian_adenovirus_22.1             UCCCGUC....UCG.....................ACCCA..........
+Human_adenovirus_3.3               CCCCGU.UAUUUCC..................AAGACCCC..........
+Simian_adenovirus_19.1             CCGCAUCCACGACG......GCCCCGGGCGUCGAGACCCA..........
+Human_adenovirus_7.1               CCCAGUC.AUUUCC..................AAGACCCC..........
+H.adenovirus.1                     UCCCGUC....UCG.....................ACCCA..........
+Human_adenovirus_4a.1              UCCCGUC....UCG.....................ACCCA..........
+Human_adenovirus_7.2               UCCCGUC....UCG.....................ACCCA..........
+Simian_adenovirus_25.2             CCCCGUC.GUUUCC..................AAGACCCC........AU
+Simian_adenovirus_13.1             UCACGUC....UCG....................AACCUA..........
+Simian_adenovirus_24.2             UCCCGUC....UCG.....................ACCCA..........
+Human_adenovirus_40.1              GCCGUGC...GUCC............ACGACGGAAACCCCGCCGAGACCU
+H.adenovirus.2                     CCGCGU....GUCG....................AACCCA..........
+Human_adenovirus_40.2              CCGUGC....GUCC............ACGACGGAAACCCCGCCGAGACCU
+Human_adenovirus_14.1              UCCCGUC....UCG.....................ACCCA..........
+H.adenovirus.3                     CCCCGUC....AUG.................CAAGACCCC..........
+Simian_adenovirus_23.1             UCCCGUC....UCG.....................ACCCA..........
+Human_adenovirus_31.1              UC.UGC..GCGUAG....................AACCCA..........
+H.adenovirus.4                     CCCCGUC.GUUUCC..................AAGACCCC.......AUA
+Human_adenovirus_12.1              UUGCGC....GUUG....................AACCCG..........
+Human_adenovirus_16.2              CCUCGUC..AUUUC.................UAAGACCCC..........
+Human_adenovirus_7.3               UCCCGUC....UCG.....................ACCCA..........
+Human_adenovirus_6.1               CCGCGU....GUCG....................AACCCA..........
+Human_adenovirus_6.2               CCCCGUC....AUG.................CAAGACCCC..........
+Human_adenovirus_1.1               CCGCGU....GUCG....................AACCCA..........
+Human_adenovirus_2.1               CCCCGUC....AUG.................CAAGACCCC..........
+Human_adenovirus_44.1              CCCCGCC.GAUUUA..................AAGACCCA.........C
+Human_adenovirus_22.1              CCCCGCC.GAUUUA..................AAGACCCA.........C
+Human_adenovirus_23.1              UCCCGUC....UCG.....................ACCCG..........
+Human_adenovirus_37.1              CCCCGCC.GAUUUA..................AAGACCCA.........C
+Human_adenovirus_9.1               UCCCGUC....UCG.....................ACCCG..........
+Human_adenovirus_13.1              CCCCGCC.UAUUUA..................AAGACCCA.........C
+Human_adenovirus_8.1               CCCCGCC.AAUUUA..................AAGACCCG.........C
+Human_adenovirus_24.1              CCCCGCC.GAUUUA..................AAGACCCA.........C
+Human_adenovirus_8.2               UCCCGUC....UCG.....................ACCCA..........
+Human_adenovirus_19.1              UCCCGUC....UCG.....................ACCCG..........
+Human_adenovirus_20.1              UCCCGUC....UCG.....................ACCCA..........
+Human_adenovirus_10.1              UCCCGUC....UCG.....................ACCCG..........
+Human_adenovirus_25.1              CCCCGCC...GAUA................UAAAGACCCA.........C
+Human_adenovirus_13.2              UCCCGUC....UCG.....................ACCCG..........
+Human_adenovirus_17.1              UCCCGUC....UCG.....................ACCCG..........
+#=GC SS_cons                       ..>>>>.............................>>>>...........
+
+H.sapiens.1                        GGUGUGC...........GA.CGUCAG.ACAACG.GGGGAGCGCUCCUU
+Mastadenovirus.1                   GGUGUGC...........GA.CGUCAG.ACAACG.GGGGAGCGCUCCUU
+Human_adenovirus_21.1              .GCCAGC..CGAC......UUCUCCAGUUU.ACG.GGAGCGAGC.CCUC
+Simian_adenovirus_25.1             AGCBUGCACCAAC.......CCUCCAGGAU.ACG.GAGGCGGGU.CGUU
+Human_adenovirus_41.1              AGCC.GC..GGUCCCCGGAU.CUCCAG.AU.ACG.GAGGGGAGAUCUUU
+Human_adenovirus_18.1              .GCC.AA..AGAC........CCCCAG.AC.ACG.GAAAGGAGU.CUUU
+Simian_adenovirus_24.1             AGCCAGC..CGAC......UUCUCCAGU.U.ACG.G.AGCGAGC.CCCU
+Human_adenovirus_3.1               .GCC.GA..CGAA......U.AUCCAGGGU.ACG.GAGUAGAGU.CGUU
+Human_adenovirus_11.1              .GCCUAC..AAAA........AUCCAGGAU.ACG.GAAUCGAGU.CGUU
+Human_adenovirus_16.1              .GCCAGC..CGAC......UUCUCCAGUUU.ACG.GGAGCGAGC.CCUC
+Human_adenovirus_41.2              AGCC.GC..GGUCCCCGGAU.CUCCAG.AU.ACG.GAGGGGAGU.CUUU
+Human_adenovirus_21.2              GGCCUGC.ACAAA......ACCUCCAGGAU.ACG.GAGGCGGGU.CGUU
+Simian_adenovirus_7.1              .GCC.GC...GACGCGCGCA.CCCCAA.AU.ACG.GAGGGGAGU.CUUU
+Human_adenovirus_3.2               .GCCAGC..CGAC......UUCUCCAGUUU.ACG.GGAGCGAGC.CCUU
+Simian_adenovirus_22.1             AGCCUGC..UAAC...GAAACCUCCAGGAU.ACG.GAGGCGGGU.CGUU
+Human_adenovirus_3.3               .GCCAGC..CGAC......UUCUCCAGUUU.ACG.GGAGCGAGC.CCUU
+Simian_adenovirus_19.1             .GCC.GC..GAUA.CGCACA.CCCCAA.AU.ACG.GAGGGGAGU.CUUU
+Human_adenovirus_7.1               .GCCAGC..CGAC......UUCUCCAGUUU.ACG.GGAGCGAGC.CCUU
+H.adenovirus.1                     GGCCUGC.ACAAA......ACCUCCAGGAU.ACG.GAGGCGGGU.CGUU
+Human_adenovirus_4a.1              GGCCUGC.ACAAA......ACCUCCAGGAU.ACG.GAGGCGGGU.CGUU
+Human_adenovirus_7.2               .GCC.GA..CGAA......U.AUCCAGGGU.ACG.GAGUAGAGU.CGUU
+Simian_adenovirus_25.2             AGCCAGC..CGAC......UUCUCCAGU.U.ACG.G.AGCGAGC.CCCU
+Simian_adenovirus_13.1             .GCC.GG..CGAA........CCCUAG.AU.ACG.GAGGAGAGU.CUUU
+Simian_adenovirus_24.2             AGCCUGC..UAAC...GAAACCUCCAGGAU.ACG.GAGGCGGGU.CGUU
+Human_adenovirus_40.1              AGCC.GC..GGUCCAUGGAU.CUCCAG.AU.ACG.GAGGGGAGU.CUUU
+H.adenovirus.2                     GGUGUGC...........GA.CGUCAG.ACAACG.GGGGAGUGCUCCUU
+Human_adenovirus_40.2              AGCC.GC..GGUCCCUGGAU.CUCCAG.AU.ACG.GAGGGGAGU.CUUU
+Human_adenovirus_14.1              .GCCUAC..AAAA........AUCCAGGAU.ACG.GAAUCGAGU.CGUU
+H.adenovirus.3                     .GCUUGC..AAAU......UCCUCC.GGAA.ACA.GGGACGAGC.CCCU
+Simian_adenovirus_23.1             AGCCUGC..UAAC...GAAACCUCCAGGAU.ACG.GAGGCGGGU.CGUU
+Human_adenovirus_31.1              .GCC.AA..AGAC........CCCCAG.AC.ACG.GAGAGGAGU.CUUU
+H.adenovirus.4                     AGCCAGC..CGAC......UUCUCCAGU.U.ACG.G.AGCGAGC.CCCU
+Human_adenovirus_12.1              .GCC.AA..GGAC........CCCCAG.AC.ACG.GAGAGGAGU.CUUU
+Human_adenovirus_16.2              .GCCAGC..CGAC......UUCUCCAGUUU.ACG.GGAGCGAGC.CCUC
+Human_adenovirus_7.3               .GCC.GA..CGAA......U.AUCCAGGGU.ACG.GAGUAGAGU.CGUU
+Human_adenovirus_6.1               GGUGUGC...........GA.CGUCAG.ACAACG.GGGGAGCGCUCCUU
+Human_adenovirus_6.2               .GCUUGC..AAAU......UCCUCC.GGAA.ACA.GGGACGAGC.CCCU
+Human_adenovirus_1.1               GGUGUGC...........GA.CGUCAG.ACAACG.GGGGAGCGCUCCUU
+Human_adenovirus_2.1               .GCUUGC..AAAU......UCCUCC.GGAA.ACA.GGGACGAGC.CCCU
+Human_adenovirus_44.1              AGCCAGC..CGAC......UUCUCCAGU.U.ACG.GGAGCGAGC.CCCC
+Human_adenovirus_22.1              AGCCAGC..CGAC......UUCUCCAGU.U.ACG.GGAGCGAGC.CCCC
+Human_adenovirus_23.1              AGCCCGA..UAGC........CGCCAGGAU.ACG.GCGGAGAGC.CCUU
+Human_adenovirus_37.1              AGCCAGC..CGAC......UUCUCCAGU.U.ACG.GGAGCGAGC.CCCC
+Human_adenovirus_9.1               AGCCCGA..UAGC........CGCCAGGAU.ACG.GCGGAGAGU.CCUU
+Human_adenovirus_13.1              AGCCAGC..CGAC......UUCUCCAGU.U.ACG.GGAGCGAGC.CCCC
+Human_adenovirus_8.1               AGCCAGC..CGAC......UUUUCCAGU.U.ACG.GGAGCGAGC.CCCC
+Human_adenovirus_24.1              AGCCAGC..CGAC......UUCUCCAGU.U.ACG.GGAGCGAGC.CCCC
+Human_adenovirus_8.2               AGCCCGA..UAGC........CGCCAGGAU.ACG.GUGAAGAGC.CUUU
+Human_adenovirus_19.1              AGCCCGA..UAGC........CGCCAGGAU.ACG.GCGGAGAGC.CCUU
+Human_adenovirus_20.1              AGCCCGA..UAGC........CGCCAGGAU.ACG.GCGGAGAGC.CCUU
+Human_adenovirus_10.1              AGCCCGA..UAGC........CGCCAGGAU.ACG.GCGGAGAGC.CCUU
+Human_adenovirus_25.1              AGCCAGC..CGAC......UUCUCCAGU.U.ACG.GGAGCGAGC.CCCC
+Human_adenovirus_13.2              AGCCCGA..UAGC........CGCCAGGAU.ACG.GCGGAGAGC.CCUU
+Human_adenovirus_17.1              AGCCCGA..UAGC........CGCCAGGAU.ACGCGGGAAGAGC.CCUU
+#=GC SS_cons                       .....................>>>>>>..>.>>>.>>>>>>>>>.>...
+//

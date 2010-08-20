@@ -1,0 +1,104 @@
+# STOCKHOLM 1.0
+#=GF ID    Corona_package
+#=GF AC    RF00182
+#=GF DE    Coronavirus packaging signal
+#=GF AU    Moxon SJ
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    96.0
+#=GF SE    PMID:12791173
+#=GF SS    Published; PMID:12791173
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    12791173
+#=GF RT    Identification of probable genomic packaging signal sequence from
+#=GF RT    SARS-CoV genome by bioinformatics analysis.
+#=GF RA    Qin L, Xiong B, Luo C, Guo ZM, Hao P, Su J, Nan P, Feng Y, Shi YX, Yu
+#=GF RA    XJ, Luo XM, Chen KX, Shen X, Shen JH, Zou JP, Zhao GP, Shi TL, He WZ,
+#=GF RA    Zhong Y, Jiang HL, Li YX;
+#=GF RL    Acta Pharmacol Sin 2003;24:489-496.
+#=GF RN    [2]
+#=GF RM    11533169
+#=GF RT    Cooperation of an RNA packaging signal and a viral envelope protein
+#=GF RT    in coronavirus RNA packaging.
+#=GF RA    Narayanan K, Makino S;
+#=GF RL    J Virol 2001;75:9059-9067.
+#=GF CC    This family represents a predicted coronavirus packaging signal. Within a
+#=GF CC    virally infected cell, viral genome and viral proteins specifically and
+#=GF CC    selectively unite into progeny viruses [2]. This process is called
+#=GF CC    packaging and is vital for viral replication. Viral RNA containing a
+#=GF CC    packaging signal allows the sequence to be efficiently packaged into the
+#=GF CC    virion [1].
+#=GF WK    http://en.wikipedia.org/wiki/Coronavirus_packaging_signal
+#=GF SQ    15
+
+#=GS M.musculus.1           AC    X57302.1/2881-3009
+#=GS Murine_hepatitis_vir.1 AC    M55148.1/20308-20436
+#=GS Murine_hepatitis_vir.2 AC    X51939.1/6955-7083
+#=GS B.coronavirus.1        AC    AF159126.1/64-192
+#=GS B.coronavirus.2        AC    AF391542.1/20004-20132
+#=GS B.coronavirus.3        AC    U00735.2/20004-20132
+#=GS Murine_hepatitis_vir.3 AC    AF207902.1/20093-20221
+#=GS Murine_hepatitis_vir.4 AC    S59673.1/1335-1463
+#=GS Murine_hepatitis_vir.5 AC    AF208066.1/20090-20218
+#=GS B.coronavirus.4        AC    AF220295.1/20004-20132
+#=GS Murine_hepatitis_vir.6 AC    AF208067.1/20246-20374
+#=GS Murine_hepatitis_vir.7 AC    AF201929.1/20093-20221
+#=GS B.coronavirus.5        AC    AF391541.1/20004-20132
+#=GS Murine_hepatitis_vir.8 AC    AF029248.1/20255-20383
+#=GS Murine_hepatitis_vir.9 AC    M61144.1/2921-3049
+
+M.musculus.1                       GACGGUGACGAUGUUAUCUUCAGCCGUACAGGGAGCCUUGAACCGAGCCA
+Murine_hepatitis_vir.1             GACGGUGACGAUGUUAUCUUCAGCCGUACAGGGAGCCUUGAACCGAGCCA
+Murine_hepatitis_vir.2             GACGGUGACGAUGUUAUCUUCAGCCGUACAGGGAGCCUUGAACCGAGCCA
+B.coronavirus.1                    GAGGGUCAGGAUGUCAUCUUCAGCCAAUUCGACAGCCUGAGAGUCAGCUC
+B.coronavirus.2                    GAGGGUCAGGAUGUCAUCUUCAGCCAAUUCGACAGCCUGAGAGUCAGCUC
+B.coronavirus.3                    GAGGGUCAGGAUGUCAUCUUCAGCCAAUUCGACAGCCUGAGAGUCAGCUC
+Murine_hepatitis_vir.3             GACGGUGACGAUGUUAUCUUCAGCCGUACAGGGAGCCUUGAACCGAGCCA
+Murine_hepatitis_vir.4             GACGGUGACGAUGUUAUCUUCAGCCGUACAGGGAGCCUUGAACCGAGCCA
+Murine_hepatitis_vir.5             GACGGUGACGAUGUUAUCUUCAGCCGUACAGGGAGCCUUGAACCGAGCCA
+B.coronavirus.4                    GAGGGUCAGGAUGUCAUCUUCAGCCAAUUCGACAGCCUGAGAGUCAGCUC
+Murine_hepatitis_vir.6             GACGGUGACGAUGUUAUCUUCAGCCGUACAGGGAGCCUUGAACCGAGCCA
+Murine_hepatitis_vir.7             GACGGUGACGAUGUUAUCUUCAGCCGUACAGGGAGCCUUGAACCGAGCCA
+B.coronavirus.5                    GAGGGUCAGGAUGUCAUCUUCAGCCAAUUCGACAGCCUGAGAGUCAGCUC
+Murine_hepatitis_vir.8             GACGGUGACGAUGUUAUCUUCAGCCGUACAGGGAGCCUUGAACCGAGCCA
+Murine_hepatitis_vir.9             GACGGUGACGAUGUUAUCUUCAGCCGUACAGGGAGCCUUGAACCGAGCCA
+#=GC SS_cons                       ...........<<<<<...<<..<<<...<<<<<.<<......<<<.<<<
+
+M.musculus.1                       UUACCGGAGCCCACAAGGUAAUCCGGGUGGUAAUCGCGUGGGUGAUCUCA
+Murine_hepatitis_vir.1             UUACCGGAGCCCACAAGGUAAUCCGGGUGGUAAUCGCGUGGGUGAUCUCA
+Murine_hepatitis_vir.2             UUACCGGAGCCCACAAGGUAAUCCGGGUGGUAAUCGCGUGGGUGAUCUCA
+B.coronavirus.1                    UAACCAGAGCCCACAAGGUAAUCUGGGGAGUAAUGAACCCGGUAAUGUCG
+B.coronavirus.2                    UAACCAGAGCCCACAAGGUAAUCUGGGGAGUAAUGAACCCGGUAAUGUCG
+B.coronavirus.3                    UAACCAGAGCCCACAAGGUAAUCUGGGGAGUAAUGAACCCGGUAAUGUCG
+Murine_hepatitis_vir.3             UUACCGGAGCCCACAAGGUAAUCCGGGUGGUAAUCGCGUGGGUGAUCUCA
+Murine_hepatitis_vir.4             UUACCGGAGCCCACAAGGUAAUCCGGGUGGUAAUCGCGUGGGUGAUCUCA
+Murine_hepatitis_vir.5             UUACCGGAGCCCACAAGGUAAUCCGGGUGGUAAUCGCGUGGGUGAUCUCA
+B.coronavirus.4                    UAACCAGAGCCCACAAGGUAAUCUGGGGAGUAAUGAACCCGGUAAUGUCG
+Murine_hepatitis_vir.6             UUACCGGAGCCCACAAGGUAAUCCGGGUGGUAAUCGCGUGGGUGAUCUCA
+Murine_hepatitis_vir.7             UUACCGGAGCCCACAAGGUAAUCCGGGUGGUAAUCGCGUGGGUGAUCUCA
+B.coronavirus.5                    UAACCAGAGCCCACAAGGUAAUCUGGGGAGUAAUGAACCCGGUAAUGUCG
+Murine_hepatitis_vir.8             UUACCGGAGCCCACAAGGUAAUCCGGGUGGUAAUCGCGUGGGUGAUCUCA
+Murine_hepatitis_vir.9             UUACCGGAGCCCACAAGGUAAUCCGGGUGGUAAUCGCGUGGGUGAUCUCA
+#=GC SS_cons                       ...<<<<<.<<.....>>...>>>>>.>>>...>>>....>>...>>>>>
+
+M.musculus.1                       GCGGUAAUGAAGCUCUAGCGCGUGGCACU
+Murine_hepatitis_vir.1             GCGGUAAUGAAGCUCUAGCACGUGGCACU
+Murine_hepatitis_vir.2             GCGGUAAUGAAGCUCUAGCGCGUGGCACU
+B.coronavirus.1                    GUGGUAAUGAUGCUCUGGCAACCUCCACU
+B.coronavirus.2                    GUGGUAAUGAUGCUCUGGCAACCUCCACU
+B.coronavirus.3                    GUGGUAAUGAUGCUCUGGCAACCUCCACU
+Murine_hepatitis_vir.3             GCGGUAAUGAAGCUCUAGCACGUGGCACU
+Murine_hepatitis_vir.4             GCGGUAAUGAAGCUCUAGCGCGUGGCACU
+Murine_hepatitis_vir.5             GCGGUAAUGAAGCUCUAGCACGUGGCACU
+B.coronavirus.4                    GUGGUAAUGAUGCUCUGGCAACCUCCACU
+Murine_hepatitis_vir.6             GCGGUAAUGAAGCUCUAGCGCGUGGCACU
+Murine_hepatitis_vir.7             GCGGUAAUGAAGCUCUAGCACGUGGCACU
+B.coronavirus.5                    GUGGUAAUGAUGCUCUGGCAACCUCCACU
+Murine_hepatitis_vir.8             GCGGUAAUGAAGCUCUAGCGCGUGGCACU
+Murine_hepatitis_vir.9             GCGGUAAUGAAGCUCUAGCACGUGGCACU
+#=GC SS_cons                       .>>>....>>.....>>>>>.........
+//

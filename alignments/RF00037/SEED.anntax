@@ -1,0 +1,115 @@
+# STOCKHOLM 1.0
+#=GF ID    IRE
+#=GF AC    RF00037
+#=GF DE    Iron response element
+#=GF AU    Griffiths-Jones SR
+#=GF GA    20.0
+#=GF NC    20.0
+#=GF TC    20.0
+#=GF SE    Griffiths-Jones SR
+#=GF SS    Published; PMID:8710843
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    8710843
+#=GF RT    Molecular control of vertebrate iron metabolism: mRNA-based
+#=GF RT    regulatory circuits operated by iron, nitric oxide, and oxidative
+#=GF RT    stress.
+#=GF RA    Hentze MW, Kuhn LC;
+#=GF RL    Proc Natl Acad Sci U S A 1996;93:8175-8182.
+#=GF CC    The iron response element is a short conserved stem-loop which is
+#=GF CC    bound by iron response proteins (IRPs).  The IRE is found in UTRs
+#=GF CC    of various mRNAs whose products are involved in iron metabolism.
+#=GF CC    For example, the mRNA of ferritin (an iron storage protein)
+#=GF CC    contains one IRE in its 5' UTR.  When iron concentration is low,
+#=GF CC    IRPs bind the ferritin mRNA IRE leading to translation
+#=GF CC    repression.  Binding of multiple IREs in the 3' and 5' UTRs of
+#=GF CC    the transferrin receptor (involved in iron acquisition) leads to
+#=GF CC    increased mRNA stability.  These two activities form the basis of
+#=GF CC    iron homeostasis in the vertebrate cell.
+#=GF WK    http://en.wikipedia.org/wiki/Iron_response_element
+#=GF SQ    39
+
+#=GS A.ventricosus.1        AC    AY120878.1/50-76
+#=GS Gillichthys_mirabili.1 AC    AF266195.1/14-43
+#=GS O.mykiss.1             AC    D86625.1/6-35
+#=GS O.nerka.1              AC    AF338763.1/11-40
+#=GS S.salar.1              AC    S77386.1/28-57
+#=GS R.catesbeiana.1        AC    J02723.1/161-190
+#=GS R.catesbeiana.2        AC    M12120.1/24-53
+#=GS G.gallus.1             AC    X13753.1/1434-1460
+#=GS G.gallus.2             AC    X13753.1/1481-1507
+#=GS G.gallus.3             AC    X13753.1/1371-1397
+#=GS G.gallus.4             AC    M16343.1/1306-1335
+#=GS G.gallus.5             AC    X13753.1/830-856
+#=GS C.porcellus.1          AC    AB073371.1/5-34
+#=GS M.musculus.1           AC    BC019840.1/11-40
+#=GS M.musculus.2           AC    AJ426432.1/1658-1684
+#=GS M.musculus.3           AC    L39879.1/1190-1219
+#=GS M.musculus.4           AC    AF171078.1/1416-1442
+#=GS M.musculus.5           AC    AJ426432.1/1593-1619
+#=GS R.norvegicus.1         AC    J02741.1/400-429
+#=GS R.norvegicus.2         AC    M58040.1/3309-3335
+#=GS H.sapiens.1            AC    AL034379.8/68035-68064
+#=GS H.sapiens.2            AC    X03744.1/2-29
+#=GS H.sapiens.3            AC    BC016354.1/30-59
+#=GS H.sapiens.4            AC    AL355837.6/87643-87614
+#=GS H.sapiens.5            AC    AC073115.5/47515-47486
+#=GS H.sapiens.6            AC    AL513423.3/108544-108573
+#=GS H.sapiens.7            AC    X01060.1/3482-3508
+#=GS H.sapiens.8            AC    AP003174.2/91762-91734
+#=GS H.sapiens.9            AC    J04755.1/950-979
+#=GS H.sapiens.10           AC    X01060.1/3950-3976
+#=GS H.sapiens.11           AC    AC109352.3/19020-19048
+#=GS H.sapiens.12           AC    X01060.1/3432-3458
+#=GS H.sapiens.13           AC    BC001188.1/3791-3817
+#=GS H.sapiens.14           AC    AB062402.1/11-40
+#=GS H.sapiens.15           AC    AF117958.1/132-161
+#=GS C.lupus.1              AC    AF285177.1/3-32
+#=GS C.lupus.2              AC    AC183634.2/53289-53315
+#=GS D.leucas.1             AC    AF086786.1/2-28
+#=GS E.caballus.1           AC    AY112742.1/12-41
+
+A.ventricosus.1                    GGUCGC..GUCAACAGUGUUUGAU.CGAAC
+Gillichthys_mirabili.1             AUUCUUGCUUCAACAGUGUUUGAACGGAAU
+O.mykiss.1                         GUUCUUGUUUCAACAGUGAUUGAACGGAAC
+O.nerka.1                          UUACCUGCUUCAACAGUGCUUGAACGGCAA
+S.salar.1                          GUUCUUGCUUCAACAGUGAUUGAACGGAAC
+R.catesbeiana.1                    GUUCUUGCUUCAACAGUAUUUGAACGGAAC
+R.catesbeiana.2                    GUUCUUGCUUCAACAGUGUUUGAACGGAAC
+G.gallus.1                         UAUAUC..GGAGGCAGUGACCUCC.AUAUG
+G.gallus.2                         AUUAUC..GGGGACAGUGUUUCCC.AUAAU
+G.gallus.3                         AUUAUC..GGGGGCAGUGUCUUCC.AUAAU
+G.gallus.4                         GUUCCUGCGUCAACAGUGCUUGGACGGAAC
+G.gallus.5                         UUUAUC..AGUGACAGCGUUCACU.AUAAA
+C.porcellus.1                      UCUCCUGCUUCAACAGUGCUUGGACGGAGC
+M.musculus.1                       UGUCUUGCUUCAACAGUGUUUGAACGGAAC
+M.musculus.2                       UAUAUC..GGAGACAGUGAUCUCC.AUAUG
+M.musculus.3                       GUACUUGCUUCAACAGUGUUUGAACGGAAC
+M.musculus.4                       UGGUUC..GUCCUCAGUGCAGGGC.AACAG
+M.musculus.5                       AUUAUC..GGGAGCAGUGUCUUCC.AUAAU
+R.norvegicus.1                     UAUCUUGCUUCAACAGUGUUUGGACGGAAC
+R.norvegicus.2                     UAUAUC..GGAGACAGUGACCUCC.AUAUG
+H.sapiens.1                        UUUCCUGGUUCAACAGUGCUUGGACGGAAC
+H.sapiens.2                        UCUUGC..UUCAACAGUGUUUGGACGGAAG
+H.sapiens.3                        UCUCUUGCUUCAACAGUGUUUGGACGGAAC
+H.sapiens.4                        GUUCCUGCUUCAACAGUGUUUGGAUGGAAC
+H.sapiens.5                        UCUCUUGCUUCAACAGUGUUUGGAUGGAAC
+H.sapiens.6                        UUUCCUGCUUCAACAGUGCUUGGAUGGAAC
+H.sapiens.7                        AUUAUC..GGAAGCAGUGCCUUCC.AUAAU
+H.sapiens.8                        UUUCUUC.UUCAACAGUGUUUGGAUGGAAC
+H.sapiens.9                        UUUCCUGCUUCAGCAGUGCUUGGACGGAAC
+H.sapiens.10                       UGUAUC..GGAGACAGUGAUCUCC.AUAUG
+H.sapiens.11                       UUUCCUGUUUCAACAGUGCUUGGA.GGAAC
+H.sapiens.12                       UUUAUC..AGUGACAGAGUUCACU.AUAAA
+H.sapiens.13                       AUUAUC..GGGAACAGUGUUUCCC.AUAAU
+H.sapiens.14                       UUUCCUGCUUCAACAGUGCUUGGACGGAAC
+H.sapiens.15                       UCUCUUGUUUCAACAGUGUUUGGACGGAAC
+C.lupus.1                          GUUCCUGCUUCAACAGUGCUUGGACGGAAC
+C.lupus.2                          UCGUUC..GUCCUCAGUGCAGGGC.AACAG
+D.leucas.1                         UCGUUC..GUCCUCAGUGCAGGGC.AACAG
+E.caballus.1                       AGUCCUGCUUCAACAGUGCUUGAACGGAAC
+#=GC SS_cons                       <<<<<...<<<<<......>>>>>.>>>>>
+//

@@ -1,0 +1,32 @@
+# STOCKHOLM 1.0
+#=GF ID    PK1-TEV_CVMV
+#=GF AC    RF01102
+#=GF DE    5'-leader pseudoknot of TEV/CVMV
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    25.1
+#=GF SE    Pseudobase
+#=GF SS    Pseudobase
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    PKBASE; PKB00277
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    15911616
+#=GF RT    Cap-independent translation of tobacco etch virus is conferred by an
+#=GF RT    RNA pseudoknot in the 5'-leader.
+#=GF RA    Zeenko V, Gallie DR;
+#=GF RL    J Biol Chem. 2005;280:26813-26824.
+#=GF WK    http://en.wikipedia.org/wiki/Tobacco_etch_virus
+#=GF SQ    2
+
+#=GS Tobacco_etch_virus.1   AC    M15239.1/38-74
+#=GS Chilli_veinal_mottle.1 AC    AJ237843.3/24-59
+
+Tobacco_etch_virus.1               CGAAUCUCAAGCAAUCAAGCAUUCUACUUCUAUUGCA
+Chilli_veinal_mottle.1             CGAAU.UCAAGCAAUCAAGCAUUCAAGCGCUCUUUUA
+#=GC SS_cons                       .<<<<<<...AAAAA..>>.>>>>.......aaaaa.
+#=GC RF                            CGaauCuCAAGCAAUCAaGCauuCUACUUCUAUUGCA
+//

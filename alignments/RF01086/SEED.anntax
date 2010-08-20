@@ -1,0 +1,185 @@
+# STOCKHOLM 1.0
+#=GF ID    LR-PK1
+#=GF AC    RF01086
+#=GF DE    Long range pseudoknot
+#=GF AU    Wilkinson A
+#=GF GA    62.0
+#=GF NC    62.0
+#=GF TC    62.2
+#=GF SE    Pseudobase
+#=GF SS    Pseudobase
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    PKBASE; PKB00193
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    8861967
+#=GF RT    A long-range RNA-RNA interaction forms a pseudoknot required for
+#=GF RT    translational control of the IF3-L35-L20 ribosomal protein operon
+#=GF RT    in Escherichia coli.
+#=GF RA    Chiaruttini C, Milet M, Springer M
+#=GF RL    EMBO J. 1996;15:4402-4413.
+#=GF WK    http://en.wikipedia.org/wiki/Long_range_pseudoknots
+#=GF SQ    15
+
+#=GS A.macleodii.1          AC    CP001103.1/2698808-2698463
+#=GS Shewanella_amazonens.1 AC    CP000507.1/2161813-2162141
+#=GS Shewanella_frigidima.1 AC    CP000447.1/2399428-2399105
+#=GS E.coli.1               AC    V00291.1/2572-2912
+#=GS Klebsiella_pneumonia.1 AC    CP000647.1/2387680-2387342
+#=GS Pectobacterium_atros.1 AC    BX950851.1/2733479-2733138
+#=GS Salmonella_enterica_.1 AC    AE017220.1/1450543-1450884
+#=GS Serratia_proteamacul.1 AC    CP000826.1/2341975-2342328
+#=GS Yersinia_pestis_biov.1 AC    AAYR01000005.1/17930-18281
+#=GS Yersinia_mollaretii_.1 AC    AALD01000019.1/31328-31679
+#=GS Yersinia_bercovieri_.1 AC    AALC01000007.1/93422-93773
+#=GS Yersinia_intermedia_.1 AC    AALF01000001.1/219544-219894
+#=GS Yersinia_enterocolit.1 AC    AM286415.1/2094420-2094771
+#=GS P.profundum.1          AC    CR378670.1/46718-46372
+#=GS marine_metag.1         AC    AACY021112032.1/404-62
+
+A.macleodii.1                      ACUGAUGAAGGCGAUUACCAGGUAAAACUGCGCAACCUGCGUCGCUUUCU
+Shewanella_amazonens.1             ACUGAUGAAAACGACUAUCAGGUAAAACUACGCAACCUGAUUCGUUUCCU
+Shewanella_frigidima.1             ACUGAUGAAAACGACUAUCAGGUAAAACUACGCAACCUGAUUCGUUUUCU
+E.coli.1                           ACAGAUGAAGGCGACUAUCAGGUAAAACUCCGCAGCCUGAUUCGCUUUCU
+Klebsiella_pneumonia.1             ACUGAUGAAGGUGACUAUCAGGUAAAACUCCGCAGCCUGAUUCGCUUUCU
+Pectobacterium_atros.1             ACCGAUGAUGGCGACUAUCAGGUCAAACUACGCAACCUGAUUCGCUUUCU
+Salmonella_enterica_.1             ACAGAUGAAGGCGACUAUCAGGUAAAACUCCGCAGCCUGAUUCGCUUUCU
+Serratia_proteamacul.1             ACCGAUGAUGGCGACUAUCAGGUAAAACUACGCAACCUGAUUCGCUUUCU
+Yersinia_pestis_biov.1             ACCGAUGAUGGCGACUAUCAGGUCAAACUACGCAACCUGAUUCGCUUUCU
+Yersinia_mollaretii_.1             ACCGAUGAUGGCGACUAUCAGGUCAAACUACGCAACCUGAUUCGCUUUCU
+Yersinia_bercovieri_.1             ACCGAUGAUGGCGACUAUCAGGUCAAACUACGCAACCUGAUUCGCUUUCU
+Yersinia_intermedia_.1             ACCGAUGAUGGCGACUAUCAGGUCAAACUACGCAACCUGAUUCGCUUUCU
+Yersinia_enterocolit.1             ACCGAUGAUGGCGACUAUCAGGUCAAACUACGCAACCUGAUUCGCUUUCU
+P.profundum.1                      ACAGACGAAGGCGACUAUCAGGUAAAACUACGCAACCUGAUUCGCUUUUU
+marine_metag.1                     ACCGAUGAUGGCGACUACCAGGUAAAACUCCGCAGCCUGGUUCGCUUUCU
+#=GC SS_cons                       .<..<.<..<<<<<..<<<<<<<....AA.AAAA>>>>>>>>>>>>..>>
+#=GC RF                            ACagAUGAagGCGACUAuCAGGuAAAACUACGCAaCCUGaUUCGCuuUCU
+
+A.macleodii.1                      UGAAGGUGGUGACAAAGCCAAAGUUACGAUCCGCUUCCGCGGUCGUGAAA
+Shewanella_amazonens.1             UGAAGACGGUGACAAAGCGAAAGUUACGCUGCGUUUCCGGGGUCGCGAAA
+Shewanella_frigidima.1             AGAAGAUGGGGACAAAGCGAAAAUUACGCUGCGUUUCCGUGGUCGCGAAA
+E.coli.1                           CGAAGAGGGUGAUAAAGCCAAAAUCACGCUGCGUUUCCGCGGUCGUGAGA
+Klebsiella_pneumonia.1             CGAAGAUGGCGAUAAGGCCAAGAUCACGCUGCGUUUCCGCGGUCGUGAGA
+Pectobacterium_atros.1             UGAAGAUGGUGACAAAGCUAAAAUCACACUGCGUUUCCGCGGUCGUGAAA
+Salmonella_enterica_.1             CGAAGAGGGCGAUAAGGCCAAAAUCACGCUGCGUUUCCGCGGUCGUGAAA
+Serratia_proteamacul.1             UGAAGAUGGCGAUAAAGCCAAAAUCACCCUGCGUUUCCGUGGGCGUGAGA
+Yersinia_pestis_biov.1             GGAAGAUGGCGAUAAAGCCAAAAUCACCCUGCGGUUCCGUGGGCGUGAAA
+Yersinia_mollaretii_.1             GGAAGAUGGCGAUAAAGCCAAAAUCACCCUGCGAUUCCGCGGACGUGAAA
+Yersinia_bercovieri_.1             GGAAGAUGGCGAUAAAGCCAAAAUCACCCUGCGGUUCCGUGGGCGUGAAA
+Yersinia_intermedia_.1             GGAAGAUGGCGAUAAAGCCAAAAUCACCCUGCGAUUCCGUGGGCGUGAAA
+Yersinia_enterocolit.1             GGAAGAUGGCGAUAAAGCCAAAAUCACUCUGCGAUUCCGUGGACGUGAGA
+P.profundum.1                      AGAAGAGGGCAACAAGGGUAAAGUCACACUACGUUUCCGUGGUCGUGAAA
+marine_metag.1                     GGAAGAGGGUGAUAAAGCUAAGAUCACGCUGCGUUUCCGCGGUCGUGAGA
+#=GC SS_cons                       .>................................................
+#=GC RF                            cGAAGAuGGcGAuAAAGCcAAAAUcACgCUgCGuUUCCGuGGuCGUGAAA
+
+A.macleodii.1                      UGGCGCACCAAGACAUCGGUAUCGAUUUGCUAAACCGCGUUAAAACGGAU
+Shewanella_amazonens.1             UGGCACACCAAAACCUGGGUAUGGAUCUGAUGAACCGUAUCAAGGCUGAU
+Shewanella_frigidima.1             UGGCACACCAAAACCUAGGUAUGGAUCUUUUGAACCGUAUCAAGGCUGAU
+E.coli.1                           UGGCGCACCAGCAAAUCGGUAUGGAAGUGCUUAAUCGCGUGAAAGACGAU
+Klebsiella_pneumonia.1             UGGCCCACCAGCAGAUCGGUAUGGAAGUGCUUAACCGCGUGAAAGACGAU
+Pectobacterium_atros.1             UGGCACACCAACAGAUUGGUAUCGAAGUGCUUAACCGCGUUCGUGACGAU
+Salmonella_enterica_.1             UGGCCCACCAGCAAAUCGGUAUGGAAGUGCUUAAUCGCGUGAAAGACGAU
+Serratia_proteamacul.1             UGGCGCACCAACAGAUCGGCAUGGAAGUGCUUAACCGCGUCCGUAAAGAC
+Yersinia_pestis_biov.1             UGGCGCACCAACAGAUCGGUAUGGAAGUGCUUAACCGCGUCCGUAAAGAU
+Yersinia_mollaretii_.1             UGGCGCACCAACAGAUCGGCAUGGAAGUCCUUAACCGUGUCAAAAAAGAU
+Yersinia_bercovieri_.1             UGGCGCACCAGCAGAUCGGCAUGGAAGUUCUUAACCGUGUCAAAAAAGAU
+Yersinia_intermedia_.1             UGGCGCACCAACAGAUCGGCAUGGAAGUACUUAACCGUGUCAAAAAAGAU
+Yersinia_enterocolit.1             UGGCGCACCAACAGAUCGGCAUGGAAGUUCUUAACCGUGUCAAAAAAGAU
+P.profundum.1                      UGGCCCAUCAGAAUCUUGGUAUUGAUCUUCUGAAUCGUAUUAAGGCAGAA
+marine_metag.1                     UGGCUCACCAGCAGAUCGGUAUGGAAGUGCUUAACCGCGUCCGUGACGAU
+#=GC SS_cons                       ..................................................
+#=GC RF                            UGGCgCACCAacAgAUcGGUAUgGAagUgCUuAAcCGuGUuAAagaaGAU
+
+A.macleodii.1                      UUA.........GAAGAA.........AUCGCUACAUGCGAGUCUUUCCC
+Shewanella_amazonens.1             UUG.........GAAGAG.........UAUGCGGUUGUCGAAUCCUUCCC
+Shewanella_frigidima.1             UUG.........GAAGAG.........UAUGCGGUUGUUGAAUCUUUCCC
+E.coli.1                           UUG.........CAAGAA.........CUGGCAGUGGUCGAAUCCUUCCC
+Klebsiella_pneumonia.1             CUG.........GUUGAA.........CUGGCAGUAGUCGAAUCCUUCCC
+Pectobacterium_atros.1             CUG.........AGUGAA.........CUGGCAGUUGUCGAGUCCUUCCC
+Salmonella_enterica_.1             UUG.........CAAGAA.........CUGGCAGUGGUCGAAUCCUUCCC
+Serratia_proteamacul.1             CUG.........UGUGAAGAUUCUGAUUUGGCCAUUGUCGAAUCCUUCCC
+Yersinia_pestis_biov.1             CUG.........UGUGAAGAUUCUGAUUUGGCCGUUGUCGAGUCCUUCCC
+Yersinia_mollaretii_.1             CUG.........ACUGAAGAUUCUGAUUUAGCCGUCGUGGAGUCUUUCCC
+Yersinia_bercovieri_.1             CUGACUGAGGAUUCUGAU.........UUGGCCGUUGUGGAGUCUUUCCC
+Yersinia_intermedia_.1             CUG.........ACUGAAGAUUCUGAUUUGGCCGUUGUGGAGUCUUUCCC
+Yersinia_enterocolit.1             CUGACUGAGGAUUCUGAU.........UUGGCUGUAGUGGAGUCUUUCCC
+P.profundum.1                      CUU.........GAAGAC.........CUAGCGGUCUGCGAGAGCUUCCC
+marine_metag.1                     CUG.........AGUGAA.........CUGGCAGUGGUCGAAUCCUUCCC
+#=GC SS_cons                       ..................................................
+#=GC RF                            cUG.........gaaGAA.........uUgGCaGUuGucGAgUCuUUCCC
+
+A.macleodii.1                      ACGCCGUGUGGAAGGCCGUCAGAUGAUCAUGGUGCUAGCCCCAAAUAAGA
+Shewanella_amazonens.1             GA...AAAUGGAAGGUCGUCAAGCAAUUAUGGUGCUGGCACCCAAAAAGA
+Shewanella_frigidima.1             GA...AAAUGGAAGGUCGACAAGCAAUUAUGGUGCUAGCACCUAAAAAGA
+E.coli.1                           AACGAAGAUCGAAGGCCGCCAGAUGAUCAUGGUGCUCGCUCCUAAGAAGA
+Klebsiella_pneumonia.1             AACGAAGAUCGAAGGCCGCCAGAUGAUCAUGGUGCUCGCUCCUAAGAAGA
+Pectobacterium_atros.1             AUCGAAGAUCGAAGGCCGCCAGAUGAUCAUGGUGUUAGCACCGAAGAAGA
+Salmonella_enterica_.1             AACGAAGAUCGAAGGCCGUCAGAUGAUCAUGGUGCUUGCUCCUAAGAAGA
+Serratia_proteamacul.1             UACGAGGAUCGAAGGCCGUCAGAUGAUCAUGGUGCUCGCACCGAAGAAGA
+Yersinia_pestis_biov.1             GACUCGUAUCGAAGGCCGUCAGAUGAUCAUGGUGCUCGCACCUAAGAAGA
+Yersinia_mollaretii_.1             GACUCGUAUCGAAGGCCGUCAGAUGAUCAUGGUGCUCGCACCUAAGAAGA
+Yersinia_bercovieri_.1             GACUCGUAUCGAAGGCCGUCAGAUGAUCAUGGUGCUCGCACCUAAGAAGA
+Yersinia_intermedia_.1             GACUCGUAUCGAAGGCCGUCAGAUGAUCAUGGUGCUCGCACCUAAGAAGA
+Yersinia_enterocolit.1             GACUCGUAUCGAAGGCCGUCAGAUGAUCAUGGUGCUCGCACCUAAGAAGA
+P.profundum.1                      ACAUCGAGUUGAAGGUCGCCAAAUGACUAUGAUGCUUGCUCCAAAAAAGA
+marine_metag.1                     AUCGAAGAUCGAAGGCCGCCAGAUGAUCAUGGUGCUCGCUCCUAAGAAGA
+#=GC SS_cons                       ..................................................
+#=GC RF                            aacuagaAUcGAAGGcCGuCAGAUGAUcAUGGUGCUaGCaCCuAAgAAGA
+
+A.macleodii.1                      AGUA.GUAACGGUCUA...AAGUUUUA..AGGAAUCUGCACCCUUAAACA
+Shewanella_amazonens.1             AAUA.GUAGGGCUUUUGA.AAGUAACG..GCCGCCCUG..........CA
+Shewanella_frigidima.1             AAUA.GUAGGGCAACCCUAAAGUAGCA..AAAGUCUCU............
+E.coli.1                           AACA.GUAAGGCCUUC...AAGUAGCA..CUGUCUGUGGAGCCUUCGGGC
+Klebsiella_pneumonia.1             AACA.GUAAGGCCAUC...AAGAAACA..UUUCCGGUG..GGCUUCGGCU
+Pectobacterium_atros.1             AACA.GUAAGGCAUUC...AAGUAGCA..AUGCCGUGCGGCCUCUGUAUU
+Salmonella_enterica_.1             AACA.GUAAGGCCUUC...AAGUAACA..AUUCUGUGAAGCCUUCGGGCU
+Serratia_proteamacul.1             GGCA.GUAAGGCCUCC...AAGUAAUAAAACUCACGCAGCGCUUGCGUUG
+Yersinia_pestis_biov.1             GACA.GUAAGGCAUUC...AAGUAGCA..GGUUUCUCUACGCUUGCGUAG
+Yersinia_mollaretii_.1             GACA.GUAAGGCACUC...AAGUAACA..GGCUUCUCUGCGCUUGCGCAG
+Yersinia_bercovieri_.1             GACA.GUAAGGCAUUC...AAGUAACA..GAUCUCCCUGCGCUUGCGCAG
+Yersinia_intermedia_.1             GACA.GUAAGGCACUC...AAGUAAUA...GGCCUCUUCCUGCUUGCAGA
+Yersinia_enterocolit.1             GACA.GUAAGGCAUUC...AAGUAAUA..GGCCUCUCUUUGCUUGCAAAG
+P.profundum.1                      AGUAAUUACGGCAUUA...AAGUAGCU..AAAAGCGCUGCUCCGGCAGGG
+marine_metag.1                     AACA.GUAAGGCCUUC...AAGUAGCA..ACUCCUGUGGAGCCCUCAGGC
+#=GC SS_cons                       ..................................................
+#=GC RF                            AAcA.GUAAGGCauUc...AAGUAgcA..AaaaucuuugagCuuucaaaa
+
+A.macleodii.1                      CCUUG..CUGCUAAAC.AUUAGC.....CGGUAUGA.AGUGACUG.CAAC
+Shewanella_amazonens.1             AAGAG..CGGCCGUUCGCCU...........UACGU.UUUUUAAUAAACC
+Shewanella_frigidima.1             UGAGG..CUUUUGCUCGCCU...........UACGU.UU..AUUAAC.GU
+E.coli.1                           UCACA..GCUUUGUUCGCCU..U.....UGUUUCGU.UU..AUUAACAAU
+Klebsiella_pneumonia.1             CACUG..GUUUUGUUCGCCU..U.....UGUUUCGU.UU..AUUAACAAU
+Pectobacterium_atros.1             GUACG..GUUUUGUUCGCCU..UAUC..UGAUUCGUUUU..AUUAACAAU
+Salmonella_enterica_.1             UCACAG.GUUUUGUUCGCCU..A.....UGUUUCGU.UU..AUUAACAAU
+Serratia_proteamacul.1             UGUGG..GUUUUAUUCGCCUAAC.....UGAUUCGU.UG..UUUAACAAU
+Yersinia_pestis_biov.1             UAAGA..AACCUGUUCGCCUAGC.....UAGCUCGU.UGUAAUUAACAAU
+Yersinia_mollaretii_.1             CAAGA..GGUCUGUUCGCCUAGC.....UAGCUCGU.UGUAAUUAACAAU
+Yersinia_bercovieri_.1             CAAGA..GAUCUGUUCGCCUAGC.....UAGCUCGU.UGUAAUUAACAAU
+Yersinia_intermedia_.1             GUAGG..GGUCUGUUCGCCUAGC.....UAGCUCGU.UGUAAUUAACAAU
+Yersinia_enterocolit.1             UAGGA..GGUCUAUUCGCCUAGC.....UAGCUCGU.UGUAAUUAACAAU
+P.profundum.1                      CU.......UUUGUUCGCCUGAUUACUAUGAUUAUU.AACUAUCAACAAU
+marine_metag.1                     UUCGCAGGCGUUGUUCGCCU..A.....UGUUUCGU.UU..AUUAACAAU
+#=GC SS_cons                       .................................................a
+#=GC RF                            uaagg..guuuUGuUCGCCUAgu.....UGaUucGU.uuuaAUUAACAAU
+
+A.macleodii.1                      ACGAAAAAUACCGA.UAUUAA...ACAAUG..CGGA
+Shewanella_amazonens.1             CCCAAU...GCGGA.GUU.AGA..AGUAAU.GCCAA
+Shewanella_frigidima.1             CCCAAU...GCGGA.GUU.UU...AGAAAU.GCCUA
+E.coli.1                           GCGAA....GUGGAAGUU.AU...UAAAAU.GCCAA
+Klebsiella_pneumonia.1             GCGAA....GUGGAAGUU.AU...UAAAAU.GCCAA
+Pectobacterium_atros.1             GCGAA....GUGGAAAUA.AC......AAU.GCCAA
+Salmonella_enterica_.1             GCGAA....GUGGAAGUU.AU...UAAAAU.GCCAA
+Serratia_proteamacul.1             GCGAA....GUGGA.UUU.AA...UUAAAAUGCCAA
+Yersinia_pestis_biov.1             GCGAA....GUGGA.UAU.AU...UCAAUG..CCAA
+Yersinia_mollaretii_.1             GCGAA....GUGGA.UAU.AU...UCAAUG..CCAA
+Yersinia_bercovieri_.1             GCGAA....GUGGA.UAU.AU...UCAAUG..CCAA
+Yersinia_intermedia_.1             GCGAA....GUGGA.UAU.AU...UCAAUG..CCAA
+Yersinia_enterocolit.1             GCGAA....GUGGA.UAU.AU...UCAAUG..CCAA
+P.profundum.1                      GCGGA....GUCUC.AUC.AUGCCUAAGAU..GAAA
+marine_metag.1                     GCGAA....GUGGAAGUU.AU...UAAAAU.GCCAA
+#=GC SS_cons                       aaa.a....a<<<..<<<.........>>>..>>>.
+#=GC RF                            GCGAA....GugGA.auu.Au...uaAaau.GCcaA
+//

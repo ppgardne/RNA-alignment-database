@@ -1,0 +1,80 @@
+# STOCKHOLM 1.0
+#=GF ID    IRES_Cripavirus
+#=GF AC    RF00458
+#=GF DE    Cripavirus internal ribosome entry site (IRES)
+#=GF AU    Moxon SJ
+#=GF GA    29.0
+#=GF NC    19.5
+#=GF TC    101.6
+#=GF SE    Published; 11233983
+#=GF SS    Published; PMID:11233983
+#=GF TP    Cis-reg; IRES;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000243 SO:internal_ribosome_entry_site
+#=GF DR    GO:0043022 GO:ribosome binding
+#=GF RN    [1]
+#=GF RM    11233983
+#=GF RT    A tertiary structure model of the internal ribosome entry site (IRES)
+#=GF RT    for methionine-independent initiation of translation.
+#=GF RA    Kanamori Y, Nakashima N;
+#=GF RL    RNA 2001;7:266-274.
+#=GF CC    This family represents a Cripavirus internal ribosome entry site (IRES)
+#=GF CC    which is required for the production of capsid proteins through
+#=GF CC    IRES-mediated translation [1].
+#=GF WK    http://en.wikipedia.org/wiki/Cripavirus_internal_ribosome_entry_site_(IRES)
+#=GF SQ    7
+
+#=GS Drosophila_C_virus.1   AC    AF014388.1/6078-6278
+#=GS Cricket_paralysis_vi.1 AC    AF218039.1/6028-6228
+#=GS Himetobi_P_virus.1     AC    AB017037.1/6286-6484
+#=GS Plautia_stali_intest.1 AC    AB006531.1/6003-6204
+#=GS Black_queen_cell_vir.1 AC    AF183905.1/5647-5848
+#=GS Rhopalosiphum_padi_v.1 AC    AF022937.1/6935-7121
+#=GS Triatoma_virus.1       AC    AF178440.1/5925-6123
+
+Drosophila_C_virus.1               GUUAAGAUGUGAUCUUGCUUCCUU..AUACAAUUUUGAGAGGUUAAUAAG
+Cricket_paralysis_vi.1             GCAAAAAUGUGAUCUUGCUUGUAA..AUACAAUUUUGAGAGGUUAAUAAA
+Himetobi_P_virus.1                 GAAAAUGUGUGAUCUGAUUAGAAG..UAAGAAAAUUCCUAG.UUAUAAUA
+Plautia_stali_intest.1             CUGACUAUGUGAUCUUAUUAAAAUUAGGUUAAAUUUCGAGGUUAAAAAUA
+Black_queen_cell_vir.1             CCAACAAUGUGAUCUUGCUUGCGGA.GGCAAAAUUUGCACAGUAUAAAAU
+Rhopalosiphum_padi_v.1             AGUGUUGUGUGAUCUUGCGCGAU.......AAAUGCUGACG...UGAAAA
+Triatoma_virus.1                   UUGACUAUGUGAUCUUGCUUUCG....UAAUAAAAUUCUGUACAUAAAAG
+#=GC SS_cons                       <<<<<<<<<......<<<<<<<<<............AAAAAAA.......
+
+Drosophila_C_virus.1               AAGGAAGUAGUGCUAUCUUAAU.AAUUAGGUUAACUAUUUAGUUUUACUG
+Cricket_paralysis_vi.1             UUACAAGUAGUGCUAUUUUUGU.AUUUAGGUUAGCUAUUUAGCUUUACGU
+Himetobi_P_virus.1                 UUUUUAAUACUGCUACAUUUUU.AAGACCCUUAGUUAUUUAGCUUUACCG
+Plautia_stali_intest.1             GUUUUAAUAUUGCUAUAGUCUU.AGAGGUCUUGUAUAUUUAUACUUACCA
+Black_queen_cell_vir.1             CUGCAAGUAGUGCUAUUGUUGG.AAUCACCGUACCUAUUUAGGUUUACGC
+Rhopalosiphum_padi_v.1             CGUUGCGUAUUGCUACAACACU.....UGGUUAGCUAUUUAGCUUUACUA
+Triatoma_virus.1                   UCGAAAGUAUUGCUAUAGUUAAGGUUGCGCUUGCCUAUUUAGGCAUACUU
+#=GC SS_cons                       >>>>>>>>>....>>>>>>>>>....BBBB..<<<<....>>>>.....<
+
+Drosophila_C_virus.1               UUCAGGAUGCCUAU.UGGCAGCCCCA.UAA.UAUCCAGGACAC.CCUCUC
+Cricket_paralysis_vi.1             UCCAGGAUGCCUAG.UGGCAGCCCCA.CAA.UAUCCAGGAAGC.CCUCUC
+Himetobi_P_virus.1                 CCCAGGAUGGGGUG.CAGCGUUCCUG.CAA.UAUCCAGGGCAC..CUAGG
+Plautia_stali_intest.1             CACAAGAUGGACCG.GAGCAGCCCUC.CAA.UAUCUAGUGUAC..CCUCG
+Black_queen_cell_vir.1             UCCAAGAUCGGUGGAUAGCAGCCCUAUCAA.UAUCUAGGAGAA.CUGUGC
+Rhopalosiphum_padi_v.1             AUCAAGACGCCGUC.GUGCAGCCCAC.AAAA.GUCUAGAUA....CGUCA
+Triatoma_virus.1                   CUCAGGAUGGCGCG.UUGCAGUCCAA.CAAG.AUCCAGGGACUGUACAGA
+#=GC SS_cons                       <<<.<<<<<bbbb<.<<<.....>>>.>...>>>>>.>>>>.a.aaaaaa
+
+Drosophila_C_virus.1               UGCUUCUUAUAUGAUUAGGUUGUCAUUUAGAA..UAAGAAAAUAACCUGC
+Cricket_paralysis_vi.1             UGCGGUUUUUCAGAUUAGGUAGUCGAAAAACC..UAAGAAAUUUACCUGC
+Himetobi_P_virus.1                 UGCAGCCUUGUAGUUUUAGUGGACUUUAGGCU..AAAGAAUUUCACUAGC
+Plautia_stali_intest.1             UGCUCGCUCAAACAUUAAGUGGUGUUGUGCGA..AAAGAAUCUCACUUCA
+Black_queen_cell_vir.1             U.AUGUUUAGAAGAUUAGGUAGUCUCUAAACA...GAACAAUUUACCUGC
+Rhopalosiphum_padi_v.1             CAGGAGAGCAUACGCUAGGUCGCGUUGACUAUCCUUAUAUAU.GACCUGC
+Triatoma_virus.1                   AUUUUCC.UAUACCUCGAGUCGGGUUU.GGAA..UCUAAGGUUGACUCGC
+#=GC SS_cons                       ...<<<<<...<<<<.CCCCC>>>>..>>>>>...........ccccc..
+
+Drosophila_C_virus.1               UAACUUUCAA
+Cricket_paralysis_vi.1             UACAUUUCAA
+Himetobi_P_virus.1                 AAAUAAUAAU
+Plautia_stali_intest.1             AGAAAAAGAA
+Black_queen_cell_vir.1             UGAACAAAUU
+Rhopalosiphum_padi_v.1             AAAUAUAAAC
+Triatoma_virus.1                   UGUAAAUAAU
+#=GC SS_cons                       ..........
+//

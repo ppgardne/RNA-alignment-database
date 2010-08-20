@@ -1,0 +1,138 @@
+# STOCKHOLM 1.0
+#=GF ID    RyhB
+#=GF AC    RF00057
+#=GF DE    RyhB RNA
+#=GF AU    Bateman A; Moxon SJ
+#=GF GA    35.0
+#=GF NC    34.7
+#=GF TC    36.0
+#=GF SE    Bateman A
+#=GF SS    Predicted; PFOLD; Moxon SJ
+#=GF TP    Gene; sRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0000644 SO:antisense_RNA
+#=GF RN    [1]
+#=GF RM    11917098
+#=GF RT    A small RNA regulates the expression of genes involved in iron
+#=GF RT    metabolism in Escherichia coli.
+#=GF RA    Masse E, Gottesman S;
+#=GF RL    Proc Natl Acad Sci U S A 2002;99:4620-4625.
+#=GF RN    [2]
+#=GF RM    11448770
+#=GF RT    Novel small RNA-encoding genes in the intergenic regions of
+#=GF RT    Escherichia coli.
+#=GF RA    Argaman L, Hershberg R, Vogel J, Bejerano G, Wagner EG, Margalit H,
+#=GF RA    Altuvia S;
+#=GF RL    Curr Biol 2001;11:941-950.
+#=GF RN    [3]
+#=GF RM    15913835
+#=GF RT    Micros for microbes: non-coding regulatory RNAs in bacteria.
+#=GF RA    Gottesman S;
+#=GF RL    Trends Genet 2005;21:399-404.
+#=GF CC    The RyhB 90-nt RNA down-regulates a set of iron-storage and
+#=GF CC    iron-using proteins when iron is limiting; it is itself
+#=GF CC    negatively regulated by the ferric uptake repressor protein,
+#=GF CC    Fur (Ferric uptake regulator). RyhB RNA levels are inversely
+#=GF CC    correlated with mRNA levels for the sdhCDAB operon, encoding
+#=GF CC    succinate dehydrogenase, as well as five other genes previously
+#=GF CC    shown to be positively regulated by Fur by an unknown mechanism.
+#=GF CC    These include two other genes encoding enzymes in the tricarboxylic
+#=GF CC    acid cycle, acnA and fumA, two ferritin genes, ftnA and bfr,
+#=GF CC    and a gene for superoxide dismutase, sodB [1].
+#=GF CC    This ncRNA gene was recently identified in a screen and called
+#=GF CC    SraI and was found to be expressed only in stationary phase [2].
+#=GF WK    http://en.wikipedia.org/wiki/RyhB_RNA
+#=GF SQ    28
+
+#=GS Aeromonas_salmonicid.1 AC    CP000644.1/197460-197521
+#=GS Enterobacter.1         AC    CP000653.1/1810088-1810151
+#=GS Enterobacter.2         AC    CP000653.1/4158599-4158664
+#=GS Klebsiella_pneumonia.1 AC    CP000647.1/1404503-1404566
+#=GS P.carotovorum.1        AC    X76000.1/258-323
+#=GS Pectobacterium_atros.1 AC    BX950851.1/2247640-2247706
+#=GS Pectobacterium_atros.2 AC    BX950851.1/4651375-4651440
+#=GS Photorhabdus_lumines.1 AC    BX571859.1/98893-98959
+#=GS Photorhabdus_lumines.2 AC    BX571867.1/241198-241263
+#=GS Salmonella_enterica_.1 AC    CP000026.1/1645920-1645987
+#=GS S.enterica.1           AC    AL627281.1/157209-157273
+#=GS Salmonella_enterica_.2 AC    CP001113.1/3689915-3689979
+#=GS Shigella_sonnei_Ss04.1 AC    CP000038.1/3861541-3861605
+#=GS S.glossinidius.1       AC    AP008232.1/2523004-2523068
+#=GS S.glossinidius.2       AC    AP008232.1/4010614-4010678
+#=GS Yersinia_enterocolit.1 AC    AM286415.1/4382145-4382210
+#=GS Y.enterocolitica.1     AC    AY008264.2/541-607
+#=GS Yersinia_mollaretii_.1 AC    AALD01000025.1/22304-22367
+#=GS Y.intermedia.1         AC    AY183121.1/21-87
+#=GS Yersinia_pestis_biov.1 AC    AAYS01000010.1/87292-87356
+#=GS Vibrio.1               AC    AAKK02000018.1/63583-63648
+#=GS Vibrio_vulnificus_YJ.1 AC    BA000037.2/195620-195685
+#=GS Vibrio_cholerae_MZO-.1 AC    AAUU01000182.1/344-409
+#=GS Vibrio_harveyi_HY01.1  AC    AAWP01000024.1/10098-10163
+#=GS Vibrionales_bacteriu.1 AC    AAZW01000010.1/62465-62530
+#=GS N.vitripennis.1        AC    AAZX01022620.1/429-499
+#=GS N.vitripennis.2        AC    AAZX01022803.1/236-304
+#=GS marine_metag.1         AC    AACY022459113.1/47-108
+
+Aeromonas_salmonicid.1             GAAGGCACGACAUUGCUCACAUUGCUUCCAGUUAUA.....GGGCCAG..
+Enterobacter.1                     UUUAGUACGACAUUGCUCACAUUGCUUCCAGUAUUUCUU..GCCCACU..
+Enterobacter.2                     GAAAGCACGACAUUGCUCACAUUGCUUCCAGUAUUACUUU.AGCCAGC..
+Klebsiella_pneumonia.1             UUCAGUACGACAUUGCUCACAUUGCUUCCAGUAUUUU....UGCCCGC..
+P.carotovorum.1                    GAGAGCACGACAUUGCUCACAUUGCUUCCAGUAUUAUUUU.AGCCAGC..
+Pectobacterium_atros.1             GAGAGCACGACAUUGCUCACAUUGCUUCCAGUAUUAUUUU.AGCCAGC..
+Pectobacterium_atros.2             GAAGGCACGACAUUGCUCACAUUGCUUCCAGUAUUAUUU..AGCCAGC..
+Photorhabdus_lumines.1             GAAAGCACGACAUUGCUCACAUUGCUUCCAGUGUUUACUUUAGCCAGC..
+Photorhabdus_lumines.2             AAAAGCACGACAUUGCUCACAUUGCUUCCAGUGUUUUUU..AGCCAGC..
+Salmonella_enterica_.1             UUCGGUACGACAUUGCUCACAUUGCUUCCAGUAUUAUUU..GCCCGCCUC
+S.enterica.1                       GAAAGCAUGACAUUGCUCACAUUGCUUCCAGUUUUAUUUU.GGCCAGC..
+Salmonella_enterica_.2             GAAAGCACGACAUUGCUCACAUUGCUUCCAGUAUUAUUUU.GGCCAGC..
+Shigella_sonnei_Ss04.1             GAAAGCACGACAUUGCUCACAUUGCUUCCAGUAUUACUU..AGCCAGC..
+S.glossinidius.1                   AUGGGCACGGCAUUGCUCAUAUUGCUUCCAGUAUUAUUU..AGCCAGC..
+S.glossinidius.2                   GGGAGCACGACAUUGCUCACAUUGCUUCCAGUA..AUUUC.AGCCAGC..
+Yersinia_enterocolit.1             GAAGGCACGACAUUGCUCACAUUGCUUCCAGUGUUUACUU.AGCCAGC..
+Y.enterocolitica.1                 AAAAGCACGACAUUGCUCACAUUGCUUCCAGUGUUUUUUA.AGCCAGC..
+Yersinia_mollaretii_.1             GAAAGCACGACAUUGCUCACAUUGCUUCCAGUGUUUA....GGCCGGC..
+Y.intermedia.1                     GAAAGCACGACAUUGCUCACAUUGCUUCCAGUGUUUUUUA.AGCCAGC..
+Yersinia_pestis_biov.1             AAAAGCACGACAUUGCUCACAUUGCUUCCAGUAUU..UUA.AGCCAGC..
+Vibrio.1                           UUUGACACGACAUUGCUCACAUUGCUUCCAGUGUAAUUUA.UAGCUUC..
+Vibrio_vulnificus_YJ.1             UUUGACACGACAUUGCUCACAUUGCUUCCAGUGUAAUUUA.UAGCUUU..
+Vibrio_cholerae_MZO-.1             UUUGACACGACAUUGCUCACAUUGCUUCCAGUGUAAUUUU.UAGCUUU..
+Vibrio_harveyi_HY01.1              UUUGACACGACAUUGCUCACAUUGCUUCCAGUGUAAUUUA.UAGCUUC..
+Vibrionales_bacteriu.1             UUUGACACGACAUUGCUCACAUUGCUUCCAGUGUAAUUUA.UAGCUUU..
+N.vitripennis.1                    UUUGCAACGACAUUGCUCACAUUGCUUCCAGUAUUUACUGUGACCAACAC
+N.vitripennis.2                    UUCACAACGACAUUGCUCACAUUGCUUCUAGUAUUUAUU..GACCAACUC
+marine_metag.1                     GAAGGCACGACAUUGCUCACAUUGCUUCCAGUUAAGG....GGCCAGU..
+#=GC SS_cons                       ......<<<<....<<.......>>.>>..>>.........<<<<<<<..
+#=GC RF                            gAaaGcaCGaCAUUGCUCACAUUGCUuCCAGuaUUAuuUu.ggCCagC..
+
+Aeromonas_salmonicid.1             .UUCU.UCUGGCCCUCUUUUU
+Enterobacter.1                     .UUU..UAGUGGGCUUUUUUU
+Enterobacter.2                     .UUAA.CGCUGGCUUUUUUUU
+Klebsiella_pneumonia.1             .ACUUGUGCGGGCUUUUUUUA
+P.carotovorum.1                    .CGACGUGCUG.CUUUUUUUU
+Pectobacterium_atros.1             .CUACGUGCUGGCUUUUUUUU
+Pectobacterium_atros.2             .UCGGGUGCUGGCUUUUUUUU
+Photorhabdus_lumines.1             .CAAG.UGCUGGCUUCUUUUU
+Photorhabdus_lumines.2             .UCGGGUGCUGGCUUUUUUUU
+Salmonella_enterica_.1             ACCGAGU.GCGGGCUUUUUUU
+S.enterica.1                       .UUU..UGCUGGCUUUUUUUU
+Salmonella_enterica_.2             .UUU..UGCUGGCUUUUUUUU
+Shigella_sonnei_Ss04.1             .CGGG.UGCUGGCUUUUUUUU
+S.glossinidius.1                   .AGGG.UGCUGGCUUUUUUUU
+S.glossinidius.2                   .UUGUGCGCUGGCUUUUUUUG
+Yersinia_enterocolit.1             .CGGG.UGCUGGCUUUUUUUU
+Y.enterocolitica.1                 .UCGGGUGCUGGCUUUUUUUU
+Yersinia_mollaretii_.1             .UCGGGUGCUGGCCCUUUUUU
+Y.intermedia.1                     .UCGGGUGCUGGCUUUUUUUU
+Yersinia_pestis_biov.1             .UCGGGUGCUGGCUUUUUUGU
+Vibrio.1                           .UUGGUU.AAGCUGCUCUAUU
+Vibrio_vulnificus_YJ.1             .AUGGUU.AAGCUGCCGUAUU
+Vibrio_cholerae_MZO-.1             .UUGG.UAAAGCGAAUCAAAA
+Vibrio_harveyi_HY01.1              .UUGGUU.AAGCUGCCAUACA
+Vibrionales_bacteriu.1             .UAGG.UAAAGCUGUGGUAUU
+N.vitripennis.1                    UUAAUGUGUUGGUCUUUUUUU
+N.vitripennis.2                    UCCUAGCGUUGGUCUUUUUUU
+marine_metag.1                     .UUU..UACUGGCCCUCUUUU
+#=GC SS_cons                       .......>>>>>>>.......
+#=GC RF                            .uaaaGUGcuGGccUuUUUUU
+//

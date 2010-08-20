@@ -1,0 +1,28 @@
+# STOCKHOLM 1.0
+#=GF ID    CRISPR-DR42
+#=GF AC    RF01351
+#=GF DE    CRISPR RNA direct repeat element
+#=GF AU    Wilkinson A
+#=GF GA    19.2
+#=GF NC    0.0
+#=GF TC    24.8
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; CRISPR;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    URL; http://crispr.u-psud.fr/crispr/CRISPRHomePage.php
+#=GF DR    SO:0001459 SO:CRISPR
+#=GF WK    http://en.wikipedia.org/wiki/CRISPR
+#=GF SQ    3
+
+#=GS Methanocaldococcus_j.1 AC    L77117.1/1177478-1177506
+#=GS Methanocaldococcus_j.2 AC    L77117.1/471658-471686
+#=GS M.jannaschii.1         AC    DQ516721.1/34-62
+
+Methanocaldococcus_j.1             GUUUCCAUACAAUAUUGUUCUUCUUAAAC
+Methanocaldococcus_j.2             GUUUCCAUACAACAAUGUUCUUCUUAAAC
+M.jannaschii.1                     GUUUCCAUACAAUACUGUUCUCCUUAAAC
+#=GC SS_cons                       .............................
+#=GC RF                            GUUUCCAUACAAuAaUGUUCUUCUUAAAC
+//

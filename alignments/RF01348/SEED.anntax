@@ -1,0 +1,32 @@
+# STOCKHOLM 1.0
+#=GF ID    CRISPR-DR38
+#=GF AC    RF01348
+#=GF DE    CRISPR RNA direct repeat element
+#=GF AU    Wilkinson A
+#=GF GA    28.0
+#=GF NC    27.4
+#=GF TC    28.2
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; CRISPR;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    URL; http://crispr.u-psud.fr/crispr/CRISPRHomePage.php
+#=GF DR    SO:0001459 SO:CRISPR
+#=GF WK    http://en.wikipedia.org/wiki/CRISPR
+#=GF SQ    5
+
+#=GS Chlorobium_phaeobact.1 AC    CP001101.1/2492534-2492568
+#=GS Chlorobium_limicola_.1 AC    CP001097.1/1011761-1011795
+#=GS Chlorobium_phaeobact.2 AC    CP000492.1/2383285-2383319
+#=GS Chlorobium_ferrooxid.1 AC    AASE01000021.1/30301-30335
+#=GS Pelodictyon_phaeocla.1 AC    CP001110.1/2546719-2546753
+
+Chlorobium_phaeobact.1             AACUAUAUCUAAUCGCACUCAUGGAGAAUUGAAAC
+Chlorobium_limicola_.1             CUUUAUAUCUAAUUGCACUCAUUGAGGAUUGAAAC
+Chlorobium_phaeobact.2             CUUUAUAUCUUAUUGCACUCAUAGAGGAUUGAAAC
+Chlorobium_ferrooxid.1             GAUCAUAUCUUAUUGCACUCAUAGAGGAUUGAUUA
+Pelodictyon_phaeocla.1             CAUCAUAUCUUAUUGCACGCAUAGCGGAUUGAAAC
+#=GC SS_cons                       .................<<<...>>>.........
+#=GC RF                            CaUuAUAUCUaAUUGCACgCAUaGcGGAUUGAAAC
+//

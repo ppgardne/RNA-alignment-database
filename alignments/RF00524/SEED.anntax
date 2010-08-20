@@ -1,0 +1,152 @@
+# STOCKHOLM 1.0
+#=GF ID    R2_retro_el
+#=GF AC    RF00524
+#=GF DE    R2 RNA element
+#=GF AU    Moxon SJ
+#=GF GA    38.0
+#=GF NC    37.3
+#=GF TC    38.0
+#=GF SE    PMID:15146081
+#=GF SS    Published; PMID:15146081
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    15146081
+#=GF RT    Secondary structure models of the 3' untranslated regions of diverse
+#=GF RT    R2 RNAs.
+#=GF RA    Ruschak AM, Mathews DH, Bibillo A, Spinelli SL, Childs JL, Eickbush
+#=GF RA    TH, Turner DH;
+#=GF RL    RNA 2004;10:978-987.
+#=GF RN    [2]
+#=GF RM    7679954
+#=GF RT    Reverse transcription of R2Bm RNA is primed by a nick at the
+#=GF RT    chromosomal target site: a mechanism for non-LTR retrotransposition.
+#=GF RA    Luan DD, Korman MH, Jakubczak JL, Eickbush TH;
+#=GF RL    Cell 1993;72:595-605.
+#=GF CC    This family represents the 3' UTR region of the R2 retrotransposable
+#=GF CC    element. This family is known to interact with the R2-encoded reverse
+#=GF CC    transcriptase in a reaction known as target primed reverse transcription
+#=GF CC    (TPRT) [1,2].
+#=GF WK    http://en.wikipedia.org/wiki/R2_RNA_element
+#=GF SQ    15
+
+#=GS D.sucinea.1       AC    U81814.1/504-719
+#=GS D.yakuba.1        AC    U13035.1/1423-1647
+#=GS D.melanogaster.1  AC    X51967.1/3349-3585
+#=GS D.ananassae.1     AC    U81809.1/517-738
+#=GS D.ambigua.1       AC    U81985.1/508-709
+#=GS D.willistoni.1    AC    U81815.1/525-734
+#=GS D.teissieri.1     AC    U13034.1/1423-1648
+#=GS D.takahashii.1    AC    U81811.1/530-751
+#=GS D.pseudoobscura.1 AC    U81812.1/515-708
+#=GS D.sechellia.1     AC    U13032.1/1423-1651
+#=GS D.persimilis.1    AC    U81813.1/515-708
+#=GS D.mauritiana.1    AC    U13031.1/1423-1644
+#=GS D.bipectinata.1   AC    U81810.1/484-703
+#=GS D.simulans.1      AC    U13033.1/1423-1658
+#=GS F.auricularia.1   AC    AF015819.1/3308-3490
+
+D.sucinea.1                   GCUUGAUC.UCUGUAUUUGUUUCU.AUUUUGAACAUU...UGCCUGCUAC
+D.yakuba.1                    ACGUAGCUUAAAACGUUUGGUUCA.CA....UACAUC...UGCCUGCUGC
+D.melanogaster.1              ACUUAGCU.AAAUCGUUUGGUUC..AA....AACAUU...UGCUUGCUGU
+D.ananassae.1                 ACUUAAUC.A.UGCACCACGAAC..AU....AUUGAUGAAAGCUUGCUGC
+D.ambigua.1                   ACCUAGCC.GAAACACUAUGUUGG.AA....AGAAGA...CGCUUGCUAC
+D.willistoni.1                AUGUACUA.ACCUCUAGCUUUUCUUAU....ACCUUU...UGCCUGCUAC
+D.teissieri.1                 ACGUAGCU.UAAACGUUUGGUUCA.CA....UACAUC...UGCCUGCUGC
+D.takahashii.1                ACGUAGCUGAGCGCGUUUGAUAUA.GU....GAUAAA...UGCCUGCUGC
+D.pseudoobscura.1             ACUUAGCC.UAUACACUAUGUUGG.AG....AGAGAC....GCUUGCUAC
+D.sechellia.1                 ACUUAGCU.AAAACGUUUGGUUC..AA....AACAUU...UGCUUGCUGU
+D.persimilis.1                ACUUAGCC.UAUACACUAUGUUGG.AG....AGAGAC....GCUUGCUAC
+D.mauritiana.1                ACUUAGCU.AAAUCGUUUGGUUC..AA....AACAUU...UGCUUGCUGU
+D.bipectinata.1               ACUUAAUC.A.UGCAUCACGUUC..AU....AUUAAA...AGCUUGCUGC
+D.simulans.1                  ACUUAGCU.AAAACGUUUGGUUC..AA....AACAUU...UGCUUGCUGU
+F.auricularia.1               AAAUCGCA.U.UGGGAUAGGAUG..AU....AGCG............CAC
+#=GC SS_cons                  ...............................................<<<
+
+D.sucinea.1                   CUUGGCAUAACAUCAA.U.AAGGUACAAACAUCGCAAA............
+D.yakuba.1                    CUUGGCACAAUAUCAA.A.AAGGCAUAAACAUCGCACAUAAUGGUUAU..
+D.melanogaster.1              CUUGGCAUAACAUCAAUA.AAGGCAUAAACAUCGCAAAAUAAUGGUUAUA
+D.ananassae.1                 CGUAGCAUAACACCUAAAAACGGCAUAAAAUUCGCAU.............
+D.ambigua.1                   CUAGGCAUAAUGUAAAAU.UAGGUAUAAACAUCGCAGU............
+D.willistoni.1                CUUGGCAUUACAUCUAAA.AAGGUACAAACAUCGCAUU............
+D.teissieri.1                 CUUGGCAUAAUAUCAA.A.AAGGCAUAAACAUCGCACAAUAAUGGU....
+D.takahashii.1                CUGGGCUCAACAUCAAAUGCAGGCAUAAACAUCGCAAC............
+D.pseudoobscura.1             CUAGGCAUAAUGUGAA.U.UAGGUAUAAACAUCGUGGU............
+D.sechellia.1                 CUUGGCAUAACAUCAAUA.AAGGCAUAAACAUCGCAAAUAAUGGUAAUAU
+D.persimilis.1                CUAGGCAUAAUGUGAA.U.UAGGUAUAAACAUCGUGGU............
+D.mauritiana.1                CUUGGCAUAACAUCAAUA.AAGGCAUAAACAUCGCAAAUAAUGGUAAUAU
+D.bipectinata.1               CGUAGCAUAACAUCUAAAAACGGCAUAAAAUUCGCUUA............
+D.simulans.1                  CUUGGCAUAACAUCAAUA.AAGGCAUAAACAUCGCAAAACAAUGGUUAUA
+F.auricularia.1               CUGGUCAUCGUCUCUC.U.CAGCUGCUCA.CUUGCUGUUC..........
+#=GC SS_cons                  <<<................>>>>>>.....<<<<<...............
+
+D.sucinea.1                   ...AAGUCAUC.AUAAGGUGGG..UUUUAGUACG.UAGGCGCUGU...AG
+D.yakuba.1                    ..U..UACGGCUAUGAGGAUGG..UUUUAGUACG.UAGGCGUUGC...GG
+D.melanogaster.1              AUUAAAUGGCU.AUGAGGAUGG..UUUUAGUACG.UAGGCGUUGC...GG
+D.ananassae.1                 ........AAA.ACGAGGCGGU..UUUUAGUACG.UAGGCAUCUCUGGGG
+D.ambigua.1                   ..U..GUAAAC.UUGAGG.UGG...UUUAGUACG.UAGGCGUGAU...GA
+D.willistoni.1                .....GUCAUA.AAGAGG.UGG..UUUUAGUACG.UAGGCGCUGU...GG
+D.teissieri.1                 ..UAAUACGGCUAUGAGGAUGG..UUUUAGUACG.UAGGCGUUGC...GG
+D.takahashii.1                ..UAGCA.ACA.AGGAGGAUGGU.UUUUAGUACG.UAGGCAUUGC...GG
+D.pseudoobscura.1             ..U..GUAAAC.UUGAG.UGGG..UUUUAGUACGGUAUGCGUG.....AU
+D.sechellia.1                 A.UAAAUUGGCUAUGAGGAUGG..UUUUAGUACG.UAGGCGUUGC...GG
+D.persimilis.1                ..U..GUAAAC.UUGAG.UGGG..UUUUAGUACGGUAUGCGUG.....AU
+D.mauritiana.1                A.UAAAUGGCU.AUGAGGAUGG..UUUUAGUACG.UAGGCGUUGC...GG
+D.bipectinata.1               ........AAA.ACGAGGCCUU..UUUUAGUACG.UAGGCGUCUUCU.GG
+D.simulans.1                  UAUAAAUGGCU.AUGAGGAUGG..UUUUAGUACG.UAGGCGUUGC...GG
+F.auricularia.1               UAAGUGAUAAUACCGUUG...UUUUUUUAGUGGG.UAUUCUUUU.....A
+#=GC SS_cons                  .............<<<<<.<<<.......<<<<<.....<<<<<<...<<
+
+D.sucinea.1                   AAC.UUAA........UUGU.UCUGAUAGAGCAGCGAGUCGUGCAUGCUA
+D.yakuba.1                    AAC.UUCG..........GU.UCGGAUAGAGCAAUGAAUCGUGCAUGCUA
+D.melanogaster.1              AAC.UUCG..........GU.UCAUAUAGAGCAAUGAAUCGUGCAUGCUA
+D.ananassae.1                 GGA.GGAU..........AU.CCACCCCAA.UGAUGAAUCGUGCAUGCAC
+D.ambigua.1                   UGA.CUUG..........UU.GAAG.UGAAACCACGAAUCGUGCUCGCUA
+D.willistoni.1                GAC.UUCA........UUGU.CCCGGUGAUGCAGUGAAUCGUGACUACGA
+D.teissieri.1                 AAC.UUCG..........GU.UCAGAUAGAGCAAUGAAUCGUGCAUGCUA
+D.takahashii.1                AACCCUCAACGUGAAGAAGU.UCAGAUAGAGCAAUGAAUCGUGCAUGCUA
+D.pseudoobscura.1             UAC.UUC...........GU.AAU........CAUGAAUCGUGCAUGCUA
+D.sechellia.1                 AAC.UUCG..........GU.UCAGAUAGAGCAAUGAAUCGCGCAUGCUA
+D.persimilis.1                UAC.UUC...........GU.AAU........CAUGAAUCGUGCAUGCUA
+D.mauritiana.1                AAC.UUCG..........GU.UCA......GCAAUGAAUCGUGCAUGCUA
+D.bipectinata.1               GUC.GUAU..........GA.ACCCACA...AGAUGAAUCGUGCAUGCAC
+D.simulans.1                  AAC.UUCG..........GU.UCAGAUAGAGCAAUGAAUCGUGCAUGCUA
+F.auricularia.1               CGC.UUUC..........GUAG.........GAGCGAGUCCCACACUCU.
+#=GC SS_cons                  <<<...............>>.>>>......>>>>>>...>>>>>.<<<<<
+
+D.sucinea.1                   G.UCUAAC.............AUUUCUUGCU.ACCUAGUAUCUUUAGA.A
+D.yakuba.1                    G...GAACUGACC........AAAUAACGCAGCCCUAGUAUCUUUCGA.A
+D.melanogaster.1              G.GAAAACUGACCACACAC..AGUGUUGGCAGACCUAGUAUCUUUCGA.A
+D.ananassae.1                 ACUCACAUAGGCCAAACAAGAACUACCGGCCGAGUGUGUAUCUUUUGA..
+D.ambigua.1                   U...UA.C..............GUUGGCCCUUA.AUAGUAUCUAU.GA.A
+D.willistoni.1                GAUUGUCC.............AGUAGUUGGU..GCUCGUAUCUUUAGA.A
+D.teissieri.1                 G..GAAACUGACCA.......AAUGGUGGCAGCCCUAGUAUCUUUCGA.A
+D.takahashii.1                G.AGUCAU...............UGGUUCGA..CCUAGUAUCUUUCGA.A
+D.pseudoobscura.1             G.UGGGGU...............UUG.GCCUCCACUAGUAUCUUU.GA.A
+D.sechellia.1                 G..GAAACUGA..........AGUGUUGACAGACCUAGUAUCUUUCGAUA
+D.persimilis.1                G.UGGGGU..............UUGGCCUCU..ACUAGUAUCUUU.GA.A
+D.mauritiana.1                G..GAAACUGA..........AGUGUUGACAGACCUAGUAUCUUUCGAUA
+D.bipectinata.1               ACUCUUAUUGGCUAAAUAAC.AUCAUAACCUGAGUGUGUAUCUUUUGA.A
+D.simulans.1                  G.GAAAACUGACCACACGC..AGU..UGGCAGCCCUAGUAUCUUUCGAUA
+F.auricularia.1               U..GGAGC.............AAUCCGGG.....GUAGUGCCUAA..A.C
+#=GC SS_cons                  <.................................>>>>>>..........
+
+D.sucinea.1                   GAUUU...CCCUCCCUUAGCGGUC
+D.yakuba.1                    GAUUU...CCAUACCUUUGCGAUC
+D.melanogaster.1              GAUUU...CCAUACCUCCGCGAUC
+D.ananassae.1                 GAUUU...UACGACCUUAGCGA.C
+D.ambigua.1                   GAUUU..CCCAU.CCUCAGCGGUC
+D.willistoni.1                GAUUU...CCUU.CCUCGGCGAUC
+D.teissieri.1                 GAUUU...CCAUACCUUUGCGAUC
+D.takahashii.1                GAUUU...CCAUUCCUUCGCGAUC
+D.pseudoobscura.1             GAUUU...UCCUUCCUCAGCGAUC
+D.sechellia.1                 GAUUU...CCAUACCUCCGCGAUC
+D.persimilis.1                GAUUU...CCCUUCCUCAGCGAUC
+D.mauritiana.1                GAUUU...CCAUACCUCCGCGAUC
+D.bipectinata.1               GAUUUUUACGAU.CCUUAGCGAAC
+D.simulans.1                  GAUUU...CCAUACCUCCGCGAUC
+F.auricularia.1               GCAUU...UCUU.CAAC.GUAAAA
+#=GC SS_cons                  ........>>>..>>>>>>>>>>.
+//

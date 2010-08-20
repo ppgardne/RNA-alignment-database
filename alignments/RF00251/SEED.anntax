@@ -1,0 +1,77 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-219
+#=GF AC    RF00251
+#=GF DE    mir-219 microRNA precursor family
+#=GF AU    Griffiths-Jones SR, Daub J
+#=GF GA    31.0
+#=GF NC    20.6
+#=GF TC    40.0
+#=GF SE    Griffiths-Jones SR
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000044
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF RN    [1]
+#=GF RM    12624257
+#=GF RT    Vertebrate microRNA genes.
+#=GF RA    Lim LP, Glasner ME, Yekta S, Burge CB, Bartel DP;
+#=GF RL    Science 2003;299:1540.
+#=GF RN    [2]
+#=GF RM    12844358
+#=GF RT    Computational identification of Drosophila microRNA genes.
+#=GF RA    Lai EC, Tomancak P, Williams RW, Rubin GM;
+#=GF RL    Genome Biol 2003;4:R42.
+#=GF CC    miR-219 was predicted in vertebrates by conservation between
+#=GF CC    human, mouse and Fugu and cloned in Fugu [1], and later predicted
+#=GF CC    and experimentally confirmed in Drosophila [2]. miR-219 homologs
+#=GF CC    have since been predicted or experimentally confirmed in a wide
+#=GF CC    range of species which include the platyhelminth Schmidtea
+#=GF CC    mediterranea, several arthropod species and a wide range of
+#=GF CC    vertebrates (MIPF:MIPF0000044).  The hairpin precursors (represented
+#=GF CC    here) are predicted based on base pairing and cross-species
+#=GF CC    conservation -- their extents are not known.  In this case the
+#=GF CC    mature sequence is excised from the 5' arm of the hairpin.
+#=GF WK    http://en.wikipedia.org/wiki/mir-219_microRNA_precursor_family
+#=GF SQ    10
+
+#=GS D.melanogaster.1       AC    AE014296.4/17308119-17308189
+#=GS A.carolinensis.1       AC    AAWZ01042166.1/878-945
+#=GS M.musculus.1           AC    AL928926.9/24111-24183
+#=GS M.musculus.2           AC    AF100956.1/111659-111730
+#=GS M.mulatta.1            AC    AJ421778.1/62878-62949
+#=GS H.sapiens.1            AC    AL359091.10/91825-91897
+#=GS H.sapiens.2            AC    D84401.1/35448-35519
+#=GS F.catus.1              AC    AY152826.1/42753-42824
+#=GS Monodelphis_domestic.1 AC    AAFR03043752.1/788-856
+#=GS O.anatinus.1           AC    AAPN01125568.1/757-829
+
+D.melanogaster.1                   AGCUAUGAUUGUCCAAACGCAAUUCU....UGUUGAUAUUCA.AUAUUCA
+A.carolinensis.1                   GGUCCUGAUUGUCCAAACGCAAUUCU....UG..UCUCCGCU..CCACCG
+M.musculus.1                       GCCACUGAUUGUCCAAACGCAAUUCUUGUACGAGUCUGCGGC..CAACCG
+M.musculus.2                       GCUCCUGAUUGUCCAAACGCAAUUCU....CGAGUCUCUGGCUCCGGCCG
+M.mulatta.1                        GCUCCUGAUUGUCCAAACGCAAUUCU....CGAGUCUAUGGCUCUGGCCG
+H.sapiens.1                        GCCACUGAUUGUCCAAACGCAAUUCUUGUACGAGUCUGCGGC..CAACCG
+H.sapiens.2                        GCUCCUGAUUGUCCAAACGCAAUUCU....CGAGUCUAUGGCUCCGGCCG
+F.catus.1                          GCUCUUGAUUGUCCAAACGCAAUUCU....CGAGUCUAUGGCUCCGGCCG
+Monodelphis_domestic.1             GCUCCUGAUUGUCCAAACGCAAUUCU....CGUGGCUCCGGCCCU...CG
+O.anatinus.1                       GCCGCUGAUUGUCCAAACGCAAUUCUUGUGCGAGUUUGCGGC..CAACCG
+#=GC SS_cons                       .........<<<<<<..<<<<<<<<<....<<................>>
+#=GC RF                            GcucCUGAUuGuCCaAACgCaauuCu....CGAGucUacGgcuccaACCG
+
+D.melanogaster.1                   AGGGUUGCGACUGGGCAUCGCGGCUC
+A.carolinensis.1                   AGAGUUGAGUCUGGACAUCAGGAGCC
+M.musculus.1                       AGAAUUGUGGCUGGACAUCU.GUGGU
+M.musculus.2                       AGAGUUGCGUCUGGACGUCCCGAGCC
+M.mulatta.1                        AGAGUUGAGUCUGGACGUCCCGAGCC
+H.sapiens.1                        AGAAUUGUGGCUGGACAUCU.GUGGC
+H.sapiens.2                        AGAGUUGAGUCUGGACGUCCCGAGCC
+F.catus.1                          AGAGUUGAGUCUGGACGUCCCGAGCC
+Monodelphis_domestic.1             AGAGUUGGGUCUGGACAUCCCGAGCC
+O.anatinus.1                       AGAAUUGUGACUGGACAUCU.GUGGC
+#=GC SS_cons                       >>>>>>>>>..>>>>>>.........
+#=GC RF                            aGaauuGcGuCuGGaCaUCacGAGcc
+//

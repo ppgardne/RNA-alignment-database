@@ -1,0 +1,45 @@
+# STOCKHOLM 1.0
+#=GF ID    snoR77Y
+#=GF AC    RF01178
+#=GF DE    Small nucleolar RNA snoR77Y
+#=GF AU    Wilkinson A
+#=GF GA    37.0
+#=GF NC    33.4
+#=GF TC    40.8
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    URL; http://bioinf.scri.sari.ac.uk/cgi-bin/plant_snorna/home
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF WK    http://en.wikipedia.org/wiki/SnoRNA
+#=GF SQ    6
+
+#=GS O.sativa.1      AC    AAAA02011059.1/20416-20497
+#=GS O.sativa.2      AC    AP008208.1/26282630-26282711
+#=GS V.vinifera.1    AC    AM483106.2/1281-1366
+#=GS M.truncatula.1  AC    CU062477.6/15711-15802
+#=GS R.communis.1    AC    AASG02011273.1/5709-5793
+#=GS P.trichocarpa.1 AC    AARH01006125.1/83576-83661
+
+O.sativa.1                  GAGCCUGUGAUGAUUAGCAUAUU..GUUGGAAUUACCGUCGGAUU...AU
+O.sativa.2                  AAGCCUAUGAUGAUUAGCAUAUU..GUUGGAAUUACCGUCAGAUU...AU
+V.vinifera.1                AAGCCAAUGAUGAUUUUGUCUGA..UCUGGAAUUACCGGCUGAAU...UU
+M.truncatula.1              AAGCCGAUGAUGAUGAAACUUGA..ACUGGAAUUACCGUCUGAAUAGAUU
+R.communis.1                AGGCCAAUGAUGAUUUCUUUUUA..GUUGGAAUUACCGGCUGAAU...UU
+P.trichocarpa.1             GAGCCGAUGAUGAUUGUUUAUUUAUGUUGGAAUUACCGGCUGAAU...UU
+#=GC SS_cons                <<<<<.............................................
+#=GC RF                     aaGCCaAUGAUGAUUauuuuuua..GUUGGAAUUACCGgCuGAAU...uU
+
+O.sativa.1                  CA...AAUGACGAC.A....UUUGUCUGGCUUCCUGAGGCUUAAU
+O.sativa.2                  CA...AAUGACGAC.A....UUUGUCUGGCAUCCUGAGGCUUUAU
+V.vinifera.1                UGC..UUUGAUGUC.AAAU.UUUGACUGGCUUUCUGAGGCUUCAA
+M.truncatula.1              UAUUCUUUGAUGUA.AAUUUCUUGGCUGUGGUACUGAGGCUUUGC
+R.communis.1                CA...UUUGAUGUC.AAUU.UUAGACUGGCUUUCUGAGGCUUCAU
+P.trichocarpa.1             CAC..AUUGAUGUCAA....UCUUACUGGCUGUCUGAGGCUUCAU
+#=GC SS_cons                .....................................>>>>>...
+#=GC RF                     cA...auUGAuGuC.A....UUuGACUGGCUuuCUGAGGCuucAu
+//

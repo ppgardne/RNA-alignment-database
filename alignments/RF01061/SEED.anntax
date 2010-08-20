@@ -1,0 +1,187 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-548
+#=GF AC    RF01061
+#=GF DE    microRNA mir-548
+#=GF AU    Wilkinson A
+#=GF GA    29.0
+#=GF NC    29.0
+#=GF TC    29.0
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000317
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    54
+
+#=GS M.musculus.1           AC    CAAA01099159.1/1144-1227
+#=GS R.norvegicus.1         AC    AAHX01363668.1/734-818
+#=GS C.aethiops.1           AC    AC142557.3/57472-57390
+#=GS M.mulatta.1            AC    AANU01123317.1/36813-36896
+#=GS M.mulatta.2            AC    AANU01206212.1/22791-22708
+#=GS M.mulatta.3            AC    AANU01124258.1/9508-9425
+#=GS M.mulatta.4            AC    AANU01266112.1/7327-7248
+#=GS M.mulatta.5            AC    AANU01207048.1/6197-6281
+#=GS M.mulatta.6            AC    AANU01143716.1/2317-2398
+#=GS P.anubis.1             AC    AC098811.3/48288-48205
+#=GS C.guereza.1            AC    AC164925.3/138401-138483
+#=GS G.gorilla.1            AC    AAGL01002088.1/511-594
+#=GS G.gorilla.2            AC    AC145405.3/174990-175070
+#=GS H.sapiens.1            AC    AL023693.25/126483-126567
+#=GS H.sapiens.2            AC    AC116655.7/12954-13037
+#=GS H.sapiens.3            AC    AP004582.2/69378-69295
+#=GS H.sapiens.4            AC    AP002336.5/41785-41867
+#=GS H.sapiens.5            AC    AL389887.7/136275-136355
+#=GS H.sapiens.6            AC    AC005411.1/13879-13796
+#=GS H.sapiens.7            AC    AC012622.6/107993-107909
+#=GS H.sapiens.8            AC    AC078962.30/107025-107108
+#=GS H.sapiens.9            AC    AL158163.11/106538-106455
+#=GS H.sapiens.10           AC    AL831851.1/1007-1089
+#=GS H.sapiens.11           AC    AL137009.8/24600-24517
+#=GS H.sapiens.12           AC    AC010683.10/74565-74646
+#=GS H.sapiens.13           AC    AL355094.3/136887-136970
+#=GS H.sapiens.14           AC    AC110921.9/174283-174200
+#=GS H.sapiens.15           AC    Y13187.2/2573-2656
+#=GS H.sapiens.16           AC    AL390966.14/78822-78741
+#=GS H.sapiens.17           AC    AL356113.8/38272-38356
+#=GS H.sapiens.18           AC    AF267168.3/59433-59350
+#=GS H.sapiens.19           AC    AC009121.8/57560-57477
+#=GS H.sapiens.20           AC    AC073273.9/477-561
+#=GS H.sapiens.21           AC    AC117530.2/39255-39338
+#=GS H.sapiens.22           AC    AF228730.8/158213-158296
+#=GS H.sapiens.23           AC    Z95115.1/52695-52777
+#=GS H.sapiens.24           AC    AL391356.22/22986-23069
+#=GS H.sapiens.25           AC    AC092902.10/30797-30714
+#=GS H.sapiens.26           AC    AC092680.2/168687-168604
+#=GS H.sapiens.27           AC    AL023655.1/55291-55375
+#=GS H.sapiens.28           AC    AY584241.1/28461-28544
+#=GS H.sapiens.29           AC    AC010085.3/111404-111478
+#=GS P.troglodytes.1        AC    AADA01335449.1/302-219
+#=GS P.abelii.1             AC    AC187360.3/56085-56002
+#=GS P.abelii.2             AC    AC138733.3/115295-115377
+#=GS Nomascus_leucogenys_.1 AC    CT954305.14/33966-34049
+#=GS Nomascus_leucogenys_.2 AC    AC166600.4/85993-86077
+#=GS A.nancymaae.1          AC    AC152896.3/34983-35064
+#=GS Ateles_geoffroyi_bla.1 AC    AC182540.3/50855-50775
+#=GS Callithrix_jacchus_w.1 AC    AC193857.1/71494-71410
+#=GS S.boliviensis.1        AC    AC148541.3/105321-105402
+#=GS Callicebus_moloch_Re.1 AC    AC148206.3/68738-68820
+#=GS B.taurus.1             AC    AAFC03085383.1/38463-38380
+#=GS R.ferrumequinum.1      AC    AC150480.3/102514-102597
+
+M.musculus.1                       UAUUA.UGUUGGUACAAAAGUAAUUGUGGUUUUU.GCCAUU.AAAAG...
+R.norvegicus.1                     UAUUA.GGUUGGUGCAAAACUAAUUGCAGUUUUU.GCUAUU.UAAAG...
+C.aethiops.1                       UAUCA.CAUUGGUGCAAAAGUAAUUGCAGUUUUU.GUGAUU.ACGUU...
+M.mulatta.1                        UAUUA.CGUUGGUGCAAAAGUAACUGCCGGUUUU.GCCAUU.GAAAG...
+M.mulatta.2                        AUUUA.GGUUGGUGCAAAAGUAAUUGGGGCUUGG.GCCUUU.AUUUU...
+M.mulatta.3                        UAUUA.GGUUGGUGCAAAAGUAAUUGUGGUUCUU.GCCUAU.AAAAG...
+M.mulatta.4                        UAUUA.GGUUGGUGCAAACGUAAUUGCAGUUUUU.GCCAUU.ACUUU...
+M.mulatta.5                        UAUUA.GGUUGAUGCAAAAGUAAUUGGGGUUUUUUGUCAUU.AAAAG...
+M.mulatta.6                        AUUUA.GGUUGGUGCAAAAGUAAUUGCGGAUUUU.GCCAUU.GAAAG...
+P.anubis.1                         UAUUG.GGUUGGUGCAAAAGUAAUUGUGGUUUUU.GACAUU.UCUUU...
+C.guereza.1                        UAUCA.GGUUGGUGCAAAAGUAAUUGCAGUUUU..GUCACU.GAACG...
+G.gorilla.1                        UAUCC.AUUUGGUGCAAAAGUAAUUGUGGUCUUU.GUCAUU.ACUUU...
+G.gorilla.2                        AU....AGUUGGUGCAAAAGUAAUUGUGGUUUUC.ACCAUU.GAAAG...
+H.sapiens.1                        UAUUA.GGUUUGUGCAAAAGUAAUUGGGGUUUUUUGCCGUU.AAAAG...
+H.sapiens.2                        UAUUA.GUUUGGUGCAAAAGUAAUUGCGGAUUUU.GCCAUU.AAAAG...
+H.sapiens.3                        UAUUA.CGUUGGUGCAAAAGUAAUUGCCAGUUUU.GCCAUU.GAAAG...
+H.sapiens.4                        UGUUA.GGUUGGUGCAAAAGUACUUGCGGAUUUU.GC.UUU.ACUUU...
+H.sapiens.5                        UUAUA.GGUUGGUGCAAUAAUAUUUGUGGUUUUU.GC.CGU.UAAAA...
+H.sapiens.6                        UAUUA.GGUUGGUGCAAAAGUAAUCGCGGUUUUU.GUCAUU.GAAAG...
+H.sapiens.7                        .AUUA.GGUUGGUGCAAACCUAAUUGCAAUUUUU.GCAGUU.UUUUUAAG
+H.sapiens.8                        UAUUA.GGUUGGUGCAAAAGUAAUUGCGGUUUUU.GCCAUU.ACUUU...
+H.sapiens.9                        UAUCA.GGUUGGUGCAAAAGUAGUCUCAGUUUUU.GCCUUU.AAAAG...
+H.sapiens.10                       UAUUA.GGUGGGUGCAAAGGUAAUUGCAGUUUUU.CCCAUU.A.UUU...
+H.sapiens.11                       AUUUA.GGUUGGCGCAAAAGUAAUUGUGGUUUUG.GCCUUU.AUUUU...
+H.sapiens.12                       UAUUA.UGUUGGUACAAAAGUAAUUACAGUUUUG.CC.AUA.GAACG...
+H.sapiens.13                       CAUUA.GGUGGGUGCAAAAGUAAUCGCGGUUUUU.GUCAUU.ACUUU...
+H.sapiens.14                       AUUUA.GGUUGGUGCAAAAGUAAUUGUGGUUUUU.GCCAUU.GAAAG...
+H.sapiens.15                       UAUUA.GGUUGCUGCAAAAGUAAUCAUGUUUUUU.UCCAUU.GUAAG...
+H.sapiens.16                       UAUUA.GGUUGGUGCAAAGGUAUUUGUGGUUUUU.GUCAUU.AAA.G...
+H.sapiens.17                       UGUUG.GUUUGGUGCAAAAGUAAUUGCAGUGCUU.CCCAUUUAAAAG...
+H.sapiens.18                       UAUUA.GGUUGGUGCAAAAGUAAUUGUGGUUUUU.GCCUGU.AAAAG...
+H.sapiens.19                       UAUUA.GGUUGGUGCAAAAGUAAUUGUGGUGUUU.GCCAUU.GAAAG...
+H.sapiens.20                       UAUUA.GGUUGGUGCAAAAGUAAUAGUGGUUUUU.GCCAUU.AAAAG...
+H.sapiens.21                       UAUUA.GGUUGGUAUAAAAUUAAUUGCAGUUUUU.GUCAUU.ACUUU...
+H.sapiens.22                       UAUUA.GGUUUGUGCAAAAGUAAUUGCGGAUUUU.GCCAUU.AAAAG...
+H.sapiens.23                       UAGUA.GGCUGGUGCAAAAGUAAU.GCAGUUUUU.GCCACU.GAAAG...
+H.sapiens.24                       UAUUA.GGUUGGUCCAAAAGUAAUUACAGUUUUU.GUCUUU.GAAAG...
+H.sapiens.25                       UAUUA.GGUUGGUGCAAAAGUAAUUGCGGAUUUU.GCCAUU.AAAAG...
+H.sapiens.26                       UAUUA.GGUUGGUGCGAACAUAAUUGCAGUUUUU.AUCAUU.ACUUU...
+H.sapiens.27                       UAUUA.AGUUGGUGCAAAAGUAAUUGUGAUUUUU.GCCAUU.AAAAG...
+H.sapiens.28                       UAUUA.GGUUGGUGCAAAAGUAUUUGCGGGUUUU.GUCGUA.GAAAG...
+H.sapiens.29                       ...UA.GGUUGGUGCAAAAGUAAUUGUGGAUUUU.GUCGUU.AAA.....
+P.troglodytes.1                    UAUUA.GGUUGGUGCAAAAGUAACUGUGGUUUUU.GCCAUU.GAAAG...
+P.abelii.1                         UAUUA.GGUUGGUGCGAAAGUAAUUGCAGUUUUU.GCUAUU.ACUUU...
+P.abelii.2                         UAUCA.GGUUGGUGCAAAAGUAAUUGCAGUUUU..GCCAUU.GAAAG...
+Nomascus_leucogenys_.1             UAUUA.GGUUGGUGCAAAGGUAAUUGUGGUUUUU.ACCAUU.GAAGG...
+Nomascus_leucogenys_.2             AUAUACAGUUGGUGCAAAAGUAAUUGUGGUUUUC.ACCAUU.GAAAG...
+A.nancymaae.1                      UAUCA.GGUUGGUGCAAAAGUAAUUGCAG..UUU.GCCAUU.GAAAG...
+Ateles_geoffroyi_bla.1             UAGAU....UGGUGCAAAGGUAAUUGUGGUCUUU.GCCAUU.ACUUU...
+Callithrix_jacchus_w.1             CUCUU.AGGUUGGUGCAAAAGUGACUGCAGUUCU.GCCAUU.AAAAG...
+S.boliviensis.1                    UAUGU.AUUUGGUGCAAAGGUAAUUGUGGUUUUC.GCCAUU.GAAAG...
+Callicebus_moloch_Re.1             UAUCA.GGUUGGUGCAAAAGUAAUUGCGGU.UUU.GCCAUU.GAAAG...
+B.taurus.1                         UAUUG.GGUUGGCCAAAAAGUUUAUUUGGGUUUU.UCCAUA.AGAUG...
+R.ferrumequinum.1                  UAUUA.GGUUGAUGCAAAAGUAAUUGUGGUUUAA.AAGAUU.AAAAA...
+#=GC SS_cons                       <<<<<.<<<<<<<<<<<<<<<<<<<<<<<<<<<<.<<<<<<.<.......
+
+M.musculus.1                       GAAUGGC.AAAACCCGCAA.UUACUUUUGCAUCAACC.UA.AUA
+R.norvegicus.1                     UAAUGGC.AAAAACUGCAA.UUACAUUUGCGCCAACC.UACAUG
+C.aethiops.1                       CAGUGAC..AAAACUGCAA.UUACUUUUGCAUCAGCC.UG.AUA
+M.mulatta.1                        UAAUGGU.AAAACUCGCAA.UUACUUUUGCACCAACC.UA.GUA
+M.mulatta.2                        CAAUGGC.AAAAACCUCAA.UUGCUUUUGUGCCAACC.UA.AUA
+M.mulatta.3                        UAAUGGC.AAAAACCACAA.UUUCUUUUGCACCAAAC.UA.AUA
+M.mulatta.4                        UAAAGGC.AAAAGUAGCAA.UUACCUUUGCACCAACC.U.....
+M.mulatta.5                        UAGUGAC.AAAACCGGCAA.UUACUUCUGCACCAAAC.UA.AUA
+M.mulatta.6                        UAAUGGC.CAAAACCACAG.UUCCUUUUGCACCAAUC.UA.U..
+P.anubis.1                         UAAUGGC.AAAACCCACAA.UUACUUUUGCACCAAUC.UA.AUA
+C.guereza.1                        UAAUCGC.AAAAACUGCAA.UUACUUUUGCACCAAUG.UG.AUA
+G.gorilla.1                        CAAUGGC.AAAGGCUACAA.UGACUUUUGCAUCAACU.UA.AUA
+G.gorilla.2                        UAAUGGC.AAAGACCAUCA.UUACCUUUGCAUCAAUU.UA.AAU
+H.sapiens.1                        UAAUGGC.AAAACUGGCAA.UUACUUUUGCACCAAAC.UA.AUA
+H.sapiens.2                        UAAUGGC.AAAAAUAGCAA.UUAUUUUUGUACCAGCC.UA.GUA
+H.sapiens.3                        UAAUGGU.AAAACUCGCAA.UUACUUUUGCACCGACC.UA.AUA
+H.sapiens.4                        UAAUGGC.AAAAACCGCAA.UUAUUUUUGCUUCAACC.UA.AUA
+H.sapiens.5                        GUAUGGC.AAAAUCCGCAA.UUACUUUUGCACCAACC.UA.A..
+H.sapiens.6                        UAAUAGC.AAAAACUGCAA.UUACUUUUGCACCAACC.UA.AAA
+H.sapiens.7                        UAAUUGC.AAAAACUGUAA.UUACUUUUGCACCAACC.UA.AU.
+H.sapiens.8                        CAGUAGC.AAAAAUCUCAA.UUACUUUUGCACCAACU.UA.AUA
+H.sapiens.9                        UAAUAGC.AAAAACCGCGA.UUGCUUUUGUACCAACC.UA.AUA
+H.sapiens.10                       UAAUUGC.GAAAACAGCAA.UUACCUUUGCACCAACC.UG.AUG
+H.sapiens.11                       CAAUGGC.AAGAACCUCAG.UUGCUUUUGUGCCAACC.UA.AUA
+H.sapiens.12                       UAAUGCA.AAAA.CUGCAA.UUACUUUUGCACUAAUC.UA.AUA
+H.sapiens.13                       UAAUGGU.AAAAACUGGAA.UUACUUUUGCACUGACC.UA.AUA
+H.sapiens.14                       UAAUGGC.AAAAACCACAG.UUUCUUUUGCACCAACC.UA.AUA
+H.sapiens.15                       UAAUGGG.AAAAACUGUAA.UUACUUUUGUACCAACC.UA.AUA
+H.sapiens.16                       UAAUG.C.AAAAGCCACAA.AUACCUUUGCACCAACC.UA.AUA
+H.sapiens.17                       UAAUGGC.ACACACUGCAA.UUACUUUUGCUCCAACU.UA.AUA
+H.sapiens.18                       UAAUGGC.AAAAACCACAG.UUUCUUUUGCACCAGAC.UA.AUA
+H.sapiens.19                       UAAUGAC.AAAAACCGCGA.UUACUUUUGCACCAACC.UA.AUA
+H.sapiens.20                       UAAUGAC.AAAAACUGUAA.UUACUUUUGGAACAAUAUUA.AUA
+H.sapiens.21                       CAAUAGC.AAAAACUGCAG.UUACUUUUGCACCAAUG.UA.AUA
+H.sapiens.22                       UAAUGGC.AAAAAUAGCAA.UUAUUUUUGUACCAGCC.UA.GUA
+H.sapiens.23                       UAAUACC.AAAGACCGC.AAUUACUUUUGCACCAGCU.AA.CUA
+H.sapiens.24                       UAAUGUC.AAAAACUGUGA.UUACUUUUGCACCAACC.UA.AUA
+H.sapiens.25                       UAAUGGC.AAAAAUAGCAA.UUAUUUUUGUACCAGCC.UA.GUA
+H.sapiens.26                       UAAUGGC.AAAAACUGUAA.UUACUUUUGCACCAACC.UA.AUA
+H.sapiens.27                       UAACGAC.AAAACUGGCAA.UUACUUUUGCACCAAACCUG.GUA
+H.sapiens.28                       UAAUGGC.AAAAACUGCAG.UUACUUGUGCACCAACC.AA.AUG
+H.sapiens.29                       .AAUAGC.AAAACCCGCAA.UUACUUUUGCACCAACC.UA....
+P.troglodytes.1                    UAAUGGC.AAAAACCGCAG.UUACUUUUGCACCAACC.UA.AUA
+P.abelii.1                         UGACAGC.AAAAACUGCAG.UUACUUUCGCACCAACC.UA.AUA
+P.abelii.2                         UAAUCGC.AAAAACCGCAA.UUACUUUUGCACCAAUG.UG.AUA
+Nomascus_leucogenys_.1             UAAUGGC.AAAACCUCCAA.UUACUUUUGCACCAACC.UA.AUA
+Nomascus_leucogenys_.2             UAAUGGC.AAAGACCAUAA.UUACCUUUUCACCAAUU.UA.AAU
+A.nancymaae.1                      UAAUCGC.AAAAACCACAA.UUACCUUUGCACCAAUU.UG.AUA
+Ateles_geoffroyi_bla.1             CAAUGGC.GAAAAUCACAA.UUACUUUUGCACCAAAU.AU.AUA
+Callithrix_jacchus_w.1             UAAUGGCAAAAACUGCAGU.CACUUUUGCACCAACCU.GA.UAG
+S.boliviensis.1                    UAAUGGC.AAAGACCACAA.UUACCUUUGCACCAA...UC.UUA
+Callicebus_moloch_Re.1             UAAUAGC.AAAAAUCACAA.UUACCUUUACACCAAUU.UG.AUA
+B.taurus.1                         UAAUGGA.AAAACCUGAAU.GAACUUUCUGGCCAACC.CA.AUA
+R.ferrumequinum.1                  UAAUUGC.AAAAACUACAA.UUACUUUUGUACCAACC.UA.AUA
+#=GC SS_cons                       >>>>>>>.>>>>>>>>>>>.>>>>>>>>>>>>>>>>>.>>.>>>
+//

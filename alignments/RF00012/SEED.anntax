@@ -1,0 +1,303 @@
+# STOCKHOLM 1.0
+#=GF ID    U3
+#=GF AC    RF00012
+#=GF DE    Small nucleolar RNA U3
+#=GF AU    Griffiths-Jones SR, Mifsud W, Jones T
+#=GF GA    24.0
+#=GF NC    24.0
+#=GF TC    24.0
+#=GF SE    Zwieb C, The uRNA database, PMID:9016512; Jones T
+#=GF SS    Published; PMID:10567566; Jones T
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0001179 SO:U3_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Mus_musculus300259
+#=GF DR    snoopy; Homo_sapiens300287
+#=GF RN    [1]
+#=GF RM    9016512
+#=GF RT    The uRNA database.
+#=GF RA    Zwieb C;
+#=GF RL    Nucleic Acids Res 1997;25:102-103.
+#=GF RN    [2]
+#=GF RM    10567566
+#=GF RT    Nuclear retention elements of U3 small nucleolar RNA.
+#=GF RA    Speckmann W, Narayanan A, Terns R, Terns MP;
+#=GF RL    Mol Cell Biol 1999;19:8412-8421.
+#=GF CC    Small nucleolar RNAs (snoRNAs) are involved in the processing and
+#=GF CC    modification of rRNA in the nucleolus. There are two main classes
+#=GF CC    of snoRNAs: the box C/D class, and the box H/ACA class. U3 snoRNA
+#=GF CC    is a member of the box C/D class. Indeed, the box C/D element is
+#=GF CC    a subset of the six short sequence elements found in all U3
+#=GF CC    snoRNAs, namely boxes A, A', B, C, C', and D. The U3 snoRNA
+#=GF CC    secondary structure is characterised by a small 5' domain (with
+#=GF CC    boxes A and A'), and a larger 3' domain (with boxes B, C, C', and
+#=GF CC    D), the two domains being linked by a single-stranded
+#=GF CC    hinge. Boxes B and C form the B/C motif, which appears to be
+#=GF CC    exclusive to U3 snoRNAs, and boxes C' and D form the C'/D
+#=GF CC    motif. The latter is functionally similar to the C/D motifs found
+#=GF CC    in other snoRNAs.
+#=GF CC    The 5' domain and the hinge region act as a pre-rRNA-binding
+#=GF CC    domain. The 3' domain has conserved protein-binding sites. Both
+#=GF CC    the box B/C and box C'/D motifs are sufficient for nuclear
+#=GF CC    retention of U3 snoRNA. The box C'/D motif is also necessary for
+#=GF CC    nucleolar localisation, stability and hyper-methylation of
+#=GF CC    U3 snoRNA. Both box B/C and C'/D motifs are involved in specific
+#=GF CC    protein interactions and are necessary for the rRNA processing
+#=GF CC    functions of U3 snoRNA.
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_U3
+#=GF SQ    26
+
+#=GS L.collosoma.1          AC    L32919.1/391-533
+#=GS T.brucei.1             AC    X57047.1/829-971
+#=GS S.cerevisiae.1         AC    M26649.1/1-333
+#=GS Saccharomyces_cerevi.1 AC    AAEG01000033.1/255989-255673
+#=GS S.pombe.1              AC    X56982.1/37-291
+#=GS S.pombe.2              AC    X56189.1/89-342
+#=GS D.melanogaster.1       AC    AE013599.4/13031235-13031026
+#=GS D.melanogaster.2       AC    AE014298.4/10242158-10242370
+#=GS D.rerio.1              AC    BX914223.9/243297-243511
+#=GS X.laevis.1             AC    Z12613.1/694-912
+#=GS G.gallus.1             AC    AADN02025796.1/232-444
+#=GS M.musculus.1           AC    M23705.1/702-916
+#=GS M.musculus.2           AC    X63743.1/815-1027
+#=GS R.norvegicus.1         AC    J01884.1/1-215
+#=GS H.sapiens.1            AC    X14945.1/538-754
+#=GS B.taurus.1             AC    AF176810.1/1-214
+#=GS C.elegans.1            AC    Z79754.1/31351-31535
+#=GS C.elegans.2            AC    Z74034.1/2273-2090
+#=GS C.reinhardtii.1        AC    AJ001179.1/171-392
+#=GS O.sativa.1             AC    X79685.1/139-354
+#=GS T.aestivum.1           AC    X63065.1/858-1073
+#=GS Z.mays.1               AC    Z29641.1/759-980
+#=GS S.lycopersicum.1       AC    X14411.1/488-703
+#=GS L.japonicus.1          AC    AP004474.1/40162-40379
+#=GS M.truncatula.1         AC    AC144759.11/63139-62927
+#=GS A.thaliana.1           AC    X52629.1/325-541
+
+L.collosoma.1                      AA.GACCGUACUCUGAACAGAAUCGUUUUAUGAGUAUA.ACCUCUU...A
+T.brucei.1                         AA.GACCGUAGUCUGAACAGAAUCGUUUUAUGAGUACA.ACCUCUU..AA
+S.cerevisiae.1                     GUCGACG.UACUUC..AUAGGAUCAUUUCUAUAGGAAUCGUCACUC...U
+Saccharomyces_cerevi.1             .................UAGGAUCAUUUCUAUAGGAAUCGUCACUC...U
+S.pombe.1                          AUCGACGAUACUCC..AUAGGAUCAUUUCUAUAGUAUACGUCCGGC...U
+S.pombe.2                          AUCGACGAUACUCC..AUAGGAUCAUUUCUAUAGUAUACGUCCGGC...U
+D.melanogaster.1                   AA.GACUAUACUUC..ACAGGAUCAUUUCUGUAGUCAGUCUUCACA...U
+D.melanogaster.2                   AA.GACUAUACUUC..ACAGGAUCAUUUCUGUAGUCAGUCUUCACA...U
+D.rerio.1                          AA.GACUAUACUUU..CAGGGAUCAUUUCUAUAGUUCUUAACUAGG..AA
+X.laevis.1                         AA.GACUAUACUUU..CAGGGAUCAUUUCUAUAGGUUGUACCUGGU..GA
+G.gallus.1                         AG.GACUAUACUUU..CAGGGAUCAUUUCUGUAGUUGGUAACUAGA..GG
+M.musculus.1                       AA.GACUAUACUUU..CAGGGAUCAUUUCUAUAGUUCGUUACUAGA..GA
+M.musculus.2                       AA.GACUAUACUUU..CAGGGAUCAUUUCUAUAGUUUGUUACUAGA..GA
+R.norvegicus.1                     AA.GACUAUACUUU..CAGGGAUCAUUUCUAUAGUUCGUUACUAGA..GA
+H.sapiens.1                        AA.GACUAUACUUU..CAGGGAUCAUUUCUAUAGUGUGUUACUAGA..GA
+B.taurus.1                         AA.GACUAUACUUU..CAGGGAUCAUUUCUAUAGUUCGUUACUAGA..GA
+C.elegans.1                        GA.GACCAUACUAU..ACAGAAUCAUUUCUGCAGUAUGUAUCUCGU..AA
+C.elegans.2                        GA.GACCAUACUAU..ACAGAAUCAUUUCUGCAGUAUGUAUUUCGU..AA
+C.reinhardtii.1                    AU.GACCGUACUU.GAACAGGAUCUGUUCUAUAGGUCAUACACCUGUCUG
+O.sativa.1                         AC.GACCUUACUU.GAACAGGAUCUGUUCUAUAGGCUCGUACCGUUGCAU
+T.aestivum.1                       AC.GACCUUACUU.GAACAGGAUCUGUUCUAUAGGCUCGUACCGCUGCAU
+Z.mays.1                           AC.GACCUUACUU.GAACAGGAUCUGUUCUAUAGGAUCGUACUGUUGCAU
+S.lycopersicum.1                   AC.GACCUUACUU.GAACAGGAUCUGUUCUAUAGGCUCGUACCAUUGUAU
+L.japonicus.1                      AC.GACCUUACUU.GAACAGGAUCUGUUCUAUAGGCUCGUACAACUGUAU
+M.truncatula.1                     AC.GACCUUACUU.GAACAGGAUCUGUUCUAUAGGAUUGUACUACUGUGU
+A.thaliana.1                       AC.GACCUUACUU.GAACAGGAUCUGUUCUAUAGGCUCGUACCUCUGUUU
+#=GC SS_cons                       ..................................................
+
+L.collosoma.1                      AUGGAAAA.GAAACC.....GAGUUUCAAAUCCUGAUGAAGAC..GGUU.
+T.brucei.1                         AUGAGAAA..UAACC.....AACAACCAAAUCCUGAUGAUGAA..GGUU.
+S.cerevisiae.1                     UUGACUCUUCAAAAGAGCCACUGAAUCCAACUUGGUUGAUGAGUCCCAUA
+Saccharomyces_cerevi.1             UUGACUCUUCAAAAGAGCCACUGAAUCCAACUUGGUUGAUGAGCCCCAUA
+S.pombe.1                          UGGGUUUCCUAACCUAGCCACAGAACUCAACACGGAUGAUGAU..AGGAG
+S.pombe.2                          UGGGUUUCCUAACCUAGCCACAGAACUCAACACGGAUGAUGAU..AGAAG
+D.melanogaster.1                   ACUUUCACACUAGCUGAAAGCCAAGUGCACCCGCGUUGAUGAG..UUGAA
+D.melanogaster.2                   ACUUUCACACUAGCUGAAAGCCAAGUGCACCCGCGUUGAUGAG..UUGAA
+D.rerio.1                          AUGUGUUUCUAAAGUGAUGAGUCUCCCAAACCACGAUGAUGAU..UCUUG
+X.laevis.1                         AAUGUGCUCGAAAGUGUCUGAACUCACAAACCACGAGGAAGAG..CGUCA
+G.gallus.1                         AGUGUGAUCGAAAGUGUCCGGCGUCACAAACCGCGAGGAGGAG...CAGC
+M.musculus.1                       AGUUUCUCUGACUGUGUAGAGCACCCGAAACCACGAGGACGAG..ACGUA
+M.musculus.2                       AGUUUCUCUGACUGUGUAGAGCACCCGAAACCACGAGGAGGAG..ACAGA
+R.norvegicus.1                     AGUUUCUCUGACUGUGUAGAGCACCCGAAACCACGAGGAGGAG..ACGUA
+H.sapiens.1                        AGUUUCUCUGAACGUGUAGAGCACCGAAAACCACGAGGAAGAG..AGGUA
+B.taurus.1                         AGUUUCUCUGAACGUGUAGAGCACCCGAAACCACGAGGAGGAG..AUAAA
+C.elegans.1                        UUCCCAUC..AAAUUGGUAGAGAUGCC.AACUGCGAUGAAAGG..GAGAC
+C.elegans.2                        UUCCCAUC..AAAUUGGUAGAGAUUCC.AUCCGCAAUGAGUGG..GAGAC
+C.reinhardtii.1                    UGUUCUUCAAC..UCAGACAAGUUCCUCAACCCAGACGAAGAC..AUGCA
+O.sativa.1                         CCUUGACUAAUAAGGAGGCAAGCACUUAAGCUUGGUUGAUGAC..GCAUG
+T.aestivum.1                       CCUUUACCAAUAAGGAGGCAAGCACUUCAGUCUGGUUGAUGCA...UCUG
+Z.mays.1                           CUUUGAUUAAUAAGAAGGCAAGUACUUAAACCUGGUUGAUGAG.AAUUUG
+S.lycopersicum.1                   CCUUGAAUUCUAAGGAGACAGGAAUCCAAGUCUGGUUGAUGAA..GCAUG
+L.japonicus.1                      CCUUGAGUUCUAAGGAGACAGGAACCAAAGUCUGGUUGAUGAA..CACUG
+M.truncatula.1                     CCUUGAUUUCUAAGGAGAUAGGAACAUAUGUCUGGUAGAUGAG..UUGUG
+A.thaliana.1                       CCUUGAUUUCUCAAGAGACAGGCCCUUAACCCUGGUUGAUGAA..CCAUG
+#=GC SS_cons                       ..............................<<<<................
+
+L.collosoma.1                      GCUUUCUUCGCCCGGAGAGCGC............................
+T.brucei.1                         GCUGGCUCCGCCCGGAGAGCUG............................
+S.cerevisiae.1                     ACCUUUGUACCC..CAGAGUGAGAAACCGAAAUUGAAUCUAAAUUAGCUU
+Saccharomyces_cerevi.1             ACCUUUGUACCC..CAGAGUGAGGAAAUGAAAUCGAAUUUAAAUUAGCUU
+S.pombe.1                          GCACCGUUGCCC.UCAGAGUGAGG..........................
+S.pombe.2                          GCACCGUUGCCC.GCAGAGUGAGA..........................
+D.melanogaster.1                   UCGUUCUAUUCG.GCAGCGUGAGG..........................
+D.melanogaster.2                   UCGUUCUGUCCG.GCAGCGUGAGG..........................
+D.rerio.1                          AUGCUCUUUUCU..UAGCGUGAAU..........................
+X.laevis.1                         GUGUUCUCUCCU..GAGCGUGAAG..........................
+G.gallus.1                         GUGUUCUCUCCU..GAGCGCGAAG..........................
+M.musculus.1                       GCGUUCCCUCCU..GAGCGUGAAG..........................
+M.musculus.2                       GUGUCCUUUCCU..GAGCGUGAAG..........................
+R.norvegicus.1                     GCGUUCUCUCCU..GAGCGUGAAG..........................
+H.sapiens.1                        GCGUUUUCUCCU..GAGCGUGAAG..........................
+B.taurus.1                         GCGUUCUCUUCU..GAGCGUGAAG..........................
+C.elegans.1                        GGGCAGGUCGC...GAGCGUGAAG..........................
+C.elegans.2                        GGGCGAGCCGC...GAGCGUGAAA..........................
+C.reinhardtii.1                    GCCCCGGCGCCU..GAGCGCUACG..........................
+O.sativa.1                         ACCUGUGGGCCA..GAGCGUGAUU..........................
+T.aestivum.1                       ACCUCUGGGCCA..GAGCGUGAUU..........................
+Z.mays.1                           ACCUGUGGGCCA..GAGCGUGAUU..........................
+S.lycopersicum.1                   GCCAUGUGACCA..GAGCGUGAUU..........................
+L.japonicus.1                      ACCGUGUGAUCA..GAGCGUGAUU..........................
+M.truncatula.1                     ACCGUGUGAUCA..GAGCGUGAUU..........................
+A.thaliana.1                       ACCGUGCGGCUA..GAGCGUGAUU..........................
+#=GC SS_cons                       <<<<<<<<<<<<......................................
+
+L.collosoma.1                      ..................................................
+T.brucei.1                         ..................................................
+S.cerevisiae.1                     GGUCCGCAAUCCUUAGCGGUUCGGCCAUCUAUAAUUUUGAAUAAAAAUUU
+Saccharomyces_cerevi.1             GGUCCGCAAUCCUUAGCGGUUCGGCCAUCUAUAAUUUUGAAUAAAA.UUU
+S.pombe.1                          ...........................................ACUUUUA
+S.pombe.2                          ...........................................AUUUUUA
+D.melanogaster.1                   ..................................................
+D.melanogaster.2                   ..................................................
+D.rerio.1                          ..................................................
+X.laevis.1                         ..................................................
+G.gallus.1                         ..................................................
+M.musculus.1                       ..................................................
+M.musculus.2                       ..................................................
+R.norvegicus.1                     ..................................................
+H.sapiens.1                        ..................................................
+B.taurus.1                         ..................................................
+C.elegans.1                        ..................................................
+C.elegans.2                        ..................................................
+C.reinhardtii.1                    ..................................................
+O.sativa.1                         ..................................................
+T.aestivum.1                       ..................................................
+Z.mays.1                           ..................................................
+S.lycopersicum.1                   ..................................................
+L.japonicus.1                      ..................................................
+M.truncatula.1                     ..................................................
+A.thaliana.1                       ..................................................
+#=GC SS_cons                       ..................................................
+
+L.collosoma.1                      ..................................................
+T.brucei.1                         ..................................................
+S.cerevisiae.1                     UGCUUUGGCGUUGCAUUUGUAGUU.UUUUCCUU....UGGAAGUAA.UUA
+Saccharomyces_cerevi.1             UGCUUUGCCGUUGCAAUUGUGAUA.ACUUCCUU....UGGAAUUUG.UUG
+S.pombe.1                          AUUCUUUGAAGGC.AUGCUUUUCGAUUAGGUUUU..UUACCUAAUUGUUU
+S.pombe.2                          CUUCUUUGAGGAU.GUGCUGAUCGAUUUGGCUUU..UUGCUUAAUUGUUG
+D.melanogaster.1                   ...AUUUGCCCA..GUGUUCUU.UGUGGUGCCU....CGCAUCGUU.CGG
+D.melanogaster.2                   ...AUUUGCCCAG.CACCCUU.GUGGGAUGCAC....UGCAUCCUUAGCG
+D.rerio.1                          .....CAGAUG....CAGAGA.....GAUGAUUC.AAUUCAUG....UGC
+X.laevis.1                         .....UGAGCUC...ACAGU......GCUGCUUC.AUUGUGGC.....UG
+G.gallus.1                         .....CGGGCGG...GCGGU......GCUGCUUG...UGCAGG.....AG
+M.musculus.1                       .....CCGGCUC...UAGGU......GCUGCUUG.ACUGCAGC.....UG
+M.musculus.2                       .....CCGGCUU...UUAGU......GCUGCAUU..UUGCAAC.....UG
+R.norvegicus.1                     .....CCGGCUC...UUAGU......GUUGCUUC.CGUGCAAC.....UG
+H.sapiens.1                        .....CCGGCUUU..CUGGC......GUUGCUUG.GCUGCAAC.....UG
+B.taurus.1                         .....UCGGCUU...UGGGU......GUUGCUUC...UGCAGC.....UG
+C.elegans.1                        ......C...................AGU.CCUCUAAUG.ACU.......
+C.elegans.2                        ......C...................AGUUCUUC...GGAACU.......
+C.reinhardtii.1                    ....UAUGACCACUGUGGCC......GUGCCGC....UGGCAC......G
+O.sativa.1                         ......AACGGCC...GGAUCA.....CUGGCU...GAUUUG.......A
+T.aestivum.1                       ......AACGGCCA..GGAUU......CCCUUA...UGGGGG.....CAA
+Z.mays.1                           .....UAACGGCCA..GGACUU......UGCCUU.GGUGCA......UUG
+S.lycopersicum.1                   ...AACAGCU...AU.CCAU......GGUUUCU....CGAGCU......G
+L.japonicus.1                      ...AAUAGUCGUCC...GAUU......GACCUU...CGGGUU......CA
+M.truncatula.1                     ......AACGGCC...AGGA......UGAUGUG...UGCAUCA......U
+A.thaliana.1                       ......GACGGCUAC..GAU.......CGUCCU...CGGACG......CA
+#=GC SS_cons                       .......<<<<.....<<<<......<<<<<.......>>>>>......>
+
+L.collosoma.1                      ................UUCGAUGAAC........................
+T.brucei.1                         ................UUCGAUGAAC........................
+S.cerevisiae.1                     CAAUAUUUUAUGG...CGCGAUGAUCUUG.........ACCCA...UCCU
+Saccharomyces_cerevi.1             CGAUAUUUAAUGG...CGCGAUGAUCUUG.........ACCCA...UCCU
+S.pombe.1                          UGCU...GUCUUUCUAUGCGAUGAUCUCU.........UACAU...GAUA
+S.pombe.2                          UGCU...AUCUUUAUUUGCGAUGAUCUCU.........UACAU...GAUA
+D.melanogaster.1                   GACGC...AGGGC...UUCGAUGAUCGCUCGGUAGAAA............
+D.melanogaster.2                   GGGAG..CGGGGC...UUCGAUGAUCGCUCGGUUUGAA............
+D.rerio.1                          UCU.....GGAUC...AUUGAUGAAUGU..........UCCUC...GUUG
+X.laevis.1                         CUGU....UUGCU...AUUGAUGAACGU..........UCUG....CUCC
+G.gallus.1                         CCGC....CCGUC...AUUGAUGACCGU..........UCCCG..U..CC
+M.musculus.1                       CCUC....CUGCC...AUUGAUGAUCGU..........UCUU....CCCU
+M.musculus.2                       CUAU....CUGCC...AUUGAUGAUCGU..........UCUC....AACU
+R.norvegicus.1                     CUAU....UGGCC...AUUGAUGAUCGU..........UCUCG..G.UCC
+H.sapiens.1                        CCGU....CAGCC...AUUGAUGAUCGU..........UCUU...CUCUC
+B.taurus.1                         CCGU....UAGCC...AUUGAUGAUCGU..........UCUUC..UUUUC
+C.elegans.1                        ..................UGAUGACCGC..........ACGG..AG..CC
+C.elegans.2                        ..................UGAUGACCGC..........ACGG..AG..CC
+C.reinhardtii.1                    GACG..CGUGGUU...CUGGAUGAAC............GUCCC.....GC
+O.sativa.1                         UCC.CACGGCUGU.....AGAGGAUCGU..........UUCUUGCC..GG
+T.aestivum.1                       UCC..ACGGCUGU.....AGAGGAUCGU..........UCCUGCCU...U
+Z.mays.1                           UCU.GGA.GCUGC.....AGAUGAUCGU..........UCUUGGCC..AG
+S.lycopersicum.1                   UGG.UUAC..AGU.....AGAUGAUCGU..........UCUUAGAC...C
+L.japonicus.1                      UCAGAUCGACGGU.....GGAGGAUCGU..........UCUCAG....CG
+M.truncatula.1                     CUU..CA.GCUGU.....AGAUGAUCGU..........UCUUGGCC..UA
+A.thaliana.1                       UC..CAGUGCUGU.....AGAGGAUCGUUA........CUCGGCUC...G
+#=GC SS_cons                       >>>......>>>>.........................<<<<<<..<<<<
+
+L.collosoma.1                      ......................................GGCAGAA.GAA.
+T.brucei.1                         ......................................GGCAGGA.GCC.
+S.cerevisiae.1                     AUGUACUUCUUUUUUGAAGGGAUAGGGCUCUAUGGGU.GGG.UAC.AAAU
+Saccharomyces_cerevi.1             AUGUGCUUCCAUUUUGGAAGGAUAGGGAUUCAUGGGU.GGG.UAC.AAAU
+S.pombe.1                          UGUUUCCU.......UUUGGUCGUAUU.....AUGUA.GGG.CAGCUGG.
+S.pombe.2                          UGUU.CCU.......UUUGGUCGUGUC.....AUGUA.GGG.CAGCUGG.
+D.melanogaster.1                   ......................................CGG.AUA.GAG.
+D.melanogaster.2                   ......................................CGG.AUA.GAG.
+D.rerio.1                          UGUC................UCACAAC...A.GAGGA.GGA.AAA.GAG.
+X.laevis.1                         CCUUUAU..........UAUUGGGGAG...A..UGGA.GGG.AGA.GAA.
+G.gallus.1                         CACUUG.............GUUGGG....UC.UGGGA.GGG.AGA.GAA.
+M.musculus.1                       CCUU...............UGGGAGGG...U..GAGA.GGG.AGG.GAA.
+M.musculus.2                       CUCU...............UGAGGGUU......GAGA.GGG.AGA.GGA.
+R.norvegicus.1                     UCUC................UGAGGG....G.CGAGA.GGG.AGA.GAA.
+H.sapiens.1                        CGUA................UUGGGGA..GU..GAGA.GGG.AGA.GAA.
+B.taurus.1                         CUUU................UAGGAGA...U.GAAGA.GGG.AGA.GAA.
+C.elegans.1                        AAUGAA.............UUUUGG....AG..CCGUA.GU.GGC.CUG.
+C.elegans.2                        GAUGAA.............UUUUGG....AG..CCGUA.GU.GGC.UUG.
+C.reinhardtii.1                    CGAGACCA.......UUCCACCGGC.....A.GGGAU..GG.UGCUCGG.
+O.sativa.1                         GCC................UCGCCU....GGCCAGGA.UGG.CUC.UCA.
+T.aestivum.1                       GCUC...............AUGCUU....GUGCAGGG.UGG.CCC.AGA.
+Z.mays.1                           GCUUA..............AUGUCU....GGCUAGGG.UGG.CCU.ACA.
+S.lycopersicum.1                   CUUAAU............CUCAGG......CCUAAGA.UGG.UCU.CAU.
+L.japonicus.1                      GGUAU..............CACCGG......CUGGGG.UGG.UCA.CAC.
+M.truncatula.1                     GUUC................AACUA.....ACCGGGA.UGG.UCA.CAU.
+A.thaliana.1                       GUUU...............CUACC.....UUGCCGGGGUGG.UCG.CAC.
+#=GC SS_cons                       <<...................>>>>>>....>>>>>>.>>>.>>>.>>>.
+
+L.collosoma.1                      AGU.UCCAGAAGGAUU
+T.brucei.1                         GGU.UCCAGAAGGAUC
+S.cerevisiae.1                     GGCAGUCUGACAAGU.
+Saccharomyces_cerevi.1             GGCAGUCUGACAAG..
+S.pombe.1                          UGUUUUCUGACGUGU.
+S.pombe.2                          UGUUUUCUGACGUGU.
+D.melanogaster.1                   CGAAUUCUGAGUGGU.
+D.melanogaster.2                   CGAAUUCUGAGUGGU.
+D.rerio.1                          UAUGAGCAGAGUGG..
+X.laevis.1                         CACAGGCUGAGUGG..
+G.gallus.1                         CACAGGCUGAGUGG..
+M.musculus.1                       CGCAGUCUGAGUGGA.
+M.musculus.2                       CACAGUCUGAGUGGU.
+R.norvegicus.1                     CGCAGUCUGAGUGGU.
+H.sapiens.1                        CGCGGUCUGAGUGGU.
+B.taurus.1                         CGUAAUCUGAGUGG..
+C.elegans.1                        CUC.UUCUGAGCAG..
+C.elegans.2                        CUC.UUCUGAGCGG..
+C.reinhardtii.1                    GGCAUUCAGAUGGGU.
+O.sativa.1                         GGUUGUCUGACAGG..
+T.aestivum.1                       GGUUGUCUGACAGA..
+Z.mays.1                           GGCUGUUUGACAGG..
+S.lycopersicum.1                   GGCUGUCUGACAGA..
+L.japonicus.1                      GGUUGUCUGACAGG..
+M.truncatula.1                     GGUUGUCUGACAGA..
+A.thaliana.1                       GGCGGUCUGACAGG..
+#=GC SS_cons                       >>>.......>>>>..
+//

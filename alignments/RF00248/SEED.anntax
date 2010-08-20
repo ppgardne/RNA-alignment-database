@@ -1,0 +1,75 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-148
+#=GF AC    RF00248
+#=GF DE    mir-148/mir-152 microRNA precursor family
+#=GF AU    Griffiths-Jones SR, Daub J
+#=GF GA    31.0
+#=GF NC    0.0
+#=GF TC    40.6
+#=GF SE    Griffiths-Jones SR
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIR; MI0000174
+#=GF DR    MIR; MI0000253
+#=GF DR    MIR; MI0000462
+#=GF DR    MIR; MI0000550
+#=GF DR    MIR; MI0000616
+#=GF DR    MIR; MI0000617
+#=GF DR    MIR; MI0002015
+#=GF DR    MIR; MI0001189
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF RN    [1]
+#=GF RM    12007417
+#=GF RT    Identification of tissue-specific microRNAs from mouse.
+#=GF RA    Lagos-Quintana M, Rauhut R, Yalcin A, Meyer J, Lendeckel W, Tuschl T;
+#=GF RL    Curr Biol 2002;12:735-739.
+#=GF RN    [2]
+#=GF RM    14691248
+#=GF RT    Identification of many microRNAs that copurify with polyribosomes in
+#=GF RT    mammalian neurons.
+#=GF RA    Kim J, Krichevsky A, Grad Y, Hayes GD, Kosik KS, Church GM, Ruvkun G;
+#=GF RL    Proc Natl Acad Sci U S A 2004;101:360-365.
+#=GF RN    [3]
+#=GF RM    15937218
+#=GF RT    The developmental miRNA profiles of zebrafish as determined by small
+#=GF RT    RNA cloning.
+#=GF RA    Chen PY, Manninga H, Slanchev K, Chien M, Russo JJ, Ju J, Sheridan R,
+#=GF RA    John B, Marks DS, Gaidatzis D, Sander C, Zavolan M, Tuschl T;
+#=GF RL    Genes Dev. 2005;19:1288-1293.
+#=GF CC    The expression of miR-148 has been demonstrated in human
+#=GF CC    (MIR:MI0000253), mouse (MIR:MI0000550), rat (MIR:MI0000616) and
+#=GF CC    zebrafish (MIR:MI0002015) [1,2,3].  miR-148 has also been
+#=GF CC    predicted in chicken (MIR:MI0001189). These predicted hairpin
+#=GF CC    precursor sequence are related to those of mir-152, which has
+#=GF CC    been expressed in mouse (MIR:MI0000174) and is predicted in human
+#=GF CC    (MIR:MI0000462) [1].  The hairpin precursors (represented here)
+#=GF CC    are predicted based on base pairing and cross-species
+#=GF CC    conservation -- their extents are not known.  In this case the
+#=GF CC    mature sequence is excised from the 3' arm of the hairpin.
+#=GF WK    http://en.wikipedia.org/wiki/mir-148/mir-152_microRNA_precursor_family
+#=GF SQ    5
+
+#=GS D.rerio.1    AC    AL953901.15/62198-62283
+#=GS M.musculus.1 AC    AL596384.17/69144-69229
+#=GS H.sapiens.1  AC    AC010719.4/30378-30463
+#=GS H.sapiens.2  AC    AC004477.2/81297-81383
+#=GS H.sapiens.3  AC    AC078778.34/32516-32602
+
+D.rerio.1                UGUUCACCU.GGCUCAAGUUCUGUGAUACACUCAGACUUUGAAUCAG.UG
+M.musculus.1             UGUUCCCCG.GGCCUAGGUUCUGUGAUACACUCCGACUCGGGCUCUG.GA
+H.sapiens.1              UGGUCUUUUGAGGCAAAGUUCUG..AGACACUCCGACUCUGAGUAUGAUA
+H.sapiens.2              UGUCCCCCCCGGCCCAGGUUCUGUGAUACACUCCGACUCGGGCUCUG.GA
+H.sapiens.3              UUAGCAUUUGAGGUGAAGUUCUGUUAUACACUCAGGCUGUGGCUCUCUGA
+#=GC SS_cons             .<<<<.....<<<<<<<<<<<<<<....<<<<..<<<<............
+
+D.rerio.1                GUAGUCAGUGCAUGACAGAACUUUGGCCCGGACGGACC
+M.musculus.1             GCAGUCAGUGCAUGACAGAACUUGGGCCCGGUAGGACC
+H.sapiens.1              GAAGUCAGUGCACUACAGAACUUUGUCUCUAGAGGCUG
+H.sapiens.2              GCAGUCAGUGCAUGACAGAACUUGGGCCCGGAAGGACC
+H.sapiens.3              .AAGUCAGUGCAUCACAGAACUUUGUCUCGAAAGCUUU
+#=GC SS_cons             ..>>>>>>>>....>>>>>>>>>>>>>>.....>>>>.
+//

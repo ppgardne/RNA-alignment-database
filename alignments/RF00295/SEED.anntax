@@ -1,0 +1,58 @@
+# STOCKHOLM 1.0
+#=GF ID    snoTBR7
+#=GF AC    RF00295
+#=GF DE    Small nucleolar RNA TBR7
+#=GF AU    Moxon SJ
+#=GF GA    30.0
+#=GF NC    27.2
+#=GF TC    32.2
+#=GF SE    Moxon SJ
+#=GF SS    Predicted; PFOLD; Daub J
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF RN    [1]
+#=GF RM    12215523
+#=GF RT    Purified box C/D snoRNPs are able to reproduce site-specific
+#=GF RT    2'-O-methylation of target RNA in vitro.
+#=GF RA    Galardi S, Fatica A, Bachi A, Scaloni A, Presutti C, Bozzoni I;
+#=GF RL    Mol Cell Biol 2002;22:6663-6668.
+#=GF RN    [2]
+#=GF RM    10747997
+#=GF RT    Fibrillarin-associated box C/D small nucleolar RNAs in Trypanosoma
+#=GF RT    brucei. Sequence conservation and implications for 2'-O-ribose
+#=GF RT    methylation of rRNA.
+#=GF RA    Dunbar DA, Wormsley S, Lowe TM, Baserga SJ;
+#=GF RL    J Biol Chem 2000;275:14767-14776.
+#=GF CC    TBR7 is a member of the C/D class of snoRNA which contain the C (UGAUGA)
+#=GF CC    and D (CUGA) box motifs. Most of the members of the box C/D family function
+#=GF CC    in directing site-specific 2'-O-methylation of substrate RNAs [1,2].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_TBR7
+#=GF SQ    6
+
+#=GS T.brucei.1 AC    AF168734.1/1-75
+#=GS T.brucei.2 AC    Z50171.1/339-410
+#=GS T.cruzi.1  AC    AF545068.1/590-664
+#=GS T.cruzi.2  AC    AF545070.1/587-661
+#=GS T.cruzi.3  AC    AF016400.1/448-527
+#=GS T.cruzi.4  AC    AF545069.1/568-642
+
+T.brucei.1             UGAAUGAUGACUGA.CA..AAACAUCACAGACUUUGAUGACCCCAUGAAC
+T.brucei.2             UGCA.GAUGACUGA.CA..AAACAUCACAGACUUUGAUGACCCCAUGAAC
+T.cruzi.1              GAUAUGAUGAUUGA.CG..UAACAUCACAGGCUUUGACGAACCCGUGAGC
+T.cruzi.2              GAUAUGAUGAUUGA.CG..UAACAUCACAGACUUUGACGAACCCGUGAGC
+T.cruzi.3              GAUAUGAUGAUUGAACGGUAAACAUCACAGACUUUGACGAACCCGUGAGA
+T.cruzi.4              GAUAUGAUGAUUGA.CG..UAACAUCACAGACUUUGACGAGCCCGUGAGC
+#=GC SS_cons           ....................................<<<....>>>....
+
+T.brucei.1             AAGAAAAAUUGUUGC..CCCAGACUGAAUU
+T.brucei.2             AAGAAAAAUUGUG....CCCAGACUGAUUU
+T.cruzi.1              AAGAGACACUGUCGC..CCCAGUCUGACCG
+T.cruzi.2              AAGAAACACUGUCGC..CCCAGUCUGACCG
+T.cruzi.3              AAGAAACACUGUCGGUAACCAGUCUGACAG
+T.cruzi.4              AAGAAACACUGUCGC..CCCAGUCUGACCG
+#=GC SS_cons           ..............................
+//

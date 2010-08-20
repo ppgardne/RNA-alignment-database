@@ -1,0 +1,50 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-744
+#=GF AC    RF00936
+#=GF DE    microRNA mir-744
+#=GF AU    Wilkinson A
+#=GF GA    45.0
+#=GF NC    0.0
+#=GF TC    75.7
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000431
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    5
+
+#=GS L.africana.1    AC    AAGU02514070.1/8891-8991
+#=GS M.musculus.1    AC    AAHY01093966.1/11258-11357
+#=GS R.norvegicus.1  AC    AAHX01064429.1/28843-28942
+#=GS P.troglodytes.1 AC    AACZ02171077.1/17918-18017
+#=GS B.taurus.1      AC    AAFC03122196.1/37108-37207
+
+L.africana.1                GGUUGGGCAAGGUGCGGGGCUAGGGCUAACAGCAGUCUCACUGAAGGUUU
+M.musculus.1                GGCUGGGCAAGGUGCGGGGCUAGGGCUAACAGCAGUCUUACUGACGGUUU
+R.norvegicus.1              GGCUGGGCAAGGUGCGGGGCUAGGGCUAACAGCAGUCUUACUGAGGGUCU
+P.troglodytes.1             GGUUGGGCAAGGUGCGGGGCUAGGGCUAACAGCAGUCUUACUGAAGGUUU
+B.taurus.1                  GGUUGGGCGGGGUGCGGGGCUAGGGCUAACAGCAGGCUCACUGACGGUUU
+#=GC SS_cons                ..<<<<<<<<<<<..<<<<....<<<.<<<<<<<...........<<<<<
+#=GC RF                     ggccGgGcaaGGugcGgGGcuAgGGcuaacaGcagucuuAcugAaGGuuu
+
+L.africana.1                CCUGGAUACCAACAUACAUGCUGUUGCCACUAACCUCAACCUUACUCGGG
+M.musculus.1                CCUGGAAACC.ACACACAUGCUGUUGCCACUAACCUCAACCUUACUCGGU
+R.norvegicus.1              CCUGGAGACC.ACACACAUGCUGUUACCACUAACCUCAACCUUACUCCGU
+P.troglodytes.1             CCUGGAAACC.ACGCACAUGCUGUUGCCACUAACCUCAACCUUACUCGGU
+B.taurus.1                  CCCGGAAACC.ACGCACAUGCUGUUGCCACUAACCUCAACCUUACUCGGU
+#=GC SS_cons                <...>>>>>>........>>>>>>>>>>.....>>>>.>>>>>>>>>>>.
+#=GC RF                     ccuggaaaCC.AcacAcAugCuguugCCAcuAACCuCAaCCuugCuCggu
+
+L.africana.1                U
+M.musculus.1                C
+R.norvegicus.1              C
+P.troglodytes.1             C
+B.taurus.1                  C
+#=GC SS_cons                .
+#=GC RF                     c
+//

@@ -1,0 +1,79 @@
+# STOCKHOLM 1.0
+#=GF ID    IS061
+#=GF AC    RF00115
+#=GF DE    IS061 RNA
+#=GF AU    Moxon SJ
+#=GF GA    30.0
+#=GF NC    13.5
+#=GF TC    32.7
+#=GF SE    Hershberg R
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; sRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF RN    [1]
+#=GF RM    12069726
+#=GF RT    A bioinformatics based approach to discover small RNA genes in the
+#=GF RT    Escherichia coli genome.
+#=GF RA    Chen S, Lesnik EA, Hall TA, Sampath R, Griffey RH, Ecker DJ, Blyn LB;
+#=GF RL    Biosystems 2002;65:157-177.
+#=GF CC    This family consists of several bacterial RNA genes of 181 bases in length
+#=GF CC    which are found between the abgR and ydaL genes in Escherichia coli and
+#=GF CC    Shigella flexneri. The function of this family is unknown.
+#=GF WK    http://en.wikipedia.org/wiki/IS061_RNA
+#=GF SQ    8
+
+#=GS Escherichia_coli_IAI.1 AC    CU928160.2/1426909-1427088
+#=GS Escherichia_coli_ATC.1 AC    CP000946.1/2522022-2522201
+#=GS Escherichia_coli_SMS.1 AC    CP000970.1/1800644-1800824
+#=GS Escherichia_coli_str.1 AC    U00096.2/1403654-1403833
+#=GS Escherichia_coli_536.1 AC    CP000247.1/1421440-1421620
+#=GS Shigella_sonnei_Ss04.1 AC    CP000038.1/1889321-1889500
+#=GS Shigella_flexneri_5_.1 AC    CP000266.1/1872564-1872744
+#=GS S.dysenteriae.1        AC    AF153317.1/26699-26879
+
+Escherichia_coli_IAI.1             GCGGCUAUCUGCAAAG.UUAAAACUGCAUAAAAA.AAUAGAGUCUGUCGA
+Escherichia_coli_ATC.1             GCGGCUAUCUGCAAAG.UUAAAACUGCAUAAAAA.AAUAGAGUCUGUCGA
+Escherichia_coli_SMS.1             GCGGCUAUCUGCAAAG.UUAAAACUGCAUAAAAAAAAUAGAGUCUGUCGA
+Escherichia_coli_str.1             GCGGCUAUCUGCAAAG.UUAAAACUGCAUAAAAA.AAUAGAGUCUGUCGA
+Escherichia_coli_536.1             GUGCUUAUUUACAGAGCUAAAAAAUGAAUAAAAA.AAUAGAGCCUGUCGA
+Shigella_sonnei_Ss04.1             GCGGCUAUCUGCAAAG.UUAAAACUGCAUAAAAA.AAUAGAGUCUGUCGA
+Shigella_flexneri_5_.1             GUGGUUAUUUACAGAGCUAAAAAAUGAAUAAAAA.AAUAGAGCCUGUCGA
+S.dysenteriae.1                    GUGGUUAUUUACAGAGCUAAAAAAUGAAUAAAAA.AAUAGAGCCUGUCGA
+#=GC SS_cons                       <<<......>>>.......<<<<<<<...........<<<<<<<<<....
+#=GC RF                            GcgGuUAUuugCAaAGcUaaaaacuGaAUAAAAA.AAuaGaGuCuGUCGA
+
+Escherichia_coli_IAI.1             CAUCCGCCAGACUCUACAGUACACACAGCAGUGCAUCCGCGUCUUAAGUC
+Escherichia_coli_ATC.1             CAUCCGCCAGACUCUACAGUACACACUGCAGUGCAUCCGCGUCUUAAAUC
+Escherichia_coli_SMS.1             CAUCCGCCAGACUCUACAGUACACACAGCAGUGCAUCCGCGUCUUAAAUC
+Escherichia_coli_str.1             CAUCCGCCAGACUCUACAGUACACACAGCAGUGCAUCCGCGUCUUAAAUC
+Escherichia_coli_536.1             CAUCCGCCAGACUCUACAGUACACACAGCAGUGCAUCCUCGUCUUAAAUC
+Shigella_sonnei_Ss04.1             CAUCCGCCAGACUCUACAGUACACACAGCAGUGCAUCCGCGUCUUAAAUC
+Shigella_flexneri_5_.1             CAUCCGCCAGACUCUACAGUACACACAGCAGUGCAUCCUCGUCUUAAAUC
+S.dysenteriae.1                    CAUCCGCCAGACUCUACAGUACACACAGCAGUGCAUCCUCGUCUUAAAUC
+#=GC SS_cons                       .......>>>>>>>>>..<<<<........>>>>......<<<......<
+#=GC RF                            CAUCCGCCaGaCuCuaCAGuaCACACAGCAGugCAUCCuCGuCUUAAAUC
+
+Escherichia_coli_IAI.1             CGGCAUUGUCUCCUCUGCG.CCGGUGACUGUGUUAUAACGGUUUUAACCU
+Escherichia_coli_ATC.1             CGGCAUUGUCUCCUCUGCG.CCGGUGACUGUGUUAUAACGGUUUUAACCU
+Escherichia_coli_SMS.1             CGGCAUGGUCUCCUCUGCG.CCGGUGACUGUGUUAUAACGGUUUUAACCU
+Escherichia_coli_str.1             CGGCAUUGUCUCCUCUGCG.CCGGUGACUGUGUUAUAACGGUUUUAACCU
+Escherichia_coli_536.1             CGGCCUGGGGUCCUGGU.GACCGGUGACAGUGUUAUAACGGUUUUACCCA
+Shigella_sonnei_Ss04.1             CGGCAUUGUCUCCUCUGCG.CCGGUGACUGUGUUAUAACGGUUUUAACCU
+Shigella_flexneri_5_.1             CGGCCUGGGGUCCUGGU.GACCGGUGACAGUGUUAUAACGGUUUUACCCA
+S.dysenteriae.1                    CGGCCUGGGGUCCUGGU.GACCGGUGACAGUGUUAUAACGGUUUUACCCA
+#=GC SS_cons                       <<<<..............>.>>>>.>>>..........>>>>>>>.....
+#=GC RF                            CGGCaUuGugUCCUguucGACCGGUGaCaGUGUUAUAACgguuuuAaCCa
+
+Escherichia_coli_IAI.1             UUAGUUGCCAAUUUUCUUCAGUGACAGAUUUCA
+Escherichia_coli_ATC.1             UUAGUUGCCAAUUUUCUUCAGUGACAGAUUUCA
+Escherichia_coli_SMS.1             UUAGUUGCCAAUUUUCUUCAGUGACAGAUUUCA
+Escherichia_coli_str.1             UUAGUUGCCAAUUUUCUUCAGUGACAGAUUUCA
+Escherichia_coli_536.1             UCCGUUGCCAAUUUUCUUCAGUGACAGAUUUCA
+Shigella_sonnei_Ss04.1             UUAGUUGCCAAUUUUCUUCAGUGACAGAUUUCA
+Shigella_flexneri_5_.1             UCCGUUGCCAAUUUUCUUCAGUGACAGAUUUCA
+S.dysenteriae.1                    UCCGUUGCCAAUUUUCUUCAGUGACAGAUUUCA
+#=GC SS_cons                       ...<<<<<............>>>>>........
+#=GC RF                            UuaGuugCCAAUUUUCUUCAGugaCAGAUUUCA
+//

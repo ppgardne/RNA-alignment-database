@@ -1,0 +1,58 @@
+# STOCKHOLM 1.0
+#=GF ID    MIR811
+#=GF AC    RF00882
+#=GF DE    microRNA MIR811
+#=GF AU    Wilkinson A
+#=GF GA    87.0
+#=GF NC    86.8
+#=GF TC    87.0
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000347
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    5
+
+#=GS O.sativa.1         AC    AC090873.4/23607-23796
+#=GS O.sativa.2         AC    AAAA02007199.1/7297-7486
+#=GS O.sativa.3         AC    AC145323.3/30444-30632
+#=GS O.longistaminata.1 AC    U72726.1/1398-1587
+#=GS O.sativa.4         AC    AP004679.3/152682-152871
+
+O.sativa.1                     GGAAACUUGAAAACUACCGUUAGAUCGAGAAAUGGACGUCCGAGAUUCGU
+O.sativa.2                     GGAAACUUGGAAACUACCGUUGGAUCGAGAAAUGGACGUCCGAGAUUCGU
+O.sativa.3                     UAAUUUUCAUCCUACACCGUUAGAUCGAGAAAUGGACGUUCGAGAUUCGU
+O.longistaminata.1             GGAAACUUGGAAGCUAUCGUUGGAUCGAGAAAUGGAUGUCCGAUAUUCGU
+O.sativa.4                     GGAAACUUGAAAACUACCGUUAGAUCGAGAAAUGGACGUCCGAGAUUCGU
+#=GC SS_cons                   <<<<<<<<<.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+#=GC RF                        gggggcccgagggccgccgccgggccggggggcgggcgcccggggcccgc
+
+O.sativa.1                     CCACGUCACCAUGAGUUAAAAUUUAACUCGCAGAUUCACUCCUGAGUUAA
+O.sativa.2                     CCACGUCACCAUGAGUUAAAAUUUAACUCGCAGAUUCACUCAUGAGUUAA
+O.sativa.3                     CCACGUCACCAUGAGUUAAAAUUUAACUCUCAG..UAAAUUUUAACUCAU
+O.longistaminata.1             CCACAUCAACAUGAGUUAAAAUUUAACUCUCAUUAAAAUUUUAACUCAUA
+O.sativa.4                     UCACGUCAUCAUGAGUUAAAAUUUAACUCGCAGAUUCACUCAUGAGUUGA
+#=GC SS_cons                   <<<<<<<<<<<<<<<<<<<<<<<<<<<<<.<<<.................
+#=GC RF                        ccgcgccgccccgggccggggcccggcccgcggaaaaaaaaaaaaaaaaa
+
+O.sativa.1                     ACUUUU.ACUGGGAGUUAAAUUUUAACUCAUGGUGACGUGGGCGAAUCUC
+O.sativa.2                     AAUUUU.ACUAGGAGUUAAAUUUUAACUUAUGGUGACGUGGAUGAAUCUU
+O.sativa.3                     GAGUGAAUCUGCGAGUUAAAUUUUAACUCAGGGUGACGUGGACGAAUCUC
+O.longistaminata.1             AGUGAA.UCUGCGAGUUAAAUUUUAUCUCUUGGUGACGUGGACGAAUCUU
+O.sativa.4                     AAUUUU.ACUGGGAGUUAAAUUUUAACUCAUUGUGACGUGGACGAAUCUC
+#=GC SS_cons                   ........>>>.>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+#=GC RF                        aaaaaa.accgcgggccgggccccggcccggggcggcgcgggcgggcccc
+
+O.sativa.1                     GAACGUUCGUUUCUGGAUCCAACGGUAGUUUCCAAGUUUCC
+O.sativa.2                     GGACGUCUAUUUCUCGAUCCAACAGUAGUUUCCAAGUUUCC
+O.sativa.3                     GGACGUCUAUUUCUCGAUCCAACGGUGUAGAAUGAGAGUUG
+O.longistaminata.1             GGACAUCCAUUUCUCGAUCUAACGGUAGUUUCUAAGUUUCC
+O.sativa.4                     GGACGUCCAUUUCUCGAUCCAACGUUAGUUUCCAAGUUUCC
+#=GC SS_cons                   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.>>>>>>>>>
+#=GC RF                        gggcgcccgccccccggcccggcggcggcccacgggccccc
+//

@@ -1,0 +1,120 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-6
+#=GF AC    RF00143
+#=GF DE    mir-6 microRNA precursor
+#=GF AU    Moxon SJ
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    34.7
+#=GF SE    Griffiths-Jones SR
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF RN    [1]
+#=GF RM    11914277
+#=GF RT    miRNPs: a novel class of ribonucleoproteins containing numerous
+#=GF RT    microRNAs.
+#=GF RA    Mourelatos Z, Dostie J, Paushkin S, Sharma A, Charroux B, Abel L,
+#=GF RA    Rappsilber J, Mann M, Dreyfuss G;
+#=GF RL    Genes Dev 2002;16:720-728.
+#=GF RN    [2]
+#=GF RM    11779458
+#=GF RT    microRNAs: tiny regulators with great potential.
+#=GF RA    Ambros V;
+#=GF RL    Cell 2001;107:823-826.
+#=GF CC    This family consists of the microRNA (miRNA) precursor mir-6 which
+#=GF CC    appears to be Drosophila specific. Animal miRNAs are transcribed as ~70nt
+#=GF CC    precursors and subsequently processed by the Dicer enzyme to give a ~22nt
+#=GF CC    product. In this case the mature sequence comes from the 3' arm of the
+#=GF CC    precursor. The extents of the hairpin precursors are not generally known
+#=GF CC    and are estimated based on hairpin prediction.  The products are thought 
+#=GF CC    to have regulatory roles through complementarity to mRNA. The involvement
+#=GF CC    of Dicer in miRNA processing suggests a relationship with the phenomenon
+#=GF CC    of RNA interference. miRNAs are numbered based on the sequence of the
+#=GF CC    mature RNA.
+#=GF WK    http://en.wikipedia.org/wiki/mir-6_microRNA_precursor
+#=GF SQ    24
+
+#=GS D.virilis.1       AC    AANI01014795.1/39849-39929
+#=GS D.virilis.2       AC    AANI01014795.1/40023-40100
+#=GS D.mojavensis.1    AC    AAPU01010225.1/182733-182811
+#=GS D.mojavensis.2    AC    AAPU01010225.1/182911-182992
+#=GS D.virilis.3       AC    AANI01014795.1/39694-39769
+#=GS D.grimshawi.1     AC    AAPT01006453.1/3535-3614
+#=GS D.grimshawi.2     AC    AAPT01020768.1/61396-61474
+#=GS D.grimshawi.3     AC    AAPT01006453.1/3396-3470
+#=GS D.persimilis.1    AC    AAIZ01001618.1/40271-40349
+#=GS D.simulans.1      AC    AAST01030396.1/2689-2767
+#=GS D.pseudoobscura.1 AC    AADE01001895.1/3626-3699
+#=GS D.simulans.2      AC    AAGH01003023.1/9218-9292
+#=GS D.ananassae.1     AC    AAPP01018770.1/57378-57462
+#=GS D.ananassae.2     AC    AAPP01018770.1/57538-57612
+#=GS D.willistoni.1    AC    AAQB01006291.1/71052-71126
+#=GS D.ananassae.3     AC    AAPP01018770.1/57233-57304
+#=GS D.persimilis.2    AC    AAIZ01001618.1/40125-40208
+#=GS D.melanogaster.1  AC    AE013599.4/15548511-15548587
+#=GS D.simulans.3      AC    AASS01023484.1/3760-3836
+#=GS D.erecta.1        AC    AAPQ01007044.1/1204655-1204728
+#=GS D.yakuba.1        AC    AAEU02000463.1/591743-591819
+#=GS D.willistoni.2    AC    AAQB01006291.1/70723-70803
+#=GS D.yakuba.2        AC    AAEU02000463.1/591606-591680
+#=GS D.persimilis.3    AC    AAIZ01000060.1/36263-36338
+
+D.virilis.1                   UAACCGC.AGGGAACUGCUGCUGCUGAUAUACUGUAUA.......GAUUA
+D.virilis.2                   AAAAGGA.AGAGAACGUUCGCUGUUGAUGUAGU...CG.......ACCUU
+D.mojavensis.1                AAAGAGA.AGAGAACGUUCGCUGUUGAUGUAGU...CG.......AAUUC
+D.mojavensis.2                UAACCGC.AGGGAACUGCUGCUGCUGAUAUACUAUAUG.......UAUUU
+D.virilis.3                   UAAAGUAGAGAGAAUAGACGCUG.UGCUGUAUG...UU.......UUGCG
+D.grimshawi.1                 UAACCAC.AGGGAACUGCUGCUGCUGAUAUACA...AC.......CAUAU
+D.grimshawi.2                 AAAAGGA.AGAGAACGCUCGCUGCUGAUGUAGU...UC.......AUGAU
+D.grimshawi.3                 AAUGUAA.AGAGAAUAGAUGCUG.UGCUGUAUG...UU.......GAACG
+D.persimilis.1                AAAAAGA.AGGGAACGGUUGCUGCUGAUGUAGU...UC.......AAGUU
+D.simulans.1                  AAAAAGA.AGGGAACGGUUGCUGAUGAUGUAGU...UC.......GAAAC
+D.pseudoobscura.1             GAAGUAG.AGAGAAUAGUUGCUG.UGCUAUAUG...UC.......CUUCG
+D.simulans.2                  UAACCCC.AGGGAACUUCUGCUGCUGAUAUAUUA..UU.......GAAAA
+D.ananassae.1                 UAGCCCC.AGGGAACUGUUGCUGCUGAUAUAUUA..UUCUCCCAAAAAAA
+D.ananassae.2                 AAAAAGA.AGGGAACGGUCGCUGCUGAUGUAG.....U.......UAUUC
+D.willistoni.1                UAAAGUAGAGAGAAUAGUUGCUG.UGUUUU.AU...GC.......CCUUU
+D.ananassae.3                 UAAAGUAGAGAGAAUAGUGGCUG.UGCUGUA...............AGUU
+D.persimilis.2                CAACCGC.AGGGAACCGCUGCUGCUGAUAUAUUA..UC.......CACCC
+D.melanogaster.1              UAAUGUAGAGGGAAUAGUUGCUG.UGCUGUAAG...UU.......AAUAU
+D.simulans.3                  UAAAGUAGAGGGAAUAGUUGCUG.UGCUAUAAG...UU.......UAUAU
+D.erecta.1                    UAACCCC.AGGGAACCUCUGCUGCUGAUAUAUU...AU.......UGAAA
+D.yakuba.1                    UAACGUAGAGGGAAUAGUUGCUG.UGCUGUAAG...UU.......AAUAA
+D.willistoni.2                AAAAAGA.AGGGAACGGUUGCUGUUGAUGUAGU...AU.......ACCAU
+D.yakuba.2                    UAACCGC.AGGGAACCUCUGCUGCUGAUAUAUUA..UU.......GAGAA
+D.persimilis.3                UUAUCUA.AGGAAAUAGUAGCCG.UGAUUUAAC...AU.......AACAA
+#=GC SS_cons                  ......<.<<<<<<<<<<<<<<<.<<<<<<<<..................
+#=GC RF                       uAAaaua.aggGaacaGcugCuGauGauauagu...UU.......gAaAa
+
+D.virilis.1                   UAU......CGA.UUCCAUAUCACAGUGGCUGUUCUUUUUGGUUGC
+D.virilis.2                   UGU......ACU.CUUUAUAUCACAGUGGCUGUUCUUUUUUGUUUA
+D.mojavensis.1                AUUUA....AUC..UUUAUAUCACAGUGGCUGUUCUUUUUUGUUUA
+D.mojavensis.2                GUC......AGUACUCUAUAUCACAGUGGCUGUUCUUUUUGGUUGC
+D.virilis.3                   UAU.......GG..UCUAUAUCACAGUGGCUGUUCUUUUUGUACCU
+D.grimshawi.1                 UUAUAC...ACG..ACUAUAUCACAGUGGCUGUUCUUUUUGGUUGC
+D.grimshawi.2                 UCAA.....AUA.UUUUAUAUCACAGUGGCUGUUCUUUUUUGUUUA
+D.grimshawi.3                 UAU......UG...UCUAUAUCACAGUGGCUGUUCUUUUUGUACCA
+D.persimilis.1                UCGC.....ACA.AUUUAUAUCACAGUGGCUGUUCUUUUUUGUUUG
+D.simulans.1                  UCUC.....ACA.AUUUAUAUCACAGUGGCUGUUCUUUUUUGUUUG
+D.pseudoobscura.1             ACUC.....UA.....UAUAUCACAGUGGCUGUUCUUUUUGUACCU
+D.simulans.2                  ACU......CC.....UAUAUCACAGUGGCUGUUCUUUUUGGUUGC
+D.ananassae.1                 AAA......UCA..CCUAUAUCACAGUGGCUGUUCUUUUUGGCUGC
+D.ananassae.2                 GCA......UCA..UUUAUAUCACAGUGGCUGUUCUUUUUUGUUUG
+D.willistoni.1                UCA......AUU..UC.AUAUCACAGUGGCUGUUCUUUUUGUGCCU
+D.ananassae.3                 UCA......AAA..UCUAUAUCACAGUGGCUGUUCUUUUUGCACCU
+D.persimilis.2                AUCUUUGACAUU..UCUAUAUCACAGUGGCUGUUCUUUUUGGUUGC
+D.melanogaster.1              ACC......AUA..UCUAUAUCACAGUGGCUGUUCUUUUUGUACCU
+D.simulans.3                  ACC......GUA..UCUAUAUCACAGUGGCUGUUCUUUUUGUACCU
+D.erecta.1                    ACU......CC.....UAUAUCACAGUGGCUGUUCUUUUUGGUUGC
+D.yakuba.1                    CAA......AUA..UCUAUAUCACAGUGGCUGUUCUUUUUGUACCU
+D.willistoni.2                UUUGUUUA.ACA..A.UAUAUCACAGUGGCUGUUCUUUUUUGUUUA
+D.yakuba.2                    ACU......UC.....UAUAUCACAGUGGCUGUUCUUUUUGGUUGC
+D.persimilis.3                AUC......CUU..UACAUAUCACAGUUGCUGUUUCUUUUAGAUAG
+#=GC SS_cons                  ..........>.....>>>>>>>>>>>>>>>>>>>>>>>.......
+#=GC RF                       ACu......AcA..uuuauauCaCaGuggCuguuCuuuuUggauuu
+//

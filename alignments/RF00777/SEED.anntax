@@ -1,0 +1,54 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-541
+#=GF AC    RF00777
+#=GF DE    microRNA mir-541
+#=GF AU    Wilkinson A
+#=GF GA    45.0
+#=GF NC    0.0
+#=GF TC    56.2
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000213
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    9
+
+#=GS L.africana.1           AC    AAGU02625485.1/368-458
+#=GS O.princeps.1           AC    AAYZ01254085.1/10311-10400
+#=GS M.musculus.1           AC    CAAA01088157.1/2171-2260
+#=GS M.mulatta.1            AC    AANU01197803.1/2974-3063
+#=GS P.troglodytes.1        AC    AACZ02151782.1/25810-25899
+#=GS C.lupus.1              AC    AAEX02019639.1/168837-168928
+#=GS F.catus.1              AC    AANG01133006.1/4131-4221
+#=GS E.europaeus.1          AC    AANN01107744.1/685-773
+#=GS Dasypus_novemcinctus.1 AC    AAGV020430601.1/5595-5683
+
+L.africana.1                       GCCA..AUGUCAGAAAAAGGAUUCUGCUGUCGGUCCCACUCCCAAAUGUC
+O.princeps.1                       GCCA..ACGUCAGGGAAAGGAUUCUGCUGUCGGUCCCACUCC.AAAGUUC
+M.musculus.1                       GCCA..AAAUCAGAGAAGGGAUUCUGAUGUUGGUCACACUCC.AAGAGUU
+M.mulatta.1                        GCCA..ACGUCAGGGAAAGGAUUCUGCUGUCGGUCCCACUCC.AAAGUGC
+P.troglodytes.1                    GCCA..ACGUCAGGGAAAGGACUCUGCUGUCGGUCCCACUGC.AAAGUUC
+C.lupus.1                          GUCGUGACACCAGGGAGAGGAUUCUGCUGUGGGUCCCACCCC.AAAGUUC
+F.catus.1                          CCCA..AACUCAUGCCAGGGGUUCUGCGGUCGGCCCCCCUCC.CGAAGUU
+E.europaeus.1                      GCCA..AAGUCAGGGAAAGGAUUCUGCUGUCGGUCCCACUCC.ACGACUC
+Dasypus_novemcinctus.1             GCCG..ACGUCAGGGAAAGGAUUCUGCUGUCGGUCCCACUCC.AAAGUUU
+#=GC SS_cons                       <<<<...<<.<<<<<...<<<<<<<<.<<<<.<.<.<<<<<.........
+#=GC RF                            GcCa..AaguCaGggAAaGgauuCuGcuGccGguCcCaCccc.Aaaaguu
+
+L.africana.1                       UCAGAAUGGGU.GGUGGGCACAGAAUCCGGACUCUGCUUGUGGC
+O.princeps.1                       ACAAAAUGGGU.GGUGGGCACAGAAUCCAGACCCUGCUUGUGGC
+M.musculus.1                       UUAAAAUGAGU.GGCGAACACAGAAUCCAUACUCUGCUUAUGGC
+M.mulatta.1                        AUAGAAUGGGU.GGUGGGCACAGAAUCCGGACUCUGCUUGUGGC
+P.troglodytes.1                    ACAGAAUGGGU.GGUGGGCACCGAAUCCGGACUCUGCCUGUGGC
+C.lupus.1                          GCAAAAUAGGU.GGUGGGCACAGAAUCCAGACUCUGCUUGUGGC
+F.catus.1                          CCCCAAACAGGUGGCGGGCACAGAGUGCAGACUCUGUGUGUGGC
+E.europaeus.1                      GCAGAC.GGGU.GGUGGGCACAGAAUCCAGACUCUGCUUAUGGC
+Dasypus_novemcinctus.1             GCAAAAUGGGU.GGUGGGCACAGAAUCCAGACUCUGCUG.UGGC
+#=GC SS_cons                       .......>>>>.>>>.>>>>>>>>>>>>...>>>>>.>>.>>>>
+#=GC RF                            acAaAAaggGu.GGcGggCaCaGaaucCAgAccCuGccuauGgC
+//

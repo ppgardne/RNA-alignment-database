@@ -1,0 +1,72 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORA32
+#=GF AC    RF00421
+#=GF DE    Small nucleolar RNA SNORA32
+#=GF AU    Moxon SJ
+#=GF GA    22.0
+#=GF NC    0.0
+#=GF TC    24.7
+#=GF PI    snoACA32
+#=GF SE    Moxon SJ
+#=GF SS    Predicted; RNAFOLD; Moxon SJ
+#=GF TP    Gene; snRNA; snoRNA; HACA-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000594 SO:H_ACA_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Mus_musculus300602
+#=GF DR    snoopy; Homo_sapiens300366
+#=GF RN    [1]
+#=GF RM    15199136
+#=GF RT    Human box H/ACA pseudouridylation guide RNA machinery.
+#=GF RA    Kiss AM, Jady BE, Bertrand E, Kiss T;
+#=GF RL    Mol Cell Biol 2004;24:5797-5807.
+#=GF CC    ACA32 is a member of the H/ACA class of snoRNA that guide the sites of
+#=GF CC    modification of uridines to pseudouridines [1].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_SNORA32
+#=GF SQ    9
+
+#=GS M.musculus.1    AC    AL589699.4/106088-106209
+#=GS M.musculus.2    AC    AL591067.35/160455-160576
+#=GS M.musculus.3    AC    AC133505.3/6742-6863
+#=GS H.sapiens.1     AC    AC021733.12/63797-63917
+#=GS H.sapiens.2     AC    AK027016.1/1395-1517
+#=GS H.sapiens.3     AC    AJ609442.1/1-121
+#=GS H.sapiens.4     AC    AP001741.1/8721-8841
+#=GS H.sapiens.5     AC    AK128061.1/3770-3890
+#=GS P.troglodytes.1 AC    AL954241.1/199482-199602
+
+M.musculus.1                UGGUCAUUACCAAGGCUUUUAGAAUGCAGUUUCUCAUUUGCUGUGGACAU
+M.musculus.2                UGGUCAUUACCAAGGCUUUUAGAAUGCAGUUUCUCAUUUGCUGUGGACAU
+M.musculus.3                UGGUCAUUACCAAGGCUUUUAGAAUGCAGUUUCUCACUUGCUGUGGACAU
+H.sapiens.1                 .GGUAAUUACCAAGAUUUUUAGAAUGCAGUUUCUCAUUUGCCAGGGAAAU
+H.sapiens.2                 UGGUCAUUACCAAGGCUUUUAGAAUGCAGUUUCUCAUUUGCUGUGGACAU
+H.sapiens.3                 UGGUCAUUACCAAGGCUUUUAGAAUGCAGUUUCUCAUUUGCUGUGGACAU
+H.sapiens.4                 UGGUUGUUACCAAGGCAUUUAGCAUGCAAUUUCUCAUUUGCUGUGGACAC
+H.sapiens.5                 UGGUCAUUACCAAGGCUUUUAGAAUGCAGUUUCUCAUUUGCUGUGGACAU
+P.troglodytes.1             UGGUUGUUACCAAGGCAUUUAGCAUGCAAUUUCUCAUUUGCUGUGGACAC
+#=GC SS_cons                ..<<<<<..<<<.............<<<<........>>>>..>>>..>>
+
+M.musculus.1                GACCAUAAAGAAAA.AUUCCCAUGAGGUUUUUCA.UAUGCUACUUGACUA
+M.musculus.2                GACCAUAAAGAAAA.AUUCCAAUGAGGUUUUUCA.UAUGCUACUUGACUA
+M.musculus.3                GAACAUAAAGAAAA.AUUCCCAUGAGGUUUUUCA.UAUGCUACUUGACUA
+H.sapiens.1                 GACCAUAAAAUAA..UUUCCCACUAGAUUUUUUUAUCUGUUACCUUGCUA
+H.sapiens.2                 GACCAUAAAAAAAAAUUUCCCAGUAGGUUUUCUA.UCUGCUACGUUGCUA
+H.sapiens.3                 GACCAUAAAAAAA..UUUCCCAGUAGGUUUUCUA.UCUGCUACUUUGCUA
+H.sapiens.4                 GACGAGAAGAGAA..UUCCUCACUCGGUUUUCUG.UCUGCCACCUUGCUA
+H.sapiens.5                 GACCAUAAAAAAA..UUUCCCAGUAGGUUUUCUA.UCUGCUACUUUGCUA
+P.troglodytes.1             GACGAGAAGAGAA..UUCCUCACUUGGUUUUCUG.UCUGCCACCUUGCUA
+#=GC SS_cons                >>>...............<<<<...<<<<........<<<..........
+
+M.musculus.1                GCAGUUAACCUGUUGGGAACAUUU
+M.musculus.2                GCAGUUAACCUGUUGGGAACACGU
+M.musculus.3                GCAUUUAACCUGUUGGGAACAUGU
+H.sapiens.1                 GCAAGCAGUCUAUUGGGAACAUUU
+H.sapiens.2                 GCAAUCAGCUUAUUGGGAACAGUU
+H.sapiens.3                 GCAAUCAGCUUAUUGGGAACAGUU
+H.sapiens.4                 GCGAUCAGCCCACUGGGAACAUUU
+H.sapiens.5                 GCAAUCAGCUUAUGGGGAACAGUU
+P.troglodytes.1             GCGAUCAGCCCACUGGGAACAUUU
+#=GC SS_cons                >>>...>>>>...>>>>.......
+//

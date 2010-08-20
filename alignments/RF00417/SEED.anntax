@@ -1,0 +1,91 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORA56
+#=GF AC    RF00417
+#=GF DE    Small nucleolar RNA SNORA56
+#=GF AU    Moxon SJ
+#=GF GA    32.0
+#=GF NC    31.2
+#=GF TC    32.1
+#=GF PI    snoACA56
+#=GF SE    Moxon SJ, INFERNAL
+#=GF SS    Predicted; RNAalifold_manual; Daub J
+#=GF TP    Gene; snRNA; snoRNA; HACA-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0000594 SO:H_ACA_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Macaca_mulatta300700
+#=GF DR    snoopy; Tupaia_belangeri300420
+#=GF RN    [1]
+#=GF RM    15199136
+#=GF RT    Human box H/ACA pseudouridylation guide RNA machinery.
+#=GF RA    Kiss AM, Jady BE, Bertrand E, Kiss T;
+#=GF RL    Mol Cell Biol 2004;24:5797-5807.
+#=GF CC    ACA56 is a member of the H/ACA class of snoRNA that guide the sites of
+#=GF CC    modification of uridines to pseudouridines [1].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_SNORA56
+#=GF SQ    13
+
+#=GS L.africana.1           AC    AAGU02530614.1/316-443
+#=GS H.sapiens.1            AC    AF067021.1/482-610
+#=GS H.sapiens.2            AC    AJ010396.1/584-712
+#=GS H.sapiens.3            AC    AF067020.1/980-1114
+#=GS H.sapiens.4            AC    AJ609449.1/1-129
+#=GS T.belangeri.1          AC    AAPY01755613.1/4896-5019
+#=GS C.lupus.1              AC    AAEX02003716.1/11029-11155
+#=GS B.taurus.1             AC    AAFC03026691.1/25084-25212
+#=GS M.lucifugus.1          AC    AAPE01620306.1/7988-8116
+#=GS S.araneus.1            AC    AALT01522843.1/1170-1298
+#=GS E.caballus.1           AC    AAWR02040681.1/192386-192517
+#=GS Dasypus_novemcinctus.1 AC    AAGV020334157.1/3542-3670
+#=GS Monodelphis_domestic.1 AC    AAFR03063568.1/11670-11804
+
+L.africana.1                       GUGCAGACAGUUACCCC.UUUCUAGUCUGGCUCCUGGGA.CUCUAGA.GG
+H.sapiens.1                        CGGCAGACAGUUAUCCC.UUUCUAGUCUGGCUCGUGGGA.CUCUAGA.GG
+H.sapiens.2                        CGGCAGACAGUUAUCCC.UUUCUAGUCUGGCUCGUGGGA.CUCUAGA.GG
+H.sapiens.3                        CGGCAAACAGUUAUCCCCUUUCUAGUCUGGCUCCUGGGAACUCUAGAAGG
+H.sapiens.4                        CGGCAGACAGUUAUCCC.UUUCUAGUCUGGCUCGUGGGA.CUCUAGA.GG
+T.belangeri.1                      UGGCAG....UUAUCCU.UUUCUAGUCUGGCUCCUGGGA.CUCUAGA.AG
+C.lupus.1                          CAGCAGACAGUUGCCCU.UUUCUAGUCUGGCUCGAGGGA.CUCUAGA.GG
+B.taurus.1                         AAGCAGC.AGUUAUCCC.UUUCCAGUCUGGCUUGUGAGA.CUCUAUA.GG
+M.lucifugus.1                      CAGCAGACAGUUAUCCC.UUUCUAGUCUGGCAUGUGGGA.CUUUAGA.GG
+S.araneus.1                        CCGCAGAUGGUUAUCCC.UUUCUUGUCUGGCAUGGGGGA.CUCUAGA.GG
+E.caballus.1                       CAGCAGACAGUUAUCCC.UUUCUAGUCUGGGUCAUGGGA.CUCUAGA.GG
+Dasypus_novemcinctus.1             UAGCAGACAGUUAUCCC.UUUCUAGUCUGGCUCACGGGA.CUCUAGA.GG
+Monodelphis_domestic.1             AAGCAGACAGUUAUCCC.UUUCUGGUCUUCCUCUCGUGA.CCUUAGA.GG
+#=GC SS_cons                       ..<<<<<<............<<<<<<<<........>>>...>>>>>...
+#=GC RF                            cGGCagaCAGUUAuCCC.UUuCuaGuCuGGcUcgUGgGa.cUCuaGa.GG
+
+L.africana.1                       GAGUCAGUCUGAAAUA.UUAAG...UAG.UGAA...CUCG...UCUGUCC
+H.sapiens.1                        GAGUCAGUCUGCAACA.GUAAG...UGG.UGAG...UUCU...UCUGUCC
+H.sapiens.2                        GAGUCAGUCUGCAACA.GUAAG...UGG.UGAG...UUCU...UCUGUCC
+H.sapiens.3                        GAAUCAGUCUGCCACAAGUAAG...UGGGUGAA...UUCU...UCUGUCC
+H.sapiens.4                        GAGUCAGUCUGCAACA.GUAAG...UGG.UGAG...UUCU...UCUGUCC
+T.belangeri.1                      GAGUCAGUCUGCAACA.AUAAG...UGG.UGAG...UUCU...UCUGUCC
+C.lupus.1                          GAGUCCGUCUGCGACA.GUAAG...UGG.UGAG.....CU...CGUGUCU
+B.taurus.1                         GAGUCAAUCUGCAAUAGUUAAG...UGG.UUAG...UUCU...UCUGUCU
+M.lucifugus.1                      GAGUCAGUCUGCAACA.GUAAG...UGG.UGAG...UUGC...UUUGUCC
+S.araneus.1                        GAGUCAAUCUGCAAAA.ACAAG...UGG.UAAG...UUCUGCUUCUGCCU
+E.caballus.1                       GAGUCAGUCUGCAACA.GCAAG...UGG.UGAGUUCUUCU...UCUGUCC
+Dasypus_novemcinctus.1             GAGUCAGUCUGCAACA.UUAAG...UGG.UGAG...UUUU...UCUGUCC
+Monodelphis_domestic.1             GAGUCAGUCUGCAACA.UGAAGUGAUGG.CAAGC..UGUU...UCUGGCC
+#=GC SS_cons                       ......>>>>>>.............<<<.<<<<....<<<......<<<.
+#=GC RF                            GaaUcAGucuGCaAcA.GUAAG...uGG.ugag...Uucu...UcUGucc
+
+L.africana.1                       AGUGUCA..GUGUUC..AUUGGCAACUUUAGA.CUUGCCAAGUAUCA
+H.sapiens.1                        AGCGUCA..GUAUUUUGAUGG.UGGCUUUAGA.CUUGCCAGAUAACA
+H.sapiens.2                        AGCGUCA..GUAUUUUGAUGG.UGGCUUUAGA.CUUGCCAGAUAACA
+H.sapiens.3                        A.CGUCA..GUAUUUUGAUGGGUNGCUUNAAAACUUGCCAGAUAACC
+H.sapiens.4                        AGCGUCA..GUAUUUUGAUGG.UGGCUUUAGA.CUUGCCAGAUAACA
+T.belangeri.1                      AGUGUCA..GUGU.UUGAUGG.UGGCUGUAGA.CCUGCCAGAUAUCA
+C.lupus.1                          GUCAUCA..GUAUUUUGACGA.UGGCCGUAGA.CUUGCCAGAUAGCG
+B.taurus.1                         AGGAUCA..GUGUUUUCAUGG.UGACUUUGGA.GUUGCCAUAUGUUA
+M.lucifugus.1                      AGCGUCA..GUAUUUUGAUGG.UGGCUUUAGA.CUUGCCAGAUAACU
+S.araneus.1                        AGCUUGU..GCCUAU...UGG.UGGCUUUAGA.CUUGCCAAACAUGG
+E.caballus.1                       AGCGUCA..GUAUUUUGAUGG.UGGCUUUAGA.CUUGCCGGAUAGCA
+Dasypus_novemcinctus.1             AGCGUCA..GUAUUUUGAUGG.UGGCUUUAGA.CUUACCAGAUAUCA
+Monodelphis_domestic.1             AGCAUCACAGUGUGUUGAUGG.UGGUUUCAGC.CUUGCCAGACACCC
+#=GC SS_cons                       ..<<<<<..<....>>>>>>...>>>...>>>.>>>>>>>.......
+#=GC RF                            AgCguCa..gUAUUuuGauGG.UggCUUuaga.cuugCCaGAUAAca
+//

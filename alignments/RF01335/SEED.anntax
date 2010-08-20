@@ -1,0 +1,40 @@
+# STOCKHOLM 1.0
+#=GF ID    CRISPR-DR22
+#=GF AC    RF01335
+#=GF DE    CRISPR RNA direct repeat element
+#=GF AU    Wilkinson A
+#=GF GA    26.0
+#=GF NC    25.9
+#=GF TC    27.2
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; CRISPR;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    URL; http://crispr.u-psud.fr/crispr/CRISPRHomePage.php
+#=GF DR    SO:0001459 SO:CRISPR
+#=GF WK    http://en.wikipedia.org/wiki/CRISPR
+#=GF SQ    9
+
+#=GS Listeria_monocytogen.1 AC    AADQ01000049.1/8488-8523
+#=GS L.innocua.1            AC    AL596173.1/159652-159687
+#=GS Listeria_monocytogen.2 AC    AADQ01000049.1/8224-8259
+#=GS Listeria_monocytogen.3 AC    AARN03000001.1/315330-315365
+#=GS Streptococcus_pyogen.1 AC    AAFV01000057.1/1625-1660
+#=GS Streptococcus_pyogen.2 AC    AE009949.1/852983-853018
+#=GS Streptococcus_thermo.1 AC    CP000024.1/1346659-1346694
+#=GS Streptococcus_mutans.1 AC    AE014133.1/1335038-1335073
+#=GS Streptococcus_thermo.2 AC    CP000419.1/1377759-1377794
+
+Listeria_monocytogen.1             GAUUUGGUAGCAUUCAAAAUAACAUAGCUCUAAAAC
+L.innocua.1                        GUUUUGUUAGCAUUCAAAAUAACAUAGCUCUAAAAC
+Listeria_monocytogen.2             GUUUUGGUAGCAUUCGAAAUAACAUAGCUCUAAAAC
+Listeria_monocytogen.3             GUUUUGGUAGCAUUCAAAAUAACAUAGCUCUAAAAA
+Streptococcus_pyogen.1             GUUUUGGGACCAUUCAAAACAGCAUAGCUCUAAAAC
+Streptococcus_pyogen.2             GUUUUGGGACCAUUCAAAACAGCAUAGCAAGUUAAA
+Streptococcus_thermo.1             GUUUUGAAACCAUUCGAAACAACACAGCGAGUUAAA
+Streptococcus_mutans.1             GUGUUGGAAUCAUUCGAAACAACACAGCAAGUUAAA
+Streptococcus_thermo.2             GUUUUGGAACCAUUCGAAACAACACAGCUCUAAAAC
+#=GC SS_cons                       <<<<<<<......>>>>>>>................
+#=GC RF                            GuuuuGaaAuCAUuCaaaaCAACAuAGCuauAAAAa
+//

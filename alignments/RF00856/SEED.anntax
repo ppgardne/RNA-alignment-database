@@ -1,0 +1,36 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-232
+#=GF AC    RF00856
+#=GF DE    microRNA mir-232
+#=GF AU    Wilkinson A
+#=GF GA    50.0
+#=GF NC    0.0
+#=GF TC    63.5
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000311
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    3
+
+#=GS C.briggsae.1 AC    CAAC02000470.1/1099567-1099662
+#=GS C.elegans.1  AC    Z68748.1/3172-3269
+#=GS C.remanei.1  AC    AAGD02004292.1/20547-20644
+
+C.briggsae.1             AAUUCAAGAUUUCGGAUCUCCGUAGUUUUGACCAUUUUAUCCA.ACCU..
+C.elegans.1              AAGUUCAAUUUUUGGAUCCCUGCAGUUUCGAUGAUUUUAUCCUUAAUUCU
+C.remanei.1              AAGUCUGAUUGUCGGAUCUCCGUAGUUUCGAUCAUUUUAUCCU.AUCUCC
+#=GC SS_cons             ..<<<<....<<<<<<<<.<<<<<<<<..<<<...<<<<<<.........
+#=GC RF                  AAGUCMRRWUKUCGGAUCYCCGYAGUUUCGAYSAUUUUAUCCWuAMCUCY
+
+C.briggsae.1             AAUAAUGUGAUAAAUGCAUCUUAACUGCGGUGAUCUGGAUUUUGUGAAC.
+C.elegans.1              GAAGAUGUGAUAAAUGCAUCUUAACUGCGGUGAUCUAGAUCAU..GAACA
+C.remanei.1              AACAAAGCGAUAAAUGCAUCUUAACUGCGGUGAUCUGAAUUCUU.GGACA
+#=GC SS_cons             ........>>>>>>...>>>..>>>>>>>>.>>>>>>>>......>>>>.
+#=GC RF                  RAMRAWGYGAUAAAUGCAUCUUAACUGCGGUGAUCURRAUYMUKuGRACA
+//

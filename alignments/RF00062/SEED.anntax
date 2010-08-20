@@ -1,0 +1,67 @@
+# STOCKHOLM 1.0
+#=GF ID    HgcC
+#=GF AC    RF00062
+#=GF DE    HgcC family RNA
+#=GF AU    Bateman A
+#=GF GA    20.4
+#=GF NC    20.2
+#=GF TC    20.5
+#=GF SE    Bateman A
+#=GF SS    Predicted; RNAalifold
+#=GF TP    Gene;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0000655 SO:ncRNA
+#=GF RN    [1]
+#=GF RM    12032319
+#=GF RT    Noncoding RNA genes identified in AT-rich hyperthermophiles.
+#=GF RA    Klein RJ, Misulovin Z, Eddy SR;
+#=GF RL    Proc Natl Acad Sci U S A 2002;99:7542-7547.
+#=GF CC    The HgcC ncRNA gene was identified computationally in AT-rich
+#=GF CC    hyperthermophiles. The genes were named hgcA through hgcG ("high GC").
+#=GF CC    HgcC is of unknown function. Two other homologues were detected called
+#=GF CC    HhcA and HhcB after "homologue of hgcC" [1].
+#=GF CC    This family contains a large number of putative archaeal matches to
+#=GF CC    the 3' end of the known ncRNAs.  Many of these partly overlap coding
+#=GF CC    regions.
+#=GF WK    http://en.wikipedia.org/wiki/HgcC_family_RNA
+#=GF SQ    5
+
+#=GS M.jannaschii.1         AC    AF468965.1/1-126
+#=GS Methanocaldococcus_j.1 AC    L77117.1/951852-951980
+#=GS M.jannaschii.2         AC    AF447577.1/1-129
+#=GS P.furiosus.1           AC    AF468966.1/1-127
+#=GS Pyrococcus_furiosus_.1 AC    AE009950.1/754818-754978
+
+M.jannaschii.1                     GAGGGUAGCUCUGACUCUGCCCG.....AUGAC...ACCAACCUGCCCUG
+Methanocaldococcus_j.1             GAGGGCUG.UCUGACCCAGCCCG.....AUGAG...CUGAACCUGCCCUG
+M.jannaschii.2                     GAGGGCUG.UCUGACCCAGCCCG.....AUGAG...CUGAACCUGCCCUG
+P.furiosus.1                       GAGGGUGCCUCUGACCGUGCCCG.....AUGAC...ACCAACCUGCCCAA
+Pyrococcus_furiosus_.1             GUGGUCUUUAC.GCCCAAGGGAGGGGUAAUGGGCCUGAGACCGGGCCC.U
+#=GC SS_cons                       ..........<<<<<<............................<<<<<.
+#=GC RF                            GAGGguuuuuCuGaCCaaGcCCG.....AUGAg...aagAACcuGCCCua
+
+M.jannaschii.1                     UGACCUAUCGGCGACGAUAAGUAGCAGGGUGUU.................
+Methanocaldococcus_j.1             UGACCUACCGGCGACGGUAGGGAGAAGGGUGUU.................
+M.jannaschii.2                     UGACCUACCGGCGACGGUAGGGAGAAGGGUGUU.................
+P.furiosus.1                       UGAAGCACGGGCGACCGUGGGGA...GGGUGUU.................
+Pyrococcus_furiosus_.1             CGGGC......CGAAC...CGAAACC.GGUG..ACGGGAGUAGGUGGAUG
+#=GC SS_cons                       .....<<<<<....>>>>>......>>>>>....................
+#=GC RF                            uGAaccaccGgCGACggugaGaAacaGGGUGUU.................
+
+M.jannaschii.1                     ......................CCGUGUUGGAACCUCCACCCUUUAGGU.
+Methanocaldococcus_j.1             ......................CCCCGUGGGAACCUCCGAGCUUUAGCUC
+M.jannaschii.2                     ......................CCCCGUGGGAACCUCCGAGCUUUAGCUC
+P.furiosus.1                       ......................CCCUGUGGGAACCCUCGCCAUUCACGGC
+Pyrococcus_furiosus_.1             AGAGCCCGCAAACCUCUCCCCGCCC.GUUGAAAGCCUCGCCCUUCAAGGC
+#=GC SS_cons                       ......................<<<...>>>...<<<<<<<<....>>>>
+#=GC RF                            ......................CCcuGUuGgAAcCccCGcCcUUuAgGgC
+
+M.jannaschii.1                     GGAGAGAAGAUCAG...UUAAAAUUCC
+Methanocaldococcus_j.1             GGAGAGGAGGUCAGCUUUUAACAUUUC
+M.jannaschii.2                     GGAGAGGAGGUCAGCUUUUAACAUUUC
+P.furiosus.1                       GAGGAGGAGGUCAGCUCCUCCACGUUC
+Pyrococcus_furiosus_.1             GGGGAGGAGGUCAGGAGG.AGAUAACC
+#=GC SS_cons                       >>>>....>>>>>>.............
+#=GC RF                            GggGAGGAGGuCaGcauuUAaAaauuC
+//

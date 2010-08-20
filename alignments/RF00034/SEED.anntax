@@ -1,0 +1,108 @@
+# STOCKHOLM 1.0
+#=GF ID    RprA
+#=GF AC    RF00034
+#=GF DE    RprA RNA
+#=GF AU    Bateman A, Moxon SJ
+#=GF GA    28.0
+#=GF NC    27.5
+#=GF TC    28.7
+#=GF SE    Noncoding RNAs Database
+#=GF SS    Predicted; PFOLD; Moxon SJ
+#=GF TP    Gene; sRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    URL; http://biobases.ibch.poznan.pl/ncRNA
+#=GF DR    SO:0000387 SO:RprA_RNA
+#=GF RN    [1]
+#=GF RM    11251852
+#=GF RT    Regulation of RpoS by a novel small RNA: the characterization of
+#=GF RT    RprA.
+#=GF RA    Majdalani N, Chen S, Murrow J, St John K, Gottesman S;
+#=GF RL    Mol Microbiol 2001;39:1382-1394.
+#=GF RN    [2]
+#=GF RM    12410838
+#=GF RT    Regulation and mode of action of the second small RNA activator of
+#=GF RT    RpoS translation, RprA.
+#=GF RA    Majdalani N, Hernandez D, Gottesman S;
+#=GF RL    Mol Microbiol 2002;46:813-826.
+#=GF CC    Translational regulation of the stationary phase sigma factor
+#=GF CC    RpoS is mediated by the formation of a double-stranded RNA
+#=GF CC    stem-loop structure in the upstream region of the rpoS messenger
+#=GF CC    RNA, occluding the translation initiation site. Clones carrying rprA
+#=GF CC    (RpoS regulator RNA A) increased the translation of RpoS. The rprA
+#=GF CC    gene encodes a 106 nucleotide regulatory RNA. As with DsrA
+#=GF CC    Rfam:RF00014, RprA is predicted to form three stem-loops. Thus,
+#=GF CC    at least two small RNAs, DsrA and RprA, participate in the positive
+#=GF CC    regulation of RpoS translation. RprA also appears to bind to the 
+#=GF CC    RpoS leader [2]. RprA is non-essential [1].
+#=GF CC    The Y. pestis homologue was detected by similarity to the E. coli
+#=GF CC    gene (pers obs. Bateman A).
+#=GF WK    http://en.wikipedia.org/wiki/RprA_RNA
+#=GF SQ    14
+
+#=GS Escherichia_coli_str.1 AC    U00096.2/1768396-1768503
+#=GS Pectobacterium_atros.1 AC    BX950851.1/2106157-2106268
+#=GS Photorhabdus_lumines.1 AC    BX571867.1/288515-288628
+#=GS S.enterica.1           AC    AL627271.1/108510-108617
+#=GS Salmonella_enterica_.1 AC    CP000857.1/2421525-2421632
+#=GS Serratia_proteamacul.1 AC    CP000826.1/2374212-2374322
+#=GS S.glossinidius.1       AC    AP008232.1/2390429-2390532
+#=GS Yersinia_enterocolit.1 AC    AM286415.1/2382209-2382313
+#=GS Yersinia_pestis_biov.1 AC    AAYT01000004.1/252910-253019
+#=GS Yersinia_mollaretii_.1 AC    AALD01000016.1/16007-16115
+#=GS Yersinia_frederiksen.1 AC    AALE01000004.1/124981-125089
+#=GS Yersinia_bercovieri_.1 AC    AALC01000006.1/53206-53310
+#=GS Yersinia_intermedia_.1 AC    AALF01000001.1/249232-249335
+#=GS marine_metag.1         AC    AACY022447626.1/227-334
+
+Escherichia_coli_str.1             ACGGUUAUA..AAUCA.ACAUAUUGAUUUA.UAAGCAUGGAAA..UCC.C
+Pectobacterium_atros.1             ACGGAGCUAG.UAUUA.ACCUACUGUUUGU.CAAUGA.GGUUUCCUCCUC
+Photorhabdus_lumines.1             AGUGGGCUAUGAACGAGACGUUUAUUUCUCCUUUUGAUGGUUC..UAC.U
+S.enterica.1                       ACGGUUAUA..AAUCA.ACACAUUGAUUUA.UAAGCAUGGAAA..UCC.C
+Salmonella_enterica_.1             ACGGUUAUA..AAUCA.ACACAUUGAUUUA.UAAGCAUGGAAA..UCC.C
+Serratia_proteamacul.1             AUAUUGCUU..CAAAU.ACCUGAUUUAAAG.CAAGAUUUCCAA..ACA.A
+S.glossinidius.1                   GCGUGU.....UAUUA.GCUCUAUGAUUUAGUAAUGAUUUUAA..UG...
+Yersinia_enterocolit.1             AUUUAAAUA..AAUUA.UCUCAUAAUGACU.UAUUUAAAUAUC..UG...
+Yersinia_pestis_biov.1             AAGGCGCUU..AAAUA.AACCAUUUAAUGA.UAGCUUAUUUAA..ACG.U
+Yersinia_mollaretii_.1             AGGCGUUUA..AAUAA.AUCAUUUCAUAAU.GACUUAUUUAAA..UAUCU
+Yersinia_frederiksen.1             AGACAUUUA..AAUAA.AUCAUUUCAUAAU.GACUUAUUUAAA..UAUCU
+Yersinia_bercovieri_.1             GUUUAAAUA..AAUCA.UUUCAGAAUGAUU.UACUUAAAUAUC..UG...
+Yersinia_intermedia_.1             AUUUAAAUA..ACUCA.UUUUCAAGUGAGU.UAUUUAAAUAUC..UG...
+marine_metag.1                     AUGGCUUUA..GAUCA.ACACAUUGAUUUA.UAAGCAUGGAAA..UCC.C
+#=GC SS_cons                       .<<<<................>>>>..........<<.<<.......>.>
+#=GC RF                            AcugugaUA..AAuuA.ACaUacaguUuua.uAAugAUGGuua..UcC.C
+
+Escherichia_coli_str.1             CUGAGUG..AAACAAC.GAAUUGCUGUGUGUAGUCUUUGCCCAUCUC..C
+Pectobacterium_atros.1             GUCAGAGC.UAGUAAC.GAAUUGCUGUGUGUAGUCUUUGCCCAUCCC..C
+Photorhabdus_lumines.1             .UGUUAG..AAACGCCUAUAUUGCUGUGUGUAGUCCUUGCCUAUCACGCC
+S.enterica.1                       CUGAGUG..AAACAAC.GAAUUGCUGUGUGUAGUCUUUGCCCGUCUC..C
+Salmonella_enterica_.1             CUGAGUG..AAACAAC.GAAUUGCUGUGUGUAGUCUUUGCCCGUCUC..C
+Serratia_proteamacul.1             UGUAAUGCCAUACAUGUGAAUUGCUGUGUGUAGUCUUUGCCCGUCUC..C
+S.glossinidius.1                   CUACCCG..GCAUGACAGAAUUGCUGUGUGUAGUCUUUGCCCAUCUU...
+Yersinia_enterocolit.1             .UAAUCG..AAUAUAA.GUAUUGCUGUGUGUAGUCUUUGCCUGUCAC..C
+Yersinia_pestis_biov.1             CUGUGAUC.UAGUACAUGUAUUGCUGUGUGUAGUCUUUGCCUGUCAC..C
+Yersinia_mollaretii_.1             GUAAUCG..AAUAUAC.GUAUUGCUGUGUGUAGUCUUUGCCUGUCAC..C
+Yersinia_frederiksen.1             GUAAUCG..AAUACAC.GUAUUGCUGUGUGUAGUCUUUGCCUGUCAC..C
+Yersinia_bercovieri_.1             .UAAUCG..AAUAUAC.GUAUUGCUGUGUGUAGUCUUUGCCUAUCAC..U
+Yersinia_intermedia_.1             .UAAUCG..AAAU.AC.GUAUUGCUGUGUGUAGUCUUUGCCUGUCAU..C
+marine_metag.1                     CUGAGUG..AAACAAC.GAAUUGCUGUGUGUAGUCUUUGCCCAUCUC..C
+#=GC SS_cons                       .>>..................<<<...>>>........<<<<<<<.....
+#=GC RF                            gUcAgAG..AAAcAAC.gAAUuGCUGUGUgUAGUCuUUGCCcauCaC..C
+
+Escherichia_coli_str.1             CACGAUGGGCUUUUUUUUAA
+Pectobacterium_atros.1             UGAGAUGGGCCUUUUUUUUC
+Photorhabdus_lumines.1             CAUGAUAGGCUUUUUUUUUC
+S.enterica.1                       UACGAUGGGCUUUUUUUUUU
+Salmonella_enterica_.1             UACGAUGGGCUUUUUUUUUA
+Serratia_proteamacul.1             UAUGAUGGGCUUUUUUUUAU
+S.glossinidius.1                   UAAGAUGGGCUUUUUUUUAU
+Yersinia_enterocolit.1             UAAGACGGGCUUUUUUUUUA
+Yersinia_pestis_biov.1             UAAGACAGGCUUUUUUUUUG
+Yersinia_mollaretii_.1             UAAGACGGGCUUUUUUUUUG
+Yersinia_frederiksen.1             UAAGACGGGUCUUUUUUUUU
+Yersinia_bercovieri_.1             UAAGAUGGGCUUUUUUUUUG
+Yersinia_intermedia_.1             UAAGACGGGCUUUUUUUUAC
+marine_metag.1                     CACGGUGGGCUUUUUUUUGU
+#=GC SS_cons                       ...>>>>>>>..........
+#=GC RF                            uAaGaugGGCuUUUUUUUUc
+//

@@ -1,0 +1,64 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORA21
+#=GF AC    RF00412
+#=GF DE    Small nucleolar RNA SNORA21
+#=GF AU    Moxon SJ
+#=GF GA    29.0
+#=GF NC    22.4
+#=GF TC    29.3
+#=GF PI    snoACA21
+#=GF SE    Moxon SJ
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; snRNA; snoRNA; HACA-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000594 SO:H_ACA_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Echinops_telfairi300410
+#=GF DR    snoopy; Echinops_telfairi300073
+#=GF RN    [1]
+#=GF RM    15199136
+#=GF RT    Human box H/ACA pseudouridylation guide RNA machinery.
+#=GF RA    Kiss AM, Jady BE, Bertrand E, Kiss T;
+#=GF RL    Mol Cell Biol 2004;24:5797-5807.
+#=GF RN    [2]
+#=GF RM    11387227
+#=GF RT    RNomics: an experimental approach that identifies 201 candidates for
+#=GF RT    novel, small, non-messenger RNAs in mouse.
+#=GF RA    Huttenhofer A, Kiefmann M, Meier-Ewert S, O'Brien J, Lehrach H,
+#=GF RA    Bachellerie JP, Brosius J;
+#=GF RL    EMBO J 2001;20:2943-2953.
+#=GF CC    ACA21 is a member of the H/ACA class of snoRNA that guide the sites of
+#=GF CC    modification of uridines to pseudouridines [1]. This family also contains
+#=GF CC    the mouse sequence MBI-3 as shown in [2].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_SNORA21
+#=GF SQ    5
+
+#=GS M.musculus.1   AC    AF357384.1/1-128
+#=GS R.norvegicus.1 AC    AC145397.1/50599-50734
+#=GS R.norvegicus.2 AC    AC145398.2/90846-90981
+#=GS H.sapiens.1    AC    AK095288.1/748-880
+#=GS H.sapiens.2    AC    AJ609436.1/1-133
+
+M.musculus.1               ..........AAAGCACUCAGUGAGCCUUUUGCUAGUGACCCACUGAGCC
+R.norvegicus.1             CCCC.UUUUAAAAGCGCUCAGCGGGCCUUUUGCUGAUGACCCACUGAGCU
+R.norvegicus.2             CCCC.UUUUAAAAGCGCUCAGCGGGCCUUUUGCUGAUGACCCACUGAGCU
+H.sapiens.1                CCCCCUUUUAAAAGCACUCAAUGGGCCUGUGGCUAAUGACCUAUUGAGCC
+H.sapiens.2                CCCCCUUUUAAAAGCACUCAAUGGGCCUGUGGCUAAUGACCUAUUGAGCC
+#=GC SS_cons               .<<<.<<<........<<<<<<<<<..............>>>>>>>>>..
+
+M.musculus.1               GUCAAGAAGGGGCAGAGUGAAAAACACCACUUUUGGGUGAAGUGGCAACG
+R.norvegicus.1             GUCAAGAAGGGGCAGAGAGAAAA.CACCACUUCCGGGUGAAGUGGCAACA
+R.norvegicus.2             GUCAAGAAGGGGCAGAGAGAAAA.CACCACUUCCGGGUGAAGUGGCAACA
+H.sapiens.1                GUCAAGAAAGGGGAGAGUGAAAA.CAUCGCUUUUGGGUGAAGUGGCAACA
+H.sapiens.2                GUCAAGAAAGGGGAGAGUGAAAA.CAUCGCUUUUGGGUGAAGUGGCAACA
+#=GC SS_cons               ......>>>>>>..........................<<<<<..<<<<.
+
+M.musculus.1               UGUUGUGUUGUUUAACUUCAAUCGGUGUUGUGACAAGA
+R.norvegicus.1             UAAUUUGUUGUUUAACUUCAAUCCGUGUUGUGACAAGA
+R.norvegicus.2             UAAUUUGUUGUUUAACUUCAAUCCGUGUUGUGACAAGA
+H.sapiens.1                UGU...GUUGUUU.GCUUCAAUCGGUGGUGUGACAAGG
+H.sapiens.2                UGU...GUUGUUU.GCUUCAAUCGGUGGUGUGACAAGG
+#=GC SS_cons               ......>>>>....>>>>>...................
+//

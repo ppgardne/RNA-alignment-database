@@ -1,0 +1,60 @@
+# STOCKHOLM 1.0
+#=GF ID    snoR160
+#=GF AC    RF00203
+#=GF DE    Small nucleolar RNA R160
+#=GF AU    Griffiths-Jones SR
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    26.0
+#=GF SE    Griffiths-Jones SR
+#=GF SS    Predicted; Griffiths-Jones SR
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF RN    [1]
+#=GF RM    12736310
+#=GF RT    The high diversity of snoRNAs in plants: identification and
+#=GF RT    comparative study of 120 snoRNA genes from Oryza sativa.
+#=GF RA    Chen CL, Liang D, Zhou H, Zhuo M, Chen YQ, Qu LH;
+#=GF RL    Nucleic Acids Res 2003;31:2601-2613.
+#=GF CC    snoR160 is a C/D box small nucleolar RNA, which acts as a 
+#=GF CC    methylation guide for 25S ribosomal RNA in plants [1].  
+#=GF CC    snoR160 has been alternatively named snoZ270 in rice.
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_R160
+#=GF SQ    9
+
+#=GS O.sativa.1    AC    AJ532513.1/3-77
+#=GS O.sativa.2    AC    AJ532515.1/2-83
+#=GS O.sativa.3    AC    AJ532511.1/1-79
+#=GS O.sativa.4    AC    AJ532512.1/4-84
+#=GS O.sativa.5    AC    AJ532514.1/1-80
+#=GS O.sativa.6    AC    AJ532516.1/6-75
+#=GS L.japonicus.1 AC    AP004951.1/53735-53820
+#=GS L.japonicus.2 AC    AP004951.1/53499-53576
+#=GS A.thaliana.1  AC    AC079829.6/41345-41431
+
+O.sativa.1                AGCAAAAUGAGGAGGUUAUAUG.....AUCUGAAG...UAUCUAAUGUUG
+O.sativa.2                AACAA.CUGAGUGUGUUUCUCAUGAAUCUCU.AAG....CAAGAUUGUUG
+O.sativa.3                AGCGAAAUGAGGAGGAAAAAUC.....AUCCGAAG...UUUUUCUUGUGG
+O.sativa.4                AUCAAAAUGAGGAGGCUGUUUG.....UUCUGAAG...UAUCUAAUGUGG
+O.sativa.5                AGCAAAAUGAGGAGAUCAAUCG.....AUCUGAAG...UAUCUAAUGUUG
+O.sativa.6                UACAA.AUGAAGAGGCUAUUUG.....UUCUGAAG........UAUCUAA
+L.japonicus.1             AGCAAAAUGAUGAAGUUGUUUU...CUGUCUGAA......UCUGGUGUGG
+L.japonicus.2             AGCAAAAUGACGAGGUUUUAAU.....AUCUGAA......UAUCAUGUGG
+A.thaliana.1              AGCAUGAUGAUGAGAAAAAUGU...GCCACUGAAUUCAAAAUUCAUGUUG
+#=GC SS_cons              <<<<<.............................................
+
+O.sativa.1                AUA......AUU...CAA...GGUCUUCAAAGUUCUCUGA.UUGCU
+O.sativa.2                AUU.CAUCCAUU...CAU...GGUCUUCAAAGUUAUUUGA.UUGUU
+O.sativa.3                AAA..ACACGUA...CAU...GGUCUUCAAAGUUCUCUGA.UCGCU
+O.sativa.4                AUA.CAUCCAUU...CAU..GGGUCUUCAAAGUUCUCUGA.UUGCU
+O.sativa.5                AUA.UAUCCAUU...CAU...GGUCUUCAAAGUUCUCUGA.UUGCU
+O.sativa.6                AUC.....CAUU...CAU...AGUCUUCAAAGUUCUCUGA.UUGUU
+L.japonicus.1             AUUACAUAACAUAAACAUACAGGUCUUCAAAGUUCUCUGA.UUGCU
+L.japonicus.2             AUU.CAU.UAUU...CAAA.UUGCCUUCAAAGUUCUCUGA.UUGCU
+A.thaliana.1              AUA.UAUUUAUUAUACAA.....CCUUCAAAGUUCUCUGAAUUGCU
+#=GC SS_cons              .........................................>>>>>
+//

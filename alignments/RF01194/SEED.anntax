@@ -1,0 +1,39 @@
+# STOCKHOLM 1.0
+#=GF ID    sn2903
+#=GF AC    RF01194
+#=GF DE    Small nucleolar RNA sn2903
+#=GF AU    Wilkinson A
+#=GF GA    70.0
+#=GF NC    23.0
+#=GF TC    105.8
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Caenorhabditis_elegans300127
+#=GF WK    http://en.wikipedia.org/wiki/SnoRNA
+#=GF SQ    4
+
+#=GS C.remanei.1  AC    AAGD02011065.1/170533-170623
+#=GS C.briggsae.1 AC    DQ789428.1/2-92
+#=GS C.brenneri.1 AC    ABEG01010693.1/8667-8757
+#=GS C.elegans.1  AC    Z72511.1/19566-19656
+
+C.remanei.1              GAGCGGUGAUGAAUGCACGUAUUGCUCUGACACCUCUUAUGUUAGCGGUA
+C.briggsae.1             GAGCGGUGAUGAAUGCACGUAUUGCUCUGACACCUCUUAUGUUAGCGGUA
+C.brenneri.1             GAGCGGUGAUGAAUGCACGUAUUGCUCUGACACCUCUUAUGUUAGCGGUA
+C.elegans.1              GAGCGGUGAUGAAUGCACGUAUUGCUCUGACACCUCUUAUGUUAGCGGUA
+#=GC SS_cons             <<<<..............................................
+#=GC RF                  GAGCGGUGAUGAAUGCACGUAUUGCUCUGACACCUCUUAUGUUAGCGGUA
+
+C.remanei.1              AAUUUCCGUGCCGCGAUGAGUCCACUUGGAUCUCUGAGCUC
+C.briggsae.1             AAUUUCCGUGCCGCGAUGAGUCCAAUUGGAUCUCUGAGCUC
+C.brenneri.1             AAUUUCCGUGCCGCGAUGAGUCCACUAGGAUCUCUGAGCUC
+C.elegans.1              AAUUUCCGUGCCGCGAUGAGUCCACUAGGAUCUCUGAGCUC
+#=GC SS_cons             .....................................>>>>
+#=GC RF                  AAUUUCCGUGCCGCGAUGAGUCCACUAGGAUCUCUGAGCUC
+//

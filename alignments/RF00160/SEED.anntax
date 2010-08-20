@@ -1,0 +1,84 @@
+# STOCKHOLM 1.0
+#=GF ID    snoZ159
+#=GF AC    RF00160
+#=GF DE    Small nucleolar RNA Z159/U59
+#=GF AU    Moxon SJ
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    27.6
+#=GF SE    Griffiths-Jones SR
+#=GF SS    Predicted; PFOLD; Daub J
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Arabidopsis_thaliana300085
+#=GF RN    [1]
+#=GF RM    12736310
+#=GF RT    The high diversity of snoRNAs in plants: identification and
+#=GF RT    comparative study of 120 snoRNA genes from Oryza sativa.
+#=GF RA    Chen CL, Liang D, Zhou H, Zhuo M, Chen YQ, Qu LH;
+#=GF RL    Nucleic Acids Res 2003;31:2601-2613.
+#=GF RN    [2]
+#=GF RM    12007400
+#=GF RT    Small nucleolar RNAs: an abundant group of noncoding RNAs with
+#=GF RT    diverse cellular functions.
+#=GF RA    Kiss T;
+#=GF RL    Cell 2002;109:145-148.
+#=GF CC    This family consists of several snoRNA  Z159 or U59 sequences which
+#=GF CC    are members of the C/D class of snoRNA which contain the C (UGAUGA) and D
+#=GF CC    (CUGA) box motifs. This family seems to be found exclusively in
+#=GF CC    rice. C/D box small nucleolar RNAs are known to act as a methylation guides
+#=GF CC    for 18S ribosomal RNA in plants [1].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_Z159/U59
+#=GF SQ    10
+
+#=GS O.sativa.1    AC    AJ490357.1/1-86
+#=GS O.sativa.2    AC    AJ490364.1/1-93
+#=GS O.sativa.3    AC    AJ490361.1/3-88
+#=GS O.sativa.4    AC    AJ490360.1/3-101
+#=GS O.sativa.5    AC    AY112816.1/10-95
+#=GS O.sativa.6    AC    AJ490365.1/1-93
+#=GS O.sativa.7    AC    AJ490366.1/1-83
+#=GS O.sativa.8    AC    AJ490358.1/3-88
+#=GS O.sativa.9    AC    AJ490363.1/3-101
+#=GS L.japonicus.1 AC    AB092809.1/7232-7313
+
+O.sativa.1                GUCUCCGAUGAUGAUGUAUUUUUAU..ACUUUCGUUCUUCUGAAGUUG..
+O.sativa.2                GACUCA.AUGAUGAUGCAUUUUUAU..ACUUUUGUUCUUCUGAAGUUACA
+O.sativa.3                GUCUCCGAUGAUGAUGUAAAUUUUU..ACUUUCGUUCUUCUGAAGUUG..
+O.sativa.4                GUCUCUGAUGAUGAUUAAAAAUGAUUAACUUUCGUUCUUCUGAUGC.GCU
+O.sativa.5                GUCUCCGAUGAUGAUGUAAAUUUUU..ACUUUCGUUCUUCUGAAGUUG..
+O.sativa.6                GACUCA.AUGAUGAUGCAUUUUUAU..AUUUUUGUUCUUCUGAAGUUACA
+O.sativa.7                GUCUCCGACGAUG...UAAAUUUAU..ACUUUCGUUCUUCUGAAGUUGG.
+O.sativa.8                GUCUCCGAUGAUGAUGUAAAUUUAU..ACUUUCGUUCUUCUGAAGUUG..
+O.sativa.9                GUCUCUGAUGAUGAUUAAAAAUGAUUAACUUUCGUUCUUCUGAUGC.GCU
+L.japonicus.1             GCCUCCGAUGAUGAA.CAACUGUGU..GUUUUU.UUCUGA.GUUGUUU..
+#=GC SS_cons              ..<<<<............................................
+
+O.sativa.1                ............UAAUGUGGAAGAACAAUU.UGGAGACCUGAACUGAGGG
+O.sativa.2                AACUUG......CAAUGUGGAAGAACAAUU.UGGGGACCAGAACUGAUGG
+O.sativa.3                ............CAAUGUGGAAGAACUAUU.UGGAGACCUGAACUGAGGG
+O.sativa.4                UUUCUCAUGGCGCGCUGCGGAAG..CAAUC.UGGAGACCUGAACUGAGGA
+O.sativa.5                ............CAAUGUGGAAGAACUAUU.UGGAGACCUGAACUGAGGG
+O.sativa.6                AACUUG......CAAUGUGGAAGAACAAUU.UGGGGACCAGAACUGAUGG
+O.sativa.7                ............CAAUGUGGAAGAACUAUC.UGGAGACCUGAACUG.GGG
+O.sativa.8                ............CAAUGUGGAAGAACUAUU.UGGAGACCUGAACUGAGGG
+O.sativa.9                UUUCUCAUGGCGCGGUGCGGAAG..CAAUC.UGGAGACCUGAACUGAGGA
+L.japonicus.1             ............CCAUGC.UGAAAA.UAUAGUGGAGACCUGAACUGAGGA
+#=GC SS_cons              ...............................................>>>
+
+O.sativa.1                GUU
+O.sativa.2                GGU
+O.sativa.3                GGU
+O.sativa.4                GAC
+O.sativa.5                GGU
+O.sativa.6                GGU
+O.sativa.7                GUU
+O.sativa.8                GUU
+O.sativa.9                GAC
+L.japonicus.1             GGC
+#=GC SS_cons              >..
+//

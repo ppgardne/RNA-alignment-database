@@ -1,0 +1,309 @@
+# STOCKHOLM 1.0
+#=GF ID    Glycine
+#=GF AC    RF00504
+#=GF DE    Glycine riboswitch
+#=GF AU    Moxon SJ
+#=GF GA    22.0
+#=GF NC    0.0
+#=GF TC    22.3
+#=GF PI    gcvT
+#=GF SE    Barrick JE, Breaker RR
+#=GF SS    Predicted; Barrick JE, Breaker RR
+#=GF TP    Cis-reg; riboswitch;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000035 SO:riboswitch
+#=GF RN    [1]
+#=GF RM    15472076
+#=GF RT    A glycine-dependent riboswitch that uses cooperative binding to
+#=GF RT    control gene expression.
+#=GF RA    Mandal M, Lee M, Barrick JE, Weinberg Z, Emilsson GM, Ruzzo WL,
+#=GF RA    Breaker RR;
+#=GF RL    Science 2004;306:275-279.
+#=GF CC    This family represents the bacterial glycine riboswitch. Glycine
+#=GF CC    riboswitches usually consist of two metabolite-binding aptamers
+#=GF CC    domains with similar structures in tandem. The aptamers
+#=GF CC    cooperatively bind glycine to regulate the expression of
+#=GF CC    downstream genes. In Bacillus subtilis, this riboswitch is found
+#=GF CC    upstream of the gcvT operon which controls glycine
+#=GF CC    degradation. It is thought that when glycine is in excess it will
+#=GF CC    bind to both aptamers to activate these genes and facilitate
+#=GF CC    glycine degradation [1].
+#=GF WK    http://en.wikipedia.org/wiki/Glycine_riboswitch
+#=GF SQ    44
+
+#=GS Mycobacterium_tuberc.1 AC    BX842577.1/344457-344587
+#=GS Mycobacterium_tuberc.2 AC    AE000516.2/79275-79185
+#=GS Mycobacterium_tuberc.3 AC    BX842572.1/79202-79095
+#=GS Mycobacterium_tuberc.4 AC    BX842577.1/344356-344453
+#=GS R.fascians.1           AC    AJ301559.2/6878-7012
+#=GS R.fascians.2           AC    AJ301559.2/6784-6876
+#=GS Leifsonia_xyli_subsp.1 AC    AE016822.1/1714518-1714420
+#=GS S.coelicolor.1         AC    AL939108.1/255442-255325
+#=GS S.coelicolor.2         AC    AL939123.1/278050-277936
+#=GS S.coelicolor.3         AC    AL939108.1/255539-255444
+#=GS S.coelicolor.4         AC    AL939123.1/278145-278052
+#=GS B.subtilis.1           AC    D84432.1/169999-170100
+#=GS Bacillus_thuringiens.1 AC    AE017355.1/2242861-2242742
+#=GS Bacillus_thuringiens.2 AC    AE017355.1/2242962-2242862
+#=GS L.monocytogenes.1      AC    AL591978.1/212840-212931
+#=GS L.innocua.1            AC    AL596168.1/161626-161717
+#=GS E.acidaminophilum.1    AC    AJ312125.1/453-315
+#=GS E.acidaminophilum.2    AC    AJ312125.1/523-454
+#=GS Thermoanaerobacter_t.1 AC    AE008691.1/1826306-1826220
+#=GS Thermoanaerobacter_t.2 AC    AE008691.1/1826408-1826312
+#=GS Thermoanaerobacter_t.3 AC    AE008691.1/313165-313055
+#=GS Streptococcus_agalac.1 AC    AL766849.1/65560-65639
+#=GS Streptococcus_agalac.2 AC    AL766849.1/65640-65772
+#=GS S.pneumoniae.1         AC    CP000919.1/381215-381303
+#=GS Streptococcus_pyogen.1 AC    CP000262.1/1070832-1070913
+#=GS B.henselae.1           AC    BX897699.1/1435871-1435783
+#=GS B.henselae.2           AC    BX897699.1/1435970-1435876
+#=GS Rhodopseudomonas_pal.1 AC    BX572605.1/160757-160849
+#=GS Rhodopseudomonas_pal.2 AC    BX572605.1/160670-160756
+#=GS Brucella_suis_1330.1   AC    AE014292.2/713320-713218
+#=GS Sinorhizobium_melilo.1 AC    AL591688.1/1674990-1674906
+#=GS B.bronchiseptica.1     AC    BX640445.1/160122-160016
+#=GS B.bronchiseptica.2     AC    BX640445.1/160210-160126
+#=GS B.bronchiseptica.3     AC    BX640439.1/206443-206535
+#=GS Desulfotalea_psychro.1 AC    CR522870.1/1448610-1448703
+#=GS Desulfotalea_psychro.2 AC    CR522870.1/1448704-1448793
+#=GS Pectobacterium_atros.1 AC    BX950851.1/2645260-2645133
+#=GS Pectobacterium_atros.2 AC    BX950851.1/2645129-2645034
+#=GS Pasteurella_multocid.1 AC    AE004439.1/116056-116172
+#=GS Acinetobacter.1        AC    CR543861.1/1990167-1990077
+#=GS Acinetobacter.2        AC    CR543861.1/1990073-1989965
+#=GS P.profundum.1          AC    CR378670.1/15794-15904
+#=GS Xanthomonas_axonopod.1 AC    AE008923.1/1392465-1392356
+#=GS Xanthomonas_campestr.1 AC    AE008922.1/1299977-1299896
+
+Mycobacterium_tuberc.1             .....UGCCU.CUGGAAAGCGGUGGC..............GACCCCUGGC
+Mycobacterium_tuberc.2             UGACGCGAUG.UGGGAGAA.CCUCC...............AUGUC.....
+Mycobacterium_tuberc.3             .....CAACU.CUGGAGACAGGGACG..............GUCGCACCGA
+Mycobacterium_tuberc.4             CGCUCUAGUG.CGGGAGAGUUCUGUGGCUG..........CCAGC.....
+R.fascians.1                       UUCGACAACU.CUGGAAAGUGGUGGGA.............GCACC.....
+R.fascians.2                       CGCCUGCGCG...GGAGAGUUCCGAGGC............AUCCAGU...
+Leifsonia_xyli_subsp.1             GAGGCCGAUG.CGGGAGAGCUGCGGG..............GGAGAACCCG
+S.coelicolor.1                     .....UCACU.CUGGAAAGCAGGGCGGGU...........GUCGACGGCU
+S.coelicolor.2                     .....CACAU.CUGAAAAGCGGACCGCC............CCCGACGG..
+S.coelicolor.3                     UGACCCCGCG.CGGGAGAGUCCUCCGGAC...........AUCAC.....
+S.coelicolor.4                     UGAAUCCGCG.CGGGAGAGUCCCCGG...............CCGCG....
+B.subtilis.1                       AUGACAGCAA.GGGGAGAGACCUGACC.............GAAAACCUCG
+Bacillus_thuringiens.1             GGACGAAUCU.CUGGAGAGACUCCCUCUCGCU........UUAAAUAGCG
+Bacillus_thuringiens.2             AUGAACCAUU.CAGGAGAA.GGUC................UAUU......
+L.monocytogenes.1                  GUGAAUGUAA.GCAGAGAGACUGC................GAAAA.....
+L.innocua.1                        GUGAAUGUAA.ACAGAGAGACUG.................UGAAA.....
+E.acidaminophilum.1                AGACGAUACU.CUGGAGAGACCA.................UAUA......
+E.acidaminophilum.2                AUGAAGGUGG.CAGGAGAGACCC..................AUGA.....
+Thermoanaerobacter_t.1             .....AUAUC.CCGGAAAG.CCUC................UAAA......
+Thermoanaerobacter_t.2             AUGAAGAAUG.CGGGAGAGACCC.................UAACC.....
+Thermoanaerobacter_t.3             AUGAAGAUAG.CGAGAGAUUAUCUUCC.............AUAAAUG...
+Streptococcus_agalac.1             UGACGUCAUU.CAGGAGAAGAAAG................UUAGA.....
+Streptococcus_agalac.2             AGACGGACUU.CUGGAGAGACCUA................UAAGUAGCAA
+S.pneumoniae.1                     GGACGGAACU.CUGGAGAGACC..................GUAAA.....
+Streptococcus_pyogen.1             UGAUGUCAUG.CAGGAGA..AGAA................UUUA......
+B.henselae.1                       .....CAGAU.CUGGAAAGUCGG.................GAGG......
+B.henselae.2                       .....UUUUG.CGGGAGAGUGCAGGC..............UGCAAGUUUU
+Rhodopseudomonas_pal.1             CGACUGACAU.CUGGAAAGAGACCCUGCCGGGC.......GAUCCCGGGA
+Rhodopseudomonas_pal.2             CUAAGUCGCGUCGGGAGAGAUCGGCC..............GCAA......
+Brucella_suis_1330.1               UAAGACAACU.CUGGAAAGUCGGGGG...............CAAC.....
+Sinorhizobium_melilo.1             CGACCUCGUU..GGGAGAAACCGG................UUCGA.....
+B.bronchiseptica.1                 .....AACAU.CUGGAGAGUGGCGCGCG............GUAC......
+B.bronchiseptica.2                 ACGUGCAGUU.CGGGAGAGACCGU................CCAGC.....
+B.bronchiseptica.3                 ACGCAUGUCG.CGGGAGAGAGCGGCCG.............AUUGC.....
+Desulfotalea_psychro.1             AUGAACAUAG.CAGGAGAGAUUUU................UCCCAUGGCA
+Desulfotalea_psychro.2             .....AGCCU.CUGGAGAGUCUC.................AUUAU.....
+Pectobacterium_atros.1             CCGCUCCUCG.CAGGAGAGAGGGCGUGUACUCCAGCAUACUUCAAGCUAC
+Pectobacterium_atros.2             UUGAAGCCAA.CUGGAGAGAGGUUGC..............GAUGC.....
+Pasteurella_multocid.1             .....AACCC.UUGGAGAGAGCCG................UUAUAUUAAA
+Acinetobacter.1                    AUGAUUAUUG.CAGGAGAGAUAUUCU..............UGCAA.....
+Acinetobacter.2                    .....AUAAU.CUGGAGAGAAGUAUU..............UCAAA.....
+P.profundum.1                      .....AGCCU.CUGGAGAGACCCG................UUAAA.....
+Xanthomonas_axonopod.1             .....CAACU.CUGGAGAGACCGGCC..............GAUG......
+Xanthomonas_campestr.1             GUAACACGGU..GGGAGAA.GCGGC...............ACUG......
+#=GC SS_cons                       .....<<<<<.<<<......<<<<..........................
+
+Mycobacterium_tuberc.1             GGUC.......................CUCACC.CGCCGAUGGGGAAA.G
+Mycobacterium_tuberc.2             .............................GAGG.CGCCGUAGGAGCAA.U
+Mycobacterium_tuberc.3             CC.........................GUGCCU.GACCGAAGGUGUAGAG
+Mycobacterium_tuberc.4             ...........................UACGGA.CGCCGAAGGAGCAAUA
+R.fascians.1                       .............................CACC.CGCCCAAGGGGAAA.G
+R.fascians.2                       ...........................CUCGGA.CGCCGAAGGAGCAAUA
+Leifsonia_xyli_subsp.1             ...........................CCCGCGGCACCGAAGGAGCAA.U
+S.coelicolor.1                     UC.........................CGCUCU.CACCGACGGUGAAA.G
+S.coelicolor.2                     ...........................CGGUCC.CACCCAAGGUGCAA.G
+S.coelicolor.3                     ...........................CGGAGG.CGCCGAAGGAGCAA.A
+S.coelicolor.4                     ...........................CCGGGG.CGCCGAAGGAGCAA.G
+B.subtilis.1                       GGA........................UACAGG.CGCCGAAGGAGCAA.A
+Bacillus_thuringiens.1             UAGAGGAA...................AACGAG.CACCGAAGGAGCAAAU
+Bacillus_thuringiens.2             .............................GAUC.UACCGACGGGGCAA.A
+L.monocytogenes.1                  .............................GCAG.CGCCGACGGGGAAA.G
+L.innocua.1                        ...........................AG.CAG.CGCCGACGGGGAAA.G
+E.acidaminophilum.1                ..............................AGG.CACCGAAGGAGCAA.A
+E.acidaminophilum.2                ............................G.GGG.CGCCGAAGAAGUAA..
+Thermoanaerobacter_t.1             .............................GAGG.CACCGAAGGAGCAA.U
+Thermoanaerobacter_t.2             ..............................GGG.CGCCGAAGGAGCAA.G
+Thermoanaerobacter_t.3             ...........................GAAGAU.AGCCGAAGGGGAAA.U
+Streptococcus_agalac.1             .............................CUUU.CGCCGAAGGAAUUA..
+Streptococcus_agalac.2             CAUCUUUGUAUUGACACCAAGAUGUGCUCUAGG.CGCCGAAGGGGCAA.G
+S.pneumoniae.1                     ...............................GG.CACCGAAGGGGCAA.G
+Streptococcus_pyogen.1             .............................UUUU.CGCCGAAGGAGUUA..
+B.henselae.1                       ...........................GG.CCG.CGCCGAAGGUGUAA.G
+B.henselae.2                       UGG........................GUCUGC.CGCCGAAGGGGAAA.A
+Rhodopseudomonas_pal.1             ...........................CGGGUC.CGCCGACGGGAUAA..
+Rhodopseudomonas_pal.2             ...........................GGCCGG.CGCCGAAGGAGCAA.C
+Brucella_suis_1330.1               .............................UCCG.CGCCGAAGGUGUAA.G
+Sinorhizobium_melilo.1             ............................UCCGG.UGCCGAAGGAGCAA.C
+B.bronchiseptica.1                 ...........................GGCGCC.CACCGAAGGGGAU..C
+B.bronchiseptica.2                 ...........................GGACGG.CGCCGACGGAGCAA.C
+B.bronchiseptica.3                 ...........................GGCUGC.CGCCGAAGGCGCAA.U
+Desulfotalea_psychro.1             GUACGGAUGG.................GGAAGG.CACCGAAGAAGUAA..
+Desulfotalea_psychro.2             ..............................GGG.CACCGAAGGAGCAA.G
+Pectobacterium_atros.1             AUGUACGUUGGCAUAAAGUAUA.....ACGCUC.CGCCGAAGGCGCAA.A
+Pectobacterium_atros.2             .............................AACC.CACCGAAGGGGCAA.G
+Pasteurella_multocid.1             AAGAGAUAA..................AACGGC.CGCCGAAGGCGCAA.A
+Acinetobacter.1                    ...........................AGGAUA.CGCCGAAGGAGCAA.C
+Acinetobacter.2                    ...........................AAUACU.CACCGAAGGGGAUG.G
+P.profundum.1                      ............................UCGGG.CGCCGAAGGAGCAA.G
+Xanthomonas_axonopod.1             .............................CCGG.CGCCGAAGGGGCAC.G
+Xanthomonas_campestr.1             .............................CCGC.UGCCGAAGGCGCAA.C
+#=GC SS_cons                       .............................>>>>..<<<<<..<<<....<
+
+Mycobacterium_tuberc.1             GCGAUU.............................CACC.......UGAC
+Mycobacterium_tuberc.2             CUCCU..............................CCCC...........
+Mycobacterium_tuberc.3             CGGC...............................GCCA...........
+Mycobacterium_tuberc.4             CCUC...............................UCC............
+R.fascians.1                       GUGCCGGU...........................GCGC..GCAUGUCAG
+R.fascians.2                       CCUC...............................CCC............
+Leifsonia_xyli_subsp.1             CCUC...............................CCC............
+S.coelicolor.1                     CCGGGCAGAGC........................UCCA...........
+S.coelicolor.2                     CCCUGA.............................UCGC.......CGUA
+S.coelicolor.3                     UCCU...............................CCCC...........
+S.coelicolor.4                     UCCC...............................UCCC...........
+B.subtilis.1                       CU.................................GCGG...........
+Bacillus_thuringiens.1             CCGC...............................UACU...........
+Bacillus_thuringiens.2             AAGUUGUUAACC.......................GACU...........
+L.monocytogenes.1                  CAUA...............................UAUU...........
+L.innocua.1                        CAUAAG.............................UUAU...........
+E.acidaminophilum.1                UUUAAUUGAGAUCUUUAUAUAAAUAAAAAAGCUCAUCCC....UUUUUUA
+E.acidaminophilum.2                ..................................................
+Thermoanaerobacter_t.1             UCUUCUAU...........................AAAG...........
+Thermoanaerobacter_t.2             CGGGUAUAUGGCCUGUAU.................ACUC...........
+Thermoanaerobacter_t.3             ACAAAG.............................GCCC...........
+Streptococcus_agalac.1             ..................................................
+Streptococcus_agalac.2             AAGAGUAAAACAA......................CUCC...........
+S.pneumoniae.1                     GCAG...............................GCAA...........
+Streptococcus_pyogen.1             ..................................................
+B.henselae.1                       CGAA...............................AACU...........
+B.henselae.2                       UA.................................GCCC...........
+Rhodopseudomonas_pal.1             ..................................................
+Rhodopseudomonas_pal.2             CG.................................CCCC...........
+Brucella_suis_1330.1               UAUGGCUUUAUAUAUA...................GCCA...........
+Sinorhizobium_melilo.1             CG.................................CCCC...........
+B.bronchiseptica.1                 CCUG...............................GCGC.......GUUU
+B.bronchiseptica.2                 CA.................................CCCC...........
+B.bronchiseptica.3                 UC.................................GCCC...........
+Desulfotalea_psychro.1             ..................................................
+Desulfotalea_psychro.2             CCAGCGUGUA.........................GCUG...........
+Pectobacterium_atros.1             C..................................UCCC...........
+Pectobacterium_atros.2             CAGC...............................UCUG...........
+Pasteurella_multocid.1             AAGA...............................GCGG.........UU
+Acinetobacter.1                    G..................................ACCC...........
+Acinetobacter.2                    UACG...............................UAGA.....UUUAUG
+P.profundum.1                      CUUU...............................CCUUUUUGCUGUUUU
+Xanthomonas_axonopod.1             AAACGCAGGCAG.......................GCCA.........CG
+Xanthomonas_campestr.1             A..................................GCCC...........
+#=GC SS_cons                       <.................................................
+
+Mycobacterium_tuberc.1             GGUGGACAGAGUCGCCGAAUCUCUCAGGCGCCUGGCGUGCAGGU..GAA.
+Mycobacterium_tuberc.2             ..............GAGAAUCUCUCAGGC...............CCAAG.
+Mycobacterium_tuberc.3             ..UGAUGCGACGCCGC.AGACUCUCAGGU...............UUCAG.
+Mycobacterium_tuberc.4             ..............GUCAACCUCUCAGGC...............ACCCG.
+R.fascians.1                       CGCGCCGUGUUCUACCGAAUCUCUCAGGCGCACGCGUCAGCGAGCACAC.
+R.fascians.2                       ..............GUCAAUCUCUCAGGC...............ACACG.
+Leifsonia_xyli_subsp.1             ..............GACAAUCUCUCAGGU...............ACGCG.
+S.coelicolor.1                     ...GGGCUCGCCCGGUGAAGCUCUCAGGU..............UGAGAU.
+S.coelicolor.2                     CUCCGGUGGCCGUGGCGAACCUCUCAGGU..............UCCGAU.
+S.coelicolor.3                     ..............GG.AAUCUCUCAGGC...............UCACG.
+S.coelicolor.4                     ..............UUGAAUCUCUCAGGC...............ACCGU.
+B.subtilis.1                       .............AGUGAAUCUCUCAGGC...............AAAAG.
+Bacillus_thuringiens.1             ........AUAGCGGAUAAUCUCUCAGGU...............AAAAG.
+Bacillus_thuringiens.2             ..............UUGAAACUCUCAGGU........CUUGUUUACAAG.
+L.monocytogenes.1                  ............AUGUGAAACUCUCAGGC...............AAAAG.
+L.innocua.1                        ..............GUGAAACUCUCAGGC...............AAAAG.
+E.acidaminophilum.1                GAUCAAGCGAUUAAAUGAAUCUCUCAGGU...............AAAAG.
+E.acidaminophilum.2                ..................AGCUUUCAGGC..............U..UAG.
+Thermoanaerobacter_t.1             ..............AAGAAUCUCUCAGGU...............AAACA.
+Thermoanaerobacter_t.2             ..............GUGAAACUCUCAGGC...............AAAAG.
+Thermoanaerobacter_t.3             ..GCCAAGCCUUUGUAGAAGCUCUCAGGC...............GGCAG.
+Streptococcus_agalac.1             ..................CACUCUCAGGU........GUCUUAAGACAG.
+Streptococcus_agalac.2             ..............UCCAAUCUCUCAGGC...............AAAAG.
+S.pneumoniae.1                     ...........CUGCUCAAACUCUCAGGU...............AAAAG.
+Streptococcus_pyogen.1             ..................UACUCUCAGGU...GUUCAGUUUUUGAACGG.
+B.henselae.1                       ........UUUUUCGCGAGUCUCUCAGGU..............U..UGU.
+B.henselae.2                       ..............GU.AAUCUCUCAGGC............UCU..AAG.
+Rhodopseudomonas_pal.1             ..................UGCUCUCAGGC...............ACAGC.
+Rhodopseudomonas_pal.2             ..............GG.AAACUCUCAGGC...............AAACG.
+Brucella_suis_1330.1               .............UGCGAGUCUCUCAGGC..............C..UGA.
+Sinorhizobium_melilo.1             ..............GG.AAACUCUCAGGC...............CAAAG.
+B.bronchiseptica.1                 GCAGCGGCGCACGGGUGAAGCUCUCAGGU...............AAAUG.
+B.bronchiseptica.2                 ..............GG.AAACUCUCAGGC...............AAAAG.
+B.bronchiseptica.3                 ..............GG.AAUCGCUCAGGU..............AACCCA.
+Desulfotalea_psychro.1             ..................AUCUUUCAGGU...............CAAAG.
+Desulfotalea_psychro.2             ..............GUGAACCUCUCAGGU...............ACAAGG
+Pectobacterium_atros.1             ..............AU.AAUCGCUCAGGC..............UACCCU.
+Pectobacterium_atros.2             ..........CUGCGU.AAACUCUCAGGU..............AAAGCG.
+Pasteurella_multocid.1             AAUUUUUCCGUUUUUUCAAACGCUCAGGC...............AAAAG.
+Acinetobacter.1                    ..............CGGAAACUCUCAGGC...............AGAAG.
+Acinetobacter.2                    GAAAUCUAUAGCUACCGAAGCUCUCAGGU...............ACCCU.
+P.profundum.1                      AACAUGCAUGGAAAGUGAAACUCUCAGGC...............AAAAG.
+Xanthomonas_axonopod.1             CGCCAGGCCGCGUUUUUAAACUCUCAGGC...............AAAAG.
+Xanthomonas_campestr.1             ...............GUAAUCGCUCAGGC..............C..CGA.
+#=GC SS_cons                       ..............>>....>>>>>.>>>.....................
+
+Mycobacterium_tuberc.1             GACAGAGGGAGAGGG
+Mycobacterium_tuberc.2             CACCACACCGCCGAG
+Mycobacterium_tuberc.3             GACAGAGCGGGGAGG
+Mycobacterium_tuberc.4             GACCGCGCGAGACUA
+R.fascians.1                       GACAGAGGGGGAGGA
+R.fascians.2                       GAC...GCGUGUGGG
+Leifsonia_xyli_subsp.1             UACCGCAUCGGACUG
+S.coelicolor.1                     GACAGAGGGGGAGGC
+S.coelicolor.2                     GACAGAUGGGGAGGA
+S.coelicolor.3                     UACCGCACGGACGAG
+S.coelicolor.4                     UACCGCGCGGGCGAG
+B.subtilis.1                       AACUCUUGCUCGACG
+Bacillus_thuringiens.1             GACAGAGACAAGCGA
+Bacillus_thuringiens.2             UA..GAACUGCAUGG
+L.monocytogenes.1                  GAUGUUUACGGGACG
+L.innocua.1                        GAUGUUUACGGGACG
+E.acidaminophilum.1                GACAGAGAACUGAAU
+E.acidaminophilum.2                GACUGUCAUCA....
+Thermoanaerobacter_t.1             GACGGGGGAAUAAAA
+Thermoanaerobacter_t.2             GACCGCAUUC.....
+Thermoanaerobacter_t.3             GAUCGCUAUCGGAUA
+Streptococcus_agalac.1             GACUGAUUGAC....
+Streptococcus_agalac.2             GACAGAAGCUAAAAG
+S.pneumoniae.1                     GACAGAGCUAGGAUA
+Streptococcus_pyogen.1             GACUGUUUGAU....
+B.henselae.1                       AACAGAGGGGUGCAG
+B.henselae.2                       GACCGUAAAAGAAGA
+Rhodopseudomonas_pal.1             GACAGAUGGGGCUCG
+Rhodopseudomonas_pal.2             GACCGCGCGGC....
+Brucella_suis_1330.1               GACAGAGGGGCACGA
+Sinorhizobium_melilo.1             GACC.AGCAAGGUG.
+B.bronchiseptica.1                 GACAGAUGGGGUUGC
+B.bronchiseptica.2                 GACCGACCUGC....
+B.bronchiseptica.3                 UACCGCGACUGCAUC
+Desulfotalea_psychro.1             GACUGCUAUGGGACG
+Desulfotalea_psychro.2             GACAGAGUGUAGCAG
+Pectobacterium_atros.1             AACUGCGAAUU....
+Pectobacterium_atros.2             GACAGAGGGAGUGGC
+Pasteurella_multocid.1             GACAGGGGCAACAAG
+Acinetobacter.1                    GACUGUAAUAAUCGA
+Acinetobacter.2                    GACAGAUGGGGCAAC
+P.profundum.1                      GACAGAGGAGAUAAG
+Xanthomonas_axonopod.1             GACAGAGGGGCGCGA
+Xanthomonas_campestr.1             UACC.AUCUUCAACA
+#=GC SS_cons                       ..>>>>>>>>.....
+//

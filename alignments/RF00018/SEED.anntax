@@ -1,0 +1,196 @@
+# STOCKHOLM 1.0
+#=GF ID    CsrB
+#=GF AC    RF00018
+#=GF DE    CsrB/RsmB RNA family
+#=GF AU    Bateman A
+#=GF GA    25.0
+#=GF NC    25.0
+#=GF TC    25.1
+#=GF SE    Bateman A
+#=GF SS    Predicted; PFOLD; Bateman A
+#=GF TP    Gene; sRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  -g  CM SEQDB
+#=GF DR    SO:0000377 SO:CsrB_RsmB_RNA
+#=GF RN    [1]
+#=GF RM    97362239
+#=GF RT    The RNA molecule CsrB binds to the global regulatory protein CsrA and
+#=GF RT    antagonizes its activity in Escherichia coli.
+#=GF RA    Liu MY, Gui G, Wei B, Preston JF 3rd, Oakford L, Yuksel U, Giedroc
+#=GF RA    DP, Romeo T;
+#=GF RL    J Biol Chem 1997;272:17502-17510.
+#=GF RN    [2]
+#=GF RM    7665490
+#=GF RT    Identification of a global repressor gene, rsmA, of Erwinia
+#=GF RT    carotovora subsp. carotovora that controls extracellular enzymes,
+#=GF RT    N-(3-oxohexanoyl)-L-homoserine lactone, and pathogenicity in
+#=GF RT    soft-rotting Erwinia spp.
+#=GF RA    Cui Y, Chatterjee A, Liu Y, Dumenyo CK, Chatterjee AK;
+#=GF RL    J Bacteriol 1995;177:5108-5115.
+#=GF CC    The CsrB RNA binds to approximately 18 copies of the CsrA
+#=GF CC    protein Pfam:PF02599. Although CsrA proteins are found in
+#=GF CC    a wide variety of bacteria, CsrB RNAs are only known in
+#=GF CC    enterobacter.  The CsrB RNAs contain a conserved motif
+#=GF CC    CAGGXXG that is found in up to 18 copies and has been
+#=GF CC    suggested to bind CsrA.
+#=GF CC    The Csr regulatory system has a strong  negative regulatory
+#=GF CC    effect on glycogen biosynthesis, glyconeogenesis and glycogen
+#=GF CC    catabolism and a positive regulatory effect on glycolysis [1].
+#=GF CC    In other bacteria such as Erwinia caratovara the RsmA protein
+#=GF CC    has been shown to regulate the production of virulence determinants,
+#=GF CC    such extracellular enzymes [2]. RsmA binds to RsmB regulatory RNA
+#=GF CC    which is also a member of this family [2].
+#=GF WK    http://en.wikipedia.org/wiki/CsrB/RsmB_RNA_family
+#=GF SQ    14
+
+#=GS Enterobacter.1         AC    CP000653.1/3537674-3538029
+#=GS Escherichia_coli_536.1 AC    CP000247.1/2917563-2917922
+#=GS Klebsiella_pneumonia.1 AC    CP000647.1/3438471-3438829
+#=GS P.carotovorum.1        AC    X79474.1/346-702
+#=GS P.carotovorum.2        AC    L13457.1/235-574
+#=GS Pectobacterium_atros.1 AC    BX950851.1/1144364-1144719
+#=GS S.enterica.1           AC    AL627276.1/270233-270587
+#=GS S.enterica.2           AC    AF076153.1/1958-2313
+#=GS Serratia_proteamacul.1 AC    CP000826.1/4199142-4199485
+#=GS Yersinia_intermedia_.1 AC    AALF01000027.1/41297-41618
+#=GS Yersinia_pestis_biov.1 AC    AAYV01000020.1/39672-39993
+#=GS Yersinia_bercovieri_.1 AC    AALC01000033.1/4186-4524
+#=GS Yersinia_frederiksen.1 AC    AALE01000027.1/11961-12282
+#=GS O.sativa.1             AC    AAAA02038011.1/1356-1698
+
+Enterobacter.1                     AUGCCGACACGAGAAGCGAACAUCAGGAUGAUGACGUUUUUCACCGAGGA
+Escherichia_coli_536.1             GAGUCAGACAACGAAGUGAACAUCAGGAUGAUGACACUUCUGAAGGAC..
+Klebsiella_pneumonia.1             ACGUCGCGAAAUGAAGCGAACAUCAGGAUGAUGGCGCUUCUGCAGGAC..
+P.carotovorum.1                    GUUUCAGGAAGAAGCGUUGUUUUCAGGAAGAUAAACAGUUUUCAGGAAGA
+P.carotovorum.2                    .................UCGUUUUAGGAAGAAACGAUCGUUUCAGGAAGA
+Pectobacterium_atros.1             CGUUACUGCACUCGGGCUGUUUUCAGGAAGAGACAUUGUUUU.AGGAAGA
+S.enterica.1                       GAGUCGUACAACGAAGCGAACGUCAGGAUGAUGACGCUUCAGCAGGAC..
+S.enterica.2                       GAGUCGUACAACGAAGCGAACGUCAGGAUGAUGACGCUUCAGCAGGAC..
+Serratia_proteamacul.1             GAUACGGUGGAGCUGGAAAGCAUCAGGAUGAUGCAGCUUCAGGAUGAAGA
+Yersinia_intermedia_.1             GAUCUGGCGGAGAAGGACGGUAUCAGGAUGCUACCA..............
+Yersinia_pestis_biov.1             GAUCUGGCGGAGAGGGAACGCAUCUGGAAGAUGUG...............
+Yersinia_bercovieri_.1             CUUCUACUCGCUGGAUAGGAUCU..GGCGGAGAAGGAAGGUAGCGGAUGC
+Yersinia_frederiksen.1             GAUCUGGUGGAGAAGGACGGUAUCAGGAUGGUGCCA..............
+O.sativa.1                         GACCCGGCGGAGCAGGAAAGCAUCAGGAUGAUGCAGCUUCAGGAAGAAGA
+#=GC SS_cons                       ....................<<<.......>>>.................
+#=GC RF                            GagUCguAaAAagAAGcuaacuucAGGAaGaagAaaauuuauCAGGAaGA
+
+Enterobacter.1                     U........ACGUCAG.G.AUGGCGCUGCAG..GAAGGCUUAAGGAUGAA
+Escherichia_coli_536.1             .........ACACCAG.G.AUGGUGUUUCAGGGAAAGGCUUCUGGAUGAA
+Klebsiella_pneumonia.1             .........CCGCCAG.G.ACGGCGUUGCAGGGACAGGCUUCAGGAUGAA
+P.carotovorum.1                    U.AAAC.AGUUUUCAG.G.AAGAAGA.ACAG......UUUUCAGGAAGAA
+P.carotovorum.2                    A.GCGU.UGUUUUCAG.G.AAGAAGA.ACGG......UUUUCAGGAAGAA
+Pectobacterium_atros.1             A.ACAG.CCGCUUCAG.G.AAGAAGC.GCGG......UUUUCAGGAAGAA
+S.enterica.1                       .........ACGCCAG.G.AUGGUGUUACAAGGAAAGGCUUCAGGAUGAA
+S.enterica.2                       .........ACGCCAG.G.AUGGUGUUACAAGGAAAGGCUUCAGGAUGAA
+Serratia_proteamacul.1             A.GUGGAUGCGCUCAGUG.AAGAGCG....AAGGACGGCGUCAGGA.GAU
+Yersinia_intermedia_.1             ..........CUUCAG.G.AUGAAGA.ACACAGGGACUGCUUAGGAUGAG
+Yersinia_pestis_biov.1             .........UCUUCAG.G.ACGAAGA.ACACAGGGACUGCUUAGGACGAG
+Yersinia_bercovieri_.1             U.ACC....ACUUCAG.G.AUGAAG.AACACAGGGACUGCUUAGGACGAG
+Yersinia_frederiksen.1             ..........CUUCAG.G.AUGAAGA.ACACAGGGACUGCUUAGGAUGAG
+O.sativa.1                         AAGGGA.UGCGCUCAG.GCAAGAGCG....AGGGAUGGCGUCAGGA.GAU
+#=GC SS_cons                       .........<<<<<.......>>>>>...........<<<<<.....>>>
+#=GC RF                            a.aaau.aGucucCAG.G.AaGgagauACAaGGAAAGgcuuCAGGAaGaa
+
+Enterobacter.1                     GCAAAAAGGAUCACGCAGGAC.GCGU.AAGGGACACCUCCAGGAAGGAGA
+Escherichia_coli_536.1             GCGAAGAGGAUGACGCAGGAC.GCGUUAAAGGACACCUCCAGGAUGGAGA
+Klebsiella_pneumonia.1             GCAAGG..AUAACGC.AGGAU.CGCGUAAUGGACACCUCCAGGAUGGAGA
+P.carotovorum.1                    ACAUGA......UUUCAGGAU.GAAAUCAGGGACACCUCCAGGAAGGAGA
+P.carotovorum.2                    ACAUGG......UUUCAGGAU.GAAAUCAGGGACACCUCCAGGAAGGAGA
+Pectobacterium_atros.1             ACACG......AUUUCAGGAU.GAAAUCAGGGACACCUCCAGGAAGGAGA
+S.enterica.1                       GCAAAGUGGAAAGCGCAGGAU.GCGUUAAAGGACACCUCCAGGACGGAGA
+S.enterica.2                       GCAAAGUGGAAAGCGCAGGAU.GCGUUAAAGGACACCUCCAGGACGGAGA
+Serratia_proteamacul.1             GCUCAG..GAUGUUUCAGGAUUGAAACCAGGGACACCUCCAGGAUGGAGA
+Yersinia_intermedia_.1             UGAAGG..GACGUUUCAGGAU.GAAACCAAGGACACCUCCAGGAUGGAGA
+Yersinia_pestis_biov.1             UGAAGG..GACGUUUCAGGAU.GAAACAAGGGACACCUCCAGGAUGGAGA
+Yersinia_bercovieri_.1             UGAAGG..GACGUUUCAGGAU.GAAACAUAGGACACCUCCAGGAUGGAGA
+Yersinia_frederiksen.1             UGAAGG..GAUGUUUCAGGAU.GAAACCAAGGACACCUCCAGGAUGGAGA
+O.sativa.1                         GCCCAG..GAUGUUUCAGGAUUGAAACCAAGGACACCUCCAGGACGGAGA
+#=GC SS_cons                       >>.........<<<<<......>>>>>.........<<<<.....>>>>.
+#=GC RF                            gcAaaGuGGAAaucgCAGGAU.GcgauaAaGGACACCuCCAGGAaGGaGA
+
+Enterobacter.1                     AAGAGAACC.GG.UCAGGAUGC.CCGGUGGGUCAGGAAGAUCAGG.A..C
+Escherichia_coli_536.1             AUGAGAACC.GG.UCAGGAUGAUUCGGUGGGUCAGGAAGGCCAGGAA..C
+Klebsiella_pneumonia.1             ACGAGAGCC.GC.UCAGGAUGA.ACGGUGGAUCAGGAAGAUCGGGAC..A
+P.carotovorum.1                    CCGAGAGCC.GA.UUAGGAAUA.UCGGUGGGGCAGGA.GCCUAAA.G..G
+P.carotovorum.2                    CCGAGAGCC.GA.UUAGGAAUA.UCGGUGGGGCAGGA.GCCUAAA.G..G
+Pectobacterium_atros.1             CCGAGAGCC.GA.UUAGGAAUG.UCGGUGGGGCAGGA.GCCUAAA.G..G
+S.enterica.1                       ACGAGAGCC.GA.UCAGGAUGU.UCGGCGGAUCUGGAUAACCAGGGA..C
+S.enterica.2                       ACGAGAGCC.GA.UCAGGAUGU.UCGGCGGGUCUGGAUGACCAGGGA..C
+Serratia_proteamacul.1             UUGAGAGCU.GGCACAGGAUGG.UUGGCGGGUCAUGAAGACUGAGGAACC
+Yersinia_intermedia_.1             UUGAGAGCCGGU.UCAGGAUGA.AUGGUGGGUUAGGAUAACC........
+Yersinia_pestis_biov.1             UUGAGAGCC.AGUUCAGGAUGA.UUGGUGGGUUAGGAUAGCCUAA....G
+Yersinia_bercovieri_.1             UUGAGAGCCGGU.UCAGGAUGG.AUGGUGGGUUAGGAUAACU........
+Yersinia_frederiksen.1             UUGAGAGCC.AGUUCAGGAUGA.UUGGUGGGUUAGGAUAACCUUA....G
+O.sativa.1                         UUGAGAGCC.GGCGCAGGACUG.UCGGCGGGUCAGGAAGGCUGAG.....
+#=GC SS_cons                       ......<<<.<<...........>>>>>.<<<.......>>>........
+#=GC RF                            aCGAGAgCC.GA.UuAGGAaua.UCGGcGgGgCaGGAuGcCcAaaGa..g
+
+Enterobacter.1                     GUUUCGGGAUGAAACAU..UCACAUCAGGAUGAUGUG..AGCAGGAUGCG
+Escherichia_coli_536.1             ACUUCAGGAUGAAG.UA..UCACAUCGGGGUGGUGUG..AGCAGGAAGCA
+Klebsiella_pneumonia.1             AACUUAUGGAUAAGUCAUUUCGCAUCGGGGUGGUGUGAAAGCAGGAUGCA
+P.carotovorum.1                    GAUUGA..AUCACG.GA..AGAUA.CAGGAUGGAAAC..GUCAGGAAGAA
+P.carotovorum.2                    GAUUGA..AUCACG.GA..AGAUA.CAGGAUGGACAC..GUCAGGAAGAA
+Pectobacterium_atros.1             GAUUGA..AUCACG.GA..AGAUA.CAGGAUGGAAAC..GUCAGGACGAA
+S.enterica.1                       GCUUCAGGAUGAAGCUA..UCACAUCGGGC.GAUGUG..CGCAGGAUGUA
+S.enterica.2                       GCUUCAGGAAGAAGCUA..UCACAUCGGGC.GAUGUG..CGCAGGAUGCA
+Serratia_proteamacul.1             GCGUCAGGACGAUGCUA..CAGGA.CAGAG..........CCAGGAUGG.
+Yersinia_intermedia_.1             ...UCAGGAUUAGC.........AUCGGGAUGGUGUA..G.......GAA
+Yersinia_pestis_biov.1             GAUUAA......CG..........CCGGGAUGGUGUA..U.....AA..C
+Yersinia_bercovieri_.1             ...UCAGGAUUAGC.........ACCGGGAUGGUGUA..G.......GAC
+Yersinia_frederiksen.1             GAUUGA......CG..........CCGGGAUGGUGUA..G.......GAC
+O.sativa.1                         ......GAACCGCG..........UCAGGACGAUGCU..G.CAGGAUG.A
+#=GC SS_cons                       ........................................<<.....>>.
+#=GC RF                            GaUUgAGGAugAaGcgA..agAuAuCaGGaUGaaaag..ggCAGGAaGcA
+
+Enterobacter.1                     CGGUUUACGG.....ACGACCA...GGCCCUCGGGCCACA..GGAAAAGU
+Escherichia_coli_536.1             AUAGUUCAGG.....AUGAACGAUUGGCCGCAAGGCCAGA..GGAAAAGU
+Klebsiella_pneumonia.1             CGUGUUUAUG....GAUGAACAU..GGUCAGGAGACCUCA..GGAAAAGU
+P.carotovorum.1                    AGUGGGACGCCAGCAAGGAUUGUGGGUUAGGACGACCAAAAAGGAAAAGU
+P.carotovorum.2                    AGUGGGACGCCAGCAAGGAUUGUGGGUUAGGACGACCAAAAAGGAAAAGU
+Pectobacterium_atros.1             AGUGGGACGCCAGCAAGGAUUGUGGGUCAGGAUGACCAAAAAGGAAAAGU
+S.enterica.1                       AACGUUCAGG.....AUGAACA...GGCCGUAAGGUCACA..GGAAAAGU
+S.enterica.2                       AACGUUCAGG.....AUGAACA...GGCCGUAAGGUCACA..GGAAAAGU
+Serratia_proteamacul.1             ....................UUUUGGUCAGGAUGGCCGCA..GGAAAAGU
+Yersinia_intermedia_.1             ACUGCGAUGG........AUUGCUGGUUAGGAUAACCAUA.CGGAAAAGU
+Yersinia_pestis_biov.1             AUUGCGAUGG........AUUGCUGGUUAGUAUAACCAUA.CGGAAAAGU
+Yersinia_bercovieri_.1             AACGCUACGG........AUUGCUGGUUAGGAUAACCGAA.CGGAAAAGU
+Yersinia_frederiksen.1             AACGCGACGG........AUUGCUGGUUAGGAUAACCACA.CGGAAAAGU
+O.sativa.1                         UGCAAGGACC..........ACUUGGUCAGGAUGGCCGCA..GGAAAAGU
+#=GC SS_cons                       ..................................................
+#=GC RF                            AauGggaaGgcAGcAAgGAauaUGGGuuaGgAaGauCAaAAAGGAAAAGU
+
+Enterobacter.1                     UGUCACGGAC.GAGCAGGGAGCACAAAUUGUAGCUGGAAUGCUGCGAAAC
+Escherichia_coli_536.1             UGUCAAGGAU.GAGCAGGGAGCAAUAAAAGUAGCCGGAAUGCUGCGAAAC
+Klebsiella_pneumonia.1             UUUCAAGGAC.GAGCAGGGAGCACCAAU.GUAGCGGGACUGCUGCAAAAC
+P.carotovorum.1                    UUUCACGGAU.GAGCAGGGAUGCAAAUGUGUAGCGGGAUAGCUAUAAAAC
+P.carotovorum.2                    UUUCACGGAU.GAGCAGGGAUGCAAAUGUGUAGCGGGAUAGCUAUAAAAC
+Pectobacterium_atros.1             UUUCACGGAU.GAGCAGGGAUGCAAAUGUGUAGCGGGAUAGCUAUAAAAC
+S.enterica.1                       UGUCACGGAU.GAGCAGGGAGCACGAAAAGUAGCUGGAAUGCUGCGAAAC
+S.enterica.2                       UGUCACGGAU.GAGCAGGGAGCACGAAAAGUAGCUGGAAUGCUGCGAAAC
+Serratia_proteamacul.1             UUUCAAGGAUUGAGCAGGGAGCACACUGUGUAGCGGGACUGCUAUAAAAC
+Yersinia_intermedia_.1             UUUCAUGGAUUGAGCAGGGAGCAUCACUUUUAGCGGGAUAGCUAUGAAAC
+Yersinia_pestis_biov.1             UUUCAGGGAUUGAGCAGGGAGCAUCAAUUUUAGCUGGAUUGCUAUAAAAC
+Yersinia_bercovieri_.1             UUUCAAGGAUUGAGCAGGGAGCAUCACUUUUAGCUGGAUAGCUAUAAAAC
+Yersinia_frederiksen.1             UUUCAAGGAUUGAGCAGGGAGCAUCAAUUUUAGCUGGAUUGCUAUGAAAC
+O.sativa.1                         UUUCAAGGAUUGAGCAGGGAGCAUGCUGUGUAGCGGGAUGGCUAUAAAAC
+#=GC SS_cons                       ..<<.......>>................<<<<<......>>>>>.....
+#=GC RF                            UuuCACGGAU.GaGCAGGGAugaaaAaaaguAGCgGGAaaGCUacaAAAC
+
+Enterobacter.1                     GAACC.GGGAGCACUGUUUAUACAGUGCUCCCUUUUUUUGUU
+Escherichia_coli_536.1             GAACC.GGGAGCACUGUGAAUACAGUGCUCCCUUUUUUUAUU
+Klebsiella_pneumonia.1             GAACC.GGGAGCACUGUUUAUACAGUGCUCCCUUUUUUUAUU
+P.carotovorum.1                    GAACC.GGGGGUACUGAGCAAUCAGUACCCCCAAUUUUUUGC
+P.carotovorum.2                    GAACC.GGGGGUACUGAGUAAUCAGUACCCCCAAUUUUUUGC
+Pectobacterium_atros.1             GAACC.GGGGGUGCUGAGCAAUCAGUACCCCCAACUUUUUGC
+S.enterica.1                       GAACC.GGGAGCACUGUUUAUACAGUGCUCCCUUUUUUUGU.
+S.enterica.2                       GAACC.GGGAGCACUGUUUAUACAGUGCUCCCUUUUUUUUGU
+Serratia_proteamacul.1             GAACC.GAGGGCACUGUUAGCGCAGUGCCCUCAACUUUUUAU
+Yersinia_intermedia_.1             GAAUUGAGGGGUACUGGUAAAACAGUACCCCUUUUUUUAUGC
+Yersinia_pestis_biov.1             GAAUUGAGGGGUACUGGUAAAACAGUACCCCUUUUUUGUGCC
+Yersinia_bercovieri_.1             GAAUCGAGGGGUACUGGUAAAACAGUACCCCUUUUUUUAUCC
+Yersinia_frederiksen.1             GAAUUGAGGGGUACUGGUAAAACAGUACCCCUUUUUUUAUCU
+O.sativa.1                         GAACC.GGGGGCACUGUGAACGCAGUGCCCCCAACUUUUUGU
+#=GC SS_cons                       ......<<<<<<<<<<......>>>>>>>>>>..........
+#=GC RF                            GAACC.GGGgGcACuGaguAaaCaGUgCcCCCaaUUUUUuGc
+//

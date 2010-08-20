@@ -1,0 +1,38 @@
+# STOCKHOLM 1.0
+#=GF ID    sxy
+#=GF AC    RF00632
+#=GF DE    sxy 5' UTR element
+#=GF AU    Bateman A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    115.4
+#=GF SE    Bateman A
+#=GF SS    Published; PMID:17981840
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    17981840
+#=GF RT    RNA secondary structure regulates the translation of sxy and
+#=GF RT    competence development in Haemophilus influenzae.
+#=GF RA    Cameron AD, Volar M, Bannister LA, Redfield RJ;
+#=GF RL    Nucleic Acids Res. 2008;36:10-20.
+#=GF WK    http://en.wikipedia.org/wiki/Sxy_5'_UTR_element
+#=GF SQ    2
+
+#=GS H.influenzae.1         AC    AAZI01000002.1/1536-1639
+#=GS Haemophilus_influenz.1 AC    AAZF01000018.1/1473-1576
+
+H.influenzae.1                     UUCUACUGACUCUUUUAAAAUAAUUAUUCAUUGGAGGUUUAAUAUGAAUA
+Haemophilus_influenz.1             UUCUACUGACUCUUUUAAAAUAAUUAUUCAUUGGAGGUUUAAUAUGAAUA
+#=GC SS_cons                       <<<<<<<<<<<..<<<<<......<<<<<<<............>>>>>>>
+
+H.influenzae.1                     UAAAGGAUGAGCAUAUAGAUAGCGUUUGCUCCUUGUUAGAUCAGUUAGUA
+Haemophilus_influenz.1             UAAAGGAUGAGCAUAUAGAGAGCGUUUGCUCUUUGUUAGAUCGGUUAGUA
+#=GC SS_cons                       ..<<<<<<<<<<...........>>>>>.>>>>>.>>>>>..>>>>>>>>
+
+H.influenzae.1                     GGAA
+Haemophilus_influenz.1             GGAA
+#=GC SS_cons                       >>>.
+//

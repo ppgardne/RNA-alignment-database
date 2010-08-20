@@ -1,0 +1,45 @@
+# STOCKHOLM 1.0
+#=GF ID    sR13
+#=GF AC    RF01148
+#=GF DE    Small nucleolar RNA sR13
+#=GF AU    Wilkinson A
+#=GF GA    30.0
+#=GF NC    20.9
+#=GF TC    36.0
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    URL; http://lowelab.ucsc.edu/snoRNAdb/
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF WK    http://en.wikipedia.org/wiki/SnoRNA
+#=GF SQ    6
+
+#=GS Sulfolobus_solfatari.1 AC    AE006641.1/2223461-2223515
+#=GS S.acidocaldarius.1     AC    AF195107.1/1-55
+#=GS Pyrococcus_furiosus_.1 AC    AE009950.1/1779060-1779115
+#=GS Pyrococcus_horikoshi.1 AC    BA000001.2/230055-230109
+#=GS P.abyssi.1             AC    AJ248283.1/245976-246030
+#=GS Thermococcus_kodakar.1 AC    AP006878.1/1100955-1101010
+
+Sulfolobus_solfatari.1             UGAAAUGAUGUCUGGUGACGGCU..CUGAGCCAGUGAUGUCG.CCAAAAA
+S.acidocaldarius.1                 .AGGAUGAUGUACUUUCACC.CUCACUGAAAG.GUGAGGAUGAGUCCGAC
+Pyrococcus_furiosus_.1             UGGUGUGAUGA..AAAGGCGGAUUGCUGAGAGGAUGAUGAAGACCUUAGG
+Pyrococcus_horikoshi.1             UUGGGUGAUGA..GAUGGCGGAUUGCUGAGAG.AUGAUGAGGACCUUAGG
+P.abyssi.1                         UUGAAUGAUGA..GAUGGCGGAUUGCUGAGCU.GUGAUGAAGACCUUAGG
+Thermococcus_kodakar.1             GCGGAUGAUGAC.UACGGCGGAUUCCCGAGCG.GUGAGGACGACCUUAGG
+#=GC SS_cons                       ..................................................
+#=GC RF                            UaGaAUGAUGu..gaUGaCGGaUugCUGAGAg.GUGAuGAaGAccuuAag
+
+Sulfolobus_solfatari.1             GUCUGAUC
+S.acidocaldarius.1                 UACUGACG
+Pyrococcus_furiosus_.1             GGCUGAUC
+Pyrococcus_horikoshi.1             GGCUGAUU
+P.abyssi.1                         GUCUGACU
+Thermococcus_kodakar.1             GUCUGACG
+#=GC SS_cons                       ........
+#=GC RF                            GaCUGAuu
+//

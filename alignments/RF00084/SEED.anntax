@@ -1,0 +1,95 @@
+# STOCKHOLM 1.0
+#=GF ID    CsrC
+#=GF AC    RF00084
+#=GF DE    CsrC RNA family
+#=GF AU    Bateman A
+#=GF GA    35.0
+#=GF NC    33.4
+#=GF TC    45.1
+#=GF PI    SraK
+#=GF SE    Bateman A
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; sRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0000655 SO:ncRNA
+#=GF RN    [1]
+#=GF RM    12694612
+#=GF RT    A novel sRNA component of the carbon storage regulatory system of
+#=GF RT    Escherichia coli.
+#=GF RA    Weilbacher T, Suzuki K, Dubey AK, Wang X, Gudapaty S, Morozov I,
+#=GF RA    Baker CS, Georgellis D, Babitzke P, Romeo T;
+#=GF RL    Mol Microbiol 2003;48:657-670.
+#=GF RN    [2]
+#=GF RM    11448770
+#=GF RT    Novel small RNA-encoding genes in the intergenic regions of
+#=GF RT    Escherichia coli.
+#=GF RA    Argaman L, Hershberg R, Vogel J, Bejerano G, Wagner EG, Margalit H,
+#=GF RA    Altuvia S;
+#=GF RL    Curr Biol 2001;11:941-950.
+#=GF CC    The 245 nucleotide sRNA of Escherichia coli, CsrC, was discovered
+#=GF CC    using a genetic screen for factors that regulate glycogen biosynthesis.
+#=GF CC    CsrC RNA binds multiple copies of CsrA Pfam:PF02599, a protein that
+#=GF CC    post-transcriptionally regulates central carbon flux, biofilm
+#=GF CC    formation and motility in E. coli. CsrC antagonises the regulatory
+#=GF CC    effects of CsrA, presumably by sequestering this protein. 
+#=GF CC    The discovery of CsrC is intriguing, in that a similar sRNA,
+#=GF CC    CsrB, performs essentially the same function. Both sRNAs possess
+#=GF CC    similar imperfect repeat sequences (18 in CsrB, nine in CsrC),
+#=GF CC    primarily localised in the loops of predicted hairpins, which
+#=GF CC    may serve as CsrA binding elements. Transcription of csrC increases
+#=GF CC    as the culture approaches the stationary phase of growth and is
+#=GF CC    indirectly activated by CsrA via the response regulator UvrY [1].
+#=GF CC    This RNA was also discovered in E. coli during a large scale screen [2].
+#=GF CC    The gene called SraK, was highly abundant in stationary phase, but low
+#=GF CC    levels could be detected in exponentially growing cells as well [2].
+#=GF WK    http://en.wikipedia.org/wiki/CsrC_RNA_family
+#=GF SQ    4
+
+#=GS Enterobacter.1         AC    CP000653.1/4457944-4458195
+#=GS E.coli.1               AC    L19201.1/12676-12929
+#=GS Klebsiella_pneumonia.1 AC    CP000647.1/4572620-4572875
+#=GS Salmonella_enterica_.1 AC    CP001127.1/4088494-4088746
+
+Enterobacter.1                     CCACGGCGAGGAUGCCAUCAGGAUUA.UGACUUAAGGAUGA.GGGUC.AG
+E.coli.1                           AUAGAGCGAGGACGCUAACAGGAACAAUGACUC.AGGAUGA.GGGUC.AG
+Klebsiella_pneumonia.1             CAACGGCGGGGAUGCUGAAAGGAUUAG.GACUC.AGGACGAGGAGUCAGG
+Salmonella_enterica_.1             AUAG..CGAGGACGCUAACAGGAUCAACGACUC.AGGAUGA.GGGUC.AG
+#=GC SS_cons                       ....<<<<....>>>>...........<<<<<<.........>>>>>.>.
+#=GC RF                            AuAGagCGAGGACGcuAAcAGGAacAAcGaCuC.AGGAuGA.GgGuC.gG
+
+Enterobacter.1                     GAGCGCCAGGAGGCGAAGACU.CAGGAUUACAAGGACGACA..CGCC.AG
+E.coli.1                           GAGCGCCAGGAGGCGAAGACA.GAGGAUUGUCAGGAAGACAAACGUC.CG
+Klebsiella_pneumonia.1             AAGCGCCAGGAGGCGAAGACCACAGGAUAGUCAGGAUGACGCGCGUCUUG
+Salmonella_enterica_.1             GAGCGCCAGGAGGCGAAGACA.CAGGAUUGUCAGGAAGACAAACGUC.CG
+#=GC SS_cons                       ...<<<<....>>>>..<<<<.......>>>>..........<<<<<...
+#=GC RF                            GAGCGCCAGGAGGCGAAGaCa.gAGGAuuGuCAGGAAGAcAAaCGuC.cG
+
+Enterobacter.1                     GAGGCG.UUUAAAAGGGAAAUGGAACCGUAUCACGGAUGAUUG.CGCUAA
+E.coli.1                           GAGACGUAAUUAAACGGAAAUGGAAUCA.ACACGGAUUGUUCC.GGCUAA
+Klebsiella_pneumonia.1             GAGACGUU.UUACAGGGAAAAGGAAGAA.ACAGGGACCGUUGGACGCUAA
+Salmonella_enterica_.1             GAGACGUUAGUAAAAGGAAAUGGAAACA.ACAUGGAAUGUUCCAGGCUAA
+#=GC SS_cons                       ..>>>>>...................<<.<<<<<..<<<<<<<.......
+#=GC RF                            GAGaCGuaAuuAAAaGGAAAuGGAAaCa.aCacgGAcuGuuCCAGGcuAA
+
+Enterobacter.1                     AGGAUAAACAGGGUUAGUUGUUGGCGAACAGGGAUUGUAAAACCCGUUUA
+E.coli.1                           AGGAAAAACAGGGUGUGUUGGCGGCCUGCAAGGAUUGUAAGACCCGUUAA
+Klebsiella_pneumonia.1             GGGAAAGACAGGGUGAGUCGUUAGCGAACAGGGAAAGAAGAGCCCGUUAA
+Salmonella_enterica_.1             GGGAAAAACAGGGCGUGUUGAUAGCCAACAGGGAUGGUGGAACCCGUUAA
+#=GC SS_cons                       .>>>...>>>>..>>>>>>>.......<<.......>>...<<<<.....
+#=GC RF                            aGGaAAAaCagGGcguGuuGauaGcccaCAaGGAuuGugggaCCCGuuAA
+
+Enterobacter.1                     GGGUGGUGAGUCAGGAAAAAAGGCGACAGAUUGCUCUGUCGCCUUUUUUC
+E.coli.1                           GGGUUAUGAGUCAGGAAAAAAGGCGACAGAGUAAUCUGUCGCCUUUUUUC
+Klebsiella_pneumonia.1             GGGUGGUCAGUGA.GGAAAAAGGCGACAGAGUAAUCUGUCGCCUUUUUUC
+Salmonella_enterica_.1             GGGUCGUGAGUCAAGAAAAAAGGCGGCAGAUUACUCUGUCGCCUUUUUUC
+#=GC SS_cons                       >>>>..........<<<<<<<<<<<<<<<<....>>>>>>>>>>>>>>>>
+#=GC RF                            GGGucauGAGucAaGaaaaaaGGCGaCaGauuAauCuGuCGCCuuuuuuC
+
+Enterobacter.1                     UUUGCUUGCUU
+E.coli.1                           UUUGCUUGCUU
+Klebsiella_pneumonia.1             UUUGCUUGCUU
+Salmonella_enterica_.1             UUUGCUUGCUU
+#=GC SS_cons                       ...........
+#=GC RF                            uuuGcuuGcuu
+//

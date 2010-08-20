@@ -1,0 +1,203 @@
+# STOCKHOLM 1.0
+#=GF ID    isrK
+#=GF AC    RF01394
+#=GF DE    isrK Hfq binding RNA
+#=GF AU    Daub J, Gardner PP
+#=GF GA    22.0
+#=GF NC    21.6
+#=GF TC    23.7
+#=GF SE    Predicted; CMfinder; Infernal
+#=GF SS    Predicted; CMfinder
+#=GF TP    Gene; sRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF RN    [1]
+#=GF RM    18725932
+#=GF RT    Deep sequencing analysis of small noncoding RNA and mRNA targets
+#=GF RT    of the global post-transcriptional regulator, Hfq.
+#=GF RA    Sittka A, Lucchini S, Papenfort K, Sharma CM, Rolle K, Binnewies
+#=GF RA    TT, Hinton JC, Vogel J;
+#=GF RL    PLoS Genet. 2008;4:e1000163.
+#=GF RN    [2]
+#=GF RM    18267966
+#=GF RT    Small RNAs encoded within genetic islands of Salmonella
+#=GF RT    typhimurium show host-induced expression and role in virulence.
+#=GF RA    Padalon-Brauch G, Hershberg R, Elgrably-Weiss M, Baruch K,
+#=GF RA    Rosenshine I, Margalit H, Altuvia S
+#=GF RL    Nucleic Acids Res. 2008;36:1913-1927.
+#=GF WK    http://en.wikipedia.org/wiki/Hfq_binding_sRNA
+#=GF SQ    55
+
+#=GS Shewanella_baltica_O.1  AC    CP000891.1/933450-933531
+#=GS Shewanella_baltica_O.2  AC    CP000753.1/896037-896118
+#=GS E.ictaluri.1            AC    AY626367.1/2706-2783
+#=GS Enterobacter.1          AC    CP000653.1/3381132-3381209
+#=GS Escherichia_coli_536.1  AC    AAKB02000001.1/87980-88057
+#=GS Escherichia_coli_E24.1  AC    CP000800.1/1448000-1448076
+#=GS Escherichia_coli_APE.1  AC    CP000468.1/2745196-2745271
+#=GS Escherichia.1           AC    ACID01000067.1/73516-73593
+#=GS E.coli.1                AC    M64113.1/5959-6036
+#=GS Escherichia_coli_APE.2  AC    CP000468.1/5012357-5012433
+#=GS Escherichia_coli_O15.1  AC    BA000007.2/2598473-2598547
+#=GS Escherichia_coli_O15.2  AC    AE005174.2/318522-318599
+#=GS Escherichia_coli_ATC.1  AC    CP000946.1/1840734-1840806
+#=GS Escherichia_coli_O11.1  AC    AB426055.1/6443-6517
+#=GS Escherichia_coli_E22.1  AC    AAJV02000004.1/34595-34669
+#=GS Escherichia_coli_UTI.1  AC    CP000243.1/942064-942138
+#=GS Escherichia_coli_O11.2  AC    AB426058.1/17859-17933
+#=GS Salmonella_enterica_.1  AC    CP000026.1/4467109-4467186
+#=GS S.enterica.1            AC    DQ472459.1/575-652
+#=GS S.enterica.2            AC    AL627283.1/64614-64692
+#=GS Salmonella_enterica_.2  AC    ABAO01000085.1/1852-1928
+#=GS Salmonella_enterica_.3  AC    CP001138.1/315442-315517
+#=GS Salmonella_enterica_.4  AC    AE017220.1/1315705-1315779
+#=GS Salmonella_enterica_.5  AC    CP001144.1/2177572-2177648
+#=GS Salmonella_enterica_.6  AC    CP001120.1/2560199-2560276
+#=GS Salmonella_enterica_.7  AC    CP001113.1/2762825-2762901
+#=GS Salmonella_enterica_.8  AC    CP001113.1/2885050-2885127
+#=GS Salmonella_enterica_.9  AC    ABAN01000056.1/13023-13099
+#=GS Salmonella_enterica_.10 AC    AE014613.1/4674069-4674146
+#=GS Salmonella_enterica_.11 AC    AE014613.1/2740919-2740996
+#=GS Serratia_proteamacul.1  AC    CP000827.1/23368-23442
+#=GS Shigella_dysenteriae.1  AC    CP000034.1/553776-553852
+#=GS Shigella_sonnei_Ss04.1  AC    CP000038.1/2936445-2936521
+#=GS Shigella_flexneri_5_.1  AC    CP000266.1/771548-771624
+#=GS Shigella_flexneri_2a.1  AC    AE014073.1/1891448-1891524
+#=GS Shigella_boydii_Sb22.1  AC    CP000036.1/1140431-1140511
+#=GS S.flexneri.1            AC    Z23100.1/1282-1358
+#=GS Shigella_boydii_CDC_.1  AC    CP001063.1/656925-657001
+#=GS Shigella_dysenteriae.2  AC    AAMJ02000008.1/84086-84163
+#=GS S.glossinidius.1        AC    AP008232.1/3106193-3106273
+#=GS Yersinia_pestis_biov.1  AC    AAYR01000002.1/390229-390303
+#=GS Yersinia_frederiksen.1  AC    AALE01000013.1/3222-3299
+#=GS Yersinia_mollaretii_.1  AC    AALD01000007.1/16442-16519
+#=GS Y.pestis.1              AC    AE009952.1/4489353-4489427
+#=GS Yersinia_bercovieri_.1  AC    AALC01000034.1/29667-29741
+#=GS Y.pestis.2              AC    AE009952.1/2450283-2450357
+#=GS Marinomonas.1           AC    CP000749.1/2732427-2732502
+#=GS A.vinelandii.1          AC    CP001157.1/3302585-3302667
+#=GS P.alcaligenes.1         AC    U88088.2/30625-30704
+#=GS Pseudomonas_aerugino.1  AC    AAQW01000001.1/6009895-6009969
+#=GS Vibrio_splendidus_12.1  AC    AAMR01000038.1/33272-33352
+#=GS Vibrio_shilonii_AK1.1   AC    ABCH01000029.1/41155-41234
+#=GS Vibrionales_bacteriu.1  AC    AAZW01000012.1/43843-43924
+#=GS Enterobacteria_phage.1  AC    FJ184280.1/16450-16522
+#=GS Enterobacteria_phage.2  AC    AJ413274.1/7911-7987
+
+Shewanella_baltica_O.1              GCAUUGGCAAAAUCCAAUGCC.GGGUUUCGCACCCCG...CAGUAUCA.C
+Shewanella_baltica_O.2              GCAUUGGCAAAAUCCAGUGCC.GGGAUUGAGACCCCG...CAAUAUCA.C
+E.ictaluri.1                        GCAGCCGCAAAAUCGGCUGCC.GGGAUUGGAACCCCG...GACAUUAC..
+Enterobacter.1                      GCUGUCGCAAAAUCGGCAGCC.GGGCGUAGGAACCCGUG.UUUAACUA.U
+Escherichia_coli_536.1              GCGUCAGCAAAAUCUGGCGUC.GGGAUUGGAACCCCG...GAUAUUCAAC
+Escherichia_coli_E24.1              GCGUCAGCAAAAUCUGGCGUC.GGGAUUGGAACCCCG...GAUGUUUA..
+Escherichia_coli_APE.1              GCACUGGCAAAAUCCAGUGCC.GGGAUUGGCGUCCCG...GAUUACUA.A
+Escherichia.1                       GCUGCCGCAAAAUCGGCAGCC.GGGCGUGAGAACCCGA..GCAAUCUA.A
+E.coli.1                            GCUGUCGCAAAAUCGGCAGCC.GGGCGUAGGAACCCGUG.UAACUCGA.A
+Escherichia_coli_APE.2              GCACCUUAUAAAGCGGGUGCC.GGGCGUGGAAACCCG...GAAUUCAC..
+Escherichia_coli_O15.1              GCACCUCAUAAAACGGGUGCC.GGGAUUCUCAACCCG...AUACAGAG..
+Escherichia_coli_O15.2              GCUGUCGCAAAAUCGGCAGCC.GGAAUUGGCGUUCCG...UAUAACUU.A
+Escherichia_coli_ATC.1              GCGGCUGCAAAAUCAGGCGUC.GGGAUUGGCAUCCUG...UAAUACUU.C
+Escherichia_coli_O11.1              GCACCUCAUAAAACGGGUGCC.GGGUUUCGCAGCCCG...CUGACAAA..
+Escherichia_coli_E22.1              GCGCCAGCAAAAUCUGGCGUC.GGGAUUGGCGUCCCG...GAUGAAAA.A
+Escherichia_coli_UTI.1              GCACCUCAUAAAACGGGUGCC.GGGAUUGGAACCCCG...CUGAUCAA..
+Escherichia_coli_O11.2              GCACCUCACAAAACGGGUGCC.GGGUUUCGCAGCCUG...CUGACUAC.A
+Salmonella_enterica_.1              GCUGCCGCAAAAUCGGCAGCC.GGGAUUGGCGUCCCG...UUUACAAC.A
+S.enterica.1                        GCUGCCGCAAAAUCGGCUGCC.GGGCGUAGGAACCCGA..GUUACUUA.U
+S.enterica.2                        GCACCUGCAAAUUCAGGUGCC.GGGAUUAGCCUCCUG...AUUGACUU.C
+Salmonella_enterica_.2              GCACCUCAUAAAGCGGGUGCC.GGGCGUGGAAACCCG...GAAUUCAA.U
+Salmonella_enterica_.3              GUACCUGCAAGCUCAGGCACC.AGAAUUGCC.UCCUG...AACUACCU.U
+Salmonella_enterica_.4              GUUGCUGUAAAUCCAGCAACC.GGGUUUAGCAGCCUG...GAACACAU..
+Salmonella_enterica_.5              GCACCUCAUAAAGCGGGUGCC.GGGAUUGGCGUCCUG...GAAUUGCAUA
+Salmonella_enterica_.6              GUUGCCGCAAAAUCGGCAGCC.GGGCGUAGGAACCCGU..GUUAUCUG.A
+Salmonella_enterica_.7              ACGCCAGCAAAAUCUGGCGUC.GGGAUUGGCGUCCCG...GAAUUUCA.C
+Salmonella_enterica_.8              GCUGUCGCAAAAUCGGCAGCC.GGAAUUGGCGUUCCG...AAUAACUU..
+Salmonella_enterica_.9              GCACCUUAUAAAGCGGGUGCC.GGGAUUGGCGUCCUG...GAAUUGUUAU
+Salmonella_enterica_.10             GCUGUCGCAAAAUCGGCAGCC.GGGCGUGGAAACCCGA..GUAAUCUA.A
+Salmonella_enterica_.11             GCUGCCGCAAAAUCGGCAGCC.GGGCGUGAGAACCCG...AGUAUGUUAU
+Serratia_proteamacul.1              GCAGCCGCAAAAUCGGUUGCC.GGGUUUCGCAGCUCG...AACAUCAC..
+Shigella_dysenteriae.1              GCGCCAGCAAAAUCUGGCGUC.GGGAUUGGCGUCCCG...GAUGUUUA..
+Shigella_sonnei_Ss04.1              GCGCCAGCAAAAUCUGGCGUC.GGGAUUGGAACCCCG...GAUAGAGA.C
+Shigella_flexneri_5_.1              GCACCUCAUAAAACGGGUGCC.GGGAUUGCUACCCCG...ACGAUGAC..
+Shigella_flexneri_2a.1              GCACCUCAUAAAACGGGGGCC.GGGCGUGGAAACCCG...AACGUUAC..
+Shigella_boydii_Sb22.1              GCACCUGCAAAAUCAGGUGCC.GGGAUUGGAACCCCG...AAAUAUAA.C
+S.flexneri.1                        GCACCUCAUAAAACGGGGGCC.GGGCGUGGAAACCCG...AACGUUAC.U
+Shigella_boydii_CDC_.1              GCACCUCAUAAAACGGGUGCC.GGGAUUAGCACCCCG...AAAGUUAC.U
+Shigella_dysenteriae.2              GCACCUCAUAAAACGGGUGCC.GGGUUUCGCAGCCCG...GAAAUGUA..
+S.glossinidius.1                    GCAUCUGGAAAUUCAGGUGCC.GGGAUUGGUCUCCCGCC.GAGAUUCA.C
+Yersinia_pestis_biov.1              GCAGCGGCAAAAUCCGUUGCU.GGGUUUAGCAGCCUG...AGACAAAA..
+Yersinia_frederiksen.1              GCUGCCGCAAAAUCGGCAGCC.GGGCGUGAGAACCCGU..GUAACUCA.A
+Yersinia_mollaretii_.1              GCUGCCGCAAAAUCGGCAGUC.GGGCGUAGGAACCCGU..GUUACUUA.U
+Y.pestis.1                          GCAGCGGCAAAAUCCGUUGCC.GUGAUUAGCGUCCCG...GAAUUCAA.U
+Yersinia_bercovieri_.1              GCAGCGGAAAAAUCUGCUGCC.GGGUUUGGAACCCCG...UAUUUCAA..
+Y.pestis.2                          ACACCUGCAAAAUCAGGUGUC.GGGAUUUGCACCCUG...GAUAUCAC..
+Marinomonas.1                       GCACUGGCAAAAUCCAGUGUC.GGGAUUGCAACCCCG...UUUUACAA.C
+A.vinelandii.1                      GCUGCCGCCAAAUCGGCAGCCUGGGCUUGGCGGCCCG...GAUAAAAC.G
+P.alcaligenes.1                     GUCGCUGUAAGUCCAGCGGCCUGGGAUUGGCGUCCCG...GAUUCAGA..
+Pseudomonas_aerugino.1              GCUGCCGCAAAUUCGGCAGCC.GGGAUUGGCGUCCCG...UGGAUUAG..
+Vibrio_splendidus_12.1              GCACUGGCAAAAUCCAGUGUC.AGGAUUGGACCCCUGUUUGUUAACCA.A
+Vibrio_shilonii_AK1.1               GCACUGGCAAAAUCCAGUGCC.GAGUUUCGCAGCUCG...AAAAUACU.C
+Vibrionales_bacteriu.1              GCACUGGCAAAAUCCAGUGUC.GGGAUUAGUCCCCCG...CAACAUAC.A
+Enterobacteria_phage.1              GCGCCAGCAAAAUCUGGCGUC.GGGAUUAGCACCCCG...GAUAUCGAAA
+Enterobacteria_phage.2              ACGCCAGCAAAAUCUGGCGUC.GGGAUUGGCGUCCUG...GAUAGAGA.C
+#=GC SS_cons                        <<<<<<<......>>>>>>><.<<<<......>>>>>.............
+#=GC RF                             GCacCcGcAAAAUCgGguGCC.GGGauUgGcAuCCCG...gAuauuua.a
+
+Shewanella_baltica_O.1              AGGCGCAAUCAUGU.CGCCAGCCUAGU....GCUGGUUUUUU
+Shewanella_baltica_O.2              AGGCGCAAUCAUGU.CGCCAGCCUAGU....GCUGGUUUUUU
+E.ictaluri.1                        AAGAGCGCA......CAACCGCGCUAU..AAGCGGUUUUUUU
+Enterobacter.1                      GGCGACAUC.......AGACGCGCCUU....GCGUCUUUUUU
+Escherichia_coli_536.1              CGCGACAGA......CACACGCCGCGA....GCGUGUUUUUU
+Escherichia_coli_E24.1              CGGAGCGAUAU....GAGACGC.GCCC....GCGUCUUUUUU
+Escherichia_coli_APE.1              AAGGCGCAU......UCACCGC.GCAA....GCGGUUUUUUU
+Escherichia.1                       CGGCGACAU......AUGACGCGCCAU....GCGUCUUUUUU
+E.coli.1                            GGCGACAUA.......UGACGCGCCAU....GCGUCUUUUUU
+Escherichia_coli_APE.2              CAAAGCGCA......CAACCGCGCUCU...UGCGGUUUUUUU
+Escherichia_coli_O15.1              CAAAGCGCA......UAACCGC.GCUA....GCGGUUUUUUU
+Escherichia_coli_O15.2              UUGGCGACAA.....UUGACGCCCCUU....GCGUCUUUUUU
+Escherichia_coli_ATC.1              ACUGACA.........ACACAA.UAUU....UUGUGUUGCGU
+Escherichia_coli_O11.1              CGUAGCGCA......CAACCGC.GCCA....GCGGUUUUUUU
+Escherichia_coli_E22.1              GGCGACAAC.......AGACGC.GCCA....GCGUCUUUUUU
+Escherichia_coli_UTI.1              CAAAGCGCA......CAACCGC.GCCA....GCGGUUUUUUU
+Escherichia_coli_O11.2              CAAGCGCAC.......AACCGC.GCCA....GCGGUUUUUUU
+Salmonella_enterica_.1              UUGGCGACAC.....CGGACGCGCCUU....GCGUCUUUUUU
+S.enterica.1                        UGGCGACAC......CAGACGCGCCGU....GCGUCUUUUUU
+S.enterica.2                        AUCGACGACACA...AAGGCGC.GUCU....GCGCUUUUUUU
+Salmonella_enterica_.2              AUAGAGCAC.......AACCGCGCUCA...UGCGGUUUUUUC
+Salmonella_enterica_.3              CGUGACCACA.....AUGGCGC.AUCU....GCAUCUUUUUU
+Salmonella_enterica_.4              CACAGCGCA......CAACCGC.GCCU....GCGGUUUUUUU
+Salmonella_enterica_.5              CGGCGACAA......UGGGCGC.GUUA....GCGUCUUUUUU
+Salmonella_enterica_.6              AGGCGAUAC......UACACGCGCCAG....GCGUGUUUUUU
+Salmonella_enterica_.7              CGCGACAGA......GACACGCCGCGA....GCGUGUUUUUU
+Salmonella_enterica_.8              CAAGGCGACAC....GACACGCGCCAU....GCGUGUUUUUU
+Salmonella_enterica_.9              CGGCGACAA......AUGACGC.GCCU....GCGUCUUUUUU
+Salmonella_enterica_.10             CGGCGACAC......CUGACGCGCCAU....GCGUCUUUUUU
+Salmonella_enterica_.11             CGGCGACAU......AUGACGCGCCAU....GCGUCUUUUUU
+Serratia_proteamacul.1              GGAAGCGCA......CGACCGC.GCCA....GCGGUUUUUUU
+Shigella_dysenteriae.1              CGGAGCGAUAU....GAGACGC.GCCC....GCGUCUUUUUU
+Shigella_sonnei_Ss04.1              CGCGACAGA......CACACGCCGCGA....GCGUGUUUUUU
+Shigella_flexneri_5_.1              UACUGCGCA......UAACCGCGCUCA...GGCGGUUUUUUU
+Shigella_flexneri_2a.1              UGGAGCGCA......UAGCCGCGCUGA...AGCGGUUUUUUU
+Shigella_boydii_Sb22.1              CAUACUGGCGACAC.GUGACGC.GUCU....GCGUCUUUUUU
+S.flexneri.1                        CGAGCGCAU.......AGCCGCGCUGA...AGCGGUUUUUUU
+Shigella_boydii_CDC_.1              CGAGCGCAU.......AACCGCGCUGA...AGCGGUUUUUUU
+Shigella_dysenteriae.2              CGAGGCGACAC....AUGACGCGCCGA....GCGUCUUUUUU
+S.glossinidius.1                    CGCGACAGAAU....GACACGCCGCGA....GCGUGUUUUUU
+Yersinia_pestis_biov.1              CAGAGCGCA......CAACCGC.GCAG....GCGGUUACUAU
+Yersinia_frederiksen.1              UGGCGACAC......AACACGCGCCAG....GCGUGUUUUUU
+Yersinia_mollaretii_.1              UGGCGACUC......AACACGCGCCAU....GCGUGUUUUUU
+Y.pestis.1                          AGAGUGCAC......GA.CCGC.ACAG....GCGGGUUCUCU
+Yersinia_bercovieri_.1              CAGGGCGCA......UAACUGC.GUAA....GCGGUUAUUAU
+Y.pestis.2                          AACAACGCA......UAGCCGC.GUUU....GCGGUUUUUUU
+Marinomonas.1                       AGCUGCCUAA.....AACACGCACC......GCGUGUUUUUU
+A.vinelandii.1                      GGCGGUCACA.....AAACCGCUGUAAAAAAGCGGUUUUUUU
+P.alcaligenes.1                     .GGCGGACA......CAACCGCCGUUUUCGAGCGGUUUUUUU
+Pseudomonas_aerugino.1              ...GCGGAC......ACACCGCCUUAA..GAGCGGUUUUUUU
+Vibrio_splendidus_12.1              AGGCGCACAGA....CGCCAGC.UUUU....GCUGGUUUUUU
+Vibrio_shilonii_AK1.1               AAGGCGCAUAGA...CGCCAGCUUCCU....GCUGGUUUUUU
+Vibrionales_bacteriu.1              CCCAAGGCGCAUAGACGCCAGC.UUUU....GCUGGUUUUUU
+Enterobacteria_phage.1              CGGUGCAUA........ACCGC.GCUG....GCGG..UUUUU
+Enterobacteria_phage.2              CGCGACAGA......UACACGCCGCGA....GCGUGUUUUUU
+#=GC SS_cons                        ................<<<<<<.........>>>>>>.....
+#=GC RF                             agggaaaaa......aagaCGCggcaa....GCGucuUUUUU
+//

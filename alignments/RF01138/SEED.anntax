@@ -1,0 +1,45 @@
+# STOCKHOLM 1.0
+#=GF ID    sR23
+#=GF AC    RF01138
+#=GF DE    Small nucleolar RNA sR23
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    19.9
+#=GF TC    22.8
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    URL; http://lowelab.ucsc.edu/snoRNAdb/
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF WK    http://en.wikipedia.org/wiki/SnoRNA
+#=GF SQ    6
+
+#=GS Aeropyrum_pernix_K1.1  AC    BA000002.3/509109-509161
+#=GS Sulfolobus_acidocald.1 AC    CP000077.1/1025710-1025763
+#=GS P.abyssi.1             AC    AJ248288.1/156803-156856
+#=GS Pyrococcus_furiosus_.1 AC    AE009950.1/278287-278341
+#=GS Pyrococcus_horikoshi.1 AC    BA000001.2/262667-262720
+#=GS Thermococcus_kodakar.1 AC    AP006878.1/1371731-1371783
+
+Aeropyrum_pernix_K1.1              GGAUGAAG..ACACUUGCCCCCACCUGA.GCCUGUGUGAAGA...GAUUA
+Sulfolobus_acidocald.1             ACAUGAUGUGACUC.UGCGG..AACUGACGUUU...UGAUGAGAGAAACA
+P.abyssi.1                         AGAUGAUG..AAUC.UGGAGCCCCCUGA.GUGA...UGAUGAGCAGUCUG
+Pyrococcus_furiosus_.1             GAAUGAUG..AAUC.UGGAGCCCACUGAUUUAA...UGAUGACCUGUUCG
+Pyrococcus_horikoshi.1             AGAUGAUG..AAUC.UGGAGCCCCCUGA.UCGG...UGAUGAUCAGUCUG
+Thermococcus_kodakar.1             GGAUGAUG..AGUC.UGGAGCCCCCUGA.GAGG...UGAAGA.GGUUUCG
+#=GC SS_cons                       ..................................................
+#=GC RF                            agAUGAUG..AaUC.UGcaGCCaaCUGA.Guau...UGAUGAgcaGauua
+
+Aeropyrum_pernix_K1.1              CCG..CGGACU
+Sulfolobus_acidocald.1             GGGU.CUGAGA
+P.abyssi.1                         CGGAGCUGAUA
+Pyrococcus_furiosus_.1             CGGGGCUGAUG
+Pyrococcus_horikoshi.1             CGGAGCUGAUA
+Thermococcus_kodakar.1             CGGGGCUGACC
+#=GC SS_cons                       ...........
+#=GC RF                            cGGaGCuGAua
+//

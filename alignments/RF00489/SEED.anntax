@@ -1,0 +1,54 @@
+# STOCKHOLM 1.0
+#=GF ID    ctRNA_p42d
+#=GF AC    RF00489
+#=GF DE    ctRNA
+#=GF AU    Moxon SJ
+#=GF GA    35.0
+#=GF NC    27.5
+#=GF TC    40.0
+#=GF SE    PMID:15554980
+#=GF SS    Published; PMID:15554980
+#=GF TP    Gene; antisense;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000644 SO:antisense_RNA
+#=GF RN    [1]
+#=GF RM    15554980
+#=GF RT    Two discrete elements are required for the replication of a repABC
+#=GF RT    plasmid: an antisense RNA and a stem-loop structure.
+#=GF RA    Venkova-Canova T, Soberon NE, Ramirez-Romero MA, Cevallos MA;
+#=GF RL    Mol Microbiol 2004;54:1431-1444.
+#=GF CC    This family represents a group of ctRNAs (or counter-transcribed
+#=GF CC    RNAs) from p42d and related plasmids. ctRNAs are small, highly
+#=GF CC    structured, antisense sequences which are involved in negative
+#=GF CC    regulation. Members of this family are known to bind to the mRNA
+#=GF CC    of repC causing translational repression [1]. This model contains
+#=GF CC    the predicted stem-loop structure followed by a U-rich tract
+#=GF CC    which is proposed to act as a Rho-independent transcriptional
+#=GF CC    terminator.
+#=GF WK    http://en.wikipedia.org/wiki/ctRNA
+#=GF SQ    10
+
+#=GS Brucella_melitensis_.1 AC    AE008918.1/92070-92115
+#=GS Mesorhizobium_loti_M.1 AC    AP003017.1/123644-123689
+#=GS A.rhizogenes.1         AC    AP002086.1/162352-162393
+#=GS A.tumefaciens.1        AC    AF283811.2/2577-2623
+#=GS Agrobacterium_tumefa.1 AC    AE007870.2/1024273-1024317
+#=GS R.leguminosarum.1      AC    AY177731.1/758-804
+#=GS R.etli.1               AC    AF313446.1/3000-3043
+#=GS Rhizobium_etli_CFN_4.1 AC    U80928.5/369894-369940
+#=GS Sinorhizobium_melilo.1 AC    AE006469.1/1351314-1351358
+#=GS Sinorhizobium_melilo.2 AC    AL591985.1/56504-56550
+
+Brucella_melitensis_.1             AGAAGGGCUUCCACGACGGCAA..CGUUU.GGGGGCCUUUUUCUUUUGC
+Mesorhizobium_loti_M.1             AGAAGGGCUUCCGCGACGGCGA..CGUUC.GGGGGCCUUUUUCUUUUGC
+A.rhizogenes.1                     AG..AGGCUUCCACGACGGCGA..CGUUU.GGGGGCCU..UUCUUUUGC
+A.tumefaciens.1                    AGAAGGGCUUCCAUGACGGCAA..CGUUUCGGGGGCCUUUUUCUUUUGC
+Agrobacterium_tumefa.1             AGAAAGGCUUCCGUG.CGGCAA..CGUUC.GGGGGCUUUUUUCUUUUGU
+R.leguminosarum.1                  AGAGAGGCUUCCACGACGGCAA..CGUUUGGGGGGCCUUUUUCUUUUGC
+R.etli.1                           AGAGG.GCUUCCGCGACGGCAA..CGUUC.GGGGGC.CUUUUCUUUUGC
+Rhizobium_etli_CFN_4.1             AGAAGGGCUUCCACGACGGCGA..CGUUGAGGGAGCUCUUUUCUUUUGC
+Sinorhizobium_melilo.1             AGGAAGGCUUCCACGGCU.UGU.UCGUU..GGGGGCCUUUUUCUUUUGC
+Sinorhizobium_melilo.2             AGAAGGGUUUCCGCAGCG.CUAGUCGUUC.GGAAGCCUUUUUCUUUUGC
+#=GC SS_cons                       ....<<<<<<<<..<<<<......>>>>..>>>>>>>>...........
+//

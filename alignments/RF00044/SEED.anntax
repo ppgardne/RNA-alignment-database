@@ -1,0 +1,99 @@
+# STOCKHOLM 1.0
+#=GF ID    Phage_pRNA
+#=GF AC    RF00044
+#=GF DE    Bacteriophage pRNA
+#=GF AU    Finn RD
+#=GF GA    31.0
+#=GF NC    0.0
+#=GF TC    41.2
+#=GF SE    Finn RD
+#=GF SS    Predicted; ILM
+#=GF TP    Gene;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000655 SO:ncRNA
+#=GF RN    [1]
+#=GF RM    12206459
+#=GF RT    Structure and function of phi29 hexameric RNA that drives the viral
+#=GF RT    DNA packaging motor: review.
+#=GF RA    Guo P;
+#=GF RL    Prog Nucleic Acid Res Mol Biol 2002;72:415-472.
+#=GF RN    [2]
+#=GF RM    11562164
+#=GF RT    Cryoelectron-microscopy image reconstruction of symmetry mismatches
+#=GF RT    in bacteriophage phi29.
+#=GF RA    Morais MC, Tao Y, Olson NH, Grimes S, Jardine PJ, Anderson DL, Baker
+#=GF RA    TS, Rossmann MG;
+#=GF RL    J Struct Biol 2001;135:38-46.
+#=GF RN    [3]
+#=GF RM    11130079
+#=GF RT    Structure of the bacteriophage phi29 DNA packaging motor.
+#=GF RA    Simpson AA, Tao Y, Leiman PG, Badasso MO, He Y, Jardine PJ, Olson NH,
+#=GF RA    Morais MC, Grimes S, Anderson DL, Baker TS, Rossmann MG;
+#=GF RL    Nature 2000;408:745-750.
+#=GF RN    [4]
+#=GF RM    10957642
+#=GF RT    Purification, crystallization and initial X-ray analysis of the
+#=GF RT    head-tail connector of bacteriophage phi29.
+#=GF RA    Badasso MO, Leiman PG, Tao Y, He Y, Ohlendorf DH, Rossmann MG,
+#=GF RA    Anderson D;
+#=GF RL    Acta Crystallogr D Biol Crystallogr 2000;56:1187-1190.
+#=GF RN    [5]
+#=GF RM    3107124
+#=GF RT    A small viral RNA is required for in vitro packaging of bacteriophage
+#=GF RT    phi 29 DNA.
+#=GF RA    Guo PX, Erickson S, Anderson D;
+#=GF RL    Science 1987;236:690-694.
+#=GF RN    [6]
+#=GF RM    2125049
+#=GF RT    Phylogenetic analysis and secondary structure of the Bacillus
+#=GF RT    subtilis bacteriophage RNA required for DNA packaging.
+#=GF RA    Bailey S, Wichitwechkarn J, Johnson D, Reilly BE, Anderson DL, Bodley
+#=GF RA    JW;
+#=GF RL    J Biol Chem 1990;265:22365-22370.
+#=GF CC    During replication of linear dsDNA viruses, the viral genome
+#=GF CC    is packaged into the pre-formed viral procapsid. The packaging
+#=GF CC    of DNA into the procapsid requires a molecular motor which
+#=GF CC    using ATP as energy to accomplish the energetically unfavourable 
+#=GF CC    motion.  In some bacteriophage, an RNA (pRNA) molecule is a vital 
+#=GF CC    component of this motor [1]. Structural analyses of the packaging
+#=GF CC    motor have demonstrated that the pRNA molecule has fivefold symmetry 
+#=GF CC    when attached to the prohead [2-4]. The pRNA is thought to be bound 
+#=GF CC    by the capsid connector protein (PFAM:PF05352) [4]. Only the first 120 
+#=GF CC    bases of the pRNA are essential for packing the viral DNA [5,6].  The 
+#=GF CC    pRNA is proposed to be comprised of two domains, one corresponding to 
+#=GF CC    the first 120 bases and the second to the remaining 50 bases [6]. 
+#=GF CC    Nuclear cleavage occurs in the single strand region linking these
+#=GF CC    two domains [6].
+#=GF WK    http://en.wikipedia.org/wiki/Bacteriophage_pRNA
+#=GF SQ    3
+
+#=GS Bacillus_phage_phi29.1 AC    V01121.1/75-318
+#=GS B.phage.1              AC    M11813.1/4883-5126
+#=GS Bacillus_phage_phi29.2 AC    V01155.1/75-318
+
+Bacillus_phage_phi29.1             AAUGGUACGGUACUUCCAUUGUCAUGUGUAUGUUGGGGAUUAAACCCUGA
+B.phage.1                          AAUGGUACGGUACUUCCAUUGUCAUGUGUAUGAUGGGGAUUAAACCCUGA
+Bacillus_phage_phi29.2             AAUGGUACGGUACUUCCAUUGUCAUGUGUAUGUUGGGGAUUAAACCCUGA
+#=GC SS_cons                       ..<<<..........>>>..........<<<<<....<<<<<.....>>>
+
+Bacillus_phage_phi29.1             UUGAGUUCAGCCCACAUACUUUGUUGAUUGGUUGUCAAUCAUGGCAAAAG
+B.phage.1                          UUGAGUUCAGCCCACAUACUUUGUUGAUUGGUUGUCAAUCAUGGCAAAAG
+Bacillus_phage_phi29.2             UUGAGUUCAGCCCACAUACUUUGUUGAUUGGUUGUCAAUCAUGGCAAAAG
+#=GC SS_cons                       >>...........>>>>>................................
+
+Bacillus_phage_phi29.1             UGCACGCUACUUUGAUAACCUUUUACAUGCGACACAGACGAAGCGCUAAA
+B.phage.1                          UGCACGCUACUUUGAUAACCUUUUAAAUGCGACACAGACGAAGCGCUAAA
+Bacillus_phage_phi29.2             UGCACGCUACUUUGAUAACCUUUUACAUGCGACACAGACGAAGCGCUAAA
+#=GC SS_cons                       ......<<<<<<.<<<<.....<<<.....................>>><
+
+Bacillus_phage_phi29.1             ACGUGGGAUUCUGUGUCGUUUUAUGUUGUUCAUUGACAAACCUAUCUAGU
+B.phage.1                          ACGUGGGAUUCUGUGUCGUUUUAUGUUGUUCAUUGACAAUCCUAUCUAGU
+Bacillus_phage_phi29.2             ACGUGGGAUUCUGUGUCGUUUUAUGUUGUUCAUUGACAAACCUAUCUAGU
+#=GC SS_cons                       <<<<<<<............>>>>>>>>............<<<<<<...>>
+
+Bacillus_phage_phi29.1             AGGUCUAUAGAUUGAUAUAUUAAGUAGUAGUUUCCCUCCCUGAU
+B.phage.1                          AGGACUAUAGAUUGAUAUAUUAAGUAGUGAUCUCCCUGCCCGAU
+Bacillus_phage_phi29.2             AGGUCUAUAGAUUGAUAUAUUAAGUAGUAGUUUCCCUCCCUGAU
+#=GC SS_cons                       >>>>.............>>>>>>>>>><<<.........>>>..
+//

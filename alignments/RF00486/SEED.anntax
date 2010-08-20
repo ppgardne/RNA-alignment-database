@@ -1,0 +1,57 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-129
+#=GF AC    RF00486
+#=GF DE    mir-129 microRNA precursor family
+#=GF AU    Moxon SJ
+#=GF GA    22.0
+#=GF NC    0.0
+#=GF TC    26.7
+#=GF SE    Moxon SJ
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIR; MI0000252
+#=GF DR    MIR; MI0000222
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF RN    [1]
+#=GF RM    12007417
+#=GF RT    Identification of tissue-specific microRNAs from mouse.
+#=GF RA    Lagos-Quintana M, Rauhut R, Yalcin A, Meyer J, Lendeckel W, Tuschl T;
+#=GF RL    Curr Biol 2002;12:735-739.
+#=GF RN    [2]
+#=GF RM    12554859
+#=GF RT    New microRNAs from mouse and human.
+#=GF RA    Lagos-Quintana M, Rauhut R, Meyer J, Borkhardt A, Tuschl T;
+#=GF RL    RNA 2003;9:175-179.
+#=GF CC    mir-129 was first experimentally characterised in mouse [1] and homologues
+#=GF CC    have since been discovered in several other species. The mature
+#=GF CC    sequence is excised from the 5' arm of the hairpin.
+#=GF WK    http://en.wikipedia.org/wiki/mir-129_microRNA_precursor_family
+#=GF SQ    6
+
+#=GS D.rerio.1    AC    BX649263.6/91330-91421
+#=GS D.rerio.2    AC    BX927136.11/82960-83051
+#=GS M.musculus.1 AC    AL683878.9/66997-67086
+#=GS M.musculus.2 AC    AC072048.4/151314-151401
+#=GS H.sapiens.1  AC    AC068205.25/6866-6955
+#=GS H.sapiens.2  AC    AC018662.3/139956-140044
+
+D.rerio.1                UGUCCUUUUCAGGUCUUUUUGCGGUCUGGGCUUGCUGUUCCUUGAACCAG
+D.rerio.2                UGUCCUUCACGGCUCUUUUUGCGGUCUGGGCUUGCUGUUCCUUAAAUCAC
+M.musculus.1             UGCCUUUCGCGAAUCUUUUUGCGGUCUGGGCUUGCUGUACAUAACU.CAA
+M.musculus.2             UCUCCUU..UGGAUCUUUUUGCGGUCUGGGCUUGCUGUUC.UCUCGACAG
+H.sapiens.1              UGCCCUUCGCGAAUCUUUUUGCGGUCUGGGCUUGCUGUACAUAACU.CAA
+H.sapiens.2              UCUCCUU..UGGAUCUUUUUGCGGUCUGGGCUUGCUGUUCCUCUCAACAG
+#=GC SS_cons             .........<<<<<<<<<<<<<<<<..<<<<<<.<<<.............
+
+D.rerio.1                UAGCCAGGAAGCCCUUACCCCAAAAAGUAUCUGCAGAGGACC
+D.rerio.2                CAGUCAGGAAGCCCUUACCCCAAAAAGUAUCUGUGUGGGAUC
+M.musculus.1             UAGCC.GGAAGCCCUUACCCCAAAAAGCAUUCGCGGAGGGCG
+M.musculus.2             UAGUCAGGAAGCCCUUACCCCAAAAAGUAUCUACGGGAGGC.
+H.sapiens.1              UAGCC.GGAAGCCCUUACCCCAAAAAGCAUUUGCGGAGGGCG
+H.sapiens.2              UAGUCAGGAAGCCCUUACCCCAAAAAGUAUCUGCGGGAGGC.
+#=GC SS_cons             ....>>>.>>>>>>..>>>>>>>>>>>.>>>>>.........
+//

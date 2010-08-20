@@ -1,0 +1,92 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORD96
+#=GF AC    RF00055
+#=GF DE    Small nucleolar RNA SNORD96 family
+#=GF AU    Griffiths-Jones SR, Daub J
+#=GF GA    26.0
+#=GF NC    25.9
+#=GF TC    26.7
+#=GF PI    snoZ37
+#=GF SE    Griffiths-Jones SR, Daub J
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    snoRNABase; U96a
+#=GF DR    snoRNABase; U96b
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Arabidopsis_thaliana300073
+#=GF DR    snoopy; Homo_sapiens300641
+#=GF RN    [1]
+#=GF RM    12523999
+#=GF RT    Plant snoRNAs: functional evolution and new modes of gene expression.
+#=GF RA    Brown JW, Echeverria M, Qu LH;
+#=GF RL    Trends Plant Sci 2003;8:42-49.
+#=GF RN    [2]
+#=GF RM    11266566
+#=GF RT    Identification of 10 novel snoRNA gene clusters from Arabidopsis
+#=GF RT    thaliana.
+#=GF RA    Qu LH, Meng Q, Zhou H, Chen YQ, Liang-Hu Q, Qing M, Hui Z, Yue-Qin C;
+#=GF RL    Nucleic Acids Res 2001;29:1623-1630.
+#=GF RN    [3]
+#=GF RM    16381836
+#=GF RT    snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D box
+#=GF RT    snoRNAs.
+#=GF RA    Lestrade L, Weber MJ;
+#=GF RL    Nucleic Acids Res. 2006;34:D158-D162.
+#=GF CC    snoRNA Z37 is a member of the C/D class of snoRNA which contain
+#=GF CC    the C (UGAUGA) and D (CUGA) box motifs.  Z37 acts as a
+#=GF CC    methylation guide for 5.8S ribosomal RNA.  This family contains a
+#=GF CC    putative snoRNA found in the intron of the receptor for activated
+#=GF CC    C kinase (RACK1) gene in mammals (S. Griffiths-Jones,
+#=GF CC    pers. obs.). This family also includes human snoRNAs U96a
+#=GF CC    (SNORD96A) and U96b (SNORD96B) and the apicomplexan snoRNA
+#=GF CC    snr39b.
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_Z37
+#=GF SQ    9
+
+#=GS C.parvum.1   AC    AJ010681.1/2-84
+#=GS M.musculus.1 AC    AJ132685.1/1-77
+#=GS M.musculus.2 AC    AF295529.1/5361-5441
+#=GS S.scrofa.1   AC    AF146043.1/3911-3989
+#=GS O.sativa.1   AC    AC096691.6/4224-4322
+#=GS O.sativa.2   AC    AC096691.6/3994-4089
+#=GS O.sativa.3   AC    AC096691.6/3812-3905
+#=GS A.thaliana.1 AC    AJ242537.1/1-95
+#=GS A.thaliana.2 AC    AJ240068.1/1-85
+
+C.parvum.1               CUAUU.UAUGAUGAUUU.CCC....UUAAUUU.UACCAUCUUUCGGGUCU
+M.musculus.1             .AUCCUAGUGAUGACAAGACGAC.AUUGUCAA.C.CAAUCCCCCACAAGG
+M.musculus.2             GAUCCUAGUGAUGACAAGACGAC.AUUGUCAA.C.CAAUCCCCCACAAGG
+S.scrofa.1               GAUCCUGGUGAUGACCA.AUGAC.AUUGUCAG.C.CAAUCC.CCACAUGG
+O.sativa.1               CGACG..GUGAUGAAAAACCGCA.AGAAAAACACACCAUCUUUCGGGGCU
+O.sativa.2               UGGCC.GGUGAAGAAAA.CCUCG.AUUAAAAA.CACCAUCUUUCGGGGCU
+O.sativa.3               GGACC.UGUGAUGAAAU.CUGGA.ACCAAAAA.UACCAUCUUUCGGGACU
+A.thaliana.1             .AGCC.GAUGUGGAUAU.CAGAUUAUAAAAGAACACCAUCUUUCGGGACU
+A.thaliana.2             UAGCC.AAUGAGGACAU.CAGAUUAUAAAAGAACACCAUCUUUCGGGACU
+#=GC SS_cons             <<<<<.............................................
+
+C.parvum.1               GAAUUAA.............GAUGUGUUGAUAUUAUGGGAUAUACUGA..
+M.musculus.1             GAAUGAG.............GACAUG.......UCCUGCA.AUUCUGAAU
+M.musculus.2             GAAUGAG.............GACAUG.......UCCUGCA.AUUCUGAAU
+S.scrofa.1               GAAUGUG.............GACAUG.......UCCUGCA.AUUCUGAAG
+O.sativa.1               GAUUUGGCGCCGCCGCGCGUGCAAUGAUGCUAAUUCUGCA.AUUCUGA..
+O.sativa.2               GAUCGGCCGCCGCUCGGCG.GCCAUGCUGCCA.UUCUGCA.AUUCUGA..
+O.sativa.3               GAUUUGGCUU...UCAGCA.GCCAUGUUGUCACUUCCAAG.AUCCUGA..
+A.thaliana.1             GAUUGACUUCU..UUUGAA.GUUUUGCUGAUACUUCUGCA.AUUCUGA..
+A.thaliana.2             GAUUAA...............CAUUGAUGAUACUUCUGCA.AUUCUGA..
+#=GC SS_cons             ..................................................
+
+C.parvum.1               AAUAG
+M.musculus.1             GG...
+M.musculus.2             GGGUU
+S.scrofa.1               GGAUU
+O.sativa.1               UGUCC
+O.sativa.2               GGCCA
+O.sativa.3               GGUCU
+A.thaliana.1             GGCU.
+A.thaliana.2             GGCUA
+#=GC SS_cons             >>>>>
+//

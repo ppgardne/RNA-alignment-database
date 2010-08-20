@@ -1,0 +1,46 @@
+# STOCKHOLM 1.0
+#=GF ID    RF_site2
+#=GF AC    RF01076
+#=GF DE    Polymerase ribosomal frameshift site
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    74.4
+#=GF SE    Pseudobase
+#=GF SS    Pseudobase
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    PKBASE; PKB00218
+#=GF DR    PKBASE; PKB00233
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    10073689
+#=GF RT    North American and European porcine reproductive and respiratory
+#=GF RT    syndrome viruses differ in non-structural protein coding regions.
+#=GF RA    Allende R, Lewis TL, Lu Z, Rock DL, Kutish GF, Ali A, Doster AR,
+#=GF RA    Osorio FA;
+#=GF RL    J Gen Virol. 1999;80:307-315.
+#=GF RN    [2]
+#=GF RM    8517032
+#=GF RT    Lelystad virus, the causative agent of porcine epidemic abortion and
+#=GF RT    respiratory syndrome (PEARS), is related to LDV and EAV.
+#=GF RA    Meulenberg JJ, Hulst MM, de Meijer EJ, Moonen PL, den Besten A, de
+#=GF RA    Kluyver EP, Wensvoort G, Moormann RJ;
+#=GF RL    Virology. 1993;192:62-72.
+#=GF WK    http://en.wikipedia.org/wiki/Ribosomal_frameshift
+#=GF SQ    2
+
+#=GS PRRSV_LV4.2.1.1        AC    AY588319.1/7400-7471
+#=GS Porcine_respiratory_.1 AC    AY612613.1/7689-7760
+
+PRRSV_LV4.2.1.1                    UUUAAACUGUUAGCCGCCAGCGGCUUGACCCGCUGUGGCCGCGGCGGCCU
+Porcine_respiratory_.1             UUUAAACUGCUAGCCGCCAGCGACUUGACCCGCUGUGGUCGCGGCGGCUU
+#=GC SS_cons                       ............<<<<<<.<<<<<<....AAAAAAA>>>>>>>>>>>>..
+#=GC RF                            UUUAAAcUGUUAGCCGCCAGCGGCuUGAcccGcUGUgGCCGCGGCGGCcU
+
+PRRSV_LV4.2.1.1                    AGUUGUGACUGAAACGGCGGUA
+Porcine_respiratory_.1             GGUUGUUACUGAAACAGCGGUA
+#=GC SS_cons                       .............aaaaaaa..
+#=GC RF                            AGUUGUGAcUGAAAcGGcGGUA
+//

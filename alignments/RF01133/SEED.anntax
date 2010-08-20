@@ -1,0 +1,78 @@
+# STOCKHOLM 1.0
+#=GF ID    sR3
+#=GF AC    RF01133
+#=GF DE    Small nucleolar RNA sR3
+#=GF AU    Wilkinson A
+#=GF GA    30.0
+#=GF NC    21.3
+#=GF TC    35.6
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  --fil-no-hmm  CM SEQDB
+#=GF DR    URL; http://lowelab.ucsc.edu/snoRNAdb/
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF WK    http://en.wikipedia.org/wiki/SnoRNA
+#=GF SQ    17
+
+#=GS A.profundus.1          AC    AY047491.1/12-66
+#=GS Archaeoglobus_fulgid.1 AC    AE000782.1/2141629-2141683
+#=GS Methanocaldococcus_j.1 AC    L77117.1/466953-467007
+#=GS Candidatus_Methanore.1 AC    CP000780.1/742645-742701
+#=GS M.labreanum.1          AC    CP000559.1/1002954-1003010
+#=GS Methanoculleus_maris.1 AC    CP000562.1/1074794-1074852
+#=GS Methanospirillum_hun.1 AC    CP000254.1/1849259-1849314
+#=GS M.thermophila.1        AC    CP000477.1/799971-800043
+#=GS Methanococcoides_bur.1 AC    CP000300.1/175892-175966
+#=GS Methanosarcina_mazei.1 AC    AE008384.1/2153535-2153609
+#=GS M.barkeri.1            AC    CP000099.1/1909415-1909489
+#=GS Pyrococcus_furiosus_.1 AC    AE009950.1/1226581-1226635
+#=GS Pyrococcus_horikoshi.1 AC    BA000001.2/1099694-1099748
+#=GS P.abyssi.1             AC    AJ248286.2/84079-84133
+#=GS Thermococcus_kodakar.1 AC    AP006878.1/963854-963913
+#=GS T.litoralis.1          AC    AF319635.1/2583-2637
+#=GS uncul.metha.archa.RC.1 AC    AM114193.2/215260-215332
+
+A.profundus.1                      CGGUGUGAUGA.CCAAUGGGUCUGCUGAAGUG..................
+Archaeoglobus_fulgid.1             CGGCGUGAUGA.UUGACGGGUCUGCUGAGCGG..................
+Methanocaldococcus_j.1             GGCAAUGAUGA.AAAGAGGGUUAGCUGAACUG..................
+Candidatus_Methanore.1             GCAGAUGAUGA.ACAAUGGGUCUGCUGAAAUUGA................
+M.labreanum.1                      GCGUAUGAUGAACUAUCGGGUCUACUGAUUUGA.................
+Methanoculleus_maris.1             GCACGUGAUGA.ACAAUGGGUCUCCUGACGAACGGA..............
+Methanospirillum_hun.1             GCAGAUGAUGA.CAAAUGGGUCUUCUGAUUUGG.................
+M.thermophila.1                    CUGGAUGAUGA.GCAACGGGUCUGCUGAGCCAUCCCGACGGGGAUGGUGU
+Methanococcoides_bur.1             AUAAAUGAUGA.ACAACGGGUCUACUGAGAUCUGCUCGACGGAGUGGGUC
+Methanosarcina_mazei.1             AUAAAUGAUGA.ACAACGGGUCUACCGAGUCUUUCCCGACGGGGCAGGAC
+M.barkeri.1                        AUAAAUGAUGA.ACAACGGGUAUACUGAAUCUUUCCCGACGGGGCAAGAU
+Pyrococcus_furiosus_.1             GGCGAUGAUGA.AUAGCAAGCCACCUGAAGAG..................
+Pyrococcus_horikoshi.1             GGCGAUGAUGA.AUAGCAAGCCAGCUGAAGAG..................
+P.abyssi.1                         GGCGAUGAUGA.GUAGCAAGCCACCUGACCUA..................
+Thermococcus_kodakar.1             GGCAAUGACGA.GUAGCAAGCAUUCUGAACCCGGAGA.............
+T.litoralis.1                      GGCGAUGACGA.UUAGCAAGCAUGCUGAGGAG..................
+uncul.metha.archa.RC.1             AAAUAUGAUGA.GCAACGGGUCACCUGAAGCUGCCCGACGGGGUAGCUUG
+#=GC SS_cons                       ..................................................
+#=GC RF                            GgcgAUGAUGA.aaAgcgGGUcAuCUGAagaaa.................
+
+A.profundus.1                      ..UGAUGACCCGU.UGGAGCUCUGACC
+Archaeoglobus_fulgid.1             ..UGAUGACCCGU.UGGAGCUCUGACC
+Methanocaldococcus_j.1             ..UGAUGAUACUU.ACCCGAACUGAGC
+Candidatus_Methanore.1             ..UGAUGACCCGU.UGGAGCACUGAUG
+M.labreanum.1                      ..UGAUGACCCGC.UGGAGCACUGAUC
+Methanoculleus_maris.1             ..UGAUGACCCGU.UGGAGCACUGAUG
+Methanospirillum_hun.1             ..UGAUGAUCCGU.UGGAGCACUGAUG
+M.thermophila.1                    ..UGAUGAUCCGU.UGGAGCACUGAGA
+Methanococcoides_bur.1             GGUGAAGAGCCGU.UGGAGCACUGAUG
+Methanosarcina_mazei.1             AAUGAGGAACCGU.UGGAGCACUGAUA
+M.barkeri.1                        AAUGAGGAACCGU.UGGAGCACUGAUA
+Pyrococcus_furiosus_.1             ..UGAUGAGGUGA.ACACCCCCUGAGC
+Pyrococcus_horikoshi.1             ..UGAUGAAGUGA.ACACCCCCUGAGC
+P.abyssi.1                         ..UGAUGAGGUGAACA.CCCCCUGAGC
+Thermococcus_kodakar.1             ..UGAUGACGUGA.ACACCCUCCGAGC
+T.litoralis.1                      ..UGAUGACGUGA.ACACCCUCCGAGC
+uncul.metha.archa.RC.1             ..UGAGGAACCGU.UGGAGCGCUGAUU
+#=GC SS_cons                       ...........................
+#=GC RF                            ..UGAUGAuacGu.uaaagcaCUGAac
+//

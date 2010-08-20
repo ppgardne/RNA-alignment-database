@@ -1,0 +1,104 @@
+# STOCKHOLM 1.0
+#=GF ID    snoR64
+#=GF AC    RF00267
+#=GF DE    Small nucleolar RNA R64/Z200 family
+#=GF AU    Moxon SJ, Daub J
+#=GF GA    30.0
+#=GF NC    29.7
+#=GF TC    30.8
+#=GF SE    INFERNAL
+#=GF SS    Predicted; PFOLD; Daub J
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF RN    [1]
+#=GF RM    12215523
+#=GF RT    Purified box C/D snoRNPs are able to reproduce site-specific
+#=GF RT    2'-O-methylation of target RNA in vitro.
+#=GF RA    Galardi S, Fatica A, Bachi A, Scaloni A, Presutti C, Bozzoni I;
+#=GF RL    Mol Cell Biol 2002;22:6663-6668.
+#=GF RN    [2]
+#=GF RM    12477388
+#=GF RT    Experimental RNomics: identification of 140 candidates for small
+#=GF RT    non-messenger RNAs in the plant Arabidopsis thaliana.
+#=GF RA    Marker C, Zemann A, Terhorst T, Kiefmann M, Kastenmayer JP, Green P,
+#=GF RA    Bachellerie JP, Brosius J, Huttenhofer A;
+#=GF RL    Curr Biol 2002;12:2002-2013.
+#=GF CC    This family of plant small nucleolar RNAs belong to the C/D class
+#=GF CC    of snoRNA which contain the C (UGAUGA) and D (CUGA) box
+#=GF CC    motifs. This family includes Arabidopsis thaliana snoRNA R64 and
+#=GF CC    Oryza sativa snoRNAs Z200 and J16. Most of the members of the box
+#=GF CC    C/D family function in directing site-specific 2'-O-methylation
+#=GF CC    of substrate RNAs [1].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_R64/Z200_family
+#=GF SQ    14
+
+#=GS O.sativa.1      AC    AJ490465.1/2-92
+#=GS O.sativa.2      AC    AJ457082.1/314-407
+#=GS O.sativa.3      AC    AP004591.3/13337-13431
+#=GS O.sativa.4      AC    AJ490459.1/2-95
+#=GS O.sativa.5      AC    AP004752.3/112622-112715
+#=GS V.vinifera.1    AC    AM479394.1/360-455
+#=GS M.truncatula.1  AC    AC138464.19/49649-49742
+#=GS M.truncatula.2  AC    AC138464.19/31707-31802
+#=GS M.truncatula.3  AC    AC147499.5/74642-74736
+#=GS R.communis.1    AC    AASG02003290.1/4244-4338
+#=GS P.trichocarpa.1 AC    AARH01002391.1/42331-42426
+#=GS A.thaliana.1    AC    AF317988.1/2-96
+#=GS A.thaliana.2    AC    AF317987.1/2-93
+#=GS B.rapa.1        AC    AC189232.1/54652-54754
+
+O.sativa.1                  AAAAUGCUAUGAGGAAUCAUGAAA...ACUUUCGCAUGUCAGACUUCAGA
+O.sativa.2                  UUGUUGCGAGGAUGAAUUAUGAACA..AACUUCGCAUGUCAGACUUCGGA
+O.sativa.3                  AAAAAUGCUAUGAGGAAUCAUGAAA..ACUUUCGCAUGUCAGACUUCAGA
+O.sativa.4                  AAAAAGCAAUGAGGAAUCAUGAAA...ACUUUCGCAUGUCAGACUUCAGA
+O.sativa.5                  AAAAAGCAAUUAGGAAUCAUGAAA...ACGUUCGCAUGUCAGACUUCAGA
+V.vinifera.1                CUUCUGCGAUGAUGAAGUAUGAAAA..CAAUUCACAUGUCAGACUUCAGA
+M.truncatula.1              UUUCUGCAGUGAAGAAUGAAGAAGA..AAAUUCACAUGUUAGACUCUAGA
+M.truncatula.2              UUUUUGUGGUGAUAAUUAUAGAAGA..AAAUUCACAUCUCAGACUUUAGA
+M.truncatula.3              GUAUUGCUGUGAUGAAUUAAGAAA...AAUUUCACAUGUCAGACUUCAGA
+R.communis.1                CUUCUGCGGUGAUGAAUUUAUGAAAACCAAUUCACAUGUCAGACUUCAGA
+P.trichocarpa.1             CUUCUGCAGUGAUGAAGUCAUGGAGUAAGAUCCACAUGUCAGACUUCAGA
+A.thaliana.1                CUUCUGCUGUGAUGAUCUUUUGAAUA.AAAUUCACAUGUCAGACUUCAGA
+A.thaliana.2                CUUCUGCGGUGAUGAUUUUAUGAG...AAAUUCACAUGUCAGACUUCAGA
+B.rapa.1                    CUUGUGCUAUGAUGAUCUUUUGAAUA.AAAUUCACAUGUCAGACUUCAGA
+#=GC SS_cons                <<<<<<<...........................................
+#=GC RF                     uuucuGCaguGAuGAAUuaagAAaA..AAaUUCaCAUGUCAGACUUcAGA
+
+O.sativa.1                  GAUGCCAUGG.......CAUCAAUGAGAAGAU.GUUUUCAUUUU.CUGAG
+O.sativa.2                  GAUG.CUUCA....AAGCAUCCAUGAGAAGAC.AUGUCAUACGA.CUGAG
+O.sativa.3                  GAUGCCAUGG.......CAUCAAUGAGAAGAU.GUUUUCAUUUU.CUGAG
+O.sativa.4                  GAUGCCAUGG.......CAUUAAUGAGAAGAU.GUUUUCAUUUU.CUGAG
+O.sativa.5                  GAUGCCAUGG.......CAUUAAUGAGAAGAU.GUUUUCAUUUU.CUGAG
+V.vinifera.1                GAUU.UUUAA......AAAUCUAUGAGAAGAA.AAUUCAUAUUUUCUGAG
+M.truncatula.1              GAUU.UUUAU.......GAUCAAUGAGAAUGG.CAACUUAUUCA.CUAAG
+M.truncatula.2              GAUU.UUCAU.......GAUCAAUGAGAAUGUCAAUUCUUAUUCGCAAAG
+M.truncatula.3              GAUU.UUUAU.......AAUCAAUGAGAAUGACAAUUCUUAAUUUCUGAG
+R.communis.1                GAUU.CUU.C.......AAUCAAUGAGAAGAA.AUUUCAUACUU.CUGAG
+P.trichocarpa.1             GAUU.UUU.........AAUCGAUGAGAAGAGACUUCCAUAACUUCUGAG
+A.thaliana.1                GAUC.UUU.U.......GAUCUAUGAGAAAAAACAUUCAUAAUU.CUGAG
+A.thaliana.2                GAUU.CUUGU.......AAUCUAUGAGAAUAA..AUUCAUAUAU.CUGAG
+B.rapa.1                    GAUU.CUUCUAAUUAAGAAUCCAUGAGAAUAAAUAUUCAUAAUU.CUGAG
+#=GC SS_cons                <<<<.............>>>>............................>
+#=GC RF                     GAUg.uuUau.......cAUCAAUGAGAAuAa.aauUcauauuu.CUGAG
+
+O.sativa.1                  C...UU
+O.sativa.2                  CAA...
+O.sativa.3                  CUUAUA
+O.sativa.4                  CUUAUA
+O.sativa.5                  CUUAUA
+V.vinifera.1                CAGAAG
+M.truncatula.1              CAGAAA
+M.truncatula.2              CAAAAA
+M.truncatula.3              CUGGAU
+R.communis.1                CAGAAG
+P.trichocarpa.1             CAGAAU
+A.thaliana.1                CAGAAG
+A.thaliana.2                CAGAAG
+B.rapa.1                    CACAAG
+#=GC SS_cons                >>>>>>
+#=GC RF                     Cagaaa
+//

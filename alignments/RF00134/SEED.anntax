@@ -1,0 +1,155 @@
+# STOCKHOLM 1.0
+#=GF ID    snoZ196
+#=GF AC    RF00134
+#=GF DE    Small nucleolar RNA Z196/R39/R59 family
+#=GF AU    Moxon SJ, Daub J
+#=GF GA    20.0
+#=GF NC    20.0
+#=GF TC    20.2
+#=GF SE    Griffiths-Jones SR
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF RN    [1]
+#=GF RM    12477388
+#=GF RT    Experimental RNomics. Identification of 140 Candidates for Small
+#=GF RT    Non-Messenger RNAs in the Plant Arabidopsis thaliana.
+#=GF RA    Marker C, Zemann A, Terhorst T, Kiefmann M, Kastenmayer JP, Green P,
+#=GF RA    Bachellerie JP, Brosius J, Huttenhofer A;
+#=GF RL    Curr Biol 2002;12:2002-2013.
+#=GF RN    [2]
+#=GF RM    12007400
+#=GF RT    Small nucleolar RNAs: an abundant group of noncoding RNAs with
+#=GF RT    diverse cellular functions.
+#=GF RA    Kiss T;
+#=GF RL    Cell 2002;109:145-148.
+#=GF RN    [3]
+#=GF RM    10024243
+#=GF RT    A computational screen for methylation guide snoRNAs in yeast.
+#=GF RA    Lowe TM, Eddy SR;
+#=GF RL    Science. 1999;283:1168-1171.
+#=GF RN    [4]
+#=GF RM    12215523
+#=GF RT    Purified box C/D snoRNPs are able to reproduce site-specific
+#=GF RT    2'-O-methylation of target RNA in vitro.
+#=GF RA    Galardi S, Fatica A, Bachi A, Scaloni A, Presutti C, Bozzoni I;
+#=GF RL    Mol Cell Biol. 2002;22:6663-6668.
+#=GF CC    This family includes plant snoRNA snoZ196 and yeast snoRNAs R39
+#=GF CC    and R59.  Members of this family belong to the C/D box class of
+#=GF CC    snoRNA which contain C (UGAUGA) and D (CUGA) box motifs. Most of
+#=GF CC    the members of the box C/D family function in directing
+#=GF CC    site-specific 2'-O-methylation of substrate RNAs. snoZ196 acts as
+#=GF CC    a methylation guide for 18S ribosomal RNA in plants [1].Although
+#=GF CC    the selection of the target nucleotide requires the antisense
+#=GF CC    element and the conserved box D or D' of the snoRNA, the
+#=GF CC    methyltransferase activity is supposed to reside in one of the
+#=GF CC    protein components [4].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_Z196/R39/R59_family
+#=GF SQ    23
+
+#=GS Magnaporthe_grisea_7.1 AC    AACU02000289.1/168173-168259
+#=GS S.cerevisiae.1         AC    D25232.1/916-1003
+#=GS S.cerevisiae.2         AC    Z73554.1/1068-1155
+#=GS Saccharomyces_cerevi.1 AC    AAFW02000099.1/355833-355930
+#=GS S.cerevisiae.3         AC    X62627.1/916-1013
+#=GS S.pombe.1              AC    X53575.1/491-574
+#=GS S.pombe.2              AC    U26014.1/1-76
+#=GS O.sativa.1             AC    AJ490447.1/1-83
+#=GS O.sativa.2             AC    Z70693.1/1-77
+#=GS O.sativa.3             AC    Z70229.1/1-81
+#=GS O.sativa.4             AC    AJ490449.1/1-82
+#=GS O.sativa.5             AC    AJ490452.1/1-84
+#=GS O.sativa.6             AC    AY220646.1/6-89
+#=GS O.sativa.7             AC    AJ490445.1/2-85
+#=GS O.sativa.8             AC    X67711.2/2410-2494
+#=GS O.sativa.9             AC    AJ490442.1/2-85
+#=GS O.sativa.10            AC    AC134045.2/133476-133559
+#=GS O.sativa.11            AC    AY220647.1/3-86
+#=GS L.japonicus.1          AC    AP006687.1/73825-73908
+#=GS M.truncatula.1         AC    AC140545.26/107163-107249
+#=GS M.truncatula.2         AC    AC150706.4/102309-102395
+#=GS A.thaliana.1           AC    AC068667.6/43175-43262
+#=GS A.thaliana.2           AC    AC068667.6/51559-51646
+
+Magnaporthe_grisea_7.1             UCAAGGAAAUGAUGG.ACAACA.......UACCCUUUG...C.GACUAGA
+S.cerevisiae.1                     CUUUCUUAAUGAUGA.AAACUAU......UCCUUAUUC...UCGACUAGU
+S.cerevisiae.2                     CUUUCUUAAUGAUGA.AAACUAU......UCCUUAUUC...UCGACUAGU
+Saccharomyces_cerevi.1             CUCAUUUUAUGAUGA.AAAUCCAUUGUAUCCCAAUACAUAUUCGACUAGU
+S.cerevisiae.3                     CUCAUUUUAUGAUGA.AAAUCCAUUGUAUCCCAAUACAUAUUCGACUAGU
+S.pombe.1                          AUAUGAAAAAGAUGA.ACCUUU.......CACUCUUGGA..UUG.CU.AG
+S.pombe.2                          ....GAAAAAGAUGA.ACCUUU.......CACUCUUGGA..UUG.CU.AG
+O.sativa.1                         UGCAACCUGUGAUGU.AAAUUA.......ACCCAUUUA...CUGAAC.UA
+O.sativa.2                         ...AACCUGUGAUGU.AAAUUA.......ACCCAUUUA...CUGAAC.UA
+O.sativa.3                         ...AGCCUGUGAUGC.AAAAGG.......ACCCAUGAAA..CUGAAU.UA
+O.sativa.4                         .GCAGCCUGUGAUGC.AAAAGU.......ACCCAUUAAA..CUGAAU.UA
+O.sativa.5                         UGCAACCUGUGAUGC.AAAACU.......ACCCAUUAAA..CUGAAU.UA
+O.sativa.6                         UGCAAUCUGUGAUGC.AAAUAA.......UCCCAUUUG...CUGAAU.CA
+O.sativa.7                         UGCAAUCUAUGAUGC.AAAUAA.......UCCCAUUUG...CUGAAU.CA
+O.sativa.8                         UGCAGCCUGUGAUGGCAAAAGU.......ACCCAUUAAA..CUGAAU.UA
+O.sativa.9                         UGCAAUCUGUGAUGC.AAAUAA.......UCCCAUUUG...CUGAAU.CA
+O.sativa.10                        UGCAGCCUGUGAUGC.AAAAGU.......ACCCAUUAAA..CUGAAU.UA
+O.sativa.11                        UGCAAUCUAUGAUGC.AAAUAA.......UCCCAUUUG...CUGAAU.CA
+L.japonicus.1                      UGCAAUCAAUGAUGA.AAUUUC.......CUUAAUAUA...AUGAAUAUA
+M.truncatula.1                     UGCAAUCUAUGAUGC.AAUUUUUAUAU..CCUUACUAUU..CUG.AU.UU
+M.truncatula.2                     UGCAAUCUAUGAUGC.AAUUAAUAU....CCUUACUAUU..AUGAUUUCC
+A.thaliana.1                       UGCAAUCAGUGAUGA.AAUUAUG......UCAAAUUCA...AUGAUUAUA
+A.thaliana.2                       UGCAAUCAGUGAUGA.AAUUAUG......UCAAAUUCA...AUGAUUAUA
+#=GC SS_cons                       <<<<<<<...........................................
+#=GC RF                            ugCaaucaAUGAUGa.AAauua.......uccuAuUaa...uUGAaU.ua
+
+Magnaporthe_grisea_7.1             CUCUGU..CGAUGCUGUUGCA..AAAUUACCAUCUUUCGGGUCUGACC.C
+S.cerevisiae.1                     CUUUGA..CAAUGCUGUCGUU..UAAUCACCAUCUUUCG..GCUGACUAG
+S.cerevisiae.2                     CUUUGA..CAAUGCUGUCGUU..UAAUCACCAUCUUUCG..GCUGACUAG
+Saccharomyces_cerevi.1             CAUUGA..CGAUGCUGUCGUAACUUAUCACCAUCUUUCG..ACUGAUU.A
+S.cerevisiae.3                     CAUUGA..CGAUGCUGUCGUAACUUAUCACCAUCUUUCG..ACUGAUU.A
+S.pombe.1                          UUUCGA..CGAUGCUGCUCC...AAAAUACCAUCUUUCG..GCUGAUU.C
+S.pombe.2                          UUUCGA..CGAUGCUGCUCC...AAAAUACCAUCUUUCG..GCUGAUU.C
+O.sativa.1                         CGUUGA..UUAUUUCAGU.A...AAAUCACCAUCUUUCG..GCUGAGG.U
+O.sativa.2                         CGUUGA..UUAUUUCAGU.A...AAAUCACCAUCUUUCG..GCUGAGG.U
+O.sativa.3                         CACUGAAUUAAUUCCAAAC....AAAUCACCAUCUUUCGG.GCUGAGG.U
+O.sativa.4                         CACUGA..UUAUUCCAAAC....AAAUCACCAUCUUUCG..GCUGAGG.U
+O.sativa.5                         CACUGA..UUAUUACAAAC....AAAUCACCAUCUUUCG..GCUGAGG.U
+O.sativa.6                         CUGUGA..UUAUUGCAAUCA...AAAUCACCAUCUUUCG..GCUGAGA.U
+O.sativa.7                         CUGUGA..UUAUUGCAAUAA...AAAUCACCAUCUUUCG..GCUGAGA.U
+O.sativa.8                         CACUGA..UUAUUCCAAAC....AAAUCACCAUCUUUCG..GGCGAGG.U
+O.sativa.9                         CUGUGA..UUAUUGCAAUCA...AAAUCACCAUCUUUCG..GCUGAGA.U
+O.sativa.10                        CACUGA..UUAUUCCAAAC....AAAUCACCAUCUUUCG..GCUGAGG.U
+O.sativa.11                        CUGUGA..UUAUUGCAAUAA...AAAUCACCAUCUUUCG..GCUGAGA.U
+L.japonicus.1                      UUGUGA..UUAUUAUACC.A...AGAUCACCAUCUUUCG..GCUGAGA.U
+M.truncatula.1                     CCGUGA..UUAUUCAGAA.....AUAUCACCAUCUUUCG..GCUGAGA.U
+M.truncatula.2                     CCGUGA..UUAAUAAAAU.....AUAUCACCAUCUUUCG..ACUGAGA.U
+A.thaliana.1                       CAAUGA..UUAUUAUAAUCACU.AGAUCACCAUCUUUCG..GCUGAGA.U
+A.thaliana.2                       CAAUGA..UUAUUAUAAUCACU.AGAUCACCAUCUUUCG..GCUGAGA.U
+#=GC SS_cons                       ..............................................>>.>
+#=GC RF                            CuuUGA..UuAUuauaauca...AAAUCACCAUCUUUCG..GCUGAga.u
+
+Magnaporthe_grisea_7.1             UUGA
+S.cerevisiae.1                     UAAA
+S.cerevisiae.2                     UAAA
+Saccharomyces_cerevi.1             UAAG
+S.cerevisiae.3                     UAAG
+S.pombe.1                          AUAU
+S.pombe.2                          ....
+O.sativa.1                         UGCA
+O.sativa.2                         U...
+O.sativa.3                         U...
+O.sativa.4                         UGC.
+O.sativa.5                         UGCA
+O.sativa.6                         UGCA
+O.sativa.7                         UGCA
+O.sativa.8                         UGGC
+O.sativa.9                         UGCA
+O.sativa.10                        UGCU
+O.sativa.11                        UGCA
+L.japonicus.1                      UGCA
+M.truncatula.1                     UGCA
+M.truncatula.2                     UGCA
+A.thaliana.1                       UGCU
+A.thaliana.2                       UGCA
+#=GC SS_cons                       >>>>
+#=GC RF                            uGca
+//

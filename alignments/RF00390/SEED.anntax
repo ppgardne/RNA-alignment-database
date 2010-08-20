@@ -1,0 +1,51 @@
+# STOCKHOLM 1.0
+#=GF ID    UPSK
+#=GF AC    RF00390
+#=GF DE    UPSK RNA
+#=GF AU    Moxon SJ
+#=GF GA    27.0
+#=GF NC    25.7
+#=GF TC    27.8
+#=GF SE    PMID:9223489, INFERNAL
+#=GF SS    Published; PMID:9223489
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    9223489
+#=GF RT    The role of the pseudoknot at the 3' end of turnip yellow mosaic
+#=GF RT    virus RNA in minus-strand synthesis by the viral RNA-dependent RNA
+#=GF RT    polymerase.
+#=GF RA    Deiman BA, Kortlever RM, Pleij CW;
+#=GF RL    J Virol 1997;71:5990-5996.
+#=GF RN    [2]
+#=GF RM    15033563
+#=GF RT    The tRNA-like structure of Turnip yellow mosaic virus RNA is a
+#=GF RT    3'-translational enhancer.
+#=GF RA    Matsuda D, Dreher TW;
+#=GF RL    Virology 2004;321:36-46.
+#=GF CC    This family represents a pseudoknot structure from turnip yellow mosaic
+#=GF CC    virus which is thought to be needed for efficient transcription as
+#=GF CC    disruption of the pseudoknot structure gives rise to a 50% drop in
+#=GF CC    transcription efficiency [1]. This family acts in conjunction with
+#=GF CC    Rfam:RF00233 to enhance translation [2].
+#=GF WK    http://en.wikipedia.org/wiki/UPSK_RNA
+#=GF SQ    6
+
+#=GS Turnip_yellow_mosaic.1 AC    M24801.1/79-101
+#=GS Turnip_yellow_mosaic.2 AC    AF035635.1/619-641
+#=GS Turnip_yellow_mosaic.3 AC    M24804.1/82-104
+#=GS Turnip_yellow_mosaic.4 AC    M24805.1/67-89
+#=GS Turnip_yellow_mosaic.5 AC    J04373.1/6212-6234
+#=GS Turnip_yellow_mosaic.6 AC    M24803.1/1-23
+
+Turnip_yellow_mosaic.1             UAAGUUCUCGAUCUUUAAAAUCG
+Turnip_yellow_mosaic.2             UGAGUUCUCGAUCUCUAAAAUCG
+Turnip_yellow_mosaic.3             UGAGUUCUCUAUCUCUAAAAUCG
+Turnip_yellow_mosaic.4             UGAGUUCUCGAUCUCUAAAAUCG
+Turnip_yellow_mosaic.5             UAAGUUCUCGAUCUUUAAAAUCG
+Turnip_yellow_mosaic.6             UAAGUUCUCGAUCUCUAAAAUCG
+#=GC SS_cons                       .AAA....<<<<aaa....>>>>
+#=GC RF                            UaAGUUCUCGauCUcUAAAauCG
+//

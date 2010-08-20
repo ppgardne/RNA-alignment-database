@@ -1,0 +1,47 @@
+# STOCKHOLM 1.0
+#=GF ID    RCNMV_TE_DR1
+#=GF AC    RF01453
+#=GF DE    3'TE-DR1 translation enhancer element
+#=GF AU    Osuch I
+#=GF GA    100.0
+#=GF NC    0.0
+#=GF TC    155.4
+#=GF SE    INFERNAL
+#=GF SS    Published; PMID:19577782
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    17704138
+#=GF RT    Hairpin structure within the 3'UTR of DNA polymerase beta mRNA acts
+#=GF RT    as a post-transcriptional regulatory element and interacts with
+#=GF RT    Hax-1.
+#=GF RA    Sarnowska E, Grzybowska EA, Sobczak K, Konopinski R, Wilczynska A,
+#=GF RA    Szwarc M, Sarnowski TJ, Krzyzosiak WJ, Siedlecki JA;
+#=GF RL    Nucleic Acids Res. 2007;35:5499-5510.
+#=GF WK    http://en.wikipedia.org/wiki/RCNMV_translation_enhancer_elements
+#=GF SQ    3
+
+#=GS Red_clover_necrotic_.1 AC    AB034916.1/3596-3733
+#=GS Red_clover_necrotic_.2 AC    J04357.1/3596-3733
+#=GS Sweet_clover_necroti.1 AC    L07884.1/3580-3717
+
+Red_clover_necrotic_.1             GAACUGGCAUCGGACCCUGGGAAACAGGCAUCUAGCGUAUUAAUAGGUCG
+Red_clover_necrotic_.2             GAACCGGCAUCGGACCCUGGGAAACAGGUACCUAGCGUAUUAAUAGGUCG
+Sweet_clover_necroti.1             GAACCGGUCUCGGACCCUGGUAAACAGGUACCUAGCGUAAUAGAAGGUCG
+#=GC SS_cons                       ....<<<<<.<<<..<<<<.....>>>>...<<<<<<.<<<....>>>>>
+#=GC RF                            gAAccggcaucggAcccugggAAAcagguAccuagcguaccAAuAggucg
+
+Red_clover_necrotic_.1             CUAGAAGACGGGCAGGCUUCACCACUAGGUAACCUGCCGCCGAGAGGGAA
+Red_clover_necrotic_.2             CUAGAAAUCGGGCGGGCUUCACCUUCGGGUAACCCGCCGUCGAGAGGGAA
+Sweet_clover_necroti.1             CUAGAAAUCGGGUGGGCUUCACCUACGGGUAACCCACCGUCGAGAGGGAA
+#=GC SS_cons                       >>>>.....<<<<<<<.<<.<<<....>>>>>>>>>>>....<<<<<...
+#=GC RF                            cuagAAAucgggcgggcuucaccuucggguaacccgccgucgagagggAA
+
+Red_clover_necrotic_.1             AACCUCUGUGUGGUUGUGCGCACGUCGUUGUCGGAAGA
+Red_clover_necrotic_.2             AACCUCUGUGUGGUUGUGCGCACGUCGUUGUCGGAAGA
+Sweet_clover_necroti.1             AACCUCUGUGUGGUUGUGCGCACGUCGUUUCCUGAAGA
+#=GC SS_cons                       ..>>>>><<<<<......>>>>>.>>>.>>>>>>....
+#=GC RF                            AAccucugugcgguugugcgcacgccguugccggAAgA
+//

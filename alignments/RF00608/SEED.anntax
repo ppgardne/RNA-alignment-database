@@ -1,0 +1,121 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORD99
+#=GF AC    RF00608
+#=GF DE    Small Nucleolar RNA SNORD99
+#=GF AU    Daub J
+#=GF GA    35.0
+#=GF NC    31.1
+#=GF TC    39.8
+#=GF SE    INFERNAL
+#=GF SS    Predicted; RNAalifold; Daub J
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    snoRNABase; HBII-420
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF RN    [1]
+#=GF RM    12215523
+#=GF RT    Purified box C/D snoRNPs are able to reproduce site-specific
+#=GF RT    2'-O-methylation of target RNA in vitro.
+#=GF RA    Galardi S, Fatica A, Bachi A, Scaloni A, Presutti C, Bozzoni I;
+#=GF RL    Mol Cell Biol. 2002;22:6663-6668.
+#=GF RN    [2]
+#=GF RM    11387227
+#=GF RT    RNomics: an experimental approach that identifies 201 candidates for
+#=GF RT    novel, small, non-messenger RNAs in mouse.
+#=GF RA    Huttenhofer A, Kiefmann M, Meier-Ewert S, O'Brien J, Lehrach H,
+#=GF RA    Bachellerie JP, Brosius J;
+#=GF RL    EMBO J. 2001;20:2943-2953.
+#=GF RN    [3]
+#=GF RM    16381836
+#=GF RT    snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D box
+#=GF RT    snoRNAs.
+#=GF RA    Lestrade L, Weber MJ;
+#=GF RL    Nucleic Acids Res. 2006;34:D158-D162.
+#=GF CC    The members of this family belong to the C/D class of snoRNAs
+#=GF CC    which contain the C (UGAUGA) and D (CUGA) box motifs. Most of the
+#=GF CC    members of the box C/D family function in directing site-specific
+#=GF CC    2'-O-methylation of substrate RNAs [1]. HBII-420 (SNORD99) is
+#=GF CC    predicted to guide the 2'O-ribose methylation of 28S rRNA A2774
+#=GF CC    [3].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_SNORD99
+#=GF SQ    23
+
+#=GS C.milii.1              AC    AAVX01051885.1/282-355
+#=GS O.latipes.1            AC    BAAF04001665.1/8319-8391
+#=GS Gasterosteus_aculeat.1 AC    AANH01002401.1/37077-37149
+#=GS T.rubripes.1           AC    CAAB01001180.1/68570-68641
+#=GS T.nigroviridis.1       AC    CAAE01014594.1/234658-234729
+#=GS D.rerio.1              AC    CR385068.11/102975-103046
+#=GS X.laevis.1             AC    DQ096896.1/321-391
+#=GS G.gallus.1             AC    AADN02043953.1/37316-37386
+#=GS L.africana.1           AC    AAGU02421086.1/1413-1486
+#=GS E.telfairi.1           AC    AAIY01690380.1/1263-1336
+#=GS O.cuniculus.1          AC    AAGW01295199.1/653-726
+#=GS O.princeps.1           AC    AAYZ01245008.1/2288-2359
+#=GS C.porcellus.1          AC    AAKN02028628.1/54612-54685
+#=GS M.musculus.1           AC    CR752656.3/1766-1839
+#=GS R.norvegicus.1         AC    AAHX01233108.1/477-550
+#=GS H.sapiens.1            AC    AL513497.21/78245-78318
+#=GS C.lupus.1              AC    AAEX02023642.1/75141-75214
+#=GS F.catus.1              AC    AANG01797529.1/1492-1565
+#=GS E.europaeus.1          AC    AANN01300916.1/940-1013
+#=GS S.araneus.1            AC    AALT01584320.1/5342-5415
+#=GS E.caballus.1           AC    AAWR02028293.1/9717-9790
+#=GS Monodelphis_domestic.1 AC    AAFR03060642.1/25868-25942
+#=GS O.anatinus.1           AC    AAPN01440676.1/2620-2690
+
+C.milii.1                          GCUGGUCGAUGAUGACCUAUUUUAAAUU.GUGGACUU.CU.UGGAUGAUG
+O.latipes.1                        UCUGAUCCAUGAUGACUUCCAAACA.CAUGUGGAC...UGUUGGAUGAAG
+Gasterosteus_aculeat.1             G.UGAUCUAUGAUGAUUCAAUACUA.AA.AUUGUGAC.UGCUGGAUGAAG
+T.rubripes.1                       UCUGAUCUGUGAUGACACCAAAUCA.AU.GAGGAC...UGCUGGAUGAAG
+T.nigroviridis.1                   UCUGAUCUGUGAUGAUGCCUAAAUG.AU.GAGGAC...UGCUGGAUGAAG
+D.rerio.1                          ACUGAUCAAGGAUGAUA..GUAUAU.UG.AUGGUGAC.UGCUGGAUGAAA
+X.laevis.1                         GCUGUGCGUGGAUGAAUCUCUUUUC.....UUGAGAC.UGUUGGAUGAAU
+G.gallus.1                         CCUGGUCAGUGAUGACACC...UUU.CU.UUGGAGAC.UGCUGGAUGAAU
+L.africana.1                       ACUGGUCCAGGAUGAAACCUAAUCU.GA.GUGGACAU.CUGUGGAUGAUA
+E.telfairi.1                       CCUGGUCAAGGAUGAAACCUAAUCU.GA.GUGGACAU.CUCCGGAUGAUA
+O.cuniculus.1                      ACUGGUCCAGGAUGAAUCCUAAUCU.GA.GUGGACAU.CUUUGGAUGAGA
+O.princeps.1                       GCUGGUCCAGGAUGAAUCCUACUGA....GUGGACAU.CUGUGGAUGAGC
+C.porcellus.1                      ACUGGUCCAGGAUGAAACCUAAUCU.GA.GUGGACAU.CUGUGGAUGAGA
+M.musculus.1                       ACUGGUCCAUGAUGAAACCCAUUAU.CA.GUGGACAU.CUAUGGAUGAGA
+R.norvegicus.1                     ACUGGUCUGUGAUGAAACCCAUUAU.CA.GUGGACAU.CUAUGGAUGAGA
+H.sapiens.1                        ACUGGUCCAGGAUGAAACCUAAUUU.GA.GUGGACAU.CCAUGGAUGAGA
+C.lupus.1                          ACUGGUCCAGGAUGAAACCUAAUCU.GA.GUGGACAU.CUAUGGAUGAUA
+F.catus.1                          ACUGGUCCAGGAUGAAACCUAAUCU.GA.GUGGACAU.CUAUGGAUGAUA
+E.europaeus.1                      ACUGGUCAAGGAUGAAAACCUAUCU.CU.GUGGACAU.CAUUGGAUGAUA
+S.araneus.1                        GCUGGUUCAGGAUGAAACCUUAUCU.GA.GUGGACAU.CUAUGGAUGAUA
+E.caballus.1                       ACUGGUCCAGGAUGAAACCUAAUCU.GA.AUGGACAU.CUAUGGAUGAUA
+Monodelphis_domestic.1             ACUGGUCAGUGAUGAAUCUCUUAUC.UG.GUGGACAUGCUUUGGAUGACA
+O.anatinus.1                       GCUGGUUAAGGAUGACACUCAAUG.....GUGGACAU.GUAUGGAUGACA
+#=GC SS_cons                       <<<<<.............................................
+#=GC RF                            gCuGgUCaAuGAUGAaaccuaAuuu.aa.gUGGAcAu.uuuUGGAUGAaa
+
+C.milii.1                          CUCGCGGAUAUGGGACUGAGAUCAGCA
+O.latipes.1                        CAUGCGGAUAUGGGACUGAGAUCAGAC
+Gasterosteus_aculeat.1             CUUGCGGAUAUGGGACUGAGAUCAGCA
+T.rubripes.1                       CUUGCGGAUAUGGGACUGAGAUCAGCC
+T.nigroviridis.1                   CUUGCGGAUAUGGGACUGAGAUCAGCC
+D.rerio.1                          CUUGCGGAUAUGGGACUGAGAUCAGUU
+X.laevis.1                         CUUGCGGAUAUGGGACUGAGCGCAGCC
+G.gallus.1                         CCUGCGGAUAUGGGGCUGAGGCCAGGC
+L.africana.1                       AAUGCGGAUAUGGGACUGAGACCAGCU
+E.telfairi.1                       AAUGCGGAUAUGGGACUGAGACCAGCU
+O.cuniculus.1                      AAUGCGGAUAUGGGACUGAGACCAGCU
+O.princeps.1                       AGUGCGGAUAUGGGACUGAGACCAGCG
+C.porcellus.1                      AAUGCGGAUAUGGGACUGAGACCAGUG
+M.musculus.1                       AAUGCGGAUAUGGGACUGAGACCAGUU
+R.norvegicus.1                     AAUGCGGAUAUGGGACUGAGACCAGUU
+H.sapiens.1                        AAUGCGGAUAUGGGACUGAGACCAGCU
+C.lupus.1                          AAUGCGGAUAUGGGACUGAGACCAGCU
+F.catus.1                          AAUGCGGAUAUGGGACUGAGACCAGUU
+E.europaeus.1                      GAUGCGGAUAUGGGACUGAGACCAGUU
+S.araneus.1                        AAUGCGGAUAUGGGACUGAGACCUGCU
+E.caballus.1                       GAUGCGGAUAUGGGACUGAGACCAGCU
+Monodelphis_domestic.1             CUUGCGGAUAUGGGGCUGAGACCAGUC
+O.anatinus.1                       CUUGCGGAUAUGGGACUGAGACCAGCU
+#=GC SS_cons                       .....................>>>>>.
+#=GC RF                            cuUGCGGAUAUGGGACUGAGAcCaGcu
+//

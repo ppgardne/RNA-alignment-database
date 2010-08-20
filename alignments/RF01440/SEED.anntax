@@ -1,0 +1,54 @@
+# STOCKHOLM 1.0
+#=GF ID    S_pombe_snR42
+#=GF AC    RF01440
+#=GF DE    small nucleolar RNA snR42
+#=GF AU    Osuch I
+#=GF GA    90.0
+#=GF NC    13.9
+#=GF TC    135.9
+#=GF SE    INFERNAL
+#=GF SS    Predicted; RNAalifold; Osuch I
+#=GF TP    Gene; snRNA; snoRNA; HACA-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF RN    [1]
+#=GF RM    15716270
+#=GF RT    Identification and functional analysis of 20 Box H/ACA small
+#=GF RT    nucleolar RNAs (snoRNAs) from Schizosaccharomyces pombe.
+#=GF RA    Li SG, Zhou H, Luo YP, Zhang P, Qu LH;
+#=GF RL    J Biol Chem. 2005;280:16446-16455.
+#=GF WK    http://en.wikipedia.org/wiki/SnoRNA
+#=GF SQ    3
+
+#=GS S.pombe.1              AC    AJ632006.1/1-208
+#=GS S.pombe.2              AC    CU329671.1/1917406-1917613
+#=GS Schizosaccharomyces_.1 AC    AATM01000125.1/1489-1699
+
+S.pombe.1                          AUCUCACAA..AAUAAUGAAUUACUGAUGUCAAAAAGUCUGCUCUCUUCU
+S.pombe.2                          AUCUCACAA..AAUAAUGAAUUACUGAUGUCAAAAAGUCUGCUCUCUUCU
+Schizosaccharomyces_.1             AUCUCACAAAAAAUAAAGUCGCCAUGGUGUCGUUCCAACAGUUGAGUUUG
+#=GC SS_cons                       ..........................<<<<<.........<<<.<..<<.
+
+S.pombe.1                          AACGCGGUUAUAAUAUAGAACCGUAUUAAUGGUUGCAGCUUUUUCCUCUU
+S.pombe.2                          AACGCGGUUAUAAUAUAGAACCGUAUUAAUGGUUGCAGCUUUUUCCUCUU
+Schizosaccharomyces_.1             UAGGACAAAUUUGGUCCUGCAGUUCGUGCUGAUAUGGUCGACUUCCUCUU
+#=GC SS_cons                       ...<<<<<<.........>>>>>>......>>..>.>>>...........
+
+S.pombe.1                          CAUGGAAUCGGUAUAGAUUAUGUCGGGGAGACCGACAGCAUAGCUUAAAA
+S.pombe.2                          CAUGGAAUCGGUAUAGAUUAUGUCGGGGAGACCGACAGCAUAGCUUAAAA
+Schizosaccharomyces_.1             GUGAGGAGUGGCGCAGAUCAAGCUGGGUUGACCAGCGUCAUAGCUUAAAA
+#=GC SS_cons                       .........>>>>>.......................<<.<<<<......
+
+S.pombe.1                          CCAUCGUGAAGUCGUUGCUUC.GUGCCAUGGCUCGUGAUGACCGAAUGCU
+S.pombe.2                          CCAUCGUGAAGUCGUUGCUUC.GUGCCAUGGCUCGUGAUGACCGAAUGCU
+Schizosaccharomyces_.1             CCAUCGUGAAGUCGUUGCUUUUGCAGAAUGGCUCGUGAUGACCGAAUGCU
+#=GC SS_cons                       .<<<<<<<<.<<<<<.<<......>>.>>>>>>>>>>>>>.......>>>
+
+S.pombe.1                          ACGUACAGUUU
+S.pombe.2                          ACGUACAGUUU
+Schizosaccharomyces_.1             UCGUACAUUUU
+#=GC SS_cons                       >.>>.......
+//

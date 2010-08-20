@@ -1,0 +1,58 @@
+# STOCKHOLM 1.0
+#=GF ID    HgcF
+#=GF AC    RF00058
+#=GF DE    HgcF RNA
+#=GF AU    Bateman A
+#=GF GA    70.0
+#=GF NC    0.0
+#=GF TC    110.6
+#=GF SE    Bateman A
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000655 SO:ncRNA
+#=GF RN    [1]
+#=GF RM    12032319
+#=GF RT    Noncoding RNA genes identified in AT-rich hyperthermophiles.
+#=GF RA    Klein RJ, Misulovin Z, Eddy SR;
+#=GF RL    Proc Natl Acad Sci U S A 2002;99:7542-7547.
+#=GF CC    The HgcF ncRNA gene was identified computationally in AT-rich
+#=GF CC    hyperthermophiles. The genes were named hgcA through hgcG ("high GC").
+#=GF CC    HgcF is of unknown function.
+#=GF WK    http://en.wikipedia.org/wiki/HgcF_RNA
+#=GF SQ    4
+
+#=GS P.abyssi.1             AC    AJ248284.1/11131-11298
+#=GS Pyrococcus_horikoshi.1 AC    BA000001.2/1531413-1531580
+#=GS P.furiosus.1           AC    AF468962.1/1-168
+#=GS Thermococcus_kodakar.1 AC    AP006878.1/1107263-1107433
+
+P.abyssi.1                         GCCGACAGCGAGGGUACAAU.....CCCUCGCAGGGGCUCGGUCUACCCG
+Pyrococcus_horikoshi.1             GCCGACAGCGAGGGUACAAUA....CCCUCGCAAGGGCUCGGUCAACCCG
+P.furiosus.1                       GCCGACAGCGAGGGUACAAUA....CCCUCGCAAGGGCUCGGUCAACCCG
+Thermococcus_kodakar.1             GCCGACAGCGAGGGGACAGUCAGUCUCCUCGCA.GGGCUCGGUACAACCG
+#=GC SS_cons                       .......<<<<<<<...........>>>>>>>..<<<<<<<<....<<<<
+#=GC RF                            GccGAcAGCGaGGGuAcAAuA....CCCuCGCAagGGCuCGGucaACCCG
+
+P.abyssi.1                         CCCCCGCAAGGUGUUCGGGUUCGAUGAGCGGGGUGUGCUCACGCCGAGCC
+Pyrococcus_horikoshi.1             CCCCCGCAAGGU.UUCGGGGUCGAUGAGCGGGGUGUGCUCACGCCGAGCC
+P.furiosus.1                       CCCCCGCAAGGU.UUCGGGUUCGAUGAGCGGGGUGUGCUCACGCCGAGCC
+Thermococcus_kodakar.1             CCUCCGCAAGGU.AUCGGGUUCCGUGAGCGGAGCGUGCUCACGCCGAGCC
+#=GC SS_cons                       <.<<<<.........>>>>........>>>>>...........>>>>>>>
+#=GC RF                            CcCCCGcAAGGu.uuCGGGuucGAuGAGCGGGGuGuGcucAcGCCGaGCC
+
+P.abyssi.1                         CACAGGGCCGG.UGCAUCCGCCCGCGGGAUCAAUGACCGCCGGGUCUCUG
+Pyrococcus_horikoshi.1             UACAGGGCCGG.UGCAUCCGCCCGCGGGAUUAAUGACCGCUGGGUCUCUG
+P.furiosus.1                       UACAGGGCCGG.UGCAUCCGCCCGCGGGAUCAAUGACCGCUGGGUCUCUG
+Thermococcus_kodakar.1             CACAGGGCCGGGAGCAUCCACCCGCGGGAGCAGUGACCGC.GGGCCUCUG
+#=GC SS_cons                       >...<<<<<<<.........<<<<<<<.........>>>>.>>>......
+#=GC RF                            cAcAgGGCCGG.uGcAuccGCCCGCGGGAucAAuGACCGCuGGGucucuG
+
+P.abyssi.1                         UUGCCGGCCUACAGCAAAAAUUUA
+Pyrococcus_horikoshi.1             UUGCCGGCCCACAAUAAAGUUUAA
+P.furiosus.1                       UUGCCGGCCCACAAAAGUAUUUUA
+Thermococcus_kodakar.1             UACCCGGCCCACAUUUCGAUGCCC
+#=GC SS_cons                       ...>>>>>>>..............
+#=GC RF                            uuGCCGGCCcAcAaaAaaAauuuA
+//

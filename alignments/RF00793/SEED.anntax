@@ -1,0 +1,54 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-497
+#=GF AC    RF00793
+#=GF DE    microRNA mir-497
+#=GF AU    Wilkinson A
+#=GF GA    70.0
+#=GF NC    0.0
+#=GF TC    106.1
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000231
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    6
+
+#=GS L.africana.1           AC    AAGU02565633.1/728-839
+#=GS M.musculus.1           AC    CR933731.5/80171-80282
+#=GS Spermophilus_tridece.1 AC    AAQQ01673553.1/1046-1157
+#=GS C.lupus.1              AC    AAEX02012478.1/141980-142091
+#=GS S.araneus.1            AC    AALT01598296.1/191-302
+#=GS Monodelphis_domestic.1 AC    AAFR03049810.1/89695-89806
+
+L.africana.1                       CCACCCGAGUCCUGCUCCCGCCCCAGCAGCACACUGUGGUUUGUACGGCA
+M.musculus.1                       CCACCCCAGUCCUGCCCCCGCCCCAGCAGCACACUGUGGUUUGUACGGCA
+Spermophilus_tridece.1             ACCCACCCGUCCUGCCCCCGCCCCAGCAGCACACUGUGGUUUGUACGGCA
+C.lupus.1                          CCACCCCAGUCCUGCUCCCGCCCCAGCAGCACACUGUGGUUUGUACGGUA
+S.araneus.1                        CCCGUCCAGUCCUGCUCCCGCUCCAGCAGCACACUGUGGUUUGUACGGCA
+Monodelphis_domestic.1             CAAAUCCCAUCCUGCCUCCGCCCCAGCAGCACACUGUGGUUUGUUCAGUG
+#=GC SS_cons                       .........<<<<<<<<.<<<.<.<<<<.<<<<.<<<<<<<<<.<<<<<.
+#=GC RF                            caAauccaguCcugCcccCGCcCcagCaGCaCacuGuGGuuuGUaCgGca
+
+L.africana.1                       CUGUGGCCACGUCCAAACCACACUGUGGUGUUAGAGCGAGGGUGGGGGAG
+M.musculus.1                       CUGUGGCCACGUCCAAACCACACUGUGGUGUUAGAGCGAGGGUAUGGGAG
+Spermophilus_tridece.1             CUGUGGCCACGUCCAAACCACACUGUGGUGUUAGAGCGAGGGUGGGGGAG
+C.lupus.1                          CUGUGGCCACGUCCAGACCACACUGUGGUGUUAGGGUGAGGGUGGGGGAG
+S.araneus.1                        CUGUGGCCACGUCCAAACCACACUGUGGUGUUAGAGCGAGGGUGGGGGAA
+Monodelphis_domestic.1             UUAUGGCCAAGUCCAAACCACACUGUGGUGUUAGAGCGAGGGUAGGGGAG
+#=GC SS_cons                       .....>>>..>>.>>>>>>>>>.>>>>.>>>>.>.>>>.>>>>>>>>...
+#=GC RF                            uUgUGgCcAaGucCaaaCCaCacuGuGGuGuuAGAGCGAggGuagGgGAg
+
+L.africana.1                       GCACCGCAGAGG
+M.musculus.1                       GCACCGAUGAGC
+Spermophilus_tridece.1             GCACCGCUGAGG
+C.lupus.1                          GCACCGCUGAGG
+S.araneus.1                        GGCACCGCUGAG
+Monodelphis_domestic.1             GCACCGCCAUCG
+#=GC SS_cons                       ............
+#=GC RF                            GcAacgacaaag
+//

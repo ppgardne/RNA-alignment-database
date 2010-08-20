@@ -1,0 +1,145 @@
+# STOCKHOLM 1.0
+#=GF ID    IRES_FGF2
+#=GF AC    RF00224
+#=GF DE    FGF-2 internal ribosome entry site (IRES)
+#=GF AU    Moxon SJ
+#=GF GA    30.0
+#=GF NC    1.4
+#=GF TC    36.5
+#=GF PI    IRES_FGF; FGF_IRES
+#=GF SE    http://ifr31w3.toulouse.inserm.fr/IRESdatabase/, INFERNAL
+#=GF SS    Predicted; PFOLD
+#=GF TP    Cis-reg; IRES;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  -g  CM SEQDB
+#=GF DR    SO:0000243 SO:internal_ribosome_entry_site
+#=GF DR    GO:0043022 GO:ribosome binding
+#=GF RN    [1]
+#=GF RM    10893274
+#=GF RT    Fibroblast growth factor 2 internal ribosome entry site (IRES)
+#=GF RT    activity ex vivo and in transgenic mice reveals a stringent
+#=GF RT    tissue-specific regulation.
+#=GF RA    Creancier L, Morello D, Mercier P, Prats AC;
+#=GF RL    J Cell Biol 2000;150:275-281.
+#=GF RN    [2]
+#=GF RM    7799942
+#=GF RT    Alternative translation of human fibroblast growth factor 2 mRNA
+#=GF RT    occurs by internal entry of ribosomes.
+#=GF RA    Vagner S, Gensac MC, Maret A, Bayard F, Amalric F, Prats H, Prats AC;
+#=GF RL    Mol Cell Biol 1995;15:35-44.
+#=GF CC    This family represents the fibroblast growth factor 2 (FGF-2) internal
+#=GF CC    ribosome entry site (IRES). When expressed the FGF-2 protein plays a
+#=GF CC    pivotal role in cell proliferation, differentiation and survival as well as
+#=GF CC    being involved in wound-healing [1,2]. It has been found that FGF-2 IRES
+#=GF CC    activity is strictly controlled and highly tissue specific. It is thought
+#=GF CC    that translational IRES dependent activation of FGF-2 plays a vital role
+#=GF CC    in embryogenesis and in the adult brain [1].
+#=GF WK    http://en.wikipedia.org/wiki/FGF-2_internal_ribosome_entry_site_(IRES)
+#=GF SQ    6
+
+#=GS H.sapiens.1            AC    X04431.1/477-973
+#=GS H.sapiens.2            AC    AC021205.6/16596-17093
+#=GS H.sapiens.3            AC    S81809.1/991-1486
+#=GS P.troglodytes.1        AC    AC157217.2/147426-147923
+#=GS B.taurus.1             AC    AAFC03058056.1/47194-47679
+#=GS Dasypus_novemcinctus.1 AC    AAGV020630258.1/3245-3728
+
+H.sapiens.1                        UUGUGGCCGAAGCCGCCGAACUCAGAGGCCGGCCCCAGAAAA.CCCG.AG
+H.sapiens.2                        UUGUGGCCGAA.CCGCCGAACUCAGAGGCCGGCCCCAGAAAA.CCCG.AG
+H.sapiens.3                        UUGUGGCCGAA.CCGCCGAACUCAGAGGCCGGCCCCAGAAAA.CCCG.AG
+P.troglodytes.1                    UUGUGGCCGAA.CCGCCGAACUCAGAGGCCGGCCCCAGAAAA.CCCG.AG
+B.taurus.1                         CUGCGGCCCGA.GCGCCCGACCCAGACACCCGCCCCAGAAAA.CCCGGAG
+Dasypus_novemcinctus.1             CUGCGGUCGUA.GCACCCGGUUCCGAGGCCGGCCCCUGAAAACCCCG.AG
+#=GC SS_cons                       .............................<<<<<<<........<<<...
+#=GC RF                            cUGcGGcCgaA.gCgCCcgAcuCAGAggCCGGCCCCAGAAAA.CCCg.AG
+
+H.sapiens.1                        CGAGUAGGGGGCGGCGCGCAGGA.GGGAGGAGAACUGGGGGCGCGGGAGG
+H.sapiens.2                        CGAGUAGGGGGCGGCGCGCAGGA.GGGAGGAGAACUGGGGGCGCGGGAGG
+H.sapiens.3                        CGAGUAGGGGGCGGCGCGCAGGA.GGGAGGAGAACUGGGGGCGCGGGAGG
+P.troglodytes.1                    CGAGUAGGGGGCGGCGCGCAGGA.GGGAGGAGAACUGGGGGCGCGGGAGG
+B.taurus.1                         CGAGUAGGGGGCGGUGCGCCGGAAGGGAGGCGGGCGGGGGGCGUGGG.GG
+Dasypus_novemcinctus.1             CGAGGAGGGGGCGGCGCAGAGGA.GGGAGGAGAGCUGGGGGCGCGGGAGG
+#=GC SS_cons                       .........<<<<<<<<<<...............<<<<<<.<<<<.....
+#=GC RF                            CGAGuAGGGgGCgGcGCGCAGGA.GGGAGGAGAgCuGGGGGcgcGGGAGG
+
+H.sapiens.1                        CUGGUGGGUGU.GGGGGGUGGAGAUGUAGAAGAUGUGACGCCGCGGCCCG
+H.sapiens.2                        CUGGUGGGUGU.GGGGGGUGGAGAUGUAGAAGAUGUGACGCCGCGGCCCG
+H.sapiens.3                        CUGGUGGGUGU.GGGGGGUGGAGAUGUAGAAGAUGUGACGCCGCGGCCCG
+P.troglodytes.1                    CUGGUGGGUGU.GGGGGGUGGAGAUGUAGAAGAUGUGACGCCGCGGCCCG
+B.taurus.1                         GUCGUGGGCGUCUGGGGGUGGAGACCUAUUAGAUGUGACGCCGCGGCCCA
+Dasypus_novemcinctus.1             CCGGUGGGUGUUUGGGGGUGGAGAUGUAGAAAAUGUGACGCCGCAGCCAG
+#=GC SS_cons                       ....<<<<<<....................................<<<.
+#=GC RF                            cugGuGGGuGU.uGGGGGUGGAGAugUAgAAgAUGUGACGCCGCgGCCcg
+
+H.sapiens.1                        GCGGGUGCCAGAUUAGCGGACG.GCUGCCCGCGGUUGCAACGGGAUCCCG
+H.sapiens.2                        GCGGGUGCCAGAUUAGCGGACGCGGUGCCCGCGGUUGCAACGGGAUCCCG
+H.sapiens.3                        GCGGGUGCCAGAUUAGCGGAC..GGUGCCCGCGGUUGCAACGGGAUCCCG
+P.troglodytes.1                    GCGGGUGCCAGAUUAGCGGACGCGGUGCCCGCGGUUGCAACGGGAUCCCG
+B.taurus.1                         GCGGGUAGCAGACCGGCGGACGCGGUGCCCGC.........GG.AUCCCG
+Dasypus_novemcinctus.1             GCCGGUGCCAGACCAGCGGACGCGGUGCCCGCGGUCGCAACCCGAUCCCC
+#=GC SS_cons                       <<<<<<<<<..............>>>>>>>>>.........>>>....<<
+#=GC RF                            GCGGGuacCAGAccAGCGGACGcGgugCCCGCGGuuGcAAcgGGAUCCCg
+
+H.sapiens.1                        GGCGCUGC.AGCUUG.GGAGGCGGCUCUCCCCAG.GCGGCGUCCGCGGAG
+H.sapiens.2                        GGCGCUGC.AGCUUG.GGAGGCGGCUCUCCCCAG.GCGGCGUCCGCGGAG
+H.sapiens.3                        GGCGCUGC.AGCUUG.GGAGGCGGCUCUCCCCAG.GCGGCGUCCGCGGAG
+P.troglodytes.1                    GGCGCUGC.AGCUUG.GGAGGCGGCUCUCCCCAG.GCGGCGUCCGCGGAG
+B.taurus.1                         GGUGCUGCGGCUUAU.GGAGGCGGCCCUCCCAAGAGCGGCGGCCGCAGAG
+Dasypus_novemcinctus.1             GACGCUGC.CGCUUGCGGAGGUGGCUCUGCCGAGAGCGGCGGCGGCGCAG
+#=GC SS_cons                       <<<<<<<<......<.<<<<<....>>>>>>....>>>>>>>>>>.....
+#=GC RF                            GgcGCuGC.agcUuG.GGaGgcGGCcCuCCCaAG.GCgGCgcCcGCggAG
+
+H.sapiens.1                        ACACCCAUCUGUGAACCCCAGGUCCCGGGCCGCCGGC.UCGCCGCGCACC
+H.sapiens.2                        ACACCCAUCCGUGAACCCCAGGUCCCGGGCCGCCGGC.UCGCCGCGCACC
+H.sapiens.3                        ACACCCAUCCGUGAACCCCAGGUCCCGGGCCGCCGGC.UCGCCGCGCACC
+P.troglodytes.1                    ACACCCAUCCGUGAACCCCAGGUCCCGGGCCGCCGGC.UCGCCGCGCACC
+B.taurus.1                         GCAUCCAGCCCUCACCCCCCGAUCCGGGACCGCCGGGCUCCCCGCGCUCU
+Dasypus_novemcinctus.1             CCACCCAGCC.CAAACCCCAGCUCCCG.GCCGCCGGG.UCUCCACG....
+#=GC SS_cons                       .>>>>>>..>>>>..>>>>>>....<<<<<<<<<<<<.............
+#=GC RF                            aCaCCCagCCgcgAACCCCaGaUCCCGgGCcGCCgGc.UCuCCgCGcacu
+
+H.sapiens.1                        AGGGGCCGGCGGACAGAAGAGCGGCCGAGCGGCUCGAGGCUGGGGGACCG
+H.sapiens.2                        AGGGGCCGGCGGACAGAAGAGCGGCCGAGCGGCUCGAGGCUGGGGGACCG
+H.sapiens.3                        AGGGGCCGGCGGACAGAAGAGCGGCCGAGCGGCUCGAGGCUGGGGGACCG
+P.troglodytes.1                    AGAGGCCGGCGGACAAAAGAGCGGCCGAGCGGCUCGAGGCUGGGGGACCA
+B.taurus.1                         AGGG.CAGGCGGAGAGGGAAGCGGCCGAACAGCUCGAGGCUGGGGGCUCG
+Dasypus_novemcinctus.1             ....GCCGGCG..CGGAGGAGCCGCCGAGCAGCGCGAGGCUGGGGGCCCG
+#=GC SS_cons                       ....>>>>>>....................>>>>>>..............
+#=GC RF                            AGgGgCcGGCGGAcAGAggAGCgGCCGAgCgGCuCGAGGCUGGGGGacCG
+
+H.sapiens.1                        CGGGCGCGGCCGCGCGCUGCCGGGCGGGAGGCUGGGGGGCCGGGGCCGGG
+H.sapiens.2                        CGGGCGCGGCCGCGCGCUGCCGGGCGGGAGGCUGGGGGGCCGGGGCCGGG
+H.sapiens.3                        CGGGCGCGGCCGCGCGCUGCCGGGCGGGAGGCUGGGGGGCCGGGGCCGGG
+P.troglodytes.1                    CGGGCGCGGCCGCGCGCUGCCGGGCGGGAGGCUGGGGGGCCGGGGCCGGG
+B.taurus.1                         CGGGCGCGGCCGCGUGCCGCGGGGAGGGAGGCUGGGGGGCCGGGGCCGGG
+Dasypus_novemcinctus.1             CGGGCGCGGCCGCACGCAGCGCGGCGGGAGGCUGGGGGGCCGGGG.....
+#=GC SS_cons                       ...........>>>>>>>>>>...>>>........>>>>>>>........
+#=GC RF                            CGGGCGCGGCCGCGCgCcGCcgGGcGGGAGGCUGGGGGGCCGGGGccGGG
+
+H.sapiens.1                        GCCGUG.CCCGGAGCGGGUCGGAGGCCGGGGCCGGGGCCGGGGGACGGCG
+H.sapiens.2                        GCCGUGCCCCGGAGCGGGUCGGAGGCCGGGGCCGGGGCCGGGGGACGGCG
+H.sapiens.3                        GCCGUGCCCCGGAGCGGGUCGGAGGCCGGGGCCGGGGCCGGGGGACGGCG
+P.troglodytes.1                    GCCGUGCCCCGGAGCGGGUCGGAGGCCGGGGCCGGGGCCGGGGGACGGCG
+B.taurus.1                         GCCGCGCCGCGGAGCGCGUCGGAGGCCGGGGCCG......GGGCGCGGCG
+Dasypus_novemcinctus.1             .CCGCGCCCUGGAGCGAGUCGGAGGCCGCGGCCGGGGCCGUGGGGCGGCG
+#=GC SS_cons                       .......<<<<...>>>>.........<<<<<<.....<<<.........
+#=GC RF                            GCCGcGcCccGGAGCggGUCGGAGGCCGgGGCCGGGGcCgGGGggCGGCG
+
+H.sapiens.1                        GCUCCCCGCGCGGCUCCAGCGGCUCGGGGAUCCCGGCCGGGCCCCGCAGG
+H.sapiens.2                        GCUCCCCGCGCGGCUCCAGCGGCUCGGGGAUCCCGGCCGGGCCCCGCAGG
+H.sapiens.3                        GCUCCCCGCGCGGCUCCAGCGGCUCGGGGAUCCCGGCCGGGCCCCGCAGG
+P.troglodytes.1                    GCUCCCCGCGCGGCUCCAGCGGCUCGGGGAUCCCGGCCGGGCCCCGCAGG
+B.taurus.1                         GCUCCCCGCGCGGCUCCAGGGGCUCGGGGACCCCGCCAGGGCCUUGGUGG
+Dasypus_novemcinctus.1             GCUCCCCGCGCCGCUCCGGGGGCUCGGGUGCCCCGACAGGGCCCCGGCGG
+#=GC SS_cons                       .......<<<<..........>>>><<<...>>>..>>>>>>>>>.....
+#=GC RF                            GCUCCCCGcGCgGCUCCAGgGGCuCGGGgAcCCCGaCcGGGCCcCGgaGG
+
+H.sapiens.1                        GACCAUG
+H.sapiens.2                        GACCAUG
+H.sapiens.3                        GACCAUG
+P.troglodytes.1                    GACCAUG
+B.taurus.1                         GGCCAUG
+Dasypus_novemcinctus.1             GGCCAUG
+#=GC SS_cons                       .......
+#=GC RF                            GgCCAUG
+//

@@ -1,0 +1,28 @@
+# STOCKHOLM 1.0
+#=GF ID    CRISPR-DR20
+#=GF AC    RF01333
+#=GF DE    CRISPR RNA direct repeat element
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    12.2
+#=GF TC    25.6
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; CRISPR;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    URL; http://crispr.u-psud.fr/crispr/CRISPRHomePage.php
+#=GF DR    SO:0001459 SO:CRISPR
+#=GF WK    http://en.wikipedia.org/wiki/CRISPR
+#=GF SQ    3
+
+#=GS Salinispora_arenicol.1 AC    CP000850.1/5064928-5064964
+#=GS Saccharopolyspora_er.1 AC    AM420293.1/5688772-5688807
+#=GS Saccharopolyspora_er.2 AC    AM420293.1/5697537-5697572
+
+Salinispora_arenicol.1             CCUUCACCGACCCAACGCGGUCGGUCUCCGUUGCGGG
+Saccharopolyspora_er.1             CCGUCACCGACGCGCAGCG.UCGGUCCUCAUUGCGGC
+Saccharopolyspora_er.2             CUGUCACCGGCGCCAAGCG.UCGGUCCUCAUUGCGGC
+#=GC SS_cons                       .....<<<<<<<<...>>>.>>>>>............
+#=GC RF                            CYKUCACCGRCGCRAAGCGgUCGGUCYUCRUUGCGGS
+//

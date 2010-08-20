@@ -1,0 +1,42 @@
+# STOCKHOLM 1.0
+#=GF ID    CRISPR-DR7
+#=GF AC    RF01320
+#=GF DE    CRISPR RNA direct repeat element
+#=GF AU    Wilkinson A
+#=GF GA    29.0
+#=GF NC    28.9
+#=GF TC    30.0
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; CRISPR;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    URL; http://crispr.u-psud.fr/crispr/CRISPRHomePage.php
+#=GF DR    SO:0001459 SO:CRISPR
+#=GF WK    http://en.wikipedia.org/wiki/CRISPR
+#=GF SQ    10
+
+#=GS Methanococcus_aeolic.1 AC    CP000743.1/1122352-1122388
+#=GS Methanosarcina_aceti.1 AC    AE010299.1/2381088-2381124
+#=GS Methanosarcina_mazei.1 AC    AE008384.1/675377-675413
+#=GS Methanosarcina_aceti.2 AC    AE010299.1/2369655-2369691
+#=GS M.barkeri.1            AC    CP000099.1/1665852-1665888
+#=GS Microscilla_marina_A.1 AC    AAWS01000020.1/72629-72665
+#=GS Beggiatoa.1            AC    ABBZ01003958.1/301-337
+#=GS candidate_division_T.1 AC    ABBV01004124.1/91-127
+#=GS marine_metag.1         AC    AACY020724281.1/117-153
+#=GS fossil_metag.1         AC    CAAN02335272.1/2-38
+
+Methanococcus_aeolic.1             GUCUAAAAGACACAUCCAUUAAAACAAGGAUGGAAAC
+Methanosarcina_aceti.1             AUUCGCGAGCAAGAUCCACUAAAACAAGGAUUGAAAC
+Methanosarcina_mazei.1             AUUCGCGAGCAAAAUCCAUUAAAACAAGGAUUGAAAC
+Methanosarcina_aceti.2             AUUCGAGAGCAAGAUCCACUAAAACAAGGAUUGAAAC
+M.barkeri.1                        UAUCACGAAGAGUAUCCACUAAAACAAGGAUUGAAAC
+Microscilla_marina_A.1             CUUUCAGAGCAACAUCCAUUAAAACAAGGAUUGAAAC
+Beggiatoa.1                        GCUUGCGAGCGAUAUCCACUACAACAAGGAUUGAAAC
+candidate_division_T.1             GUUAAAGUAGAGUAUCCAUUAAAACAAGGAUUGAAAC
+marine_metag.1                     AUCAAAAUGUAAAAUCCAUCAAAACAAGGAUUGAAAC
+fossil_metag.1                     GUCUGAAAGACUAAUCCACUACAACAAGGAUUGAAAC
+#=GC SS_cons                       ............<<<<<..........>>>>>.....
+#=GC RF                            guUugaGAgaAaaAuCCAcUAAAACAAGGaUuGAAAC
+//

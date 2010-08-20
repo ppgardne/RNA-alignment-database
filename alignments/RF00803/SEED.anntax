@@ -1,0 +1,42 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-425
+#=GF AC    RF00803
+#=GF DE    microRNA mir-425
+#=GF AU    Wilkinson A
+#=GF GA    31.0
+#=GF NC    0.0
+#=GF TC    34.4
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000242
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    5
+
+#=GS C.milii.1              AC    AAVX01021859.1/1356-1438
+#=GS A.carolinensis.1       AC    AAWZ01017461.1/6309-6392
+#=GS R.norvegicus.1         AC    AAHX01057025.1/109199-109283
+#=GS E.europaeus.1          AC    AANN01668557.1/686-771
+#=GS Monodelphis_domestic.1 AC    AAFR03030218.1/13947-14031
+
+C.milii.1                          GAUGUCCUCUGGAAUGACACGAUCACUCCCGGUUAAAG..CUGACAAGAA
+A.carolinensis.1                   GAAUGGUUUUGGAAUGACACGAUCACUCCCGCUGAGCGAGCAGAGCCACG
+R.norvegicus.1                     AAAGUGCUUUGGAAUGACACGAUCACUCCCGUUGAGUGGGCACCCAAGAA
+E.europaeus.1                      GAGAGGCGGUGGAAUGACACGAUCACUCCCGCUGAGCGGGCCCGCACACG
+Monodelphis_domestic.1             AAAGUGCUUUGGAAUGACACGAUCACUCCCGUUGAGCGGACAGCCAAGAA
+#=GC SS_cons                       .....<<<<<<<...<<<<<<<<...<<<<<...................
+#=GC RF                            gAagugCucuGGAAUGACACGAuCACuCCCGuUgAgaGgGCagacAaaaa
+
+C.milii.1                          UUUACCGGGAAACUCGUG.UCAACCAAGGGGACUUC
+A.carolinensis.1                   GCCA.CGGGGAUGUCGUG.UCUGUCCAAAACUAUUU
+R.norvegicus.1                     GCCAUCGGGAAUAUCGUG.UCCGCCCAGUGCUCUUU
+E.europaeus.1                      CCGUCUGGGAAUGUCGUGGUCCGCCCGGCGCUCUUU
+Monodelphis_domestic.1             GCCAUCGGGAAUAUCGUG.UCCGUCCAAUGCUCUUU
+#=GC SS_cons                       .....>>>>>..>>>>>>.>>...>>>>>>>.....
+#=GC RF                            gcuAcCGGGaAuaUCGUG.UCagcCCagaGcucUUu
+//

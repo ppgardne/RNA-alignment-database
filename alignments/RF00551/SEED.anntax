@@ -1,0 +1,263 @@
+# STOCKHOLM 1.0
+#=GF ID    bicoid_3
+#=GF AC    RF00551
+#=GF DE    Bicoid 3'-UTR regulatory element
+#=GF AU    Moxon SJ
+#=GF GA    91.0
+#=GF NC    26.8
+#=GF TC    92.7
+#=GF SE    PMID:15016447
+#=GF SS    Published; PMID:15016447
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000205 SO:three_prime_UTR
+#=GF RN    [1]
+#=GF RM    15016447
+#=GF RT    Secondary structure of the 3' UTR of bicoid mRNA.
+#=GF RA    Brunel C, Ehresmann C;
+#=GF RL    Biochimie 2004;86:91-104.
+#=GF CC    This family represents the core structure of the bicoid 3'-UTR and
+#=GF CC    consists of domains II, III, IV and V which are known to be essential for
+#=GF CC    correct transport and localisation of bicoid mRNA during oocyte and embryo
+#=GF CC    differentiation [1].
+#=GF WK    http://en.wikipedia.org/wiki/Bicoid_3'-UTR_regulatory_element
+#=GF SQ    15
+
+#=GS D.virilis.1       AC    M32122.1/291-827
+#=GS D.picticornis.1   AC    M32126.1/307-857
+#=GS D.heteroneura.1   AC    M32125.1/227-779
+#=GS D.teissieri.1     AC    M32121.1/250-792
+#=GS D.melanogaster.1  AC    AF466626.1/3213-3763
+#=GS D.melanogaster.2  AC    AF466630.1/3213-3763
+#=GS D.melanogaster.3  AC    AF466631.1/3213-3763
+#=GS D.simulans.1      AC    M32123.1/262-812
+#=GS D.melanogaster.4  AC    AC002512.1/11569-12119
+#=GS D.pseudoobscura.1 AC    X55735.1/2601-3156
+#=GS D.melanogaster.5  AC    AF466639.1/3212-3762
+#=GS D.melanogaster.6  AC    AF466636.1/3213-3763
+#=GS D.subobscura.1    AC    X78058.1/486-1031
+#=GS D.sechellia.1     AC    M32124.1/262-812
+#=GS D.simulans.2      AC    AF465792.1/2973-3522
+
+D.virilis.1                   GCU.G.UAAUUUU.CCAA.GCAUUUUCAAUG..UA.UUUCCAUAA..G..
+D.picticornis.1               UGCCG.AGUUUUU.UUAAUGCAUUUUCUACUGACA.UAAACUUAA..GU.
+D.heteroneura.1               GCUGC.CGAGUUUUUUAAUGCAUUUUCUACUGACA.UAAACUGAA..GUG
+D.teissieri.1                 GGCUACACGGAUU.CCAGUGCACGUCAUAGGGAUACCCUAGUUUA..CU.
+D.melanogaster.1              GGCCGCACGGAUU.CCAGUGCAUAUCUUAGUGAUACUCCAGUUAA..CU.
+D.melanogaster.2              GGCCGCACGGAUU.CCAGUGCAUAUCUUAGUGAUACUCCAGUUAA..CU.
+D.melanogaster.3              GGCCGCACGGAUU.CCAGUGCAUAUCUUAGUGAUACUCCAGUUAA..CU.
+D.simulans.1                  GGCGACACGGAUU.CCAGUGCAUAUCUUAGUGAUACUCCAGUUAA..CU.
+D.melanogaster.4              GGCCGCACGGAUU.CCAGUGCAUAUCUUAGUGAUACUCCAGUUAA..CU.
+D.pseudoobscura.1             GGC.G.GCACAUU.UCAAUGAUUCUUCAAGUGAUACUAUAUAUAUUUCU.
+D.melanogaster.5              GGCCGCACGGAUU.CCAGUGCAUAUCUUAGUGAUACUCCAGUUAA..CU.
+D.melanogaster.6              GGCCGCACGGAUU.CCAGUGCAUAUCUUAGUGAUACUCCAGUUAA..CU.
+D.subobscura.1                GGC.G.GCAGAUU.UUAAUCAAACUUCAAGUGAUAUUCGCUCUUAC.CU.
+D.sechellia.1                 GGCGACACGGAUU.CCAGUGCAUAUCUUAGUGAUACUCCAGUUAA..CU.
+D.simulans.2                  GGCGACACGGAUU.CCAGUGCAUAUCUUAGUGAUACUCCAGUUAA..CU.
+#=GC SS_cons                  <<<<..<<<<<<<..<<<<<<...<<<<<<<<<<................
+
+D.virilis.1                   .........AA.........ACUUCCUUGGUAAAACCUUCAUUGGUCUCA
+D.picticornis.1               CCAAC...UAUUUGGAA...ACUUUAUUUGUAAAGCGCUCUUUGAUCUCA
+D.heteroneura.1               C.......CAUUAUUUGGAAACUUUAUUUGUAAAGCGUUCUUUGAUCUCA
+D.teissieri.1                 C.......GAU.........ACUUUCCCUGUAAUACGCUUUUCGCC.UCA
+D.melanogaster.1              C.......UAU.........ACUUUCCCUGCAAUACGCUAUUCGCC.UUA
+D.melanogaster.2              C.......UAU.........ACUUUCCCUGCAAUACGCUAUUCGCC.UUA
+D.melanogaster.3              C.......UAU.........ACUUUCCCUGCAAUACGCUAUUCGCC.UUA
+D.simulans.1                  C.......CAU.........ACUUUCCCUGCAAUACGCUAUUCGCC.UCA
+D.melanogaster.4              C.......UAU.........ACUUUCCCUGCAAUACGCUAUUCGCC.UUA
+D.pseudoobscura.1             CACUUU..UAUCGGCA....ACUUUCUCUGCCAUACGUUCGUUGCU.UCG
+D.melanogaster.5              C.......UAU.........ACUUUCCCUGCAAUACGCUAUUCGCC.UUA
+D.melanogaster.6              C.......UAU.........ACUUUCCCUGCAAUACGCUAUUCGCC.UUA
+D.subobscura.1                CUCUGCUUUAUCGAAA....ACUUUCUCUGCCAUGCGUUCGUUGCU.UCG
+D.sechellia.1                 C.......CAU.........ACUUUCCCUGCAAUACGCUAUUCGCC.UCA
+D.simulans.2                  C.......CAU.........ACUUUCCCUGCAAUACGCUAUUCGCC.UCA
+#=GC SS_cons                  ....................<<<<<<<.<<.<<<<<<<<....<<<.<<<
+
+D.virilis.1                   ACUCUGUCUGGCUGGGCAUUUGCC..AAAGCCCAUGAGUGCCCAUCCAGA
+D.picticornis.1               AUGCUGUCUGGCUGGACAUUUGCC..AAAGCCCAUGAACGCCCUACCAGA
+D.heteroneura.1               ACGCUGUCUGGCUGGACAUUUGCC..AAAGCCCAUGAAUGCCCAACCAGA
+D.teissieri.1                 AUUGUAUCUGGGUGGCUGCUCCA..UAAAGCCCGGGAAUAUCCAACCAGU
+D.melanogaster.1              GAUGUAUCUGGGUGGCUGCUCCAC.UAAAGCCCGGGAAUAUGCAACCAGU
+D.melanogaster.2              GAUGUAUCUGGGUGGCUGCUCCAC.UAAAGCCCGGGAAUAUGCAACCAGU
+D.melanogaster.3              GAUGUAUCUGGGUGGCUGCUCCAC.UGAAGCCCGGGAAUAUGCAACCAGU
+D.simulans.1                  GAUGUAUUUGGGUGGUUGCUCCAC.UAAAGCCCAGGAAUAUCCAGCCAGU
+D.melanogaster.4              GAUGUAUCUGGGUGGCUGCUCCAC.UAAAGCCCGGGAAUAUGCAACCAGU
+D.pseudoobscura.1             UUUGUUUUUGGUCGGGUGUUCCCCCAAAAGCCCAGGGAUACCCUGCUAAA
+D.melanogaster.5              GAUGUAUCUGGGUGGCUGCUCCAC.UAAAGCCCGGGAAUAUGCAACCAGU
+D.melanogaster.6              GAUGUAUCUGGGUGGCUGCUCCAC.UAAAGCCCGGGAAUAUGCAACCAGU
+D.subobscura.1                UUUGUUUUUGGUUGGACAUUCCCCCAAAAGCCCAGGAAUUGCCUGCUAAA
+D.sechellia.1                 GAUGUAUCUGGGUGGUUGCUCCAU.UAAAGCCCAGGAAUAUCCAGCCAGU
+D.simulans.2                  GAUGUAUCUGGGUGGUUGCUCCAC..UAAGCCCAGGAAUAACCAGCCAGU
+#=GC SS_cons                  <<<<<<.<<<<...<<<<.<<<............>>>.>>.>>..>>>>.
+
+D.virilis.1                   CAUACUUGAGACAA.UAAU...GGGCUUAAGCUGAAGGUUUUACCGAAGA
+D.picticornis.1               CACUGUUGAGACAAAUA.U...GGGCUUUAAUUGAACGCUUUACAGAAGA
+D.heteroneura.1               CACUGUUGAGACGAAUA.U...GGGCUUUAAUUGAACGCUUUACAGAAGA
+D.teissieri.1                 UACAUUUGAAGCCA.UU.U...GGGCUU.....UAGCGUAUUCCACAGAA
+D.melanogaster.1              UACAUUUGAGGCCA.UU.U...GGGCUU.....AAGCGUAUUCCAUGGAA
+D.melanogaster.2              UACAUUUGAGGCCA.UU.U...GGGCUU.....AAGCGUAUUCCAUGGAA
+D.melanogaster.3              UACAUUUGAGGCCA.UU.U...GGGCUU.....AAGCGUAUUCCAUGGAA
+D.simulans.1                  UACAUUUGAGGCCA.UU.U...GGGCUU.....AAGCGUAUUCCAUGGAA
+D.melanogaster.4              UACAUUUGAGGCCA.UU.U...GGGCUU.....AAGCGUAUUCCAUGGAA
+D.pseudoobscura.1             ACCAAACGAGGUGU.UU.UAUUGGGCUU.....GAACGUAUGCCAGAGAA
+D.melanogaster.5              UACAUUUGAGGCCA.UU.U...GGGCUU.....AAGCGUAUUCCAUGGAA
+D.melanogaster.6              UACAUUUGAGGCCA.UU.U...GGGCUU.....AAGCGUAUUCCAUGGCA
+D.subobscura.1                AUCAAUCGAGGUGU.UU.U.AUGGGCUU.....GAACGCAUGCCGGAGAA
+D.sechellia.1                 UACAUUUGAGGCCA.UU.U...GGGCUU.....AAGCGUAUUCCAUGGAA
+D.simulans.2                  UACAUUUGAGGCCA.UU.U...GGGCUU.....AAGCGUAUUCCAUGGAA
+#=GC SS_cons                  >>>>>>>>>>>>......................>>>>>>>>.>>.>>>>
+
+D.virilis.1                   AGUU.UUCGUAUGAAAAUC.......U.CA.UGUA....AG...AUUC.A
+D.picticornis.1               AGUU.UA.U..AAAUAAAUACAA......AA.UGC.........AUUUCU
+D.heteroneura.1               AGUUUAUAAAUACACA..........UAAAAUGC..........AUUUCU
+D.teissieri.1                 AGUU.AUCGUCCCAC.......AACUUAUAUUCCG....AGCCAGCAAGA
+D.melanogaster.1              AGUU.AUCGUCCCACAUUUCGGAAAUUAUAUUCCG....AGCCAGCAAGA
+D.melanogaster.2              AGUU.AUCGUCCCACAUUUCGGAAAUUAUAUUCCG....AGCCAGCAAGA
+D.melanogaster.3              AGUU.AUCGUCCCACAUUUCGGAAAUUAUAUUCCG....AGCCAGCAAGA
+D.simulans.1                  AGUU.UUCUCCCCACAUUUCGGAAAUUAAAUUCCG....AGCCAGCAAGA
+D.melanogaster.4              AGUU.AUCGUCCCACAUUUCGGAAAUUAUAUUCCG....AGCCAGCAAGA
+D.pseudoobscura.1             AGUU.CU.UUCCCACAUUU.......UAAGUUCCUCAAAAGC..AAAGGA
+D.melanogaster.5              AGUU.AUCGUCCCACAUUUCGGAAAUUAUAUUCCG....AGCCAGCAAGA
+D.melanogaster.6              AGUU.AUCGUCCCACAUUUCGGAAAUUAUAUUCCG....AGCCAGCAAGA
+D.subobscura.1                AGUU.AU.UUUCCCC...........U.CAUUUUA....AGC..AAAGGA
+D.sechellia.1                 AGUU.UUCGCCCCACAUUUCGGAAAUUAAAUUCCG....AGCCAUCAAGA
+D.simulans.2                  AGUU.GUCGUCCCAUAUUUCGAAAAUUAAAUUCCG....AGCCAGCAAGA
+#=GC SS_cons                  >>>.........................<<<<<<<.......<<<<<<<<
+
+D.virilis.1                   UU.UCUA.UAAUUUUGGCAC..CUUGGCAUAGCUUACAAAAAAACUGCAC
+D.picticornis.1               UUCUUA..UAACUCAGGCCA..ACUGGCAUAGCAAGU...AAAACUGUAC
+D.heteroneura.1               UUCUUA..UAACUCAGGCCA..ACUGGCAUAGCAAGU...AAAACUGUAC
+D.teissieri.1                 AAAUCU..UCUCUGUAACUA..UUUGACAUAGCUA.....AAAACUGUAC
+D.melanogaster.1              AAAUCU..UCUCUGUUACAA..UUUGACAUAGCUA.....AAAACUGUAC
+D.melanogaster.2              AAAUCU..UCUCUGUUACAA..UUUGACAUAGCUA.....AAAACUGUAC
+D.melanogaster.3              AAAUCU..UCUCUGUUACAA..UUUGACAUAGCUA.....AAAACUGUAC
+D.simulans.1                  AAAUCU..UCUCUGUUACAA..UUUGACAUGGCUA.....AAAACUGUAC
+D.melanogaster.4              AAAUCU..UCUCUGUUACAA..UUUGACAUAGCUA.....AAAACUGUAC
+D.pseudoobscura.1             AUCUCU..GUACUUUAACAAAUUUUGUCAUAGCUA.....AAACCUGUAC
+D.melanogaster.5              AAAUCU..UCUCUGUUACAA..UUUGACAUAGCUA.....AAAACUGUAC
+D.melanogaster.6              AAAUCU..UCUCUGUUACAA..UUUGACAUAGCUA.....AAAACUGUAC
+D.subobscura.1                AUCCCCUGGCUCUGAUACAAA.UUUGUCAUAGCUA.....AAACCUGUCC
+D.sechellia.1                 AAAUCU..UCUCUGUUACAA..UUUGACAUAGCUA.....AAAACUGUAC
+D.simulans.2                  AAAUCU..UCUCUGUUACAA..UUUGACAUAGCUA.....AAAACUGUAC
+#=GC SS_cons                  <<.<<<..<.<<<<..<<<<..<<<<.<<<<<<<<......<<<.<<...
+
+D.virilis.1                   UGAUCUAAAUGGAAAAUGUUUCUCUUCCU.GAUAAUCGCACGCCUUU.CU
+D.picticornis.1               UGAUCUAAAUGAAAAAUGUUUCUCUUCCU.AAUAAUCGCAGGUCCUU.CA
+D.heteroneura.1               UGAUCUAAAUGAAAAAUGUUUCUCUUCCU.GAUAAUCGCACGUCCUU.CU
+D.teissieri.1                 UAAUCAAAAUGAAAAAUGUUUCUCUUGGG.CGUAAUCUUA.....UA.CA
+D.melanogaster.1              UAAUCAAAAUGAAAAAUGUUUCUCUUGGG.CGUAAUCUCA.....UA.CA
+D.melanogaster.2              UAAUCAAAAUGAAAAAUGUUUCUCUUGGG.CGUAAUCUCA.....UA.CA
+D.melanogaster.3              UAAUCAAAAUGAAAAAUGUUUCUCUUGGG.CGUAAUCUCA.....UA.CA
+D.simulans.1                  UAAUCAAAAUGAAAAAUGUUUCUCUUGGG.CGUAAUCUCA.....UA.CA
+D.melanogaster.4              UAAUCAAAAUGAAAAAUGUUUCUCUUGGG.CGUAAUCUCA.....UA.CA
+D.pseudoobscura.1             UUAUCGAAAUGCAAAAUGUUUCUCUUGGUUGGUAAUCAUA.....CA.AA
+D.melanogaster.5              UAAUCAAAAUGAAAAAUGUUUCUCUUGGG.CGUAAUCUCA.....UA.CA
+D.melanogaster.6              UAAUCAAAAUGAAAAAUGUUUCUCUUGGG.CGUAAUCUCA.....UA.CA
+D.subobscura.1                UAAUCGAAAUGCAAAAUGUUUCUCUUGGC.GGUAAUCAUA.....UAACA
+D.sechellia.1                 UAAUCAAAAUGAAAAAUGUUUCUCUUGGG.CGUAAUCUCA.....UA.CA
+D.simulans.2                  UAAUCAAAAUGAAAAAUGUUUCUCUUGGG.CGUAAUCUCA.....UA.CA
+#=GC SS_cons                  ..<<<<<<.....<<<<<<<<.<<<<<<<..<<<<<..............
+
+D.virilis.1                   UUUUG......GCCUGCCAUUAUCAGCCGAAGAUCGAACAUUUAAACAAU
+D.picticornis.1               A..UGGACAUUAUCUGCCAUUAUCAGUCGAAGAUCGAACGUUUAACCAAU
+D.heteroneura.1               A..UGGACAUUAUAUGCCAUUAUCAGUCGAAGAUCGAACGUUUAACCAAU
+D.teissieri.1                 A..UG.............AUUAC.CCUCAAAGAUCGAACAUUUAAGCAAU
+D.melanogaster.1              A..UG.............AUUAC.CCUUAAAGAUCGAACAUUUAAACAAU
+D.melanogaster.2              A..UG.............AUUAC.CCUUAAAGAUCGAACAUUUAAACAAU
+D.melanogaster.3              A..UG.............AUUAC.CCUUAAAGAUCGAACAUUUAAACAAU
+D.simulans.1                  A..UG.............AUUAC.CCUUAAAGAUCGAACAUUUAAACAAU
+D.melanogaster.4              A..UG.............AUUAC.CCUUAAAGAUCGAACAUUUAAACAAU
+D.pseudoobscura.1             AC.UG.........UAUUAUUACCAGCUAAAGAUUGAACAUUUAAACAA.
+D.melanogaster.5              A..UG.............AUUAC.CCUUAAAGAUCGAACAUUUAAACAAU
+D.melanogaster.6              A..UG.............AUUAC.CCUUAAAGAUCGAACAUUUAAACAAU
+D.subobscura.1                AU.UG....UUUUAUAUAAUUACCAUCUAAAGAUUGAACAUUUAAACAA.
+D.sechellia.1                 A..UG.............AUUAC.CCUUAAAGAUCGAACAUUUAAACAAU
+D.simulans.2                  A..UG.............AUUAC.CCUUAAAGAUCGAACAUUUAAACAAU
+#=GC SS_cons                  ..................>>>>>.>>>..>>>>..>>>>>>>>.......
+
+D.virilis.1                   AAUACUCGUCAGAAUAUUUUUAAUU..CUUGCUAUGCCCC.GGUUU...U
+D.picticornis.1               AAUGUUCUUCAGAAUAUUUUUAAG..CUUUGUUAUGCCAC.AGUUU...A
+D.heteroneura.1               AAUGUUCUUCAGAAUAUUUUUAAG..CUUUGUUAUGCCAC.AGUUU...G
+D.teissieri.1                 AAUAUUUGAUAUGAUAUUUUCAAUUUCUAUGCUAUGCCAA.AGCGUCUGA
+D.melanogaster.1              AAUAUUUGAUAUGAUAUUUUCAAUUUCUAUGCUAUGCCAA.AGUGUCUGA
+D.melanogaster.2              AAUAUUUGAUAUGAUAUUUUCAAUUUCUAUGCUAUGCCAA.AGUGUCUGA
+D.melanogaster.3              AAUAUUUGAUAUGAUAUUUUCAAUUUCUAUGCUAUGCCAA.AGUGUCUGA
+D.simulans.1                  AAUAUUUGAUAUGAUAUUUUCAAUUUCUAUGCUAUGCCAA.AGUGUCUGA
+D.melanogaster.4              AAUAUUUGAUAUGAUAUUUUCAAUUUCUAUGCUAUGCCAA.AGUGUCUGA
+D.pseudoobscura.1             ....UUC.............CGA...AUACGCCAUGACAAAAGCGU.UGG
+D.melanogaster.5              AAUAUUUGAUAUGAUAUUUUCAAUUUCUAUGCUAUGCCAA.AGUGUCUGA
+D.melanogaster.6              AAUAUUUGAUAUGAUAUUUUCAAUUUCUAUGCUAUGCCAA.AGUGUCUGA
+D.subobscura.1                ....CUC.............AGA...AUAUGCUAUGACAA.AGCGU.UGG
+D.sechellia.1                 AAUAUUUGAUAUGAUAUUUUCAAUUUCUAUGCUAUGCCAA.AGUGUCUGA
+D.simulans.2                  AAUAUUUGAUAUGAUAUUUUCAAUUUCUAUGCUAUGCCAA.AGUGUCUGA
+#=GC SS_cons                  ....>>>>>>..........>>.>>>.>>.>>>>>>.>>>.><.<<<<<.
+
+D.virilis.1                   CAUGUU.ACAAUUGA..ACAUUCU.UCACGUGAGAAUUGUUCAAAUAUUG
+D.picticornis.1               CAUGUU..ACAAUUAA.ACAUUCU.UCACGUGAGAAUUGUUUACAAAUUG
+D.heteroneura.1               CAUGUUGCA...AUUAAACAUUCU.UCACGUGAGAAUUGUUUACAAAUUG
+D.teissieri.1                 CAUAAUCAAACAUUUGCACAUUCUUCGACCA.AGAAUAGUCAGCAAAUUG
+D.melanogaster.1              CAUAAUCAAACAUUUGCGCAUUCUUUGACCA.AGAAUAGUCAGCAAAUUG
+D.melanogaster.2              CAUAAUCAAACAUUUGCGCAUUCUUUGACCA.AGAAUAGUCAGCAAAUUA
+D.melanogaster.3              CAUAAUCAAACAUUUGCGCAUUCUUUGACCA.AGAAUAGUCAGCAAAUUG
+D.simulans.1                  CAUAAUCAAACAUUUGCACAUUCUUUGACCA.AGAAUAGUCAGCAAAUUG
+D.melanogaster.4              CAUAAUCAAACAUUUGCGCAUUCUUUGACCA.AGAAUAGUCAGCAAAUUG
+D.pseudoobscura.1             CUUGUUUCGACAUUUGGACAUUCUUUCUACA.AGAAAUGUCAGCAAAUUG
+D.melanogaster.5              CAUAAUCAAACAUUUGCGCAUUCUUUGACCA.AGAAUAGUCAGCAAAUUG
+D.melanogaster.6              CAUAAUCAAACAUUUGCGCAUUCUUUGACCA.AGAAUAGUCAGCAAAUUG
+D.subobscura.1                CUUG.UCGGACAUUUGGACAUUCUUUCUGCA.AGAAAUGUCAGCAAAUCG
+D.sechellia.1                 CAUAAUCAAACAUUUGCACAUUCUUUGACCA.AGAAUAGUCAGCAAAUUG
+D.simulans.2                  CAUAAUCAAACAUUUGCACAUUCUUUGACCA.AGAAUAGUCAGCAAAUUG
+#=GC SS_cons                  <<<.........<<<<<<<<<<<<........>>>>>.>>..>>>>>...
+
+D.virilis.1                   UACCACAAUAC.AUGAAUACCACA..UGCCUAAGUUAUC..GAAA.CGAA
+D.picticornis.1               UCUCUAAACAC.AUGUGAAUCACA..GGCCUCAGUUAUC.UAAAC.GAAA
+D.heteroneura.1               UCUCUAAACAC.AUG.UGA.ACCACAGGCCUCACU..UAUCUAAACGAAA
+D.teissieri.1                 UAUUUUCAAUCAAUG..CAGAUCAUGUGUUCCAGUUUCGGAGAUUUUUUG
+D.melanogaster.1              UAUUUUCAAUCAAUG..CAGACCAUUUGUUUCAGAUUCGGAGAUUUUUUU
+D.melanogaster.2              UAUUUUCAAUCAAUG..CAGACCAUUUGUUUCAGAUUCGGAGAUUUUUUG
+D.melanogaster.3              UAUUUUCAAUCAAUG..CAGACCAUUUGUUUCAGAUUCGGAGAUUUUUUG
+D.simulans.1                  UAUUUUCAAUCAAUG..CAGACCAUAUGUUCCAGUUUCGGAGAUUUUUUG
+D.melanogaster.4              UAUUUUCAAUCAAUG..CAGACCAUUUGUUUCAGAUUCGGAGAUUUUUUG
+D.pseudoobscura.1             UCUGCCAAGACAAAC..CA.AACAUUUGUUU.CGU..UCUAGGAUUCUUU
+D.melanogaster.5              UAUUUUCAAUCAAUG..CAGACCAUUUGUUUCAGAUUCUGAGAUUUUUUG
+D.melanogaster.6              UAUUUUCAAUCAAUG..CAGACCAUUUGUUUCAGAUUCGGAGAUUUUUUG
+D.subobscura.1                UCUGCCGAAACAAGC..CA.AACAUUUGUU.CGU...CCUCGGAUUCCUU
+D.sechellia.1                 UAUUUUCAAUCAAUG..CAGACCAUAUGUUCCAGUUUCGGAGAUUUUUUG
+D.simulans.2                  UAUUUUCAAUCAAUG..CAGACCAUAUGUUCCAGUUUCGGAGAUUUUUUG
+#=GC SS_cons                  ............>>>..>>>>>>..>>>>..>>>>....>>>>>>>>>>>
+
+D.virilis.1                   U..ACUA.UAUA.UUAC...............UGG.AGGAUUUUCGUUU.
+D.picticornis.1               U...CU..GUACUU.AC...............UUU.CAGAAUGUAAGAG.
+D.heteroneura.1               U...CU...GUACUUAC...............UUU.CAGAAUGUAAGAU.
+D.teissieri.1                 CUGUCAA.CGGAAUAAC...............UAU.CCUACCCACACUGU
+D.melanogaster.1              CUGCCAAACGGAAUAAC...............UAU.CAUAGCU.CACAUU
+D.melanogaster.2              CUGCCAAACGGAAUAAC...............UAU.CAUAGCU.CACAUU
+D.melanogaster.3              CUGCCAAACGGAAUAAC...............UAU.CAUAGCU.CACAUU
+D.simulans.1                  CUGCCAAACGGAAUACU...............UAU.AAAAACC.CACAUU
+D.melanogaster.4              CUGCCAAACGGAAUAAC...............UAU.CAUAGCU.CACAUU
+D.pseudoobscura.1             U..ACU....GAAUUAUUUAUAUUAUAUCAUAUAUUUAUAUCCUAAGUUU
+D.melanogaster.5              CUGCCAAACGGAAUAAC...............UAU.CAUAGCU.CACAUU
+D.melanogaster.6              CUGCCAAACGGAAUAAC...............UAU.CAUAGCU.CACAUU
+D.subobscura.1                U..ACUGAUUUAUUUAU.......AUACCCAUUAU.UAUAUUUUAAGAUC
+D.sechellia.1                 CUGCCAAACGGAAUACU...............UAU.AAAAACC.CAAAUU
+D.simulans.2                  CUGCCAAACGGAAUACU...............UAU.AAAAACC.CACAUU
+#=GC SS_cons                  >>>.....>>>>>>>...................................
+
+D.virilis.1                   ..UUUU.CUUAU.AAUUGAAAAUGGGUUGAAAAUUUACCAGUU
+D.picticornis.1               ..AGUU..UUAUCAAUUGAAAAUGCAUUCAAAAUAUGU.GUCU
+D.heteroneura.1               ..AGUU..UUAUCAAUUGAAAAUGCAUUCCAAAUAUGUAUCUC
+D.teissieri.1                 CUAUUU..CUAUCACUUAGAAGAGCAUUGAAAUCUGUUUUGUU
+D.melanogaster.1              CUAUUU..ACAUCACUAAGAAGAGCAUUGCAAUCUGUUAGGCC
+D.melanogaster.2              CUAUUU..ACAUCACUAAGAAGAGCAUUGCAAUCUGUUAGGCC
+D.melanogaster.3              CUAAUU..ACAUCACUAAGAAGAGCAUUGCAAUCUGUUAGGCC
+D.simulans.1                  CUAUUU..ACAUCACUAAGAAGAGCAUUGCAAUCUGUUUAGCC
+D.melanogaster.4              CUAUUU..ACAUCACUAAGAAGAGCAUUGCAAUCUGUUAGGCC
+D.pseudoobscura.1             CCAUUUGAAUAUCACUUCAAGUUGCAUUGAAAUCUGCUUAGCU
+D.melanogaster.5              CUAUUU..ACAUCACUAAGAAGAGCAUUGCAAUCUGUUAGGCC
+D.melanogaster.6              CUAUUU..ACAUCACUAAGAAGAGCAUUGCAAUCUGUUAGGCC
+D.subobscura.1                GUCUUUUAAUAUCACUUCAAGUUGCAUUGAAACCUGUUUAGCU
+D.sechellia.1                 CUAUUU..ACAUCACUAAGAAGAGCAUUGCAAUCUGUUUAGCC
+D.simulans.2                  CUAUUU..ACAUCACUAAGAAGAGCAUUGCAAUCUGUUUAGCC
+#=GC SS_cons                  ..........>>>>>>>>>>...>>>>>>.>>>>>>>..>>>>
+//

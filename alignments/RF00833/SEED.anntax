@@ -1,0 +1,46 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-70
+#=GF AC    RF00833
+#=GF DE    microRNA mir-70
+#=GF AU    Wilkinson A
+#=GF GA    70.0
+#=GF NC    60.3
+#=GF TC    101.4
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000279
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    4
+
+#=GS C.brenneri.1 AC    ABEG01011270.1/448-567
+#=GS C.remanei.1  AC    AAGD02012111.1/237430-237549
+#=GS C.elegans.1  AC    AF067949.2/32297-32412
+#=GS C.briggsae.1 AC    CAAC02000558.1/449320-449438
+
+C.brenneri.1             AUUUAAUGGCAGAAUUGG.AACUUCUGAACCACCACUGACGAAUCACAUU
+C.remanei.1              UCAGAUGAACGAGGAGAACAGCUAUAGGAAUACCGUUGAUGCAUUACACU
+C.elegans.1              UCAAAAUAAAACGAUGAA.AACUAUCGAAAUACUAUCGACGAAUAACACU
+C.briggsae.1             UAUUUUCAAAACGGAUGU.AUCUCUAGGAACAGCCAUCAUGUAAGACAUU
+#=GC SS_cons             .................<.<<<<<<.<<<<<<<<<<<<<<<<<<.<<<<<
+#=GC RF                  ucAAAAuAAAACGaauaa.AaCucuaGgAAcAccaaccAcGuAuaACAuu
+
+C.brenneri.1             GAAACU.AAAGAGAUGUAAUACGUCAUUUGGUGUUUCCGAAGUUUAUACU
+C.remanei.1              AAACAUUUGAAAGAUGUAAUACGUCAUUUGGUGUUCCUAUAGUU..ACCC
+C.elegans.1              UAUGA....AGAAAUGUAAUACGUCGUU.GGUGUUUCCAUAGUUUGAAUU
+C.briggsae.1             UCUAAC.UGAAAGAUGUAAUACGUGAUU.GGUGUUCCCAGAGUUUACCGU
+#=GC SS_cons             <..........>>>>>>.>>>>>>>>>>.>>>>>>>>.>>>>>>>.....
+#=GC RF                  uaUaAc.ugAaaaaUGUAaUaCgUgguu.ggUgUUcCCagaGuUuaaauU
+
+C.brenneri.1             GUCAAGUUUAGCUUACUUUAAC
+C.remanei.1              GUUCAACUUUUAUUCUUCUUCU
+C.elegans.1              GUUUAUUCCAUUAUUUUUGAGC
+C.briggsae.1             UUCCUUCUUUUAUUUUUCCAAA
+#=GC SS_cons             ......................
+#=GC RF                  uUuuaUcuuuuAuuuuuccAAA
+//

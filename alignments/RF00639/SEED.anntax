@@ -1,0 +1,195 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-515
+#=GF AC    RF00639
+#=GF DE    microRNA mir-515
+#=GF AU    Wilkinson A
+#=GF GA    51.0
+#=GF NC    50.7
+#=GF TC    52.3
+#=GF PI    mir-373; mir-512
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000020
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    41
+
+#=GS M.mulatta.1     AC    AANU01181649.1/13118-13204
+#=GS M.mulatta.2     AC    AANU01181659.1/6633-6719
+#=GS M.mulatta.3     AC    AANU01181661.1/7385-7471
+#=GS M.mulatta.4     AC    AANU01181649.1/2975-3064
+#=GS M.mulatta.5     AC    AANU01181651.1/3882-3966
+#=GS M.mulatta.6     AC    AANU01181659.1/8603-8689
+#=GS M.mulatta.7     AC    AANU01181649.1/17672-17755
+#=GS M.mulatta.8     AC    AANU01181659.1/12136-12222
+#=GS M.mulatta.9     AC    AANU01181659.1/14614-14698
+#=GS M.mulatta.10    AC    AANU01181645.1/2675-2762
+#=GS M.mulatta.11    AC    AANU01181659.1/3404-3490
+#=GS M.mulatta.12    AC    AANU01181659.1/5786-5873
+#=GS M.mulatta.13    AC    AANU01181661.1/11625-11711
+#=GS M.mulatta.14    AC    AANU01181661.1/14497-14582
+#=GS M.mulatta.15    AC    AANU01181654.1/1265-1351
+#=GS M.mulatta.16    AC    AANU01181652.1/1375-1461
+#=GS M.mulatta.17    AC    AANU01181658.1/2015-2101
+#=GS M.mulatta.18    AC    AANU01181649.1/9934-10020
+#=GS M.mulatta.19    AC    AANU01181659.1/2591-2677
+#=GS M.mulatta.20    AC    AANU01156321.1/745-831
+#=GS H.sapiens.1     AC    AADC01140684.1/18074-18158
+#=GS H.sapiens.2     AC    AADD01166735.1/1220-1306
+#=GS H.sapiens.3     AC    AADD01166738.1/2140-2226
+#=GS H.sapiens.4     AC    AADD01166740.1/446-532
+#=GS H.sapiens.5     AC    AADD01166735.1/8855-8942
+#=GS H.sapiens.6     AC    AADC01140615.1/1296-1380
+#=GS H.sapiens.7     AC    AADD01166735.1/7661-7745
+#=GS H.sapiens.8     AC    ABBA01184320.1/134-221
+#=GS H.sapiens.9     AC    AADD01166740.1/3349-3438
+#=GS H.sapiens.10    AC    ABBA01068200.1/49819-49909
+#=GS P.troglodytes.1 AC    AACZ02187132.1/9933-10019
+#=GS P.troglodytes.2 AC    AACZ02187132.1/15942-16028
+#=GS P.troglodytes.3 AC    AACZ02187132.1/1334-1420
+#=GS P.troglodytes.4 AC    AACZ02187131.1/7810-7896
+#=GS P.troglodytes.5 AC    AACZ02187132.1/20246-20332
+#=GS P.troglodytes.6 AC    AACZ02187131.1/5603-5689
+#=GS P.troglodytes.7 AC    AACZ02187132.1/4891-4977
+#=GS P.troglodytes.8 AC    AACZ02187131.1/12049-12135
+#=GS P.abelii.1      AC    AC200331.2/128521-128607
+#=GS P.abelii.2      AC    AC200331.2/109632-109718
+#=GS P.abelii.3      AC    AC200331.2/156864-156950
+
+M.mulatta.1                 UCUCAUGCUGUGACUCUCUGG..ACA...GAAGCGGUUUCUGUU....GU
+M.mulatta.2                 UCUCAGGCUGUGACCCUCUAG..AGG...GAAGCACUUUCUGUU....GU
+M.mulatta.3                 UCUCAUGCAGUCAUUCUCCAA..UGG...GAAGCACCUUCUGUG....GU
+M.mulatta.4                 UCUCAGGCUGUGACUAUCUGG..AGGUAAGAAGUGCUUACUGUU....GU
+M.mulatta.5                 CCUCAUGCAGUGACACUCUAA..AUG...GCAGCACUGUCUGUG....GU
+M.mulatta.6                 UCUCAGGCUGUGACCCUCUAG..AGG...GAAGCACUUUAUCUU....GU
+M.mulatta.7                 UCUCAGGCUGUGACCAUCUAC..AGG...GAAGCACUUUCUAUG....GU
+M.mulatta.8                 UGUCAGGCUGUGACCCUCCAG..AGG...GAAGCACUUUCUGUU....GU
+M.mulatta.9                 UCUCAGGCUGUGACUCUCCAA..AGG...GAAGAAUUUUCUGUU....GC
+M.mulatta.10                CCUCAGCCUGUGGCACUCAAACUGUG...GGGGCACUUUCUGCU....CU
+M.mulatta.11                UCUCAGGCUCUAACCCUCUAG..AGG...GAAGCGCUUUCUGUC....GU
+M.mulatta.12                UCUCAGGCUGUGACUCUCCAG..AGG...GAUGCACUUUCUUUU....AU
+M.mulatta.13                UCUCAGUCUGUGACCCUCUAG..AAG...GAAGCACUUUCUGUU....GU
+M.mulatta.14                UCCCAGGCUGUGACUCUACAA..AGG...AAAGCACUUUCUGUU....GU
+M.mulatta.15                UCUCAUGAUGUGACUCUCUAG..AGG...AAAGCGCUUACUGUU....GG
+M.mulatta.16                UAUCGGGCUGUGACCCUCUAA..AGG...GAAGCGCUUUCUGUU....GU
+M.mulatta.17                UUUCAUGCUGUGACUCUCUGG..AGG...GAAGCGCUUUCUGUU....GU
+M.mulatta.18                UUUCAUGCUGUGACCCUACAA..AGG...GAAGCCCUUUCUGUU....GU
+M.mulatta.19                UUUCAGGCUGUGACCCUCUUG..AGG...GAAGCACUUUCUGUU....GU
+M.mulatta.20                UCUCGUGCUGUGACCCUUUAG..AGG...GAAGCACUUUCUGUU....GU
+H.sapiens.1                 UCUCAUGAUGUGACCAUCUGG..AGGUAAGAAGCACUUUGUGUU....UU
+H.sapiens.2                 UCCCAUGCUGUGACCCUCUAG..AGG...GAAGCACUUUCUGUU....GU
+H.sapiens.3                 UCUCAGGCUGUGUCCCUCUAG..AGG...GAAGCGCUUUCUGUU....GU
+H.sapiens.4                 UCUCAAGCUGUGAGUCUACAA..AGG...AAAGCGCUUUCUGUU....GU
+H.sapiens.5                 UCCCAUGCUGUGACCCUCUAG..AG....GAAGCACUUUCUGUUUGUUGU
+H.sapiens.6                 UCUCAAGCUGUGA..CUGCAA..AGG...GAAGCCCUUUCUGUU....GU
+H.sapiens.7                 UCUCAGGCAGUGACCCUCUAG..AUG...GAAGCACUGUCUGUU....GU
+H.sapiens.8                 UCCCAUGCUGUGACCCUCCAA..AGG...GAAGCGCUUUCUGUUU...GU
+H.sapiens.9                 UCUCAGGUUGUGACCUUCUCG..AGGAAAGAAGCACUUUCUGUU....GU
+H.sapiens.10                UCUCAGGCUGUGGCCAUCUAG..AGGUAAGAAGCACUUUCUGUU....GU
+P.troglodytes.1             UGUCAGGCUGUGUCCCUCUAC..AGG...GAAGCGCUUUCUGUU....GU
+P.troglodytes.2             UCCCAUGCUGUGACCCUCUAG..AGG...GAAGCGCUUUCUGUU....GU
+P.troglodytes.3             UCUCAUGCUGUGACCCUACAA..AGG...GAAGCACUUUCUCUU....GU
+P.troglodytes.4             UCUCAUGCAGUCAUUCUCCAA..AAG...GGAGCACUUUCUGUU....GU
+P.troglodytes.5             UCUCAGGCUGUGACCCUCCAG..AGG...GAAGUACUUUCUGUU....GU
+P.troglodytes.6             UCUCAGGCUGUGACCCUCUAA..AGG...GAAGCGCUUUCUGUG....GU
+P.troglodytes.7             GCUCAGGCUGUGACCCUCUAG..AGG...GAAGCACUUUCUGUU....GC
+P.troglodytes.8             UCUCCUGCUGUGACCCUCAAG..AUG...GAAGCAGUUUCUGUU....GU
+P.abelii.1                  UCUCAUGAUGUGACCCUCUAG..AGG...GAAGCACUUUCUGUU....GG
+P.abelii.2                  UCUUAUGCUGUGACCCUCCAA..AGG...GAAGAACUUUCUGUU....GU
+P.abelii.3                  UCUCGUGCUGUGACCCACUAG..AGG...GAAGCACUUUCUGUC....GU
+#=GC SS_cons                .<<<<....<........<<<..<<<...<<.<<...<<<<.........
+#=GC RF                     UCuCauGCUGUGAccCUccaa..AgG...GaAGCAcUuuCuGUu....GU
+
+M.mulatta.1                 CUGA.AAGAAAACAAAUCGCUUC.UGU..CUAGAGUGUUUCGGUU.UGAG
+M.mulatta.2                 CUGG.AAGAAAAGAAUGCGCUUC.CCU..UUAGAGGGUUACUCUC.UGAG
+M.mulatta.3                 CUGA.AAGCAAGCAGAGGGCCUC.CUU..UUGGAGCAUUACUGUU.UGAG
+M.mulatta.4                 CUUA.AAGAAAAGAAAGUGCUUU.CUU..UCCGAGGGUUACGGUU.UGAG
+M.mulatta.5                 CUAA.AACA..AGAUCGUGCAGC.CUU..UUAGAGUGUUACUGUG.UGAG
+M.mulatta.6                 GUGA.AAGGAAAGAAAGCGCUUC.CCU..UCAGAGGAUUACUCUU.UGAG
+M.mulatta.7                 CAGA....AAAAGAAAGUGCAUC.CUU..UUAGAGUGUUACUAUU.UGAG
+M.mulatta.8                 CUGA.AAGAAAGCAAAGCGCUCC.CCU..UUAGAGGAUUACGGUU.UGAG
+M.mulatta.9                 CUGA.AAG...AAAACGCACUUC.CCU..UUCGAGUGUUACCGUUUUGAG
+M.mulatta.10                CUG....GUGAAAAAAGUGCCGC.CAUGUUUUGAGUGUUACCGAU.UGAG
+M.mulatta.11                CUGA.GAGAGAAGAAAGUGCAUC.CUU..UUAGAGGAUUACGGUU.UGAG
+M.mulatta.12                GUGAAAAAAAAAGAAGGCGCAUC.CCU..UUGGAGCGUUACGGUU.UGGG
+M.mulatta.13                UUGA.AAGAAAAGAAAGUGCAUC.AUU..UUAGAGGAUUACAGUU.UGAG
+M.mulatta.14                CG.A.AAGAAAAGAAAGCGCUUC.CCU..UUUGAGAAUUACGGUU.UGAG
+M.mulatta.15                CUAA.AAAAAUAGGAAGCGCUUC.UCU..UUAGAGUGUUACGCUU.UGAG
+M.mulatta.16                GUGA.AAGAAAACGAAGCGCUUC.UCU..UUGGAGCGUUACAGUU.UGAG
+M.mulatta.17                CUGA.AAGAAAACAAAGCGCUUC.UCU..UUAGAGAGUUACGGUU.UGAG
+M.mulatta.18                CUAA.ACUAAAAGAAAGUGCUUC.UCU..UUGCUGGGUUACGGUU.UGAG
+M.mulatta.19                CUGA.AUAAAAAGAAAGUGCUUC.CUU..UUAGAGGCUUACGGUC.UGAG
+M.mulatta.20                CUGA.AAACAAAGAAUGUGCAUC.CUU..UCAGAGGGUUACUCUU.UGAG
+H.sapiens.1                 GUGA.A.....AGAAAGUGCUUC.CUU..UCAGAGGGUUACUCUU.UGAG
+H.sapiens.2                 CUGA.AAGAAACCAAAGCGCUUC.CCU..UUGGAGCGUUACGGUU.UGAG
+H.sapiens.3                 CUGA.AAGAAAAGAAAAUGGUUC.CCU..UUAGAGUGUUACGCUU.UGAG
+H.sapiens.4                 CUGA.AAGAAAAGAAAUCGCUUC.CCU..UUGGAGUGUUACGGUU.UGAG
+H.sapiens.5                 CUGA.GAAAAAACAAAGUGCUUC.CCU..UUAGA..GUUACUGUU.UGGG
+H.sapiens.6                 CUAA.AAGAAAAGAAAGUGCUUC.CCU..UUGGUGAAUUACGGUU.UGAG
+H.sapiens.7                 CU...AAGAAAAGAUCGUGCAUC.CUU..UUAGAGUGUUACUGUU.UGAG
+H.sapiens.8                 UUUC.UCUUAAACAAAGUGCCUC.CCU..UUAGAGUGUUACCGUU.UGGG
+H.sapiens.9                 CUGA.AAGAAAAGAAAGUGCUUC.CUU..UCAGAGGGUUACGGUU.UGAG
+H.sapiens.10                CUUA.AAGAAAAGAAAGUCCUUUUUUU..UUUUUUUUUUUUUUUU.UGAG
+P.troglodytes.1             CUGA.AAGAAAAGAAAGUGCUUC.CUU..UUAGAGGGUUGCUGUU.UAAG
+P.troglodytes.2             CUGA.AAGAAAAGAAAGUGCAUC.CUU..UUAGAGGUUUACUGUU.UGAG
+P.troglodytes.3             CCAA.AGGAAAAGAAGGCGCUUC.CCU..UUGGAGUGUUACGGUU.UGAG
+P.troglodytes.4             CUGA.AAGAAAACAAAGUGCCUC.CUU..UUAGAGUGUUACUGUU.UGAG
+P.troglodytes.5             CUGA.GAGAAAAGAAAGUGCUUC.CCU..UUGGACUGUUGCGGUU.UGAG
+P.troglodytes.6             CAGA.AAGAAAAGCAAGUGCUUC.CUU..UUAGAGGGUUACCGUU.UGGG
+P.troglodytes.7             UUGA.AAGAAGAGAAAGCGCUUC.CUU..UUAGAGGAUUACUCUU.UGAG
+P.troglodytes.8             CUGA.AAGGAAAGAAAGUGCUUC.CUU..UUUGAGGGUUACUGUU.UGAG
+P.abelii.1                  CUAA.AAGAAAAGAAAGCGCUUC.CCU..UCAGAGUGUUACGCUU.UGAG
+P.abelii.2                  CUAA.AAGAAAAGAACGCACUUC.CCU..UUAGAGUGUUACCGUG.UGAG
+P.abelii.3                  CUGA.AAGAAAAGAACGCGCUUC.CCU..AUGGAGGGUUACCCUU.UGAG
+#=GC SS_cons                ...........>>>>...>>.>>.>>>..>>>........>.....>>>>
+#=GC RF                     cUgA.AAGAAAaGaaAGuGCuuC.CcU..uugGAGuGUUACugUU.uGaG
+
+M.mulatta.1                 A
+M.mulatta.2                 A
+M.mulatta.3                 A
+M.mulatta.4                 A
+M.mulatta.5                 A
+M.mulatta.6                 A
+M.mulatta.7                 A
+M.mulatta.8                 U
+M.mulatta.9                 A
+M.mulatta.10                A
+M.mulatta.11                A
+M.mulatta.12                U
+M.mulatta.13                A
+M.mulatta.14                A
+M.mulatta.15                A
+M.mulatta.16                A
+M.mulatta.17                A
+M.mulatta.18                A
+M.mulatta.19                A
+M.mulatta.20                A
+H.sapiens.1                 A
+H.sapiens.2                 A
+H.sapiens.3                 A
+H.sapiens.4                 A
+H.sapiens.5                 A
+H.sapiens.6                 A
+H.sapiens.7                 A
+H.sapiens.8                 A
+H.sapiens.9                 A
+H.sapiens.10                A
+P.troglodytes.1             A
+P.troglodytes.2             G
+P.troglodytes.3             A
+P.troglodytes.4             A
+P.troglodytes.5             U
+P.troglodytes.6             A
+P.troglodytes.7             A
+P.troglodytes.8             A
+P.abelii.1                  A
+P.abelii.2                  A
+P.abelii.3                  A
+#=GC SS_cons                .
+#=GC RF                     A
+//

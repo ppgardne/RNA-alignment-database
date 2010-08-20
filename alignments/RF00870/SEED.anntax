@@ -1,0 +1,40 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-423
+#=GF AC    RF00870
+#=GF DE    microRNA mir-423
+#=GF AU    Wilkinson A
+#=GF GA    40.0
+#=GF NC    0.0
+#=GF TC    63.9
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000329
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    5
+
+#=GS L.africana.1  AC    AAGU02429216.1/1470-1554
+#=GS H.sapiens.1   AC    AC104984.14/146412-146492
+#=GS T.belangeri.1 AC    AAPY01128697.1/4155-4231
+#=GS C.lupus.1     AC    AACN010109711.1/39-119
+#=GS S.araneus.1   AC    AALT01504263.1/419-495
+
+L.africana.1              AGGGAGUUAGGGUGAGGGGCAGAGAGCGAGACUUUUUCUAUUUCUUCAAA
+H.sapiens.1               AGGAAGUUAGGCUGAGGGGCAGAGAGCGAGACUUUU.CUAUUUUCC.AAA
+T.belangeri.1             AGGAAGGUGGGCUGAGGGAC..AGAGUGAAGCUCUUCUUUUUUUCC.AAA
+C.lupus.1                 AGGAAGUUAGGCUGAGGGGCAGAGAGCGAGACUUUU.CUAUUUUCC.AAA
+S.araneus.1               AGGAAGUUAGGCUGAGGGGCAGAGAGCGAGACUUUU.CUAUUUUCC.AAA
+#=GC SS_cons              <<<<<<<.<<<<<<<<<<<<..<<<.<<<<.<<<<<...........>>>
+
+L.africana.1              AGCUUGUUCUGAU.GUCUCCUUAGUUCUUGGUUCCU
+H.sapiens.1               AGCUCGGUCUGAG.GCC.CCUCA.GUCUUGCUUCCU
+T.belangeri.1             AGCUUGGUCUAA..GGC.CCU...GUCUUGCUUCCU
+C.lupus.1                 AGCUCGGUCUGAG.GCC.CCUCA.GUCUUGCUUCCU
+S.araneus.1               AGCUCGGUCUGAGAGCC.CCUUC.GUGUG.....CU
+#=GC SS_cons              >>>>>>.>>>....>>>.>>>>>.>>>>.>>>>>>>
+//

@@ -1,0 +1,51 @@
+# STOCKHOLM 1.0
+#=GF ID    RF_site3
+#=GF AC    RF01079
+#=GF DE    Putative RNA-dependent RNA polymerase ribosomal frameshift site
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    58.2
+#=GF SE    Pseudobase
+#=GF SS    Pseudobase
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    PKBASE; PKB00042
+#=GF DR    PKBASE; PKB00043
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    2466700
+#=GF RT    Nucleotide sequence and organization of potato leafroll virus genomic
+#=GF RT    RNA.
+#=GF RA    van der Wilk F, Huisman MJ, Cornelissen BJ, Huttinga H, Goldbach R;
+#=GF RL    FEBS Lett. 1989;245:51-56.
+#=GF RN    [2]
+#=GF RM    2402881
+#=GF RT    RNA pseudoknots: translational frameshifting and readthrough on viral
+#=GF RT    RNAs.
+#=GF RA    ten Dam EB, Pleij CW, Bosch L;
+#=GF RL    Virus Genes. 1990;4:121-136.
+#=GF RN    [3]
+#=GF RM    2732710
+#=GF RT    Nucleotide sequence of potato leafroll luteovirus RNA.
+#=GF RA    Mayo MA, Robinson DJ, Jolly CA, Hyman L;
+#=GF RL    J Gen Virol. 1989;70:1037-1051.
+#=GF RN    [4]
+#=GF RM    8502558
+#=GF RT    Structural requirements for efficient translational frameshifting in
+#=GF RT    the synthesis of the putative viral RNA-dependent RNA polymerase of
+#=GF RT    potato leafroll virus.
+#=GF RA    Kujawa AB, Drugeon G, Hulanicka D, Haenni AL;
+#=GF RL    Nucleic Acids Res. 1993;21:2165-2171.
+#=GF WK    http://en.wikipedia.org/wiki/Ribosomal_frameshift
+#=GF SQ    2
+
+#=GS Potato_leafroll_viru.1 AC    D13954.1/1664-1702
+#=GS Potato_leafroll_viru.2 AC    Y07496.1/1663-1701
+
+Potato_leafroll_viru.1             UUUAAAUGGGCAAGCGGCACCGUCCGCCAAAACAAACGG
+Potato_leafroll_viru.2             UUUAAAUGGGCGAGCGGCACCGCCCGCCAAAACAAACGG
+#=GC SS_cons                       .............<<<<..AAAA>>>>........aaaa
+#=GC RF                            UUUAAAUGGGCaAGCGGCACCGuCCGCCAAAACAAACGG
+//

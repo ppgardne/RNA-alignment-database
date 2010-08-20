@@ -1,0 +1,98 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-143
+#=GF AC    RF00683
+#=GF DE    microRNA mir-143
+#=GF AU    Wilkinson A
+#=GF GA    50.0
+#=GF NC    30.9
+#=GF TC    70.2
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000094
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    17
+
+#=GS C.milii.1              AC    AAVX01064725.1/2024-2127
+#=GS O.latipes.1            AC    BAAF04072768.1/17120-17225
+#=GS Gasterosteus_aculeat.1 AC    AANH01007327.1/1417-1521
+#=GS T.rubripes.1           AC    CAAB01002152.1/24172-24278
+#=GS D.rerio.1              AC    CT029999.12/84345-84446
+#=GS A.carolinensis.1       AC    AAWZ01000591.1/16242-16347
+#=GS E.telfairi.1           AC    AAIY01705731.1/1674-1779
+#=GS R.norvegicus.1         AC    AAHX01095471.1/4697-4798
+#=GS H.sapiens.1            AC    AADC01055700.1/25604-25709
+#=GS C.lupus.1              AC    AAEX02012126.1/182925-183030
+#=GS F.catus.1              AC    AANG01343499.1/3909-4014
+#=GS M.lucifugus.1          AC    AAPE01221912.1/1793-1898
+#=GS S.araneus.1            AC    AALT01067568.1/1206-1307
+#=GS E.caballus.1           AC    AAWR02002266.1/32802-32907
+#=GS Dasypus_novemcinctus.1 AC    AAGV020415914.1/1647-1752
+#=GS Monodelphis_domestic.1 AC    AAFR03012464.1/24867-24972
+#=GS O.anatinus.1           AC    AAPN01425211.1/1413-1518
+
+C.milii.1                          GACGGCCAACACAUCAAUCAGCCAGAGGUGCAGUGCUGCAUCUCUGGUUA
+O.latipes.1                        GGUUCUGGUCCAUCUCUGCUGCCCAUGGUGCAGUGCUGCAUCUCUGGUCA
+Gasterosteus_aculeat.1             UGCAGUCAGUCAUCCCUGUGGCCCAUGGUGCAGUGCUGCAUCUCUGGUCA
+T.rubripes.1                       AUUGUCGGUAUGUUCCUGUGGCCCACGGUGCAGUGCUGCAUCUCUGGUCA
+D.rerio.1                          GAUCUAC....AGUCGUCUGGCCCGCGGUGCAGUGCUGCAUCUCUGGUCA
+A.carolinensis.1                   ACCCCCUUCAAUGUCUCCCAGCCCAAGGUGCAGUGCUGCAUCUCUGGUCA
+E.telfairi.1                       ACAUGGCGCCCUGUCUCCCAGCCUGAGGUGCAGUGCUGCAUCUCUGGUCA
+R.norvegicus.1                     GAGCGCC....UGUCUCCCAGCCUGAGGUGCAGUGCUGCAUCUCUGGUCA
+H.sapiens.1                        GCGCAGCGCCCUGUCUCCCAGCCUGAGGUGCAGUGCUGCAUCUCUGGUCA
+C.lupus.1                          GCAGUGCGCCCUGUCUCCCAGCCUGAGGUGCAGUGCUGCAUCUCUGGUCA
+F.catus.1                          CAGCGGCGCCCUGUCCCCCAGCCUGAGGUGCAGUGCUGCAUCUCUGGUCA
+M.lucifugus.1                      GCAGGCCGGCUUGUCUCCCAGCUUGAGGUGCAGUGCUGCAUCUCUGGUCA
+S.araneus.1                        GGGAACC....UGUCUCCCGGCCUGGGGUGCAGUGCUGCAUCUCUGGUCA
+E.caballus.1                       CGCCGGCGCCCUGUCCCCCGGCCCGAGGUGCAGUGCUGCAUCUCUGGUCA
+Dasypus_novemcinctus.1             AGCACGCGCCCUGUCUCCCAGCCUGAGGUGCAGUGCUGCAUCUCUGGUCA
+Monodelphis_domestic.1             UAUUCCUCCUCUGUCUCCCAGCCCGAGGUGCAGUGCUGCAUCUCUGGUCA
+O.anatinus.1                       GACCUCUCCGAUGUCUCCCAGCCCAAGGUGCAGUGCUGCAUCUCUGGUCA
+#=GC SS_cons                       ...............<<....<<<<<<.<<<<<<<<<<<<<<<<.<<<<.
+#=GC RF                            gauauccaaaaagucccccaGCCcgaGGugCAGuGCugCAuCuCUGgucA
+
+C.milii.1                          GUUGUGAGUCUGAGAUGAAGCACUGUAGCUCUGGA.GGAUG..AACACUG
+O.latipes.1                        GUUGAUAGUCUGAGAUGAAGCACUGUAGCUCGGGA.CGGAGGGCAGGAGU
+Gasterosteus_aculeat.1             GUUGGUAGUCUGAGAUGAAGCACUGUAGCUCGGGA.CG.GAGGACAGAAA
+T.rubripes.1                       GUUGGUAGUCUGAGAUGAAGCACUGUAGCUCGGGACACGGGAGAGACGCA
+D.rerio.1                          ACUGGGAGUCUGAGAUGAAGCACUGUAGCUCGGGA.GGACAACACUGUCA
+A.carolinensis.1                   GUUGUGAGUCUGAGAUGAAGCACUGUAGCUCGGGA.AGGGAGGAACGAAG
+E.telfairi.1                       GUUGGGAGUCUGAGAUGAAGCACUGUAGCUCGGGA.AGGGAGAGGUUGUU
+R.norvegicus.1                     GUUGGGAGUCUGAGAUGAAGCACUGUAGCUCAGGA.AGGGAGAAGAUGUU
+H.sapiens.1                        GUUGGGAGUCUGAGAUGAAGCACUGUAGCUCAGGA.AGAGAGAAGUUGUU
+C.lupus.1                          GUUGGGAGUCUGAGAUGAAGCACUGUAGCUCGGGA.AGGGAGAAGUUUUU
+F.catus.1                          GUUGGGAGUCUGAGAUGAAGCACUGUAGCUCGGGA.AGGGAGAAGUUGUU
+M.lucifugus.1                      GUUGGGAGUCUGAGAUGAAGCACUGUAGCUCAGGA.AGGGAGAAGUUGUU
+S.araneus.1                        GCUGGGAGUCUGAGAUGAAGCACUGUAGCUCAGGA.AGGGGGAAGCUGCU
+E.caballus.1                       GUUGGGAGUCUGAGAUGAAGCACUGUAGCUCAGGA.AGGGAGAAGUUGUU
+Dasypus_novemcinctus.1             GUUGGGAGUCUGAGAUGAAGCACUGUAGCUCGGGA.AGGGAGAAGUUGUU
+Monodelphis_domestic.1             GUUGUGAGUCUGAGAUGAAGCACUGUAGCUCGGGA.AGGGAGGAACUGUC
+O.anatinus.1                       GUUGUGAGUCUGAGAUGAAGCACUGUAGCUCGGGA.AGGGAGGAGCUGUC
+#=GC SS_cons                       .....>>.>>.>>>>>>>>>>>>>>>>.>>>>>>.......>>.......
+#=GC RF                            GUUGggaGuCUGaGaUGaaGCaCUGuaGCucgGGA.aGggaggAaauaua
+
+C.milii.1                          CAUCAAU
+O.latipes.1                        CUCAGUC
+Gasterosteus_aculeat.1             UCCCGGU
+T.rubripes.1                       CCUGCAC
+D.rerio.1                          GCUCAUA
+A.carolinensis.1                   CAACGAA
+E.telfairi.1                       CGACGCC
+R.norvegicus.1                     CUGCAGC
+H.sapiens.1                        CUGCAGC
+C.lupus.1                          CUGCAGC
+F.catus.1                          CUGCAGC
+M.lucifugus.1                      CUGCGGA
+S.araneus.1                        CUCCGGG
+E.caballus.1                       CUGCGGC
+Dasypus_novemcinctus.1             CUGCGGG
+Monodelphis_domestic.1             CAACUCA
+O.anatinus.1                       CAGCCGG
+#=GC SS_cons                       .......
+#=GC RF                            caucaaa
+//

@@ -1,0 +1,100 @@
+# STOCKHOLM 1.0
+#=GF ID    ctRNA_pT181
+#=GF AC    RF00242
+#=GF DE    ctRNA
+#=GF AU    Bateman A
+#=GF GA    20.2
+#=GF NC    0.0
+#=GF TC    31.1
+#=GF SE    PMID:2478296
+#=GF SS    Published; PMID:2478296
+#=GF TP    Gene; antisense;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000644 SO:antisense_RNA
+#=GF RN    [1]
+#=GF RM    2478296
+#=GF RT    pT181 plasmid replication is regulated by a countertranscript-driven
+#=GF RT    transcriptional attenuator.
+#=GF RA    Novick RP, Iordanescu S, Projan SJ, Kornblum J, Edelman I;
+#=GF RL    Cell 1989;59:395-404.
+#=GF CC    Rolling circle replication plasmids contain a number of mechanisms
+#=GF CC    to maintain a low copy number.  One of these methods is to transcribe
+#=GF CC    a small RNA called ctRNA (for counter-transcribed RNA) than is
+#=GF CC    transcribed on the opposite strand to RepB the replication initiation
+#=GF CC    protein.  ctRNA binds to the mRNA of repB and causes translational
+#=GF CC    inhibition.
+#=GF WK    http://en.wikipedia.org/wiki/ctRNA
+#=GF SQ    16
+
+#=GS S.aureus.1             AC    X02529.1/1011-1113
+#=GS S.aureus.2             AC    J03323.1/11-109
+#=GS S.aureus.3             AC    U38656.1/3580-3674
+#=GS Staphylococcus_epide.1 AC    AE015931.1/1576-1673
+#=GS S.lugdunensis.1        AC    U74623.1/27-124
+#=GS S.aureus.4             AC    U36910.1/5075-5169
+#=GS S.aureus.5             AC    X06627.1/3182-3281
+#=GS S.aureus.6             AC    X02166.1/1011-1113
+#=GS S.aureus.7             AC    U38429.1/4026-4117
+#=GS S.aureus.8             AC    AB037671.1/30845-30939
+#=GS S.aureus.9             AC    M26321.1/106-200
+#=GS S.aureus.10            AC    U35036.1/3686-3779
+#=GS S.aureus.11            AC    U38428.1/3465-3559
+#=GS S.aureus.12            AC    X07371.1/1034-1130
+#=GS Staphylococcus_epide.2 AC    AE015930.1/3180-3274
+#=GS Enterococcus_faecali.1 AC    AE016832.1/3217-3301
+
+S.aureus.1                         AUACAAAAA...UUAAUAAAACAUAACUCUUUAUAUUUUA...UUUAGG.
+S.aureus.2                         AUACAAAAA...UUAAUAAAACAUAACUCUUUAUAUUUUA...UUUAGG.
+S.aureus.3                         AUACAAGAU....UAUAAAAACAA....CUCAGUGUUUUU.UUCUUUGAA
+Staphylococcus_epide.1             AUACAAAAA....CAUAAAAACAUC.....GACUGUUUUAUAUUUUGG..
+S.lugdunensis.1                    AUACAAAAU...AUAAAAAAACAA....CUUAGUGUUUUU..UCUUUGG.
+S.aureus.4                         AUACAAGAU....UAUAAAAACAA....CUCAGUGUUUUU.UUCUUUGAA
+S.aureus.5                         AUACAAAAAUUAAGAAAAAAACACC.....AACUGUUUUU.CUUUAAGG.
+S.aureus.6                         AUACAAAAA...UUAAUAAAACAUAACUCUUUAUAUUUUA...UUUAGG.
+S.aureus.7                         AUACAAAAA....UUAAAAAACACAU...GACACAUCUUUUCUUUAGG..
+S.aureus.8                         AUACAAGAU....UAUAAAAACAA....CUCAGUGUUUUU.UUCUUUGAA
+S.aureus.9                         AUACAAGAU....UAUAAAAACAA....CUCAGUGUUUUU.UUCUUUGAA
+S.aureus.10                        AUACAAGAU...AUAAAAAAACAA....CUUAGUGUUUUU..UCUAGGUA
+S.aureus.11                        AUACAAGAU....UAUAAAAACAA....CUCAGUGUUUUU.UUCUUUGAA
+S.aureus.12                        AUACAAAUUA.AGAACAAAAACAUC.....AACUGUUUUU..CUUUAAG.
+Staphylococcus_epide.2             AUACAAGAU....UAUAAAAACAA....CUCAGUGUUUUU.UUCUUUGAA
+Enterococcus_faecali.1             AUACAAU.......UAAGAAACAAAC....AUCGACUGUU..UAUU....
+#=GC SS_cons                       ....<<<<........<<<<<<<..........>>>>>>>..>>>>....
+
+S.aureus.1                         .AUUGUCGU..UCACGAAAACUUUGGUCGGUUUGGGGUGA.ACGACUUCU
+S.aureus.2                         .UAAGUCGCAUUCAC.AAAACUUUGGUAGG...GGCGUGA.GCGACUUCU
+S.aureus.3                         UGAUGUCGU..UCAC..AAACUUUGGUCAA...GGCGUGA.GCGACUCCU
+Staphylococcus_epide.1             .CUAGUCGU..UCACGUAAACUUUGGUCGGUUUGGGGUGG.ACGACUUCU
+S.lugdunensis.1                    GUAAGUCGCAUUCAC..AAACUUUGGUCAG...GGCGUGA.GCGACUUCU
+S.aureus.4                         UGAUGUCGU..UCAC..AAACUUUGGUCAG...GGCGUGA.GCGACUCCU
+S.aureus.5                         .UAAGUCGCAUUCAC..AAACUUUGGUCAG...GGAGUGA.GCGACUUCU
+S.aureus.6                         .AUUGUCGU..UCACGAAAACUUUGGUCGGUUUGGGGUGA.ACGACUUCU
+S.aureus.7                         .UAAGUCGU..UUAC..AAACUUUGGCGA....GGAGUAACACG..UUCU
+S.aureus.8                         UGAUGUCGU..UCAC..AAACUUUGGUCAG...GGCGUGA.GCGACUCCU
+S.aureus.9                         UGAUGUCGU..UCAC..AAACUUUGGUCAG...GGCGUGA.GCGACUCCU
+S.aureus.10                        A...GUCGCUAUCAC..AAACUUUGGCGAG...GGAGUGA.GCGACUUCU
+S.aureus.11                        UGAUGUCGU..UCAC..AAACUUUGGUCAA...GGCGUGA.GCGACUCCU
+S.aureus.12                        GUAAGUCGCUAUCAC..AAACUUUGGCGAG...GGAGUGA.GCGACUUCU
+Staphylococcus_epide.2             UGAUGUCGU..UCAC..AAACUUUGGUCAA...GGCGUGA.GCGACUCCU
+Enterococcus_faecali.1             .....UUGC..UCAC..AAACUUUGGUCGG...GGAGUGA.GCGACUUCU
+#=GC SS_cons                       ....<<<<<..<<<<.....................>>>>.>>>>>....
+
+S.aureus.1                         U.UUUUUAUUUGUGU
+S.aureus.2                         U...UUUAUUUGUUU
+S.aureus.3                         U...UUUAUUUUGUU
+Staphylococcus_epide.1             U..UUUUAUUUUGCU
+S.lugdunensis.1                    U.UUUUUAUUUUGUU
+S.aureus.4                         U...UUUAUUUUGUU
+S.aureus.5                         U.UUUUUGUUUUUUU
+S.aureus.6                         U.UUUUUAUUUGUGU
+S.aureus.7                         U...UUUAUUUGUUU
+S.aureus.8                         U...UUUAUUUUGUU
+S.aureus.9                         U...UUUAUUUUGUU
+S.aureus.10                        U...UUUAUUUUGUU
+S.aureus.11                        U...UUUAUUUUGUU
+S.aureus.12                        U...UUUACUUUGUU
+Staphylococcus_epide.2             U...UUUAUUUUGUU
+Enterococcus_faecali.1             UAUUUUUAUUUUGUU
+#=GC SS_cons                       ...............
+//

@@ -1,0 +1,28 @@
+# STOCKHOLM 1.0
+#=GF ID    CRISPR-DR37
+#=GF AC    RF01347
+#=GF DE    CRISPR RNA direct repeat element
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    27.4
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; CRISPR;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    URL; http://crispr.u-psud.fr/crispr/CRISPRHomePage.php
+#=GF DR    SO:0001459 SO:CRISPR
+#=GF WK    http://en.wikipedia.org/wiki/CRISPR
+#=GF SQ    3
+
+#=GS Cyanothece.1           AC    AAXW01000070.1/13590-13624
+#=GS Anabaena_variabilis_.1 AC    CP000117.1/4244596-4244630
+#=GS Nostoc.1               AC    BA000019.2/2179133-2179167
+
+Cyanothece.1                       GUUUCCAUCCCCGUGAGGGGAAUAAGUGUUUUGAA
+Anabaena_variabilis_.1             GUUUCCAUCCCCGUGAGGGGUAAAGGAAUUAAAAC
+Nostoc.1                           GUUUCCAUCCCCGUGAGGGGUAAGAGAUUAAAAAC
+#=GC SS_cons                       .<<<....<<<<....>>>>....>>>........
+#=GC RF                            GuucccAUCCCCGUGAGGGGUAAaggaaUaAAAAc
+//

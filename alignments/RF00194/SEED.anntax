@@ -1,0 +1,113 @@
+# STOCKHOLM 1.0
+#=GF ID    Rubella_3
+#=GF AC    RF00194
+#=GF DE    Rubella virus 3' cis-acting element
+#=GF AU    Moxon SJ
+#=GF GA    29.0
+#=GF NC    27.4
+#=GF TC    30.0
+#=GF PI    Rubella_cis_act
+#=GF SE    PMID:10074193
+#=GF SS    Published; PMID:10074193
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    10074193
+#=GF RT    Mutagenic analysis of the 3' cis-acting elements of the rubella virus
+#=GF RT    genome.
+#=GF RA    Chen MH, Frey TK;
+#=GF RL    J Virol 1999;73:3386-3403.
+#=GF CC    This family represents a cis-acting element found at the 3' UTR in the
+#=GF CC    rubella virus. This family contains three conserved step loop structures.
+#=GF CC    Pfam:PF00262 (CAL) which is known to bind calcium in most eukaryotic cells,
+#=GF CC    is able to specifically bind to the first stem loop. CAL binding is thought
+#=GF CC    to be related to viral pathogenesis and in particular arthritis which is a
+#=GF CC    occurs frequently in rubella infections in adults and is independent of
+#=GF CC    viral viability. All stem loop structures are thought to be important for
+#=GF CC    efficient viral replication and deletion of stem loop three is known to be
+#=GF CC    lethal [1].
+#=GF WK    http://en.wikipedia.org/wiki/Rubella_virus_3'_cis-acting_element
+#=GF SQ    25
+
+#=GS Rubella_virus.1  AC    D00156.1/2363-2430
+#=GS Rubella_virus.2  AC    AB080198.1/1417-1484
+#=GS Rubella_virus.3  AC    M15240.1/9667-9734
+#=GS Rubella_virus.4  AC    AY161374.1/1390-1443
+#=GS Rubella_virus.5  AC    AB072383.1/1417-1484
+#=GS Rubella_virus.6  AC    AB003353.1/1417-1484
+#=GS Rubella_virus.7  AC    AB072387.1/1417-1484
+#=GS Rubella_virus.8  AC    D50677.1/1417-1484
+#=GS Rubella_virus.9  AC    AY397695.1/1417-1484
+#=GS Rubella_virus.10 AC    AB003337.1/1417-1484
+#=GS Rubella_virus.11 AC    AB080733.1/1417-1484
+#=GS Rubella_virus.12 AC    AB003343.1/1417-1484
+#=GS Rubella_virus.13 AC    AY161373.1/1390-1443
+#=GS Rubella_virus.14 AC    AB003355.1/1417-1484
+#=GS Rubella_virus.15 AC    AB003341.1/1417-1484
+#=GS Rubella_virus.16 AC    AB003345.1/1417-1484
+#=GS Rubella_virus.17 AC    AF435866.1/9655-9722
+#=GS Rubella_virus.18 AC    L19420.1/1530-1597
+#=GS Rubella_virus.19 AC    X05259.1/3294-3361
+#=GS Rubella_virus.20 AC    AB003349.1/1417-1484
+#=GS Rubella_virus.21 AC    AY258322.1/9674-9741
+#=GS Rubella_virus.22 AC    AY258323.1/9674-9741
+#=GS Rubella_virus.23 AC    AB047330.1/9674-9741
+#=GS Rubella_virus.24 AC    AY280704.1/1417-1484
+#=GS Rubella_virus.25 AC    AB080731.1/1417-1484
+
+Rubella_virus.1              UACUUGCGCGGCGCUAUAGCGCCGCGCUAGUGGGCCCCCGCGCGAAACCC
+Rubella_virus.2              UACUUGCGCGGCGCUAUAGCGCCGCGCUAGCGGGCCCCCGCGCGAAACCC
+Rubella_virus.3              UACUUGCGCGGCGCUAUAGCGCCUCGCUAGUGGGCCCCCGCGCGAAACCC
+Rubella_virus.4              UACUUGCGCGGCGCUAUAGCGCCGCGCUAGUGGGCCCCCGGGCGAAACCC
+Rubella_virus.5              UACUUGCGCGGCGCUAUUGCGCCGCGCUAGUGGGCCCCCGCGCGAAACCC
+Rubella_virus.6              UACUUGCGCGGCGCUAUAGCGCCGCGCUAGUGGGCCCCCGCGCGAAACCC
+Rubella_virus.7              UACUUGCGCGGCGCUAUUGCGCCGCGCUAGUGGGCCCCCGCGCGAAACCC
+Rubella_virus.8              UACUUGCGCGGCGCUAUAGCGCCGCGCUAGUGGGCCCCUGCGCGAAACCC
+Rubella_virus.9              UACUUGCGCGGCGCCAUAGCGCCGCGCUAGUGGGCCCCCGCGCGAAACCC
+Rubella_virus.10             UACUUGCGCGGCGCUAUAGCGCCGCGCUAGUGGGCCCCCGCGCGAAACCC
+Rubella_virus.11             UACUUGCGCGGCGCUAUUGCGCCGCGCUAGUGGGCCCCCGCGCGAAACCC
+Rubella_virus.12             UACUUGCACGGCGCUAUAGCGCCGCGCUAGUGGGCCCCCGCGCGAAACCC
+Rubella_virus.13             UACUUGCGCGGCGCUAUAGCGCCGCGCUAGUGGGCCCCCGCGCGAAACCC
+Rubella_virus.14             UACUUGCGCGGCGCUAUAGCGCCGCGCUAGUGGGCCCCCGCGCGAAACCC
+Rubella_virus.15             CACCUGCGCGGCGCCAUAGCGCCGCGCUAGUGGGCCCCCGCGCGAAACCC
+Rubella_virus.16             UACUUGCGCGGCGCUAUAGCGCCGCGCUAGUGGGCCCCCGCGCGAAACCC
+Rubella_virus.17             UACUUGCGCGGCGCUAUAGCGCCUCGCUAGUGGGCCCCCGCGCGAAACCC
+Rubella_virus.18             UACUUGCGCGGCGCUAUAGCGCCUCGCUAGUGGGCCCCCGCGYGAAACCC
+Rubella_virus.19             UACUUGCGCGGCGCUAUAGCACCGCGCUAGCGGGCCCCCGCGCGAAACCC
+Rubella_virus.20             UACUUGCGCGGCGCUAUAGCGCCGCGCUAGUGGGCCCCUGCGCGAAACCC
+Rubella_virus.21             UACUUGCGCGGCGCUAUAGCGCCGCGCUAGUGGGUCCCCGCGCGAAACCC
+Rubella_virus.22             CACCUGCGCGGCGCCAUAGCGCCGCGCUAGUGGGCCCCCGCGCGAAACCC
+Rubella_virus.23             UACUUGCGCGGCGCUAUAGCGCCGCGCUAGUGGGCCCCUGCGUGAAACCC
+Rubella_virus.24             UACUUGCGCGGCGCUAUAGCGCCGCGCUAGUGGGCCCCCGCGCGAAACCC
+Rubella_virus.25             UACUUGCGCGGCGCUAUGGCGCCGCGCUAGUGGGCCCCUGCGCGAAACCC
+#=GC SS_cons                 <<<<.<<<<<<<<<....>>>>>>>>>.>>>><<<<...<<<.......>
+
+Rubella_virus.1              GCACUAGGCCACUAGAUU
+Rubella_virus.2              GCACUAGCCCACUAGAUU
+Rubella_virus.3              GCACUAGGCCACUAGAUC
+Rubella_virus.4              ......GCAC........
+Rubella_virus.5              GCAUUGGCCCACUAGAUU
+Rubella_virus.6              GCAUUAGCCCACUAGAUU
+Rubella_virus.7              GCAUUAGCCCACUAGAUU
+Rubella_virus.8              GCACUAGCCCACUAGAUU
+Rubella_virus.9              GCAUUAGCCCACUAGAUU
+Rubella_virus.10             GCACUAGCCCACUAGAUU
+Rubella_virus.11             GCACUAGCCCACUAGAUU
+Rubella_virus.12             GCAUUAGCCCACUAGAUU
+Rubella_virus.13             ......GCAC........
+Rubella_virus.14             GCAUUGGCCCACUAGAUU
+Rubella_virus.15             GCACUAGCCCACUAGAUU
+Rubella_virus.16             GCAUCAGCCCACUAGAUU
+Rubella_virus.17             GCACUAGCCCACUAGAUU
+Rubella_virus.18             GCACUAGCCCACUAGAUU
+Rubella_virus.19             GCACUAGCCCACUAGAUU
+Rubella_virus.20             GCAUUAGCCCACUAGAUU
+Rubella_virus.21             GCACCAGCCCACUAGAUU
+Rubella_virus.22             GCACUAGCCCACUAGAUC
+Rubella_virus.23             GCACUAGCCCACUAGAUU
+Rubella_virus.24             GCAUUAGCCCACUGGAUU
+Rubella_virus.25             GCACUAGCCCACUAGAUU
+#=GC SS_cons                 >>....>>>>........
+//

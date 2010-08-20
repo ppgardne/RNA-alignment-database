@@ -1,0 +1,36 @@
+# STOCKHOLM 1.0
+#=GF ID    Cardiovirus_CRE
+#=GF AC    RF00453
+#=GF DE    Cardiovirus cis-acting replication element (CRE)
+#=GF AU    Moxon SJ
+#=GF GA    35.0
+#=GF NC    0.0
+#=GF TC    49.2
+#=GF SE    PMID:10500216
+#=GF SS    Published; PMID:10500216
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    10500216
+#=GF RT    A coding RNA sequence acts as a replication signal in cardioviruses.
+#=GF RA    Lobert PE, Escriou N, Ruelle J, Michiels T;
+#=GF RL    Proc Natl Acad Sci U S A 1999;96:11560-11565.
+#=GF CC    This family represents a Cardiovirus cis-acting replication element (CRE)
+#=GF CC    which is located within the region encoding the capsid protein VP2 and is
+#=GF CC    required for viral replication [1].
+#=GF WK    http://en.wikipedia.org/wiki/Cardiovirus_cis-acting_replication_element_(CRE)
+#=GF SQ    4
+
+#=GS Theilers_encephalomy.1 AC    U32924.1/505-537
+#=GS Theilers_encephalomy.2 AC    M94868.1/505-537
+#=GS Theilers_encephalomy.3 AC    U20288.1/324-356
+#=GS Theilers-like_virus_.1 AC    AB090161.1/1485-1517
+
+Theilers_encephalomy.1             UCGGCCACAAACACACAGUCUACUGUUGGCCGG
+Theilers_encephalomy.2             UCGGCCACAAACACUCAAUCCUCCGUUGGCCGG
+Theilers_encephalomy.3             UCGGCCACAAACACGCAGUCUACUGUUGGCCGA
+Theilers-like_virus_.1             UCGGCCGUAAACACCCAAUCAUCAGUAGGCCGA
+#=GC SS_cons                       <<<<<<<...<<<..........>>>>>>>>>>
+//

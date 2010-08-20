@@ -1,0 +1,94 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-492
+#=GF AC    RF00989
+#=GF DE    microRNA mir-492
+#=GF AU    Wilkinson A
+#=GF GA    28.0
+#=GF NC    27.9
+#=GF TC    28.0
+#=GF SE    miRBase; Wilkinson A, Daub J
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000499
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    16
+
+#=GS R.catesbeiana.1        AC    AB050955.1/348-463
+#=GS E.telfairi.1           AC    AAIY01817548.1/749-634
+#=GS O.cuniculus.1          AC    AAGW01537790.1/3268-3161
+#=GS O.princeps.1           AC    AAYZ01143552.1/22927-22812
+#=GS M.musculus.1           AC    BC085304.1/444-559
+#=GS R.norvegicus.1         AC    BC088424.1/441-556
+#=GS C.aethiops.1           AC    DQ289548.1/23-138
+#=GS M.mulatta.1            AC    AANU01270091.1/20339-20224
+#=GS H.sapiens.1            AC    AADB02015429.1/35076-35191
+#=GS P.troglodytes.1        AC    AADA01319369.1/12481-12596
+#=GS F.catus.1              AC    AANG01593139.1/635-750
+#=GS B.taurus.1             AC    BC116088.1/417-532
+#=GS M.lucifugus.1          AC    AAPE01406844.1/331-217
+#=GS E.caballus.1           AC    AAWR02017948.1/49448-49563
+#=GS Dasypus_novemcinctus.1 AC    AAGV020823453.1/493-607
+#=GS Potorous_tridactylus.1 AC    X82579.1/440-555
+
+R.catesbeiana.1                    ..AGACUACAGCAAAUAUUUUGAUACUAUUGAUGACCUCCGGAAUAAGAU
+E.telfairi.1                       ..CGACUACAGCCACUACUACGAGACCAUCGAGGACCUGCGGCACCAGAU
+O.cuniculus.1                      ..ACCCUCCUG.....ACUUCAAGGUCAUCCAGGACCUAUGGGACCAGAU
+O.princeps.1                       ..CGACUACAGCCACUAUUUUAAGACCAUCGAGGAUCUACGUGAUAAGAU
+M.musculus.1                       ..AGAUUACAACCACUACUUUAAGACCAUCGAGGACUUGCGCGACAAGAU
+R.norvegicus.1                     ..UGAUUACAGCCAGUACUUCAAGACCAUCGAGGACUUGCGCGACAAGAU
+C.aethiops.1                       CA..ACUACAGCCACUACUACAGGCCCAUCGAGGACCUGCGGGACAAGAU
+M.mulatta.1                        ..UGACUACAGCCACUACUACAAGACCUUCGAGGACCUGCGGGACAAGAU
+H.sapiens.1                        CA..ACUACAGCCACUACUACAGGACCAUCGAGGACCUGCGGGACAAGAU
+P.troglodytes.1                    ..UGACUACAGCCACUACUACAAGACUAUCCAGGACCUGCGGGACAAGAU
+F.catus.1                          CA..ACUACAGCCCCUACUUCAAGACCAUCAAGGAGCUGCAGGACAAGAU
+B.taurus.1                         ..CGACUACAGCCACUACUUCAAGACCAUAGAGGACCUGCGGGACCAGAU
+M.lucifugus.1                      ..UGACUACAGCCACUACUACCAGACCAUUGAUGAUCUUCGAGACAAGAU
+E.caballus.1                       ..CGACUACAGCCACUACUUCAAGACCAUCGAGGAGCUGCGGGACAAGAU
+Dasypus_novemcinctus.1             ..GGUCUUGAAAUAGUUUU.CAAGACCAUUCAUGACUUGCGUGACAAGAU
+Potorous_tridactylus.1             ..AGACUAUAGCGCCUACAUGACGACCAUCCAGGACCUGCGAGAUAAGAU
+#=GC SS_cons                       .....<<.<<<<<<.........<..<.<....<<.<<<<<<<<<<<...
+#=GC RF                            ..aGACuACAGCcAuUAcUucAAgAcCAuugAggAcCugcaggacaAGAU
+
+R.catesbeiana.1                    ACUUUCUGCAACUAUUGAAAACUCCAAGUACAUUUUGCAGAUCGACAAUG
+E.telfairi.1                       UCUCGGUGCCACCAUCCAGAACUCCAAGGUUGUGCUGCAGAUCGACAACG
+O.cuniculus.1                      UCUUGGUGCCACCAUUGAGAACCCCAGGAUGGUCCUGCUGAUC...AGUG
+O.princeps.1                       UCACGGGGCCACCAUUGACAACUCCAAGAUCGUCCUGCAGAUCGACAAUG
+M.musculus.1                       UCUUGGUGCCACCAUUGACAACUCCAAGAUUGUCCUACAGAUUGACAAUG
+R.norvegicus.1                     CCUUGGCGCCACCAUUGAGAACUCCAAGAUAGUCCUACAGAUCGACAAUG
+C.aethiops.1                       UCUUGGUGCCACCAUUGAGAACUCCAGGAUUGUCCUACAGAUCGACAACA
+M.mulatta.1                        UCUUGGUGCCGUCAAUGAGAACUCCAGGAUUGUCCUGCAGAUCAACAAUG
+H.sapiens.1                        UCUUGGUGCCACCAUUGAGAACGCCAGGAUUGUCCUGCAGAUCAACAAUG
+P.troglodytes.1                    UCUUGGUGCCACCAUUGAGAACUCCAGGAUUGUCCUGGAGAUCGACAACG
+F.catus.1                          UCUUGUGGCCACCAUUAAGCACUCCAAGAUUGUCCUGCAGAUUGACAAUG
+B.taurus.1                         UCUCGGUGCCACCAUUGAGAACUCCAAGAUAGUCCUGCAGAUCGACAAUG
+M.lucifugus.1                      UCUUGGUGCCACCACUGAGAACUCCAAGAUUGUCCUGCAGAUUAACAAUG
+E.caballus.1                       UCUUGGGGCCACCAUUGAGAACUCCAAGAUUGUUCUGCAGAUCGACAAUG
+Dasypus_novemcinctus.1             UUUUGGUGCCACCAUUAAGAACGCCAAGAUUGUCCUGUAGAUCAAGAAUC
+Potorous_tridactylus.1             UCUUGGUGCCACCAUAGAGAACUCAAAGAUUGUUCUGCAAAUUGACAAUG
+#=GC SS_cons                       <<<<<<.<....<.....>..>.>>>>>>>>>>>>>>>>>.>>....>.>
+#=GC RF                            uCuuGgugCcAccAUuGAgAAcucCaaGaUuguccugcaGAUcGACAaUG
+
+R.catesbeiana.1                    CCAGGUUGGCAGCUGAUG
+E.telfairi.1                       CCCGCCUGGCGGCGGAUG
+O.cuniculus.1                      CUCAUCUGGCUGCAGGUG
+O.princeps.1                       CCCGUCUGGCUGCAGAUG
+M.musculus.1                       CUCGCCUGGCUGCAGAUG
+R.norvegicus.1                     CCCGCCUGGCUGCAGAUG
+C.aethiops.1                       CCCAUCUGGCUGCAGAUG
+M.mulatta.1                        CCUGUCUGGCUGCAGAUG
+H.sapiens.1                        CUCAACUGGCUGCAGAUG
+P.troglodytes.1                    CCCGUCUGGCUGCAGAUG
+F.catus.1                          CCUGUCUGGCUGCAGAUG
+B.taurus.1                         CCCGUCUGGCUGCAGAUG
+M.lucifugus.1                      .CCGUCUGGCUGUGGAUG
+E.caballus.1                       CCCGUCUGGCUGCAGAUG
+Dasypus_novemcinctus.1             CCCAUCUGGCUGUAGAGA
+Potorous_tridactylus.1             CCCGGCUGGCUGCAGAUG
+#=GC SS_cons                       ..>...>>>>>>.>>...
+#=GC RF                            CccguCUgGCUGCaGAUG
+//

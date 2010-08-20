@@ -1,0 +1,48 @@
+# STOCKHOLM 1.0
+#=GF ID    MIR530
+#=GF AC    RF01005
+#=GF DE    microRNA MIR530
+#=GF AU    Wilkinson A
+#=GF GA    23.0
+#=GF NC    22.2
+#=GF TC    23.1
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000521
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    3
+
+#=GS R.communis.1    AC    AASG02002502.1/29672-29848
+#=GS P.trichocarpa.1 AC    AARH01010693.1/61395-61566
+#=GS P.trichocarpa.2 AC    AARH01003925.1/6653-6796
+
+R.communis.1                GCCAAUAUGUUGCCUUUAUCUGCAUUUGCACCUGCACCUUAAGUUUCUUU
+P.trichocarpa.1             GCCAAUAUGUUGCCUUUAUCUGCAUUUGCACCUGCAUCUUUUGCGUUUG.
+P.trichocarpa.2             GCCAACAUGUUGCCUUUAUCUGCAUUUGCACCUGCACCUUACUUGUUUCU
+#=GC SS_cons                <<<<<<<<<..<<.<<<<<<<<<<<<<<<<<<<<<<<<<...........
+#=GC RF                     gCCaacauGUUGCCuuuauCuGCauuuGCaCCuGCacCuUauuuGUUUgu
+
+R.communis.1                GUUUCUUCUUCUUCUUUUUUCUUUUUUAAGAAGUCUACUUCUUCUAAAUU
+P.trichocarpa.1             ...UUUUGUUUUUGA.....CUCCACAAACAAAAUCAAGUUCUGUCGAUA
+P.trichocarpa.2             UUCUUUUGUUUUUGA.....CUCCAAAACCAAAAGUAAGUU.........
+#=GC SS_cons                ...<<<<<<<<<<<.........>>>>>>>>>>>................
+#=GC RF                     uucuuuuGuuuuuGA.....CUCCaaaaaCaaaauuAAGUUcugucgAuA
+
+R.communis.1                AUGGGUUUUCAAUAUAUAGAGGAUUGAAACAAGCAAAUA....UAGGUGC
+P.trichocarpa.1             CAGUAUGUGGGACAAUUAGAUAUGGAAACUAAUAAGCUUAGUUGAGGUGC
+P.trichocarpa.2             .......UGAAACAU........UAAAAC....AAGCUU....GAGGUGC
+#=GC SS_cons                ............................................>>>>>>
+#=GC RF                     cAguAugUGaaACAauuAgAuAuuaAAACuAAuAAGCUUAguuGaGguGC
+
+R.communis.1                AGGUGUGAGUGCAGGUGAAUGCCAUUUUGGU
+P.trichocarpa.1             AGGUGCAAGUGCAGGUGAAUGCCAUUUUGGU
+P.trichocarpa.2             AGGUGCAGGUGCAGGUGAAUGCCAUGUUGGU
+#=GC SS_cons                >>>>>>>>>>>>>>>>>>>.>>>>>>>>>>>
+#=GC RF                     aGGuGCaaguGCaGgugaaUGCCauguuGGu
+//

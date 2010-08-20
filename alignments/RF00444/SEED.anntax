@@ -1,0 +1,127 @@
+# STOCKHOLM 1.0
+#=GF ID    PrrF
+#=GF AC    RF00444
+#=GF DE    PrrF RNA
+#=GF AU    Moxon SJ
+#=GF GA    32.0
+#=GF NC    29.5
+#=GF TC    34.0
+#=GF SE    PMID:15210934
+#=GF SS    Published; PMID:15210934
+#=GF TP    Gene; sRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000655 SO:ncRNA
+#=GF RN    [1]
+#=GF RM    15210934
+#=GF RT    Identification of tandem duplicate regulatory small RNAs in
+#=GF RT    Pseudomonas aeruginosa involved in iron homeostasis.
+#=GF RA    Wilderman PJ, Sowa NA, FitzGerald DJ, FitzGerald PC, Gottesman S,
+#=GF RA    Ochsner UA, Vasil ML;
+#=GF RL    Proc Natl Acad Sci U S A 2004;101:9792-9797.
+#=GF CC    PrrF RNA is a small RNA involved in iron homeostasis and is found
+#=GF CC    exclusively in Pseudomonas species. PrrF sequences are the functional
+#=GF CC    homologues of Rfam:RF00057 and are found in tandem. Their expression is
+#=GF CC    induced under iron limitation by the ferric uptake regulator (Fur) and 
+#=GF CC    they act to negatively regulate several genes including sodB and sdh.
+#=GF WK    http://en.wikipedia.org/wiki/PrrF_RNA
+#=GF SQ    17
+
+#=GS Pseudomonas_aerugino.1 AC    CP000438.1/5556104-5556252
+#=GS Pseudomonas_fluoresc.1 AC    CP000076.1/6028153-6028301
+#=GS Pseudomonas_syringae.1 AC    CP000058.1/2575171-2575317
+#=GS Pseudomonas_putida_F.1 AC    CP000712.1/2024401-2024547
+#=GS Pseudomonas_putida_F.2 AC    CP000712.1/5089139-5089287
+#=GS Pseudomonas_entomoph.1 AC    CT573326.1/3656603-3656753
+#=GS Pseudomonas_syringae.2 AC    AE016853.1/3549457-3549603
+#=GS Pseudomonas_fluoresc.2 AC    CP000094.1/5412550-5412698
+#=GS Pseudomonas_syringae.3 AC    CP000075.1/3620503-3620649
+#=GS Pseudomonas_syringae.4 AC    CP000058.1/1035556-1035702
+#=GS Pseudomonas_putida_W.1 AC    CP000949.1/2010319-2010463
+#=GS P.mendocina.1          AC    CP000680.1/1126630-1126779
+#=GS Pseudomonas_entomoph.2 AC    CT573326.1/5016966-5017115
+#=GS Pseudomonas_fluoresc.3 AC    CP000094.1/4145111-4145258
+#=GS Pseudomonas_fluoresc.4 AC    CP000076.1/4555423-4555571
+#=GS Pseudomonas_stutzeri.1 AC    CP000304.1/3533667-3533811
+#=GS P.aeruginosa.1         AC    AF055999.1/130-281
+
+Pseudomonas_aerugino.1             UUGACCUGAUAAUGAGAAUAGUUAUUAUUACAC.CAACUGGUCGCGAGGC
+Pseudomonas_fluoresc.1             UUGACUUCGAAAUGAGAAUCGUUAUGAU.UAUCACAACUGGUCGCGAGAU
+Pseudomonas_syringae.1             UUGACUUGCAAAUGAUAAUGAUUAUUAUUUCA.UCAGCGGGUCGCGAGAU
+Pseudomonas_putida_F.1             UUGACUGGCAAAUGAUAACGAUUAUUAUUGCACUCAGCUGAUCGCGAGAU
+Pseudomonas_putida_F.2             UUGACGGCUAAAUGAGAAUUGUUAUGAU.UAUCACAACUGGUCGCGAGAC
+Pseudomonas_entomoph.1             UUGACUGGCAAAUGAUAACGAUUAUUAUUGCACUCAGCAGGUCGCGAGAC
+Pseudomonas_syringae.2             UUGAUUUUCAAAUGAUAAUGAUUAUUAUUGC.GUCAGCGGUUCGCGAGAA
+Pseudomonas_fluoresc.2             UUGACUUGGUAAUGAGAAUCGCUAUGAU.UAUCACAACUGAUCGCGAGAU
+Pseudomonas_syringae.3             UUGACUUGCAAAUGAUAAUGAUUAUUAUUGCA.UCAGCGGGUCGCGAGAC
+Pseudomonas_syringae.4             UUGACUUAGAAAUGAGAAUCGUUAUGAU.UAUCGCAUCCGGUCGCGAGAC
+Pseudomonas_putida_W.1             UUGACUGCCAAAUGAUAACGAUUAUUAUUGCACUCAGCUGAUCGCGAGAU
+P.mendocina.1                      UUGACUAUGAAAUGAGAAUUGUUAUUAUUAC.CUCAACUGGUCGCGAGAU
+Pseudomonas_entomoph.2             UUGACUACGUAAUGAGAAUCGUUAUGAU.UAUCACAGCUGGUCGCGAGAC
+Pseudomonas_fluoresc.3             UUGACUUGCAAAUGAUAAUGAUUAUUAUUGCAAGCAACUGGUCGCGAGAU
+Pseudomonas_fluoresc.4             UUGACUUGCAAAUGAUAAUGAUUAUUAUUGCAAGCAACUGGUCGCGAGAU
+Pseudomonas_stutzeri.1             UUGACGCAGAAAUGAGAAUUGUUAUUAU.UAUCGCAACUGAUCGCGAGGU
+P.aeruginosa.1                     UUGACAUGGAAAUGAGAAUCAUUAUUACGUCACUCAACUGGUCGCGAGAU
+#=GC SS_cons                       ..................................<<<<<<<<<....>>>
+#=GC RF                            UUGAcAUGGAAAUGAGAAUcAUUAUUAcGUcAcUCaaCuGguCGcGAGau
+
+Pseudomonas_aerugino.1             CAGCAGG.UAAGCUG.AGAGAC.CAAGCAGUCGGACUCUUCAGAUUAUCU
+Pseudomonas_fluoresc.1             CAGUCGA.UAACCUG.GAAGAC.CAGUGGUUCGGACU.CUCAGAUUAUCU
+Pseudomonas_syringae.1             CCGCUGGAUAAUCUG.GAAGUCUUAG...GUCGG.CUUC.CUGAUUAUCU
+Pseudomonas_putida_F.1             CCGCUGGAUAACCUG.AAAG.CUUAG...GUCG..CUCU.CAGAUUAUCU
+Pseudomonas_putida_F.2             UGGUUGGAUAAGCUA.AGAGCCCCUGGU..UCGGACUCU.CAGAUUAUCU
+Pseudomonas_entomoph.1             CCGCUGGAUAACCUGCAACGUCCUCAG..GUCGGACGCU.CAGAUUAUCU
+Pseudomonas_syringae.2             CCGCUGG.AUAACCU.GGAAGUCUUAG..GUCGGCUUCC..GGAUUAUCU
+Pseudomonas_fluoresc.2             CAGUCGA.UAUUCUGAAAAGCCCUUGGU..UCGGACUCU.CAGAUUAUCU
+Pseudomonas_syringae.3             UCGCUGG.AUAACCC.GGAAGUCUUAG..GUCGGCUUCCA..GAUUAUCU
+Pseudomonas_syringae.4             UGGACGG.UAA.CUG.AAAGACCUUGGU..UCGGACUUU.CAGAUUAUCU
+Pseudomonas_putida_W.1             CUGCUGGAUAACCUG.GAGC.....UUAGGUC...GCUCUCAGAUUAUCU
+P.mendocina.1                      CAGCCGA.UAAGCUAAAGAGAC.CAUUCAGUCGGACUCUUCAGAUUAUCU
+Pseudomonas_entomoph.2             UGGUUGGGUAACCUG.AAAG.CUCCCUGGUUCGGACUCU.CAGAUUAUCU
+Pseudomonas_fluoresc.3             CAGUCGA.UGGACCA..GAGACCUUAG..GUCGGUCUUC.UGGACUAUCU
+Pseudomonas_fluoresc.4             CAGUCGA.UAGCCCA.AAGGACCUUAG..GUCGGACCUU.UGGAUUAUCU
+Pseudomonas_stutzeri.1             CAGCCGA.UA.GCUG.AAGG.CUCAGGCAGUCGAUCCUU.CAGGUUAUCU
+P.aeruginosa.1                     CAGCCGG.UAAGCUG.AGAGACCCACGCAGUCGGACUCUUCAGAUUAUCU
+#=GC SS_cons                       >>>>>>......<<<.<<<<.<..........>..>>>>.>>>.......
+#=GC RF                            CaGccGG.UAAGCuG.aGaGACccAcGcAGUcGGACuCuUCaGAUUAUcU
+
+Pseudomonas_aerugino.1             CCUCAUCAGGCUAAUCACGGUU.UC.GACCCGGCACUUU.GCCGGGUCUU
+Pseudomonas_fluoresc.1             CCUCAUCAGGCUAAUCACGGUUAUUUGACCCGGCUCUU..GCCGGGUCUU
+Pseudomonas_syringae.1             CCUCAUCAGGCUAAUCACGGUU.UUUGACCCGGCUUUUU.GCCGGGUCUU
+Pseudomonas_putida_F.1             CCUCAUCAGGCUAAUCACGGUU.UUUGACCCGGCUUUUUUGCCGGGUCUU
+Pseudomonas_putida_F.2             CCUCAUCAGGCUAAUCACGGUU.AUUGACCCGGCAAUUU.GCCGGGUCUU
+Pseudomonas_entomoph.1             CCUCAUCAGGCUAAUCACGGUU.UUUGACCCGGCUUUUU.GCCGGGUCUU
+Pseudomonas_syringae.2             CCUCAUCAGGCUAAUCACGGUU.UUUGACCCGGAUUUUU.UCCGGGUCUU
+Pseudomonas_fluoresc.2             CCUCAUCAGGCUAAUCACGGUUAUUUGACCCGGU.UUUU.ACCGGGUCUU
+Pseudomonas_syringae.3             CCUCAUCAGGCUAAUCACGGUU.UUUGACCCGGCUUUUU.GCCGGGUCUU
+Pseudomonas_syringae.4             CCUCAUCAGGCUAAUCACGGUU.UUUGACCCGGCUCUUU.GCCGGGUCUU
+Pseudomonas_putida_W.1             CCUCAUCAGGCUAAUCACGGUU.UUUGACCCGGCUUUUU.GCCGGGUCUU
+P.mendocina.1                      CCUCAUCAGGCUAAUCACGGUU.AUUGACCCGGCUCUU..GCCGGGUCUU
+Pseudomonas_entomoph.2             CCUCAUCAGGCUAAUCACGGUU.AUUGACCCGGCAACUU.GCCGGGUCUU
+Pseudomonas_fluoresc.3             CCUCAUCAGGCUAAUCACGGUU.UUUGACCCGGCUUUUU.GCCGGGUCUU
+Pseudomonas_fluoresc.4             CCUCAUCAGGCUAAUCACGGUU.UUUGACCCGGCUUUUU.GCCGGGUCUU
+Pseudomonas_stutzeri.1             CCUCAUCAGGCUAAUCACGGUU.UU.GACCCGGCUCU...GCCGGGUCUU
+P.aeruginosa.1                     CCUCAUCAGGCUAAUCACGGUU.UUUGACCCGGCACUUU.GCCGGGUCUU
+#=GC SS_cons                       <<<....>>>................<<<<<<<<......>>>>>>>>..
+#=GC RF                            CCucAUcaGGcUAAUcAcGGUU.UUUGaCCCGGCAcUUU.GCCGGGuCUU
+
+Pseudomonas_aerugino.1             UUUUUG
+Pseudomonas_fluoresc.1             UUUUUG
+Pseudomonas_syringae.1             UUUUUG
+Pseudomonas_putida_F.1             UUUUUU
+Pseudomonas_putida_F.2             UUUUUG
+Pseudomonas_entomoph.1             UUUUUU
+Pseudomonas_syringae.2             UUUUUU
+Pseudomonas_fluoresc.2             UUUUUG
+Pseudomonas_syringae.3             UUUUUG
+Pseudomonas_syringae.4             UUUUUG
+Pseudomonas_putida_W.1             UUUUUU
+P.mendocina.1                      UUUUUG
+Pseudomonas_entomoph.2             UUUUUG
+Pseudomonas_fluoresc.3             UUUUUU
+Pseudomonas_fluoresc.4             UUUUUU
+Pseudomonas_stutzeri.1             UUUUUG
+P.aeruginosa.1                     UUUUUG
+#=GC SS_cons                       ......
+#=GC RF                            UUUUUG
+//

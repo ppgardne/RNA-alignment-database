@@ -1,0 +1,125 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORD24
+#=GF AC    RF00069
+#=GF DE    Small nucleolar RNA SNORD24
+#=GF AU    Griffiths-Jones SR
+#=GF GA    31.0
+#=GF NC    30.9
+#=GF TC    31.2
+#=GF PI    U24
+#=GF SE    Griffiths-Jones SR
+#=GF SS    Predicted; PFOLD; Griffiths-Jones SR, Daub J
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Mus_musculus300797
+#=GF DR    snoopy; Oryzias_latipes300056
+#=GF RN    [1]
+#=GF RM    7651828
+#=GF RT    U24, a novel intron-encoded small nucleolar RNA with two 12 nt long,
+#=GF RT    phylogenetically conserved complementarities to 28S rRNA.
+#=GF RA    Qu LH, Henry Y, Nicoloso M, Michot B, Azum MC, Renalier MH,
+#=GF RA    Caizergues-Ferrer M, Bachellerie JP;
+#=GF RL    Nucleic Acids Res 1995;23:2669-2676.
+#=GF RN    [2]
+#=GF RM    8764399
+#=GF RT    Intron-encoded, antisense small nucleolar RNAs: the characterization
+#=GF RT    of nine novel species points to their direct role as guides for the
+#=GF RT    2'-O-ribose methylation of rRNAs.
+#=GF RA    Nicoloso M, Qu LH, Michot B, Bachellerie JP;
+#=GF RL    J Mol Biol 1996;260:178-195.
+#=GF RN    [3]
+#=GF RM    8674114
+#=GF RT    Site-specific ribose methylation of preribosomal RNA: a novel
+#=GF RT    function for small nucleolar RNAs.
+#=GF RA    Kiss-Laszlo Z, Henry Y, Bachellerie JP, Caizergues-Ferrer M, Kiss T;
+#=GF RL    Cell 1996;85:1077-1088.
+#=GF RN    [4]
+#=GF RM    9703018
+#=GF RT    Evolution of U24 and U36 snoRNAs encoded within introns of vertebrate
+#=GF RT    rpL7a gene homologs: unique features of mammalian U36 variants.
+#=GF RA    Gilley J, Fried M;
+#=GF RL    DNA Cell Biol 1998;17:591-602.
+#=GF RN    [5]
+#=GF RM    11606788
+#=GF RT    Position within the host intron is critical for efficient processing
+#=GF RT    of box C/D snoRNAs in mammalian cells.
+#=GF RA    Hirose T, Steitz JA;
+#=GF RL    Proc Natl Acad Sci U S A 2001;98:12914-12919.
+#=GF CC    U24 is a member of the C/D class of snoRNA which contain the
+#=GF CC    C (UGAUGA) and D (CUGA) box motifs [1].  C/D box snoRNAs have 
+#=GF CC    been shown to act as methylation guides for a number of RNA 
+#=GF CC    targets [2,3].  U24 is encoded within an intron of 
+#=GF CC    the gene for ribosomal protein L7a in mammals, chicken and Fugu [4].
+#=GF CC    The U76 snoRNA is found in an intron of the uRNA host gene (UHG)
+#=GF CC    growth arrest specific 5 (GAS5) transcript gene [5].  snoRNAs Z20 
+#=GF CC    and U76 snoRNAs show clear similarity to U24.  
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_SNORD24
+#=GF SQ    14
+
+#=GS S.cerevisiae.1 AC    Z48760.1/109-198
+#=GS S.pombe.1      AC    AJ222770.1/4-73
+#=GS T.rubripes.1   AC    AJ003046.1/33-102
+#=GS T.rubripes.2   AC    Y15171.1/2155-2227
+#=GS G.gallus.1     AC    Z48763.1/1-75
+#=GS G.gallus.2     AC    D14522.1/1637-1711
+#=GS M.musculus.1   AC    AJ003042.1/135-208
+#=GS M.musculus.2   AC    AJ224032.1/2-84
+#=GS H.sapiens.1    AC    AF141346.1/1275-1356
+#=GS H.sapiens.2    AC    Z48765.1/1-75
+#=GS H.sapiens.3    AC    X61923.1/1387-1462
+#=GS B.taurus.1     AC    AF270677.1/360-430
+#=GS A.thaliana.1   AC    AJ224036.1/1-85
+#=GS A.thaliana.2   AC    AJ240063.1/2-93
+
+S.cerevisiae.1             UUCAA..AUG.AUGUAAU.AACAUAUUUGCUACUUCAGA.UGGAACUUUG
+S.pombe.1                  UGCAA..UUG.AUGAAA......UAUUUGCUUAUGAUCA.AUAA......
+T.rubripes.1               UGCAU..AUG.AUGUAA..CGA.UAUU.GCU.AUCUUAA.UGACGAU...
+T.rubripes.2               UGCAU..AUG.AUGUAAA.CGAAUAUUUGCU.AUCUUAA.UGACGAU...
+G.gallus.1                 UGCAG..AUG.AUGUAAA.AAAAUACUUGCU.AUCUGAA.UGGUAGU...
+G.gallus.2                 UGCAG..AUG.AUGUGAA.AAAAUACUUGCU.AUCUGAA.UGGUAGU...
+M.musculus.1               UGCAG..AUG.AUGUGAC.AGAAUAUUUGCU.AUCAGAU.GAGUGGU...
+M.musculus.2               UGCCACAAUG.AUGACAU.CA..UAUUUGCUACUCUUGACAGCUGGGGU.
+H.sapiens.1                UGCCACAAUG.AUGACA...GUUUAUUUGCUACUCUUGAGUGCUAGAAU.
+H.sapiens.2                UGCAG..AUG.AUGUAAA.AGAAUAUUUGCU.AUCUGAG.AGAUGGU...
+H.sapiens.3                UGCAG..AUGAAUGUAAA.AGCCUAUUUGCU.AUCUGAG.AGAUGUG...
+B.taurus.1                 UGCAA..GUG.AUGCAA......AAGUAUGUUACCUGGA.AGAUGGU...
+A.thaliana.1               GGCCG..GUG.AUGUAAUCAAAAUAUUUGCUACUCUUGA.UGAAGAAUUU
+A.thaliana.2               GGCCA..GUG.AUGUAAUAAAAAUAUUUGCUACUCUUGA.UGAAGAACUU
+#=GC SS_cons               <<<<..............................................
+
+S.cerevisiae.1             AGUUCCGAA.UGAGACA.UACCAAUUAUCACCAAGAUC...UCUGA.UGA
+S.pombe.1                  ...........AUGAUU.CUUUUAUUAUCACCAAGAUC...GCUGAGUGC
+T.rubripes.1               ..........GAUGACA.AUAU....CCCACCAAGAUC...GCUGA.UGC
+T.rubripes.2               ..........GAUGACA.AUAU....CCCACCAAGAUC...GCUGA.UGC
+G.gallus.1                 ..........GCUGACA.UACAUU..AUCACCAAGAUC...UCUGA.UGA
+G.gallus.2                 ..........GCUGACA.UACAUA..ACCACCAAGAUC...GCUGA.UGC
+M.musculus.1               ..........GAUGACA.CUAGA...ACCACCAAGAUC...GCUGA.UGC
+M.musculus.2               ..........GACGAUAGCUUUAA..ACCACCAUGAUUAUAACUGA.GGC
+H.sapiens.1                ..........GAUGAGG.AUCUUA..ACCACCAUUAUCUUAACUGA.GGC
+H.sapiens.2                ..........GAUGACA.UUUUAA..ACCACCAAGAUC...GCUGA.UGC
+H.sapiens.3                ..........GAUGACA.UUUUAA..ACCACCAAGAUC...GCUGA.UGC
+B.taurus.1                 ..........GAUGACA.CUUUAA..ACCACCAAGAUC...GCUGA.UGC
+A.thaliana.1               CUUCA.....GUUGAUG.AUAUUU..ACCACCAAGAUC...UCUGA.GGC
+A.thaliana.2               UGUUCUUUCAGUUGAUG.AUUGGUUUACCACCAAGAUC...UCUGA.GGC
+#=GC SS_cons               ...............................................>>>
+
+S.cerevisiae.1             A
+S.pombe.1                  U
+T.rubripes.1               A
+T.rubripes.2               A
+G.gallus.1                 A
+G.gallus.2                 A
+M.musculus.1               A
+M.musculus.2               A
+H.sapiens.1                A
+H.sapiens.2                A
+H.sapiens.3                A
+B.taurus.1                 A
+A.thaliana.1               C
+A.thaliana.2               C
+#=GC SS_cons               >
+//

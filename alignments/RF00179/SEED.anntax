@@ -1,0 +1,66 @@
+# STOCKHOLM 1.0
+#=GF ID    GAIT
+#=GF AC    RF00179
+#=GF DE    GAIT element
+#=GF AU    Moxon SJ
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    24.1
+#=GF SE    See reference [1]
+#=GF SS    Published; PMID:12588972
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    12588972
+#=GF RT    Transcript-selective translational silencing by gamma interferon is
+#=GF RT    directed by a novel structural element in the ceruloplasmin mRNA 3'
+#=GF RT    untranslated region.
+#=GF RA    Sampath P, Mazumder B, Seshadri V, Fox PL;
+#=GF RL    Mol Cell Biol 2003;23:1509-1519.
+#=GF CC    This family represents a cis-acting element in the 3'-UTR of the
+#=GF CC    ceruloplasmin (Cp) gene called gamma interferon inhibitor of translation
+#=GF CC    (GAIT). The GAIT element is involved in selective translational
+#=GF CC    silencing of the Cp transcript. Ceruloplasmin (Cp) is a multifunctional,
+#=GF CC    copper-containing glycoprotein produced by the liver and secreted into
+#=GF CC    the plasma. As an acute-phase protein, its plasma concentration can 
+#=GF CC    double during multiple inflammatory conditions. Plasma Cp has been
+#=GF CC    reported to be an independent risk factor for cardiovascular disease,
+#=GF CC    including atherosclerosis, carotid restenosis after endarterectomy, and
+#=GF CC    myocardial infarction. Translational silencing of Cp, and
+#=GF CC    possibly other transcripts, mediated by the GAIT element may contribute to
+#=GF CC    the resolution of the local inflammatory response following cytokine
+#=GF CC    activation of macrophages [1].
+#=GF WK    http://en.wikipedia.org/wiki/GAIT_element
+#=GF SQ    8
+
+#=GS H.sapiens.1 AC    D45045.2/8585-8655
+#=GS H.sapiens.2 AC    M13699.1/3255-3321
+#=GS H.sapiens.3 AC    X69706.1/260-330
+#=GS H.sapiens.4 AC    AK095290.1/2797-2865
+#=GS H.sapiens.5 AC    AC131209.2/6785-6855
+#=GS H.sapiens.6 AC    AC104966.4/51221-51291
+#=GS H.sapiens.7 AC    M13536.1/2617-2687
+#=GS H.sapiens.8 AC    M18058.1/1580-1650
+
+H.sapiens.1             GUAUGUGAAAGUGUAAAAUAGAAUGUUACUUUGGAAUGACUAUAAACAUU
+H.sapiens.2             GUAUGUGAAAGUGUAAAAUAGAAUGUUACUUUGGAAUGACUAUAAACAUU
+H.sapiens.3             GUAUGUGAAAGUGUAAAAUAGAAUGUUACUUUGGAAUGACUAUAAACAUU
+H.sapiens.4             GUAUGUGAAAGUGUAAAAUAGAAUGUUACUUUGGAAUGACUAUAAACAUU
+H.sapiens.5             GUAUGUGAAAGUGUAAAAUAGAAUGUUACUUUGGAAUGACUAUAAACAUU
+H.sapiens.6             GUAUGUGAAAGUGUAAAAUAGAAUGUUACUUUGGAAUGACUAUAAACAUU
+H.sapiens.7             GUAUGUGAAAGUGUAAAAUAGAAUGUUACUUUGGAAUGACUAUAAACAUU
+H.sapiens.8             GUAUGUGAAAGUGUAAAAUAGAAUGUUACUUUGGAAUGACUAUAAACAUU
+#=GC SS_cons            <<<<<<...<<<.........<<<<<<....<<<.....>>>..>>>>>>
+
+H.sapiens.1             AAAAGAAGACUGGAAGCAUAC
+H.sapiens.2             AAAAGA.GACUGGA.GCAU..
+H.sapiens.3             AAAAGAAGACUGGAAGCAUAC
+H.sapiens.4             AAAAGAAGACUGGAAGCAU..
+H.sapiens.5             AAAAGAAGACUGGAAGCAUAC
+H.sapiens.6             GAAAGAAGACUGGAAACAUAC
+H.sapiens.7             AAAAGAAGACUGGAAGCAUAC
+H.sapiens.8             GAAAGAAGACUGGAAACAUAC
+#=GC SS_cons            ........>>>....>>>>>>
+//

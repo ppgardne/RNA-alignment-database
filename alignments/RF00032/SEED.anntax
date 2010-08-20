@@ -1,0 +1,171 @@
+# STOCKHOLM 1.0
+#=GF ID    Histone3
+#=GF AC    RF00032
+#=GF DE    Histone 3' UTR stem-loop
+#=GF AU    Griffiths-Jones SR
+#=GF GA    24.1
+#=GF NC    24.1
+#=GF TC    24.1
+#=GF SE    Griffiths-Jones SR
+#=GF SS    Published; PMID:10571029
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000205 SO:three_prime_UTR
+#=GF DR    GO:0006398 GO:histone mRNA 3'-end processing
+#=GF RN    [1]
+#=GF RM    7899087
+#=GF RT    The sequence of the stem and flanking sequences at the 3' end of
+#=GF RT    histone mRNA are critical determinants for the binding of the
+#=GF RT    stem-loop binding protein.
+#=GF RA    Williams AS, Marzluff WF;
+#=GF RL    Nucleic Acids Res 1995;23:654-662.
+#=GF RN    [2]
+#=GF RM    10571029
+#=GF RT    Formation of the 3' end of histone mRNA.
+#=GF RA    Dominski Z, Marzluff WF;
+#=GF RL    Gene 1999;239:1-14.
+#=GF CC    The mRNAs of metazoan histone genes lack a poly-A tail.  3' end
+#=GF CC    processing occurs at a site between a highly conserved stem-loop
+#=GF CC    (modelled by this family) and a purine rich region around 20 nts
+#=GF CC    downstream (the histone downstream element, or HDE).  The stem-loop
+#=GF CC    is bound by a 31 kDa stem-loop binding protein (SLBP - also termed
+#=GF CC    the histone hairpin binding protein, or HBP).  Together with
+#=GF CC    U7 snRNA binding of the HDE, SLBP binding nucleate s the 
+#=GF CC    formation of the processing complex.  The histone 3' UTR stem-loop
+#=GF CC    is also involved in nucleocytoplasmic transport of the mRNA, and in 
+#=GF CC    stability regulation and translation efficiency in the cytoplasm.
+#=GF WK    http://en.wikipedia.org/wiki/Histone_3'_UTR_stem-loop
+#=GF SQ    64
+
+#=GS C.variopedatus.1       AC    AF007904.1/709-734
+#=GS T.californicus.1       AC    S49118.1/1081-1106
+#=GS D.hydei.1              AC    X17072.1/4855-4880
+#=GS D.melanogaster.1       AC    X14215.1/817-842
+#=GS C.thummi.1             AC    X72803.1/5789-5814
+#=GS O.mykiss.1             AC    X02916.1/2142-2167
+#=GS O.mykiss.2             AC    X02624.1/1212-1237
+#=GS X.laevis.1             AC    X03018.1/1285-1310
+#=GS X.laevis.2             AC    X71389.1/882-907
+#=GS X.laevis.3             AC    X71390.1/1166-1191
+#=GS X.borealis.1           AC    J00985.1/345-370
+#=GS X.laevis.4             AC    X03017.1/258-283
+#=GS X.laevis.5             AC    X00224.1/747-772
+#=GS X.laevis.6             AC    X72929.1/1233-1258
+#=GS X.laevis.7             AC    X03017.1/3532-3557
+#=GS X.laevis.8             AC    J00987.1/339-364
+#=GS X.laevis.9             AC    X72950.1/815-840
+#=GS X.laevis.10            AC    J00986.1/329-354
+#=GS C.moschata.1           AC    X14730.1/572-597
+#=GS G.gallus.1             AC    U37575.1/1468-1493
+#=GS G.gallus.2             AC    U37576.1/709-734
+#=GS G.gallus.3             AC    X01752.1/1357-1382
+#=GS Cricetulus_longicaud.1 AC    X80330.1/1457-1482
+#=GS Cricetulus_longicaud.2 AC    X80330.1/2792-2817
+#=GS M.musculus.1           AC    Y12291.1/1883-1908
+#=GS M.musculus.2           AC    X05862.1/1361-1386
+#=GS M.musculus.3           AC    X13236.1/1000-1025
+#=GS M.musculus.4           AC    Z30940.1/469-494
+#=GS M.musculus.5           AC    Y12290.1/4568-4593
+#=GS M.musculus.6           AC    U62673.1/1076-1101
+#=GS M.musculus.7           AC    X01685.1/594-619
+#=GS M.musculus.8           AC    Z35401.1/1100-1125
+#=GS M.musculus.9           AC    X02622.1/164-189
+#=GS M.musculus.10          AC    Z38128.1/1436-1461
+#=GS M.musculus.11          AC    X16496.1/545-570
+#=GS R.norvegicus.1         AC    X13554.1/900-925
+#=GS R.norvegicus.2         AC    L19706.1/1955-1980
+#=GS H.sapiens.1            AC    M60746.1/626-651
+#=GS H.sapiens.2            AC    X83550.1/739-764
+#=GS H.sapiens.3            AC    AY128662.1/652-677
+#=GS H.sapiens.4            AC    X60482.1/598-623
+#=GS H.sapiens.5            AC    L19778.1/469-494
+#=GS H.sapiens.6            AC    X60484.1/640-665
+#=GS H.sapiens.7            AC    X83548.1/695-720
+#=GS H.sapiens.8            AC    X57130.1/844-869
+#=GS H.sapiens.9            AC    M60747.1/1141-1166
+#=GS H.sapiens.10           AC    X57128.1/614-639
+#=GS H.sapiens.11           AC    Z46261.1/745-770
+#=GS H.sapiens.12           AC    X60483.1/941-966
+#=GS H.sapiens.13           AC    Z49861.1/646-671
+#=GS P.ochraceus.1          AC    X05620.1/58-83
+#=GS D.imbricata.1          AC    X07772.1/25-50
+#=GS P.miliaris.1           AC    M10557.1/790-815
+#=GS S.purpuratus.1         AC    V01357.1/479-504
+#=GS S.purpuratus.2         AC    X06642.1/1573-1598
+#=GS S.purpuratus.3         AC    X06641.1/594-619
+#=GS S.purpuratus.4         AC    X06639.1/536-561
+#=GS S.purpuratus.5         AC    X03952.1/2442-2467
+#=GS L.pictus.1             AC    X04488.1/1128-1153
+#=GS L.pictus.2             AC    X04384.1/652-677
+#=GS U.caupo.1              AC    X58895.1/787-812
+#=GS A.californica.1        AC    AY064471.1/461-486
+#=GS C.elegans.1            AC    X15634.1/1233-1258
+#=GS T.spiralis.1           AC    AY028698.1/489-514
+
+C.variopedatus.1                   AAAACGGUCCUUAUCAGGACCAAACA
+T.californicus.1                   ACCCCGGCUCUUUUCAGAGCCAAAAC
+D.hydei.1                          CAAAAGGCCCUUUUCAGGGCCACAAA
+D.melanogaster.1                   AAAACGGCCCUUUUCAGGGCCACAAU
+C.thummi.1                         UAAAAGGUCCUUUUCAGGACCACAAA
+O.mykiss.1                         CCCAAGGCUCUUUUAAGAGCCACCCA
+O.mykiss.2                         CAAAAGGCUCUUUUAAGAGCCACCCA
+X.laevis.1                         ACCAAGGCUCUUUUAAGAGCCACCAC
+X.laevis.2                         ACAAAGGCUCUUCUAAGAGCCCCCAU
+X.laevis.3                         ACAAAGGCUCUUCUAAGAGUCCCCAU
+X.borealis.1                       ACAACGGCCCUUUUAAGGGCCACAAA
+X.laevis.4                         CAACAGGCUCUUUUAAGAGCCACCAA
+X.laevis.5                         CCAAAGGCUCUUUUCAGAGCCCCCCA
+X.laevis.6                         UCAAAGGCUCUUUUCAGAGCCACCAC
+X.laevis.7                         ACAAAGGCUCUUUUAAGAGCCCCCAC
+X.laevis.8                         CCCAAGGCUCUUUUCAGAGCCCCCCA
+X.laevis.9                         ACAAAGGUUCUUUUCAGAGCCACUAA
+X.laevis.10                        AAAACGGCCCUUUUAAGGGCCACCAA
+C.moschata.1                       ACAAAGGCUCUUUUUAGAGCCACCCA
+G.gallus.1                         CAAACGGCUCUUUUCAGAGCCCCCAA
+G.gallus.2                         CCAAAGGCUCUUCUCAGAGCCACCCA
+G.gallus.3                         CCAACGGCUCUUUUAAGAGCCACCCA
+Cricetulus_longicaud.1             AAAACGGCUCUUUUCAGAGCCACCCA
+Cricetulus_longicaud.2             ACAAAGGCUCUUUUCAGAGCCACACU
+M.musculus.1                       CAAAAGGCUCUUUUCAGAGCCACCAC
+M.musculus.2                       ACCAAGGCUCUUUUCAGAGCCACUCA
+M.musculus.3                       CAAAAGGUCCUUUUCAGGACCACUCA
+M.musculus.4                       AAAAAGGCUCUUUUCAGAGCCACCCA
+M.musculus.5                       CCAACGGCUCUUUUCAGAGCCACCAA
+M.musculus.6                       AAAAAGGCUCUUUUAAGAGCCACCAA
+M.musculus.7                       AAAACGGCUCUUUUAAGAGCCACCUC
+M.musculus.8                       ACAAAGGCCCUUUUAAGGGCCACCAC
+M.musculus.9                       CCCAAGGCUCUUUUCAGAGCCACCAC
+M.musculus.10                      CAAACGGCUCUUUUCAGAGCCACCCA
+M.musculus.11                      CCAAAGGCUCUUUUCAGAGCCAACCA
+R.norvegicus.1                     ACAAAGGCCCUUUUCAGGGCCCCCAA
+R.norvegicus.2                     UAAAAGGCUCUUUUUAGAGCCACUAA
+H.sapiens.1                        CCAAAGGCUCUUCUCAGAGCCAACCA
+H.sapiens.2                        CAAAAGGCUCUUUUCAGAGCCCCUCA
+H.sapiens.3                        AAAAAGGCCCUUUUUAGGGCCCCUAA
+H.sapiens.4                        CCAACGGCCCUUUUCAGGGCCACCUA
+H.sapiens.5                        CCAACGGCUCUUUUCAGGGCCACCCA
+H.sapiens.6                        UAAAAGGCCCUUUUCAGGGCCACCCU
+H.sapiens.7                        UCAAAGGCCCUUCUCAGGGCCACCCA
+H.sapiens.8                        CAAACGGCUCUUUUAAGAGCCACCUA
+H.sapiens.9                        UAAACGGCUCUUUUCAGAGCCACCCA
+H.sapiens.10                       GAAAAGGCUCUUUUCAGAGCCACUCA
+H.sapiens.11                       GCAAAGGCUCUUUUCAGAGCCACCAC
+H.sapiens.12                       CAAAAGGCCCUUUUUAGGGCCCCCAC
+H.sapiens.13                       CCAAAGGCUCUUUUAAGAGCCACCCA
+P.ochraceus.1                      CAAACGGCUCUUUUCAGAGCCAACAC
+D.imbricata.1                      AAAACGGCUCUAUUCAGAGCCACCAC
+P.miliaris.1                       ACAACGGCCCUUUUCAGGGCCACACA
+S.purpuratus.1                     UCAACGGCCCUUAUCAGGGCCACCAA
+S.purpuratus.2                     ACAACGGCUCUUUUAAGAGCCACCAA
+S.purpuratus.3                     ACAACGGCUCUUUUUAGAGCCACCAA
+S.purpuratus.4                     AAACCGGCUCUUUUAAGAGCCACCAA
+S.purpuratus.5                     CCAACGGCUCUUUUUAGAGCCACCAC
+L.pictus.1                         CCAACGGCUCUUAUCAGAGCCACCCA
+L.pictus.2                         CAAACGGCUCUUAUCAGAGCCACCAA
+U.caupo.1                          CACACGGCUCUUUUUAGAGCCACAUA
+A.californica.1                    AAACCGGCCCUUUUAAGGGCCACAAC
+C.elegans.1                        CCAACGGCCCUCUUUAGGGCCACAAA
+T.spiralis.1                       CCAACGGUCCUUAUCAGGACCACUAU
+#=GC SS_cons                       .....<<<<<<....>>>>>>.....
+//

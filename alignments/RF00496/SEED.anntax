@@ -1,0 +1,40 @@
+# STOCKHOLM 1.0
+#=GF ID    Corona_SL-III
+#=GF AC    RF00496
+#=GF DE    Coronavirus SL-III cis-acting replication element (CRE)
+#=GF AU    Moxon SJ
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    66.1
+#=GF SE    PMID:12767992
+#=GF SS    Published; PMID:12767992
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    12767992
+#=GF RT    Stem-loop III in the 5' untranslated region is a cis-acting element
+#=GF RT    in bovine coronavirus defective interfering RNA replication.
+#=GF RA    Raman S, Bouma P, Williams GD, Brian DA;
+#=GF RL    J Virol 2003;77:6720-6730.
+#=GF CC    This family represents a coronavirus cis-acting replication
+#=GF CC    element (CRE).  Members of this family are related to Bovine
+#=GF CC    coronavirus stem-loop III and function as cis-acting elements for
+#=GF CC    defective interfering (DI) RNA replication [1].
+#=GF WK    http://en.wikipedia.org/wiki/Coronavirus_SL-III_cis-acting_replication_element_(CRE)
+#=GF SQ    5
+
+#=GS B.coronavirus.1        AC    AF220295.1/85-126
+#=GS B.coronavirus.2        AC    AF391542.1/85-126
+#=GS Human_coronavirus_OC.1 AC    AY585228.1/84-125
+#=GS Porcine_hemagglutina.1 AC    AF523845.1/85-126
+#=GS Equine_coronavirus_N.1 AC    AF523846.1/84-125
+
+B.coronavirus.1                    CACUCCCUGUAUUCUAUGCUUGUGGGCGUAGAUUUUUCAUAG
+B.coronavirus.2                    CACUCCCUGUAGUCUAUGCCUGUGGGCGUAGAUUUUUCAUAG
+Human_coronavirus_OC.1             CACUCCCUGUAAUCUAUGCUUGUGGGCGUAGAUUUUUCAUAG
+Porcine_hemagglutina.1             CACUCCCUGUAGUCUAUGCUUGUGGGCGUAGAUUUUUCAUAG
+Equine_coronavirus_N.1             CACUCCCUGUAAUCUAUGCUUGCGAGCUUAGACUUUUCAUAG
+#=GC SS_cons                       ............<<<<<<<<....>>>>>>>>..........
+//

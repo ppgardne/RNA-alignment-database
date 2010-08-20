@@ -1,0 +1,54 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-375
+#=GF AC    RF00700
+#=GF DE    microRNA mir-375
+#=GF AU    Wilkinson A
+#=GF GA    30.0
+#=GF NC    29.7
+#=GF TC    34.4
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000114
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    9
+
+#=GS O.latipes.1            AC    BAAE01195317.1/70-137
+#=GS T.rubripes.1           AC    CAAB01000683.1/22675-22743
+#=GS D.rerio.1              AC    CU468956.14/114092-114163
+#=GS D.rerio.2              AC    CU929360.7/11656-11724
+#=GS G.gallus.1             AC    AADN02016765.1/7226-7294
+#=GS A.carolinensis.1       AC    AAWZ01023325.1/95969-96037
+#=GS H.sapiens.1            AC    AJ334771.1/142-209
+#=GS E.europaeus.1          AC    AANN01128667.1/422-489
+#=GS Monodelphis_domestic.1 AC    AAFR03041735.1/930-997
+
+O.latipes.1                        CUUCACGUUGAGCCUCACGUACAAUACCUGAA..GAUGA..GUUUUGUUC
+T.rubripes.1                       CUUCACGUUGAGCCUCACGCACAAUACCUGA...AGAUGAAGUUUUGUUC
+D.rerio.1                          UCUCACGUUGAGCCACACGCACAAUGCCUGCAGAUGAAAGGGUUUUGUUC
+D.rerio.2                          CUUUACGUUGAGCCACACGCACAAUACAUGU...GGAUUCAGUUUUGUUC
+G.gallus.1                         CCUGGCGUCGAGCCCCACGUGCAAGACCUGA...CCUGAACGUUUUGUUC
+A.carolinensis.1                   CCUCGCGUCGAGCCCCACGCACAAGACCUGA...CGUGAAUGUUUUGUUC
+H.sapiens.1                        GCCAGCGACGAGCCCCUCGCACAA.ACCGGA...CCUGAGCGAUCUGUUC
+E.europaeus.1                      CCCCGCGACGAGCCCCUCGCACAA.ACCGGA...CCUGAGCGUUUUGUUC
+Monodelphis_domestic.1             ACCCGCGCCGAGCCCCUCGCACAA.ACCGGA...CCUGAGCGUUUUGUUC
+#=GC SS_cons                       ....<<<.<<<<<<...<<.<<<<.<<..............>>.>>>>.>
+#=GC RF                            cuucaCGucGaGCCacACGcaCaauaCcuGa...aaagAaaGuUuuGuUC
+
+O.latipes.1                        GUUCGGCUCGCGUUACGCAGGU
+T.rubripes.1                       GUUCGGCUCGCGUUAUGCAGGU
+D.rerio.1                          GUUCGGCUCGCGUUACGCAGAU
+D.rerio.2                          GUUCGGCUCGCGUUAAGCAAGU
+G.gallus.1                         GUUCGGCUCGCGUUAGGCAGGU
+A.carolinensis.1                   GUUCGGCUCGCGUUAGGCAGGU
+H.sapiens.1                        GUUCGGCUCGCGUGAGGCACGG
+E.europaeus.1                      GUUCGGCUCGCGUGAGGCAGGG
+Monodelphis_domestic.1             GUUCGGCUCGCGUGAGGCGGAG
+#=GC SS_cons                       >...>>>>>>>>>.........
+#=GC RF                            GUUCGGCuCgCGuuAaGCAGGu
+//

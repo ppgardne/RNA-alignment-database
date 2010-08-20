@@ -1,0 +1,48 @@
+# STOCKHOLM 1.0
+#=GF ID    sR47
+#=GF AC    RF01131
+#=GF DE    Small nucleolar RNA sR47
+#=GF AU    Wilkinson A
+#=GF GA    48.0
+#=GF NC    20.2
+#=GF TC    51.8
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    URL; http://lowelab.ucsc.edu/snoRNAdb/
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF WK    http://en.wikipedia.org/wiki/SnoRNA
+#=GF SQ    7
+
+#=GS P.furiosus.1           AC    L22346.1/2655-2711
+#=GS P.abyssi.1             AC    AJ248288.1/153186-153240
+#=GS P.abyssi.2             AC    AJ248286.2/52940-52994
+#=GS Pyrococcus_horikoshi.1 AC    BA000001.2/1116988-1117042
+#=GS Pyrococcus_furiosus_.1 AC    AE009950.1/893864-893919
+#=GS Pyrococcus_horikoshi.2 AC    BA000001.2/266296-266350
+#=GS T.litoralis.1          AC    D88253.1/2290-2344
+
+P.furiosus.1                       GCCGAUGAGGGAGUCUUUCGGGCCCUGA.UUGGUGAUGAGGGCCUCCCUA
+P.abyssi.1                         GAUGAUGA.AACUCCUUUCGGGCACUGA.UCCGUGAUGAAGGCCCUCCUA
+P.abyssi.2                         UCCGAUGA.GGAGCGAGCCCGGCCCUGA.GCGAUGAUGAGAGCUACCACU
+Pyrococcus_horikoshi.1             GCCGAUGA.GGAACGAGCCCGGCCCUGA.AGGAUGAUGAAAGCUACCACU
+Pyrococcus_furiosus_.1             GCCGAUGA.AGAGCGAGCCCGGCCCUGAGGAGAUGAUGAAAGCUACCACU
+Pyrococcus_horikoshi.2             ACCGAUGA.AGAGCCUUUUGGGCCCUGA.GAGAUGAUGAAAGCCCCCCUA
+T.litoralis.1                      GAUGAUGA.AGAACCUUUCGGGCCCUGA.UGGAUGAUGGAGGCCUCCCUA
+#=GC SS_cons                       ..................................................
+#=GC RF                            GauGAUGA.AGAgCcuuUcGGGCcCUGA.gaGAUGAUGAAaGCcacCcUA
+
+P.furiosus.1                       UCCCGAGG
+P.abyssi.1                         U.CUGAGC
+P.abyssi.2                         A.CUGAGG
+Pyrococcus_horikoshi.1             A.CUGAGG
+Pyrococcus_furiosus_.1             U.CUGAGG
+Pyrococcus_horikoshi.2             U.CUGAGG
+T.litoralis.1                      U.CUGAGG
+#=GC SS_cons                       ........
+#=GC RF                            UCU.GAGG
+//

@@ -1,0 +1,85 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORD62
+#=GF AC    RF00153
+#=GF DE    Small nucleolar RNA SNORD62
+#=GF AU    Moxon SJ
+#=GF GA    33.0
+#=GF NC    30.5
+#=GF TC    33.2
+#=GF PI    U62
+#=GF SE    Griffiths-Jones SR
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Loxodonta_africana300200
+#=GF DR    snoopy; Echinops_telfairi300872
+#=GF RN    [1]
+#=GF RM    12215523
+#=GF RT    Purified box C/D snoRNPs are able to reproduce site-specific
+#=GF RT    2'-O-methylation of target RNA in vitro.
+#=GF RA    Galardi S, Fatica A, Bachi A, Scaloni A, Presutti C, Bozzoni I;
+#=GF RL    Mol Cell Biol 2002;22:6663-6668.
+#=GF CC    snoRNA U62 is found in both humans and mice. U62 is a member of
+#=GF CC    the C/D class of snoRNA which contain C (UGAUGA) and D (CUGA) box
+#=GF CC    motifs.  Most of the members of the box C/D family function in
+#=GF CC    directing site-specific 2'-O-methylation of substrate
+#=GF CC    RNAs. Although the selection of the target nucleotide requires
+#=GF CC    the antisense element and the conserved box D or D' of the
+#=GF CC    snoRNA, the methyltransferase activity is supposed to reside in
+#=GF CC    one of the protein components [1].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_SNORD62
+#=GF SQ    14
+
+#=GS L.africana.1           AC    AAGU02074340.1/1199-1284
+#=GS E.telfairi.1           AC    AAIY01713494.1/2654-2739
+#=GS Spermophilus_tridece.1 AC    AAQQ01700835.1/2843-2928
+#=GS H.sapiens.1            AC    U72851.1/1-86
+#=GS H.sapiens.2            AC    AL358781.19/94752-94837
+#=GS H.sapiens.3            AC    AL929554.20/7608-7693
+#=GS M.murinus.1            AC    ABDC01183880.1/986-1070
+#=GS Otolemur_garnettii_s.1 AC    AAQR01359871.1/67-152
+#=GS C.lupus.1              AC    AAEX02022328.1/5905-5987
+#=GS F.catus.1              AC    AANG01443650.1/3792-3875
+#=GS B.taurus.1             AC    AAFC03050704.1/42408-42493
+#=GS M.lucifugus.1          AC    AAPE01387311.1/2082-2167
+#=GS Monodelphis_domestic.1 AC    AAFR03046596.1/196392-196475
+#=GS O.anatinus.1           AC    AAPN01120941.1/11917-12002
+
+L.africana.1                       UCUCAAUGAUGUAAUUCCAAUAGAUUCUUCUGACUCUCCACUGUGGGCUC
+E.telfairi.1                       UCUCAGUGAUGUAAUUCCAAUAGACCCUUCUGACCCUCCUCUGUGCACUC
+Spermophilus_tridece.1             CCUCAGUGAUGUAAUUCCAAUAGAUCCUUCUGACCCUCCACUGUGGACUC
+H.sapiens.1                        UCUCAGUGAUGUAAUUCCAAUAGAUCCUUCUGACCCUCCACUGUGGACUC
+H.sapiens.2                        UCUCAGUGAUGUAAUUCCAAUAGAUCCUUCUGACCCUCCACUGUGGACUC
+H.sapiens.3                        UCUUAGUGACAUAAUUCUAAUAGUUUGUUCCGACCUUCCACUGUGGACUC
+M.murinus.1                        UCUCAGUGAUGUACUUCCAGUAGAUCCUUCUGACC.UCUACUGUGGACUC
+Otolemur_garnettii_s.1             UCUCAGUGAUGUGUUUCCAAUAGAUCCUUCUAAUCCUGCACUGUGGACUC
+C.lupus.1                          UCUCCGUGAUGUAAUUCCAAUAGAUCCUUCUGACC..CCCCCGUGGACUC
+F.catus.1                          UCUCAAUGAUGCGAUUCCAAUAGAUCCUUCUGACCCUCCACUGUGGACUC
+B.taurus.1                         UCUCAGUGAUGCGAUUCCAAUAGAUCCUUCUGACCCUCCACUGUGGACUC
+M.lucifugus.1                      UCUCAAUGAUGGAAUCCCAAUAGAUCCUUCUGACCCUCCACUGUGGACUC
+Monodelphis_domestic.1             UCUCUAUGAUGUA.UUCCAAUAGAUCCUUCUGACCCUUCAAUGUGUACUC
+O.anatinus.1                       UCUCUAUGAUGUA.UUCCAAUAGAUCCUUCUGACCCUCCAGUGUGCAUUC
+#=GC SS_cons                       <<<<..............................................
+#=GC RF                            uCucAGUGAuaUAAUUCuAAUAGaUugUUCuGACCuUCCACUGUGGACUC
+
+L.africana.1                       AAUAGCAGGG.AGAUGAAGAGGAGAGUGACUGAGAGA
+E.telfairi.1                       AGUCGCAGUG.AGAUGAAGAGGACUGUGAUUGAGAGA
+Spermophilus_tridece.1             AACGGCAGGG.GGAUGAAGAGAACAGUGACUGAGAGG
+H.sapiens.1                        AAUAGCAGGG.AGAUGAAGAGGACAGUGACUGAGAGA
+H.sapiens.2                        AAUAGCAGGG.AGAUGAAGAGGACAGUGACUGAGAGA
+H.sapiens.3                        AAUAGCAGGG.AGAUGAAGAGGACAGUGAUUGCAUGA
+M.murinus.1                        AAUAGCAGGG.AGAUGAAGAGGACAGUGCCGGAGAGA
+Otolemur_garnettii_s.1             AAUAGCAGGG.AGAUGACGAGGACAGUGACUGAGAGA
+C.lupus.1                          AAU.GCAGGG.GGAUGAAGAGGAAAGUGACUGAGAGA
+F.catus.1                          AAC.GCAGGG.GG.UGAAGAGGAACGUGACUGAGAGA
+B.taurus.1                         AAUAGCAGGG.AGAUGAAGAGGAACGUGACCGAGAGA
+M.lucifugus.1                      AAUAGCAGGG.AGAUGAAGAGGAACGUGGCUGAGAGA
+Monodelphis_domestic.1             AGUAAAAGGG.AAAUGAAGAG.ACAAUACCUGAGAGA
+O.anatinus.1                       CAAAGAAGGGGAAAUGAAGAGAUGUGUGACUGAGAGA
+#=GC SS_cons                       .................................>>>>
+#=GC RF                            AAUAGCAGGG.AGAUGAAGAGGACAGUGAuUGagaGa
+//

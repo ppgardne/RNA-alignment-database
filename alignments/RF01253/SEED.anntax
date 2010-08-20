@@ -1,0 +1,73 @@
+# STOCKHOLM 1.0
+#=GF ID    snR46
+#=GF AC    RF01253
+#=GF DE    Small nucleolar RNA snR46
+#=GF AU    Wilkinson A
+#=GF GA    30.0
+#=GF NC    0.0
+#=GF TC    37.9
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; snRNA; snoRNA; HACA-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    snornadb; snR46
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Saccharomyces_cerevisiae300062
+#=GF WK    http://en.wikipedia.org/wiki/SnoRNA
+#=GF SQ    6
+
+#=GS Saccharomyces_castel.1 AC    AACF01000167.1/9584-9795
+#=GS Saccharomyces_kudria.1 AC    AACI02000653.1/4144-4337
+#=GS Saccharomyces_mikata.1 AC    AACH01000553.1/3305-3502
+#=GS Saccharomyces_bayanu.1 AC    AACA01000278.1/3590-3786
+#=GS Saccharomyces_parado.1 AC    AABY01000137.1/29307-29506
+#=GS S.cerevisiae.1         AC    Z72815.1/1165-1361
+
+Saccharomyces_castel.1             AUGGCCUCUUCGAAGAUCCUUAAACUUUGAUACAAAUGUGUCUUGUGGUC
+Saccharomyces_kudria.1             AUGGCCUCUUCGAAGAUCCGUAAACUUUG...CAUAUUUG..UGGUGGUU
+Saccharomyces_mikata.1             AUGGCCUCUUCGAAGAUCCGUAAACUUUG...CAUACUUG..CGGUGGUU
+Saccharomyces_bayanu.1             AUGGCCUCUUCGAAGAUCCGUAAACUUUG...CAAAUUUG..UGGUGGUU
+Saccharomyces_parado.1             AUGGCCUCUUCGAAGAUCCGUAGAUUUUG...CAUUUUUG..CGGUGGUU
+S.cerevisiae.1                     AUGGCCUCUUCGAAGAUCCGUAGAUUUUG...CAUUUUUG..CGGUGGUU
+#=GC SS_cons                       ..<<<<<<.......<<<<<<<<<<<<<<...<<....>>..>>>.>>>>
+#=GC RF                            AUGGCCuCUUcGAAGauCCguaaacuuug...CauAuUuG..cggUgguu
+
+Saccharomyces_castel.1             UAGGGAUUCAAAGCGAGGCCUAUAUUGAAAGUGUAUGUCAUGGUA.C...
+Saccharomyces_kudria.1             UAUGGAUUCAAAGCGAGGCCUAAAUU.GACGAUCAUGUCUUUAUUCU...
+Saccharomyces_mikata.1             UAUGGAUUCAAAGCGAGGCCUAUAUA.AACGAUCAUGUCUUUUCU.A...
+Saccharomyces_bayanu.1             UAUGGAUUCAAAGCGAGGCCUAAAUU.AACGAUCAUGUCUUUAUU.U...
+Saccharomyces_parado.1             UAUGGAUUCAAAGCGAGGCCUAAAUU.AACGAUCAUGUCUUUAUU.AUUU
+S.cerevisiae.1                     UAUGGAUUCAAAGCGAGGCCUAAAUU.AACGAUCAUGUCUUUGCU.A...
+#=GC SS_cons                       >>>>>>>.......>>>>>>..............<<<<<<<<........
+#=GC RF                            uauGGauUcAAAGcGaGGCCUAAAUu.AAcGAUcauGcCuuuauU.a...
+
+Saccharomyces_castel.1             ..AAAAACAAAAAAAU.UGUGACAUCUCAUUGACUUAGGUUCCAUAUAUU
+Saccharomyces_kudria.1             ..UUUUAAG......A.GAGGGCAUAUCAUUGAAAUU...UCUAAUUUCC
+Saccharomyces_mikata.1             ..CUUUUUAUAA...A.GGGGGCAUAUCAUUGAAUUUU..CCGAUUUCCA
+Saccharomyces_bayanu.1             ..UUUUAAA......AAGAGGGCAUAUCAUUGAAUUU...CCGAUUUCCA
+Saccharomyces_parado.1             UUUUAUAAA......A.GAGGACAUAUCAUUGAAUUU...CCGAUUUCCA
+S.cerevisiae.1                     ..UUAUAUC......A.GAGGGCAUAUCAUUGAAUUU...CCGAUUUCCA
+#=GC SS_cons                       .................>>>>>>>>.<<<<<<<<<...............
+#=GC RF                            ..uUuUAaa......A.gagGgCauAuCauuGaauUU...ccgAuUUccA
+
+Saccharomyces_castel.1             UAUGGACUUGUAUU.GUGAGGAUUUAGAGCCAUUUC.GGGCUCUACCUUA
+Saccharomyces_kudria.1             AAAGGGAAAAAAAAACUAAAG...CUGUGCUAUUUCAUGCGCUC.CUUUU
+Saccharomyces_mikata.1             AAGGGAAGAAAACGAAUAAGG...UUGUG...UUGUCAUGCACU.UCUUU
+Saccharomyces_bayanu.1             AAGGGAAGAAAAUAAAUAAAG...CUGUGCUAU.UCCGUGCACU.UCUUU
+Saccharomyces_parado.1             AAGGGAAGAAAACAAAUAAAG...CUGUGCCAUUUC.AUGCAUU.CCUUU
+S.cerevisiae.1                     AAGGGAAGAAAAUAAAUAAAG...UUGUGCUAUUUCCAUGCAUC.CUUUU
+#=GC SS_cons                       ...<<<<<<<<<......<<<.....<<<<.........>>>>..>>>>>
+#=GC RF                            AAgggaagaaaaaAAAUAagg...uUguGcuAUuucaaugCacu.ccuuu
+
+Saccharomyces_castel.1             UUACAUU..UCAAUGAUACAUUU
+Saccharomyces_kudria.1             UUUGU....UCAAUGACACAUUU
+Saccharomyces_mikata.1             UUCUUUCAUUCAAUGACACAUAU
+Saccharomyces_bayanu.1             UUCUUUUAUUCAAUGAUACAUUU
+Saccharomyces_parado.1             U.CUUUCAUUCAAUGAUACAUAC
+S.cerevisiae.1                     UUCUUUCAUUCAAUGACACAUAC
+#=GC SS_cons                       >>>>>>>>>>>>>>>>.......
+#=GC RF                            uucuuucauuCaauGacAcAUau
+//

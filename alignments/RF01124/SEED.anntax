@@ -1,0 +1,42 @@
+# STOCKHOLM 1.0
+#=GF ID    sR36
+#=GF AC    RF01124
+#=GF DE    Small nucleolar RNA sR36
+#=GF AU    Wilkinson A
+#=GF GA    45.0
+#=GF NC    24.3
+#=GF TC    65.8
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    URL; http://lowelab.ucsc.edu/snoRNAdb/
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF WK    http://en.wikipedia.org/wiki/SnoRNA
+#=GF SQ    5
+
+#=GS P.abyssi.1             AC    AJ248287.2/214684-214738
+#=GS Pyrococcus_furiosus_.1 AC    AE009950.1/329116-329170
+#=GS Pyrococcus_horikoshi.1 AC    BA000001.2/530027-530081
+#=GS Thermococcus_kodakar.1 AC    AP006878.1/1829923-1829976
+#=GS T.onnurineus.1         AC    DQ223723.1/12457-12515
+
+P.abyssi.1                         GUGGAUGAGGAGAGGGUAGGUAGCUGAG....UUAUGAUGAACUAAUCGG
+Pyrococcus_furiosus_.1             GUGGAUGAAGAAAGGGUAGGUAGCUGAG....CGGUGAUGAUCUAAUCGG
+Pyrococcus_horikoshi.1             GUGGAUGAAGAGAGGGUAGGUAGCUGAU....CUGUGAUGAACUAAUCGG
+Thermococcus_kodakar.1             GGGGAUGAUGUGAGGGUAGGUGGCUGAG....AAGUGAUGACCUAAUCGG
+T.onnurineus.1                     UGGGAUGAUGUGAGGGUAGGUGGCCGAGAGACCGAUGAGGAGCUAAUCGG
+#=GC SS_cons                       ..................................................
+#=GC RF                            GuGGAUGAaGAGAGGGUAGGUAGCUGAG....aaGUGAUGAaCUAAUCGG
+
+P.abyssi.1                         CCCCCGACA
+Pyrococcus_furiosus_.1             CCCCUGACA
+Pyrococcus_horikoshi.1             CCCCUGACA
+Thermococcus_kodakar.1             CC.CUGACC
+T.onnurineus.1                     CCCCUGACC
+#=GC SS_cons                       .........
+#=GC RF                            CCcCUGACA
+//

@@ -1,0 +1,103 @@
+# STOCKHOLM 1.0
+#=GF ID    CoTC_ribozyme
+#=GF AC    RF00621
+#=GF DE    Beta-globin co-transcriptional cleavage ribozyme
+#=GF AU    Daub J
+#=GF GA    32.0
+#=GF NC    30.0
+#=GF TC    37.4
+#=GF SE    Daub J
+#=GF SS    Published; PMID:15565159
+#=GF TP    Gene; ribozyme;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000374 SO:ribozyme
+#=GF RN    [1]
+#=GF RM    11389836
+#=GF RT    Multiple transcript cleavage precedes polymerase release in
+#=GF RT    termination by RNA polymerase II.
+#=GF RA    Dye MJ, Proudfoot NJ;
+#=GF RL    Cell. 2001;105:669-681.
+#=GF RN    [2]
+#=GF RM    15565159
+#=GF RT    Autocatalytic RNA cleavage in the human beta-globin pre-mRNA promotes
+#=GF RT    transcription termination.
+#=GF RA    Teixeira A, Tahiri-Alaoui A, West S, Thomas B, Ramadass A, Martianov
+#=GF RA    I, Dye M, James W, Proudfoot NJ, Akoulitchev A;
+#=GF RL    Nature. 2004;432:526-530.
+#=GF CC    Transcription termination of RNA polymerase II transcripts is
+#=GF CC    proposed to occur by a two stage process [1]. The first stage
+#=GF CC    involves pre-termination cleavage (PTC) of the nascent transcript
+#=GF CC    downstream of the poly(A) site. This process is also referred to
+#=GF CC    as co-transcriptional cleavage (CoTC). The CoTC process in the
+#=GF CC    human beta-globin gene has been shown to involve an RNA
+#=GF CC    self-cleaving activity located in the 3' flanking region of the
+#=GF CC    beta-globin gene. This Rfam model represents the catalytic core
+#=GF CC    of the beta-globin CoTC ribozyme.  The CoTC core is highly
+#=GF CC    conserved in the 3' flanking regions of other primate beta-globin
+#=GF CC    genes [2].  Functionally, this CoTC ribozyme resembles the 3'
+#=GF CC    processive, self-cleaving ribozymes described for the
+#=GF CC    protein-encoding genes from the myxomycetes Didymium iridis and
+#=GF CC    Physarum polycephalum [2].
+#=GF WK    http://en.wikipedia.org/wiki/Beta-globin_co-transcriptional_cleavage_ribozyme
+#=GF SQ    10
+
+#=GS Macaca_fascicularis_.1 AC    AF205410.1/1079-1269
+#=GS P.anubis.1             AC    AF205411.1/1080-1270
+#=GS C.guereza.1            AC    AF205409.1/1081-1271
+#=GS H.sapiens.1            AC    U01317.1/64568-64759
+#=GS H.sapiens.2            AC    AY034472.1/822-1013
+#=GS P.pygmaeus.1           AC    AF205408.1/1069-1260
+#=GS Callithrix_jacchus_w.1 AC    AF205413.1/1614-1793
+#=GS Saguinus_oedipus_cot.1 AC    AF205415.1/1604-1783
+#=GS S.sciureus.1           AC    AF205412.1/1675-1853
+#=GS Otolemur_crassicauda.1 AC    U60902.1/53342-53532
+
+Macaca_fascicularis_.1             GCACAGUGUUACCAUCAACAAC....CUUAACUUCAUUUU.CUUAUUCAA
+P.anubis.1                         GCACAGUGUUACCAUCAACAAC....CUUAACUUCAUUUU.CUUAUUCAA
+C.guereza.1                        GCAUAGUGUUACCAUCAACAAC....CUUAACUUCAUUUU.CUUAUUCAA
+H.sapiens.1                        GCAUAGUGUUACCAUCAACCAC....CUUAACUUCAUUUUUCUUAUUCAA
+H.sapiens.2                        GCAUAGUGUUACCAUCAACCAC....CUUAACUUCAUUUUUCUUAUUCAA
+P.pygmaeus.1                       GCAUAGUGUUACCAUCAACAAC....CUUAACUUUAUUUUUCUUAUUCAA
+Callithrix_jacchus_w.1             GCAUAGUGUUACUAUCAACAAC....CUUUACUUCAUUUA.CUUGUUCAA
+Saguinus_oedipus_cot.1             GCAUAGUGUUACCAUCAACAAC....CUUAACUUCAUUUA.CUUAUUCAA
+S.sciureus.1                       GCAUCCUGUUACCAUCAACAAC....CUUAACUUCAUUUA.CUUAUUCAA
+Otolemur_crassicauda.1             GCAUAGUAUUACCAUCAGCAACACACCUUACCUUCGUUUUUUUCAUUCAG
+#=GC SS_cons                       .....................<....<<<....<<<<<...<<<<<<...
+
+Macaca_fascicularis_.1             UGCCUAGGUAGGUAGAUGCUAGAUUCUGGAAAU....AAAAUAUGAGUCU
+P.anubis.1                         UGCCUAGGUAGGUAGAUGCUAGAUUCUGGGAAU....AAAAUAUGAGUCU
+C.guereza.1                        UACCUAGGUAGGUAGAUGCUAGAUUCUGGAAAU....AAAAUAUAAGUCU
+H.sapiens.1                        UACCUAGGUAGGUAGAUGCUAGAUUCUGGAAAU....AAAAUAUGAGUCU
+H.sapiens.2                        UACCUAGGUAGGUAGAUGCUAGAUUCUGGAAAU....AAAAUAUGAGUCU
+P.pygmaeus.1                       UACCUAGGUAGGUAGAUGCUAGAUUUUGGAAAU....AAAAUAUGAGUCU
+Callithrix_jacchus_w.1             UAGCCAGGUAGGUAGAUGCUAGAUUCUAGAAAU....AAAAUAUGAGUCU
+Saguinus_oedipus_cot.1             UGGCCAGGUAGGUAGAUGCUAGAUUCUAGAAAU....AAAAUACAAGUUU
+S.sciureus.1                       UAGCUGGGUAGGUAGAUGCUAGAGUCUACAAA.....AUAAAAUGAGUCU
+Otolemur_crassicauda.1             UACAUAGGU.GGUAGAUGCUAGACUGCAGGAAUGAAUAAAACAUGAGUCU
+#=GC SS_cons                       <<<<<....>>>>>.<<<<<.<<<<..<<<..............<<<...
+
+Macaca_fascicularis_.1             CAGGUGGUCCUUGUCCUCUCUCCUAGUCGAAUUCUGAAUCUAGUUGACAA
+P.anubis.1                         CAGGUGGUCCUUGUCCUCUCUCCUAGUCGAAUUCUGAAUCUAGUUGACAA
+C.guereza.1                        CAGGUGGACCUUGUCCUCUCUCCUAGUCGAAUUCUGAAUCUAGUUGGCAA
+H.sapiens.1                        CAAGUGGUCCUUGUCCUCUCUCCCAGUCAAAUUCUGAAUCUAGUUGGCAA
+H.sapiens.2                        CAAGUGGUCCUUGUCCUCUCUCCCAAUCAAAUUCUGAAUCUAGUUGGCAA
+P.pygmaeus.1                       CAAGUGGUCCUUGUCCUCUCUCCCAGUCGAAUUCUGAAUCUAGUUGGCAA
+Callithrix_jacchus_w.1             CAAGUGGCCCUUGUCCCCUCUUCUACUCAAAUUCUGAAUCUAGUUGGCAA
+Saguinus_oedipus_cot.1             CAAGUGGCCCUUGUCCCCUCUCCUACUCAAAUUCUGAAUCUAGUUGGCAA
+S.sciureus.1                       CAAGUGGUCCUUGUCCCCUCUCCUACUCAAAUUCUGAAUCUAGUUGACAA
+Otolemur_crassicauda.1             CAGGUGGUCUCUGUCCCUUGUUUCAUCCUAAUUCU.AAUUUAGUUGGUAA
+#=GC SS_cons                       <<<<.....>>>>....>>>>>>.>>>>...<<<<<<<<<<........>
+
+Macaca_fascicularis_.1             GAUUCUGAAAUCAAGGUGUAUAAUCAGUAAUACGUGAUGAUAGAAGGGUA
+P.anubis.1                         GAUUCUGAAAUCAAGGUGUAUAAUCAGUAAUACGUGAUGAUAGAAGGGUA
+C.guereza.1                        GAUUCUGAAAUCAAGGCGUAUAAUCAGUAAUACGUGAUGAUAGAAGGGUA
+H.sapiens.1                        GAUUCUGAAAUCAAGGCAUAUAAUCAGUAAUAAGUGAUGAUAGAAGGGUA
+H.sapiens.2                        GAUUCUGAAAUCAAGGCAUAUAAUCAGUAAUAAGUGAUGAUAGAAGGGUA
+P.pygmaeus.1                       GAUUCUGAAAUCAAGGCAUAUAAUCAGUAAUAAGUGAUGAUAGAAGGGUA
+Callithrix_jacchus_w.1             GAUUCUGAAAUCAAGGCAUAUAGUCGGU.......GAUGAUAGAAG....
+Saguinus_oedipus_cot.1             GUUUCCGAAAUCAAGGCAUAUAGUCAGU.......GAUGAUAGAAG....
+S.sciureus.1                       AAUUCUGAAAUCAAGGCAUAUAGUCAGU.......GAUGAUAGAAG....
+Otolemur_crassicauda.1             CAUUUUGAAAGUACUGCAUAUA.UCAGUA.UAAGUGAUGAUCGAA.....
+#=GC SS_cons                       >>>>>>>>>.....>>>>>.........>>>>>>.>>>>>...>>>>...
+//

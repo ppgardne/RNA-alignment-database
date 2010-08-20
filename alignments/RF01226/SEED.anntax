@@ -1,0 +1,62 @@
+# STOCKHOLM 1.0
+#=GF ID    snoZ5
+#=GF AC    RF01226
+#=GF DE    Small nucleolar RNA Z5
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    22.0
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; Wilkinson A
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Drosophila_melanogaster300049
+#=GF WK    http://en.wikipedia.org/wiki/SnoRNA
+#=GF SQ    8
+
+#=GS D.mojavensis.1    AC    AAPU01010632.1/32544-32660
+#=GS D.virilis.1       AC    AANI01016249.1/27850-27966
+#=GS D.grimshawi.1     AC    AAPT01021723.1/153790-153906
+#=GS D.ananassae.1     AC    AAPP01015683.1/83206-83322
+#=GS D.pseudoobscura.1 AC    AADE01000150.1/100636-100752
+#=GS D.willistoni.1    AC    AAQB01006358.1/65907-66026
+#=GS D.yakuba.1        AC    AAEU02000113.1/4030-4142
+#=GS D.melanogaster.1  AC    AJ010684.1/1-113
+
+D.mojavensis.1                CACAAAUGAUGAGACUGAUGACGAGACUGA.AGGGACAUUU.UCUC..GA
+D.virilis.1                   CACAAAUGAUGAAACUGAUGACGAGACUGA.AGGAACAUUU.UCUC..GA
+D.grimshawi.1                 CACAAAUGAUGAUACUGAUGACGAGACUGA.AGAAACAUUU.UCUC..GG
+D.ananassae.1                 CUCAUAUGAUGAGACUGAUGACGAGACUGA.AGGAACAUUU.UCUC..GA
+D.pseudoobscura.1             CACAAAUGAUGAAACUGAUGACGAGACUGA.AAGAACAUUUUUCUC..GA
+D.willistoni.1                UGCCAAUGAUGAGACUGAUGACGAGACUGAAACGAACAGAU.UCUCUUGA
+D.yakuba.1                    CUCAAAUGAUGAAACAGAUGACGAGACUGA.AGGAACGAAU.UCUC..GA
+D.melanogaster.1              CUCAAAUGAUGAUUCAGAUGACGAGACUGA.AGGAACAAAU.UCUC..GA
+#=GC SS_cons                  ..<<..............................................
+#=GC RF                       CUCAAAUGAUGAUUCAGAUGACGAGACUGA.AGGAACAAAU.UCUC..GA
+
+D.mojavensis.1                UUUGACGUUGUAUUUUUCAAUGUAAU...AUCGUA...CAAU....AUUU
+D.virilis.1                   UUUUAUGUUGUAUAUUUCGACG...UAAUUUCGAA...CAAU....AUUU
+D.grimshawi.1                 UUUUGUACUGUAUCUUUCAAUG...CAAUCUCGAA...CAAU....AUUU
+D.ananassae.1                 CUCUGCAUUGUAUUUUUCAAUG...C...CUUGUUGAACUAU....AUUU
+D.pseudoobscura.1             CUUAACGUUGUAUCUUUCAAUG...U...UUCGUUGAACAAU....AUUU
+D.willistoni.1                UUUUCCAUUGUAUUUUUCAAUG...U...UUAAUU...GAACUAUAAUUU
+D.yakuba.1                    CUUGGCGCUGUAUUUUUCGGUG...C...CUCGUU...AAAU....AUUU
+D.melanogaster.1              CUUGGCGCUGUAUUUUUCAGUG...C...CUCGUU...AUAU....AUUU
+#=GC SS_cons                  ..................................................
+#=GC RF                       CUUGGCGCUGUAUUUUUCAGUG...C...CUCGUU...AUAU....AUUU
+
+D.mojavensis.1                GUUCA.UUUAAAGAUGAAUCGGCAAUCUGAUG
+D.virilis.1                   GUUCAUUUUAA.GAUGAAUCGGCAAUCUGAUG
+D.grimshawi.1                 GUUCC.UUUAAAGAUGAACCGGCAAUCUGAUG
+D.ananassae.1                 GUUCU.UUUAAAGAUGAAACGGCAACCUGAUG
+D.pseudoobscura.1             GUUCA.UUAAA.GAUUAUUCGGCAAUCUGAUG
+D.willistoni.1                GUUCAUUUUAA.GAUGAUUUGGCG.UCUGAUG
+D.yakuba.1                    GUUCA.UUUAA.GAUGAUUCGGCAAUCUGAUG
+D.melanogaster.1              GUUCA.UUUAA.GAUGAUUCGGCGAUCUGAUG
+#=GC SS_cons                  ..............................>>
+#=GC RF                       GUUCA.UUUAA.GAUGAUUCGGCGAUCUGAUG
+//

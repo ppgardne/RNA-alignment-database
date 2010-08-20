@@ -1,0 +1,64 @@
+# STOCKHOLM 1.0
+#=GF ID    OxyS
+#=GF AC    RF00035
+#=GF DE    OxyS RNA
+#=GF AU    Bateman A
+#=GF GA    55.0
+#=GF NC    43.1
+#=GF TC    65.0
+#=GF SE    Noncoding RNAs Database
+#=GF SS    Published; PMID:11804582
+#=GF TP    Gene; sRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    URL; http://biobases.ibch.poznan.pl/ncRNA
+#=GF DR    SO:0000384 SO:OxyS_RNA
+#=GF RN    [1]
+#=GF RM    9774350
+#=GF RT    The Escherichia coli OxyS regulatory RNA represses fhlA translation
+#=GF RT    by blocking ribosome binding.
+#=GF RA    Altuvia S, Zhang A, Argaman L, Tiwari A, Storz G;
+#=GF RL    EMBO J 1998;17:6069-6075.
+#=GF RN    [2]
+#=GF RM    11804582
+#=GF RT    The Sm-like Hfq protein increases OxyS RNA interaction with target
+#=GF RT    mRNAs.
+#=GF RA    Zhang A, Wassarman KM, Ortega J, Steven AC, Storz G;
+#=GF RL    Mol Cell 2002;9:11-22.
+#=GF CC    OxyS is a small untranslated RNA which is induced in response to
+#=GF CC    oxidative stress in Escherichia coli. This novel RNA acts as a
+#=GF CC    global regulator to activate or repress the expression of as many
+#=GF CC    as 40 genes, including the fhlA-encoded transcriptional activator
+#=GF CC    and the rpoS-encoded sigma(s) subunit of RNA polymerase [1].
+#=GF CC    OxyS is bound by the Hfq protein, that increases the OxyS RNA
+#=GF CC    interaction with its target messages [2].
+#=GF WK    http://en.wikipedia.org/wiki/OxyS_RNA
+#=GF SQ    5
+
+#=GS E.coli.1               AC    U87390.1/56-165
+#=GS E.coli.2               AC    X16531.1/1-107
+#=GS E.coli.3               AC    M34102.1/1-107
+#=GS S.enterica.1           AC    AL627279.1/144216-144327
+#=GS Salmonella_enterica_.1 AC    CP001127.1/4210086-4210197
+
+E.coli.1                           GAAACGGAGCGGCACCUCUUUUAACCCUUGAAGUCACUGCCCGUUUCGAG
+E.coli.2                           GAAACGGAGCGGCACCUCUUUUAACCCUUGAAGUCACUGCCCGUUUCGAG
+E.coli.3                           GAAACGGAGCGGCACCUCUUUUAACCCUUGAAGUCACUGCCCGUUUCGAG
+S.enterica.1                       AGAACGGAGCGGUUUCUCGUUUAACCCUUGAAGACACCGCCCGUUCAGAG
+Salmonella_enterica_.1             AGAACGGAGCGGUUUCUCGUUUAACCCUUGAAGACACCGCCCGUUCAGAG
+#=GC SS_cons                       <<<<<<<.<<<<.<<.<<...........>>.>>..>>>>>>>>>>>..<
+
+E.coli.1                           AGUUUCUC...AACUCGAA.UAACUAAAGCCAACGUGAACUUUUGCGGAU
+E.coli.2                           AGUUUCUC...AACUCGAA.UAACUAAAGCCAACGUGAACUUUUGCGGAU
+E.coli.3                           AGUUUCUC...AACUCGAA.UAACUAAAGCCAACGUGAACUUUUGCGGAU
+S.enterica.1                       GGUAUCUCUCGAACCCGAAAUAACUAAAGCCAACGUGAACUUUUGCGGAC
+Salmonella_enterica_.1             GGUAUCUCUCGAACCCGAAAUAACUAAAGCCAACGUGAACUUUUGCGGAC
+#=GC SS_cons                       <<<.........>>>>............................<<<<<<
+
+E.coli.1                           CUCCAGGAUCCGCU
+E.coli.2                           CUCCAGGAUCC...
+E.coli.3                           CUCCAGGAUCC...
+S.enterica.1                       CUC..UGGUCCGCU
+Salmonella_enterica_.1             CUC..UGGUCCGCU
+#=GC SS_cons                       <.....>>>>>>>.
+//

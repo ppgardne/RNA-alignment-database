@@ -1,0 +1,33 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-944
+#=GF AC    RF01024
+#=GF DE    microRNA mir-944
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    25.9
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000541
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    2
+
+#=GS M.mulatta.1     AC    AANU01277874.1/26138-26225
+#=GS P.troglodytes.1 AC    AACZ02043420.1/58996-59083
+
+M.mulatta.1                 GUUCCAGACACAUCUCAUCUGAUAUACAAUAUUUUCUUAAAUUGUAAAAA
+P.troglodytes.1             GUUCCAGACACAUCUCAUCUGAUAUACAAUAUUUUCUUAAAUUGUAUAAA
+#=GC SS_cons                .<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<............
+#=GC RF                     GUUCCAGACACAUCUCAUCUGAUAUACAAUAUUUUCUUAAAUUGUAWAAA
+
+M.mulatta.1                 GAGAAAUUAUUGUAUAUCAGAUGAGAUGUGUCUGGGGU
+P.troglodytes.1             GAGAAAUUAUUGUACAUCGGAUGAGCUGUGUCUGGGAU
+#=GC SS_cons                >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
+#=GC RF                     GAGAAAUUAUUGUAYAUCRGAUGAGMUGUGUCUGGGRU
+//

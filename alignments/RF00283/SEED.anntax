@@ -1,0 +1,127 @@
+# STOCKHOLM 1.0
+#=GF ID    SCARNA18
+#=GF AC    RF00283
+#=GF DE    small Cajal body-specific RNA 18
+#=GF AU    Moxon SJ, Daub J
+#=GF GA    22.0
+#=GF NC    20.8
+#=GF TC    22.3
+#=GF PI    U91
+#=GF SE    PMID:12032087, INFERNAL
+#=GF SS    Predicted; PFOLD; Moxon SJ
+#=GF TP    Gene; snRNA; snoRNA; scaRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0000275 SO:snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0015030 GO:Cajal body
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF RN    [1]
+#=GF RM    12032087
+#=GF RT    Cajal body-specific small nuclear RNAs: a novel class of
+#=GF RT    2'-O-methylation and pseudouridylation guide RNAs.
+#=GF RA    Darzacq X, Jady BE, Verheggen C, Kiss AM, Bertrand E, Kiss T;
+#=GF RL    EMBO J 2002;21:2746-2756.
+#=GF RN    [2]
+#=GF RM    12215523
+#=GF RT    Purified box C/D snoRNPs are able to reproduce site-specific
+#=GF RT    2'-O-methylation of target RNA in vitro.
+#=GF RA    Galardi S, Fatica A, Bachi A, Scaloni A, Presutti C, Bozzoni I;
+#=GF RL    Mol Cell Biol 2002;22:6663-6668.
+#=GF RN    [3]
+#=GF RM    15556860
+#=GF RT    Guide RNAs with 5' caps and novel box C/D snoRNA-like domains for
+#=GF RT    modification of snRNAs in metazoa.
+#=GF RA    Tycowski KT, Aab A, Steitz JA;
+#=GF RL    Curr Biol. 2004;14:1985-1995.
+#=GF RN    [4]
+#=GF RM    16381836
+#=GF RT    snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D box
+#=GF RT    snoRNAs.
+#=GF RA    Lestrade L, Weber MJ;
+#=GF RL    Nucleic Acids Res. 2006;34:D158-D162.
+#=GF CC    scaRNAs are a specific class of small nuclear RNAs which localise
+#=GF CC    to the Cajal bodies and guide the modification of RNA polymerase
+#=GF CC    II transcribed spliceosomal RNAs U1, U2, U4, U5 and U12 [1]. This
+#=GF CC    C/D box domain U91 (also known as U4-8) was identified by Darzacq
+#=GF CC    and is predicted to guide the 2'O-ribose methylation of U4 snRNA
+#=GF CC    C8 [1]. This C/D domain was later found associated in tandem with
+#=GF CC    another C/D box domain U12-22 (RFAM:RF00492). Both the doublet
+#=GF CC    (U12-22/U4-8) and singlet (U4-8) forms of this snRNA have been
+#=GF CC    purified from Hela cells [1]. The doublet form U12-22/U4-8 has
+#=GF CC    been shown to localise to the nucleoplasm and is proposed to
+#=GF CC    reside in the Cajal bodies whereas the U4-8 single domain appears
+#=GF CC    to accumulate in the nucleolus [3]. In humans the genomic
+#=GF CC    location of U12-88/U4-8 is intergenic and the purified transcript
+#=GF CC    has been shown to possess a methylated guanosine cap suggesting
+#=GF CC    it is independently transcribed by RNA pol II [3].
+#=GF WK    http://en.wikipedia.org/wiki/Small_Cajal_body_specific_RNA_18
+#=GF SQ    20
+
+#=GS L.africana.1           AC    AAGU02720858.1/1858-1940
+#=GS E.telfairi.1           AC    AAIY01249536.1/1104-1186
+#=GS O.cuniculus.1          AC    AAGW01285195.1/2871-2953
+#=GS O.princeps.1           AC    AAYZ01094280.1/2675-2757
+#=GS C.porcellus.1          AC    AAKN02020097.1/24159-24241
+#=GS M.musculus.1           AC    AF357342.1/1-62
+#=GS R.norvegicus.1         AC    AAHX01095967.1/17609-17687
+#=GS M.mulatta.1            AC    AANU01101212.1/1480-1562
+#=GS H.sapiens.1            AC    AC090227.10/15277-15359
+#=GS H.sapiens.2            AC    AL592064.14/82927-83010
+#=GS H.sapiens.3            AC    AY077741.1/1-83
+#=GS M.murinus.1            AC    ABDC01297764.1/1645-1727
+#=GS Otolemur_garnettii_s.1 AC    AAQR01645989.1/402-484
+#=GS T.belangeri.1          AC    AAPY01347300.1/1911-1993
+#=GS C.lupus.1              AC    AAEX02032584.1/145326-145408
+#=GS F.catus.1              AC    AANG01025936.1/3125-3205
+#=GS B.taurus.1             AC    AAFC03053505.1/66241-66323
+#=GS M.lucifugus.1          AC    AAPE01022757.1/1373-1448
+#=GS E.europaeus.1          AC    AANN01109527.1/730-812
+#=GS Dasypus_novemcinctus.1 AC    AAGV020429307.1/358-439
+
+L.africana.1                       UGGUCGGUGAUGACGU.GACCACU.GCGCAAUCUGAGUUCUGGGAACCAG
+E.telfairi.1                       CGGUCGGUGAUGACGU.GACCACU.GCGCAAUCUGAGUUUUGGAAACCAG
+O.cuniculus.1                      UGGCCAAUGAUGACCA.GACCACU.GCGCAAUCUGAGUCCUGGGCACCAG
+O.princeps.1                       UGGCCAAUGAUGACCA.GACCACU.GCGCAAUCUGAGUUCUGGGAACCAG
+C.porcellus.1                      UGGCCAAUGAUGACUA.GACCACU.GCGCAAUCUGAGUUCUGGGAACCAG
+M.musculus.1                       ..............AU.GACCACU.GCGCAAUCUGAGUUCUGGGAACCAG
+R.norvegicus.1                     CUGCCGAUGAUGACAU.GACCACU.GCGCAAUCUGAGUUCUGGGAACCAG
+M.mulatta.1                        UGACCAGUGAUGAAGU.CACCAUU.GUGCAGUCUGAGUUCUGGGAACCAG
+H.sapiens.1                        UGGCCGAUGAUGACGA.GACCACU.GCGCAAUCUGAGUUCUGGGAACCAG
+H.sapiens.2                        UGGCCAGUGAUGAAGU.CACCAUUAGUGCAGUCUGAGUUCUGGGAACCAG
+H.sapiens.3                        UGGCCGAUGAUGACGA.GACCACU.GCGCAAUCUGAGUUCUGGGAACCAG
+M.murinus.1                        UUGCCGAUGAUGACGU.GACCACU.GCGCAAUCUGAGUUCUGGGAACCAG
+Otolemur_garnettii_s.1             UCGCCGAUGAUGACAG.GACCACU.GCGCAGUCUGAGAUCUGGGAACCAG
+T.belangeri.1                      UGGCCGAUGAUGACGU.GACCACU.GCGCAAUCUGAGUUCUGGGAACCAC
+C.lupus.1                          GGGUCGAUGAUGACGU.GACCACU.GCGCAAUCUGAGUUCUAGGAACCAG
+F.catus.1                          UGGUCAAUGAUGACGU.GACCACU.GCGCAAUCUGAGUUCUAGGAACCUG
+B.taurus.1                         UGGUCGAUGAUGACGU.GACCACU.GCGCAAUCUGAGUUCUGGGAACUAG
+M.lucifugus.1                      UGGUCAAUGAUGACAA.GACCACU.GCGCAAUCUGAGUUCUGGAAACCAG
+E.europaeus.1                      UGGUCGAUGAUGACCUAGACCACU.GCGCAAUCUGAGUUCUGGGAACCAG
+Dasypus_novemcinctus.1             UGGUCGGUGAUGACGU.GACCACU.GCUCAAUCUGAGUUCUUAGAACCAG
+#=GC SS_cons                       .<<<<..................................<<<<...>>>>
+#=GC RF                            UGgCCaaUGAUGAagu.gACCAuU.GuGCAaUCUGAGUUCuGGGAACCaG
+
+L.africana.1                       AUGAUGGAGCCUGUGCUGAGCACGGACUGAGACAG
+E.telfairi.1                       AUGAUGGAGUGUGAGCUAAGCACGGACUGAGGCCG
+O.cuniculus.1                      GUGAUGGAGUGUGUUCUGAGAACAGACUGAGGCCG
+O.princeps.1                       GUGAUGGAGUGUGCUCUGAGCACGGACUGAGGCCG
+C.porcellus.1                      GUGAUGGAGUGUGCUGUAACAGCAGACUGAGGCCG
+M.musculus.1                       GUGAUGGAGUGUG..CUGAGAACA..CUGAGG...
+R.norvegicus.1                     GUGAUGGAUUGUG..CUGCGAACA..CUGAGGCCA
+M.mulatta.1                        GUGAUGGAGUGUGUUCUAAGAACUGACUGAGGGCC
+H.sapiens.1                        GUGAUGGAGUAUGUUCUGAGAACAGACUGAGGCCG
+H.sapiens.2                        GUGAUGGAGUGUGUUCCAAGAAUGGACUGAGGGCC
+H.sapiens.3                        GUGAUGGAGUAUGUUCUGAGAACAGACUGAGGCCG
+M.murinus.1                        GUGAUGGAGUGUGUUCUGAGAACGGACUGAGGCUG
+Otolemur_garnettii_s.1             GUGAUGGAGUGUGUUCUCAGAACGGACUGAGGCUG
+T.belangeri.1                      CUGAUGGAGCGUGUUCUGAGAACCGACUGAGGCCG
+C.lupus.1                          GUGAUGGAGUGGAUGCUGAGAGCGGACUGAGACCU
+F.catus.1                          GUGAUGGAAUGUG..CUCAGAGCGGACUGAGACCG
+B.taurus.1                         GUGAUGGAGCGUGUUCUGAGAACGGACUGAGACCG
+M.lucifugus.1                      AUGAUGGAGUGUGUUCGGA.......CUGAGACCG
+E.europaeus.1                      GUGAUGGAGUGUGUCCUGAGGACAG.CUGAGACCG
+Dasypus_novemcinctus.1             GUGAUGGAGUGUGG.CUGAGAAUGGACUGAGACCG
+#=GC SS_cons                       ..............................>>>>.
+#=GC RF                            GUGAUGGAGUgUGUUCuaAGAAuaGACUGAGGcCc
+//

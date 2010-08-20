@@ -1,0 +1,937 @@
+# STOCKHOLM 1.0
+#=GF ID    FMN
+#=GF AC    RF00050
+#=GF DE    FMN riboswitch (RFN element)
+#=GF AU    Vitreshchak A, Gelfand M, Bateman A
+#=GF GA    40.0
+#=GF NC    39.9
+#=GF TC    40.8
+#=GF PI    RFN
+#=GF SE    Vitreshchak A
+#=GF SS    Published; PMID:12456892
+#=GF TP    Cis-reg; riboswitch;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0000035 SO:riboswitch
+#=GF DR    GO:0010181 GO:FMN binding
+#=GF RN    [1]
+#=GF RM    12136096
+#=GF RT    Regulation of riboflavin biosynthesis and transport genes in bacteria
+#=GF RT    by transcriptional and translational attenuation.
+#=GF RA    Vitreschak AG, Rodionov DA, Mironov AA, Gelfand MS;
+#=GF RL    Nucleic Acids Res 2002;30:3141-3151.
+#=GF RN    [2]
+#=GF RM    10529804
+#=GF RT    A conserved RNA structure element involved in the regulation of
+#=GF RT    bacterial riboflavin synthesis genes.
+#=GF RA    Gelfand MS, Mironov AA, Jomantas J, Kozlov YI, Perumov DA;
+#=GF RL    Trends Genet 1999;15:439-442.
+#=GF RN    [3]
+#=GF RM    12456892
+#=GF RT    An mRNA structure that controls gene expression by binding FMN.
+#=GF RA    Winkler WC, Cohen-Chalamish S, Breaker RR;
+#=GF RL    Proc Natl Acad Sci U S A 2002;99:15908-15913.
+#=GF CC    The RFN element is a highly conserved domain that is found
+#=GF CC    frequently in the 5'-untranslated regions of prokaryotic mRNAs
+#=GF CC    that encode for flavin mononucleotide (FMN) biosynthesis and
+#=GF CC    transport proteins. This element is a metabolite-dependent
+#=GF CC    riboswitch that directly binds FMN in the absence of proteins. In
+#=GF CC    Bacillus subtilis, the riboswitch most likely controls gene
+#=GF CC    expression by causing premature transcription termination within
+#=GF CC    the 5' untranslated region of the ribDEAHT operon and precluding
+#=GF CC    access to the ribosome-binding site of ypaA mRNA [3].
+#=GF WK    http://en.wikipedia.org/wiki/FMN_riboswitch_(RFN_element)
+#=GF SQ    146
+
+#=GS S.coelicolor.1         AC    AL939108.1/337004-336876
+#=GS Chlorobium_ferrooxid.1 AC    AASE01000003.1/858-707
+#=GS Chloroflexus_auranti.1 AC    CP000909.1/2997673-2997805
+#=GS Thermus_thermophilus.1 AC    AE017221.1/684544-684423
+#=GS Bacillus_licheniform.1 AC    AE017333.1/2382202-2382069
+#=GS Bacillus_clausii_KSM.1 AC    AP006627.1/1930361-1930511
+#=GS Bacillus.1             AC    AAXV01000008.1/126859-126734
+#=GS B.subtilis.1           AC    X51510.1/938-1082
+#=GS Bacillus.2             AC    AAOX01000016.1/69993-70130
+#=GS Bacillus_halodurans_.1 AC    BA000004.3/1634615-1634762
+#=GS Bacillus.3             AC    ABCF01000046.1/1602-1738
+#=GS B.subtilis.2           AC    L09228.1/7992-8136
+#=GS B.amyloliquefaciens.1  AC    X95955.1/376-523
+#=GS Bacillus_coagulans_3.1 AC    AAWV02000001.1/1339041-1339180
+#=GS B.subtilis.3           AC    L47648.1/1826-1960
+#=GS Bacillus_weihensteph.1 AC    CP000903.1/3971775-3971918
+#=GS Bacillus_cereus_G924.1 AC    AAEK01000025.1/41573-41430
+#=GS Bacillus_cereus_subs.1 AC    CP000764.1/1319447-1319591
+#=GS B.cereus.1             AC    AJ010128.1/362-218
+#=GS Bacillus_anthracis_s.1 AC    AAER01000019.1/1243-1104
+#=GS Geobacillus_kaustoph.1 AC    BA000043.1/1793427-1793295
+#=GS Geobacillus_thermode.1 AC    CP000557.1/2349127-2348995
+#=GS Oceanobacillus_iheye.1 AC    BA000028.3/3348439-3348301
+#=GS Exiguobacterium_sibi.1 AC    CP001022.1/2287514-2287654
+#=GS L.innocua.1            AC    AL596170.1/284996-284874
+#=GS Listeria_welshimeri_.1 AC    AM263198.1/2000161-2000041
+#=GS L.monocytogenes.1      AC    AL591981.1/267609-267487
+#=GS Staphylococcus_haemo.1 AC    AP006716.1/1452644-1452770
+#=GS S.epidermidis.1        AC    AF269345.1/3001-2863
+#=GS S.epidermidis.2        AC    AF269712.1/1300-1435
+#=GS Staphylococcus_aureu.1 AC    CP000703.1/1951702-1951567
+#=GS Staphylococcus_sapro.1 AC    AP008934.1/1304561-1304696
+#=GS S.aureus.1             AC    CP000046.1/1565491-1565357
+#=GS A.metalliredigens.1    AC    CP000724.1/1065003-1065119
+#=GS A.oremlandii.1         AC    CP000853.1/2675114-2674995
+#=GS Clostridium_beijerin.1 AC    CP000721.1/562620-562737
+#=GS C.botulinum.1          AC    CP000728.1/3149843-3149956
+#=GS Clostridium_bolteae_.1 AC    ABCC02000026.1/45214-45328
+#=GS Clostridium_perfring.1 AC    ABDX01000009.1/107577-107694
+#=GS Clostridium_acetobut.1 AC    AE001437.1/2971922-2971806
+#=GS Clostridium_kluyveri.1 AC    CP000673.1/3663447-3663329
+#=GS C.botulinum.2          AC    ABDQ01000002.1/179883-180005
+#=GS Clostridium_difficil.1 AC    AM180355.1/1973352-1973231
+#=GS Clostridium_botulinu.1 AC    CP001581.1/209561-209677
+#=GS Clostridium_butyricu.1 AC    ACOM01000004.1/361838-361724
+#=GS Clostridium_leptum_D.1 AC    ABCB02000018.1/8466-8595
+#=GS Clostridium_tetani_E.1 AC    AE015927.1/318413-318527
+#=GS Clostridium_cellulol.1 AC    CP001348.1/3959917-3960045
+#=GS Clostridium_difficil.2 AC    AAML04000003.1/43960-44077
+#=GS Clostridium_perfring.2 AC    BA000016.3/704095-704210
+#=GS C.novyi.1              AC    CP000382.1/2191386-2191265
+#=GS Eubacterium_siraeum_.1 AC    ABCA03000041.1/6063-5943
+#=GS Anaerostipes_caccae_.1 AC    ABAX03000010.1/110704-110590
+#=GS Dorea_longicatena_DS.1 AC    AAXB02000021.1/33038-32924
+#=GS Desulfitobacterium_h.1 AC    AP008230.1/4208512-4208661
+#=GS Desulfitobacterium_h.2 AC    CP001336.1/3015833-3015947
+#=GS Desulfotomaculum_red.1 AC    CP000612.1/832798-832653
+#=GS Faecalibacterium_pra.1 AC    ABED02000028.1/57463-57577
+#=GS Ruminococcus_obeum_A.1 AC    AAVO02000007.1/6177-6291
+#=GS Halothermothrix_oren.1 AC    CP001098.1/1089819-1089940
+#=GS Carboxydothermus_hyd.1 AC    CP000141.1/1316951-1316827
+#=GS Moorella_thermoaceti.1 AC    CP000232.1/950178-950293
+#=GS Thermoanaerobacter.1   AC    CP000923.1/23974-24088
+#=GS Thermoanaerobacter_t.1 AC    AE008691.1/541539-541640
+#=GS Caldicellulosiruptor.1 AC    CP000679.1/895035-894907
+#=GS Lactobacillus_brevis.1 AC    CP000416.1/1625123-1624989
+#=GS L.plantarum.1          AC    DQ645592.1/49-179
+#=GS Lactobacillus_casei_.1 AC    CP000423.1/1361659-1361777
+#=GS Lactobacillus_reuter.1 AC    CP000705.1/931807-931947
+#=GS Pediococcus_pentosac.1 AC    CP000422.1/1801122-1800990
+#=GS Leuconostoc_mesenter.1 AC    CP000414.1/807573-807710
+#=GS Oenococcus_oeni_PSU-.1 AC    CP000411.1/1598055-1598186
+#=GS Lactococcus_lactis_s.1 AC    AE005176.1/1307881-1307745
+#=GS Lactococcus_lactis_s.2 AC    AE005176.1/1021729-1021845
+#=GS Streptococcus_agalac.1 AC    AL766851.1/11027-10882
+#=GS Streptococcus_agalac.2 AC    AL766847.1/1-103
+#=GS Streptococcus_agalac.3 AC    CP000114.1/817263-817377
+#=GS Streptococcus_thermo.1 AC    CP000023.1/268469-268591
+#=GS S.pneumoniae.1         AC    CP000919.1/179511-179397
+#=GS Streptococcus_sangui.1 AC    CP000387.1/1760462-1760315
+#=GS Streptococcus_pyogen.1 AC    CP000261.1/324694-324818
+#=GS Streptococcus_pyogen.2 AC    CP000262.1/317676-317799
+#=GS Fusobacterium_nuclea.1 AC    AE009951.2/10346-10461
+#=GS Victivallis_vadensis.1 AC    ABDE01000248.1/306-175
+#=GS Brucella_canis_ATCC_.1 AC    CP000873.1/673354-673517
+#=GS Ochrobactrum_anthrop.1 AC    CP000759.1/1217787-1217947
+#=GS Mesorhizobium_loti_M.1 AC    BA000012.4/6017355-6017207
+#=GS Agrobacterium_tumefa.1 AC    AE007869.2/1872198-1872348
+#=GS Rhizobium_leguminosa.1 AC    AM236080.1/2884220-2884370
+#=GS R.leguminosarum.1      AC    AY246427.1/2402-2556
+#=GS Rhizobium_etli_CFN_4.1 AC    CP000133.1/2799767-2799909
+#=GS Sinorhizobium_melilo.1 AC    AL591688.1/2398173-2398337
+#=GS Paracoccus_denitrifi.1 AC    CP000491.1/171669-171797
+#=GS Roseobacter.1          AC    ABCR01000011.1/7978-7832
+#=GS Roseobacter.2          AC    AAYC01000017.1/60436-60586
+#=GS Roseobacter_denitrif.1 AC    CP000362.1/544510-544358
+#=GS Ruegeria.1             AC    CP000376.1/319904-319773
+#=GS Gluconobacter_oxydan.1 AC    CP000009.1/1075963-1076120
+#=GS Rhodospirillum_rubru.1 AC    CP000230.1/2551172-2551329
+#=GS B.parapertussis.1      AC    BX640436.1/209532-209685
+#=GS Burkholderia.1         AC    CP000152.1/1720041-1720197
+#=GS Ralstonia_pickettii_.1 AC    ABDZ01000002.1/400698-400853
+#=GS Chromobacterium_viol.1 AC    AE016825.1/4551002-4551150
+#=GS Desulfuromonas_aceto.1 AC    AAEW02000005.1/32930-33076
+#=GS Psychromonas.1         AC    AAPG01000027.1/38942-39095
+#=GS Enterobacter.1         AC    CP000653.1/3761427-3761277
+#=GS E.coli.1               AC    M64472.1/901-1048
+#=GS Klebsiella_pneumonia.1 AC    CP000647.1/3779064-3778913
+#=GS Pectobacterium_atros.1 AC    BX950851.1/1001970-1002170
+#=GS Serratia_proteamacul.1 AC    CP000826.1/4751561-4751400
+#=GS S.glossinidius.1       AC    AP008232.1/481423-481583
+#=GS Coxiella_burnetii_RS.1 AC    AE016828.2/594013-594149
+#=GS Hahella_chejuensis_K.1 AC    CP000155.1/1396507-1396361
+#=GS Marinomonas.1          AC    CP000749.1/1531976-1531815
+#=GS Marinomonas.2          AC    AANE01000019.1/87182-87037
+#=GS Actinobacillus_succi.1 AC    CP000746.1/533105-533234
+#=GS A.pleuropneumoniae.1   AC    U27202.1/210-335
+#=GS Haemophilus_influenz.1 AC    AAZD01000001.1/551093-550916
+#=GS Haemophilus_ducreyi_.1 AC    AE017143.1/943036-943169
+#=GS Haemophilus_influenz.2 AC    AAZF01000001.1/50869-51046
+#=GS Mannheimia_succinici.1 AC    AE016827.1/145278-145429
+#=GS Mannheimia_haemolyti.1 AC    AASA01000089.1/10476-10358
+#=GS Pasteurella_multocid.1 AC    AE004439.1/1582210-1582055
+#=GS Acinetobacter_bauman.1 AC    CP000521.1/970595-970445
+#=GS Pseudomonas_entomoph.1 AC    CT573326.1/621066-620925
+#=GS Francisella_novicida.1 AC    ABAH01000018.1/164932-164783
+#=GS Photobacterium.1       AC    AAOU01000004.1/94074-94215
+#=GS Vibrio_cholerae_O395.1 AC    CP000626.1/213449-213587
+#=GS Vibrio_splendidus_12.1 AC    AAMR01000023.1/75758-75608
+#=GS Vibrio.1               AC    AAKK02000001.1/258130-258269
+#=GS Vibrio_harveyi_HY01.1  AC    AAWP01000010.1/3949-3809
+#=GS Vibrio_shilonii_AK1.1  AC    ABCH01000022.1/43466-43613
+#=GS Vibrio_vulnificus_CM.1 AC    AE016796.1/1572137-1571997
+#=GS Vibrio_angustum_S14.1  AC    AAOJ01000002.1/922614-922474
+#=GS Stenotrophomonas_mal.1 AC    CP001111.1/691560-691705
+#=GS Xanthomonas_campestr.1 AC    AE008922.1/837066-837234
+#=GS Mesoplasma_florum_L1.1 AC    AE017263.1/670666-670782
+#=GS Fervidobacterium_nod.1 AC    CP000771.1/1532327-1532468
+#=GS Thermosipho_melanesi.1 AC    CP000716.1/48959-48841
+#=GS T.neapolitana.1        AC    AJ009832.1/4549-4670
+#=GS Thermotoga_maritima_.1 AC    AE000512.1/1804292-1804171
+#=GS O.sativa.1             AC    AACV01034608.1/129-274
+#=GS P.trichocarpa.1        AC    AARH01024609.1/721-865
+#=GS metag._sequence.1      AC    AAQL01001388.1/1132-1015
+#=GS marine_metag.1         AC    AACY022395047.1/599-750
+#=GS mouse.gut.metag.1      AC    AATE01006899.1/660-546
+
+S.coelicolor.1                     CAGCGCACUCCGGGGUCGGUGAAAGUCCGAACCGGCGGUUA.........
+Chlorobium_ferrooxid.1             ACCUGUUCUCAGGGCGGGGUGAAAAUCCCCACCGGCGGUAUACCGGCUGU
+Chloroflexus_auranti.1             GAAGACCUUCGGGGCAAGGUGAAAUUCCUGAUCGGCGGUAAUGGUGGCGU
+Thermus_thermophilus.1             CACCUCCUUCGGGGCGGGGUGGAAGUCCCCACCGGCGGUGA.........
+Bacillus_licheniform.1             AUCAAUCUUCGGGGCAGGGUGAAAUUCCCUACCGGCGGUGAUGAGCAAGC
+Bacillus_clausii_KSM.1             ACUCAACUUCGGGGCAGGGUGUAAAUCCCGACCGGCGGUGAUAAGGCAAU
+Bacillus.1                         GAUGUUCUUCGGGGUAGGGUGAAAUUCCCAAUCGGCGGUGAUGAAGCAAU
+B.subtilis.1                       UGUAUCCUUCGGGGCAGGGUGGAAAUCCCGACCGGCGGUAGUAAAGCACA
+Bacillus.2                         GUCUAUCUUCGGGGCAGGGUGAAAUUCCCGACCGGCGGUGAUGAGGCAAG
+Bacillus_halodurans_.1             UUUAUCCUUCGGGGCUGGGUGGAAAUCCCGACCGGCGGUGAUGAAGCGAA
+Bacillus.3                         AUUCGUCUUCGGGGCAGGGUGUAAUUCCCGACCGGCGGUAAUGAAUGAUU
+B.subtilis.2                       UUGUAUCUUCGGGGCAGGGUGGAAAUCCCGACCGGCGGUAGUAAAGCACA
+B.amyloliquefaciens.1              UGUAUCCUUCGGGGCUGGGUGAAAAUCCCGACCGGCGGUAAUAAGGCGCU
+Bacillus_coagulans_3.1             AUUUUCCUUCGGGGCAGGGUGCAAUUCCCGACCGGCGGUGAUGAGGAAAC
+B.subtilis.3                       AUCAAUCUUCGGGGCAGGGUGAAAUUCCCUACCGGCGGUGAUGAGCCAAU
+Bacillus_weihensteph.1             AACAUCCUUCGGGGUCGGGUGAAAUUCCCAACCGGCGGUGAUGAAGCGAU
+Bacillus_cereus_G924.1             AGCAUCCUUCGGGGUCGGGUGAAAUUCCCAACCGGCGGUGAUGAAGUGCA
+Bacillus_cereus_subs.1             GUCUAUCUUCGGGGCAGGGUGAAAAUCCCGACCGGCGGUAAUGAAUGAGU
+B.cereus.1                         CAGCAUCUUCGGGGUCGGGUGAAAUUCCCAACCGGCGGUGAUGAAGUGCA
+Bacillus_anthracis_s.1             GUCUAUCUUCGGGGCAGGGUGAAAAUCCCGACCGGCGGUGAUGAACUAUU
+Geobacillus_kaustoph.1             AUUCAUCUUCGGGGCAGGGUGAAAUUCCCGACCGGCGGUGAUGAGGCGCU
+Geobacillus_thermode.1             UACAUCCUUCGGGGCAGGGUGAAAUUCCCGACCGGCGGUGAUGAGGCCGA
+Oceanobacillus_iheye.1             UGUAUUCUUCGGGGCAGGGUGUAAUUCCCGACCGGCGGUGACAAGUCAUC
+Exiguobacterium_sibi.1             UUCCAUCUUCAGGGCAGGGUGAAAUUCCCGACCGGCGGUAAACAGGCGAU
+L.innocua.1                        GUUCAUCUUCGGGGCAGGGUGCAAUUCCCGACCGGUGGUUA.........
+Listeria_welshimeri_.1             GUUCAUCUUCGGGGCAGGGUGCAAUUCCCGACCGGUGGUUA.........
+L.monocytogenes.1                  GUUCAUCUUCGGGGCAGGGUGCAAUUCCCGACCGGUGGUUA.........
+Staphylococcus_haemo.1             AUUCAUCUUCGGGGUAGGGUGCAAUUCCCAACCGGCAGUAAAUU......
+S.epidermidis.1                    UAUUUCUUUCGGGGCAGGGUGAAAUUCCCAACCGGCAGUAAAUU......
+S.epidermidis.2                    AUUCAUCUUCGGGGUAGGGUGUAAUUCCCAACCGGCAGUAAUCU......
+Staphylococcus_aureu.1             UAAUUCUUUCGGGGCAGGGUGAAAUUCCCAACCGGCAGUAAAUA......
+Staphylococcus_sapro.1             AUUCAUCUUCGGGGUAGGGUGCAAUUCCCAACCGGCAGUAAAUA......
+S.aureus.1                         AUUCAUCUUCGGGGUCGGGUGUAAUUCCCAACCGGCAGUAAAUA......
+A.metalliredigens.1                UAUAAUCUUCAGGGCAGGGUGUAAUUCCCGACCGGCGGUA..........
+A.oremlandii.1                     AUGAUUCUUCAGGGCAGGGUGAAAUUCCCGACCGGCGGUA..........
+Clostridium_beijerin.1             AUAUAUCUUCAGGGCAGGGUGUAAAUCCCUACCGGCGGUA..........
+C.botulinum.1                      AGUAUCCUUCAGGGUUGGGUGAAAUUCCCUAUCGGCGGUA..........
+Clostridium_bolteae_.1             UAAUAUCUUCAGGGCAGGGUGCAAUUCCCUACCGGUGGUA..........
+Clostridium_perfring.1             AAAAGUCUUCAGGGCGGGGUGUAAGUCCCCACCGGCGGUA..........
+Clostridium_acetobut.1             AAUGAUCUUCAGGGCAGGGUGAAAUUCCCUACCGGCGGUA..........
+Clostridium_kluyveri.1             UAUAAUCUUCAGGGCGGGGUGAAAUUCCCCACCGGCGGUA..........
+C.botulinum.2                      UAGUAUCUUCAGGGCAGGGUGUAAUUCCCGACCGGCGGUUA.........
+Clostridium_difficil.1             CUUAAUCUUCGGGGUAGGGUGAAAUUCCCAAUCGGCGGUA..........
+Clostridium_botulinu.1             UUAUAUCUUCAGGGCGGGGUGUAAUUCCCCACCGGCGGUA..........
+Clostridium_butyricu.1             AUAUAUCUUCAGGGCAGGGUGAAAAUCCCUACUGGCGGUA..........
+Clostridium_leptum_D.1             AGCUGUCUUCGGGGCGGGGUGAAAGUCCCCACCGGCGGUAACCCUUUCAA
+Clostridium_tetani_E.1             AAAUAUCUUCAGGGCGGGGUGUAAUUCCCCACCGGCGGUA..........
+Clostridium_cellulol.1             UAAUAUCUUCAGGGCAGGGUGCGAUUCCCUACCGGCGGUAAUGUACUAUU
+Clostridium_difficil.2             GAAGAUCUUCGGGGCAGGGUGAAAUUCCCUACCGGCGGUA..........
+Clostridium_perfring.2             AAAAUUCUUCAGGGCAGGGUGAAAUUCCCUACCGGCGGUA..........
+C.novyi.1                          UAGUAUCUUCAGGGCAGGGUGUAAUUCCCGACCGGCGGUUA.........
+Eubacterium_siraeum_.1             AAUCUGUUUCAGGGCGGAGUGAAAUUCUCCACCGGUGGUA..........
+Anaerostipes_caccae_.1             UAGGAUCUUCAGGGCAGGGUGAAAUUCCCUACCGGUGGUA..........
+Dorea_longicatena_DS.1             CGAAAUCUUCAGGGCAGGGUGCGAUUCCCUACCGGCGGUA..........
+Desulfitobacterium_h.1             ACGAACCUUCGAGGCAGGGUGAAAUUCCCGACCGGCGGUAAUAAUUGCCC
+Desulfitobacterium_h.2             GAAUACCUCUGGGGAUUGGUGAAAUUCCAUACCGGCGGUC..........
+Desulfotomaculum_red.1             ACUUGUUCUCAGGGCGGGGUGAAAGUCCCUACUGGCGGUAUCCAGUUCAC
+Faecalibacterium_pra.1             AGAAAUCUUCAGGGCAGGGUGCGAUUCCCUACCGGUGGUA..........
+Ruminococcus_obeum_A.1             AGAUAUCUUCAGGGCAGGGUGAGAUUCCCUACCGGCGGUA..........
+Halothermothrix_oren.1             AAAUGCUAACGGGAUACGGUGAGAUUCCGAACCGGUGGUGA.........
+Carboxydothermus_hyd.1             UACUACCUUCGGGGUCAGGUGGAAUUCCUAACCGGCGGUA..........
+Moorella_thermoaceti.1             AACGUCCUUCGGGGUUAGGUGUAAUUCCUUACCGGCGGUA..........
+Thermoanaerobacter.1               UAAAACCUUCAGGGAUCGGUGAAAUUCCGUACCGGCGGUA..........
+Thermoanaerobacter_t.1             .........CGGGGCAGGGUGGAAUUCCCGACCGGCAGUGA.........
+Caldicellulosiruptor.1             UCCAUCCUUCGGGGCGGGGUGAAAUUCCCCACUGGCGGUAA.........
+Lactobacillus_brevis.1             UGAUUUCUUCGGGGCAGGGUGAAAUUCCCGACCGACGGUGACAACUUAAA
+L.plantarum.1                      CGAUUUCUUCGGGGCAGGGUGCAAUUCCCGACCGACGGUAACAACGUAAG
+Lactobacillus_casei_.1             GUUCGUCUUCAGGGCAGGGUGCAAUUCCCGACCGGCGGUA..........
+Lactobacillus_reuter.1             AAUUUUCUUCGGGGCAGGGUGAAAUUCCCAACCGACGGUAACAAGUACGC
+Pediococcus_pentosac.1             AGAUUUCUUCGGGGCAGGGUGUAAUUCCCGACCGACGGUAACAACCAAGG
+Leuconostoc_mesenter.1             UUUAAUCUUCGGGGCAGGGUGUAAUUCCCGACCGACGGUGAUGGUGAAUA
+Oenococcus_oeni_PSU-.1             UAAAUUCUUCGGGGCAGGGUGUGAUUCCCAACCGACGGUAACAACAUUUU
+Lactococcus_lactis_s.1             AAAUAUCUUCAGGGCACCGUGUAAUUCGGGACCGGCGGUAAAUAGGGCUU
+Lactococcus_lactis_s.2             AUAAAUCUUCAGGGCAGGGUGUAAUUCCCUACCGGCGGUA..........
+Streptococcus_agalac.1             AGGUGUCUUCAGGGCAGGGUGUAAUUCCCGACCGGCGGUAAUCGCUUCCA
+Streptococcus_agalac.2             ......CUUCGGGGUCAGGUGAAAAUCCUAACCGGCGGUA..........
+Streptococcus_agalac.3             GAAUUUCUUCGGGGUCAGGUGAAAAUCCUAACCGGCGGUA..........
+Streptococcus_thermo.1             AAGGGUCUUCGGGGCAGGGUGAAACUCCCGACCGGCGGUGAUUCUUUGGA
+S.pneumoniae.1                     AACUAUCUUCAGGGCAGGGUGCAAUUCCCUACCGGUGGUA..........
+Streptococcus_sangui.1             UGAUGUCUUCAGGGCAGGGUGAGAUUCCCGACCGGCGGUAAUUUUUGGAU
+Streptococcus_pyogen.1             AAGUGUCUUCAGGGCAGGGUGUGAUUCCCGACCGGCGGUGACUAAGUAAC
+Streptococcus_pyogen.2             AAGUGUCUUCAGGGCAGGGUGUGAUUCCCGACCGGCGGUGACUAGUAACU
+Fusobacterium_nuclea.1             UAAAGUCUUCAGGGCAGGGUGAAAUUCCCGACCGGUGGUA..........
+Victivallis_vadensis.1             AUAAGUCUUCGGGGCGGGGUGAAAUUCCCUACCGGCGGUGA.........
+Brucella_canis_ATCC_.1             GCUUGUUCUCGGGGCGGGGUGAAACUCCCCACCGGCGGUAUGAAAAGCAA
+Ochrobactrum_anthrop.1             GCUUGUUCUCGGGGCGGGGUGAAACUCCCCACCGGCGGUAUGAAGCGAAA
+Mesorhizobium_loti_M.1             UAAAGUUCUCAGGGCGGGGUGAAAGUCCCCACCGGCGGUAAGGGCCUCAA
+Agrobacterium_tumefa.1             GGUUGUUCUCAGGGCGGGGUGCAAUUCCCCACCGGCGGUAUCGGGAUUUG
+Rhizobium_leguminosa.1             AAAUGUUCUCGGGGCGGGGUGUAAUUCCCCACCGGCGGUAUCAGGAGCAA
+R.leguminosarum.1                  UUCUGUUCUCAGGGCGGGGUGAAACUCCCCACCGGCGGUAAGAGUUUCGG
+Rhizobium_etli_CFN_4.1             CGCCGUUCUCAGGGCGGGGUGAAAGUCCCUACCGGCGGUAUGCAGUUUCG
+Sinorhizobium_melilo.1             AAGCGUUCUCAGGGCGGGGUGAAAUUCCCCACCGGCGGUAGCGAACACAG
+Paracoccus_denitrifi.1             GCGUGUUCUCGGGGCGGGGUGCAAUUCCCCACCGGCGGUUA.........
+Roseobacter.1                      GAGCGUUCUCAGGGCGGGGUGGAACUCCCCACCGGCGGUAAGCAUCUGUA
+Roseobacter.2                      CGCCGUUCUCAGGGCGGGGUGAAAUUCCCCACCGGCGGUAAGCAGGCCUA
+Roseobacter_denitrif.1             GCGUAUUCUCAGGGCGGGGUGAAAUUCCCCACCGGCGGUAUGUGGGGCGU
+Ruegeria.1                         UUCCAUUCUCAGGGCGGGGUGAAAUUCCCCACCGGCGGUUA.........
+Gluconobacter_oxydan.1             AGACGUUCUCAGGGCGGGGUGAAAUUCUCCACCGGCGGUAUUGGCGGAUU
+Rhodospirillum_rubru.1             GCUUGUUCUCAGGGCAGGGUGAAACUCCCGACCGGCGGUAAUCCUUCCCU
+B.parapertussis.1                  GUACGUCUUCAGGGCGGGGUGCAAUUCCCCACCGGCGGUAUGCCACGCAA
+Burkholderia.1                     GAACGUUCUCGGGGCGGGGUGAAAUUCCCCACCGGCGGUAAUCGCGCGAU
+Ralstonia_pickettii_.1             GUACGUCUUCAGGGCGGGGUGAAAUUCCCCACCGGCGGUAUGCGGACCGU
+Chromobacterium_viol.1             UUACGUCUUCGGGGCGGGGUGCAACUCCCCACCGGCGGUAUGGCGCGCAA
+Desulfuromonas_aceto.1             CCCUAUUCUCAGGGCGGGGUGAAAUUCCCCACCGGCGGUGACUCCUUGUG
+Psychromonas.1                     CACUAUUCUCAGGGCGGGGUGAGAUUCCCCACCGGUGGUAAUUUGUAAAA
+Enterobacter.1                     GCUUAUUCUCAGGGCGGGGCGAAAUUCCCCACCGGCGGUAAAUCAGCCUU
+E.coli.1                           GCUUAUUCUCAGGGCGGGGCGAAAUUCCCCACCGGCGGUAAAUCAACUCA
+Klebsiella_pneumonia.1             GCUUAUUCUCAGGGCGGGGCGAAAUUCCCCACCGGCGGUAAAUCAACCAU
+Pectobacterium_atros.1             GCUUAUUCUCAGGGCGGGGUGUAAUUCCCCACCGGCGGUAAACCAGUGAA
+Serratia_proteamacul.1             GCUUAUUCUCAGGGCGGGGUGCAAGUCCCCACCGGCGGUAAAUCACCUUC
+S.glossinidius.1                   GCUUAUUCUCAGGGCGGGGUGCAAUUCCCCACCGGCGGUAAACCUGGCUA
+Coxiella_burnetii_RS.1             AAGCGCCUUCAGGGCGGGGUGGAAGUCCCCACCGGCGGUAAGUUUCUUUG
+Hahella_chejuensis_K.1             ACUUAUUCUCAGGGCAGGGUGAAAUUCCCUACCGGCGGUAUGUCCCCCGU
+Marinomonas.1                      CUUCGUUCUCGGGGCGGGGUGUAAUUCCCCACCGGCGGUAAAGACUUUAC
+Marinomonas.2                      UUUCGUUCUCGGGGCGGGGUGAAAUUCCCCACCGGCGGUAAGAACUUAGG
+Actinobacillus_succi.1             CCGCAUUCUCAGGGCAGGGUGAAAUUCCCUACUGGCGGUC..........
+A.pleuropneumoniae.1               AAUAAUCUUCAGGGCAGGGUGAAAUUCCCGAUCGGCGGUA..........
+Haemophilus_influenz.1             UCGCAUUCUCAGGGCAGGGUGAAAUUCCCUACCGGUGGUA..........
+Haemophilus_ducreyi_.1             UUUAAUCUUCAGGGCAGGGUGAAAUUCCCGAUCGGUGGUA..........
+Haemophilus_influenz.2             GCGCAUUCUCAGGGCAGGGCGAAAUUCCCUACCGGUGGUA..........
+Mannheimia_succinici.1             GGGCAUUCUCAGGGCAGGGUGAAAUUCCCUACUGGUGGUA.UAUGUUUAC
+Mannheimia_haemolyti.1             UUUAAUCUUCAGGGCAGGGUGAAAUUCCCGAUCGGCGGUA..........
+Pasteurella_multocid.1             GCGCAUUCUCAGGGCAGGGUGAAAUUCCCUACCGGUGGUAAAUGUAUAAC
+Acinetobacter_bauman.1             CAUCG.CUUCAGGGCGGGGUGUAAUUCCCCACCGGUGGUAAAGUUAAUUU
+Pseudomonas_entomoph.1             AAGGGUCUUCAGGGCGGGGUGAAAGUCCCCACCGGCGGUAA.AUCGAAAG
+Francisella_novicida.1             AAUAAUCUUCAGGGCAGGGCGAAAUUCCCUACCGGCGGUAACUGCUUAUA
+Photobacterium.1                   AUUAAUUCUCAGGGCGGGGUGGAAUUCCCCACCGGCGGUGUACUUUUUUA
+Vibrio_cholerae_O395.1             CAAUAUUCUCAGGGCGGGGCGAAAUUCCCCACCGGUGGUA.UGCCGCAAG
+Vibrio_splendidus_12.1             UUUUAUUCUCAGGGCGGGGCGAAAUUCCCCACCGGCGGUAUGUCCUUAGC
+Vibrio.1                           AAUUGUUCUCAGGGCGGGGCGAAAUUCCCCACCGGCGGUAUACUUUUCAA
+Vibrio_harveyi_HY01.1              CAAUGUUCUCAGGGCGGGGCGAAAUUCCCCACCGGCGGUAUACUCUUUUG
+Vibrio_shilonii_AK1.1              UUUUAUUCUCAGGGCGGGGCGAAAUUCCCCACCGGCGGUAAAUCAAUGUU
+Vibrio_vulnificus_CM.1             UUUUAUUCUCAGGGCGGGGCGAAAUUCCCCACCGGCGGUAUACCGAAUGA
+Vibrio_angustum_S14.1              AUUAAUUCUCAGGGCGGGGCGAAAUUCCCCACCGGCGGUAUACUUUUCAA
+Stenotrophomonas_mal.1             AAACGUCUUCAGGGCGGGGUGCGAUUCCCCACCGGCGGUAGGUGCGCAAG
+Xanthomonas_campestr.1             GAACGUCUUCAGGGCGGGGUGCGAUUCCCCACCGGCGGUAUGCAUGCGCA
+Mesoplasma_florum_L1.1             UAACAUUUUCGGGGCAAGGCGAAAUUCCUUACCGAUGGUAA.........
+Fervidobacterium_nod.1             GGGUACUCUCGGGGCAGGGUGAAAUUCCCGACCGGCGGUGA.........
+Thermosipho_melanesi.1             UAGAGUCCUCGGGGCAGGGUGAAAGUCCCGACCGGCGGUGA.........
+T.neapolitana.1                    GAUCGCUCUCGGGGCAGGGUGGAAUUCCCGACCGGCGGUGA.........
+Thermotoga_maritima_.1             AAACGCUCUCGGGGCAGGGUGGAAUUCCCGACCGGCGGUGA.........
+O.sativa.1                         AAACGUCUUCAGGGCGGGGUGCAAUUCCCCACCGGCGGUAGGUGCGCAAG
+P.trichocarpa.1                    ACGCAUUCUCAGGGCAGGGUGAAAUUCCCUACCGGUGGUAAAUAUUUCGA
+metag._sequence.1                  UAACGUCUUCAGGGCAGGGUGCAAGUCCCUACCGGCGGUUA.........
+marine_metag.1                     GCUUAUUCUCAGGGCGGGGCGAAAUUCCCCACCGGCGGUAAAUCAACCAU
+mouse.gut.metag.1                  AAAUAUUUUCAGGGCGGGGUGAAAUUCCCCACCGGUGGUA..........
+#=GC SS_cons                       ..<<<<<<<<......<<<.......>>>.....<<<<............
+#=GC RF                            aaucacccuCaGGGcaGGGUGaAAuUCCCaACCGGCGGUAAaaaaaaaaa
+
+S.coelicolor.1                     ..............................CAGUCCGCGA.CCCGGUCGC
+Chlorobium_ferrooxid.1             UAAUCCGGA.....................AAGCCCGCGA.GCGCUUUCG
+Chloroflexus_auranti.1             GCCCACAC......................AAGCCCGCGA.GCCGU....
+Thermus_thermophilus.1             ..............................AAGCCCGCGA.AGC......
+Bacillus_licheniform.1             GCUCU.........................AAGCCCGCGA.GC.......
+Bacillus_clausii_KSM.1             CGCCUUU.......................UAGUCCGUGA.CCCGCAUAA
+Bacillus.1                         UCA...........................AAGUCCGUGA.GC.......
+B.subtilis.1                       UUUGCUUUA.....................GAGCCCGUGA.CCCGUGUGC
+Bacillus.2                         UUGCUCU.......................AAGCCCGCGA.GC.....CU
+Bacillus_halodurans_.1             UGCUUCU.......................UAGUCCGUGA.CCCGGUUGC
+Bacillus.3                         UCAUUCU.......................AAGCCCGCGA.GCC......
+B.subtilis.2                       UUUGCUUUA.....................GAGCCCGUGA.CCCGUGUGC
+B.amyloliquefaciens.1              CCUGCGCUUUA...................CAGCCCGUGA.CCCGUAUGC
+Bacillus_coagulans_3.1             UCA...........................AAGCCCGUGA.CCCGUAUUC
+B.subtilis.3                       GGCUCU........................AAGCCCGCGA.GC.......
+Bacillus_weihensteph.1             AGCUUCU.......................AAGUCCGUGA.CCCGUUUUC
+Bacillus_cereus_G924.1             AACUUCU.......................AAGUCCGUGA.CCCGUUUUC
+Bacillus_cereus_subs.1             AUAUGAAUAUGUGAGUUCU...........AAGCCCGCGA.GCC......
+B.cereus.1                         AACUUCU.......................AAGUCCGUGA.CCCGUUUUC
+Bacillus_anthracis_s.1             UAUGAUUUUGUUCU................AAGCCCGCGA.GCC......
+Geobacillus_kaustoph.1             UGGCCUCU......................CAGCCCGCGA.GCCGC....
+Geobacillus_thermode.1             AGCCUCU.......................CAGCCCGCGA.GCC......
+Oceanobacillus_iheye.1             AGAACUUG......................AAGUCCGUGA.CCCGCUU..
+Exiguobacterium_sibi.1             UCGCCUG.......................AAGCCCGCGA.GCGAAUA..
+L.innocua.1                        ..............................AAGUCCACGA.UCUGC....
+Listeria_welshimeri_.1             ..............................AAGUCCACGA.UCUGCUUUU
+L.monocytogenes.1                  ..............................AAGUCCACGA.UCUGC....
+Staphylococcus_haemo.1             ..............................AAGCCUGCGA.CCCGCUU..
+S.epidermidis.1                    ..............................GAGCCUGCGA.CCCACUAAU
+S.epidermidis.2                    ..............................AAGCCUGCGA..CGACAACG
+Staphylococcus_aureu.1             ..............................AAGCCUGCGA.CCUGCUAAU
+Staphylococcus_sapro.1             ..............................AAGCCUGCGA.CCCAUUUUA
+S.aureus.1                         ..............................AAGCCUGCGA.CCUGCUAGU
+A.metalliredigens.1                ..............................AAGUCCGCGA.GC.......
+A.oremlandii.1                     ..............................UAGUCCGCGA.CUC......
+Clostridium_beijerin.1             ..............................UAGCCCGCGA.GC.......
+C.botulinum.1                      ..............................UAGCCCGCAA.GC.......
+Clostridium_bolteae_.1             ..............................CAGCCCACGA.GCCGC....
+Clostridium_perfring.1             ..............................AAGCCCGCGA.GC.......
+Clostridium_acetobut.1             ..............................UAGCCCGCGA.GC.......
+Clostridium_kluyveri.1             ..............................UAGCCCGCGA.GC.......
+C.botulinum.2                      ..............................AAGUCCGCGA.GCUUU....
+Clostridium_difficil.1             ..............................UAGCCCGCGA.GCCAA....
+Clostridium_botulinu.1             ..............................AAGCCCGCGA.GC.......
+Clostridium_butyricu.1             ..............................CAGCCCGCGA.GC.......
+Clostridium_leptum_D.1             ACAUGGG.......................AAGCCCGCGA.GC.......
+Clostridium_tetani_E.1             ..............................UAGCCCGCGA.GCCGC....
+Clostridium_cellulol.1             UAGUAU........................UAGCCCGCGA.GCG......
+Clostridium_difficil.2             ..............................UAGCCCGCGA.AC.......
+Clostridium_perfring.2             ..............................AAGCCCGCGA.GC.......
+C.novyi.1                          ..............................AAGUCCGCGA.GC.....UA
+Eubacterium_siraeum_.1             ..............................AAGUCCACGA.GC.....GC
+Anaerostipes_caccae_.1             ..............................CAGCCCACGA.GCCGC....
+Dorea_longicatena_DS.1             ..............................AAGCCCGCGG.GC.......
+Desulfitobacterium_h.1             GUGCAAUU......................CAGCCCGCAA.CUCAGUGCA
+Desulfitobacterium_h.2             ..............................AAGCCCGCGA.GC.......
+Desulfotomaculum_red.1             ACUGG.........................GAGCCCGCGA.GCGCUCCUU
+Faecalibacterium_pra.1             ..............................CAGCCCACGA.GCCGU....
+Ruminococcus_obeum_A.1             ..............................AAGCCCGCGA.GC.......
+Halothermothrix_oren.1             ..............................AAGUCCACAA.GC.....CA
+Carboxydothermus_hyd.1             ..............................AAGCCCGCGA.GUCCGUA..
+Moorella_thermoaceti.1             ..............................AAGCCCGCGA.GCCGU....
+Thermoanaerobacter.1               ..............................UAGCCCGCGA.GC.......
+Thermoanaerobacter_t.1             ..............................AAGCCUGCGA.GCC......
+Caldicellulosiruptor.1             ..............................AAGCCCGCGA.GCAAAAGCC
+Lactobacillus_brevis.1             GUUG..........................AAGUCCGUGA.CC.....CA
+L.plantarum.1                      UUG...........................AAGUCCGUGA.CCCGC....
+Lactobacillus_casei_.1             ..............................UAGUCCGCGA.CCCGC....
+Lactobacillus_reuter.1             UUG...........................GAGUCCGUGA.CCCGUUAGC
+Pediococcus_pentosac.1             GUUG..........................AAGUCCGUGA.CC.......
+Leuconostoc_mesenter.1             ACCU..........................CAGUCCGUGA.CCCGCGA..
+Oenococcus_oeni_PSU-.1             GUUG..........................AAGUCCGUGA.CCCGC....
+Lactococcus_lactis_s.1             UGACCUUAU.....................GACUCCGCGAUUCGCUAC..
+Lactococcus_lactis_s.2             ..............................UAGCCCGCGA.GC.......
+Streptococcus_agalac.1             ACUUAUUUGUCAGUUGUGAAGCAU......CAGUCCGCGA.GC.......
+Streptococcus_agalac.2             ..............................UAGUCCGCGA.GC.......
+Streptococcus_agalac.3             ..............................UAGUCCGCGA.GC.......
+Streptococcus_thermo.1             U.............................AAGUCCGCGA.GC.......
+S.pneumoniae.1                     ..............................UAGCCCACGA.GC.......
+Streptococcus_sangui.1             UGGAAUUUUUUUCUCCAUGUCAAAUC....AAGUCCGCGA.GC.......
+Streptococcus_pyogen.1             UAG...........................AAGUCCGCGA.GC.......
+Streptococcus_pyogen.2             AG............................AAGUCCGCGA.GC.......
+Fusobacterium_nuclea.1             ..............................CAGUCCACGA.AAG......
+Victivallis_vadensis.1             ..............................AAGUCCGCGA.ACUUCGGGA
+Brucella_canis_ATCC_.1             UUUUC.........................AAGCCCGCGA.GCGCCUGAA
+Ochrobactrum_anthrop.1             GUUUC.........................GAGCCCGCGA.GCGCCUGAA
+Mesorhizobium_loti_M.1             ACCC..........................AAGCCCGCGA.GCGCUUUCC
+Agrobacterium_tumefa.1             UCCCG.........................GAGCCCGCGA.GCGCUUCCG
+Rhizobium_leguminosa.1             UCCUG.........................GAGCCCGCGA.GCGCUUCCG
+R.leguminosarum.1                  CUC...........................GAGCCCGCGA.GCGCCUUCC
+Rhizobium_etli_CFN_4.1             AUUGC.........................GAGCCCGCGA.GCGCCUUCC
+Sinorhizobium_melilo.1             GAUCGGGAAUGGUCGGUGGUCG........GAGCCCGCGA.GCGCUUCGC
+Paracoccus_denitrifi.1             ..............................CAGCCCGCGA.GCGCCUGCA
+Roseobacter.1                      UUGUGC........................AAGCCCGCGA.GCGCCUCUC
+Roseobacter.2                      GUCCCGU.......................AAGCCCGCGA.GCGGCUUCC
+Roseobacter_denitrif.1             GACCUUAC......................GAGCCCGCGA.GCGGCCUUU
+Ruegeria.1                         ..............................UAGCCCGCGA.GCGCCACCU
+Gluconobacter_oxydan.1             UCUCCGCCU.....................CAGCCCGCGA.GCGCCUUCC
+Rhodospirillum_rubru.1             UUCACGGGGGGGA.................CAGCCCGCGA.GCGCCCUUU
+B.parapertussis.1                  UGUGGC........................GAGCCCGCGA.GCGCCCUGC
+Burkholderia.1                     UGCGCG........................UAGCCCGCGA.GCGCUUGCC
+Ralstonia_pickettii_.1             GUGUCCGU......................GAGCCCGCGA.GCGCCUUGC
+Chromobacterium_viol.1             GCGCC.........................GAGCCCGCGA.GCGCCUUUG
+Desulfuromonas_aceto.1             AG............................AAGCCCGCGA.GCGCCUUUA
+Psychromonas.1                     CGUUACAA......................CAGCCCACGA.GCGCUUUAU
+Enterobacter.1                     GCGCUGA.......................AAGCCCGCGA.GCGCUUUGG
+E.coli.1                           GUUGA.........................AAG.CCGCGA.GCGCUUUGG
+Klebsiella_pneumonia.1             GGCGUUGA......................AAGCCCGCGA.GCGCUUCCC
+Pectobacterium_atros.1             CGUAUGAACGAAUAAGGUUCUGCGCACUGGAAGCCCGCGA.GCGCUCAGG
+Serratia_proteamacul.1             UACGGUGA......................AAGCCCGCGA.GCGCUCAGC
+S.glossinidius.1                   AAGUAUUGCACAGG................AAGCCCGCGA.GCGCUCAGG
+Coxiella_burnetii_RS.1             AAAU..........................AAGCCCGCGA.GUCUC....
+Hahella_chejuensis_K.1             GGAC..........................GAGCCCGCGA.GCGCCUGCU
+Marinomonas.1                      AUAAGUUAAAUUCU................AAGCCCGCGA.GCGCCUUCA
+Marinomonas.2                      UUU...........................AAGCCCGCGA.GCGUCUAAU
+Actinobacillus_succi.1             ..............................AAGCCCGCGA.GCGUUUGUU
+A.pleuropneumoniae.1               ..............................AAGUCCGCGA.GCCGAACGA
+Haemophilus_influenz.1             ..............................AAGCCCACGA.GCGUUUAAA
+Haemophilus_ducreyi_.1             ..............................AAGUCCGCGA.GCCGAACUU
+Haemophilus_influenz.2             ..............................AAGCCCACGA.GCGUUUAAA
+Mannheimia_succinici.1             AU............................AAGCCCACGA.GCGCCUAUU
+Mannheimia_haemolyti.1             ..............................AAGUCCGCGA.GC.......
+Pasteurella_multocid.1             AU............................AAGCCCACGA.GCGUUUACU
+Acinetobacter_bauman.1             UUAUUGUUAAAUUAAC..............AAGCCCACGA.GCUUAAAUU
+Pseudomonas_entomoph.1             AU............................GAGCCCGCGA.GCGCCCCGG
+Francisella_novicida.1             GCAG..........................AAGCCCGCGA.GCGCUUUCU
+Photobacterium.1                   AGU...........................GAGCCCGCGA.GCGCUCGAU
+Vibrio_cholerae_O395.1             GC............................GAGCCCACGA.GCGCUCGAU
+Vibrio_splendidus_12.1             AAAAUCUAAAGAU.................AAGCCCGCGA.GCGCUCGAU
+Vibrio.1                           GU............................GAGCCCGCGA.GCGCUCGAU
+Vibrio_harveyi_HY01.1              AGU...........................GAGCCCGCGA.GCGCUCGAU
+Vibrio_shilonii_AK1.1              UGAU..........................AAGCCCGCGA.GCGCUUAAC
+Vibrio_vulnificus_CM.1             GGU...........................GAGCCCGCGA.GCGCUCGAU
+Vibrio_angustum_S14.1              GU............................GAGCCCGCGA.GCGCUCGAU
+Stenotrophomonas_mal.1             CAC...........................GAGCCCGCGA.GCGCUCCGG
+Xanthomonas_campestr.1             AGCGUGU.......................GAGCCCGCGA.GCGCUUCGC
+Mesoplasma_florum_L1.1             ..............................UAGUCCAUGA.ACC......
+Fervidobacterium_nod.1             ..............................AAGCCCGCGA.GCCUUCCGA
+Thermosipho_melanesi.1             ..............................AAGCCCGCGA.GC.......
+T.neapolitana.1                    ..............................AAGCCCGCGA.GCC......
+Thermotoga_maritima_.1             ..............................AAGCCCGCGA.GCC......
+O.sativa.1                         CAC...........................GAGCCCGCGA.GCGCCCCGG
+P.trichocarpa.1                    UAU...........................AAGCCCACGA.GCGCUUACU
+metag._sequence.1                  ..............................UAGCCCGCGA.GC.......
+marine_metag.1                     AGCGUUGA......................AAGCCCGCGA.GCGCUUUCU
+mouse.gut.metag.1                  ..............................AAGCCCACGA.GCCGU....
+#=GC SS_cons                       ..................................>>>>............
+#=GC RF                            aa............................aAGcCCGCGA.gCgauuaga
+
+S.coelicolor.1                     C.................................................
+Chlorobium_ferrooxid.1             AUUAUU............................................
+Chloroflexus_auranti.1             ..................................................
+Thermus_thermophilus.1             ..................................................
+Bacillus_licheniform.1             ..................................................
+Bacillus_clausii_KSM.1             GCAUUAC...........................................
+Bacillus.1                         ..................................................
+B.subtilis.1                       ..................................................
+Bacillus.2                         ..................................................
+Bacillus_halodurans_.1             UGAU..............................................
+Bacillus.3                         ..................................................
+B.subtilis.2                       ..................................................
+B.amyloliquefaciens.1              ..................................................
+Bacillus_coagulans_3.1             ..................................................
+B.subtilis.3                       ..................................................
+Bacillus_weihensteph.1             A.................................................
+Bacillus_cereus_G924.1             A.................................................
+Bacillus_cereus_subs.1             ..................................................
+B.cereus.1                         A.................................................
+Bacillus_anthracis_s.1             ..................................................
+Geobacillus_kaustoph.1             ..................................................
+Geobacillus_thermode.1             ..................................................
+Oceanobacillus_iheye.1             ..................................................
+Exiguobacterium_sibi.1             ..................................................
+L.innocua.1                        ..................................................
+Listeria_welshimeri_.1             ..................................................
+L.monocytogenes.1                  ..................................................
+Staphylococcus_haemo.1             ..................................................
+S.epidermidis.1                    AUUGUUUU..........................................
+S.epidermidis.2                    UAUUAAU...........................................
+Staphylococcus_aureu.1             AUGUU.............................................
+Staphylococcus_sapro.1             UUAUAU............................................
+S.aureus.1                         AUGUA.............................................
+A.metalliredigens.1                ..................................................
+A.oremlandii.1                     ..................................................
+Clostridium_beijerin.1             ..................................................
+C.botulinum.1                      ..................................................
+Clostridium_bolteae_.1             ..................................................
+Clostridium_perfring.1             ..................................................
+Clostridium_acetobut.1             ..................................................
+Clostridium_kluyveri.1             ..................................................
+C.botulinum.2                      ..................................................
+Clostridium_difficil.1             ..................................................
+Clostridium_botulinu.1             ..................................................
+Clostridium_butyricu.1             ..................................................
+Clostridium_leptum_D.1             ..................................................
+Clostridium_tetani_E.1             ..................................................
+Clostridium_cellulol.1             ..................................................
+Clostridium_difficil.2             ..................................................
+Clostridium_perfring.2             ..................................................
+C.novyi.1                          ..................................................
+Eubacterium_siraeum_.1             ..................................................
+Anaerostipes_caccae_.1             ..................................................
+Dorea_longicatena_DS.1             ..................................................
+Desulfitobacterium_h.1             GCUCCA............................................
+Desulfitobacterium_h.2             ..................................................
+Desulfotomaculum_red.1             AUUAU.............................................
+Faecalibacterium_pra.1             ..................................................
+Ruminococcus_obeum_A.1             ..................................................
+Halothermothrix_oren.1             ..................................................
+Carboxydothermus_hyd.1             ..................................................
+Moorella_thermoaceti.1             ..................................................
+Thermoanaerobacter.1               ..................................................
+Thermoanaerobacter_t.1             ..................................................
+Caldicellulosiruptor.1             U.................................................
+Lactobacillus_brevis.1             ..................................................
+L.plantarum.1                      ..................................................
+Lactobacillus_casei_.1             ..................................................
+Lactobacillus_reuter.1             AU................................................
+Pediococcus_pentosac.1             ..................................................
+Leuconostoc_mesenter.1             ..................................................
+Oenococcus_oeni_PSU-.1             ..................................................
+Lactococcus_lactis_s.1             ..................................................
+Lactococcus_lactis_s.2             ..................................................
+Streptococcus_agalac.1             ..................................................
+Streptococcus_agalac.2             ..................................................
+Streptococcus_agalac.3             ..................................................
+Streptococcus_thermo.1             ..................................................
+S.pneumoniae.1                     ..................................................
+Streptococcus_sangui.1             ..................................................
+Streptococcus_pyogen.1             ..................................................
+Streptococcus_pyogen.2             ..................................................
+Fusobacterium_nuclea.1             ..................................................
+Victivallis_vadensis.1             ACACG.............................................
+Brucella_canis_ATCC_.1             AUGGAAGCCGAUUCGCAUGCCA............................
+Ochrobactrum_anthrop.1             AAGAUGCCGAUUCGGCUUU...............................
+Mesorhizobium_loti_M.1             AAGACAAU..........................................
+Agrobacterium_tumefa.1             GUCUCCAAAG........................................
+Rhizobium_leguminosa.1             GCACCUCCUG........................................
+R.leguminosarum.1                  CUCGUGUCCAAGCGG...................................
+Rhizobium_etli_CFN_4.1             U.................................................
+Sinorhizobium_melilo.1             AUUUCG............................................
+Paracoccus_denitrifi.1             AU................................................
+Roseobacter.1                      UUAU..............................................
+Roseobacter.2                      GGUCAUC...........................................
+Roseobacter_denitrif.1             CCCGAACU..........................................
+Ruegeria.1                         CUAC..............................................
+Gluconobacter_oxydan.1             GGAUUUCGGUUC......................................
+Rhodospirillum_rubru.1             GCCGGUGGU.........................................
+B.parapertussis.1                  GUUGGCAACAG.......................................
+Burkholderia.1                     GGCACGCAUGUGCC....................................
+Ralstonia_pickettii_.1             AUGCGCCUGCA.......................................
+Chromobacterium_viol.1             CCUGACG...........................................
+Desulfuromonas_aceto.1             UUAUUGGG..........................................
+Psychromonas.1                     AUUGAAAAA.........................................
+Enterobacter.1                     GUGAAAA...........................................
+E.coli.1                           GUGCGAA...........................................
+Klebsiella_pneumonia.1             GUGACUA...........................................
+Pectobacterium_atros.1             CUGUGUUUUCCGAUAUCAAUUGUCGGUUUUCGCA................
+Serratia_proteamacul.1             CAGUCUCUUGCAGUUUG.................................
+S.glossinidius.1                   UUGCAUUGCA........................................
+Coxiella_burnetii_RS.1             ..................................................
+Hahella_chejuensis_K.1             GCAGUA............................................
+Marinomonas.1                      AGAAACUUUUC.......................................
+Marinomonas.2                      CGUAUA............................................
+Actinobacillus_succi.1             AUA...............................................
+A.pleuropneumoniae.1               ..................................................
+Haemophilus_influenz.1             AGUGCGGUCAAUUUUUGGCAAAUUUUUCUUGCUAAAUUGUCCUGAUUUUC
+Haemophilus_ducreyi_.1             CGAUUAAC..........................................
+Haemophilus_influenz.2             AGUGCGGUCAAUUUCAGGCAAGUUUUUUCUGCGAAAUUGCCCUGACAUUC
+Mannheimia_succinici.1             UUUAUGUGAUGUAG....................................
+Mannheimia_haemolyti.1             ..................................................
+Pasteurella_multocid.1             AUUUCAUGUCACAAGAGA................................
+Acinetobacter_bauman.1             ..................................................
+Pseudomonas_entomoph.1             CCAU..............................................
+Francisella_novicida.1             AAUAAAAAU.........................................
+Photobacterium.1                   AU................................................
+Vibrio_cholerae_O395.1             U.................................................
+Vibrio_splendidus_12.1             U.................................................
+Vibrio.1                           U.................................................
+Vibrio_harveyi_HY01.1              U.................................................
+Vibrio_shilonii_AK1.1              UUUAUGG...........................................
+Vibrio_vulnificus_CM.1             U.................................................
+Vibrio_angustum_S14.1              AU................................................
+Stenotrophomonas_mal.1             CCUUACC...........................................
+Xanthomonas_campestr.1             UGCCGAUCUCUCGCUGAGAGCACGGC........................
+Mesoplasma_florum_L1.1             ..................................................
+Fervidobacterium_nod.1             AAGUUUUUAAGUUU....................................
+Thermosipho_melanesi.1             ..................................................
+T.neapolitana.1                    ..................................................
+Thermotoga_maritima_.1             ..................................................
+O.sativa.1                         CUCACG............................................
+P.trichocarpa.1                    UAUCU.............................................
+metag._sequence.1                  ..................................................
+marine_metag.1                     GUGAAAG...........................................
+mouse.gut.metag.1                  ..................................................
+#=GC SS_cons                       ..................................................
+#=GC RF                            ..................................................
+
+S.coelicolor.1                     ..UCCAGCGACCGGUUGACCAGGUGAAAUUCCUGGACCGACGGUUAAAGU
+Chlorobium_ferrooxid.1             ..UCGAAAGGUCAGCAGAUUUGGUGAAACUCCAAAGCCGACGGUUAUAGU
+Chloroflexus_auranti.1             .........AAGGCAGGACCCGGUGUGAUUCCGGGGCCGACGG.UAUAGU
+Thermus_thermophilus.1             ..CCCUAAAGGGGCCCGACCCGGUGGAAUUCCGGGGCCGACGGUGAAAGU
+Bacillus_licheniform.1             ..CUUUUUAUGGGCAGGAUUCGGUGCGAUUCCGAAGCCGACAG.UAUAGU
+Bacillus_clausii_KSM.1             ..UCGUGCGUGCGGUGGAUCUGGUGCAAAUCCAGAGCCGACAGUAAUAGU
+Bacillus.1                         .........GCAAGCUGAUUUGGUGCAAAUCCAAAACCGACAGUGAUAGU
+B.subtilis.1                       ..AUAAGCACGCGGUGGAUUCAGUUUAA.GCUGAAGCCGACAGUGAAAGU
+Bacillus.2                         ..GUUUUAUUGGGCAGGAUUUGGUGAGAUUCCAAAGCCGACAG.UACAGU
+Bacillus_halodurans_.1             ..AUCAGUAAGCGGUGGACCUGGUGAAAAUCCGGGACCGACAGUGAAAGU
+Bacillus.3                         ..UGUUGUUUGGGCAGGAUUUGGUGAGAUUCCAAAGCCGACAG.UAUAGU
+B.subtilis.2                       ..AUAAGCACGCGGUGGAUUCAGUUUAA.GCUGAAGCCGACAGUGAAAGU
+B.amyloliquefaciens.1              ..AUCUGUAUACGGUGGAUUCAGUGAAAAGCUGAAGCCGACAGUGAAAGU
+Bacillus_coagulans_3.1             ..UCCGGAAUGCGGUGGAUUUGGUGAAAUUCCAAAGCCGACAGUGACAGU
+B.subtilis.3                       ..UGUCUUUACAGCAGGAUUCGGUGAGAUUCCGGAGCCGACAG.UACAGU
+Bacillus_weihensteph.1             ..ACGCGAAAACGGUGGAUCUAGUGAAACUCUAGGGCCGACAG.UAUAGU
+Bacillus_cereus_G924.1             ..AAUCGAAAACGGUGGAUCUAGUGAAAUUCUAGGGCCGACAG.UAUAGU
+Bacillus_cereus_subs.1             ......GUUAAGGCAGGAUUUGGUGCGAUUCCAAAGCCGACAG.UACAGU
+B.cereus.1                         ..ACUCGAAAACGGUGGAUCUAGUGAAACUCUAGGGCCGACAG.UAUAGU
+Bacillus_anthracis_s.1             ......GUUAAGGCAGGAUUUGGUGUGAUUCCAAAGCCGACAG.UAUAGU
+Geobacillus_kaustoph.1             .........AAGGCAGGAUCCGGUGCGAGUCCGGAGCCGACAG.UAUAGU
+Geobacillus_thermode.1             ......GUAUAGGCACGAUCCGGUGCGAUUCCGGAGCCGACAG.UAUAGU
+Oceanobacillus_iheye.1             ......UUAUGCGGUGGAUCUAGUGAGAAUCUAGAGCCGACAGUAAUAGU
+Exiguobacterium_sibi.1             ..GGGCGCUAUUUGCUGAUUCUGUGUAACUCAGGAGCCGACAG.UAUAGU
+L.innocua.1                        ..UUUCUUAGCAGUUGACUCUGGUGUAAUUCCAGGACCGACAG.UAUAGU
+Listeria_welshimeri_.1             ..AGCAGUUGAC......UCUGGUGUAAUUCCAGGACCGACAG.UAUAGU
+L.monocytogenes.1                  ..UUUUUUAGCAGUUGACUCUGGUGUAAUUCCAGGACCGACAG.UAUAGU
+Staphylococcus_haemo.1             ...CUUUGAAGUGGCUGAUUCAGUGGAAAUCUGAAGCCGACAG.UAUAGU
+S.epidermidis.1                    ..UGAUGUUAGUGGCUGAUCUAGUGUGAAUCUAGAGCCGACAGUUAGAGU
+S.epidermidis.2                    ..UUUUGCUUUGUCUUGAUUCAGUGAGAGUCUGAAGCCGACAG.UAUAGU
+Staphylococcus_aureu.1             ..UCAUAUUAGUGGCUGAUCUAGUGAGAUUCUAGAGCCGACAGUUAAAGU
+Staphylococcus_sapro.1             ..AUAAUAAAAUGGCUGAUCUAGUGAAAAUCUAGAGCCGACAG.UAAAGU
+S.aureus.1                         ..UCAUAUUAGUGGCUGAUCUAGUGAGAUUCUAGAGCCGACAG.UAUAGU
+A.metalliredigens.1                ....CACAAUGUGGUUGACUUGGUGAAACUCCAAGACCGACAG.UAAAGU
+A.oremlandii.1                     ..GAUAUACAUCGAUUGAACUGGUGAGAUUCCAGUACCGACAG.UAAAGU
+Clostridium_beijerin.1             ...UUUUAAGAAAGCAGAUUCGGUGUAACUCCGAGGCCGACAG.UAUAGU
+C.botulinum.1                      .......CAUAAGGCAGAUUCGGUUAAAUUCCGAAGCCGACAG.UAUAGU
+Clostridium_bolteae_.1             .........AAGGCAUGAUUCGGUGAAACUCCGAAGCCGACAG.UACAGU
+Clostridium_perfring.1             ...UAGUUUUUAGCAUGAUUCGGUGAAAUUCCGAGGCCGACAG.UAUAGU
+Clostridium_acetobut.1             ....CUUUUUAGGUAUGAUCCGGUUUGAUUCCGGAGCCGACAG.UAAAGU
+Clostridium_kluyveri.1             ..UGCGUGUUCAGCAUGAUUCAGUGAAAUUCUGAAGCCGACAG.UAAAGU
+C.botulinum.2                      ..AUUUUUAUAUGGCUGAUUUGGUGAAACUCCAAAACCGACAG.UAAAGU
+Clostridium_difficil.1             ..GGUAAAACUUGGUUGAUUUGGUUAAAUUCCAAAGCCGACAG.UAAAGU
+Clostridium_botulinu.1             ....UAUUUUUAGCAUGAUUCGGUUAAAUUCCGAAGCCGACAG.UAAAGU
+Clostridium_butyricu.1             ......UAUUUUAGCAGAUUCGGUGUAAUUCCGAAGCCAACAG.UAUAGU
+Clostridium_leptum_D.1             ........UGCUUGCUGAUCUGGUGAGAUUCCAGAGCCGACGG.UAUAGU
+Clostridium_tetani_E.1             .........AAGGCAUGAUUCGGUGUAACUCCGAAGCCGACAG.UAAAGU
+Clostridium_cellulol.1             .........UUUUGCAGACAUGGUGUGAUUCCAUGGCCGACAG.UACAGU
+Clostridium_difficil.2             ...UACUUAGGUGGUUGAUUUGGUGAGAUUCCAAAGCCGACAG.UAAAGU
+Clostridium_perfring.2             .....UAGUUUAGCAUGAUUCGGUGAAAUUCCGAGGCCGACAG.UAAAGU
+C.novyi.1                          ..UACUUGGUAUGGCUGAUUUGGUGAGAUUCCAAAACCGACAG.UAAAGU
+Eubacterium_siraeum_.1             ..AAAGUAUUUGUGCCGAUUCGGUGAAAUUCCGAAACCGACGG.UAUAGU
+Anaerostipes_caccae_.1             .........AAGGCAUGAUUCGGUGAAACUCCGAAGCCGACAG.UACAGU
+Dorea_longicatena_DS.1             ......CGAGAGGCAUGAUCCGGUGUGAUUCCGGAGCCGACAG.UAUAGU
+Desulfitobacterium_h.1             ..GUGCUGCACCGACUGACUUGGUGAGACUCCAAGGCCGACGG.UAUAGU
+Desulfitobacterium_h.2             ......CAUUAUGGCAGAUCUGGUGUAAUUCCAGAGCCGACAG.UAAAGU
+Desulfotomaculum_red.1             ..AUAGGAGGACAGCAGAUCUGGUGAAAAGCCAGGGCCAACGG.UAUAGU
+Faecalibacterium_pra.1             .........AAGGCAUGAUUCGGUGAAACUCCGAAGCCGACAG.UACAGU
+Ruminococcus_obeum_A.1             ......CGAGAGGCAUGAUCCGGUGAGAUUCCGGGGCCGACAG.UACAGU
+Halothermothrix_oren.1             ..UAUUUAUUAUGGUUGAUUUGGUGAAAUUCCAAAACCGACAG.UAUAGU
+Carboxydothermus_hyd.1             ..AAAAUUUACGGAUAGAUCCGGUGAAAUUCCGGAGCCGACAGUUAAAGU
+Moorella_thermoaceti.1             .........UAUGGCAGACCCGGUGAAAUUCCGGGGCCGACAGUAAAAGU
+Thermoanaerobacter.1               .......CUUUUGGCAGACUCGGUGAAAUUCCGAGGCCGACAGUUAAAGU
+Thermoanaerobacter_t.1             ....GCAUAUGCGGUUGACUCGGUGAAAUUCCGAGGCCGACGGUAAAAGU
+Caldicellulosiruptor.1             ..UUCUGGCUUUUGCAGAACCGGUGGAAUUCCGGUGCCAACGGUUACAGU
+Lactobacillus_brevis.1             ..CGUUUAACGUGGUUGACCCAGUGUGAGUCUGGGACCGACAG.UAUAGU
+L.plantarum.1                      ......GUGAGCGGUGGACCCAGUGCAAGUCUGGGACCGACAG.UAUAGU
+Lactobacillus_casei_.1             ......UUAUGCGGUGGAACCGGUGUGACUCCGGUACCGAUAGUGAUAGU
+Lactobacillus_reuter.1             ..UUAUGUUAACGGUUGAACCAGUGAAAAUCUGGUACCGACAG.UAUAGU
+Pediococcus_pentosac.1             ..CGCGAGUAGCGGUGGACCUAGUGAGAGUCUAGGACCGACAG.UAUAGU
+Leuconostoc_mesenter.1             ...UAUUUUCGCGGUUGACACAGUGAAAUUCUGUGACCGACAGUUAAAGU
+Oenococcus_oeni_PSU-.1             ......GCAAGCGGUUGACCCAGUGAAACUCUGGGACCGACAG.UAUAGU
+Lactococcus_lactis_s.1             .........GGCGAUUGAAGCAGUGAGAAUCUGCUAGCGACAG.UAAAGU
+Lactococcus_lactis_s.2             ....UGCUUGCAGCAUGAUUCGGUGAAACUCCGAGGCCGACAG.UAUAGU
+Streptococcus_agalac.1             .........GAAAGCUGAUGUGGUGAGAUUCCACAACCGACAG.UAAAGU
+Streptococcus_agalac.2             ......UUUCGAGCAUGAACUGGUGUGAUUCCAGUACCGACAG.UAAAGU
+Streptococcus_agalac.3             ......UUUCGAGCAUGAACUGGUGUGAUUCCAGUACCGACAG.UAAAGU
+Streptococcus_thermo.1             .........GCAAGCUGAUGAGGUGUAAUUCCUCAACCGACAG.UAUAGU
+S.pneumoniae.1                     ......CGAAAGGCAUGAUUUGGUGAAAUUCCAAAGCCGACAG.UAUAGU
+Streptococcus_sangui.1             .........GCAAGCUGAUGUGGUGAGAUUCCACAACCGACAG.UAUAGU
+Streptococcus_pyogen.1             .........GCAAGCUGAUGUGGUGUAACUCCACAACCGACAG.UAUAGU
+Streptococcus_pyogen.2             .........GCAAGCUGAUGUGGUGUAACUCCACAACCGACAG.UAUAGU
+Fusobacterium_nuclea.1             ......CAUUUGCUUUGAUUUGGUGAAAUUCCAAAACCGACAG.UAGAGU
+Victivallis_vadensis.1             ..GUGUUUCCGGAGCCGAUCCGGUGCGAUUCCGGAACCGACAG.UAAAGU
+Brucella_canis_ATCC_.1             ..UUUCAGGGUCAGCAGAUCCGGUGAGAUGCCGGAGCCGACGGUUAAAGU
+Ochrobactrum_anthrop.1             ..GUUCAGGGUCAGCAGAUCCGGUGAGAUGCCGGAGCCGACGGUUAAAGU
+Mesorhizobium_loti_M.1             ..UGGAAAGGUCAGCAGAUCCGGUGUGAUUCCGGAGCCGACGGUUAGAGU
+Agrobacterium_tumefa.1             ..CCGGAAGGUCAGCAGAUCCGGUGAGAGGCCGGAGCCGACGG.UAUAGU
+Rhizobium_leguminosa.1             ..UCGGAAGGUCAGCAGAUCCGGUGAGAUGCCGGAGCCGACGG.UAUAGU
+R.leguminosarum.1                  ..GGGAAGGGUCAACAGAUCCGGUGCGAUUCCGGAGCCGACGGUUAAAGU
+Rhizobium_etli_CFN_4.1             ..CGGAAGGGUCAGCAGAUCAGGUGAGAUGCCUGAGCCGACGGUCAUAGU
+Sinorhizobium_melilo.1             ..UGCGAAGGUCAGCAGAUCCGGUCGAAUUCCGGAGCCGACGGUUAUAGU
+Paracoccus_denitrifi.1             ..CCGCAGGGUCAGCAGAUCCGGUGAAACUCCGGGGCCGACGG.UAUAGU
+Roseobacter.1                      ..GAGGGGGUCAAGCAGAUCAGGUGAAAUUCCUGAGCCGACGGUUAAAGU
+Roseobacter.2                      ..UGGAAGUGUCAGCAGAUCUGGUGCAAUUCCAGAGCCGACGGUUACAGU
+Roseobacter_denitrif.1             ..GAAGGGUUUCAGCAGAUCUGGUGAGAUGCCAGAGCCGACGGUCAUAGU
+Ruegeria.1                         ..GGGGUGGGUCAGCAGAUCCGGUGGAAUUCCGGGGCCGACGGUCAUAGU
+Gluconobacter_oxydan.1             ..GGAAGGGACAAGCAGAUCCGGUGAGACUCCGGAGCCGACGGUUAGAGU
+Rhodospirillum_rubru.1             ..GAAGGGGUCCAGCAGAUCCGGUGCGAAGCCGGAGCCGACGG.UAUAGU
+B.parapertussis.1                  ..CGCAGGGGUCAGCAGACCUGGUGAGAUGCCAGGGCCGACGGUCAUAGU
+Burkholderia.1                     ..CGGCAAGGUCAGCAGACCCGGUUGGAUUCCGGGGCCGACGGUCAAAGU
+Ralstonia_pickettii_.1             ..UGCAGGGGUCAGCAGAUCCGGUGAAAUGCCGGGGCCGACGGUCAGAGU
+Chromobacterium_viol.1             ..GCAAAGGGUCAGCAGAUCUGGUGAAACGCCAGAGCCGACGGUAAUAGU
+Desulfuromonas_aceto.1             ..AUAAAGGGUCAGCAGAUCUGGUGAGAUUCCAGAGCCGACGGUUAUAGU
+Psychromonas.1                     ..UAUAAAGGUCAGCAGAUCCAGUGAAAACCUGGAGCCGACGGUUAAAGU
+Enterobacter.1                     ..CCUAAAGGUCAGCAGAUCCGGUGUAAUUCCGGAGCCGACGGUUAGAGU
+E.coli.1                           ..CUCAAAGGACAGCAGAUCCGGUGUAAUUCCGGGGCCGACGGUUAGAGU
+Klebsiella_pneumonia.1             ..CGGGAAGGUCAGCAGAUCCGGUGUAAUUCCGGGGCCGACGGUUAAAGU
+Pectobacterium_atros.1             ..ACAUGAGGUCAGCAGACCCGGUGUAAUUCCGGGGCCGACGGUUAAAGU
+Serratia_proteamacul.1             ..GUUAGAGGUCAGCAGAUCCGGUGUAAUUCCGGGGCCGACGGUUAUAGU
+S.glossinidius.1                   ..GUCUGAGGUCAGCAGAUCCGGUGUAAUUCCGGGGCCGACGGUAAUAGU
+Coxiella_burnetii_RS.1             ..UAUUUUAAGAGACAGAUCUGGUUAAAUUCCAGAGCCGACGGUCAGAGU
+Hahella_chejuensis_K.1             ..CAGCAGGGUCAGCAGAUCCGGUGAGAGGCCGGAGCCGACGGUGACAGU
+Marinomonas.1                      ..UUUUAGGGUCAGCAGAUCUGGUGUAAUUCCAGAGCCGACGGUUAUAGU
+Marinomonas.2                      ..GAUUAGAGUCAGCAGAUCUGGUGUGAUUCCAGAGCCGACGGUCAUAGU
+Actinobacillus_succi.1             ..AGGCAAAGUCAGCAGAUUUGGUGAAAUUCCAAAGCCAACAGUUACAGU
+A.pleuropneumoniae.1               ..AAAAGGUUUGGCAGGAACCGGUGAGAUUCCGGUACCGACAG.UAUAGU
+Haemophilus_influenz.1             ACUUUUAAAGUCAGCAGAUUUGGUGAAAUUCCAAAGCCGACAG.UAAAGU
+Haemophilus_ducreyi_.1             ..AUCAAGUUUAGCAGGAACUAGUGAAAUUCUAGUACCGACAG.UAUAGU
+Haemophilus_influenz.2             AUUUUUAAAGUCAGCAGAUUUGGUGAAAUUCCAAAGCCGACAG.UAAAGU
+Mannheimia_succinici.1             ..AAUUAGGGUCAGCAGAUUUGGUGAGAUUCCAAAGCCAACAGUUAAAGU
+Mannheimia_haemolyti.1             ..CGAGCAAUCGGCAGGAUUUGGUGAAAUUCCAAAACCGACAG.UAUAGU
+Pasteurella_multocid.1             ..UAGUAAAGUCAGCAGAUUUGGUGAGAAUCCAAAGCCGACAG.UAUAGU
+Acinetobacter_bauman.1             ..AUGUAAUUUGAGCAGAUUUGGUGAAACUCCAAAGCCGACGG.UAUAGU
+Pseudomonas_entomoph.1             ..GCCGGGGGUCAGCAGAUCUGGUGAGAUUCCAGGGCCGACGGUCAUAGU
+Francisella_novicida.1             ..AGAAAGGUCAAGCAGAUUUGGUGUAAUUCCAAAGCCGACAGUUAAAGU
+Photobacterium.1                   ..UUUUGAGGUCAGCAGAUCUGGUUAGAAGCCAGAGCCGACGGUUAUAGU
+Vibrio_cholerae_O395.1             ..CGUCGAGGUCAGCAGAUCUGGUGAGAAGCCAGAGCCGACGGUUACAGU
+Vibrio_splendidus_12.1             ..CGUCGAGGUCAGCAGAUCUGGUGAGAUGCCAGAGCCGACGGUUAUAGU
+Vibrio.1                           ..CGUCGAGGUCAGCAGAUCUGGUGAGAUGCCAGAGCCGACGGUUAUAGU
+Vibrio_harveyi_HY01.1              ..CGUCGAGGUCAGCAGAUCUGGUGAGAUGCCAGAGCCGACGGUUAUAGU
+Vibrio_shilonii_AK1.1              ..AGUUAAGGUCAGCAGAUCUGGUGAGAAUCCAGAGCCGACGGUUAAAGU
+Vibrio_vulnificus_CM.1             ..CGUCGAGGUCAGCAGAUCUGGUGAGAGGCCAGAGCCGACGGUUAUAGU
+Vibrio_angustum_S14.1              ..UUUCGAGGUCAGCAGAUCUGGUUAGAAGCCAGAGCCGACGGUUAUAGU
+Stenotrophomonas_mal.1             ..GCCGGGGGUCAGCAGAUCCGGUCCAAUGCCGGAGCCGACGG.UAUAGU
+Xanthomonas_campestr.1             ..GGUGAAGGUCAGCAGAUCCGGUGCGAUGCCGGGGCCGACGG.UAUAGU
+Mesoplasma_florum_L1.1             ......UUAAUUGGUUGAUUCAGUGAAAUUCUGAAACCGACGG.UAUAGU
+Fervidobacterium_nod.1             ..UUUGUAGGAAGGUUGAUCCGGUGGAAUUCCGGAGCCGACGGUGAAAGU
+Thermosipho_melanesi.1             ....CCGUUAAGGGUUGAUCCGGUGAAAUUCCGGAGCCGACGGUUAAAGU
+T.neapolitana.1                    ..CCCUUCUGGGGGUUGACCCGGUGGAAUUCCGGGGCCGACGGUGAAAGU
+Thermotoga_maritima_.1             ..CUCUCAGGAGGGUUGACCCGGUGGAAUUCCGGGGCCGACGGUGAAAGU
+O.sativa.1                         ..GCCGGGGGUCAGCAGAUCCGGUCCAAUGCCGGAGCCGACGGUCAUAGU
+P.trichocarpa.1                    ..UAGUAAGGUCAGCAGAUUUGGUGAAAAUCCAAAGCCGACAGUGAUAGU
+metag._sequence.1                  ....CUUAUAUGGCAUGACUUGGUGAGAUUCCAAGGCCGACAG.UACAGU
+marine_metag.1                     ..CAGAAAGGUCAGCAGAUCCGGUGUAAUUCCGGGGCCGACGGUUAAAGU
+mouse.gut.metag.1                  .........AAGGCAUGAUUUGGUGAAAUUCCAAAGCCGACAG.UAUAGU
+#=GC SS_cons                       ..................<<<<<.......>>>>>.....<<<.......
+#=GC RF                            ..uuuaaaagaagguuGAuccGGUGAaAuUCCggagCCGACaG.UAaAGU
+
+S.coelicolor.1                     CCGGAUGGGAGGCAGUGCGC.
+Chlorobium_ferrooxid.1             CCGGAUGAAAGAGGAUAGCG.
+Chloroflexus_auranti.1             CCGGAUGGGAGAAGGUCGGC.
+Thermus_thermophilus.1             CCGGAUGGGAGAAGGAGGGC.
+Bacillus_licheniform.1             CUGGAUGGGAGAAGAUGGAG.
+Bacillus_clausii_KSM.1             CUGGAUGGGAGAAGUUCGAG.
+Bacillus.1                         CUGGAUGGGAGAAGAACAAA.
+B.subtilis.1                       CUGGAUGGGAGAAGGAUGAU.
+Bacillus.2                         CUGGAUGGGAGAAGAUGGAG.
+Bacillus_halodurans_.1             CUGGAUGGGAGAAGGAAACG.
+Bacillus.3                         CUGGAUGGGAGGAGAUGAAG.
+B.subtilis.2                       CUGGAUGGGAGAAGGAUGAU.
+B.amyloliquefaciens.1              CUGGAUGGGAGAAGGAUGAG.
+Bacillus_coagulans_3.1             CUGGAUGGGAGAAGGAUCAA.
+B.subtilis.3                       CUGGAUGGGAGAAGAUGGAG.
+Bacillus_weihensteph.1             CUGGAUGGGAGAAGGAUAUG.
+Bacillus_cereus_G924.1             CUGGAUGGGAGAAGGAUAUG.
+Bacillus_cereus_subs.1             CUGGAUGGGAGAAGAUGGAG.
+B.cereus.1                         CUGGAUGGGAGAAGGAUAUGU
+Bacillus_anthracis_s.1             CUGGAUGGGAGAAGAUGGAG.
+Geobacillus_kaustoph.1             CUGGAUGGGAGAAGAUGAAG.
+Geobacillus_thermode.1             CUGGAUGGGAGAAGGAUGAA.
+Oceanobacillus_iheye.1             CUGGAUGGGAGAAGAAUAGC.
+Exiguobacterium_sibi.1             CUGGAUGGGAGAAGAUGGCG.
+L.innocua.1                        CUGGAUGGGAGAAGAUGUUG.
+Listeria_welshimeri_.1             CUGGAUGGGAGAAGAUGUUG.
+L.monocytogenes.1                  CUGGAUGGGAGAAGAUGUUG.
+Staphylococcus_haemo.1             CUGGAUGGAAGAAGAUGGAG.
+S.epidermidis.1                    CUGGAUGGGAGAAAGAAGUU.
+S.epidermidis.2                    CUGGAUGGGAGAAGAUGGAG.
+Staphylococcus_aureu.1             CUGGAUGGGAGAAAGAAUGU.
+Staphylococcus_sapro.1             CUGGAUGGGAGAAGAUGGAG.
+S.aureus.1                         CUGGAUGGGAGAAGAUGGAG.
+A.metalliredigens.1                CUGGAUGGAAGAAGAACAGU.
+A.oremlandii.1                     CUGGAUGGGAGAAGAAAAAG.
+Clostridium_beijerin.1             CUGGAUGAAAGAAGGUAACC.
+C.botulinum.1                      CUGGAUGAAAGAAGGUAAAU.
+Clostridium_bolteae_.1             CUGGAUGAAAGAAGAUGGAA.
+Clostridium_perfring.1             CUGGAUGAAAGAAGAUGAGU.
+Clostridium_acetobut.1             CUGGAUGAAAGAAGAUAUAU.
+Clostridium_kluyveri.1             CUGGAUGGGAGAAGAUAGAA.
+C.botulinum.2                      CUGGAUGAGAGAAGGUAUAG.
+Clostridium_difficil.1             CUGGAUGGAAGAAGAUAUUU.
+Clostridium_botulinu.1             CUGGAUGGAAGAAGAUUAUA.
+Clostridium_butyricu.1             CUGGAUGAAAGAAGGUAACC.
+Clostridium_leptum_D.1             CCGGAUGGAAGAAGAAAAGA.
+Clostridium_tetani_E.1             CUGGAUGAAAGAAGGUAUAA.
+Clostridium_cellulol.1             CUGGAUGAAAGAAGAAACAG.
+Clostridium_difficil.2             CUGGAUGAGAGAAGAUAUUU.
+Clostridium_perfring.2             CUGGAUGAAAGAAGAAUAUC.
+C.novyi.1                          CUGGAUGAGAGAAGGUAUAG.
+Eubacterium_siraeum_.1             CCGGAUGAAAGAAUCAGAAA.
+Anaerostipes_caccae_.1             CUGGAUGAAAGAAGAUAGUG.
+Dorea_longicatena_DS.1             CUGGAUGAAAGAAGAUGAUG.
+Desulfitobacterium_h.1             CCGGAUGGGAGAAGGUACAA.
+Desulfitobacterium_h.2             CUGGAUGAGAAGAGGAAAUU.
+Desulfotomaculum_red.1             CCGGAUGAAAGAGGAUAAGG.
+Faecalibacterium_pra.1             CUGGAUGAAAGAAGAUACCA.
+Ruminococcus_obeum_A.1             CUGGAUGGAAGAAGAUGAUA.
+Halothermothrix_oren.1             CUGGAAGGGAGUUAGCAUUG.
+Carboxydothermus_hyd.1             CUGGAUGGGAGAAGGUAUUA.
+Moorella_thermoaceti.1             CUGGAAGGGAGAAGGAGGUU.
+Thermoanaerobacter.1               CUGGAUGGGAGAAGGAGAAA.
+Thermoanaerobacter_t.1             CCGGAUGGGAG..........
+Caldicellulosiruptor.1             CCGGAUGGGAGAAGGAAUGG.
+Lactobacillus_brevis.1             CUGGAUGGGAGAAGAAACGA.
+L.plantarum.1                      CUGGAUGGGAGAAGAAAAUU.
+Lactobacillus_casei_.1             CUAGAUGGAAGAAGAUGGGG.
+Lactobacillus_reuter.1             CUGGAUGGGAGAAGAAAACU.
+Pediococcus_pentosac.1             CUGGAUGGGAGAAGAAACGU.
+Leuconostoc_mesenter.1             CUGGAUGGGAGAAGAUUUGA.
+Oenococcus_oeni_PSU-.1             CUGGAUGGGAGAAGAAAUAG.
+Lactococcus_lactis_s.1             CUGGAUGGAAGAAGAUGAAC.
+Lactococcus_lactis_s.2             CUGGAUGAAAGAAGAUAAUA.
+Streptococcus_agalac.1             CUGGAUGGGAGAAGACAAAG.
+Streptococcus_agalac.2             CUGGAUGAGAGAAG.......
+Streptococcus_agalac.3             CUGGAUGAGAGAAGAAUUCA.
+Streptococcus_thermo.1             CUGGAUGGAAGAAGACCAGU.
+S.pneumoniae.1                     CUGGAUGAAAGAAGAUAAAA.
+Streptococcus_sangui.1             CUGGAUGGGAGAAGACGAGA.
+Streptococcus_pyogen.1             CUGGAUGAGAGAAGACCGGG.
+Streptococcus_pyogen.2             CUGGAUGAGAGAAGACCGGG.
+Fusobacterium_nuclea.1             CUGGAUGGGAGAAGAAUUAG.
+Victivallis_vadensis.1             CUGGAUGAAAGAAGGCUGAC.
+Brucella_canis_ATCC_.1             CCGGAUGGAAGAGAGCGAAU.
+Ochrobactrum_anthrop.1             CCGGAUGGAAGAGAGCGAAU.
+Mesorhizobium_loti_M.1             CCGGAUGAAAGAGGACGAAA.
+Agrobacterium_tumefa.1             CCGGAUGGAAGAGGACAAGG.
+Rhizobium_leguminosa.1             CCGGAUGGAAGAGGACAACA.
+R.leguminosarum.1                  CCGGAUGGAAGAGAAUGAGU.
+Rhizobium_etli_CFN_4.1             CCGGAUGAAAGAGAACGUGC.
+Sinorhizobium_melilo.1             CCGGAUGGAAGAGAGCAAGC.
+Paracoccus_denitrifi.1             CCGGAUGAAAGAGAAUGGAC.
+Roseobacter.1                      CCGGAUGGAAGAGAACGUGC.
+Roseobacter.2                      CCGGAUGGAAGAGAAGGUAC.
+Roseobacter_denitrif.1             CCGGAUGAAAGAGAAUGCGA.
+Ruegeria.1                         CCGGAUGGGAGAGAAUGUAC.
+Gluconobacter_oxydan.1             CCGGAUGGAAGAGAACGCAG.
+Rhodospirillum_rubru.1             CCGGAUGGAAGAGAACGAGG.
+B.parapertussis.1                  CCGGAUGAGAGAAGAUGUGC.
+Burkholderia.1                     CCGGAUGAGAGAGAGCGGGG.
+Ralstonia_pickettii_.1             CCGGAUGGAAGAAGAUGUGC.
+Chromobacterium_viol.1             CCGGAUGAGAGAAGACGACG.
+Desulfuromonas_aceto.1             CCGGAUGAAAGAGGAUAUUC.
+Psychromonas.1                     CCGGAUAAAAGAGAAUGAAU.
+Enterobacter.1                     CCGGAUGGGAGAGAGUAACG.
+E.coli.1                           CCGGAUGGGAGAGAGUAACG.
+Klebsiella_pneumonia.1             CCGGAUGGGAGAGAGUAACG.
+Pectobacterium_atros.1             CCGGAUGGGAGAGAGUAACG.
+Serratia_proteamacul.1             CCGGAUGGGAGAGAGUAACG.
+S.glossinidius.1                   CCGGAUGGGAGAGAGUAACG.
+Coxiella_burnetii_RS.1             CCGGAUGAGAGAAGGUAUGC.
+Hahella_chejuensis_K.1             CCGGAUGGGAGAGAAUAAGG.
+Marinomonas.1                      CCGGAUGAUAGAGAGCGCGU.
+Marinomonas.2                      CCGGAUGAUAGAGAGCGUGU.
+Actinobacillus_succi.1             CUGGAUGAAAGAGAGUAAAC.
+A.pleuropneumoniae.1               CUGGAUGGAAGAAGAUGAAA.
+Haemophilus_influenz.1             CUGGAUGAAAGAGAAUAAAA.
+Haemophilus_ducreyi_.1             CUGGAUGGAAGAAGAGCAGA.
+Haemophilus_influenz.2             CUGGAUGAAAGAGAAUAAAA.
+Mannheimia_succinici.1             CUGGAUGAAAGAGAAUAAAA.
+Mannheimia_haemolyti.1             CUGGAUGAAAGAAGAGUCAA.
+Pasteurella_multocid.1             CUGGAUGAAAGAGAAUAAGC.
+Acinetobacter_bauman.1             CCGGAUGAAAGAAGACGACG.
+Pseudomonas_entomoph.1             CCGGAUGAAAGAAGGCGUUU.
+Francisella_novicida.1             CUGGAUGAAAGAAGAUUGAG.
+Photobacterium.1                   CCGGAUGAGAGAGAAUUUAA.
+Vibrio_cholerae_O395.1             CCGGAUGAGAGAGAAUGACA.
+Vibrio_splendidus_12.1             CCGGAUGAGAGAGAAUGAAA.
+Vibrio.1                           CCGGAUGAAAGAGAAUAAGA.
+Vibrio_harveyi_HY01.1              CCGGAUGAAAGAGAAUAAGA.
+Vibrio_shilonii_AK1.1              CCGGAUGGGAGAGGAUAAUG.
+Vibrio_vulnificus_CM.1             CCGGAUGAGAGAGAAUGAAA.
+Vibrio_angustum_S14.1              CCGGAUGAGAGAGAAUUGAG.
+Stenotrophomonas_mal.1             CCGGAUGAAAGAAGACGGUG.
+Xanthomonas_campestr.1             CCGGAUGAAAGAAGACGGCC.
+Mesoplasma_florum_L1.1             CCGGAUGGUAGAAAAUGUCA.
+Fervidobacterium_nod.1             CCGGAUGGGAGAGAGUACCA.
+Thermosipho_melanesi.1             CCGGAUGGGAGAGGACAAUG.
+T.neapolitana.1                    CCGGAUGGGAGAGAGCGAAG.
+Thermotoga_maritima_.1             CCGGAUGGGAGAGAGCGUGA.
+O.sativa.1                         CCGGAUGAAAGAAGACGGUG.
+P.trichocarpa.1                    CUGGAUGAAAGAGAAUAGAG.
+metag._sequence.1                  CUGGAUGGAAGAAGAUUUAA.
+marine_metag.1                     CCGGAUGGGAGAGAGUAACG.
+mouse.gut.metag.1                  CUGGAUGAAAGAAAAUUCUU.
+#=GC SS_cons                       >>>.......>>>>>>>>...
+#=GC RF                            CuGGAUGGgAGagggugaaa.
+//

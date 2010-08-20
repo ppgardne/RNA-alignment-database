@@ -1,0 +1,67 @@
+# STOCKHOLM 1.0
+#=GF ID    IRES_Cx32
+#=GF AC    RF00484
+#=GF DE    Connexin-32 internal ribosome entry site (IRES)
+#=GF AU    Moxon SJ
+#=GF GA    22.0
+#=GF NC    20.4
+#=GF TC    44.5
+#=GF SE    Moxon SJ
+#=GF SS    Published; PMID:10931843
+#=GF TP    Cis-reg; IRES;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000243 SO:internal_ribosome_entry_site
+#=GF DR    GO:0043022 GO:ribosome binding
+#=GF RN    [1]
+#=GF RM    10931843
+#=GF RT    Analysis of a Charcot-Marie-Tooth disease mutation reveals an
+#=GF RT    essential internal ribosome entry site element in the connexin-32
+#=GF RT    gene.
+#=GF RA    Hudder A, Werner R;
+#=GF RL    J Biol Chem 2000;275:34586-34591.
+#=GF CC    This family represents the connexin-32 internal ribosome entry site (IRES)
+#=GF CC    which allows cap independent translation during conditions such as heat
+#=GF CC    shock and stress [1].
+#=GF WK    http://en.wikipedia.org/wiki/Connexin-32_internal_ribosome_entry_site_(IRES)
+#=GF SQ    6
+
+#=GS M.musculus.1   AC    AL683892.12/123280-123428
+#=GS R.norvegicus.1 AC    M23565.1/710-859
+#=GS H.sapiens.1    AC    L47127.1/400-550
+#=GS H.sapiens.2    AC    BC022426.1/1-118
+#=GS H.sapiens.3    AC    S83323.1/50-200
+#=GS E.caballus.1   AC    AY303808.1/346-495
+
+M.musculus.1               AUAUGACUCUCUAGCACCGGGAGGCGAUGAAUUGGGACGCAGGCGCG.A.
+R.norvegicus.1             AUAUGACUCUCCAGCACCGGGAGGCGAUGAAUUGGGACGCAGGCGCG.A.
+H.sapiens.1                AUAUGACUCCCCAGCACCGGGCGGUGAUGAAUUGGGACGCAGGCGCGGAG
+H.sapiens.2                ....................GCGGUGAUGAAUUGGGACGCAGGCGCGGAG
+H.sapiens.3                AUAUGACUCCCCAGCACCGGGCGGUGAUGAAUUGGGACGCAGGUGCGGAG
+E.caballus.1               AUAUGACUCCCCAGCACCGGGCGGCGAUGAAUUGGGACGCAGGCGCGGA.
+#=GC SS_cons               ........<<<....<<<<<<..<<<.....<<<<<.<<<....>>>...
+
+M.musculus.1               CCACAGGGACCACUCCCCCUACACAGACAUGAGACCAUAGGGGAGCUGUC
+R.norvegicus.1             CCACAGGGACCACUCCCCCUACACAGACAUGAGACCAUAGGGGAGCUGUC
+H.sapiens.1                CC.CAGGGACCACUCCCCCUGCACAGACAUGAGACCAUAGGGGACCUGUC
+H.sapiens.2                CC.CAGGGACCACUCCCCCUGCACAGACAUGAGACCAUAGGGGACCUGUC
+H.sapiens.3                CC.CAGGGACCACUCCCCCUGCACAGACAUGAGACCAUAGGGGACCUGUC
+E.caballus.1               CC.CAGGGACCACUCCCCCUGCACAGACAUGAGACCAUAGGGGACCUGUC
+#=GC SS_cons               <<<<..<<<<...<<<<<.....................>>>>>...>>>
+
+M.musculus.1               UGGGUGGCCUCAAGGAUAGGCGCUCCCCG.AGGUAACCGGGCUAUCU.GG
+R.norvegicus.1             UGGGUGGCCUCAAGGAUAGGCGCUCCCCCGAGGUAACCGGGCUAUCU.GG
+H.sapiens.1                UGGGUGGCCUCAGGGAUAGGCGCUCCCCA.AGGUAAGAGGGCUUUGUUGA
+H.sapiens.2                UGGGUGGCCUCAGGGAUAGGCGCUCC......CCAAGG......UGU.GA
+H.sapiens.3                UGGGUGGCCUCAGGGAUAGGCGCUCCCCA.AGGUAAGAGGGCUUUGUUGA
+E.caballus.1               UGGGUGGCCUCAGGGAUAGGCGCUCCCCA.AGGUAAUGGGGCUUUGUUGG
+#=GC SS_cons               >..>>>>.>>>>>.......>>>..>>>...>>>....>>>.........
+
+M.musculus.1               GUU
+R.norvegicus.1             GUU
+H.sapiens.1                GUU
+H.sapiens.2                AU.
+H.sapiens.3                GUU
+E.caballus.1               GUU
+#=GC SS_cons               ...
+//

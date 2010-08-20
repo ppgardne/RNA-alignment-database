@@ -1,0 +1,54 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-431
+#=GF AC    RF00718
+#=GF DE    microRNA mir-431
+#=GF AU    Wilkinson A
+#=GF GA    50.0
+#=GF NC    27.2
+#=GF TC    92.9
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000142
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    6
+
+#=GS L.africana.1           AC    AAGU02774140.1/31-143
+#=GS E.telfairi.1           AC    AAIY01393072.1/1321-1434
+#=GS O.princeps.1           AC    AAYZ01391476.1/1833-1946
+#=GS Otolemur_garnettii_s.1 AC    AAQR01332657.1/320-433
+#=GS B.taurus.1             AC    AAFC03050876.1/53066-53179
+#=GS M.lucifugus.1          AC    AAPE01089181.1/396-509
+
+L.africana.1                       UCUUGAUCGUC.UGCGGGGUGUCUUGCAGGCCGUCAUGCAGGCCACCUUG
+E.telfairi.1                       UCUUGGUCGUCCUGCGGGCUGUCUUGCAAGCCGUCAUGCAGGCCACCUUG
+O.princeps.1                       GCCCGUGCGUCCUGCGAGGUGUCUUGCAGGCCGUCACGCAGGCCACUCUG
+Otolemur_garnettii_s.1             UCCUGCUCGUCCUGCGAGGUGUCUUGCAGGCCGUCAUGCAGGCCACACUG
+B.taurus.1                         UCCUGCGCGUCCUGCGAGGUGUCUUGCAGGCCGUCAUGCAGGCCACACUG
+M.lucifugus.1                      GCCUGCGCGUCCUGCGAGGUGUCUUGCAGGCCGUCAUGCAGGCCACACUG
+#=GC SS_cons                       ...<<.<<<<<.<<<<<<<.<<<<<<<<<<.<<.<.<<<<<<<<......
+#=GC RF                            ucuuGcuCGuCcuGCGaGaUGuCuuGCagGcCGUCAuGCaggCCAcauUG
+
+L.africana.1                       ACGGUAACGUUGCAGGUCGCCCUGCGGGGCUUCUCGCAAGACGACAUUCU
+E.telfairi.1                       ACGGUAACGUUGCAGGUCGCCCUGCCGGGCUUCUCGCAAGACGACAUCCU
+O.princeps.1                       ACGGUAACGUUGCAGGUCGUCUUGCAGGGCUUCUCGCAAGACGACAUCUU
+Otolemur_garnettii_s.1             ACGGUAACGUUGCAGGUCGUCUUGCAGGGCUUCUCGCAAGACGACAUCCU
+B.taurus.1                         ACGGAAACGUUGCAGGUCGUCUUGCAGGGCUUCUCGCAAGACGACAUAUU
+M.lucifugus.1                      ACGGUAACGUUGCAGGUCGUCUUGCAGGGCUUCUCGCAAGACGACAUCAC
+#=GC SS_cons                       ..>>>....>>>>>.>.>>.>>>>>>>>>>.>>>>>>>.>>>>>>>....
+#=GC RF                            AcGGcAAcGuuGCaGGUCGuCcuGCagGgCUuCuCGCaAGaCGaCaUaau
+
+L.africana.1                       CCUCGUUAACGAUG
+E.telfairi.1                       CGUCGUUCACAAUG
+O.princeps.1                       CAUCGCCAACGACG
+Otolemur_garnettii_s.1             CAUCACCAACGACG
+B.taurus.1                         CAUCACCCUCGACG
+M.lucifugus.1                      UCCCGAUGACGUGC
+#=GC SS_cons                       ..............
+#=GC RF                            caucgaucacaaug
+//

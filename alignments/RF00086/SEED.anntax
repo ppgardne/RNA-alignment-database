@@ -1,0 +1,77 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORD27
+#=GF AC    RF00086
+#=GF DE    Small nucleolar RNA SNORD27
+#=GF AU    Griffiths-Jones SR, Moxon SJ
+#=GF GA    22.0
+#=GF NC    21.6
+#=GF TC    22.2
+#=GF PI    U27
+#=GF SE    Griffiths-Jones SR, Moxon SJ, Daub J
+#=GF SS    Predicted; Moxon SJ, Daub J
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Mus_musculus300711
+#=GF DR    snoopy; Oryctolagus_cuniculus300342
+#=GF RN    [1]
+#=GF RM    8559254
+#=GF RT    A mammalian gene with introns instead of exons generating stable RNA
+#=GF RT    products.
+#=GF RA    Tycowski KT, Shu MD, Steitz JA;
+#=GF RL    Nature 1996;379:464-466.
+#=GF RN    [2]
+#=GF RM    8962077
+#=GF RT    A small nucleolar RNA requirement for site-specific ribose
+#=GF RT    methylation of rRNA in Xenopus.
+#=GF RA    Tycowski KT, Smith CM, Shu MD, Steitz JA;
+#=GF RL    Proc Natl Acad Sci U S A 1996;93:14480-14485.
+#=GF CC    U27 is a member of the C/D class of snoRNA which contain the
+#=GF CC    C (UGAUGA) and D (CUGA) box motifs.  U27 is encoded within the 
+#=GF CC    U22 snoRNA host gene (UHG) in mammals [1] and is thought to act 
+#=GF CC    as a 2'-O-ribose methylation guide for ribosomal RNA. This family also
+#=GF CC    contains several related snoRNAs from yeast and plants.
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_SNORD27
+#=GF SQ    11
+
+#=GS D.hansenii.1   AC    CR382139.2/220781-220859
+#=GS S.cerevisiae.1 AC    Z49211.1/424-506
+#=GS S.cerevisiae.2 AC    Z69296.1/2-80
+#=GS S.cerevisiae.3 AC    AJ010797.1/1-83
+#=GS X.laevis.1     AC    U72859.1/1-73
+#=GS X.laevis.2     AC    U72858.1/1-73
+#=GS M.musculus.1   AC    U40654.1/1205-1271
+#=GS H.sapiens.1    AC    AK095849.1/803-874
+#=GS H.sapiens.2    AC    U40580.1/1298-1369
+#=GS O.sativa.1     AC    AJ490438.1/5-84
+#=GS O.sativa.2     AC    AJ490435.1/3-81
+
+D.hansenii.1               AAUAAAAGAUG....AGCUUGAAAAA.AAAGACAAGCAUAUGUCUGAAUC
+S.cerevisiae.1             UGCAGAAGAUGAAACAAAUUACUCAA.AUAGACAAGCAUAUGUCUGAUCU
+S.cerevisiae.2             ..CAGAAGAUGAAACAAAUUACUCAA.AUAGACAAGCAUAUGUCUGAUCU
+S.cerevisiae.3             UGCAGAAGAUGAAACAAAUUACUCAA.AUAGACAAGCAUAUGUCUGAUCU
+X.laevis.1                 UGUCAAUGAUG.....AAUAA..AAA.ACAGACAAGCAUAUGUCUGAAUA
+X.laevis.2                 UGUCAAUGAUG.....AAUAA..AAU.ACAGACAAGCAUAUGUCUGAAUC
+M.musculus.1               ..UUAAUGAUG....AACAAUGUAAAU...GACAAGCAUAUGGCUGAGUU
+H.sapiens.1                ACUCCAUGAUG.....AACAC..AAA.AU.GACAAGCAUAUGGCUGAACU
+H.sapiens.2                ACUCCAUGAUG.....AACAC..AAA.AU.GACAAGCAUAUGGCUGAACU
+O.sativa.1                 GGCCA...AUG.AUUAUAUAG..AAACAU.GACAAGCAUAUGUCUGAACU
+O.sativa.2                 GGCCG...AUG.AUUAGAUUAA.AAU.AUAGACAAGCAUAUGUCUGAAUU
+#=GC SS_cons               <<<<..............................................
+
+D.hansenii.1               UUUAAUG.AAGA.GAAACU..UUUUCGUGU..CUGAUA.UU
+S.cerevisiae.1             U..CAUGAUUGA.AAAGAGCAAU.UAGUGU..CUGAUG.CA
+S.cerevisiae.2             U..CAUGAUUGA.AAAGAGCAAU.UAGUGU..CUGAUG...
+S.cerevisiae.3             U..CAUGAUUGA.AAAGAGCAAU.UAGUGU..CUGAUG.CA
+X.laevis.1                 U..UAUG.UG..UU..UCC..AUCUUAAUUUUCUGAGA.AA
+X.laevis.2                 U..UAUG.UG..UU..GCC..AUCUUAAUUUUCUGAGA.AA
+M.musculus.1               G.CAAUG.AU......GUC..AUCUUACUA..CUGAAA...
+H.sapiens.1                U.UCAAG.UG.A.U..GUC..AUCUUACUA..CUGAGAAGU
+H.sapiens.2                U.UCAAG.UG.A.U..GUC..AUCUUACUA..CUGAGAAGU
+O.sativa.1                 UUCCAUG.UGGAUUAAGCCUAAUCUUCUCU..AUGAGG.CC
+O.sativa.2                 U.UCAUG.UGGA.AAAGCCUAAUCUUCUCU..AUGAGG.UC
+#=GC SS_cons               ....................................>>.>>
+//

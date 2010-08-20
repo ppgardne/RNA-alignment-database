@@ -1,0 +1,54 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORD112
+#=GF AC    RF01169
+#=GF DE    Small nucleolar RNA SNORD112
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    19.6
+#=GF TC    20.1
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    snorna; 14q(0)
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF WK    http://en.wikipedia.org/wiki/SnoRNA
+#=GF SQ    9
+
+#=GS Spermophilus_tridece.1 AC    AAQQ01697068.1/858-934
+#=GS M.mulatta.1            AC    AANU01283640.1/2332-2403
+#=GS H.sapiens.1            AC    AADB02016115.1/24955-25031
+#=GS T.belangeri.1          AC    AAPY01359948.1/6379-6455
+#=GS C.lupus.1              AC    AAEX02019638.1/63939-64015
+#=GS F.catus.1              AC    AANG01132981.1/497-573
+#=GS B.taurus.1             AC    AAFC03050876.1/69355-69431
+#=GS E.caballus.1           AC    AAWR02020062.1/16730-16808
+#=GS Dasypus_novemcinctus.1 AC    AAGV020923945.1/1278-1355
+
+Spermophilus_tridece.1             UGGGCCAGUGAUGAGAAA..GUGUCUAUGAACAAAGGAUCGUGAUUAAUC
+M.mulatta.1                        UGGACCAGUGAUAAGAAC..GUGUU.AGGAACCAAAGAUUAUGAGUAAUC
+H.sapiens.1                        UGGACCAAUGAUGAGACA..GUGUUUAUGAACAAAAGAUCAUGAUUAAUC
+T.belangeri.1                      UGGACCAAUGAUGAGCAA..GCCUUUGUGAACAAAGGACCACGUUUAAUC
+C.lupus.1                          UGGACCAAUGAUGACAAG..GUGUUUAUGAACAAAGGAUCAUGAUUAAUC
+F.catus.1                          UGGACCAAUGAUGACGAA..GUGUUUAUGAACAAAGCAUCAUGAUUAAUC
+B.taurus.1                         GGGAUCUAUGAUGAAAAA..GUGUUUAUGAACAAAGGGUCGUGAUUAAUC
+E.caballus.1                       UGGACCCAUGAGGAGAGAAAGUGUUUACGAACAAAAGAUGGUGAUUAAUC
+Dasypus_novemcinctus.1             GUGAAAUAGGAAGAGAAA..GUGUUGAUGAACAAAGGAUCGUGAUUAAUC
+#=GC SS_cons                       <<<<<<............................................
+#=GC RF                            UGGACCAAUGAUGAgAAA..GUGUUUAuGAACAAAgGAUcaUGAUUAAUC
+
+Spermophilus_tridece.1             CAGUUCUGCGCA.AAAUACUGAGGUCCAUU
+M.mulatta.1                        UAGUUUUGUAUA.....UCUGAGGUCCAUU
+H.sapiens.1                        CAGUUCUGCACA.AAACACUGAGGUCCAUU
+T.belangeri.1                      CAGUUCUGCAGG.AAAUACUGAGAUCCAUU
+C.lupus.1                          CAGUUCUGCGCA.AAAUACUGAGGUCCGUU
+F.catus.1                          CAGUUCUGCGCA.AAAUACUGAGGUCCAUU
+B.taurus.1                         CAGUUCUGCACA.AAGUACUAAGGUCCAUU
+E.caballus.1                       CUGUUCUGCGCA.AAGUACUGAGGUCCAUU
+Dasypus_novemcinctus.1             CAGUUCUGCACAGAAAUACGGAGGUCCAUU
+#=GC SS_cons                       ......................>>>>>>..
+#=GC RF                            cAGUUcUGcacA.AAAUACUGAGGUCCAUU
+//

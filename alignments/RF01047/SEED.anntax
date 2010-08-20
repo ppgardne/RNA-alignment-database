@@ -1,0 +1,61 @@
+# STOCKHOLM 1.0
+#=GF ID    HBV
+#=GF AC    RF01047
+#=GF DE    HBV RNA encapsidation signal epsilon
+#=GF AU    Brown C
+#=GF GA    33.0
+#=GF NC    31.0
+#=GF TC    33.6
+#=GF SE    Predicted; Brown C
+#=GF SS    Published; PMID:12409471
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    17206754
+#=GF RT    Hepatitis B virus replication.
+#=GF RA    Beck J, Nassal M
+#=GF RL    World J Gastroenterol. 2007;13:48-64
+#=GF RN    [2]
+#=GF RM    12409471
+#=GF RT    The apical stem-loop of the hepatitis B virus encapsidation
+#=GF RT    signal folds into a stable tri-loop with two underlying
+#=GF RT    pyrimidine bulges.
+#=GF RA    Flodell S, Schleucher J, Cromsigt J, Ippel H, Kidd-Ljunggren K,
+#=GF RA    Wijmenga S
+#=GF RL    Nucleic Acids Res. 2002;30:4803-4811
+#=GF RN    [3]
+#=GF RM    9857345
+#=GF RT    Structure and function of the encapsidation signal of
+#=GF RT    hepadnaviridae.
+#=GF RA    Kramvis A, Kew MC
+#=GF RL    J Viral Hepat. 1998;5:357-367
+#=GF WK    http://en.wikipedia.org/wiki/HBV_RNA_encapsidation_signal_epsilon
+#=GF SQ    6
+
+#=GS Hepatitis_B_virus.1 AC    Z72479.1/1847-1907
+#=GS Hepatitis_B_virus.2 AC    DQ164399.1/118-178
+#=GS Hepatitis_B_virus.3 AC    DQ164364.1/124-183
+#=GS Hepatitis_B_virus.4 AC    AB115551.1/1847-1907
+#=GS Hepatitis_B_virus.5 AC    AB048704.1/1847-1907
+#=GS Hepatitis_B_virus.6 AC    DQ415939.1/43-103
+
+Hepatitis_B_virus.1             UGUACAUGUCCCACUGUUCAAGCCUCCAAGCUGUGCCUUGGGUGGCUUUG
+Hepatitis_B_virus.2             UGUUCAUGUCCUACUGUUCAAGCCUCCAAGCUGUGCCUUGGAUGGCUUUR
+Hepatitis_B_virus.3             CGUCC.UGUCCUACUGUUCAAGCCUCCAAGCUGUGCCUUGGGUGGCUUUA
+Hepatitis_B_virus.4             CGUUCAUGUCCUACUGUUCAAGCCUCCAAGCUGUGUCUUGGGUGGCUUUG
+Hepatitis_B_virus.5             UGUUCAUGUCCUACUGUUCAAGCCUCCAAGUUGUGCCUUGGGUGGCUUUA
+Hepatitis_B_virus.6             UGUUCAUGUCCUACUGUUCAAGCCUCCAAGCUGCGCCUUGGGUGGCUUUA
+#=GC SS_cons                    <<<<<<<<<<<<<......<<<<<<<<<<<<...>.>>>>>>.>>>>>>>
+#=GC RF                         cgcccacgccccaauguuaaagcccccaagcugugacuuggguggcuuug
+
+Hepatitis_B_virus.1             GGGCAUGGACA
+Hepatitis_B_virus.2             GGGCAUGGACA
+Hepatitis_B_virus.3             GGACAUGGACA
+Hepatitis_B_virus.4             GGCCAUGGACA
+Hepatitis_B_virus.5             GGACAUGGACA
+Hepatitis_B_virus.6             GGGCAUGCACA
+#=GC SS_cons                    >>>>>>>>>>>
+#=GC RF                         gggcgugggcg
+//

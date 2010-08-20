@@ -1,0 +1,68 @@
+# STOCKHOLM 1.0
+#=GF ID    IS128
+#=GF AC    RF00125
+#=GF DE    IS128 RNA
+#=GF AU    Moxon SJ
+#=GF GA    80.0
+#=GF NC    30.4
+#=GF TC    150.6
+#=GF SE    Hershberg R
+#=GF SS    Predicted; RNAalifold
+#=GF TP    Gene; sRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF RN    [1]
+#=GF RM    12202758
+#=GF RT    Transcriptome analysis of Escherichia coli using high-density
+#=GF RT    oligonucleotide probe arrays.
+#=GF RA    Tjaden B, Saxena RM, Stolyar S, Haynor DR, Kolker E, Rosenow C;
+#=GF RL    Nucleic Acids Res 2002;30:3732-3738.
+#=GF CC    This family consists of a number of bacterial RNA genes of 209 bases in
+#=GF CC    length. The IS128 RNA gene is present in Escherichia coli and Shigella
+#=GF CC    flexneri and where it is found between the sseA and sseB genes. The
+#=GF CC    function of this RNA is unknown.
+#=GF WK    http://en.wikipedia.org/wiki/IS128_RNA
+#=GF SQ    5
+
+#=GS Escherichia_coli_E22.1 AC    AAJV02000013.1/31054-31262
+#=GS E.coli.1               AC    D10496.1/1236-1444
+#=GS Shigella_dysenteriae.1 AC    CP000034.1/2517112-2517324
+#=GS Shigella_flexneri_2a.1 AC    AE014073.1/2632255-2632463
+#=GS Shigella_dysenteriae.2 AC    AAMJ02000005.1/115409-115619
+
+Escherichia_coli_E22.1             UUUAGCGUAUUAUCGACA..CCGGCCCUUUCCGCCG.UGUUCGGUAAUAA
+E.coli.1                           UUUAGCGUAUUAUCGACA..CCGGCCCUUUCCGCCG.UGUUCGGUAAUAA
+Shigella_dysenteriae.1             AAAACCACCCCAGCGACGUUCAUAGAAUGGCGCAAUAUGUUCGAUAUUAA
+Shigella_flexneri_2a.1             UUUAGCGUAUUAUCGACA..CCGGCCCUUUCCGCCG.UGUUCGGUAAUAA
+Shigella_dysenteriae.2             AAAACCACCCCAGCGACGUUCAUAGAAUGGCGCAAUAUGUUCGAUAUUAA
+#=GC SS_cons                       .......<<<<<<<<<<<<..<<<<.......>>>>>>>.>>>>>>>>>.
+
+Escherichia_coli_E22.1             AUUAACCUGGCUUAUUAGUCCGAAUUCAGACAAAUAUAAACAAAUCCUGC
+E.coli.1                           AAUAACCUGGCUUAUUAGUCCGAAUUCAGACAAAUAUAAAUAAAUCCUGC
+Shigella_dysenteriae.1             AAUGACCUGGCUUAUUAGUCCGAAUUCAGACAAAUAUAAACAAAUCCUGC
+Shigella_flexneri_2a.1             AAUAACCUGGCUUAUUAGUCCGAAUUCAGACAAAUAUAAACAAAUCCUGC
+Shigella_dysenteriae.2             AAUAACCUGACUUAUUAGUCCGAAUUCAGACAAAUAUAAACAAUUUUCGC
+#=GC SS_cons                       ......<<<<..<<<<.<<<.<....>.>>>.>>>>..............
+
+Escherichia_coli_E22.1             UCAAAAUUAAAA.AUACUAACCGGUAAAAGAUAUUACUUAAACAUGUAAA
+E.coli.1                           UCAAAAUUAAAA.AUUCUAACCGGUAAAAGAUAUUACUUAAACAUGUAAA
+Shigella_dysenteriae.1             UCAAUAUUAAAAUAUACUAACCGGUAAAAGAUAUUACUUAAAAAUGUAAA
+Shigella_flexneri_2a.1             UCAAAAUUAAAA.AUUCUAACCGGUAAAAGAUAUUACUUAAACAUGUAAA
+Shigella_dysenteriae.2             UUAAUAUUAAAA.AUACUAACCGAUAAAAGAUAUUACUUGAACAUGUAAA
+#=GC SS_cons                       ...................<<<<<<....<<..<<<<........>>>>.
+
+Escherichia_coli_E22.1             UUCACUUUCCUUUAAAAAACAAAAAACCGCCAAAAUCAGGCGGUUAUUUG
+E.coli.1                           UUCACUUUCCUUUAAAAAACAAAAAACCGCCAAAAUCAGGCGGUUUUUUG
+Shigella_dysenteriae.1             UUCACUUUUCUUUAAAAAACAAAAAACCGCCAAAAUCAGGCGGUUAUUUG
+Shigella_flexneri_2a.1             UUUACUUUCCUUUAAAAAACAAAAAACCGCCAAAAUCAGGCGGUUAUUUG
+Shigella_dysenteriae.2             UUCACUUUC.UUUAAACAACAAAAAACCGCCAAAAACAGGCGGUUAUUUG
+#=GC SS_cons                       .>>..............<<<<<<.<<<<<<<.......>>>>>>>.>>>>
+
+Escherichia_coli_E22.1             UUGCUGGUCCGGU
+E.coli.1                           UUGCUGGUCCGGU
+Shigella_dysenteriae.1             UUGCCGGUUUGGU
+Shigella_flexneri_2a.1             UUGCUGGUCCGGU
+Shigella_dysenteriae.2             UUGCCGGUUUGGU
+#=GC SS_cons                       >>>>>>>>>>>>.
+//

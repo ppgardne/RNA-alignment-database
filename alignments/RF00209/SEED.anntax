@@ -1,0 +1,222 @@
+# STOCKHOLM 1.0
+#=GF ID    IRES_Pesti
+#=GF AC    RF00209
+#=GF DE    Pestivirus internal ribosome entry site (IRES)
+#=GF AU    Moxon SJ
+#=GF GA    61.0
+#=GF NC    61.0
+#=GF TC    61.1
+#=GF PI    Pesti_IRES
+#=GF SE    PMID:11142379
+#=GF SS    Published; PMID:11142379
+#=GF TP    Cis-reg; IRES;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000243 SO:internal_ribosome_entry_site
+#=GF DR    GO:0043022 GO:ribosome binding
+#=GF RN    [1]
+#=GF RM    11142379
+#=GF RT    Ribosomal binding to the internal ribosomal entry site of classical
+#=GF RT    swine fever virus.
+#=GF RA    Kolupaeva VG, Pestova TV, Hellen CU;
+#=GF RL    RNA 2000;6:1791-1807.
+#=GF CC    This family represents the internal ribosome entry site (IRES) of
+#=GF CC    the the pestiviruses. The pestivirus IRES allows cap and
+#=GF CC    end-independent translation of mRNA in the host cell. The IRES
+#=GF CC    achieves this by mediating the internal initiation of translation
+#=GF CC    by recruiting a ribosomal 43S pre-initiation complex directly to
+#=GF CC    the initiation codon and eliminates the requirement for eIF4F
+#=GF CC    [1].  The classical swine virus UTR described in [1] appears to
+#=GF CC    be longer at the 5' end than other pestivirus UTRs.  This family
+#=GF CC    represents the conserved core.
+#=GF WK    http://en.wikipedia.org/wiki/Pestivirus_internal_ribosome_entry_site_(IRES)
+#=GF SQ    25
+
+#=GS Classical_swine_feve.1  AC    U45477.1/108-381
+#=GS Classical_swine_feve.2  AC    AF091661.1/108-381
+#=GS Classical_swine_feve.3  AC    AF092448.2/108-381
+#=GS Classical_swine_feve.4  AC    AF333000.1/108-381
+#=GS Bovine_viral_diarrhe.1  AC    AF220247.1/114-390
+#=GS Classical_swine_feve.5  AC    D49533.1/108-381
+#=GS Classical_swine_feve.6  AC    AY367767.1/108-381
+#=GS Classical_swine_feve.7  AC    AF326963.1/108-381
+#=GS Classical_swine_feve.8  AC    AF531433.1/108-382
+#=GS Classical_swine_feve.9  AC    AF099102.3/107-380
+#=GS Classical_swine_feve.10 AC    AF407339.1/108-381
+#=GS Classical_swine_feve.11 AC    D49532.1/108-381
+#=GS Classical_swine_feve.12 AC    AY072924.1/107-380
+#=GS Pestivirus_reindeer-.1  AC    AF144618.2/106-378
+#=GS Classical_swine_feve.13 AC    AY382481.1/108-382
+#=GS Border_disease_virus.1  AC    AF037405.1/106-380
+#=GS Classical_swine_feve.14 AC    J04358.2/107-380
+#=GS Classical_swine_feve.15 AC    AY259122.1/108-381
+#=GS Bovine_viral_diarrhe.2  AC    AB078950.1/117-394
+#=GS Classical_swine_feve.16 AC    AF091507.1/108-382
+#=GS Classical_swine_feve.17 AC    AF352565.1/108-381
+#=GS Bovine_viral_diarrhe.3  AC    AB078952.1/118-394
+#=GS Pestivirus_giraffe-1.1  AC    AF144617.2/110-390
+#=GS Classical_swine_feve.18 AC    X96550.1/108-381
+#=GS Bovine_viral_diarrhe.4  AC    AF502399.1/116-393
+
+Classical_swine_feve.1              AGUAGGACUAGCA..AACGGAGGG.ACUAGCCGUAGUGGCGAGCCCCCUG
+Classical_swine_feve.2              AGUAGGACUAGCA..AACGGAGGG.ACUAGCCGUAGUGGCGAGCUCCCUG
+Classical_swine_feve.3              AGUAGGACUAGCA..AACGGAGGG.ACUAGCCGUAGUGGCGAGCUCCCUG
+Classical_swine_feve.4              AGUAGGACUAGCA..AACGGAGGG.ACUAGCCGUAGUGGCGAGCUCCCUG
+Bovine_viral_diarrhe.1              AGUAGGACUAGCA..AAAUAAGGGGGGUAGCAACAGUGGCGAGUUCGUUG
+Classical_swine_feve.5              AGUAGGACUAGCA..AACGGAGGG.ACUAGCCGUAGUGGCGAGCUCCCUG
+Classical_swine_feve.6              AGUAGGACUAGCA..AACGGAGGG.ACUAGCCGUAGUGGCGAGCUCCCUG
+Classical_swine_feve.7              AGUAGGACUAGCA..AACGGAGGG.ACUAGCCGUAGUGGCGAGCUCCCUG
+Classical_swine_feve.8              AGUAGGACUAGCA.AAACGGAGGG.ACUAGCCAUAGUGGCGAGCUCCCUG
+Classical_swine_feve.9              AGUAGGACUAGCA..AACGGAGGG.ACUAGCCGUAGUGGCGAGCUCCCUG
+Classical_swine_feve.10             AGUAGGACUAGCA..AACGGAGGG.ACUAGCCGUAGUGGCGAGCUCCCUG
+Classical_swine_feve.11             AGUAGGACUAGCA..AACGGAGGG.ACUAGCCGUAGUGGCGAGCUCCCUG
+Classical_swine_feve.12             AGUAGGACUAGCA..AACGGAGGG.ACUAGCCGUAGUGGCGAGCUCCCUG
+Pestivirus_reindeer-.1              AGUAGGACUAGCA..AACGGGAGG.ACUAGCUUACGUGGUGAGAUCCCUG
+Classical_swine_feve.13             AGUAGGACUAGCA.AAACGGAGGG.ACUAGCCAUAGUGGCGAGCUCCCUG
+Border_disease_virus.1              AGUAGGACUAGCA..GACGGGAGG.ACUAGCCAUCGUGGUGAGAUCCCUG
+Classical_swine_feve.14             AGUAGGACUAGCA..AACGGAGGG.ACUAGCCGUAGUGGCGAGCUCCCUG
+Classical_swine_feve.15             AGUAGGACUAGCA..AACGGAGGG.ACUAGCCGUAGUGGCGAGCUCCCUG
+Bovine_viral_diarrhe.2              AGUAGGACUAGCA.UAACGAGGGG.GGUAGCAACAGUGGUGAGUUCGUUG
+Classical_swine_feve.16             AGUAGGACUAGCA.AAACGGAGGG.ACUAGCCAUAGUGGCGAGCUCCCUG
+Classical_swine_feve.17             AGUAGGACUAGCA..AACGGAGGG.ACUAGCCAUAGUGGCGAGCUCCCUG
+Bovine_viral_diarrhe.3              AGUAGGACUAGCA.UAAUGAGGGG.GGUAGCAACAGUGGUGAGUUCGUUG
+Pestivirus_giraffe-1.1              AGUAGGACUAGCAAAAAAUCGGGG.ACUAGCCCAGGUGGUGAGCUUCCUG
+Classical_swine_feve.18             AGUAGGACUAGCA..AACGGAGGG.ACUAGCCGUAGUGGCGAGCCCCCUG
+Bovine_viral_diarrhe.4              AGUAGGACUAGCA..AAAGUAGGGGACUAGCGGUAGCAGUGAGUUCGUUG
+#=GC SS_cons                        .........................<<<<<<<.<<<<<<<<.<<<<<<..
+
+Classical_swine_feve.1              GGUGGUCUAAGUCCUGAGUACAGGACAGUCGUCAGUAGUUCGACGUGAGC
+Classical_swine_feve.2              GGUGGUCUAAGUCCUGAGUACAGGACAGUCGUCAGUAGUUCGACGUGAGC
+Classical_swine_feve.3              GGUGGUCUAAGUCCUGAGUACAGGACAGUCGUCAGUAGUUCGACGUGAGC
+Classical_swine_feve.4              GGUGGUCUAAGUCCUGAGUACAGGACAGUCGUCAGUAGUUCGACGUGAGC
+Bovine_viral_diarrhe.1              GAUGGCUGAAGCCCUGAGUACAGGGUAGUCGUCAGUGGUUCGACGCUUUG
+Classical_swine_feve.5              GGUGGUCUAAGUCCUGAGUACAGGACAGUCGUCAGUAGUUCGACGUGAGC
+Classical_swine_feve.6              GGUGGUCUAAGUCCUGAGUACAGGACAGUCGUCAAUAGUUCGACGUGAGC
+Classical_swine_feve.7              GGUGGUCUAAGUCCUGAGUACAGGACAGUCGUCAGUAGUUCGACGUGAGC
+Classical_swine_feve.8              GGUGGUCUAAGUCCUGAGUACAGGACAGUCGUCAGUAGUUCGACGUGAGC
+Classical_swine_feve.9              GGUGGUCUAAGUCCUGAGUACAGGACAGUCGUCAGUAGUUCGACGUGAGC
+Classical_swine_feve.10             GGUGGUCUAAGUCCUGAGUACAGGACAGUCGUCAGUAGUUCGACGUGAGC
+Classical_swine_feve.11             GGUGGUCUAAGUCCUGAGUACAGGACAGUCGUCAGUAGUUCGACGUGAGC
+Classical_swine_feve.12             GGUGGUCUAAGUCCUGAGUACAGGACAGUCGUCAGUAGUUCGACGUGAGC
+Pestivirus_reindeer-.1              AGUGGUCUAAGUCCCGAGUACGGGGCAGUCGUCAGUAGUUCAACGCAAUG
+Classical_swine_feve.13             GGUGGUCUAAGUCCUGAGUACAGGACAGUCGUCAGUAGUUCGACGUGAGC
+Border_disease_virus.1              AGCAGUCUAAAUCCUGAGUACAGGAUAGUCGUCAGUAGUUCAACGCAGGC
+Classical_swine_feve.14             GGUGGUCUAAGUCCUGAGUACAGGACAGUCGUCAGUAGUUCGACGUGAGC
+Classical_swine_feve.15             GGUGGUCUAAGUCCUGAGUACAGGACAGUCGUCAGUAGUUCGACGUGAGC
+Bovine_viral_diarrhe.2              GAUGGCUUAAGCCCUGAGUACAGGGUAGUCGUCAGUGGUUCGACGCCUCG
+Classical_swine_feve.16             GGUGGUCUAAGUCCUGAGUACAGGACAGUCGUCAGUAGUUCGACGUGAGC
+Classical_swine_feve.17             GGUGGUCUAAGUCCUGAGUACAGGACAGUCGUCAGUAGUUCGACGUGAGC
+Bovine_viral_diarrhe.3              GAUGGCUUAAGCCCUGAGUACAGGGUAGUCGUCAGUGGUUCGACGCCUUA
+Pestivirus_giraffe-1.1              GAUGACCGAAGCCCUGAGUACAGGGCAGUCGUCAACAGUUCAACACGCAG
+Classical_swine_feve.18             GGUGGUCUAAGUCCUGAGUACAGGACAGUCGUCAGUAGUUCGACGUGAGC
+Bovine_viral_diarrhe.4              GAUGGCCGAACCCCUGAGUACAGGGGAGUCGUCAAUGGUUCGACACUCCA
+#=GC SS_cons                        <<<<<<<<..<<<<<<....>>>>>>..<<<<<...<<.<<<<.<<<...
+
+Classical_swine_feve.1              AGAAGCC...CACCUCGAGAUGCUACGUGGACGAGGGCAUGCCCAAGACA
+Classical_swine_feve.2              AGAAGCC...CACCUCGAGAUGCUACGUGGACGAGGGCAUGCCCAAGACA
+Classical_swine_feve.3              AGAAGCC...CACCUCGAGAUGCUAUGUGGACGAGGGCAUGCCCAAGACA
+Classical_swine_feve.4              AGAAGCC...CACCUCGAGAUGCUAUGUGGACGAGGGCAUGCCCAAGACA
+Bovine_viral_diarrhe.1              GAGGACA...AGCCUCGAGAUGCCACGUGGACGAGGGCAUGCCCACAGCA
+Classical_swine_feve.5              AGAAGCC...CACCUCGAGAUGCUAUGUGGACGAGGGCAUGCCCAAGACA
+Classical_swine_feve.6              AGGAGCC...CACCUCGAGAUGCUAAGUGGACGAGGGCAUGCCCAAGACA
+Classical_swine_feve.7              AGAAGCC...CACCUCGAGAUGCUAUGUGGACGAGGGCAUGCCCAAGACA
+Classical_swine_feve.8              AGAAGCC...CACCUCGAGAUGCUACGUGGACGAGGGCAUGCCCAAGACA
+Classical_swine_feve.9              AGAAGCC...CACCUCGAGAUGCUACGUGGACGAGGGCAUGCCCAAGACA
+Classical_swine_feve.10             AGAAGCC...CACCUCGAGAUGCUAUGUGGACGAGGGCAUGCCCAAGACA
+Classical_swine_feve.11             AGAAGCC...CACCUCGAUAUGCUAUGUGGACGAGGGCAUGCCCAAGACA
+Classical_swine_feve.12             AGGAGCC...CACCUCGAGAUGCUAUGUGGACGAGGGCAUGCCCAAGACA
+Pestivirus_reindeer-.1              UGGAGU....UGCCUUGAGAUGCUACGUGGACGAGGGCAUGCCCAAGACA
+Classical_swine_feve.13             AGAAGCC...CACCUCGAGAUGCUACGUGGACGAGGGCAUGCCCAAGACA
+Border_disease_virus.1              ACGGUUC...UGCCUUGAGAUGCUACGUGGACGAGGGCAUGCCCAAGACU
+Classical_swine_feve.14             ACUAGCC...CACCUCGAGAUGCUACGUGGACGAGGGCAUGCCCAAGACA
+Classical_swine_feve.15             AGAAGCC...CACCUCGAGAUGCUACGUGGACGAGGGCAUGCCCAAGACA
+Bovine_viral_diarrhe.2              GAAAUAGA..GGUCUCGAUAUGCCACGUGGACGAGGGCACGCCCAAAGCA
+Classical_swine_feve.16             AGAAGCC...CACCUCGAGAUGCUACGUGGACGAGGGCAUGCCCAAGACA
+Classical_swine_feve.17             AGGAGCC...CACCUCGAGAUGCUAUGUGGACGAGGGCAUGCCCAAGACA
+Bovine_viral_diarrhe.3              GUAUAAA...GGUCUCGAGAUGCCACGUGGACGAGGGCACGCCCAAAGCA
+Pestivirus_giraffe-1.1              AAUAGGUUUGCGUCUUGAUAUGCUGUGUGGACGAGGGCAUGCCCACGGUA
+Classical_swine_feve.18             AGAAGCC...CACCUCGAGAUGCUACGUGGACGAGGGCAUGCCCAAGACA
+Bovine_viral_diarrhe.4              UUAGUCGAGGAGUCUCGAGAUGCCAUGUGGACGAGGGCAUGCCCACGGCA
+#=GC SS_cons                        ..........>>>.>>>>....>>.....>>>>><<<<..>>>>.>>>>.
+
+Classical_swine_feve.1              CACCUUAACCCUAGCGGGGG.UCGCUAGGGUGAAAUCACACCA....CGU
+Classical_swine_feve.2              CACCUUAACUCUAGCGGGGG.UCGCUAGGGUGAAAUCACACCA....CGU
+Classical_swine_feve.3              CACCUUAACCCUAGCGGGGG.UCGCUAGGGUGAAAUCACACCA....CGU
+Classical_swine_feve.4              CACCUUAACCCUAGCGGGGG.UCGCUAGGGUGAAAUCACACCA....CGU
+Bovine_viral_diarrhe.1              CAUCUUAACCUGGACAGGGG.UCGUUCAGGUGAAAACGGUUUAACCAACC
+Classical_swine_feve.5              CACCUUAACCCUAGCGGGGG.UCGCUAGGGUGAAAUCACACCA....CGU
+Classical_swine_feve.6              CACCUUAACCCUGGCAGGGG.UCGCCAGGGUGAAAUCACACCA....UGU
+Classical_swine_feve.7              CACCUUAACCCUAGCGGGGG.UCGCUAGGGUGAAAUCACACCA....CGU
+Classical_swine_feve.8              CACCUUAACCCUAGCGGGGG.UCGCUAGGGUGAAAUCACACCA....CGU
+Classical_swine_feve.9              CACCUUAACCCUAGCGGGGG.UCGCUAGGGUGAAAUCACACCA....CGU
+Classical_swine_feve.10             CACCUUAACCCUAGCGGGGG.UCGCUAGGGUGAAAUCACACCA....CGU
+Classical_swine_feve.11             CACCUUAACCCUAGCGGGGG.UCGCUAGGGUGAAAUCACACCA....CGU
+Classical_swine_feve.12             CACCUUAACCCUGGCGGGGG.UCGCCAGGGUGAAAUCACACCA....UGU
+Pestivirus_reindeer-.1              CACUUUAACCCUGGCGGGGG.UCGCCAGG.UGAACUCACCUAA...UGGU
+Classical_swine_feve.13             CACCUUAACCCUAGCGGGGG.UCGCUAGGGUGAAAUCACACCA....CGU
+Border_disease_virus.1              UGCUUUAAUCUCGGCGGGGG.UCGCCGAGGUGAAAACACCUAA...CGGU
+Classical_swine_feve.14             CACCUUAACCCUGGCGGGGG.UCGCUAGGGUGAAAUCACAUUA....UGU
+Classical_swine_feve.15             CACCUUAACCCUAGCGGGGG.UCGCUAGGGUGAAAUCACACCA....CGU
+Bovine_viral_diarrhe.2              CAUCUUAACCUGAGCGGGGGGUCGCUCAGGUGAAAGCGGUUCAACCAACC
+Classical_swine_feve.16             CACCUUAACCCUAGCGGGGG.UCGCUAGGGUGAAAUCACGCCA....CGU
+Classical_swine_feve.17             CACCUUAACCCUAGCGGGGG.UCGCUAGGGUGAAAUCACACCA....CGU
+Bovine_viral_diarrhe.3              CAUCUUAACCUGAGCGGGGG.UCGCUCAGGCGAAAGCAGUUUAACCAACU
+Pestivirus_giraffe-1.1              CAUCUUAACCUAUCCGGGGG.UCGGAUAGGCGAAAGUCCAGUA...UUGG
+Classical_swine_feve.18             CACCUUAACCCUAGCGGGGG.UCGCUAGGGUGAAAUCACACCA....CGU
+Bovine_viral_diarrhe.4              CAUCUUAACCCAUGCGGGGG.UUGCAUGGGUGAAAGCGCUAUU.CGUGGC
+#=GC SS_cons                        >>>>...<<<<<<<<<<....>>>>>>>>>>....<<<<<.......>>>
+
+Classical_swine_feve.1              GAUGGGAGUACGACCUGAUAGGGCGCUGCAGAGGCCCA.CUAUUAGGCUA
+Classical_swine_feve.2              GAUGGGAGUACGACCUGAUAGGGCGCUGCAGAGGCCCA.CUAUUAGGCUA
+Classical_swine_feve.3              GAUGGGAGCACGACCUGAUAGGGCGCUGCAGAGGCCCA.CUAUUAGGCUA
+Classical_swine_feve.4              GAUGGGAGUACGACCUGAUAGGGCGCUGCAGAGGCCCA.CUAUUAGGCUA
+Bovine_viral_diarrhe.1              GCUACGAAUACAGUCUGAUAGGAUGCUGCAGAGGCCCA.CUGUAUUGCUA
+Classical_swine_feve.5              GAUGGGAGUACGACCUGAUAGGGUGCUGCAGAGGCCCA.CUAUUAGGCUA
+Classical_swine_feve.6              GAUGGGGGUACGACCUGAUAGGGUGCUGCAGAGGCCCA.CUAACAGGCUA
+Classical_swine_feve.7              GAUGGGAGUACGACCUGAUAGGGCGCUGCAGAGGCCCA.CUAUUAGGCUA
+Classical_swine_feve.8              GAUGGGAGUACGACCUGAUAGGGCGCUGCAGAGGCCCA.CUAUUAGGCUA
+Classical_swine_feve.9              GAUGGGAGUACGACCUGAUAGGGUGCUGCAGAGGCCCA.CUAUUAGGCUA
+Classical_swine_feve.10             GAUGGGAGUACGACCUGAUAGGGCGCUGCAGAGGCCCA.CUAUUAGGCUA
+Classical_swine_feve.11             GAUGGGAGUACGACCUGAUAGGGUGCUGCAGAGGCCCA.CUAUUAGGCUA
+Classical_swine_feve.12             GAUGGGGGUACGACCUGAUAGGGUGCUGCAGAGGCCCA.CUAACAGGCUA
+Pestivirus_reindeer-.1              GUUGGGAUUACAGCCUGAUAGGGUGCUGCAGAGGCCCA.CGCAUAAGCUA
+Classical_swine_feve.13             GAUGGGAGUACGACCUGAUAGGGCGCUGCGGAGGCCCA.CUAUUAGGCUA
+Border_disease_virus.1              GUUGGGGUUACAGCCUGAUAGGGUGCUGCAGAGGCCCA.CGAAUAGGCUA
+Classical_swine_feve.14             GAUGGGGGUACGACCUGAUAGGGUGCUGCAGAGGCCCA.CUAGCAGGCUA
+Classical_swine_feve.15             GAUGGGAGUACGACCUGAUAGGGCGCUGCAGAGGCCCA.CUAUUAGGCUA
+Bovine_viral_diarrhe.2              GUUACGGAUACAGCCUGAUAGGGCGCUGCAGAGGCCCA.CUGUUUUGCUA
+Classical_swine_feve.16             GAUGGGAGUACGACCUGAUAGGGCGCCGCAGAGGCCCA.CUAUUAGGCUA
+Classical_swine_feve.17             GAUGGGAGUACGACCUGAUAGGGCGCUGCAGAGGCCCA.CUAUUAGGCUA
+Bovine_viral_diarrhe.3              GUUACGAAUACAGCCUGAUAGGGUGCUGCAGAGGCCCA.CUGUACUGCUA
+Pestivirus_giraffe-1.1              ACUGGGAGUACAGCCUGAUAGGGUGUUGCAGAGACCCAUCUGAUAGGCUA
+Classical_swine_feve.18             GAUGGGAGUACGACCUGAUAGGGUGCUGCAGAGGCCCA.CUAUUAGGCUA
+Bovine_viral_diarrhe.4              GUUAUGGACACAGCCUGAUAGGGUGUAGCAGAGACCUG.CUAUUCCGCUA
+#=GC SS_cons                        >>.>>>>>>.>>.<<<....>>>............>>>.>>>...>>>>>
+
+Classical_swine_feve.1              GUAUAAAAAUCUCUGCUGUACAUGGCACAUGGAGUU
+Classical_swine_feve.2              GUAUAAAAAUCUCUGCUGUACAUGGCACAUGGAGUU
+Classical_swine_feve.3              GUAUAAAAAUCUCUGCUGUUCAUGGCACAUGGAGUU
+Classical_swine_feve.4              GUAUAAAAAUCUCUGCUGUACAUGGCACAUGGAGUU
+Bovine_viral_diarrhe.1              CU..GAAAAUCUCUGCUGUACAUGGCACAUGGAGUU
+Classical_swine_feve.5              GUAUAAAAAUCUCUGCUGUACAUGGCACAUGGAGUU
+Classical_swine_feve.6              GUAUAAAAAUCUCUGCUGUACAUGGCACAUGGAGUU
+Classical_swine_feve.7              GUAUAAAAAUCUCUGCUGUACAUGGCACAUGGAGUU
+Classical_swine_feve.8              GUAUAAAAAUCUCUGCUGUACAUGGCACAUGGAGUU
+Classical_swine_feve.9              GUAUAAAAAUCUCUGCUGUACAUGGCACAUGGAGUU
+Classical_swine_feve.10             GUAUAAAAAUCUCUGCUGUACAUGGCACAUGGAGUU
+Classical_swine_feve.11             GUAUAAAAAUCUCUGCUGUACAUGGCACAUGGAGUU
+Classical_swine_feve.12             GUAUAAAAAUCUCUGCUGUACAUGGCACAUGGAGUU
+Pestivirus_reindeer-.1              GUAUAAAAAUCUCUGCUGUACAUGGCACAUGGAAGU
+Classical_swine_feve.13             GUAUAAAAAUCUCUGCUGUACAUGGCACAUGGAGUU
+Border_disease_virus.1              GUAUAAAAAUCUCUGCUGUACAUGGCACAUGGAGUU
+Classical_swine_feve.14             GUAUAAAAAUCUCUGCUGUACAUGGCACAUGGAGUU
+Classical_swine_feve.15             GUAUAAAAAUCUCUGCUGUACAUGGCACAUGGAGUU
+Bovine_viral_diarrhe.2              CU..AAAAAUCUCUGCU.UACAUGGCACAUGGAGUU
+Classical_swine_feve.16             GUAUAAAAAUCUCUGCUGUACAUGGCACAUGGAGUU
+Classical_swine_feve.17             GUAUAAAAAUCUCUGCUGUACAUGGCACAUGGAGUU
+Bovine_viral_diarrhe.3              CU..AAAAAUCUCUGCUGUACAUGGCACAUGGAGUU
+Pestivirus_giraffe-1.1              GUAUAAAAAACUCUGCUGUACAUGGCACAUGGAGUU
+Classical_swine_feve.18             GUAUAAAAAUCUCUGCUGUACAUGGCACAUGGAGUU
+Bovine_viral_diarrhe.4              GU...AAAAACUCUGCUGUACAUGGCACAUGGAGUU
+#=GC SS_cons                        >>..................<<<<...>>>>.....
+//

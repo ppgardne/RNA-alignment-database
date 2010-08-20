@@ -1,0 +1,86 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-663
+#=GF AC    RF00957
+#=GF DE    microRNA mir-663
+#=GF AU    Wilkinson A
+#=GF GA    22.0
+#=GF NC    21.5
+#=GF TC    22.3
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000462
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    14
+
+#=GS O.princeps.1           AC    AAYZ01634401.1/656-742
+#=GS Spermophilus_tridece.1 AC    AAQQ01470949.1/377-458
+#=GS M.mulatta.1            AC    AANU01134169.1/297-389
+#=GS H.sapiens.1            AC    AADB02401928.1/128514-128606
+#=GS P.troglodytes.1        AC    AADA01107823.1/4742-4834
+#=GS M.murinus.1            AC    ABDC01574561.1/1024-1114
+#=GS Otolemur_garnettii_s.1 AC    AAQR01687688.1/400-488
+#=GS T.belangeri.1          AC    AAPY01840898.1/497-591
+#=GS C.lupus.1              AC    AACN010370390.1/942-1027
+#=GS F.catus.1              AC    AANG01520510.1/529-614
+#=GS B.taurus.1             AC    AAFC03108961.1/625-714
+#=GS M.lucifugus.1          AC    AAPE01364409.1/3644-3731
+#=GS E.europaeus.1          AC    AANN01386973.1/23-114
+#=GS S.araneus.1            AC    AALT01140430.1/540-629
+
+O.princeps.1                       GGCUCCGGUGUCC...CAGG...CAUGUCACGGGACCGCCCA.GG..UGU
+Spermophilus_tridece.1             CGGGUUGGCGUCGCGGGCGG...U.....GCGGGACCGCCCU.CG..CG.
+M.mulatta.1                        CCGUUCGGCGUCCCAGGCGG...GGCGCUGCGGGACCGCCCU.CG..UGU
+H.sapiens.1                        CCUUCCGGCGUCCCAGGCGG...GGCGCCGCGGGACCGCCCU.CG..UGU
+P.troglodytes.1                    CCUUCCGGCAUCCCAGGCGG...GGCGCCGCGGGACCGCCCU.CG..UGU
+M.murinus.1                        CCGGCUGGCGUCACGGGC......ACGCCGCGGGACCGCUCC.CG..UGU
+Otolemur_garnettii_s.1             CCGGCCGGCGUCCCGGGC......GCGUUGUGGGACCGCUCU.AG..GGA
+T.belangeri.1                      CCGGCCGGCGUCCCCGGGGGAUGCGCCGUGCGGGACCGCCCU.CG..UG.
+C.lupus.1                          CCGGCCGGCGUCCCGGGC......GU..CGCGGGACCGCCCU.CG..UGC
+F.catus.1                          CCGGCUGGCGCCGCGGGC......GU..CGCGGGACCGCCCU.CG..UGC
+B.taurus.1                         CCGGUCGGCGUCCCAGGC......GUGUCGCGGGACCGCCCU.CG..UGU
+M.lucifugus.1                      UGGCACGGCGUCCCGGGC......GACGCGGGG..CCGCCCUGUG..UGU
+E.europaeus.1                      CCGGCCGGCGUCCCGGGCGU...GGG..UGCGGGACCGCCCU.CUGUGGU
+S.araneus.1                        CCGGCCGGCGUCCCGGGCGU....GGGCGCGGGA.CCGCCCU.GG..UCU
+#=GC SS_cons                       ....<<<<.<<<<<<<<.<<....<<<<<<<<<<<<<<<<.<.<<.....
+#=GC RF                            ccggccGGcGcCccgGgcgg...agcggcgcGGGaCCgCccc.cg..ugu
+
+O.princeps.1                       .GGG.....CGGUGGCAUCCCGUGUCUGUU.UUCCGGGAGGGACCCGGCU
+Spermophilus_tridece.1             ..UG..UGGCGGUGGGACCCCGC....UUG.UUUUCCCGGCGGCCCGACU
+M.mulatta.1                        .CUG..UGGCGGUGGGAUCCCGUGGCCGUG.UUUUCCUGGUGGCCCGGCC
+H.sapiens.1                        .CUG..UGGCGGUGGGAUCCCGCGGCCGUG.UUUUCCUGGUGGCCCGGCC
+P.troglodytes.1                    .CUG..UGGCGGUGGGAUCCCGCGGCCGUG.UUUUCCUGGUGGCCCGGCA
+M.murinus.1                        GUUG..GGGCGGUGGGAUCCCGCGGCGUUG.UUUUCCCGGUGGCCCGGUC
+Otolemur_garnettii_s.1             .UUG..GGGCGGUGGGAUCCUGCGGC.GUG.UAUUCCCGGUGGCCCGGCC
+T.belangeri.1                      ..UG..UGGCGGUGGGACCCCGCGUGUGCUCUCCCCCGGCGGGCUCCGUC
+C.lupus.1                          .UGG..UGGCGGUGGGAUCCCGUG..CGCG.UUUACCCGGUGGCCCGGCU
+F.catus.1                          .UGG..UGGCGGUGGGAUCCCGUG..CACG.UUUACCCGGUGGCCUGGCU
+B.taurus.1                         .GUGGGUGGCGGUGGGACCCCGCGCUGGUU...UUCCUGGUGGCCCGGCC
+M.lucifugus.1                      .CUG..UGGCGGUGGGAU.CCCCGCGUUUG.UUUACCCGGUGGCCCGUGU
+E.europaeus.1                      .CUU..GGGCGGUGGGAUCCCGCGUG.UUG.UUUUCCCGGUGGCCCGGCC
+S.araneus.1                        .GUG..G.GCGGUGGGAUUCCCGUGCGUUG.UUUUCCCGGCGGCCCGGUC
+#=GC SS_cons                       ......>>>.>>>>>..>>>>>>>>>.>>..>>..>>>>>.>>>>>>>..
+#=GC RF                            .aug..cggcgGcGGgAuCCCgcgccugcg.ccuucCcgguGgCCCggcu
+
+O.princeps.1                       UUC
+Spermophilus_tridece.1             CUG
+M.mulatta.1                        GCG
+H.sapiens.1                        AUG
+P.troglodytes.1                    UGC
+M.murinus.1                        GCG
+Otolemur_garnettii_s.1             GCG
+T.belangeri.1                      GUC
+C.lupus.1                          CGC
+F.catus.1                          CGC
+B.taurus.1                         GUG
+M.lucifugus.1                      CCC
+E.europaeus.1                      GUG
+S.araneus.1                        GCC
+#=GC SS_cons                       ...
+#=GC RF                            aua
+//

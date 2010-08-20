@@ -1,0 +1,113 @@
+# STOCKHOLM 1.0
+#=GF ID    s2m
+#=GF AC    RF00164
+#=GF DE    Coronavirus 3' stem-loop II-like motif (s2m)
+#=GF AU    Griffiths-Jones SR
+#=GF GA    31.0
+#=GF NC    28.7
+#=GF TC    31.6
+#=GF SE    PMID:9568965; Griffiths-Jones SR, Moxon SJ
+#=GF SS    Published; PMID:15630477
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    URL; http://athena.bioc.uvic.ca/sars/map/s2mmotif_main.html
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    9568965
+#=GF RT    A common RNA motif in the 3' end of the genomes of astroviruses,
+#=GF RT    avian infectious bronchitis virus and an equine rhinovirus.
+#=GF RA    Jonassen CM, Jonassen TO, Grinde B;
+#=GF RL    J Gen Virol 1998;79:715-718.
+#=GF RN    [2]
+#=GF RM    15630477
+#=GF RT    The structure of a rigorously conserved RNA element within the SARS
+#=GF RT    virus genome.
+#=GF RA    Robertson MP, Igel H, Baertsch R, Haussler D, Ares M Jr, Scott WG;
+#=GF RL    PLoS Biol 2005;3:e5.
+#=GF CC    The s2m motif is found in the 3' UTRs of astrovirus, coronavirus
+#=GF CC    and equine rhinovirus genomes [1].  Its function is unknown, but 
+#=GF CC    various viral 3' UTR regions have been found to play roles in
+#=GF CC    viral replication and packaging.
+#=GF WK    http://en.wikipedia.org/wiki/Coronavirus_3'_stem-loop_II-like_motif_(s2m)
+#=GF SQ    38
+
+#=GS Turkey_astrovirus_1.1  AC    Y15936.2/6871-6913
+#=GS Avian_nephritis_viru.1 AC    AB033998.1/6702-6744
+#=GS Avian_nephritis_viru.2 AC    AB046864.1/2311-2353
+#=GS P.astrovirus.1         AC    Y15938.2/2354-2396
+#=GS H.astrovirus.1         AC    AY188199.1/190-232
+#=GS H.astrovirus.2         AC    AY188187.1/197-239
+#=GS F.astrovirus.1         AC    AF056197.1/2428-2470
+#=GS Human_astrovirus_1.1   AC    S68561.1/2636-2678
+#=GS M.astrovirus.1         AC    AY179509.1/6505-6548
+#=GS H.astrovirus.3         AC    AY188190.1/197-239
+#=GS H.astrovirus.4         AC    AY188195.1/190-232
+#=GS Human_astrovirus_5.1   AC    U15136.1/2344-2382
+#=GS H.astrovirus.5         AC    AY188191.1/197-239
+#=GS Human_astrovirus_8.1   AC    AY304470.1/197-239
+#=GS O.astrovirus.1         AC    Y15937.2/6358-6400
+#=GS Human_astrovirus_2.1   AC    AF257226.1/425-467
+#=GS Human_astrovirus_5.2   AC    AB037273.1/2393-2435
+#=GS Human_astrovirus_2.2   AC    AY304462.1/197-239
+#=GS Human_astrovirus_1.2   AC    AY304457.1/197-239
+#=GS Human_astrovirus_8.2   AC    Z66541.1/2326-2368
+#=GS Human_astrovirus_1.3   AC    AY304452.1/197-239
+#=GS SARS_coronavirus_Tai.1 AC    AY338174.1/29515-29557
+#=GS SARS_coronavirus_BJ0.1 AC    AY536760.3/1545-1587
+#=GS Infectious_bronchiti.1 AC    U52595.1/1520-1562
+#=GS Infectious_bronchiti.2 AC    AY641576.1/27283-27325
+#=GS T.coronavirus.1        AC    AF111995.1/1596-1638
+#=GS T.coronavirus.2        AC    AF111997.1/1443-1485
+#=GS Infectious_bronchiti.3 AC    AJ278335.1/370-412
+#=GS P.coronavirus.1        AC    AJ619580.1/109-151
+#=GS P.coronavirus.2        AC    AJ619584.1/73-115
+#=GS P.coronavirus.3        AC    AJ619594.1/83-125
+#=GS P.coronavirus.4        AC    AJ619583.1/83-125
+#=GS P.coronavirus.5        AC    AJ619592.1/83-125
+#=GS Infectious_bronchiti.4 AC    L06252.1/368-410
+#=GS Infectious_bronchiti.5 AC    U52600.1/1419-1461
+#=GS Infectious_bronchiti.6 AC    L06253.1/392-434
+#=GS P.coronavirus.6        AC    AJ619582.1/83-125
+#=GS Equine_rhinitis_B_vi.1 AC    AF361253.1/8721-8763
+
+Turkey_astrovirus_1.1              UGAUGCCGAGGCCACGCCGGGU.AGGAUCGAGGGUACAGCAUCG
+Avian_nephritis_viru.1             CUUUCCCGAGGCCACGGCGAGU.AGCAUCGAGGGUACAGGAAAG
+Avian_nephritis_viru.2             CUUUCCCGAGGCCACGGCGAGU.AGCAUCGAGGGUACAGGAAUG
+P.astrovirus.1                     GAAAGCCGAGGCCACGCCGAGU.AGGAACGAGGGUACAGCUUUC
+H.astrovirus.1                     GGGAGCCGCGGCCACGCCGAGU.AGGAUCGAGGGUACAGCUCCU
+H.astrovirus.2                     GGAGACCGCGGCCACGCCGAGU.AGGAACGAGGGUACAGUCUCC
+F.astrovirus.1                     GAGAGCCGAGGCCACGCCGAGU.AGGAUCGAGGGUACAGCUCUC
+Human_astrovirus_1.1               GGAAGCCGCGGCCACGCCGAGU.AGGAACGAGGGUACAGCUUCC
+M.astrovirus.1                     ACUACCCGAGGCCACGCCGAGUUAGGAUCGAGGGUACAGGUAGU
+H.astrovirus.3                     GGAGACCGCGGCCACGCCGAGU.AGGACCGAGGGUACAGUCUCC
+H.astrovirus.4                     GGGAGCCGCGGCCACGCCGAGU.AGGAUCGAGGGUACAGCUCCC
+Human_astrovirus_5.1               GAA.GCCGCGCCCACGCCGAGU.AGGAUCGAGGGUACAG...UC
+H.astrovirus.5                     GGAGACCGCGGCCACGCGGAGU.AGGAUCGAGGGUACAGUCUCC
+Human_astrovirus_8.1               GGAAGCCGCGGCCACGCGGAGU.AGGAUCGAGGGUACAGCUUCC
+O.astrovirus.1                     CAAUCCCGAGGCCACGCCGAGU.AGGAUCGAGGGUACAGGAUUG
+Human_astrovirus_2.1               GGAGACCGCGGCCACGCCGAGU.AGGAUCGAGGGUACAGUCUCC
+Human_astrovirus_5.2               GGAAGCCGCGGCCACGCCGAGU.AGGAUCGAGGGUACAGCUUCC
+Human_astrovirus_2.2               GGAGACCGCGGCCACGCCGAGU.AGGAACGAGGGUACAGUCUCU
+Human_astrovirus_1.2               GGAAGCCGCGGCCACGCCGAGU.AGGCACGAGGGUACAGCUUCC
+Human_astrovirus_8.2               GGAAGCCGCGACCACGCCGAGU.AGGAUCGAGGGUACAGCUUCC
+Human_astrovirus_1.3               GGAAGCCGCGGCCACGCCGAGU.GGGAACGAGGGUACAGCUUCC
+SARS_coronavirus_Tai.1             UUUCAUCGAGGCCACGCGGAGU.ACGAUCGAGGGUACAGUGAAU
+SARS_coronavirus_BJ0.1             UUUCAUCGUGGCCACGCGGAGU.ACGAUCGAGGGUACAGUGAAU
+Infectious_bronchiti.1             CAGUGCCGGGGCCACGCGGAGU.ACGAUCGAGGGUACAGCACUU
+Infectious_bronchiti.2             CAGUGCCGGGGCCACGCUGAGU.ACGACCGAGGGUACAGCACUA
+T.coronavirus.1                    CAGUGCCGGGGCCACGCGGCGU.ACGAUCGUGGGUACAGCACUA
+T.coronavirus.2                    CAGUGCCGGGGCCACGCGGAGU.ACGAUCGAGGGUACAGCACAA
+Infectious_bronchiti.3             CAGUGCCAGGGCCACGCGGAGU.ACGAUCGAGGGUACAGCACUA
+P.coronavirus.1                    CAGUGCCGAGGCCACGCGGAGA.ACGAUCGAGGGUACAGCACUA
+P.coronavirus.2                    CAGUGCCGAGGCCACGCGGAGU.ACGAUCGAGGGUACAGCACUA
+P.coronavirus.3                    CAGUGCCGAGGCCACGCGGGGU.ACGAUCGAGGGUACAGCACUA
+P.coronavirus.4                    CAGUGCCGANGCCACGCGGGGU.ACGAUCGAGGGUACAGCACUA
+P.coronavirus.5                    CAGUGCCGGGGCCACGCGGAGU.ACGACCGAGGGUACAGCACUA
+Infectious_bronchiti.4             CAGUGCCAGGGCCACGCGGAGU.ACGAUCGAGGGUACAGCACCA
+Infectious_bronchiti.5             CAGUGCCGAGGCCACUCGGAGU.ACGAUCGAGGGUACAGCACUA
+Infectious_bronchiti.6             CAGUGCCGGGGCCACGCGGAGU.ACGAUCGAGGGUACAGCACUA
+P.coronavirus.6                    CAGUGCCGAGGCCACGCGGCGU.ACGAUCGAGGGUACAGCACUA
+Equine_rhinitis_B_vi.1             ACUCGCCGAGGCCACGCCGAGU.AGGACCGAGGGUACAGCGAGU
+#=GC SS_cons                       .<<<<<....<<<.<<<<......>>..>>..>>>...>>>>>.
+//

@@ -1,0 +1,84 @@
+# STOCKHOLM 1.0
+#=GF ID    snoTBR17
+#=GF AC    RF00294
+#=GF DE    Small nucleolar RNA TBR17
+#=GF AU    Moxon SJ
+#=GF GA    41.0
+#=GF NC    40.9
+#=GF TC    42.1
+#=GF SE    Moxon SJ
+#=GF SS    Predicted; PFOLD; Moxon SJ
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF RN    [1]
+#=GF RM    10747997
+#=GF RT    Fibrillarin-associated box C/D small nucleolar RNAs in Trypanosoma
+#=GF RT    brucei. Sequence conservation and implications for 2'-O-ribose
+#=GF RT    methylation of rRNA.
+#=GF RA    Dunbar DA, Wormsley S, Lowe TM, Baserga SJ;
+#=GF RL    J Biol Chem 2000;275:14767-14776.
+#=GF RN    [2]
+#=GF RM    12215523
+#=GF RT    Purified box C/D snoRNPs are able to reproduce site-specific
+#=GF RT    2'-O-methylation of target RNA in vitro.
+#=GF RA    Galardi S, Fatica A, Bachi A, Scaloni A, Presutti C, Bozzoni I;
+#=GF RL    Mol Cell Biol 2002;22:6663-6668.
+#=GF CC    TBR17 is a member of the C/D class of snoRNA which contain the C (UGAUGA)
+#=GF CC    and  D (CUGA) box motifs. Most of the members of the box C/D family
+#=GF CC    function in directing site-specific 2'-O-methylation of substrate RNAs
+#=GF CC    [1,2].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_TBR17
+#=GF SQ    5
+
+#=GS T.brucei.1 AC    AF168728.1/1-269
+#=GS T.cruzi.1  AC    AF545068.1/111-398
+#=GS T.cruzi.2  AC    AF545070.1/111-399
+#=GS T.cruzi.3  AC    AF545069.1/110-397
+#=GS T.cruzi.4  AC    AF545067.1/111-398
+
+T.brucei.1             CGCGACAAGGUCAGCCUGAGGGCACACCUUCAGUGUGUGUACGGCCUCGG
+T.cruzi.1              CGCGAUCCUGUCACCUCGGGGGCGCUCUCUCAGUGGGCGUACGGCCUCGA
+T.cruzi.2              CGCGAUCCUGUCACCUCGGGGGCGCUCUCUCAGUGGGCGUACGGCCUCNA
+T.cruzi.3              CGCGAUCCUGUCACCUCGGGGGCGCUCUCUCAGUGGGCGUACGGCCUCGA
+T.cruzi.4              CGCGAUCCUGUCACCUCGGGGGCGCUCUCUCAGUGGGCGUACGGCCUCGA
+#=GC SS_cons           ..............<<<<<<<.<<<<<.......>>>>>.....>>>>>>
+
+T.brucei.1             GAGGGCGUAUAUC...CGCUCGAG....UCGCAG.......AGCG..AGG
+T.cruzi.1              GACGGCAUGCGCGUGGCUGUCGCGG.CCUCACUGUCCCUUUUGGGGGCGU
+T.cruzi.2              GACGGCAUGCGCGUGGCUGUCCCNGGCCUCGNUG.CCCUUCUGGGGGCGU
+T.cruzi.3              GACGGCAUGCGCGUGGCUGUCGCGG.CCUCGCUGUCCCUUUUGGGGGCGU
+T.cruzi.4              GACGGCAUGCGCGUGGCUGUCGCGG.CCUCACUGUCCCUUUUGGGGGCGU
+#=GC SS_cons           >.................................................
+
+T.brucei.1             GAAAUGGUGGCGUGAAGCUCUGCCACUG.GUGCA......UCAG.UAGCU
+T.cruzi.1              GCGUUGGACGCGUUCCGCU..GCGUGUGUGUGCACGGGGGUCGGAGAGCA
+T.cruzi.2              GCGNUGGACGCGUUCCNCUU.GCGUGUGUGUGCACGGGGGUCGAANANCA
+T.cruzi.3              GCGUUGGACGCGUUCCGCU..GCGUUUGUGUGCACGGGGGUCGGAGAGCA
+T.cruzi.4              GCGUUGGACGCGUUCCGCU..GCGUGUGUGUGCACGGGGGUCGGAGAGCA
+#=GC SS_cons           .......<<<<..........>>>>..<.<<<<<......<<<.......
+
+T.brucei.1             CGGCAUUACUGUGUUCGAUGCUCUGCGCUCAGUGGACAUGAUGCUCCGCC
+T.cruzi.1              AGGGCGCGCGCGGUGUGACGCUCGGCGCCCUGUGCGCCUGAUGCCCCGCC
+T.cruzi.2              AGGGCGCGCGCGGUGUNACGCUCGGCGCCCUGUGCGCNUGAUGCUCCGCC
+T.cruzi.3              AGGGCGCGCGCGGUGUGACGCUCGGCGCCCUGUGCGCCUGAUGCUCCGCC
+T.cruzi.4              AGGGCGCGCGCGGUGUGACGCUCGGCGCCCUGUGCGCCUGAUGCUCCGCC
+#=GC SS_cons           ...<<....>><<<<<..<<<...>>>......>>>>>>>>>>>>>>...
+
+T.brucei.1             GCCCAUAUAUCCCGCUAUGUAUAUCCUGUGUGCGCUCUAGUUCCGUUGGG
+T.cruzi.1              GCGUGACUAUCCCGUUAUGCAUAUCCUGUGUGCGCUCUAGCUCCAUCGGG
+T.cruzi.2              GCGUGACUAUCCCGUUAUGCAUAUCCUGUGUGCGCUCUAGCUCCAUCGGG
+T.cruzi.3              GCGUGACUAUCCCGUUAUGCAUAUCCUGUGUGCGCCCUAGCUCCAUCGGG
+T.cruzi.4              GCGUGACUAUCCCGUUAUGCAUAUCCUGUGUGCGCUCUAGCUCCAUCGGG
+#=GC SS_cons           .................................<<<<..<<<<<...>>>
+
+T.brucei.1             ACCCUGAAGAGUAAGCACACUAAACCAUGCAUUAUACAUGACC
+T.cruzi.1              GCCCUGACGAGUCAG..CAACAAACCAUGCAUUACACAUUUUG
+T.cruzi.2              GCCCUGACGAGUCAG..CAACAAACCAUGCAUUACACAUUUUG
+T.cruzi.3              GCCCUGACGAGUCAG..CAACAAACCAUGCAUUACACAUUUUG
+T.cruzi.4              GCCCUGACGAGUCAG..CAACAAACCAUGCAUUACACAUUUUG
+#=GC SS_cons           >>......>>>>...............................
+//

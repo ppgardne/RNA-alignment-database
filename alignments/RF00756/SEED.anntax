@@ -1,0 +1,45 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-299
+#=GF AC    RF00756
+#=GF DE    microRNA mir-299
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    23.6
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000186
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    6
+
+#=GS E.telfairi.1 AC    AAIY01428934.1/3553-3616
+#=GS M.musculus.1 AC    CAAA01169866.1/2-64
+#=GS M.mulatta.1  AC    AANU01197805.1/63453-63515
+#=GS H.sapiens.1  AC    AADD01141097.1/32192-32254
+#=GS M.murinus.1  AC    ABDC01257670.1/1394-1456
+#=GS C.lupus.1    AC    AACN010183773.1/1196-1258
+
+E.telfairi.1             AAGACCUGUGGUUACCGUCCCACAUACAUUUUAGAUGUGUAUGUGGGAUG
+M.musculus.1             AAGAAAUG.GUUUACCGUCCCACAUACAUUUUGAGUAUUGUUGUGGGACG
+M.mulatta.1              AAGAAGCG.GUUUACCGUCCCACAUACAUAUUGAAAAUGUAUGUGGGACG
+H.sapiens.1              AAGAAAUG.GUUUACCGUCCCACAUACAUUUUGAAUAUGUAUGUGGGAUG
+M.murinus.1              AAGAAGCG.GUUUACCGUCCCACAUACAUAUAGAAAAUGUAUGUGGGACG
+C.lupus.1                AAGAAAUG.GUUUACCGUCCCACAUACAUUUUGAGUAUGUAUGUGGGACG
+#=GC SS_cons             <<<<<<<<.<<<<<<<<<<<<<<<<<<<<.......>>>>>>>>>>>>>>
+#=GC RF                  ggggggcg.gcccgccgccccgcgcccgcaaaaaaagcgggcgcggggcg
+
+E.telfairi.1             GUAAACCGCUUCUU
+M.musculus.1             GUGAACCGCUUGUU
+M.mulatta.1              GUAAACCAUUUCUU
+H.sapiens.1              GUAAACCGCUUCUU
+M.murinus.1              GUAAACCAUUUCUU
+C.lupus.1                GUAAACCGCUUCUU
+#=GC SS_cons             >>>>>>>>>>>>>>
+#=GC RF                  gcgggccgcccccc
+//

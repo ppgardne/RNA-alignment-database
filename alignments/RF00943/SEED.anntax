@@ -1,0 +1,93 @@
+# STOCKHOLM 1.0
+#=GF ID    MIR824
+#=GF AC    RF00943
+#=GF DE    microRNA MIR824
+#=GF AU    Wilkinson A
+#=GF GA    200.0
+#=GF NC    118.2
+#=GF TC    437.9
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000442
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    2
+
+#=GS A.thaliana.1 AC    AF389288.1/313-970
+#=GS B.rapa.1     AC    AC189548.2/18653-19283
+
+A.thaliana.1             CUUGAGUUGUCUCUCAUGUCUAGACCAUUUGUGAGAAGGGAGUUUUUGUU
+B.rapa.1                 CUCGAGUUGUCUUUCAUGUCUAGACCAUUUGUGAGAAGGGAUUUUUUGUU
+#=GC SS_cons             <<<<<<<<<<<<<.<<<<<<<<<<<<<<<.<<<<<<<<<<<<<.......
+#=GC RF                  CUCGAGUUGUCUYUCAUGUCUAGACCAUUUGUGAGAAGGGAKUUUUUGUU
+
+A.thaliana.1             UACACCAAUACCCCCCAGUCUCUAAAUUUGUAAGAAGUAUUAUGCUCAAU
+B.rapa.1                 UGCACCGUUCACCC.CAC..UCUCAAUCUGUAGUGAGU..........AU
+#=GC SS_cons             .<<<<<.......<.<<<..<<<<..........................
+#=GC RF                  UGCACCGUUCMCCCcCASucUCUCAAUCUGUAGKGAGUauuaugcucaAU
+
+A.thaliana.1             UAAGGAACAUAGCUAGUUCGACAUACCAUACUACCCUUUUUAAAACUAUC
+B.rapa.1                 UAAGGAAAAUAGCUUGUUCAACAUAUCACACUACUCUUUUAGAAACAAAA
+#=GC SS_cons             ..................................................
+#=GC RF                  UAAGGAAMAUAGCUUGUUCRACAUAYCACACUACYCUUUUAGAAACAAWM
+
+A.thaliana.1             CUAUAUGUUUGAUGCUAGCAUAGCGUAAUUUUGUGUUCUCAUGGUGCAGC
+B.rapa.1                 CUAUAUUUUAGAUGCUUUUCCAGCUUGAUAU.ACGUUGUUUUGUUAU.GU
+#=GC SS_cons             ..................................................
+#=GC RF                  CUAUAUKUUAGAUGCUUKYCCAGCKUGAUAUuRCGUUSUYUUGKURYaGY
+
+A.thaliana.1             AGGGUUAGUUUAUUGUGUACCUCUAGAUAUAUAUUCUCUUGCUGCGUAGG
+B.rapa.1                 AUACCUGUAUUCUCCCGGCUACCAAAACGUUAAGAAAUAAGGUGAACAUC
+#=GC SS_cons             ..................................................
+#=GC RF                  AKRSCUGKAUUMUCSCGGCYMCCAARACGUUAAGAMAYAAGSUGMRCAKS
+
+A.thaliana.1             GUUCCCAAGCUGCCAAAAACUUUUAAAAAUU..AGUGAUCUGUUCCCCAA
+B.rapa.1                 UCCCCAAAACCUGCAUCCAAUUAGAAAGGUCUAGGUCACAGCCAUUACUU
+#=GC SS_cons             ..................................................
+#=GC RF                  KCCCCMAARCCKSCAUCCAMUUAGAAAGGUCUAGGUSACMGSYAYYMCUU
+
+A.thaliana.1             ACCCCCAUUCAAUAAGAAAGGUCUACCUGUAGC.UCACAGUCACAGCUAU
+B.rapa.1                 GCUAUCUCUCGAUUAAGCUAUUUUAUUUCUAUCAUCAUCAUCAGAUCAUU
+#=GC SS_cons             ..................................................
+#=GC RF                  GCYMYCUCUCGAUUARGCURKUYUAYYUSUAKCAKCAYSRUCASAKCAUU
+
+A.thaliana.1             UAGAGCUGUCCUUGCUUCUUUGGGUUUACUGUUUUAGUUAAUUAGUUAC.
+B.rapa.1                 CAGGAGU.UAAGUAUAAAAUAAAAUACAUUA....AGUCCAUUCAUGACA
+#=GC SS_cons             ..................................................
+#=GC RF                  CAGGRSUgUMMGURYAAMMUARRRUACAYURuuuuAGUCCAUUCRUGACA
+
+A.thaliana.1             CCUAUGAAAGUCUGAUCCUUCAGAAGUU.AGGUAUAGAAGUAAGUCGAUU
+B.rapa.1                 UUUCUGGAUGCUGCAUACAUAAUAUU..UUGUUUUUGGACUAUGCCAC..
+#=GC SS_cons             ..................................................
+#=GC RF                  YYUCUGGAUGCYGSAUMCAUMAKAUKUUUUGKUUUUGGASUAUGCCRCuu
+
+A.thaliana.1             AAGUUCAUUCAUGACUUUUCCAGAUGUUGCAUACAUAACUUUUUUUAUUU
+B.rapa.1                 .ACUUCGGACAGACAUUUUUCCUACG..AGAUGUCAAACCUCUGUCUGGA
+#=GC SS_cons             ..................................................
+#=GC RF                  aASUUCGGACAGRCMUUUUBCCKACGuuRSAUGYCAAACCUCUGUCUGGA
+
+A.thaliana.1             GUAUUCGAACUAGUCCAAGCCGAUUCUCAAAAUCAUAUAAAAUCAUUUAC
+B.rapa.1                 GUGUUAGAGGUAUUUCA...UGAUAGCUAAGAACUUG...AAUCUUGCAC
+#=GC SS_cons             ..................................................
+#=GC RF                  GUGUUMGAGSUAKUYCAagcYGAUASCYAAGAACUUGuaaAAUCUUGCAC
+
+A.thaliana.1             ACCUUGGUCAUGGUAGCUAAGAAUAUUGUAUCUAAAAUUGGGGAGU.GG.
+B.rapa.1                 UACUUAGCUACACUAGUUUACUUCAUAGUAAAU.AACUUGGGGAGUGG.G
+#=GC SS_cons             ........................................>>>>>>>>..
+#=GC RF                  UMCUURGCYACRSUAGYUUASUUCAUAGUAAMUaAACUUGGGGAGUGGGG
+
+A.thaliana.1             GGAGAUGUUUGGUUA.UAUUCCCUUCUCAUCGAUGGUCUAGAUGUGCGAG
+B.rapa.1                 GAAGGUGCUGGGUUAUUAGUCCCUUCUCAUCGAUGGUCUAGAUGUGCGAG
+#=GC SS_cons             ...>>>>>.........>>>>>>>>>>>>>.>>>>>>>>>>>>>>>.>>>
+#=GC RF                  GRAGGUGCUGGGKUAUUAKUCCCUUCUCAUCGAUGGUCUAGAUGUGCGAG
+
+A.thaliana.1             GUGACUCUCAUGGAGG
+B.rapa.1                 GUGACUCUCAUUGAGG
+#=GC SS_cons             >>>>>>>.....>>>.
+#=GC RF                  GUGACUCUCAUKGAGG
+//

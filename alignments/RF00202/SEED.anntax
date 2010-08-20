@@ -1,0 +1,51 @@
+# STOCKHOLM 1.0
+#=GF ID    snoR66
+#=GF AC    RF00202
+#=GF DE    Small nucleolar RNA R66
+#=GF AU    Griffiths-Jones SR
+#=GF GA    30.0
+#=GF NC    27.4
+#=GF TC    34.3
+#=GF SE    Griffiths-Jones SR
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF RN    [1]
+#=GF RM    12736310
+#=GF RT    The high diversity of snoRNAs in plants: identification and
+#=GF RT    comparative study of 120 snoRNA genes from Oryza sativa.
+#=GF RA    Chen CL, Liang D, Zhou H, Zhuo M, Chen YQ, Qu LH;
+#=GF RL    Nucleic Acids Res 2003;31:2601-2613.
+#=GF CC    snoR66 is a C/D box small nucleolar RNA, which acts as a 
+#=GF CC    methylation guide for 18S ribosomal RNA in plants [1].  snoR66 
+#=GF CC    has been alternatively named snoZ269 in rice.
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_R66
+#=GF SQ    6
+
+#=GS O.sativa.1 AC    AJ532507.1/1-76
+#=GS O.sativa.2 AC    AJ532509.1/6-77
+#=GS O.sativa.3 AC    AJ532510.1/6-76
+#=GS O.sativa.4 AC    AJ532508.1/6-77
+#=GS O.sativa.5 AC    AJ532505.1/2-77
+#=GS O.sativa.6 AC    AJ532506.1/1-77
+
+O.sativa.1             CCCCGUGAUGGCAUGGA.UCUUUGAGACCUGAGAAUUUUCUUCCUUGAUG
+O.sativa.2             UCCGAUGAUGGCAUGAAAUCUUUGAGACCUGACA...UUCUUG..UGAUG
+O.sativa.3             UCCGAUGAUGGCAUGAAAUCUUUGAGACCUGACA...UUCUUG..UGAUG
+O.sativa.4             UCCGAUGAUGGCAUGAAAUCUUUGAGACCUGACA...UUCUUG..UGAUG
+O.sativa.5             ACCCGUGAUGGCAUGAA.UCUUUGAGACCUGAGAAUUUUCUUCCUUGAUG
+O.sativa.6             GCCCGUGAUGGCAUGAA.UCUUUGAGACCUGAGAAUUUUCUUCCUUGAUG
+#=GC SS_cons           <<<............................<<<.......>>..>....
+
+O.sativa.1             AAA.AUCACAAGUACGAUCCCUGAGGGC
+O.sativa.2             ACA.AACAUAAGCAUAUUUCCUGAGGAC
+O.sativa.3             ACA.AACAUAAGCAUAUUUCCUGAG.AC
+O.sativa.4             ACA.AACAUAAGCAUAUUUCCUGAGGAC
+O.sativa.5             AAA.AUCACAAGCAUGAUCCCUGAGGGC
+O.sativa.6             AAAGAUCACAAGCAUUAUCCCUGAGGGC
+#=GC SS_cons           ........................>>>.
+//

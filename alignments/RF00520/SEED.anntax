@@ -1,0 +1,58 @@
+# STOCKHOLM 1.0
+#=GF ID    ybhL
+#=GF AC    RF00520
+#=GF DE    ybhL leader
+#=GF AU    Barrick JE
+#=GF GA    22.0
+#=GF NC    19.1
+#=GF TC    22.6
+#=GF SE    Barrick JE
+#=GF SS    Predicted; Barrick JE
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    16086852
+#=GF RT    Evidence for a second class of S-adenosylmethionine riboswitches and
+#=GF RT    other regulatory RNA motifs in alpha-proteobacteria.
+#=GF RA    Corbino KA, Barrick JE, Lim J, Welz R, Tucker BJ, Puskarz I, Mandal
+#=GF RA    M, Rudnick ND, Breaker RR;
+#=GF RL    Genome Biol. 2005;6:R70.
+#=GF CC    This family is a putative regulatory RNA structure that is found
+#=GF CC    upstream of an uncharacterized membrane protein in
+#=GF CC    alpha-proteobacteria.
+#=GF WK    http://en.wikipedia.org/wiki/ybhL_leader
+#=GF SQ    8
+
+#=GS Ochrobactrum_anthrop.1 AC    CP000758.1/105606-105684
+#=GS Mesorhizobium_loti_M.1 AC    BA000012.4/3454120-3454186
+#=GS Agrobacterium_tumefa.1 AC    AE007869.2/2665549-2665616
+#=GS Rhizobium_leguminosa.1 AC    AM236080.1/4812613-4812682
+#=GS Rhizobium_etli_CFN_4.1 AC    CP000133.1/4169049-4169118
+#=GS Sinorhizobium_melilo.1 AC    AL591688.1/3506025-3506114
+#=GS metag._sequence.1      AC    AAFY01012588.1/418-488
+#=GS metag._sequence.2      AC    AAGA01009636.1/114-182
+
+Ochrobactrum_anthrop.1             CAGGCAUGCUGGGGUCCCGCCAGCGGCGCCUGGCGGC.....GGCUCGAC
+Mesorhizobium_loti_M.1             CAGGCAUGCUGGAGCCCCGCCAGCGGCGCCUGGGUCCGUAA.........
+Agrobacterium_tumefa.1             UAGGCUUGCUGAAGCUCCG.CAGCGGCGCCCGGG................
+Rhizobium_leguminosa.1             CAGGCAUGCUGGAGCUCCG.CAGCGGCGCCCGGG..UCGAAA........
+Rhizobium_etli_CFN_4.1             CAGGCAUGCUGGAGCUCCG.CAGCGGCGCCCGG..............GUC
+Sinorhizobium_melilo.1             CAGGCAUGCUGGAGCCCCG.CAGCGGCGCCUGGGCGCGCAAAGGAACGAC
+metag._sequence.1                  CAGGCAUGCUGGAGCCCCG.CAGCGGCGCCUGGGUC..............
+metag._sequence.2                  AAGGCAUGCUGGAGCCCCG.CAGCGGCGCCUGGG................
+#=GC SS_cons                       ...........<<<<<<<<....<<<....<<<<<<<.............
+#=GC RF                            cAGGcAUGcUGgaGCCCCG.cAGCGGcGccuGGGCGCGcAAAGGAAcGAc
+
+Ochrobactrum_anthrop.1             CUUUUGAGCGCCCCCGACACCGGA........CGGGACAUGG
+Mesorhizobium_loti_M.1             .......GA.GGCCCGACACCGGA........CGGGGCAGAA
+Agrobacterium_tumefa.1             .AGGUAU.....CCCGACACCGUAGCAAUCA.CGGAGCUCAA
+Rhizobium_leguminosa.1             .......AC...CCCGACACCGUA.UUUCCAUCGGAGCUUGU
+Rhizobium_etli_CFN_4.1             GAGAACC......CCGACACCGUAUCUCC.UUCGGAGCUUGU
+Sinorhizobium_melilo.1             AAGGUUCGC.CGCCCGACACCGUAACUUCAACCGGGGCUUAA
+metag._sequence.1                  ...UUUG...AGCCCGACACCGUAAACCUUACCGGGGCUUAU
+metag._sequence.2                  .UCCUUU.....CCCGACACCGUGAUUAACUCCGGGGCUUGA
+#=GC SS_cons                       .......>..>>>>>>...>>>..........>>>>>>>>..
+#=GC RF                            AAGGUUcGc.CGCCCgAcACCGUAAcUUcAAcCGGGGCuuAA
+//

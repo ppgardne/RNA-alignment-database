@@ -1,0 +1,70 @@
+# STOCKHOLM 1.0
+#=GF ID    snoR28
+#=GF AC    RF00355
+#=GF DE    Small nucleolar RNA snoR28
+#=GF AU    Moxon SJ
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    26.2
+#=GF SE    Moxon SJ, INFERNAL
+#=GF SS    Predicted; PFOLD; Moxon SJ, Daub J
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF RN    [1]
+#=GF RM    11469857
+#=GF RT    Identification of 66 box C/D snoRNAs in Arabidopsis thaliana:
+#=GF RT    extensive gene duplications generated multiple isoforms predicting
+#=GF RT    new ribosomal RNA 2'-O-methylation sites.
+#=GF RA    Barneche F, Gaspin C, Guyot R, Echeverria M;
+#=GF RL    J Mol Biol 2001;311:57-73.
+#=GF RN    [2]
+#=GF RM    12007400
+#=GF RT    Small nucleolar RNAs: an abundant group of noncoding RNAs with
+#=GF RT    diverse cellular functions.
+#=GF RA    Kiss T;
+#=GF RL    Cell 2002;109:145-148.
+#=GF CC    R28 is a member of the C/D class of snoRNA which contain the C (UGAUGA)
+#=GF CC    and  D (CUGA) box motifs. Most of the members of the box C/D family
+#=GF CC    function in directing site-specific 2'-O-methylation of substrate RNAs
+#=GF CC    [1,2].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_snoR28
+#=GF SQ    9
+
+#=GS O.sativa.1      AC    AP008212.1/4405784-4405861
+#=GS O.sativa.2      AC    AAAA02018380.1/82892-82969
+#=GS Z.mays.1        AC    AF417481.1/986-1063
+#=GS R.communis.1    AC    AASG02003017.1/11659-11736
+#=GS P.trichocarpa.1 AC    AARH01003843.1/468860-468937
+#=GS A.thaliana.1    AC    AF317949.1/1-74
+#=GS A.thaliana.2    AC    AF317950.1/1-74
+#=GS A.thaliana.3    AC    AJ421410.1/955-1028
+#=GS A.thaliana.4    AC    BT004309.1/805-878
+
+O.sativa.1                  GAUCAAGGAGAUGACGUAUUCUACUGUGAAUAUGAAUAUGACAUACACUG
+O.sativa.2                  GAUCAAGGAGAUGACGUAUUCUACUGUGAAUAUGAAUAUGAUAUACACUG
+Z.mays.1                    GAUGGAGGAGAUGAUGUAUUUUACUGUGAAUAUGAGUAUGAUAUUCAUUG
+R.communis.1                AAUGAAGGAGAUGAUAUUUUCUUAUGCGAGUAUGAGUAUGACAUCAUCUG
+P.trichocarpa.1             GAUGAAGGAGAUGACAUUUUCAUGUGCGAAUAUGAAUAUGACAUACAUUG
+A.thaliana.1                GAU...GGUGAUGAUGUGUUCUUGUGUGAGUAUGAGUAUGAUGUUCAUUG
+A.thaliana.2                GAU...GGUGAUGAUGUGUUUUUGUGUGAGUAUGAGUAUGAUGUUCAUUG
+A.thaliana.3                GAU...GGUGAUGAUGUGUUUUUGUGUGAGUAUGAGUAUGAUGUUCAUUG
+A.thaliana.4                GAU...GGUGAUGAUGUGUUCUUGUGUGAGUAUGAGUAUGAUGUUCAUUG
+#=GC SS_cons                <<<...............................................
+#=GC RF                     gAu...GGaGAUGAuGUaUUcUagUGUGAaUAUGAaUAUGAUaUaCAuUG
+
+O.sativa.1                  GCAUAAUUUUAAGCGUCUGGCAGACAUC
+O.sativa.2                  GCAUAAUUUUAAGCGUCUGGCAGACAUC
+Z.mays.1                    GCAUAAUUUUAAGCGUUUGGCAGAUAUU
+R.communis.1                GCAUUCUUUCAAGCGUCUAGCUGAGAUU
+P.trichocarpa.1             GCACAGUUUCAAGCGUUUAGCUGAUAUU
+A.thaliana.1                GCGUAGCUUUAAGCGUUUGGCUGA.AUU
+A.thaliana.2                GGGUAGCUUUAAGCGUGUGGCUGA.AUU
+A.thaliana.3                GGGUAGCUUUAAGCGUGUGGCUGA.AUU
+A.thaliana.4                GCGUAGCUUUAAGCGUUUGGCUGA.AUU
+#=GC SS_cons                .........................>>>
+#=GC RF                     GcaUAauUUUAAGCGUuUGGCaGA.aUc
+//

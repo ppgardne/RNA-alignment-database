@@ -1,0 +1,62 @@
+# STOCKHOLM 1.0
+#=GF ID    CRISPR-DR3
+#=GF AC    RF01316
+#=GF DE    CRISPR RNA direct repeat element
+#=GF AU    Wilkinson A
+#=GF GA    31.0
+#=GF NC    30.8
+#=GF TC    31.0
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; CRISPR;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    URL; http://crispr.u-psud.fr/crispr/CRISPRHomePage.php
+#=GF DR    SO:0001459 SO:CRISPR
+#=GF WK    http://en.wikipedia.org/wiki/CRISPR
+#=GF SQ    20
+
+#=GS Clostridium_kluyveri.1 AC    CP000673.1/3579827-3579856
+#=GS Clostridium_botulinu.1 AC    CP000726.1/2253841-2253870
+#=GS Clostridium_botulinu.2 AC    ABDO02000004.1/254636-254665
+#=GS Clostridium_tetani_E.1 AC    AE015927.1/1590005-1590034
+#=GS C.botulinum.1          AC    CP000728.1/2521958-2521987
+#=GS C.botulinum.2          AC    ABDP01000013.1/120655-120684
+#=GS C.botulinum.3          AC    CP000728.1/2374103-2374132
+#=GS C.novyi.1              AC    CP000382.1/1866234-1866263
+#=GS Clostridium_perfring.1 AC    ABDY01000002.1/267925-267954
+#=GS C.botulinum.4          AC    CP000727.1/2239349-2239378
+#=GS C.botulinum.5          AC    CP000728.1/2352762-2352791
+#=GS Clostridium_kluyveri.2 AC    CP000673.1/2835805-2835834
+#=GS Clostridium_kluyveri.3 AC    CP000673.1/2825586-2825615
+#=GS Clostridium_botulinu.3 AC    CP000726.1/2256155-2256184
+#=GS C.botulinum.6          AC    CP000728.1/2376467-2376496
+#=GS Clostridium_botulinu.4 AC    ABDO02000004.1/251279-251308
+#=GS Clostridium_kluyveri.4 AC    CP000673.1/2823144-2823173
+#=GS Clostridium_tetani_E.2 AC    AE015927.1/1596015-1596044
+#=GS Clostridium_botulinu.5 AC    AM412317.1/2310339-2310368
+#=GS Anaerostipes_caccae_.1 AC    ABAX03000005.1/109886-109915
+
+Clostridium_kluyveri.1             AUUUAAAUACAAAUCUUGUUAAGUUUCAAC
+Clostridium_botulinu.1             GUUUAAAUACAUCUCAUGUUAAUGUUCAAU
+Clostridium_botulinu.2             AUUUAAAUACAUCUCAUGUUAUUAUUCAAC
+Clostridium_tetani_E.1             AUUUAAAUACAUCCUAUGUUAAGGUUCAAC
+C.botulinum.1                      AUUUAAAUACAUCUUAUGUUAAUGUUCAAC
+C.botulinum.2                      UCUUAAAUACAUCCUAUGUUAAGGUUCAAC
+C.botulinum.3                      AUUUAAAUACAUCUCAUGUUAAUGUUCAAC
+C.novyi.1                          AUUUAAAUACAUCCCAUGUUAUUGUUCAAC
+Clostridium_perfring.1             AUUUAAAUACAUACCAUGUUAAUGUUCAAC
+C.botulinum.4                      AUUUAAAUACAUCCUAUGUUAUUGUUCAAU
+C.botulinum.5                      AUUUAAAUACAUCUUAUGUUACUGUUCAAC
+Clostridium_kluyveri.2             AUUUAAAUACAAUUCUUGUUAAGGUUCAAC
+Clostridium_kluyveri.3             AUUUAAAUACAAUCCUUGUUAAAGUUCAAC
+Clostridium_botulinu.3             GCUUAAAUACAUCUUAUGUUACUGUUCAAC
+C.botulinum.6                      AUUUAAAUACAUCCUAUGUUAAUGUUCAAC
+Clostridium_botulinu.4             AUUUAAAUACAUCUCAUGUCAAUGUUUAAC
+Clostridium_kluyveri.4             AUUUAAAUACAAUCCUUGUUAAGGUUCAAC
+Clostridium_tetani_E.2             AUUUAAAUACAACUCUUGUUAUUGUUCAAC
+Clostridium_botulinu.5             GCUUAAAUACAUCUCAUGUUAAUGUUCAAC
+Anaerostipes_caccae_.1             AUUUCAAUACAACUCUUGUUAUUGUUUAUC
+#=GC SS_cons                       ........<<<<...>>>>...........
+#=GC RF                            AUUUAAAUaCaacucuuGuUAAuGUUCAAC
+//

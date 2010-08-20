@@ -1,0 +1,104 @@
+# STOCKHOLM 1.0
+#=GF ID    RSV_RNA
+#=GF AC    RF01417
+#=GF DE    Retroviral 3'UTR stability element
+#=GF AU    Osuch I
+#=GF GA    34.0
+#=GF NC    34.0
+#=GF TC    34.0
+#=GF SE    INFERNAL
+#=GF SS    Published; PMID:19091866
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    19091866
+#=GF RT    Structural characterization of the Rous sarcoma virus RNA stability
+#=GF RT    element.
+#=GF RA    Weil JE, Hadjithomas M, Beemon KL;
+#=GF RL    J Virol. 2009;83:2119-2129.
+#=GF RN    [2]
+#=GF RM    16301601
+#=GF RT    A 3' UTR sequence stabilizes termination codons in the unspliced RNA
+#=GF RT    of Rous sarcoma virus.
+#=GF RA    Weil JE, Beemon KL;
+#=GF RL    RNA. 2006;12:102-110.
+#=GF WK    http://en.wikipedia.org/wiki/Rous_sarcoma_virus
+#=GF SQ    8
+
+#=GS Avian_endogenous_ret.1 AC    AJ623290.1/2495-2786
+#=GS Rous_sarcoma_virus_-.1 AC    D10652.1/2583-2871
+#=GS Avian_leukosis_virus.1 AC    Z46390.1/2821-3109
+#=GS Avian_leukosis_virus.2 AC    DQ365814.1/2819-3107
+#=GS Avian_leukosis_virus.3 AC    AY350569.1/2597-2885
+#=GS Avian_leukosis_virus.4 AC    DQ115805.1/2821-3109
+#=GS Rous_sarcoma_virus.1   AC    V01197.1/2597-2885
+#=GS Rous_sarcoma_virus_-.2 AC    AF052428.1/2616-2904
+
+Avian_endogenous_ret.1             UUGAUGCUUUGCAAACUUUAGUAGCCCGGGAGCUUCGCCUGGGUCACAUA
+Rous_sarcoma_virus_-.1             UAGCGCUAACGCAA...UUAGUGGAAAAAGAAUUGCAGCUAGGACAUAUA
+Avian_leukosis_virus.1             UAGCGCUAACGCAA...UUAGUGGAAAAAGAAUUACAGUUAGGACAUAUA
+Avian_leukosis_virus.2             UAGCGCUAACGCAA...UUAGUGGAAAAAGAAUUACAGUUAGGACAUAUA
+Avian_leukosis_virus.3             UAGCGCUAACGCAA...UUAGUGGAAAAAGAAUUACAGUUAGGACAUAUA
+Avian_leukosis_virus.4             UAGCGCUAACGCAA...UUAGUGGAAAAAGAAUUACAGUUAGGACAUAUA
+Rous_sarcoma_virus.1               UAGCGCUAACGCAA...UUAGUGGAAAAAGAAUUACAGUUAGGACAUAUA
+Rous_sarcoma_virus_-.2             UAGCGCUAACGCAA...UUAGUGGAAAAAGAAUUACAGUUAGGACAUAUA
+#=GC SS_cons                       ..........<<<......<<<<<..........................
+#=GC RF                            UAGCGCUAACGCaA...UUaGuGgAAAAAGAAUUACAGuUAGGACAUAUA
+
+Avian_endogenous_ret.1             GAGCCUUCGCUUAGUAGAUGGAACACUCCGGUGUUUGUAAUUCAGAAGAA
+Rous_sarcoma_virus_-.1             GAACCUUCACUUAGUUGUUGGAACACACCUGUCUUUGUGAUCCGGAAGGC
+Avian_leukosis_virus.1             GAACCUUCACUUAGUUGUUGGAACACACCUGUCUUUGUGAUCCGGAAGGC
+Avian_leukosis_virus.2             GAACCUUCACUUAGUUGUUGGAACACACCUGUCUUCGUGAUCCGGAAGGC
+Avian_leukosis_virus.3             GAACCUUCACUUAGUUGUUGGAACACUCCUGUCUUUGUGAUCCGGAAGGC
+Avian_leukosis_virus.4             GAACCUUCACUUAGUUGUUGGAACACACCUGUCUUUGUGAUCCGGAAGGC
+Rous_sarcoma_virus.1               GAACCUUCACUUAGUUGUUGGAACACACCUGUCUUCGUGAUCCGGAAGGC
+Rous_sarcoma_virus_-.2             GAACCCUCACUUAGCUGUUGGAACACACCUGUCUUUGUGAUCCGGAAGGC
+#=GC SS_cons                       ...<<..<<......>>..>>.................<<<<<<<.....
+#=GC RF                            GAACCuUCaCUUAGuuGUUGGAACACACCUGUCUUuGUGauCCGGAAGGC
+
+Avian_endogenous_ret.1             AUCAGGGGCUUUUCGCUUGCUGCAUGACUUGCGCGCUGUCAAUUCUCAAC
+Rous_sarcoma_virus_-.1             UUCCGGGUCUUAUCGCUUAUUGCAUGACUUGCGCGCUGUUAACGCUAAGC
+Avian_leukosis_virus.1             UUCUGGGUCUUAUCGUUUAUUGCAUGACUUGCGCGCUGUUAACGCCAAGC
+Avian_leukosis_virus.2             UUCCGGGUCUUACCGCUUAUUGCAUGAUCUGCGCGCUGUUAAUGCCAAGC
+Avian_leukosis_virus.3             UUCCGGGUCUUAUCGCUUAUUGCAUGACUUGCGCGCUGUUAACGCCAAGC
+Avian_leukosis_virus.4             UUCCGGGUCUUAUCGCUUAUUGCAUGACUUGCGCGCUGUUAACGCCCAGC
+Rous_sarcoma_virus.1               UUCCGGGUCUUACCGCUUACUGCAUGAUUUGCGCGCUGUUAACGCCAAGC
+Rous_sarcoma_virus_-.2             UUCCGGGUCUUAUCGCUUAUUGCAUGACUUACGCGCUGUUAACGCCAAGC
+#=GC SS_cons                       ..>>>>>>>...>>>>>...>>>....................<<....<
+#=GC RF                            UUCCGGguCUUAcCgCuUAuuGCAUGAcuUGCGCGCUGUUAAcGCcAAGC
+
+Avian_endogenous_ret.1             UUAUACCCUUU.GGUGUGGUGCAACAGGGAGCACCUGUGUUAUCUGCGGU
+Rous_sarcoma_virus_-.1             UUGUUCCUUUU.GGGGCCGUCCAACAGGGGGCGCCAGUUCUCUCCGCGCU
+Avian_leukosis_virus.1             UUGUUCCUUUU.GGGGCCGUCCAACAGGGGGCGCCAGUUCUCUCCGCGCU
+Avian_leukosis_virus.2             UUGUUCCCUUU.GGGGCCGUCCAACAGGGGGCGCCAGUUCUCUCUGCGCU
+Avian_leukosis_virus.3             UUGUUCCCUUU.GGAGCCGUCCAACAGGGGGCGCCAGUUCUCUCCGCGCU
+Avian_leukosis_virus.4             UUGUUCCUUUUGGGGGCCG.CCAACAAGGGGCGCCAAUUCUCUCCGCGUU
+Rous_sarcoma_virus.1               UUGUUCCUUUUGGGG.CCGUCCAACAGGGGGCGCCAGUUCUCUCCGCGCU
+Rous_sarcoma_virus_-.2             UUGUUCCUUUU.GGGGCUGUCCAACAGGGGGCGCCAGUUCUCUCCGCGCU
+#=GC SS_cons                       <<<<<<......<<<<<<<.<<<...<<<<<<<<.<<....>>..>>>>>
+#=GC RF                            uuGuuCCuUUU.GGGGCCgUCCaACAgGGgGCGCCaGUUCUCuCcGCGCu
+
+Avian_endogenous_ret.1             GCCGGAGGAAUGGGAAGUAACGGCCAUUGACUUGAAGGAUUGUUUUUUCU
+Rous_sarcoma_virus_-.1             CCCGCGUGGCUGGCCCCUGAUGGUCCUAGACCUCAAGGAUUGCUUCUUCU
+Avian_leukosis_virus.1             CCCGGCUGGCUGGCCCCUGAUGGUCCUAGACCUCAAGGAUUGCUUUUUUU
+Avian_leukosis_virus.2             CCCGCAUGGCUGGCCCCUAAUGGUCCUAGACCUUAAGGAUUGCUUCUUCU
+Avian_leukosis_virus.3             CCCGCGCGGCUGGCCCCUGAUGGUCCUAGACCUCAAGGACUGCUUCUUUU
+Avian_leukosis_virus.4             CCGGCGUGGCUGCCCCCUGAUGUUCUUAGACCUCAAGGGUUGCUUCUUUU
+Rous_sarcoma_virus.1               CCCGCGUGGCUGGCCCCUGAUGGUCUUAGACCUCAAGGAUUGCUUCUUUU
+Rous_sarcoma_virus_-.2             CCCGCGUGGCUGGCCCCUGAUGGUUCUAGACCUCAAGGAUUGCUUCUUUU
+#=GC SS_cons                       >>>...>>>.>>>>>>>.<<<<<...........................
+#=GC RF                            CCcGcguGGCuGGCCCCUgauggUccUAGACCUcAAGGAuUGCUUcUUuU
+
+Avian_endogenous_ret.1             CAAUACCUCUAGCUGAGCAGGAUAGAGAAGCUUUCGCUUUUAC
+Rous_sarcoma_virus_-.1             CUAUUCCUCUUGCGGAACAAGAUCGCGAAGCUUUUGCAUUUAC
+Avian_leukosis_virus.1             CUAUUCCUCUUGCGGAACAAGAUCGCGAAGCUUUUGCAUUUAC
+Avian_leukosis_virus.2             CUAUUCCUCUUGCGGAACAAGAUCGCGAAGCUUUUGCAUUCAC
+Avian_leukosis_virus.3             CUAUUCCUCUUGCGGAACAAGAUCGCGAAGCUUUUGCAUUUAC
+Avian_leukosis_virus.4             UUAUUCCUCUUGCGGAACAAGAUCGCGAAGCUUUUGCAUUUAC
+Rous_sarcoma_virus.1               CUAUCCCUCUUGCGGAACAAGAUCGCGAAGCUUUUGCAUUUAC
+Rous_sarcoma_virus_-.2             CUAUUCCUCUUGCGGAACAAGAUCGCGAGGCUUUUGCAUUUAC
+#=GC SS_cons                       >>>>>.........>>>>>>>...>>.................
+#=GC RF                            cuaucCCUCUUGCGGaaCaaGAUCGCGAAGCUUUUGCAUUuAC
+//

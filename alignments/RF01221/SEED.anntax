@@ -1,0 +1,47 @@
+# STOCKHOLM 1.0
+#=GF ID    snoU6-47
+#=GF AC    RF01221
+#=GF DE    Small nucleolar RNA U6-47
+#=GF AU    Wilkinson A
+#=GF GA    30.0
+#=GF NC    16.6
+#=GF TC    37.6
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    URL; http://snoopy.med.miyazaki-u.ac.jp/view.cgi?id=CEL30005
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF RN    [1]
+#=GF RM    16714446
+#=GF RT    Evolution of small nucleolar RNAs in nematodes.
+#=GF RA    Zemann A, op de Bekke A, Kiefmann M, Brosius J, Schmitz J
+#=GF RL    Nucleic Acids Res. 2006;34:2676-2685.
+#=GF WK    http://en.wikipedia.org/wiki/SnoRNA
+#=GF SQ    3
+
+#=GS C.elegans.1  AC    U13642.1/3608-3726
+#=GS C.remanei.1  AC    AAGD02011855.1/9519-9652
+#=GS C.brenneri.1 AC    ABEG01023259.1/44493-44630
+
+C.elegans.1              CAGCUAUGACGAGUUCUUG....ACGACA....UGACGUCA..UCACUGA
+C.remanei.1              AAGCAAUGAAGAGUAAUUUGA.CACGAAA....UGGCGUCAUAUCGUUGA
+C.brenneri.1             AUGCGAUGAAGAGACUGAUGAUCACGAAAACCCUGACGUCUUAUCAUUGA
+#=GC SS_cons             <<<<..............................................
+#=GC RF                  aAGCaAUGAaGAGUaaUUgGA.cACGAaA....UGaCGUCAUAUCauUGA
+
+C.elegans.1              CAAUUAAAGAUAG.........UUCCCUUCGUUCGGGUUGACUAUC.GUC
+C.remanei.1              CACUCCAAAAAAGACUGCAAAUUCCAAUUCGUUUCGGAAUACAGUCCGUC
+C.brenneri.1             CACCUAAAGAC..CCAUCGGAUUCCGAAUCGUUAGGAAAACGGGGUCGUC
+#=GC SS_cons             ..................................................
+#=GC RF                  CAaUuaAAaAaAGAcUGcAAAUUuCaaUUCGUUugGGaagACaaUCcGUC
+
+C.elegans.1              GGAGAU.GUGGACGAGCGCCUAAUCUUCUCUCUGAGCUGU
+C.remanei.1              GACGAG.AUGGGCGAUCGUCUAAUCUUCUCUCUGAGCUUU
+C.brenneri.1             GAUGAGUGUGGGCGAGCGACUAAUCUUCUCUCUGAGCAUU
+#=GC SS_cons             ...................................>>>>.
+#=GC RF                  GaaGAg.aUGGaCGAgCGuCUAAUCUUCUCUCUGAGCUgU
+//

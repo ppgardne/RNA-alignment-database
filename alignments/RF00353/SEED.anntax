@@ -1,0 +1,84 @@
+# STOCKHOLM 1.0
+#=GF ID    snoR31_Z110_Z27
+#=GF AC    RF00353
+#=GF DE    Small nucleolar RNA snoR31/Z110/Z27
+#=GF AU    Moxon SJ
+#=GF GA    33.0
+#=GF NC    31.5
+#=GF TC    33.8
+#=GF SE    Moxon SJ
+#=GF SS    Predicted; PFOLD; Moxon SJ, Daub J
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Arabidopsis_thaliana300003
+#=GF DR    snoopy; Arabidopsis_thaliana300004
+#=GF RN    [1]
+#=GF RM    11469857
+#=GF RT    Identification of 66 box C/D snoRNAs in Arabidopsis thaliana:
+#=GF RT    extensive gene duplications generated multiple isoforms predicting
+#=GF RT    new ribosomal RNA 2'-O-methylation sites.
+#=GF RA    Barneche F, Gaspin C, Guyot R, Echeverria M;
+#=GF RL    J Mol Biol 2001;311:57-73.
+#=GF RN    [2]
+#=GF RM    12007400
+#=GF RT    Small nucleolar RNAs: an abundant group of noncoding RNAs with
+#=GF RT    diverse cellular functions.
+#=GF RA    Kiss T;
+#=GF RL    Cell 2002;109:145-148.
+#=GF RN    [3]
+#=GF RM    12736310
+#=GF RT    The high diversity of snoRNAs in plants: identification and
+#=GF RT    comparative study of 120 snoRNA genes from Oryza sativa.
+#=GF RA    Chen CL, Liang D, Zhou H, Zhuo M, Chen YQ, Qu LH;
+#=GF RL    Nucleic Acids Res 2003;31:2601-2613.
+#=GF CC    This family contains several related snoRNAs including R31, Z27 and Z110.
+#=GF CC    Family members belong to the C/D class of snoRNAs which
+#=GF CC    contain the C (UGAUGA) and  D (CUGA) box motifs. Most of the members of the
+#=GF CC    box C/D family function in directing site-specific 2'-O-methylation of
+#=GF CC    substrate RNAs [1,2,3].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_snoR31/Z110/Z27
+#=GF SQ    8
+
+#=GS O.sativa.1   AC    AJ307931.1/1-96
+#=GS O.sativa.2   AC    AJ489959.1/1-96
+#=GS O.sativa.3   AC    AJ489960.1/1-96
+#=GS Z.mays.1     AC    AJ010687.1/1-99
+#=GS A.thaliana.1 AC    AF317953.1/1-90
+#=GS A.thaliana.2 AC    AF317952.1/1-90
+#=GS A.thaliana.3 AC    AJ240070.1/1-95
+#=GS A.thaliana.4 AC    AJ010675.1/1-90
+
+O.sativa.1               AGUAUCAGAG..GAUGA.AACCUUAUAACAAUCUUAGGACACCUUCUGAC
+O.sativa.2               AGUAUCAGAG..GAUGA.AACCUUAUAACAAUCUUAGGACACCUUCUGAC
+O.sativa.3               AGUAUCAGAG..GAUGA.AACCUUAUAACAA...UCUUAGGACACCUUCU
+Z.mays.1                 .GCAUGAGAG..GAUGA.AAGCUUGAAACAAUCUUAGGACACCUUCUGAC
+A.thaliana.1             CUGGAGAAAU..GAUGAGAA..AUCAGAUAA..AUCUUAGGACACCUUCU
+A.thaliana.2             CUGGAGAAAU..GAUGAGAA..AUCAGAUAA..AUCUUAGGACACCUUCU
+A.thaliana.3             .UGGAGAAAUAUGAUGAUAAUAAUCAGUAAAU.AUCUUAGGACACCUUCU
+A.thaliana.4             CUGGAGAAAU..GAUGAGAA..AUCAGAUAA..AUCUUAGGACACCUUCU
+#=GC SS_cons             <<<<<<<..........................................<
+
+O.sativa.1               ACAGUGCU....AUAACACUGUGAAUGAGAAGG.CUUUUCUUU.CUGAUG
+O.sativa.2               ACAGUGCA....AUCACACUGUGAAUGAGAAGG.CUUUUCUUU.CUGAUG
+O.sativa.3               GACACAGUGCA.AUCACACUGUGAAUGAGAAGG.CUUUUCUUU.CUGAUG
+Z.mays.1                 ACAGCGCGUUACAUCACGUUGUGAAUGAGAAGG.CAAUUCUUUUCUGAUG
+A.thaliana.1             GACACAGAUU........CUGUGUAUGAGAAUGACAUCAUAUU.CUGAUC
+A.thaliana.2             GACACAGAUU........CUGUGUAUGAGAAUGACAUCAUAUU.CUGAUC
+A.thaliana.3             GACACAGUUUA.......CUGUGUAUGAGAAUGACUUGUUAAU.CUGAUU
+A.thaliana.4             GACACAGAUU........CUGUGUAUGAGAAUGACAUCAUAUU.CUGAUC
+#=GC SS_cons             <...>>..........................................>>
+
+O.sativa.1               AUGCU
+O.sativa.2               AUGCU
+O.sativa.3               AUGCU
+Z.mays.1                 AUGC.
+A.thaliana.1             UUCAG
+A.thaliana.2             UUCAG
+A.thaliana.3             CUCCA
+A.thaliana.4             UUCAG
+#=GC SS_cons             >>>>>
+//

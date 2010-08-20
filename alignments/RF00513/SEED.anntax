@@ -1,0 +1,146 @@
+# STOCKHOLM 1.0
+#=GF ID    Trp_leader
+#=GF AC    RF00513
+#=GF DE    Tryptophan operon leader
+#=GF AU    Bateman A
+#=GF GA    34.0
+#=GF NC    33.0
+#=GF TC    36.5
+#=GF SE    Bateman A
+#=GF SS    Published; PMID:6186194
+#=GF TP    Cis-reg; leader;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    6186194
+#=GF RT    Attenuation in amino acid biosynthetic operons.
+#=GF RA    Kolter R, Yanofsky C;
+#=GF RL    Annu Rev Genet 1982;16:113-134.
+#=GF CC    At least 6 amino acid operons are known to be regulated by
+#=GF CC    attenuation [1].  In each a leader sequence of 150-200 bp
+#=GF CC    is found upstream of the first gene in the operon. This
+#=GF CC    leader sequence can assume two different secondary structures
+#=GF CC    known as the terminator and the anti-terminator structure.
+#=GF CC    In each case the leader also codes for very short peptide
+#=GF CC    sequence that is rich in the end product amino acid of the
+#=GF CC    operon. The terminator structure is recognised as a termination
+#=GF CC    signal for RNA polymerase and the operon is not transcribed.
+#=GF CC    This structure forms when the cell has an excess of the
+#=GF CC    regulatory amino acid and ribosome movement over the leader
+#=GF CC    transcript is not impeded [1]. When there is a deficiency of the
+#=GF CC    charged tRNA of the regulatory amino acid the ribosome 
+#=GF CC    translating the leader peptide stalls and the antiterminator 
+#=GF CC    structure can form. This allows RNA polymerase to transcribe
+#=GF CC    the operon [1].
+#=GF CC    In the Rfam alignment the consensus structure is of the
+#=GF CC    terminator structure.
+#=GF WK    http://en.wikipedia.org/wiki/Tryptophan_operon_leader
+#=GF SQ    24
+
+#=GS C.freundii.1           AC    J01557.1/117-211
+#=GS Enterobacter.1         AC    CP000653.1/2394233-2394327
+#=GS E.coli.1               AC    M60742.1/36-129
+#=GS E.coli.2               AC    M60741.1/37-130
+#=GS K.aerogenes.1          AC    J01739.1/99-194
+#=GS Pectobacterium_atros.1 AC    BX950851.1/2602822-2602926
+#=GS Photorhabdus_lumines.1 AC    BX571867.1/113873-113973
+#=GS Salmonella_enterica_.1 AC    FM200053.1/1217657-1217752
+#=GS S.enterica.1           AC    M24960.1/62-157
+#=GS Serratia_proteamacul.1 AC    CP000826.1/2936614-2936717
+#=GS S.marcescens.1         AC    AY027546.1/150-252
+#=GS Yersinia_intermedia_.1 AC    AALF01000034.1/7395-7496
+#=GS Yersinia_pseudotuber.1 AC    CP000720.1/2235898-2235999
+#=GS Yersinia_enterocolit.1 AC    AM286415.1/2419797-2419898
+#=GS Yersinia_mollaretii_.1 AC    AALD01000032.1/7429-7530
+#=GS V.parahaemolyticus.1   AC    X17149.1/292-395
+#=GS Vibrio_angustum_S14.1  AC    AAOJ01000014.1/31482-31576
+#=GS Vibrio_vulnificus_CM.1 AC    AE016795.2/3134989-3135091
+#=GS Vibrio_splendidus_12.1 AC    AAMR01000069.1/10988-11102
+#=GS Vibrio_alginolyticus.1 AC    AAPS01000055.1/16446-16549
+#=GS Vibrio_harveyi_HY01.1  AC    AAWP01000078.1/5392-5495
+#=GS Vibrio_cholerae_M66-.1 AC    CP001233.1/1206422-1206524
+#=GS Plasmid_pATH10.1.1     AC    S49970.1/281-376
+#=GS marine_metag.1         AC    AACY020572468.1/810-905
+
+C.freundii.1                       CACGGUUGGUGG.CGCACUUCCUGAUUU.CGGGCAGUGUC..UUAC....
+Enterobacter.1                     CACGGUUGGUGG.CGCACUUCCUGAAUAUCGGGCAGUG....UCAUUC..
+E.coli.1                           AAAGGUUGGUGG.CGCACUUCCUGAAUU.CGGGCAGUGUAU.UCACCA..
+E.coli.2                           AAAGGUUGGUGG.CGCACUUCCUGAAA..CGGGCAGUGUAU.UCACCA..
+K.aerogenes.1                      CACAGCUGGUGG.CGCACCUCCUGACGA.CGGGCGGCGUGA.UCGCGU..
+Pectobacterium_atros.1             CAUGGUUGGUGG.CGCUCUUCCCUCUCG.CGGGUGGACUAA.UCACGCAU
+Photorhabdus_lumines.1             AUCCGUUGGUGG.CAUAACUUCCCAGUA.AGGGCGGUAUGG.UCACGCAC
+Salmonella_enterica_.1             CACGGUUGGUGG.CGCACUUCCUGAUAG.CGGGCGGUGUAU.GAAC....
+S.enterica.1                       CACGGUUGGUGG.CGCACUUCCUGAUAG.CGGGCGGUGUAU.GAAC....
+Serratia_proteamacul.1             CUUCGUUGGUGG.CGUCACUCCCUUUUU.CGGGCGGAGUAA.UCACGCAU
+S.marcescens.1                     CACGGUUGGUGG.CGUACCUCCCUCUUG.CGGGCGGUGUAA.UCGCGCAU
+Yersinia_intermedia_.1             CUGCGUUGGUGG.CACAUCUCCCUCUCU.CGGGCGGUGUAA.UCACGCAU
+Yersinia_pseudotuber.1             CUGCGUUGGUGG.CAUAUCUCCCUCUCU.CGGGCGAUGUAA.UCACGCAU
+Yersinia_enterocolit.1             CUGCGUUGGUGG.CACAUCUCCCUCUUC.CGGGCGGUGUAA.UCGCGCAU
+Yersinia_mollaretii_.1             CUGCGUUGGUGG.CACAUCUCCCUCACU.CGGGCGGUGUAA.UCGCGCAU
+V.parahaemolyticus.1               CUUGCUUGGUGG.CGCACUUGGACAAG..UUCUUGGUGG.G.CUAACGUG
+Vibrio_angustum_S14.1              AAUAAUUGGUGGUGGCACU.CCUACUUA.CGGGCGGUGUGAAUAGCUG..
+Vibrio_vulnificus_CM.1             CUCGCUUGGUGG.CGCACUUGGACAAG..UUCUUGGUGGGC.UAACGUGU
+Vibrio_splendidus_12.1             CUUAAUUGGUGG.CGCACUUGGACAAG..UUCUUGGUGGGC.UAACGUGU
+Vibrio_alginolyticus.1             CUUGCUUGGUGG.CGCACUUGGACUAG..UUCUUGGUGGGC.AAACGUAU
+Vibrio_harveyi_HY01.1              CUUGCUUGGUGG.CGCACUUGGACAAG..UUCUUGGUGGGC.AAACGUGU
+Vibrio_cholerae_M66-.1             CUGGCUUGGUGG.CGCACUUGGACAAG..UUCUUGGUGGGC.UCACGUGU
+Plasmid_pATH10.1.1                 AAAGGUUGGUGG.CGCACUUCCUGAAA..CGGGCAGUGUAU.UCACCA..
+marine_metag.1                     CACGGCUGGUGG.CGCACCUCCUGAUAU.CGGGCGGCGUGA.UCGCGU..
+#=GC SS_cons                       ........<<<<..<<<<<.<<<<.....>>>>.>>>>>...>>>>....
+#=GC RF                            CauGGUUGGuGg.CgCACcUcCcgAauu.cgGgcgGUGcaa.cCaCGuAU
+
+C.freundii.1                       ...............GUCCGCAAUAUG..CAACCAGAUA....CC..CGG
+Enterobacter.1                     ...............GUGUGCGUUACG..AAAACAGAUA....CC..UGG
+E.coli.1                           ..................UGCGA.GAG..UAGGGAACUG....CC..AGG
+E.coli.2                           ..................UGCGUAAAG..CAAUCAGAGA....CC..CAG
+K.aerogenes.1                      ................UUUGCAUUCAG..CAUACAGAUA....CC..CGG
+Pectobacterium_atros.1             ...............CGCUGUUAUCACA.CAUGCAGAUAUUC.CC..AGG
+Photorhabdus_lumines.1             ...............AUAAAUCAACAG..UGCCAAAUUA....CCA.AAA
+Salmonella_enterica_.1             ...............AGCUGUAAUCAG..CCAAACGAUA....CC..CGG
+S.enterica.1                       ...............AGCUGUAAUCAG..CCAAACGAUA....CC..CGG
+Serratia_proteamacul.1             ...............ACCUGUCAUCUG..ACACUGCAGAUUCCCU..AAG
+S.marcescens.1                     ...............AGCUGUCAUCUG..ACAAUGCAGAUUU.CC..UGG
+Yersinia_intermedia_.1             ...............AUCAGUCACCAGACAAUGCAGAUU....GCUUCAG
+Yersinia_pseudotuber.1             ...............AUCCGUCAUCAGACAGUGCAGAUU....GCUUCAG
+Yersinia_enterocolit.1             ...............AUCAGUCAUCAGACAGUGCAGAUU....GCUUCAG
+Yersinia_mollaretii_.1             UCCA...........GUCAUCAGACAG..UGCAGAUUGC....UU..CAG
+V.parahaemolyticus.1               UACUUCUA.......GUUUAGAAAAAC..AAACGUCAUA........AAG
+Vibrio_angustum_S14.1              ...................UAACUCAG..CAAAAUUGCA....AC..GAG
+Vibrio_vulnificus_CM.1             ACUUUU.........AAUAAAGAAAAU..GAAUCACACA........AAG
+Vibrio_splendidus_12.1             ACUUCUAGUUAAACAGUUUGUUUAUAAA.AAAGUUAUCA....CU..AAG
+Vibrio_alginolyticus.1             ACUUCUA........GUUUAUAGAACC..AAACGUUGUA........AAG
+Vibrio_harveyi_HY01.1              ACUUC..........UAGUUUAGAGAA..UUAAAUGUCA....CA..AAG
+Vibrio_cholerae_M66-.1             AU.............UUCUAAGUUUAGA.UACUCACACA....CC..UAG
+Plasmid_pATH10.1.1                 ..................UGCGUAAAG..CAAUCAGAUA....CC..CAG
+marine_metag.1                     ................UUUGCACUCAG..CAUACAGAUA....CC..CGG
+#=GC SS_cons                       ................................................<<
+#=GC RF                            ...............aucUguaAaaAG..aAaacAgAuA....Cc..aaG
+
+C.freundii.1                       CCCGCCAAA..UGAGCGGGCUUUUUUUU
+Enterobacter.1                     CCCGCGACU..AU.GCGGGCUUUUUUAU
+E.coli.1                           AUCAAAGAU..AAAACGAAAGGCUCAGU
+E.coli.2                           CCCGCCUAA..UGAGCGGGCUUUUUUUU
+K.aerogenes.1                      CCCGCCAA...UGAGCGGGCUUUUUAUU
+Pectobacterium_atros.1             CCCGCUUAAC.UAAGCGGGCUUUUUAUU
+Photorhabdus_lumines.1             CCCGCCUAA..UCAGCGGGUUUUUUUAU
+Salmonella_enterica_.1             CCCGCCUGU..UAAGCGGGCUUUUUUUU
+S.enterica.1                       CCCGCCUGU..UAAGCGUGCGUUUUUUG
+Serratia_proteamacul.1             CCCGCUGGU..AACGCGGGCUUUUUUAU
+S.marcescens.1                     CCCGCACCU..GAUGCGGGCUUUUUUAU
+Yersinia_intermedia_.1             CCCGCUAA....UAGCGGGCUUUUUUAU
+Yersinia_pseudotuber.1             CCCGCUAA....UAGCGGGUUUUUUUAU
+Yersinia_enterocolit.1             CCCGCUAA....UAGCGGGUUUUUUUAU
+Yersinia_mollaretii_.1             CCCGCGAA....UAGCGGGUUUUUUUAU
+V.parahaemolyticus.1               CCCGCUACU..CAAGCGGGCUUUUUAUU
+Vibrio_angustum_S14.1              CCCGCCAUC..AAUGCGGGCUUUUUUAU
+Vibrio_vulnificus_CM.1             CCCGCUAAC..CAUGCGGGCUUUUUAUU
+Vibrio_splendidus_12.1             CCCGCUUUA..AUAGCGGGCUUUUUAAU
+Vibrio_alginolyticus.1             CCCGCUACU..UAAGCGGGCUUUUUUGU
+Vibrio_harveyi_HY01.1              CCCGCUACC..UCAGCGGGCUUUUUGUU
+Vibrio_cholerae_M66-.1             CCCGCCAACU.UGAGCGGGCUUUUUAUU
+Plasmid_pATH10.1.1                 CCCGACGCUAAUGAGCGGGCUUUUUUUU
+marine_metag.1                     CCCGCCAA...UGAGCGGGCUUUUUAUU
+#=GC SS_cons                       <<<<<<......>.>>>>>>>.......
+#=GC RF                            CCCGCuaau..uaAGCGGGCuUUUUuaU
+//

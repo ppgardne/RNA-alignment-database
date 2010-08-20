@@ -1,0 +1,130 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORD91
+#=GF AC    RF00580
+#=GF DE    Small nucleolar RNA SNORD91 family
+#=GF AU    Marantidis E, Daub J
+#=GF GA    39.0
+#=GF NC    37.4
+#=GF TC    42.6
+#=GF PI    snoHBII-296A
+#=GF SE    Marantidis E, INFERNAL
+#=GF SS    Predicted; RNAalifold_manual; Daub J
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    snoRNABase; HBII-296A
+#=GF DR    snoRNABase; HBII-296B
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Mus_musculus300936
+#=GF DR    snoopy; Echinops_telfairi300701
+#=GF RN    [1]
+#=GF RM    12007400
+#=GF RT    Small nucleolar RNAs: an abundant group of noncoding RNAs with
+#=GF RT    diverse cellular functions.
+#=GF RA    Kiss T;
+#=GF RL    Cell. 2002;109:145-148.
+#=GF RN    [2]
+#=GF RM    11387227
+#=GF RT    RNomics: an experimental approach that identifies 201 candidates for
+#=GF RT    novel, small, non-messenger RNAs in mouse.
+#=GF RA    Huttenhofer A, Kiefmann M, Meier-Ewert S, O'Brien J, Lehrach H,
+#=GF RA    Bachellerie JP, Brosius J;
+#=GF RL    EMBO J. 2001;20:2943-2953.
+#=GF RN    [3]
+#=GF RM    16381836
+#=GF RT    snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D box
+#=GF RT    snoRNAs.
+#=GF RA    Lestrade L, Weber MJ;
+#=GF RL    Nucleic Acids Res. 2006;34:D158-D162.
+#=GF CC    The members of this family belong to the C/D class of snoRNAs
+#=GF CC    which contain the C (UGAUGA) and D (CUGA) box motifs. Most of the
+#=GF CC    members of the box C/D family function in directing site-specific
+#=GF CC    2'-O-methylation of substrate RNAs [1]. This family includes
+#=GF CC    HBII-296A (SNORD91A) and HBII-296B (SNORD91B). They are close
+#=GF CC    paralogues and share the same host gene (FLJ10534). Both snoRNAs
+#=GF CC    and are predicted to guide 2'O-ribose methylation of the large
+#=GF CC    28S rRNA at position G4588 [3].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_296A/B
+#=GF SQ    24
+
+#=GS G.gallus.1             AC    AADN02025881.1/14044-14136
+#=GS E.telfairi.1           AC    AAIY01458109.1/1382-1474
+#=GS O.cuniculus.1          AC    AAGW01234134.1/902-995
+#=GS O.princeps.1           AC    AAYZ01105433.1/601-696
+#=GS C.porcellus.1          AC    AAKN02033264.1/8112-8202
+#=GS M.musculus.1           AC    AL604066.9/122672-122762
+#=GS R.norvegicus.1         AC    AABR04000383.1/145952-146042
+#=GS Spermophilus_tridece.1 AC    AAQQ01356717.1/1435-1529
+#=GS M.mulatta.1            AC    AANU01110701.1/426-515
+#=GS H.sapiens.1            AC    AC006435.7/2239-2333
+#=GS H.sapiens.2            AC    AC006435.7/3399-3490
+#=GS P.troglodytes.1        AC    AADA01106034.1/88-182
+#=GS M.murinus.1            AC    ABDC01240858.1/3634-3725
+#=GS Otolemur_garnettii_s.1 AC    AAQR01339298.1/1546-1637
+#=GS C.lupus.1              AC    AAEX02035334.1/332623-332717
+#=GS F.catus.1              AC    AANG01158662.1/5318-5412
+#=GS B.taurus.1             AC    AAFC03038181.1/32658-32752
+#=GS M.lucifugus.1          AC    AAPE01105658.1/4664-4758
+#=GS E.europaeus.1          AC    AANN01330027.1/6135-6227
+#=GS S.araneus.1            AC    AALT01349646.1/581-675
+#=GS E.caballus.1           AC    AAWR02013272.1/4570-4663
+#=GS Dasypus_novemcinctus.1 AC    AAGV021021593.1/998-1092
+#=GS Monodelphis_domestic.1 AC    AAFR03054580.1/13098-13191
+#=GS O.anatinus.1           AC    AAPN01437579.1/109-203
+
+G.gallus.1                         GCAAGAAGCCUGUGAUGUCUUA.GCCAC.AAUGUCUGAACCUGGCUGAAG
+E.telfairi.1                       UAGAGAAGUCAGUGAUGGUUUUACCCAG.AAUGUCUGAACCUGUCUGAAG
+O.cuniculus.1                      CUUAGGAGCCAAUGAUGUUUUUAUGCAA.AAUGUCUGAACCUGUCUGACG
+O.princeps.1                       CUUAGGAGCCAAUGAUGUUUUUAUUCAA.AAUGUCUGAACCUGUCUGAUG
+C.porcellus.1                      CUUAGGAGCCAGUGAUGUUUUUAUUCAU.AAUGUCUGAACCUAUCUGAAG
+M.musculus.1                       CUUAGGAGCCAAUAAUGUUUUUAUUCAA.AAUGUCUGAACCUGUCUGAAG
+R.norvegicus.1                     CUUAGGAGCCAAUGAUGUCUUUAUCCAA.AAUGUCUGAACCUGUCUGAAG
+Spermophilus_tridece.1             CUUAGGAGCCAAUGAUGUUCUUAUUCAA.AAUGUCUGAACCUGUCUGAAA
+M.mulatta.1                        UGGAGAAGUCAGUGAUGGUUUUAUUCAU.GUUGUCUGAACCUGUCUGAAA
+H.sapiens.1                        CUUAAGAGCCAAUGAUGUUUUUAUUCAA.AAUGUCUGAACCUGUCUGAAG
+H.sapiens.2                        UAGAGAAGUCAAUGAUGGUUUUAUUCAU.AUCGUCUGAACCUGUCUGAAG
+P.troglodytes.1                    CUUAUUAGGCAAUGAUGUUUUCAUUCCA.AAUGUCUGAACCUGUCUGAAG
+M.murinus.1                        CAGAGAAGUCAAUGAUGGUUUUACCCAA.AAUGUCUGAACCUGUCUGAAG
+Otolemur_garnettii_s.1             UAGAGAAGUCAAUGAUGACUUUGAAAAA.A.UGUCUGAACCUGUCUGAAG
+C.lupus.1                          UCUAGGAGCCAAUGAUGUUUUUAUUCAC.AAUGUCUGAACCUGUCUGAAG
+F.catus.1                          UCUAGGAGCCAAUGAUGUUUUUAUUCAC.AAUGUCUGAACCUGUCUGAAG
+B.taurus.1                         UUUAGGAGCCAAUGAUGUUUCCAUUCAA.AAUGUCUGAACCUGUCUGAAG
+M.lucifugus.1                      UUUAGAAGCCAAUGAUGUGUUUAUUCAA.AAUGUCUGAACCUGUCUGAAG
+E.europaeus.1                      UAGAGAAGUCAAUGAUGUUUUUACCUAA.CAUGUCUGAACCUGUCUGAAG
+S.araneus.1                        AAGAGAAGUCAAUGAUGGUUUCAUCUAACAUUGUCUGAACCUGUCUGACG
+E.caballus.1                       CUUAGGAACCGAUGAUGUUUUUAUUCAA.AAUGUCUGAACCUGUCUGAAG
+Dasypus_novemcinctus.1             UAGAGAAGUCAAUGAUGCUUUUACCAAA.AAUGUCUGAACCUGUCUGAAG
+Monodelphis_domestic.1             UGGAGAAGCCAAUGAUGGUUUU.GCCAG.AAUGUCUGAACCUGUCUGAAG
+O.anatinus.1                       UGGAGAAGCUAAUGAUGAGGAAAGCUAU.AAUGUCUGAACCUGGCUGAGG
+#=GC SS_cons                       ...<<<<<<<........................................
+#=GC RF                            uagAGaAGCCAAUGAUGuuUUuAuucAa.AAUGUCUGAACCUGUCUGAAG
+
+G.gallus.1                         GAUUCUUCUGAAGACACACACUUG.GG.CACUGAGGCUUCCAGGAGA
+E.telfairi.1                       CAUCUCAGUGAUGCGGCCUCU..GUGG.UGCUGAGACUUCUCUGAUA
+O.cuniculus.1                      CAUCUCAGUGAUGC.AUCUCUAUGUGG.UGCUGAGGCUUCUCUGCCA
+O.princeps.1                       CAUCUCAGUGAUGCAAUCUUUGUAUUGCUGCUGAGGCUUCUCUGCCA
+C.porcellus.1                      CAUCGCCAUGAUGCAACAU....CUGU.UACUGAGGCUUCUUUGGCA
+M.musculus.1                       CAUCCCAGUGAUGCAAAAU....GUUG.UACUGAGGCUUCUCUGCUA
+R.norvegicus.1                     CAUCUCAGUGAUGCACACU....GUUG.UGCUGAGGCUUCUCUGCUC
+Spermophilus_tridece.1             CAUCUCAUUGAUGCAACUUCUGUGUGC.UGCUGAGGCUUCUCUGCCA
+M.mulatta.1                        CAUC..GGUGAUGCAAUCUCUGGGUGA.UUCUGAGACUUCU...CUA
+H.sapiens.1                        CAUCCCAGUGAUGCAACUUCUGUGUGA.UACUGAGGCUUUUUUGCCA
+H.sapiens.2                        CAUCUCAGUGAUGCAAUCUCUGUGUGG.UUCUGAGACUUCU...CCA
+P.troglodytes.1                    CAUCCCACUGAUGCAACCUUCGUGUGA.UACUGAGGCUUUUUUGCCA
+M.murinus.1                        CAUCUCAGUGAUGCAGUCCCCGUGUGG.UUCUGAGACUUCU...CUA
+Otolemur_garnettii_s.1             CAUCUCAGUGAUGCAAACCUUUUGUG...UCUGAGACUUCUCUGAGA
+C.lupus.1                          CAUCCCAGUGAUGCAAUCUUUCUGUGG.UGCUGAGGCUUCUCUGCCA
+F.catus.1                          CAUCCCAGUGAUGCAACCUCUGUGUGG.UGCUGAGGCUUCUCUGCCA
+B.taurus.1                         CAUCCCAGUGAUGCAAACUCUGUGUGG.UGCUGAGGCUCCUGUGCCA
+M.lucifugus.1                      CAUCCCAGUGAUGCUACCUCUGUGUGG.UGCUGAGGUUUCUCUGCCA
+E.europaeus.1                      CAUCUCAGUGAUGU..UAUCUGUGUGG.UUCUGAGACUUCUCUGCUA
+S.araneus.1                        CAUCUCAAUGAUGCAGUGUUUGUG.GU.UUCUGAGACUUCUCUGUAU
+E.caballus.1                       CAUCCCAAUGAUGC.AACUCUGUGUGG.UGCUGAGGCUUCUUUGCCA
+Dasypus_novemcinctus.1             CAUCUCAGUGAUGCAGUCUCUGUAUGG.UUCUGAGACUUCUCUGAGA
+Monodelphis_domestic.1             CAUCUUAGUGAUGCUACAUCCAUAUGG.CUCUGAGGCCUCUUUCUCU
+O.anatinus.1                       CAUCUUUGUGAUGCAUUCUCUUUUUAG.CUCUGAGGUUUCUCCAUAA
+#=GC SS_cons                       ..................................>>>>>>>......
+#=GC RF                            CAUCucAgUGAUGCAAucUcUgUGUGG.uuCUGAGGCUuCUcuGcuA
+//

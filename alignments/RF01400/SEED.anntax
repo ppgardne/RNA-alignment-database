@@ -1,0 +1,68 @@
+# STOCKHOLM 1.0
+#=GF ID    istR
+#=GF AC    RF01400
+#=GF DE    istR Hfq binding RNA
+#=GF AU    Daub J, Gardner PP
+#=GF GA    45.0
+#=GF NC    36.3
+#=GF TC    49.4
+#=GF SE    Predicted; CMfinder; Infernal
+#=GF SS    Predicted; CMfinder
+#=GF TP    Gene; sRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF RN    [1]
+#=GF RM    18725932
+#=GF RT    Deep sequencing analysis of small noncoding RNA and mRNA targets
+#=GF RT    of the global post-transcriptional regulator, Hfq.
+#=GF RA    Sittka A, Lucchini S, Papenfort K, Sharma CM, Rolle K, Binnewies
+#=GF RA    TT, Hinton JC, Vogel J;
+#=GF RL    PLoS Genet. 2008;4:e1000163.
+#=GF RN    [2]
+#=GF RM    15620655
+#=GF RT    The small RNA IstR inhibits synthesis of an SOS-induced toxic
+#=GF RT    peptide.
+#=GF RA    Vogel J, Argaman L, Wagner EG, Altuvia S
+#=GF RL    Curr Biol. 2004;14:2271-2276.
+#=GF WK    http://en.wikipedia.org/wiki/Hfq_binding_sRNA
+#=GF SQ    7
+
+#=GS Enterobacter.1         AC    CP000653.1/26847-26977
+#=GS Escherichia_coli_str.1 AC    AP009048.1/3787168-3787297
+#=GS Escherichia_coli_559.1 AC    CU928145.2/4228138-4228267
+#=GS Escherichia_coli_O15.1 AC    BA000007.2/4643593-4643722
+#=GS Klebsiella_pneumonia.1 AC    CP000647.1/4463773-4463903
+#=GS S.enterica.1           AC    AL627280.1/122581-122710
+#=GS Shigella_dysenteriae.1 AC    CP000034.1/3890919-3891048
+
+Enterobacter.1                     CGUCAAAAUCCGUGCCUGAAAUUGCGCGUUCGUCGCCGAUCGCGUAUACU
+Escherichia_coli_str.1             CGUCAAAAUUCGUGCC.GAAAUUGCGCGUUCUGCGCGGAACACGUAUACU
+Escherichia_coli_559.1             CGUCAAAAUUCGUGCC.GAAAUUGCGCGUUCUGCGCGGAACACGUAUACU
+Escherichia_coli_O15.1             CGUCAAAAUUCGUGCC.GAAAUUGCGCGUUUUGCGCGGAACACGUAUACU
+Klebsiella_pneumonia.1             AGAGAAAAACCG.ACCUUAAAUUGCGCGAACUGCAGCGAUCGCGUAUACU
+S.enterica.1                       CAUCAAAAUUCGCGCC.GAAAUUGCGCGUUCUGCACAGAACGCGUAUACU
+Shigella_dysenteriae.1             CGUCAAAAUUCGUGCC.GAAAUUGCGCGUUCUGCGCGGAACAGGUAUACU
+#=GC SS_cons                       .<<<<<....<<.....<<<..<<<<<<<<<<....>>>>>>>>>>...>
+#=GC RF                            aGucaaAAuuCgugcc.gaaAUugCGcGuuCggcaccGaaCgCGuaUAcu
+
+Enterobacter.1                     UCGUGCGUUGACGUAACACAGUGUGUUUUGCGGAAACCAACCGCAU..AA
+Escherichia_coli_str.1             UUCAGUGUUGACAUAAUACAGUGUGCUUUGCGGUUACCAGCCGCAG..GC
+Escherichia_coli_559.1             UUCAGUGUUGACAUAAUACAGUGUGCUUUGCGGUUACCAGCCGCAG..GC
+Escherichia_coli_O15.1             UUCUGUGUUGACAUAAUACAGUGUGCUUUGCGGUUACCAGCCGCGG..GC
+Klebsiella_pneumonia.1             UUUGGCGUUGACGUAAUACAGUGUGCUU.GCGGCUACCACCUGUAACCAU
+S.enterica.1                       UCUGCUGUUGACAUAACACAGUGUGCUUCGCGGCUACCACCCGCAU..UA
+Shigella_dysenteriae.1             UUCAGUGUUGACAUAAUACAGUGUGCUUUGCGGUUACCAGCCGCAG..GC
+#=GC SS_cons                       >>...>>>>>>>......<<<<.<<<<.<<<<<.......>>>>>>..>>
+#=GC RF                            ucuagcGuugaCaUAAuAcaggGugcuUcgCgGauAccAaCcGcga..gc
+
+Enterobacter.1                     CCCUGAAAAAACCUCGCUUCGGCGGGGUUUUUU
+Escherichia_coli_str.1             GACUGACGAAACCUCGCUCCGGCGGGGUUUUUU
+Escherichia_coli_559.1             GGCUGAUGAAACCUCGCUCCGGCGGGGUUUUUU
+Escherichia_coli_O15.1             GGCUGACGAAACCUCGCUCCGGCGGGGUUUUUU
+Klebsiella_pneumonia.1             GCUGAUAAAAACCUCGCUCCGGCGGGGUUUUUU
+S.enterica.1                       CGCUGUAAGAACCUCGCUUCGGCGAGGUUUUUU
+Shigella_dysenteriae.1             AGCUGACGAAACCUCGCUCCGGCGGGGUUUUUU
+#=GC SS_cons                       >>>>>.<<<<<<<<<<<....>>>>>>>>>>>.
+#=GC RF                            accugaaaaaaCCcCGCUucGGCGgGGuuuuuU
+//

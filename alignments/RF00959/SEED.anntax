@@ -1,0 +1,54 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-612
+#=GF AC    RF00959
+#=GF DE    microRNA mir-612
+#=GF AU    Wilkinson A
+#=GF GA    30.0
+#=GF NC    28.8
+#=GF TC    33.0
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000464
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    6
+
+#=GS M.mulatta.1     AC    AANU01213855.1/10715-10814
+#=GS P.troglodytes.1 AC    AACZ02125370.1/19457-19556
+#=GS M.murinus.1     AC    ABDC01368197.1/2724-2822
+#=GS C.lupus.1       AC    AACN010257726.1/847-951
+#=GS F.catus.1       AC    AANG01068065.1/2277-2377
+#=GS E.caballus.1    AC    AAWR02037820.1/23695-23793
+
+M.mulatta.1                 UCUCAUCUGGACCCCACUGG.GGAGGG.CUUCUGAGCUCCUCAGCACUGG
+P.troglodytes.1             UCCCAUCUGGACCCUGCUGG.GCAGGG.CUUCUGAGCUCCUUAGCACUAG
+M.murinus.1                 UCUCAUCUGGAUCUUGCUGG.GGAGGGGCUUCUGAGUUCCUCAGCGCUGG
+C.lupus.1                   UCUCAUCUGGACCCUGCUGU.GGAGGGGCCACUGAACUCCUCAGGGUCAA
+F.catus.1                   UCUCCUCUGGACUCUGCUGGAGAAGGG.CUACUGGGCUCCUCAGGGCUGG
+E.caballus.1                UCUCAUCUGGACCUUGCUGG.AAAGGGGCUUCUCAGCUCCUCAGG.CUG.
+#=GC SS_cons                <<<..<<<<<...<<<..<<.<<<<<<.<<<<<<<<<<<<<<.<<....>
+#=GC RF                     uCccaccuGGAcuccgcugg.ggaGGG.CccCuGagCccCucAGgacUgc
+
+M.mulatta.1                 CAGGAGGGGCUCCAGGGGCC.....CUCC.CUCCAUGG.CAGCCAGGACA
+P.troglodytes.1             CAGGAGGGGCUCCAGGGGCC.....CUCC.CUCCAUGG.CAGCCAGGACA
+M.murinus.1                 CAGGAGGUGCUCCAGGGACC....AGUCC.CAUAACAG...GCCAAGA.A
+C.lupus.1                   CAGGAGAGGU.CCAGCCGCCUCCAUCCCC.UCCAUGAG.AGCCCAGGCCA
+F.catus.1                   CUGGAGGGGUC.CAGGAGUC.....CUCCCCUCGUGAG.AGGCCAGGACA
+E.caballus.1                .ACGGGGGGGUCCAGGGGCC.....CUCU.CCCCAUGAGAAGCCGGGACA
+#=GC SS_cons                >..>>>>>>>>.>>>>>>>>.....>>>>.>>...>>>....>>>>>...
+#=GC RF                     CAggaGggGcucCaGggGCC.....Cucc.ccaaAcgg.aaGCCaggAcA
+
+M.mulatta.1                 GGACUCUCA
+P.troglodytes.1             GGACUCUCA
+M.murinus.1                 GGACUCGUG
+C.lupus.1                   GGACUCCUG
+F.catus.1                   GGACUCCUG
+E.caballus.1                GGACUCCUG
+#=GC SS_cons                >>>......
+#=GC RF                     gGacUcuug
+//

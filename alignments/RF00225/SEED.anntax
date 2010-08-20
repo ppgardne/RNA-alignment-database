@@ -1,0 +1,81 @@
+# STOCKHOLM 1.0
+#=GF ID    IRES_Tobamo
+#=GF AC    RF00225
+#=GF DE    Tobamovirus internal ribosome entry site (IRES)
+#=GF AU    Moxon SJ
+#=GF GA    21.0
+#=GF NC    0.0
+#=GF TC    50.0
+#=GF PI    Tobamo_IRES
+#=GF SE    http://ifr31w3.toulouse.inserm.fr/IRESdatabase/
+#=GF SS    Published; PMID:9185586
+#=GF TP    Cis-reg; IRES;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000243 SO:internal_ribosome_entry_site
+#=GF DR    GO:0043022 GO:ribosome binding
+#=GF RN    [1]
+#=GF RM    9185586
+#=GF RT    A tobamovirus genome that contains an internal ribosome entry site
+#=GF RT    functional in vitro.
+#=GF RA    Ivanov PA, Karpova OV, Skulachev MV, Tomashevskaya OL, Rodionova NP,
+#=GF RA    Dorokhov YuL, Atabekov JG;
+#=GF RL    Virology 1997;232:32-43.
+#=GF RN    [2]
+#=GF RM    11142379
+#=GF RT    Ribosomal binding to the internal ribosomal entry site of classical
+#=GF RT    swine fever virus.
+#=GF RA    Kolupaeva VG, Pestova TV, Hellen CU;
+#=GF RL    RNA 2000;6:1791-1807.
+#=GF CC    This family represents the Tobamovirus internal ribosome entry site (IRES).
+#=GF CC    IRES elements allow cap and end-independent translation of mRNA in the host
+#=GF CC    cell. The IRES achieves this by mediating the internal initiation of
+#=GF CC    translation by recruiting a ribosomal 43S pre-initiation complex directly
+#=GF CC    to the initiation codon and eliminates the requirement for eIF4F [2].
+#=GF WK    http://en.wikipedia.org/wiki/Tobamovirus_internal_ribosome_entry_site_(IRES)
+#=GF SQ    7
+
+#=GS Tobamovirus.1          AC    S68164.1/682-832
+#=GS Turnip_vein-clearing.1 AC    U03387.1/5455-5605
+#=GS Youcai_mosaic_virus.1  AC    D38444.1/5444-5597
+#=GS Tobacco_mosaic_virus.1 AC    Z29370.1/5456-5606
+#=GS C.tobamovirus.1        AC    AB003936.1/1522-1672
+#=GS C.tobamovirus.2        AC    AB017504.1/5441-5591
+#=GS C.tobamovirus.3        AC    AB017503.1/5442-5592
+
+Tobamovirus.1                      GAAUUCGUCGAUUCGGUUGCAGCAUUUAAAGCGGUUGACAACUUUAAAAG
+Turnip_vein-clearing.1             GAAUUCGUCGAUUCGGUUGCAGCAUUUAAAGCGGUUGACAAUUUCAGGAA
+Youcai_mosaic_virus.1              GAUUUCGUCGAUUCGGUCGCAGCAUUCAAGGCGGUUGACACUUUCAGAAA
+Tobacco_mosaic_virus.1             GAAUUCGUCGAUUCGGUUGCAGCAUUUAAAGCGGUUGACAACUUUAAAAG
+C.tobamovirus.1                    GAAUUCAUCGAUUCGGUUGCAGCAUUUAAAGCGGUUGACAAUUUCAGGAA
+C.tobamovirus.2                    GAAUUCAUCGAUUCGGUUGCAGCAUUUAAAGCGGUUGACAAUUUCAGGAA
+C.tobamovirus.3                    GAAUUCAUCGAUUCGGUUGCAGCAUUUAAAGCGGUUGACAAUUUCAGGAA
+#=GC SS_cons                       ........................<<<..<<..<<<...>>>>>..>>>.
+
+Tobamovirus.1                      AAGGAAAAAGAAGGUUGAAGAAAAGGGUGUAGUAAGUAA...GUAUAAGU
+Turnip_vein-clearing.1             GAGGAAAAAGAAGGUUGAAGAAAGGGAUGUAGUAAGUAA...GUAUAAAU
+Youcai_mosaic_virus.1              GAAAAAGAAAAGGAUUGGAGGAAAGGAUGUAAAUAAUAAUAAGUUUAGAU
+Tobacco_mosaic_virus.1             AAGGAAAAAGAAGGUUGAAGAAAAGGGUGUAGUAAGUAA...GUAUAAGU
+C.tobamovirus.1                    AAAGAAAAAGAAGAUUGGAGGAAGGGAUGUGAUUAGUAA...GUAUAAGU
+C.tobamovirus.2                    AAAGAAAAAGAAGAUUGGAGGAAGGGAUGUGAUUAGUAA...GUAUAAGU
+C.tobamovirus.3                    AAAGAAAAGGAAGAUUGGAGGAAGGGAUGUGAUUAGUAA...GUAUAAGU
+#=GC SS_cons                       ................................<<<<<.<...<<<<..>>
+
+Tobamovirus.1                      ACAGACCGGAGAAGUACGCCGGUCCUGAUUCGUUUAAUUUGAAAGAAGAA
+Turnip_vein-clearing.1             AUAGACCGGAGAAAUACGCCGGUCCUGAUUCGUUUAAUUUAAAAGAAGAA
+Youcai_mosaic_virus.1              AUAGACCGGAGAGAUACGCCGGUCAGGAUUCGUUAAAUUAUAAAGAAGAA
+Tobacco_mosaic_virus.1             ACAGACCGGAGAAGUACGCCGGUCCUGAUUCGUUUAAUUUGAAAGAAGAA
+C.tobamovirus.1                    AUAGACCAGAGAAGUACGCCGGUCCUGAUUCGUUACUUAAUAAAGAAGAA
+C.tobamovirus.2                    AUAGACCAGAGAAGUACGCCGGUCCUGAUUCGUUACUUAAUAAAGAAGAA
+C.tobamovirus.3                    AUAGACCAGAGAAGUACGCCGGUCCUGAUUCGUUACUUAAUAAAGAAGAA
+#=GC SS_cons                       ><<<<<<<<.........>>>>>>.>>.>>.>>>>>..............
+
+Tobamovirus.1                      AAUG
+Turnip_vein-clearing.1             AAUG
+Youcai_mosaic_virus.1              AAUG
+Tobacco_mosaic_virus.1             AAUG
+C.tobamovirus.1                    AAUG
+C.tobamovirus.2                    AAUG
+C.tobamovirus.3                    AAUG
+#=GC SS_cons                       ....
+//

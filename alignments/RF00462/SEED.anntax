@@ -1,0 +1,53 @@
+# STOCKHOLM 1.0
+#=GF ID    IRES_APC
+#=GF AC    RF00462
+#=GF DE    APC internal ribosome entry site (IRES)
+#=GF AU    Moxon SJ
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    22.5
+#=GF SE    Published; 12034871
+#=GF SS    Published; PMID:12034871
+#=GF TP    Cis-reg; IRES;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000243 SO:internal_ribosome_entry_site
+#=GF DR    GO:0043022 GO:ribosome binding
+#=GF RN    [1]
+#=GF RM    12034871
+#=GF RT    Attenuated APC alleles produce functional protein from internal
+#=GF RT    translation initiation.
+#=GF RA    Heppner Goss K, Trzepacz C, Tuohy TM, Groden J;
+#=GF RL    Proc Natl Acad Sci U S A 2002;99:8161-8166.
+#=GF CC    This family represents an APC internal ribosome entry site (IRES)
+#=GF CC    which is located in the coding sequence of the gene. APC is a
+#=GF CC    tumour suppressor gene which is associated with the inherited
+#=GF CC    disease adenomatous polyposis coli (APC).It is thought that
+#=GF CC    IRES-mediated translation of APC is important for an apoptotic
+#=GF CC    cascade [1].
+#=GF WK    http://en.wikipedia.org/wiki/APC_internal_ribosome_entry_site_(IRES)
+#=GF SQ    6
+
+#=GS X.laevis.1   AC    U64442.1/511-563
+#=GS G.gallus.1   AC    BX932893.1/573-625
+#=GS G.gallus.2   AC    BX934229.1/489-541
+#=GS M.musculus.1 AC    M88127.1/505-557
+#=GS H.sapiens.1  AC    M73548.1/549-601
+#=GS H.sapiens.2  AC    M74088.1/529-581
+
+X.laevis.1               AGCCUUCCUCUUACAGAAAAUUUUUCCAUGCAGACUGAUAUGACCAGAAG
+G.gallus.1               AGCCUCCCCCUUACUGAAAAUUUCUCCUUGCAAACAGAUAUGACCAGAAG
+G.gallus.2               AGUCUCCACCUUACUGAAAAUUUCUCCUUGCAAACAGAUAUGACCAGAAG
+M.musculus.1             AGCCUGCCUUUAACUGAAAAUUUUUCCUUACAGACAGACAUGACAAGACG
+H.sapiens.1              AGUCUUCCUUUAACUGAAAAUUUUUCCUUACAAACAGAUUUGACCAGAAG
+H.sapiens.2              AGUCUUCCUUUAACUGAAAAUUUUUCCUUACAAACAGAUAUGACCAGAAG
+#=GC SS_cons             .<<<<<<....<<<<<..................>>>.>>......>>>>
+
+X.laevis.1               ACA
+G.gallus.1               GCA
+G.gallus.2               GCA
+M.musculus.1             GCA
+H.sapiens.1              GCA
+H.sapiens.2              GCA
+#=GC SS_cons             >>.
+//

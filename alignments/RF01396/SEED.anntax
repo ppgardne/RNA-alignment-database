@@ -1,0 +1,109 @@
+# STOCKHOLM 1.0
+#=GF ID    isrN
+#=GF AC    RF01396
+#=GF DE    isrN Hfq binding RNA
+#=GF AU    Daub J, Gardner PP
+#=GF GA    44.0
+#=GF NC    43.7
+#=GF TC    44.2
+#=GF SE    Predicted; WAR; Infernal
+#=GF SS    Predicted; WAR
+#=GF TP    Gene; sRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF RN    [1]
+#=GF RM    18725932
+#=GF RT    Deep sequencing analysis of small noncoding RNA and mRNA targets
+#=GF RT    of the global post-transcriptional regulator, Hfq.
+#=GF RA    Sittka A, Lucchini S, Papenfort K, Sharma CM, Rolle K, Binnewies
+#=GF RA    TT, Hinton JC, Vogel J;
+#=GF RL    PLoS Genet. 2008;4:e1000163.
+#=GF RN    [2]
+#=GF RM    18267966
+#=GF RT    Small RNAs encoded within genetic islands of Salmonella
+#=GF RT    typhimurium show host-induced expression and role in virulence.
+#=GF RA    Padalon-Brauch G, Hershberg R, Elgrably-Weiss M, Baruch K,
+#=GF RA    Rosenshine I, Margalit H, Altuvia S
+#=GF RL    Nucleic Acids Res. 2008;36:1913-1927.
+#=GF WK    http://en.wikipedia.org/wiki/Hfq_binding_sRNA
+#=GF SQ    17
+
+#=GS Marinobacter_algicol.1 AC    ABCP01000010.1/78244-78386
+#=GS Shewanella_sediminis.1 AC    CP000821.1/2382844-2382986
+#=GS Enterobacter.1         AC    CP000654.1/152139-152281
+#=GS Escherichia_coli_F11.1 AC    AAJU02000001.1/52547-52687
+#=GS E.coli.1               AC    AJ555214.1/6937-7077
+#=GS Escherichia_coli_101.1 AC    AAMK02000003.1/142135-142277
+#=GS E.coli.2               AC    AM236323.1/45422-45564
+#=GS Escherichia_coli_SMS.1 AC    CP000970.1/3226739-3226881
+#=GS K.pneumoniae.1         AC    AP006726.1/124229-124365
+#=GS Salmonella_enterica_.1 AC    ABEH02000004.1/255064-255206
+#=GS S.enterica.1           AC    Z83734.1/1306-1448
+#=GS Salmonella_enterica_.2 AC    ABEI01000013.1/92621-92763
+#=GS Salmonella_enterica_.3 AC    ABAN01000021.1/58003-58135
+#=GS Yersinia_pestis_biov.1 AC    ABAT01000003.1/86261-86394
+#=GS Y.enterocolitica.1     AC    AJ132945.1/6323-6465
+#=GS Yersinia_enterocolit.1 AC    AM286416.1/1148-1285
+#=GS L.pneumophila.1        AC    CR628337.1/907551-907693
+
+Marinobacter_algicol.1             CAAUCACCG.GUUCAUCCCGGGAGGUGUCCGGCCGAUACCGGUACACAGA
+Shewanella_sediminis.1             CAAUAACGG.GGUCAUCCCGGCACUUAUCAGGCUGAUAACGGUAUACCGA
+Enterobacter.1                     GGAUCACCG.GUUCAUCACGCCGGGUAUCAGGCUGAUAAAAAUAUACCGU
+Escherichia_coli_F11.1             CGAAAACGACGGCCACAGACUAGGGCAUCAUGC..AUAA.AAUCGACAGA
+E.coli.1                           CAAUAACGG.GUUCAUCACGCGUGGUAUCCGGGCGGUAAUGGUAAACCGU
+Escherichia_coli_101.1             UAAUCACCG.GCUCAUCACGUCGCGUAUCCGGCUGAUAACGAAAUACCGU
+E.coli.2                           CAAUAACGG.GCUCGUCAGGCGUGGUAUCCGGGCGGUAAUGGUAAACCGU
+Escherichia_coli_SMS.1             CAAUAACGG.GGUCGUACCACGUGGUAUCCGGACGGUAAUGGGAAACCGU
+K.pneumoniae.1                     UUAUCGCCC.GAUCAUCCCGCCGGC..UCUGCC....AGUGGUAAACGGU
+Salmonella_enterica_.1             AGAUCACCA.GUUCAUCUCGGCGUAUUUCGGCUUGGAGAAAAUAUACCGU
+S.enterica.1                       UAAUAACGG.GUUCGUCACGUGUGUUAUCCGGACGGUAAUGAUAAACCGU
+Salmonella_enterica_.2             CAAUAACGG.GUUCGUCACGCGUGGUAUCCGGAUGGUAAUGGUAAACCGU
+Salmonella_enterica_.3             UAAUAACGG.GUUCGUCACGUGUGUUAUCCGGAC..........AACCGU
+Yersinia_pestis_biov.1             CUACAAGCC......UUAAAACGGAAACCAAGACCAUAA...ACUUCUGU
+Y.enterocolitica.1                 GGAUCACCG.GUUCAUCACGUCGUUUAUUCGGUUGAUAACGAAACACCGU
+Yersinia_enterocolit.1             CUCUUACGG......AAGAGCGCGACACUCUGCGCGAAGAAGUUAACCGA
+L.pneumophila.1                    CAAUGACAC.UUUCAUCAGAGCGACUAUCCGGUUUAUAGCGAUAAACCGA
+#=GC SS_cons                       .........................<<<<.<<................<.
+#=GC RF                            caAUaACgG.GuUCAucacGugggguAuCcGgcuGguAAaaauAaACCGu
+
+Marinobacter_algicol.1             GUCACUGAUGC..CAGC.GAUUCGGCAGGCUCUGC.GAAUGCUGACGCCG
+Shewanella_sediminis.1             UGGACUGAUGCCAACAACGCGGCAGG.CAAGUCG...GAUACUGGUUUGA
+Enterobacter.1                     CCUGCUCAGCG..AUAA.CGUCCUGC.AGGCCUGGCGUAAACUCAUGGCA
+Escherichia_coli_F11.1             CCAGCUCAGGU..UCAG.ACUCCGGC.AGGCCUGACGGAUACUGAGUUCG
+E.coli.1                           UCUGCUCAGGU..UCAG.ACUCCGGC.AGG.CUGACGGAUACUGAGUCCG
+Escherichia_coli_101.1             CCUGCUCAGCG..ACAA.UGUCCUGC.AGGCCUGGCGUAAGCUCAUGGCA
+E.coli.2                           UCUGCUCAGGU..UCAG.ACUCCGGC.AGGCCUGACGGAUACUGAGUCCG
+Escherichia_coli_SMS.1             UCUGCUCUGGU..UCAG.ACUCCGGC.AGGCCUGAUGGACACUGAGUCCA
+K.pneumoniae.1                     UCUGCUCUGCA..UCAG.CAGUCCGC.AUCCCCGCCGGACACUGAUACGG
+Salmonella_enterica_.1             CCUGCUCAGCG..AUAA.UGACCUCC.AUGCUUGACGUAAGUACAUGGCA
+S.enterica.1                       UCUGCUCAGGU..UCAG.GCUCCGGC.AGGCCUGACGGAUACUGAGUCCG
+Salmonella_enterica_.2             UCUGCUCAGGU..UCAG.ACUCCGGC.AGGCCUGACGGAUACUGAGUCCA
+Salmonella_enterica_.3             UCUGCUCAGGU..UCAG.GCUCCGGC.AGGCCUGACGGAUACUGAGUCCG
+Yersinia_pestis_biov.1             UUGGGUCAUUU..UAAC.AAAUGAUC.UCG.UUGGAGCCGUAGGAUCGCA
+Y.enterocolitica.1                 CCUGCUCAGCG..AUAA.CGUCCUGC.AUGCCUGGCGUAUGCUCAUCGUA
+Yersinia_enterocolit.1             CUUAAUCAGGA..GAUA.CGUCCUGC.AUGCCUGGCGUAUGCUCAUCGUA
+L.pneumophila.1                    GUCGCUGAUAC..CUAC.AACUUUGC.AAGCGCGGCGUAAACUCACAGUA
+#=GC SS_cons                       <<<<<...<<<.......>>>...>>.>>>.>..<<<<............
+#=GC RF                            CcuGCUCAggg..acAa.ccuCCuGC.agGCCUGaCGuAuaCUcAuugcA
+
+Marinobacter_algicol.1             UGAGCCUGCUUAAG.GUAAUCCACCCGUUCUCGUCGAACGGCUGGCUUU
+Shewanella_sediminis.1             UGUACAUUGAGCAC.AUAAUCAACCAGUUCACGCCUGACCGCUGGCUUC
+Enterobacter.1                     AAAUGCGCCGUCAG.AUAGCGGACGAGUUCACGCUUUAUCGCUGGUUUU
+Escherichia_coli_F11.1             AACGUCGUUAUCAG.AUGAGUAACCAGCUCACGCUUAAAGGCUGGUUUU
+E.coli.1                           AAUGUCGUUAUCAG.AUGAGUGACCAGU.CACGCUUAAAGGCUGAUUUU
+Escherichia_coli_101.1             AACUGCGCGGUCAG.AUAGCUGACCAGCUCACGCUUUAUCGCUGGUUUU
+E.coli.2                           AACGUCGUUAUCAG.AUGAGUAACCAGCUCACGCUUAAAGGCUAGUUUU
+Escherichia_coli_SMS.1             AAUGUCGUUAUCUG.AUGAGUAACAAGCUCACGCUUACAGGCUGGUUUU
+K.pneumoniae.1                     UAAGCCUCCCGCAG.AAAAUGUACCGCCUGACGCUUCUGAGCCGGCCUC
+Salmonella_enterica_.1             AAUUGCACUGUCAG.AUAGUUGACGCUCUAGAAUUUUAUCAAUGAUUUU
+S.enterica.1                       AAUGCCGUUAUCAG.AUGAGUGACCAGCUCACGCUUAAAGGCUGGUUUU
+Salmonella_enterica_.2             AAUGUCGUUAUCAG.AUGAGUGACCAGCUCACGCUUAAAGGCUGGUUUU
+Salmonella_enterica_.3             AAUGCCGUUAUCAG.AUGAGUGACCAGCUCACGCUUAAAGGCUGGUUUU
+Yersinia_pestis_biov.1             AAUUGCGCGGUCAG.GUAAUUGACGAGCUCACGCUUUAUCGCUGGUUUU
+Y.enterocolitica.1                 AACUGCGUGGUCAG.AUAGUUGACGAGCUCACGCUUUAUCGCUGGUUUU
+Yersinia_enterocolit.1             AACUGCGUGGUCAG.AUAGUUGAUGAGCUCACGCUUUAUCGCUGGUUUU
+L.pneumophila.1                    UGA.GCAUUGACUGCAUAAUCAACCAACUCCCGACGCACAGUUGGCUUC
+#=GC SS_cons                       ....>>>>..>>.>.>>>...<<<.<<<............>>>.>>>..
+#=GC RF                            AAcugCGuuguCAG.aUaguUgACgAGCUCACGCUUuAucGCUGGUuUU
+//

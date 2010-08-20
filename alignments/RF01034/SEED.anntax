@@ -1,0 +1,50 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-618
+#=GF AC    RF01034
+#=GF DE    microRNA mir-618
+#=GF AU    Wilkinson A, Daub J
+#=GF GA    23.0
+#=GF NC    0.0
+#=GF TC    25.2
+#=GF SE    miRBase; Daub J
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000553
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    5
+
+#=GS M.mulatta.1     AC    AANU01112357.1/15114-15214
+#=GS G.gorilla.1     AC    CABD01213477.2/1785-1885
+#=GS H.sapiens.1     AC    AADB02015318.1/237377-237477
+#=GS P.troglodytes.1 AC    AACZ02136156.1/40969-41069
+#=GS P.abelii.1      AC    ABGA01129596.1/1254-1354
+
+M.mulatta.1                 UUCUUGUUCACAACCAAACUCUACUUGUCCUUCUGAGUGUGAUUACGCCC
+G.gorilla.1                 CUCUUGUUCACAGCCAAACUCUACUUGUCCUUCUGAGUGUAAUUAUGUAC
+H.sapiens.1                 CUCUUGUUCACAGCCAAACUCUACUUGUCCUUCUGAGUGUAAUUACGUAC
+P.troglodytes.1             CUCUUGUUCACAGCCAAACUCUACUUGUCCUUCUGAGUGUAAUUACGUAC
+P.abelii.1                  CUCUUGUUCACAGCCAAACUCUACUUGUCCUUCUGAGUGUAAUUAUGUAC
+#=GC SS_cons                ..<<<<<<<<<<<...<<<<<<.<<<<<<.<<<<<<<<...<<<.<<...
+#=GC RF                     uUCccguuCaCagccAaacuCuAcuuGcCcuuCuGaGuGUaauuACguac
+
+M.mulatta.1                 AUGGAGUAGCUCAGGAGGCAAACAGGGUUACCCUGUGGAUAGGUCUGAAA
+G.gorilla.1                 AUGCAGUAGCUCAGGAGACAAGCAGGGUUACCCUGUGGAUGAGUCUGAAA
+H.sapiens.1                 AUGCAGUAGCUCAGGAGACAAGCAGGUUUACCCUGUGGAUGAGUCUGAAA
+P.troglodytes.1             AUGCAGUAGCUCAGGAGACAAGCAGGGUUACCCUGUGGAUGAGUCUGAAA
+P.abelii.1                  AUGCAGUAGCUCAGGAGACAAGCAGGGUUACCCUGUGGACGAGUCUGAAA
+#=GC SS_cons                .>>.>>>.>>>>>>>>>>>>>>.>>>>>>...>>>>>>>>>>>.......
+#=GC RF                     AuGgaguAgCuCaGgaGgCaagcaGgguuAcccuGuGgauggGUcUGAAA
+
+M.mulatta.1                 A
+G.gorilla.1                 A
+H.sapiens.1                 A
+P.troglodytes.1             A
+P.abelii.1                  A
+#=GC SS_cons                .
+#=GC RF                     A
+//

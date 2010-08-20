@@ -1,0 +1,49 @@
+# STOCKHOLM 1.0
+#=GF ID    sroD
+#=GF AC    RF00370
+#=GF DE    sroD RNA
+#=GF AU    Moxon SJ
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    22.2
+#=GF SE    PMID:14602901
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; sRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000655 SO:ncRNA
+#=GF RN    [1]
+#=GF RM    14602901
+#=GF RT    RNomics in Escherichia coli detects new sRNA species and indicates
+#=GF RT    parallel transcriptional output in bacteria.
+#=GF RA    Vogel J, Bartels V, Tang TH, Churakov G, Slagter-Jager JG,
+#=GF RA    Huttenhofer A, Wagner EG;
+#=GF RL    Nucleic Acids Res 2003;31:6435-6443.
+#=GF CC    This family consists of a number of bacterial sroD RNA genes of around 90
+#=GF CC    bases in length. sroD is found in several Enterobacterial species but its
+#=GF CC    function is unknown [1].
+#=GF WK    http://en.wikipedia.org/wiki/sroD_RNA
+#=GF SQ    5
+
+#=GS Enterobacter.1         AC    CP000653.1/2564255-2564343
+#=GS E.coli.1               AC    L02649.1/1951-2034
+#=GS E.coli.2               AC    X07055.1/58-143
+#=GS Klebsiella_pneumonia.1 AC    CP000647.1/2543259-2543344
+#=GS Salmonella_enterica_.1 AC    ABEJ01000013.1/113977-114065
+
+Enterobacter.1                     UUACGUGACGAAGCGCGCGCCAAAGUGGACAAUAAAGCCUAAGCUUCGAG
+E.coli.1                           UUACGUGACGAAGCGC..GGCAAAGUGGACAAUAAAGCCUGAGCGUUAAG
+E.coli.2                           UUACGUGACGAAGCGCGCGGCAAAGUGGACAAUAAAGCCUGAGCGUUAAG
+Klebsiella_pneumonia.1             CUGCGUGACGAAGCGCGCGCUAAAGUGGACAAUAAAGGCUAAGUAACGAA
+Salmonella_enterica_.1             CUGCGUGACGAAGCCCGUGGCAAAGUAGACAAUAAAGCCUGAGCGUUAAG
+#=GC SS_cons                       ..............<<<.<<<...............>>>...........
+#=GC RF                            UUAcGUGAcGAAGcGCgcGGCAAAGUGGAcAAUAAAGCCUGAGcGUUAAG
+
+Enterobacter.1                     UAAGU...CGCCAUGAGACGCCGGUUUAGCCGGCGUUUUUUA
+E.coli.1                           UCAGU...CGUC...AGACGCCGGUUAAUCCGGCGUUUUUUU
+E.coli.2                           UCAGU...CGUC...AGACGCCGGUUAAUCCGGCGUUUUUUU
+Klebsiella_pneumonia.1             UGAGU...CGCC...UGACGCCGGCUACGCCGGCGUUUUUUA
+Salmonella_enterica_.1             UCAGCUAACGAG...AGACGCCGGUUAAGCCGGCGUUUUUUU
+#=GC SS_cons                       ........>>.>....<<<<<<<<.....>>>>>>>>.....
+#=GC RF                            UcAGU...cGUC...AgaCGCCGGUUAAUCCGGCGuuUUUUU
+//

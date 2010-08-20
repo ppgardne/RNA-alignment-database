@@ -1,0 +1,86 @@
+# STOCKHOLM 1.0
+#=GF ID    snoZ107_R87
+#=GF AC    RF00360
+#=GF DE    Small nucleolar RNA Z107/R87
+#=GF AU    Moxon SJ
+#=GF GA    21.0
+#=GF NC    20.9
+#=GF TC    23.1
+#=GF SE    Moxon SJ
+#=GF SS    Predicted; RNAfold; Moxon SJ, Daub J, Gardner PP
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Arabidopsis_thaliana300058
+#=GF RN    [1]
+#=GF RM    11469857
+#=GF RT    Identification of 66 box C/D snoRNAs in Arabidopsis thaliana:
+#=GF RT    extensive gene duplications generated multiple isoforms predicting
+#=GF RT    new ribosomal RNA 2'-O-methylation sites.
+#=GF RA    Barneche F, Gaspin C, Guyot R, Echeverria M;
+#=GF RL    J Mol Biol 2001;311:57-73.
+#=GF RN    [2]
+#=GF RM    12007400
+#=GF RT    Small nucleolar RNAs: an abundant group of noncoding RNAs with
+#=GF RT    diverse cellular functions.
+#=GF RA    Kiss T;
+#=GF RL    Cell 2002;109:145-148.
+#=GF RN    [3]
+#=GF RM    12736310
+#=GF RT    The high diversity of snoRNAs in plants: identification and
+#=GF RT    comparative study of 120 snoRNA genes from Oryza sativa.
+#=GF RA    Chen CL, Liang D, Zhou H, Zhuo M, Chen YQ, Qu LH;
+#=GF RL    Nucleic Acids Res 2003;31:2601-2613.
+#=GF CC    Z107 and R87 are members of the C/D class of snoRNA which contain the
+#=GF CC    C (UGAUGA) and  D (CUGA) box motifs. Most of the members of the box C/D
+#=GF CC    family function in directing site-specific 2'-O-methylation of substrate
+#=GF CC    RNA
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_Z107/R87
+#=GF SQ    9
+
+#=GS O.sativa.1     AC    AJ489954.1/1-104
+#=GS O.sativa.2     AC    AY013245.2/61987-62105
+#=GS O.sativa.3     AC    AJ307662.1/4013-4128
+#=GS O.sativa.4     AC    AY013245.2/57789-57907
+#=GS O.sativa.5     AC    AJ307928.1/3-121
+#=GS O.sativa.6     AC    AJ489952.1/1-119
+#=GS M.truncatula.1 AC    AC135465.23/41412-41522
+#=GS A.thaliana.1   AC    AJ298135.1/1-115
+#=GS A.thaliana.2   AC    AF318011.1/1-106
+
+O.sativa.1                 ......UGGCUGUGACGACUAGGUGAAAUU.CAAGCUCAACAGACCAAAU
+O.sativa.2                 ....GAUGGCAGUGACGACUUGGUAAUAUU.CAAGCUCAACAGACCAAAU
+O.sativa.3                 ....GAUGGCAGUGACGACCUGGUAAUAUU.CAAGCUCAACAGACCAAAU
+O.sativa.4                 ....GAUGGCAGUGACGACUUGGUAAUAUU.CAAGCUCAACAGACCAAAU
+O.sativa.5                 ....GAUGGCAGUGACGACCUGGUAAUAUU.CAAGCUCAACAGACCAAAU
+O.sativa.6                 ....GAUGGCAGUGACGACUUGGUAAUAUU.CAAGCUCAACAGACCAAAU
+M.truncatula.1             ....GAUCACGAUGAUGACUCCAUAAAAUU.CAAGCUCAACAGACCGCAG
+A.thaliana.1               GAGAAAUCGUGGUGAUGACUUGGAAAUAUU.CAAGCUCAACAGACCGUAA
+A.thaliana.2               .......GGCAGUGAUGACUCGG..AAAUUUCAAGCUCAACAGACCGGAA
+#=GC SS_cons               ....<<<<<<........................................
+
+O.sativa.1                 CACAGGUCUC..UCUCCAAGGCCUU.UGGAGAUGGGAUCUGUAUGCCGA.
+O.sativa.2                 CACAGGUCUUCCUCUCUGGAUCCAC..UCCUCUGGGAUUGAUUUG..UAU
+O.sativa.3                 CACAGGUCUU..UCUCUCUGGAUC...UACUCAGGGAUUGAUUUG..UAU
+O.sativa.4                 CACAGGUCUU..UCUCUCUGGAUCCACUCCUCUGGGAUUGAUUUG..UAU
+O.sativa.5                 CACAGGUCUU..UCUCUCUGGAUCUACUCCUCAGGGAUUGAUUUG..UAU
+O.sativa.6                 CACAGGUCUUCCUCUCUGGAUCUAC..UCCUCUGGGAUUGAUUUG..UAU
+M.truncatula.1             UGCAGUGCUU..UCUU.CU..CU.....UUCGAGAGAUUGCUUUG.CGUG
+A.thaliana.1               UGUAGGAUUU..U..............UCCUAGUGGAAAGUCUUGCGUGU
+A.thaliana.2               UUAGGCGUUU..CUUCCAA....UU.UAUUGGUUGAGUCGUUUCUG.UGU
+#=GC SS_cons               ..................................................
+
+O.sativa.1                 ....GU..UUCCGCUC.....AGCCG......
+O.sativa.2                 GCCGAUUUUCCCGCUGAACCGAGCCAUC....
+O.sativa.3                 GCCGAUUUUUCCGCUGAACCGAGCCAUC....
+O.sativa.4                 GCCGAUUUUCCCGCUGAACCGAGCCAUC....
+O.sativa.5                 GCCGAUUUUUCCGCUGAACCGAGCCAUC....
+O.sativa.6                 GCCGAUUUUCCCGCUGAACCGAGCCAUC....
+M.truncatula.1             UC.GAUAACCCCGCUGAACUGAGUGAUC....
+A.thaliana.1               GUCGAUAAUCCCGCUGAACUGAGCGAUUUCUC
+A.thaliana.2               ..CGAUAACCCCGCUGAUCUGAGCC.......
+#=GC SS_cons               ......................>>>>>>....
+//

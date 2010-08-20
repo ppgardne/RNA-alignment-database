@@ -1,0 +1,92 @@
+# STOCKHOLM 1.0
+#=GF ID    JEV_hairpin
+#=GF AC    RF00465
+#=GF DE    Japanese encephalitis virus (JEV) hairpin structure
+#=GF AU    Moxon SJ
+#=GF GA    27.0
+#=GF NC    23.2
+#=GF TC    35.3
+#=GF SE    PMID:15113895
+#=GF SS    Published; PMID:15113895
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    15113895
+#=GF RT    Accumulation of a 3'-terminal genome fragment in Japanese
+#=GF RT    encephalitis virus-infected mammalian and mosquito cells.
+#=GF RA    Lin KC, Chang HL, Chang RY;
+#=GF RL    J Virol 2004;78:5133-5138.
+#=GF CC    This family represents a small hairpin structure found in the 5' UTR of
+#=GF CC    Japanese encephalitis and related viruses. This element is significantly
+#=GF CC    over-represented upon host cell infection and it has been suggested that
+#=GF CC    the family may play a role in regulating RNA synthesis [1].
+#=GF WK    http://en.wikipedia.org/wiki/Japanese_encephalitis_virus_(JEV)_hairpin_structure
+#=GF SQ    20
+
+#=GS Japanese_encephaliti.1  AC    AY316157.1/10440-10498
+#=GS Japanese_encephaliti.2  AC    AY278556.1/147-205
+#=GS Japanese_encephaliti.3  AC    L54067.1/246-304
+#=GS Japanese_encephaliti.4  AC    AF306517.1/63-121
+#=GS West_Nile_virus.1       AC    AF458353.1/265-324
+#=GS Koutango_virus.1        AC    L48980.1/304-362
+#=GS Japanese_encephaliti.5  AC    AF306514.1/49-107
+#=GS Japanese_encephaliti.6  AC    L54071.1/246-304
+#=GS Japanese_encephaliti.7  AC    M18370.1/10454-10512
+#=GS West_Nile_virus.2       AC    AF458346.1/310-369
+#=GS Japanese_encephaliti.8  AC    AF306515.1/54-112
+#=GS Japanese_encephaliti.9  AC    AY303798.1/10454-10512
+#=GS Japanese_encephaliti.10 AC    AY184212.1/10454-10512
+#=GS West_Nile_virus.3       AC    AY277251.1/10451-10508
+#=GS Japanese_encephaliti.11 AC    AF098736.1/10454-10512
+#=GS West_Nile_virus.4       AC    AF196543.1/291-350
+#=GS West_Nile_virus.5       AC    AF458352.1/265-324
+#=GS Japanese_encephaliti.12 AC    AF306516.1/54-112
+#=GS Japanese_encephaliti.13 AC    L78128.1/10429-10487
+#=GS Alfuy_virus.1           AC    L48966.1/292-348
+
+Japanese_encephaliti.1              GUGGAGUCAGGCCAG..CAAAA.GCUGCCACCGAAUACUGAGUAGACGGU
+Japanese_encephaliti.2              GUGGAGUCAGGCCAG..CAAAA.GCUGCCACCGGAUACUGAGUAGACGGU
+Japanese_encephaliti.3              AUGGAGUCAGGCCAG..CAAAC.GCUGCCACCGGAAACUGGGUAGACGGU
+Japanese_encephaliti.4              AUGGAGUCAGGCCAG..CAAAA.GCUGCCACCGGAUACUGGGUAAACGGU
+West_Nile_virus.1                   AGGAAGUCAGGCCGGAGCAUUU..CCGCCACCGGAUGCUGAGUAGACUGU
+Koutango_virus.1                    AUGGAGUCAGGCCAG.GUAACA..CUGCCACCGGAAGUUGGGUAUACGGU
+Japanese_encephaliti.5              GUGGAGUCAGGCCAG..CAAAA.GCUGCCACCGGAUACUGAGUAGACGGU
+Japanese_encephaliti.6              AUGGAGUCAGGCCAG..CAAAC.GCUGCCACCGGAUACUGGGUAGACGGU
+Japanese_encephaliti.7              AUGGAGUCAGGCCAG..CAAAA.GCUGCCACCGGAUACUGGGUAGACGGU
+West_Nile_virus.2                   UGGAAGUCAGGCCAG.ACAAAU.GCUGCCACCGGAAGUUGAGUAGACGGU
+Japanese_encephaliti.8              AUGGAGUCAGGCCAG..CAAAA.GCUGCCACCGGAUAAUGGGUAGACGGU
+Japanese_encephaliti.9              AUGGAGUCAGGCCAG..CAAAA.GCUGCCACCGGAUACUGGGUAGACGGU
+Japanese_encephaliti.10             AUGGAGUCAGGCCAG..CGUUA.GCUGCCACCGGAUACUGGGUAGACGGU
+West_Nile_virus.3                   UGU.AGUCAGGCCGG..CAAA.CGCCGCCACCGGAAGUUGGGUAUACGGU
+Japanese_encephaliti.11             AUGGAGUCAGGCCAG..CAAAA.GCUGCCACCGGAUACUGGGCAGACGGU
+West_Nile_virus.4                   AGAGAGUCAGGCCAGACUAGAG..CUGCCACCGGAAGUUGAGUAGACGGU
+West_Nile_virus.5                   AGGAAGUCAGGCCGGAGCAUUU..CCGCCACCGGAUGUUGAGUAGACGGU
+Japanese_encephaliti.12             AUGGAGUCAGGCCAG..CAAAA.GCUGCCACCGGAUAAUGGGUAGACGGU
+Japanese_encephaliti.13             ACGGAGUCAGGCCAG..CAAAA.GCUGCCACCGGAUACUGGGUAGACGGU
+Alfuy_virus.1                       .GUGAGUCAGGCCAG..UGAAA.ACUGCCACCGGAUGUUGG.UAGACGGU
+#=GC SS_cons                        .....<.<<<<<.<<..<<.....<<<<<..<<<...>>>>>>>>....>
+
+Japanese_encephaliti.1              GCUGCCUGCCUC
+Japanese_encephaliti.2              GCUGCCUGCGUC
+Japanese_encephaliti.3              GCUGCCUGCGUC
+Japanese_encephaliti.4              GCUGCCUGCGUC
+West_Nile_virus.1                   GCUGCCUGCGUC
+Koutango_virus.1                    GCUGCCUGUACC
+Japanese_encephaliti.5              GCUGCCUGGGUU
+Japanese_encephaliti.6              GCUGCCUGCGUC
+Japanese_encephaliti.7              GCUGUCUGCGUC
+West_Nile_virus.2                   GCUGCCUGCGAC
+Japanese_encephaliti.8              GCUGCCUGGGUU
+Japanese_encephaliti.9              GCUGCCUGCGUC
+Japanese_encephaliti.10             GCUGCCUGCAAC
+West_Nile_virus.3                   GCUGCCUGUGAC
+Japanese_encephaliti.11             GCUGCCUGCGUC
+West_Nile_virus.4                   GCUGCCUGCAAC
+West_Nile_virus.5                   GCUGCCUGCGUC
+Japanese_encephaliti.12             GCUGCCUGCGUU
+Japanese_encephaliti.13             GCUGCCUGCGCC
+Alfuy_virus.1                       GCUGCCUGCGAC
+#=GC SS_cons                        >>>>>>>>>...
+//

@@ -1,0 +1,86 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-275
+#=GF AC    RF00757
+#=GF DE    microRNA mir-275
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    38.1
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000187
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    14
+
+#=GS T.castaneum.1        AC    AAJJ01000649.1/41251-41341
+#=GS D.virilis.1          AC    AANI01016257.1/59470-59564
+#=GS D.mojavensis.1       AC    AAPU01010637.1/244475-244569
+#=GS D.grimshawi.1        AC    AAPT01020969.1/275887-275981
+#=GS D.ananassae.1        AC    AAPP01015737.1/35785-35873
+#=GS D.persimilis.1       AC    AAIZ01002385.1/22712-22802
+#=GS D.willistoni.1       AC    AAQB01006829.1/458336-458431
+#=GS D.simulans.1         AC    AASW01038426.1/5366-5456
+#=GS A.gambiae.1          AC    AAAB01008980.1/2232223-2232317
+#=GS A.aegypti.1          AC    AAGE02001651.1/96625-96717
+#=GS C.quinquefasciatus.1 AC    AAWU01017837.1/19596-19687
+#=GS A.mellifera.1        AC    AADG05001619.1/13993-14083
+#=GS N.vitripennis.1      AC    AAZX01002044.1/14647-14734
+#=GS B.mori.1             AC    AADK01007727.1/11210-11296
+
+T.castaneum.1                    UGUUGCCUGUUGCUACGCGUGUUACCUCAGU.ACC.UAGGCUGGGG....
+D.virilis.1                      CGCCGUCUUUUACCGUGCGCGCUA.AUCAGUGACC.GGGGCUGGUUUUG.
+D.mojavensis.1                   GUCCGUCUUUUACCGUGCGCGCUA.AUCAGUGACC.GGGGCUGGUUUC..
+D.grimshawi.1                    CGUCGUCGUUUACCGCGCGCGCUA.AUCAGUGACC.GGGGCUGGUUUUG.
+D.ananassae.1                    UCCAGUCUCCUACCUUGCGCGCUA.AUCAGUGACC.GGGGCUG..G....
+D.persimilis.1                   GAAAGUCUCCUACCAUGCGCGCUA.AUCAGAGACC.GGGGCUGGUU....
+D.willistoni.1                   CCUUGUCUCUUACCUUGCGCGCUA.AUCAGUGACC.AGGGCUGAGUAAUU
+D.simulans.1                     AAAAGUCUCCUACCUUGCGCGCUA.AUCAGUGACC.GGGGCUGGUU....
+A.gambiae.1                      UGAGCCGUCUAAUGACACGCGCUA.AGCAGGAACC.GGGACUUGGUACA.
+A.aegypti.1                      GUAUCCUUUCGAUUUCGCGCGCUA.AGCAGGAACC.GAGACUUUGU....
+C.quinquefasciatus.1             GAAUCCUUCCGAUAGCGCGCGCUA.AGCAGGAACC.GGGACUUGGU....
+A.mellifera.1                    CUUGUCGUG.CGCAACGCGCGUUA.CUCGGGUACUUUAGGCUGUGCCA..
+N.vitripennis.1                  ACAGCCAGUUUGCAACUCGCGCUA.CUCCGGUACU.UACGACUGUG....
+B.mori.1                         AGCAGGCGGCAGCGCCGCGCGCUA.CUCCGGCGCC.AGGACU...G....
+#=GC SS_cons                     ....<<<<..<<<<<<<<<<<<<<...<<<..<<<...<<<<<.......
+#=GC RF                          aaaagccguuggccaCGCGCGCua.auCaGgaaCC.aaGgCugggu....
+
+T.castaneum.1                    .UUUUUCG.AA.AGUCAGGUACCUGAAGUAGCGCGCGCAGCG.GUG.GUG
+D.virilis.1                      .GUUAUCC.CACAGUCAGGUACCUGAAGUAGCGCGCGUGGUGGCCA.G.A
+D.mojavensis.1                   .GAUUAUCUCACAGUCAGGUACCUGAAGUAGCGCGCGUGGUGGCUA.G.A
+D.grimshawi.1                    .AUUAUCC.CACAGUCAGGUACCUGAAGUAGCGCGCGUGGUG.GCCAG.A
+D.ananassae.1                    .UUUUUGC.AACAGUCAGGUACCUGAAGUAGCGCGCGUGGUG.GCA.G.A
+D.persimilis.1                   .UUUUCAC.UGCAGUCAGGUACCUGAAGUAGCGCGCGUGGUG.CUA.G.A
+D.willistoni.1                   UUAUUCAA.UACAGUCAGGUACCUGAAGUAGCGCGCGUGGUU.UUA.G.A
+D.simulans.1                     .UUUUAUA.UACAGUCAGGUACCUGAAGUAGCGCGCGUGGUG.GCA.G.A
+A.gambiae.1                      .CAUUCGCUAGCAGUCAGGUACCUGAAGUAGCGCGCGUUAUU.CGG.C.U
+A.aegypti.1                      .CAUUUGCUAGCAGUCAGGUACCUGAAGUAGCGCGCGUGAUC.AAACA.G
+C.quinquefasciatus.1             .CAUUCGCUAGCAGUCAGGUACCUGAAGUAGCGCGCGUGAUC.GGA.A.G
+A.mellifera.1                    .AUUUCGA.AUCAGUCAGGUACCUGAAGUAGCGCGCGCUGCG...G.C.G
+N.vitripennis.1                  .CAUUCGA.U.AGUC.AGGUACCUGAAGUAGCGCGCGCUGCG..AC.U.G
+B.mori.1                         .UCCUCAC.CG.AGUCAGGUACCUGAAGUAGCGCGCGGUGUC.UCC.U.C
+#=GC SS_cons                     ...........>>>>>.>>>..>>>...>>>>>>>>>>>>>>...>.>.>
+#=GC RF                          .aauUcaa.aacaGcCAGGuACCuGAAGuaGCGCGCGuggcc.aac.g.g
+
+T.castaneum.1                    CA
+D.virilis.1                      CG
+D.mojavensis.1                   CG
+D.grimshawi.1                    CG
+D.ananassae.1                    CA
+D.persimilis.1                   CA
+D.willistoni.1                   CC
+D.simulans.1                     CA
+A.gambiae.1                      CA
+A.aegypti.1                      GA
+C.quinquefasciatus.1             UG
+A.mellifera.1                    AA
+N.vitripennis.1                  GA
+B.mori.1                         CU
+#=GC SS_cons                     >.
+#=GC RF                          ca
+//

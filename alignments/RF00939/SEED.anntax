@@ -1,0 +1,45 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-504
+#=GF AC    RF00939
+#=GF DE    microRNA mir-504
+#=GF AU    Wilkinson A
+#=GF GA    45.0
+#=GF NC    22.8
+#=GF TC    55.4
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000437
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    6
+
+#=GS M.musculus.1           AC    AAHY01210867.1/199-281
+#=GS R.norvegicus.1         AC    AAHX01114801.1/252-334
+#=GS M.mulatta.1            AC    AANU01115486.1/42635-42717
+#=GS P.troglodytes.1        AC    AACZ02222899.1/1263-1345
+#=GS S.araneus.1            AC    AALT01458873.1/10731-10813
+#=GS Dasypus_novemcinctus.1 AC    AAGV021074623.1/410-492
+
+M.musculus.1                       GCUCCUGUUGGGAGACCCUGGUCUGCACUCUAUCUGUAAACUUACUGAAG
+R.norvegicus.1                     GCUGCUGUUGGGAGACCCUGGUCUGCACUCUGUCUGGAAACUUACAGAAG
+M.mulatta.1                        GCUGCUGUUGGGAGACCCUGGUCUGCACUCUAUCUGUAUUCUUACUGAAG
+P.troglodytes.1                    GCUGCUGUUGGGAGACCCUGGUCUGCACUCUAUCUGUAUUCUUACUGAAG
+S.araneus.1                        GCUGCUGUUGGGAGACCCUGGUCUGCACUCUAUCUGUAAGCAUUUUUAAG
+Dasypus_novemcinctus.1             GCUGCUGUUGGGAGACCCUGGCCUGCACUCUGUCUGUAUGUUUAUUGAAG
+#=GC SS_cons                       ....<<<<<<<<<<<<<<<<.<<<<<.<<<<.<<.<<<....>>>.>>..
+#=GC RF                            aauacuguugggagacccuggccugcacuccAucuguaaacuuacugaAg
+
+M.musculus.1                       GGAGAGCAGGGCAGGGUUUCCCAUACAGAGGGC
+R.norvegicus.1                     GGAGAGCAGGGCAGGGUUUCCCAUACAGAGGCA
+M.mulatta.1                        GGAGCGCAGGGCAGGGUUUCCCAUACAGAGGGC
+P.troglodytes.1                    GGAGUGCAGGGCAGGGUUUCCCAUACAGAGGGC
+S.araneus.1                        GGAGCGCAGAGCAGGGUUUCCCAUACAGAGGGC
+Dasypus_novemcinctus.1             GGAGCGCAGGGCAGGGUUUCCCAUACAGAGGGC
+#=GC SS_cons                       >>>>.>>>>>.>>>>>>>>>>>>.>>>>.....
+#=GC RF                            ggagugcagggcagggucucccauacagAggaa
+//

@@ -1,0 +1,86 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORA23
+#=GF AC    RF00319
+#=GF DE    Small nucleolar RNA SNORA23
+#=GF AU    Moxon SJ
+#=GF GA    29.0
+#=GF NC    28.6
+#=GF TC    30.6
+#=GF PI    snoMBI-1
+#=GF SE    Moxon SJ
+#=GF SS    Predicted; RNAalifold; Griffiths-Jones S
+#=GF TP    Gene; snRNA; snoRNA; HACA-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    snoRNABase; ACA23
+#=GF DR    SO:0000594 SO:H_ACA_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Mus_musculus300764
+#=GF DR    snoopy; Danio_rerio300118
+#=GF RN    [1]
+#=GF RM    12007400
+#=GF RT    Small nucleolar RNAs: an abundant group of noncoding RNAs with
+#=GF RT    diverse cellular functions.
+#=GF RA    Kiss T;
+#=GF RL    Cell 2002;109:145-148.
+#=GF RN    [2]
+#=GF RM    15199136
+#=GF RT    Human box H/ACA pseudouridylation guide RNA machinery.
+#=GF RA    Kiss AM, Jady BE, Bertrand E, Kiss T;
+#=GF RL    Mol Cell Biol. 2004;24:5797-5807.
+#=GF RN    [3]
+#=GF RM    11387227
+#=GF RT    RNomics: an experimental approach that identifies 201 candidates for
+#=GF RT    novel, small, non-messenger RNAs in mouse.
+#=GF RA    Huttenhofer A, Kiefmann M, Meier-Ewert S, O'Brien J, Lehrach H,
+#=GF RA    Bachellerie JP, Brosius J;
+#=GF RL    EMBO J 2001;20:2943-2953.
+#=GF RN    [4]
+#=GF RM    16381836
+#=GF RT    snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D box
+#=GF RT    snoRNAs.
+#=GF RA    Lestrade L, Weber MJ;
+#=GF RL    Nucleic Acids Res. 2006;34:D158-D162.
+#=GF CC    The members of this family belong to the H/ACA class of snoRNAs
+#=GF CC    which are thought to guide the sites of modification of uridines
+#=GF CC    to pseudouridines [1]. This family includes human snoRNA ACA23
+#=GF CC    (SNORA23) and mouse snoMBI-1 [2,3]. ACA23 is predicted to guide
+#=GF CC    the pseudouridylation of residue U3737 and U4331 of 28S rRNA [4].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_MBI-1
+#=GF SQ    5
+
+#=GS M.musculus.1 AC    AJ278435.1/32194-32377
+#=GS M.musculus.2 AC    AF357383.1/1-184
+#=GS M.musculus.3 AC    AC121995.2/104161-104344
+#=GS H.sapiens.1  AC    AJ295844.1/31324-31502
+#=GS H.sapiens.2  AC    AC132192.3/71776-71954
+
+M.musculus.1             UGAGUCCUGUGUGCAUAGUUUUCAUCUAUGUCUGGUAGCAGUAUCUGUCU
+M.musculus.2             UGAGUCCUGUGUGCAUAGUUUUCAUCUAUGUCUGGUAGCAGUAUCUGUCU
+M.musculus.3             UGAGUCCUGUGUGCAUAGUUUUCAUCUAUGUCUGGUAGCAGUAUCUGUCU
+H.sapiens.1              ...GUAAUGUGUGCAUAGGUUUCAUCUGUGUCUGGUAGCAGUGUCUGUCU
+H.sapiens.2              ...GUAAUGUGUGCAUAGGUUUCAUCUGUGUCUGGUAGCAGUGUCUGUCU
+#=GC SS_cons             ............<<<<............<<<.<<<<<<<<<.<<<<<..<
+
+M.musculus.1             GCGUUUUGCAUUCAGAUCUUGCUAUCCACACAAACGA.AUGCAGCCAAAG
+M.musculus.2             GCGUUUUGCAUUCANAUCUUGCUAUCCACACAAACNA.AUGCAGCCAAAG
+M.musculus.3             GCGUUUUGCAUUCAGAUCUUGCUAUCCACACAAACGA.AUGCAGCCAAAG
+H.sapiens.1              GUGUUUUGCAUUCAGAUCUUGCUAUCCACACAAACAUCAUGCGGCCAAAG
+H.sapiens.2              GUGUUUUUCAUUCAGAUCUUGCUAUCCACACAAACAUCAUGCGGCCAAAG
+#=GC SS_cons             <<.....>>>..>>>>>.>>>>>>.>>>.>>>......>>>>........
+
+M.musculus.1             AAUAAGUUGGGAUCAUAGUACUGGCCUAGUGUUGUGUUUUUUUAACACAU
+M.musculus.2             AAUAAGUUGGGAUCAUAGUACUGGCCUAGUGUUGUGUUUUUUUAACACAU
+M.musculus.3             AAUAAGUUGGGAUCAUAGUACUGGCCUAGUGUUGUGUUUUUUUAACACAU
+H.sapiens.1              AGUAACUUGGGAUCAUAGUACUGGUCUAGUGUUGUCUCUGG...ACACAU
+H.sapiens.2              AGUAACUUGGGAUCAUAGUACUGGUCUAGUGUUGUCUCUGG...ACACAU
+#=GC SS_cons             .......<<<<<........<<<<<<.<<<<.<<<<<<.....>>>>>>.
+
+M.musculus.1             CUCCCACUGGCCAGCCUCCAAAUUCCCAGACACAA
+M.musculus.2             CUCCCACUGGCCAGCCUCCAAAUUCCCANACACAA
+M.musculus.3             CUCCCACUGGCCAGCCUCCAAAUUCCCAGACACAA
+H.sapiens.1              CUACCACUGGCCAGCCUCCAAAUUCCCACACACAG
+H.sapiens.2              CUACCACUGGCCAGCCUCCAAAUUCCCACACACAG
+#=GC SS_cons             ....>>>>>>>>>>.........>>>>>.......
+//

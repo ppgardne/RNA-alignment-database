@@ -1,0 +1,48 @@
+# STOCKHOLM 1.0
+#=GF ID    C0299
+#=GF AC    RF00119
+#=GF DE    C0299 RNA
+#=GF AU    Moxon SJ
+#=GF GA    40.0
+#=GF NC    24.9
+#=GF TC    42.6
+#=GF SE    Hershberg R
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; sRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF RN    [1]
+#=GF RM    12202758
+#=GF RT    Transcriptome analysis of Escherichia coli using high-density
+#=GF RT    oligonucleotide probe arrays.
+#=GF RA    Tjaden B, Saxena RM, Stolyar S, Haynor DR, Kolker E, Rosenow C;
+#=GF RL    Nucleic Acids Res 2002;30:3732-3738.
+#=GF CC    This family consists of a group of Shigella flexneri and Escherichia coli
+#=GF CC    RNA genes which are 78 bases in length and are found between the hlyE and
+#=GF CC    umuD genes. The function of this RNA is unknown.
+#=GF WK    http://en.wikipedia.org/wiki/C0299_RNA
+#=GF SQ    5
+
+#=GS E.coli.1               AC    U73842.1/4-82
+#=GS Escherichia_coli_SMS.1 AC    CP000970.1/1991007-1991085
+#=GS Escherichia_coli_559.1 AC    CU928145.2/1326462-1326540
+#=GS Shigella_boydii_CDC_.1 AC    CP001063.1/1218217-1218295
+#=GS Shigella_dysenteriae.1 AC    CP000034.1/1125398-1125476
+
+E.coli.1                           GCCACGUGAGCACAAGAUAAGAGAACGAAAAAUCAGCAGCCUAUGCAGCG
+Escherichia_coli_SMS.1             GGCGCGUGAGCACAGGAUAAGAUAACGAAAAAUCAGCAGUCUAUGCAGCG
+Escherichia_coli_559.1             GCCACGUGAGCACAGGAUAAGAGAACGAAAAAUCAGCAGUCUAUGCAGCG
+Shigella_boydii_CDC_.1             GCCACGUGAGCACAGGAUAAGAGAACGAAAAAUCAGCAGUCUAUACAGCG
+Shigella_dysenteriae.1             GCCGCGUGAGCACAGGAUAAGAGAACGAAAAAUCAGCAGUCUAUGCAGCG
+#=GC SS_cons                       <<..<<<<.<<....<<<.............>>>....>>.>>>>..>>.
+#=GC RF                            GccaCgugAgCAcAaGauAAGAuAAcGAAAAauCAGcAGccuauGcAgCG
+
+E.coli.1                           ACAAAUAUUGAUAGCCUGAAUCAGUAUUG
+Escherichia_coli_SMS.1             ACAAAUAUUGAUAGCCUGAAUCAGUAUUG
+Escherichia_coli_559.1             ACAAAUAUUGAUAGCCUGAAUCAGUAUUG
+Shigella_boydii_CDC_.1             ACAAAUAUUGAUAGCCUGAAUCAGUAUUG
+Shigella_dysenteriae.1             ACAAAUAUUGAUAGCCUGAAUCAGUAUUG
+#=GC SS_cons                       ...<<<<<<<<<.......>>>>>>>>>.
+#=GC RF                            AcAaauauuGauAGccUGAauCaguauuG
+//

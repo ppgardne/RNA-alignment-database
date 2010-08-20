@@ -1,0 +1,33 @@
+# STOCKHOLM 1.0
+#=GF ID    sn3071
+#=GF AC    RF01166
+#=GF DE    Small nucleolar RNA sn3071
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    58.4
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    URL; http://snoopy.med.miyazaki-u.ac.jp/view.cgi?id=CEL30019
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF WK    http://en.wikipedia.org/wiki/SnoRNA
+#=GF SQ    2
+
+#=GS C.brenneri.1 AC    ABEG01015686.1/652-728
+#=GS C.elegans.1  AC    AY948662.1/1-76
+
+C.brenneri.1             GAUCGAUGAUGAGACUUUCACGACGGUCUUCCGAUGAAAUAUCAAAGCUG
+C.elegans.1              GAUCUAUGAUGAGACUUUCACGACGGUCUUCCGAUGUAAUA.CAUACCUG
+#=GC SS_cons             <<<<..............................................
+#=GC RF                  GAUCUAUGAUGAGACUUUCACGACGGUCUUCCGAUGUAAUA.CAUACCUG
+
+C.brenneri.1             UGGAUAUCUUUACGUGAAGCUGAGAUC
+C.elegans.1              UGGAUAUCUUUACGUGAAGCUGAGAUC
+#=GC SS_cons             .......................>>>>
+#=GC RF                  UGGAUAUCUUUACGUGAAGCUGAGAUC
+//

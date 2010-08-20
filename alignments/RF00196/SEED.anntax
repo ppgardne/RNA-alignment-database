@@ -1,0 +1,44 @@
+# STOCKHOLM 1.0
+#=GF ID    AMV_RNA1_SL
+#=GF AC    RF00196
+#=GF DE    Alfalfa mosaic virus RNA 1 5' UTR stem-loop
+#=GF AU    Moxon SJ
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    24.0
+#=GF SE    PMID:14512577
+#=GF SS    Published; PMID:14512577
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000204 SO:five_prime_UTR
+#=GF RN    [1]
+#=GF RM    14512577
+#=GF RT    The 5' untranslated region of alfalfa mosaic virus RNA 1 is involved
+#=GF RT    in negative-strand RNA synthesis.
+#=GF RA    Vlot AC, Bol JF;
+#=GF RL    J Virol 2003;77:11284-11289.
+#=GF CC    This family represents a putative stem-loop structure found in the 5' UTR
+#=GF CC    in RNA 1 of alfalfa mosaic virus. RNA 1 is responsible for encoding the
+#=GF CC    viral replicase protein P1. This family is required for negative strand
+#=GF CC    RNA synthesis in in the alfalfa mosaic virus and may also be involved in
+#=GF CC    positive strand RNA synthesis [1].
+#=GF WK    http://en.wikipedia.org/wiki/Alfalfa_mosaic_virus_RNA_1_5'_UTR_stem-loop
+#=GF SQ    6
+
+#=GS Alfalfa_mosaic_virus.1 AC    M35975.1/2-36
+#=GS Alfalfa_mosaic_virus.2 AC    V00044.1/1-35
+#=GS Alfalfa_mosaic_virus.3 AC    M36391.1/2-36
+#=GS Alfalfa_mosaic_virus.4 AC    L00163.1/1-35
+#=GS Alfalfa_mosaic_virus.5 AC    X00819.1/1-35
+#=GS Alfalfa_mosaic_virus.6 AC    M28375.1/1-35
+
+Alfalfa_mosaic_virus.1             GUUUUUAUCUUACACACGCUUGUGCAAGAUAGUUA
+Alfalfa_mosaic_virus.2             GUUUUUAUCUUACACACGCUUGUGUAAGAUAGUUA
+Alfalfa_mosaic_virus.3             GUUUUCAUCUUACACACGCUUGUGCAAGAUAGUUA
+Alfalfa_mosaic_virus.4             GUUUUUAUCUUACACACGCUUGUGUAAGAUAGUUA
+Alfalfa_mosaic_virus.5             GUUUUCAUCUUACACACGCUUGUGCAAGAUAGUUA
+Alfalfa_mosaic_virus.6             GUUUUUAUCUUAUACACGCUUGUGUAAGAUAGUUA
+#=GC SS_cons                       ....<<<<<<<<<<<<....>>>>>>>>>>>>...
+#=GC RF                            GuuuuuauCuuacaCacGcuuGuguaaGauaguuA
+//

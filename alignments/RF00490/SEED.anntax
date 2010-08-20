@@ -1,0 +1,122 @@
+# STOCKHOLM 1.0
+#=GF ID    S-element
+#=GF AC    RF00490
+#=GF DE    S-element
+#=GF AU    Moxon SJ
+#=GF GA    20.0
+#=GF NC    20.0
+#=GF TC    22.6
+#=GF SE    PMID:15554980
+#=GF SS    Published; PMID:15554980
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    15554980
+#=GF RT    Two discrete elements are required for the replication of a repABC
+#=GF RT    plasmid: an antisense RNA and a stem-loop structure.
+#=GF RA    Venkova-Canova T, Soberon NE, Ramirez-Romero MA, Cevallos MA;
+#=GF RL    Mol Microbiol 2004;54:1431-1444.
+#=GF CC    This family represents a group of S-elements from p42d and
+#=GF CC    related plasmids. The S-element has multiple functions and is
+#=GF CC    believed to act as a negative regulator of repC transcription, be
+#=GF CC    required for efficient replication and act as a translational
+#=GF CC    enhancer of repC [1].
+#=GF WK    http://en.wikipedia.org/wiki/S-element
+#=GF SQ    29
+
+#=GS Brucella_melitensis_.1 AC    AM040265.1/90-157
+#=GS Ochrobactrum_anthrop.1 AC    CP000759.1/1892062-1892129
+#=GS Ochrobactrum_anthrop.2 AC    CP000760.1/70833-70900
+#=GS Ochrobactrum_anthrop.3 AC    CP000762.1/37633-37699
+#=GS Ochrobactrum_anthrop.4 AC    CP000762.1/70623-70689
+#=GS Ochrobactrum_anthrop.5 AC    CP000761.1/27-94
+#=GS Mesorhizobium.1        AC    CP000391.1/110125-110191
+#=GS Mesorhizobium_loti_M.1 AC    AP003017.1/123538-123604
+#=GS Mesorhizobium_loti_M.2 AC    BA000013.4/308880-308946
+#=GS Agrobacterium_tumefa.1 AC    AE007870.2/1024163-1024232
+#=GS A.tumefaciens.1        AC    AF283811.2/2664-2730
+#=GS A.rhizogenes.1         AC    X04833.1/2648-2715
+#=GS A.rhizogenes.2         AC    AP002086.1/162438-162505
+#=GS Rhizobium_leguminosa.1 AC    AM236081.1/79147-79212
+#=GS R.etli.1               AC    AF528525.1/25033-25100
+#=GS R.leguminosarum.1      AC    AY177731.1/649-717
+#=GS Rhizobium_etli_CFN_4.1 AC    CP000137.1/504055-504122
+#=GS Rhizobium_leguminosa.2 AC    AM236081.1/2394-2461
+#=GS Rhizobium_leguminosa.3 AC    AM236084.1/2341-2406
+#=GS Rhizobium.1            AC    U00090.2/2450-2518
+#=GS Rhizobium_etli_CFN_4.2 AC    U80928.5/369981-370048
+#=GS Rhizobium_etli_CFN_4.3 AC    CP000136.1/249581-249646
+#=GS Rhizobium_leguminosa.4 AC    AM236086.1/2290-2355
+#=GS R.etli.2               AC    AF313446.1/3084-3151
+#=GS Rhizobium_leguminosa.5 AC    AM236083.1/2343-2411
+#=GS Sinorhizobium_medica.1 AC    CP000741.1/184582-184649
+#=GS S.meliloti.1           AC    EF066650.1/2360-2426
+#=GS Sinorhizobium_melilo.1 AC    AE006469.1/1351204-1351271
+#=GS Sinorhizobium_melilo.2 AC    AL591985.1/56398-56464
+
+Brucella_melitensis_.1             UGUCAAGUGUAUUUAACGUCA...A..UUU.GGCGG.GUGGAUUUCUUUU
+Ochrobactrum_anthrop.1             UGUCAAGUGUAAUUAGCGUCA...U..UUC.GGCGG.GUGGAUUUCUUUU
+Ochrobactrum_anthrop.2             UGUCAAGAGUCGUAAGCGUCU...U..UUU.GGCGG.GUGGAUUUCUUUU
+Ochrobactrum_anthrop.3             UGUCAAGAGUC.AUAGCGUCA...U..UUU.GGCGG.GUGGAUUUCUUUU
+Ochrobactrum_anthrop.4             UGUCAAGCGUU.UUGACGUCGU..U..UGC.GGCGA.ACGGAUCUCUUUU
+Ochrobactrum_anthrop.5             CGUCAAGAGUUUUCGGCGCCA...U..UUU.GGCGA.ACAAAUUUCUUUU
+Mesorhizobium.1                    UGUCAAGAGUCCU.GGCGUCG...U..UUC.GGCGA.GCAGAUUUCUUUU
+Mesorhizobium_loti_M.1             UGUCAAGAGUC.GUGGCGCCA...U..UUC.GGCGA.GCAGGUUUCUUUU
+Mesorhizobium_loti_M.2             UGUCAAGAGUCUA.GGCGUCGA..U..UCG.GC.GA.GCAGAUUUCUUUU
+Agrobacterium_tumefa.1             AGUCAAGAGUCUU.GGCAUCGAAUU..UUUCGGUGA.GCGAUUUUCUUUU
+A.tumefaciens.1                    AGUCAAGAGUCUUUGGCAUCG...U..UUU.GGUGA.GCGUGAAUCUUUU
+A.rhizogenes.1                     CGUCAAGAGUUUUUAGCGCCG...U..UUU.GGUGA.GCUGAUUUCCUUU
+A.rhizogenes.2                     AGUCAAGAGUCUUUGGCACCG...U..UUUUGGUGA.GCAGAUUUCUUUU
+Rhizobium_leguminosa.1             AGUCAAGAGUC.UUGGCACCG...A..UUU.GGUGA.GCGGAUUUCUUUU
+R.etli.1                           CGUCAAGAGUCUUUGGCAUCG...U..UUU.GGUGG.GCGUUUUUCUGUU
+R.leguminosarum.1                  AGUCAAGAGUCUUUGGCACCG...UAAUUU.GGUGA.GCAGGUUUCUUUU
+Rhizobium_etli_CFN_4.1             UGUCAAGCAUCUUCGGCAUCC...U..UUU.GGGUG.GUAGAUUUCUUUU
+Rhizobium_leguminosa.2             CGUCAAGAGUCUUUGGAACCG...A..UCU.GGUGA.GCAAAUUUCUUUU
+Rhizobium_leguminosa.3             UGUCAAGAGUUUUUGGCGCCG...U..UUU.GGUGA.GCGGAUUUCUUUU
+Rhizobium.1                        AGUCAAGAGUCUUUGGCACCG...G..AACGGGUGA.GCGGACGUCUUUU
+Rhizobium_etli_CFN_4.2             CGUCAAGAGUCUUUGGCGCCG...U..UUU.GGUGA.GCGAAUUUCCUUU
+Rhizobium_etli_CFN_4.3             UGUCAAGAGCUUUUGGCGCCG...U..UUU.GGCGA.GCGGAUUUCUUUU
+Rhizobium_leguminosa.4             AGUCAAGCGUCUUAGGCACCAA..A..UUG.GUGGA..UGGUUUUCUUUU
+R.etli.2                           AGUCAAGAGUCUUUGGCACCGA..A..UUU.GGUGAGGCGUGA.UCUUUU
+Rhizobium_leguminosa.5             AGUCAAGA.GUCUUGGCGCCGCU.U..UUU.GGUGA.GCAGAAUUCUUUU
+Sinorhizobium_medica.1             CGUCAAGAGUCUUUGGCACCG...U..UUU.GGUGA.GGGGAUUUCUUUU
+S.meliloti.1                       AGUCAAGAGUCUUUGGCACCG...A..UUU.GGUGA.GCGGAUUUCUUUU
+Sinorhizobium_melilo.1             AGUCAAGAGUCCUUGGCACCG...U..UUUUGGUGA.GCUGCUUUCUUUU
+Sinorhizobium_melilo.2             UGUCAAGCAUUUUUGACGUCG...U..UUC.GGCGA.ACGGAUUUCUUUU
+#=GC SS_cons                       ........<<<<<<..<<<<....<..<<<.<<.<..<<<<<.....>>>
+#=GC RF                            aGUCAAGAguCccuGGCacCG...u..uuc.ggugA.GCaaauuUCuuuu
+
+Brucella_melitensis_.1             GCCUU..G.U.GGAAGGUG.AA.AGAAAAUG
+Ochrobactrum_anthrop.1             GCCUU..G.U.GGAAGGUG.AA.AGAAAAUG
+Ochrobactrum_anthrop.2             GCCUU..U.U.GAAAGGUG.AG.AGGGAAUG
+Ochrobactrum_anthrop.3             GCCUU..U.C.GAAAGGUA.AGAGGAA.AUG
+Ochrobactrum_anthrop.4             GCCUU..C.A.GUUAGGUG.AG.AGAA.AUG
+Ochrobactrum_anthrop.5             GCCUG..U.U.GACAGGUA.GA.AAACGAUG
+Mesorhizobium.1                    GCCUG..A.G.AGAGGGUGAAA.GGAA.AUG
+Mesorhizobium_loti_M.1             GCCUU..CGU.GAAAGGUG.AG.GGAA.AUG
+Mesorhizobium_loti_M.2             GCCUA..A.U.CGAGGGUG.AA.AGAAAAUG
+Agrobacterium_tumefa.1             GCCU...UGU.GAAAGGUG.AA.AGAC.AUG
+A.tumefaciens.1                    GCCUU..U.UUGAAAGGCG.A..GGAC.AUG
+A.rhizogenes.1                     GCCUG..C.U.GAAAGGUG.AA.AGAUGAUG
+A.rhizogenes.2                     GCCUA..U.U.GAAGGGUG.AA.AGAC.AUG
+Rhizobium_leguminosa.1             GCCUG..A.A.GAAAGGUG.AG.AGAA.AAA
+R.etli.1                           GCCU...U.UAGAAAGGUA.GA.GGAAAAUG
+R.leguminosarum.1                  GCCUU..U.U.UGAAGGUG.A..AGAAGAUG
+Rhizobium_etli_CFN_4.1             GCCUU..G.AAAAAAGGUG.AG.GGAC.AUG
+Rhizobium_leguminosa.2             GCCUG..C.U.GAAAGGUA.AG.AGACGAUG
+Rhizobium_leguminosa.3             GCCU...C.G.UUGAGGUA.GA.CGAU.AUG
+Rhizobium.1                        GCCUG..A.G.GAUAGGUG.AA.AGAAGAUG
+Rhizobium_etli_CFN_4.2             GCCUG..C.U.GAAAGGUG.AG.AGACAAUG
+Rhizobium_etli_CFN_4.3             GCCU...C.A.GUGAGGUG.GA.AGAG.AUG
+Rhizobium_leguminosa.4             GCCUG..A.A.CGAAGGUG..A.AGGC.AAA
+R.etli.2                           GCCUU..G.AAGAA.GGCG.AA.GAAA.AUG
+Rhizobium_leguminosa.5             GCCUAAAC.U.GA..GGUA.AA.GGCAAAUG
+Sinorhizobium_medica.1             GCCUG..C.U.GAAAGGUG.AA.AGACGAUG
+S.meliloti.1                       GCCCG..A.C.GAAAGGUG.AA.AGAA.ACA
+Sinorhizobium_melilo.1             GCCU...UAU.CGAAGGUG.AA.GGAA.AUG
+Sinorhizobium_melilo.2             GCCUU..G.G.AAAAGGUG.AA.GAAA.AUG
+#=GC SS_cons                       >>.>...>.>.>>>>>>>>.>>.>>>>....
+#=GC RF                            GCCuu..c.c.gaaaGguG.ag.gGac.AUG
+//

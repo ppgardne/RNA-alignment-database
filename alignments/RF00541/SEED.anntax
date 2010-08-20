@@ -1,0 +1,80 @@
+# STOCKHOLM 1.0
+#=GF ID    snopsi28S-2876
+#=GF AC    RF00541
+#=GF DE    Small nucleolar RNA psi28S-2876
+#=GF AU    Moxon SJ
+#=GF GA    25.0
+#=GF NC    0.0
+#=GF TC    130.0
+#=GF SE    Moxon SJ
+#=GF SS    Predicted; PFOLD; Moxon SJ
+#=GF TP    Gene; snRNA; snoRNA; HACA-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000594 SO:H_ACA_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF RN    [1]
+#=GF RM    15199136
+#=GF RT    Human box H/ACA pseudouridylation guide RNA machinery.
+#=GF RA    Kiss AM, Jady BE, Bertrand E, Kiss T;
+#=GF RL    Mol Cell Biol 2004;24:5797-5807.
+#=GF CC    psi28S-2876 is a member of the H/ACA class of snoRNA. This family is
+#=GF CC    responsible for guiding the modification of uridines 2876 and 2956 to
+#=GF CC    pseudouridine in Drosophila 28S rRNA [1].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_psi28S-2876
+#=GF SQ    8
+
+#=GS D.virilis.1       AC    AF426408.1/2331-2471
+#=GS D.mojavensis.1    AC    AAPU01009646.1/40294-40435
+#=GS D.grimshawi.1     AC    AAPT01018955.1/17011-17152
+#=GS D.simulans.1      AC    AASV01043460.1/657-805
+#=GS D.ananassae.1     AC    AAPP01018319.1/46473-46616
+#=GS D.willistoni.1    AC    AAQB01006339.1/43171-43326
+#=GS D.pseudoobscura.1 AC    AAFS01000909.1/13514-13657
+#=GS D.melanogaster.1  AC    U35631.2/189-333
+
+D.virilis.1                   CAUUUG.GCCAGCAACGAUGGCACGCAGUUCGA..AC..........CG.
+D.mojavensis.1                GUUUUG.GCCAGCAACGAUGGCGCGCAGUUCGAGCAC..........AG.
+D.grimshawi.1                 CAAUUG.GCCAGCAACGAUGGUGCGCAGUUCGA..GC..........AG.
+D.simulans.1                  ACGGUG.GCCGGUAGCAAUGGCUUGUGGUCCCA..UU..........AG.
+D.ananassae.1                 GCAAAG.GCCGGUAGCAAUGGCUUGUGGUUCGA..UU..........UGG
+D.willistoni.1                CCUAUGCGCCAGCAGCAAUGGCUUGUGGUUCCA..AUUCAACUUGAAAG.
+D.pseudoobscura.1             CAUGCA.GCCAGCAGCAAUGGCUUGUGGUUCGA..UU..........GG.
+D.melanogaster.1              ACGGUG.GCCGGUAGCAAUGGCUUGUGGUUCGU..UU..........AG.
+#=GC SS_cons                  ....<<.<<<<<<...........<<<<<.....................
+#=GC RF                       aauuug.GCCaGcAaCaAUGGCauGcaGuUCGa..au..........aG.
+
+D.virilis.1                   CG....ACUGCGUUCUUAUAACGCUUGGCUAUAAUAAACAUCUAUCU...
+D.mojavensis.1                AG....AUUGCGUUCUUAUAACGU.UGGCUAUAAUAAACAUCUAUCU...
+D.grimshawi.1                 CG....ACUGUGUUCUUAUAACGCUUGGCUAUAAUAAACAUCUAUCC..U
+D.simulans.1                  AGACUGACUGCUUGCUUAUAACACUUGGCCAGAACGAAAAUCUAUCUUAU
+D.ananassae.1                 AG....ACUGCUUGCUUAUAACACUUGGCCAGAACGAAAUUCUAUCU..U
+D.willistoni.1                AG....ACUGCUUGCUUAUAAAGCUUGGCUAGAAUAAAAUUCUAUCGUAU
+D.pseudoobscura.1             CG....ACUGCUUGCUUAUAAUGUUUGGCCAGAACAUUCUUCUAUCU..U
+D.melanogaster.1              AG....ACUGCUUGCUUAUAACACUUGGCCAGAACGAAAAUCUAUCUAAU
+#=GC SS_cons                  ......>>>>>...........>>.>>>>>>...................
+#=GC RF                       aG....aCugCuUuCUUAUAACgCUuGGCcauAAuaAAaAUCUAUCUAAu
+
+D.virilis.1                   AUCCGUAGCGUCACAAUGUGUAAU.UA.GCCGACAUUUGGCGUAUGAACU
+D.mojavensis.1                AUCCGUAGCGUCACAAUGUGUAAU.UA.ACCGACAUUUGGCGUAUGAACC
+D.grimshawi.1                 AUCCGUAGCGUCACAAUGUGUAAU.UG.GCCGACAUUUGGCGUAUGAACU
+D.simulans.1                  AUCCGUAGCGUCAUAAUGUGUAGUAUA.GCCGACAUUUGGCGUAUGAAAC
+D.ananassae.1                 AUCCGUAGCGUCACAAUGUGUAUUUUA.GCCGGCAUUUGGCGUAUGAACU
+D.willistoni.1                AUCCGUAGCGUUUUAAAUGUGUACAUA.ACCGACAUUUGGCGUAUGAACU
+D.pseudoobscura.1             AUCCGUAGCGUCACAAUGUGUAAUAUAAUCCGACAUUUGGCGUAUGACCU
+D.melanogaster.1              AUCCGUAGCGUCAUAAUGUGUAGUAUA.GCCGACAUUUGGCGUAUGAAAC
+#=GC SS_cons                  .........<<<....<<<...<<<<..<<<<<...>>>>>>>>>...>>
+#=GC RF                       AUCCGUAGCGuCAuAAuguGUAauauA.GCCgaCAUuuGGCguauGAAac
+
+D.virilis.1                   GAAGAGACAUCACA
+D.mojavensis.1                GAAGAGACAUUUAC
+D.grimshawi.1                 GAAGAAACAUUUCA
+D.simulans.1                  GAAGAGACAUUAUC
+D.ananassae.1                 GAAGAGACAUUUCA
+D.willistoni.1                GAAGAGACAAAUCU
+D.pseudoobscura.1             GAAGAGACAUCUUA
+D.melanogaster.1              GAAGAGACAUUAUC
+#=GC SS_cons                  >....>>>......
+#=GC RF                       gAAGAGaCAUuAua
+//

@@ -1,0 +1,108 @@
+# STOCKHOLM 1.0
+#=GF ID    23S-methyl
+#=GF AC    RF01065
+#=GF DE    23S methyl RNA motif
+#=GF AU    Weinberg Z, Gardner PP
+#=GF GA    45.0
+#=GF NC    28.6
+#=GF TC    55.2
+#=GF SE    Published; PMID:17621584; Weinberg Z
+#=GF SS    Published; PMID:17621584; Weinberg Z
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    17621584
+#=GF RT    Identification of 22 candidate structured RNAs in bacteria using
+#=GF RT    the CMfinder comparative genomics pipeline.
+#=GF RA    Weinberg Z, Barrick JE, Yao Z, Roth A, Kim JN, Gore J, Wang JX,
+#=GF RA    Lee ER, Block KF, Sudarsan N, Neph S, Tompa M, Ruzzo WL, Breaker
+#=GF RA    RR
+#=GF RL    Nucleic Acids Res. 2007;35:4809-4819.
+#=GF WK    http://en.wikipedia.org/wiki/23S_methyl_RNA_motif
+#=GF SQ    19
+
+#=GS E.faecium.1            AC    AAAK03000109.1/29-133
+#=GS Enterococcus_faecali.1 AC    AE016830.1/2578137-2578241
+#=GS Lactobacillus_saliva.1 AC    CP000233.1/1171001-1171100
+#=GS Lactobacillus_planta.1 AC    AL935258.1/141455-141553
+#=GS Lactobacillus_casei_.1 AC    CP000423.1/889561-889673
+#=GS Lactobacillus_reuter.1 AC    CP000705.1/649443-649549
+#=GS Lactobacillus_brevis.1 AC    CP000416.1/1432993-1433094
+#=GS Lactobacillus_sakei_.1 AC    CR936503.1/496018-496118
+#=GS Lactococcus_lactis_s.1 AC    CP000425.1/1179664-1179760
+#=GS Streptococcus_agalac.1 AC    CP000114.1/1597644-1597742
+#=GS Streptococcus_suis_9.1 AC    CP000408.1/1609205-1609304
+#=GS Streptococcus_sangui.1 AC    CP000387.1/1761121-1761216
+#=GS Streptococcus_pyogen.1 AC    AAFV01000025.1/9216-9314
+#=GS Streptococcus_mutans.1 AC    AE014133.1/1617944-1618044
+#=GS Streptococcus_pyogen.2 AC    AE009949.1/349483-349581
+#=GS Streptococcus_pneumo.1 AC    ABAB01000011.1/28409-28504
+#=GS Streptococcus_thermo.1 AC    CP000419.1/269671-269768
+#=GS Streptococcus_agalac.2 AC    AAJS01000102.1/3812-3910
+#=GS Streptococcus_pyogen.3 AC    CP000262.1/316897-316995
+
+E.faecium.1                        UU.UUCAUUGGUUUUUAUCAGG..UUCCUGUUC......UGAUAAAAGUU
+Enterococcus_faecali.1             UU.UUCAUUGGUUUUUAUCAGG..GUCCUGUUC......UGAUAAAAGUU
+Lactobacillus_saliva.1             CG.GUUGUUAGUAAUUAACG....GAACUGU........CGUUAGUUGCU
+Lactobacillus_planta.1             CG.UUUGGUAGUUAACAUCG....ACAUGU.........CGUUGGUGACU
+Lactobacillus_casei_.1             UU.AUUUUUAACUUUUAUCAGGGCUAGCUUUUGGGUAAUUGAUAAAAGUU
+Lactobacillus_reuter.1             UCGUUUGAUAAUUGACAUCGAAUAUAAGUGUUU......CGUUGGUAAUU
+Lactobacillus_brevis.1             CG.UUUGGCGGUCGAUAUCA....GCGUUUAAC......UGUUAGCGGCA
+Lactobacillus_sakei_.1             UU.UUCCCUAACUUUUAUCAG...AAUACUUUU......UGAUAAAAGCU
+Lactococcus_lactis_s.1             UA.UUAAUUUGUUUCAAUCU....UUCCUGUUA......UGAUUAAAGCA
+Streptococcus_agalac.1             GA.UUUGUUAGUUUAAAUCA....AACCUGUUA......UGAUUUAAGUU
+Streptococcus_suis_9.1             GAUUUCAUUGAUUUAACUCA....AACCUGUUG......UGAGUUAAGUG
+Streptococcus_sangui.1             CC.UUCAUUGGUUUACCUCA....AACCUGUUG......UGAUGUAAGUU
+Streptococcus_pyogen.1             CA.UUCGUUGAUUUAAAUCA....AACCUGUUA......UGAUUUAAGUU
+Streptococcus_mutans.1             CUAAUCAUUGUUUUAAAUCA....AACCUGUUA......UGAUUUAAGAU
+Streptococcus_pyogen.2             UA.UUCGUUGGUUUAAAUCA....AACCUGUUA......UGAUUUAAGUU
+Streptococcus_pneumo.1             GU.UUCGCUGAUUUACUUCA....AACCUGUUG......UGAGGUAAGUU
+Streptococcus_thermo.1             CA.UUCACUAUUUUAAAUCU....AACCUGUCA......UGAUUUAAGCU
+Streptococcus_agalac.2             GA.UUUGUUAGUUUAAAUCA....AACCUGUUA......UGAUUUAAGCU
+Streptococcus_pyogen.3             CA.UUCGUUGGUUUAAAUCA....AACCUGUUA......UGAUUUAAGUU
+#=GC SS_cons                       .<.<<<<<<<<<<<<<<<<<...................>>>>>>>>>>>
+
+E.faecium.1                        A.GUGAGAAGAGC.UUCACUAACGUAACGACUCGCAGUGACUGACACCGA
+Enterococcus_faecali.1             A.GUGAAGAGACC.UUCACUAACGUAACGACUCGCCGUGGUAGACACCGA
+Lactobacillus_saliva.1             AUAUAAUUGUAC..UUCAUUAACGUAGCUGUUCGCCGUGCCCA.CACCGA
+Lactobacillus_planta.1             A.CCGAGUUGUAC.UUCAUUAACGUAGCGUUUCGCCGUGCCCA.CACCGA
+Lactobacillus_casei_.1             U.GCGAUAAAUUACUUCACUAACGUAUCGCUUCGCUGAGUGCG.CUCCGA
+Lactobacillus_reuter.1             A.UCAAGGAGUAC.UUCAUUAAAGCAGCGUUUCGCCGUGCCCA.CACCGA
+Lactobacillus_brevis.1             G.ACAAGUAGCAC.UUCACUAAAGUAGUUCCUCGCCGUGCCCA.CACCGA
+Lactobacillus_sakei_.1             A.GUGAUGAAAU..GACACUAACGUAGUUUCUCGCCGUGAAUAAC..CGA
+Lactococcus_lactis_s.1             A.AUUAGUC.....CCCC..AACUAGACUUCUUGCUGAGAUUGACUCCGA
+Streptococcus_agalac.1             A.ACAAACC.....ACCAUAAACCACAUUGUUUGCUGAGAUUGACUCCGA
+Streptococcus_suis_9.1             A.AUGAAUC.....AUCAUUCACCAUGCUGUUUGCUGAGCUUGACUCCGG
+Streptococcus_sangui.1             A.AUGAAGC........CUUAACCACGCUGUUUGCUGAGCUUGACUCCGG
+Streptococcus_pyogen.1             A.GCGAGUC.....ACCAUCAACCACAUUGUUUGCUGAGCAUGACUCCGA
+Streptococcus_mutans.1             A.AUGAAAGC....ACCGCACACCACGUUACCUGCUGAGCUGGACUCCGG
+Streptococcus_pyogen.2             A.GCGAGUC.....ACCAUCAACCACAUUGUUUGCUGAGCAUGACUCCGA
+Streptococcus_pneumo.1             A.ACGAUGC........CUUAACCACGCUGUCUGCUGAGCUUGACUCCGG
+Streptococcus_thermo.1             A.AUGAAUG.....UCCAU.AACCAUGUCGUCUGCUGAGCUUGACUCCGG
+Streptococcus_agalac.2             A.ACAAACC.....ACCAUAAACCACAUUGUUUGCUGAGAUUGACUCCGA
+Streptococcus_pyogen.3             A.GCGAGUC.....ACCAUCAACCACAUUGUUUGCUGAGCAUGACUCCGA
+#=GC SS_cons                       >.>>>>>>............<<<<<<<<<<<<<<..<<<.....>>>>>>
+
+E.faecium.1                        GUUGAUACGUUUUUUU
+Enterococcus_faecali.1             GACGGUACGUUUUUUU
+Lactobacillus_saliva.1             AUGGCUACGCUUUUUU
+Lactobacillus_planta.1             AAUACUACGUUUUUUU
+Lactobacillus_casei_.1             AGCAAUGCGUUUUUUU
+Lactobacillus_reuter.1             GACCCUGCUUUUUUUA
+Lactobacillus_brevis.1             GGAGCUGCUUUUUUUG
+Lactobacillus_sakei_.1             GGGACUACGUUUUUUU
+Lactococcus_lactis_s.1             GGGGUCUAGUUUUUUU
+Streptococcus_agalac.1             GCAGUGUGGUUUUUUU
+Streptococcus_suis_9.1             GCAGUGUGGCUAUUUU
+Streptococcus_sangui.1             GCAGUGUGGCUAUUUU
+Streptococcus_pyogen.1             GCAGUGUGGUUUUUAA
+Streptococcus_mutans.1             GUUCCGUGGUUCUUUU
+Streptococcus_pyogen.2             GCAGUGUGGUUUUUUA
+Streptococcus_pneumo.1             GCAGUGUGGCUAUUUU
+Streptococcus_thermo.1             GCGAUAUGGCAUUUUU
+Streptococcus_agalac.2             GCAGUGUGGUUUUUUU
+Streptococcus_pyogen.3             GCAGUGUGGUUUUUUA
+#=GC SS_cons                       >>>>>>>>>>>.....
+//

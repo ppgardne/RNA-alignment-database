@@ -1,0 +1,91 @@
+# STOCKHOLM 1.0
+#=GF ID    snoR86
+#=GF AC    RF00303
+#=GF DE    Small nucleolar RNA snoR86
+#=GF AU    Moxon SJ
+#=GF GA    34.0
+#=GF NC    27.9
+#=GF TC    37.6
+#=GF SE    Moxon SJ, INFERNAL
+#=GF SS    Predicted; PFOLD; Moxon SJ
+#=GF TP    Gene; snRNA; snoRNA; HACA-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000594 SO:H_ACA_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Arabidopsis_thaliana300124
+#=GF DR    snoopy; Arabidopsis_thaliana300207
+#=GF RN    [1]
+#=GF RM    12007400
+#=GF RT    Small nucleolar RNAs: an abundant group of noncoding RNAs with
+#=GF RT    diverse cellular functions.
+#=GF RA    Kiss T;
+#=GF RL    Cell 2002;109:145-148.
+#=GF RN    [2]
+#=GF RM    12477388
+#=GF RT    Experimental RNomics: identification of 140 candidates for small
+#=GF RT    non-messenger RNAs in the plant Arabidopsis thaliana.
+#=GF RA    Marker C, Zemann A, Terhorst T, Kiefmann M, Kastenmayer JP, Green P,
+#=GF RA    Bachellerie JP, Brosius J, Huttenhofer A;
+#=GF RL    Curr Biol 2002;12:2002-2013.
+#=GF CC    snoR86 is a member of the H/ACA class of small nucleolar RNAs (snoRNAs)
+#=GF CC    which act as guides in the the modification of uridines to pseudouridines
+#=GF CC    [1].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_snoR86
+#=GF SQ    11
+
+#=GS O.sativa.1      AC    AL731740.4/7530-7650
+#=GS O.sativa.2      AC    AACV01024246.1/8858-8981
+#=GS V.vinifera.1    AC    AM448130.2/690-819
+#=GS R.communis.1    AC    AASG02009944.1/1753-1868
+#=GS R.communis.2    AC    AASG02009944.1/2138-2259
+#=GS P.trichocarpa.1 AC    AARH01010162.1/241821-241954
+#=GS P.trichocarpa.2 AC    AARH01007754.1/2040-2159
+#=GS A.thaliana.1    AC    AJ505659.1/1-124
+#=GS A.thaliana.2    AC    AL138659.1/77696-77819
+#=GS A.thaliana.3    AC    AC007767.3/47035-47162
+#=GS B.rapa.1        AC    AC189297.2/132599-132725
+
+O.sativa.1                  GAGCAAAGGGGCC..UGA...UA....AAGUGGC.GAUCUUUGGAUUGAA
+O.sativa.2                  GAGCAAAGGGGCC..AGA...UG....CAGUGGC.UAUCUUUGCAUUGAA
+V.vinifera.1                GAGCAAAGGCGUCGAAUA...AAAGAGAAAUGAC.GCAAUUUGCCUUGAA
+R.communis.1                GAGCAAAUGCGUC........GA....AAAUGGC.GAAAUUUGCAUUGAA
+R.communis.2                GAGCAAGAGUGUC........UA....AAAUGACUACAACUUGCAUUGAA
+P.trichocarpa.1             GAGCAAGGACGUCAAGAA...AAAAG.AGAUGGC.GUGAUUUGCAUUGAA
+P.trichocarpa.2             GAGCAAGGGUGUC........GA....AAAUGGC.ACAACUUGCAUUGAA
+A.thaliana.1                GAGCAAUGACGUCAAAAU...AA....AAAUGGC.GUAAGUUGCCUUGAA
+A.thaliana.2                GAGCAAUGACGUCAAAAU...AA....AAAUGGC.GUAAGUUGCCUUGAA
+A.thaliana.3                GAGCAAGGGCGUC.UAGU...UU....AAAUGAC.GUGAGUUGCCUUGAA
+B.rapa.1                    GAGCAAUGACGUCAAAAUAUAAA....AAAUGGC.GUGAGUUGCCUUGAA
+#=GC SS_cons                ........<<<<<..................>>>.>>...<<<<<.....
+#=GC RF                     GAGCAAaggCGuCaAAaa...aA....AAAUGgC.GcAAguuGCcUUGAA
+
+O.sativa.1                  GGUUGGCGACAACGA.UU........GCAGUUCUCCGUGCCGCUCAGAUU
+O.sativa.2                  GGUUGGCGACAACGAACAAAC.....GCAGUUCUCCGUGCCGCUCAGAUU
+V.vinifera.1                GGUUGGCGAUAAGGAAAAAUG.....GCGAUUCUCCGUGCCUGUCAAUCA
+R.communis.1                GGUUGGCAAUAUCAA.UA........GCAAUUCUCCGUGCCUAUUAAAUC
+R.communis.2                GGU.GGCCA.UAUCAAUA........GCAAUUCUCCGUGCCUAUCAAAUC
+P.trichocarpa.1             GGUUGGCUAUAUCAAUGAUAAAAUUGGCGAUUCUCCGUGCCUGUCAAAUC
+P.trichocarpa.2             GGUUGGCAA.UACUAAUA........GCAAUUCUCCGUGCCUAUCAAAUC
+A.thaliana.1                GGUUGGCAACAACAAAUA........GCGAUUCUCCGUGCCUAUCAAGUU
+A.thaliana.2                GGUUGGCAACAACAAAUA........GCGAUUCUCCGUGCCUAUCAAGUU
+A.thaliana.3                GGUUGGCGAUAACAAGUUUU......GCGAUUCUCCGUGCCUAUCAAAUU
+B.rapa.1                    GGUUGGCAAUAACAAUAA........GCGAUUCUCCGUGCCUAUCAAGUU
+#=GC SS_cons                ....>>>>>.................<<<<<<......<<<.........
+#=GC RF                     GGUUgGCaacAAcaAAuA........GCgauuCUCCGUGCCUAUcAAaua
+
+O.sativa.1                  UUCCUCUCUUUUGUGAC....GGCCUCGAACAAGCUGCUACAUC
+O.sativa.2                  UUCUCUGUUUUGUG.AC....GGCCUCGAACAAGCUGCUACAUC
+V.vinifera.1                UUUUUAUUUUGAUC.AU....GGCCUCGAACAAGUCGCUACAUU
+R.communis.1                GAUCAUUUUGA..UUAU....GGCCUCGAACAAGUUGCAACAGU
+R.communis.2                UCUUAAUUUCAUUUUGAUUAUGGCCUCGAACAAGUUGCUACAUU
+P.trichocarpa.1             UGUUCAUUUUGAUC.AU....GGCCUCGAACAAGUCGCUACAAA
+P.trichocarpa.2             UUGAUUUCAUUUUGAUU..AUGGCCUCGAACAAGUUGCUACAUU
+A.thaliana.1                UUCUAAUCUUGAUUGUU....GGCCUCGAACAAGUCGCUACAUU
+A.thaliana.2                UUCUAAUCUUGAUUGUU....GGCCUCGAACAAGUCGCUACAUU
+A.thaliana.3                UUGUUUUUCGUAUUGAU.AAUGGCCUCGAACAAGUCGCUACAUU
+B.rapa.1                    UUCUUUAUACUGAUUGC....GGCCUCGAACAAGUCGCUACAUU
+#=GC SS_cons                .....................>>>........>>>>>>......
+#=GC RF                     uuuuauuuauaauuaaU....GGCCUCGAACAagucGCuACAuU
+//

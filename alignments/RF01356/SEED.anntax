@@ -1,0 +1,28 @@
+# STOCKHOLM 1.0
+#=GF ID    CRISPR-DR28
+#=GF AC    RF01356
+#=GF DE    CRISPR RNA direct repeat element
+#=GF AU    Wilkinson A
+#=GF GA    16.0
+#=GF NC    13.1
+#=GF TC    16.5
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; CRISPR;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    URL; http://crispr.u-psud.fr/crispr/CRISPRHomePage.php
+#=GF DR    SO:0001459 SO:CRISPR
+#=GF WK    http://en.wikipedia.org/wiki/CRISPR
+#=GF SQ    3
+
+#=GS Roseiflexus.1 AC    CP000686.1/987903-987926
+#=GS Roseiflexus.2 AC    CP000686.1/988059-988082
+#=GS Roseiflexus.3 AC    CP000686.1/720627-720650
+
+Roseiflexus.1             GGCAAAGCCCGCCUGCGCGGGCGA
+Roseiflexus.2             GGCAAAGCCCGCCUGCGCGGGCUA
+Roseiflexus.3             AGCGAAGCCCGCCUGCGCGGGCUA
+#=GC SS_cons              .....<<<<<<<....>>>>>>>.
+#=GC RF                   ggcAAaGcccGccugcgCgggCuA
+//

@@ -1,0 +1,92 @@
+# STOCKHOLM 1.0
+#=GF ID    isrL
+#=GF AC    RF01395
+#=GF DE    isrL Hfq binding RNA
+#=GF AU    Daub J, Gardner PP
+#=GF GA    35.0
+#=GF NC    19.2
+#=GF TC    40.7
+#=GF SE    Predicted; MAFFT; Infernal
+#=GF SS    Predicted; RNAalifold
+#=GF TP    Gene; sRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  -g  CM SEQDB
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF RN    [1]
+#=GF RM    18725932
+#=GF RT    Deep sequencing analysis of small noncoding RNA and mRNA targets
+#=GF RT    of the global post-transcriptional regulator, Hfq.
+#=GF RA    Sittka A, Lucchini S, Papenfort K, Sharma CM, Rolle K, Binnewies
+#=GF RA    TT, Hinton JC, Vogel J;
+#=GF RL    PLoS Genet. 2008;4:e1000163.
+#=GF RN    [2]
+#=GF RM    18267966
+#=GF RT    Small RNAs encoded within genetic islands of Salmonella
+#=GF RT    typhimurium show host-induced expression and role in virulence.
+#=GF RA    Padalon-Brauch G, Hershberg R, Elgrably-Weiss M, Baruch K,
+#=GF RA    Rosenshine I, Margalit H, Altuvia S
+#=GF RL    Nucleic Acids Res. 2008;36:1913-1927.
+#=GF WK    http://en.wikipedia.org/wiki/Hfq_binding_sRNA
+#=GF SQ    4
+
+#=GS Salmonella_enterica_.1 AC    CP000026.1/2656858-2657202
+#=GS Salmonella_enterica_.2 AC    AE017220.1/2856230-2856574
+#=GS Salmonella_enterica_.3 AC    CP001113.1/2841211-2841555
+#=GS marine_metag.1         AC    AACY020362060.1/625-978
+
+Salmonella_enterica_.1             UUUGGCGACCUCUAUUUGUUCAUUCUGUGCGAGCAGUUUGCCGACGGCUU
+Salmonella_enterica_.2             UUUGGCGACCUCUAUUUGUUCAUUCUGUGCGAGCAGUUUGCCGAUGGCUU
+Salmonella_enterica_.3             UUUGGCGACCUCUAUUUGUUCAUUCUGUGCGAGCAGUUUGCCGACGGCUU
+marine_metag.1                     CUUCGCCACGUCGAUUUGCUCGUUUUGCGAGAGCAGUUUGCCGAUGGAUU
+#=GC SS_cons                       ..<.<<.<<.<<<...<<<<<.........>>>>><<<<<<.<<.....>
+#=GC RF                            uUucGCgaCgcCgAUUuGcuCaUUuUGuGaGagCaguuuGccGaUGGaUu
+
+Salmonella_enterica_.1             CGCGAAUAGAAGGAUGCCAGCUAACGGCGUGAUUGACCGCGUCAUUAAGC
+Salmonella_enterica_.2             CGCGAAUAGAAGGAUGCCAGUUAACGGCGCGAUUGACCGCGUCAUUGAGC
+Salmonella_enterica_.3             CGCGAAUAGAAGGAUGCCAGUUAACGGCGCGAUUGACCGCGUCAUUGAGC
+marine_metag.1                     CACGAAUAGAAGGAUGCCAGCUCACGGCACGACUCACCGCGUCGUUGAGC
+#=GC SS_cons                       >>>>>>>.<<<<<<<<<<.<<<.<.<<<<<<......>>>>>>..>.>>>
+#=GC RF                            CgCgaauAGaaGGacGCCAGcucacGgCgCGAuUgAcCGcGuCgUugagC
+
+Salmonella_enterica_.1             GUCAGGUUGCCCGGCGCGGCGGCGCUGAGCGGCAACUCAGCGGCGGAGCC
+Salmonella_enterica_.2             GUCAGGUUGCCCGGCGCGGCGGCGCUGAGCGGCAACUCAGCGGCGGAGCC
+Salmonella_enterica_.3             GUCAGGUUGCCCGGCGCGGCGGCGCUGAGCGGCAACUCAGCGGCGGAGCC
+marine_metag.1                     GUCAGGCUACCGGGAGCGGCAGCGCUCAGCGGCAGAUCGGCAACCGCGCC
+#=GC SS_cons                       .<<<<<<<<<<......>>>>>>.>>>>..>>>.....<<<<<<<<.<<<
+#=GC RF                            GucaGGccgCCgGGaGcGGcggCGCugaGcGGCAaaUcgGCaaCcgagCC
+
+Salmonella_enterica_.1             AUCCAGCGAAGGAAGCAUCUGGUCCGUUGCUAAUCCUUCGGAUGUAAUCA
+Salmonella_enterica_.2             AUCCAGCGAAGGAAGCAUCUGGUCCGUUGCUAAUCCUUCGGAUGUAAUCA
+Salmonella_enterica_.3             AUCCAGCGAAGGAAGCAUCUGGUCCGUUGCUAAUCCUUCGGAUGUGAUAA
+marine_metag.1                     GUCCAGCGAGGGAAGCAUCUGGCUAGUGGCCAGUCCUUCCGGCGUAAUAA
+#=GC SS_cons                       <<<<......>>>......>>>>>>>>>>>>.>>>>>>>>>>.>>..<<<
+#=GC RF                            auCCAGcGAaGGaAGcAUcuGGccgGuuGCcAguCCuuCcGgcGuAAuca
+
+Salmonella_enterica_.1             UUGGCGGCGCUUCUGCUCCCCGGGGCUGGUGAUGAAACAAAGCAAAUGCC
+Salmonella_enterica_.2             UUGGCGGCGCUUCUGCGCCCCGGGGCUGGUGAUGAAACAAAGCAAAUGCC
+Salmonella_enterica_.3             UUGGCAGCGAUUCUGCGCCCCGGGGCUGGUGAUGAAACAAAGCAAAUGCC
+marine_metag.1                     UUUGCGGUUCAUCUUCGGCAUUCACCCGCAGGGUACAGAGCGUUAAUGCC
+#=GC SS_cons                       <<<.<<<<..<..........>..>>>>.>>>>>>......<<...<<<<
+#=GC RF                            cuugCgGcucaUcUucGgcauugagCcGcaggugaaAgAaaGcaAAcGCC
+
+Salmonella_enterica_.1             AGUACGAUGGCGACAGGCGCGACUCUUCCCAUAGUUUAUCCCUUUUAAA.
+Salmonella_enterica_.2             AGUACGAUGGCGACAGGCGCGACUCUUCCCAUAGUUUAUCCCUUUUAAA.
+Salmonella_enterica_.3             AGUACGAUGGCGACAGGUGCGACUCUUCCCAUAGUUUAUCCCUUUUAAA.
+marine_metag.1                     AGCAGUAAGGCAACAGGCGCGACAUUUCUCAUAGAUUAUCCCUUACAAAA
+#=GC SS_cons                       ........>>>>....>>>>.>............................
+#=GC RF                            AGuAguAaGGCgAcAGgCGCgacauUUcucAUAGaUUAUcccUUauAAAA
+
+Salmonella_enterica_.1             ........UAUCACCGCUUGUUGCCCCGAACGUCGUGGCGUUCGGGGCUU
+Salmonella_enterica_.2             ........UAUCACCGCUUGUUGCCCCGAACGUCGUGGCGUUCGGGGCUU
+Salmonella_enterica_.3             ........UAUCACCGCUUGUUGCCCCGAACGUCGUGGCGUUCGGGGCUU
+marine_metag.1                     UACGGCAGCGACGACUGUUAUUGCCCCGGAUGUCAUCGCAUCCGGGGCUG
+#=GC SS_cons                       ......................<<<<<<<<<<<....>>>>>>>>>>>..
+#=GC RF                            uAcggcAguaacaacugUUaUUGCCCCGgacGucaUggCgucCGGGGCUu
+
+Salmonella_enterica_.1             UUUU
+Salmonella_enterica_.2             UUUU
+Salmonella_enterica_.3             UUUU
+marine_metag.1                     UAGU
+#=GC SS_cons                       ....
+#=GC RF                            UauU
+//

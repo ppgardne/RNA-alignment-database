@@ -1,0 +1,84 @@
+# STOCKHOLM 1.0
+#=GF ID    Leu_leader
+#=GF AC    RF00512
+#=GF DE    Leucine operon leader
+#=GF AU    Bateman A
+#=GF GA    33.0
+#=GF NC    32.9
+#=GF TC    34.4
+#=GF SE    Bateman A
+#=GF SS    Published; PMID:6186194
+#=GF TP    Cis-reg; leader;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    6186194
+#=GF RT    Attenuation in amino acid biosynthetic operons.
+#=GF RA    Kolter R, Yanofsky C;
+#=GF RL    Annu Rev Genet 1982;16:113-134.
+#=GF CC    At least 6 amino acid operons are known to be regulated by
+#=GF CC    attenuation [1].  In each a leader sequence of 150-200 bp
+#=GF CC    is found upstream of the first gene in the operon. This
+#=GF CC    leader sequence can assume two different secondary structures
+#=GF CC    known as the terminator and the anti-terminator structure.
+#=GF CC    In each case the leader also codes for very short peptide
+#=GF CC    sequence that is rich in the end product amino acid of the
+#=GF CC    operon. The terminator structure is recognised as a termination
+#=GF CC    signal for RNA polymerase and the operon is not transcribed.
+#=GF CC    This structure forms when the cell has an excess of the
+#=GF CC    regulatory amino acid and ribosome movement over the leader
+#=GF CC    transcript is not impeded [1]. When there is a deficiency of the
+#=GF CC    charged tRNA of the regulatory amino acid the ribosome 
+#=GF CC    translating the leader peptide stalls and the antiterminator 
+#=GF CC    structure can form. This allows RNA polymerase to transcribe
+#=GF CC    the operon [1].
+#=GF CC    In the Rfam alignment the consensus structure is of the
+#=GF CC    terminator.  The alternative consensus structure is the
+#=GF CC    antiterminator structure.
+#=GF WK    http://en.wikipedia.org/wiki/Leucine_operon_leader
+#=GF SQ    6
+
+#=GS Enterobacter.1         AC    CP000653.1/704410-704557
+#=GS E.coli.1               AC    J01642.1/51-200
+#=GS Pectobacterium_atros.1 AC    BX950851.1/4281970-4282116
+#=GS S.enterica.1           AC    M64039.1/2-149
+#=GS S.glossinidius.1       AC    AP008232.1/768654-768795
+#=GS Y.pestis.1             AC    AE009952.1/4041329-4041474
+
+Enterobacter.1                     CUGGAGCAUG..AUUC.AUGA...UUCGUACCGUUCGUUCUCUCAGCCUA
+E.coli.1                           CUGGAGCUGA..UUUA.AUGA...CUCACAUCGUUCGCUUUAUCGGUCUA
+Pectobacterium_atros.1             CGAGACACGA..CACU.AUGUUCAAGUUUACUGUCC......UACUAAGC
+S.enterica.1                       CUGGAGCUGA..AUUA.AUGU...CACAUAUCGUUCGUUUCACUGGGCUA
+S.glossinidius.1                   CAUAACUUAU..GUUC.A..A...GUCUAUCCGUCUACUAAGC.......
+Y.pestis.1                         GAGAAGCUGAAAUUUAUGUUCUA.CUCAACCCGUCUACUAAGC.......
+#=GC SS_cons                       ...<.<<<<<...<<<.<<<<.........<<<<<<<<<<..........
+#=GC RF                            cUGGaGcugg..Auuc.auGu...uucauAcCGcuCgccauaucaGucUA
+
+Enterobacter.1                     CUACUACUAAACGCAUCUCUUUUGCGCGGUAGGCUGGCGAACGAAAUUCA
+E.coli.1                           CUACUACUAAACGCAUCUUCUUUGCGCGGUAGACGAGUGAGCGGCAUCCA
+Pectobacterium_atros.1             CUACUACUAAACGCAUCCUUCUUGCGCGGUAGGUUUGUGGGCAGACUUCA
+S.enterica.1                       CUACUACUCAACGCAUUUAUUGUGCGCGGUAGACCGGUGGGCGGCAUUCA
+S.glossinidius.1                   CUACUACUACACGUAGAAUUGAUGCGCGGCAGGCUGGUGCACGGUAUUCA
+Y.pestis.1                         CUACUACUUAACGCAUCUCUCUUGCGCGGUAUGUUGGUGGACGGAAAUCA
+#=GC SS_cons                       ...<<<<<...<<<<.......>>>>.>>>>>..>>>>>>>>>>......
+#=GC RF                            cUACuaCuAAACGCaUcUauUuuGCGcgGuaGacuggcGagCGgaAUucA
+
+Enterobacter.1                     ..ACGUUGAAUCGU.CUCCAGUAAACAA..GAAACCCGCGC..CAUUGCG
+E.coli.1                           ..GCA.UUAAGCCAGCACGCAGUCAAACAAAAAACCCGCGC..CAUUGCG
+Pectobacterium_atros.1             GAACU.AAGUUUCUCGCCACACGAUACA..AAAACCCGCGC..UGAUGCG
+S.enterica.1                       ..ACA.UUAAGUCAGCUCGAAGUCAAAC..AAAACCCGCGC..CGUUGCG
+S.glossinidius.1                   ..GAACUGAAUUCGGGCCACUCCAGAUU..AAAACCCGCGCACUACUGCG
+Y.pestis.1                         ..GAA.CUGAUUCAGCCAUCAAGAUUAA..CAAGCCCGCGC..AAAUGCG
+#=GC SS_cons                       ..>>>.>>>>.>>>>>.>............<<<<<<<<<<<......>>>
+#=GC RF                            ..aCa.ugaagccagCuCgAagaaAaAa..aaaaCCCGCGC..cAUUGCG
+
+Enterobacter.1                     CGGGUUUUUUU
+E.coli.1                           CGGGUUUUUUU
+Pectobacterium_atros.1             CGGGUUUUUUU
+S.enterica.1                       CGGGUUUUUUU
+S.glossinidius.1                   CGGGUUUUUUU
+Y.pestis.1                         CGGUUUUUUUU
+#=GC SS_cons                       >>>>>>>>...
+#=GC RF                            CGGGuuuuUUU
+//

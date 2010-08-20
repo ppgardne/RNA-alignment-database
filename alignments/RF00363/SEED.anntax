@@ -1,0 +1,54 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-BART1
+#=GF AC    RF00363
+#=GF DE    mir-BART1 microRNA precursor family
+#=GF AU    Moxon SJ
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    91.3
+#=GF SE    PMID:15118162
+#=GF SS    Published; PMID:15118162
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF RN    [1]
+#=GF RM    15118162
+#=GF RT    Identification of Virus-Encoded MicroRNAs.
+#=GF RA    Pfeffer S, Zavolan M, Grasser FA, Chien M, Russo JJ, Ju J, John B,
+#=GF RA    Enright AJ, Marks D, Sander C, Tuschl T;
+#=GF RL    Science 2004;304:734-736.
+#=GF CC    This family represents the mir-BART1 microRNA precursor found in Human
+#=GF CC    herpesvirus 4 (Epstein-Barr virus) and Cercopithicine herpesvirus 15.
+#=GF CC    mir-BART1 is found in all stages of infection but expression is
+#=GF CC    significantly elevated in the lytic stage. In Epstein-Barr virus mir-BART1
+#=GF CC    is found in the intronic regions of the BART (Bam HI-A region rightward
+#=GF CC    transcript) gene whose function is unknown. The mature sequence is excised
+#=GF CC    from the 5' arm of the hairpin [1].
+#=GF WK    http://en.wikipedia.org/wiki/mir-BART1_microRNA_precursor_family
+#=GF SQ    5
+
+#=GS Human_herpesvirus_4_.1 AC    AJ507799.2/139346-139415
+#=GS Macacine_herpesvirus.1 AC    AY037858.1/133690-133759
+#=GS Human_herpesvirus_4_.2 AC    AY961628.3/139265-139334
+#=GS Human_herpesvirus_4_.3 AC    DQ279927.1/140174-140243
+#=GS Human_herpesvirus_4_.4 AC    M80517.1/151635-151704
+
+Human_herpesvirus_4_.1             GGGGGUCUUAGUGGAAGUGACGUGCUGUGAAUACAGGUCCAUAGCACCGC
+Macacine_herpesvirus.1             GUGGGUUUUAGUGGAAGUGACGUGCUGUGAUUAGGUACCCAUAGCACCGC
+Human_herpesvirus_4_.2             GGGGGUCUUAGUGGAAGUGACGUGCUGUGAAUACAGGUCCAUAGCACCGC
+Human_herpesvirus_4_.3             GGGGGUCUUAGUGGAAGUGACGUGCUGUGAAUACAGGUCCAUAGCACCGC
+Human_herpesvirus_4_.4             GGGGGUCUUAGUGGAAGUGACGUGCUGUGAAUACAGGUCCAUAGCACCGC
+#=GC SS_cons                       ..<<<...<<<<<<<<<<<..<<<<<<<<.<<....>>.>>>>>>>>>>>
+#=GC RF                            guGgGuuuuaGuGGaaGcGAcGuGcuguGAgcAaaugccCacagCaCCgC
+
+Human_herpesvirus_4_.1             UAUCCACUAUGUCUCGCCCG
+Macacine_herpesvirus.1             UAUCCACUAUGUCUCACCAG
+Human_herpesvirus_4_.2             UAUCCACUAUGUCUCGCCCG
+Human_herpesvirus_4_.3             UAUCCACUAUGUCUCGCCCG
+Human_herpesvirus_4_.4             UAUCCACUAUGUCUCGCCCG
+#=GC SS_cons                       >.>>>>>>>...>>>.....
+#=GC RF                            uAuCCaCuauguCcCaccag
+//

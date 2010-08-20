@@ -1,0 +1,72 @@
+# STOCKHOLM 1.0
+#=GF ID    IRES_IGF2
+#=GF AC    RF00483
+#=GF DE    Insulin-like growth factor II IRES
+#=GF AU    Moxon SJ
+#=GF GA    20.0
+#=GF NC    19.9
+#=GF TC    20.3
+#=GF SE    Moxon SJ
+#=GF SS    Published; PMID:11903044
+#=GF TP    Cis-reg; IRES;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000243 SO:internal_ribosome_entry_site
+#=GF DR    GO:0043022 GO:ribosome binding
+#=GF RN    [1]
+#=GF RM    11903044
+#=GF RT    Human insulin-like growth factor II leader 2 mediates internal
+#=GF RT    initiation of translation.
+#=GF RA    Pedersen SK, Christiansen J, Hansen TO, Larsen MR, Nielsen FC;
+#=GF RL    Biochem J 2002;363:37-44.
+#=GF CC    This family represents the insulin-like growth factor II (IGF-II) internal
+#=GF CC    ribosome entry site (IRES) which is found in the 5' UTR of IGF-II leader 2
+#=GF CC    mRNA. This family allows cap-independent translation of the mRNA and it is
+#=GF CC    thought that this family may facilitate a continuous IGF-II production in
+#=GF CC    rapidly dividing cells during development [1].
+#=GF WK    http://en.wikipedia.org/wiki/Insulin-like_growth_factor_II_IRES
+#=GF SQ    9
+
+#=GS M.musculus.1   AC    AC013548.13/54281-54401
+#=GS M.musculus.2   AC    M36329.1/1311-1429
+#=GS R.norvegicus.1 AC    AC098563.6/58764-58884
+#=GS H.sapiens.1    AC    X03562.1/168-288
+#=GS H.sapiens.2    AC    AC132217.15/106569-106689
+#=GS O.aries.1      AC    U00664.1/1237-1354
+#=GS S.scrofa.1     AC    AY242109.1/19270-19389
+#=GS S.scrofa.2     AC    AY242112.1/19400-19519
+#=GS E.caballus.1   AC    AF020598.1/561-681
+
+M.musculus.1               ACGACUGGGCAUUGCCCCCAGUUUCCCCCAAAUUUGGGCAUUGUCCCCGG
+M.musculus.2               ACGACUGG.CAUUGCCCCCAGUUUCCCCCAAAUUUGGGCAUUGUCCCCGG
+R.norvegicus.1             ACCACUGGGCAUUGCCCCCAGUUUCCCCCAAAUUUGGGCAUUGUCCCCGG
+H.sapiens.1                GCGACCGGGCAUUGCCCCCAGUCUCCCCCAAAUUUGGGCAUUGUCCCCGG
+H.sapiens.2                GCGACCGGGCAUUGCCCCCAGUCUCCCCCAAAUUUGGGCAUUGUCCCCGG
+O.aries.1                  ACGACUGGGCAUUGCCCCCAGUUUCCCCCAAAUUUGGGCAUUGUCCCCGG
+S.scrofa.1                 ACGACUGGGCAUUGCCCCCAGUUUCCCCCAAAUUUGGGCAUUGUCCCUGG
+S.scrofa.2                 ACGACUGGGCAUUGCCCCCAGUUUCCCCCAAAUUUGGGCAUUGUCCCUGG
+E.caballus.1               ACGACUGGGCAUUGCCCCCAGUUUCCCCCAAAUUUGGGCAUUGUCCCUGG
+#=GC SS_cons               ..<<<.<<<<...>>>>...>>>...<<<<....>>>>....<<<<..<<
+
+M.musculus.1               GUCUUCCAACGGACUGGGCGUUG.CCCCGGUUCACUGGGGACUGCCCUUG
+M.musculus.2               GUCUUCCAACGGACUGG.CGUUG.CCCCGGUUCACUGGGGACUGCCCUUG
+R.norvegicus.1             GUCUUCCAACGGACUGGGCGUUG.CCCCGGGACACUGGGGACUGCCUUUG
+H.sapiens.1                GUCUUCCAACGGACUGGGCGNNGCUCCCGG.ACACUGAGGACUGGCCCCG
+H.sapiens.2                GUCUUCCAACGGACUGGGCGUUGCUCCCGG.ACACUGAGGACUGGCCCCG
+O.aries.1                  GUCUUCCAACGGACUGGGCGUUGCCCC.GG.ACGCUGGGGACUGCCCC.G
+S.scrofa.1                 GUCUUCCAACGUACUGGGCGUUGCCCCCGG.ACACUGCGGACUGCCCCCG
+S.scrofa.2                 GUCUUCCAACGGACUGGGCGUUGCCCCCGG.ACACUGCGGACUGCCCCCG
+E.caballus.1               GUCUUCUAACGGACUGGGCGUUGCCCCGGG.ACAUUGGGGACUGCCCCCG
+#=GC SS_cons               <...>>>...>>>><<<<......<<<<<<.................>>>
+
+M.musculus.1               GGGUCUCGCUCACCUUCAGCAG
+M.musculus.2               GGGUCUCGCUCACCUUCAGCAC
+R.norvegicus.1             GGGUCUCGCUCACCUUCAGCAA
+H.sapiens.1                GGGUCUCGCUCACCUUCAGCAG
+H.sapiens.2                GGGUCUCGCUCACCUUCAGCAG
+O.aries.1                  GGGUCUCGCUCACCUUCAGC.G
+S.scrofa.1                 GGGUCUCGCUCACCUUCAGC.G
+S.scrofa.2                 GGGUCUCGCUCACCUUCAGC.G
+E.caballus.1               GGGUCUUGCUCACCUUCAGCAG
+#=GC SS_cons               >>>.>>>>..............
+//

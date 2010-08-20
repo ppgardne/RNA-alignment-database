@@ -1,0 +1,33 @@
+# STOCKHOLM 1.0
+#=GF ID    snoU83C
+#=GF AC    RF01187
+#=GF DE    Small nucleolar RNA U83C
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    23.0
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    URL; http://snoopy.med.miyazaki-u.ac.jp/view.cgi?id=CIO30002
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF WK    http://en.wikipedia.org/wiki/SnoRNA
+#=GF SQ    2
+
+#=GS C.intestinalis.1 AC    AABS01000015.1/306526-306611
+#=GS C.savignyi.1     AC    AACT01061452.1/1296-1381
+
+C.intestinalis.1             GUUUAUGAUGAAAGCAUUGCUUUGCCCUUGCCGGGGCAACCUGAAUAAUA
+C.savignyi.1                 GUACGUGAUGAAAGCAUUGCUUCACCCUUGCCGGGGUGACCUGAACAUUA
+#=GC SS_cons                 <<<...............................................
+#=GC RF                      GUUUAUGAUGAAAGCAUUGCUUUGCCCUUGCCGGGGCAACCUGAAUAAUA
+
+C.intestinalis.1             CUGUAGAUAACAACAAUGCUGCCUUCCUUCUGAAAC
+C.savignyi.1                 AUGUUGAAACCCACAAUGCUGCCUUCCUUCUGAUAU
+#=GC SS_cons                 .................................>>>
+#=GC RF                      CUGUAGAUAACAACAAUGCUGCCUUCCUUCUGAAAC
+//

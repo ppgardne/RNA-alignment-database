@@ -1,0 +1,42 @@
+# STOCKHOLM 1.0
+#=GF ID    MIR529
+#=GF AC    RF00908
+#=GF DE    microRNA MIR529
+#=GF AU    Wilkinson A
+#=GF GA    22.0
+#=GF NC    0.0
+#=GF TC    128.2
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000388
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    3
+
+#=GS O.sativa.1 AC    AY946855.1/4-130
+#=GS O.sativa.2 AC    AAAA02006244.1/79429-79559
+#=GS O.sativa.3 AC    AAAA02013151.1/14754-14888
+
+O.sativa.1             AU..CGAGGCUAAAGGAAGAAGAGAGAGAGUACAGCCUUAGU....UCAG
+O.sativa.2             ACAUCGAGGCUAAAGGAAGAAGAGAGAGAGUACAGCCUUAGU....UCAG
+O.sativa.3             UCGUGAAGGCUAAAUGGAGAAGAGAGAGAGUACAGCUUUGGGCGGUUUAG
+#=GC SS_cons           ....<<..<..<<.<<<<<<<<<<<<<<.<<<<<<<<<............
+#=GC RF                aCaUcaAGGCUAAAgGaAGAAGAGaGAGAGuACAGCcuUaGucgguUuAG
+
+O.sativa.1             AUCACAUAUGACU..AUCUUUUGCGAGUCUGAUCGAUACUCUGAUGAAGG
+O.sativa.2             AUCACAUAUGACU..AUCUUUUGCGAGUCUGAUCGAUACUCUGAUGAAGG
+O.sativa.3             UUGUUAGAUGGUGGAAGUACUUGCGACGCCUACUACCCUUUUCACCAAGG
+#=GC SS_cons           ...............................................>>>
+#=GC RF                aUgauAuAUGauugAAuuauUUGCGAguCuuAuuaauauUuUgAugAagG
+
+O.sativa.1             CUGUACCCUCUCUCUUCUUCUCUUAGCUUCUUGAU..
+O.sativa.2             CUGUACCCUCUCUCUUCUUCUCUUAGCUUCUUGAUGC
+O.sativa.3             CUGUACGCUCCCUCUUCUUCUCUUAGCUU..UUUAUG
+#=GC SS_cons           >>>>>>.>>>>>>>>>>>>>>.>>..>....>>....
+#=GC RF                CUGUaCgCUCuCUCUUCUuCcCUUAGCUUcuugaaug
+//

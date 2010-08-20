@@ -1,0 +1,49 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-378
+#=GF AC    RF00741
+#=GF DE    microRNA mir-378
+#=GF AU    Wilkinson A, Daub J
+#=GF GA    40.0
+#=GF NC    0.0
+#=GF TC    45.1
+#=GF SE    miRBase; Wilkinson A, Daub J
+#=GF SS    Predicted; RNAalifold
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000168
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    8
+
+#=GS D.ordii.1              AC    ABRO01277839.1/1991-2055
+#=GS M.musculus.1           AC    AC153155.6/10038-10103
+#=GS Spermophilus_tridece.1 AC    AAQQ01293120.1/2365-2430
+#=GS M.mulatta.1            AC    AANU01185315.1/11930-11995
+#=GS H.sapiens.1            AC    AC022100.7/39036-39101
+#=GS P.troglodytes.1        AC    AADA01026617.1/1519-1583
+#=GS F.catus.1              AC    ACBE01041034.1/733-792
+#=GS E.caballus.1           AC    AAWR02002261.1/122758-122823
+
+D.ordii.1                          .GGGCUCCUGACUCCAGGUCCUGUGUGUUACCUCGAAAUAGCACUGGACU
+M.musculus.1                       AGGGCUCCUGACUCCAGGUCCUGUGUGUUACCUCGAAAUAGCACUGGACU
+Spermophilus_tridece.1             AGGGCUCCUGACUCCAGGUCCUGUGUGUUACCUCGAAAUAGCACUGGACU
+M.mulatta.1                        AGGGCUCCUGACUCCAGGUCCUGUGUGUUACCUCGAAAUAGCACUGGACU
+H.sapiens.1                        AGGGCUCCUGACUCCAGGUCCUGUGUGUUACCUAGAAAUAGCACUGGACU
+P.troglodytes.1                    .GGGCUCCUGACUCCAGGUCCUGUGUGUUACCUAGAAAUAGCACUGGACU
+F.catus.1                          ....CUCCUGACUCCAGGUCCUGUGUGUUACCUCGAAAUAGCACUGGACU
+E.caballus.1                       AGGGCUCCUGACUCCAGGUCCUGUGUGUUACCUCGAAAUAGCACUGGACU
+#=GC SS_cons                       .<<.<<.<<<<<<<<<<<<<<...<<<<<<........>>>>>>.>>>>>
+
+D.ordii.1                          UGGAGUCAGAAGGCCU
+M.musculus.1                       UGGAGUCAGAAGGCCU
+Spermophilus_tridece.1             UGGAGUCAGAAGGCCU
+M.mulatta.1                        UGGAGUCAGAAGGCCU
+H.sapiens.1                        UGGAGUCAGAAGGCCU
+P.troglodytes.1                    UGGAGUCAGAAGGCCU
+F.catus.1                          UGGAGUCAGAAGGC..
+E.caballus.1                       UGGAGUCAGAAGGCCU
+#=GC SS_cons                       >>>>>>>>>.>>.>>.
+//

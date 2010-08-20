@@ -1,0 +1,86 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-767
+#=GF AC    RF01033
+#=GF DE    microRNA mir-767
+#=GF AU    Wilkinson A
+#=GF GA    55.0
+#=GF NC    25.2
+#=GF TC    68.0
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000552
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    14
+
+#=GS C.porcellus.1          AC    AAKN02056081.1/10707-10816
+#=GS M.musculus.1           AC    AC091452.2/111783-111889
+#=GS R.norvegicus.1         AC    AAHX01006705.1/22047-22154
+#=GS Spermophilus_tridece.1 AC    AAQQ01376207.1/1948-2059
+#=GS M.mulatta.1            AC    AANU01106645.1/4647-4756
+#=GS H.sapiens.1            AC    AADB02037486.1/121863-121972
+#=GS M.murinus.1            AC    ABDC01642751.1/138-245
+#=GS T.belangeri.1          AC    AAPY01458331.1/157-263
+#=GS C.lupus.1              AC    AAEX02003804.1/1819-1927
+#=GS F.catus.1              AC    AANG01462482.1/1148-1257
+#=GS B.taurus.1             AC    AAFC03107988.1/1770-1879
+#=GS M.lucifugus.1          AC    AAPE01553738.1/2372-2480
+#=GS E.europaeus.1          AC    AANN01683306.1/1513-1622
+#=GS E.caballus.1           AC    AAWR02040596.1/10318-10427
+
+C.porcellus.1                      UUGUAUUCUUUA..UAGGCUUUUGCUCAUGCACCAUGGUUGUCUGAGCAC
+M.musculus.1                       GAAUCCAUAU.....AGGUUUUUACUCAUGCACCAUGGUUGUCUGAGCAC
+R.norvegicus.1                     GAAACCACAU.....AGGCUUUUGCUCAUGCACUGUAUUUGUCUGAGCAU
+Spermophilus_tridece.1             UUUAUAUUAUUGUAUAGGUUUUUGCUUAUGCACCAUGGUUGUCUGAGCAU
+M.mulatta.1                        GCUUUUAUAUUG..UAGGUUUUUGCUCAUGCACCAUGGUUGUCUGAGCAU
+H.sapiens.1                        GCUUUUAUAUUG..UAGGUUUUUGCUCAUGCACCAUGGUUGUCUGAGCAU
+M.murinus.1                        GCUUUUGUAUUA..UAAGUUUUUGCUCAUGCGCCAUGG.UGUCUGAGCAU
+T.belangeri.1                      UAUCUUGUUUUG..UAGGUUUUUGCUCAUGCACCAUGGUUGUCUGAGCAU
+C.lupus.1                          ACUUUUGUAUUC..UAGGUUUUUGCUCACACA.CAUUGUUGUCUGAGCAU
+F.catus.1                          GCUUUUAUAUGC..UAGGUUUUUGCUCAUGCACCAUGGUUGUCUGAGCAU
+B.taurus.1                         GUCUUUGUAUUA..UAGGUUUUUGCUCAUGCACCAUGGUUGUCUGAGCAU
+M.lucifugus.1                      GUUUUUGUAUUA..UAAGUUUUUGCUCAUGCACCGUGGUUGUCUAAGCAU
+E.europaeus.1                      ACCUUUGUGGGA..UUGGUUUUUGCUCCUGCACCAUGGUUGUCUGAGCAC
+E.caballus.1                       GCUUUUGUAUUA..UAGGUUUUUGCUCAUGCACCAUGGUUGUCUGAGCAU
+#=GC SS_cons                       <<....<<<.<....<<<<<<<<<<<<<.<.<<<<<<<..<<.<<<<<<.
+#=GC RF                            gcuuuuacauug..uagguuccugcucaugcaccaugguugucugagcau
+
+C.porcellus.1                      GCAGCAUGCUUGUCUGCUCAUACCCCAUGGUUC.CUGAGCAGGAACCUUC
+M.musculus.1                       AUAACAUGCUUGUCUGCUCAUACCCUAUGGUUC.CUGAAGAGGAAUCUUA
+R.norvegicus.1                     GCACCAUGCUUGUCUGCUCAUACCUCAUGGUUC.CUGAGCAGGAAUCUUU
+Spermophilus_tridece.1             GCAGCAUGCUUGUCUGCUCAUACGCCAUGGUUC.CUGAGCAGGAGCCUUC
+M.mulatta.1                        GCAGCAUGCUUGUCUGCUCAUACCCCAUGGUUU.CUGAGCAGGAAUCUUC
+H.sapiens.1                        GCAGCAUGCUUGUCUGCUCAUACCCCAUGGUUU.CUGAGCAGGAACCUUC
+M.murinus.1                        GCAGCAUGCUUGUCUG.UCAUAUCUCAUGGUUUUCUGAGCAGGACCCUC.
+T.belangeri.1                      GCAGUGUGUUUGUCUGCUCAUUCCCCAUGGUUC.CCGAGCAGGAACCUUU
+C.lupus.1                          GCAGCAUGCUUGUAUACUCAUAUCCCAUGGUUC.CUGAGCAGAAAACUUC
+F.catus.1                          GCAACAUGCUUGUGUGCUCAUACCCCAUGGUUC.CUGAGCAGAAAACUUC
+B.taurus.1                         GCAGCAUGCUUGUCUGCUCAUACCCCAUGGUUC.CUGAGCAGGAACCGUC
+M.lucifugus.1                      GCAGCAUGCUUGGCUGCUCACACCCCGUAUUUC.CUGAGAAGGAACUU.U
+E.europaeus.1                      GGAGCAUGCUUGUCUGCUCAUACGCCAUGGUUC.GUGAGCAGGAACCUCC
+E.caballus.1                       GCAGCAUGCUUGUCUGCUCAUACUCCAUGGUUC.CUGAGCAGGAACCUUC
+#=GC SS_cons                       <<<<.....>>>>.>>>>>>.>>.>>>>>>>.>..>>>>>>>>>>>>>..
+#=GC RF                            gcagcAugccugccugcucauaccccaugguuc.cugagcaggaaccuuc
+
+C.porcellus.1                      A.CUGCCUACUAGU
+M.musculus.1                       A.CUGUCUACUGCU
+R.norvegicus.1                     UUUUUUCUGUUUCU
+Spermophilus_tridece.1             A.UUAACUACUGCU
+M.mulatta.1                        A.UUGUCUACUGCU
+H.sapiens.1                        A.UUGUCUACUGCU
+M.murinus.1                        A.UUGCCUACUAUU
+T.belangeri.1                      G.UUGCCUACU...
+C.lupus.1                          A.UUGCCUACAGCU
+F.catus.1                          A.UUGCCCAGUGCU
+B.taurus.1                         A.CUGCUUACUGUU
+M.lucifugus.1                      A.UUGCCUACUGCU
+E.europaeus.1                      A.CUGCCCACCACG
+E.caballus.1                       A.UUGCCUACUGAC
+#=GC SS_cons                       >..>>>.....>>.
+#=GC RF                            a.uugucuAcugcu
+//

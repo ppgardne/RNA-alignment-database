@@ -1,0 +1,63 @@
+# STOCKHOLM 1.0
+#=GF ID    MIR408
+#=GF AC    RF00690
+#=GF DE    microRNA MIR408
+#=GF AU    Wilkinson A
+#=GF GA    38.0
+#=GF NC    37.1
+#=GF TC    38.8
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000102
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    6
+
+#=GS O.sativa.1      AC    AP008207.1/12284551-12284732
+#=GS V.vinifera.1    AC    AM434998.2/53808-53932
+#=GS M.truncatula.1  AC    AC136840.24/84307-84429
+#=GS R.communis.1    AC    AASG02001473.1/22877-22996
+#=GS P.trichocarpa.1 AC    AARH01001232.1/22493-22607
+#=GS A.thaliana.1    AC    AK228004.1/1471-1596
+
+O.sativa.1                  GAUUGGAGAGGAGAG.GAGACAGGGAUGAGGCAGAGCAUGGGAUGGGGCU
+V.vinifera.1                AAAUGGAGACAAGAGGAAGACGGGGACGAGGUAG................
+M.truncatula.1              AGUUAAUGACAGGACAAAGACAGGGAACAUGCAG................
+R.communis.1                AGAAACAGACA.GACAAAGACUGGGAACAGGCAG................
+P.trichocarpa.1             AGA....GACA.GAUGAAGACGGGGAACAGGCAG................
+A.thaliana.1                AAGCGGUAAUGAGAGAGAGACAGGGAACAAGCAG................
+#=GC SS_cons                ................<<<.<<<<<<<.<<<<<<................
+#=GC RF                     ARWURGWGACRAGASRRAGACRGGGAASAGGCAGagcaugggauggggcu
+
+O.sativa.1                  AUCAACAGAUGUAGAUUAUUCCUUGCACAAGAGAUGAUGAUGAGCUGUGA
+V.vinifera.1                .......................UGCAUG...GAUG.....GAACUAUUA
+M.truncatula.1              .......................AGCAUG...GAUG.....AAACUAUCG
+R.communis.1                .......................UGCAUG...GAUG.....GGGCUACUA
+P.trichocarpa.1             .......................AGCAUG...GAUG.....GAGCUACUA
+A.thaliana.1                .......................AGCAUG...GAUU.....GAGUUUACU
+#=GC SS_cons                ........................<<<<<...<........<<.......
+#=GC RF                     aucaacagauguagauuauuccuWGCAUGagaGAUGaugauGARCUAYYA
+
+O.sativa.1                  AUGAGUUCUGAGAGAUGGCUGGUGUUGUUGUUGCUCCCUCCCCUGCACUG
+V.vinifera.1                AC........AGAAGAAUGUUAAGCUGUUUUUGCUCU.ACCCAUGCACUG
+M.truncatula.1              AC........AGUGAAGG...AAACUGUUGUGGCUCC.ACUCAUGCACUG
+R.communis.1                AC........AGAAAA.....CAUCUGUUUUGGCUCU.ACCCCUGCACUG
+P.trichocarpa.1             AC........AGAAG......UACUUGUUUUGGCUCU.ACCCAUGCACUG
+A.thaliana.1                AA........AACAUUAAACGACUCUGUUUUGUCUCU.ACCCAUGCACUG
+#=GC SS_cons                ..................................>>....>>>>>>.>>>
+#=GC RF                     ACgaguucugAGARRWRGVYKAAKYUGUUKUKGCUCYcACCCMUGCACUG
+
+O.sativa.1                  CCUCUUCCCUGGCUCCCCUGCACACCUCUCUCU
+V.vinifera.1                CCUCUUCCCUGGCU.C.UGUCUCUCCUUUACUC
+M.truncatula.1              CCUCUUCCCUGGCUUA.UAAUCUGUUUUUAUUA
+R.communis.1                CCUCUUCCCUGGCUUC.CGGUUCUUCUUUUUGU
+P.trichocarpa.1             CCUCUUCCCUGGCUUG.UGGCUCUUCCUUUUCU
+A.thaliana.1                CCUCUUCCCUGGCUCC.CUCUUUUUUUCUCUAU
+#=GC SS_cons                >>>.>>>>>>>.>>>..................
+#=GC RF                     CCUCUUCCCUGGCUYCcYKGYUYUYYUYUHUYU
+//

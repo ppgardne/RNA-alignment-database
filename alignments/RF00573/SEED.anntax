@@ -1,0 +1,108 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORD67
+#=GF AC    RF00573
+#=GF DE    Small nucleolar RNA SNORD67
+#=GF AU    Marantidis E.
+#=GF GA    29.0
+#=GF NC    29.0
+#=GF TC    29.0
+#=GF PI    snoHBII-166
+#=GF SE    Marantidis E, INFERNAL
+#=GF SS    Predicted; RNAalifold_manual; Daub J
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Takifugu_rubripes300018
+#=GF DR    snoopy; Gallus_gallus300091
+#=GF RN    [1]
+#=GF RM    11387227
+#=GF RT    RNomics: an experimental approach that identifies 201 candidates for
+#=GF RT    novel, small, non-messenger RNAs in mouse.
+#=GF RA    Huttenhofer A, Kiefmann M, Meier-Ewert S, O'Brien J, Lehrach H,
+#=GF RA    Bachellerie JP, Brosius J;
+#=GF RL    EMBO J. 2001;20:2943-2953.
+#=GF RN    [2]
+#=GF RM    16381836
+#=GF RT    snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D box
+#=GF RT    snoRNAs.
+#=GF RA    Lestrade L, Weber MJ;
+#=GF RL    Nucleic Acids Res. 2006;34:D158-D162.
+#=GF CC    snoRNA HBII-166 belongs to the C/D family of snoRNAs. It is the
+#=GF CC    human orthologue of the mouse MBII-166 and is predicted to guide
+#=GF CC    2'O-ribose methylation of snRNA U6 at residue C60.
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_SNORD67
+#=GF SQ    15
+
+#=GS O.latipes.1            AC    BAAF04066344.1/225-337
+#=GS Gasterosteus_aculeat.1 AC    AANH01000144.1/7445-7558
+#=GS T.rubripes.1           AC    CAAB01000603.1/73302-73415
+#=GS T.nigroviridis.1       AC    CAAE01014581.1/7275709-7275822
+#=GS G.gallus.1             AC    AADN02033490.1/26685-26795
+#=GS A.carolinensis.1       AC    AAWZ01013887.1/35916-36027
+#=GS M.musculus.1           AC    AL691489.20/136115-136225
+#=GS H.sapiens.1            AC    AC115088.6/122911-123021
+#=GS T.belangeri.1          AC    AAPY01607636.1/641-751
+#=GS F.catus.1              AC    AANG01792695.1/445-556
+#=GS E.europaeus.1          AC    AANN01521896.1/8830-8940
+#=GS E.caballus.1           AC    AAWR02037196.1/85275-85385
+#=GS Dasypus_novemcinctus.1 AC    AAGV020455531.1/2-113
+#=GS Monodelphis_domestic.1 AC    AAFR03038832.1/14392-14502
+#=GS O.anatinus.1           AC    AAPN01125355.1/1356-1466
+
+O.latipes.1                        UGUGAGAGUGAUGAGUGGCACUGAAAAGUUGGCGU.GUUGUUGCAGUGGC
+Gasterosteus_aculeat.1             GGUGAGAGUGAUGAGUUGCACUAAUCAGUUGGGGCGUUUGAUGCAGUGGC
+T.rubripes.1                       UUUGAGAGUGAUGAGUUGCACGAAUCAGUUGGGGUGUUUGAUGCAGUGGC
+T.nigroviridis.1                   UUUGAGAGUGAUGAGUUGCACGAAUCAGUUGGGGCGCUCGGUGCAGUGGC
+G.gallus.1                         UGCGAGAGUGAUGAGCUGCAC...UCUGGUGGAGCAACCAUGUCAGGUGA
+A.carolinensis.1                   UGCGAGAAUGAUGAGUUGCACG..UUUGGUGGGGCU.GAGUGUCAGAUGA
+M.musculus.1                       UGUGAGAGUGAUGAGUUGCAC...ACUGGUGGAGCCAUAGUAUCAGGUGA
+H.sapiens.1                        UGUGAGAGUGAUGAGUUGCAC...ACUGGUGGAGCCAUGGUAUCAGGUGA
+T.belangeri.1                      UGUGAGAGUGAUGAGUUGCAC...ACUGGUGGGGCAACGGUGUCAGGUGA
+F.catus.1                          UGUGAGAAUGAUGAGUUGCAC...ACUGGUGGUGCCACAGUGUCCGGUGA
+E.europaeus.1                      UGUGAGAGUGAUGAGUUGCAC...ACUGGUGGAGCCACUGUAUCAGGUGA
+E.caballus.1                       UGUGAGAGUGAUGAGUUGCAC...AAUGGUGAAGCCACAGUAUCAGGUGA
+Dasypus_novemcinctus.1             UGUGAGAGUGAUGAGUUGCAC...ACUGGUGGAGCCAUGGUAUCAGGUGA
+Monodelphis_domestic.1             UGUGAGAGUGAUGAGUUGCAC...AUUAGUGUGGCCAUAGCAUCAGGUGA
+O.anatinus.1                       UGUGAGGGUGAUGAGUUGCAC...ACUGGUGGAGCCAAAGCAUCGGUCGA
+#=GC SS_cons                       ...<.<<<................<<<<<<<<.<<<...<<<<<....>>
+#=GC RF                            UGuGAGAgUGAuGaGuUGCAC...aCuGGuggaGCcAaagcguCAGgUGa
+
+O.latipes.1                        AACAAAAC.CCCAAUCCGA.AC.CGCCAUGGGGACA.CACCAUGUGCACA
+Gasterosteus_aculeat.1             AUCGAUGC.CCCGAUCCGA.CC.CGACCUGAGGACA.CACUGUGUGCACA
+T.rubripes.1                       AACAACAC.UCCAAUCCGA.UC.CAACCUGAGGACACGCACA.GUGCACA
+T.nigroviridis.1                   AACGGCGC.CCCAGUCCGA.GC.AGCGCUGAGGACACC.CUGGGUGCACA
+G.gallus.1                         CGUG.GUC.UCUGCUCAGA.AU.CUCCCUGAUGACAAAACUAGGUGCACA
+A.carolinensis.1                   CACA.AGC.ACCACUCAGA.AACCACCCUGAUGACAAUACCAAGUGCACA
+M.musculus.1                       UACA.GGC.ACCACUCAGU.AC.UACCCUGGUGACAAAAUCAAGUGCACA
+H.sapiens.1                        UACA.GGC.ACCACUCAGU.AU.CACCCUGGUGACAAAAUCAAGUGCACA
+T.belangeri.1                      UACC.AGC.ACCACUCAGU.AC.CACCCUGGUGACAAAAUCAAGUGCACA
+F.catus.1                          CACG.GGC.ACCAGUCAGUUAC.CACCCUGGUGACAAAAUCAAGUGCACA
+E.europaeus.1                      UACA.GGC.GCUGCUCAGU.AC.CACCCUGGCGACAAAAUCAAGUGCACA
+E.caballus.1                       UACG.GGC.AUCACUCAGU.AC.CACCCUGGUGACAAAAUCAAGUGCACA
+Dasypus_novemcinctus.1             UACA.AGCCCCCACUCAGU.AU.UACUCUGUUGACAAAAUCAAGUGCACA
+Monodelphis_domestic.1             UGCA.GGC.UAUACUCAGU.AA.UAAACUGGUGACAAAGCCAUGUGCACA
+O.anatinus.1                       UGUG.GGC.GCCGCUCAGU.AU.CACCUUGGUGACAGAACCAGGUGCACA
+#=GC SS_cons                       >>>..>>>..>>>>.>>>>...............................
+#=GC RF                            cgca.gGC.accaCUCaGu.Aa.CacccUGguGACAAAAucAaGUGCACA
+
+O.latipes.1                        GGGGCCAUCUGACUCCAC
+Gasterosteus_aculeat.1             GGGGCCAUCUGACUCAAC
+T.rubripes.1                       GGGGCCAUCUGACUCAAC
+T.nigroviridis.1                   GGGGCCAUCUGACUCAAC
+G.gallus.1                         GGGGCCAUCUGACUCGCU
+A.carolinensis.1                   GGGGCCAUCUGACUCGCU
+M.musculus.1                       GGGGCCAUCUGACUCACA
+H.sapiens.1                        GGGGCCAUCUGACUCACA
+T.belangeri.1                      GGGGCCAUCUGACUCACA
+F.catus.1                          GGGGCCAUCUGACUCACA
+E.europaeus.1                      GGGGCCAUCUGACUCACA
+E.caballus.1                       GGGGCCAUCUGACUCACA
+Dasypus_novemcinctus.1             GGGGCCAUCUGACUCACA
+Monodelphis_domestic.1             GGGGCCAUCUGACUCGCA
+O.anatinus.1                       GGGGCCAUCUGACUCUCA
+#=GC SS_cons                       ............>>>.>.
+#=GC RF                            GGGGCCAUCUGACuCaCA
+//

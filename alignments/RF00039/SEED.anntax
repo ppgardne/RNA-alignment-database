@@ -1,0 +1,58 @@
+# STOCKHOLM 1.0
+#=GF ID    DicF
+#=GF AC    RF00039
+#=GF DE    DicF RNA
+#=GF AU    Bateman A
+#=GF GA    24.0
+#=GF NC    0.0
+#=GF TC    26.1
+#=GF SE    INFERNAL
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; antisense;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000644 SO:antisense_RNA
+#=GF DR    GO:0003729 GO:mRNA binding
+#=GF RN    [1]
+#=GF RM    7508908
+#=GF RT    Division inhibition gene dicF of Escherichia coli reveals a
+#=GF RT    widespread group of prophage sequences in bacterial genomes.
+#=GF RA    Faubladier M, Bouche JP;
+#=GF RL    J Bacteriol 1994;176:1150-1156.
+#=GF RN    [2]
+#=GF RM    1372677
+#=GF RT    Regulation of the expression of the cell-cycle gene ftsZ by DicF
+#=GF RT    antisense RNA. Division does not require a fixed number of FtsZ
+#=GF RT    molecules.
+#=GF RA    Tetart F, Bouche JP;
+#=GF RL    Mol Microbiol 1992;6:615-620.
+#=GF RN    [3]
+#=GF RM    2477663
+#=GF RT    Genetic evidence that DicF, a second division inhibitor encoded by
+#=GF RT    the Escherichia coli dicB operon, is probably RNA.
+#=GF RA    Bouche F, Bouche JP;
+#=GF RL    Mol Microbiol 1989;3:991-994.
+#=GF CC    DicF RNA is an antisense inhibitor of cell division gene ftsZ [1].
+#=GF WK    http://en.wikipedia.org/wiki/DicF_RNA
+#=GF SQ    5
+
+#=GS B.subtilis.1           AC    D84432.1/195831-195877
+#=GS Escherichia_coli_O15.1 AC    BA000007.2/1165731-1165782
+#=GS Escherichia_coli_O15.2 AC    BA000007.2/2201445-2201496
+#=GS Escherichia_coli_O15.3 AC    BA000007.2/2250671-2250722
+#=GS S.enterica.1           AC    AF370716.1/3603-3656
+
+B.subtilis.1                       UUUGUGU.GUCUUUGGUGGCAUCAGU...AAUCUAAU...AC.GAUUUGC
+Escherichia_coli_O15.1             UUCUGGUGACAUUUGGCGGUAUCAGUUUUACUCCGUA...ACUGCUCUGC
+Escherichia_coli_O15.2             UUCUGGUGACGUUUGGCGGUAUCAGUUUUACUCCGUG...GCUGCUCUGC
+Escherichia_coli_O15.3             UUCUGGUGACGUUUGGCGGUAUCAGUUUUACUCCGUG...ACUGCUCUGC
+S.enterica.1                       UGUGUGUAGUACUUGGCGGCAUCAGUUUUUCUUAGUCCUUUCUGAUGU.C
+#=GC SS_cons                       ..............<<<<<<<.<<<<..............>>>>...>>>
+
+B.subtilis.1                       CACCU
+Escherichia_coli_O15.1             CGCCC
+Escherichia_coli_O15.2             CGCCC
+Escherichia_coli_O15.3             CGCCC
+S.enterica.1                       CGCCC
+#=GC SS_cons                       >>>>.
+//

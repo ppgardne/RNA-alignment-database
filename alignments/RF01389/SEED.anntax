@@ -1,0 +1,71 @@
+# STOCKHOLM 1.0
+#=GF ID    isrF
+#=GF AC    RF01389
+#=GF DE    isrF Hfq binding RNA
+#=GF AU    Daub J, Gardner PP
+#=GF GA    150.0
+#=GF NC    22.9
+#=GF TC    297.8
+#=GF SE    Predicted; WAR; Infernal
+#=GF SS    Predicted; WAR
+#=GF TP    Gene; sRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF RN    [1]
+#=GF RM    18725932
+#=GF RT    Deep sequencing analysis of small noncoding RNA and mRNA targets
+#=GF RT    of the global post-transcriptional regulator, Hfq.
+#=GF RA    Sittka A, Lucchini S, Papenfort K, Sharma CM, Rolle K, Binnewies
+#=GF RA    TT, Hinton JC, Vogel J;
+#=GF RL    PLoS Genet. 2008;4:e1000163.
+#=GF RN    [2]
+#=GF RM    18267966
+#=GF RT    Small RNAs encoded within genetic islands of Salmonella
+#=GF RT    typhimurium show host-induced expression and role in virulence.
+#=GF RA    Padalon-Brauch G, Hershberg R, Elgrably-Weiss M, Baruch K,
+#=GF RA    Rosenshine I, Margalit H, Altuvia S
+#=GF RL    Nucleic Acids Res. 2008;36:1913-1927.
+#=GF WK    http://en.wikipedia.org/wiki/Hfq_binding_sRNA
+#=GF SQ    3
+
+#=GS Salmonella_enterica_.1 AC    CP000026.1/1399939-1400207
+#=GS Salmonella_enterica_.2 AC    CP001144.1/1736669-1736962
+#=GS Salmonella_enterica_.3 AC    CP000857.1/2246703-2246992
+
+Salmonella_enterica_.1             ACAAUAGCCUCACUACCAUCAAGCGA.UA.CUGCUGCUUACGAGAAAC..
+Salmonella_enterica_.2             AGAUUAUCCAGGAGAUACACGAAUUAAUUCUGGCGGGUGAAAUGGAAGUC
+Salmonella_enterica_.3             AUAACGACCUGGACGCCGGCGAAUUA....UGGCGGGUGAAAUGGAAGUG
+#=GC SS_cons                       ..................................<<<<............
+#=GC RF                            ABAWYRDCCWSRMBRYMVDCRARYKAaUWcYKGCKGSUKAMRWGRAASUS
+
+Salmonella_enterica_.1             ....AAGGGAUGCUGCGCACGCUGAUUAAAGUCACGUUCGGUUAUCCUGC
+Salmonella_enterica_.2             GCCAAAAGGAUGCUGCGCACGCUGAUUAAAGUCACGUUCGCUUAUCCUGC
+Salmonella_enterica_.3             GCCAAAGGGAUGCUGCGCACGCUGAUUAAAGUCACGUUCGGUUAUCCUGC
+#=GC SS_cons                       ......<<...<<<<<..................................
+#=GC RF                            GCCAAARGGAUGCUGCGCACGCUGAUUAAAGUCACGUUCGSUUAUCCUGC
+
+Salmonella_enterica_.1             GAUUUUUGACGAGGUUCGGCAGGAAUGCCAAAUCAACAAUGCGCAUGUUG
+Salmonella_enterica_.2             GAUUUUUGACGAGGUUCGGCAGGAAUGCCAAAUCAACAAUGCGCAUGUUG
+Salmonella_enterica_.3             GAUUUUUGACGAGGUUCGGCAGGAAUGCCAAAUCAACAAUGCGCAUGUUG
+#=GC SS_cons                       .................<<<......>>>...........<<<<...<<<
+#=GC RF                            GAUUUUUGACGAGGUUCGGCAGGAAUGCCAAAUCAACAAUGCGCAUGUUG
+
+Salmonella_enterica_.1             UCGCCGGAUGUGGAUCCGGGUAUCAAAGCGUUUAUAGCCGUUGUCAGAGC
+Salmonella_enterica_.2             UCGCCGGAUGUGGAUCCGGGUAUCAAAGCGUUUAUAGCCGUUGUCAGAGC
+Salmonella_enterica_.3             UCGCCGGAUGUGGAUCCGGGUAUCAAAGCGUUUAUAGCCGUUGUCAGAGC
+#=GC SS_cons                       ...<<<<<<....>>>>>>....>>>.>>>>...................
+#=GC RF                            UCGCCGGAUGUGGAUCCGGGUAUCAAAGCGUUUAUAGCCGUUGUCAGAGC
+
+Salmonella_enterica_.1             UGCAGAACAUCAGUCAGAAAAAGCAGCGGACCAGGGUUCG......UGUG
+Salmonella_enterica_.2             UGCAGAACAUCAGUCAGAAAAAGCAGCGGACCAGGGUAAAACCCACUGAG
+Salmonella_enterica_.3             UGCAGAACAUCAGUCAGAAAAAGCAGCGGACCAGGGUAAAACCCACUGAG
+#=GC SS_cons                       ......................>>>>>...>>.<<<.....>>>......
+#=GC RF                            UGCAGAACAUCAGUCAGAAAAAGCAGCGGACCAGGGUWMRACCCACUGWG
+
+Salmonella_enterica_.1             CAGGAUAAGCGGGUG.CAAAUCAACA..........GAAUUCGC
+Salmonella_enterica_.2             CCAAAAACCUGCGCGACGAACCGGUCACAGUGGCCGGUUUUUUU
+Salmonella_enterica_.3             CCAAAAACCUGCGCGACGAACCGGUCACAGUGGCCGGUUUUUUU
+#=GC SS_cons                       ......>>>>.......<<<<<<<<<.....>>>>>>>>>....
+#=GC RF                            CMRRAWAMSYGSGYGACRAAYCRRYMACAGUGGCCGGWWUUYKY
+//

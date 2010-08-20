@@ -1,0 +1,400 @@
+# STOCKHOLM 1.0
+#=GF ID    ATPC
+#=GF AC    RF01067
+#=GF DE    ATPC RNA motif
+#=GF AU    Weinberg Z, Gardner PP
+#=GF GA    26.0
+#=GF NC    0.0
+#=GF TC    26.2
+#=GF SE    Published; PMID:17621584; Weinberg Z
+#=GF SS    Published; PMID:17621584; Weinberg Z
+#=GF TP    Gene;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF RN    [1]
+#=GF RM    17621584
+#=GF RT    Identification of 22 candidate structured RNAs in bacteria using
+#=GF RT    the CMfinder comparative genomics pipeline.
+#=GF RA    Weinberg Z, Barrick JE, Yao Z, Roth A, Kim JN, Gore J, Wang JX,
+#=GF RA    Lee ER, Block KF, Sudarsan N, Neph S, Tompa M, Ruzzo WL, Breaker
+#=GF RA    RR
+#=GF RL    Nucleic Acids Res. 2007;35:4809-4819.
+#=GF WK    http://en.wikipedia.org/wiki/ATPC_RNA_motif
+#=GF SQ    92
+
+#=GS Synechococcus.1         AC    CP000435.1/2030724-2030820
+#=GS Synechococcus.2         AC    BX569690.1/142368-142456
+#=GS Synechococcus.3         AC    CP000097.1/500648-500736
+#=GS Synechococcus.4         AC    AAOK01000001.1/272018-272108
+#=GS Synechococcus.5         AC    AATZ01000001.1/790161-790249
+#=GS Synechococcus.6         AC    AAUA01000001.1/645867-645961
+#=GS Synechococcus.7         AC    AANO01000002.1/213621-213710
+#=GS Synechococcus.8         AC    CT978603.1/1639041-1639132
+#=GS Synechococcus.9         AC    CP000110.1/2006349-2006437
+#=GS Synechococcus.10        AC    CT971583.1/1847738-1847828
+#=GS Synechococcus.11        AC    AANP01000006.1/228716-228805
+#=GS Prochlorococcus_mari.1  AC    CP000111.1/1442635-1442726
+#=GS Prochlorococcus_mari.2  AC    AE017126.1/1464078-1464170
+#=GS Prochlorococcus_mari.3  AC    CP000554.1/476761-476851
+#=GS Prochlorococcus_mari.4  AC    BX548174.1/1390488-1390580
+#=GS Prochlorococcus_mari.5  AC    CP000552.1/1427917-1428005
+#=GS uncul.Proch.marin.cl.1  AC    DQ366722.1/21796-21886
+#=GS Prochlorococcus_mari.6  AC    CP000551.1/1400670-1400761
+#=GS Prochlorococcus_mari.7  AC    CP000878.1/1404674-1404765
+#=GS Prochlorococcus_mari.8  AC    BX548175.1/1556564-1556654
+#=GS Prochlorococcus_mari.9  AC    CP000553.1/1514723-1514815
+#=GS Prochlorococcus_mari.10 AC    CP000576.1/1376435-1376525
+#=GS marine_metag.1          AC    AACY023934638.1/394-484
+#=GS marine_metag.2          AC    AACY023014890.1/144-235
+#=GS marine_metag.3          AC    AACY023989245.1/664-754
+#=GS marine_metag.4          AC    AACY023483958.1/969-1059
+#=GS marine_metag.5          AC    AACY023958478.1/34-121
+#=GS marine_metag.6          AC    AACY023183283.1/147-237
+#=GS marine_metag.7          AC    AACY020086170.1/595-686
+#=GS marine_metag.8          AC    AACY022155955.1/727-815
+#=GS marine_metag.9          AC    AACY021024843.1/187-280
+#=GS marine_metag.10         AC    AACY022742986.1/179-269
+#=GS marine_metag.11         AC    AACY021521877.1/109-199
+#=GS marine_metag.12         AC    AACY021918327.1/730-821
+#=GS marine_metag.13         AC    AACY020690792.1/637-727
+#=GS marine_metag.14         AC    AACY020382975.1/1393-1484
+#=GS marine_metag.15         AC    AACY022857722.1/278-372
+#=GS marine_metag.16         AC    AACY020087986.1/359-449
+#=GS marine_metag.17         AC    AACY022493886.1/98-188
+#=GS marine_metag.18         AC    AACY023521305.1/408-502
+#=GS marine_metag.19         AC    AACY023505252.1/368-458
+#=GS marine_metag.20         AC    AACY020440440.1/1895-1986
+#=GS marine_metag.21         AC    AACY020909425.1/700-791
+#=GS marine_metag.22         AC    AACY020952548.1/426-514
+#=GS marine_metag.23         AC    AACY021266296.1/418-513
+#=GS marine_metag.24         AC    AACY023865758.1/295-388
+#=GS marine_metag.25         AC    AACY021948974.1/691-781
+#=GS marine_metag.26         AC    AACY023371655.1/1240-1332
+#=GS marine_metag.27         AC    AACY022185424.1/51-146
+#=GS marine_metag.28         AC    AACY022343928.1/741-831
+#=GS marine_metag.29         AC    AACY022975089.1/241-331
+#=GS marine_metag.30         AC    AACY022790400.1/739-829
+#=GS marine_metag.31         AC    AACY023863377.1/614-702
+#=GS marine_metag.32         AC    AACY022018649.1/3-93
+#=GS marine_metag.33         AC    AACY020366492.1/1087-1175
+#=GS marine_metag.34         AC    AACY021392813.1/582-673
+#=GS marine_metag.35         AC    AACY021760761.1/233-323
+#=GS marine_metag.36         AC    AACY024102189.1/255-345
+#=GS marine_metag.37         AC    AACY022005619.1/269-363
+#=GS marine_metag.38         AC    AACY020475809.1/95-184
+#=GS marine_metag.39         AC    AACY020535675.1/6729-6818
+#=GS marine_metag.40         AC    AACY020965060.1/80-170
+#=GS marine_metag.41         AC    AACY020496228.1/1850-1944
+#=GS marine_metag.42         AC    AACY020707597.1/209-296
+#=GS marine_metag.43         AC    AACY020981383.1/89-179
+#=GS marine_metag.44         AC    AACY022813017.1/10-100
+#=GS marine_metag.45         AC    AACY022233316.1/279-367
+#=GS marine_metag.46         AC    AACY022741752.1/405-495
+#=GS marine_metag.47         AC    AACY023994678.1/162-252
+#=GS marine_metag.48         AC    AACY020366270.1/865-955
+#=GS marine_metag.49         AC    AACY021408792.1/634-724
+#=GS marine_metag.50         AC    AACY023185794.1/205-293
+#=GS marine_metag.51         AC    AACY023061039.1/52-140
+#=GS marine_metag.52         AC    AACY022427862.1/360-448
+#=GS marine_metag.53         AC    AACY023868456.1/1237-1331
+#=GS marine_metag.54         AC    AACY023503137.1/1172-1263
+#=GS marine_metag.55         AC    AACY021130268.1/198-288
+#=GS marine_metag.56         AC    AACY021624316.1/48-138
+#=GS marine_metag.57         AC    AACY020675193.1/793-883
+#=GS marine_metag.58         AC    AACY020316069.1/812-902
+#=GS marine_metag.59         AC    AACY022720715.1/258-347
+#=GS marine_metag.60         AC    AACY020483706.1/1930-2020
+#=GS marine_metag.61         AC    AACY021269415.1/780-870
+#=GS marine_metag.62         AC    AACY021530526.1/86-176
+#=GS marine_metag.63         AC    AACY023399400.1/337-427
+#=GS marine_metag.64         AC    AACY023512896.1/782-872
+#=GS marine_metag.65         AC    AACY021337351.1/497-585
+#=GS marine_metag.66         AC    AACY021587358.1/580-670
+#=GS marine_metag.67         AC    AACY023549611.1/29-122
+#=GS marine_metag.68         AC    AACY022540081.1/48-139
+#=GS marine_metag.69         AC    AACY023949218.1/166-254
+#=GS marine_metag.70         AC    AACY022465503.1/660-750
+
+Synechococcus.1                     AC.GGCCUUUUCGA.AGGCUCGUCUG.CUAGAAAAUUUUGCGCGC....A
+Synechococcus.2                     .U.UCGCCAUUUGAGGGCGA..UCUG.CUAAACACGUCCGCGCGC....A
+Synechococcus.3                     .U.UCGCUUUUACCUGGCGA..UCUG.CUAAACACAUCCGCGCGU....A
+Synechococcus.4                     .U.UCGCAGGUCCCCAGUGA..UCUG.CUAAACACUUC.GCGCGC....A
+Synechococcus.5                     .U.UCGCUAUGCCCUAGCGA..UCUG.CUAAACACAUCCGCGCGC....A
+Synechococcus.6                     .A.CCUCCUCAGAUCGCCCG..UCUG.CUAAAACCUUCUGCGCGC....A
+Synechococcus.7                     .C.CCGGGCCGGUCGGCCGU..UCUG.CUAAAUCUCC.UGCGCGC....A
+Synechococcus.8                     .U.UCGCCCUAACCCGGCGA..UCUG.CUAAACACUUC.GCGCGC....A
+Synechococcus.9                     .A.UCGCCUGAGAACGGCGA..UCUG.CUAAACACAUCCGCGCGC....A
+Synechococcus.10                    .U.UCGCAGGUCCCCCGCGA..UCUG.CUAAACACAUC.GCGCGC....A
+Synechococcus.11                    .U.UCGCCGGUCCCAGGCGA..UCUG.CUAAACACUUC.GCGCGC....A
+Prochlorococcus_mari.1              .U.UUACAAAGGGUCUGUAA..UCUGGCAAGAUAUCUAAUUGCGU....A
+Prochlorococcus_mari.2              .U.CAGAGAUAAAUUAUUUU..UCUGGCAAAAC.U.....CUUGCGAAUA
+Prochlorococcus_mari.3              .C.AAGGCCUAACCCCUCGG..UCUGGC.AAAC.UCCAUGCGCGC....A
+Prochlorococcus_mari.4              .U.UUACAAAGGGCCUGUAA..UCUGGCAAAAUAUUUAAUCGCGU....A
+Prochlorococcus_mari.5              .U.UUACAAAGGGCCUGUAA..UCUGGCAAAAUAUUUAAUCGCGU....A
+uncul.Proch.marin.cl.1              .U.UUACAAAGGGUCUGUAA..UCUGGCAAAAUAUCUAAUCGCGU....A
+Prochlorococcus_mari.6              .U.UUACAAAGGGUCUGUAA..UCUGGCAAAAUAUCUAAUCGCGU....A
+Prochlorococcus_mari.7              .G.CCAGAACUUUUUCUUGU..UCUGUCAAAGUC....ACUGCAAGC..A
+Prochlorococcus_mari.8              .C.CAGGCCUAACCCCUCGG..UCUGGC.AAAC.UCCAUGCGCGC....A
+Prochlorococcus_mari.9              .A.UUGAAUUAACUUUUUAA....UGGC.AAAUUU.....CCUGCUUUUA
+Prochlorococcus_mari.10             .U.UUACAAAGGGUCUGUAA..UCUGGCAAAAUAUCUAAUCGCGU....A
+marine_metag.1                      .U.UUACAAAGGGUCUGUAA..UCUGGCAAAAUAACUAAUCGCGU....A
+marine_metag.2                      .U.UUACAAAGGGUCUGUAA..UCUGGCAAAAUAUCUAAUCGCGU....A
+marine_metag.3                      .U.UUACAAAGGGUCUGUAA..UCUGGCAAAAUAUCUAAUCGCGU....A
+marine_metag.4                      .U.UUACAAAGUGUCUGUAA..UCUGGCAAAAUAUCUAAUCGCGU....A
+marine_metag.5                      .U.UUACAAAGGGUCUGUAA..UCUGGCAAAAUAUCUAAUCGCGU....A
+marine_metag.6                      .U.UUACAAAGGGUCUGUAA..UCUGGCAAAAUAUCUAAUCGCGU....A
+marine_metag.7                      .U.UUACAAAGGGUCUGUAA..UCUGGCAAAAUAUCUAAUCGCGU....A
+marine_metag.8                      .U.UUACAAAGGGUCUGUAA..UCUGGCAAAAUAUCUAAUCGCGU....A
+marine_metag.9                      .U.UUACAAAAGGCAAAUAA..UCUGCCAAAAUACCUAAUCGCGU....A
+marine_metag.10                     .U.UUACAAAGGGUCUGUAA..UCUGGCAAAAUAUCUAUUCGCGU....A
+marine_metag.11                     .U.UUACAAAGGGUCUGUAA..UCUGGCAAAAUAUCUAAUCGCGU....A
+marine_metag.12                     .U.UUACAAAGAGUCUGUAA..UCUGGCAAAAUAUCUAAUCGCGU....A
+marine_metag.13                     .U.UUACAAAAGGUCUGUAA..UCUGGCAAAAUAUCUAAUCGCGU....A
+marine_metag.14                     .U.UCGCUCUAACCCGGCGA..UCUG.CUAAACACUUC.GCGCGC....A
+marine_metag.15                     .U.UUACAAAGAGCAUAUAA..UCUGCCAAAAUACCUAAUCGCGU....A
+marine_metag.16                     .U.UUACAAAGGGUCUGUAA..UCUGGCAAAAUAUCUAAUCGCGU....A
+marine_metag.17                     .U.UUACAAAGGGCCUGUAA..UCUGGCAAAAUAUUUAAUCGCGU....A
+marine_metag.18                     .C.UCGCCGUUAA..GGCGA..UCUG.CUAAACACUUCUGCGCGU....A
+marine_metag.19                     .U.UUACAAAGAGUCUGUAA..UCUGGCAAAAUAUCUAAUCGCGU....A
+marine_metag.20                     .U.UUACAAAAGGUCUGUAA..UCUGGCAAAAUAUCUAAUCGCGU....A
+marine_metag.21                     .U.UUACAAAGGGUCUGUAA..UCUGGCAAAAUAUCAAAUCGCGU....A
+marine_metag.22                     .U.UUACAAAGGGUCUGUAA..UCUGGCAAAAUAUCUAAUCGCGU....A
+marine_metag.23                     .U.UUACAAAAGGCAUAUAA..UCUGCCAAAAUACCUAAUCGCGU....A
+marine_metag.24                     .U.UUACAAAAGGCAUAUAA..UCUGCCAAAAUACCUAAUCGCGU....A
+marine_metag.25                     .U.UUACAAAGGGUCUGUAA..UCUGGCAAAAUAUCUAAUCGCGU....A
+marine_metag.26                     .U.UUACAAAGGGUCUGUAA..UCUGGCAAAAUAUCUAAUCGCGU....A
+marine_metag.27                     .A.GAGCAUCAUUA.GGUUC..UUUAGGUACUUUUGAACCUGCGC....A
+marine_metag.28                     .U.UUACAAAUUGUCUGUAA..UCUGGCACAAUAUCUAAUCGCGU....A
+marine_metag.29                     .U.UUACAAAGGGUCUGUAA..UCUGGCAAAAUAUCUAAUCGCGU....A
+marine_metag.30                     .U.UUACAAAGGGUCUGUAA..UCUGGCAAAAUAUCUAAUCGCGU....A
+marine_metag.31                     .A.UCGCCUGAGAACGGCGA..UCUG.CUAAACACAUCCGCGCGC....A
+marine_metag.32                     ..UUUACAAAGAGUCUGUAA..UCUGGCAAAAUGUCUAAUCGCGU....A
+marine_metag.33                     .U.UUGCCUUUUGAGGGCGA..UCUG.CUAAACACAUCCGCGCGC....A
+marine_metag.34                     .U.UUACAAAGGUUCUGUAA..UCUGGCAAAAUAUCUAAUCGCGU....A
+marine_metag.35                     .U.UUACAAAGGGUCUGUAA..UCUGGCAAAAUAUCAAAUCACGU....A
+marine_metag.36                     .U.UUACAAAGAGUCUGUAA..UCUGGCAAAAUAUCUAAUCGCGU....A
+marine_metag.37                     .C.UCGCCGUUAA..GGCGA..UCUG.CUAAACACUUCUGCGCGU....A
+marine_metag.38                     .U.UUACAAAGGGUCUGUAA..UCUGGCAAAAUAUCUAAUCGCGU....A
+marine_metag.39                     .U.UCGCCGGUCCCCGGCGA..UCUG.CUAAACACAUC.GCGCGC....A
+marine_metag.40                     .U.UUACAAAGGGUCUGUAA..UCUGGCAAAAUAUCUAAUCGCGU....A
+marine_metag.41                     .C.UUGCCGUUAA..GGCGA..UCUG.CUAAACACUUCUGCGCGU....A
+marine_metag.42                     .U.UCGCCUUUUCGAGGCGA..UCUG.CUAAACACAUCCGCGCGC....A
+marine_metag.43                     .U.UUACAAAGGGUCUGUAA..UCUGGCAAAAUAUCUAAUCGCGU....A
+marine_metag.44                     .U.UUACAAAGGGUCUGUAA..UCUGGCAAAAUAUCUAAUCGCGU....A
+marine_metag.45                     .U.UCGCUGAAUUUCGGCGA..UCUG.CUAAACACAUCCGCGCGC....A
+marine_metag.46                     .U.UUACAAAGGGUCUGUAA..UCUGGCACAAUAUCUAAUCGCGU....A
+marine_metag.47                     .U.UUACAAAGGGUCUGUAA..UCUGGCAAAAUAUCUAAUCGCGU....A
+marine_metag.48                     .U.UUACAAAGGGUCUGUAA..UCUGGCAAAAUAUCUAAUCGCGU....A
+marine_metag.49                     .U.UUACAAAGAGUCUGUAA..UCUGGCAAAAUAACUAAUCGCGU....A
+marine_metag.50                     .U.UCGCCUUUUGAGGGCGA..UCUG.CUAAACACAUCCGCGCGC....A
+marine_metag.51                     .U.UCGCCUUUUGAGGGCGA..UCUG.CUAAACACAUCCGCGCGC....A
+marine_metag.52                     .U.UUACAAAGGGUCUGUAA..UCUGGCAAAAUAUCUAAUCGCGU....A
+marine_metag.53                     .U.UUACAAAACGCAUAUAA..UCUGCCAAAAUACCUAAUCGCGU....A
+marine_metag.54                     .U.UUACAAAGGGUCUGUAA..UCUGGCAAAAUAUCUAAUCGCGU....A
+marine_metag.55                     .U.UUACAAAGGGUCUGUAA..UCUGGCAAAAUAUCUAAUCGCGU....A
+marine_metag.56                     .U.UUACAAAGGGUCUGUAA..UCUGGCAAAAUAUCUAAUCGCGU....A
+marine_metag.57                     .U.UUACAAAGGGUCUGUAA..UCUGGCAAAAUAACUAAUCGCGU....A
+marine_metag.58                     .U.UUACAAAGUGUCUGUAA..UCUGGCAAAAUAUCUAAUCGCGU....A
+marine_metag.59                     .U.UUACAAAGGGUCUGUAA..UCUGGCAAAAUAUCUAAUCGCGU....A
+marine_metag.60                     .U.UUACAAAGGGUCUGUAA..UCUGGCAAAAUAUCUAAUCGCGU....A
+marine_metag.61                     .U.UUACAAAGGGUCUGUAA..UCUGGCAAAAUAUCUAAUCGCGU....A
+marine_metag.62                     .U.UUACAAAUAGUCUGUAA..UCUGGCAAAAUAUCUAAUCGCGU....A
+marine_metag.63                     .U.UUACAAAGUGUCUGUGA..UCUGGCAAAAUAUCUAAUCGCGU....A
+marine_metag.64                     .U.UUACAAAAGGUCUGUAA..UCUGGCAAAAUAUCUAAUCGCGU....A
+marine_metag.65                     .A.UCGCCUGAGAACGGCGA..UCUG.CUAAACACAUCCGCGCGC....A
+marine_metag.66                     .U.UUACAAAGAGUCUGUAA..UCUGGCAAAAUAUCUAAUCGCGU....A
+marine_metag.67                     .U.UUACAAACUGCAAAUAA..UCUGCCAAAAUACCUAAUCGCGU....A
+marine_metag.68                     .U.UUACAAAGAGUCUGUAA..UCUGGCACAAUAUCUAAUCGCGU....A
+marine_metag.69                     .U.UCGCCAAUUGAUGGCGA..UCUG.CUAAACACAUCCGCGCGC....A
+marine_metag.70                     .U.UUACAAAGGGUCUGUAA..UCUGGCAAAAUAUCAAAUCGCGU....A
+#=GC SS_cons                        ...<<<<<.......>>>>>....................<<<<<.....
+
+Synechococcus.1                     GGUCCGACCAUCAACAUUCGGGCCCACUUUCCUCAGU......GAAGGUG
+Synechococcus.2                     GGUCCGGAUAGC...ACCCGGGCCCGCUCCUUUC.........AGGAGUG
+Synechococcus.3                     GGUCCGGACUGC...AACCGGGCCCUCUCUUCAC.........AAGAGUG
+Synechococcus.4                     GGUCCGGGUGG....AACCGGGCCCGCCCUCCAUCGU......GAGGGUG
+Synechococcus.5                     GGUCCGGACUGC...AUCCGGGCCCUCUCUUUCA.........AAGAGUG
+Synechococcus.6                     GGUCCGGUCAUCAGGAUUCGGGCCCACUUUCUCUAGA......GACAGUG
+Synechococcus.7                     GGUCCGGUCUG....AACCGGGCCCGUCUCCCCAGC.......GGAGAUG
+Synechococcus.8                     GGUCCGGCUGCU...GACCGGGCCCUUCCCUGCUCCC......AGGGUUG
+Synechococcus.9                     GGUCCGGCAUUGC..ACCCGGGCCCGUUCCUUC..........GGGAAUG
+Synechococcus.10                    GGUCCGGGUGG....AACCGGGCCCGCCCUCCAUCGU......GAGGGUG
+Synechococcus.11                    GGUCCGGGUGG....AACCGGGCCCACUCCUUUCAG.......GGGAGUG
+Prochlorococcus_mari.1              GGUCUGAAAAA....UAUCAGACCCAUUCUUAAAAGA......AAGGAUG
+Prochlorococcus_mari.2              GCUUCGAUUUUC....UUCGAACGCAUCUUAAUUAACUA....UGAGAUG
+Prochlorococcus_mari.3              GGUCCGGCUU.....GUUCGGGCCCAUCUCACAAUCUC.....CGAGAUG
+Prochlorococcus_mari.4              GGUCUGAAAA.....AUUCAGACCCAUUCUUAAAAAAAA....AAGAAUG
+Prochlorococcus_mari.5              GGUCUGAAAA.....AUUCAGACCCAUUCUUAAAA........AAGAAUG
+uncul.Proch.marin.cl.1              GGUCUGAAAA.....UAUCAGACCCAUUCUUAAAAGA......AAGGAUG
+Prochlorococcus_mari.6              GGUCUGAACA.....UAUCAGACCCAUUCUUAUAAAGA.....AAGGAUG
+Prochlorococcus_mari.7              GGUCUGAAAUC....UUUCUGACCUGUCCUAAUGAACUU....UGAGAUU
+Prochlorococcus_mari.8              GGUCCGGCUU.....GUUCGGGCCCAUCUCACAAUCUC.....CGAGAUG
+Prochlorococcus_mari.9              GGCCUGAAAUUC...UUUCAGUAUCAUCUCAAGAACUA.....UGAGAUG
+Prochlorococcus_mari.10             GGUCUGAAAA.....UAUCAGACCCAUUCUUAAAACA......AAGGAUG
+marine_metag.1                      GGUCUGAAAA.....UAUCAGACCCAUUCUUAAAACA......AAGGAUG
+marine_metag.2                      GGUCUGAAUAU....AAUCAGACCCAUUCUUAAAAGA......AAGGAUG
+marine_metag.3                      GGUCUGAAAA.....UAUCAGACCCAUUCUUAAAACA......AAGAAUG
+marine_metag.4                      GGUCUGAAAA.....CAUCAGACCCAUUCUUAAAACA......AAGGAUG
+marine_metag.5                      GGUCUGUAAU......AUCAGACCCAUUCUUAAAA........AAGGAUG
+marine_metag.6                      GGUCUGAAAA.....UAUCAGACCCAUUCUUAAUAGA......AAGGAUG
+marine_metag.7                      GGUCUGAAAA.....UAUCAGACCCAUUCUUAAAAAAA.....AAGGAUG
+marine_metag.8                      .GUCUGAAAA.....UAUCAGACCCAUUCUUAAAAC.......AAAGAUG
+marine_metag.9                      GGUCUGAAAA......AUCAGGCCCAUCCUAAAUAAACUAG..UAGGAUG
+marine_metag.10                     GGUCUGAAAA.....UAUCAGACCCAUUCUUAAGAGA......AAGAAUG
+marine_metag.11                     GGUCUGAAAA.....AAUCAGACCCAUUCUUAAAACA......AAGGAUG
+marine_metag.12                     GGUCUGAAUAU....AAUCAGACCCAUUCUUAAAAGA......AAGGAUG
+marine_metag.13                     GGUCUGAAAA.....AAUCAGACCCAUUCUUAAAUUC......AAGGAUG
+marine_metag.14                     GGUCCGGCUGCU...GACCGGGCCCUUCCCUGAUUCC......AGGGUUG
+marine_metag.15                     GGUCUGUUAA.....GUUCAGACCCAUUCUUUAAAAAACAA..AAGGAUG
+marine_metag.16                     GGUCUGAAAG.....UAUCAGACCCAUUCUUAAUUUA......AAGAAUG
+marine_metag.17                     GGUCUGAAGU.....AAUCAGACCCAUUCUUAAAAAA......AAGAAUG
+marine_metag.18                     GGUCCGACGCUCAUGACUCGGGCCCGCUCUCUUGCAACA....GAGAGUG
+marine_metag.19                     GGUCUGAAAG.....UAUCAGACCCAUUCUUAAAAAA......AAGGAUG
+marine_metag.20                     GGUCUGAAUAU....AAUCAGACCCAUUCUUAAAAGA......AAGGAUG
+marine_metag.21                     GGUCUGAAAA.....UAUCAGACCCAUUCUUACAAAGA.....AAGGAUG
+marine_metag.22                     GGUCUGAAAA.....UAUCAGACCCAUUCUUAAAA........AAGGAUG
+marine_metag.23                     GGUCUGAAAA.....AUUCAGACCCAUUCUUAAUUAGAUUAAU.AGAAUG
+marine_metag.24                     GGUCUGAAAA......AUCAGGCCCAUUCUAAAUUAACUAG..UAGGAUG
+marine_metag.25                     GGUCUGAAAA.....UAUCAGACCCAUUCUUAAAACU......AAGGAUG
+marine_metag.26                     GGUCUGAAUAUA...UAUCAGACCCAUUCUUAAAAUA......AAGGAUG
+marine_metag.27                     GGUCCGAUGAG....UUUCGGGCCCAUUUCAAAAAAAAUUU..UGAGAUG
+marine_metag.28                     GGUCUGAAAA.....UAUCAGACCCAUUCUUUAAUUA......AAGAAUG
+marine_metag.29                     GGUCUGAAAA.....UCUCAGACCCAUUCUUAAAACA......AAGGAUG
+marine_metag.30                     GGUCUGAAAA.....UAUCAGACCCAUUCUUAAAAAA......GAGAAUG
+marine_metag.31                     GGUCCGGCAUUGC..ACCCGGGCCCAUUCCUUC..........GGGAAUG
+marine_metag.32                     GGUCUGAAUA.....UAUCAGACCCAUUCUUAAAAUA......AAGGAUG
+marine_metag.33                     GGUCCGGAAAAC...ACCCGGGCCCGCUCCUUUC.........AGGAGUG
+marine_metag.34                     GGUCUGAAAA.....UAUCAGACCCAUUCUUAAAUAAA.....AAGGAUG
+marine_metag.35                     GGUCUGAAAA.....UAUCAGACCCAUUCUUAAAACA......AAGGAUG
+marine_metag.36                     GGUCUGAAUA.....UAUCAGACCCAUUCUUAAAAGA......AAGGAUG
+marine_metag.37                     GGUCCGACGCUCAUGACUCGGGCCCGCUCUCUUGCAAUA....GAGAGUG
+marine_metag.38                     GGUCUGAAAA.....UAUCAGACCCAUUCUUAAAA.A......AAGGAUG
+marine_metag.39                     GGUCCGGGUGG....AACCGGGCCCACUCCUCUCAG.......GGGAGUG
+marine_metag.40                     GGUCUGAAAA.....UAUCAGACCCAUUCUUAAAAUA......AAGAAUG
+marine_metag.41                     GGUCCGACGCUCAUGACUCGGGCCCGCUCUCUUGCAACA....GAGAGUG
+marine_metag.42                     GGUCCGGCGCUC...GAUCGGGCCCACUCCAGAA..........GGAGUG
+marine_metag.43                     GGUCUGAAAA.....AAUCAGACCCAUUCUUAUAACA......AAGGAUG
+marine_metag.44                     GGUCUGAAAA.....UAUCAGACCCAUUCUUAAAAUA......AAGGAUG
+marine_metag.45                     GGUCCGAAUUGC...AACCGGGCCCUCUCCUUCCU.........GGAGUG
+marine_metag.46                     GGUCUGACAA.....UAUCAGACCCAUUCUUAAAUUAA......AGGAUG
+marine_metag.47                     GGUCUGAAAA.....UAUCAGACCCAUUCUUAAAUCA......AAGGAUG
+marine_metag.48                     GGUCUGAAAA.....UAUCAGACCCAUUCUUAAAUAA......AAGGAUG
+marine_metag.49                     GGUCUGAAAA.....UAUCAGACCCAUCUUUAAAAGA......AAGGAUG
+marine_metag.50                     GGUCCGGACGAC...AACCGGGCCCGCUCCUUCC.........GGGAGUG
+marine_metag.51                     GGUCCGGAUAGC...ACCCGGGCCCGCUCCUUUC.........AGGAGUG
+marine_metag.52                     GGUCUGAAAA.....UAUCAGACCCAUUCUUAACA........AAGGAUG
+marine_metag.53                     GGUCUGAAAA......AUCAGGCCCAUUCUAAAUACAUUAAA.UAGAAUG
+marine_metag.54                     GGUCUGAAAA.....UAUCAGACCCAUUCUUAAAACCA.....AAGGAUG
+marine_metag.55                     GGUCUGAAAA.....UAUCAGACCCAUUCUUAAACCA......AAGAAUG
+marine_metag.56                     GGUCUGAAUA.....UAUCAGACCCAUUCUUAAAACA......AAGGAUG
+marine_metag.57                     GGUCUGAGAA.....UAUCAGACCCAUUCUUAAAAGA......AAGGAUG
+marine_metag.58                     GGUCUGAAAU.....UAUCAGACCCAUUCUUAAAUAA......AAGAAUG
+marine_metag.59                     GGUCUGAAAA.....UAUCAGACCCAUUCUUAAAC.A......AAGGAUG
+marine_metag.60                     GGUCUGAAAA.....UAUCAGACCCAUUCUUAAAAGC......AAGGAUG
+marine_metag.61                     GGUCUGAAAA.....UAUCAGACCCAUUCUUAAUACA......AAGGAUG
+marine_metag.62                     GGUCUGAAUA.....UAUCAGACCCAUUCUUAAAAGA......AAGGAUG
+marine_metag.63                     GGUCUGAAAA.....UAUCAGACCCAUUCUUAAAUUA......AAGGAUG
+marine_metag.64                     GGUCUGAAAA.....UAUCAGACCCAUUCUUAAAUUA......AAGGAUG
+marine_metag.65                     GGUCCGGAAUUGC..ACCCGGGCCCGUUCCUUC..........GGGAAUG
+marine_metag.66                     GGUCUGAACA.....UAUCAGACCCAUUCUUAAAAGA......AAGGAUG
+marine_metag.67                     GGUCUGAAAA.....AUUCAGACCCAUUCUUAAAUAAAAA...AAGAAUG
+marine_metag.68                     GGUCUGAAUA.....UAUCAGACCCAUUCUUAUAAAGA.....AAGGAUG
+marine_metag.69                     GGUCCGGCGAUC...ACCCGGGCCCGCUCCUUCA.........AGGAGUG
+marine_metag.70                     GGUCUGAAAA.....UAUCAGACCCAUUCUUAAAACG......AAGGAUG
+#=GC SS_cons                        <<<<<<<..........>>>>>>><<<<<<<............>>>>>>>
+
+Synechococcus.1                     U.CCCU..GCGCA
+Synechococcus.2                     U.CCCU..GCGCG
+Synechococcus.3                     U.CCCU..GCGCG
+Synechococcus.4                     U.CCCGG.GCGCG
+Synechococcus.5                     U.CCCU..GCGCG
+Synechococcus.6                     U.CCCU..GCGCA
+Synechococcus.7                     U.CCCAG.GCGCC
+Synechococcus.8                     U.CCCAG.GCGCU
+Synechococcus.9                     U.CCCU..GCGCG
+Synechococcus.10                    U.CCCGG.GCGCG
+Synechococcus.11                    U.CCCGG.GCGCG
+Prochlorococcus_mari.1              U.CCAA..GCGUU
+Prochlorococcus_mari.2              UACCCCUCGCA..
+Prochlorococcus_mari.3              U.CCCUG.GCGCU
+Prochlorococcus_mari.4              U.CCAA..GCGUG
+Prochlorococcus_mari.5              U.CCAA..GCGUG
+uncul.Proch.marin.cl.1              U.CCAA..GCGUG
+Prochlorococcus_mari.6              U.CCAA..GCGUG
+Prochlorococcus_mari.7              UACCC...UCGCA
+Prochlorococcus_mari.8              U.CCCUG.GCGCU
+Prochlorococcus_mari.9              CACCCCUCGCAGG
+Prochlorococcus_mari.10             U.CCAA..GCGUG
+marine_metag.1                      U.CCAA..GCGUG
+marine_metag.2                      U.CCAA..GCGUG
+marine_metag.3                      U.CCAA..GCGUG
+marine_metag.4                      U.CCAA..GCGUG
+marine_metag.5                      U.CCAA..GCGUG
+marine_metag.6                      U.CCAA..GCGUG
+marine_metag.7                      U.CCAA..GCGUG
+marine_metag.8                      U.CCAA..GCGUG
+marine_metag.9                      U.CCAA..GCGCG
+marine_metag.10                     U.CCAA..GCGUG
+marine_metag.11                     U.CCAA..GCGUG
+marine_metag.12                     U.CCAA..GCGUG
+marine_metag.13                     U.CCAA..GCGUG
+marine_metag.14                     U.CCCAG.GCGCC
+marine_metag.15                     U.CCAA..GCGUG
+marine_metag.16                     U.CCAA..GCGUG
+marine_metag.17                     U.CCAA..GCGUG
+marine_metag.18                     U.CCCU..GCGCA
+marine_metag.19                     U.CCAA..GCGUG
+marine_metag.20                     U.CCAA..GCGUG
+marine_metag.21                     U.CCAA..GCGUG
+marine_metag.22                     U.CCAA..GCGUG
+marine_metag.23                     U.CCAA..GCGCG
+marine_metag.24                     U.CCAA..GCGCG
+marine_metag.25                     U.CCAA..GCGUG
+marine_metag.26                     U.CCAA..GCGUG
+marine_metag.27                     UCCCCC..ACGCA
+marine_metag.28                     U.CCAA..GCGUG
+marine_metag.29                     U.CCAA..GCGUG
+marine_metag.30                     U.CCAA..GCGUG
+marine_metag.31                     U.CCCU..GCGCG
+marine_metag.32                     U.CCAA..GCGUG
+marine_metag.33                     U.CCCU..GCGCG
+marine_metag.34                     U.CCAA..GCGUG
+marine_metag.35                     U.CCAA..GCGUG
+marine_metag.36                     U.CCAA..GCGUG
+marine_metag.37                     U.CCCU..GCGCA
+marine_metag.38                     U.CCAA..GCGUG
+marine_metag.39                     U.CCCGG.GCGCG
+marine_metag.40                     U.CCAA..GCGUG
+marine_metag.41                     U.CCCU..GCGCA
+marine_metag.42                     U.CCCA..GCGCG
+marine_metag.43                     U.CCAA..GCGUG
+marine_metag.44                     U.CCAA..GCGUG
+marine_metag.45                     U.CCCU..GCGCG
+marine_metag.46                     U.CCAA..GCGUG
+marine_metag.47                     U.CCAA..GCGUG
+marine_metag.48                     U.CCAA..GCGUG
+marine_metag.49                     U.CCAA..GCGUG
+marine_metag.50                     U.CCCU..GCGCG
+marine_metag.51                     U.CCCU..GCGCG
+marine_metag.52                     U.CCAA..GCGUG
+marine_metag.53                     U.CCAA..GCGCG
+marine_metag.54                     U.CCAA..GCGUG
+marine_metag.55                     U.CCAA..GCGUG
+marine_metag.56                     U.CCAA..GCGUG
+marine_metag.57                     U.CCAA..GCGUU
+marine_metag.58                     U.CCAA..GCGUG
+marine_metag.59                     U.CCAA..GCGUG
+marine_metag.60                     U.CCAA..GCGUG
+marine_metag.61                     U.CCAA..GCGUG
+marine_metag.62                     U.CCAA..GCGUG
+marine_metag.63                     U.CCAA..GCGUG
+marine_metag.64                     U.CCAA..GCGUG
+marine_metag.65                     U.CCCU..GCGCG
+marine_metag.66                     U.CCAA..GCGUG
+marine_metag.67                     U.CCAA..GCGUG
+marine_metag.68                     U.CCAA..GCGUG
+marine_metag.69                     U.CCCU..GCGCG
+marine_metag.70                     U.CCAA..GCGUG
+#=GC SS_cons                        ........>>>>>
+//

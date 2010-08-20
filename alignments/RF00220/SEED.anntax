@@ -1,0 +1,70 @@
+# STOCKHOLM 1.0
+#=GF ID    Rhino_CRE
+#=GF AC    RF00220
+#=GF DE    Human rhinovirus internal cis-acting regulatory element (CRE)
+#=GF AU    Moxon SJ
+#=GF GA    40.0
+#=GF NC    0.0
+#=GF TC    43.9
+#=GF SE    PMID:9848654
+#=GF SS    Published; PMID:9848654
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    9848654
+#=GF RT    The rhinovirus type 14 genome contains an internally located RNA
+#=GF RT    structure that is required for viral replication.
+#=GF RA    McKnight KL, Lemon SM;
+#=GF RL    RNA 1998;4:1569-1584.
+#=GF CC    This family represents a cis-acting regulatory element (CRE) from the human
+#=GF CC    rhinoviruses. The CRE is located within the genome segment encoding the
+#=GF CC    capsid proteins so is found in a protein coding region. The family has
+#=GF CC    been found to be essential for efficient viral replication and it has been
+#=GF CC    suggested that the CRE is required for initiation of minus-strand RNA
+#=GF CC    synthesis [1].
+#=GF WK    http://en.wikipedia.org/wiki/Human_rhinovirus_internal_cis-acting_regulatory_element_(CRE)
+#=GF SQ    12
+
+#=GS Human_rhinovirus_14.1 AC    L05355.1/2330-2415
+#=GS Human_rhinovirus_14.2 AC    K02121.1/2330-2415
+#=GS Human_rhinovirus_92.1 AC    AY355273.1/1-86
+#=GS Human_rhinovirus_86.1 AC    AY355267.1/1-86
+#=GS Human_rhinovirus_6.1  AC    AY355187.1/1-86
+#=GS Human_rhinovirus_14.3 AC    AY355195.1/1-86
+#=GS Human_rhinovirus_79.1 AC    AY355260.1/1-86
+#=GS Human_rhinovirus_72.1 AC    AY355253.1/1-86
+#=GS Human_rhinovirus_83.1 AC    AY355264.1/1-86
+#=GS Human_rhinovirus_35.1 AC    AY355216.1/1-86
+#=GS Human_rhinovirus_37.1 AC    AY355218.1/1-86
+#=GS Human_rhinovirus.1    AC    X01087.1/2326-2411
+
+Human_rhinovirus_14.1             GGCUUAGGUGAUGAAUUAGAAGAAGUCAUCGUUGAGAAAACGAAACAGAC
+Human_rhinovirus_14.2             GGCUUAGGUGAUGAAUUAGAAGAAGUCAUCGUUGAGAAAACGAAACAGAC
+Human_rhinovirus_92.1             GGUCUUAAUGAUGAAUUGGAGGAAGUCAUUGUUGAGAAAACGAAACAGAC
+Human_rhinovirus_86.1             GGGUUGGGAGAUGAACUAGAGGAAGUCAUAGUCGAAAAAACGAAACAGAC
+Human_rhinovirus_6.1              GGAUUGGGUGAUGAAUUAGAAGAAGUUAUUGUCGAGAAAACGAAACAGAC
+Human_rhinovirus_14.3             GGCUUAGGUGAUGAAUUAGAAGAAGUCAUCGUUGAGAAAACGAAACAGAC
+Human_rhinovirus_79.1             GGUCUUAAUGAUGAAUUAGAAGAGGUCAUUGUCGAGAAAACGAGACAGAC
+Human_rhinovirus_72.1             GGUUUGAAUGACGAGUUAGAGGAAGUCAUCGUCGAGAAAACGAAACAGAC
+Human_rhinovirus_83.1             GGCCUCAAUGAUGAAUUAGAGGAAGUUAUUGUCGAGAAAACGAGACAGAC
+Human_rhinovirus_35.1             GGCUUGGGAGAAGAGCUUGAGGAAGUCAUUGUCGAGAAAACGAAACAGAC
+Human_rhinovirus_37.1             GGUCUGGGUGAUGAACUGGAAGAAGUUAUUGUUGAGAAAACGAAACAGAC
+Human_rhinovirus.1                GGCUUAGGUGAUGAAUUAGAAGAAGUCAUCGUUGAGAAAACGAAACAGAC
+#=GC SS_cons                      <<.<<<<<<<<..........<<.<<<<<<<<<..............>>>
+
+Human_rhinovirus_14.1             GGUGGCCUCAAUCUCAUCUGGUCCAAAACACACACA
+Human_rhinovirus_14.2             GGUGGCCUCAAUCUCAUCUGGUCCAAAACACACACA
+Human_rhinovirus_92.1             AUUGGCUUCUAUCACUUCUGGACCCAAACAUACUCA
+Human_rhinovirus_86.1             GUUGGCUUCAGUUGCAACAGGUUCAAAAUAUACCCA
+Human_rhinovirus_6.1              ACUAGCUUCAGUAUCAUCAGGACCAAAACACACCCA
+Human_rhinovirus_14.3             GGUGGCCUCAAUCUCAUCUGGUCCAAAACACACACA
+Human_rhinovirus_79.1             AUUGGCCUCUGUUUCUUCUGGACCUAAACAUACACA
+Human_rhinovirus_72.1             GUUGGCUUCAAUUUCAUCCGGGCCAAAAUACACUCA
+Human_rhinovirus_83.1             UUUAGCUUCCGUUGCAUCAGGACCAAAACACACCCA
+Human_rhinovirus_35.1             AGUGGCUUCAAUUGCUUCUGGAUCUAAACACACCCA
+Human_rhinovirus_37.1             ACUAGCUUCAAUAUCAUCAGGACCUAAGCAUACCCA
+Human_rhinovirus.1                GGUGGCCUCAAUCUCAUCUGGUCCAAAACACACACA
+#=GC SS_cons                      >>>>>>.>>....>>>>>>>>.>>............
+//

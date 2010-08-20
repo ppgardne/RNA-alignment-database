@@ -1,0 +1,58 @@
+# STOCKHOLM 1.0
+#=GF ID    FIE3
+#=GF AC    RF00227
+#=GF DE    FIE3 (ftz instability element 3') element
+#=GF AU    Bateman A, Griffiths-Jones SR
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    52.1
+#=GF SE    PMID:8649416
+#=GF SS    Predicted; stemloc, Bateman A
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    8649416
+#=GF RT    Determinants of Drosophila fushi tarazu mRNA instability.
+#=GF RA    Riedl A, Jacobs-Lorena M;
+#=GF RL    Mol Cell Biol 1996;16:3047-3053.
+#=GF CC    The fushi tarazu gene is essential for the establishment of
+#=GF CC    the Drosophila embryonic body plan. When first expressed in
+#=GF CC    early embryogenesis, fushi tarazu mRNA is uniformly distributed
+#=GF CC    over most of the embryo. Subsequently, fushi tarazu mRNA
+#=GF CC    expression rapidly evolves into a pattern of seven stripes that
+#=GF CC    encircle the embryo. The instability of fushi tarazu mRNA is
+#=GF CC    probably crucial for attaining this localised pattern of
+#=GF CC    expression [1].
+#=GF CC    Experiments provide evidence for at least two destabilising
+#=GF CC    elements in the fushi tarazu mRNA, one located within the 5'
+#=GF CC    one-third of the mRNA and the other near the 3' end (termed
+#=GF CC    FIE3 for ftz instability element 3'). The FIE3 lies within a
+#=GF CC    201-nucleotide sequence just upstream of the polyadenylation
+#=GF CC    signal and can act autonomously to destabilise a heterologous
+#=GF CC    mRNA. Further deletion constructs identified an essential
+#=GF CC    68-nucleotide element within the FIE3 [1].
+#=GF WK    http://en.wikipedia.org/wiki/FIE3_(ftz_instability_element_3')_element
+#=GF SQ    5
+
+#=GS D.virilis.1       AC    AY190954.1/18067-18131
+#=GS D.hydei.1         AC    X79494.1/2895-2959
+#=GS D.melanogaster.1  AC    AC095015.1/33082-33144
+#=GS D.pseudoobscura.1 AC    AY190944.1/40223-40305
+#=GS D.erecta.1        AC    AY190938.1/41252-41310
+
+D.virilis.1                   CGAUAAUGCAACACAAGCUCAA...CUUGGAGACUGAUUA.....ACUUU
+D.hydei.1                     CGAUAAUGCAACACGAACUCAA...CUUGGAGACUGAAGA.....AUGUU
+D.melanogaster.1              UGAUAAUG........GCCAAGAGACUUGGAGACUGACAC........AC
+D.pseudoobscura.1             UGAUAAUG........AUUCAAGAUCUUGGAGACUGACACACACACACAC
+D.erecta.1                    UGAUAAUG........GCCAAAAA..UUGGAGACUGAC..........AC
+#=GC SS_cons                  ...........................<<<<<<<<<.............>
+
+D.virilis.1                   UUGUUUCUA...................UUGUACAGUUUAUA
+D.hydei.1                     UUGUUUCUA...................UUGUACAGCUAAUA
+D.melanogaster.1              AUGUUUUUGUACAUA.............UAGUAGUUAAGAUA
+D.pseudoobscura.1             AUGUUUUCUUUUAAGCGAAAGUGCUUUUCUGUACAGU.AGUA
+D.erecta.1                    AUGUUUUUGUACAUA.............UAGUAGUUAAGAUC
+#=GC SS_cons                  >.>>>>>>>.................................
+//

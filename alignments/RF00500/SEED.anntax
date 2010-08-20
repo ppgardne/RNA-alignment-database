@@ -1,0 +1,47 @@
+# STOCKHOLM 1.0
+#=GF ID    TCV_H5
+#=GF AC    RF00500
+#=GF DE    Turnip crinkle virus (TCV) repressor of minus strand synthesis H5
+#=GF AU    Moxon SJ
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    22.6
+#=GF SE    PMID:15220455
+#=GF SS    Published; PMID:15220455
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    15220455
+#=GF RT    Biased hypermutagenesis associated with mutations in an untranslated
+#=GF RT    hairpin of an RNA virus.
+#=GF RA    McCormack JC, Simon AE;
+#=GF RL    J Virol 2004;78:7813-7817.
+#=GF RN    [2]
+#=GF RM    15220437
+#=GF RT    Repression and derepression of minus-strand synthesis in a
+#=GF RT    plus-strand RNA virus replicon.
+#=GF RA    Zhang G, Zhang J, Simon AE;
+#=GF RL    J Virol 2004;78:7619-7633.
+#=GF CC    This family represents the turnip crinkle virus (TCV) hairpin 5 (H5) which
+#=GF CC    contains a large symmetrical internal loop (LSL). H5 can repress
+#=GF CC    minus-strand synthesis when the 3' side of the LSL pairs with the
+#=GF CC    3'-terminal 4 bases of the RNA(GCCC-OH) [1,2].
+#=GF WK    http://en.wikipedia.org/wiki/Turnip_crinkle_virus_(TCV)_repressor_of_minus_strand_synthesis_H5
+#=GF SQ    5
+
+#=GS Turnip_crinkle_virus.1 AC    X12750.1/269-313
+#=GS Turnip_crinkle_virus.2 AC    X05193.1/1360-1404
+#=GS Turnip_crinkle_virus.3 AC    AY312063.1/3963-4007
+#=GS Turnip_crinkle_virus.4 AC    M29290.1/257-302
+#=GS Turnip_crinkle_virus.5 AC    M22445.2/3960-4004
+
+Turnip_crinkle_virus.1             GGGUAACCACUAAAAUCCCGAAAGGGUGGGCU.GUGGGGACCCUCC
+Turnip_crinkle_virus.2             GGGUAACCACUAAAAUCCCGAAAGGGUGGGCU.GUGGUGACCUUCC
+Turnip_crinkle_virus.3             GGGUAACCACUAAAAUCCCGAAAGGGUGGGCU.GUGGUGACCUUCC
+Turnip_crinkle_virus.4             GGGUAACCACUAAAAUCCCGAAAGGGUGGGCUAGUGGCGACCCUCC
+Turnip_crinkle_virus.5             GGGUAACCACUAAAAUCCCGAAAGGGUGGGCU.GUGGUGACCUUCC
+#=GC SS_cons                       <<<<.<<<<<......<<<....>>>.......>>>>>.>>>>...
+#=GC RF                            gGGuAaccacuAAAAucccgAAAgggugggcu.guggugaCCcucc
+//

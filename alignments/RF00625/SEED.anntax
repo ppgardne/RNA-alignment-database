@@ -1,0 +1,81 @@
+# STOCKHOLM 1.0
+#=GF ID    P11
+#=GF AC    RF00625
+#=GF DE    Pseudomonas sRNA P11
+#=GF AU    Daub J
+#=GF GA    26.0
+#=GF NC    0.0
+#=GF TC    26.3
+#=GF SE    INFERNAL
+#=GF SS    Predicted; RNAalifold
+#=GF TP    Gene;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000655 SO:ncRNA
+#=GF RN    [1]
+#=GF RM    16870723
+#=GF RT    Identification of 17 Pseudomonas aeruginosa sRNAs and prediction of
+#=GF RT    sRNA-encoding genes in 10 diverse pathogens using the bioinformatic
+#=GF RT    tool sRNAPredict2.
+#=GF RA    Livny J, Brencic A, Lory S, Waldor MK;
+#=GF RL    Nucleic Acids Res. 2006;34:3484-3493.
+#=GF CC    This small RNA (sRNA) was computationally identified in the
+#=GF CC    genome of the opportunistic pathogen Pseudomonas aeruginosa and
+#=GF CC    its expression verified by northern blot analysis [1].  P11 is
+#=GF CC    located between a putative threonine protein kinase and putative
+#=GF CC    nitrate reductase and appears to be conserved in several
+#=GF CC    Pseudomonas species.  P11 has a predicted Rho independent
+#=GF CC    terminator at the 3'end but the function of P11 is unknown [1].
+#=GF WK    http://en.wikipedia.org/wiki/Pseudomonas_sRNA_P11
+#=GF SQ    10
+
+#=GS A.vinelandii.1         AC    CP001157.1/2336501-2336638
+#=GS Pseudomonas_aerugino.1 AC    CP000744.1/3650435-3650571
+#=GS Pseudomonas_stutzeri.1 AC    CP000304.1/2631424-2631562
+#=GS Pseudomonas_syringae.1 AC    CP000075.1/2450611-2450746
+#=GS Pseudomonas_syringae.2 AC    CP000058.1/2429141-2429276
+#=GS P.mendocina.1          AC    CP000680.1/2325446-2325584
+#=GS Pseudomonas_syringae.3 AC    AE016853.1/2548734-2548871
+#=GS P.aeruginosa.1         AC    AF112870.1/4018-4154
+#=GS Pseudomonas_fluoresc.1 AC    CP000094.1/1982251-1982387
+#=GS marine_metag.1         AC    AACY021569628.1/230-361
+
+A.vinelandii.1                     CAUCCGUGAAACUGGCACAGCCCCUGCAUCGA.GA.AAACCGACAGAUCA
+Pseudomonas_aerugino.1             AAUAUCGCAAGUUGGCACGGCGCCUGCUUGGACUU.UCCCGACAAUCGAC
+Pseudomonas_stutzeri.1             GUAUUUCAGAAUUGGCACAGGCUCUGCAAAG..CA.AACGUCGAAGAUGA
+Pseudomonas_syringae.1             AGAU..GCGAGUUGGCACAAGCACUGCAUGG..UC.UCUUGCAGAUAAUU
+Pseudomonas_syringae.2             GAAUGCG..AGUUGGCACAGGCGCUGCAUUG..UC.UUGUGCAGAUCAUU
+P.mendocina.1                      CUUCGAGAAAGUUGGCACAGGCACUGCAUUG..UU.ACUGGCAGCAAACA
+Pseudomonas_syringae.3             GUGAACACGAGUUGGCACAAGCGCUGCAUAG..UC.CCUUUCAGAUCAUU
+P.aeruginosa.1                     AAUAGCGCAAGUUGGCACGGCGCCUGCUUGGGUUC.UCCCGACAAUCGAC
+Pseudomonas_fluoresc.1             CCCGCCGCGACUUGGCACAACCACUGCAU....UA.ACGUUUUCAACUGA
+marine_metag.1                     ......G..AGUUGGCACAAGGGCUGCAUUC..ACAACUACCACAAACCA
+#=GC SS_cons                       ...........<<<<<<.......>>>.......................
+#=GC RF                            aaaaaagcgAGUUGGCACAggcaCUGCAUaG..uC.ccuugcAaAuAaaa
+
+A.vinelandii.1                     CAUAA.GCAUUGCCUUCAACGUGGAGGGCAGUGUUUCCCGACAGAACGGG
+Pseudomonas_aerugino.1             AACACAGCGCCGACCUCAACGACGA.GGCUGCGCUUCCCGACCGAACGGG
+Pseudomonas_stutzeri.1             CAUACGACCUGACCCUCAACGUGGAGCGGCAGGUUUCCCGACUGAGCGGG
+Pseudomonas_syringae.1             CAUAACACGCAGCCCUCAACGAUGAAGGCUGCGUCUCCCGAGAGAACGGG
+Pseudomonas_syringae.2             CAUAACGCGUAGCCCUCAACGAUGAAGGCUGCGCCUCCCGAUAGAACGGG
+P.mendocina.1                      CAUAAAGCGCGACCUUCAACGAAGAAGGCUGCACUUCCCGAUAGAACGGG
+Pseudomonas_syringae.3             CAUAACGCGCAGCCUUCAACGAUGAAGGCUGCGCCUCCCGAGAGAACGGG
+P.aeruginosa.1                     AACAAAGCGCCUGCCUCAACGACGA.GGCGGCGUUUCCCGACCGAACGGG
+Pseudomonas_fluoresc.1             CAUAAAGCCCGACCUUCAACGACGAAGGCCAGGCUUCCCGAGAGAACGGG
+marine_metag.1                     CAUAAAGCGCGACCUUCAACGACGAAGGCUGCACUUCCCGAUAGAACGGG
+#=GC SS_cons                       ......<<<<<.<<.<<......>>.>>.>>>>>.<<<<<......>>>>
+#=GC RF                            cAUAAagCGCagCCuUCAACGAuGAAGGcuGCGcUUCCCGAuAGAACGGG
+
+A.vinelandii.1                     AAU.G.GACAAAGGCGUCCUCGCUGGGUAACCGGCGGGACGCC
+Pseudomonas_aerugino.1             ACCUG.GACAAAGGCGUCCU.GC.UGGCAACA.GCGGGACGCC
+Pseudomonas_stutzeri.1             ACACG.GACAAAGGCGUCCUCACCGGAGAACCGGUGGGACGCC
+Pseudomonas_syringae.1             ACC.G.GACAAAGGCGUCCUCGUCAGGCCACUGACGGGACGCC
+Pseudomonas_syringae.2             ACC.G.GACAAAGGCGUCCCCGUCAGGCAACUGGCGGGACGCC
+P.mendocina.1                      ACCUG.GACAAAGGCGUCCUCGCUAGGUGACUAGCGGGACGCC
+Pseudomonas_syringae.3             ACC.G.GACAAAGGCGUCCCCGUCAGGCAACUGGCGGGACGCC
+P.aeruginosa.1                     ACCUG.GACAAAGGCGUCCU.GC.UGGCAACA.GCGGGACGCC
+Pseudomonas_fluoresc.1             ACAAG.GACAAAGGCGUCCUCGCUAGGUAACUGGCGGGACGCC
+marine_metag.1                     ACC.UGGACAAAGGCGUCCUCGCUAGGUGACUAGCGGGACGCC
+#=GC SS_cons                       >.......>>>.<<<<<<<.<<<<<<....>>>>>>>>>>>>>
+#=GC RF                            ACc.g.GaCAAAGGCGUCCuCGCcaGGuAACugGCgGGACGCC
+//

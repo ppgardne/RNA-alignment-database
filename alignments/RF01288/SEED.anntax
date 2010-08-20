@@ -1,0 +1,46 @@
+# STOCKHOLM 1.0
+#=GF ID    snoR31
+#=GF AC    RF01288
+#=GF DE    Small nucleolar RNA snoR31
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    24.8
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    URL; http://bioinf.scri.sari.ac.uk/cgi-bin/plant_snorna/home
+#=GF DR    URL; http://lowelab.ucsc.edu/snoRNAdb/
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF WK    http://en.wikipedia.org/wiki/SnoRNA
+#=GF SQ    6
+
+#=GS O.sativa.1     AC    AAAA02011059.1/20716-20813
+#=GS O.sativa.2     AC    AJ310377.1/1330-1427
+#=GS V.vinifera.1   AC    AM435377.2/7052-7143
+#=GS M.truncatula.1 AC    CT963106.2/109018-109102
+#=GS R.communis.1   AC    AASG02005463.1/7155-7246
+#=GS A.thaliana.1   AC    AB023044.1/29891-29990
+
+O.sativa.1                 UGGAUUGUGAGGAGGUAAUUGAUGCAUAAUCCAACACUUGAUCAGAGGAU
+O.sativa.2                 UGGAUUGUGAGGAGGUAAUUGAUGCAUAAUCCAACACUUGAUCAGAGGAC
+V.vinifera.1               UAGAUUGGGAUGAAGCAACAGUACAUUAAUCCAACACUUGAUCUGAG...
+M.truncatula.1             UAGAUAAGGAUGAAGCAAUAU..AUAUAAUCCAACACUUGAUCUGAU...
+R.communis.1               CGGAUGGGGAUGAAGCAAUAUUUAAAUAAUCCAACACUUGAUCUGAG...
+A.thaliana.1               UAGAUAAUGAUGAAGCAAAAUUAAUCUAAUCCAACACUUGAUCUGAGAGA
+#=GC SS_cons               .<<<..............................................
+#=GC RF                    UaGaUAAUGAUGAAGCAAAAUUAAUCUAAUCCAACACUUGAUCUGAGAGA
+
+O.sativa.1                 GGCUUUUGUC..GUCCAUAUGACGUUACACAUCUCUGCAUCUGAAUCCAG
+O.sativa.2                 GGCUUCUGUC..GUCCAUGUGACGUUACACAUCUUUGCAUCUGAAUCCAA
+V.vinifera.1               ....AUAUUUAUAUCCAAGUGAUGUUA.AAUUCUAUGCUUCUGAAUCUAU
+M.truncatula.1             .....UUUGUGAUGCCAAAUAUAUUUAUUAU.....GUUUCUGAAUCUAC
+R.communis.1               ....ACUUUAAUAGUCAAGUGAUGUUAACAUUAUCA.CUUCUGAAUCCGC
+A.thaliana.1               UACUAUGUGCAUCUCCAAGUGAAGUUACAACUGUUAGCUUCUGAAUCUAA
+#=GC SS_cons               .............................................>>>..
+#=GC RF                    UACUAUGUGCAUCUCCAAGUGAAGUUACAACUGUUAGCUUCUGAAuCuAA
+//

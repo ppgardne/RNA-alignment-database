@@ -1,0 +1,419 @@
+# STOCKHOLM 1.0
+#=GF ID    5_8S_rRNA
+#=GF AC    RF00002
+#=GF DE    5.8S ribosomal RNA
+#=GF AU    Griffiths-Jones SR, Mifsud W
+#=GF GA    40.0
+#=GF NC    40.0
+#=GF TC    40.0
+#=GF SE    Wuyts et al, European LSU rRNA database, PMID:11125083
+#=GF SS    Published; PMID:11125083
+#=GF TP    Gene; rRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  -g  --fil-no-hmm  CM SEQDB
+#=GF DR    URL; http://rrna.uia.ac.be/lsu/index.html
+#=GF DR    SO:0000375 SO:rRNA_5_8S
+#=GF DR    GO:0003735 GO:structural constituent of ribosome
+#=GF DR    GO:0005840 GO:ribosome
+#=GF RN    [1]
+#=GF RM    11125083
+#=GF RT    The European Large Subunit Ribosomal RNA Database.
+#=GF RA    Wuyts J, De Rijk P, Van de Peer Y, Winkelmans T, De Wachter R;
+#=GF RL    Nucleic Acids Res 2001;29:175-177.
+#=GF RN    [2]
+#=GF RM    9108162
+#=GF RT    Role of the 5.8S rRNA in ribosome translocation.
+#=GF RA    Abou Elela S, Nazar RN;
+#=GF RL    Nucleic Acids Res 1997;25:1788-1794.
+#=GF RN    [3]
+#=GF RM    9154813
+#=GF RT    Cytoplasmic p53 polypeptide is associated with ribosomes.
+#=GF RA    Fontoura BM, Atienza CA, Sorokina EA, Morimoto T, Carroll RB;
+#=GF RL    Mol Cell Biol 1997;17:3146-3154.
+#=GF CC    5.8S ribosomal RNA (5.8S rRNA) is a component of the large
+#=GF CC    subunit of the eukaryotic ribosome. It is transcribed by RNA
+#=GF CC    polymerase I as part of the 45S precursor that also contains 18S
+#=GF CC    and 28S rRNA. Functionally, it is thought that 5.8S rRNA may be
+#=GF CC    involved in ribosome translocation [2]. It is also known to form
+#=GF CC    covalent linkage to the p53 tumour suppressor protein [3].
+#=GF CC    5.8S rRNA is also found in archaea.
+#=GF WK    http://en.wikipedia.org/wiki/5.8S_ribosomal_RNA
+#=GF SQ    61
+
+#=GS P.falciparum.1         AC    U48228.1/7-166
+#=GS P.falciparum.2         AC    U21939.1/68-218
+#=GS C.parvum.1             AC    AF093014.1/662-809
+#=GS E.tenella.1            AC    AF026388.1/2852-3006
+#=GS T.gondii.1             AC    L25635.1/211-360
+#=GS T.gondii.2             AC    X75430.1/2186-2339
+#=GS S.amphoriforme.1       AC    AF223570.1/244-389
+#=GS T.pyriformis.1         AC    X01533.1/5-152
+#=GS T.thermophila.1        AC    X54512.1/4422-4569
+#=GS E.aediculatus.1        AC    AF223571.1/210-358
+#=GS P.micans.1             AC    M14649.1/2015-2169
+#=GS D.discoideum.1         AC    X00601.1/3997-4154
+#=GS D.iridis.1             AC    X60210.1/1-148
+#=GS P.polycephalum.1       AC    V01159.1/185-331
+#=GS G.muris.1              AC    M73682.1/109-223
+#=GS G.ardeae.1             AC    X58290.1/119-234
+#=GS E.gracilis.1           AC    X53361.2/1206-1368
+#=GS C.fasciculata.1        AC    Y00055.1/4327-4494
+#=GS T.brucei.1             AC    AF306774.1/466-634
+#=GS T.cruzi.1              AC    M63701.1/247-415
+#=GS B.emersonii.1          AC    X90410.1/15-165
+#=GS Verticillium_albo-at.1 AC    X60705.1/112-265
+#=GS B.spartinae.1          AC    AF422961.1/176-329
+#=GS E.gossypii.1           AC    U09322.1/209-362
+#=GS N.castellii.1          AC    AJ229062.1/241-389
+#=GS S.transvaalensis.1     AC    AB011808.1/289-442
+#=GS S.fibuligera.1         AC    U10409.1/2025-2178
+#=GS C.albicans.1           AC    L07796.1/2-156
+#=GS P.carinii.1            AC    M86760.1/218-371
+#=GS S.japonicus.1          AC    Z32848.1/2558-2712
+#=GS T.saponaceum.1         AC    AF319429.1/172-325
+#=GS T.wingfieldii.1        AC    AF444327.1/152-305
+#=GS E.aulicae.1            AC    U35394.1/2008-2158
+#=GS R.miehei.1             AC    AF196778.1/2-154
+#=GS D.melanogaster.1       AC    M21017.1/2722-2844
+#=GS C.tentans.1            AC    X99212.1/685-824
+#=GS A.albimanus.1          AC    L78065.1/3758-3910
+#=GS X.borealis.1           AC    M36008.1/959-1112
+#=GS H.sapiens.1            AC    U13369.1/6624-6776
+#=GS H.momus.1              AC    X53538.1/2090-2241
+#=GS S.plicata.1            AC    AF158724.1/274-427
+#=GS T.democratica.1        AC    AF158725.1/345-497
+#=GS C.elegans.1            AC    X03680.1/3159-3308
+#=GS B.natans.1             AC    U58510.1/2022-2198
+#=GS G.cervicornis.1        AC    AF468917.1/611-763
+#=GS P.palmata.1            AC    AY029385.1/986-1138
+#=GS F.hygrometrica.1       AC    X80212.2/2104-2256
+#=GS M.polymorpha.1         AC    AB021684.1/14108-14260
+#=GS O.sativa.1             AC    AF169230.1/225-380
+#=GS H.lupulus.1            AC    AF223066.1/5881-6030
+#=GS Fragaria_x_ananassa.1  AC    X15589.1/256-410
+#=GS B.napus.1              AC    D10840.1/200-355
+#=GS S.alba.1               AC    X66325.1/2369-2523
+#=GS S.ramosum.1            AC    AF307619.1/287-442
+#=GS S.pseudocostatum.1     AC    Y11511.1/115-268
+#=GS N.salina.1             AC    Y07974.1/75-229
+#=GS H.catenoides.1         AC    X80346.1/67-220
+#=GS P.melonis.1            AC    AF403508.1/235-389
+#=GS S.lomentaria.1         AC    D16558.1/2710-2862
+#=GS T.aequale.1            AC    Y07978.1/48-201
+#=GS O.danica.1             AC    Y07976.1/124-271
+
+P.falciparum.1                     CAAUCUUAACGAUGGAUGUCUUGGU.UCCUAUAGCGAUGAAGGCCGCAGC
+P.falciparum.2                     CAGUCUUAACGAUGGAUGUCUUGGU.UCCUACAGCGAUGAAGGCCGCAGC
+C.parvum.1                         CACUUUAAGUAAUGGAUGUCUUGGU.UCUCAUAACGAUGAAGGACGCAGC
+E.tenella.1                        AACUUUCAGCAAUGGAUGUCUUGGC.UCACGCAUCGAUGAAGGACGCAGC
+T.gondii.1                         AAUUUUCAGCAAUGGAUGUCUUGGC.UCGCGCAACGAUGAAGGACGCAGC
+T.gondii.2                         AAUUUUCAGCAAUGGAUGUCUUGGC.UCGCGCAACGAUGAAGGACGCAGC
+S.amphoriforme.1                   AAUUUUCAACGAUGGAUGUCUUGGC.UCCCAUAUCGAUGAAGAACGCAGC
+T.pyriformis.1                     AACUUUCAACGGUGGAUAUCUUGGU.UCCCGUGACGAUGAAGAACGCAGC
+T.thermophila.1                    AACUUUCAACGGUGGAUAUCUAGGU.UCCCGUGACGAUGAAGAACGCAGC
+E.aediculatus.1                    AACCUUCAACGGUGGAUGUCUUGGC.UCUCAUAUCGAUGAAGAACGCAGC
+P.micans.1                         AACUUUCAGCGACGGAUGUCUCGGC.UCGAACAACGAUGAAGGGCGCAGC
+D.discoideum.1                     AAGCAUAAACGGUGAAUACCUCGAC.UCCUAAAUCGAUGAAGACCGUAGC
+D.iridis.1                         ACCGUUAGGCGAUGGAUUGCUGGGU.ACCCGCUUCGACGAAGAGCGCAGU
+P.polycephalum.1                   ACCGUUGGGCGAUGGAUUGCUUGGU.GCCUGCUUCGACGAAGAGCGCAGU
+G.muris.1                          GACGCGACCCGGUGGAUGCCUUGGC.UCGGGGGACGAUGAAGGACGUGGC
+G.ardeae.1                         GACCCAGACCGGCGGAUGCCUGGGC.UCGGGCCUCGAGGAAGGACGCGGC
+E.gracilis.1                       ACCUGUU.GUGGUGGAUGUCUUGGC.CCAGGUUCUGAGGAAGGACACAGC
+C.fasciculata.1                    AACGUGUCGCGAUGGAUGACUUGGCUUCCUAUCUCGUUGAAGAACGCAGU
+T.brucei.1                         AACGUGUCGCGAUGGAUGACUUGGCUUCCUAUUUCGUUGAAGAACGCAGC
+T.cruzi.1                          AACGUGUCGCGAUGGAUGACUUGGCUUCCUAUUUCGUUGAAGAACGCAGC
+B.emersonii.1                      AACUUUCAGCAAUGGAUCUCUUGGC.UCUUGCAUCGAUGAAGAACGCAGC
+Verticillium_albo-at.1             AACUUUUAACAACGGAUCUCUUGGC.UCUAGCAUCGAUGAAGAACGCAGC
+B.spartinae.1                      AACUUUCAACAACGGAUCUCUUGGU.UCUGGCAUCGAUGAAGAACGCAGC
+E.gossypii.1                       AACUUUCAACAACGGAUCUCUUGGU.UCUCGCAUCGAUGAAGAACGCAGC
+N.castellii.1                      AACUUUCAACAACGGAUCUCUUGGU.UCUCGCAUCGAUGAAGAACGCAGC
+S.transvaalensis.1                 AACUUUCAACAACGGAUCUCUUGGU.UCUCGCAUCGAUGAAGAACGCAGC
+S.fibuligera.1                     AACUUUCAGCAACGGAUCUCUUGGU.UCUCGCAUCGAUGAAGAACGCAGC
+C.albicans.1                       AACUUUCAACAACGGAUCUCUUGGU.UCUCGCAUCGAUGAAGAACGCAGC
+P.carinii.1                        AACUUUCAGCAAUGGAUCUCUUGGU.UCCCGCGUCGAUGAAGAACGUGGC
+S.japonicus.1                      AACUUUCAGCAACGGAUCUCUUGGC.UCUCGCAUCGAUGAAGAACGCAGC
+T.saponaceum.1                     AACUUUCAACAACGGAUCUCUUGGC.UCUCGCAUCGAUGAAGAACGCAGC
+T.wingfieldii.1                    AACUUUCAACAACGGAUCUCUUGGC.UUCCACAUCGAUGAAGAACGCAGC
+E.aulicae.1                        AACUUUUGACGAUGGAUCUCUCGGC.UCUCUCAUCGAUGAAGAACGUAGU
+R.miehei.1                         AACUUUAAGCAAUGGAUCACUUGGU.UCUCGCAUCGAUGAAGAACGUAGC
+D.melanogaster.1                   AACUCUAAGCGGUGGAUCACUCGGC.UCAUGGGUCGAUGAAGAACGCAGC
+C.tentans.1                        AACCCUAGACAGGGGAUCACUUGGC.UCAUGGGUCGAUGAAGACCGCAGC
+A.albimanus.1                      AACCCUAGGCAGGGGAUCACUCGGC.UCAUGGAUCGAUGAAGACCGCAGC
+X.borealis.1                       GACUCUUAGCGGUGGAUCACUCGGC.UCGUGCGUCGAUGAAGAACGCAGC
+H.sapiens.1                        GACUCUUAGCGGUGGAUCACUCGGC.UCGUGCGUCGAUGAAGAACGCAGC
+H.momus.1                          GACUCUCAACGGUGGAUCACUCGGC.UCGCGAGUCGAUGAAGGACGCAGC
+S.plicata.1                        GACUCUUAACGGUGGAUCACUCGGC.UCGCGAGUCGAUGAAGGACGCAGC
+T.democratica.1                    AUCUCUUAGCGGUGGAUCACUCGGC.UCGAGCGUCGAUGAAGGACGGAGC
+C.elegans.1                        UAGCUUCAGCGAUGGAUCGGUUGCA.UCGAGUAUCGAUGAAGAACGCAGC
+B.natans.1                         AACCCU.AGUGAUGGAUGUCUAGGC.UCCCGUAUCGAUGAAGAACGUAGC
+G.cervicornis.1                    AACUCGUAACGGUGGAUGUCUCGGC.UCCUACAUCGAUGAAGAACGUAGC
+P.palmata.1                        AACUCGUGACGGAGGAUAUCUUGGC.UCCCACAUCGAUGAAGAACGCAGC
+F.hygrometrica.1                   AACUCUCAGCAACGGAUAUCUUGGC.UCUUGCAACGAUGAAGAACGCAGC
+M.polymorpha.1                     GACUCUCAGCAACGGAUAUCUUGGC.UCCCGCAACGAUGAAGAACGCAGC
+O.sativa.1                         GACUCUCGGCAACGGAUAUCUCGGC.UCUCGCAUCGAUGAAGAACGUAGC
+H.lupulus.1                        GACUCUCGGCAACGGAUAUCUCGGC.UCUCGCAUCGAUGAAGAACGUAGC
+Fragaria_x_ananassa.1              GACUCUCGGCAACGGAUAUCUCGGC.UCUCGCAUCGAUGAAGAACGUAGC
+B.napus.1                          GACUCUCGGCAACGGAUAUCUCGGC.UCUCACAUCGAUGAAGAACGUAGC
+S.alba.1                           GACUCUCGGCAACGGAUAUCUU.GC.UCUCGCAUCGAUGAAGAACGUAGC
+S.ramosum.1                        GACUCUCGGCAACGGAUAUCUCGGC.UCUCGCAUCGAUGAAGAACGUAGC
+S.pseudocostatum.1                 AACUUUUAGCAAUGGAUGUCUUGGG.UCACACAACGAUGAAGAACGCAGC
+N.salina.1                         AACUUUCAGCAACGGAUGUCUUGGC.UCCCACAACGAUGAAGAACGCAGC
+H.catenoides.1                     AACUUUCAGCGAUGGAUAUCUUGGC.UCUCGCAACGAUGAAGAACGCAGC
+P.melonis.1                        AACUUUCAGCAGUGGAUGUCUAGGC.UCGCACAUCGAUGAAGAACGCUGC
+S.lomentaria.1                     AACUUUCAGCGACGGAUGUCUUGGC.UCCCACAACGAUGAAGAACGCAGC
+T.aequale.1                        AACUUUCAGCGACGGAUAUCUAGGC.UCCCACAACGAUGAAGAACGCAGC
+O.danica.1                         CACUUUCAGCAACGGAUGUCUCGGU.UCCCAUAACGAUGAAGAACGCAGC
+#=GC SS_cons                       ........................................<<<<<<<<..
+
+P.falciparum.1                     .AAAG.UG.CGAUAUGCAAUGA.....AAAAUG..CA..AUUA.......
+P.falciparum.2                     .AAAA.UG.CGAUACGCAAUGA.....AAAUUG..CAGUGA.........
+C.parvum.1                         .AAAG.UG.CGAUAAGCAAUGU.....GAACUG..CAU.AAUU.......
+E.tenella.1                        .GAAA.UG.CGAUACGCAUUGU.....GAAUUG..CAG.AUUU.......
+T.gondii.1                         .GAAC.UG.CGAAACGCAAUGU....GGAAUUG..CAG.AAUU.......
+T.gondii.2                         .GAAC.UG.C.AAACGCAAUGU.....GAAUUG..CAG.AAUU.......
+S.amphoriforme.1                   UAGAA.UG.CGAUAUGCAGUGU.....GAAUUG..CAG.AA.........
+T.pyriformis.1                     .GAAA.UG.CGAUACGUAAUGC.....GAAUUG..CAG.AA.........
+T.thermophila.1                    .GAAA.UG.CGAUACGCAAUGC.....GAAUUG..CAG.AA.........
+E.aediculatus.1                    .AAAG.UG.CGAUAAGCAAUGC.....GAAUUG..CAG..A.........
+P.micans.1                         .GAAA.UG.UGAUAAGCAAUGU.....GAAUUG..CAG.AAUU.......
+D.discoideum.1                     .AAAC.UG.CGAUAAUUCACUU.....GAAUUG..CAG.CCU........
+D.iridis.1                         .GAAA.CG.CGAUAACGCUUGU.....GAUUCG..CA..CUCU.......
+P.polycephalum.1                   .GAAA.CG.CGAUAACUUUUGU.....GACUCG..CA..CUCU.......
+G.muris.1                          .UGAC.GA.CGAUACUCGAUGU....GG...UC..CAA.GC.........
+G.ardeae.1                         .GGAC.AG.CGAGAUGCGGUGC..............AG.CCCG.......
+E.gracilis.1                       .AGCCUUG.CGAUACGUUCGGU.....GAUACG..CAG.AGU........
+C.fasciculata.1                    .AAAG.UG.CGAUAAGUGGUAU.....CAAUUG..CAG.AAU........
+T.brucei.1                         .AAAG.UG.CGAUAAGUGGUAU.....CAAUUG..CAG.AAU........
+T.cruzi.1                          .AAAG.UG.CGAUAAGUGGUAU.....CAAUUG..CAG.AAU........
+B.emersonii.1                      .GAAA.UG.CGAUACGUAAUGU.....GAAUUG..CAG..A.........
+Verticillium_albo-at.1             .GAAA.CG.CGAUAUGUAGUGU.....GAAUUG..CAG.AAUU.......
+B.spartinae.1                      .GAAA.UG.CGAUAAGUAAUGU.....GAAUUG..CAG.AAUU.......
+E.gossypii.1                       .GAAU.UG.CGAUAAGUAUUGU.....GAAUUG..CAG.AUUU.......
+N.castellii.1                      .GAAA.UG.CGAUACGUAAUGU.....GAAUUG..CAG.AAUU.......
+S.transvaalensis.1                 .GAAA.UG.CGAUACGUAAUGU.....GAAUUG..CAG.AAUU.......
+S.fibuligera.1                     .GAAU.UG.CGAUAAGUAAUGU.....GAAUUG..CAG.AUUU.......
+C.albicans.1                       .GAAA.UGCCGAUACGUAAUAU.....GAAUUG..CAG.AUAU.......
+P.carinii.1                        .AAAA.UG.CGAUAAGUAGUGU.....GAAUUG..CAG.AAUU.......
+S.japonicus.1                      .GAAA.UG.CGAUACGUAAUGU.....GAAUUG..CAG.AAUU.......
+T.saponaceum.1                     .GAAA.UG.CGAUAAGUAAUGU.....GAAUUG..CAG.AAUU.......
+T.wingfieldii.1                    .GAAA.UG.CGAUAAGUAAUGU.....GAAUUG..CAG.AAUU.......
+E.aulicae.1                        .AGAA.UG.CGAUACAUAAUGU.....GAAUUG..CA..AAUC.......
+R.miehei.1                         .AAAU.UG.CGAAAAGUAAUGC.....GAUCUG..CA..ACCU.......
+D.melanogaster.1                   .AAAC.UG.UGCGUCAUCGUGU.....GAACUG..CAG.GAC........
+C.tentans.1                        .AAAC.UG.CGCGUCGCCAUGU.....GAACUG..CAG.GAC........
+A.albimanus.1                      .UAAA.UG.CGCGUCAGAAUGU.....GAACUG..CAG.GAC........
+X.borealis.1                       .UAGC.UG.CGAGAAUUAGUGU.....GAAUUG..CAG.GAC........
+H.sapiens.1                        .UAGC.UG.CGAGAAUUAAUGU.....GAAUUG..CAG.GAC........
+H.momus.1                          .UAAG.UG.CGAGAAGUGGUGU.....GAAUUG..CAG.AAC........
+S.plicata.1                        .CAAG.UG.CGAGAAGUAAUGU.....GAAUUG..CAG.AAC........
+T.democratica.1                    .UAGC.UC.CGAGAAGUAAUGU.....GAAUUG..CAG.GAC........
+C.elegans.1                        .UUGC.UG.CGUUACUUACCAC.....GAAUUG..CAG..AC........
+B.natans.1                         .AGAA.AG.CGACAUGCGAUGAUACGCGCAUAGACCAG.GAUUCCGCGGA
+G.cervicornis.1                    .AAAC.UG.CGAAACGUAAUGC.....GAAUUG..CAG.AAC........
+P.palmata.1                        .AAAA.UG.CGAUACGUAGUGU.....GAAUUG..CAG.AAC........
+F.hygrometrica.1                   .GAAA.UG.CGAUACGUAGUGU.....GAAUUG..CAG.AAUU.......
+M.polymorpha.1                     .GAAA.UG.CGAUAUCUAGUGU.....GAAUUG..CAG.AAUU.......
+O.sativa.1                         .GAAA.UG.CGAUACCUGGUGU.....GAAUUG..CAG.AAUC.......
+H.lupulus.1                        .GAAA.UG.CGAUACUUGGUGU.....GAAUUG..CAG.AAUC.......
+Fragaria_x_ananassa.1              .GAAA.UG.CGAUACUUGGUGU.....GAAUUG..CAG.AAUC.......
+B.napus.1                          .GAAA.UG.CGAUACUUGGUGU.....GAAUUG..CAG.AAUC.......
+S.alba.1                           .GAAA.UG.CGAUACUUGGUGU.....GAAUUG..CAA.GAUC.......
+S.ramosum.1                        .GAAA.UG.CGAUACUUGGUGU.....GAAUUG..CAG.AAUC.......
+S.pseudocostatum.1                 .GAAA.UG.CGAUACGUAAUGC.....GAAUUG..CAG.AACU.......
+N.salina.1                         .GAAA.UG.CGAUACGUAAUGC.....GAAUUG..CAG.AAUU.......
+H.catenoides.1                     .GAAA.UG.CGAUACGUAAUGC.....GAAUUG..CAG.AAUU.......
+P.melonis.1                        .GAAC.UG.CGAUACGUAAUGC.....GAAUUG..CAG.GAUU.......
+S.lomentaria.1                     .GAAA.UG.CGAUACGUCUUGC.....GACUUG..CAG.AAUC.......
+T.aequale.1                        .GAAA.UG.CGAUACGUCUUGC.....GACUUG..CAG.AACC.......
+O.danica.1                         .GAAA.UG.CGAUACGUAAUGC.....GAAACG..CAU.CAG........
+#=GC SS_cons                       ......>>.>>.......<<<.........<<.......>>.........
+
+P.falciparum.1                     .CUGUGAAUCAUCAGAA........UGCUGAAUGUAAACUAU.ACCAUAU
+P.falciparum.2                     .CUGUGAAUCAUCAGAA........UGCUGAAUGUAAACUAC.ACCAAUU
+C.parvum.1                         .CUAUGAACAAUCAGAU........CUCUCAACGCAAAUAGC.AGUAAU.
+E.tenella.1                        .CAGUGAACCAUCAGAU........UUCUGAACGCACAUGGC.GCUGCUG
+T.gondii.1                         .CAGUGAAUCAUCAGAU........UUCUGAACGCAA..UGC.ACCUGGG
+T.gondii.2                         .CAGUGAAUCAUCAGAU........UUCUGAACGCAAAUGGC.ACCUUGG
+S.amphoriforme.1                   .CCACGAAUCAUCGGAU........CUUUGAACGCAACUGGC.GCUGAU.
+T.pyriformis.1                     .CCGCGAGUCAACAGAU........CUUUGAAAGCAAGUGGU.GGAGGUG
+T.thermophila.1                    .CCGCGAGUCAUCAGAU........CUUUGAACGCAAGUGGU.GGAGGUG
+E.aediculatus.1                    .CCGUGAGUCAUUAGAA........UUUCGAAAGCAAUCUGC.ACCUCCG
+P.micans.1                         .CCGUGAACCAAUAGGG........ACUUGAACGUAUACUGC.GCUUUCG
+D.discoideum.1                     .ACUGGGAUAGUUGAAA........UGUUGAACGCACAUGAU.GACAUCG
+D.iridis.1                         .CUGU.GAUCAACGUCA........CCUCGAACAUCGA.UGC.GGCCUUG
+P.polycephalum.1                   .CUGUGA.UCAACGUCU........CCUUGAACAUUAG.UGC.GGCCUUG
+G.muris.1                          .ACGUGA..CAUCGA.U........CUUCGAAUG................
+G.ardeae.1                         .GCACGAAGCACCGG.U........UUCCGAACGCUCG..GC.CUCC...
+E.gracilis.1                       .CUUGUGAUCUGGACAAAGGAACAGCUUCGAACGCAACUGGCCAGCAAGG
+C.fasciculata.1                    .CAUUCAAUUACCGAAU........CUUUGAACGCAAACGGC.GCAUGGG
+T.brucei.1                         .CAUUUCAUUGCCCAAU........CUUUGAACGCAAACGGC.GCAUGGG
+T.cruzi.1                          .CAUUCAAUUACCGAAU........CUUUGAACGCAAACGGC.GCAUGGG
+B.emersonii.1                      .ACGCGAGUCAUCGAAA........UUUUGAACGCACAUUGC.ACUUGGU
+Verticillium_albo-at.1             .CAGUGAAUCAUCGAAU........CUUUGAACGCACAUGGC.GCCUUCC
+B.spartinae.1                      .CAGUGAAUCAUCGAAU........CUUUGAACGCACAUUGC.GCCCGCC
+E.gossypii.1                       .UCGUGAAUCAUCGAAU........CUUUGAACGCACAUUGC.GUCCUCU
+N.castellii.1                      .CCGUGAAUCAUCGAAU........CUUUGAACGCACAUUGC.GCCCCUU
+S.transvaalensis.1                 .CCGUGAAUCAUCGAAU........CUUUGAACGCACAUUGC.GCCCCUU
+S.fibuligera.1                     .UCGUGAAUCAUCGAAU........CUUUGAACGCAUAUUGC.GCUCUAU
+C.albicans.1                       .CCGUGAAUCAUCGAAU........CUUUGAACGCACAUUGC.GCCCUCU
+P.carinii.1                        .CAGUGACUCAUCGAAU........UUUUGAACGCAUAUUGC.GCUCCUC
+S.japonicus.1                      .CCGUGAAUCAUCGAAU........CUUUGAACGCACAUUGC.GCCUUUG
+T.saponaceum.1                     .CAGUGAAUCAUCGAAU........CUUUGAACGCACCUUGC.GCUCCUU
+T.wingfieldii.1                    .CAGUGAAUCAUCGAGU........CUUUGAACGCAACUUGC.GCCCUUU
+E.aulicae.1                        .CUGUGAAUCAUUGAGU........UUUUGAACGCACAUUGC.ACCGACA
+R.miehei.1                         .UUGCGAAUCAUCGAAU........UCUCGAACGCAUCUUGC.ACCCUUU
+D.melanogaster.1                   .ACAUGAA.CAUCGACA........UUUUGAACGCAUAUCGC..A.....
+C.tentans.1                        .ACAU.GAUCAUUGACA........UGUUGAACGCAUAUUGC.GCCUUA.
+A.albimanus.1                      .ACAU.GAACACCGACA........CGUUGAACG.AUAUUGC.GCAUUGC
+X.borealis.1                       .ACAUUGAUCAUCGACA........CUUCGAACGCACCUUGC.GGCCCCG
+H.sapiens.1                        .ACAUUGAUCAUCGACA........CUUCGAACGCACU.UGC.GGCCCCG
+H.momus.1                          .ACAUUGAACGUCGAC.........CUUCGAACGCGAAUGGC.GGUCUCG
+S.plicata.1                        .ACAUUGAACGUCGACC........UUCUGAACGCGAAUUGC.GGUCUCG
+T.democratica.1                    .ACAUUGAGCAUCGAUA........UUCUGAACGCGUAUUGC.GGCCUCG
+C.elegans.1                        .GCUUAGAGUGGUGAAA........UUUCGAACGCAUA..GC.ACCAACU
+B.natans.1                         CUCGUGAAUCAUUGAAU........CUUCGAACGCAUCUGGC.GCUCAGC
+G.cervicornis.1                    .UCGUGAAUCAUCAAAU........UUUUGAACGCAAGUGGC.GCUCGCG
+P.palmata.1                        .AUGUGAAUCAUCGAAU........UUUUGAACGCAAGUGGC.GCUCGCG
+F.hygrometrica.1                   .CCGCGAAUCAUCGAGU........UUUUGAACGCAAGUUGC.GCCCGAG
+M.polymorpha.1                     .CCGCGAAUCAUCGAGU........UUUUGAACGCAUGUUGC.GCCCGAG
+O.sativa.1                         .CCGUGAACCAUCGAGU........CUUUGAACGCAAGUUGC.GCCCGAG
+H.lupulus.1                        .CCGUGAACCAUCGAGU........CUUUGAACGCAAGUUGC.GCCCGAA
+Fragaria_x_ananassa.1              .CCGUGAACCAUCGAGU........CUUUGAACGCAAGUUGC.GCCCGAA
+B.napus.1                          .CCGUGAACCAUCGAGU........CUUUGAACGCAAGUUGC.GCCCCAA
+S.alba.1                           .CCGUGAACCAUCGAGU........CUUUGAACGCAAGUUGC.GCCCCAA
+S.ramosum.1                        .CCGUGAACCAUCGAGU........CUUUGAACGCAAGUUGC.GCCCCAA
+S.pseudocostatum.1                 .UCGUGAAUCAUCAAAA........UUUUGAACGCACAUUGC.GCUACUG
+N.salina.1                         .CCGCGAGUCAUCAAAC........CUUUGAACGCACCUUGC.GCUUUCG
+H.catenoides.1                     .CAGUGAAUCAUCAAAA........CUUUGAACGCAAAUUGC.GCUUCCG
+P.melonis.1                        .CAGUGAGUCAUCGAAA........UUUUGAACGCAUAUUGC.ACUUCCG
+S.lomentaria.1                     .CAGUGAAUCAUCAAAA........CUUUGAACGCAUC.UGC.G.UUCCG
+T.aequale.1                        .CAGUGAAUCAUCAAAC........CUUCGAACGCACCUUGC.GCUCUCG
+O.danica.1                         .UAGUGAGUCAUCGAAA........CUUUGAACGCAACUUGC.ACUUCCC
+#=GC SS_cons                       .........>>>..............>>>>...<<<...>>>.<<<<<<<
+
+P.falciparum.1                     UUACCC....UUAUGGGCAAAUUAACG..UGGUAUUCC...UAC...AGA
+P.falciparum.2                     CC........UUCG.......GGGAAUAGUGGUACUCC...UAC...AGA
+C.parvum.1                         ..........UUAC...........AU..UACUAUAUU...UAU...AUC
+E.tenella.1                        GUA.......UUUU........GCCCG..CAGCACGUC...UGU...UUC
+T.gondii.1                         ..A.......UAUC..........UCC..UGGUACGUC...UGU...UUC
+T.gondii.2                         GGA.......UAUU........CUCCU..UGGUACGUC...UGU...UUC
+S.amphoriforme.1                   ..........AAAC............U..CAGCAUACU...UGC...UUC
+T.pyriformis.1                     ..........UAAA..........AAC..CUUCAUGUU...UGU...AUU
+T.thermophila.1                    ..........UAAA..........AAC..CUUCAUGUU...UGU...UUC
+E.aediculatus.1                    CC........UA..........GCGAG..AGGUAUGUC...UGC...UUC
+P.micans.1                         GGA.......UAUC........CCUGA..AGGCAUGCC...UGC...UUC
+D.discoideum.1                     GUCC......UUUCGG.....AUUAGG..UGUUAUACU...UGG...GUG
+D.iridis.1                         CC........UUCG.......GGCACU..GGCC.CCCC...UGG...UU.
+P.polycephalum.1                   CC........UUCG.......GGCACU..GGCCCC........C...UUG
+G.muris.1                          ..........GAUC...................A.........U...CGG
+G.ardeae.1                         ..........CCCG...............GGAG.................
+E.gracilis.1                       GG........UUCC.......CCCCCG..AGCUGCCUG...UGC...GCC
+C.fasciculata.1                    AGAAGCUC..UUUUGAGUC..AUCCCC..GUGCAUGCC...AUAUU.CUC
+T.brucei.1                         AGAAGCUC..UCUCGAGCC..AUCCCC..GUGCAUGCCACAUUU...CUC
+T.cruzi.1                          AGAAGC....UCCUCAGAGUCAUCCCC..GUGCAUGCC...AUAUUUCUC
+B.emersonii.1                      GG........CAUU........CCGCC..AAGUAUGUU...UGU...UUG
+Verticillium_albo-at.1             AG........UAUC........CUGGG..AGGCAUGCC...UGU...CCG
+B.spartinae.1                      GG........UAUU........CCGGC..GGGCAUGCC...UGU...UCG
+E.gossypii.1                       GG........UAUU........CCAGG..GGGCAUGCC...UGU...UUG
+N.castellii.1                      GG........UAUU........CCAGG..GGGCAUGCC...UGU...UUG
+S.transvaalensis.1                 GG........UAUU........CCAGG..GGGCAUGCC...UGU...UUG
+S.fibuligera.1                     AG........UAUU........CUAUA..GAGCAUGCC...UGU...UUG
+C.albicans.1                       GG........UAUU........CCGGA..GGGCAUGCC...UGU...UUG
+P.carinii.1                        AG........UAUU........CUGUG..GAGCAUGCC...UGU...UUG
+S.japonicus.1                      GG........UUAU.......UCCCAA..AGGCAUGCC...UGU...UUG
+T.saponaceum.1                     GG........UAUU........CCGAG..GAGCAUGCC...UGU...UUG
+T.wingfieldii.1                    GG........UAUU........CCGAA..GGGCAUGCC...UGU...UUG
+E.aulicae.1                        G.........UUUA.........CUGU..UGGUUUGUU...UGU...UUG
+R.miehei.1                         GG........UCAU........CCAAU..GGGUACGUC...UAG...UUC
+D.melanogaster.1                   ..........GUCC...................AUG...........CUG
+C.tentans.1                        ..........UACA...........UU..UGGU.UCUC...UUU...AUA
+A.albimanus.1                      AC........GACUC......AGUGCG..AUGUACACA...UUU...UUG
+X.borealis.1                       GG........UUCC.......UCCCGG..GGCUACGCC...UGU...CUG
+H.sapiens.1                        GG........UUCC.......UCCCGG..GGCUACGCC...UGU...CUG
+H.momus.1                          GG........UUAA........UCCGG..GACCACGUC...UGC...CUC
+S.plicata.1                        GG........UCAA.......UCCCGG..GACCGCGUC...UGC...CUC
+T.democratica.1                    GG........UAAU........CCUGG..GGCCACGUC...CGU...CUC
+C.elegans.1                        GG........GCCU........CCAGU..UGGUACGUC...UGG...UUC
+B.natans.1                         AGUGGAGCCGUAGC........AGGCU..GAGCAUGCCC..UGG...AGU
+G.cervicornis.1                    GG........UAAC........CCUGC..GAGCAUGUC...UGU...UUG
+P.palmata.1                        GG........CAAU........CCUGC..GAGCAUGUC...UGU...UUG
+F.hygrometrica.1                   G.........CUCG........UCCGA..GGGCAUUCC...UGC...CAG
+M.polymorpha.1                     GC........UU.U........GCCGA..GGGCAUGUC...UGC...CUG
+O.sativa.1                         GCC.......AUCC.......GGCCGA..GGGCACGCC...UGC...CUG
+H.lupulus.1                        ..........GCCA..........CUA..GGGCACGUC...UGC...CUG
+Fragaria_x_ananassa.1              GCCG......UUAC........GC.GA..GGGCACGUC...UGC...CUG
+B.napus.1                          GCC.......UUCU.......GGCCGA..GGGCACGUC...UGC...CUG
+S.alba.1                           GCC.......UUCU.......GGCCGA..GGGCACGUC...UGC...CUG
+S.ramosum.1                        GCC.......UUCU.......GGCCGA..GGGCACGUC...UGC...CUG
+S.pseudocostatum.1                 AG........UAAU........CUCAG..UAGCAUGCU...UAU...CUG
+N.salina.1                         GGA.......UAUG........CCCGU..UAGCAUGUU...UGU...UGG
+H.catenoides.1                     GG........UAUC........CCUGG..GAGCAUGCC...UGU...AUG
+P.melonis.1                        GG........UUAG.......UCCUGG..GAGUAUGCC...UGU...AUC
+S.lomentaria.1                     GGA.......UAUG........CCUGG..GAGCAUGCU...UGU...CGG
+T.aequale.1                        GG........CAUU........CCCGG..GAGCAUGCU...UGU...CGG
+O.danica.1                         ..........UUUG...........GG..GAGUAUAUC...UAU...UGG
+#=GC SS_cons                       <<....................>>>>>..>>>>.................
+
+P.falciparum.1                     A.....A
+P.falciparum.2                     A.....A
+C.parvum.1                         AGUGUCU
+E.tenella.1                        AGUGUCU
+T.gondii.1                         AGUGUCU
+T.gondii.2                         AGUGUCU
+S.amphoriforme.1                   AGUGUGC
+T.pyriformis.1                     AGUGUGG
+T.thermophila.1                    AGUGUGG
+E.aediculatus.1                    AGUGUUC
+P.micans.1                         AGUGUCU
+D.discoideum.1                     AGAGUGG
+D.iridis.1                         ..UGCCU
+P.polycephalum.1                   GGAUGCC
+G.muris.1                          GGUGGUG
+G.ardeae.1                         .......
+E.gracilis.1                       AGUGUUG
+C.fasciculata.1                    AGUGUCG
+T.brucei.1                         AGUGUCG
+T.cruzi.1                          AGUGUCG
+B.emersonii.1                      AGUGUCU
+Verticillium_albo-at.1             AGCGUCG
+B.spartinae.1                      AGCGUCA
+E.gossypii.1                       AGCGUCA
+N.castellii.1                      AG.....
+S.transvaalensis.1                 AGCGUCA
+S.fibuligera.1                     AGCGUCA
+C.albicans.1                       AGCGUCG
+P.carinii.1                        AGCGUCA
+S.japonicus.1                      AGUGUCA
+T.saponaceum.1                     AGUGUCA
+T.wingfieldii.1                    AGAGUCA
+E.aulicae.1                        AAUUGCU
+R.miehei.1                         AGUAUCU
+D.melanogaster.1                   .......
+C.tentans.1                        A.....U
+A.albimanus.1                      AGUGCCC
+X.borealis.1                       AGGGUCG
+H.sapiens.1                        AGCGUCG
+H.momus.1                          AGGGUUG
+S.plicata.1                        AGGGUCG
+T.democratica.1                    AGGGUCU
+C.elegans.1                        AGGGUUG
+B.natans.1                         AGUGACA
+G.cervicornis.1                    AGUGUCC
+P.palmata.1                        AGUGUCC
+F.hygrometrica.1                   AGCGUCA
+M.polymorpha.1                     AGCGUCA
+O.sativa.1                         GGCGUCA
+H.lupulus.1                        GGCGUCA
+Fragaria_x_ananassa.1              GGCGUCA
+B.napus.1                          GGUGUCA
+S.alba.1                           GGUGUCA
+S.ramosum.1                        GGUGUCA
+S.pseudocostatum.1                 AGUGUCU
+N.salina.1                         AGUGUCU
+H.catenoides.1                     AGUGUCU
+P.melonis.1                        AGUGUCC
+S.lomentaria.1                     AGUGUCU
+T.aequale.1                        AGUGUCC
+O.danica.1                         AGUGUCU
+#=GC SS_cons                       .......
+//

@@ -1,0 +1,39 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-433
+#=GF AC    RF00748
+#=GF DE    microRNA mir-433
+#=GF AU    Wilkinson A
+#=GF GA    55.0
+#=GF NC    0.0
+#=GF TC    89.2
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000177
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    4
+
+#=GS O.cuniculus.1 AC    AAGW01659642.1/414-506
+#=GS O.princeps.1  AC    AAYZ01700633.1/78-170
+#=GS B.taurus.1    AC    AAFC03050876.1/53945-54037
+#=GS M.lucifugus.1 AC    AAPE01623295.1/631-723
+
+O.cuniculus.1             CCCGGGAGAAGUACGGUGAGCCUGUCAUUAUUCAGAGAGGCUAGAUCCUC
+O.princeps.1              CCCGGGAGAAGUACGGUGAGCCUGUCAUUAUUCAGAGAGGCGAGAUCCUC
+B.taurus.1                CCGGGGAGAAGUACGGUGAGCCUGUCAUUGUUCAGAGAGGCUAGAUCCUC
+M.lucifugus.1             CCCGGGAGAAUUACGGUGAGCCUGUCAUUAUUCAGGGAGGCUAGAUCCUC
+#=GC SS_cons              ....<<<<<....<<<.<<<<<<<<<<<........<<<........>>>
+#=GC RF                   ccGGGGaGaAGUACGgUGaGCCuguCauUGUUcAGAGaGGcUAGAUcCuC
+
+O.cuniculus.1             GCUGCUGAGAAGGAUCAUGAUGGGCUCCUCGGUGUUCUCCAGG
+O.princeps.1              UGUGUUGAGCAGGAUCAUGAUGGGCUCCUCGGUGUUCUCCAGG
+B.taurus.1                CUUGUUGAGAAGGAUCAUGAUGGGCUCCUCGGUGUUCUCCAGG
+M.lucifugus.1             UGUAUUGAGAAGGAUCAUGAUGGGCUCCUCGGUGCUCUCCAGG
+#=GC SS_cons              ................>>>>>>>>>>>.>>>....>>>>>...
+#=GC RF                   cUUGUUGAGAAGGAUcauGaugGGCuCcuCGGUGUuCuCCAGG
+//

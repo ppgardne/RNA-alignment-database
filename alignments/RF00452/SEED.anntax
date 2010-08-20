@@ -1,0 +1,111 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-172
+#=GF AC    RF00452
+#=GF DE    mir-172 microRNA precursor family
+#=GF AU    Moxon SJ
+#=GF GA    30.0
+#=GF NC    27.6
+#=GF TC    38.0
+#=GF SE    Moxon SJ
+#=GF SS    Predicted; PFOLD; Moxon SJ
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  --fil-no-hmm  CM SEQDB
+#=GF DR    MIR; MI0000215
+#=GF DR    MIR; MI0001139
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF RN    [1]
+#=GF RM    15200956
+#=GF RT    Computational Identification of Plant MicroRNAs and Their Targets,
+#=GF RT    Including a Stress-Induced miRNA.
+#=GF RA    Jones-Rhoades MW, Bartel DP;
+#=GF RL    Mol Cell 2004;14:787-799.
+#=GF RN    [2]
+#=GF RM    12225663
+#=GF RT    CARPEL FACTORY, a Dicer homolog, and HEN1, a novel protein, act in
+#=GF RT    microRNA metabolism in Arabidopsis thaliana.
+#=GF RA    Park W, Li J, Song R, Messing J, Chen X;
+#=GF RL    Curr Biol 2002;12:1484-1495.
+#=GF RN    [3]
+#=GF RM    12226481
+#=GF RT    Short RNAs can identify new candidate transposable element families
+#=GF RT    in Arabidopsis.
+#=GF RA    Mette MF, van der Winden J, Matzke M, Matzke AJ;
+#=GF RL    Plant Physiol 2002;130:6-9.
+#=GF CC    mir-172 has been experimentally verified in Arabidopsis thaliana [2,3].
+#=GF CC    This family is thought to target mRNAs coding for APETALA2-like
+#=GF CC    transcription factors [1]. The mature sequence is excised from the 3' arm
+#=GF CC    of the hairpin.
+#=GF WK    http://en.wikipedia.org/wiki/mir-172_microRNA_precursor_family
+#=GF SQ    11
+
+#=GS O.sativa.1      AC    AP006162.2/95640-95748
+#=GS O.sativa.2      AC    AP005247.3/132203-132313
+#=GS O.sativa.3      AC    AP004048.3/57395-57506
+#=GS P.trichocarpa.1 AC    AY728438.1/4-122
+#=GS P.trichocarpa.2 AC    AY728437.1/1-132
+#=GS P.trichocarpa.3 AC    AY728434.1/1-161
+#=GS P.trichocarpa.4 AC    AY728436.1/1-132
+#=GS A.thaliana.1    AC    AC008153.5/42316-42438
+#=GS A.thaliana.2    AC    AC005851.3/82204-82319
+#=GS A.thaliana.3    AC    AL132975.1/70385-70497
+#=GS A.thaliana.4    AC    AY498859.1/608-716
+
+O.sativa.1                  GUGUUUGCGGG...CGUGGCAUCAUCAAGAUUCACA..............
+O.sativa.2                  CUUGUUGCGGG...UGCAGCGUCAUCAAGAUUCAC...............
+O.sativa.3                  GUGCUUGCAGG...UGCAGCACCAUCAAGAUUCACA..............
+P.trichocarpa.1             .........GA...UGCGGCAGCAUCAAGAUUCACAAACUUUAAGGCUUG
+P.trichocarpa.2             ......GCCGA...UGGAGCACCAUCAAGAUUCACAAACUUUAUUAGGGC
+P.trichocarpa.3             GCG......GA...UGCGGCAUCAUCAAGAUUCACAAGCUUUAAGGCUUG
+P.trichocarpa.4             .........GCCUAUGGAGCAUCAUCAAGAUUCACAAGCUUUAUUAGGGC
+A.thaliana.1                CUGUUCGCUGU...UGGAGCAUCAUCAAGAUUCACAAAUCA.........
+A.thaliana.2                UUGUUGGCUGC...UGUGGCAUCAUCAAGAUUCACA..............
+A.thaliana.3                UUGUUUGCUAU...UGCAACAUCUUCAAGAUUCAGA..............
+A.thaliana.4                UUGUUUGUAGG...CGCAGCACCAUUAAGAUUCACA..............
+#=GC SS_cons                .........<<...<<<<<<<<<<<<<<<<<<<.<<..............
+#=GC RF                     uUGuUuGCaGg...uGCaGCAuCAUCAAGAUUCACA..............
+
+O.sativa.1                  ..............................................UC.C
+O.sativa.2                  ...............................................G.U
+O.sativa.3                  ..............................................UCGA
+P.trichocarpa.1             AGU...........................................UG.G
+P.trichocarpa.2             UAAUAAGUGGUGAUG...............................AU.G
+P.trichocarpa.3             AGUGAGAGGGGUGGCAUACGGUCACCUCCUUUAAGGCUUGAGUGAGAG.G
+P.trichocarpa.4             UAGUGUGUGGUGAU................................GA.U
+A.thaliana.1                ..............................................UC.A
+A.thaliana.2                ..............................................UC.U
+A.thaliana.3                ..............................................AA.U
+A.thaliana.4                .................................................U
+#=GC SS_cons                ..................................................
+#=GC RF                     ..............................................Uc.u
+
+O.sativa.1                  AUGCAUAUAUCACAAGAC.GCAC.....AUA....UACAUC.CGAUUUGG
+O.sativa.2                  GUGCCGCACGGCACACG..UAUCGGUUUUCA....AGUGUAG.UCAUCGU
+O.sativa.3                  GUUCAUCCCUAAACGAGA.UCGAGGUUGGC......UGACU.AUAUGUGA
+P.trichocarpa.1             GGUGGUACACGGUCACC..UCCUUUACUCGA....AAGGUUCCUUAAUUU
+P.trichocarpa.2             GUGGCUUUUGGUGGUCC..CUUCGUUUCAAC....CCAAUAGCCAUUUGA
+P.trichocarpa.3             GGUGGCAUACGGUCACC..UCCUUUAGUCCA....AAGGGU.CCUUUUUU
+P.trichocarpa.4             GGUGGCUUUUGGUGGUC..CCUUUUUUUCAAU...CCAAUAGCCCUUUGA
+A.thaliana.1                AGUAUUCGUGUAAAUAA..ACCCAUUUAUGAUUAGAUUUUUGAUGUAUGU
+A.thaliana.2                GUUGAUGGACGGUGGUGAUUCACUCUCCACA....AAGUUCUCUAUGAAA
+A.thaliana.3                CAGAUUCUCUUAUGGGU..UUUCUUUUGAGCC...UUUAUU..UUUUGGU
+A.thaliana.4                GGAAAUUGAUAAAUACC...CUAAAUUAGG......GUUUUGAUAUGUAU
+#=GC SS_cons                ..................................................
+#=GC RF                     guuaaUauauaAaaaaa..ucucuuUuaagA....AauaUugaUauaugu
+
+O.sativa.1                  C...UGAGAAUCUUGAUGAUGCUGCAUCCGCAGACAA
+O.sativa.2                  G...CGUGAAUCUUGAUGAUGCUGCACCAGCAAAGAG
+O.sativa.3                  ....UGAGAAUCUUGAUGAUGCUGCAUCAGCAAACGC
+P.trichocarpa.1             CUGAUGGGAAUCUUGAUGAUGCUGCAUCGGC......
+P.trichocarpa.2             A..UUGGGAAUCUUGAUGAUGCUGCAGCGGC......
+P.trichocarpa.3             A...UGGGAAUCUUGAUGAUGCUGCAUCGGC......
+P.trichocarpa.4             A..UUGGGAAUCUUGAUGAUGCUGCAGCGGC......
+A.thaliana.1                A...UGAGAAUCUUGAUGAUGCUGCAGCUGCAAUCAG
+A.thaliana.2                A...UGAGAAUCUUGAUGAUGCUGCAUCGGCAAUCAA
+A.thaliana.3                U...UGAGAAUCUUGAUGAUGCUGCAGCGGCAAUUAA
+A.thaliana.4                A...UGAGAAUCUUGAUGAUGCUGCAUCAACAAUCGA
+#=GC SS_cons                ....>>.>>>>>>>>>>>>>>>>>>>>>.........
+#=GC RF                     a...UGAGAAUCUUGAUGaUGCuGCacCaGCAAacAa
+//

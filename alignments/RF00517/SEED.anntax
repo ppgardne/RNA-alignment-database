@@ -1,0 +1,245 @@
+# STOCKHOLM 1.0
+#=GF ID    serC
+#=GF AC    RF00517
+#=GF DE    serC leader
+#=GF AU    Barrick JE
+#=GF GA    31.0
+#=GF NC    29.2
+#=GF TC    34.5
+#=GF SE    Barrick JE
+#=GF SS    Predicted; Barrick JE
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    16086852
+#=GF RT    Evidence for a second class of S-adenosylmethionine riboswitches and
+#=GF RT    other regulatory RNA motifs in alpha-proteobacteria.
+#=GF RA    Corbino KA, Barrick JE, Lim J, Welz R, Tucker BJ, Puskarz I, Mandal
+#=GF RA    M, Rudnick ND, Breaker RR;
+#=GF RL    Genome Biol. 2005;6:R70.
+#=GF CC    This family is a putative regulatory RNA structure that is found
+#=GF CC    upstream of the serC-serA operon in some
+#=GF CC    alpha-proteobacteria. The final stem of the structure overlaps
+#=GF CC    the ribosome binding site of the serC reading frame.
+#=GF WK    http://en.wikipedia.org/wiki/serC_leader
+#=GF SQ    70
+
+#=GS Aurantimonas.1         AC    AAPJ01000002.1/467103-467154
+#=GS Fulvimarina_pelagi_H.1 AC    AATP01000001.1/657905-657956
+#=GS Bradyrhizobium_japon.1 AC    BA000040.2/8141356-8141408
+#=GS Bradyrhizobium.1       AC    CU234118.1/6173665-6173717
+#=GS Nitrobacter.1          AC    AAMY01000008.1/65493-65545
+#=GS Rhodopseudomonas_pal.1 AC    CP000463.1/4658943-4658994
+#=GS Rhodopseudomonas_pal.2 AC    BX572606.1/323780-323831
+#=GS Rhodopseudomonas_pal.3 AC    CP000250.1/1496443-1496494
+#=GS Rhodopseudomonas_pal.4 AC    CP000283.1/4347086-4347138
+#=GS Brucella_melitensis_.1 AC    AE008917.1/358098-358150
+#=GS Methylobacterium.1     AC    CP000943.1/7027669-7027720
+#=GS Mesorhizobium_loti_M.1 AC    BA000012.4/3114129-3114180
+#=GS Mesorhizobium.1        AC    CP000390.1/3433357-3433409
+#=GS Parvibaculum_lavamen.1 AC    CP000774.1/2318876-2318927
+#=GS Agrobacterium_tumefa.1 AC    AE007870.2/788211-788262
+#=GS Rhizobium_leguminosa.1 AC    AM236080.1/4187886-4187938
+#=GS Sinorhizobium_melilo.1 AC    AL591688.1/2938080-2938131
+#=GS Rhodobacterales_bact.1 AC    AAXZ01000001.1/499271-499322
+#=GS Jannaschia.1           AC    CP000264.1/260954-261005
+#=GS Labrenzia_aggregata_.1 AC    AAUW01000002.1/189460-189511
+#=GS Loktanella_vestfolde.1 AC    AAMS01000001.1/302336-302387
+#=GS Oceanicola_batsensis.1 AC    AAMO01000011.1/44846-44897
+#=GS Oceanicola_granulosu.1 AC    AAOT01000027.1/33584-33635
+#=GS Rhodobacter_sphaeroi.1 AC    CP000143.1/3121070-3121121
+#=GS Roseobacter.1          AC    ABCR01000001.1/310139-310190
+#=GS Roseobacter.2          AC    AANB01000011.1/126029-126080
+#=GS Roseobacter_denitrif.1 AC    CP000362.1/192256-192307
+#=GS Roseobacter.3          AC    AAYC01000004.1/254384-254435
+#=GS Roseovarius.1          AC    AAMV01000009.1/49869-49920
+#=GS R.nubinhibens.1        AC    AALY01000003.1/267386-267437
+#=GS Roseovarius.2          AC    AATQ01000012.1/64952-65003
+#=GS Ruegeria.1             AC    CP000377.1/3187372-3187423
+#=GS Sagittula_stellata_E.1 AC    AAYA01000021.1/26261-26312
+#=GS metag._sequence.1      AC    AAFZ01020518.1/744-795
+#=GS metag._sequence.2      AC    AAFX01106401.1/35-87
+#=GS metag._sequence.3      AC    AAFZ01014317.1/392-444
+#=GS metag._sequence.4      AC    AAFZ01000432.1/43-94
+#=GS metag._sequence.5      AC    AAGA01005882.1/629-680
+#=GS marine_metag.1         AC    AACY021195471.1/681-732
+#=GS marine_metag.2         AC    AACY023803751.1/1051-1102
+#=GS marine_metag.3         AC    AACY020046202.1/1708-1759
+#=GS marine_metag.4         AC    AACY022458901.1/374-425
+#=GS marine_metag.5         AC    AACY020528169.1/50-101
+#=GS marine_metag.6         AC    AACY023805332.1/305-358
+#=GS marine_metag.7         AC    AACY020036858.1/1181-1232
+#=GS marine_metag.8         AC    AACY023239986.1/99-150
+#=GS marine_metag.9         AC    AACY022909959.1/162-213
+#=GS marine_metag.10        AC    AACY024111847.1/1078-1129
+#=GS marine_metag.11        AC    AACY021164314.1/775-826
+#=GS marine_metag.12        AC    AACY021335122.1/749-800
+#=GS marine_metag.13        AC    AACY022833952.1/752-803
+#=GS marine_metag.14        AC    AACY022945176.1/11-62
+#=GS marine_metag.15        AC    AACY020421993.1/1512-1563
+#=GS marine_metag.16        AC    AACY020461845.1/7739-7790
+#=GS marine_metag.17        AC    AACY020272957.1/114-165
+#=GS marine_metag.18        AC    AACY020303882.1/1109-1160
+#=GS marine_metag.19        AC    AACY022912780.1/892-942
+#=GS marine_metag.20        AC    AACY023232832.1/240-291
+#=GS marine_metag.21        AC    AACY023242384.1/814-866
+#=GS marine_metag.22        AC    AACY023835866.1/1375-1426
+#=GS marine_metag.23        AC    AACY020298717.1/1738-1789
+#=GS marine_metag.24        AC    AACY021062570.1/367-418
+#=GS marine_metag.25        AC    AACY022227135.1/192-243
+#=GS marine_metag.26        AC    AACY020312862.1/2647-2698
+#=GS marine_metag.27        AC    ABEF01032305.1/845-896
+#=GS marine_metag.28        AC    AACY020487674.1/203-254
+#=GS marine_metag.29        AC    AACY021366942.1/533-584
+#=GS marine_metag.30        AC    AACY022082869.1/122-173
+#=GS marine_metag.31        AC    ABEF01013353.1/245-296
+#=GS marine_metag.32        AC    AACY020146350.1/2129-2180
+
+Aurantimonas.1                     UCGCGGGACACGCCUC.CCCAACGAG.GCGCUU.CUAUCUGUGAGGGUAG
+Fulvimarina_pelagi_H.1             CAGUGGGACACGCCUC.CCCAACGAG.GCGCGC.CUAUCUGAAAGGGUAG
+Bradyrhizobium_japon.1             CGGCGGGACACCUCCC.CCCAACGGG.AGGCUUACUAUCUGGAAGGGUAG
+Bradyrhizobium.1                   CGGCGGGACACCUCCC.CCCAACGGG.AGGCUUACUAUCUGGAAGGAUAG
+Nitrobacter.1                      CGGCGGGACACCUCCC.CCCAACGGG.AGGCUUGCUAUCUGGAAGGAUAG
+Rhodopseudomonas_pal.1             CGGCGGGAAACCUCUC.CCCACCGAG.AGGCUG.CUAUCUGGAAGGAUAG
+Rhodopseudomonas_pal.2             CAGCGGGAAACCUCUC.CCCACCGAG.AGGCAG.CUAUCUGGAAGGAUAG
+Rhodopseudomonas_pal.3             CGGCGGGAAACCUCUC.CCCACCGAG.AGGCAG.CUAUCUGGAAGGAUAG
+Rhodopseudomonas_pal.4             CGGCGGGACACCUCCC.CCCAACGGG.AGGCUAGCUAUCUGGAAGGAUAG
+Brucella_melitensis_.1             AAGUGGGCCACGUCUC.CCCAACGAG.ACGCGUGCUAUCUGAGAGGAUAG
+Methylobacterium.1                 CGGCGGGACACCUCUC.CCCACCGAG.AGGCGC.CCAUCUGGAAGGAUGG
+Mesorhizobium_loti_M.1             CCGUGGGCCACCCCUC.CCCAACGAG.GGGCCA.CUAUCUGGAAGGAUAG
+Mesorhizobium.1                    CAGCGGGCUACCCCUC.CCCACCGAG.GGGCGAGCUAUCUGGAAGGAUAG
+Parvibaculum_lavamen.1             CGGCGGGACACCCCUC.CCCACCGAG.GGGCAG.CUAUCUGAGAGGAUAG
+Agrobacterium_tumefa.1             CGGCAGGACACCUCUC.CCUAACGAG.AGGCGC.CUAUCUGAAAGGGUAG
+Rhizobium_leguminosa.1             CGGCGGGACACCCUUC.CCCAACGAA.GGGCUUUCUAUCUGAGAGGAUAG
+Sinorhizobium_melilo.1             CGGCGGGACACCCCUC.CCCAACGAG.GGGCUU.CUAUCUGAGAGGAUAG
+Rhodobacterales_bact.1             CGGUGGGACACCCUUC.CCCAACGAA.GGGCAU.AUAUCUGUGAGGAUAA
+Jannaschia.1                       CGGUGGGACACCCUUC.CCCAACGAA.GGGCGC.AUAUCUGUGAGGAUAC
+Labrenzia_aggregata_.1             AGGUGGGCCACCUCUC.CCCAACGAG.AGGCAA.CUAUCUGCGAGGGUAG
+Loktanella_vestfolde.1             CGGUGGGACACCCUUC.CCCAACGAA.GGGCGA.UUAUCUGAGAGGAUAC
+Oceanicola_batsensis.1             CGGCGGGACACCCCUC.CCCAACGAG.GGGCGC.UUGACUGGAAGGUUAC
+Oceanicola_granulosu.1             CGGCGGGACACCUCUC.CCCAACGAG.AGGCGC.AUAUCUGUGAGGGUAU
+Rhodobacter_sphaeroi.1             CAGCGGGACACCUCUC.CCCAACGAG.AGGCAU.CUAUCUGGAAGGAUAC
+Roseobacter.1                      CGGCGGGACACCCCUC.CCCAACGAG.GGGCGC.UUAUCUGGAAGGAUAG
+Roseobacter.2                      CGGCGGGACACCCUUC.CCCAACGAA.GGGCAG.AUAUCUGUAAGGAUAG
+Roseobacter_denitrif.1             AAGUGGGACACCCUUC.CCCAACGAA.GGGCGA.UUAUCUGGAAGGAUAG
+Roseobacter.3                      GCGUGGGACACCUCUC.CCCAACGAG.AGGCAU.AUAUCUGUAAGGAUAG
+Roseovarius.1                      CAGUGGGACACCCCUC.CCCAACGAG.GGGCGC.UUAUCUGAGAGGGUAG
+R.nubinhibens.1                    CCGCGGGACACCCUUC.CCCAACGAA.GGGCGC.UUAUCUGGAAGGAUAG
+Roseovarius.2                      CGGCGGGACACCCCUC.CCCAACGAG.GGGCAU.CUAUCUGGAAGGUUAG
+Ruegeria.1                         CGGUGGGACACCCCUC.CCCAACGAG.GGGCGC.UUAUCUGGAAGGGUAG
+Sagittula_stellata_E.1             CGGCGGGACACCUCUC.CCCAACGAG.AGGCAU.CUAUCUGGAAGGUUAG
+metag._sequence.1                  GAGGUGGACACCUCUC.CCCAACGAG.AGGCUA.CUAUCUGAAAGGGUAG
+metag._sequence.2                  CGGCGGGACACCUCUC.CCCAACGAG.AGGCUUUCUAUCUGGAAGGAUAG
+metag._sequence.3                  CGGUGGGCCACAUCUC.CCCAACGAG.AUGCGACCUUUCUGUGAGGAAAG
+metag._sequence.4                  CGGCGGGACACCCUUC.CCCAACGAA.GGGCAU.AUAUCUGAGAGGAUAC
+metag._sequence.5                  CAGUGGGACACCCUUC.CCCAACGAA.GGGCAU.UUAUCUGUAAGGAUAG
+marine_metag.1                     AGUUGGGACACCUCUC.CCCAACGAG.AGGCGA.AUAUCUGGAAGGGUAA
+marine_metag.2                     CGGUGGGACACCCCUC.CCCAACGAG.GGGCGA.UUAUCUGGAAGGAUAC
+marine_metag.3                     CAGUGGGACACCCCUC.CCCAACGAG.GGGCGA.UUAUCUGAAAGGGUAG
+marine_metag.4                     GAGCGGGACACCCCUC.CCCAACGAG.GGGCGC.UUAUCUGGAAGGGUAC
+marine_metag.5                     CGGCGGGACACCCCUC.CCCAACGAG.GGGAUA.UGUUCAUCAGAGAAUU
+marine_metag.6                     AGGUGGGCCACGCCUC.CCCACCGAGUGCGCGACCUAUCUGGAAGGAUAG
+marine_metag.7                     UUCUGGGACACCCUUC.CCCACCGAA.GGGCAA.CUAUCUGAGAGGGUAG
+marine_metag.8                     CCGUGGGACAUCCUUC.CCCAACGAA.GGGCGC.AUAUCUGAGAGGAUAG
+marine_metag.9                     CCGUGGGACACCCCUC.CCCAACGAG.GGGCGC.AUAUCUGAAAGGGUAU
+marine_metag.10                    UGGUGGGACACCCCUC.CCCAACGAG.GGGCAU.AUAUCUGUAAGGGUAA
+marine_metag.11                    ACGUGGGCCACCUCUC.CCCAACGAG.AGGCGA.AUAUCUGAAAGGGUAA
+marine_metag.12                    CCAUGGGACACCUCUC.CCCAACGAG.AGGCAA.UUAUCUGUAAGGGUAA
+marine_metag.13                    CAGUGGGUCACGCCUC.CCCAACGAG.GCGCAA.CUAUCUGAGAGGGUAG
+marine_metag.14                    AGUUGGGACACCUCUC.CCCAACGAG.AGGCAA.UUAUCUGGAAGGGUAA
+marine_metag.15                    ACGUGGGACACCUCUC.CCCAACGAG.AGGCAA.UUAUCUGGAAGGGUAA
+marine_metag.16                    AGAUGGGACACCCUUC.CCCAACGAA.GGGCGC.AUAUCUGAGAGGAUAG
+marine_metag.17                    CCUUGGGACACUCCUC.CCCAACGAG.GAGCAA.CUAUCUGUAAGGAUAG
+marine_metag.18                    CCGUGGGACACCUCUC.CCCAACGAG.AGGCGC.UUAUCUGGAAGGGUAG
+marine_metag.19                    UAGUGGGCCACGCCUC.CCCACCGAGUGCGCGACCUAUCUGGAAGGAUAG
+marine_metag.20                    AGGUGGGACACCCCUC.CCCAACGAG.GGGCAG.AUAUCUGUAAGGAUAC
+marine_metag.21                    UGGUGGGACACCCCUCCCCCAACGAG.GGGCAG.AUAUCUGUAAGGAUAA
+marine_metag.22                    CGGUGGGACACCCCUC.CCCAACGAG.GGGCGA.AUAUCUGGAAGGAUAC
+marine_metag.23                    CGGCGGGACACCCCUC.CCCAACGAG.GGGCGC.AUAUCUGAAAGGGUAU
+marine_metag.24                    UGAUGGGACACCCCUC.CCCAACGAG.GGGCAG.AUAUCUGUAAGGAUAA
+marine_metag.25                    UCGUGGGACACCCCUC.CCCAACGAG.GGGCGC.AUAUCUGAAAGGGUAG
+marine_metag.26                    AAGUGGGUUACGUCCC.CCCACCGGG.ACGCAC.CUAUCUGGAAGGAUAG
+marine_metag.27                    ACGUGGGACACCCUUC.CCCAACGAA.GGGCGC.UUAUCUGAAAGGGUAG
+marine_metag.28                    ACGUGGGACACCUCUC.CCCAACGAG.AGGCGA.AUAUCUGGAAGGGUAA
+marine_metag.29                    CGGUGGGCUACCUCUC.CCCAACGAG.AGGCAU.UUAUCUGGAAGGAUAG
+marine_metag.30                    AAGUGGGUUACCCCUC.CCCAACGGG.GGGCAA.CUAUCUGGAAGGAUAG
+marine_metag.31                    CCGUGGGACACCCCUC.CCCAACGAG.GGGCGG.CUAUCUGAGAGGGUAG
+marine_metag.32                    AAAUGGGACAGCUCUC.CCCAACGAG.AGUCAA.CUAUCUGGAAGGGUAG
+#=GC SS_cons                       ..........<<<<<<.......>>>.>>>....<<<<<<....>>>>>>
+#=GC RF                            caGuGGGAcACCcCuC.CCCAACGaG.gGGCaa.cuAuCuGaAAgGaUag
+
+Aurantimonas.1                     CUUAG
+Fulvimarina_pelagi_H.1             UCAAG
+Bradyrhizobium_japon.1             AAUAU
+Bradyrhizobium.1                   ACGAU
+Nitrobacter.1                      AUUAU
+Rhodopseudomonas_pal.1             AAUAU
+Rhodopseudomonas_pal.2             ACUAU
+Rhodopseudomonas_pal.3             AUGAU
+Rhodopseudomonas_pal.4             AACAU
+Brucella_melitensis_.1             AAACA
+Methylobacterium.1                 ACACC
+Mesorhizobium_loti_M.1             ACCAC
+Mesorhizobium.1                    GAACA
+Parvibaculum_lavamen.1             GUUGC
+Agrobacterium_tumefa.1             UCAAA
+Rhizobium_leguminosa.1             CAUCA
+Sinorhizobium_melilo.1             CAUAU
+Rhodobacterales_bact.1             CAUUU
+Jannaschia.1                       CAUUA
+Labrenzia_aggregata_.1             ACAGA
+Loktanella_vestfolde.1             CAGAA
+Oceanicola_batsensis.1             CAUCA
+Oceanicola_granulosu.1             CAGAC
+Rhodobacter_sphaeroi.1             CAUGU
+Roseobacter.1                      CAUCA
+Roseobacter.2                      CAUCA
+Roseobacter_denitrif.1             CAUCA
+Roseobacter.3                      CAUUG
+Roseovarius.1                      CUAAA
+R.nubinhibens.1                    CAUCA
+Roseovarius.2                      GCAGA
+Ruegeria.1                         CAUUU
+Sagittula_stellata_E.1             CAGAU
+metag._sequence.1                  ACAAU
+metag._sequence.2                  GCCGC
+metag._sequence.3                  GAGAC
+metag._sequence.4                  CAGCA
+metag._sequence.5                  CAUCA
+marine_metag.1                     CAGAC
+marine_metag.2                     CACCA
+marine_metag.3                     CAUUA
+marine_metag.4                     UGUCG
+marine_metag.5                     CCCUU
+marine_metag.6                     GAGGA
+marine_metag.7                     CGAUA
+marine_metag.8                     CAUUG
+marine_metag.9                     CAGUG
+marine_metag.10                    AAUAA
+marine_metag.11                    CAGUU
+marine_metag.12                    CAGAC
+marine_metag.13                    AGACA
+marine_metag.14                    AAGAC
+marine_metag.15                    CAGAC
+marine_metag.16                    CAUUG
+marine_metag.17                    AAGAC
+marine_metag.18                    CAUCA
+marine_metag.19                    ...GA
+marine_metag.20                    CAUAA
+marine_metag.21                    CAUAA
+marine_metag.22                    CAUGU
+marine_metag.23                    CAGAC
+marine_metag.24                    CAUUA
+marine_metag.25                    CAUUG
+marine_metag.26                    GAGGA
+marine_metag.27                    CUACA
+marine_metag.28                    CAGAG
+marine_metag.29                    GAUAA
+marine_metag.30                    AGUAA
+marine_metag.31                    AGCCA
+marine_metag.32                    AGAAC
+#=GC SS_cons                       .....
+#=GC RF                            aaaaa
+//

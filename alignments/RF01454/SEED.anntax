@@ -1,0 +1,46 @@
+# STOCKHOLM 1.0
+#=GF ID    RCNMV_5UTR
+#=GF AC    RF01454
+#=GF DE    5'UTR enhancer element
+#=GF AU    Osuch I
+#=GF GA    75.0
+#=GF NC    22.9
+#=GF TC    130.5
+#=GF SE    INFERNAL
+#=GF SS    Published; PMID:19577782
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    19577782
+#=GF RT    Host-dependent roles of the viral 5' untranslated region (UTR) in RNA
+#=GF RT    stabilization and cap-independent translational enhancement mediated
+#=GF RT    by the 3' UTR of Red clover necrotic mosaic virus RNA1.
+#=GF RA    Sarawaneeyaruk S, Iwakawa HO, Mizumoto H, Murakami H, Kaido M, Mise
+#=GF RA    K, Okuno T;
+#=GF WK    http://en.wikipedia.org/wiki/RCNMV_translation_enhancer_elements
+#=GF SQ    3
+
+#=GS Sweet_clover_necroti.1 AC    L07884.1/1-120
+#=GS Red_clover_necrotic_.1 AC    AB034916.1/2-123
+#=GS Red_clover_necrotic_.2 AC    J04357.1/1-123
+
+Sweet_clover_necroti.1             U..AAACGUUUCACCGGUUUGUAAAUUGGAACUUCGUAGUUCGCCAGACG
+Red_clover_necrotic_.1             AACAAACGUUUUACCGGUUUGUAAAUUGGAAUUCUCGAAUUCGCCAGUCG
+Red_clover_necrotic_.2             GACAAACGUUUUACCGGUUUGUAAAUAGGAGCACACAAGCUCGCUAGUCG
+#=GC SS_cons                       .<<<<<<.........>>>>>>......<<<<......>>>>.<<<<...
+#=GC RF                            GaCaaaCGUUUUAccGGuuuGuAAAUAGGaGCAcAcAAGCuCGCuaGUcG
+
+Sweet_clover_necroti.1             CCUUCUUCGUAUCAAGGAACUGGAAAUUGUACGGUGAGUCUGUCAUUUU.
+Red_clover_necrotic_.1             CCUUCUUCGUAUCAAGGAUCUGGAAUUUGAACGGUAUCUUUAUCAUUUUA
+Red_clover_necrotic_.2             CCCCCUUCGUAUCGGGGAUCUAGAGAUUAAACGGUAUACCUGUCAUUUUA
+#=GC SS_cons                       <<<<.........>>>>..>>>>.........<<<<<.............
+#=GC RF                            CCCCcUUcGUAUcGGGGAUCuaGAGAUUAAAcGGuauAccUGUcAUUUUA
+
+Sweet_clover_necroti.1             AUUUUCUACUUUUCGUACCAGUC
+Red_clover_necrotic_.1             A.UUUCUACUUUUCGUACCAGUC
+Red_clover_necrotic_.2             AAUUUCUACUUUUCGUACCAGUC
+#=GC SS_cons                       ..............>>>>>....
+#=GC RF                            AAUUUcUAcUUUUcguaCCAGUc
+//

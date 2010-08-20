@@ -1,0 +1,87 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-10
+#=GF AC    RF00104
+#=GF DE    mir-10 microRNA precursor family
+#=GF AU    Griffiths-Jones SR, Daub J
+#=GF GA    25.0
+#=GF NC    0.0
+#=GF TC    25.4
+#=GF SE    Griffiths-Jones SR
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000033
+#=GF DR    MIPF; MIPF0000025
+#=GF DR    MIPF; MIPF0000268
+#=GF DR    MIPF; MIPF0000271
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF RN    [1]
+#=GF RM    11679672
+#=GF RT    An extensive class of small RNAs in Caenorhabditis elegans.
+#=GF RA    Lee RC, Ambros V;
+#=GF RL    Science 2001;294:862-864.
+#=GF RN    [2]
+#=GF RM    11779458
+#=GF RT    microRNAs: tiny regulators with great potential.
+#=GF RA    Ambros V;
+#=GF RL    Cell 2001;107:823-826.
+#=GF CC    This family represents the microRNA (miRNA) mir-10 family, which
+#=GF CC    contains mir-10, mir-51, mir-57, mir-99 and mir-100.  mir-10,
+#=GF CC    mir-99 and mir-100 have now been predicted or experimentally
+#=GF CC    confirmed in a wide range of species (MIPF:MIPF0000033,
+#=GF CC    MIPF:MIPF0000025). mir-51 and mir-57 have currently only been
+#=GF CC    identified in the nematode Caenorhabditis elegans
+#=GF CC    (MIPF:MIPF0000268, MIPF:MIPF0000271). miRNAs are transcribed as
+#=GF CC    ~70nt precursors (modelled here) and subsequently processed by
+#=GF CC    the Dicer enzyme to give a ~22nt product.  In this case the
+#=GF CC    mature sequence comes from the 5' arm of the precursor.  The
+#=GF CC    extents of the hairpin precursors are not generally known and are
+#=GF CC    estimated based on hairpin prediction.  The products are thought
+#=GF CC    to have regulatory roles through complementarity to mRNA.  The
+#=GF CC    involvement of Dicer in miRNA processing suggests a relationship
+#=GF CC    with the phenomenon of RNA interference.  miRNAs are numbered
+#=GF CC    based on the sequence of the mature RNA.
+#=GF WK    http://en.wikipedia.org/wiki/mir-10_microRNA_precursor_family
+#=GF SQ    11
+
+#=GS D.melanogaster.1 AC    AC095014.1/143452-143527
+#=GS T.rubripes.1     AC    U92575.1/1530-1608
+#=GS D.rerio.1        AC    AL645782.2/32556-32631
+#=GS D.rerio.2        AC    AL645798.2/23515-23586
+#=GS M.musculus.1     AC    U77364.1/4186-4260
+#=GS M.musculus.2     AC    AC122451.3/49273-49344
+#=GS H.sapiens.1      AC    AF480538.1/6-75
+#=GS H.sapiens.2      AC    AC018755.3/119760-119832
+#=GS H.sapiens.3      AC    AF480571.1/6-77
+#=GS C.elegans.1      AC    Z68760.3/2832-2906
+#=GS C.elegans.2      AC    Z36753.1/18615-18689
+
+D.melanogaster.1             CCACGUCUACCCUGUAGAUCCGAAUUU.GUUUUAUACUA...GCUUUAAG
+T.rubripes.1                 CUAUAUCUACCCUGUAGAUCCGGAUUU.GUGUAAAAAUCAUUAAAGCAAU
+D.rerio.1                    CUAUAUAUACCCUGUAGAUCCGGAUUU.GUGUAAACAGA...CGCACAGU
+D.rerio.2                    CUAUAUAUACCCUGUAGAUCCGAAUUU.GUGUGAAUA.......UACAGU
+M.musculus.1                 CUAUAUAUACCCUGUAGAACCGAAUUU.GUGUGGUACCC....ACAUAGU
+M.musculus.2                 UGACAUAAACCC.GUAGAUCCGAUCUU.GUGGUGAAGUG......GACCG
+H.sapiens.1                  UGCCACAAACCC.GUAGAUCCGAACUU.GUGGUAUUA........GUCCG
+H.sapiens.2                  UGGCACCCACCC.GUAGAACCGACCUU.GCGGGGCCUUC.....GCCGCA
+H.sapiens.3                  UGGCAUAAACCC.GUAGAUCCGAUCUU.GUGGUGAAGUG......GACCG
+C.elegans.1                  GUCCGUCUACCC.GUAGCUCCUAUCCAUGUUACUGGUC....AAAAAGUG
+C.elegans.2                  GCUCGUCUACCCUGUAGAUCGAGCUGU.GUGUUUGAAAC....AAUCAUA
+#=GC SS_cons                 .<<<<<<..<<<...<<<<<<<<<<<<.<<<...................
+
+D.melanogaster.1             GACAAAUUCGGUUCUAGAGAGGUUUGUGUG
+T.rubripes.1                 CACAAAUUCGCUUCUAGGGGAGUAUAUAGU
+D.rerio.1                    CACAAAUUCGUAUCUAGGGGAGUAUGUAGU
+D.rerio.2                    CGCAAAUUCGUGUCUUGGGGAAUAUGUAGU
+M.musculus.1                 CACAGAUUCGAUUCUAGGGGAAUAUAUGGU
+M.musculus.2                 CGCAAGCUCGUUUCUAUGGGUCUGUGGCAG
+H.sapiens.1                  CACAAGCUUGUAUCUAUAGGUAUGUGUCUG
+H.sapiens.2                  CACAAGCUCGUGUCUGUGGGUCCGUGUCGG
+H.sapiens.3                  CACAAGCUCGCUUCUAUGGGUCUGUGUCAG
+C.elegans.1                  AACAUGGAAGCAGGUACAGGUGCACGGCGA
+C.elegans.2                  CACGAGCUAGACUACAAGGUGCACGAACAA
+#=GC SS_cons                 >>>>>>>>>>>>>>>..>>>..>>>>>>..
+//

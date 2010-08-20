@@ -1,0 +1,38 @@
+# STOCKHOLM 1.0
+#=GF ID    TCV_Pr
+#=GF AC    RF00502
+#=GF DE    Turnip crinkle virus (TCV) core promoter hairpin (Pr)
+#=GF AU    Moxon SJ
+#=GF GA    40.0
+#=GF NC    26.0
+#=GF TC    45.2
+#=GF SE    PMID:15220455
+#=GF SS    Published; PMID:15220455
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    15220455
+#=GF RT    Biased hypermutagenesis associated with mutations in an untranslated
+#=GF RT    hairpin of an RNA virus.
+#=GF RA    McCormack JC, Simon AE;
+#=GF RL    J Virol 2004;78:7813-7817.
+#=GF CC    This family represents the turnip crinkle virus (TCV) core promoter hairpin
+#=GF CC    (Pr). Pr is located in the 3' UTR and is required for minus strand RNA
+#=GF CC    synthesis [1].
+#=GF WK    http://en.wikipedia.org/wiki/Turnip_crinkle_virus_(TCV)_core_promoter_hairpin_(Pr)
+#=GF SQ    4
+
+#=GS Turnip_crinkle_virus.1 AC    X12750.1/324-353
+#=GS Turnip_crinkle_virus.2 AC    M22445.2/4015-4048
+#=GS Turnip_crinkle_virus.3 AC    AY312063.1/4018-4051
+#=GS Turnip_crinkle_virus.4 AC    X05193.1/1415-1448
+
+Turnip_crinkle_virus.1             ACAGCCUCCCUCCUCG....GACGGGGGGCCUGC
+Turnip_crinkle_virus.2             AUAGCCUCCCUCCUCGCGCGGGGGGGGGGCCUGC
+Turnip_crinkle_virus.3             AUAGCCUCUCCCCUCGCGCGGGGGGGGGGCCUGC
+Turnip_crinkle_virus.4             AUAGCCUCCCUCCUCGCGCGGGGGGGGGGCCUGC
+#=GC SS_cons                       ....<<<<<<<<........>>.>>>>>>.....
+#=GC RF                            AUAGCCuCCCuCcUcGcgcgGagGGGgGGccUGc
+//

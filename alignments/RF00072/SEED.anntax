@@ -1,0 +1,91 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORA75
+#=GF AC    RF00072
+#=GF DE    Small nucleolar RNA SNORA75
+#=GF AU    Bachellerie JP, Griffiths-Jones SR
+#=GF GA    33.0
+#=GF NC    32.2
+#=GF TC    34.1
+#=GF PI    U23
+#=GF SE    Griffiths-Jones SR
+#=GF SS    Predicted; PFOLD; Griffiths-Jones SR
+#=GF TP    Gene; snRNA; snoRNA; HACA-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000594 SO:H_ACA_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Mus_musculus300788
+#=GF DR    snoopy; Homo_sapiens300068
+#=GF RN    [1]
+#=GF RM    9106664
+#=GF RT    The family of box ACA small nucleolar RNAs is defined by an
+#=GF RT    evolutionarily conserved secondary structure and ubiquitous sequence
+#=GF RT    elements essential for RNA accumulation.
+#=GF RA    Ganot P, Caizergues-Ferrer M, Kiss T;
+#=GF RL    Genes Dev 1997;11:941-956.
+#=GF RN    [2]
+#=GF RM    12457565
+#=GF RT    The expanding snoRNA world.
+#=GF RA    Bachellerie JP, Cavaille J, Huttenhofer A;
+#=GF RL    Biochimie 2002;84:775-790.
+#=GF RN    [3]
+#=GF RM    12007400
+#=GF RT    Small nucleolar RNAs: an abundant group of noncoding RNAs with
+#=GF RT    diverse cellular functions.
+#=GF RA    Kiss T;
+#=GF RL    Cell 2002;109:145-148.
+#=GF CC    U23 belongs to the H/ACA class of snoRNAs.  snoRNAs bind a number
+#=GF CC    of proteins (including dyskerin, Gar1p and Nop10p in the case
+#=GF CC    of the H/ACA class) to form snoRNP complexes.  This class are
+#=GF CC    thought to guide the sites of modification of uridines to 
+#=GF CC    pseudouridines by forming direct base pairing interactions with
+#=GF CC    substrate RNAs [3].  Targets include ribosomal and spliceosomal
+#=GF CC    RNAs as well as the Trypanosoma spliced leader RNA (SL RNA)
+#=GF CC    as possibly other, still unknown cellular RNAs [3].  U23 can 
+#=GF CC    direct the pseudouridylation of U97 in human 18S rRNA
+#=GF CC    (Bachellerie JP, Ganot, P unpublished data).  U23 is encoded 
+#=GF CC    within intron 12 of the nucleolin gene in human, mouse, rat 
+#=GF CC    chicken, and Xenopus laevis.
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_SNORA75
+#=GF SQ    6
+
+#=GS O.mykiss.1     AC    AJ009730.1/1-133
+#=GS C.carpio.1     AC    AJ009731.1/1-129
+#=GS G.gallus.1     AC    AJ009728.1/1-142
+#=GS M.musculus.1   AC    X07699.1/9946-10078
+#=GS R.norvegicus.1 AC    M55022.1/344-480
+#=GS H.sapiens.1    AC    AJ007015.1/1-137
+
+O.mykiss.1                 GCUUUCUCA.UGAGCUCCUCUCUGCCGAU....CAGUGGCGUUGUAUGGA
+C.carpio.1                 UUCUUCUCA.UGAGCUCCUCUCUGUCAAUC...CAGUGGCAGUGUAUGGA
+G.gallus.1                 CACUUCUCAAUGAGCUCCUUCCUGCCGACAUAUCCAUGGCAGCCUAUGGA
+M.musculus.1               AUCUUCUCAUUGAGCUCCUUUCUGUCCAU....CAGUGAUAGAUUAUGGA
+R.norvegicus.1             AUCUUCUCAUUGAGCUCCUUUCUGUCAAC....CAGUGACAGAUUAUGGA
+H.sapiens.1                GUCUUCUCAUUGAGCUCCUUUCUGUCUAU....CAGUGGCAGUUUAUGGA
+#=GC SS_cons               ..<<<<<<.....<<<<<...<<<<<...........>>>>>.....>>>
+
+O.mykiss.1                 UUCGCACGAGAAGAAGAGACUAA..UCAC.AAAUUGAACAGGCACC....
+C.carpio.1                 UUCGCACGAGAAGUAGAGUGA.U..UCAC.AGUUU.AACAGGUGUUU...
+G.gallus.1                 UUCGCACGAGAAGGACAUAAACAGCUCAGUAGU...GGCACGC..UCA..
+M.musculus.1               UUCGCACGAGAAGAAGAGAGAAU..UCAC.AGAACUGGCAC....UUAU.
+R.norvegicus.1             UUCGCACGAGAAGAAGAGAAAGU..UCAC.AGAACUAGCAC....UUAAU
+H.sapiens.1                UUCGCACGAGAAGAAGAGAGAAU..UCAC.AGAACUAGCAUUAUUUUAC.
+#=GC SS_cons               ...>>..>>>>>>............<<<<.<<..................
+
+O.mykiss.1                 CCCC.UAAUCUCAACAGGUG.......UUGCCCAUGUCUG....CUGUGA
+C.carpio.1                 CCAC.UG.......CAUUGG....GACAUGCCCAUGUCUG....AUGUGA
+G.gallus.1                 CAACCUGGU.UAUACAUCAGUUGUGAUUAACCACUUACUGU....UCU..
+M.musculus.1               CUUC.UG.UUUUUGCAGAAG........UAUAUUUGGCUGU..UGUGUGA
+R.norvegicus.1             CUUC.UG.UUUUUGCAGGAG.......AUCUAUUUGGCUGUUAUGUGUGA
+H.sapiens.1                CUUC.UG.UCUUUACAGAGG........UAUAUUUAGCUGU..AUUGUGA
+#=GC SS_cons               <<<<.<<.......>>>>>>........................>>>>>>
+
+O.mykiss.1                 AACAAUU
+C.carpio.1                 GACAUUC
+G.gallus.1                 .ACAAGU
+M.musculus.1               GACAUUA
+R.norvegicus.1             GACAUUC
+H.sapiens.1                GACAUUC
+#=GC SS_cons               .......
+//

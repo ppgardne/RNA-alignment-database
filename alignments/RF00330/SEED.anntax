@@ -1,0 +1,74 @@
+# STOCKHOLM 1.0
+#=GF ID    snoZ43
+#=GF AC    RF00330
+#=GF DE    Small nucleolar RNA Z43
+#=GF AU    Moxon SJ
+#=GF GA    36.0
+#=GF NC    32.8
+#=GF TC    36.6
+#=GF SE    Moxon SJ, INFERNAL
+#=GF SS    Predicted; PFOLD; Moxon SJ
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Arabidopsis_thaliana300061
+#=GF RN    [1]
+#=GF RM    12007400
+#=GF RT    Small nucleolar RNAs: an abundant group of noncoding RNAs with
+#=GF RT    diverse cellular functions.
+#=GF RA    Kiss T;
+#=GF RL    Cell 2002;109:145-148.
+#=GF RN    [2]
+#=GF RM    12736310
+#=GF RT    The high diversity of snoRNAs in plants: identification and
+#=GF RT    comparative study of 120 snoRNA genes from Oryza sativa.
+#=GF RA    Chen CL, Liang D, Zhou H, Zhuo M, Chen YQ, Qu LH;
+#=GF RL    Nucleic Acids Res 2003;31:2601-2613.
+#=GF CC    Z43 is a member of the C/D class of snoRNA which contain the C (UGAUGA)
+#=GF CC    and  D (CUGA) box motifs. Most of the members of the box C/D family
+#=GF CC    function in directing site-specific 2'-O-methylation of substrate RNAs
+#=GF CC    [1].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_Z43
+#=GF SQ    7
+
+#=GS O.sativa.1     AC    AC108499.3/94034-94134
+#=GS V.vinifera.1   AC    AM447919.2/1671-1765
+#=GS M.truncatula.1 AC    AC122722.7/22593-22688
+#=GS M.truncatula.2 AC    AC122722.7/4040-4136
+#=GS R.communis.1   AC    AASG02001268.1/27383-27482
+#=GS A.thaliana.1   AC    AJ240080.1/1-102
+#=GS A.thaliana.2   AC    AJ429604.1/1-103
+
+O.sativa.1                 GGACGGUGAAGAUCGUAUCUAUUGGUCUCGUUCGUCGU..AACUGG...C
+V.vinifera.1               GGACUGUGACGAGUUGUGUGAAAGGUCUCGUUCGUCGU...AAUGG...C
+M.truncatula.1             G.ACACUGAUGAAUACUGUGACAGGUCUCGUUCGUCGU...AAUGG...U
+M.truncatula.2             GGACAUUGAUGAAUACUGUGAUAGGUCUCGUUCGUCGU...AAUGG...U
+R.communis.1               GGACUGUGACGAUUGAUAUCAUUGGUCUCGUUCGGCAU...AAUGG...C
+A.thaliana.1               GGACAGUGACGAUUGAUAUU.AAGGUCUCGUUCGUCGUAAAAACGGCCGU
+A.thaliana.2               GGACAGUGACGAUUGAUAUUUAAGGUCUCGUUCGUCGUAAAAACGGCCGU
+#=GC SS_cons               <<<<..............................................
+#=GC RF                    GGACAgUGAuGAaUaaUaUgAaAGGUCUCGUUCGUCGUAAAAAuGGccgU
+
+O.sativa.1                 AAAUUGUUUUUGCCUUGCCGACCAUCCUGAUAUAUCACCACCCAUAUUCC
+V.vinifera.1               AAAUU.....UGCCUUGCCGACCAUCCUGAUAUAUCACCACCCAUAUUCC
+M.truncatula.1             AAAUU...UUUACCUUGCCGACCAUUCUGUUAUAUCACCACCCAUAUUCU
+M.truncatula.2             AAAUU...UUUACCUUGCCGACCAUUCUGUUAUAUCACCACCCAUAUUCU
+R.communis.1               AUGCUAUGCUUGCCUUGAUGACCAUCCUGAUAUAUCACCACCCAUAUUCU
+A.thaliana.1               AAAAAGCCUAU...UUGCCGACCAUUCUGUUAUAUCACCACCCAUAUUCU
+A.thaliana.2               AAAAAGCCUAU...UUGCCGACCAUUCUGUUAUAUCACCACCCAUAUUCU
+#=GC SS_cons               <<<.......>...>>..................................
+#=GC RF                    AAAaagccUaUAccUUGCCGACCAUUCUGUUAUAUCACCACCCAUAUUCU
+
+O.sativa.1                 GAGUCC
+V.vinifera.1               GAGUCC
+M.truncatula.1             GAGUCU
+M.truncatula.2             GAGUCC
+R.communis.1               GAGUCC
+A.thaliana.1               GAGUCC
+A.thaliana.2               GAGUCC
+#=GC SS_cons               ..>>>>
+#=GC RF                    GAGUCC
+//

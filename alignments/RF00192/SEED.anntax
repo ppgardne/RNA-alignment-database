@@ -1,0 +1,46 @@
+# STOCKHOLM 1.0
+#=GF ID    BLV_package
+#=GF AC    RF00192
+#=GF DE    Bovine leukaemia virus RNA packaging signal
+#=GF AU    Moxon SJ
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    23.5
+#=GF SE    PMID:12359429
+#=GF SS    Published; PMID:12359429
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    12359429
+#=GF RT    The primary nucleotide sequence of the bovine leukemia virus RNA
+#=GF RT    packaging signal can influence efficient RNA packaging and virus
+#=GF RT    replication.
+#=GF RA    Mansky LM, Gajary LC;
+#=GF RL    Virology 2002;301:272-280.
+#=GF CC    This family represents the bovine leukaemia virus RNA encapsidation
+#=GF CC    (packaging) signal which is essential for efficient viral replication [1].
+#=GF WK    http://en.wikipedia.org/wiki/Bovine_leukaemia_virus_RNA_packaging_signal
+#=GF SQ    5
+
+#=GS Bovine_leukemia_viru.1 AC    AF257515.1/629-683
+#=GS Bovine_leukemia_viru.2 AC    D00647.1/629-683
+#=GS Bovine_leukemia_viru.3 AC    K02120.1/628-682
+#=GS Bovine_leukemia_viru.4 AC    AF033818.1/418-472
+#=GS Bovine_leukemia_viru.5 AC    M10987.1/418-472
+
+Bovine_leukemia_viru.1             AUGGGAAAUUCCCCUUCUUAUAACCCUCCCGCUGGUAUCUCCCCCUCAGA
+Bovine_leukemia_viru.2             AUGGGAAACUCCCCCUCCUAUAACCCCCCCGCUGGCAUCUCCCCCUCAGA
+Bovine_leukemia_viru.3             AUGGGAAAUUCCCCCUCCUAUAACCCCCCCGCUGGUAUCUCCCCCUCAGA
+Bovine_leukemia_viru.4             AUGGGAAAUUCCCCCUCCUAUAACCCCCCCGCUGGUAUCUCCCCCUCAGA
+Bovine_leukemia_viru.5             AUGGGAAAUUCCCCCUCCUAUAACCCCCCCGCUGGUAUCUCCCCCUCAGA
+#=GC SS_cons                       <<<<<<.........>>>>>>.........<<<<<<.............>
+
+Bovine_leukemia_viru.1             CUGGC
+Bovine_leukemia_viru.2             CUGGC
+Bovine_leukemia_viru.3             CUGGC
+Bovine_leukemia_viru.4             CUGGC
+Bovine_leukemia_viru.5             CUGGC
+#=GC SS_cons                       >>>>>
+//

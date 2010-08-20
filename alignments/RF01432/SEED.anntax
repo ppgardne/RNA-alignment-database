@@ -1,0 +1,49 @@
+# STOCKHOLM 1.0
+#=GF ID    snoR143
+#=GF AC    RF01432
+#=GF DE    small nucleolar RNA snoR143
+#=GF AU    Osuch I
+#=GF GA    50.0
+#=GF NC    49.2
+#=GF TC    50.0
+#=GF SE    INFERNAL
+#=GF SS    Predicted; RNAalifold
+#=GF TP    Gene; snRNA; snoRNA; HACA-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF RN    [1]
+#=GF RM    19357091
+#=GF RT    Mining small RNA sequencing data: a new approach to identify small
+#=GF RT    nucleolar RNAs in Arabidopsis.
+#=GF RA    Chen HM, Wu SH;
+#=GF RL    Nucleic Acids Res. 2009;37:e69.
+#=GF WK    http://en.wikipedia.org/wiki/SnoRNA
+#=GF SQ    3
+
+#=GS O.sativa.1       AC    AC146468.1/16214-16379
+#=GS S.lycopersicum.1 AC    AP009260.1/55007-55179
+#=GS A.thaliana.1     AC    AC079041.4/65653-65823
+
+O.sativa.1                   CACCAGAAAUCAGUUAGUCCUACUUUCAUUUUAUGAUGGUAGGGUG...U
+S.lycopersicum.1             CUGCAC.ACGCAUA.AAGGCUA.UGCUUAAAUUUAUUGAAAUAGUGGAGU
+A.thaliana.1                 UUGCACUAUGUAUCGAAGGCUA.UGUCAAAUUACAGUGACAUAGUC...U
+#=GC SS_cons                 .<<<<<..<<<.<<<<<<<<<<.<<<<<........>>>>>>>>>>...>
+
+O.sativa.1                   UAAA...ACUGGUGCACAAAGAAAGUACUG...CUCUUGAAGCAGUGGCG
+S.lycopersicum.1             CUUGAGCGCUAGUGCAAAGAUGGAAUGCUGAGUUUAAACUCAGCG..GCG
+A.thaliana.1                 UUAAUGCAAAAGUGCAGAAAGAGAGAGCUG...UUAAAUCAGCAA..GCG
+#=GC SS_cons                 >>>>.>>>...>>>>>..................................
+
+O.sativa.1                   GCCAGACAACCGUUGAGAUAGAUCCACAGAUGAA...CAACCUUUCUGUU
+S.lycopersicum.1             GCCAGACAACCGUUGAGAUGAAUCCACAGAUGGGUUCCAUUUACAGUGGU
+A.thaliana.1                 GCCAGACAACCGUCGGGAUAGAUCCACAGGUGAAGCGGAUUGAUUCCUCU
+#=GC SS_cons                 ..............<<<<<<<<.........<<<<<<<..........>>
+
+O.sativa.1                   GCUUGU..CUACUAAUUCUAUCUCACAUUA
+S.lycopersicum.1             ACUUGU..CUACUAAUUUCAUCUCAUAAUU
+A.thaliana.1                 GCUUUCAGCUACUAAAUCUAUCCUACAUAC
+#=GC SS_cons                 >>>>>...........>>>>>>>>......
+//

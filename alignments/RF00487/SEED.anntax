@@ -1,0 +1,121 @@
+# STOCKHOLM 1.0
+#=GF ID    IRES_Cx43
+#=GF AC    RF00487
+#=GF DE    Connexin-43 internal ribosome entry site (IRES)
+#=GF AU    Moxon SJ
+#=GF GA    37.0
+#=GF NC    33.2
+#=GF TC    38.3
+#=GF SE    Moxon SJ
+#=GF SS    Published; PMID:10618489
+#=GF TP    Cis-reg; IRES;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000243 SO:internal_ribosome_entry_site
+#=GF DR    GO:0043022 GO:ribosome binding
+#=GF RN    [1]
+#=GF RM    10618489
+#=GF RT    Connexin43 mRNA contains a functional internal ribosome entry site.
+#=GF RA    Schiavi A, Hudder A, Werner R;
+#=GF RL    FEBS Lett 1999;464:118-122.
+#=GF CC    This family represents the connexin-43 internal ribosome entry site (IRES)
+#=GF CC    which allows cap independent translation during conditions such as heat
+#=GF CC    shock and stress [1].
+#=GF WK    http://en.wikipedia.org/wiki/Connexin-43_internal_ribosome_entry_site_(IRES)
+#=GF SQ    14
+
+#=GS C.griseus.1    AC    AY206456.1/1-193
+#=GS M.auratus.1    AC    AY206455.1/1-196
+#=GS M.musculus.1   AC    M63801.1/15-223
+#=GS M.musculus.2   AC    BC055375.1/1-158
+#=GS M.musculus.3   AC    AY427555.1/54-262
+#=GS M.musculus.4   AC    AY427560.1/1-203
+#=GS R.norvegicus.1 AC    AY324140.1/1-199
+#=GS R.norvegicus.2 AC    X06656.1/1-204
+#=GS R.norvegicus.3 AC    AY555737.1/22-232
+#=GS H.sapiens.1    AC    M65188.1/1-168
+#=GS H.sapiens.2    AC    AC011421.2/104487-104693
+#=GS H.sapiens.3    AC    AC010228.8/17300-17506
+#=GS H.sapiens.4    AC    AL139098.15/101802-102009
+#=GS H.sapiens.5    AC    M65189.1/48-254
+
+C.griseus.1                ..............GAGGUAUCAGCACUUUUCUUUCAUUGGGGG.AAGGC
+M.auratus.1                ..............GAGGUAUCAGCACUUUUCUUUCAUUGGGGG.AAGGC
+M.musculus.1               AAAAACNCUUUUACGAGGUAUCAGCACUUUUCUUUCAUUGGGGGAAAGGC
+M.musculus.2               ..................................................
+M.musculus.3               AAAAACGCUUUUACGAGGUAUCAGCACUUUUCUUUCAUUGGGGGAAAGGC
+M.musculus.4               ......GCUUUUACGAGGUAUCAGCACUUUUCUUUCAUUGGGGGAAAGGC
+R.norvegicus.1             ............ACGAGGUAUCAGCACUUUUCUUUCAUUGGGGGAAAGGC
+R.norvegicus.2             .....GGCUUUUACGAGGUAUCAGCACUUUUCUUUCAUUGGGGGGAAGGC
+R.norvegicus.3             AAAAACGCUUUUACGAGGUAUCAGCACUUUUCUUUCAUUGGGGGGAAGGC
+H.sapiens.1                .......................................GGCUUUUAG.C
+H.sapiens.2                GUAGCAGCUUUUACGAGGUAUCAGCACUUUUCUUUCAUUGGGGG.AAGGC
+H.sapiens.3                GUAGCAGCUUUUACGAGGUAUCAGCACUUUUCUUUCAUUGGGGG.AAGGU
+H.sapiens.4                AAAAAAGCUUUUACGAGGUAUCAGCACUUUUCUUUCAUUAGGGGGAAGGC
+H.sapiens.5                GUAGCAGCUUUUACGAGGUAUCAGCACUUUUCUUUCAUUGGGGG.AAGGC
+#=GC SS_cons               ......<<<..<<<...>>>..>>>........<<<.<<<<<<<<<<<..
+
+C.griseus.1                GUGAGGAAAGUACCAAACAGCAGCAGACUUUUAAACUUUAAAUAGACAGG
+M.auratus.1                GUGAGGAAAGUACCAAACAGCAGCAGACUUUUAAACUUUAAAUAGACAGG
+M.musculus.1               GUGAGGGAAGUACCCAACAGCAGCAGACUUUGAAACUUUAAACAGACAGG
+M.musculus.2               .AAGAGGUAAUCCCCAACAGCAGCAGACUUUGAAACUUUAAACAGACAGG
+M.musculus.3               GUGAGGGAAGUACCCAACAGCAGCAGACUUUGAAACUUUAAACAGACAGG
+M.musculus.4               GUGAGGGAAGUACCCAACAGCAGCAGACUUUGAAACUUUAAACAGACAGG
+R.norvegicus.1             GUGAGGAAAGUACCAAACAGCAGCAGACUUUUAAACUUUAAACAGACAGG
+R.norvegicus.2             GUGAGGAAAGUACCAAACAGCAGCAGACUUUUAAACUUUAAACAGACAGG
+R.norvegicus.3             GUGAGGAAAGUACCAAACAGCAGCAGACUUUUAAACUUUAAACAGACAGG
+H.sapiens.1                GUGAGGAAAGUACCAAACAGCAGCGGAGUUUUAAACUUUAAAUAGACAGG
+H.sapiens.2                GUGAGGAAAGUAACAAACAGCAGCGGAGUUUUAAACUUUAAAUAGACAGG
+H.sapiens.3                GUGAGGAAAGUAACAAACAGCAGCGGAGUUUUAAACUUUAAAUAGACAGG
+H.sapiens.4                GUGAGGAAAGUACCAAACAGCAGCGGAGUUUUAAACUUUAAAUAGACAGG
+H.sapiens.5                GUGAGGAAAGUAACAAACAGCAGCGGAGUUUUAAACUUUAAAUACACAGG
+#=GC SS_cons               ..<<<<<<<<..............<<<<<<.................>>>
+
+C.griseus.1                UCUGGGAGCCUGAGCCCUCCUUUU.C.UUUGACUUCAGCCUCCAAGGAGC
+M.auratus.1                UCUGCGAGCCUGAGCCCUCCUUUU.C.UUUGACUUCAGCCUCCAAGGAGC
+M.musculus.1               UCUGAGAGCCCGAACUCUCCUUUU.CUUUUGACUUCAGCCUCCAAGGAGU
+M.musculus.2               UCUGAGAGCCCGAACUCUCCUUUU.CCUUUGACUUCAGCCUCCAAGGAGU
+M.musculus.3               UCUGAGAGCCCGAACUCUCCUUUU.CCUUUGACUUCAGCCUCCAAGGAGU
+M.musculus.4               UCUGAGAGCCCGAACUCUCCUUUU.CCUUUGACUUCAGCCUCCAAGGAGU
+R.norvegicus.1             UCUGAGAGCCUGAACUCUCAUUUUUCCUUUGACUUCAGCCUCCAAGGAGU
+R.norvegicus.2             UCUGAGAGCCUGAACUCUCAUUUUUCCUUUGACUUCAGCCUCCAAGGAGU
+R.norvegicus.3             UCUGAGAGCCUGAACUCUCAUUUUUCCUUUGACUUCAGCCUCCAAGGAGU
+H.sapiens.1                UCUGAGUGCCUGAACUUGCCUUUU.CAUUUUACUUCAUCCUCCAAGGAGU
+H.sapiens.2                UCUGAGUGCCUGAAUUUGCCUUUU.CAUUUUACUUCAUCCUCCAAGGAGU
+H.sapiens.3                UCUGAGUGCCUGAAUUUGCCUUUU.CAUUUUACUUCAUCCUCCAAGGAGU
+H.sapiens.4                UCUGAGUGCCUGAACUUGCCUUUU.CAUUUUACUUCAUCCUCCAAGGAGU
+H.sapiens.5                UCUGAGUGCCUGAAUUUGCCUUUU.CAUUUUACUUCAUCCUCCAAGGAGU
+#=GC SS_cons               >>><<<<<......>>>>>..>>>>>>>>...>>>>..>>>>>>>.>>>.
+
+C.griseus.1                CUCACCG.CUUUGGCGCGCCGGCUUCGCUUUCAUUAA...GCGAAAGAGA
+M.auratus.1                CUCAUCA.CUUUGGCGCGCCGGCUUCGCUUUCAUUAAAUAGCGAAAGAGA
+M.musculus.1               UCCACCA.CUUUGGCGUGCCGGCUUCACUUUCAUUAA...GUGAAAGAGA
+M.musculus.2               UCCACCA.CUUUGGCGUGCCGGCUUCACUUUCAUUAA...GUGAAAGAGA
+M.musculus.3               UCCACCA.CUUUGGCGUGCCGGCUUCACUUUCAUUAA...GUGAAAGAGA
+M.musculus.4               UCCACCA.CUUUGGCGUGCCGGCUUCACUUUCAUUAA...GUGAAAGAAC
+R.norvegicus.1             UCCACCAACUUUGGCGCGCCGGCUUCACUUUCAUUAA...GUGAAAGAGA
+R.norvegicus.2             UCCACCAACUUUGGCG..GCGGCUUCACUUUCAUUAA...GUGAAAGAGA
+R.norvegicus.3             UCCACCAACUUUGGCGCGCCGGCUUCACUUUCAUUAA...GUGAAAGAGA
+H.sapiens.1                UCAAUCA..CUUGGCGUGA...CUUCACUACUUUUAA...GCAAAAGAGU
+H.sapiens.2                UCAAUCA..CCUGGCGUGA...CUUCACUUCUUUUAA...GCAAAAGAGU
+H.sapiens.3                UCAAUCA..CCUGGCGUGA...CUUCACUUCUUUUAA...GCAAAAGAGU
+H.sapiens.4                UCAAUCA..CUUGGCGUGA...CUUCACUACUUUUAA...GCAAAAGAGU
+H.sapiens.5                UCAAUCA..CCUGGCGUGA...CUUCACUUCUUUUAA...GCAAAAGAGU
+#=GC SS_cons               .........<<<<<.<<<<<..<<<<<<<<.....>>...>>>.>>>...
+
+C.griseus.1                AGUGCCCAGACAUG...
+M.auratus.1                GGUGCCCAGACAUG...
+M.musculus.1               GGUGCCCAGACAUG...
+M.musculus.2               GGUGCCCAGACAUG...
+M.musculus.3               GGUGCCCAGACAUG...
+M.musculus.4               AGGGUCU.CUC.UGUA.
+R.norvegicus.1             GGUGCCCAGACAUG...
+R.norvegicus.2             GGUGCCCAGACAUG...
+R.norvegicus.3             GGUGCCCAGACAUG...
+H.sapiens.1                GGUGCCCAGGCAACAUG
+H.sapiens.2                GGUGCCCAGGCAACAUG
+H.sapiens.3                GGUGCCCAGGCAACAUG
+H.sapiens.4                AAGUUUUUAAAAAAUGA
+H.sapiens.5                GGUGCCCAGGCAACAUG
+#=GC SS_cons               >>>>>>>>>>.......
+//

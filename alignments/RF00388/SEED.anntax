@@ -1,0 +1,61 @@
+# STOCKHOLM 1.0
+#=GF ID    QaRNA
+#=GF AC    RF00388
+#=GF DE    Qa RNA
+#=GF AU    Moxon SJ
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    35.7
+#=GF SE    PMID:14651627
+#=GF SS    Published; PMID:14651627
+#=GF TP    Gene; antisense;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000644 SO:antisense_RNA
+#=GF RN    [1]
+#=GF RM    14651627
+#=GF RT    Characterization of cis-acting prgQ mutants: evidence for two
+#=GF RT    distinct repression mechanisms by Qa RNA and PrgX protein in
+#=GF RT    pheromone-inducible enterococcal plasmid pCF10.
+#=GF RA    Bae T, Kozlowicz BK, Dunny GM;
+#=GF RL    Mol Microbiol 2004;51:271-281.
+#=GF CC    Qa RNA is a cis-regulatory element from Enterococcus faecalis which is
+#=GF CC    known to negatively regulate prgQ transcription via an antisense mechanism
+#=GF CC    [1].
+#=GF WK    http://en.wikipedia.org/wiki/Qa_RNA
+#=GF SQ    6
+
+#=GS Enterococcus_faecali.1 AC    AE016831.1/5375-5476
+#=GS E.faecalis.1           AC    AY855841.2/8298-8399
+#=GS Enterococcus_faecali.2 AC    AE016833.1/5306-5415
+#=GS E.faecalis.2           AC    D78016.1/6307-6410
+#=GS E.faecalis.3           AC    AE002565.1/35056-35157
+#=GS Enterococcus_faecali.3 AC    AE016833.1/44522-44622
+
+Enterococcus_faecali.1             GUUGUAACUAAUGUUGCAACAAACGA.........GAACCGAGUAUAGUU
+E.faecalis.1                       GUUGUAACUAAUGUUGCAACAAACGA.........GAACCGAGUAGAGUU
+Enterococcus_faecali.2             AUUCUACCUUAUUUGAUAGUAGAUUUAAAACUUUGCAACAGAACC..GUU
+E.faecalis.2                       GUUGUAACUUAUGUUGCAGUGUUCGA.........GAACCGAGUAUAGUU
+E.faecalis.3                       GUUGUAACUUAUGUUGCAACAAACGA.........GAACCGAUUAUAGUU
+Enterococcus_faecali.3             GUUGUAACUAAUGUUGCAACAAACGA.........GAACCGAGUAUAGUU
+#=GC SS_cons                       <<<<<<<<....>>>>>>>>...............<<<<<<<....<<<<
+#=GC RF                            guuguaaCUaAUGuugcaacAaAcgA.........GaaCCGaguAuaguu
+
+Enterococcus_faecali.1             CAUGCUGU.AUCAUGAAUUGUUUAACUGUCCUCUAGGAUUCCC.GUCCUA
+E.faecalis.1                       CAUGUCAU.ACCAUGAAUUGUUUAACUGCCCCCUAGGAUUGCC.GUCCUA
+Enterococcus_faecali.2             CAUGGGUAUAGCAUGAAUUGUUUAACUGUCCUCUAGGAUUCCC.GUCCUA
+E.faecalis.2                       CAUGGGAUCAGCAUGAAUUAUUUAACUAUCCUCUUGGGUUGGUAGCCCAA
+E.faecalis.3                       CAUGGUGU.CUCAUGAAUUAUUUAACUGUCCUCUGGGAUUCCC.GUCCCA
+Enterococcus_faecali.3             CAUGGGGUUCUGUUGCAAAGUUUUAAAUAAAGAAUAAAAUCCC.UUACGG
+#=GC SS_cons                       <<<<.......>>>>>>>>......<<<<<...<<<<<<.....>>>>>>
+#=GC RF                            CauGggauuAuCauGaacugUUUAAcugcccucuaGgauUccc.gucCua
+
+Enterococcus_faecali.1             UGACAGUCGGUUC
+E.faecalis.1                       UGGCAGUCGGUUC
+Enterococcus_faecali.2             UGGCAGUCGGUUC
+E.faecalis.2                       AGAUAGUCGGUUC
+E.faecalis.3                       UGGCAGUCGGUUC
+Enterococcus_faecali.3             UAUC.UAUGAUU.
+#=GC SS_cons                       .>>>>>>>>>>>>
+#=GC RF                            uggcaguCGGuuC
+//

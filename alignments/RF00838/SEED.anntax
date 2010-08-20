@@ -1,0 +1,45 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-252
+#=GF AC    RF00838
+#=GF DE    microRNA mir-252
+#=GF AU    Wilkinson A
+#=GF GA    38.0
+#=GF NC    0.0
+#=GF TC    40.7
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000285
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    6
+
+#=GS S.purpuratus.1 AC    AAGJ02031023.1/3087-3164
+#=GS C.briggsae.1   AC    CAAC02000450.1/1710601-1710684
+#=GS C.remanei.1    AC    AAGD02000357.1/21923-22004
+#=GS C.elegans.1    AC    Z66521.1/1958-2039
+#=GS C.brenneri.1   AC    ABEG01023523.1/4764-4842
+#=GS B.malayi.1     AC    AAQA01000035.1/130065-130137
+
+S.purpuratus.1             CGUUGCCGAUCUAAGUAGUAGUGCCGCAGGUAC....UGAUUUUUAA..G
+C.briggsae.1               UCUCCCAGUUAUAAGUAGUAGUGCCGCAGGUAACCGCUUCCAGAAAAUUG
+C.remanei.1                UCUUUCAGUUAUAAGUAGUAGUGCCGCAGGUAACCACUCAAAUAUAU..G
+C.elegans.1                UCUUUCAGUUAUAAGUAGUAGUGCCGCAGGUAACCGCCAGUCUAAAA..G
+C.brenneri.1               UCUUUCAGUUAUAAGUAGUAGUGCCGCAGGUAA...CCGAUUUCAAU..G
+B.malayi.1                 AAGUC..AUUCUAAGUAGUAGUGCCGCAGGUAACAAC....AAUUGA...
+#=GC SS_cons               ..<<<<<<<<.<<<<<<<.<<.<<.<.<<<<<<..<<<...........>
+#=GC RF                    aagcccaguuauaaGcaGuaGugccgcaGGuaacagccaaaaaaaaa..g
+
+S.purpuratus.1             UGAUACCUGUACACGGCUACUUACAUUGGCAACG
+C.briggsae.1               GUUUACCUACUGCCUUCUGCUUAGAAUUGGGAUU
+C.remanei.1                GUUUACCUACUGCCUUCUGCUUAGAAUUGAAAUA
+C.elegans.1                GCUUACCUACUGCCUUCUGCUUAAAAUUGAAAUA
+C.brenneri.1               GUUUACCUACUGCCUCCUGCUUAGAAUUGAAAUU
+B.malayi.1                 GUUUACCUGUUCUCUGCUACUUAACAU..GACCA
+#=GC SS_cons               >>>>>>>>.>.>>>>.>>>>>>>.>>>>>>>>..
+#=GC RF                    gcuuaCCuacugcCuuCugCuuaaaacugggcua
+//

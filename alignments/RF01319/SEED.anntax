@@ -1,0 +1,36 @@
+# STOCKHOLM 1.0
+#=GF ID    CRISPR-DR6
+#=GF AC    RF01319
+#=GF DE    CRISPR RNA direct repeat element
+#=GF AU    Wilkinson A
+#=GF GA    33.0
+#=GF NC    32.9
+#=GF TC    34.5
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; CRISPR;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    URL; http://crispr.u-psud.fr/crispr/CRISPRHomePage.php
+#=GF DR    SO:0001459 SO:CRISPR
+#=GF WK    http://en.wikipedia.org/wiki/CRISPR
+#=GF SQ    7
+
+#=GS P.abyssi.1             AC    AJ248288.1/260196-260225
+#=GS Pyrococcus_furiosus_.1 AC    AE009950.1/698159-698188
+#=GS Pyrococcus_horikoshi.1 AC    BA000001.2/1118941-1118970
+#=GS Pyrococcus_horikoshi.2 AC    BA000001.2/638821-638850
+#=GS Pyrococcus_horikoshi.3 AC    BA000001.2/994690-994719
+#=GS Pyrococcus_furiosus_.2 AC    AE009950.1/698963-698992
+#=GS Thermococcus_kodakar.1 AC    AP006878.1/835889-835918
+
+P.abyssi.1                         GUUCCAAUAAGACUAAAAUAGAAUUGAAAG
+Pyrococcus_furiosus_.1             GUUACAAUAAGACUAAAAUAGAAUUGAAAG
+Pyrococcus_horikoshi.1             GUUCCAAUAAGACUAAAAUAGAAUUGAAAG
+Pyrococcus_horikoshi.2             GUUCCAAUAAGACUAUAAGAGAAUUGAAAG
+Pyrococcus_horikoshi.3             GUUCCAAUAAGACUAAAAUAGAAUUGAAAC
+Pyrococcus_furiosus_.2             GUUCCAAUAAGACUACAAAAGAAUUGAAAG
+Thermococcus_kodakar.1             GUUGCAAUAAGACUCUAAGAGAAUUGAAAG
+#=GC SS_cons                       ....<<<<..............>>>>....
+#=GC RF                            GUUcCaauAAGACUAaAAaAGAauuGAAAg
+//

@@ -1,0 +1,120 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORD90
+#=GF AC    RF00579
+#=GF DE    Small nucleolar RNA SNORD90
+#=GF AU    Marantidis E.
+#=GF GA    35.0
+#=GF NC    30.3
+#=GF TC    40.2
+#=GF PI    snoHBII-295
+#=GF SE    Marantidis E, INFERNAL
+#=GF SS    Predicted; RNAalifold
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Mus_musculus300974
+#=GF DR    snoopy; Loxodonta_africana300518
+#=GF RN    [1]
+#=GF RM    11387227
+#=GF RT    RNomics: an experimental approach that identifies 201 candidates for
+#=GF RT    novel, small, non-messenger RNAs in mouse.
+#=GF RA    Huttenhofer A, Kiefmann M, Meier-Ewert S, O'Brien J, Lehrach H,
+#=GF RA    Bachellerie JP, Brosius J;
+#=GF RL    EMBO J. 2001;20:2943-2953.
+#=GF RN    [2]
+#=GF RM    16381836
+#=GF RT    snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D box
+#=GF RT    snoRNAs.
+#=GF RA    Lestrade L, Weber MJ;
+#=GF RL    Nucleic Acids Res. 2006;34:D158-D162.
+#=GF CC    snoRNA HBII-295 belongs to the family of C/D snoRNAs. It is the
+#=GF CC    human orthologue of the mouse MBII-295 and has no identified RNA
+#=GF CC    target.
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_SNORD90
+#=GF SQ    18
+
+#=GS O.cuniculus.1          AC    AAGW01313197.1/3076-3186
+#=GS O.princeps.1           AC    AAYZ01222850.1/6091-6201
+#=GS C.porcellus.1          AC    AAKN02030304.1/77340-77450
+#=GS M.musculus.1           AC    AL929572.10/174985-175094
+#=GS R.norvegicus.1         AC    AABR04001230.1/81281-81391
+#=GS Spermophilus_tridece.1 AC    AAQQ01358583.1/359-469
+#=GS H.sapiens.1            AC    AC007066.4/164516-164622
+#=GS T.belangeri.1          AC    AAPY01745261.1/2883-2993
+#=GS C.lupus.1              AC    AAEX02022438.1/46506-46616
+#=GS F.catus.1              AC    AANG01754084.1/1461-1570
+#=GS T.truncatus.1          AC    ABRN01365187.1/5441-5547
+#=GS B.taurus.1             AC    AAFC03111050.1/1271-1381
+#=GS M.lucifugus.1          AC    AAPE01282561.1/533-643
+#=GS E.europaeus.1          AC    AANN01135589.1/496-606
+#=GS S.araneus.1            AC    AALT01485923.1/23411-23521
+#=GS E.caballus.1           AC    AAWR02025687.1/6255-6365
+#=GS Monodelphis_domestic.1 AC    AAFR03041314.1/160153-160264
+#=GS O.anatinus.1           AC    AAPN01152521.1/3015-3126
+
+O.cuniculus.1                      AAUUAAGUUUUCCAAGUGUCUCAUGAUGA.AUUUCAUAGGGCAGAUUCUG
+O.princeps.1                       GAAGAAGUUUUUCAAGUGUCUCAUGAUGA.AUUUCAUAGGGCAGAUUCUG
+C.porcellus.1                      AUAAAUGUUUUCUAAGUGUCUAAUGAUGA.GUUUCAUAGGGCAGAUUCUG
+M.musculus.1                       AAAUAAUGUUUUUAAGUGUCUAGUGAUGA.AUUUCAUAGGGCAGAUUCUG
+R.norvegicus.1                     AAUAAUGUUUUCUAAGUGUCUAGUGAUGA.AUUUCAUAGGGCAGAUUCUG
+Spermophilus_tridece.1             GAAUAUGUUUUCUAAGUGUCUAAUGAUGA.GUUUCAUAGGGCAGAUUCUG
+H.sapiens.1                        AAGU....UUUCUAAGUGUCUAAUGAUGA.AUUUCAUAGGGCAGAUUCUG
+T.belangeri.1                      AAUUAAGUUUUCUAAGUGUCUGAUGAUGA.AUUUCAUAGGGCAGAUUCUG
+C.lupus.1                          AAGUAAAUUUUCUAAGUGUCUGAUGAUGA.AUUUCAUAGGGCAGAUUCUG
+F.catus.1                          AAAUAAGUUUUCUAAGUGUCUAAUGAUGA.AGUUCAUAGGGCAGAUUCUG
+T.truncatus.1                      AAGU....UUUCUAAGUGUCUAAUGAUGA.AUUUCAUAGGGCAGAUUCUG
+B.taurus.1                         AAAUAAGUUUUCUAAGUGUCUAAUGAUGA.AUUUCAUAGGGCAGAUUCUG
+M.lucifugus.1                      UAAUGAGUUUUCUGAGUGUCUAAUGAUGA.AUUUCAUAGGGCAGAUUCUG
+E.europaeus.1                      AAAUUAGAUUUUUAAGUGUCUAAUGAUGA.AUUUCAUAGGGCAGAUUCUG
+S.araneus.1                        AAAUAAGUUUUUAAAGUGUCUAAUGAUGA.AUUUCAUAGGGCAGAUUCUG
+E.caballus.1                       AAAUAAGUUUUCUAAGUGUCUGAUGAUGA.AUUUCAUAGGGCAGAUUCUG
+Monodelphis_domestic.1             UUUUGAGUUUUCUAAGUGUCUCAUGAUGAAAUUUCAUAGGGCAGAUUCUG
+O.anatinus.1                       AAUUAAAGUGCUAAAGUGUCUAAUGAUGAGGACUCAUAGGGCAGAUUCUG
+#=GC SS_cons                       ............<<<<<<<<<.........<<<<<<<<<<<..<..<<.<
+#=GC RF                            AAauAAuguuuuuaaGuGuCuAauGAuGA.auucCacaGGgcagAuuCug
+
+O.cuniculus.1                      AGGUGAAAA.UUUAGUUCAUCGUUGAUACCCCUACUAUGGAUUCUGAAGA
+O.princeps.1                       AGGUGAAAA.UUUGAUUCAUCACUGAUACCCUAACUGUGAAUUCUGAAGA
+C.porcellus.1                      AGGUGAAAA.UUUAGUUCAUCAUUGAUACUCUUUCUAUGGAAUCUGAAGA
+M.musculus.1                       AGGUGAAAA.UUUAGUUCAUCAUUGAUUGUCCUAUUAUGAAAUCUGAAGA
+R.norvegicus.1                     AGGUGAAAA.UUUAAUUCAUCAUUGAUUGUCCUAUUAUGAAAUCUGAAGA
+Spermophilus_tridece.1             AGAUGAAAA.UUUACUUCAUCAUUGAUACUCCUACUAUGAAAUCUGAAGA
+H.sapiens.1                        AGGUGAAAA.UUUAAUUCAUCACUGAUACUCCUACUGUGGAAUCUGAAGA
+T.belangeri.1                      AGGUGAAAA.CUUAAUUCAUCAUUGAUCCUCCUACUAUGGAAUCUGAAGA
+C.lupus.1                          AGGUGAAAA.UUGUAUUCAUCAUUGAUAGUCCUAUUAUGGAAUCUGAAGA
+F.catus.1                          AGGUGAAAA.UUUCAUUCAUCACUGAUACUCCU.CUAUGGAAUCUGAAGA
+T.truncatus.1                      AGGUGAA.AAUUUAAUUCAUCAUUGAUACUCCUACUAUGGAAUCUGAAGA
+B.taurus.1                         AGGUGAAAA.UUUAAUUCAUCAUUGAUACUUCUACUAUGGAAUCUGAAGA
+M.lucifugus.1                      AGGUGAAAA.UCUAAUUCACCAUUGAUACUCCUACUAUGGAGUCUGAAGA
+E.europaeus.1                      AGAUGAAAA.UUAAAUUCAUCACUGAUACUUCUACUGUGAAAUCUGAAGA
+S.araneus.1                        AGAUGAAAA.UUGAAUUCAUCACUGAUACUUGUACUGUGAAAUCUGAAGA
+E.caballus.1                       AGGUGAAAA.UUUAAUUCAUCACUGAUAGUCCUACUAUGGAAUCUGAAGA
+Monodelphis_domestic.1             AGAUGGGAA.UUGAAUUCAUCACUGAUAAAUAUUCUGUGAAAUCUGAAGA
+O.anatinus.1                       AGGUGAGCA.CUGAACUCAUCACUGAUAAUUGUUUGAUGCGAUCUGAAGA
+#=GC SS_cons                       .<<<<<<........>>>>>>.>.>>>..>>>>...>>>>>>>....>>>
+#=GC RF                            AGguGaaAA.uuuAauuCauCAcuGauuguCCuAuuguGgaaucuGAaGa
+
+O.cuniculus.1                      CACUUGAAAACCU
+O.princeps.1                       CACUUGAAAACAU
+C.porcellus.1                      CACUUCAAACCUA
+M.musculus.1                       CACUUGAAAAC.U
+R.norvegicus.1                     CACUUGAAAACUA
+Spermophilus_tridece.1             CACUUGAAAACCU
+H.sapiens.1                        CACUUGAAAACGU
+T.belangeri.1                      CACUUGAAAGCAU
+C.lupus.1                          CACUUGGAAACCG
+F.catus.1                          CACUUGAAAACCU
+T.truncatus.1                      CACUUGAAAACCU
+B.taurus.1                         CACUUGAAAACUU
+M.lucifugus.1                      CACUUGAAAACCU
+E.europaeus.1                      CACUUGAAAAACU
+S.araneus.1                        CACUUAAAAACCU
+E.caballus.1                       CGCUUGAAAAUCU
+Monodelphis_domestic.1             CACAUGAAAAACU
+O.anatinus.1                       CACUUGAAAGUCU
+#=GC SS_cons                       >>>>>>.......
+#=GC RF                            CaCuugAAAAcgu
+//

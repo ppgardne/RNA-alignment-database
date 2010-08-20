@@ -1,0 +1,81 @@
+# STOCKHOLM 1.0
+#=GF ID    isrA
+#=GF AC    RF01385
+#=GF DE    isrA Hfq binding RNA
+#=GF AU    Daub J, Gardner PP
+#=GF GA    19.0
+#=GF NC    16.7
+#=GF TC    19.1
+#=GF SE    Predicted; WAR; Infernal
+#=GF SS    Predicted; WAR
+#=GF TP    Gene; sRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF RN    [1]
+#=GF RM    18725932
+#=GF RT    Deep sequencing analysis of small noncoding RNA and mRNA targets
+#=GF RT    of the global post-transcriptional regulator, Hfq.
+#=GF RA    Sittka A, Lucchini S, Papenfort K, Sharma CM, Rolle K, Binnewies
+#=GF RA    TT, Hinton JC, Vogel J;
+#=GF RL    PLoS Genet. 2008;4:e1000163.
+#=GF RN    [2]
+#=GF RM    18267966
+#=GF RT    Small RNAs encoded within genetic islands of Salmonella
+#=GF RT    typhimurium show host-induced expression and role in virulence.
+#=GF RA    Padalon-Brauch G, Hershberg R, Elgrably-Weiss M, Baruch K,
+#=GF RA    Rosenshine I, Margalit H, Altuvia S
+#=GF RL    Nucleic Acids Res. 2008;36:1913-1927.
+#=GF WK    http://en.wikipedia.org/wiki/Hfq_binding_sRNA
+#=GF SQ    10
+
+#=GS Salmonella_enterica_.1 AC    CP000026.1/2566819-2566947
+#=GS S.enterica.1           AC    AJ320483.1/34605-34733
+#=GS Salmonella_enterica_.2 AC    CP001138.1/319039-319167
+#=GS Salmonella_enterica_.3 AC    AE017220.1/332318-332446
+#=GS Salmonella_enterica_.4 AC    CP001144.1/341301-341429
+#=GS Salmonella_enterica_.5 AC    ABEL01000001.1/44634-44750
+#=GS Salmonella_enterica_.6 AC    ABEI01000010.1/55524-55652
+#=GS Salmonella_enterica_.7 AC    ABEI01000010.1/57820-57936
+#=GS Salmonella_enterica_.8 AC    CP001113.1/341502-341630
+#=GS Shigella_flexneri_5_.1 AC    CP000266.1/661372-661500
+
+Salmonella_enterica_.1             AUCUUCACGGUGACGCUGCGCCCGGUCUCAAAUCCCGCUUCUUCCUGCCA
+S.enterica.1                       AUCUUCACGGUGACGCCGUGCCCGGUCUCAAAUCCCGCUUCUUCCUGCCA
+Salmonella_enterica_.2             AUCUUCACCGUCACGCUGCGCCCGGUCUCAAAUCCCGCUUCUUCCUGCCA
+Salmonella_enterica_.3             AUCUUCACGGUGACGCCGCGCCCGGUCUUAAAUCCCGCUUCUUCCAGCCA
+Salmonella_enterica_.4             AUCUUCACGGUGACGCCGCGCCCGGUCUUAAAUCCCGCUUCUUCCAGCCA
+Salmonella_enterica_.5             AUCUUCACAACAACGCUCGCCCCGGUCUCAAAUCCCGCUUCUUCCUGGCA
+Salmonella_enterica_.6             AUCUUCACUGUCACGCUCGCGCCGGUAUCAAAUCCCGCUUCUGUCAGCCA
+Salmonella_enterica_.7             AUCUUCACCGUCACGCUGCGCCCGGUCUCAAAUCCCGCUUCUUCCUGGCA
+Salmonella_enterica_.8             AUCUUCACGGUCACGCUGCGCCCGGUCUCAAAUCCCGCUUCUUCCUGCCA
+Shigella_flexneri_5_.1             AUCUUCACCGUGACACCCCGUCCGGUAUCAAAUCCGGCCUCUUUCAGCCA
+#=GC SS_cons                       ..........................<.<<<<<<<<............<<
+#=GC RF                            AUCUUCACgGUcACGCUgggcCCGGUCUCaaAUCCCGCUUCUucCaGcCA
+
+Salmonella_enterica_.1             GUCACCCUUAAGGUGCUGGCUGGGGAU.UUGUGAGUAACAGGCGGUCAUG
+S.enterica.1                       GUCACCCUUAAGGUGCUGGCUGGGGAU.UUGUGAGUAACAGGCGGUCAUG
+Salmonella_enterica_.2             GUCACCCUUAAGGUGCUGGCUGGGGAU.UUGUGAGUAACAGGUGGUUAUA
+Salmonella_enterica_.3             GUCGCCCUUAAGGUGCAGGCUGGGGAU.UUGUGAGUAACAGGUGGUUAUA
+Salmonella_enterica_.4             GUCGCCCUUAAGAUGCAGGCUGGGGAU.UUGUGAGUAAUAGGUGGUCAUG
+Salmonella_enterica_.5             GUCGCC............GCUGGGGAU.UUGUGAGUAACAGGUGGUCAUG
+Salmonella_enterica_.6             GUCACCCUUGAGAUGCAGGCUGGGAAU.GCGUGAGUAAUAGGUGGUCAUG
+Salmonella_enterica_.7             GUCGCC............GCUGGGGAU.UUGUGAGUAACAGGCGGUCAUG
+Salmonella_enterica_.8             GUCACCCUUAAGGUGCUGGCUGGGGAU.AUGUGAGUAACUGGUGGUCAUG
+Shigella_flexneri_5_.1             GUCGCCCUUAAGGUGCAGGCUG.GGAUGUUGUGAAUAAUACCGGGCUAUA
+#=GC SS_cons                       <<<<<<.....>>>>...>>>>>>>>>.>>>.>.................
+#=GC RF                            GuCacCCUUaAGguGCaGgCUGGGGAU.uuGUGAGUAAcAGGUGGUCAUG
+
+Salmonella_enterica_.1             CAGGUUUCGCUGUUGAUAUGGCGGACGCUG
+S.enterica.1                       CAGGUUUCGCUGUUGAUAUGGCGGACGCUG
+Salmonella_enterica_.2             CAGGUUUCGCUGUUGAUGUGGCGGACGCUG
+Salmonella_enterica_.3             CAGGUUUCGCUGUUGAUGUGGCGGACGCUG
+Salmonella_enterica_.4             UGGGUUUUGCUGUUGAUGUGGCGGACGCUG
+Salmonella_enterica_.5             CAGGUUUCGCUGUUGAUGUGGCGGACGCUG
+Salmonella_enterica_.6             UGGGUUUUGCUGUUCUCGUGGCGGACGCUG
+Salmonella_enterica_.7             CAGGUUUCGCUGUUGAUGUGGCGGACGCUG
+Salmonella_enterica_.8             CAGGUUUCGCUGUUGAUGUGGCGGACGCUG
+Shigella_flexneri_5_.1             CCGGUUUUGCGGUCCUGGUGGCGGGCUCUG
+#=GC SS_cons                       .......<<<..........>>>.......
+#=GC RF                            caGGUUUCGCUGUUgAuGUGGCGGACGCUG
+//

@@ -1,0 +1,77 @@
+# STOCKHOLM 1.0
+#=GF ID    MicC
+#=GF AC    RF00121
+#=GF DE    MicC RNA
+#=GF AU    Moxon SJ
+#=GF GA    35.0
+#=GF NC    33.1
+#=GF TC    36.8
+#=GF PI    IS063
+#=GF SE    Hershberg R
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; sRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000655 SO:ncRNA
+#=GF RN    [1]
+#=GF RM    12069726
+#=GF RT    A bioinformatics based approach to discover small RNA genes in the
+#=GF RT    Escherichia coli genome.
+#=GF RA    Chen S, Lesnik EA, Hall TA, Sampath R, Griffey RH, Ecker DJ, Blyn LB;
+#=GF RL    Biosystems 2002;65:157-177.
+#=GF RN    [2]
+#=GF RM    15466019
+#=GF RT    MicC, a second small-RNA regulator of Omp protein expression in
+#=GF RT    Escherichia coli.
+#=GF RA    Chen S, Zhang A, Blyn LB, Storz G;
+#=GF RL    J Bacteriol 2004;186:6689-6697.
+#=GF CC    MicC (previously known as IS063 [1]) is located between the ompN and ydbK
+#=GF CC    genes in E. coli. This family is thought to be a regulator of OmpC
+#=GF CC    expression. Along with Rfam:RF00033 this family may act in conjunction with
+#=GF CC    EnvZ-OmpR two-component system to control the OmpF/OmpC protein ratio in
+#=GF CC    response to a variety of environmental stimuli [2]. 
+#=GF WK    http://en.wikipedia.org/wiki/MicC_RNA
+#=GF SQ    8
+
+#=GS C.bifermentans.1       AC    AJ277528.1/168-288
+#=GS E.aerogenes.1          AC    EF682131.1/218-344
+#=GS Klebsiella_pneumonia.1 AC    CP000647.1/1603837-1603960
+#=GS S.enterica.1           AC    AL627270.1/60166-60286
+#=GS Salmonella_enterica_.1 AC    AE006468.1/1745671-1745789
+#=GS Shigella_flexneri_2a.1 AC    AE005674.1/1860956-1861077
+#=GS Shigella_dysenteriae.1 AC    CP000034.1/1341223-1341344
+#=GS marine_metag.1         AC    AACY022965012.1/342-461
+
+C.bifermentans.1                   CGUGUUAUAUGCCUUUAUUGUCAC....GUUUAUUUUUC..GUUGACGUA
+E.aerogenes.1                      UGGGUUAUAUGCCUUUAUUGUCAUUUAAAAUUUAUAUUGUUGCCGUCUCA
+Klebsiella_pneumonia.1             CGCGUUAUAUGCCUUUAUUGUCAUGCCAAUAAUUUAUUGUUGCCGUCUCA
+S.enterica.1                       CCUGUUAUAUGCCUUUAUUGUCAC...AUAUUCAUUUUGUCGUUGGGCCA
+Salmonella_enterica_.1             CCUGUUAUAUGCCUUUAUUGUCAC...AUAUUCAUUUUGUCGCUGGGCCA
+Shigella_flexneri_2a.1             CGGGUUAUAUGCCUUUAUUGUCAC...AGAUUUUAUUUUCUGUUGGGCCA
+Shigella_dysenteriae.1             CGGGUUAUAUGCCUUUAUUGUCAC...AGAUUUUAUUUUCUGUUGGGCCA
+marine_metag.1                     CGUGUUAUAUGCCUUUAUUGUCAC...GUUUUAUUUUUC..GUUGGUAUA
+#=GC SS_cons                       ......<<<<<....>>.>>>....................<<<<<<...
+#=GC RF                            cguGUUAuAuGCCUUUaUUgUCAc...AaAUUuauuUUguuGcuGgcacA
+
+C.bifermentans.1                   UUGAUA.GCUAUUAU.UAAUUAGCCAGCGAAUAAAUUGACAAGCCCGAAC
+E.aerogenes.1                      UUCAUAUCGAAUGAU.UAAUUCGUCGGAAAAU.....GACAAGCCCGAAU
+Klebsiella_pneumonia.1             UUCUGC.GGAAUGAUGUUGUUUAUCGGUAAAA....CGACAAGCCCGAAC
+S.enterica.1                       UUGC...GUUAACCU.UUGCUUUCCAGCGUAUAAAUUGACAAGCCCGAAC
+Salmonella_enterica_.1             UUGC...GUUAACCU.UUGCUUUCCAGCGUAUAAAUUGACAAGCCCGAAC
+Shigella_flexneri_2a.1             UUGC...AUUGCCAC.UGAUUUUCCAACAUAUAAAAAGACAAGCCCGAAC
+Shigella_dysenteriae.1             UUGC...AUUGCUAC.UGAUUUUCCAACAUAUAAAAAGACAAGCCCGAAC
+marine_metag.1                     UUGAUG.GUAAUUAU.UAAUUAGCCAGCGAAUAAAUUGACAAGCCCGAAC
+#=GC SS_cons                       ......................>>>>>>.........<<.<<<<<<<<<<
+#=GC RF                            UUgaUA.guuAuuAU.UaAUUugcCagCaaAUAAAuuGACAAGCCCGaAC
+
+C.bifermentans.1                   AACCC....GUUCGGGCUUUUUUUUGGGU.UCCA
+E.aerogenes.1                      AGUUUUACUAUUCGGGCUUUUUUUAUUGC.GCCA
+Klebsiella_pneumonia.1             GUUGU....GUUCGGGCUUUUUUUAUGGA.CAAA
+S.enterica.1                       .GGAU....GUUCGGGCUUUUUUUGUCUA.UGGA
+Salmonella_enterica_.1             .GGAU....GUUCGGGCUUUUUUUGU...UUCCA
+Shigella_flexneri_2a.1             .AGUC....GUCCGGGCUUUUUUUUUAGAAUUGG
+Shigella_dysenteriae.1             .AGUC....GUCCGGGCUUUUUUUUAGAAUUGGA
+marine_metag.1                     .AACU....GUUCGGGCUUUUUUUUGG..UUCCA
+#=GC SS_cons                       .........>>>>>>>>>>>>.............
+#=GC RF                            .aguu....GUuCGGGCUUUUUUUuuggauuccA
+//

@@ -1,0 +1,47 @@
+# STOCKHOLM 1.0
+#=GF ID    TMV_UPD-PK2
+#=GF AC    RF01115
+#=GF DE    Pseudoknot of upstream pseudoknot domain (UPD) of the 3'UTR
+#=GF AU    Wilkinson A
+#=GF GA    25.0
+#=GF NC    0.0
+#=GF TC    31.5
+#=GF SE    Pseudobase
+#=GF SS    Pseudobase
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    PKBASE; PKB00054
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    3934645
+#=GF RT    Five pseudoknots are present at the 204 nucleotides long 3' noncoding
+#=GF RT    region of tobacco mosaic virus RNA.
+#=GF RA    van Belkum A, Abrahams JP, Pleij CW, Bosch L;
+#=GF RL    Nucleic Acids Res. 1985;13:7673-7686.
+#=GF RN    [2]
+#=GF RM    8355685
+#=GF RT    A phylogenetically conserved sequence within viral 3' untranslated
+#=GF RT    RNA pseudoknots regulates translation.
+#=GF RA    Leathers V, Tanguay R, Kobayashi M, Gallie DR;
+#=GF RL    Mol Cell Biol. 1993;13:5331-5347.
+#=GF RN    [3]
+#=GF RM    8608444
+#=GF RT    A central pseudoknotted three-way junction imposes tRNA-like mimicry
+#=GF RT    and the orientation of three 5' upstream pseudoknots in the 3'
+#=GF RT    terminus of tobacco mosaic virus RNA.
+#=GF RA    Felden B, Florentz C, Giege R, Westhof E;
+#=GF RL    RNA. 1996;2:201-212.
+#=GF WK    http://en.wikipedia.org/wiki/UPSK_RNA
+#=GF SQ    3
+
+#=GS uncul.human.fecal.vi.1 AC    AAMH01004131.1/259-280
+#=GS Tobacco_mosaic_virus.1 AC    Z96945.1/527-548
+#=GS Tobacco_mosaic_virus.2 AC    X02144.1/6226-6247
+
+uncul.human.fecal.vi.1             CGUGGUGCGUACGAUAACGUAC
+Tobacco_mosaic_virus.1             CGUGGUGCGUACGAUAACGCAU
+Tobacco_mosaic_virus.2             CGUGGUACGUACGAUAACGUAC
+#=GC SS_cons                       <<<.AAAAAA>>>...aaaaaa
+#=GC RF                            CGuGGUGCGUaCGAUAACGCAU
+//

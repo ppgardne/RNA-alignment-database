@@ -1,0 +1,36 @@
+# STOCKHOLM 1.0
+#=GF ID    MIR1444
+#=GF AC    RF00956
+#=GF DE    microRNA MIR1444
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    85.6
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000461
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    3
+
+#=GS P.trichocarpa.1 AC    AARH01004320.1/1047188-1047272
+#=GS P.trichocarpa.2 AC    AARH01003581.1/172213-172299
+#=GS P.trichocarpa.3 AC    AARH01028621.1/1102-1186
+
+P.trichocarpa.1             UUUAUCCCUCGAAUAUUGAUCGAAUAUGUAUGAAAUAUGAUGGUUAUAUG
+P.trichocarpa.2             UUUAUCACUUGAAUGUUGACCGAAUAUGGAUGAAAAGUUGUUUUCUGUUU
+P.trichocarpa.3             UUUAUCCCUCGAAUAUUGAUCGAAUAUGUAUGAAAUAUGAUGGUUAAAUG
+#=GC SS_cons                <<<<<<.<<<<<<..<<<<<<<<<<.<<.<<<<<<<.............>
+#=GC RF                     UUUAUCMCUCGAAURUUGAYCGAAUAUGKAUGAAAWRUGRUGGUYARAUG
+
+P.trichocarpa.1             ..UUUCAUUCACAUUCGGUCAACGUUCGAGUGAUAAA
+P.trichocarpa.2             CCUUUCCUCCACAUUCGGUCAAUGUUCCAGUGAUGAG
+P.trichocarpa.3             ..UUUCAUUCACAUUCGGUCAACGUUCGAGUGAUAAA
+#=GC SS_cons                ..>>>>>>.>>.>>>>>>>>>>..>>>>>>.>>>>>>
+#=GC RF                     ccUUUCMUYCACAUUCGGUCAACGUUCSAGUGAURAR
+//

@@ -1,0 +1,48 @@
+# STOCKHOLM 1.0
+#=GF ID    sR8
+#=GF AC    RF01311
+#=GF DE    Small nucleolar RNA sR8
+#=GF AU    Wilkinson A
+#=GF GA    25.0
+#=GF NC    0.0
+#=GF TC    25.0
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    URL; http://lowelab.ucsc.edu/snoRNAdb/
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF WK    http://en.wikipedia.org/wiki/SnoRNA
+#=GF SQ    7
+
+#=GS Sulfolobus_tokodaii_.1 AC    BA000023.2/2214767-2214819
+#=GS S.solfataricus.1       AC    Y18930.1/78455-78505
+#=GS Sulfolobus_acidocald.1 AC    CP000077.1/2175748-2175798
+#=GS Methanocaldococcus_j.1 AC    L77117.1/260396-260448
+#=GS P.abyssi.1             AC    AJ248287.2/209215-209267
+#=GS Pyrococcus_furiosus_.1 AC    AE009950.1/334013-334065
+#=GS Pyrococcus_horikoshi.1 AC    BA000001.2/535485-535537
+
+Sulfolobus_tokodaii_.1             UUAUGAUGAAGCCCGCCCUUUGCGGAAC.UAUGAAGAUAGAACCCGAGGC
+S.solfataricus.1                   AAAUGAUGAGGGU..UCCAGAGCUGAAG.CGUGAUGAAUGGUUGACACGC
+Sulfolobus_acidocald.1             ..AUGAUGAAGCCCGCCAUCAACAGAUA.AGUGAAGAGGGAACCCGAGGC
+Methanocaldococcus_j.1             CAAUGAUGACGAUUGGCUUUG.CUGAGUCUGUGAUGAACCGUAUGAGCAC
+P.abyssi.1                         CGAUGAUGAGCUCCAUCCCUAUCUGAGU.UGUGAUGACUGUAGCGCGCUC
+Pyrococcus_furiosus_.1             CAAUGAUGAGCUCUAUCCCUAUCUGACC.CAUGAUGACUGUAGCGCGCGC
+Pyrococcus_horikoshi.1             CGAUGAUGAGCUCCAUCCCUACCUGAGU.UGUGAUGAAUGUAGCGCGCUC
+#=GC SS_cons                       ..................................................
+#=GC RF                            cAAUGAUGAggucuGuCuuuAgCUGAau.cGUGAUGAauGgaacgaGcGC
+
+Sulfolobus_tokodaii_.1             UGAA
+S.solfataricus.1                   UGAC
+Sulfolobus_acidocald.1             UGAG
+Methanocaldococcus_j.1             UGAG
+P.abyssi.1                         UGAG
+Pyrococcus_furiosus_.1             UGAG
+Pyrococcus_horikoshi.1             UGAG
+#=GC SS_cons                       ....
+#=GC RF                            UGAG
+//

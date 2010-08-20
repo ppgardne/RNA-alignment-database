@@ -1,0 +1,85 @@
+# STOCKHOLM 1.0
+#=GF ID    PrfA
+#=GF AC    RF00038
+#=GF DE    PrfA thermoregulator UTR
+#=GF AU    Bateman A
+#=GF GA    88.0
+#=GF NC    0.0
+#=GF TC    121.0
+#=GF SE    Bateman A
+#=GF SS    Predicted; PFOLD
+#=GF TP    Cis-reg; thermoregulator;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    12230973
+#=GF RT    An RNA thermosensor controls expression of virulence genes in
+#=GF RT    Listeria monocytogenes.
+#=GF RA    Johansson J, Mandin P, Renzoni A, Chiaruttini C, Springer M, Cossart
+#=GF RA    P;
+#=GF RL    Cell 2002;110:551-561.
+#=GF CC    In Listeria monocytogenes, virulence genes are maximally expressed
+#=GF CC    at 37 degrees C, almost silent at 30 degrees C and controlled by
+#=GF CC    PrfA, a transcriptional activator whose expression is
+#=GF CC    thermoregulated. It has been shown that the untranslated mRNA
+#=GF CC    (UTR) preceding prfA, forms a secondary structure, which masks
+#=GF CC    the ribosome binding region [1]. This family also contains
+#=GF CC    UTRs from other closely related bacteria. The secondary structure
+#=GF CC    of this motif forms a hairpin. The Shine-Dalgarno (SD) sequence is
+#=GF CC    partly masked by the most conserved stem of the secondary structure.
+#=GF CC    It is thought that at 37 degrees C the SD sequence is unmasked [1].
+#=GF WK    http://en.wikipedia.org/wiki/PrfA_thermoregulator_UTR
+#=GF SQ    11
+
+#=GS L.monocytogenes.1 AC    X54618.1/1184-1313
+#=GS L.monocytogenes.2 AC    AJ002742.1/161-290
+#=GS L.ivanovii.1      AC    AJ132964.1/66-198
+#=GS L.monocytogenes.3 AC    AL591974.1/4339-4468
+#=GS L.ivanovii.2      AC    AJ132963.1/66-198
+#=GS L.ivanovii.3      AC    X72685.1/1303-1435
+#=GS L.ivanovii.4      AC    AJ132962.1/66-198
+#=GS L.monocytogenes.4 AC    X61210.1/159-288
+#=GS L.seeligeri.1     AC    X97014.1/5003-5134
+#=GS L.monocytogenes.5 AC    M55160.1/297-426
+#=GS L.monocytogenes.6 AC    M24199.1/10-139
+
+L.monocytogenes.1             UGUAAAAAACAUCAUUUAGCGUGACUUUCUUUCAACAGCUAACAAUUGUU
+L.monocytogenes.2             UGUAAAAAAUAUUAUUUAGCGUGACUUUCUUUCAACAGAUAACAAUUGUU
+L.ivanovii.1                  UGUAAAAAACAUUAUUUAGCGUGAUUUUCUAUCAACAGCUAACAAUUGUU
+L.monocytogenes.3             UGUAAAAAACAUCAUUUAGCGUGACUUUCUUUCAACAGCUAACAAUUGUU
+L.ivanovii.2                  UGUAAAAAACAUUAUUUAGCGUGAUUUUCUAUCAACAGCUAACAAUUGUU
+L.ivanovii.3                  UGUAAAAAACAUUAUUUAGCGUGAUUUUCUAUCAACAGCUAACAAUUGUU
+L.ivanovii.4                  UGUAAAAAACAUUAUUUAGCGUGAUUUUCUAUCAACAGCUAACAAUUGUU
+L.monocytogenes.4             UGUAAAAAACAUCAUUUAGCGUGACUUUCUUUCAACAGCUAACAAUUGUU
+L.seeligeri.1                 AAGUAAAUACAUGGCAGAGAGUCG.UUUCUAACAAAAACUAACAAUUGUU
+L.monocytogenes.5             UGUAAAAAACAUCAUUUAGCGUGACUUUCUUUCAACAGCUAACAAUUGUU
+L.monocytogenes.6             UGUAAAAAACAUCAUUUAGCGUGACUUUCUUUCAACAGCUAACAAUUGUU
+#=GC SS_cons                  .................<<<<.....................<<<<<<<<
+
+L.monocytogenes.1             GUUACUGCCUAAUG...UUUUUAGGGUA.UUUUAAAAAAGGGCGAUAAAA
+L.monocytogenes.2             GUUACUGCCUAAUG...UUUUUAGGGUA.UUUUAAAAAAGGGCGAUAAAA
+L.ivanovii.1                  AUUAAUGCCUAGCGCAAUCAUAAGGAUAAUUUUUCAAAAAGGCUAUAAAA
+L.monocytogenes.3             GUUACUGCCUAAUG...UUUUUAGGGUA.UUUUAAAAAAGGGCGAUAAAA
+L.ivanovii.2                  AUUAAUGCCUAGCGCAAUCAUAAGGAUAAUUUUUCAAAAAGGCUAUAAAA
+L.ivanovii.3                  AUUAGUGCCUAGCGCAAUCAUAAGGAUAAUUUUUCAAAAAGGCUAUAAAA
+L.ivanovii.4                  AUUAAUGCCUAGCGCAAUCAUAAGGAUAAUUUUUCAAAAAGGCUAUAAAA
+L.monocytogenes.4             GUUACUGCCUAAUG...UUUUUAGGGUA.UUUUAAAAAAGGGCGAUAAAA
+L.seeligeri.1                 AUUGCUGUCUAAGCU..UCAAAAGGGUAAUUUUAAAAUGGGAAGUUAAAG
+L.monocytogenes.5             GUUACUGCCUAAUG...UUUUUAGGGUA.UUUUAAAAAAGGGCGAUAAAA
+L.monocytogenes.6             GUUACUGCCUAAUG...UUUUUAGGGUA.UUUUAAAAAAGGGCGAUAAAA
+#=GC SS_cons                  .......<<...............................>>.......>
+
+L.monocytogenes.1             AACGAUUGGGGGAUGA.GACAUGAACGCUCAAGCA
+L.monocytogenes.2             AACGAUUGGGGGAUGA.GACAUGAACGCUCAAGCA
+L.ivanovii.1                  A.CGAUUGGGGGAUGA.AAAAUGGACGCUCAAGCA
+L.monocytogenes.3             AACGAUUGGGGGAUGA.GACAUGAACGCUCAAGCA
+L.ivanovii.2                  A.CGAUUGGGGGAUGA.AAAAUGGACGCUCAAGCA
+L.ivanovii.3                  A.CGAUUGGGGGAUGA.AAAAUGGACGCUCAAGCA
+L.ivanovii.4                  A.CGAUUGGGGGAUGA.AAAAUGGACGCUCAAGCA
+L.monocytogenes.4             AACGAUUGGGGGAUGA.GACAUGAACGCUCAAGCA
+L.seeligeri.1                 AACAAUUGGAGGAUGACGAUGUGAGCACUAAAGCA
+L.monocytogenes.5             AACGAUUGGGGGAUGA.GACAUGAACGCUCAAGCA
+L.monocytogenes.6             AACGAUUGGGGGAUGA.GACAUGAACGCUCAAGCA
+#=GC SS_cons                  >.>>>>>>.................>>>>......
+//

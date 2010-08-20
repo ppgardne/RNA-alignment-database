@@ -1,0 +1,48 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-207
+#=GF AC    RF00802
+#=GF DE    microRNA mir-207
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    29.6
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000241
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    7
+
+#=GS O.cuniculus.1          AC    AAGW01389943.1/3853-3930
+#=GS M.musculus.1           AC    AB183426.1/6611-6689
+#=GS Spermophilus_tridece.1 AC    AAQQ01038110.1/88-165
+#=GS H.sapiens.1            AC    ABBA01065072.1/33342-33420
+#=GS Otolemur_garnettii_s.1 AC    AAQR01035344.1/581-657
+#=GS C.lupus.1              AC    AAEX02016388.1/137840-137915
+#=GS B.taurus.1             AC    AAFC03003387.1/34701-34783
+
+O.cuniculus.1                      GAGG....CAGGGGCGAGGGGCUGCGGGAGGAGCCGGGCGG.UGCUGCGG
+M.musculus.1                       AAGG....CAGGGGUGAGGGGCUGCGGGAGGAGCCGGGCGGAGGCUGCGG
+Spermophilus_tridece.1             GAGG....CAGGGGCGAGGGGCUGCGAGAGGAGCCGAGC.GAGGCUGCUG
+H.sapiens.1                        GAGG....CAGGGGCGAGGGGCUGCGGGGGGAGCCGGGCGGAGACUGCGG
+Otolemur_garnettii_s.1             GGAG....UAGGGGCGAGGGGCUGCGGGAGGAGCCGGGC.GAAGCUGC.G
+C.lupus.1                          GAGC....CAGGGGCGAGGGGCUGCGGGGGGAGCGGGGCGGAGGCUGCGG
+B.taurus.1                         AAGGACCCUUGGGGCGAGGGGCUGCGGGAGGAGCCGGGCGGAGGCUGCGG
+#=GC SS_cons                       .<<<.....<<<<<.<<<<<<..<<<<<<<<<<<<<<<<.<......>.>
+#=GC RF                            aagg....aaggggugaggggaugcgggaggagccgggcggAggaugcgg
+
+O.cuniculus.1                      GUUUCGCUUCUCCAGUCUCCCCUCCUUCUCUUU
+M.musculus.1                       CUUGCGCUUCUCCUGGCUCUCCUCCCUCUCUUU
+Spermophilus_tridece.1             CUUUCGCUUCUCCUGUCUCCCCUCCCUCUCUUU
+H.sapiens.1                        CUUUUGGUUUCGCUUUCUCUGUUUCCCCUCCCU
+Otolemur_garnettii_s.1             CUUUCGUUUCUCUUGUCUCUCCUCCCUCUCUUG
+C.lupus.1                          CC...GCUUCUCCGGUCUCUCCUCCUUCCCUUU
+B.taurus.1                         CUUUCGUUUCUCUGGUCUCUCCUCCUCCUCUUU
+#=GC SS_cons                       >>>>.>>>>>>>>>.>>.>>>>>>>>>>>>>>.
+#=GC RF                            cccgagcuccucccggcuccccucccccuccuu
+//

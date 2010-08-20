@@ -1,0 +1,93 @@
+# STOCKHOLM 1.0
+#=GF ID    sraL
+#=GF AC    RF01408
+#=GF DE    sraL Hfq binding RNA
+#=GF AU    Daub J, Gardner PP
+#=GF GA    26.0
+#=GF NC    24.1
+#=GF TC    28.4
+#=GF PI    ryjA
+#=GF SE    Predicted; ClustalW; Infernal
+#=GF SS    Predicted; RNAalifold
+#=GF TP    Gene; sRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF RN    [1]
+#=GF RM    18725932
+#=GF RT    Deep sequencing analysis of small noncoding RNA and mRNA targets
+#=GF RT    of the global post-transcriptional regulator, Hfq.
+#=GF RA    Sittka A, Lucchini S, Papenfort K, Sharma CM, Rolle K, Binnewies
+#=GF RA    TT, Hinton JC, Vogel J;
+#=GF RL    PLoS Genet. 2008;4:e1000163.
+#=GF RN    [2]
+#=GF RM    11448770
+#=GF RT    Novel small RNA-encoding genes in the intergenic regions of
+#=GF RT    Escherichia coli.
+#=GF RA    Argaman L, Hershberg R, Vogel J, Bejerano G, Wagner EG, Margalit
+#=GF RA    H, Altuvia S
+#=GF RL    Curr Biol. 2001;11:941-950.
+#=GF RN    [3]
+#=GF RM    11445539
+#=GF RT    Identification of novel small RNAs using comparative genomics and
+#=GF RT    microarrays.
+#=GF RA    Wassarman KM, Repoila F, Rosenow C, Storz G, Gottesman S
+#=GF RL    Genes Dev. 2001;15:1637-1651.
+#=GF RN    [4]
+#=GF RM    12762038
+#=GF RT    Small RNA regulators of translation: mechanisms of action and
+#=GF RT    approaches for identifying new small RNAs.
+#=GF RA    Gottesman S, Storz G, Rosenow C, Majdalani N, Repoila F,
+#=GF RA    Wassarman KM
+#=GF RL    Cold Spring Harb Symp Quant Biol. 2001;66:353-362.
+#=GF WK    http://en.wikipedia.org/wiki/Hfq_binding_sRNA
+#=GF SQ    7
+
+#=GS Enterobacter.1         AC    CP000653.1/314651-314792
+#=GS Escherichia_coli_CFT.1 AC    AE014075.1/4830485-4830625
+#=GS Klebsiella_pneumonia.1 AC    CP000647.1/4885978-4886125
+#=GS S.enterica.1           AC    X63534.1/2530-2664
+#=GS Salmonella_enterica_.1 AC    ABAO01000007.1/104981-105121
+#=GS Salmonella_enterica_.2 AC    AE017220.1/4439487-4439627
+#=GS marine_metag.1         AC    AACY022247151.1/190-331
+
+Enterobacter.1                     GUCAGCACAAACCGGAACCUCC.CCAAC....UGCUCGACA.UGAGGGGU
+Escherichia_coli_CFT.1             AUCAACACCAACCGGAACCUCCACCACG....UGCUCGA.A.UGAGGUGU
+Klebsiella_pneumonia.1             GUCGACGCAAACCGGAACCUCCAUCAACAGAUUGCGCAAUACUGAGGGAC
+S.enterica.1                       GUUAGCACAAACCGGAA...CCUUGAAA....GA......G.....GGGU
+Salmonella_enterica_.1             AUCAACACAAACCGGAACCUCCACCACG....UGCUCGAUA.UGAGGGGU
+Salmonella_enterica_.2             AUCAACACAAACCGGAACCUCCACCACG....UGCUCGAUA.UGAGGGGU
+marine_metag.1                     AUCAACACAGGCCGGAACCUCCCCUAAUG...UGCUCGA.C.UGAGGGGU
+#=GC SS_cons                       .<<<<<<<.....<<.....>>............<<<<....>>>>..>>
+#=GC RF                            auCgaCgcAAAccGGAAccuCCAccAAa....uGCuCgAuA.cGaGGggc
+
+Enterobacter.1                     GUUGAUGUCGGGGGAAA.CCCUCCC.GUGAACCAGCGGGAUAGAGAGAAA
+Escherichia_coli_CFT.1             GUUGACGUCGGGGGAAA.CCCUCCU.GUGUACCAGCGGGAUAGAGAGAAA
+Klebsiella_pneumonia.1             GUCGACGUCGGGGGAAA.CCCUCUC.GCGAACCAGCGAGAUAAUGCGAAA
+S.enterica.1                       GCUGAUGCCGGGGGAAAACCCUCCUAGCCAGUGAGCAGGAUAA..CUAAA
+Salmonella_enterica_.1             GUUGACGUCGGGGGAAA.CCCUCCU.GUA.AUCAGCGGGAUAGAGCGAAA
+Salmonella_enterica_.2             GUUGACGUCGGGGGAAA.CCCUCCU.GUA.AUCAGCGGGAUAGAGCGAAA
+marine_metag.1                     GUUGAUGUCGGGGGAAA.CCCUCCC.GUGAACCAGCGGGAUAGAGUGAAA
+#=GC SS_cons                       >>>>>.<<<.<<<.....>>><<<<.<<......>>>>>>..........
+#=GC RF                            GucGauGuCGGGGGAAA.CCCuCcc.GcgAAccAgCggGauAgAGaGAAA
+
+Enterobacter.1                     GACAAAGAC........CGGGAA.UAAACUAAAGCGCCUUAGUCUGGCGC
+Escherichia_coli_CFT.1             GACAAAGAC........CGGAAAACAAACUAAAGCGCCCUU..GUGGCGC
+Klebsiella_pneumonia.1             GACCAAGAC........CGGAAAACAA.CUAAAGCGCCCAGUUGUGGCGC
+S.enterica.1                       GGCCAGACCGAAAUUUUUGCAGU.AAAACAAAGGCGCCUAG....GGCGC
+Salmonella_enterica_.1             GACAAAGAC........CGGAAA.CAAACUAAAGCGCCCUUA.GCGGCGC
+Salmonella_enterica_.2             GACAAAGAC........CGGAAA.CAAACUAAAGCGCCCUUA.GCGGCGC
+marine_metag.1                     GACAAAGAC........CGGAAC.CAAACUAAAGCGCCCUCU.GUGGCGC
+#=GC SS_cons                       >>>......................<<<<<<<<<<<<<.......>>>>>
+#=GC RF                            GaCAAAGAc........cGGAAA.caaaCuaaaGCGCCcuaa.guGGCGC
+
+Enterobacter.1                     UUUA.GUUUU
+Escherichia_coli_CFT.1             UUUA.GUUUU
+Klebsiella_pneumonia.1             UUUA.GUUUU
+S.enterica.1                       UUUUUGUUUU
+Salmonella_enterica_.1             UUUA.GUUUU
+Salmonella_enterica_.2             UUUA.GUUUU
+marine_metag.1                     UUUA.GUUUU
+#=GC SS_cons                       >>>>.>>>>.
+#=GC RF                            uuua.Guuuu
+//

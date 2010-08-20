@@ -1,0 +1,51 @@
+# STOCKHOLM 1.0
+#=GF ID    RF_site9
+#=GF AC    RF01098
+#=GF DE    Gag/pro ribosomal frameshift site
+#=GF AU    Wilkinson A
+#=GF GA    29.0
+#=GF NC    0.0
+#=GF TC    34.2
+#=GF SE    Pseudobase
+#=GF SS    Pseudobase
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    PKBASE; PKB00080
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    2402881
+#=GF RT    RNA pseudoknots: translational frameshifting and readthrough on viral
+#=GF RT    RNAs.
+#=GF RA    ten Dam EB, Pleij CW, Bosch L;
+#=GF RL    Virus Genes. 1990;4:121-136.
+#=GF RN    [2]
+#=GF RM    1309954
+#=GF RT    An RNA pseudoknot and an optimal heptameric shift site are required
+#=GF RT    for highly efficient ribosomal frameshifting on a retroviral
+#=GF RT    messenger RNA.
+#=GF RA    Chamorro M, Parkin N, Varmus HE;
+#=GF RL    Proc Natl Acad Sci U S A. 1992;89:713-717.
+#=GF RN    [3]
+#=GF RM    7723043
+#=GF RT    The structure of an RNA pseudoknot that causes efficient
+#=GF RT    frameshifting in mouse mammary tumor virus.
+#=GF RA    Shen LX, Tinoco I Jr;
+#=GF RL    J Mol Biol. 1995;247:963-978.
+#=GF RN    [4]
+#=GF RM    8759314
+#=GF RT    A characteristic bent conformation of RNA pseudoknots promotes -1
+#=GF RT    frameshifting during translation of retroviral RNA.
+#=GF RA    Chen X, Kang H, Shen LX, Chamorro M, Varmus HE, Tinoco I Jr;
+#=GF RL    J Mol Biol. 1996;260:479-483.
+#=GF WK    http://en.wikipedia.org/wiki/Ribosomal_frameshift
+#=GF SQ    2
+
+#=GS Mouse_mammary_tumor_.1 AC    M15122.1/3396-3444
+#=GS Human_mammary_tumor_.1 AC    DQ917496.1/479-528
+
+Mouse_mammary_tumor_.1             AAAAAACUUGUAAAGGGGCAGUCCCCUAGCC.CCGCUCAAAAGGGGGAUG
+Human_mammary_tumor_.1             AAAAAACUGGUAAAGGGGCAGUCCCCUAGCCGCCACUCAAAAGGGGGGAG
+#=GC SS_cons                       ..............<<<<<.AAAAAAA.>>>.>>........aaaaaaa.
+#=GC RF                            AAAAAAcUUGUAAAGGGGCAGUccccUAGCC.CCGcUcAAAAGGGGGAUG
+//

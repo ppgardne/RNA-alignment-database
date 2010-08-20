@@ -1,0 +1,42 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-488
+#=GF AC    RF00861
+#=GF DE    microRNA mir-488
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    22.1
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000318
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    5
+
+#=GS E.telfairi.1   AC    AAIY01694145.1/4368-4450
+#=GS O.princeps.1   AC    AAYZ01007634.1/3565-3646
+#=GS R.norvegicus.1 AC    AAHX01076190.1/26147-26229
+#=GS M.mulatta.1    AC    AANU01240492.1/126475-126557
+#=GS H.sapiens.1    AC    AADB02001007.1/970549-970631
+
+E.telfairi.1               GAGAAUCCUCUCUCCCAGAUAAUGACACUCUCAGACAAGAGUCCAAGUUG
+O.princeps.1               GAGGAUCAUCUCUCCCAGAUAAUGGCACUCUCAAACGAGUUUCCAG.UUG
+R.norvegicus.1             GAGAAUCCUCUCUCCCAGAUAAUGGCACUCUCAAACAAGUUUCUACAUUG
+M.mulatta.1                GAGAAUCAUCUCUCCCAGAUAAUGGCACUCUCAAACAAGUUUCCAAGUUG
+H.sapiens.1                GAGAAUCAUCUCUCCCAGAUAAUGGCACUCUCAAACAAGUUUCCAAAUUG
+#=GC SS_cons               <<<<.<<.<<<..<<.<<<.<<<<<<.<<.<<<<<<<<.........>>>
+#=GC RF                    gagaAuccucucucccagauaacggcAcucucaaacaaguuucaAaauug
+
+E.telfairi.1               UUUGAAAGGCUAUUUCUUGGCCAGAAGACUCUC
+O.princeps.1               UUUGAAAGGCUAUUUCUUGGUCAGAAGACUCUC
+R.norvegicus.1             UUUGAAAGGCUGUUUCUUGGUCAGAAGACUCUC
+M.mulatta.1                UUUGAAAGGCUAUUUCUUGGUCAGAUGACUCUC
+H.sapiens.1                UUUGAAAGGCUAUUUCUUGGUCAGAUGACUCUC
+#=GC SS_cons               >>>>>.>>>>>>>>>>>.>>..>>>.>>.>>>>
+#=GC RF                    uuugaAaggccguuucuuggucagaggacucuc
+//

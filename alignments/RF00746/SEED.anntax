@@ -1,0 +1,94 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-454
+#=GF AC    RF00746
+#=GF DE    microRNA mir-454
+#=GF AU    Wilkinson A
+#=GF GA    45.0
+#=GF NC    0.0
+#=GF TC    54.1
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000174
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    16
+
+#=GS C.milii.1              AC    AAVX01227898.1/233-348
+#=GS C.milii.2              AC    AAVX01021344.1/1948-2058
+#=GS O.latipes.1            AC    BAAF04080581.1/3530-3641
+#=GS Gasterosteus_aculeat.1 AC    AANH01010010.1/101555-101669
+#=GS T.rubripes.1           AC    CAAB01003137.1/22507-22625
+#=GS D.rerio.1              AC    AC091299.2/31004-31120
+#=GS D.rerio.2              AC    BX957246.7/151170-151285
+#=GS G.gallus.1             AC    AADN02034763.1/4297-4411
+#=GS A.carolinensis.1       AC    AAWZ01024587.1/22473-22587
+#=GS E.telfairi.1           AC    AAIY01209324.1/410-527
+#=GS Spermophilus_tridece.1 AC    AAQQ01354557.1/98-209
+#=GS P.troglodytes.1        AC    AACZ02172078.1/1183-1297
+#=GS E.caballus.1           AC    AAWR02012955.1/98416-98530
+#=GS Dasypus_novemcinctus.1 AC    AAGV020132411.1/1110-1224
+#=GS Monodelphis_domestic.1 AC    AAFR03045417.1/66257-66371
+#=GS O.anatinus.1           AC    AAPN01410228.1/2958-3072
+
+C.milii.1                          AGC..GGGUUACCCCGGCAGCUGAAACCCUAUCUAUAUUGCGUCUGCUUU
+C.milii.2                          ACU..UUUGACACUCAAGUACUGGGACCCUAUCGAUAUUGCCUCUGCUUU
+O.latipes.1                        CUC..CCCAGAGCCUUGCAGAUGGGACCCUAUCAAUGUUGCCUCUGCUCU
+Gasterosteus_aculeat.1             GUC..CACGUGCCCUCGCAGAUGAGACCCUAUCAAUGUUGCCUCUGCUUU
+T.rubripes.1                       UCUUCCCUGUGGCCUUACUGGUGAGACCCUAUCAAUGUUGCCUCUGCUUU
+D.rerio.1                          UUGAGAAUUAAUCCUAAUUCUUGGGACCCUAUCAGUAUUGCCUCUGCUGU
+D.rerio.2                          GAU..AAAUGCAUCUUGCAGGCGAGACCCUAUCAAUAUUGCCUCUGCUUU
+G.gallus.1                         UUC..C...UAACCUUAAGGAUGAGACCCUAUCAAUAUUGCCUCUGCU.U
+A.carolinensis.1                   CCU..GUGAGAACUCUGAGGAUAAGACCCUAUCAAUAUUGCCUCUGCUUC
+E.telfairi.1                       CUU..UUUAAUUACCAGAUCCCAGAAGCUUAUUGAUAUU..CUCUGCUGU
+Spermophilus_tridece.1             UCU..GUUUAUCACCAGAUCCUAGAACCCUAUCAAUAUUGUCUCUGCUGU
+P.troglodytes.1                    UCU..GUUUAUCACCAGAUCCUAGAACCCUAUCAAUAUUGUCUCUGCUGU
+E.caballus.1                       CCU..GUUAACCACCAGAUCCUAGAACCCUAUCGAUAUUGUCUCUGCUGU
+Dasypus_novemcinctus.1             CCU..GUUUAUUACCAGAUCCUAGAACCCUAUCGAUAUUGUCUCUGCUGU
+Monodelphis_domestic.1             GUU..GAUAAUUAAUAGAUCCAUGAACCCUAUCAAUGUGGUCUCUGCUGU
+O.anatinus.1                       UGU..GGAUAUUACCAGAUCCUGGAACCCUAUCGAUAUUGUCUCUGCUGU
+#=GC SS_cons                       <<<..<.......<<<<...<<<<<<<<<<<<<<<<<<<<<..<<<<<..
+#=GC RF                            gcc..aauaaaacCcagaagaugagACCCUAuCaAUauuGCCUCUGCUuU
+
+C.milii.1                          GAAUUUCUGCC.UUAAGUAGUGCAAUAUCGCUUAUAGGGU....UUUGG.
+C.milii.2                          GUAGAUGGCU..GUGAGUAGUGCAAUAUUGCUUAUAGGGU....UUCAG.
+O.latipes.1                        CAGCAGCAUUU.CUCAGUAGUGCAAUAUUGCUUAUAGGGU....GUCGU.
+Gasterosteus_aculeat.1             CACUUGAGUCAACAGAGUAGUGCAAUAUUGCUUAUAGGGU....CUUGC.
+T.rubripes.1                       CACAUGUGUUCACUCAGUAGUGCAAUAUUGCUUAUAGGGU....CUUGC.
+D.rerio.1                          CCACUGUGUU..CAGAGUAGUGCAAUAUUGCUAAUAGGGU....UUUAG.
+D.rerio.2                          UCUCACUGUUUAUGGAGUAGUGCAAUAUUGCUUAUAGGGU....CUUGA.
+G.gallus.1                         UUGUGCUCAG..GGUAGUAGUGCAAUAUUGCUUAUAGGGU....CUUUUC
+A.carolinensis.1                   UGUGCUGGAU..UCAAGUAGUGCAAUAUUGCUUAUAGGGU....CUUUU.
+E.telfairi.1                       GUAAAUAUCUC.UUGAGUAGUGCAGUAUUGCUUGUAGGCUAAAAACCCA.
+Spermophilus_tridece.1             GUAAAUAGCU..CUGAGCAGUGCAAUAUUGCUUAUAGGGU....UUUGG.
+P.troglodytes.1                    GUAAAUAGUU..CUGAGUAGUGCAAUAUUGCUUAUAGGGU....UUUGG.
+E.caballus.1                       GUAAAUCGCU..CUGAGUAGUGCAAUAUUGCUUAUAGGGU....UUUGG.
+Dasypus_novemcinctus.1             GUAAAUAGCU..CUGAGUAGUGCAAUAUUGCUUAUAGGGU....UUUAG.
+Monodelphis_domestic.1             GUACAUAGCU..GUAAGUAGUGCAAUAUUGCUUAUAGGGU....UUUAG.
+O.anatinus.1                       GUAAAUAGCU..GUGAGUAGUGCAAUAUUGCUUAUAGGGU....UUUAG.
+#=GC SS_cons                       ...............>>>>>.>>>>>>>>>...>>>>>>>....>>>>>.
+#=GC RF                            uaaaauaguu..uugAGUAGUGCaauAUuGCUUaUAGGGU....cucau.
+
+C.milii.1                          CCCCGGGUUCG...AGCAUCAAGAGCC
+C.milii.2                          UGCUUGGGAAC...UUCAAC....AGU
+O.latipes.1                        CUGUGGGGGAC...UACCUC....GUG
+Gasterosteus_aculeat.1             CUGUGAGGGAG.GCUCCCCG....GGC
+T.rubripes.1                       CUCUGAGGGCA...GACCUUCCUCAGA
+D.rerio.1                          GUUUUAGGUUG...UACCUUCAGUCAG
+D.rerio.2                          CUUUAAGGCUAAUCUGCAAU....AUC
+G.gallus.1                         UUUUGAGGGUAUUCUUCAUGGAGAGAA
+A.carolinensis.1                   CUUUGGGGAGG...CGCUCUUCGUGGG
+E.telfairi.1                       ACAUUGGGAAG...AACAGUGAGCAAG
+Spermophilus_tridece.1             UAUUUGGAAAG...AACAAUG...AGG
+P.troglodytes.1                    UGUUUGGAAAG...AACAAUGGGCAGG
+E.caballus.1                       UGUUUGGGAAG...AACAAUGAGGAGG
+Dasypus_novemcinctus.1             UGUUUGGGAAG...AACAAUGGGCAGG
+Monodelphis_domestic.1             UUUUUGGAAAG...AACAGUGGCCAAG
+O.anatinus.1                       UGUUUGGGAAA...ACCAUUGGGCAGA
+#=GC SS_cons                       ...>>>>............>....>>>
+#=GC RF                            uuucugGGaag...aaCauugagaggc
+//

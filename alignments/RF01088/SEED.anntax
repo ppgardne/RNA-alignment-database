@@ -1,0 +1,44 @@
+# STOCKHOLM 1.0
+#=GF ID    TLS-PK5
+#=GF AC    RF01088
+#=GF DE    Pseudoknot of tRNA-like structure
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    75.7
+#=GF SE    Pseudobase
+#=GF SS    Pseudobase
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    PKBASE; PKB00240
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    2584952
+#=GF RT    Nucleotide sequences of 5' and 3' non-coding regions of pepper mild
+#=GF RT    mottle virus strain S RNA.
+#=GF RA    Avila-Rincon MJ, Ferrero ML, Alonso E, Garcia-Luque I, Diaz-Ruiz JR;
+#=GF RL    J Gen Virol. 1989;70:3025-3031.
+#=GF RN    [2]
+#=GF RM    1935928
+#=GF RT    tRNA-like structures. Structure, function and evolutionary
+#=GF RT    significance.
+#=GF RA    Mans RM, Pleij CW, Bosch L;
+#=GF RL    Eur J Biochem. 1991;201:303-324.
+#=GF WK    http://en.wikipedia.org/wiki/Transfer_RNA-like_structures
+#=GF SQ    3
+
+#=GS uncul.human.fecal.vi.1 AC    AAMG01002274.1/151-217
+#=GS Pepper_mild_mottle_v.1 AC    AB000709.2/6252-6319
+#=GS Tobacco_mosaic_virus.1 AC    L35074.1/577-644
+
+uncul.human.fecal.vi.1             GUCGUCUGGAUGAAACACAAG.AUUUACACGUGUGACGUGUAUAUGUGGG
+Pepper_mild_mottle_v.1             GUCGUUGGGAUGGAACGCAAUUAAAUACAUGUGUGACGUGUAUUUGCGAA
+Tobacco_mosaic_virus.1             GUCGUUAGGAUGGAACGCAAUUAAAUACAUGUGUGACGUGUAUUUGCGAA
+#=GC SS_cons                       <<<<<<....AAAAA<<<....<<<<<<<<<.....>>>>>>>>>>>>>>
+
+uncul.human.fecal.vi.1             CGACGUAAAAUUUUUACU
+Pepper_mild_mottle_v.1             CGACGUAAUUAUUUUUCA
+Tobacco_mosaic_virus.1             CGACGUAAUUAUUUUCAG
+#=GC SS_cons                       >>>>.........aaaaa
+//

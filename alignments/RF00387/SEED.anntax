@@ -1,0 +1,68 @@
+# STOCKHOLM 1.0
+#=GF ID    IRES_FGF1
+#=GF AC    RF00387
+#=GF DE    FGF-1 internal ribosome entry site (IRES)
+#=GF AU    Moxon SJ
+#=GF GA    20.0
+#=GF NC    19.2
+#=GF TC    23.3
+#=GF SE    PMID:15314170
+#=GF SS    Published; PMID:15314170
+#=GF TP    Cis-reg; IRES;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000243 SO:internal_ribosome_entry_site
+#=GF DR    GO:0043022 GO:ribosome binding
+#=GF RN    [1]
+#=GF RM    15314170
+#=GF RT    Internal Ribosome Entry Site Structural Motifs Conserved among
+#=GF RT    Mammalian Fibroblast Growth Factor 1 Alternatively Spliced mRNAs.
+#=GF RA    Martineau Y, Le Bec C, Monbrun L, Allo V, Chiu IM, Danos O, Moine H,
+#=GF RA    Prats H, Prats AC;
+#=GF RL    Mol Cell Biol 2004;24:7622-7635.
+#=GF CC    This family represents the FGF-1 internal ribosome entry site (IRES). The
+#=GF CC    FGF-1 IRES is present in the 5' UTR of the mRNA and allows cap-independent
+#=GF CC    translation. It is thought that FGF-1 IRES activity is strictly controlled
+#=GF CC    and highly tissue specific [1].
+#=GF WK    http://en.wikipedia.org/wiki/FGF-1_internal_ribosome_entry_site_(IRES)
+#=GF SQ    6
+
+#=GS M.musculus.1 AC    AC120558.12/85564-85725
+#=GS M.musculus.2 AC    AC110730.10/34820-34981
+#=GS M.musculus.3 AC    AF067191.1/1071-1232
+#=GS H.sapiens.1  AC    M60515.1/145-312
+#=GS H.sapiens.2  AC    Z14149.1/354-521
+#=GS H.sapiens.3  AC    X59612.1/146-313
+
+M.musculus.1             GGCUCUAGGGG..UAAGGGCAUUGCCUGACGACUUUUCUGGAUGGACACU
+M.musculus.2             GGCUCUAGGGG..UAAGGGCAUUGCCUGACGACUUUUCUGGAUGGACACU
+M.musculus.3             GGCUCUAGGGGG.UAAGGGCAUUGC.UGACGACUUUUCUGGAUGGACACU
+H.sapiens.1              CGCUCCAGGGGAAUCAGGGCAUCGC....CUCCUUUUCUGGGAGGACACU
+H.sapiens.2              CGCUCCAGGGGAAUCAGGGCAUCGC....CUCCUUUUCUGGGAGGACACU
+H.sapiens.3              CGCUCCAGGGGAAUCAGGGCAUCGC....CUCCUUUUCUGGGAGGACACU
+#=GC SS_cons             .<<<<..<<<<..<<<<<<.....<....<<<<<.....>>>>>>.....
+
+M.musculus.1             CCCUCCUAAUGGUGAAUGGAAACUCCCUUUCUC....AGUAGCCUCCUUG
+M.musculus.2             CCCUCCUAAUGGUGAAUGGAAACUCCCUUUCUC....AGUAGCCUCCUUG
+M.musculus.3             CCCUCCUAAUGGUGAAUGGAAACUCCCUUUCUC....AGUAGCCUCCUUG
+H.sapiens.1              CCCUUCUGAUGGUGAAUGGGAACUCCCUUCCUCCUGCAGCAGCCUGCCUG
+H.sapiens.2              CCCUUCUGAUGGUGAAUGGGAACUCCCUUCCUCCUGCAGCAGCCUGCCUG
+H.sapiens.3              CCCUUCUGAUGGUGAAUGGGAACUCCCUUCCUCCUGCAGCAGCCUGCCUG
+#=GC SS_cons             >>>><<<<..<<.<<<.<<<....>>>>>>..>>.<<<<<<<<....<<<
+
+M.musculus.1             UAGUUCAUCCCGGUAGCCCAGUGUG...AUUGCAGCCGCUGCCACCACCC
+M.musculus.2             UAGUUCAUCCCGGUAGCCCAGUGUG...AUUGCAGCCGCUGCCACCACCC
+M.musculus.3             UAGUUCAUCCCGGUAGCCCAGUGUG...AUUGCAGCCGCUGCCACCACCC
+H.sapiens.1              CAGCUG.UCCUGGUAGAACAGUGUGGACAUUGCAGAAGCUGUCACUGCCC
+H.sapiens.2              CAGCUG.UCCUGGUAGAACAGUGUGGACAUUGCAGAAGCUGUCACUGCCC
+H.sapiens.3              CAGCUG.UCCUGGUAGAACAGUGUGGACAUUGCAGAAGCUGUCACUGCCC
+#=GC SS_cons             <<<.<<.<<<..............>>>>>>>>>>>..>>>>...>>>>..
+
+M.musculus.1             .AGACAGGAAGCCUCCCAGAGC.
+M.musculus.2             .AGACAGGAAGCCUCCCAGAGC.
+M.musculus.3             .AGACAGGAAGCCUCCCAGAGC.
+H.sapiens.1              CAGAAAGAAAGCACCCCAGAGCC
+H.sapiens.2              CAGAAAGAAAGCACCCCAGAGCC
+H.sapiens.3              CAGAAAGAAAGCACCCCAGAGCC
+#=GC SS_cons             >>>>..>>.....>>>>.>>>>.
+//

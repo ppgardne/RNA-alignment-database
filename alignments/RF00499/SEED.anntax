@@ -1,0 +1,54 @@
+# STOCKHOLM 1.0
+#=GF ID    Parecho_CRE
+#=GF AC    RF00499
+#=GF DE    Human parechovirus 1 (HPeV1) cis regulatory element (CRE)
+#=GF AU    Moxon SJ
+#=GF GA    21.0
+#=GF NC    0.0
+#=GF TC    28.2
+#=GF SE    PMID:12438643
+#=GF SS    Published; PMID:12438643
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    12438643
+#=GF RT    Terminal RNA replication elements in human parechovirus 1.
+#=GF RA    Nateri AS, Hughes PJ, Stanway G;
+#=GF RL    J Virol 2002;76:13116-13122.
+#=GF CC    This family represents a Parechovirus cis regulatory element which is
+#=GF CC    located in the 5'-terminal 112 nucleotides of the genome of human
+#=GF CC    parechovirus 1 (HPeV1). The family consists of two stem-loop structures
+#=GF CC    (SL-A and SL-B) together with a pseudoknot. Disruption of any of these
+#=GF CC    elements impairs both viral replication and growth [1].
+#=GF WK    http://en.wikipedia.org/wiki/Human_parechovirus_1_(HPeV1)_cis_regulatory_element_(CRE)
+#=GF SQ    5
+
+#=GS Human_parechovirus_1.1 AC    S45208.1/1-115
+#=GS Human_parechovirus_2.1 AC    AJ005695.1/1-113
+#=GS Human_parechovirus_1.2 AC    L02971.1/1-115
+#=GS Human_parechovirus_2.2 AC    AF055846.1/1-102
+#=GS Human_parechovirus_3.1 AC    AB084913.1/1-113
+
+Human_parechovirus_1.1             UUUGAAAGGGGUCUCCUAGAGAGCUUGCC..UAGGGCCUUAUAACCCGAC
+Human_parechovirus_2.1             UUUGAAAGGGGUCUCCUAGAGAGCUUGGCCGUCGGGCCUUACACCCCGAC
+Human_parechovirus_1.2             UUUGAAAGGGGUCUCCUAGAGAGCUUGCC..UAGGGCCUUAUAACCCGAC
+Human_parechovirus_2.2             .............UCCUAGAGAGCUUGGCCGUCGGGCCUUAUA.CCCGAC
+Human_parechovirus_3.1             UUUGAAAGGGGUCUCCUAGAGAGCUUGGCCGUCGGGCCUUAUACCCCGAC
+#=GC SS_cons                       ...<<<<<<<<<<<<<<<<<<<<<<<<<<.<<<<<<........>>>>>>
+
+Human_parechovirus_1.1             UUGCUGAGCUUCUAUAGGAAAAAACCCUUUCCCAGCCUUGGGGUGGCUGG
+Human_parechovirus_2.1             UUGCUGAGUUUCUCUAGGAGAGU.CCCUUUCCCAGCCA.GAGGUGGCUGG
+Human_parechovirus_1.2             UUGCUGAGCUUCUAUAGGAAAAAACCCUUUCCCAGCCUUGGGGUGGCUGG
+Human_parechovirus_2.2             UUGCUGAGUUUCUCUAGGAGAGU.CCCUUUCCCAGCCCUGAGGCGGCUGG
+Human_parechovirus_3.1             UUGCUGAGCUUCUCUAGAAGAGU.CCUUUUCCCAGCCA.GAGGUGGCUGG
+#=GC SS_cons                       ..>>>>>>>>>.>>>>>>>>>.>.>>>>>>><<<<<<..AAAAA>>>>>>
+
+Human_parechovirus_1.1             UCAAUAAAAACCCCCAU
+Human_parechovirus_2.1             UCAAACAAUACCA..AA
+Human_parechovirus_1.2             UCAAUAAAAACCCCCAU
+Human_parechovirus_2.2             UCAAUAAAAGCCUCAAA
+Human_parechovirus_3.1             UUAAAUAAUACCU..AC
+#=GC SS_cons                       .........aaaaa...
+//

@@ -1,0 +1,59 @@
+# STOCKHOLM 1.0
+#=GF ID    snoR9
+#=GF AC    RF00065
+#=GF DE    Small nucleolar RNA snoR9
+#=GF AU    Bateman A, Daub J
+#=GF GA    50.0
+#=GF NC    0.0
+#=GF TC    81.7
+#=GF SE    Bateman A
+#=GF SS    Published; PMID:12032319
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF RN    [1]
+#=GF RM    12032319
+#=GF RT    Noncoding RNA genes identified in AT-rich hyperthermophiles.
+#=GF RA    Klein RJ, Misulovin Z, Eddy SR;
+#=GF RL    Proc Natl Acad Sci U S A 2002;99:7542-7547.
+#=GF CC    snoRNA R9 is a member of the C/D class of snoRNA which contain
+#=GF CC    the C (UGAUGA) and D (CUGA) box motifs.  R9 was identified in a
+#=GF CC    computational screen in AT-rich hyperthermophiles [1]. R9 was
+#=GF CC    found to overlap with the smaller snoRNA R19 which is currently a
+#=GF CC    member of Pyrococcus C/D box snoRNA family Rfam:RF00095.
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_snoR9
+#=GF SQ    5
+
+#=GS Pyrococcus_furiosus_.1 AC    AE009950.1/163864-163991
+#=GS P.abyssi.1             AC    AJ248283.1/230449-230575
+#=GS Pyrococcus_horikoshi.1 AC    BA000001.2/215709-215834
+#=GS P.furiosus.1           AC    AF468960.1/1-128
+#=GS Thermococcus_kodakar.1 AC    AP006878.1/47779-47908
+
+Pyrococcus_furiosus_.1             GGGCCCGGUU.CCCGCCCUCUCCGGGGAAUCGUGAACCGGGGGUUCCGAC
+P.abyssi.1                         GGGCCCGGCU.CCCGCCCUCUCCGGGGAAUCGUGAACCGGGGGUUCCGGC
+Pyrococcus_horikoshi.1             CGGCCCGGUU.CCCGCCCUCUCCGGGGAAUCGUGAACCGGGGGUUCCGAC
+P.furiosus.1                       GGGCCCGGUU.CCCGCCCUCUCCGGGGAAUCGUGAACCGGGGGUUCCGAC
+Thermococcus_kodakar.1             GGGCCUGGCGUCCCGCCCUCCCCGGGGAAACGUGAACCGGGGCUUCCUGC
+#=GC SS_cons                       <<<<<<<<<<....<<<<...<<<<...........>>>>>>>>...>>>
+#=GC RF                            gGGCCCGGcu.CCCgCCCUCUCCGGGGAAUCGUGAACCGGGGGuUCCggC
+
+Pyrococcus_furiosus_.1             CGGGCCCACA..AUGGGAUGAUGACCUUUUGCUUUACUGAACACAUGAUG
+P.abyssi.1                         CGGGCCUACA..G..UUAUGAUGAACUUUUGCUUUGCUGAUGUGGUGAUG
+Pyrococcus_horikoshi.1             CGGGCCGACA..GG.GGAUGAAGAGCUUUUGCUUUGCUGAGCAGAUGAUG
+P.furiosus.1                       CGGGCCCACA..AUGGGAUGAUGACCUUUUGCUUUACUGAACACAUGAUG
+Thermococcus_kodakar.1             CAGGCCUACACCGGGGGAUGAAGAGCUUUUGCUUUGCUGAC..UGUGAUG
+#=GC SS_cons                       >>>>>>>...........................................
+#=GC RF                            CGGGCCcACA..auguuAUGAUGAaCUUUUGCUUUaCUGAagagaUGAUG
+
+Pyrococcus_furiosus_.1             ACCACGCCCUUCGCUGAC.CUAAAUAUUUGAC
+P.abyssi.1                         AGCACGCCCUUCGCUGAUACUCUCUCGUCCAU
+Pyrococcus_horikoshi.1             ACCACGCCCUUCGCUGAC.CU.GCUAUUUGAC
+P.furiosus.1                       ACCACGCCCUUCGCUGAC.CUAAAUAUUUGAC
+Thermococcus_kodakar.1             AGCACGCCCUUCACUGACCCCGUAUCAGCUCU
+#=GC SS_cons                       ................................
+#=GC RF                            AgCACGCCCUUCGCUGAu.CUaaaUauUugAu
+//

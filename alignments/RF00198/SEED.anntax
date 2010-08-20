@@ -1,0 +1,168 @@
+# STOCKHOLM 1.0
+#=GF ID    SL1
+#=GF AC    RF00198
+#=GF DE    SL1 RNA
+#=GF AU    Moxon SJ
+#=GF GA    27.0
+#=GF NC    27.0
+#=GF TC    27.0
+#=GF SE    Moxon SJ, Daub J
+#=GF SS    Published; PMID:12949121; Moxon SJ
+#=GF TP    Gene;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF DR    GO:0000365 GO:nuclear mRNA trans splicing, via U2-type spliceosome
+#=GF RN    [1]
+#=GF RM    11376950
+#=GF RT    Trans-spliced leader RNA, 5S-rRNA genes and novel variant orphan
+#=GF RT    spliced-leader of the lymphatic filarial nematode Wuchereria
+#=GF RT    bancrofti, and a sensitive polymerase chain reaction based detection
+#=GF RT    assay.
+#=GF RA    Dassanayake RS, Chandrasekharan NV, Karunanayake EH;
+#=GF RL    Gene 2001;269:185-193.
+#=GF CC    This family represents the SL1 RNA. SL1 is commonly located in the spacer
+#=GF CC    region between 5S-rRNA genes where it is involved in trans-splicing.
+#=GF CC    Trans-splicing is a form of RNA processing. The acquisition of a spliced
+#=GF CC    leader from a SL RNA is a intra-molecular reaction which precisely joins
+#=GF CC    exons derived from separately transcribed RNAs. This mechanism of mRNA
+#=GF CC    maturation has been shown to occur in a number of lower eukaryotes and is
+#=GF CC    commonplace in nematodes [1].
+#=GF WK    http://en.wikipedia.org/wiki/SL1_RNA
+#=GF SQ    32
+
+#=GS C.elegans.1      AC    M11989.1/233-138
+#=GS O.brevesophaga.1 AC    U90832.1/1-99
+#=GS O.brevesophaga.2 AC    U90831.1/1-100
+#=GS H.contortus.1    AC    U32196.1/174-270
+#=GS A.viteae.1       AC    U31646.1/55-159
+#=GS B.timori.1       AC    U31636.1/55-159
+#=GS B.patei.1        AC    U31635.1/55-159
+#=GS B.malayi.1       AC    L36060.1/210-314
+#=GS B.buckleyi.1     AC    U31634.1/55-159
+#=GS D.immitis.1      AC    M37738.1/223-325
+#=GS D.immitis.2      AC    U31637.1/55-157
+#=GS F.furcata.1      AC    AJ250988.1/180-285
+#=GS L.sigmodontis.1  AC    U31639.1/55-159
+#=GS Loa_loa.1        AC    U31638.1/55-159
+#=GS M.perstans.1     AC    U31640.1/55-159
+#=GS M.ozzardi.1      AC    AJ279033.1/195-299
+#=GS O.volvulus.1     AC    AF325541.1/133-235
+#=GS O.volvulus.2     AC    AF325546.1/133-235
+#=GS O.ochengi.1      AC    U31641.1/55-157
+#=GS O.lupi.1         AC    AJ311527.1/55-157
+#=GS O.volvulus.3     AC    U31643.1/55-157
+#=GS O.volvulus.4     AC    AF325545.1/133-235
+#=GS O.volvulus.5     AC    M37737.1/172-274
+#=GS O.volvulus.6     AC    AF325542.1/116-218
+#=GS O.volvulus.7     AC    AF325543.1/133-235
+#=GS O.volvulus.8     AC    AF325540.1/133-235
+#=GS O.volvulus.9     AC    U09024.1/210-312
+#=GS O.volvulus.10    AC    AF325547.1/161-263
+#=GS O.volvulus.11    AC    AF325539.1/133-235
+#=GS W.bancrofti.1    AC    AF297119.1/1277-1381
+#=GS S.digitata.1     AC    AF282179.1/149-252
+#=GS S.digitata.2     AC    AF282180.1/149-252
+
+C.elegans.1                  GGUUUAAUUACCCAAGUUUGAUGGAAACAUUGAAACUGACCC..AAA.GA
+O.brevesophaga.1             GGUUUAAUUACCCAAGUUUGA.GGUAU..UCAA...UGCUUCCGACC...
+O.brevesophaga.2             GGUUUAAUUACCCAAGUUUGA.GGUAU..UCAAA..UGCUUCC.AAUC..
+H.contortus.1                GGUUUAAUUACCCAAGUUUGA.GGUAC.UUUCAA...GAUCU..GACCCG
+A.viteae.1                   GGUUUAAUUACCCAAGUUUGA.GGUAA..UUGAA..UGUUUCG.GCCCAG
+B.timori.1                   GGUUUAAUUACCCAAGUUUGA.GGUAA..UUGAA..UGUUUCG.GCCCAG
+B.patei.1                    GGUUUAAUUACCCAAGUUUGA.GGUAA..UUGAA..UGUUUCG.GCCCAG
+B.malayi.1                   GGUUUAAUUACCCAAGUUUGA.GGUAA..UUGAA..UGUUUCG.GCCCAG
+B.buckleyi.1                 GGUUUAAUUACCCAAGUUUGA.GGUAA..UUGAA..UGUUUCG.GCCCAG
+D.immitis.1                  GGUUUAAUUACCCAAGUUUGA.GGUAA..UUGAA..UGUUUCA.GCCCAG
+D.immitis.2                  GGUUUAAUUACCCAAGUUUGA.GGUAA..UUGAA..UGUUUCA.GCCCAG
+F.furcata.1                  GGUUUAAUUACCCAAGUUUGA.GGUAA..UUGAA..UGUUUCG.GCCCAU
+L.sigmodontis.1              GGUUUAAUUACCCAAGUUUGA.GGUAA..UUGAG..UGUUUCG.GCCCAG
+Loa_loa.1                    GGUUUAAUUACCCAAGUUUGA.GGUAA..UUGAA..UGUUUCG.GCCCAG
+M.perstans.1                 GGUUUAAUUACCCAAGUUUGA.GGUAA..UUGAA..UGUUUCG.GCCCAG
+M.ozzardi.1                  GGUUUAAUUACCCAAGUUUGA.GGUAA..UUGAA..UGUUUCG.GCCCAG
+O.volvulus.1                 GGUUUAAUUACCCAAGUUUGA.GGUAA..UUGAA..UGUUUCU.GCCCAG
+O.volvulus.2                 GGUUUAAUUACCCAAGUUUGA.GGUAA..UUGAA..UGUUUCU.GCCCAG
+O.ochengi.1                  GGUUUAAUUACCCAAGUUUGA.GGUAA..UUGAA..UGUUUCU.GCCCAG
+O.lupi.1                     GGUUUAAUUACCCAAGUUUGA.GGUAA..UUGAA..UGUUUCA.GCCCAG
+O.volvulus.3                 GGUUUAAUUACCCAAGUUUGA.GGUAA..UUGAA..UGUUUCU.GCCCAG
+O.volvulus.4                 GGUUUAAUUACCCAAGUUUGA.GGUAA..UUGAA..UGUUUCU.GCCCAC
+O.volvulus.5                 GGUUUAAUUACCCAAGUUUGA.GGUAA..UUGAA..UGUUUCG.GCCCAA
+O.volvulus.6                 GGUUUAAUUACCCAAGUUUGA.GGUAA..UUGAA..UGUUUCU.GCCCAG
+O.volvulus.7                 GGUUUAAUUACCCAAGUUUGA.GGUAA..UUGAA..UGUUUCU.GCCCAG
+O.volvulus.8                 GGUUUAAUUACCCAAGUUUGA.GGUAA..UUGAA..UGUUUCU.GCCCAG
+O.volvulus.9                 GGUUUAAUUACCCAAGUUUGA.GGUAA..UUGAA..UGUUUCU.GCCCAG
+O.volvulus.10                GGUUUAAUUACCCAAGUUUGA.GGUAA..UUGAA..UGUUUCU.GCCCAG
+O.volvulus.11                GGUUUAAUUACCCAAGUUUGA.GGUAA..UUGAA..UGUUUCU.GCCCAG
+W.bancrofti.1                GGUUUAAUUACCCAAGUUUGA.GGUAA..UUGAA..UGUUUCG.GCCCAG
+S.digitata.1                 GGUUUAAUUACCCAAGUUUGA.GGUAA..UUGAA..UGUUUCA.GCCCAG
+S.digitata.2                 GGUUUAAUUACCCAAGUUUGA.GGUAA..UUGAA..UGUUUCA.GCCCAG
+#=GC SS_cons                 ..<<<<<<<<<<..........>>>>>..>>>>>....<<<<..<<<...
+
+C.elegans.1                  AAUUUGCG.........UU..AGCUAUAAAUUUUGGAAC..GUCUCCUCU
+O.brevesophaga.1             ..CUGCAAAUGUAGA.GGU.UGAAA.GAAAUUUUGGAACAGCCUUCCCUC
+O.brevesophaga.2             ..CUGCUUAUGUAGAGGUU..GAAA.AAGAUUUUGCAACAGUCUUCCCUA
+H.contortus.1                A.UUCUA.UCUGUG..GUC..CGAU.GAAAUUUUGGAAU..CCUCUCCUG
+A.viteae.1                   AGUUUCGGCUGCUGU.GGCUUGAAGUAAAAUUUUGGAAC..GUCCUGCUA
+B.timori.1                   AGUUUAGGCUACUGU.GGCUUGAAGUAAAAUUUUGGAAC..GUCCUGCAU
+B.patei.1                    AGUUUAGGCUACUGU.GGCUUGAAGUAAAAUUUUGGAAC..GUCCUGCAU
+B.malayi.1                   AGUUUAGGCUACUGU.GGCUUGAAGUAAAAUUUUGGAAC..GUCCUGCAU
+B.buckleyi.1                 AGUUUAGGCUACUGU.GGCUUGAAGUAAAAUUUUGGAAC..GUCCUGCAU
+D.immitis.1                  AAUUAUAUCUGCUGU.GGCUUGAAAUGAAAUUUUGGAAA..GUCCUACA.
+D.immitis.2                  AAUUAUAUCUGCUGU.GGCUUGAAAUGAAAUUUUGGAAA..GUCCUACA.
+F.furcata.1                  AGCUUCAGCUACUGU.GGCUUGAAAUAAAAUUUUGGAAC..GUUCUGCAA
+L.sigmodontis.1              AGUUUCGGCUUCUGU.GGCUUGAAGAAAAAUUUUGGAAC..GUCCUGCUA
+Loa_loa.1                    AGUUUCGGCUACUGU.GGCUUGAAGUAAAAUUUUGGAAC..GUCCUGCAA
+M.perstans.1                 UGUUUCAGCUACUGU.GGCUUGAAGUAAAAUUUUGGAAC..GUCCUACAA
+M.ozzardi.1                  AGUUUCAGCUACUGU.GGCUUGAAGUAAAAUUUUGGAAC..GUCCUACAA
+O.volvulus.1                 AGUUUCGACUGCUGU.GGCUUGAAGCGAAAUUUUGGAAC..GUCCUGCA.
+O.volvulus.2                 AGUUUCGACUGCUGU.GGCUUGAAGCGAAAUUUUGGAAC..GUCCUGCA.
+O.ochengi.1                  AGUUUCGACUGCUGU.GGCUUGAAGCGAAAUUUUGGAAC..GUCCUGCA.
+O.lupi.1                     AGUUUCGGCUCCUGU.GGCUUGAAGUGAAAUUUUGGAAC..GUCCUGUA.
+O.volvulus.3                 AGUUUCGACUGCUGU.GGCUUGAAGCGAAAUUUUGGAAC..GUCCUGCA.
+O.volvulus.4                 AGUUUCGACUGCUGU.GGCUUGAAGCGAAAUUUUGGAAC..GUCCUGCA.
+O.volvulus.5                 AGUUUCGGCUGCUGU.GGCUUGAAGUAAAAUUUUGGAAC..GUCCUGCA.
+O.volvulus.6                 AGUUUCGACUGCUGU.GGCUUGAAGCGAAAUUUUGGAAC..GUCCUGCA.
+O.volvulus.7                 AGUUUCGACUGCUGU.GGCUUGAAGCGAAAUUUUGGAAC..GUCCUGCA.
+O.volvulus.8                 AGUUUCGACUGCUGU.GGCUUGAAGCGAAAUUUUGGAAC..GUCCUGCA.
+O.volvulus.9                 AGUUUCGACUGCUGU.GGCUUGAAGCGAAAUUUUGGAAC..GUCCUGCA.
+O.volvulus.10                AGUUUCGACUGCUGU.GGCUUGAAGCGAAAUUUUGGAAC..GUCCUGCA.
+O.volvulus.11                AGUUUCGACUGCUGU.GGCUUGAAGCGAAAUUUUGGAAC..GUCCUGCA.
+W.bancrofti.1                AGUUUAGGCUACUGU.GGCUUGAAGUAAAAUUUUGGAAC..GUCCUGCAU
+S.digitata.1                 AGUUUCGGCUCAUGU.GGCUUGAAAAUAAAUUUUGGAAC..GUCCUGUG.
+S.digitata.2                 AGUUUCGGCUCAUGU.GGCUUGAAAAUAAAUUUUGGAAC..GUCCUGUG.
+#=GC SS_cons                 ................>>>..>>>>................<<<<<<<..
+
+C.elegans.1                  CG..G.GGAGACAAA
+O.brevesophaga.1             CACUG.GGAAGGCA.
+O.brevesophaga.2             AACUG.GAAAGACG.
+H.contortus.1                .AAAG.GCGAGAACU
+A.viteae.1                   CUUAG.CGGGACAAC
+B.timori.1                   AUUUG.UGGGACAAU
+B.patei.1                    AUUUG.UGGGACAAU
+B.malayi.1                   AUUUG.UGGGACAAU
+B.buckleyi.1                 AUUUG.UGGGACAAU
+D.immitis.1                  .UUAG.UGGGACAAC
+D.immitis.2                  .UUAG.UGGGACAAC
+F.furcata.1                  AUCUGCUGGGACAAC
+L.sigmodontis.1              UAUAG.CGGGACAAC
+Loa_loa.1                    UUUUG.UGGGACAAC
+M.perstans.1                 AUUUG.UGGGACAAC
+M.ozzardi.1                  AUUUG.UGGGACAAU
+O.volvulus.1                 .UGAG.CGGGACAAC
+O.volvulus.2                 .UGAG.CGGGACAAC
+O.ochengi.1                  .UGAG.CGGGACAAC
+O.lupi.1                     .UCGG.CGGGACAAC
+O.volvulus.3                 .UGAG.CGGGACAAC
+O.volvulus.4                 .UGAG.CGGGACAAC
+O.volvulus.5                 .UUAG.CGGGACAAC
+O.volvulus.6                 .UGAG.CGGGACAAC
+O.volvulus.7                 .UGAG.CGGGACAAC
+O.volvulus.8                 .UGAG.CGGGACAAC
+O.volvulus.9                 .UGAG.CGGGACAAC
+O.volvulus.10                .UGAG.CGGGACAAC
+O.volvulus.11                .UGAG.CGGGACAAC
+W.bancrofti.1                GUUUG.UGGGACAAU
+S.digitata.1                 .CUAAACGGGACAAA
+S.digitata.2                 .CUAAACGGGACAAA
+#=GC SS_cons                 ....>.>>>>>>...
+//

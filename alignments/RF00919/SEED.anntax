@@ -1,0 +1,39 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-874
+#=GF AC    RF00919
+#=GF DE    microRNA mir-874
+#=GF AU    Wilkinson A
+#=GF GA    35.0
+#=GF NC    0.0
+#=GF TC    53.6
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000401
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    4
+
+#=GS R.norvegicus.1  AC    AAHX01089817.1/5137-5212
+#=GS P.troglodytes.1 AC    AACZ02064416.1/12377-12454
+#=GS F.catus.1       AC    AANG01341167.1/1465-1542
+#=GS B.taurus.1      AC    AAFC03124123.1/10892-10967
+
+R.norvegicus.1              UUAGCCCUGCGGCCCCACGCACCAGGGUAAGAGAGA..CUCGCUUCCUGC
+P.troglodytes.1             UUAGCCCUGCGGCCCCACGCACCAGGGUAAGAGAGACUCUCGCUUCCUGC
+F.catus.1                   UUAGCCCUGCGGCCCCACGCACCAGGGUAAGAGAGAGUCUCGCUUCCUGC
+B.taurus.1                  UUAGCCCUGCGGCCCCACGCACCAGGGUAAGAGAGA..CUCACUUCCUGC
+#=GC SS_cons                ...<<<<..<<<<<<<.<<..<<<<<<<<..................>>>
+#=GC RF                     UUAGCCCUGCGGCCCCACGCACCAGGGUAAGAGAGASUCUCRCUUCCUGC
+
+R.norvegicus.1              CCUGGCCCGAGGGACCGACUGGCUGGGC
+P.troglodytes.1             CCUGGCCCGAGGGACCGACUGGCUGGGC
+F.catus.1                   CCUGGCCCGAGGGACCGACUGGCUGGGC
+B.taurus.1                  CCUGGCCCGAGGGACCGACUGGCUGGGC
+#=GC SS_cons                >>>>>..>>.>>>>>>>.......>>>>
+#=GC RF                     CCUGGCCCGAGGGACCGACUGGCUGGGC
+//

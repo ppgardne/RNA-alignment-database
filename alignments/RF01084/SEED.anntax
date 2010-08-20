@@ -1,0 +1,86 @@
+# STOCKHOLM 1.0
+#=GF ID    TLS-PK3
+#=GF AC    RF01084
+#=GF DE    Pseudoknot of tRNA-like structure
+#=GF AU    Wilkinson A
+#=GF GA    45.0
+#=GF NC    34.3
+#=GF TC    52.4
+#=GF SE    Pseudobase
+#=GF SS    Pseudobase
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    PKBASE; PKB00134
+#=GF DR    PKBASE; PKB00136
+#=GF DR    PKBASE; PKB00137
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    7214524
+#=GF RT    Near identity of 3- RNA secondary structure in bromoviruses and
+#=GF RT    cucumber mosaic virus.
+#=GF RA    Ahlquist P, Dasgupta R, Kaesberg P;
+#=GF RL    Cell. 1981;23:183-189.
+#=GF RN    [2]
+#=GF RM    6628363
+#=GF RT    Three-dimensional models of the tRNA-like 3' termini of some plant
+#=GF RT    viral RNAs.
+#=GF RA    Rietveld K, Pleij CW, Bosch L;
+#=GF RL    EMBO J. 1983;2:1079-1085.
+#=GF RN    [3]
+#=GF RM    1935928
+#=GF RT    tRNA-like structures. Structure, function and evolutionary
+#=GF RT    significance.
+#=GF RA    Mans RM, Pleij CW, Bosch L;
+#=GF RL    Eur J Biochem. 1991;201:303-324.
+#=GF RN    [4]
+#=GF RM    8289279
+#=GF RT    Solution structure of the 3'-end of brome mosaic virus genomic RNAs.
+#=GF RT    Conformational mimicry with canonical tRNAs.
+#=GF RA    Felden B, Florentz C, Giege R, Westhof E;
+#=GF RL    J Mol Biol. 1994;235:508-531.
+#=GF WK    http://en.wikipedia.org/wiki/Transfer_RNA-like_structures
+#=GF SQ    8
+
+#=GS Brome_mosaic_virus.1   AC    AB183261.1/1984-2112
+#=GS Cowpea_chlorotic_mot.1 AC    AF325738.1/2039-2167
+#=GS Cassia_yellow_blotch.1 AC    AB194808.1/1958-2087
+#=GS Cucumber_mosaic_viru.1 AC    AF127976.1/2067-2194
+#=GS Cucumber_mosaic_viru.2 AC    AJ276479.1/3234-3353
+#=GS Cucumber_mosaic_viru.3 AC    AM183117.1/3235-3356
+#=GS Tomato_aspermy_virus.1 AC    D10044.1/3265-3405
+#=GS Cucumber_mosaic_viru.4 AC    AM183114.1/3233-3357
+
+Brome_mosaic_virus.1               GGUGCCUUUGAGAGU.UACUCUUUGCUCUCUUCGGAAGAACCC.......
+Cowpea_chlorotic_mot.1             GCUGCCCUUGGGUUU.UACUCCUUGAACCCUUCGGAAGAACUC.......
+Cassia_yellow_blotch.1             GUUGCCUUUGAGAGU.UACUCCUUGCUCUCUUCAGAAGUUCUC.......
+Cucumber_mosaic_viru.1             GGUACCCUUGAAAUC.ACCUCCUAGAUUUCUUCGGAAGGGCUUCG.....
+Cucumber_mosaic_viru.2             GGCGCCUUUGAAACC.AUCUCCUAGGUUUCUUCGGAAGGAC.........
+Cucumber_mosaic_viru.3             GGCACCUUUGAAACC.AUCUCCUAGGUUUCUUCGGAAGGAC.........
+Tomato_aspermy_virus.1             GGUGCCUUUGAACCCUUUAUCCCGGGGUUCUUCGGAAGGUGAGACUUGUC
+Cucumber_mosaic_viru.4             GGUGCCUUUGAAACC.AUCUCCUAGGUUUCUUCGGAAGGAC.........
+#=GC SS_cons                       <<<<<<<..<<<<<<...AAAAAA>>>>>>.......<<<<<<.......
+#=GC RF                            GguGCCcUUGagacc.uacUCcUaggucuCUUCGGAAGgaCcc.......
+
+Brome_mosaic_virus.1               ...UUAG...GGGUUCGUGCAU.GGGCUUGCA..UAGCAAGUCU..UAGA
+Cowpea_chlorotic_mot.1             ...UUUG...GAGUUCGUACCA.GUACCUCACAUAGUGAGGUAAUAAGAC
+Cassia_yellow_blotch.1             ...UACC...GAGAACGUGCAG.UGGCUGUCA..UAGACAGCCU.UCAGA
+Cucumber_mosaic_viru.1             ...UGAG...AAGCUCGUGCAC.GGUAAUACAC.UGAUAUUACC..AAGA
+Cucumber_mosaic_viru.2             ...UUCG.....GUCCGUGUACUUCUAGCACA..AGGUGCUAGU.UUAGA
+Cucumber_mosaic_viru.3             ...UUCG.....GUCCGUGUACUUCUAGCACA..ACGUGCUAGUUUCAGG
+Tomato_aspermy_virus.1             CAUGUAGAGUCUCGCCGUGCAC.GGUAUCACAC.UGAUGAUACCUUCAGA
+Cucumber_mosaic_viru.4             ...UUCG.....GUCCGUGUACUUCUAGCACA..AGAUGCUAGUUUCAGG
+#=GC SS_cons                       ..........>>>>>>..<<<<..<<<<<<.......>>>>>>.......
+#=GC RF                            ...uuaG...ggGucCGUGCac.gggcccacAa.ugaugggccu.uaAGA
+
+Brome_mosaic_virus.1               AUGCGGGUACCGUACAGUGUUGAAAAACACUGUAAAUCU.CUAAAAGAG
+Cowpea_chlorotic_mot.1             UGGUGGGCAG..CGCCUAGUCGAAAGACUAGGUG..AUC.UCUAAGGAG
+Cassia_yellow_blotch.1             CUGCGGGCAAC.GUCAGUUCCAUAAGGAACUGAUAAUCUCCAAAAGGAG
+Cucumber_mosaic_viru.1             GUGCGGGUAUC.GCCUGUGG..UUUUCCACAGGUUCUCC.AU.AAGGAG
+Cucumber_mosaic_viru.2             GUACGGGCAUC.CCCCCGUU.....UUGCGGGGGUCUCU.AA.AAGGAG
+Cucumber_mosaic_viru.3             GUACGGGUGCC.CCCCCAUU....UUCGUGGGGGCCUCC.AA.AAGGAG
+Tomato_aspermy_virus.1             GUGCAGGCAUC.GCCUACGG..UUUUCCGUAGGU..UCC.CCCUAGGGG
+Cucumber_mosaic_viru.4             GUACGGGCACC.CCCCCC.UCAUUUAAUGGGGGGCCUCC.UC.AAGGAG
+#=GC SS_cons                       >>>>>>>>>>>.<<<<<<<<......>>>>>>>>.........aaaaaa
+#=GC RF                            guGCgGGCacC.ccCcgcgguaaaauccgcgGggaaucu.aaaAAGGAG
+//

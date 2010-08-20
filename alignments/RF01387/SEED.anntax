@@ -1,0 +1,105 @@
+# STOCKHOLM 1.0
+#=GF ID    isrC
+#=GF AC    RF01387
+#=GF DE    isrC Hfq binding RNA
+#=GF AU    Daub J, Gardner PP
+#=GF GA    23.0
+#=GF NC    22.2
+#=GF TC    23.3
+#=GF SE    Predicted; WAR; Infernal
+#=GF SS    Predicted; WAR
+#=GF TP    Gene; sRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF RN    [1]
+#=GF RM    18725932
+#=GF RT    Deep sequencing analysis of small noncoding RNA and mRNA targets
+#=GF RT    of the global post-transcriptional regulator, Hfq.
+#=GF RA    Sittka A, Lucchini S, Papenfort K, Sharma CM, Rolle K, Binnewies
+#=GF RA    TT, Hinton JC, Vogel J;
+#=GF RL    PLoS Genet. 2008;4:e1000163.
+#=GF RN    [2]
+#=GF RM    18267966
+#=GF RT    Small RNAs encoded within genetic islands of Salmonella
+#=GF RT    typhimurium show host-induced expression and role in virulence.
+#=GF RA    Padalon-Brauch G, Hershberg R, Elgrably-Weiss M, Baruch K,
+#=GF RA    Rosenshine I, Margalit H, Altuvia S
+#=GF RL    Nucleic Acids Res. 2008;36:1913-1927.
+#=GF WK    http://en.wikipedia.org/wiki/Hfq_binding_sRNA
+#=GF SQ    16
+
+#=GS E.coli.1               AC    FM986650.1/54257-54379
+#=GS Escherichia_coli_SE1.1 AC    AP009240.1/1492239-1492361
+#=GS E.coli.2               AC    AF401292.1/92805-92927
+#=GS Escherichia_coli_559.1 AC    CU928145.2/2991721-2991843
+#=GS Escherichia_coli_UMN.1 AC    CU928163.2/283462-283584
+#=GS Escherichia_coli_O15.1 AC    BA000007.2/3875218-3875340
+#=GS Escherichia_coli_O15.2 AC    BA000007.2/4582371-4582493
+#=GS Escherichia_coli_536.1 AC    CP000247.1/4004714-4004836
+#=GS Escherichia_coli_CFT.1 AC    AE014075.1/3452704-3452826
+#=GS E.coli.3               AC    FM986651.1/55346-55468
+#=GS E.coli.4               AC    AY857617.1/38272-38394
+#=GS S.enterica.1           AC    U31849.1/2187-2304
+#=GS Salmonella_enterica_.1 AC    CP001138.1/1884119-1884236
+#=GS Salmonella_enterica_.2 AC    ABAK02000001.1/638809-638925
+#=GS S.purpuratus.1         AC    AAGJ02004281.1/6703-6825
+#=GS marine_metag.1         AC    AACY022996748.1/137-259
+
+E.coli.1                           CUUAAUGAACAAGAAAACCAAACGAACCUUCACCCCUGAGUUCAGGCUGG
+Escherichia_coli_SE1.1             CUUAAUGAACAAGAAAACCAAACGAACCUUCACCCCUGAGUUCAGGCUGG
+E.coli.2                           CUUAAUGAACAAGAAAACCAAACGUACUUUCACCCCUGAAUUCAGGCUGG
+Escherichia_coli_559.1             CUUAAUGAACAAGAAAACCAAACGAACCUUCACCCCUGAGUUCAGGCUGG
+Escherichia_coli_UMN.1             CUUAAUGAACAAGAAAACCAAACGUACUUUCACCCCUGAAUUCAGGCUGG
+Escherichia_coli_O15.1             CUUAAUGAACAAGAAAACCAAACGUACUUUCACCCCUGAAUUCAGGCUGG
+Escherichia_coli_O15.2             CUUAAUGAACAAGAAAACCAAACGUACUUUCACCCCUGAAUUCAGGCUGG
+Escherichia_coli_536.1             CUUAAUGAACAAGAAAACAAAGCGUACCUUCUCUCCUGAGUUUAAGCAGG
+Escherichia_coli_CFT.1             AUAAAACAACAAGAAAACAAAGCGUACCUUCUCUCCUGAGUUUAAUCUGG
+E.coli.3                           CUUAAUGAACAAGAAAACCAAACGAACCUUCACCCCUGAGUUCAGGCUGG
+E.coli.4                           CUUAAUGAACAAGAAAACCAAACGAACCUUCACCCCUGAGUUCAGGCUGG
+S.enterica.1                       CUUAAUAAACAACAAAACCAAACGUACUUUCA.....GAUUUCAGGCUGG
+Salmonella_enterica_.1             CUUAAUAAACAAAAAAACCAAACGUACUUUCA.....GAGUUCAGGCUGG
+Salmonella_enterica_.2             CUUAAUAAACAAAAAA.CCAAACGUUCUUUCA.....GAGUUCAGGCUGG
+S.purpuratus.1                     CUUAAUGAACAAGAAAACCAAACGAACCUUCCCCCCUGAGUUCAGGCUGG
+marine_metag.1                     CUUAAUGAACAAGAAAACUAAGCGUACUUUCACCCCCGAGUUCAGGAUGG
+#=GC SS_cons                       ......<<<<.............<<<<<<<<<..<<<<....>>>>.>>>
+#=GC RF                            cuuAAugaacAAaAAAAccAAAcGcaccuccacccccGAguuCgggaugg
+
+E.coli.1                           AAUGUGCACAGCUGAUUGUUGAUAAGGGCUACUCAUAUCGACAGGCCAGU
+Escherichia_coli_SE1.1             AAUGUGCACAGCUGAUUGUUGAUAAGGGCUACUCAUAUCGACAGGCCAGU
+E.coli.2                           AAUGUGCACAGCUAAUUGUUGAUAAGGGCUACUCAUAUCGACAAGCCAGU
+Escherichia_coli_559.1             AAUGUGCACAGCUGAUUGUUGAUAAGGGCUACUCAUAUCGACAGGCCAGU
+Escherichia_coli_UMN.1             AAUGUGCACAGCUAAUUGUUGAUAAGGGCUACUCAUAUCGACAAGCCAGU
+Escherichia_coli_O15.1             AAUGUGCACAGCUAAUUGUUGAUAAGGGCUACUCAUAUCGACAAGCCAGU
+Escherichia_coli_O15.2             AAUGUGCACAGCUAAUUGUUGAUAAGGGCUACUCAUAUCGACAAGCCAGU
+Escherichia_coli_536.1             AAUGCGCCCAACUUAUCGUUGAUAAAGGUUACUCAUACCGGGAAGCCAGU
+Escherichia_coli_CFT.1             AAUGCGCCCAACUUAUCGUUGAUAAAGGUUACUCAUACCGGGAAGCUACU
+E.coli.3                           AAUGUGCACAGCUGAUUGUUGAUAAGGGCUACUCAUAUCGACAGGCCAGU
+E.coli.4                           AAUGUGCACAGCUGAUUGUUGAUAAGGGCUACUCAUAUCGACAGGCCAGU
+S.enterica.1                       AAUGCGCACAGCUGAUUGUUGAUAAGGGCUACUCAUACCGACAGGCCAGU
+Salmonella_enterica_.1             AAUGCGCAUAGCUGAUUGUUGAUAAGGGCUACUCAUACCGACAGGCCAGU
+Salmonella_enterica_.2             AAUGCGCAUAGCUGAUUGUUGAUAAGGGCUACUCAUACAGACAGGCCAGU
+S.purpuratus.1                     AAUGUGCACAGCUGAUUGUUGAUAAGGGCUACUCAUAUCGACAGGCCAGU
+marine_metag.1                     AAUGUGCACAGCUGAUUGUUGAUAAGGGCUACUCCUAUCGACAAGCCAGU
+#=GC SS_cons                       >>.>>>>...<<<<.<<<<<<<<<.<<<...>>>.>>>>>>>>>..>>>>
+#=GC RF                            agugugCAcAgcuGAcuGucGauaAGgGcuACuCAuauCgaCaggcCagu
+
+E.coli.1                           GAAGCGAUGAAUGUCGGUUCAAC
+Escherichia_coli_SE1.1             GAAGCGAUGAAUGUCGGUUCAAC
+E.coli.2                           GAAGCGAUGAAUGUCGGUUCUAC
+Escherichia_coli_559.1             GAAGCGAUGAAUGUCGGUUCAAC
+Escherichia_coli_UMN.1             GAAGCGAUGAAUGUCGGUUCUAC
+Escherichia_coli_O15.1             GAAGCGAUGAAUGUCGGUUCUAC
+Escherichia_coli_O15.2             GAAGCGAUGAAUGUCGGUUCUAC
+Escherichia_coli_536.1             GAAGCUAUGAGUGUUGGUUCCUC
+Escherichia_coli_CFT.1             GAAGCUAUGAAUGUUGGUUUCUC
+E.coli.3                           GAAGCGAUGAAUGUCGGUUCAAC
+E.coli.4                           GAAGCGAUGAAUGUCGGUUCAAC
+S.enterica.1                       GAAGCGAUGAAUGUCGGUUCCAC
+Salmonella_enterica_.1             GAAGCGAUGAAUGUCGGUUCCAC
+Salmonella_enterica_.2             GAAGCGAUGAAUGUCGGUUCCAC
+S.purpuratus.1                     GAAGCGAUGAAUGUCGGUUCAAC
+marine_metag.1                     GAAGCGAUGAAUGUCGGUUCUAC
+#=GC SS_cons                       ....<<<<....>>>>>>>>...
+#=GC RF                            gAAgcGacgAAuguCgguucaAc
+//

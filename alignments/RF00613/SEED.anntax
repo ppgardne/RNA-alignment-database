@@ -1,0 +1,127 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORD94
+#=GF AC    RF00613
+#=GF DE    Small Nucleolar RNA SNORD94
+#=GF AU    Daub J
+#=GF GA    25.0
+#=GF NC    24.8
+#=GF TC    25.7
+#=GF SE    INFERNAL
+#=GF SS    Predicted; RNAalifold; Daub J
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    snoRNABase; U94
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Mus_musculus300739
+#=GF DR    snoopy; Danio_rerio300149
+#=GF RN    [1]
+#=GF RM    12215523
+#=GF RT    Purified box C/D snoRNPs are able to reproduce site-specific
+#=GF RT    2'-O-methylation of target RNA in vitro.
+#=GF RA    Galardi S, Fatica A, Bachi A, Scaloni A, Presutti C, Bozzoni I;
+#=GF RL    Mol Cell Biol. 2002;22:6663-6668.
+#=GF RN    [2]
+#=GF RM    14602913
+#=GF RT    Identification of 13 novel human modification guide RNAs.
+#=GF RA    Vitali P, Royo H, Seitz H, Bachellerie JP, Huttenhofer A, Cavaille J;
+#=GF RL    Nucleic Acids Res. 2003;31:6543-6551.
+#=GF RN    [3]
+#=GF RM    16381836
+#=GF RT    snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D box
+#=GF RT    snoRNAs.
+#=GF RA    Lestrade L, Weber MJ;
+#=GF RL    Nucleic Acids Res. 2006;34:D158-D162.
+#=GF CC    The members of this family belong to the C/D class of snoRNAs
+#=GF CC    which contain the C (UGAUGA) and D (CUGA) box motifs. Most of the
+#=GF CC    members of the box C/D family function in directing site-specific
+#=GF CC    2'-O-methylation of substrate RNAs [1]. U94 (SNORD94) is
+#=GF CC    predicted to guide the 2'O-ribose methylation of C62 of the snRNA
+#=GF CC    U6 (Rfam:RF00026)[2].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_SNORD94
+#=GF SQ    18
+
+#=GS C.milii.1              AC    AAVX01111653.1/495-632
+#=GS D.rerio.1              AC    BX248136.12/139864-139999
+#=GS G.gallus.1             AC    AADN02014779.1/22704-22846
+#=GS A.carolinensis.1       AC    AAWZ01019321.1/51541-51684
+#=GS E.telfairi.1           AC    AAIY01402388.1/1061-1197
+#=GS O.cuniculus.1          AC    AAGW01177831.1/5758-5892
+#=GS M.musculus.1           AC    AC122200.4/154076-154212
+#=GS H.sapiens.1            AC    AY349593.1/1-137
+#=GS T.belangeri.1          AC    AAPY01106650.1/1502-1635
+#=GS F.catus.1              AC    AANG01204996.1/106-242
+#=GS B.taurus.1             AC    AAFC03072237.1/82864-82999
+#=GS M.lucifugus.1          AC    AAPE01133178.1/4370-4504
+#=GS E.europaeus.1          AC    AANN01557999.1/6931-7064
+#=GS S.araneus.1            AC    AALT01235424.1/738-874
+#=GS E.caballus.1           AC    AAWR02003548.1/157989-158125
+#=GS Dasypus_novemcinctus.1 AC    AAGV020295740.1/1028-1163
+#=GS Monodelphis_domestic.1 AC    AAFR03048892.1/56230-56366
+#=GS O.anatinus.1           AC    AAPN01102371.1/276-411
+
+C.milii.1                          CUGGCAAUGAUGAUUGGCGCAGGGGUACUUACCUCAGCUGGAUAAUGGGA
+D.rerio.1                          GGAGCAAUGAUGAGUGGCGCAGGGGUACGUACCUCAGCUGA.UAAUGGGA
+G.gallus.1                         AUGGCAGUGAUGAUUGGCGCAGGGGUACGGACCUCAGCUAGAUCAUGGGA
+A.carolinensis.1                   GCAGCAAUGAUGAUUGGCGCAGGGGUACGGACCUCAGCUAGAUCAUGGGA
+E.telfairi.1                       CAGGCUGUGAUGAUUGGCGCAGGGGUACGGACCUCAGCUGAGCCAUGGGA
+O.cuniculus.1                      CAGGCUGUGAUGAUUGGCGCAGGGGUACGGACCUCAGCUGAAUCAUGGGA
+M.musculus.1                       CAGGCUGUGAUGAUUGGCGCAGGGGUACGGACCUCAGCUGAGUCAUGGGA
+H.sapiens.1                        CAGGCUGUGAUGAUUGGCGCAGGGGUACGGACCUCAGCUGAGUCAUGGGA
+T.belangeri.1                      CAGGCAGUGAUGAUUGGCGCAGGGGUACGGACCUCAGCUGAGUCAUGGGA
+F.catus.1                          CAGGUUAUGAUGAUUGGCGCAGGGGUACGGACUUCAGUUGAUUCAUGGGA
+B.taurus.1                         CAGGCUGUGAUGAUUGGCGCAGGGGUACGGACCUCAGCUGA.UGAUGGGA
+M.lucifugus.1                      CAGGCUGUGAUGAUUGGCGCAGGGGUACGGACCUCAGCUGAGUUAUGGGA
+E.europaeus.1                      AAGGCUGUGAUGAUUGGUGCAGGGGUAUGGCCCUCCACUAAGUCAUGGGA
+S.araneus.1                        CAGGCUGUGAUGAUUGGCGCAGGGGUACGGACCUCAGCUGAAUCAUGGGA
+E.caballus.1                       CAGGCUGUGAUGAUUGGCGCAGGGGUACGGACCUCAGCUGAGUCAUGGGA
+Dasypus_novemcinctus.1             CAGGCUGUGAUGAUUGGCGCAGGGGUACGGACCUCAGCUGAGUCAUGGGA
+Monodelphis_domestic.1             GAGGCUGUGAUGAUUGGCGCAGGGGUACGGACCUCAGCUGAAUCAUGGGA
+O.anatinus.1                       GUGGCUGUGAUGAUCGGCGCAGGGGUACGGACCUCAGCUGCAUCAUGGGA
+#=GC SS_cons                       <<<<<.............................................
+#=GC RF                            CaGGCuGUGAUGAUUGGCGCAGGGGUACGGACCUCAGCUGAaUcAUGGGA
+
+C.milii.1                          GCUGAGUGCU....UGC.....GUCUUCUGCUCAGCCUACGUGUGGUGGG
+D.rerio.1                          GCUGAGUGUU....GAC.....UGCUCAAAAUCAGUGGACAUGUGGUCAG
+G.gallus.1                         GCUGAGUGCAAACUGUU.....GAUUUCAGUGCAGCUGGCGUGUGGCUGG
+A.carolinensis.1                   GCUGAGUGUG....AGUUUUCAGUGUCUGGCGUCGCUCGCAUGUGGCUUG
+E.telfairi.1                       GCUGAAUGUC....AGU.....GUCUCUCCUCCGUCCUGCAUGUGGCAGG
+O.cuniculus.1                      GCUGAAUGUU....CGU.....GCUUCUCCUUUGUCCUGCACGUGGCAGG
+M.musculus.1                       GCUGAAUGUA....UGU.....GUUUUGCCUCUGUCCUGCAUGUGGCAGG
+H.sapiens.1                        GCUGAAUGUA....UGU.....GUUUCUCCUUUGUCCUGCAUGUGGCAGG
+T.belangeri.1                      GCUGAAUGUA....CGU.....GCAUGUCGUCU.UCCUGCAUGUGGCAGG
+F.catus.1                          GCUGAACAUA....UGU.....GUUUCUCCUUUGUCCUGCAUGUGGCAGG
+B.taurus.1                         GCUGAGUGUA....UGU.....GCUUCUCCUUCGUCCUGCAUGUGGCAGG
+M.lucifugus.1                      GCUGAGUGUA....CGU.....GUUUCUCCUCCGUCCUGCAUGUGGCAGU
+E.europaeus.1                      GCUGAAUGUA....UGU.....GUUUCUCCGUUGUCCUGCAUGUGGUGGG
+S.araneus.1                        GCUGAAUGUA....UGU.....GUUUUGCCUUUGUCCUGCAUGUGGCAGG
+E.caballus.1                       GCUGAGUGUA....UGU.....GUUUCUCCUUUGUCCUGCAUGUGGCAGG
+Dasypus_novemcinctus.1             GCUGAGUGUA....CGU.....GCGUCCCCCUCGUCCUGCACGUGGCAGG
+Monodelphis_domestic.1             GCUGAAUGUA....UGU.....GUGUCUCUGCCCUCCUGCAUGUGGCAGG
+O.anatinus.1                       GCUGAGUGUA....GGU.....GGGUCUC.UGAGUCCUGCACGUGGUAGG
+#=GC SS_cons                       ..................................................
+#=GC RF                            GCUGAaUGUA....uGU.....GuuUcuCcuuuGUCCUGCAUGUGGcAGG
+
+C.milii.1                          CUGUUCAA.GGAGCG..UCUGCACGAGAAAAACGCCUAAAUCUGAGCCAG
+D.rerio.1                          CUGGUUGU.AGGGUG..UCAGCACGAAAUUAUCGCCUUGA.CUGAGCUCC
+G.gallus.1                         CUCACUG..GAAACAGGUUUGCAUGAGAACUUCGCCAAAGACUGAGCCAU
+A.carolinensis.1                   CUUCCUGGACAGUGG..CUCACACGAGAAUGUUGCCUUAUGCUGAGCUGC
+E.telfairi.1                       GUGCUGG..CGAGCA..CUGGCAUGAGACUGGUGCCUCAAUCUGAGCCUG
+O.cuniculus.1                      GUGAGGG..GGAGCA..CUUACAUGAGAC..UUGCCGCAAUCUGAGCCUG
+M.musculus.1                       CUGUUGG..CAUUCA..CAUACAUGAGACUGUUGCCUUAAUCUGAGCCUG
+H.sapiens.1                        CUGAUGG..GGAGCA..CUUACAUGAGACUGUUGCCUCAAUCUGAGCCUG
+T.belangeri.1                      .UGAUGU..C.AGCA..CUUACAUGAGACUGUUGCCUCAAUCUGAGCCUG
+F.catus.1                          AUGCUGG..UGAGCA..CUUACAGGAGACUGAUGCCUCAAUCUGAGCCUG
+B.taurus.1                         AUGCUGG..UGAGCA..CUUACAUGAGACUUGUGCCUUAAUCUGAGCCUG
+M.lucifugus.1                      GCGGUGG..CGAGCA..CGUACAUGAGAC..AUGCCUCGAUCUGAGCCUG
+E.europaeus.1                      UUGAUGG..CAAGCA..CUU.CAUGAGAC..UUGCCUGACUCAGAGCUUG
+S.araneus.1                        UUGAUGG..CAGGCA..CUUACAUGAGACUGAUGCCUUAAUCUGAGCCUG
+E.caballus.1                       AUAACGG..CGAGCA..CUUACAUGAGACUGAUGCCUUAAUCUGAGCCUG
+Dasypus_novemcinctus.1             UCGGUGG..UGAGCA..CUGACACGAGACA.ACGCCUCAAUCUGAGCCUG
+Monodelphis_domestic.1             UUGAUGG..GGAGCA..CUUACAUGAGACUGGUGCCUAAAUCUGAGCCUC
+O.anatinus.1                       ACGGAAG..AGAGCA..CUUACAUGAGACUGGUGCCUAAGUCUGAGCCUC
+#=GC SS_cons                       .............................................>>>>>
+#=GC RF                            aUGaUgG..aGAGCA..CuUACAuGAGAcugaUGCCUaAAUCUGAGCCuG
+//

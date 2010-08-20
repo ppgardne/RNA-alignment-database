@@ -1,0 +1,65 @@
+# STOCKHOLM 1.0
+#=GF ID    GadY
+#=GF AC    RF00122
+#=GF DE    GadY
+#=GF AU    Moxon SJ
+#=GF GA    45.0
+#=GF NC    0.0
+#=GF TC    74.6
+#=GF PI    IS183
+#=GF SE    Hershberg R, INFERNAL
+#=GF SS    Predicted; ILM
+#=GF TP    Gene; sRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF RN    [1]
+#=GF RM    12202758
+#=GF RT    Transcriptome analysis of Escherichia coli using high-density
+#=GF RT    oligonucleotide probe arrays.
+#=GF RA    Tjaden B, Saxena RM, Stolyar S, Haynor DR, Kolker E, Rosenow C;
+#=GF RL    Nucleic Acids Res 2002;30:3732-3738.
+#=GF RN    [2]
+#=GF RM    15466020
+#=GF RT    GadY, a small-RNA regulator of acid response genes in Escherichia
+#=GF RT    coli.
+#=GF RA    Opdyke JA, Kang JG, Storz G;
+#=GF RL    J Bacteriol 2004;186:6698-6705.
+#=GF CC    This family represents a GadY RNA (previous named IS183 in [1]). GadY can
+#=GF CC    form base pairs with the 3' UTR of its target mRNA gadX, this pairing is
+#=GF CC    thought to confer increased stability to the transcript, allowing
+#=GF CC    accumulation of gadX (a transcriptional regulator of the acid response) and
+#=GF CC    therefore increased expression of downstream acid resistance genes [2].
+#=GF WK    http://en.wikipedia.org/wiki/GadY
+#=GF SQ    5
+
+#=GS E.coli.1               AC    U00039.1/79120-79233
+#=GS Escherichia_coli_APE.1 AC    CP000468.1/3964436-3964548
+#=GS E.coli.2               AC    AF311305.1/31-144
+#=GS Escherichia_coli_536.1 AC    AAKB02000001.1/2320501-2320614
+#=GS Shigella_boydii_Sb22.1 AC    CP000036.1/3510427-3510540
+
+E.coli.1                           CUUACUGAGAGCACAAAGUUUCCCGUGCCAACAGGGAGUGUUAUAACGGU
+Escherichia_coli_APE.1             CUUACUGAGAGCACAAAGUUUCCCGUGCCAACAGGGAGUGUUAUAACGGU
+E.coli.2                           CUUACUGAGAGCACAAAGUUUCCCGUGCCAACAGGGAGUGUUAUAACGGU
+Escherichia_coli_536.1             CUUACUGAGAGCACAAAGUUUCCCGUGCCAACAGGGAGUGUUAUAACGGU
+Shigella_boydii_Sb22.1             CUUACUGAGAGCACAAAGUUUCCCGUGCCAACAGGGAGUGUUAUAGCGGU
+#=GC SS_cons                       ...<<<<..<<<<<......<<<<<<....>>.>>>>>>>>>....>>>>
+#=GC RF                            cUUaCuGAGagCaCAAAGUUuCCCGuGccAaCAGGGaGuGuuAUAACgGu
+
+E.coli.1                           UUAUUAGUCUGGAGACGGCAGACUAUCCUCUUCCCGGUCCCCUAUGCCGG
+Escherichia_coli_APE.1             UUAUUAGUCUGGAGACGGCAGACUAUCCUCUUCCCGGUCCCCUAUGCCGG
+E.coli.2                           UUAUUAGUCUGGAGACGGCAGACUAUCCUCUUCCCGGUCCCCUAUGCCGG
+Escherichia_coli_536.1             UUAUUAGUCUGGAGACGGCAGACUAUCCUCUUCCCGGUCCCCUAUGCCGG
+Shigella_boydii_Sb22.1             UUAUUAGUCUGGAGACGGCAGACUAUCCUCUUCCCGGUCCCCUAUGCCAG
+#=GC SS_cons                       ....<<<<<<<.......>>>>>>>.......<<<<<<.......>>>>>
+#=GC RF                            UUAUuaGuCuGGAGAcGGCaGaCuaUccUcUUCCCGGuccccUAUgCCGG
+
+E.coli.1                           GUUUUUUUUAUGUC
+Escherichia_coli_APE.1             G.UUUUUUUAUGUC
+E.coli.2                           GUUUUUUUUAUGUC
+Escherichia_coli_536.1             UUUUUUUUUAUGUC
+Shigella_boydii_Sb22.1             GUUUUUUUUAUGUC
+#=GC SS_cons                       >.............
+#=GC RF                            GUUUUUUUUAUGUc
+//

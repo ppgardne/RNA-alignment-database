@@ -1,0 +1,705 @@
+# STOCKHOLM 1.0
+#=GF ID    Telomerase-vert
+#=GF AC    RF00024
+#=GF DE    Vertebrate telomerase RNA
+#=GF AU    Machado Lima A
+#=GF GA    26.0
+#=GF NC    25.4
+#=GF TC    26.2
+#=GF SE    Machado Lima A
+#=GF SS    Published; PMID:10721988; Machado Lima A
+#=GF TP    Gene;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000390 SO:telomerase_RNA
+#=GF DR    GO:0007004 GO:telomere maintenance via telomerase
+#=GF DR    GO:0003720 GO:telomerase activity
+#=GF DR    GO:0000333 GO:telomerase catalytic core complex
+#=GF RN    [1]
+#=GF RM    10721988
+#=GF RT    Secondary structure of vertebrate telomerase RNA.
+#=GF RA    Chen JL, Blasco MA, Greider CW;
+#=GF RL    Cell 2000;100:503-514.
+#=GF RN    [2]
+#=GF RM    11842102
+#=GF RT    Analysis of the structure of human telomerase RNA in vivo.
+#=GF RA    Antal M, Boros E, Solymosy F, Kiss T;
+#=GF RL    Nucleic Acids Res 2002;30:912-920.
+#=GF RN    [3]
+#=GF RM    15811851
+#=GF RT    Comparative functional study of the viral telomerase RNA based on
+#=GF RT    natural mutations.
+#=GF RA    Fragnet L, Kut E, Rasschaert D;
+#=GF RL    J Biol Chem. 2005;280:23502-23515.
+#=GF CC    Telomerase is a ribonucleoprotein reverse transcriptase that 
+#=GF CC    synthesises telomeric DNA.
+#=GF CC    Telomerase RNAs differ greatly in sequence and structure between
+#=GF CC    vertebrates, ciliates and yeasts, but they share a 5' pseudoknot
+#=GF CC    structure close to the template sequence.  Vertebrate telomerase 
+#=GF CC    RNAs have a 3' H/ACA snoRNA-like domain. This family also contains viral
+#=GF CC    telomerase RNAs from the Gallid herpes viruses as described in [3].
+#=GF WK    http://en.wikipedia.org/wiki/Vertebrate_telomerase_RNA
+#=GF SQ    37
+
+#=GS R.porosus.1            AC    AF221915.1/120-667
+#=GS M.canis.1              AC    AF221933.1/121-679
+#=GS D.sabina.1             AC    AF221914.1/112-589
+#=GS R.bonasus.1            AC    AF221935.1/112-602
+#=GS X.laevis.1             AC    AF221908.1/136-584
+#=GS B.japonicus.1          AC    AF221913.1/109-520
+#=GS C.ornata.1             AC    AF221926.1/103-507
+#=GS P.adspersus.1          AC    AF221940.1/103-499
+#=GS D.mexicanus.1          AC    AF221934.1/121-565
+#=GS H.squalostoma.1        AC    AF221927.1/113-556
+#=GS T.natans.1             AC    AF221910.1/112-554
+#=GS G.gallus.1             AC    AY312571.1/605-1069
+#=GS A.hyacinthinus.1       AC    AF221924.1/105-538
+#=GS E.maximus.1            AC    AF221932.1/102-549
+#=GS T.manatus.1            AC    AF221923.1/106-554
+#=GS O.cuniculus.1          AC    AF221918.1/97-547
+#=GS C.porcellus.1          AC    AF221929.1/92-517
+#=GS C.brevicaudata.1       AC    AF221937.1/99-545
+#=GS G.breviceps.1          AC    AF221930.1/94-546
+#=GS M.ochrogaster.1        AC    AF221909.1/98-496
+#=GS C.griseus.1            AC    AF221928.1/95-476
+#=GS M.spretus.1            AC    AY058901.1/1-397
+#=GS M.musculus.1           AC    AC121792.3/109554-109950
+#=GS R.norvegicus.1         AC    AF221916.1/94-481
+#=GS H.sapiens.1            AC    U85256.1/1-451
+#=GS T.belangeri.1          AC    AF221912.1/98-564
+#=GS M.putorius.1           AC    AF221931.1/99-541
+#=GS P.lotor.1              AC    AF221917.1/99-542
+#=GS F.catus.1              AC    AF221939.1/99-544
+#=GS B.taurus.1             AC    AF221936.1/98-540
+#=GS S.scrofa.1             AC    AF221920.1/99-541
+#=GS S.murinus.1            AC    AF221921.1/98-548
+#=GS E.caballus.1           AC    AF221925.1/98-540
+#=GS Dasypus_novemcinctus.1 AC    AF221906.1/96-545
+#=GS D.hallucatus.1         AC    AF221919.1/107-614
+#=GS C.serpentina.1         AC    AF221911.1/104-513
+#=GS Gallid_herpesvirus_2.1 AC    AF147806.2/247-692
+
+R.porosus.1                        .................UCA.....CAUUGCU..GCGGGGUGGAGGC...
+M.canis.1                          .................UCA.....CAUUGCU..GCGGGGUGGAGGC...
+D.sabina.1                         ......................GUCCA..GCU..GCG.GG.GGAG..ACA
+R.bonasus.1                        ......................GUCCA..GCU..GC..GG.GGAG..AAA
+X.laevis.1                         .AAUCAGCGUUUAAAGCUCAA.....UGUGGA..CGGAGG.UCUCU....
+B.japonicus.1                      .................UU...AAUUAGAGGGAUUGGAAG.GUUCC....
+C.ornata.1                         .................ACA.....GUGGGAA..UAGGAG.GG......A
+P.adspersus.1                      .................CCA.GCGGUA..AUA..GGAGAGU..UCUA...
+D.mexicanus.1                      ...................U..CUCUCC.GGAGAGGGGCGG..UUUC...
+H.squalostoma.1                    .................UCU..CUCU...GGAGCGGGGCGA..UUUC...
+T.natans.1                         .................UGU.CAUUCCGGAGA..GGGGCG..UUUUC...
+G.gallus.1                         .................ACGC.......GUGGC.GGGUGGAAGGCUC...
+A.hyacinthinus.1                   ..................CGC...GUGGCGGA..UGGGGA..GGCUC...
+E.maximus.1                        ....GGGUUGAGGAGGGUACG...CCCGGGA...GGGCGGU.GGUCU...
+T.manatus.1                        ....GGGUUGAGGAUGGCGCC...CCCGGGUC..GGGCAGU.GGUCU...
+O.cuniculus.1                      ....GGGCUGAGGAGGGUGGG...CUCGGGAG..GGGCC.C.GGUCA...
+C.porcellus.1                      .................UGGG...CC.GGGAG..GGGUGGU.GGUCU...
+C.brevicaudata.1                   ....GGGUUGAGAAUGGUGGG...CC.GGGAG..GGGAGGU.GGGCA...
+G.breviceps.1                      ...........GGCCGGCGUGCCUGGGAGGGG...GGGCU..GGUC....
+M.ochrogaster.1                    ......................................GA..CGCGC...
+C.griseus.1                        ..................................................
+M.spretus.1                        ..................................................
+M.musculus.1                       ..................................................
+R.norvegicus.1                     ..................................................
+H.sapiens.1                        ....GGGUUGCGGAGGGUGGG...CCUGGGAG..GGGUGGU.GGCCA...
+T.belangeri.1                      ....GGG.AGUGGAGGGUGGG...CCCGGGAC..GGGCG.C.GGACC...
+M.putorius.1                       ....GGGUUGCGGAGGGUGGG...CUCGGGAG..GGGUGGC.GGUCA...
+P.lotor.1                          ....GGGUUGCGGAGGGUGGG...CCUGGGAG..GGGUGGC.GGUCG...
+F.catus.1                          ....GGGUUGUGGAGGGUGGG...CCUGGGAG..GGGAAGC.GGUCA...
+B.taurus.1                         ....GGGUUGCGGAGGGUGGG...CCCCGGGU..UGGUGGC.AGCCA...
+S.scrofa.1                         ....GGGUUGCGGAGGGUGGG...CCCAGGAG..CGGUGGC.GGCCA...
+S.murinus.1                        ...............GGCGGG..UUGCGGGAGC.UGCGAG.CGGCCG...
+E.caballus.1                       ....GGGUGGGGGAGAGUGGG...UCUGGGCG..GGGCGGC.GGUCA...
+Dasypus_novemcinctus.1             ....GGGUUGCGGAGGGAGGG...CCCGGGAG..GGGUGAG.CGUCC...
+D.hallucatus.1                     GUGCGGACGGGCUGCGUGGGC......GGGUCG...GUCC..GUCCU...
+C.serpentina.1                     ..................CCG...CUGCGGCGGCAGGUGGG.GGCUC...
+Gallid_herpesvirus_2.1             .................ACAC.......GUGGC.GGGUGGAAGGCUC...
+#=GC SS_cons                       .....................<<<<<<<<<<<..<<<<<<.<<<<<<...
+
+R.porosus.1                        GUUUUU..AACUAACCCUAA.UGCAGAGUAA..GUGG..CUGG.......
+M.canis.1                          GAUUUU..AACUAACCCUAA.UGCAGAGUAA..GUGG..CUGG.......
+D.sabina.1                         GUGUCGCUCUCUAACCCUAAUGUGGGGGCAA.CGCGGG............
+R.bonasus.1                        GUGUCGUUCUCUAACCCUAAUGCGAGGGCAA.UGCGGG............
+X.laevis.1                         GUUU....CGCUAACCCUAAUACACUGGCUUCAGGGCGAUG.........
+B.japonicus.1                      GCUUA...UGCUAACCCUAAUAUUGGGGGUCUGUUGAAAA..........
+C.ornata.1                         GUCUAUAUUUCUAACCCUAAUAUACCCGGU..UCAGG.............
+P.adspersus.1                      UCC.....UUCUAACCCUAA.UGCACAGACCCCUCGCU............
+D.mexicanus.1                      UCUGUC..UUCUAACCCUAAUGCGGUGCUUCGGCAGAA............
+H.squalostoma.1                    UCUUCC..UUCUAACCCUAAUGCGGUGCUUAGGCGACA............
+T.natans.1                         UUCUUU..CUCUAACCCUAAUGUAUUGCUUGGGCAGCA............
+G.gallus.1                         CGCUGU..GCCUAACCCUAAUCGGGGGAAUUGAUGGU......GCUGUC.
+A.hyacinthinus.1                   CAGUCU..CACUAACCCUAAU......................GGC.U..
+E.maximus.1                        GUUCUG..UUCUAACCCUAACUGAUAAG...............GGCGUAG
+T.manatus.1                        UUUUUG..UUCUAACCCUAACUGGCAAG...............GGCGUAG
+O.cuniculus.1                      UUUCUC..AUCUAACCCUAACUGAGCAG...............GGCGUAG
+C.porcellus.1                      UCCCU...GUCUAACCCUAAG.GUGAAGAG.............GACGUGG
+C.brevicaudata.1                   UGUUUU..GUCUAACCCUAACUAGGAGGAG.............GACGUAG
+G.breviceps.1                      CCACUC..UUCUAACCCUAAGGGUGUCG...............GCUGUAG
+M.ochrogaster.1                    .GCCUC..UUCUAACCCUAAAAACUG.GA..............GCUGUAG
+C.griseus.1                        ........GUCUAACCCUGAAUUCUGAGA..............GCUGUGG
+M.spretus.1                        ........ACCUAACCCUGAUUUUCAUUA..............GCUGUGG
+M.musculus.1                       ........ACCUAACCCUGAUUUUCAUUA..............GCUGUGG
+R.norvegicus.1                     ........GUCUAACCCUAU.UGUUAU.A..............GCUGUGG
+H.sapiens.1                        UUUUUU..GUCUAACCCUAACUGAGAAG...............GGCGUAG
+T.belangeri.1                      CGGUA...AUCUAACCCUGACUCACAAGA..............GGCGUAG
+M.putorius.1                       UUUUCU..GUCUAACCCUAACUGAAACG...............GGCGUAG
+P.lotor.1                          UUUUAU..GUCUAACCCUAACUGAGAAG...............GGCAUAG
+F.catus.1                          GUUUUU..GUCUAACCCUAACUGAGAAG...............GGCGUAG
+B.taurus.1                         UUUCUC..AUCUAACCCUAAUUGAGACA...............GGCGUAG
+S.scrofa.1                         UUUUUUAAGUCUAACCCUAACUGAAAGA...............GGCGUAG
+S.murinus.1                        ..UCUC..GUCUAACCCUAAA.GAGAAA...............GGCGUAG
+E.caballus.1                       CGUUUU..GUCUAACCCUAACUGAGCUG...............GGCGGAG
+Dasypus_novemcinctus.1             AUUAUC..GUCUAACCCUAACUGAGAUG...............GGCGUAG
+D.hallucatus.1                     .GGCAC..AUCUAACCCUAAAUGCGCGCUGGUUGAAGUGGCUU.......
+C.serpentina.1                     .AGUCU..UUCUAACCCUAAGCGAAAUGUGACC.................
+Gallid_herpesvirus_2.1             CGCUGU..GUCUAACCCUAAUCGGAGGUAUUGAUGGUA......CUGUC.
+#=GC SS_cons                       ...........................................<<<<<<<
+
+R.porosus.1                        ........GCCUUCCUCACACUGCCUCCCGCUG..........CGUGAAA
+M.canis.1                          ........GCCUUCCUCACACUGCCUCCCGCUG..........CGCGAAA
+D.sabina.1                         ........CCCUU.UGUUUAAAG..UCCCGCUGU.........CGGGAGC
+R.bonasus.1                        ........CCCUU.UGUUUAAAG..UCCCGUUGUCGCGCGAAGCGGGAGC
+X.laevis.1                         ........GCUCU....................UCGCGGCGG.......U
+B.japonicus.1                      ........CCUCU....UUAAGAUA........................U
+C.ornata.1                         ........GCUCU.....UA...........UGUGG.............C
+P.adspersus.1                      ........GCUCU..UCA...............................U
+D.mexicanus.1                      ........GCUCUC....CACUGCGUA......................C
+H.squalostoma.1                    ........GUUCU.............CCGGGUG................C
+T.natans.1                         ........GCUCU.......CUCGGUA......................U
+G.gallus.1                         ...GCCGCGCUCC...........CUCCGCC..................C
+A.hyacinthinus.1                   GCCGCCGUGCUCC.............CCGCACC................C
+E.maximus.1                        GC.GCCGUGCUUU........UGU.UCCC....................C
+T.manatus.1                        GU.GCUGUGCUUU........UGU.UCCC....................C
+O.cuniculus.1                      GC.GCCGCGCUUU........UGUUUCCC....................C
+C.porcellus.1                      GU.GCCGUGUUUU........UCGCUCC.....................C
+C.brevicaudata.1                   GC.GCCGUGCUUU........UGU.UCCC....................C
+G.breviceps.1                      GC.GCCGUGCUUU....UUA...CUUCCC....................C
+M.ochrogaster.1                    GU.GUUGCUCUUU.............CAGCGU.................C
+C.griseus.1                        GU.ACUGUGCUUU........CGU..CUC....................C
+M.spretus.1                        GU.UCUGGUCUUU........UGUU.CUU....................C
+M.musculus.1                       GU.UCUGGUCUUU........UGUU.CUC....................C
+R.norvegicus.1                     GU.UCUGUUCUUU........UGUU.CUC....................C
+H.sapiens.1                        GC.GCCGUGCUUU........UGCU.CCC....................C
+T.belangeri.1                      GC.GCCGUGCUUU........UGCU.CCC....................C
+M.putorius.1                       GC.GCUGCGCUUU........UGUU.CCC....................C
+P.lotor.1                          GC.GCUGCGCUUU........UGUU.CCC....................C
+F.catus.1                          GC.GCCGCGCUUU........UGUUUCC.....................C
+B.taurus.1                         GC.GCUGUGCUUU........UGGUUAC.....................C
+S.scrofa.1                         GC.GCUGCGCUUU........UGCUUCA.....................C
+S.murinus.1                        GU.GCUUGGCCUU.........GGCGACU....................C
+E.caballus.1                       GC.GCCGCGCUUU........UGCU.CCC....................C
+Dasypus_novemcinctus.1             GC.GCCGCGCUUU........UGCUUCC.....................C
+D.hallucatus.1                     .........CUCC.......UGGGCGA.U....................C
+C.serpentina.1                     .......C.CUCC.............CCGCUGCAGC.............C
+Gallid_herpesvirus_2.1             ...GCCGCGCUCC.............CUC....................C
+#=GC SS_cons                       <<......<<<<<....................................<
+
+R.porosus.1                        CCUCGCUGUUUUCUUGGCUAACUUUCAGCGAGGUGAGGCAAGGCGGCAAA
+M.canis.1                          CCUCGCUGUUUUCUUGGCUAACUUUCAGCGAGGUGAGGAGAGGCGGCAAA
+D.sabina.1                         CCUCGCUGUUUUCUUGGCUAACUUUCAGCGAUGG..CGAAAGGGCCCAGC
+R.bonasus.1                        CCUCGCUGUUUUCUUGGCUAACUUUCAGCGAUGG..UGAAAGGGCCUAGC
+X.laevis.1                         GCCUGUUGUUUUACUUGCUGACUUUCAGCGGGCA.CGG.AGAGCAAGC..
+B.japonicus.1                      GCGUGUUGUUUUAUUGGCUGACUUUCAGCGCGCA.UUG.AGAGGAGUU..
+C.ornata.1                         GCUCGUUGUUUUGCCGGUUGCCUUUCAGCGGGCG.AA..AGAGCUCAG..
+P.adspersus.1                      GCUCGUUGUUUUUCUCGCUGACUUUCAGCGGGCG.AA..AGAGCAAUG..
+D.mexicanus.1                      GCUCACUGUUUUUCUAGCUAACUUUCAGUGAGCA.GGG.AGAGCGAAGUC
+H.squalostoma.1                    GCUCGCUGUUUUUCUGGCUAACUUUCAGCGAGCGGAG..AGAGCGAAGCC
+T.natans.1                         GCUCGCUGUUUUGCUGGCUAACUUUCAGCGAGCA..G..AGGGCGAAGUC
+G.gallus.1                         GCCCGCUGUUUUACUCGCUGACUUUCAGCGGGCG.AGA.GGAGCCGCCC.
+A.hyacinthinus.1                   GUCCGCUGUUUUAUUCGCUGACUUUCAGCGGACG.GGG.GGAGCC.....
+E.maximus.1                        GCGCGUUGUUUUUCUCGCUGACUUUCAGCGGGCG..GGAAAAGCCUCG..
+T.manatus.1                        GCGCGUUGUUUUUCUCGCUGACUUUCAGCGGGCG..GGAAAAGCCCUG..
+O.cuniculus.1                      GCGCGCUGUUUUUCUCGCUGACUUUCAGCGCGUG..GGAAAAGCCUUG..
+C.porcellus.1                      GCACGCUGUUUUUCUCGCUGACUUUCAGCGUGCAGA...AAAGCCUUG..
+C.brevicaudata.1                   GCGCGCUGUUUUUCUCGCUGACUUUCAGCGUGCGGA...AAAGCCUUG..
+G.breviceps.1                      GCGCGCUGUUUUUCUGGCUGGCUUUCAGCGAGCGGAA..AAAGCUUUG..
+M.ochrogaster.1                    GCCCGCUGUUUUUCUCGCUGGCUUUCAGCGGGCC.AG..AAAGUUCAG..
+C.griseus.1                        GCCCGCUGUUUUUCUCGCUGACUUCCAGCGGGCG..GG.AAAGUCCAG..
+M.spretus.1                        GCCCGCUGUUUUUCUCGCUGACUUCCAGCGGACC.AGU.AAAGUCCAG..
+M.musculus.1                       GCCCGCUGUUUUUCUCGCUGACUUCCAGCGGGCC.AGG.AAAGUCCAG..
+R.norvegicus.1                     GCCCGCUGUUUUUCUCGCUGACUUUCAGCGGGCC.UGG.AAAGUUCAG..
+H.sapiens.1                        GCGCGCUGUUUUUCUCGCUGACUUUCAGCGGGCGGA...AAAGCCUCG..
+T.belangeri.1                      GCGCGCUGUUUUUCUCGCUGACUUUCAGCGUUCGGA...AAAGCCCUGUG
+M.putorius.1                       GCACGCUGUUUUUCUCGCUGACUUUCAGCGGGCGGA...AAAGCCUUG..
+P.lotor.1                          GCACGCUGUUUUUCUCGCUGACUUUCAGCGGGCGGA...AAAGCCUCG..
+F.catus.1                          GCACGCUGUUUUUUUCGCUGACUUUCAGCGGGCGGA...AAAGCCUCG..
+B.taurus.1                         GCGCGCUGUUUUUCUCGCUGACUUUCAGCGGGCGGA...AAAGCCUCG..
+S.scrofa.1                         GCGCGCUGUUUUUCUCGCUGACUUUCAGCGGGCGGA...AAAGCCUCG..
+S.murinus.1                        GCCCGCUGUUUUU.UGGCUGGCUUUCAGCGGGUGAA...GAGGCCCAAG.
+E.caballus.1                       GCGCGCUGUUUUUCUCGCUGACUUUCAGCGGGCGGA...AAAGCCUCG..
+Dasypus_novemcinctus.1             GCGCGCUGUUUUUCUCGCUGACUUUCAGCGGGCGGA...AAAGCCUCG..
+D.hallucatus.1                     GCUCGCUGUUUUUGUGGCUGGCUUUCAGCGGGCU..GGAGGAGCCGGG..
+C.serpentina.1                     GUCCGCUGUUUUACUCGCUGACUUUCAGCGGACG.GGG.GGAGCGGGU..
+Gallid_herpesvirus_2.1             GCCCGCUG.UUUACUCGCUGACUUUCAGCGGGCU.AGG.GGAGCCGCCC.
+#=GC SS_cons                       <<<<<<<<........AAAAAAAAA>>>>>>>>>.....>>>>>......
+
+R.porosus.1                        ..................................................
+M.canis.1                          .................................................A
+D.sabina.1                         ..................................................
+R.bonasus.1                        ..................................................
+X.laevis.1                         ..................................................
+B.japonicus.1                      ..................................................
+C.ornata.1                         ..................................................
+P.adspersus.1                      ..................................................
+D.mexicanus.1                      ..................................................
+H.squalostoma.1                    ..................................................
+T.natans.1                         ..................................................
+G.gallus.1                         CGGGGGGGAGGCGGGCGGCGGGAGGGGGCCGGGGCGCCGCGGCGGUGGGG
+A.hyacinthinus.1                   ........GCCUGGGGGGGA..............................
+E.maximus.1                        GUCUA.CCGCC.GUCUACCG.AUAGCCU......................
+T.manatus.1                        GCCUA.CCGCC.GUCUACCG.AUAGUUU......................
+O.cuniculus.1                      GCCUA.CCGCC.GUCCACCGUUCAUUUC......................
+C.porcellus.1                      GCCUA.CCGUC.GGUUAUUGUCUAAUUA......................
+C.brevicaudata.1                   GCCUG.CCGUC.GACCACUGUCUAAUUA......................
+G.breviceps.1                      GUCUA..CAGGCCACUCACUUUGUAUCCC.....................
+M.ochrogaster.1                    ACCUCU.CAGCAGAUCGUCGCGUCGUUC......................
+C.griseus.1                        ACCUG..CAGCGGGCCAUCGCGCGUUUU......................
+M.spretus.1                        ACCUG..CAGCGGGCCACCGCGCGUUCC......................
+M.musculus.1                       ACCUG..CAGCGGGCCACCGCGCGUUCC......................
+R.norvegicus.1                     ACCUG..CAGCGGGUCACCGCGCAUUCU......................
+H.sapiens.1                        GCCUG.CCGCC.UUCCACCGUUCAUUCU......................
+T.belangeri.1                      GCCUA.UCGCC.AUCCACCAUCCUUUCU......................
+M.putorius.1                       GCCUA.CUGCC.ACACACCAUCCAGUUU......................
+P.lotor.1                          GCCUA.CUGCC.AUCCACCAUCCAGUUU......................
+F.catus.1                          GCCUA.CCGCC.GUCCACCGUACAGUUU......................
+B.taurus.1                         GCCUA.CCGCC.AUCCACCAUCCAGUCU......................
+S.scrofa.1                         GCCUA.CCGCC.AUCCACCAUCCAGUCU......................
+S.murinus.1                        ACCUA.CCGCC.ACCCACCGUCUAGUGUCUUAAGGGCACAAAGUCCUGCC
+E.caballus.1                       GUCUA.CCGCC.ACUUACCAUCCAGUCU......................
+Dasypus_novemcinctus.1             GCCUA.CUGCC.GUCUACUGUCGUAUCU......................
+D.hallucatus.1                     ............AGCGGAGGCGGAGGACCGAG..................
+C.serpentina.1                     ..................................................
+Gallid_herpesvirus_2.1             .......CAGGGGGCGCCGCGGGGGGGAGGGGGUGGGGCGGACGCGGGAG
+#=GC SS_cons                       >>>>>..>>>>.......................................
+
+R.porosus.1                        ..AAAAAGUUGGGAG............CAGCAACGGCAAGCAAA...AAA
+M.canis.1                          AAAAAAGGUUGGGAG............CAGCAGCGGCAAACAAAA..AAA
+D.sabina.1                         ...AAAGGUUGGGAAGCGUGAUUUAUUGUUGGUGGGCAGAGAG....AAA
+R.bonasus.1                        ...AAAGGUUGGGAAGCGUGAUUUAUUGUUGGUGGGCAGAGAG....AAA
+X.laevis.1                         .............................GUAGACGACGACUA....AAA
+B.japonicus.1                      .............................GCUGCCCAGGACUA....AAA
+C.ornata.1                         .............................AGAAGCGAGGACCA....AAA
+P.adspersus.1                      .............................GAAGCUCAGGACUA....AAA
+D.mexicanus.1                      .....................CAGUUUC.ACGACAACGGAGA.....AAA
+H.squalostoma.1                    ...................GUGGUUUACGACGAUAGAGGAGA.....AAA
+T.natans.1                         .....................GAAUUUCG..GACAAGGGAGA.....AAA
+G.gallus.1                         GUCGGGGGGGGGAGAGAAAGGGCCGAAAGGGGCUCCGCGGCCAA...AAA
+A.hyacinthinus.1                   ...........................AGGGGUUUGCAAUCA.....AAA
+E.maximus.1                        ............................GGAGCAAA....CAA....AAA
+T.manatus.1                        ............................GGAGCAAA....CAA....AAA
+O.cuniculus.1                      ............................GCAGUAAA....CA.....AAA
+C.porcellus.1                      ............................GAAGCAAA....CA.....AAA
+C.brevicaudata.1                   ............................AAAGCAAA....CA.....AAA
+G.breviceps.1                      ............................GAAACCAAAUU.GAAAAAAAAA
+M.ochrogaster.1                    ............................UCAACCA.....CA.....AAA
+C.griseus.1                        ............................CCA.CCA.....CAA....AAA
+M.spretus.1                        ............................CGAGCCUCAAAAAC.......A
+M.musculus.1                       ............................CGAGCCU.....CAAAA..ACA
+R.norvegicus.1                     ............................GGAACCU.....CA.....AAA
+H.sapiens.1                        ............................AGAGCAAA....CA.....AAA
+T.belangeri.1                      ............................GGAACAAACAGACAAAAAAAAA
+M.putorius.1                       ............................GGAGCAAA....CA.....AAA
+P.lotor.1                          ............................GGAGCAAA....CA.....AAA
+F.catus.1                          ............................GGAGCAAA....CA.....AAA
+B.taurus.1                         ............................GCAACAAA....CA.....AAA
+S.scrofa.1                         ............................GAAACAAA....CA.....AAA
+S.murinus.1                        CGCCACCCUUCGA...............GGAGCGAAA...CCC....AAA
+E.caballus.1                       ............................GGAGUAAA....CA.....AAA
+Dasypus_novemcinctus.1             ............................GGAGCAAA....CA.....AAA
+D.hallucatus.1                     ........................................CC.....AAA
+C.serpentina.1                     ............................GGAGACGCCAACCA.....AAA
+Gallid_herpesvirus_2.1             AAAGGACCGAAAGGGGCUCCAC........GGCAAACAAAAAAAA..AAA
+#=GC SS_cons                       .................................................a
+
+R.porosus.1                        AAAGUUCCAGC.CGAG......GCC.UCCUCACCA.CGCGGC..C...UG
+M.canis.1                          AAAGUUCCAGC.CGAG......GCC.UCCUCACCCCCGCGGC..C...UG
+D.sabina.1                         AAAGUUUAAGC.CGCGGCCUC...C.UCC....CCG.GCGGC..CCA..G
+R.bonasus.1                        AAAGUUUCAGC.CGCGGCCUC...C.UCC....CCG.GCGGC..CCA..G
+X.laevis.1                         AACGUC..AGC.UG.........GG.AGACU..CCUCCGUUCGC....A.
+B.japonicus.1                      AAUGUC..AGC.UG.........GG.AGU...CCUUCCUCUCCC....UU
+C.ornata.1                         AACGGC..AGCCGCGGG..........CC....CUCCUGUUCCC....AC
+P.adspersus.1                      AACGUC..AGC.CG........UAG.G......CUUUCCUAU......AG
+D.mexicanus.1                      AAUGUU..AGC.UG........GGG.A....A.CGUCCCUUU..CCC.GA
+H.squalostoma.1                    AAUGUU..AGC.UG........GGG.A....A.CGUCCCUUU..CCCG.A
+T.natans.1                         AAUGUU..AGC.CG........GGG.AA.....CGCCCCUUUCCC....G
+G.gallus.1                         AACGUC..AGC.GAG.......GGG.UC..CGCUCGCCCCGAU.C.....
+A.hyacinthinus.1                   AACGUC..AGC.GAC.......GGG.UC.....UCCCCAGCC.CAGCCCG
+E.maximus.1                        AAUGUC..AGC.CGC.......CGG.CC...GCUCGCCCCUCCC....GG
+T.manatus.1                        AAUGUC..AGC.CGC.......UGG.CC...GCUCACCCCUCCC....GG
+O.cuniculus.1                      AAUGUC..AGC.CGC.......UGG.CC..GGUUCGCCCUUCCC....GG
+C.porcellus.1                      AAUGUC..AGC..G........UGG.CC..GGGCCGCCCCUCCC....GG
+C.brevicaudata.1                   AAUGUC..AGC..G........UGG.CC..GGUCCGCCCCUCCC....GG
+G.breviceps.1                      AAUGCC..AGC.UCC........GG.CC.....GGUCCACCCCU....CC
+M.ochrogaster.1                    AAUGCC..AGCGCAAA......GCG.CG.....UC...............
+C.griseus.1                        AAUGUC..AGCGCUGG.GCUCA............................
+M.spretus.1                        AACGUC..AGCGCAGGAGCUUC............................
+M.musculus.1                       AACGUC..AGCGCAGGAGCUCC............................
+R.norvegicus.1                     AAUGUC..AGCGUAGGAGCUCU............................
+H.sapiens.1                        AAUGUC..AGC.UGC.......UGG.CC..CGUUCGCCCCUCCC....GG
+T.belangeri.1                      AAUGUC..AGC.UGC.......UGG.UC..CGUUCGCUCCUCCC....GG
+M.putorius.1                       AAUGUC..AGC.GGC.......UGG.CC..UGCUCGCCCCUCCC....GG
+P.lotor.1                          AAUGUC..AGC.CGC.......CGG.CC..UGCUCGCCCCUCCC....GG
+F.catus.1                          AAUGUC..AGC.UGC.......UGA.CU..UGCUCGCCCCUCCC....AG
+B.taurus.1                         AAUGUC..AGC.CGC.......UGG.CU..CGCUCACCUCUCC.C...GG
+S.scrofa.1                         AAUGUC..AGC.CUC.......UGG.CU..CGCUCACUGCUCC.C...GG
+S.murinus.1                        AAAGUC..AGC.CCC.......UGG.CCG.CCUCUCGCCCUCUC....GC
+E.caballus.1                       AAUGUC..AGC.CGC.......UGG.CU..CGCUCGCCCCUCCC....GG
+Dasypus_novemcinctus.1             AAUGUC..AGC.CGC.......UGG.UC..CGCUCGCCCCAUCC....GG
+D.hallucatus.1                     AACGUC..AGC.CG........AGG.CC.....GGGC..GGCCC......
+C.serpentina.1                     AACGUC..AGC.GAG.......GGGCCC....UCCCCUCCCACG....CC
+Gallid_herpesvirus_2.1             AACGUC..AGC.GAG.......GGG.UC..CUCUCGCCCCCAU.C.....
+#=GC SS_cons                       aa.aaa..aaa...........>>>.>>>....>>>>>>>>>>>....>>
+
+R.porosus.1                        ....GGUCUGAGGGUAACAUGGCCCUGCGGGAGAGAGCCAACACGGG...
+M.canis.1                          ....GGUCUGAGGGUAACACGGCCCUGCGGGAGAGAGGCAACACGG....
+D.sabina.1                         GAC.CC.................CCUGUU.GCAACGUGCGGAAUGGCG..
+R.bonasus.1                        GAC.CC.................CCUGUU.GCAACGUGCGAAAUGGCG..
+X.laevis.1                         ....CAGCCCGA...........CCUGCUCCAUUGCCCAAGAGC......
+B.japonicus.1                      AUU....................UCUGCCUCACAACCU.GGA........
+C.ornata.1                         ....CAU................CCCAGCUUUUCCACACUGCGC......
+P.adspersus.1                      CCGCAGG................CCUGCC.UGUCAGUG.UGC........
+D.mexicanus.1                      GAG....................CCCGCGCCGUCCUUUUUCUUCCU....
+H.squalostoma.1                    GAG....................CCCGCGCCAUCCU....CUUCCU....
+T.natans.1                         AAUG...................CCCGUGCCGUCCUUCCUCU.CCUC...
+G.gallus.1                         ....CGC...............CCUGGGG.UC..................
+A.hyacinthinus.1                   C...C..................CUGGGGUCUCCGUCCCCCCACGCAGCC
+E.maximus.1                        G...AA.................CCUGCAGUGGCUC..............
+T.manatus.1                        G...AA.................CCUGUGGUGGCUC..............
+O.cuniculus.1                      G...GA.................CCUGCGGUGGCUC..............
+C.porcellus.1                      A...UA.................CCUGCGGCGGCUC..............
+C.brevicaudata.1                   G...UA.................CCUGCGGCAGCUC..............
+G.breviceps.1                      CGGGGU.................CCUGCGGCCCGGCC.............
+M.ochrogaster.1                    ....AGCCUAGAAC.........CUUGCGGCCCCG...............
+C.griseus.1                        ....UGUGCCU.......GGAGCCUUGCGGCC..................
+M.spretus.1                        ....AGGUUCGCCG....GGAGCUCCGCGGCGUCG...............
+M.musculus.1                       ....AGGUUCGCCG....GGAGCUCCGCGGCGCCG...............
+R.norvegicus.1                     ....GGUGCC........AGAGCUCCGCGGCGCUG...............
+H.sapiens.1                        G...GA.................CCUGCGGCGGGUC..............
+T.belangeri.1                      G...C..................CCUGCGGUGGCCGCCAGCCC.......
+M.putorius.1                       G...AG.................CCUGCGGCGACUC..............
+P.lotor.1                          G...AU.................CCUGCGGUGGCUC..............
+F.catus.1                          G...AC.................CCUGCGGUGGCUC..............
+B.taurus.1                         G...AA.................CCUGCGGUGGUCC..............
+S.scrofa.1                         G...AA.................CCUGCGGUGGUUC..............
+S.murinus.1                        AA.....................CCCGC..CU..................
+E.caballus.1                       G...AC.................CCUGCGACGGCUC..............
+Dasypus_novemcinctus.1             G...AA.................CCUGCGGUGGCUC..............
+D.hallucatus.1                     ....CG.................CUCGUGGCCCGUCCGCACUGUCCGGGC
+C.serpentina.1                     G...AC.................CUGGGCCUGUGG...............
+Gallid_herpesvirus_2.1             ....CGC...............CCUGGGG.UC..................
+#=GC SS_cons                       >>>>...................<<<<<<<....................
+
+R.porosus.1                        ......GGGGCCCCGGUCCGGCUAACAGGGCAGGAG....GUCGGCCCCA
+M.canis.1                          ......GGGCCCCCGGUCCGGCGAACAGGGCAGGAG....GUCGGUCCCA
+D.sabina.1                         ......................................GCCUCGGCCC..
+R.bonasus.1                        ......................................GCCUCGGCCC.C
+X.laevis.1                         ......................................CCCGGGUUUU.C
+B.japonicus.1                      .........................................CUCUUUA..
+C.ornata.1                         .........................................CUGGGUU.C
+P.adspersus.1                      ........................................GCGGCCUCU.
+D.mexicanus.1                      .....................................CGGGCCCGUUGG.
+H.squalostoma.1                    .....................................CGGGCCCAUUGGC
+T.natans.1                         .....................................UGGGCCCGUUGGC
+G.gallus.1                         ..................................................
+A.hyacinthinus.1                   .....................................GGGGGCCUGCC..
+E.maximus.1                        .......................................GCC.CGCCC..
+T.manatus.1                        .......................................GCC.CGCCC..
+O.cuniculus.1                      .......................................GCC.CGCCC..
+C.porcellus.1                      .......................................GUC.C.ACCG.
+C.brevicaudata.1                   .......................................GCC.CGGCUG.
+G.breviceps.1                      .......................................GCC.CGCCCGA
+M.ochrogaster.1                    ........................................GGCCGCCC..
+C.griseus.1                        ........................................GGCCGCCC..
+M.spretus.1                        ........................................GGCCGCCC.A
+M.musculus.1                       ........................................GGCCGCCC..
+R.norvegicus.1                     ........................................GGCCGCCC.A
+H.sapiens.1                        ........................................GCCUGCCC.A
+T.belangeri.1                      .......................................GCC.CUCUC.A
+M.putorius.1                       .......................................GCC.CGCUU.A
+P.lotor.1                          .......................................GCC.CGCUU.A
+F.catus.1                          .......................................GCCUC.CUU.A
+B.taurus.1                         .......................................GCC.CGCCC.A
+S.scrofa.1                         .......................................GCC.CGCCC.A
+S.murinus.1                        ........................................CCG.UCCC.A
+E.caballus.1                       .......................................GCC.CGCCC.A
+Dasypus_novemcinctus.1             .......................................GUC.CGCCC.U
+D.hallucatus.1                     CAGGCCCCGGCCCGAACCCCCUGGAGACAACUCCCGCAGGGUCUGCGCUG
+C.serpentina.1                     .....................................UGGGGCCCGCC..
+Gallid_herpesvirus_2.1             ..................................................
+#=GC SS_cons                       .....................................<<<<<<<<<<<<.
+
+R.porosus.1                        AUUGCCUCA.......GGCCC....AGCC..ACUCC.......GGGCCGC
+M.canis.1                          AUCGCCUCACA.....GGCCC....AGCC..ACUCC.......GGGCCGC
+D.sabina.1                         ...CCCUGCU...GCACGCCCA...GCCG..UUU.........AGGCCGC
+R.bonasus.1                        CACCUUUGCUC..GCAUGCCCA...GCCG..AGU.........AGGCCGC
+X.laevis.1                         UCUGUGGAA...UGUAUCAGGCGCUCCCCGGUCUGUCUGUCUGGGGCCGC
+B.japonicus.1                      ....UUUA......GCGGUG.....CCCC.AUUUGUCG.....AGGCCGC
+C.ornata.1                         UCACUCAAGUGU..UCGGCAG....CUUCC.ACUUACG.....AGGCCGC
+P.adspersus.1                      GCUCGCAA.UGU..CCGCAG.....CGCC.UUCCUAUG.....AGGCCGC
+D.mexicanus.1                      CAUAGCC.......CCUGGCCU...CCUCGCUCUAU.......AGGCCGC
+H.squalostoma.1                    GAUAGCC.......CCCGGC.CUC.CCUCGCUCACC.......AGGCCGC
+T.natans.1                         GAUAGCCCCC.......GGCCUC..CCUCGCUCCUU.......AGGCCGC
+G.gallus.1                         ................CCCGC......UCG..CG.........UGGCCGC
+A.hyacinthinus.1                   ....GCGGAG....GCUCCCUC...CGCCGCACUUCACGG...AGGCCGC
+E.maximus.1                        ...AGC........CCCGC..UC..CCCGC..CUGG.......AGGCCGC
+T.manatus.1                        ...AGC........CCCGCG.C...CCCGC..CUGG.......AGGCCGC
+O.cuniculus.1                      ............GGCCCCCG.UGC.CCCGC..CUG........AGGCCGC
+C.porcellus.1                      .............GCCCCCG.AGC.CCCGC..CU.........AGGCCGC
+C.brevicaudata.1                   .............GCCCCCG.AGC.CCCGC..CCA........GGGCCAC
+G.breviceps.1                      AC............CCCCCGCGA..CCCGC..CUG........AGGCCAC
+M.ochrogaster.1                    ..............AGCCCC.GCA.CCCGC..CUUG.......AGGCCGC
+C.griseus.1                        ..............AGCCCC.GCA.CCCGC..CUG........AGGCCGC
+M.spretus.1                        .............G.UCCCG.UA..CCCGC..CUAC.......AGGCCGC
+M.musculus.1                       .............AG.UCCCGUA..CCCGC..CUAC.......AGGCCGC
+R.norvegicus.1                     ..............GCCCGGUA...CCCGC..CUGG.......AGGCCGC
+H.sapiens.1                        .............GCCCCCGAAC..CCCGC..CUGG.......AGGCCGC
+T.belangeri.1                      ..............UCCCCCGCGU.CCCGC..CUAG.......AGGCCGC
+M.putorius.1                       ..............GCCCCCGCAU.CCCGC..CUGG.......AGGCCGC
+P.lotor.1                          ..............GCCCCCGCGU.CCCGC..CUGG.......AGGCCGC
+F.catus.1                          G..............CCCCCGCGU.CCCGC..CUAG.......AGGCCGC
+B.taurus.1                         G.............CC.CCAGUGC.CCCGC..CUG........AGGCCGC
+S.scrofa.1                         ..............GCCCCCGCGC.CCCGC..CUG........AGGCCGC
+S.murinus.1                        ..............GCCUC..CAUCCCCGC..CCC........AGGCCGC
+E.caballus.1                       ..............GCCCCCGCGC.CCCGC..CUGG.......AGGCCGC
+Dasypus_novemcinctus.1             ............GCCCCCGCGC...UCCGC..CUAG.......AGGCCGC
+D.hallucatus.1                     CGCCGCGGAGC.....CCCG.GCU.GCCC..ACGUAG......AGGCGGC
+C.serpentina.1                     ...AGCGAAGU.CCCCGCCGC.....CCCGCCCCGGUG.....AGGCCGC
+Gallid_herpesvirus_2.1             ................CUCG.....CCCGC.............AGGCCGC
+#=GC SS_cons                       ............<<<<<<<<<....<<<<<.................<<<
+
+R.porosus.1                        GAUCAGCCC.GGGCUUU....CCCUACUUU.GGGGCCC.AAUGCUGUCGC
+M.canis.1                          GGUCAGCCC.GGGGCUUUCCCCCCCACCAUGGGGGCCC.AAUGCUGCCGC
+D.sabina.1                         GGUCAGCGC.CGGUUUC.CACGCCAGUGU.GGGGCUUG..AUGCUGUCGC
+R.bonasus.1                        GGUCAGCGC.CGGCUUC.CACGCCAGUGU.GGGGCUUG..AUGCUGUCGC
+X.laevis.1                         GGUCGGCA..............UCAU..............CUGCUGUCGC
+B.japonicus.1                      AGUCAGUCU.UGUUCUU..................AUACGCUGCUGUUGC
+C.ornata.1                         GGUCUACC............GCUGUCAC............UGGUAGUCGC
+P.adspersus.1                      AGUCUGCC............AAUACCCC............GGGCAGCCGC
+D.mexicanus.1                      GGUCAGCUC.GGGCCCC...AGCUCCGGCAGGGGUUCC.ACUGCUGCCGC
+H.squalostoma.1                    GGUCAGCCC.GGGCCCU...GGCUCUGCUAGGGCGUCC.AAUGCUGCCGC
+T.natans.1                         GGUCAGUCC.GGGCCCU...UGCUCUGGCAUGAGGUCC.AUUGCUGCCGC
+G.gallus.1                         GGUCGGCC..GGCACCC..................GCC.AUUGCCGCCGC
+A.hyacinthinus.1                   GGUCGGCC..GGUG.UCC.................GCC.ACUGCCGCCGC
+E.maximus.1                        GGUCGGCCU.GGGGCUUC....UCCG...GAGGUUCCC.GCUGCCGCCGC
+T.manatus.1                        GGUCGGCCU.GGGGCUUC....UCCG...GAGGUUCCC.AUUGCCGCCGC
+O.cuniculus.1                      GGUCGGCCC.GGGGCUUC....UCCG...GAGGUGCCC.AAUGCCGCCGC
+C.porcellus.1                      GGCCGGCGC.GGGGCUUC....CCUG...GAGGCGCCC.AUGGCCGCCGC
+C.brevicaudata.1                   GGCUGGCGC.GGGGCUUC....UCCG...GGAGCGCC..AUGGCCGCCGC
+G.breviceps.1                      GGCCGGCCC.GGGGCCUC....UGCG...GAGGUGCCC.AUUGCCGCCGC
+M.ochrogaster.1                    GGUUGGCCU.GGAG.UUC....UCCG...GA...CUCC.GCUGCCGCCGC
+C.griseus.1                        GGUCGGCCU.GGAG..UC....CUCG...GG...CUCC.GCUGCCGCCGC
+M.spretus.1                        GGCCGGCCU.GGGG..UCUUAGGA...C.......UCC.GCUGCCGCCGC
+M.musculus.1                       GGCCGGCCU.GGGG..UC....UUAG...GA...CUCC.GCUGCCGCCGC
+R.norvegicus.1                     GGACGGCCU.GGGG..UC....UUAG...AA...CUCC.GCUGCCGCCGU
+H.sapiens.1                        GGUCGGCCC.GGGGCUUC....UCCG...GAGGCACCC.ACUGCCACCGC
+T.belangeri.1                      GGUCGGCCC.GGGGCUUC....UCCG...GAGGUGCCC.AUUGCCGCCGC
+M.putorius.1                       GGUCGGCCC.GGGGCUUC....UCCG...GAGGCACCC.AUUGCCGUCGC
+P.lotor.1                          GGUCGGCCC.GGGGCUUC....UCCG...GAGGCACCC.AUUGCCGUCGC
+F.catus.1                          GGUCGGCCC.GGGGCUUC....UCCG...GAGGCACCC.AUUGCCGUCGC
+B.taurus.1                         GGUCGGCCC.GGUGCUUC....UCCG...GAGGUGUCC.AUUGCCGCCGU
+S.scrofa.1                         GGUCGGCCC.GGGGCUUC....UCCG...GAGGCGCCC.AUUGCCGCCGC
+S.murinus.1                        GGUCGGUCC.GGG.CUUC....UUCG...GAAGU.CCC.GUUGCCGUCGC
+E.caballus.1                       GGUCGGCCC.GGGGCUUC....UCCG...GAGGCGCCC.AAUGCCGCCGC
+Dasypus_novemcinctus.1             GGUCCGCCC.GGGGCUUC....UCCG...GAGGCACCC.AAUGCAGCCGC
+D.hallucatus.1                     GG.CCGUCUCGGGGCCCCUG..CGUG..CGGGGCGCCC.ACUGCGGCCGC
+C.serpentina.1                     GGUCAGCC..GGC.........UCGC.........GCC.ACUGCUGCCGC
+Gallid_herpesvirus_2.1             GGUCGGCC..GGCACCC..................GCC.AUUGCCGCCGC
+#=GC SS_cons                       <<.<<<<...<<<......................>>>....>>>>>>>>
+
+R.porosus.1                        GAAGAGU.UCG.GCUCUGUCAGCCC...GGCU......GGGUC.......
+M.canis.1                          GAAGAGU.UCG.GCUCUGUCAGCCC...GGCU......GGGCC.......
+D.sabina.1                         GAAGAG.UUCGU.CUCUGUUAGCC....UGGCA.....GGGUGUGC....
+R.bonasus.1                        GAAGAG.UUCGU.CUCUGUCAGCC....UGGCA.....GGGGGUGC....
+X.laevis.1                         GAAGAG.UUCGU.CUCUGUUAGCCCU.UGGGGGC....CCUGGUGCG...
+B.japonicus.1                      GAAGAG.UUCGU.CUCUGUCAGCCUCC.GGGG.......CAACGC...CU
+C.ornata.1                         GAAGAG.UUCGU.CUCUGUCAGCCUU.GGGAG......CCGCGGA..CGG
+P.adspersus.1                      GAAGAG.CUCGU.CUCUGUCAGCCUUU.GGCG.......CUGCGG..CGG
+D.mexicanus.1                      GAAGAG.UUCGC.CUCUGUCAGCCU..UGAGG.U....GGCCGGG.....
+H.squalostoma.1                    GAAGAG.UUCGU.CUCUGAUUGCCU..UGAGG.UA....GCCGGG.....
+T.natans.1                         GAAGAG.UUCGU.CUCUGUCAGCCU..UGAGG.U....GGCC......AG
+G.gallus.1                         GAAGAG.UUCGC.CUCUGUCAGCCU..CGGCG.GCGC.GCGGG.......
+A.hyacinthinus.1                   GAAGAG.UUCGU.CUCUGUCAGCCU..CGGCG.GCGGUGGGGAGC.....
+E.maximus.1                        GAAGAGU.UGG.GCUCUGUCAGCC...GCGGG.UCCC...GCGGG.....
+T.manatus.1                        GAAGAGU.UAG.GCUCUGUCAGCC...GCGGG.UCC...UGCGGG.....
+O.cuniculus.1                      GAAGAGU.UAG.GCUCUGUCAGCC...GCGGG.UCCCU.CGGGGGCC...
+C.porcellus.1                      GAAGAG.UUCGU.CUCUGUCAGCU...GCGGG.UCGCC.CGGGGGC..CG
+C.brevicaudata.1                   GAAGAG.UUCGU.CUCUGUCAGCC...GCGGG.UCGCG.CGGGGGC..CG
+G.breviceps.1                      GAAGAGU.UAG.GCUCUGUCAGCC...GCGGGAUCC..GCGCGGG...C.
+M.ochrogaster.1                    GAAGAG.UUCGU.CUCUGUCAGCC...GCGGAGUAUCA.GGGGCU..G..
+C.griseus.1                        GAAGAG.CUAGA.CUCUGUCAGCC...GCGGGGCGUCA.GGGGCU..G..
+M.spretus.1                        GAAGAG.CUCGC.CUCUGUCAGCC...GCGGG.GCGC..CGGGGGC....
+M.musculus.1                       GAAGAG.CUCGC.CUCUGUCAGCC...GCGGG.GCGC.CGGGGGCU.G..
+R.norvegicus.1                     GAAGAG.CUAGU.CUCUGUUAGCU...ACGGG.GC...ACCGGGC..GCU
+H.sapiens.1                        GAAGAGU.UGG.GCUCUGUCAGCC...GCGGG.UCUC.UCGGGGGC.GA.
+T.belangeri.1                      GAAGAGU.UAG.GCUCUGUCAGCC...GCGGG.CUCU.CGGGGGG.....
+M.putorius.1                       GAAGAGU.UGG.GCUCUGUCAGCC...GCGGG.ACCCUUGGGGGC.....
+P.lotor.1                          GAAGAGU.UGG.GCUCUGUCAGCC...GCGGG.ACCUUUGGGGGC.....
+F.catus.1                          GAAGAGU.UGG.GCUCUGUCAGCC...GCGGG.UCCCUUGGGGG......
+B.taurus.1                         GAAGAGU.UGG.GCUCUGUCAGCC...GCGGG.UCGCUC.GGUGG.....
+S.scrofa.1                         GAAGAGU.UGG.GCUCUGUCAGCC...GCGGG.UCCCUCGGGGGC.....
+S.murinus.1                        GAAGAG.UUCGC.CUCUGUCAGCC...GCGGG.GCU.U..GGGGC.....
+E.caballus.1                       GAAGAGU.UGG.GCUCUGUCAGCC...GCGGG.UGCCUCGGGGGC.....
+Dasypus_novemcinctus.1             GAAGAGU.UAG.GCUCUGUCAGCC...GCGGA.UCC..CGCGGGGGC...
+D.hallucatus.1                     CAAGAG.CUCGU.CUCUGUCAGCCUC..GGGUGCACG..UGGG...CCCG
+C.serpentina.1                     GAAGAG.UUCGU.CUCUGUCAGCCU..CGGGG......GCGGCCGGG...
+Gallid_herpesvirus_2.1             GAAGAG.UUCGC.CUCUGUCAGCCUCGGCGGG.GCC...CGGG.....AG
+#=GC SS_cons                       >.<<<<<.....>>>>>..........>>>>>......>>>>>>>>>...
+
+R.porosus.1                        CGGGUG.GGGGC..CGGC..ACAGAGGGACACACCGGGCCGGGGCGCCGA
+M.canis.1                          AGGGUG.GGGGC..CGGC..ACAGAGGGACACACCGGGCCGGGGCGCCGG
+D.sabina.1                         .UACGCA.GGGU..CGGGGU..........................GCGG
+R.bonasus.1                        .UACGCA.GGGU..CGGGGU..........................ACGG
+X.laevis.1                         .GAG.U..GGAGAGUCCGGG.......................UCUGGG.
+B.japonicus.1                      UGAAUU..UGGA..GAG.............................CCUG
+C.ornata.1                         AGUAUGA.GGUC..CAG............................UAAUG
+P.adspersus.1                      AGUGGG.GGAGG..CCGC............................UGAU
+D.mexicanus.1                      .AUAGAAUAGGC..GGGCUCG.........................CGGC
+H.squalostoma.1                    .CUCGAAUAGGU..GGGCUCG.........................CGGC
+T.natans.1                         CAUGGAAUUGGC..GGGCUUG.........................UGGC
+G.gallus.1                         .......................................AGGUGCGGCGC
+A.hyacinthinus.1                   .GAGAG..GGC.UC.GUCCCC.........................GCGC
+E.maximus.1                        .AACCAA.GGGC..GAGGC...........................UGGG
+T.manatus.1                        .AACCAA.GGGC..GAGGC...........................UUAG
+O.cuniculus.1                      .AA.....GGGC..GAGGC...........................GCAG
+C.porcellus.1                      .......CGG..GAGAGUC...........................CCAG
+C.brevicaudata.1                   .......CGG..GGGAGUC...........................CUAG
+G.breviceps.1                      .......CGGGCC.GCGGC...............................
+M.ochrogaster.1                    ........GGGCCAGGCC................................
+C.griseus.1                        ........GGGCGAGCCC................................
+M.spretus.1                        ....UG..GGGCCAGGCC................................
+M.musculus.1                       ........GGGCCAGGCC................................
+R.norvegicus.1                     G.......GGGUCAGGCC...............................G
+H.sapiens.1                        ........GGGCG.AGGU............................UCAG
+T.belangeri.1                      ...CCCA.GGG.C.GAGGU...........................UUAG
+M.putorius.1                       ....CAA.GGGC..GAGGC...............................
+P.lotor.1                          ....CAA.GGGC..GAGGC...............................
+F.catus.1                          .GGCCGA.GGG.C.GAGGC...............................
+B.taurus.1                         ..GCCGA.GG.C.A.UGGC...............................
+S.scrofa.1                         ....CAA.GG.C..GAGGC...............................
+S.murinus.1                        ....CA..GGGA...CGG................................
+E.caballus.1                       ....CAG.GGAC..GAGGC...............................
+Dasypus_novemcinctus.1             ....CAA.GGGU..GAGGC...........................UUAG
+D.hallucatus.1                     CGGUCG.AGCCCUAAGGCC................GGGCGUGGGG.CUG.
+C.serpentina.1                     GUGGAAG.GGCG..GGUCCCG..........................AGC
+Gallid_herpesvirus_2.1             AUGCGGA........................................GCG
+#=GC SS_cons                       .......>>>>>..>>>>>>>.............................
+
+R.porosus.1                        GGAUAGCUACCGCCCGCAGG.GAUAGUAAAUAUCCGUGACCAGU.GGC..
+M.canis.1                          GGAUAGCUACCGCCCGCAGG.GAUAGCAAAUAUCCGUGACCAGU.GGU..
+D.sabina.1                         AG............GGCAGG.GAGAUUAAAUAG.CUUGACCAGA.CGC..
+R.bonasus.1                        GG............GACAGG.GAGAUUAAAUAG.CUUGACCAGA.CGC..
+X.laevis.1                         .............GGGUCGG.GAGAACAAAAG.....GGGGCG.CGCUGG
+B.japonicus.1                      GGAAUGUAACAAGGGGUAGG.GAAAAUAACGA.....GAGCUGA.GUUG.
+C.ornata.1                         AG...........AGCAGGG.AAGAGUAAAGC.....GAGCCGC.GCUA.
+P.adspersus.1                      ..............GGCAGCUGAGAAUAAAGC.....GAGCCCA.GCUG.
+D.mexicanus.1                      AGC..........GCGCGGGAAAGAGCAAAU...GGUGAACUG.G.GUGC
+H.squalostoma.1                    GAU..........GCGCAGGAAAGAGCAAAACA..GUGAACUG.G.GCGU
+T.natans.1                         GGC..........GCGCGGGAAAAAGCAAAU...GGUGAACUA.G.GUGC
+G.gallus.1                         GCGGCCCCGCG.C.CCCCAG.CAGAGCAAA....CGGGAGC.G.GCGCC.
+A.hyacinthinus.1                   CGGGG........ACCCCAG.CAGAGCAAAA...CG.GAGC.G.GCGUC.
+E.maximus.1                        GCC.UCCUGA...ACGCAGG.GAGAGAAA.....CG.GAGC...GGUUCC
+T.manatus.1                        GCC.UCCUGA...ACGCAGG.GAGAGAAA.....UG.GAGC...GAUUCC
+O.cuniculus.1                      GCC.GUCUGG...CCGCAGG.GAGAGGAA.....CG.GAGC.G.GGUCCC
+C.porcellus.1                      GCC...UUGG...CCGCAGG.GAGAGAAA.....CG.GAGC..AGGUCCU
+C.brevicaudata.1                   GCC.GAGUGG...CCGCAGG.AAGAGAAA.....CG.GAGCC.U.GUCCC
+G.breviceps.1                      CGGACGCCGAU..CCGCAGG.GACAGCAA.....CG.GAAC.C.GGCCCC
+M.ochrogaster.1                    CGGAC.AGCG...UCGCAAG.UACAGUAA.....CG.GAGC.U.GGUCCU
+C.griseus.1                        CGGC..AGCG...CCGCAAG.CAGAGAAA.....CG.GAGC.U.GGUCCC
+M.spretus.1                        .GGG.CGAGCG..CCGCGAG.GACAGGAA.....UG.GAACU..GGUCCC
+M.musculus.1                       .GGGCGAGCG...CCGCGAG.GACAGGAA.....UG.GAAC.U.GGUCCC
+R.norvegicus.1                     GGAGAGCG.....CCGCAAG.GACAGUAA.....CG.GAAC.U.GGUCCC
+H.sapiens.1                        GCCUUUCAGG...CCGCAGG.AAGAGGAA.....CG.GAGC.G.AGUCCC
+T.belangeri.1                      GCC.UCGUGG...CCGCAGG.GACAGCAA.....CG.GAGC.G.GGUCCC
+M.putorius.1                       .....UCUGG...CCGCAGG.GAGAGAAA.....CG.GAGC..GGGUCCC
+P.lotor.1                          .....UCUGG...CCGCAGG.GAGAGAAAA....CG.GAGC..GGGUCCC
+F.catus.1                          .....UCUGA...CCGCAGG.GAGAGAAA.....CGGGAGC..AGGUCCC
+B.taurus.1                         .....UGUAA...CCGCAGG.GAAAGGAA.....CG.GAGUGG.GGUCCC
+S.scrofa.1                         .....UCUGA...CCGCAGG.GAAAGGAA.....CG.GAGU.U.GGUCCC
+S.murinus.1                        ..GACCCUGU.CC..GCAGG.GAGAGAAA.....CU.GGAGCCGGG.CCC
+E.caballus.1                       .....UCUGG...CCGCAGG.GAGAGGAA.....CG.GAGC.G.GGUCCC
+Dasypus_novemcinctus.1             GCC..GCGGG...CCGCAGG.AAGAAAAA....CC..GAGC.G.AGUUCU
+D.hallucatus.1                     ..........GGGUCGCAGG.GAGAGUAA....CCGUGAGCCGGC.GCCC
+C.serpentina.1                     CCGUC........GGCC.GG.GAGAGCAAA...CGU.GAGCGGCAGCCCC
+Gallid_herpesvirus_2.1             CGGC.CCCGCG.C.CCCCAG.CAGAGCAACA...CGGGAGC.G.GCGCC.
+#=GC SS_cons                       .............>>>>>>>.................<<<<<<.<<<<<<
+
+R.porosus.1                        ......CUCGGUGGCUGCG..UCUCCC.GGAGCAAU.GGGA.CC..CGCA
+M.canis.1                          ......CUCGGUGGCUGCG..UCUCCC.GGAGCAAU.GGGA.CC..CGCA
+D.sabina.1                         ...UAUGGCCUGUACUGCA..UUUCCC.AGAGCUGU.GGGA.CC..UGCA
+R.bonasus.1                        ...UAUAACCUGUACUGCA..UCUCCC.AGAGCUGU.GGGA.CC..UGCA
+X.laevis.1                         UGCUCAGGCUCAGUCAUGC..UUUCCC.UUAGUUGU.GGGAUAU..GCGU
+B.japonicus.1                      ....GCUUCUCCUG..UGC..UGUUCC.UGAGCUGU.GGAACUU..GCA.
+C.ornata.1                         .....CUUGUCCUAUCUGC.C.GCUCC.UAAGCUGU.GGGGCG.U.GUAG
+P.adspersus.1                      ..CCCCGCUCUGUUCCACUG...CCCC.UGAGCUGU.GGGGU...UGGUG
+D.mexicanus.1                      ......CUGUUGGGGUCGCG...UCCC.UGAAGAGU.GGGA.AG.UGCGA
+H.squalostoma.1                    ......GUGCUGGGGUCGCG...UCCC.UGAAGUGU.GGGA.UG.UGCGA
+T.natans.1                         ......GUGUUGUGGUCGUG...UUCC.UGAAGCGU.GGAA.UG.UGCGA
+G.gallus.1                         ..CCCGGGGUAACCCCCGCGC.UCCCC.UGCGCCGU.GGGG.C.GCGCGG
+A.hyacinthinus.1                   ..CUCGGCACAGCCGCCGCGC.UUCCC.UCAACCGU.GGGA..UGCGCGG
+E.maximus.1                        .......CCGCGUGCGUGCGC.UUCCC.UGAGUUGU.GGGA..UGUGCGC
+T.manatus.1                        .......CCGAGUACGUGUGC.UUCCC.UGAGUUGU.GGGAU..GUGCGU
+O.cuniculus.1                      .......CCAGCGUGGUGCGC.UUCCC.UGAGCUGU.GGGA.C.UUGCAC
+C.porcellus.1                      .........CGCGCGGUGCAC.UCCCC.UGAGCUGU.GGG.AA.GUGCAC
+C.brevicaudata.1                   .......UGUGCACGGGGCGC.UUCUC.UGAGCUGU.GGGAA..GUGCCC
+G.breviceps.1                      .......UUCGCCCUGUGCGC.UUCCC.GGAGCUGU.GGGA..UGAGCAC
+M.ochrogaster.1                    .....UGUUCG....GUG.GC..UUCCCUGAGCUGUAGGAA...GUACAC
+C.griseus.1                        ........GUGAACGGUG.AC.UUCCC.UGAGUUGU.GGGAAAUG..CAC
+M.spretus.1                        .......CGUGUUUGGUGU..CUUACC.UGAGCUGU.GGGAAGU..GCAC
+M.musculus.1                       ...CGUGUUCG....GUGU.C.UUACC.UGAGCUGU.GGGAA..GUGCAC
+R.norvegicus.1                     ...UGAGUUCG....GUG.GC.UUUCC.UGAGAUGU.GGGAA..GUGCAC
+H.sapiens.1                        .......CGCGCGCGGCGCG.AUUCCC.UGAGCUGU.GGGA....CGUGC
+T.belangeri.1                      ......CGCGAGCCUGUGCGCG.UCCC.UGAGCCGU.GGGA..CUUGCAC
+M.putorius.1                       .......CUCGCGCGGUGCGC.UUCCC.UGAGCUGU.GGGA.C.UUGCAC
+P.lotor.1                          .......CUUGCGCGGUGCGC.UUCCC.UGAGCUGU.GGGA.C.UUGCAC
+F.catus.1                          .......CGCGCGCGGUGCGC.UUCCC.UGAGCUGU.GGGA.C.UUGCAC
+B.taurus.1                         .......CGCGCGCGGUGCGC.UUCCC.UGAGCUGU.GGGA.C.UUGCAC
+S.scrofa.1                         .......CGCGCGCUGUGCGCUU.CCC.UAAGCUGU.GGG..CUGUGCAC
+S.murinus.1                        .........UCCACGGUGC.C..UCCC.CGAGCUGU.GGGAUC.U.GCAC
+E.caballus.1                       .......CGCGCGCGGUGCGC.UUCCC.UGAGCUGU.GGGA.C.GUGCAC
+Dasypus_novemcinctus.1             .......CACGCGCGGUGCGCUU.CCC.UGAGCUGU.GGG.UC.GUGCGC
+D.hallucatus.1                     .......AGCCUUCAGGGCG..CUCCCUCGAGCUAU.GGGA.GC.UGCCC
+C.serpentina.1                     ........UGCGCCACCGC.CCUCCCC.UAAGCUGU.GGGGCCC..GCGG
+Gallid_herpesvirus_2.1             ..CCCGGGGCAACCCCCGCGC.CCCCC.UGCGCCGU.GGGG.C.GCGCGG
+#=GC SS_cons                       ...............<<<<<<..<<<<..........>>>>...>>>>>>
+
+R.porosus.1                        AGGCU..GCC..C.UGGUCAUACACGC
+M.canis.1                          AGGCU..GCC..C.UGGUCAUACACAU
+D.sabina.1                         AAUCU..GCG..C.UGGUCAUACAUUU
+R.bonasus.1                        AAUCU..GCG..C.UGGUCAUACAUUU
+X.laevis.1                         ...GUUCAGCCA..GUCCCCGACAUGU
+B.japonicus.1                      A.UCG.CAGU..C.GGCUCUGACACUU
+C.ornata.1                         .GGUA.CACA.A..GGCUCCGACAUUC
+P.adspersus.1                      AAUUG.CAGC.A.UGGCUCCGACAACU
+D.mexicanus.1                      ..UCUGUGU.UCCU.GUUCAGACACAC
+H.squalostoma.1                    ..UCUGUCCGC.U.UGUUCAGACAUUG
+T.natans.1                         ..UCUGUGCGC.U.AGUUCAUACACAC
+G.gallus.1                         ..AC..GGCGU.C..GCUCCCACACGC
+A.hyacinthinus.1                   ..AC..GGCGC.C..GCUUCGACACCC
+E.maximus.1                        ..UC.GGGGCUC.A.GCUCCGACAGGU
+T.manatus.1                        ..CC.GGGACUC.A.GCUCCGACAGGU
+O.cuniculus.1                      ..CC.GGGACU.CG.GCUCAAACACGC
+C.porcellus.1                      ..C..GGGAC.G.G.GCUCCUACAAGC
+C.brevicaudata.1                   ..C..GAGAC.U.CGGCUCCUACAAGC
+G.breviceps.1                      ..CC.GGGGUC.G..GCUCCUACAGUU
+M.ochrogaster.1                    ..CC.AGAGCUCG..GCUCCUACAACC
+C.griseus.1                        ..CA.GGAACUCG..GUUCCCACAACC
+M.spretus.1                        ..CC.GGAACU..CGGUUCUCACAACC
+M.musculus.1                       ..CC.GGAACUCG..GUUCUCACAACC
+R.norvegicus.1                     ..CU.GGAACUCA..GUUCCUACAACC
+H.sapiens.1                        ACCC.AGGACU.CG.GCUCACACAUGC
+T.belangeri.1                      ..CG.GGGACU.UU.GCUCGGACAAUC
+M.putorius.1                       ..CC.GGGACUA.G.GCUCACACACAC
+P.lotor.1                          ..CC.GGGACUA.G.GCUCACACACAU
+F.catus.1                          ..CC.GGGACUG.G.GCUCAGACACAU
+B.taurus.1                         ..CC.GGGACU.CG.GCUCAGACAUCC
+S.scrofa.1                         ..CU.GGGACUCG..GCUCAGACACUU
+S.murinus.1                        ..CC.GGGACU..CGAACCCUACACUU
+E.caballus.1                       ..CC.GGGACU.CG.GCUCAAACACGU
+Dasypus_novemcinctus.1             ..CU.GGGACU.CG.GCUCAGACACGU
+D.hallucatus.1                     ...CCGGGC..AC.GGCUCGGACACCC
+C.serpentina.1                     ..UC.GGGGC..UGCGCUCAGACACGC
+Gallid_herpesvirus_2.1             AC....GGCGU.C..GCUCCCACACGC
+#=GC SS_cons                       .....>>>>>>.>.>>>>>........
+//

@@ -1,0 +1,87 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-105
+#=GF AC    RF00670
+#=GF DE    microRNA mir-105
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    18.4
+#=GF TC    20.4
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000074
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    20
+
+#=GS E.telfairi.1           AC    AAIY01029761.1/2497-2576
+#=GS C.porcellus.1          AC    AAKN02056081.1/11910-11990
+#=GS M.musculus.1           AC    CAAA01059274.1/4642-4722
+#=GS R.norvegicus.1         AC    AABR04012381.1/35107-35187
+#=GS Spermophilus_tridece.1 AC    AAQQ01376207.1/2178-2258
+#=GS H.sapiens.1            AC    AADC01148833.1/6495-6575
+#=GS P.troglodytes.1        AC    CT797305.2/101884-101964
+#=GS Saguinus_labiatus_re.1 AC    AY866102.1/402-482
+#=GS T.belangeri.1          AC    AAPY01458331.1/390-470
+#=GS C.lupus.1              AC    AAEX02003804.1/4224-4304
+#=GS F.catus.1              AC    AANG01759982.1/164-244
+#=GS F.catus.2              AC    AANG01462483.1/681-760
+#=GS B.taurus.1             AC    AAFC03107988.1/2045-2124
+#=GS M.lucifugus.1          AC    AAPE01553738.1/2127-2205
+#=GS E.europaeus.1          AC    AANN01683306.1/348-428
+#=GS E.europaeus.2          AC    AANN01683306.1/2466-2545
+#=GS S.araneus.1            AC    AALT01106831.1/106-184
+#=GS E.caballus.1           AC    AAWR02040596.1/7654-7734
+#=GS E.caballus.2           AC    AAWR02040596.1/10559-10639
+#=GS E.caballus.3           AC    AAWR02040596.1/10072-10151
+
+E.telfairi.1                       UGUGCAU.UGUGGUCAAAUGCUCAGACUCCUGUUGUG.GCUGUUUGUGCA
+C.porcellus.1                      UUUGUAC.UGCAGUGAAAUGCUCGGACUUCUGUGGUG.ACCACUCAUGCA
+M.musculus.1                       UGUGCAU.UUUAGCCAAGUGCUCAGAUGCUUGUGGUG.GCUGCUUAUGCA
+R.norvegicus.1                     UGUGUAU.UGUAGUCAAGUGCUCAGAUGUCUGUGGUG.GCUGCUUAUGUA
+Spermophilus_tridece.1             UAUAUAU.CAUGGUGAAAUGCUCAAACAUCAGUGGUA.GUCAUUCAUGCA
+H.sapiens.1                        UGUACAU.CGUGGUUUAACAGUCAAAUAUUAGUGUUA.GUUGCUCAUGCA
+P.troglodytes.1                    AGUGUGCCUGUGGUCAAAUGUUCUGACUAUUGUGGUG.ACUGCUCAUACA
+Saguinus_labiatus_re.1             UGUGCAU.CGUGGUCAAAUGCUCAGACUCCUGUGGUG.GCUGCUCAUGCA
+T.belangeri.1                      UAUAUAU.CAUGAUUAAAUGCUCAAACAUCAGUGGUA.GUUGCUCAUGUA
+C.lupus.1                          UGUGCCU.UGUGGUCAAAUGUUCUACCUACUGUGGUG.GCUGCUCAUGCA
+F.catus.1                          UAUGCCU.UGUAGUCAAAUGAUCUGCCUAGUGUGGUG.GCUGCUUAUGCA
+F.catus.2                          UGUGCAU.CAUGGUCAAAUGCUCAGACUC.CUUGGUG.GCUGCUUAUGUA
+B.taurus.1                         UGUGCAU.CAUAGUCAAAUGCUCAACCACCUAGUGUG.GCUGCUCAUACA
+M.lucifugus.1                      UGUGCAU.CAGAGUCAAAUGCUCAAAUGCCUAUGGUG.GUUAUUCAUGCA
+E.europaeus.1                      UGUUCGU.CGUAGUCAAAUGCUCAGAUUCCUGUAGUG.GCUUCUGAUGUA
+E.europaeus.2                      UGCACAC.CGUGGUCAAAUGCUCAGGCU.CCGUGGUA.GUUGAUUAUGCA
+S.araneus.1                        AAAGAUC.UUCUGUCAAAUGUUCAUGUUCCU.UGGUG..CCCCUUAUGCA
+E.caballus.1                       UGUGCCU.UGUGGUCAAAUGUUCUGACUGCUGUGCUG.GCUGCUCAUGCA
+E.caballus.2                       UGUACAU.CACAGUAAAAUGCUCAAAC.AUCAAGGUUAGUUGGUCUUGCA
+E.caballus.3                       UGUGCAU.CACAGUCAAAUGCUCAAAUGCCUAUGGUG.ACUGUUCAGGCA
+#=GC SS_cons                       ...<<<<.<<<<<<...<<<<<<<<<<..<<<<<<<<..<.......>>>
+#=GC RF                            ugugcac.cguagccAAgugcucaggcucccguggug.gcugcuuAugca
+
+E.telfairi.1                       CCAUGGAU.UUUGAGCAUGUGCUAUGGCGUCUA
+C.porcellus.1                      CUGCAGACUUUUGAGCAUGUGCUAUGGGUUCUA
+M.musculus.1                       CCACGAAUGCUUGAGCAUGUGCUAUGGUACCUA
+R.norvegicus.1                     UCACGGAUGUUUGAGCAUGUGCUAUGGUAUCUA
+Spermophilus_tridece.1             CCACGAUUGUCUGAGUAUGUGCCAUGUUAUCCC
+H.sapiens.1                        CCAUGAUUGCCUGAGUAUGUGCCAUGAUAUCUC
+P.troglodytes.1                    CCAAGAAUGUCUGGCAAUGGACUAUA.UAUUUA
+Saguinus_labiatus_re.1             CCACGGAUGUUUGAGCAUGUGCUACGGUGUCUA
+T.belangeri.1                      CCAUGAUUGUUUGAGUAUAUGCCAUGGUAUCUC
+C.lupus.1                          CCUCGGAUGUUUGAUAAUGGGCUAUGAAUCUAC
+F.catus.1                          CCAUGGAUGUUUGAUAAUUGGCUAUGUAUCUAC
+F.catus.2                          CCAUGAAUUUUUGAGCAUGUGCUAUGGUGUCUA
+B.taurus.1                         C.CUGAUGGUUUAAGCUUGUACUGUGAUUUCAC
+M.lucifugus.1                      CC.UGGUUAUUUAAGUAU.UACCAUGAUUUCAU
+E.europaeus.1                      CUACAGCUGUCUGAGCAUGUGCCACGGCGUCUG
+E.europaeus.2                      CCACGGAUGUUUGAGCAUUUACAAUGGUGUCUA
+S.araneus.1                        CCGUGGAUGCUUGAGCAUGUGCUAUUGUGUCUA
+E.caballus.1                       CUAUGGAUGUUUGAUAAUAGGCUGCGUAUCUAC
+E.caballus.2                       CCACGAUUGUCUGAGCAUGUACCAUGGUAUCCC
+E.caballus.3                       CCC.CGUUGUUUAAGCAUGUACCAUGAUUUCAC
+#=GC SS_cons                       >>>>>>..>>>>>>>>>>..>>>>>>>>>>...
+#=GC RF                            ccacggAugccugagcacgugcuacggugccuA
+//

@@ -1,0 +1,57 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-631
+#=GF AC    RF00996
+#=GF DE    microRNA mir-631
+#=GF AU    Wilkinson A
+#=GF GA    28.0
+#=GF NC    24.1
+#=GF TC    28.3
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000508
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    10
+
+#=GS L.africana.1           AC    AAGU02396112.1/3864-3940
+#=GS M.mulatta.1            AC    AANU01184627.1/708-782
+#=GS H.sapiens.1            AC    AADB02016646.1/28909-28983
+#=GS M.murinus.1            AC    ABDC01359619.1/2751-2826
+#=GS Otolemur_garnettii_s.1 AC    AAQR01226482.1/1341-1414
+#=GS C.lupus.1              AC    AAEX02018606.1/12419-12492
+#=GS F.catus.1              AC    AANG01142762.1/3543-3613
+#=GS B.taurus.1             AC    AAFC03077567.1/33015-33091
+#=GS E.caballus.1           AC    AAWR02000950.1/80261-80332
+#=GS Dasypus_novemcinctus.1 AC    AAGV020186756.1/355-428
+
+L.africana.1                       AGGGGGAGCCUGGCUAGACCUGGCC.CAGACCUCAGCUAUAUAAGCUGAU
+M.mulatta.1                        GUGGAGAGCCUGGUUAGACCUGGCC.CAGACCUCAGCUACACAAGCUGAU
+H.sapiens.1                        GUGGGGAGCCUGGUUAGACCUGGCC.CAGACCUCAGCUACACAAGCUGAU
+M.murinus.1                        GUGGGGAGCCUGUGUUAGAUCUGACUUAGGCCUCAGCCACACAAGCCGAU
+Otolemur_garnettii_s.1             GUGAGAAGCUGGGUCAGACCUGGCU.CAGACUUCAGCUACACAAGCUGAU
+C.lupus.1                          AGGGGGAGCCUGGC.CGACCUGGCC.CAGACCUCAGCCCCAUA.GCUGAU
+F.catus.1                          GGGGAGCC.UGGUC..AACUUGGCC.CAGACCUCAGCUAUAU.AGCUGAU
+B.taurus.1                         AGGGGGAGCCCAGUUAGACCUGGCU.UAGACCUCAGCUUCACAAGCUGAU
+E.caballus.1                       GGGGAGCCAG...UAAGACCUGGCC.CAGACCUCAGCUAUACAAGCUGAU
+Dasypus_novemcinctus.1             CAGGGAGC.CUAGCCAGACCCAGCU.CAGACCUCAGCUAGGCAUGCCGAG
+#=GC SS_cons                       ..<<<<<<..<<<<....<<<<<<<.<<<.<<<<<<<<.....>>>>>>.
+#=GC RF                            guggggagaauggcuAgAcccggcc.cagAccucagcuAaAaAagcugau
+
+L.africana.1                       GAACUGAGUCAGGGAGCCAAGG.CUCUCC
+M.mulatta.1                        GGACUGAGUCAGGG.GCCA.CA.CUCUCC
+H.sapiens.1                        GGACUGAGUCAGGG.GCCA.CA.CUCUCC
+M.murinus.1                        GGACUGAGUCGGGC.CACA.CU.CUCCCU
+Otolemur_garnettii_s.1             GGACUAAGUCAGGG.GCCA.AG.CU.CUC
+C.lupus.1                          GGGCUGAGUCAGGG.GCCAAGG.CUCCCC
+F.catus.1                          GGGCUGAGUCAGAG.GGCC.GA.GGCUCU
+B.taurus.1                         AGACUGAGUCAGGGGGCCA.AAGCUCUCC
+E.caballus.1                       GGACUGAGUCAGGG.GUCC.AA.GGCUCU
+Dasypus_novemcinctus.1             GGGCUGAAUUGGGG.GCCA.AG.GCUUCC
+#=GC SS_cons                       >>.>>>.>>>>>>>.>>>>....>>>>>>
+#=GC RF                            ggAcugAggccggg.gcca.aA.cucccc
+//

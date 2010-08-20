@@ -1,0 +1,66 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORD111
+#=GF AC    RF00611
+#=GF DE    Small Nucleolar RNA SNORD111
+#=GF AU    Daub J
+#=GF GA    26.0
+#=GF NC    25.7
+#=GF TC    27.8
+#=GF SE    INFERNAL
+#=GF SS    Predicted; RNAalifold; Daub J
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    snoRNABase; HBII-82
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Mus_musculus300813
+#=GF DR    snoopy; Homo_sapiens300593
+#=GF RN    [1]
+#=GF RM    12215523
+#=GF RT    Purified box C/D snoRNPs are able to reproduce site-specific
+#=GF RT    2'-O-methylation of target RNA in vitro.
+#=GF RA    Galardi S, Fatica A, Bachi A, Scaloni A, Presutti C, Bozzoni I;
+#=GF RL    Mol Cell Biol. 2002;22:6663-6668.
+#=GF RN    [2]
+#=GF RM    11387227
+#=GF RT    RNomics: an experimental approach that identifies 201 candidates for
+#=GF RT    novel, small, non-messenger RNAs in mouse.
+#=GF RA    Huttenhofer A, Kiefmann M, Meier-Ewert S, O'Brien J, Lehrach H,
+#=GF RA    Bachellerie JP, Brosius J;
+#=GF RL    EMBO J. 2001;20:2943-2953.
+#=GF RN    [3]
+#=GF RM    16381836
+#=GF RT    snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D box
+#=GF RT    snoRNAs.
+#=GF RA    Lestrade L, Weber MJ;
+#=GF RL    Nucleic Acids Res. 2006;34:D158-D162.
+#=GF CC    The members of this family belong to the C/D class of snoRNAs
+#=GF CC    which contain the C (UGAUGA) and D (CUGA) box motifs. Most of the
+#=GF CC    members of the box C/D family function in directing site-specific
+#=GF CC    2'-O-methylation of substrate RNAs [1].  HBII-82 (SNORD111) is
+#=GF CC    predicted to guide the 2'O-ribose methylation of 28S rRNA G3923 [3].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_SNORD111
+#=GF SQ    5
+
+#=GS D.rerio.1    AC    BX784024.10/48132-48213
+#=GS M.musculus.1 AC    AC132945.3/142528-142616
+#=GS M.musculus.2 AC    AF357319.1/1-64
+#=GS H.sapiens.1  AC    AC010553.6/633-712
+#=GS H.sapiens.2  AC    AC106804.4/74420-74513
+
+D.rerio.1                GUGCCAGAAAUGAUGAUUAU........CUUCAUGUCUCUUCUCUGACUG
+M.musculus.1             CAGCCUGAAAUGAUGACCAUUU.....AAUUCAUGUCUCUUCUCUGACAU
+M.musculus.2             ..................AUUU.....AAUUCAUGUCUCUUCUCUGACAU
+H.sapiens.1              CAGCCUGAAGUGAUGAUUCAC.......AUUCAUGUCUCUUCUCUGAUAA
+H.sapiens.2              CAGCCUGAAAUGAUGACUCUUUAAAAAAUUUCAUGUCUCUUCUCUGACAU
+#=GC SS_cons             <<<<<.............................................
+
+D.rerio.1                UUUGGUGAAGAGAGAUUUGUGA.......UAUCUGAUCUUCAUGCAC
+M.musculus.1             UCUCCUCUGGAGAUGAUUUUUGCCUUAUUGAUCUGAUC...AGGCUG
+M.musculus.2             UCUCCUCUGGAGAUGAUUUUUGCCUUAUUGAUCUGAU..........
+H.sapiens.1              AUUC..UUGAAGAAAAUUUUUG.....UGUGUCUGAUC...AGGCCU
+H.sapiens.2              UUUUCUCUGGACACAGUUUUUGCCUUAUGAAUCUGAUC...AGGCUG
+#=GC SS_cons             ..........................................>>>>>
+//

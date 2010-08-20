@@ -1,0 +1,75 @@
+# STOCKHOLM 1.0
+#=GF ID    snoR60
+#=GF AC    RF00339
+#=GF DE    Small nucleolar RNA snoR60
+#=GF AU    Moxon SJ
+#=GF GA    32.0
+#=GF NC    25.7
+#=GF TC    40.1
+#=GF SE    Moxon SJ, INFERNAL
+#=GF SS    Predicted; PFOLD; Moxon SJ; Daub J
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Arabidopsis_thaliana300214
+#=GF DR    snoopy; Arabidopsis_thaliana300192
+#=GF RN    [1]
+#=GF RM    12007400
+#=GF RT    Small nucleolar RNAs: an abundant group of noncoding RNAs with
+#=GF RT    diverse cellular functions.
+#=GF RA    Kiss T;
+#=GF RL    Cell 2002;109:145-148.
+#=GF RN    [2]
+#=GF RM    10829025
+#=GF RT    Fibrillarin genes encode both a conserved nucleolar protein and a
+#=GF RT    novel small nucleolar RNA involved in ribosomal RNA methylation in
+#=GF RT    Arabidopsis thaliana.
+#=GF RA    Barneche F, Steinmetz F, Echeverria M;
+#=GF RL    J Biol Chem 2000;275:27212-27220.
+#=GF CC    snoR60 is a member of the C/D class of snoRNA which contain the C (UGAUGA)
+#=GF CC    and  D (CUGA) box motifs. Most of the members of the box C/D family
+#=GF CC    function in directing site-specific 2'-O-methylation of substrate RNAs
+#=GF CC    [1,2].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_snoR60
+#=GF SQ    10
+
+#=GS O.sativa.1      AC    AAAA02007626.1/8599-8673
+#=GS O.sativa.2      AC    AC144738.2/12152-12226
+#=GS O.sativa.3      AC    AJ532536.1/2-76
+#=GS V.vinifera.1    AC    AM436404.1/12480-12550
+#=GS M.truncatula.1  AC    AC151823.11/74640-74710
+#=GS R.communis.1    AC    AASG02000600.1/49777-49849
+#=GS P.trichocarpa.1 AC    AARH01006572.1/460504-460575
+#=GS A.thaliana.1    AC    AF228365.1/1-73
+#=GS A.thaliana.2    AC    AF228364.1/1-74
+#=GS B.rapa.1        AC    AC189309.2/31571-31643
+
+O.sativa.1                  CUGCAAAUGAUGAG.CUUACUCGGAUUCCCCUUCAGGACAUCAAAUUGGA
+O.sativa.2                  CUGCAAAUGAUGAG.CUUACUCGGAUUCCCCUUCAGGACAUCAAAUUGGA
+O.sativa.3                  CUGCAAAUGAUGAG.CUUACUCGGAUUCCCCUUCAGGACAUCAAAUUGGA
+V.vinifera.1                AUGCAAAUGACGAG..UUACUCGGAUUCCCCUUCAAGACAUU.A..UGGG
+M.truncatula.1              AUGCAUGUGAUGAG..UUACUCGGAUUCCCCUUCAGGACUUC.U..UGGA
+R.communis.1                AGGCAUAUGAUGAGAUUUACUCGGAUUCCCCUUCAGGACUUC.A..UGGG
+P.trichocarpa.1             AUGCAUAUGAUGAA.UUAACUCGGAUUCCCCUUCAAGACAUA.U..UGGG
+A.thaliana.1                UUGCAAAUGAUGAU.CUUACUUGGAUUCCCCUUCAGAUCAUU.A..UGGG
+A.thaliana.2                CGGCAGAUGAUGAU.UUUACUUGGAUUCCCCUUCAGAACAUUUA..UGGG
+B.rapa.1                    UUGCAAAUGAUGAU.CUUACUUGGAUUCCCCUUCAGAUCAUU.A..UGGG
+#=GC SS_cons                .<<<<.............................................
+#=GC RF                     cuGCAAAUGAUGAu.cUUACUuGGAUUCCCCUUCAGAACAUuaA..UGGg
+
+O.sativa.1                  UGAUGCAAA.UUCGAGUUCCUGAUGCG
+O.sativa.2                  UGAUGCAGA.UUCGAGUUUCUGAUGCA
+O.sativa.3                  UGAUGCAAA.UUCGAGUUCCUGAUGCG
+V.vinifera.1                UGAUGCAAA.CUCGAGUUUCUGAUGCA
+M.truncatula.1              UGAUGUAGA.CCCGAGAUUCUGAUGCA
+R.communis.1                UGAUGUAAA.CUCGAGUUUCUGAUGCA
+P.trichocarpa.1             UGAUGUAAA.AUCGAGUUUCUGAUGCA
+A.thaliana.1                UGAUGCAAUCUCCAAGUUUCUGAUGUA
+A.thaliana.2                UGUUGCAAACUCCAAGCUUCUGAUGCU
+B.rapa.1                    UGAUGCAAACUCCAAGUUUCUGAUGCU
+#=GC SS_cons                .......................>>>>
+#=GC RF                     UGAUGCAAAcUcCAAGuUuCUGAUGCa
+//

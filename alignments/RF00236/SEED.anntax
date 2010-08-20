@@ -1,0 +1,79 @@
+# STOCKHOLM 1.0
+#=GF ID    ctRNA_pGA1
+#=GF AC    RF00236
+#=GF DE    ctRNA
+#=GF AU    Bateman A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    22.7
+#=GF SE    PMID:12670963
+#=GF SS    Published; PMID:12670963
+#=GF TP    Gene; antisense;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000644 SO:antisense_RNA
+#=GF RN    [1]
+#=GF RM    12670963
+#=GF RT    Control of rep gene expression in plasmid pGA1 from Corynebacterium
+#=GF RT    glutamicum.
+#=GF RA    Venkova-Canova T, Patek M, Nesvera J;
+#=GF RL    J Bacteriol 2003;185:2402-2409.
+#=GF CC    Rolling circle replication plasmids contain a number of mechanisms
+#=GF CC    to maintain a low copy number.  One of these methods is to transcribe
+#=GF CC    a small RNA called ctRNA (for counter-transcribed RNA) than is
+#=GF CC    transcribed on the opposite strand to RepB the replication initiation
+#=GF CC    protein.  ctRNA binds to the mRNA of repB and causes translational
+#=GF CC    inhibition.
+#=GF WK    http://en.wikipedia.org/wiki/ctRNA
+#=GF SQ    15
+
+#=GS C.glutamicum.1         AC    X90817.2/2155-2232
+#=GS C.efficiens.1          AC    AP005225.1/19000-19073
+#=GS C.diphtheriae.1        AC    AF492560.1/11652-11730
+#=GS C.glutamicum.2         AC    AB003157.1/573-651
+#=GS C.diphtheriae.2        AC    AY061891.1/2640-2718
+#=GS C.jeikeium.1           AC    AF364477.1/98-176
+#=GS C.jeikeium.2           AC    AY263990.1/99-177
+#=GS C.glutamicum.3         AC    AF164956.1/9312-9389
+#=GS C.glutamicum.4         AC    AF121000.1/7510-7587
+#=GS C.efficiens.2          AC    AB084384.1/4283-4361
+#=GS C.jeikeium.3           AC    AY266269.1/99-177
+#=GS C.jeikeium.4           AC    AF486522.1/97-174
+#=GS C.jeikeium.5           AC    AY048596.1/99-176
+#=GS C.striatum.1           AC    AF024666.2/33919-33990
+#=GS Corynebacterium_jeik.1 AC    AF401314.1/98-174
+
+C.glutamicum.1                     GCUUUCUCCCAGCUGAU....GACUGGGGG.UUAGC.CGACGCCCUGUGA
+C.efficiens.1                      GCUUUCUCC..GGUGGUCGAAGACC.GGGGUAAAGCGGAGCGUC.UAACA
+C.diphtheriae.1                    GAUUUCUCCCAGGUGUG....UGCUGGGUGAUAAGC.GAAAGUC.AUCGG
+C.glutamicum.2                     GCUUUCUCCCAGGUUUG....GACUGGGGG.UUAGC.CGACGCCCUGUGA
+C.diphtheriae.2                    GCUUUCUCCCAGGUGUG....UGCUGGGUGAUAAGC.GAAAGUC.AUCGG
+C.jeikeium.1                       GCUUUCUCCCAGGUUGG....GACUGGGUGUAAAGC.GAGCGUCGAACUG
+C.jeikeium.2                       GCUUUCUCCCAGGUUGG....GACUGGGUGUAAAGC.GAGCGUCGAACUG
+C.glutamicum.3                     GCUUUCCCCCAGGUUGU....GACUGGGUGAUAAGC.GAACACCUUACGA
+C.glutamicum.4                     GCUUUCCCCCAGGUUGU....GACUGGGCGAUAAGC.GAACACCUUACGA
+C.efficiens.2                      GCUUUCUCCCAGCUGAU....GACUGGGGG.UUAGC.CGACGCCUCGACA
+C.jeikeium.3                       GCUUUCUCCCAGGUAGU....GGCUGGGUGUAAAGC.GAGCGUCGAACUG
+C.jeikeium.4                       GCUUUCUCCCAGAUUGC....GCCUGGGUGAUAAGC.GAGCGUCGAACUG
+C.jeikeium.5                       GCUUUCUCCCAGGUUGG....GACUGGGUGUAAAGC.GAGCGUCGAACUG
+C.striatum.1                       GCUUUCUCCCAGAUUGU....GGCUGGGUGAUAAGC.GAGCGUCGAUCCG
+Corynebacterium_jeik.1             GCUUUCUCCCAGGUG.G....GACUGGGGGUAAAGC.GAGCGUCGAACUG
+#=GC SS_cons                       <<<..<<<<<<<...........>>>>>>>...>>>..<<<<<<<<<<<<
+
+C.glutamicum.1                     GUU..CCCGCUCACGGGGCGUUCAAC.UUUUUCAG.GU
+C.efficiens.1                      GUG..UCUGCUGUUA.GGCGCUCAAC.UAUUU......
+C.diphtheriae.1                    GUU..GCCGCCCGGU.GGCUUUCUUCGUUUUUCAUUGU
+C.glutamicum.2                     GUU..ACCGCUCACGGGGCGUUCAACAUUUUUCAG.GU
+C.diphtheriae.2                    GUU..GCCGCCCGGU.GGCUUUCUUCGUUUUUCAUUGU
+C.jeikeium.1                       GUU..GCCGCCGGUUCGGCGCUCAUU.UUUUUCGU.UU
+C.jeikeium.2                       GUU..GCAGCCGGUUCGGCGCUCAUU.UUUUUCGU.UU
+C.glutamicum.3                     GCUUGGACCCUCGUAGGGUGUUC....UUUUUUGU.GU
+C.glutamicum.4                     GAUUGGACCCUCGUAGGGUGUUC....UUUUUUGU.GU
+C.efficiens.2                      GUU..ACAGCUGUCGGGGCGUUCAACAUUUUUCAA.GU
+C.jeikeium.3                       GUU..GCAGCCGGUUCGGCGCUCAUU.UUUUUCGU.UU
+C.jeikeium.4                       GUU..GCAGCCGGUUCGGCGCUCAU..UUUUUCGU.UU
+C.jeikeium.5                       GUU..GCCGCCGGUUCGACGCUCAU..UUUUUCGU.UU
+C.striatum.1                       GUU..GCCGCCGG.UCGGCGCUCAU..UUUUU......
+Corynebacterium_jeik.1             GUA..GCCGCCGGUUCGGCGCUCAU..UUUUUCGU.UU
+#=GC SS_cons                       <<......>>>>>>>>>>>>>>................
+//

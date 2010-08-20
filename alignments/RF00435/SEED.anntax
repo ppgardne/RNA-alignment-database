@@ -1,0 +1,98 @@
+# STOCKHOLM 1.0
+#=GF ID    ROSE
+#=GF AC    RF00435
+#=GF DE    Repression of heat shock gene expression (ROSE) element
+#=GF AU    Moxon SJ, Bateman A
+#=GF GA    22.0
+#=GF NC    0.0
+#=GF TC    24.5
+#=GF SE    PMID:11726689
+#=GF SS    Published; PMID:11726689; Griffiths-Jones S
+#=GF TP    Cis-reg; thermoregulator;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0000204 SO:five_prime_UTR
+#=GF RN    [1]
+#=GF RM    11726689
+#=GF RT    A mRNA-based thermosensor controls expression of rhizobial heat shock
+#=GF RT    genes.
+#=GF RA    Nocker A, Hausherr T, Balsiger S, Krstulovic NP, Hennecke H,
+#=GF RA    Narberhaus F;
+#=GF RL    Nucleic Acids Res 2001;29:4800-4807.
+#=GF RN    [2]
+#=GF RM    15466035
+#=GF RT    Replicon-specific regulation of small heat shock genes in
+#=GF RT    Agrobacterium tumefaciens.
+#=GF RA    Balsiger S, Ragaz C, Baron C, Narberhaus F;
+#=GF RL    J Bacteriol 2004;186:6824-6829.
+#=GF CC    This family represents a 5' UTR cis-regulatory element found in
+#=GF CC    heat shock mRNAs and is known as the ROSE (repression of heat
+#=GF CC    shock gene expression) element. The ROSE element is a negative
+#=GF CC    regulator of heat shock gene expression. The secondary structure
+#=GF CC    is thought to be regulated by temperature. This regulation blocks
+#=GF CC    access to the ribosome binding site under normal
+#=GF CC    conditions. During heat shock however, the structure changes
+#=GF CC    freeing the ribosome binding site and allowing expression to
+#=GF CC    occur [1,2].
+#=GF WK    http://en.wikipedia.org/wiki/Repression_of_heat_shock_gene_expression_(ROSE)_element
+#=GF SQ    13
+
+#=GS B.japonicum.1          AC    AJ010144.1/622-738
+#=GS B.japonicum.2          AC    AJ003064.1/2697-2806
+#=GS B.japonicum.3          AC    U55047.1/5180-5291
+#=GS B.japonicum.4          AC    AJ003064.1/2312-2430
+#=GS B.japonicum.5          AC    U55047.1/3106-3215
+#=GS Mesorhizobium_loti_M.1 AC    AP003017.1/94451-94542
+#=GS Mesorhizobium_loti_M.2 AC    BA000012.4/1943723-1943819
+#=GS Agrobacterium_tumefa.1 AC    AE007872.2/441983-442075
+#=GS Agrobacterium_tumefa.2 AC    AE007872.2/51225-51317
+#=GS Rhizobium.1            AC    AY316747.1/197909-198003
+#=GS Rhizobium.2            AC    AY316747.1/256687-256783
+#=GS Sinorhizobium_melilo.1 AC    AL591985.1/872052-872145
+#=GS Gluconobacter_oxydan.1 AC    CP000009.1/1450627-1450710
+
+B.japonicum.1                      GCCGCC.GA.GAGGUGGCGUCCCCGACGCC..UCAU.GGGUCGGGAACGA
+B.japonicum.2                      GCCACGCGGGAGCGUGGCG..CCGGAUGCC..UCUC.GGGUCCGG.....
+B.japonicum.3                      UGCCGC.GACAAGCGGU....CCGGGCGCCC.UUCGGGGGCCCGGCG...
+B.japonicum.4                      CGCCGCCGCAGGGCGGCUCU.CCGGGCGCC..UGAC.GGGCUCGGCGAAU
+B.japonicum.5                      CGCCGC.GACAAGCGGU....CCGGGCGCC..CUAG.GGGCCCGGCG...
+Mesorhizobium_loti_M.1             .....................UCGGG.GC...UUCG..G.CCCGACA...
+Mesorhizobium_loti_M.2             .....................UCGGUCGCC.GCAUAAGGGGCCGAUGU..
+Agrobacterium_tumefa.1             .....................CCAGCCGCUGAGGUCAGGGGCUGGCC...
+Agrobacterium_tumefa.2             .....................CCAGCCGCUG.ACGACGGGGCUGGACU..
+Rhizobium.1                        .....................GCCGAUGCC..AAUU.GGGUCGGCAUG..
+Rhizobium.2                        .....................CCGACCGCCA.AAA.UGGCGUCAGCCUG.
+Sinorhizobium_melilo.1             .....................AGAGCCGCCU.GUA.AGGGGCUCGCA...
+Gluconobacter_oxydan.1             .....................CCGGCCGCC..AAA..GGGGUCGGCA...
+#=GC SS_cons                       <<<<<<......>>>>>>...<<<<<<.<<<.....>>>>>>>>>.....
+
+B.japonicum.1                      C.UGAGACGGGCACCGG..UCGUGU.CCGGUGCC.G....CUCGUA.UCC
+B.japonicum.2                      ...CAGACG.CCAUCGGG.CAGAA.UCCGAUGU.UG....CUCCUA.UCC
+B.japonicum.3                      ...GAGACGGGCGCCGGA..GGUG.UCCGACGCCUG....CUCGUA.CCC
+B.japonicum.4                      CCAGAGACGGGCACCGG..UCGUGU.CCGGUGCC.G....CUCGUA.ACC
+B.japonicum.5                      ...GAGACGGGCGCCGGA..GGUG.UCCGACGCCUG....CUCGUA.CCC
+Mesorhizobium_loti_M.1             ...GAUUGGGCGUCGCAG.AGACG.CUGCGACGCUG....CUUGUAACCC
+Mesorhizobium_loti_M.2             ..GUCAGGGAGCGCCAUG..CUU..CUUGGCGUUCC....CUCGUA.UCU
+Agrobacterium_tumefa.1             .......UUGUUGGACG...CGC...CGUCUUUCAGCGCU.CCGUA.CCC
+Agrobacterium_tumefa.2             ..UGCUGGGAGCGCCG...CCUUU...CGGCGCUUC......CGUA.CCC
+Rhizobium.1                        ..GUCAGGGAGCGCCACG..CUU..CUUGGCGCUUC....CUCGUA.UCU
+Rhizobium.2                        ..GUCAGGGAGCGCCGAG..CUU..CUUGGCGCUCC....CUCAUA.UCU
+Sinorhizobium_melilo.1             .......GUCGAGGAG..CUCCGUU..CUCUUCGGCGCUCCUCAUCGUCC
+Gluconobacter_oxydan.1             .......AACAGAACU....AUC....AGUUUUGAU....CUUGUG.UCC
+#=GC SS_cons                       .......<<<<<<<<<<<.......>>>>>>>>>>>....<<<<<<..<<
+
+B.japonicum.1                      AUUUUGCUCCUUGGAGGAUUUGGCUAUGCGCA
+B.japonicum.2                      AUAUUGCUCAGAGGAGGAUGUGGUUAUGAGAA
+B.japonicum.3                      AUCUUGCUCAGUGGAGGAUUUGGCUAUGAGGA
+B.japonicum.4                      AUUUUGCUCCGUGGAGGAUCUGGCUAUGCGCA
+B.japonicum.5                      AUCUUGCUCCUUGGAGGAUUUGGCUAUGAGGA
+Mesorhizobium_loti_M.1             AUGUUGCUUUACGGAGGAUAUGGCUAUGAGAA
+Mesorhizobium_loti_M.2             AUGUUGCUCCAAGGAGGAUGUAGUUAUGAGAA
+Agrobacterium_tumefa.1             AUGUUGCUUCAAGGAGGAUAUGGCUAUGGCAA
+Agrobacterium_tumefa.2             AUGUUGCUUCAAGGAGGAUAUGGCUAUGGCAA
+Rhizobium.1                        AUGUUGCUCUACGGAGGAUGUAGCUAUGAGAA
+Rhizobium.2                        AUGUUGCUCUACGGACGAUGUAGCUAUGAGAA
+Sinorhizobium_melilo.1             AUGUUGCUC.AAGGAGGAUAUGGCUAUGAGAA
+Gluconobacter_oxydan.1             AUGUUGCUCAAAGGAGGAUAUGGCUAUGAGAG
+#=GC SS_cons                       <<<<<.<<<....>>>>>>>>>>.>>>>>>..
+//

@@ -1,0 +1,62 @@
+# STOCKHOLM 1.0
+#=GF ID    Pox_AX_element
+#=GF AC    RF00384
+#=GF DE    Poxvirus AX element late mRNA cis-regulatory element
+#=GF AU    Moxon SJ
+#=GF GA    23.0
+#=GF NC    0.0
+#=GF TC    78.6
+#=GF SE    PMID:10049834
+#=GF SS    Published; PMID:10049834
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    10049834
+#=GF RT    A 43-nucleotide RNA cis-acting element governs the site-specific
+#=GF RT    formation of the 3' end of a poxvirus late mRNA.
+#=GF RA    Howard ST, Ray CA, Patel DD, Antczak JB, Pickup DJ;
+#=GF RL    Virology 1999;255:190-204.
+#=GF CC    This family represents a cis-regulatory element present at the 3' ends of
+#=GF CC    poxvirus late mRNAs and is known as the AX element.The AX element is
+#=GF CC    involved in directing the efficient production and orientation-dependent
+#=GF CC    formation of of late RNAs [1].
+#=GF WK    http://en.wikipedia.org/wiki/Poxvirus_AX_element_late_mRNA_cis-regulatory_element
+#=GF SQ    10
+
+#=GS Variola_minor_virus.1  AC    Y16780.1/125900-125961
+#=GS Cowpox_virus.1         AC    DQ066533.1/2922-2983
+#=GS Ectromelia_virus.1     AC    AF012825.2/142927-142988
+#=GS Cowpox_virus.2         AC    AF482758.2/150939-151000
+#=GS Variola_major_virus.1  AC    L22579.1/125525-125586
+#=GS Variola_virus.1        AC    DQ441437.1/126362-126423
+#=GS Monkeypox_virus_Zair.1 AC    AF380138.1/134128-134189
+#=GS Vaccinia_virus_WR.1    AC    AY243312.1/134116-134177
+#=GS Camelpox_virus_CMS.1   AC    AY009089.1/135214-135275
+#=GS Vaccinia_virus.1       AC    DQ439815.1/139240-139301
+
+Variola_minor_virus.1              GAAUCUUUUCACAAAAGAUUUUAUCCGAUAAUUCUUUCUCGGUCAAUUUC
+Cowpox_virus.1                     GAAUCUUUUCACAAAAGAUUUUAUCCGACAAUUCUUCAUCGGACAAUUUC
+Ectromelia_virus.1                 GAAUCUUUUCACAAAAGACUUUAUCCGACAAUUCAUCAUCUGUCAAUUGU
+Cowpox_virus.2                     GAAUCUUUUCACAAAAGAUUUUAUCCGAUAAUUCUUCAUCAGACAAUUUC
+Variola_major_virus.1              GAAUCUUUUCACAAAAGAUUUUAUCCGAUAAUUCUUUCUCGGUCAAUUUC
+Variola_virus.1                    GAAUCUUUUCACAAAAGAUUUUAUCCGAUAAUUCUUUCUCGGUCAAUUUU
+Monkeypox_virus_Zair.1             GAAUCUUUUCACAAAAGAUUUUAUCCGAUAAUUCUUCCUCGGACAAUUUC
+Vaccinia_virus_WR.1                GAAUCUUUUCACAAAAGAUUUUAUCCGAUAAUUCUUCAUCGGACAAUUUC
+Camelpox_virus_CMS.1               GAAUCUUUUCACAAAAGAUUUUAUCCGAUAAUUCUUCCUCGGACAAUUUC
+Vaccinia_virus.1                   GAAUCUUUUCACAAAAGAUUUUAUCCGACAAUUCUUCAUCGGACAAUUUC
+#=GC SS_cons                       .<<<<<<<<...>>>>>>>><<<<<<<<.<<<<<<.....>>..>>>>>>
+
+Variola_minor_virus.1              GGAUUUGAAUGC
+Cowpox_virus.1                     GGAUUUGAAUGC
+Ectromelia_virus.1                 GGAUUUGAAUGC
+Cowpox_virus.2                     GGAUUUGAAUGC
+Variola_major_virus.1              GGAUUUAAAUGC
+Variola_virus.1                    GGAUUUGAAUGC
+Monkeypox_virus_Zair.1             GGAUUUGAAUAC
+Vaccinia_virus_WR.1                GGAUUUGAAUGC
+Camelpox_virus_CMS.1               GGAUUUGAAUGC
+Vaccinia_virus.1                   GAAUUUAAAUGC
+#=GC SS_cons                       >>>>..>>....
+//

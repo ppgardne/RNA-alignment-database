@@ -1,0 +1,107 @@
+# STOCKHOLM 1.0
+#=GF ID    Corona_FSE
+#=GF AC    RF00507
+#=GF DE    Coronavirus frameshifting stimulation element
+#=GF AU    Moxon SJ
+#=GF GA    29.0
+#=GF NC    25.0
+#=GF TC    35.5
+#=GF SE    PMID:15680415
+#=GF SS    Published; PMID:15680415
+#=GF TP    Cis-reg; frameshift_element;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    15680415
+#=GF RT    Programmed ribosomal frameshifting in decoding the SARS-CoV genome.
+#=GF RA    Baranov PV, Henderson CM, Anderson CB, Gesteland RF, Atkins JF,
+#=GF RA    Howard MT;
+#=GF RL    Virology 2005;332:498-510.
+#=GF CC    This family represents a conserved stem-loop found in
+#=GF CC    Coronaviruses which can promote ribosomal frameshifting. This
+#=GF CC    family interacts with a downstream region to form a pseudoknot
+#=GF CC    structure, the region varies according to the virus but
+#=GF CC    pseudoknot formation is known to stimulate frameshifting. In the
+#=GF CC    classical situation a sequence 32nt downstream of the stem is
+#=GF CC    complementary to part of the loop. In other Coronaviruses
+#=GF CC    however, there is another stem loop structure around 150nt
+#=GF CC    downstream that can interact with this family to form kissing
+#=GF CC    stem loops and stimulate frameshifting [1].
+#=GF WK    http://en.wikipedia.org/wiki/Coronavirus_frameshifting_stimulation_element
+#=GF SQ    23
+
+#=GS F.coronavirus.1        AC    DQ010921.1/12180-12258
+#=GS Transmissible_gastro.1 AC    AJ011482.1/2289-2367
+#=GS Human_group_1_corona.1 AC    AY518894.1/12426-12504
+#=GS Human_coronavirus_NL.1 AC    AY567487.2/12440-12518
+#=GS Human_coronavirus_22.1 AC    X69721.1/12521-12599
+#=GS Porcine_epidemic_dia.1 AC    AF353511.1/12621-12699
+#=GS Murine_hepatitis_vir.1 AC    AF029248.1/13602-13686
+#=GS Human_coronavirus_OC.1 AC    AY585229.1/13341-13425
+#=GS Human_coronavirus_OC.2 AC    AY903459.1/13342-13426
+#=GS Human_coronavirus_HK.1 AC    AY597011.2/13601-13685
+#=GS B.coronavirus.1        AC    AF391541.1/13342-13426
+#=GS Murine_hepatitis_vir.2 AC    AY700211.1/13603-13687
+#=GS Murine_hepatitis_vir.3 AC    M55148.1/13661-13745
+#=GS SARS_coronavirus_ZS-.1 AC    AY394996.1/13384-13465
+#=GS SARS_coronavirus_GD6.1 AC    AY313906.1/13399-13480
+#=GS SARS_coronavirus_ZJ0.1 AC    AY297028.1/13388-13471
+#=GS Infectious_bronchiti.1 AC    DQ001339.1/12352-12433
+#=GS Avian_infectious_bro.1 AC    AY646283.1/12211-12292
+#=GS Infectious_bronchiti.2 AC    AY514485.1/12359-12440
+#=GS Infectious_bronchiti.3 AC    AY319651.1/12392-12473
+#=GS Infectious_bronchiti.4 AC    AY851295.1/12361-12442
+#=GS Infectious_bronchiti.5 AC    AY641576.1/12298-12379
+#=GS Encephalomyocarditis.1 AC    M22458.1/6906-6992
+
+F.coronavirus.1                    GAGUGCGGGGUUCUAGU...GCAGCUCGACUAGAACCCUG......UAAU
+Transmissible_gastro.1             GAGUGCGGGGUUCUAGU...GCAGCUCGACUAGAACCCUG......CAAU
+Human_group_1_corona.1             GAGCAAGGGGUUCUAGU...GCAGCUCGACUAGAACCCUG......UAAU
+Human_coronavirus_NL.1             GAGCAAGGGGUUCUAGU...GCAGCUCGACUAGAACCCUG......CAAU
+Human_coronavirus_22.1             GAGUCCGGGGCUCUAGU...GCCGCUCGACUAGAGCCCUG......UAAU
+Porcine_epidemic_dia.1             GAGUACGGGGCUCUAGU...GCAGCUCGACUAGAGCCCUG......UAAU
+Murine_hepatitis_vir.1             GGGUUCGGGGUACAAGUGUAAAUGCCCGUCUUGUACCCUG...UGCCAGU
+Human_coronavirus_OC.1             GGGUUCGGGGUACGAGUGUAGAUGCCCGUCUCGUACCCUG...CGCCAGU
+Human_coronavirus_OC.2             GGGUUCGGGGUGCGAGUGUAGAUGCCCGUCUCGUACCCUG...CGCCAGU
+Human_coronavirus_HK.1             GGGUUCGGGGUACUAGUGUGAAUGCCCGGCUAGUACCCUG...UGCUAGU
+B.coronavirus.1                    GGGUUCGGGGUACGAGUGUAGAUGCCCGUCUCGUACCCUG...UGCCAGU
+Murine_hepatitis_vir.2             GGAUUCGGGGUACAAGUGUAAAUGCCCGUCUUGUACCCUG...UGCCAGU
+Murine_hepatitis_vir.3             GGGUUCGGGGUACAAGUGUAAAUGCCCGUCUUGUACCCUG...UGCCAGU
+SARS_coronavirus_ZS-.1             GGGUUUGCGGUGUAAGU...GCAGCCCGUCUUACACCGUG...CGGCACA
+SARS_coronavirus_GD6.1             GGGUUUGCGGUGUAAGU...GCAGCCCGUCUUACACCGUG...CGGCACA
+SARS_coronavirus_ZJ0.1             GGGUUUGCGGUGUAAGU...GCAGCCCGUCUUACACCGUG...CGGCACA
+Infectious_bronchiti.1             GGGUACGGGGUAGCAGU...GAGGCUCGGCUGAUACCCCU...UGCUAGU
+Avian_infectious_bro.1             GGGUACGGGGUAGCAGU...GAGGCUCGGCUGAUACCCCU...UGCUAAU
+Infectious_bronchiti.2             GGGUACGGGGUAGCAGU...GAGGCUCGGCUGAUACCCCU...UGCUAAU
+Infectious_bronchiti.3             GGGUACGGGGUAACAGU...GAGGCUCGGCUGAUACCCCU...UGUUAAU
+Infectious_bronchiti.4             GGGUACGGGGUAGCAGU...GAGGCUCGGCUGAUACCCCU...AGCUAAU
+Infectious_bronchiti.5             GGGUACGGGGUAGCAGU...GAGGCUCGGCUGAUACCCCU...UGCUAAU
+Encephalomyocarditis.1             UGCAUCGAAGUUCCAGACC.CAACCGGGUCUGGAGCUUGGUUCUGCUAUU
+#=GC SS_cons                       ......<<<<<<<<<<<...AAAAAAAA>>>>>>>>>>>...........
+
+F.coronavirus.1                    GGUACUGAUCCAGACCA.UGUUAGUAGAGC.UUUUGACAU
+Transmissible_gastro.1             GGUACUGAUCCAGACCA.UGUUAGUAGAGC.UUUUGACAU
+Human_group_1_corona.1             GGCACGGACAUCGAUAA.GUGUGUUCGUGC.UUUUGACAU
+Human_coronavirus_NL.1             GGCACGGACAUCGAUAA.GUGUGUUCGUGC.UUUUGACAU
+Human_coronavirus_22.1             GGUACAGACAUAGAUUA.CUGUGUCCGUGC.AUUUGACGU
+Porcine_epidemic_dia.1             GGUACUGAUACACAACA.UGUGUAUCGUGC.UUUUGACAU
+Murine_hepatitis_vir.1             GGCUUGGACACUGAUGU.UCAAUUAAGGGC.AUUUGACAU
+Human_coronavirus_OC.1             GGUUUAUCUACUGAUGU.ACAAUUAAGGGC.AUUUGAUAU
+Human_coronavirus_OC.2             GGUUUAUCUACUGAUGU.ACAAUUAAGGGC.AUUUGAUAU
+Human_coronavirus_HK.1             GGUUUAUCUACUGAUGU.UCAAUUAAGGGC.AUUUGACAU
+B.coronavirus.1                    GGUUUAUCUACUGAUGU.ACAAUUAAGGGC.AUUUGAUAU
+Murine_hepatitis_vir.2             GGCUUGGACACUGAUGU.UCAAUUAAGGGC.AUUUGACAU
+Murine_hepatitis_vir.3             GGCUUGGACACUGAUGU.UCAAUUAAGGGC.AUUUGAUAU
+SARS_coronavirus_ZS-.1             GGCACUAGUACUGAUGU.CGUCUACAGGGC.UUUUGAUAU
+SARS_coronavirus_GD6.1             GGCACUAGUACUGAUGU.CGUCUACAGGAC.UUUUGAUAU
+SARS_coronavirus_ZJ0.1             GGCACUAGUACUGAUGUCUGUCUACAGGGCAUUUUGAUAU
+Infectious_bronchiti.1             GGAUGUGAUCCUGAUGU.UGUAAAGCGAGC.CUUUGAUGU
+Avian_infectious_bro.1             GGCUGUGAGCCUGAUGU.UGUUAAGCGAGC.CUUUGAUGU
+Infectious_bronchiti.2             GGAUGUGAUCCUGAUGU.UGUAAAGCGAGC.CUUUGAUGU
+Infectious_bronchiti.3             GGUUGUGAACCUGAUGU.UGUAAAGCGAGC.CUUUGAUGU
+Infectious_bronchiti.4             GGAUGUGACCCCGAUGU.UGUAAAGCGAGC.CUUUGAUGU
+Infectious_bronchiti.5             GGAUGUGACCCCGAUGU.UGUAAAGCGAGC.CUUUGAUGU
+Encephalomyocarditis.1             GGAUGUGAUCCUGAUGU.UCACUGGACCGC.UUUUGGUGU
+#=GC SS_cons                       .........................aaaaa.aaa......
+//

@@ -1,0 +1,82 @@
+# STOCKHOLM 1.0
+#=GF ID    IRES_EBNA
+#=GF AC    RF00448
+#=GF DE    Epstein-Barr virus nuclear antigen (EBNA) IRES
+#=GF AU    Moxon SJ
+#=GF GA    20.0
+#=GF NC    18.5
+#=GF TC    22.4
+#=GF SE    Published; 12555070
+#=GF SS    Predicted; PFOLD
+#=GF TP    Cis-reg; IRES;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000243 SO:internal_ribosome_entry_site
+#=GF DR    GO:0043022 GO:ribosome binding
+#=GF RN    [1]
+#=GF RM    12555070
+#=GF RT    Epstein-Barr virus U leader exon contains an internal ribosome entry
+#=GF RT    site.
+#=GF RA    Isaksson A, Berggren M, Ricksten A;
+#=GF RL    Oncogene 2003;22:572-581.
+#=GF CC    This family represents an Epstein-Barr virus internal ribosome entry site
+#=GF CC    (IRES) which is found in the U leader exon in the 5' UTR of the
+#=GF CC    Epstein-Barr nuclear antigen 1 (EBNA1) gene. The EBNA IRES allows EBNA1
+#=GF CC    translation to occur under situations where initiation from the 5' cap
+#=GF CC    structure and ribosome scanning is reduced. It is thought that the EBNA
+#=GF CC    IRES is necessary for the regulation of latent gene expression [1].
+#=GF WK    http://en.wikipedia.org/wiki/Epstein-Barr_virus_nuclear_antigen_(EBNA)_IRES
+#=GF SQ    6
+
+#=GS Human_herpesvirus_4_.1 AC    M23028.1/471-674
+#=GS Human_herpesvirus_4_.2 AC    S45894.1/393-608
+#=GS Human_herpesvirus_4_.3 AC    AF448220.1/5364-5580
+#=GS Macacine_herpesvirus.1 AC    AY037858.1/48958-49174
+#=GS Human_herpesvirus_4_.4 AC    M12553.1/318-517
+#=GS Human_herpesvirus_4_.5 AC    M13941.1/141-357
+
+Human_herpesvirus_4_.1             ....GGG.............CCCCCCGGUAUCGGGCCAGAGGUAACUUAG
+Human_herpesvirus_4_.2             AAAAGGCGCGGGAUAGCGUGCGCUACCGGAUG.....GCGGGUAACUUAG
+Human_herpesvirus_4_.3             ....UGAGCUGAUCGUUGUUGUUAUUCUUCAAUUUCUGCAGGUAACUUAG
+Macacine_herpesvirus.1             ....UCAGCUGAUCGUUGUUGUCAUUCUUCAAUUUUUGCAGGUAACUCAG
+Human_herpesvirus_4_.4             ....AGAGGAUGAAGACUAAGUCACAGGCUUA....GCCAGGUAACUUAG
+Human_herpesvirus_4_.5             ....GUGGUGUAAAGUUUUGCCUGAACCUGUGGUUGGGCAGGUAACUUAG
+#=GC SS_cons                       ....<<<..............>>>..........................
+#=GC RF                            ....uGaGcugaaaguuguuguCauucuuaaAuuuuugCAGGUAACUuAG
+
+Human_herpesvirus_4_.1             GAAGCGUUUCUUGAGCUUCCCUGGGAUGAGCGUUUGGGAGAGCUGAUUCU
+Human_herpesvirus_4_.2             GAAGCGUUUCUUGAGCUUCCCUGGGAUGAGCGUUUGGGAGAGCUGAUUCU
+Human_herpesvirus_4_.3             GAAGCGUUUCUUGAGCUUCCCUGGGAUGAGCGUUUGGGAGAGCUGAUUCU
+Macacine_herpesvirus.1             AAAGCGUUUCUUGAGCUUCCCGGGGAUGAGCGUCUGGGAGAGCUGAUUCU
+Human_herpesvirus_4_.4             GAAGCGUUUCUUGAGCUUCCC.............UGGGAGAGCUGAUUCU
+Human_herpesvirus_4_.5             GAAGCGUUUCUUGAGCUUCCCUGGGAUGAGCGUUUGGGAGAGCUGAUUCU
+#=GC SS_cons                       ...<<<......<<<..<<<<..............>>>>.....<<....
+#=GC RF                            gAAGCGUUUCUUGAGCUuCCCuGGGAUGAGcGUuUGGGaGAGCUGAUUCU
+
+Human_herpesvirus_4_.1             GCAGCCCAGAGAGUAGUCUCAGGGCAUCCUCUGGAGCCUGACCUGUGAUC
+Human_herpesvirus_4_.2             GCAGCCCAGAGAGUAGUCUCAGGGCAUCCUCUGGAGCCUGACCUGUGAUC
+Human_herpesvirus_4_.3             GCAGCCCAGAGAGUAGUCUCAGGGCAUCCUCUGGAGCCUGACCUGUGAYC
+Macacine_herpesvirus.1             GCAGACCGGCUAGGAGCCGCAGGGCGUUCUCCGGGGCGCGGCCCGAGACC
+Human_herpesvirus_4_.4             GCAGCCCAGAGAGUAGUCUCAGGGCAUCCUCUGGAGCCUGACCUGUGAUC
+Human_herpesvirus_4_.5             GCAGCCCAGAGAGUAGUCUCAGGGCAUCCUCUGGAGCCUGACCUGUGAUC
+#=GC SS_cons                       <<...<<..............>>>>.>>>>>.<<...<<<..<<<<<<<.
+#=GC RF                            GCAGcCCAGAgAGuAGuCuCAGGGCAUCCUCuGGAGCCuGACCuguGAcC
+
+Human_herpesvirus_4_.1             GUCGCAUCAUAGACCGCCAGUAGACCUGGGAGCAGAUUCACCGCCGCGGC
+Human_herpesvirus_4_.2             GUCGCAUCAUAGACCGCCAGUAGACCUGGGAGCAGAUUCACCGCCGCGGC
+Human_herpesvirus_4_.3             GUCGCAUCAUAGACCGCCAGUAGACCUGGGAGCAGAUUCACCGCCGCGGC
+Macacine_herpesvirus.1             GUCGCGUCGUAGACAGCCAGGAGACCCGGGAGCAGAUUCACCGCAGCGGC
+Human_herpesvirus_4_.4             GUCGCAUCAUAGACCGCCAGUAGACCUGGGAGCAGAUUCACCGCCGCGGC
+Human_herpesvirus_4_.5             GUCGCAUCAUAGACCGCCAGUAGACCUGGGAGCAGAUUCACCGCCGCGGC
+#=GC SS_cons                       .....>>>>>>>....<<<<.....>>>>...>>>.....>>..>>>...
+#=GC RF                            GUCGCgUCauaGACcGCCaGuAGACCuGGGAGCaGAUUCACCGCCGCGGC
+
+Human_herpesvirus_4_.1             CGUCUCCUUUAAGACCCACCA
+Human_herpesvirus_4_.2             CGUCUCCUUUAAGUGUGAAUC
+Human_herpesvirus_4_.3             CGUCUCCUUUAAGGUGCUGUG
+Macacine_herpesvirus.1             CGUCUCCCUCAAGGUGCUGUG
+Human_herpesvirus_4_.4             CGUCUCCUUUAAGACCCCACC
+Human_herpesvirus_4_.5             CGUCUCCUUUAAGUGUGAAUC
+#=GC SS_cons                       .....................
+#=GC RF                            CGUCUCCuUuAAGgugcuaug
+//

@@ -1,0 +1,46 @@
+# STOCKHOLM 1.0
+#=GF ID    snR39
+#=GF AC    RF01197
+#=GF DE    Small nucleolar RNA snR39
+#=GF AU    Wilkinson A
+#=GF GA    26.0
+#=GF NC    24.8
+#=GF TC    29.0
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    URL; http://people.biochem.umass.edu/sfournier/fournierlab/snornadb/snrs/snR39b_ta.php
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF WK    http://en.wikipedia.org/wiki/SnoRNA
+#=GF SQ    4
+
+#=GS S.cerevisiae.1         AC    X94605.1/2-96
+#=GS Saccharomyces_mikata.1 AC    AACH01000077.1/3889-3986
+#=GS Saccharomyces_bayanu.1 AC    AACA01000192.1/11990-12087
+#=GS Vanderwaltozyma_poly.1 AC    AAZN01000229.1/74806-74905
+
+S.cerevisiae.1                     UUUAGUGAUGAUACUGCCGAUU....CUGGCA.UUCCAAAAAGUGACUAG
+Saccharomyces_mikata.1             UUUAGUGAUGAUACUGCCGAUU....CUGGCA.UUCCAAAAAGUGACUAG
+Saccharomyces_bayanu.1             UUUAGUGAUGAUACUGCCGAUU....CUGGCA.UUCCAAAAAGUGACUAG
+Vanderwaltozyma_poly.1             UGAAGUGAUGAUAAAUGUCAUUAACAGUGACAUUUUCAACUAGUGACUAG
+#=GC SS_cons                       ..<<..............................................
+#=GC RF                            UUuaGUGAUGAUACUGCCGAUU....CUGGCA.UUCCAAAAAGUGACUAG
+
+S.cerevisiae.1                     C...AAAAU...UGCGAUGUUGUCAACUUAAAUUACACCAUCUUUCGGGG
+Saccharomyces_mikata.1             C...AUUAUAAAUGCGAUGUUGUCAACUUAAAUUACACCAUCUUUCGGGG
+Saccharomyces_bayanu.1             CGUUAUAAA...CGCAAUGUUGUCAACUUAAAUUACACCAUCUUUCGGGG
+Vanderwaltozyma_poly.1             C...UAUUU...AGCAAUGUUGUUUACUAAAAUUACACCAUCUUUCGGGG
+#=GC SS_cons                       ..................................................
+#=GC RF                            C...AAAAU...UGCGAUGUUGUCAACUUAAAUUACACCAUCUUUCGGGG
+
+S.cerevisiae.1                     CUGAUA
+Saccharomyces_mikata.1             CUGAAU
+Saccharomyces_bayanu.1             CUGAUU
+Vanderwaltozyma_poly.1             CUGAUU
+#=GC SS_cons                       ....>>
+#=GC RF                            CUGAua
+//

@@ -1,0 +1,43 @@
+# STOCKHOLM 1.0
+#=GF ID    snoR101
+#=GF AC    RF01155
+#=GF DE    Small nucleolar RNA snoR101
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    21.4
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    URL; http://bioinf.scri.sari.ac.uk/cgi-bin/plant_snorna/home
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Arabidopsis_thaliana300006
+#=GF WK    http://en.wikipedia.org/wiki/SnoRNA
+#=GF SQ    5
+
+#=GS O.sativa.1      AC    AP008207.1/28882026-28882089
+#=GS V.vinifera.1    AC    AM463855.1/5770-5834
+#=GS R.communis.1    AC    AASG02007650.1/11063-11125
+#=GS P.trichocarpa.1 AC    AARH01002882.1/376486-376548
+#=GS A.thaliana.1    AC    AJ505631.1/1-68
+
+O.sativa.1                  GUCUUACACUUGAUCUCUGAACUUC..AGGUAAGUUCAUAUGUGGACA..
+V.vinifera.1                GGCUUACACUUGAUCUCUGAACUUC..AGGUAAGUUUACUUGUUGACAAG
+R.communis.1                GGUUUACACUUGAUCUCUGAACUUC..AGGUAAGUUCACUUGUGGAUAAU
+P.trichocarpa.1             GUCUUACACUUGAUCUCUGAACUUC..AGGUAAGUUCACUUGUUGACAAG
+A.thaliana.1                GGGAUACACUUGAUCUCUGAACUUCACAGGUAAGUUCGCUUGUUGAUAAC
+#=GC SS_cons                ..................................................
+#=GC RF                     GGGAUACACUUGAUCUCUGAACUUCACAGGUAAGUUCGCUUGUUGAUAAC
+
+O.sativa.1                  UAUUUCAUUGCUGAUGCA
+V.vinifera.1                UA.UACAUUACUGAUGCU
+R.communis.1                UCAUGAA...CUGAUGCC
+P.trichocarpa.1             CUCU...UUACUGAUGCC
+A.thaliana.1                UACUGGUCUGCUGAUGCU
+#=GC SS_cons                ..................
+#=GC RF                     UACUGGUCUGCUGAUGCU
+//

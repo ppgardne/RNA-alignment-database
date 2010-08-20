@@ -1,0 +1,30 @@
+# STOCKHOLM 1.0
+#=GF ID    CRISPR-DR24
+#=GF AC    RF01337
+#=GF DE    CRISPR RNA direct repeat element
+#=GF AU    Wilkinson A
+#=GF GA    27.0
+#=GF NC    26.6
+#=GF TC    27.5
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; CRISPR;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    URL; http://crispr.u-psud.fr/crispr/CRISPRHomePage.php
+#=GF DR    SO:0001459 SO:CRISPR
+#=GF WK    http://en.wikipedia.org/wiki/CRISPR
+#=GF SQ    4
+
+#=GS Haloarcula_marismort.1 AC    AY596293.1/36472-36501
+#=GS Haloarcula_marismort.2 AC    AY596293.1/50017-50046
+#=GS H.walsbyi.1            AC    AM180088.1/1383441-1383470
+#=GS Natronomonas_pharaon.1 AC    CR936258.1/38286-38315
+
+Haloarcula_marismort.1             GUUUCAGACGGACCCUUGGGCGGUUGAAGU
+Haloarcula_marismort.2             GUUACAGACGGACCCUCGUGGGGUUGAAGC
+H.walsbyi.1                        GUUUCAGAUGAACCCUUGUUGGGUUGAAGU
+Natronomonas_pharaon.1             GUUUCAGACGAACCCUUGUGGGGUUGAAGC
+#=GC SS_cons                       ..........<<<<<.....>>>>>.....
+#=GC RF                            GUUuCAGACGaaCCcUuGuGgGGuuGAAGc
+//

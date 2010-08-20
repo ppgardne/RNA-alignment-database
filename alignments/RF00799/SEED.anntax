@@ -1,0 +1,46 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-354
+#=GF AC    RF00799
+#=GF DE    microRNA mir-354
+#=GF AU    Wilkinson A
+#=GF GA    40.0
+#=GF NC    0.0
+#=GF TC    58.8
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000238
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    4
+
+#=GS C.brenneri.1 AC    ABEG01001653.1/28849-28967
+#=GS C.remanei.1  AC    AAGD02005008.1/3108-3217
+#=GS C.briggsae.1 AC    CAAC02000482.1/154116-154225
+#=GS C.elegans.1  AC    AL132876.4/135222-135332
+
+C.brenneri.1             CCAGAGCCGAUUAAGCACCUUGGUGCGGCUGCAGACGGGUAACCGGCUCG
+C.remanei.1              CCAGAGCCGACUAAGCGCCUUGGUGCGGCUGCAGACGGGUAACCGGCUCG
+C.briggsae.1             CCAGAGCCGACUAAGUGCCUUGGUGCGGCUACAGACGGGUAUCCGGCUCG
+C.elegans.1              CCAGAGCCGACUAAGCACCUUGGUGCGGCUGCAGACGGGUAUCCGGCUCG
+#=GC SS_cons             .<<<<<<<<<...........<<.<<<<<.<<<<<<<<<<<...<<...<
+#=GC RF                  cCagagCCgauUAAGcaccUUgGUGCgGCUgCagaCgGGuaAccGGcUcG
+
+C.brenneri.1             ACGUUCAUCACAUCAUCCGC.GACCUUCUUUCCUAUUACCCUUGUUUGUU
+C.remanei.1              ACGUUC.....AUUCAUCACCGAC.U.CUUUCCUUUUACC.UUGUUUGUU
+C.briggsae.1             AUGUUC.....AUACACCGC.GAC..UCUUUCCUUUUACC.UUGUUUGUU
+C.elegans.1              ACGUUC.....AUACAUCAC.GAC.UUCUUUCCUUUUACC.UUGUUUGUU
+#=GC SS_cons             <.<<<................>>>..>>...>>...>>>>..>>>>>>>.
+#=GC RF                  acGuucAucAcAUuaaucaccgaCcUuCUUUCCUaUuaCCcUuGuuuGuU
+
+C.brenneri.1             GCUGCCACUAUUUGGUUUUG
+C.remanei.1              GCUGC..CCUUAUGGUUUUG
+C.briggsae.1             GCUGCU.CCUUUUGGUUUUG
+C.elegans.1              GCUGCU.CCUAUUGGUUUUG
+#=GC SS_cons             >>>>>..>>..>>>>>>>>>
+#=GC RF                  GCuGCcACcaUuuGGuuuuG
+//

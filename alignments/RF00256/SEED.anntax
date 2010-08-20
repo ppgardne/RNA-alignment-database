@@ -1,0 +1,91 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-196
+#=GF AC    RF00256
+#=GF DE    mir-196 microRNA precursor family
+#=GF AU    Griffiths-Jones SR, Daub J
+#=GF GA    32.0
+#=GF NC    26.5
+#=GF TC    38.9
+#=GF SE    Griffiths-Jones SR
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIR; MI0000238
+#=GF DR    MIR; MI0000279
+#=GF DR    MIR; MI0000552
+#=GF DR    MIR; MI0000553
+#=GF DR    MIPF; MIPF0000031
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF RN    [1]
+#=GF RM    12554859
+#=GF RT    New microRNAs from mouse and human.
+#=GF RA    Lagos-Quintana M, Rauhut R, Meyer J, Borkhardt A, Tuschl T;
+#=GF RL    RNA 2003;9:175-179.
+#=GF RN    [2]
+#=GF RM    12624257
+#=GF RT    Vertebrate microRNA genes.
+#=GF RA    Lim LP, Glasner ME, Yekta S, Burge CB, Bartel DP;
+#=GF RL    Science 2003;299:1540.
+#=GF CC    miR-196 has been shown to be expressed in human (MIR:MI0000238,
+#=GF CC    MIR:MI0000279) and mouse (MI0000552, MI0000553) [1,2]. miR-196
+#=GF CC    appears to be a vertebrate specific microRNA and has now been
+#=GF CC    predicted or experimentally confirmed in a wide range of
+#=GF CC    vertebrate species (MIPF:MIPF0000031). In many species the miRNA
+#=GF CC    appears to be expressed from intergenic regions in HOX gene
+#=GF CC    clusters. The hairpin precursors (represented here) are predicted
+#=GF CC    based on base pairing and cross-species conservation -- their
+#=GF CC    extents are not known.  In this case the mature sequence is
+#=GF CC    excised from the 5' arm of the hairpin.
+#=GF WK    http://en.wikipedia.org/wiki/mir-196_microRNA_precursor_family
+#=GF SQ    14
+
+#=GS H.francisci.1          AC    AF224262.1/4259-4347
+#=GS O.niloticus.1          AC    AF533976.1/31698-31785
+#=GS Morone_saxatilis_str.1 AC    AF089743.1/3391-3478
+#=GS T.rubripes.1           AC    U92573.1/5950-6038
+#=GS D.rerio.1              AC    BX005254.9/126009-126100
+#=GS D.rerio.2              AC    AL645795.3/71960-72052
+#=GS D.rerio.3              AC    AC107365.2/86767-86856
+#=GS P.bichir.1             AC    AC132195.4/6836-6926
+#=GS M.musculus.1           AC    AC011194.15/60947-61038
+#=GS R.norvegicus.1         AC    AC116662.1/14702-14792
+#=GS P.hamadryas.1          AC    AC116664.1/86748-86839
+#=GS H.sapiens.1            AC    AC012531.11/129347-129438
+#=GS H.sapiens.2            AC    AC004080.2/42848-42937
+#=GS B.taurus.1             AC    AC129959.6/149793-149884
+
+H.francisci.1                      UAGAA.CUGGCGUGUGAUUUAGGUAGUUUCAUGUUGUUGGGGCUCAAGUC
+O.niloticus.1                      UCG.A.CUGUCGAGUGGUUUAGGUAGUUUCAUGUUGUUGGGGUCCA.UUU
+Morone_saxatilis_str.1             UCG.A.CUGUCGUGUGGUUUAGGUAGUUUCAUGUUGUUGGGGUCCA.UUU
+T.rubripes.1                       ACCGA.CUGUCGAGUGGUUUAGGUAGUUUCAUGUUGUUGGGGUCCA.UUU
+D.rerio.1                          GCGCGGCUGGUGCGUGGUUUAGGUAGUUUCAUGUUGUUGGGAUUGGCUUC
+D.rerio.2                          GACAA.CUGCUAAGUGAUUUAGGUAGUUUUAUGUUGUUGGGCUCUAUUUU
+D.rerio.3                          CCAGA.CUGUCGAGUGGUUUAGGUAGUUUCAUGUUGUUGGGAUU.ACAUU
+P.bichir.1                         UAAGA.CUGCA.UGUGAUUUAGGUAGUUUCAUGUUGUUGGGGCUCCAUUU
+M.musculus.1                       CGGGA.CUGUUGAGUGAAGUAGGUAGUUUCAUGUUGUUGGGCCUGGCUUU
+R.norvegicus.1                     UCUGAACUGGUCGGUGAUUUAGGUAGUUUCCUGUUGUUGGGAUCCACCUU
+P.hamadryas.1                      UGGAA.CUGCUGAGUGAAUUAGGUAGUUUCAUGUUGUUGGGCCUGGGUUU
+H.sapiens.1                        GCUCAGCUGAUCUGUGGCUUAGGUAGUUUCAUGUUGUUGGGAUUGAGUUU
+H.sapiens.2                        CAGAA.CUGGUCGGUGAUUUAGGUAGUUUCCUGUUGUUGGGAUCCACCUU
+B.taurus.1                         UGGAA.CUGCUGAGUGAAUUAGGUAGUUUCAUGUUGUUGGGCCUGGAUUU
+#=GC SS_cons                       ....<.<<<....<<<<<...<<<<<<<<..<<<<<<<<<<.........
+
+H.francisci.1                      .U.AU.CUCUACAACACGAAACUGCCUGAAUUAC..UGCAGUUA.U
+O.niloticus.1                      CU.AA.CUCUGCAACAUGAAACUGUCUUAAUUGC..CCCAGUUAC.
+Morone_saxatilis_str.1             CU.AA.CUCUGCAACAUGAAACUGUCUUAAUUGC..CCCAGUUAC.
+T.rubripes.1                       .CAAA.CUCUGCAACAUGAAAC.GUCUUAAUUGC..CCCAGUUACA
+D.rerio.1                          CUGG..CUCGACAACAAGAAACUGCCUUGAUUAC..GUCAGUUCGU
+D.rerio.2                          AU.AU.CCCCGCAACACGAAACUGUCUUAAUUGCCUCGCAGUGAGA
+D.rerio.3                          .CAAA.CUCUGCAACGUGAAACUGUCUUAAUUGC..CCCAGUUUCA
+P.bichir.1                         .UCAAUCCCUACAACACGAAAGUGCCUUAAUUGC..UCCAGUUAAA
+M.musculus.1                       CUGAA.CACAACGACAUCAAACCACCUGAUUCAU..GGCAGUUACU
+R.norvegicus.1                     .U.CU.CUCGACAGCACGACACUGCCUUCAUUAC..UUCAGUUGAA
+P.hamadryas.1                      CUGAA.CACAACAACAUUAAACCACCCGAUUCAC..GGCAGUUACU
+H.sapiens.1                        .UGAA.CUCGGCAACAAGAAACUGCCUGAGUUAC..AUCAGUCGGU
+H.sapiens.2                        .U.CU.CUCGACAGCACGACACUGCCUUCAUUAC..UUCAGUUGAA
+B.taurus.1                         CUGAA.CACAACGACAUUAAACCACCCGACUCAC..GGCAGUUACU
+#=GC SS_cons                       ......>>>>>>>>>>..>>>>>>>>...>>>>>....>>>>....
+//

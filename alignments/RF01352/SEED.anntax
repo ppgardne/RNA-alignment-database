@@ -1,0 +1,28 @@
+# STOCKHOLM 1.0
+#=GF ID    CRISPR-DR43
+#=GF AC    RF01352
+#=GF DE    CRISPR RNA direct repeat element
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    25.3
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; CRISPR;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    URL; http://crispr.u-psud.fr/crispr/CRISPRHomePage.php
+#=GF DR    SO:0001459 SO:CRISPR
+#=GF WK    http://en.wikipedia.org/wiki/CRISPR
+#=GF SQ    3
+
+#=GS Bacillus_cereus_subs.1 AC    CP000764.1/2136193-2136221
+#=GS Bacillus_thuringiens.1 AC    AAJM01000009.1/9274-9302
+#=GS Bacillus_cereus_subs.2 AC    CP000764.1/2126031-2126059
+
+Bacillus_cereus_subs.1             CUUUAUAUCCCACUACGUUCAGAUAAAAC
+Bacillus_thuringiens.1             GUUUAUAUCCCACACAGUUCAGAUAAAAC
+Bacillus_cereus_subs.2             CUUUCUAUUCCACUACGUUCAGAUAAAAC
+#=GC SS_cons                       .............................
+#=GC RF                            CUUUAUAUCCCACUACGUUCAGAUAAAAC
+//

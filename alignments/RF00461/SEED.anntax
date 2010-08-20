@@ -1,0 +1,102 @@
+# STOCKHOLM 1.0
+#=GF ID    IRES_VEGF_A
+#=GF AC    RF00461
+#=GF DE    Vascular endothelial growth factor (VEGF) IRES A
+#=GF AU    Moxon SJ
+#=GF GA    57.0
+#=GF NC    46.3
+#=GF TC    102.5
+#=GF SE    Published; PMID:9774635
+#=GF SS    Published; PMID:9774635
+#=GF TP    Cis-reg; IRES;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000243 SO:internal_ribosome_entry_site
+#=GF DR    GO:0043022 GO:ribosome binding
+#=GF RN    [1]
+#=GF RM    9774635
+#=GF RT    Two independent internal ribosome entry sites are involved in
+#=GF RT    translation initiation of vascular endothelial growth factor mRNA.
+#=GF RA    Huez I, Creancier L, Audigier S, Gensac MC, Prats AC, Prats H;
+#=GF RL    Mol Cell Biol 1998;18:6178-6190.
+#=GF CC    This family represents the vascular endothelial growth factor
+#=GF CC    (VEGF) internal ribosome entry site (IRES) A. VEGF is an
+#=GF CC    endothelial cell mitogen with many crucial functions such as
+#=GF CC    embryogenic development and wound healing. The 5' UTR of VEGF
+#=GF CC    mRNA contains two IRES elements which are able to promote
+#=GF CC    efficient translation at the AUG start codon [1], this family
+#=GF CC    represents IRES A.
+#=GF WK    http://en.wikipedia.org/wiki/Vascular_endothelial_growth_factor_(VEGF)_IRES_A
+#=GF SQ    7
+
+#=GS M.musculus.1   AC    BC061468.1/104-409
+#=GS M.musculus.2   AC    U41383.1/1944-2240
+#=GS R.norvegicus.1 AC    U22373.1/1690-1983
+#=GS S.judaei.1     AC    AJ544164.1/1765-2070
+#=GS H.sapiens.1    AC    M63971.1/3107-3415
+#=GS H.sapiens.2    AC    AF022375.1/415-716
+#=GS B.taurus.1     AC    M32976.1/252-560
+
+M.musculus.1               GCUAGCUCGGGCCUGGAGAAGCCGGGGCCCGAGAAGAGAGGGGAGGAAGA
+M.musculus.2               GCUAGCUCGGCCCUGGAGAGGCCGGGGCCCGAGAAGAGAGGGGAG.....
+R.norvegicus.1             GCUAGCUCGGGCCUGGAGAAGCCGGGGCCCGAGAAGAGAGGGGAGAA...
+S.judaei.1                 GCUAGCUCGGGCCUGGAGAAGCCGGGGCCGGAGCAGAGGGAGGAGGAAGA
+H.sapiens.1                GCUAGCUCGGGCCGGGAGGAGCCGCAGCCGGAGGAGGGGGAGGAGGAAGA
+H.sapiens.2                GCUAGCUCGGGCCGGGAGGAGCCGCAGCCGGAGGAGGGGGAGGAGGAAGA
+B.taurus.1                 GCUCGCUCGGGCCGGGAGGAGCCGCAGUCGGAGGAGGGGGAGGAGGAAGA
+#=GC SS_cons               .<<..<<<.<<<<<<......>>>..>>>.>>>.>>...........<<.
+
+M.musculus.1               ....GAAGGAAGAGGAGAGGGGGCCGCAGUGGGC.GCUCGGCUCUCAGGA
+M.musculus.2               ....GAAGGAAGAGGAGAGGGGGCCACAGUGGGC.GCUCGGCUCUCAGGA
+R.norvegicus.1             AG.AGAAGGAAGAGGAGAGGGGGCCGCAGUGGGC.GCUCGGCUCUCGGGA
+S.judaei.1                 ....GAAGGAAAAGGAGAGGGGGUCGCAGUGGGC.GCUCGGCUCUCGGGA
+H.sapiens.1                AGA.GAAGGAAGAGGAGAGGGGGCCGCAGUGG.CGACUCGGCGCUCGGAA
+H.sapiens.2                AGA.GAAGGAAGAGGAGAGGGGGCCGCAGUGG.CGACUCGGCGCUCGGAA
+B.taurus.1                 AGA.GAAGGAAGAGGAGAAGGGGCCGCGGUGG.CGACUCGGCUCUCGGAA
+#=GC SS_cons               <<..<<.<<..<<<<....<<<<<<<<.<<<<.<......<<<<<<....
+
+M.musculus.1               GCCGAGCUCAUGGACGGGUGAGGCGGCCGUGUGCGCAGACAGUGCUCCAG
+M.musculus.2               GCCGAGCUCAUGGACGGGUGAGGCGGCCGUGUGCGCAGACAGUGCUCCAG
+R.norvegicus.1             GCCGGGCUCAUGGACGGGUGAGGCGGCGGUGUGCGCAGACAGUGCUCCAG
+S.judaei.1                 GCCGGGCUCAUGGACGGGUGAGGCGGCCGUGUGCGCAGACAGUGCUCCAG
+H.sapiens.1                GCCGGGCUCAUGGACGGGUGAGGCGGCGGUGUGCGCAGACAGUGCUCCAG
+H.sapiens.2                GCCGGGCUCAUGGACGGGUGAGGCGGCGGUGUGCGCAGACAGUGCUCCAG
+B.taurus.1                 GCCGGGCUCAUGGACGGGUGAGGCAGCUGUGUGCACAGACAGUGCUCCAG
+#=GC SS_cons               <<<<<<<<..<<<..<<<.<<<<<<<<<<<<.<<<<.....>>>>..>>.
+
+M.musculus.1               CCGCGCGCGCGCCCCAGGCCCCGGCCCGGGCCUCGGUUCCAGAAGGGAGA
+M.musculus.2               CCGCGCGCGCGCCCCAGGCCCCGGCCCGGGCCUCGGUUCCAGAAGGGAGA
+R.norvegicus.1             CCGCGCGCG..CCCCAGGCCCCGGCCCGGGCCUCGGUUCCAGAAGGGAGA
+S.judaei.1                 CCGCGCGCGCGCCCCAGGCCCUGGCCCGGGCCUCGGUUCCAGAAGGAAGA
+H.sapiens.1                CCGCGCGCGCUCCCCAGGCCCUGGCCCGGGCCUCGGGCCGGGGAGGAAGA
+H.sapiens.2                C.GCGCGCGCUCCCCAG.CCCUGGCCCG.GCCUCGGG.CCGGGAGGAAGA
+B.taurus.1                 CCGCGCGCGCGCCCCAGGCCCUGGCCCGGGCCUCGGCUCCGAGAGGAAGA
+#=GC SS_cons               >>>>.>>>.>>>>>>.<<<...<<<<<<..<<<<<<<<<.<<<<<.....
+
+M.musculus.1               GGAGCCCGCCAAGGCGCGCAAGAGAG..CGGGCUGCCUCGCAGUCCG.AG
+M.musculus.2               GGAGCCCGCCAAGGCGCGCAAGAGAG..CGGGCUGCCUCGCAGUCCGGAG
+R.norvegicus.1             GGAGCCCGCCAAGG..CCGGCAAGAGAGCGG.CUGCCUCGCAGUCCG.AG
+S.judaei.1                 GCAGCCCGCCAAGGCGCGGAGGAGAG..CGGGCUGCCUCGCAGUCCG.AG
+H.sapiens.1                GUAGCUCGCCGAGGCGCCGAGGAGAG..CGGGCCGCCCCACAGCCCG.AG
+H.sapiens.2                GUAGCUCGCCGAGGCGCCGAGGAGAG..CGGGCCGCCCCACAGCCCG.AG
+B.taurus.1                 GGAGCCCGCCUGGGCGCCGAGGAGAG..CGGGCCGCCCCGCAGCCCG.AG
+#=GC SS_cons               ....>>>.>>..>>>.>>>>>>......>>>>>>>>>>>>.>>>>>>.>>
+
+M.musculus.1               CCGGAGAG..GGAGCGCGAGCCGCGCCGGCCCCGGACGGGCCUCCGAAAC
+M.musculus.2               CCGGAGAGAGGGAGCGCGAGCCGCCGCGGCCCCGGACGG.CCUCCGAAAC
+R.norvegicus.1             CCGGAGAG..GGAGCGCGACGCGCGC.GGCCCCGGACGG.CCUCUGAAAC
+S.judaei.1                 CCGGAGAG..GGGGCACGAGCCGCGCCGGCCCCGGCCGGGCCUCCGAAAC
+H.sapiens.1                CCGGAGAG..GGAGCGCGAGCCGCGCCGGCCCCGGUCGGGCCUCCGAAAC
+H.sapiens.2                CCGGAGAG..GGA.CGCGAGCCGCGC..GCCCCGGUCGGGCCUCCGAAAC
+B.taurus.1                 CCGGAGAG..GGAGCGCGAGCCGCGCCGGCCCCGGCCAGGCCUCCGAAAC
+#=GC SS_cons               ...........>>>>>>..>>>>>>>.>>>>>>.......>>>>.....>
+
+M.musculus.1               CAUGAACUUUCUGCUC
+M.musculus.2               CAUGAACUUU......
+R.norvegicus.1             CAUGAACUU.......
+S.judaei.1                 CAUGAACUUUCUGCUC
+H.sapiens.1                CAUGAACUUUCUGCUG
+H.sapiens.2                CAUGAACUUUCUGCUG
+B.taurus.1                 CAUGAACUUUCUGCUC
+#=GC SS_cons               >......>>.>>.>>.
+//

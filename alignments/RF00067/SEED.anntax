@@ -1,0 +1,152 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORD15
+#=GF AC    RF00067
+#=GF DE    Small nucleolar RNA SNORD15
+#=GF AU    Griffiths-Jones SR
+#=GF GA    17.0
+#=GF NC    0.0
+#=GF TC    22.5
+#=GF PI    U15
+#=GF SE    Griffiths-Jones SR; Plant snoRNA database, PMID:12520043
+#=GF SS    Predicted; PFOLD; Griffiths-Jones SR, Daub J
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Mus_musculus300760
+#=GF DR    snoopy; Homo_sapiens300742
+#=GF RN    [1]
+#=GF RM    8319909
+#=GF RT    A small nucleolar RNA is processed from an intron of the human gene
+#=GF RT    encoding ribosomal protein S3.
+#=GF RA    Tycowski KT, Shu MD, Steitz JA;
+#=GF RL    Genes Dev 1993;7:1176-1190.
+#=GF RN    [2]
+#=GF RM    7984408
+#=GF RT    Different forms of U15 snoRNA are encoded in the introns of the
+#=GF RT    ribosomal protein S1 gene of Xenopus laevis.
+#=GF RA    Pellizzoni L, Crosio C, Campioni N, Loreni F, Pierandrei-Amaldi P;
+#=GF RL    Nucleic Acids Res 1994;22:4607-4613.
+#=GF RN    [3]
+#=GF RM    11469857
+#=GF RT    Identification of 66 box C/D snoRNAs in Arabidopsis thaliana:
+#=GF RT    extensive gene duplications generated multiple isoforms predicting
+#=GF RT    new ribosomal RNA 2'-O-methylation sites.
+#=GF RA    Barneche F, Gaspin C, Guyot R, Echeverria M;
+#=GF RL    J Mol Biol 2001;311:57-73.
+#=GF RN    [4]
+#=GF RM    12520043
+#=GF RT    Plant snoRNA database.
+#=GF RA    Brown JW, Echeverria M, Qu LH, Lowe TM, Bachellerie JP, Huttenhofer
+#=GF RA    A, Kastenmayer JP, Green PJ, Shaw P, Marshall DF;
+#=GF RL    Nucleic Acids Res 2003;31:432-435.
+#=GF CC    U15 is a member of the C/D class of snoRNA which contain the
+#=GF CC    C (UGAUGA) and D (CUGA) box motifs.  U15 is encoded within
+#=GF CC    the introns of ribosomal protein S1 in Xenopus and S3 in human
+#=GF CC    and Fugu.  snoR75 from Arabidopsis [3] and homologues in rice
+#=GF CC    and other plants are alternatively known as U15, and, despite
+#=GF CC    a significantly shorter sequence length, appear to be related [4].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_SNORD15
+#=GF SQ    18
+
+#=GS T.rubripes.1 AC    X97794.1/2144-2293
+#=GS T.rubripes.2 AC    X97794.1/3225-3370
+#=GS X.laevis.1   AC    Z34530.1/4257-4400
+#=GS X.laevis.2   AC    Z34530.1/10197-10341
+#=GS X.laevis.3   AC    Z34530.1/6444-6594
+#=GS X.laevis.4   AC    X80988.1/3-147
+#=GS X.laevis.5   AC    Z34530.1/8157-8303
+#=GS M.musculus.1 AC    AY043296.2/720-867
+#=GS M.musculus.2 AC    AY043296.2/3945-4089
+#=GS H.sapiens.1  AC    L15557.1/1-146
+#=GS H.sapiens.2  AC    L16016.1/866-1013
+#=GS C.elegans.1  AC    Z75112.1/2-111
+#=GS O.sativa.1   AC    AY103184.1/20-105
+#=GS O.sativa.2   AC    AJ309198.1/616-702
+#=GS O.sativa.3   AC    AJ489948.1/3-90
+#=GS A.thaliana.1 AC    AF318001.1/3-87
+#=GS A.thaliana.2 AC    AB013389.1/56436-56523
+#=GS A.thaliana.3 AC    AF318003.1/3-90
+
+T.rubripes.1             CUU.GGUGAAGAUAA.......GAUG.ACGAGUCGGAAUAGGACAGA..U
+T.rubripes.2             CUUCAGUGAUGAUAC.......GAUG.ACGAGUCGGAACAAAGCC....G
+X.laevis.1               CUUCAGUGAUGAUUU.......GAUG.ACGAGUCUGACUUCCU......C
+X.laevis.2               CUUCUGUGAUGAUAC.......GAUG.ACGAGUCUGAGUGGGU......A
+X.laevis.3               CUUCAGUGAUGAGAC.......GAUCGACGAGUCAGAAGGACCAUCAAUG
+X.laevis.4               CUUCUGUGAUGAUAC.......GAUG.ACGAGUCUGAGUGGGU......A
+X.laevis.5               CUUCAGUGAUGAGAC.......GAUG.ACGAGUCAGAAAGGAC.......
+M.musculus.1             CUUCGAUGAAGAGGU.......GAUG.ACGAGUCUGAGUAGGAAGUG..U
+M.musculus.2             CUUCAGUGAUGACAC.......GAUG.ACGAGUCAGAAUGGCC.......
+H.sapiens.1              CUUCAGUGAUGACAC.......GAUG.ACGAGUCAGAAAGGUC.......
+H.sapiens.2              CUUCGAUGAAGAGAU.......GAUG.ACGAGUCUGACUUGGGGAUG..U
+C.elegans.1              CACCAAUGAUGCAAUGGUUAAAUCAG.ACGAGUCUAUUUUGGC.......
+O.sativa.1               UCUCCUUGAUGAACACACA...GAUG.ACGAGUCCGAUCUAAU.......
+O.sativa.2               UCUCCGUGAUGACGAACACA..GAUG.ACGAGUCCGAUCUAAU.......
+O.sativa.3               UCUCUGUGAUGACGAAAAACA.GAUG.ACGAGUCCGAUCCAAU.......
+A.thaliana.1             UCUCAGUGAUGAAUACACA...GAUG.ACGAGUCCGAUGAAAU.......
+A.thaliana.2             UCUCAGUGAUGAAGGAACAAUAGAUG.ACGAGUCCGAUGAAAU.......
+A.thaliana.3             UCUCAGUGAUGAAGAAACAAUAGAUG.ACGAGUCCGAUGAAAU.......
+#=GC SS_cons             <<<<..............................................
+
+T.rubripes.1             CCUGCUUCUGCCGGUCACUGGUUCAGGUCCACGUUCUG..UGGGUUUC..
+T.rubripes.2             UCUUGUUCUGGGGGUUCGUGGUUCAGCUCUACGUUCUG..UGGUUCUG..
+X.laevis.1               CUUUCAUGCCCCAUU.CAGCUAAAGGAGCUGCGUUCUGCAUGUUGCUUUU
+X.laevis.2               AAUCGUUUUCCAGUGGUCUCUGUCUGUAUCACGUUCUG..UGCUGUAG..
+X.laevis.3               UAGUGUGUCUCGUGA.GUGUCACGUUCUCUGCGAGCUG..UGUUUCCGGC
+X.laevis.4               AAUCCUUUUCCAGUGGUCUCUGUCUCCAUCACGUUCUG..UGCUGUAG..
+X.laevis.5               CAGCAAUGUAGUGUG.UCCUGCUCAGUGUCACGUUCUG..UGCCGCUCUG
+M.musculus.1             UGUCUUUGUCCAAGA.UGCCUCACUAUGCUGCGUUCUG..UGGCACAG..
+M.musculus.2             ACGUCUUGCUCUUGG.UCCCUGUCAGUGCCAUGUUCUG..UGGUGCUG..
+H.sapiens.1              ACGUCCUGCUCUUGG.UCCUUGUCAGUGCCAUGUUCUG..UGGUGCUGUG
+H.sapiens.2              UCUCUUUGCCCAGGUGGCCUACUCUGUGCUGCGUUCUG..UGGCACAG..
+C.elegans.1              ..............UAUCUAUUCGAGUUCUUCGAAGAA...AUUGCCG..
+O.sativa.1               ..............................CCAUUCCA..UUAAACCA..
+O.sativa.2               ..............................CCAUUCCA..UUAAACCA..
+O.sativa.3               ..............................CCAUUCCA..UUAAACCA..
+A.thaliana.1             ..............................CCAUUCAU..UAAAUCAU..
+A.thaliana.2             ..............................CCAUUCAU..UAAAUCAU..
+A.thaliana.3             ..............................CCAUUCA...UAAAAUCG..
+#=GC SS_cons             ..................................................
+
+T.rubripes.1             ..UACC..AGUUCUUCAGAGUGGGUCGUCCCUCUUCAUUUGAAGACACUG
+T.rubripes.2             ..UUCC..AGUUCCUCAG..UUCAGGGUCUU.UUUCUCUUGAAGACAUAG
+X.laevis.1               G.CUGUU.GGGUCCUCAU..AACAAAGUUGU.AU.....GAAGACUCUUG
+X.laevis.2               ....CUG.AGCCCCACUGAGUCAAGAUUGCC.CUUGGCUUGAUGUGCUUG
+X.laevis.3               ..CGCCAUGCAUCAGCUU.....UGCCCCUU.CUUACCUGAUCGAUAUGG
+X.laevis.4               ....CUG.AAGCCCACUGAGUCAAGAUUGCC.CUUGGCUUGAUGUCCUUG
+X.laevis.5               UUUGGU..UGCACUGCAU.CAGCUUUGUCCU.UCUUACUGAUUGAUAUAG
+M.musculus.1             ..CUGAA.AGCACUGUGGUCAAAAGAAACUU.CCUAA..AGAUGACCAAG
+M.musculus.2             ..UACAU.GGUUCCCUUGGCAAAAGUGUCCU.GCGCACUGAUUGAUUUAG
+H.sapiens.1              ..CACG..AGUUCCUUUGGCAGAAGUGUCCU.AUUUAUUGAUCGAUUUAG
+H.sapiens.2              ..UUUAA.AGAGCCCUGG.UUGAAGUAAUUU.CCUAA..AGAUGACUUAG
+C.elegans.1              ................................CUAAGCGGGGUGAAAUUG
+O.sativa.1               ......................................UGGGGACAAUCG
+O.sativa.2               ......................................UGGGGACAAUCG
+O.sativa.3               ......................................UGGGGACAAUCG
+A.thaliana.1             .......................................GGGGACAAACG
+A.thaliana.2             .......................................GGGGACAAACG
+A.thaliana.3             ......................................UGGGGACAAACG
+#=GC SS_cons             ..................................................
+
+T.rubripes.1             AGGCAUUUGUCUGAGA.AGG
+T.rubripes.2             AGGCAUUUGUCUGAGA.AGG
+X.laevis.1               AGGCAUUUGUCUGAGA.AGA
+X.laevis.2               AGGCAUUUGUCUGAGA.AGG
+X.laevis.3               AGGCAUUCGC.UGAGACAGG
+X.laevis.4               AGGCAUUUGUCUGAGA.AGG
+X.laevis.5               AGGCAUUUGUCUGAGA.AGG
+M.musculus.1             AGGCAUUUGUCUGAGA.AGG
+M.musculus.2             AGGCAUUUGUCUGAGA.AGG
+H.sapiens.1              AGGCAUUUGUCUGAGA.AGG
+H.sapiens.2              AGGCAUUUGUCUGAGA.AGG
+C.elegans.1              AGGCAUUUGUCUGAGG.UGA
+O.sativa.1               AGGCAUUUGUCUGAGA.GAA
+O.sativa.2               AGGCAUUUGUCUGAGA.GAA
+O.sativa.3               AGGCAUUUGUCUGAGA.GAA
+A.thaliana.1             AGGCAUUUGUCUGAGA.GGA
+A.thaliana.2             AGGCAUUUGUCUGAGA.GGA
+A.thaliana.3             AGGCAUUUGUCUGAGA.GGA
+#=GC SS_cons             ..............>>.>>.
+//

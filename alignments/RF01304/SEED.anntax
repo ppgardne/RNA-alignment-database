@@ -1,0 +1,57 @@
+# STOCKHOLM 1.0
+#=GF ID    sR5
+#=GF AC    RF01304
+#=GF DE    Small nucleolar RNA sR5
+#=GF AU    Wilkinson A
+#=GF GA    30.0
+#=GF NC    17.3
+#=GF TC    35.1
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    URL; http://lowelab.ucsc.edu/snoRNAdb/
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF WK    http://en.wikipedia.org/wiki/SnoRNA
+#=GF SQ    10
+
+#=GS S.acidocaldarius.1     AC    AF195099.1/1-54
+#=GS Sulfolobus_tokodaii_.1 AC    BA000023.2/1287754-1287805
+#=GS Sulfolobus_solfatari.1 AC    AE006641.1/820924-820975
+#=GS Sulfolobus_acidocald.1 AC    CP000077.1/1126136-1126187
+#=GS S.shibatae.1           AC    X98420.1/4581-4632
+#=GS Methanocaldococcus_j.1 AC    L77117.1/441357-441413
+#=GS P.abyssi.1             AC    AJ248288.1/160716-160768
+#=GS Pyrococcus_furiosus_.1 AC    AE009950.1/272638-272692
+#=GS Pyrococcus_horikoshi.1 AC    BA000001.2/257109-257161
+#=GS Thermococcus_kodakar.1 AC    AP006878.1/2002457-2002514
+
+S.acidocaldarius.1                 GAAAUGAUGAAUGGUCGACGGAACGGA.....CCUAUGAAGAAUUG...U
+Sulfolobus_tokodaii_.1             UGGAUGAUGA.AGCCCU.UAAAUAUGA.....UCGGUGAUAAAGGCC..C
+Sulfolobus_solfatari.1             UUGGUGAUGA.CGCCCU.UCAGUUUGA.....UUGAUGAUAAGGGCCCGU
+Sulfolobus_acidocald.1             UGGAUGAUGA.GGCCCU.UUCAAUAGA.....UUGGUGAUAAAGGCC..C
+S.shibatae.1                       UUAGUGAUGA.UGCCCU.UCAAUUUGA.....UUGAUGAUAAGGGCC..C
+Methanocaldococcus_j.1             UCGAUGAUGAGCAAUA..AAAAGCUGA.....CUUAAUAUGAUGAACCUU
+P.abyssi.1                         UAGAUGAUGAGCGCCAU.CGAUGCUGA.....GGAGUGAUGACCGGA..U
+Pyrococcus_furiosus_.1             UGAAUGAUGAGCGCCAUCCGAUACUGAG....GGCAUGAUGACCGGA..U
+Pyrococcus_horikoshi.1             GUGAUGAUGAACGCCAU.CGAUACUGA.....GAUAUGAUGACCGGA..U
+Thermococcus_kodakar.1             AAGGUGAUGAGCACUCU.CGAACCUGACGGGCAGGAUGAUGAGCGGA..U
+#=GC SS_cons                       ..................................................
+#=GC RF                            uaGAUGAUGAGcGcucU.cgAAaCUGA.....uuuAUGAUGAagGga..U
+
+S.acidocaldarius.1                 UGCC..GGACUGAC
+Sulfolobus_tokodaii_.1             GUG...UUACUGAU
+Sulfolobus_solfatari.1             G.....UUACUGAA
+Sulfolobus_acidocald.1             GUG...UUUCUGAU
+S.shibatae.1                       GUG...UUACUGAA
+Methanocaldococcus_j.1             UCGGGGUAUCUGAG
+P.abyssi.1                         UCC...UGGCUGAU
+Pyrococcus_furiosus_.1             UCC...UGGCUGAU
+Pyrococcus_horikoshi.1             UCC...UGGCUGAU
+Thermococcus_kodakar.1             UCC...UGGCUGAU
+#=GC SS_cons                       ..............
+#=GC RF                            Ucc...UgaCUGAu
+//

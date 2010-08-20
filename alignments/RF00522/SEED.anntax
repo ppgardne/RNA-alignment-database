@@ -1,0 +1,164 @@
+# STOCKHOLM 1.0
+#=GF ID    PreQ1
+#=GF AC    RF00522
+#=GF DE    PreQ1 riboswitch
+#=GF AU    Barrick JE, Breaker RR
+#=GF GA    31.0
+#=GF NC    30.8
+#=GF TC    31.3
+#=GF SE    Barrick JE
+#=GF SS    Predicted; Barrick JE
+#=GF TP    Cis-reg; riboswitch;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0000035 SO:riboswitch
+#=GF RN    [1]
+#=GF RM    14660578
+#=GF RT    Identification of four genes necessary for biosynthesis of the
+#=GF RT    modified nucleoside queuosine.
+#=GF RA    Reader JS, Metzgar D, Schimmel P, de Crecy-Lagard V;
+#=GF RL    J Biol Chem 2004;279:6280-6285.
+#=GF CC    This family is a bacterial riboswitch that binds to the
+#=GF CC    metabolite preQ1, an intermediate in the biosynthesis of the
+#=GF CC    modified nucleoside queuosine from GTP. One example of this
+#=GF CC    riboswitch is located in the leader of the Bacillus subtilis
+#=GF CC    ykvJKLM (queCDEF) operon which encodes four genes necessary for
+#=GF CC    queuosine production [1]. PreQ1 binding to the riboswitch aptamer
+#=GF CC    is thought to induce premature transcription termination within
+#=GF CC    the leader to down-regulate expression of these genes.
+#=GF WK    http://en.wikipedia.org/wiki/PreQ1_riboswitch
+#=GF SQ    42
+
+#=GS A.viscosus.1           AC    AF022216.1/477-519
+#=GS A.viscosus.2           AC    AF022216.1/537-579
+#=GS Bacillus_halodurans_.1 AC    BA000004.3/2373299-2373342
+#=GS Bacillus.1             AC    AAOX01000006.1/21305-21347
+#=GS Bacillus_clausii_KSM.1 AC    AP006627.1/2249527-2249570
+#=GS Bacillus_licheniform.1 AC    AE017333.1/1501710-1501754
+#=GS Bacillus_coagulans_3.1 AC    AAWV02000001.1/1391753-1391797
+#=GS Bacillus_subtilis_su.1 AC    AL009126.3/1439274-1439318
+#=GS Bacillus.2             AC    AAXV01000007.1/14855-14899
+#=GS Bacillus.3             AC    ABCF01000001.1/139145-139189
+#=GS Bacillus_cereus_subs.1 AC    CP000764.1/1180651-1180694
+#=GS Bacillus_thuringiens.1 AC    AE017355.1/1568663-1568707
+#=GS Bacillus_thuringiens.2 AC    AE017355.1/1321429-1321472
+#=GS Geobacillus_kaustoph.1 AC    BA000043.1/1000357-1000402
+#=GS Oceanobacillus_iheye.1 AC    BA000028.3/467632-467676
+#=GS L.innocua.1            AC    AL596166.1/191853-191900
+#=GS Listeria_monocytogen.1 AC    AARM02000383.1/1694-1741
+#=GS Paenibacillus_larvae.1 AC    AARF01000079.1/5319-5363
+#=GS S.epidermidis.1        AC    AF269583.1/2263-2307
+#=GS Staphylococcus_haemo.1 AC    AP006716.1/2221258-2221304
+#=GS Staphylococcus_epide.1 AC    CP000029.1/370878-370924
+#=GS Staphylococcus_sapro.1 AC    AP008934.1/2076124-2076170
+#=GS Staphylococcus_aureu.1 AC    BX571857.1/755252-755298
+#=GS Clostridium_perfring.1 AC    ABDX01000003.1/184506-184550
+#=GS Dorea_longicatena_DS.1 AC    AAXB02000001.1/142227-142271
+#=GS Ruminococcus_obeum_A.1 AC    AAVO02000002.1/275594-275638
+#=GS Ruminococcus_gnavus_.1 AC    AAYG02000018.1/120313-120357
+#=GS E.faecium.1            AC    AAAK03000099.1/1629-1673
+#=GS L.plantarum.1          AC    X99978.2/10136-10181
+#=GS Lactobacillus_sakei_.1 AC    CR936503.1/1597983-1598027
+#=GS Lactobacillus_saliva.1 AC    CP000233.1/1599957-1600001
+#=GS Lactobacillus_planta.1 AC    AL935260.1/111516-111560
+#=GS Leuconostoc_mesenter.1 AC    CP000414.1/1235002-1235047
+#=GS Streptococcus_agalac.1 AC    AL766846.1/39152-39196
+#=GS Neisseria_meningitid.1 AC    AE002098.2/329176-329220
+#=GS Neisseria_meningitid.2 AC    AM421808.1/1884627-1884671
+#=GS Dichelobacter_nodosu.1 AC    CP000513.1/859945-859989
+#=GS Actinobacillus_succi.1 AC    CP000746.1/2223340-2223384
+#=GS Mannheimia_succinici.1 AC    AE016827.1/1848390-1848434
+#=GS Mannheimia_haemolyti.1 AC    AASA01000045.1/1252-1296
+#=GS Pasteurella_multocid.1 AC    AE004439.1/209100-209165
+#=GS metag._sequence.1      AC    AAQK01007478.1/745-789
+
+A.viscosus.1                       GGCGAAGAGGUU.CUAG...CU..ACCCUCU...................
+A.viscosus.2                       GGGUAAGAGGUU.CUAG...CU..ACCCUCU...................
+Bacillus_halodurans_.1             GUGAGAGAGGUUCGCGA..AC...UCCCUCU...................
+Bacillus.1                         ACGGUAGAGGUUCUAG....CU..ACCCUCU...................
+Bacillus_clausii_KSM.1             AAAGAAGAGGUUCGCGA..AC...UCCCUCU...................
+Bacillus_licheniform.1             GCGGGAGAGGUUCUAGC..AAA..ACCCUCU...................
+Bacillus_coagulans_3.1             AAGCAUGAGGUUCAUAG..CAA..ACCCUCU...................
+Bacillus_subtilis_su.1             GCGGGAGAGGUUCUAGC..UAC..ACCCUCU...................
+Bacillus.2                         AGCACCGUGGUUCGUAA..CCA..UCCCACG...................
+Bacillus.3                         GCAGGAGAGGUUCUAGC..UUA..ACCCUCU...................
+Bacillus_cereus_subs.1             AUGGGAGAGGUUCGCGA..AC...UCCCUCU...................
+Bacillus_thuringiens.1             AAUAACGUGGUUCGAA...ACC.AUCCCACG...................
+Bacillus_thuringiens.2             ACGGGAGAGGUUCGCGA..AC...UCCCUCU...................
+Geobacillus_kaustoph.1             ACGGGAGAGGUUUCUAG..CAA.AACCCUCU...................
+Oceanobacillus_iheye.1             AUCACCGUGGUUCGUAA..CCA..UCCCACG...................
+L.innocua.1                        CCACACGUGGUUCAUUCAUACC.AUCCCACG...................
+Listeria_monocytogen.1             CCACACGUGGUUCAUUCAUACC.AUCCCACG...................
+Paenibacillus_larvae.1             AUGGGAGAGGUUCGAGA..UCU..UCCCUCU...................
+S.epidermidis.1                    AUUUUGGCGGUUUCUAA..AC...ACCCGCU...................
+Staphylococcus_haemo.1             UCAAAAGAGGUUCCUAG..CUGAAACCCUCU...................
+Staphylococcus_epide.1             AUAACAGAGGUUCCUAG..CCGAAACCCUCU...................
+Staphylococcus_sapro.1             UAUAAAGAGGUUCCUAG..CUGAUACCCUCU...................
+Staphylococcus_aureu.1             AUAUCAGAGGUUCCUAGCU.GA.AACCCUCU...................
+Clostridium_perfring.1             UUGGUAGAGGUUCGUAA..CCA..UCCCUCU...................
+Dorea_longicatena_DS.1             CUUGAACUGGUUCGAAA..ACC..UCCCAGU...................
+Ruminococcus_obeum_A.1             UCAUAACUGGUUCGAAA..CCC..UCCCAGU...................
+Ruminococcus_gnavus_.1             UCUGGACUGGUUCGUGA..ACU..UCCCAGU...................
+E.faecium.1                        CUUGGACUGGUUCGGAA..ACU..UCCCAGA...................
+L.plantarum.1                      CAAUACGUGGUUCGUA...ACC.AUCCCACG...................
+Lactobacillus_sakei_.1             AAAAACGUGGUUCGUAA..CCA..UCCCACG...................
+Lactobacillus_saliva.1             CUUGGACUGGUUCGUAA..ACU..UCCCAGU...................
+Lactobacillus_planta.1             GCUGGCCUGGUUCGUAA..ACU..UCCCAGG...................
+Leuconostoc_mesenter.1             AUAAUAGCGGUUCAUCA..ACC.AUCCCGCU...................
+Streptococcus_agalac.1             CUCGGACUGGUUCGAAA..ACU..UCCCAGA...................
+Neisseria_meningitid.1             CCGCCCGUGGUUCGAAA..ACC..UCCCACA...................
+Neisseria_meningitid.2             CGCCCCGUGGUUCGAAA..ACC..UCCCACA...................
+Dichelobacter_nodosu.1             CCGCUUGUGGUUCGAAA..ACU..UCCCACA...................
+Actinobacillus_succi.1             UUCAUCGUGGUUCGCAA..ACC..UCCCACG...................
+Mannheimia_succinici.1             UAAUUCGUGGUUCGAAA..ACC..UCCCACG...................
+Mannheimia_haemolyti.1             UUAUUUGUGGUUCGUAA..ACC..UCCCACA...................
+Pasteurella_multocid.1             UUCAUAGUGGUUCGUA...ACC.CUCCCACUUGAACAACCAACAAUUGUU
+metag._sequence.1                  UGCCUACUGGUUCGAAA..CCC..UCCCAGU...................
+#=GC SS_cons                       .....<<<<<................>>>>>...................
+#=GC RF                            auagaAGuGGUUCGUAA..ACc..UCCCaCU...................
+
+A.viscosus.1                       ..CAAAAAAACUAAGGAGAA
+A.viscosus.2                       ..CAAAAAAACUAAGGAGAA
+Bacillus_halodurans_.1             ..AUAAAAAACUAAGGCAAG
+Bacillus.1                         ..CAAAAAAACUAAGGAAAA
+Bacillus_clausii_KSM.1             ..AUAAAAAACUAACCAAUU
+Bacillus_licheniform.1             ..AUAAAAAACUAAGGAAAG
+Bacillus_coagulans_3.1             ..AUAAAAAACUAUGGAUAA
+Bacillus_subtilis_su.1             ..AUAAAAAACUAAGGACGA
+Bacillus.2                         ..AAAAAAAACUAAGGAGAA
+Bacillus.3                         ..AUAAAAAACUAAGGAAAC
+Bacillus_cereus_subs.1             ..AUAAAAAACUAUGAGAAC
+Bacillus_thuringiens.1             ..UAAAAAAACUAAGGAGAU
+Bacillus_thuringiens.2             ..AUAAAAAACUAUGGAAAC
+Geobacillus_kaustoph.1             ..AUAAAAAACUAGGGACGG
+Oceanobacillus_iheye.1             ..CAAAAAAACUAGGAAGGA
+L.innocua.1                        ..UAAAAAAACUAGGAGGAA
+Listeria_monocytogen.1             ..UAAAAAAACUAAGGAGGA
+Paenibacillus_larvae.1             ..AUAAAAAACUAAGGAGCU
+S.epidermidis.1                    .UUAACAAAAUUUAGGAGGA
+Staphylococcus_haemo.1             ..AUAAAAAACUAGACAAUA
+Staphylococcus_epide.1             ..AUAAAAAACUAGACAUGA
+Staphylococcus_sapro.1             ..AUAAAAAACUAGACACAU
+Staphylococcus_aureu.1             ..AUAAAAAACUAGACAUUG
+Clostridium_perfring.1             ..AUAAAAAACUAAGGGCUG
+Dorea_longicatena_DS.1             ..AUAAAAAACUAGGCAAAG
+Ruminococcus_obeum_A.1             ..AUAAAAAACUAGGUCAUG
+Ruminococcus_gnavus_.1             ..AUAAAAAACCAAGUAUCU
+E.faecium.1                        ..AUAAAAAACUAAGUAUCU
+L.plantarum.1                      .UUAAAAAAACUAGGAGGAA
+Lactobacillus_sakei_.1             ..CUAAAAAACUAGGAGGAU
+Lactobacillus_saliva.1             ..AUAAAAAACCAAGAAUCU
+Lactobacillus_planta.1             ..AUAAAAAACCAAGAACUU
+Leuconostoc_mesenter.1             ..UAAAAAAACUAGGAGAUA
+Streptococcus_agalac.1             ..AUAAAAAACUAAGUGACU
+Neisseria_meningitid.1             ..UUAAAAAACUAAGGAAAC
+Neisseria_meningitid.2             ..CUAAAAAACUAAGGAAAC
+Dichelobacter_nodosu.1             ..CUAAAAAACUAGGAAAAA
+Actinobacillus_succi.1             ..CAAAAAAACUAAGGAAAU
+Mannheimia_succinici.1             ..CAAAAAAACUAAGGAAAA
+Mannheimia_haemolyti.1             ..CAAAAAAACUAAGGACAC
+Pasteurella_multocid.1             CGAAACAAAACUAGGAAAAU
+metag._sequence.1                  ..AUAAAAAACUAGGCUGAU
+#=GC SS_cons                       ....................
+#=GC RF                            ..AUAAAAAACUAaGgAaAa
+//

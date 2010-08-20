@@ -1,0 +1,86 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-286
+#=GF AC    RF00789
+#=GF DE    microRNA mir-286
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    63.6
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000225
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    14
+
+#=GS D.virilis.1          AC    AANI01014795.1/39192-39293
+#=GS D.mojavensis.1       AC    AAPU01010225.1/183561-183664
+#=GS D.grimshawi.1        AC    AAPT01006453.1/2821-2925
+#=GS D.erecta.1           AC    AAPQ01007044.1/1205207-1205305
+#=GS D.yakuba.1           AC    AAEU02000463.1/592161-592259
+#=GS D.ananassae.1        AC    AAPP01018770.1/56774-56877
+#=GS D.willistoni.1       AC    AAQB01006291.1/71475-71587
+#=GS D.persimilis.1       AC    AAIZ01001618.1/39462-39558
+#=GS A.gambiae.1          AC    AAAB01008968.1/493523-493599
+#=GS A.gambiae.2          AC    AAAB01008980.1/6864282-6864363
+#=GS A.aegypti.1          AC    AAGE02018252.1/93413-93512
+#=GS A.aegypti.2          AC    AAGE02008291.1/17656-17755
+#=GS C.quinquefasciatus.1 AC    AAWU01011011.1/843-918
+#=GS C.quinquefasciatus.2 AC    AAWU01006018.1/308-401
+
+D.virilis.1                      UUAAAAUUAAAUGGCGAUUGUCGGUAUGGUCGCUUU....UUCA....AA
+D.mojavensis.1                   UUAAAAUUAAAUGGCGAUUGUCGGUAUGGUCUCUUU....UUCA....AC
+D.grimshawi.1                    UUAAAAUUAAAUGGCGAUUGUCGGUAUGGUCGCUUUUGAACCUA....AA
+D.erecta.1                       UUAAAAUUGAAUGGCGAAUGUCGGUAUGGUCUCUUU....UUCA....AA
+D.yakuba.1                       UUAAAAUUGAAUGGCGAAUGUCGGUAUGGUCUCUUU....UU.C....AA
+D.ananassae.1                    UUAAAAUUGAAUGGCGAUUGUCGGUAUGGUCGCUUU....UUCACAAAAA
+D.willistoni.1                   UUAAAAUUGAAUGGCGAUUGUCGGUAUAGUCUCUUUU...UCCA....AA
+D.persimilis.1                   UUAAAAUUAAAUGGCGAUUGUCGGUUUGGUCGCUUU....UU.......A
+A.gambiae.1                      UUAGG........GCGAAUGUCGGAGUAGUCGCUUG....UG........
+A.gambiae.2                      UUGGG........GCGAUUGUCGGACUAGUCGCUGU....CG........
+A.aegypti.1                      AUCGUUAUUUGGGGCGAUUGUCGGACUAGUCGCUGC....GUAC....AA
+A.aegypti.2                      AAGUCCUGGG...GCGAUUGUCGGCUUAGUCGCUGU....AUCAUUUCAA
+C.quinquefasciatus.1             UUUGGG.......GCGAUUGUCGGACUAGUCGCUUC....UU........
+C.quinquefasciatus.2             AGUCCUGGG....GCGAUUGUCGGCUUGGUCGCUGU....CUUU....AC
+#=GC SS_cons                     <<<<<<<<<....<<<<.<<<<<<<<<<<<<<<<<<..............
+#=GC RF                          uuaggauugaAuGgCGAUuGuCGGucuaGuCgCuuu....uuaA....AA
+
+D.virilis.1                      CAAUAUACCAUUAU..CUAUAU............AAAGUGACUAGACCGA
+D.mojavensis.1                   AUAUACACCAAACAUUCUAUAU............AAAGUGACUAGACCGA
+D.grimshawi.1                    CUCUAUAUACAA....UAUAUA...........UAAAGUGACUAGACCGA
+D.erecta.1                       GAA.GGUUUCGA....UCGAGC............GAAGUGACUAGACCGA
+D.yakuba.1                       AAGAGGUUUCGA....UCAAGC............GAAGUGACUAGACCGA
+D.ananassae.1                    AAUUGGUUACCA....ACAAGC............GAAGUGACUAGACCGA
+D.willistoni.1                   AAUCUUGUUUGU....UUUUGCCAAUCUAAUAAGAAAGUGACUAGACCGA
+D.persimilis.1                   CCAGGGUUCCGA....UCAAGC............GAAGUGACUAGACCGA
+A.gambiae.1                      .....AUUGAAU....UGACAA............AAAGUGACUAGACCGA
+A.gambiae.2                      CAGUCAUUCGGU....UUCACC............UUAGUGACUAGACCGA
+A.aegypti.1                      AACGGAACUAUU....UCAA..............CUAGUGACUAGACCGA
+A.aegypti.2                      CUGCUGUGCAGU....UCUUCG............CUAGUGACUAGACCGA
+C.quinquefasciatus.1             ........GAAA....UCAGCC............CAAGUGACUAGACCGA
+C.quinquefasciatus.2             CCGAGGCACAGU....UGCACU............UCAGUGACUAGACCGA
+#=GC SS_cons                     ..................................>>>>>>>>>>>>>>>.
+#=GC RF                          aaauaaauaAau....Uuaaaa............aaaGuGaCuagaCCGA
+
+D.virilis.1                      ACACUCGUG..CUAUAAUUUUAAAAU
+D.mojavensis.1                   ACACUCGUG..CUAUAAUUUUAAAAU
+D.grimshawi.1                    ACACUCGUG..CUAUAAUUUUAAAAU
+D.erecta.1                       ACACUCGUG..CUAUAAUUUUAAAAU
+D.yakuba.1                       ACACUCGUG..CUAUAAUUUUAAAAU
+D.ananassae.1                    ACACUCGUG..CUAUAAUUUUAAAAU
+D.willistoni.1                   ACACUCGUG..CUAUAAUUUUAAAAU
+D.persimilis.1                   ACACUCGUG..CUAUAAUUUUAGAAU
+A.gambiae.1                      ACACUCGUA..U......CCUAAAUC
+A.gambiae.2                      ACACUCGCG..U......CCUAAACG
+A.aegypti.1                      ACACUCGCGUCCUAAAGCACGAUCAG
+A.aegypti.2                      ACACUCGUA..UC.CCAGGCCUUUAC
+C.quinquefasciatus.1             ACACUCGCG..U.....CCUAAAACU
+C.quinquefasciatus.2             ACACUCGUA..U..CCUAGGACUUAC
+#=GC SS_cons                     >>>.>>>>......>>>>>>>>>...
+#=GC RF                          aCaCUCGcg..uuAcaauccuaaAAu
+//

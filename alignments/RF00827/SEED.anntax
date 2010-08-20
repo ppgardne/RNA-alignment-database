@@ -1,0 +1,50 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-77
+#=GF AC    RF00827
+#=GF DE    microRNA mir-77
+#=GF AU    Wilkinson A
+#=GF GA    45.0
+#=GF NC    0.0
+#=GF TC    64.2
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000272
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    5
+
+#=GS C.elegans.1  AC    Z81124.1/29149-29248
+#=GS C.briggsae.1 AC    CAAC02000490.1/201155-201259
+#=GS C.remanei.1  AC    AAGD02000430.1/4038-4126
+#=GS C.remanei.2  AC    AAGD02003971.1/5695-5795
+#=GS C.brenneri.1 AC    ABEG01008878.1/37964-38058
+
+C.elegans.1              GCAUCUGCCAAACCGCCCGUUUGGAUGGUUGUGCUCUGAGGAAAU.ACG.
+C.briggsae.1             AAUUCCAAAGAGCUGUGAAUUUGGAUAGCUGUGCUCUGAGGAAAUAACAA
+C.remanei.1              AAAUAAAAAGAGCUGUUAGUUUGGAUGGCUGUGCUCUGAGGAAAC.ACG.
+C.remanei.2              AACUGUAAAGAGCUGUUAGUUUGGAUGGCUGUGCUCUGAGGAAAU.ACG.
+C.brenneri.1             CCAAAAAUAGAGCCAAUAAUUUGGAUGGCUGUGCCUUGAAGAAAU.ACA.
+#=GC SS_cons             .........<<<<<<<<<<<<<<<<<<<<<<<<..<<<<.<<<<<.<<<.
+#=GC RF                  gcAucugccgaaCcgccaauuuGGauaGcuguGcUCuGaGGaaauAaCaA
+
+C.elegans.1              ......CACAGAAUGUCAUUUCAUCAGGCCAUAGCUGUCCAAAUUGGUAU
+C.briggsae.1             UAGUCACACCCCAUGUCAUUUCAUCAGGCCAUAGCUGUCCAAAUUUCU..
+C.remanei.1              ............GUGUCAUUUCAUCAGGCCAUAGCUGUCCAAA..ACU..
+C.remanei.2              ...GCUCAUAAAAUGUCAUUUCAUCAGGCCAUAGCUGUCCAAAUUAUCA.
+C.brenneri.1             ........GUUAGUGUCAUUUCAUCAGGCCAUAGCUGUCCAAAUUGUU..
+#=GC SS_cons             .............>>>.>>>>>.>>>>..>>>>>>>>>>>>>>>>>>>..
+#=GC RF                  uAgucAcAcagaAuGucauuuCAuCaGGcCauagCuguCCaaauugguAu
+
+C.elegans.1              AGAGUUUG
+C.briggsae.1             .CGGUUCG
+C.remanei.1              .CGUUUCC
+C.remanei.2              .AUGUUCG
+C.brenneri.1             .AGGUUCG
+#=GC SS_cons             ..>>>>>.
+#=GC RF                  AggGuucG
+//

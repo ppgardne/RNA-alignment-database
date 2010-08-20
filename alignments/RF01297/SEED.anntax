@@ -1,0 +1,33 @@
+# STOCKHOLM 1.0
+#=GF ID    sR40
+#=GF AC    RF01297
+#=GF DE    Small nucleolar RNA sR40
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    34.5
+#=GF SE    Predicted; Wilkinson A
+#=GF SS    Predicted; Wilkinson A
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    URL; http://lowelab.ucsc.edu/snoRNAdb/
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF WK    http://en.wikipedia.org/wiki/SnoRNA
+#=GF SQ    2
+
+#=GS P.abyssi.1             AC    AJ248287.2/136073-136133
+#=GS Pyrococcus_horikoshi.1 AC    BA000001.2/597272-597332
+
+P.abyssi.1                         GGCCAUGAGGACAGGCGGGUUUGCUGACCUCGGGGCGUGAUGAACCUUUG
+Pyrococcus_horikoshi.1             GGCCAUGAGGAUAGGCGGGUUUGCUGACCUCGGGGCGUGAUGAACCUUUG
+#=GC SS_cons                       ..<<..............................................
+#=GC RF                            GGCCAUGAGGAYAGGCGGGUUUGCUUUCCUCGGGGCGUGAUGAACCUUUG
+
+P.abyssi.1                         GAGCCCCGAGG
+Pyrococcus_horikoshi.1             GAGCCCCGAGG
+#=GC SS_cons                       .........>>
+#=GC RF                            GAGCCCCGAGG
+//

@@ -1,0 +1,45 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-432
+#=GF AC    RF00775
+#=GF DE    microRNA mir-432
+#=GF AU    Wilkinson A
+#=GF GA    21.0
+#=GF NC    0.0
+#=GF TC    24.7
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000211
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    6
+
+#=GS E.telfairi.1  AC    AAIY01403620.1/1283-1377
+#=GS M.musculus.1  AC    CAAA01088145.1/20680-20764
+#=GS M.musculus.2  AC    CAAA01088145.1/20284-20377
+#=GS G.gorilla.1   AC    AY865932.1/8-101
+#=GS B.taurus.1    AC    AAFC03050876.1/56533-56626
+#=GS E.europaeus.1 AC    AANN01125399.1/1129-1222
+
+E.telfairi.1              CAGCUCUUCCAUUUCCUGGAGUGAGCCACUGGGUGGCUCCCUACUUUGCU
+M.musculus.1              UGAUUCCUCCAUGUCUUGGGGUAGAUCGUUAGAUGAUGCCUC........
+M.musculus.2              UGGCUCCUCCACUUCUUGGAGUAGAUCAGUGGGCAGCUCUUGCAUUUCCU
+G.gorilla.1               UGACUCCUCCAGGUCUUGGAGUAGGUCAUUGGGUGGAUCCUCUAUUUCCU
+B.taurus.1                UGACUCCUCCAAGUCUUGGAGUAGGUCAUUGGGUGGAUCCUUUAUUUCCC
+E.europaeus.1             GGACCCCUCCACGUCUUGGAGUAGGUCAUUGGGUGGAUCCGUGUUUUCGC
+#=GC SS_cons              ......<<<<<<<.<.<<<<<..<<<<<<<.<<<<<.<<<..........
+#=GC RF                   uGAcuCCuCCaaGUcUuGGaGUAgguCauuggGuGgacCCuuuAUUUccu
+
+E.telfairi.1              GGGCUGGGCCACCGGCCGGCUGCAUCACUUCCUGCGCGUGGCUGC
+M.musculus.1              .ACAGGGGUCGCUGGAUGGCUCCUCCACUUCCCG.GAGUAGAUCA
+M.musculus.2              GGUGGGGGCCACUGGAUGGCUCCUCCACUUCUUG.GAGUAGAUUA
+G.gorilla.1               UACGUGGGCCACUGGAUGGCUCCUCCAUGUCUUG.GAGUAGAUCA
+B.taurus.1                UAUGUGGGCCACUGGAUGGCUCCUCCAUGUCUUG.GCGGAGGUCA
+E.europaeus.1             UACGUGGGCCACUGGAUGGCUCCUCCAUGUCUUG.GCGGAGGUCA
+#=GC SS_cons              .....>>>>>>>>.>>>>>>>.>>>>>.>.>>>>.>>>.......
+#=GC RF                   uAuggGGgcCaCuGgauGgcuCCuCCaugUCuuG.GaGuAGAUcA
+//

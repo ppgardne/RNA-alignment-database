@@ -1,0 +1,58 @@
+# STOCKHOLM 1.0
+#=GF ID    BaMV_CRE
+#=GF AC    RF00290
+#=GF DE    Bamboo mosaic potexvirus (BaMV) cis-regulatory element
+#=GF AU    Moxon SJ
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    179.5
+#=GF SE    PMID:14585345
+#=GF SS    Published; PMID:14585345
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    14585345
+#=GF RT    Functional analysis of the cloverleaf-like structure in the 3'
+#=GF RT    untranslated region of bamboo mosaic potexvirus RNA revealed dual
+#=GF RT    roles in viral RNA replication and long distance movement.
+#=GF RA    Chen IH, Meng M, Hsu YH, Tsai CH;
+#=GF RL    Virology 2003;315:415-424.
+#=GF CC    This family represents a cloverleaf-like cis-regulatory element found in
+#=GF CC    the 3' UTR of the bamboo mosaic potexvirus. This family is thought to play
+#=GF CC    an important role in the initiation of minus-strand RNA synthesis and may
+#=GF CC    also be involved in the regulation of viral replication [1].
+#=GF WK    http://en.wikipedia.org/wiki/Bamboo_mosaic_potexvirus_(BaMV)_cis-regulatory_element
+#=GF SQ    5
+
+#=GS Bamboo_mosaic_virus.1 AC    AF077359.1/1060-1199
+#=GS Bamboo_mosaic_virus.2 AC    AF047977.1/876-1015
+#=GS Bamboo_mosaic_virus.3 AC    L77962.1/6225-6364
+#=GS Bamboo_mosaic_virus.4 AC    D26017.1/6226-6365
+#=GS Bamboo_mosaic_virus.5 AC    AF077362.1/600-739
+
+Bamboo_mosaic_virus.1             AACGUUGCAUGAUCGUAAAACAUGCCCGGCUUACCGUGAGCCGCCUUUGA
+Bamboo_mosaic_virus.2             AACGUUGCAUGAUCGUAAAACAUGCCCGGCUUACCGUGAGCCGCCUUUGA
+Bamboo_mosaic_virus.3             AACGUUGCAUGAUCGUAAAACAUGCCCGGCUUACCGUGAGCCGCCUUUGA
+Bamboo_mosaic_virus.4             AACGUUGCAUGAUCGUAAAACAUGCCCGGCUUACCGUGAGCCGCCUUUGA
+Bamboo_mosaic_virus.5             AACGUUGCAUGAUCGUAAAACAUGCCCGGCUUACCGUGAGCCGCCUUUGA
+#=GC SS_cons                      ......<<<<<.........>>>>>.<<<<<<.....>>>>>><<<<<..
+#=GC RF                           AAcGUUGCauGAUcGUAAAACauGCcCGGCuuAccGUgaGCCGCCuuuGA
+
+Bamboo_mosaic_virus.1             AAGAAAGGUUUACACGGACUCUGUUGCGUUACGCACGUACCUAACCCGUG
+Bamboo_mosaic_virus.2             AAGAAAGGUUUACACGGACUCUGUUGCGUUACGCACGUACCUAACCCGUG
+Bamboo_mosaic_virus.3             AAGAAAGGUUUACACGGACUCUGUUGCGUUACGCACGUACCUAACUUGUG
+Bamboo_mosaic_virus.4             AAGAAAGGUUUACACGGACUCUGUUGCGUUACGCACGUACCUAACCCGUG
+Bamboo_mosaic_virus.5             AAGAAAGGUUUACACGGACUCUGUUGCGUUACGCACGUACCUAACCCGUG
+#=GC SS_cons                      ...>>>>>.......<<..<<<<<<<......<<<<<.........>>>>
+#=GC RF                           AAGaaaGGUUUAcAcGGAcuCuGucGcGUUAcGCaCgUAccUAAcucGuG
+
+Bamboo_mosaic_virus.1             CCAGCAGAAUAAAGACCUUUUGGUUUCUACAGUUUUUUCC
+Bamboo_mosaic_virus.2             CCAGCAGAAUAAAGACCUUUUGGUUUCUACAGUUUUUUCC
+Bamboo_mosaic_virus.3             CCGGCAGAAUAAAGACCUUUUGGUUUCUACAGUUUUUUCC
+Bamboo_mosaic_virus.4             CCAGCAGAAUAAAGACCUUUUGGUUUCUACAGUUUUUUCC
+Bamboo_mosaic_virus.5             CCAGCAGAAUAAAGACCUUUUGGUUUCUACAGUUUUUUCC
+#=GC SS_cons                      >>>>>>>>.......>>.......................
+#=GC RF                           CCggCaGaAUAAAGACCUUUUGGUUUcUAcAGUUUUUUcc
+//

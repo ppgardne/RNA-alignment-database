@@ -1,0 +1,36 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-198
+#=GF AC    RF00681
+#=GF DE    microRNA mir-198
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    36.0
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000090
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    3
+
+#=GS H.sapiens.1            AC    AB119283.1/66690-66751
+#=GS L.lagotricha.1         AC    AY866280.1/427-488
+#=GS Saguinus_labiatus_re.1 AC    AY866279.1/540-601
+
+H.sapiens.1                        UCAUUGGUCCAGAGGGGAGAUAGGUUCCUGUGAUUUUUCCUUCUUCUCUA
+L.lagotricha.1                     UCACUGGUCCAGAAGGGAGCUAGGUACUUGUGAUUUUUCCUUCUUUUCUG
+Saguinus_labiatus_re.1             UCAUUGGUCCAGAGGGGAGCUCGAUACCUGUGAUUUUUCCUUCUUUUCUG
+#=GC SS_cons                       <<<<<..<<<<<<<<<<<<.<<<....>>>.<<....>>.>>>>>>>>>>
+#=GC RF                            ucacugguccaGagggGagacagguaccuguGauuuuuCccuCcccuCug
+
+H.sapiens.1                        UAGAAUAAAUGA
+L.lagotricha.1                     UAGAAUAAAUGA
+Saguinus_labiatus_re.1             UAGAAUAAAUGA
+#=GC SS_cons                       ..>>...>>>>>
+#=GC RF                            uAgaAuAaguga
+//

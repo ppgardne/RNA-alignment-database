@@ -1,0 +1,189 @@
+# STOCKHOLM 1.0
+#=GF ID    Telomerase-cil
+#=GF AC    RF00025
+#=GF DE    Ciliate telomerase RNA
+#=GF AU    Griffiths-Jones SR, Moxon SJ
+#=GF GA    17.0
+#=GF NC    12.8
+#=GF TC    17.5
+#=GF SE    McCormick-Graham and Romero, PMID:7739888; Griffiths-Jones SR, Moxon SJ
+#=GF SS    Published; PMID:7958872; PMID:7739888, Moxon SJ
+#=GF TP    Gene;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0000390 SO:telomerase_RNA
+#=GF DR    GO:0007004 GO:telomere maintenance via telomerase
+#=GF DR    GO:0003720 GO:telomerase activity
+#=GF DR    GO:0000333 GO:telomerase catalytic core complex
+#=GF RN    [1]
+#=GF RM    7739888
+#=GF RT    Ciliate telomerase RNA structural features.
+#=GF RA    McCormick-Graham M, Romero DP;
+#=GF RL    Nucleic Acids Res 1995;23:1091-1097.
+#=GF RN    [2]
+#=GF RM    7958872
+#=GF RT    Telomerase RNAs of different ciliates have a common secondary
+#=GF RT    structure and a permuted template.
+#=GF RA    Lingner J, Hendrick LL, Cech TR;
+#=GF RL    Genes Dev 1994;8:1984-1998.
+#=GF CC    Telomerase is a ribonucleoprotein reverse transcriptase that 
+#=GF CC    synthesises telomeric DNA.
+#=GF CC    Telomerase RNAs differ greatly in sequence and structure between
+#=GF CC    vertebrates, ciliates and yeasts, but they share a 5' pseudoknot
+#=GF CC    structure close to the template sequence.
+#=GF WK    http://en.wikipedia.org/wiki/Ciliate_telomerase_RNA
+#=GF SQ    20
+
+#=GS Glaucoma.1          AC    AF417612.1/228-392
+#=GS T.silvana.1         AC    U22353.1/53-206
+#=GS T.thermophila.1     AC    AF399707.1/2181-2345
+#=GS T.vorax.1           AC    U22354.1/216-379
+#=GS T.capricornis.1     AC    U22351.1/80-240
+#=GS T.paravorax.1       AC    U22352.1/508-657
+#=GS T.borealis.1        AC    U22350.1/52-211
+#=GS T.australis.1       AC    U22349.1/199-360
+#=GS C.colpoda.1         AC    AF417610.1/218-380
+#=GS C.striatum.1        AC    AF417611.1/281-444
+#=GS C.campylum.1        AC    AF417609.1/192-355
+#=GS P.caudatum.1        AC    U45437.1/191-400
+#=GS P.caudatum.2        AC    AJ132318.1/1-175
+#=GS E.aediculatus.1     AC    U10565.1/50-238
+#=GS E.eurystomus.1      AC    U10566.1/72-260
+#=GS M.crassus.1         AC    M33461.1/140-346
+#=GS S.nova.1            AC    U10567.1/1-190
+#=GS S.histriomuscorum.1 AC    U10568.1/27-212
+#=GS S.mytilis.1         AC    U10570.1/72-259
+#=GS S.lemnae.1          AC    U10569.1/29-216
+
+Glaucoma.1                      AGAUACCUCCUGUGGA.UCCAUUCAG..GAUU.AAUGA...AAUC...CU
+T.silvana.1                     UUAUACCCGC...AAA.UUCACUCAA..AUCU.GUAAU...AGGU...UU
+T.thermophila.1                 UUAUACCCGC...UUAAUUCAUUCAG..AUCU.GUAAU...AGAA...CU
+T.vorax.1                       UUAUACCCGC...ACA.UUCACUCAA..AUCU.GUAAU...AGAC...UU
+T.capricornis.1                 UUAUACCCGC...AUU.UUCAUUCAG..AUCU.UUAAU...GGAG...CU
+T.paravorax.1                   UUAAUCCCGC...UAU.UGCAUUCCA.......UUUCG..A.........
+T.borealis.1                    UUAUACCCGC...AAA.UUCAUUCAG..GUCU.GUAAU...AGAU...CU
+T.australis.1                   UUAUACCCGC....AU.AUCAUUCAG..ACCC.UUUAU...GGAA...CU
+C.colpoda.1                     GUAUCCCCGC...AAC.UCCAUUCAG..UUC..GAAAU...UGAA...CU
+C.striatum.1                    AUAUCCCCGC...AAA.UUCAUUCUG..UUU..GCAUU...CAAA...CA
+C.campylum.1                    AUAUCCCCGC...AAA.UUCAUUCUG..UUU..GCAUU...CAAA...CA
+P.caudatum.1                    UGACAAUUGCU..GUA.UUCAUUCUCCUUUCU.CGAUA...GGAAUUGGA
+P.caudatum.2                    .GACAAUUGCU..GUA.UUCAUUCUCCUUUCUCGAUAG...AGAU.UGGA
+E.aediculatus.1                 AGUUUCUCGA...UAA.UUGA.UCUG..U....AGAAU..........CU
+E.eurystomus.1                  AGUUUCUCGA...UAA.UUGA.UCUG..U....AGAAU..........CU
+M.crassus.1                     GGAUAUAGGG...UAG.UUC.UCCAU...UGA.CUAAUCCGUCAA.AUCU
+S.nova.1                        AGCUGGUGGA....AG.UGCG.UCAG.....U.CAUAG..CA......CU
+S.histriomuscorum.1             AGUCGGCGGA....AA.UCAG.UCAG.....U.CAUAG..CG......CU
+S.mytilis.1                     GUUCGGCGGA....AA.UCCG.UCAG....C..UAUAA...CG.....CU
+S.lemnae.1                      GUUCGGCGGA....AA.UCCG.UCAG....C..UAUAA...CG.....CU
+#=GC SS_cons                    .....<<<<<.............<<<...<<<.........>>>....>>
+
+Glaucoma.1                      GUC.AUUC..AACCCCAAAAAUCUUGUCAA.AUUAUUGCC.U...CGUCU
+T.silvana.1                     GUC.AUUC..AACCCCAAAAAUCUAGUGCA.AAUAUUACUUU...CGCCA
+T.thermophila.1                 GUC.AUUC..AACCCCAAAAAUCUAGUGCU.GAUAUAACCUU...CACCA
+T.vorax.1                       GUC.AUUC..AACCCCAAAAAUCUAGUGCA.AAUAUUACCUU...CGCCA
+T.capricornis.1                 GUC.AUUC..AACCCCAAAAAUCUAGUGCA.ACUACUGCCUU...AACUA
+T.paravorax.1                   GUC.AUUC..AACCCCAAAAUUCUAGUACACACUAAAGCU......UGCC
+T.borealis.1                    GUC.AUUC..AACCCCAAAAAUCUAGUGCA.AAUAUUACCUU...CACCA
+T.australis.1                   GUC.AUUC..AACCCCAAAAAUCUAGUGCA.AAUAUUGUCUU...AAUUA
+C.colpoda.1                     GUC.AUUC..AACCCCAAAAAUCUAGUAAAAAAUAUUGCC.G...AAACU
+C.striatum.1                    GUC.AUUC..AACCCCAAAAAUCUAGACCA.AAUAUUGUCUU...CCCUU
+C.campylum.1                    GUC.AUUC..AACCCCAAAAAUCUAGACCA.AAUAUUGUCUU...CCCUU
+P.caudatum.1                    GUC.AUAC..AACCCCAGAAACC.A.UCCU.UAUA.C.CUUGA..GUAUG
+P.caudatum.2                    GUC.AUAC..AACCCCAGAAACC.AUUCCU.UAUA.C.CUUGAG.UAUUG
+E.aediculatus.1                 GUC.AAGCAAAACCCCAAAACCUUA.CACU.GAGAGC.AUUU...AGCCU
+E.eurystomus.1                  GUC.AAGCAAAACCCCAAAACCUUA.CACU.GAGAGC.AUUU...AGCUU
+M.crassus.1                     GUC.AAACAAAACCCCAAAACCG.AUCAAU.AGGUGC.GUUUAGCUUGAU
+S.nova.1                        GUCAACAA..AACCCCAAAACCGUA.AACU.CAGAGC.AAUU...CGCCU
+S.histriomuscorum.1             GUCAACAA..AACCCCAAAACCGUA.AAAU.UAGAGC.AAUU...CGCCU
+S.mytilis.1                     GUCAAGAA..AACCCCAAAACCGUA.AAUU.GAGAGC.AAUU...CGCCU
+S.lemnae.1                      GUCAAGAA..AACCCCAAAACCGUA.AAAU.GAGAGC.AAUU...CGCCU
+#=GC SS_cons                    >.............................................<<<<
+
+Glaucoma.1                      UUUGGGCAC......AAACAAAAGUCACG.....CAGGAGG.....UU..
+T.silvana.1                     AUUAGGUA.......UAAUAA.UGGUAA........GCGGG.....AC..
+T.thermophila.1                 AUUAGGUUC......AAAUAAGUGGUAAU.......GCGGG.....ACAA
+T.vorax.1                       AUUAGGUA.......CAAUUAAUGGUUCU......CGCGGG.....ACAA
+T.capricornis.1                 CUUAGGCA.......AAAUAAGUCGUAAA.......GCGGG.....AC..
+T.paravorax.1                   UUUGGGCA.......UAUCAGGGGCA..........GCGGGAGA..AUU.
+T.borealis.1                    AUUAGGUA.......UAAUCAAUGGUAUC.......GCGGG.....ACAA
+T.australis.1                   CUUAGGCUAAAAG..AAAUAAGUAUUAAA.......GCGGG.....AC..
+C.colpoda.1                     UUCAGGCAU......UAAGGAAAGUAAA........GCGGG.....AU..
+C.striatum.1                    CUUGGCACA......AACAAAGAAGAGAC.......GCGGG.....AUA.
+C.campylum.1                    CUUGGCACA......AACAAAGAAGAGAC.......GCGGG.....AUA.
+P.caudatum.1                    CUGAAUUCC........GUUAGCGUAGCU...CUUGGCUAU.....UCUC
+P.caudatum.2                    CUGAAUUC.......AGUUUAGCGUGCAUGCUCUUGGCUAU.....UCUC
+E.aediculatus.1                 GAUUACUCUUUAAA.UCAAAUCAGGCAAU......AGAGAGAA...ACUC
+E.eurystomus.1                  GAUUACUCUUUAAA.UUAAAUCAGGCAAU......AGAGAGAA...ACUC
+M.crassus.1                     UACACCUCUU.....AAAUGAAAUCUUGC.....AAUUCUG...GAGAGC
+S.nova.1                        GGUUCCUCUUUAAAGCAAAACCAGGAGGU.......UCCGCCAGCUACC.
+S.histriomuscorum.1             GGUUCCUCUUUAAAGCAAAACCAGGAGGC.......UCCGCCG...ACUC
+S.mytilis.1                     GGUUCCUCUUUAAAGUUAAACCAGGAAGC.......UCCGCCGA..ACU.
+S.lemnae.1                      GGUUCCUCUUUAAAGUCAAACCAGGAGGC.......UCCGCCGG..ACU.
+#=GC SS_cons                    <<<<..............>>>>>>>>..........>>>>>.........
+
+Glaucoma.1                      ...CAGACA.........UUCGA..CAUAAGAUA.C.ACU..AUU.....
+T.silvana.1                     ...AAGAC...........UCGA..CAUUUGAUA.C.ACU..AUU.....
+T.thermophila.1                 ...AAGACU.........AUCGA..CAUUUGAUA.C.ACU..AUU.....
+T.vorax.1                       ...AAGACU.........AUCGA..CAUUUGAUA.C.AUU..AUU.....
+T.capricornis.1                 ...AAGGC..........AUCGA..CAUUUGAUACA.AAU..AUU.....
+T.paravorax.1                   ...UAGAAU.........UUCGA..CAUGUGGUA.C.ACU..AUU.....
+T.borealis.1                    ...AAGACU.........AUCGA..CAUUUGGUA.C.ACU..AUU.....
+T.australis.1                   ...AAGGC..........AUCGA..CAUUUGAUACA.AAU..AUU.....
+C.colpoda.1                     ...CAGAUA.........CUCCGA.CUUGUGAUA.C.ACU..AUU.....
+C.striatum.1                    ...AAGAUA.........CUCCGA.CGAUUGAUA.C.AAU..AUU.....
+C.campylum.1                    ...AAGAUA.........CUCCGA.CGAUUGAUA.C.AAU..AUU.....
+P.caudatum.1                    A..UAGUG..........AUUGCAUAUUUGGAGU.U.ACUU.AUUCGUCA
+P.caudatum.2                    A..UAGUGA.........UUGUCA.AAUUUGGAGUU.ACUU.AUU.....
+E.aediculatus.1                 G..AGAGGUGAAAACCCCACA....GCAUUCUGAAA.UGU..AUUUGGGA
+E.eurystomus.1                  G..AGAGGUGAAAACCCCACA....GCAUUCUGAAA.UGU..AUUUGGGA
+M.crassus.1                     UUGAGAGGUGAAACCCCCACA....GUUAGGUCA.AACAUA.GUUUGAGA
+S.nova.1                        ...AGAGGACGAAG....UGG....GCUAAGUGAAA.UGAAAAUUUGAGA
+S.histriomuscorum.1             A..GAGGGC.........ACUGUGGGCUGAGCAAAA.UGAAAAUUUGAGA
+S.mytilis.1                     ...AGAGGUCGAUA....AGG....GCUGAGUAAAAUACUGCAUUUGAGA
+S.lemnae.1                      ...AGAGGUCGAAA....AGG....ACUGAGUAAAAUACUGCAUUUGAGA
+#=GC SS_cons                    ...<<<<<..........<<<....<<<.<<<<<............<<<<
+
+Glaucoma.1                      ....................................UAUCUUAUG.GAAG
+T.silvana.1                     ....................................UAUCA.AUG.GAU.
+T.thermophila.1                 ....................................UAUCA.AUG.GAU.
+T.vorax.1                       ....................................UAUCA.AUG.GAU.
+T.capricornis.1                 ....................................GAUCA.AUG.GAU.
+T.paravorax.1                   ....................................UAUCUCAUG.GAGA
+T.borealis.1                    ....................................UAUCA.AUG.GAU.
+T.australis.1                   ....................................GAUCA.AUG.GAU.
+C.colpoda.1                     ....................................UAUCACAUGGGAG.
+C.striatum.1                    ....................................UAUCA.ACGGGAG.
+C.campylum.1                    ....................................UAUCA.ACGGGAG.
+P.caudatum.1                    AUUCAAUUAAAAUUCA....UGACGAACCUAAAAGUACUCUGAAU.GGU.
+P.caudatum.2                    ....................................CGUCA.AUU.CAA.
+E.aediculatus.1                 GU................AAUCUCAUA.........UUAGUUUGC.UGU.
+E.eurystomus.1                  GU................AAUCUCAUA.........UUGGUUUGC.UGU.
+M.crassus.1                     UU..............UGUAUCUCAUA.........UGCUCUAGC.UGU.
+S.nova.1                        GU...............UUCUCUCCA..........UCACUUAGCCCCG.
+S.histriomuscorum.1             GU...............UUCUCUCCA..........UUGCUUAGC.CCU.
+S.mytilis.1                     GC...............UUCUCUCCA..........UUGCAAAGU.CCUC
+S.lemnae.1                      GU...............UUCUCUCCA..........UUGCAAAGU.CCUC
+#=GC SS_cons                    ....................>>>>............>>>>>.>>>.>>>.
+
+Glaucoma.1                      GUCUA....GUU.UUU
+T.silvana.1                     GUCUU....UUU.UCU
+T.thermophila.1                 GUCUU.AUUUUU.UUU
+T.vorax.1                       GUCUU.AUUUUU.CUU
+T.capricornis.1                 AUCUU.AUUUUU.UAU
+T.paravorax.1                   UUCUA....AUU.UUU
+T.borealis.1                    GUCUU....AUU.UUU
+T.australis.1                   GUCUU....AUU.UUU
+C.colpoda.1                     AUCUA..UUUUUAUUU
+C.striatum.1                    GUCUU.ACUUUU.UUU
+C.campylum.1                    GUCUU.ACUUUU.UUG
+P.caudatum.1                    UAUUU.UUUAUA.AUU
+P.caudatum.2                    UAUUU....AUG.ACG
+E.aediculatus.1                 CCUCU..CAUCU.UUU
+E.eurystomus.1                  CCUCU..CAUCU.UUU
+M.crassus.1                     CCUCUCAUCUUU.UUG
+S.nova.1                        CCUCU.CAUUCU.UUU
+S.histriomuscorum.1             ACCUC..UAUCU.UUU
+S.mytilis.1                     CCUCU..CUUCU.UUU
+S.lemnae.1                      CCUCU..CUUCU.UUU
+#=GC SS_cons                    >>>>>...........
+//

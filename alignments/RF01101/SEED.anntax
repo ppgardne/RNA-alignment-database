@@ -1,0 +1,39 @@
+# STOCKHOLM 1.0
+#=GF ID    TLS-PK6
+#=GF AC    RF01101
+#=GF DE    Pseudoknot of tRNA-like structure
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    49.6
+#=GF SE    Pseudobase
+#=GF SS    Pseudobase
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    PKBASE; PKB00130
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    3645545
+#=GF RT    tRNA-like properties of tobacco rattle virus RNA.
+#=GF RA    van Belkum A, Cornelissen B, Linthorst H, Bol J, Pley C, Bosch L;
+#=GF RL    Nucleic Acids Res. 1987;15:2837-2850.
+#=GF RN    [2]
+#=GF RM    1935928
+#=GF RT    tRNA-like structures. Structure, function and evolutionary
+#=GF RT    significance.
+#=GF RA    Mans RM, Pleij CW, Bosch L;
+#=GF RL    Eur J Biochem. 1991;201:303-324.
+#=GF WK    http://en.wikipedia.org/wiki/Transfer_RNA-like_structures
+#=GF SQ    3
+
+#=GS Tobacco_rattle_virus.1 AC    S82444.1/61-100
+#=GS Pea_early-browning_v.1 AC    X51828.1/3335-3374
+#=GS Pepper_ringspot_viru.1 AC    X03686.1/1866-1905
+
+Tobacco_rattle_virus.1             AAAGGUAAAACCCCUCGCCUACGUAAGCGUUAUUACGCCC
+Pea_early-browning_v.1             AGGGUUAAACCCUUCCGCCUACGUAAGCGUUAUUACGCCC
+Pepper_ringspot_viru.1             AGGGGUAAAACCCCUCGCCUACGUAAGCGUUAUUACGCCC
+#=GC SS_cons                       ...............<<<...AAAAA>>>...aaaaa...
+#=GC RF                            AGGGGUAAAACCCCUCGCCUACGUAAGCGUUAUUACGCCC
+//

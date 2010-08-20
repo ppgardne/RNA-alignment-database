@@ -1,0 +1,120 @@
+# STOCKHOLM 1.0
+#=GF ID    P26
+#=GF AC    RF00630
+#=GF DE    Pseudomonas sRNA P26
+#=GF AU    Daub J
+#=GF GA    36.0
+#=GF NC    33.8
+#=GF TC    38.8
+#=GF SE    INFERNAL
+#=GF SS    Predicted; RNAalifold
+#=GF TP    Gene;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0000655 SO:ncRNA
+#=GF RN    [1]
+#=GF RM    16870723
+#=GF RT    Identification of 17 Pseudomonas aeruginosa sRNAs and prediction of
+#=GF RT    sRNA-encoding genes in 10 diverse pathogens using the bioinformatic
+#=GF RT    tool sRNAPredict2.
+#=GF RA    Livny J, Brencic A, Lory S, Waldor MK;
+#=GF RL    Nucleic Acids Res. 2006;34:3484-3493.
+#=GF CC    This small RNA (sRNA) was computationally identified in the
+#=GF CC    genome of the opportunistic pathogen Pseudomonas aeruginosa and
+#=GF CC    its expression verified by northern blot analysis [1]. P26 is
+#=GF CC    conserved across many Gammaproteobacteria species and appears to
+#=GF CC    be consistently located between the DNA directed RNA polymerase
+#=GF CC    (beta subunit) and 50S ribosomal protein L7/L12 genes. There are
+#=GF CC    two eukaryotic sequences (AAGJ02000785.1 and AAAB01036679.1)
+#=GF CC    included in this alignment which appear to be contamination.
+#=GF WK    http://en.wikipedia.org/wiki/Pseudomonas_sRNA_P26
+#=GF SQ    27
+
+#=GS Alteromonadales_bact.1 AC    AAVS01000001.1/114178-114238
+#=GS Enterobacter.1         AC    CP000653.1/225700-225761
+#=GS E.coli.1               AC    M38332.1/21-80
+#=GS E.coli.2               AC    U00006.1/46171-46232
+#=GS Pectobacterium_atros.1 AC    BX950851.1/255260-255321
+#=GS Photorhabdus_lumines.1 AC    BX571860.1/114672-114733
+#=GS Serratia_proteamacul.1 AC    CP000826.1/313159-313224
+#=GS S.glossinidius.1       AC    AP008232.1/217262-217320
+#=GS Yersinia_bercovieri_.1 AC    AALC01000053.1/23122-23182
+#=GS Yersinia_pestis_Nepa.1 AC    CP000305.1/267720-267781
+#=GS A.vinelandii.1         AC    CP001157.1/593671-593737
+#=GS Pseudomonas_aerugino.1 AC    CP000744.1/819985-820050
+#=GS Pseudomonas_putida_W.1 AC    CP000949.1/5243578-5243642
+#=GS Pseudomonas_entomoph.1 AC    CT573326.1/502760-502825
+#=GS Pseudomonas_syringae.1 AC    CP000075.1/5416653-5416718
+#=GS Pseudomonas_putida_G.1 AC    CP000926.1/555129-555193
+#=GS P.mendocina.1          AC    CP000680.1/4300099-4300164
+#=GS Pseudomonas_stutzeri.1 AC    CP000304.1/879576-879641
+#=GS Pseudomonas_syringae.2 AC    AE016853.1/678273-678338
+#=GS Pseudomonas_fluoresc.1 AC    CP000076.1/6375756-6375821
+#=GS Pseudomonas_syringae.3 AC    CP000058.1/5240614-5240679
+#=GS Pseudomonas_fluoresc.2 AC    CP000094.1/5718817-5718882
+#=GS Vibrio_fischeri_ES11.1 AC    CP000020.2/2704243-2704298
+#=GS Vibrio_parahaemolyti.1 AC    AAWQ01000063.1/22899-22955
+#=GS Vibrio_vulnificus_YJ.1 AC    BA000037.2/3246162-3246217
+#=GS marine_metag.1         AC    AACY022708568.1/116-175
+#=GS marine_metag.2         AC    ABEF01047555.1/1005-1070
+
+Alteromonadales_bact.1             UACGCUAAGUUCGCUGCCUGAGA...AA.UC...AGGCA.AG.GGCUGGU
+Enterobacter.1                     ACCCUUCCGGUUGCAGCCUGA...GAAA....UUAGGCUGAU.GGCUGGU
+E.coli.1                           AUAACGCCGGUUGCAGCCCGAGA...AA.UC...AGGC..GU.GGCUGGU
+E.coli.2                           ACCCUUCCGGUUGCAGCCUGAGA...AA.UC...AGGCUGAU.GGCUGGU
+Pectobacterium_atros.1             ACCUUUCAGGUUGCAGCCUGA...UUUA....UUAGGCUGAU.GGCUGGU
+Photorhabdus_lumines.1             AGCUUUAAGUUAGCAGCCUGA...CUUG....AAAGGCUGAC.GGCUGGU
+Serratia_proteamacul.1             UGCUUUCUGAGUGCAGUCUGUUUUAACU.AAC..AGACUGAU.GGCUGGU
+S.glossinidius.1                   ACCUUCCAGGUUGCAGCCUGA......A....UUAGGCUGAU.GGCUGGU
+Yersinia_bercovieri_.1             AGCUUUGAGUUCGCAGCCUAA..CUUAU......AGGCUGAU.GGCUGGU
+Yersinia_pestis_Nepa.1             AGCUUUGAGUUCGCAGCCUAA...CUUU....AUAGGCUGAU.GGCUGGU
+A.vinelandii.1                     GAUCUUGCGUCUACGGCCUGCGCGCCCUUGCGUAAGGCUGAU.GGCUGGU
+Pseudomonas_aerugino.1             GACCUUGCGUCUACAGCCCGAGCGUCAA.GCGAAAGGCUGAU.GGCUGGU
+Pseudomonas_putida_W.1             GACUUUGCGACUCCAGCCGGAGCGUUGA.GC.AAAGGCUGAU.GGCUGGU
+Pseudomonas_entomoph.1             GACUUUGCGACUCCAGUCCGAGCGUUAA.GCGAAGGGCUGAU.GGCUGGU
+Pseudomonas_syringae.1             GAUUUUGAGUGUCCAGCCCACGCGUUUA.GCGAAAGGCUGAU.GGCUGGU
+Pseudomonas_putida_G.1             GACUGUGCGAUGCCAGCCUGAGCGUUGA.GCGA.AGGCUGAU.GGCUGGU
+P.mendocina.1                      CACCUUGCGUCUACAGCCCGAGCGACUC.GCACAAGGCUGAC.GGCUGGU
+Pseudomonas_stutzeri.1             GACUUUGCGUCUACAGCCCGAGCGACUC.GCGACAGGCUGAU.GGCUGGU
+Pseudomonas_syringae.2             GAUUUUGAGUGUCCAGCCCACGCGUUUA.GCGAAAGGCUGAU.GGCUGGU
+Pseudomonas_fluoresc.1             GACUUUGUGUCUCCAGCCCAAGCGUUAA.GCGAACGGCUGAU.GGCUGGU
+Pseudomonas_syringae.3             GACUUUGAGUGUCCAGCCCACGCGAUUA.GCGAAAGGCUGAU.GGCUGGU
+Pseudomonas_fluoresc.2             GACUUUGCUCCUCCAGCCCGAGCGUCAA.GCGACAGGCUGAU.GGCUGGU
+Vibrio_fischeri_ES11.1             UUACUUAGUUUCAUAGCCUAA.............CGGCUAAU.GGCUGGU
+Vibrio_parahaemolyti.1             UUGCAUAGUUUCUUAGCCUAA.............CGGCUAAUUGGCUGGU
+Vibrio_vulnificus_YJ.1             UUACUUAGUCUCCUAGCCUAA.............CGGCUAAU.GGCUGGU
+marine_metag.1                     ACGCUAGGUUCGCUGCCUGAG.....UA....AUCAGGCAAG.GGCUGGU
+marine_metag.2                     GACCUUGCGUUUCCAGCCCAAGCGUUAA.GCUGAAGGCUGAU.GGCUGGU
+#=GC SS_cons                       .............<<<<<...<<......>>....>>>>>...<<<<<<<
+#=GC RF                            aaauUUaaguuuccaGCCuaAgcguuaA.gcgaaaGGCugAU.GGCcGGu
+
+Alteromonadales_bact.1             GAUUAUUUAAUCACCGGCCU
+Enterobacter.1                     GACUUUUUAGUCACCAGCCU
+E.coli.1                           GACUUUUUAGUCACCAGCUU
+E.coli.2                           GACUUUUUAGUCACCAGCCU
+Pectobacterium_atros.1             GACUUUUUAGUCACCAGCCU
+Photorhabdus_lumines.1             GAUUAAAAAAUCACCAGCCU
+Serratia_proteamacul.1             GACUUUUUGGUCACCAGCCU
+S.glossinidius.1                   GGCUUUUUGGUCACCAGCCU
+Yersinia_bercovieri_.1             GACUUUUUAGUCAUCAGCCU
+Yersinia_pestis_Nepa.1             GACUUUUUAGUCAUCAGCCU
+A.vinelandii.1                     GGCUGGA..GCCACCGGCCU
+Pseudomonas_aerugino.1             GGCUUUU..GCCACCGGCCU
+Pseudomonas_putida_W.1             GGCUUAU..GCCACCGGCCU
+Pseudomonas_entomoph.1             GGCUUAU..GCCACCGGCCU
+Pseudomonas_syringae.1             GGCUUUU..GCCACCGGCCU
+Pseudomonas_putida_G.1             GGCUUAU..GCCACCGGCCU
+P.mendocina.1                      GGCUUCU..GCCACCGGCCU
+Pseudomonas_stutzeri.1             GGCUCAU..GCCACCGGCCU
+Pseudomonas_syringae.2             GGCUUUU..GCCACCGGCCU
+Pseudomonas_fluoresc.1             GGCUUUU..GCCACCGGCCU
+Pseudomonas_syringae.3             GGCUUUU..GCCACCGGCCU
+Pseudomonas_fluoresc.2             GGCUCUU..GCCACCGGCCU
+Vibrio_fischeri_ES11.1             GGUUUAUUAACCACCGGCCU
+Vibrio_parahaemolyti.1             GGUUUUUUAACCACCGGCCU
+Vibrio_vulnificus_YJ.1             GGUUUUUUAACCACCGGCCU
+marine_metag.1                     GAUUAUUUAAUCACCGGCCU
+marine_metag.2                     GGCUCUU..GCCACCGGCCU
+#=GC SS_cons                       <<<......>>>>>>>>>>.
+#=GC RF                            GgcUUUU..gcCaCCgGCCU
+//

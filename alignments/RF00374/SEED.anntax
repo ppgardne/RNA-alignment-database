@@ -1,0 +1,136 @@
+# STOCKHOLM 1.0
+#=GF ID    Gammaretro_CES
+#=GF AC    RF00374
+#=GF DE    Gammaretrovirus core encapsidation signal
+#=GF AU    Moxon SJ, Daub J
+#=GF GA    37.0
+#=GF NC    37.0
+#=GF TC    37.0
+#=GF SE    PMID:15003457
+#=GF SS    Published; PMID:15003457
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    15003457
+#=GF RT    NMR structure of the 101-nucleotide core encapsidation signal of the
+#=GF RT    Moloney Murine Leukemia Virus.
+#=GF RA    D'Souza V, Dey A, Habib D, Summers MF;
+#=GF RL    J Mol Biol 2004;337:427-442.
+#=GF RN    [2]
+#=GF RM    15457265
+#=GF RT    Structural basis for packaging the dimeric genome of Moloney murine
+#=GF RT    leukaemia virus.
+#=GF RA    D'Souza V, Summers MF;
+#=GF RL    Nature. 2004;431:586-590.
+#=GF CC    This family represents the Gammaretrovirus (mammalian type C
+#=GF CC    retrovirus) core encapsidation signal and related sequences. The
+#=GF CC    Moloney murine leukaemia virus (MMLV) core encapsidation signal
+#=GF CC    is know to be essential for stable dimerisation and efficient
+#=GF CC    genome packaging during virus assembly [1]. Dimerisation of the
+#=GF CC    viral RNA genomes is proposed to act as an RNA conformational
+#=GF CC    switch which exposes conserved UCUG elements and enables
+#=GF CC    efficient genome encapsidation [2].
+#=GF WK    http://en.wikipedia.org/wiki/Gammaretrovirus_core_encapsidation_signal
+#=GF SQ    23
+
+#=GS M.musculus.1           AC    X01616.1/1340-1440
+#=GS Murine_AIDS_virus-re.1 AC    S80082.1/697-796
+#=GS Murine_leukemia_viru.1 AC    AF019230.1/276-376
+#=GS Moloney_murine_sarco.1 AC    V01185.1/721-821
+#=GS Murine_leukemia_viru.2 AC    AF169256.1/297-396
+#=GS Murine_leukemia_viru.3 AC    M64095.1/673-772
+#=GS Moloney_murine_sarco.2 AC    J02266.1/718-818
+#=GS Murine_leukemia_viru.4 AC    U13766.1/293-392
+#=GS Murine_leukemia_viru.5 AC    K03363.1/295-394
+#=GS Murine_leukemia_viru.6 AC    K02729.1/786-886
+#=GS Moloney_murine_sarco.3 AC    M96854.1/729-829
+#=GS Murine_leukemia_viru.7 AC    X14576.1/670-769
+#=GS Rauscher_murine_leuk.1 AC    U94692.1/274-374
+#=GS Amphotropic_murine_l.1 AC    AF411814.1/275-375
+#=GS Moloney_murine_leuke.1 AC    M12275.1/344-445
+#=GS Moloney_murine_leuke.2 AC    AF033811.1/12-112
+#=GS Moloney_murine_leuke.3 AC    AF462057.1/276-376
+#=GS Friend_murine_leukem.1 AC    M93134.1/274-374
+#=GS Friend_murine_leukem.2 AC    AJ583798.1/721-821
+#=GS Friend_murine_leukem.3 AC    Z11128.1/274-374
+#=GS HoMuLV_murine_leukem.1 AC    M26526.1/655-755
+#=GS Human_immunodeficien.1 AC    U00220.1/894-994
+#=GS FBR_murine_osteosarc.1 AC    K02712.2/736-835
+
+M.musculus.1                       GUCUGUACUAGUUAGCUAACUAGAUCUAUAUCUGGCGGGUCCGCGGAAGA
+Murine_AIDS_virus-re.1             GUCUGUACUAGUUAGCUAACUAGAUCUGUAUCUGGCGGUUCUGCGGAAGA
+Murine_leukemia_viru.1             GUCUGUACUAGUUGGCCGACUAGCUCUGUACCUGGCGGACCCGUGGUGGA
+Moloney_murine_sarco.1             GUCUGUACUAGUUAGCUAACAUGCUCUGUAUCUGGCGGACCCGUGGUGGA
+Murine_leukemia_viru.2             UUCUGUACUAGUUAGCUAACUAGAUCUGUAUCUGGCGGCUCCGUGGAAGA
+Murine_leukemia_viru.3             AUCUGUACUAGUUAGCUAACUAGAUCUGUAUCUGGCGGUUCCGUGGAAGA
+Moloney_murine_sarco.2             GUCUGUACUAGUUAGCUAACUAGCUCUGUAUCUGGCGGACCCGUGGUGGA
+Murine_leukemia_viru.4             AUCUGUACUAGUUAGCUAACUAGAUCUGUAUCUGGCGGUUCCGUGGAAGA
+Murine_leukemia_viru.5             UUCUGUACUAGUUAGCUAACUAGGUCUGUAUCUGGCGGCUCCGUGGAAGA
+Murine_leukemia_viru.6             GUCUGUACUAGUUGGCCGACUAGCUCUGUAUCUGGCGGACCCGUGGUGGA
+Moloney_murine_sarco.3             GUCUGUACUAGUUAGCUAACUAGCUCUGUAUCUGGCGGACCCGUGGUGGA
+Murine_leukemia_viru.7             GUCUGUACUAGUUAGCUAACUAGAUCUGUAUCUGGCGGUUCCGUGGAAGA
+Rauscher_murine_leuk.1             GUCUGAACUAGUUGGCCGACUAGCUCUGUAUCUGGCGGACCCGUGGUGGA
+Amphotropic_murine_l.1             GUCUGUACUAGUUGGCCGACUAGCUCUGUAUCUGGCGGACCCGUGGUGGA
+Moloney_murine_leuke.1             GUCUGUACUAGUUGGCUAACUAGAUCUGUAUCUGGCGGUCCCGCGGAAGA
+Moloney_murine_leuke.2             GUCGGUACUAGUUAGCUAACUAGCUCUGUAUCUGGCGGACCCGUGGUGGA
+Moloney_murine_leuke.3             GUCGGUACUAGUUAGCUAACUAGCUCUGUAUCUGGCGGACCCGUGGUGGA
+Friend_murine_leukem.1             GUCUGUACUAGUUGGCCGACUAGCUCUGUAUCUGGCGGACCCGUGGUAGA
+Friend_murine_leukem.2             GUUUGUACUAGUUGGCCGACUAGCUCUGUACCUGGCGGACCCGUGGUGGA
+Friend_murine_leukem.3             GUCUGUACUAGUUGGCCGACUAGAUUGGUAUCUGGCGGAUCCGUGGUGGA
+HoMuLV_murine_leukem.1             GCCUGUACUAGUUGGCUGACUAGACCUGUAUCUGGCGGUUCCGUGGAAGA
+Human_immunodeficien.1             GUCUGUACUAGUUAGCUAACUAGCUCUGUAUCUGGCGGACCCGUGGUGGA
+FBR_murine_osteosarc.1             AUCUGUACUAGUUAGCUAACUAGAUCUGUAUCUGGCGGUUCCGUGAAAGA
+#=GC SS_cons                       ..<.<..<<<<<<....>>>>>>..>.>......<<<<..<<<.<<<<<<
+
+M.musculus.1                       ACUGACGAGUUCG.UAUUCCCGACCGCAGCC.CUAGGGAGACGUCCUAG.
+Murine_AIDS_virus-re.1             ACUGACGAGUUCG.UAUUCCCGGCCGCAGCC.CUG.GGAGACGUCCCAGC
+Murine_leukemia_viru.1             ACUGACGAGUUCGGAACACCCGGCCGCAACC.CUG.GGAGACGUCCCGG.
+Moloney_murine_sarco.1             ACUGACGAGUUCUGAACACCCGGCCGCAACC.CUG.GGAGACGUCCCAG.
+Murine_leukemia_viru.2             ACUGACGAGUUCG.UAUUCCCGACCGCAGCC.CUG.GGAGACGUCUCAGA
+Murine_leukemia_viru.3             ACUGACGUGUUC.AUAUUCCCGACCGCAGCC.CUG.GGAGACGUCUCAGA
+Moloney_murine_sarco.2             ACUGACGAGUUCUGAACACCCGGCCGCAACC.CAG.GGAGACGUCCCAG.
+Murine_leukemia_viru.4             ACUGACGAGUUCG.UAUUCCCGACCGCAGCC.CUG.GGAGACGUCUCAGA
+Murine_leukemia_viru.5             ACUGACGAGUUCG.UAUUCCCGACCGCAGCC.CUG.GGAGACGUCUCAG.
+Murine_leukemia_viru.6             ACUGACGAGUUCGGAACACCCGGCCGCAACC.CUG.GGAGACGUCCCGG.
+Moloney_murine_sarco.3             ACUGACGAGUUCUGAACACCCGGCCGCGACC.CUG.GGAGACGUCCCAG.
+Murine_leukemia_viru.7             ACUGACGAGUUCGG.AUUCCCGACCGCAGCC.CUG.AGAGACGUCUCAG.
+Rauscher_murine_leuk.1             ACUGACGAGUUCGAGACACCCGGCCGCAACC.CUG.GGAGACGUCCCAG.
+Amphotropic_murine_l.1             GCUGACGAGUUCGGAACACCCGGCCGCAACC.CUG.GGAGACGUCCCAG.
+Moloney_murine_leuke.1             ACUGACGAGUUCG.UAUUCCCGGCCGCAGCCCCUA.GGAGACGUCCCAGC
+Moloney_murine_leuke.2             ACUGACGAGUUCGGAACACCCGGCCGCAACC.CUG.GGAGACGUCCCAG.
+Moloney_murine_leuke.3             ACUGACGAGUUCGGAACACCCGGCCGCGACC.CUG.GGAGACGUCCCAG.
+Friend_murine_leukem.1             ACUGACGAGUUCGGGAUACCCGGCCGCAACC.CUG.GGAGACGUCCCAG.
+Friend_murine_leukem.2             ACUGACGGGUUCGAGACACCCGGCCGCAACC.CUG.GGAGACGUCCCAA.
+Friend_murine_leukem.3             ACUGACGAGUUCGAGACACCCGGCCGCAACC.CUG.GGAGACGUCCCAG.
+HoMuLV_murine_leukem.1             ACUGACGAGUUCGGAGUUCCCGGCCGCAACC.CUG.GGAGACGUCCCGG.
+Human_immunodeficien.1             ACUGACGAGUUCUGAACACCCGGCCGCAACC.CUG.GGAGACGUCCCAG.
+FBR_murine_osteosarc.1             ACUGACGAGUUCG.UAUUCCCGGCCGCAGCC.CUG.GGAGACGUCUCAGA
+#=GC SS_cons                       <<<....>>>>>....>>>>>>>>>>>..<<.<<<.<<<....>>>>>>.
+
+M.musculus.1                       GGUC
+Murine_AIDS_virus-re.1             GG.C
+Murine_leukemia_viru.1             GGAC
+Moloney_murine_sarco.1             GGAC
+Murine_leukemia_viru.2             GG.C
+Murine_leukemia_viru.3             GG.C
+Moloney_murine_sarco.2             GGAC
+Murine_leukemia_viru.4             GG.C
+Murine_leukemia_viru.5             GGGC
+Murine_leukemia_viru.6             GGAC
+Moloney_murine_sarco.3             GGAC
+Murine_leukemia_viru.7             GGGC
+Rauscher_murine_leuk.1             GGAC
+Amphotropic_murine_l.1             GGAC
+Moloney_murine_leuke.1             GGCC
+Moloney_murine_leuke.2             GGAC
+Moloney_murine_leuke.3             GGAC
+Friend_murine_leukem.1             GGAC
+Friend_murine_leukem.2             GGAC
+Friend_murine_leukem.3             GGAC
+HoMuLV_murine_leukem.1             GGAC
+Human_immunodeficien.1             GGAC
+FBR_murine_osteosarc.1             GG.C
+#=GC SS_cons                       >>..
+//

@@ -1,0 +1,58 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-649
+#=GF AC    RF01029
+#=GF DE    microRNA mir-649
+#=GF AU    Wilkinson A
+#=GF GA    30.0
+#=GF NC    30.0
+#=GF TC    30.0
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000547
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    7
+
+#=GS M.mulatta.1            AC    AANU01210828.1/12529-12433
+#=GS G.gorilla.1            AC    AAGL01001349.1/310-422
+#=GS H.sapiens.1            AC    AADB02020429.1/80050-80146
+#=GS P.troglodytes.1        AC    AADA01118555.1/3013-2902
+#=GS P.abelii.1             AC    AC188307.1/109548-109440
+#=GS M.murinus.1            AC    ABDC01582119.1/894-798
+#=GS Otolemur_garnettii_s.1 AC    AAQR01315366.1/1543-1449
+
+M.mulatta.1                        GCCCUAGCCAAAUACUGUAUUUUUUA.UCAACAUUUGGUUGAAAAACAUC
+G.gorilla.1                        GCAUCCUUUGAAUACUGUAUUUUUUACUCUGCAUUUGGUUAAAAUAAAUC
+H.sapiens.1                        GGCCUAGCCAAAUACUGUAUUUUUGA.UCGACAUUUGGUUGAAAAAUAUC
+P.troglodytes.1                    GCAUCUCCCAGAUACUGUAUUUUUUA.UCUGCUUUUGGUUGAAAUAAAUA
+P.abelii.1                         UCCC...ACAAAUACUGUACUUUUGA.UCUGCAUUUGGUUAAAAAAUAUC
+M.murinus.1                        ACAUCCUGUGAAUACUGUAUUUUUGA.UUUGCAUUUGAUUGAAAAAAUUG
+Otolemur_garnettii_s.1             GCACCUCAAGAAUACUGUAUUUCUGA.UCUGUGUUUGGUUGAAAAAAGCU
+#=GC SS_cons                       ....<<<<.<<<<<<.<<<<<<<<<<..<<<<<<..<<<<....<<<<<.
+#=GC RF                            gcaucacaagaauaCUGuacuuuuGa.UCugCauUUGGuugAAAaauaca
+
+M.mulatta.1                        UGUGUAUUAGUA...............AACCUGUGUUGU...........
+G.gorilla.1                        CACAUAUAAGUG...............UACCCAGACAGUUCAGACCUGUG
+H.sapiens.1                        UAUGUAUUAGUA...............AACCUGUGUUGU...........
+P.troglodytes.1                    UGCAUAUAAGUG...............AACCCAUGCAGUUCAAGCCCAUG
+P.abelii.1                         UGUGUAUAAGUGGACCCUCACAGUUCAAACCCAUGUUGU...........
+M.murinus.1                        UGUAUGUAAGUG...............GACCCAUGUUGU...........
+Otolemur_garnettii_s.1             CACAUAUAAGUG...............AACCCAUGCAGU...........
+#=GC SS_cons                       ...>>>>>...................>>>>.>>>>>>............
+#=GC RF                            uguguauuAGUg...............aaCCcauGcaGU...........
+
+M.mulatta.1                        ....UCAAGAGUCCGCUGUGCUUUGCUG
+G.gorilla.1                        UUUUUCAAGGGUCAGCUGUAUACCUAGA
+H.sapiens.1                        ....UCAAGAGUCCACUGUGUUUUGCUG
+P.troglodytes.1                    UUGUUCAAGUGUCAACUGUAUCUAGUAG
+P.abelii.1                         ....UCAAGGGCCAACUGUAUUUCUACA
+M.murinus.1                        ....UCAAGGGUCAACUGUAUACAUAUG
+Otolemur_garnettii_s.1             ....UCA..AACACACGUUGUUUCAGGG
+#=GC SS_cons                       ....>>>>>>>>..>>.>>>>>>.>>>>
+#=GC RF                            ....uCaagagucaaCuGuauucaugug
+//

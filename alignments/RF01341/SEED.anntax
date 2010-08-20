@@ -1,0 +1,28 @@
+# STOCKHOLM 1.0
+#=GF ID    CRISPR-DR30
+#=GF AC    RF01341
+#=GF DE    CRISPR RNA direct repeat element
+#=GF AU    Wilkinson A
+#=GF GA    24.8
+#=GF NC    24.8
+#=GF TC    52.5
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; CRISPR;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    URL; http://crispr.u-psud.fr/crispr/CRISPRHomePage.php
+#=GF DR    SO:0001459 SO:CRISPR
+#=GF WK    http://en.wikipedia.org/wiki/CRISPR
+#=GF SQ    3
+
+#=GS Herpetosiphon_aurant.1 AC    CP000875.1/1607488-1607525
+#=GS Herpetosiphon_aurant.2 AC    CP000875.1/1607714-1607751
+#=GS Herpetosiphon_aurant.3 AC    CP000875.1/1605243-1605280
+
+Herpetosiphon_aurant.1             GUCCAGCCCUCCCAGAGAGGAUUCAGGUCUUUCGAAUU
+Herpetosiphon_aurant.2             GUUUUAAUCCCCCAGAGAGGAUUCAGGUCUUUCGAAUA
+Herpetosiphon_aurant.3             GCUUUUAUCCCCCAAAGAGGAUUCAGGUCUUUCGAAUC
+#=GC SS_cons                       ..............<<<<<<.......>>>>>>.....
+#=GC RF                            GUUUUAAUCCCCCAGagaGgAUUCAGGuCuuuCGAAUA
+//

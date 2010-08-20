@@ -1,0 +1,102 @@
+# STOCKHOLM 1.0
+#=GF ID    BTE
+#=GF AC    RF00434
+#=GF DE    Luteovirus cap-independent translation element (BTE)
+#=GF AU    Moxon SJ
+#=GF GA    21.0
+#=GF NC    0.0
+#=GF TC    21.0
+#=GF SE    PMID:15351207
+#=GF SS    Published; PMID:15351207
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    15351207
+#=GF RT    Subgenomic RNA as a riboregulator: negative regulation of RNA
+#=GF RT    replication by Barley yellow dwarf virus subgenomic RNA 2.
+#=GF RA    Shen R, Miller WA;
+#=GF RL    Virology 2004;327:196-205.
+#=GF CC    This family represents the Luteovirus cap-independent translation element
+#=GF CC    (BTE) as found in barley yellow dwarf virus (BYDV), bean leafroll virus and
+#=GF CC    soybean dwarf virus. This family mediates translation of genomic (gRNA) and
+#=GF CC    subgenomic RNA1 (sgRNA1) [1].
+#=GF WK    http://en.wikipedia.org/wiki/Luteovirus_cap-independent_translation_element_(BTE)
+#=GF SQ    17
+
+#=GS Barley_yellow_dwarf_.1  AC    AF218798.2/4817-4938
+#=GS Barley_yellow_dwarf_.2  AC    D85783.1/4816-4915
+#=GS Barley_yellow_dwarf_.3  AC    AF235167.1/4816-4915
+#=GS Soybean_dwarf_virus.1   AC    L24049.1/5262-5363
+#=GS Soybean_dwarf_virus.2   AC    AB076046.1/1867-1967
+#=GS Barley_yellow_dwarf_.4  AC    X80050.1/6-105
+#=GS Barley_yellow_dwarf_.5  AC    AJ007491.1/1974-2073
+#=GS Bean_leafroll_virus.1   AC    AF441393.1/5292-5389
+#=GS Soybean_dwarf_virus.3   AC    AB076043.1/1872-1973
+#=GS Soybean_dwarf_virus.4   AC    AB076047.1/1872-1973
+#=GS Soybean_dwarf_virus.5   AC    AB076048.1/1871-1967
+#=GS Barley_yellow_dwarf_.6  AC    D11032.1/4816-4915
+#=GS Barley_yellow_dwarf_.7  AC    X07653.1/4819-4918
+#=GS Soybean_dwarf_virus.6   AC    AB076042.1/1877-1973
+#=GS Barley_yellow_dwarf_.8  AC    AJ007492.1/1972-2071
+#=GS Barley_yellow_dwarf_.9  AC    D11028.1/4805-4903
+#=GS Barley_yellow_dwarf_.10 AC    AY220739.1/4842-4940
+
+Barley_yellow_dwarf_.1              ACACC.ACUAACACA.AGCC.GAAUCCUGGGAAACAGGCA.GAACUUAG.
+Barley_yellow_dwarf_.2              ACACC.ACUAGCACA.AA.UCGGAUCCUGGGAAACAGGCA.GAACUACG.
+Barley_yellow_dwarf_.3              ACACC.ACUAGCACA.AAUC.GGAUCCUGGGAAACAGGCA.GAACUACG.
+Soybean_dwarf_virus.1               .UGGUGAGUUGCUGUCG..UGGGAUCCUGGGAAACAGGUUCGGUGAACAA
+Soybean_dwarf_virus.2               .UGGUGAGUUGCUGUUG..UGGGAUCCUGGGAAACAGGUUCGGUGAACA.
+Barley_yellow_dwarf_.4              ACACC.ACUAGCACA.AAUC.GGAUCCUGGGAAACAGGCA.GAACUACG.
+Barley_yellow_dwarf_.5              ACACC.ACUAGCACA.AUCC.GGAUCCUGGGAAACAGGCA.GAACCUCG.
+Bean_leafroll_virus.1               GCGCC.ACUAGUGCA.U..C.GAAUCCUGGGAAACAGGCACGGAGAACA.
+Soybean_dwarf_virus.3               .UGGUGAGUUGCUGUCG..UGGGAUCCUGGGAAACAGGUACGGUGAACAA
+Soybean_dwarf_virus.4               .UGGUGAGUUGCUGUCG..UGGGAUCCUGGGAAACAGGUUCGGUGAACAA
+Soybean_dwarf_virus.5               ...GUGAGUUGCUGUCG..UGGGAUCCUGGGAAACAGGUUCGGUGAACAA
+Barley_yellow_dwarf_.6              ACACC.ACUAGCACA.AAUC.GGAUCCUGGGAAACAGGCA.GAACUACG.
+Barley_yellow_dwarf_.7              ACACC.ACUAGCACA.AA.UCGGAUCCUGGGAAACAGGCA.GAACUUCG.
+Soybean_dwarf_virus.6               ...GUGAGUUGCUGUCG..UGGGAUCCUGGGAAACAGGUUCGGUGAAUAA
+Barley_yellow_dwarf_.8              ACACC.AGUAGCACA.AAUC.GGAUCCUGGGAAACAGGCA.GAACUACG.
+Barley_yellow_dwarf_.9              ACACC.ACUCGCAAA..UAC.GGAUCCUGGGAAACAGGCA.GAACUUCG.
+Barley_yellow_dwarf_.10             ACACC.ACUCGCAAA..UUC.GGAUCCUGGGAAACAGGCA.GAACUUCG.
+#=GC SS_cons                        ...<<.<..<<<<<<.<..<.<<..<<<<.....>>>>...<<<<.....
+
+Barley_yellow_dwarf_.1              ..GUUCG.UAAGCUCGGGUAAUUGGAAGGUGGGCUGUCAACCCACCACCA
+Barley_yellow_dwarf_.2              ..GUUCA.UAAGCUCG...........GGUAGGCUGUCAA..........
+Barley_yellow_dwarf_.3              ..GUUCA.UAAGCUCG...........GGUAGGCCGUCAA..........
+Soybean_dwarf_virus.1               AAAGCCGGUAAUCUCG...........GG.CGUUUGUCAG..........
+Soybean_dwarf_virus.2               AAAGCCGGUAAUCUCG...........GG.CGUUUGUCAG..........
+Barley_yellow_dwarf_.4              ..GUUCA.UAAGCUCG...........GGUAGGCUGUCAA..........
+Barley_yellow_dwarf_.5              ..GUUCA.UAAGCUCG...........GGUAGGCCGUCAA..........
+Bean_leafroll_virus.1               AAAUCCGGUAAGCUCG...........GG.AAGCCGUCAA..........
+Soybean_dwarf_virus.3               AAAGCCGGUAAUCUCG...........GG.CGUUCGUCAG..........
+Soybean_dwarf_virus.4               AAAGCCGGUAAUCUCG...........GG.CGUUCGUCAG..........
+Soybean_dwarf_virus.5               AAAGCCGGUAAUCUCG...........GG.CGUUUGUCAG..........
+Barley_yellow_dwarf_.6              ..GUUCG.UAAGCUCG...........GGUAGGCCGUCAA..........
+Barley_yellow_dwarf_.7              ..GUUCG.UAAGCUCG...........GGUAGGCCGUCAA..........
+Soybean_dwarf_virus.6               AAAGCCGGUAAUCUCG...........GG.CGUUCGUCAG..........
+Barley_yellow_dwarf_.8              ..GUUCA.UAAGCUCG...........GGUAGGCCGUCAA..........
+Barley_yellow_dwarf_.9              ..GUUCG.UAAGCUCG...........GGUAAACUAGUCC..........
+Barley_yellow_dwarf_.10             ..GUUCG.UAAGCUCG...........GGUAAACUAGUCC..........
+#=GC SS_cons                        ..>>>>.....<<..............<<<<<<.................
+
+Barley_yellow_dwarf_.1              UCUUACCGCCGCAUUGCCUUGUGUUUGGCC
+Barley_yellow_dwarf_.2              .CCUACCGCCGUAUCGUAUUGUGUUUGGCC
+Barley_yellow_dwarf_.3              .CCUACCGCCGUAUCGUAUUGUGUUUGGCC
+Soybean_dwarf_virus.1               .ACG.CCGUCGCAUCA.ACACAGUAUGCAU
+Soybean_dwarf_virus.2               .ACG.CCGCCGAAUCA.ACACAGUAUGCAU
+Barley_yellow_dwarf_.4              .CCUACCGCCGCAUCGUAUUGUGUUUGGCC
+Barley_yellow_dwarf_.5              .UCUACCGCCGUAUCGUUUUGUGUUUGGCC
+Bean_leafroll_virus.1               .CUU.CCGCCGUAUUG..AUGAAAACAACU
+Soybean_dwarf_virus.3               .ACG.CCGUCGUAUCA.ACACAGUAUGCAU
+Soybean_dwarf_virus.4               .ACG.CCGUCGUAUCA.ACACAGUAUGCAU
+Soybean_dwarf_virus.5               .ACG.CCGUCGUAUCA.ACACAGUAUG...
+Barley_yellow_dwarf_.6              .CCUACCGCCGUAUCGUAUUGUGUUUGGCC
+Barley_yellow_dwarf_.7              .CCUACCGCCGUAUCGUAUUGUGUUUGGCC
+Soybean_dwarf_virus.6               .ACG.CCGUCGUAUCA.ACACAGUAUG...
+Barley_yellow_dwarf_.8              .CCUACCGUCGUAUCGUAUUGUGUUUGGCC
+Barley_yellow_dwarf_.9              .UUUACCGCCGUAUCGUACUUUGUGUGGCC
+Barley_yellow_dwarf_.10             .UUUACCGUCGUAUCGUACUUUGUGUGGCC
+#=GC SS_cons                        .>>>>>>...>>.>>>..>>>>>>>>>>..
+//

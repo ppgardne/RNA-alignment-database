@@ -1,0 +1,85 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORA36
+#=GF AC    RF00340
+#=GF DE    Small nucleolar RNA SNORA36 family
+#=GF AU    Moxon SJ, Daub J
+#=GF GA    31.0
+#=GF NC    30.8
+#=GF TC    31.5
+#=GF PI    snoMBI-87
+#=GF SE    Moxon SJ
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; snRNA; snoRNA; HACA-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    snoRNABase; ACA36
+#=GF DR    snoRNABase; ACA36B
+#=GF DR    SO:0000594 SO:H_ACA_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Mus_musculus300708
+#=GF DR    snoopy; Homo_sapiens300432
+#=GF RN    [1]
+#=GF RM    12007400
+#=GF RT    Small nucleolar RNAs: an abundant group of noncoding RNAs with
+#=GF RT    diverse cellular functions.
+#=GF RA    Kiss T;
+#=GF RL    Cell 2002;109:145-148.
+#=GF RN    [2]
+#=GF RM    15199136
+#=GF RT    Human box H/ACA pseudouridylation guide RNA machinery.
+#=GF RA    Kiss AM, Jady BE, Bertrand E, Kiss T;
+#=GF RL    Mol Cell Biol. 2004;24:5797-5807.
+#=GF RN    [3]
+#=GF RM    11387227
+#=GF RT    RNomics: an experimental approach that identifies 201 candidates for
+#=GF RT    novel, small, non-messenger RNAs in mouse.
+#=GF RA    Huttenhofer A, Kiefmann M, Meier-Ewert S, O'Brien J, Lehrach H,
+#=GF RA    Bachellerie JP, Brosius J;
+#=GF RL    EMBO J 2001;20:2943-2953.
+#=GF RN    [4]
+#=GF RM    16381836
+#=GF RT    snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D box
+#=GF RT    snoRNAs.
+#=GF RA    Lestrade L, Weber MJ;
+#=GF RL    Nucleic Acids Res. 2006;34:D158-D162.
+#=GF CC    ACA36 (SNORA36A) belongs to the H/ACA class of snoRNAs which are
+#=GF CC    predicted to guide the sites of modification of uridines to
+#=GF CC    pseudouridines [1]. ACA36 is predicted to guide the
+#=GF CC    pseudouridylation of residue U105 and U1244 of 18S rRNA [4]. This
+#=GF CC    family includes the mouse homologue snoMBI-87 [3] and also
+#=GF CC    identifies the human paralog ACA36B (SNORA36B) [2].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_snoMBI-87
+#=GF SQ    6
+
+#=GS M.musculus.1 AC    AC129195.3/135814-135944
+#=GS M.musculus.2 AC    AC122390.4/99796-99926
+#=GS M.musculus.3 AC    AF357412.1/1-113
+#=GS H.sapiens.1  AC    AL445435.11/96381-96511
+#=GS H.sapiens.2  AC    AC079121.5/42813-42943
+#=GS H.sapiens.3  AC    AF067016.1/546-676
+
+M.musculus.1             UUCCAAAGUGUUGAGUUCAGCCCAGGGUCCCCUCCCUGCUCUGCUAAUUA
+M.musculus.2             GUCCAAAGUGUUGAGUUCAGUUCAGGGCAGCUUCCUUGUUCUGUUAAUUA
+M.musculus.3             ...................GCCCAGGGUCCCCUCCCUGCUCUGCUAAUUA
+H.sapiens.1              UUCCAAAGUGUUAAGUUCAGUUCAGGGUAGCUUCCCUGCUCUGUUAAUUA
+H.sapiens.2              UUCCAAAGUGUUGAGUUCAGUCCAGGGCAGCUUCCCUGUUCUGUUAAUUA
+H.sapiens.3              UUCCAAAGUGUUGAGUUCAGUCCAGGGCAGCUUCCCUGUUCUGUUAAUUA
+#=GC SS_cons             <<<<<<<<<........<<<..<<<<<......>>>>>..>>>.......
+
+M.musculus.1             GACUUUGGAACAUUGAAGCUGGCUGGGGAAAAUGACUGGAUAGAAAACAU
+M.musculus.2             AACUUUGGGACAUUGAAAUUGGCUGAGAAAAAUGACUGAAUAGAGAGUAU
+M.musculus.3             GACUUUGGAACAUUGAAGCUGGCUGGGGAAAAUGACUGGAUAGAAAACAU
+H.sapiens.1              AACUUUGGAACAUUGAAACUGGCUAGGGAAAAUGAUUGGAUAGAAACUAU
+H.sapiens.2              AACUUUGGGACAUUGAAAUGGGCUAGGGGAGAUGAUUGGGUAGAAAGCAU
+H.sapiens.3              AACUUUGGGACAUUAAAAUGGGCUAAGGGAGAUGAUUGGGUAGAAAGUAU
+#=GC SS_cons             .>>>>>>>>>..........<<<<.<<<<.......<<<<<<<<<.....
+
+M.musculus.1             UAUUCUAUUCAUUUACUCCCCAGCCUACACA.
+M.musculus.2             UACUCUAUUCAUAUACUUCU.AGCCUACACAA
+M.musculus.3             UAUUCUAUUCAUUUACUCCCCAGCCUACACAU
+H.sapiens.1              UAUUCUAUUCAUUUA.UCCCCAGCCUACAAAA
+H.sapiens.2              UAUUUUAUUCAUUUGCCUCCCAGCCUACAAA.
+H.sapiens.3              UAUUCUAUUCAUUUGCCUCCCAGCCUACAAA.
+#=GC SS_cons             ..>>>>>>>>>.....>>>>.>>>>.......
+//

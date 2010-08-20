@@ -1,0 +1,43 @@
+# STOCKHOLM 1.0
+#=GF ID    snoU19
+#=GF AC    RF01236
+#=GF DE    Small nucleolar RNA U19
+#=GF AU    Wilkinson A
+#=GF GA    30.0
+#=GF NC    24.2
+#=GF TC    33.0
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; snRNA; snoRNA; HACA-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    URL; http://bioinf.scri.sari.ac.uk/cgi-bin/plant_snorna/home
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Arabidopsis_thaliana300151
+#=GF WK    http://en.wikipedia.org/wiki/SnoRNA
+#=GF SQ    3
+
+#=GS V.vinifera.1    AC    AM466283.1/77813-77958
+#=GS P.trichocarpa.1 AC    AARH01005662.1/240253-240390
+#=GS A.thaliana.1    AC    AJ505662.1/1-144
+
+V.vinifera.1                AUUUGGCUUAGUUAGGAGGCACAAAUCAAAACAUAUGGAUCAAAAGUAUC
+P.trichocarpa.1             AGCUGGCUUAGUUAGGAGGCAGAAAUCAAAU....UAGAUCGAAAGAUGU
+A.thaliana.1                AUCUGGCUUAGUUAGGAGGCAUAAAUCAAUC....UUGAUCAUCAAUACU
+#=GC SS_cons                ...<<.<<<......>>>.>>................<<<<<...<<<<<
+#=GC RF                     AKCUGGCUUAGUUAGGAGGCASAAAUCAAAMcauaURGAUCRAMARWASY
+
+V.vinifera.1                UUAGAUUGAUGCCUUGAUC.UUAAAAACUAAGGUCUUUUUGAGUGGACUC
+P.trichocarpa.1             UU....UGUCU..UCGGUCGUUUCAAUCUAAGGCCCGUUUGAGGGGACAA
+A.thaliana.1                UUACUGUAUUGUAUUGAUCUAUUUGACUUGAGGUCUUUUUGAGGAGGAGC
+#=GC SS_cons                .......>>>>>..>>>>>........<<<<<<<...<<<<.<<<<<<<<
+#=GC RF                     UUASWKURWYGYMUYGRUCKWUWMRAMCURAGGYCYKUUUGAGGRGRMRM
+
+V.vinifera.1                UCUUGUUACUUUC.CCAUCAAUUGUCCUUCAAGCAGCCUUAGACAUUC
+P.trichocarpa.1             UUUUGCUCUUUUCAUUACCAGUUGUCCUCCAAGCAGCCUUUGACAUUC
+A.thaliana.1                UUUGCUUCUGCUAAGUAUCAAGCUUCUCCCAAGCAGCCUCAGACAUAU
+#=GC SS_cons                <...................>>>>>>>>>>>>>..>>>>>>>......
+#=GC RF                     UYUKSYUMYKYUMASYAYCARKYGUCCYCCAAGCAGCCUYAGACAUWC
+//

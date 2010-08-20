@@ -1,0 +1,62 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORD21
+#=GF AC    RF00068
+#=GF DE    Small nucleolar RNA SNORD21
+#=GF AU    Griffiths-Jones SR
+#=GF GA    21.0
+#=GF NC    0.0
+#=GF TC    23.9
+#=GF PI    U21
+#=GF SE    Griffiths-Jones SR
+#=GF SS    Predicted; PFOLD; Griffiths-Jones SR, Daub J
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Mus_musculus300771
+#=GF DR    snoopy; Danio_rerio300117
+#=GF RN    [1]
+#=GF RM    7937132
+#=GF RT    U21, a novel small nucleolar RNA with a 13 nt. complementarity to 28S
+#=GF RT    rRNA, is encoded in an intron of ribosomal protein L5 gene in chicken
+#=GF RT    and mammals.
+#=GF RA    Qu LH, Nicoloso M, Michot B, Azum MC, Caizergues-Ferrer M, Renalier
+#=GF RA    MH, Bachellerie JP;
+#=GF RL    Nucleic Acids Res 1994;22:4073-4081.
+#=GF RN    [2]
+#=GF RM    8603691
+#=GF RT    SnoRNA U21 is also intron-encoded in Drosophila melanogaster but in a
+#=GF RT    different host-gene as compared to warm-blooded vertebrates.
+#=GF RA    Renalier MH, Nicoloso M, Qu LH, Bachellerie JP;
+#=GF RL    FEBS Lett 1996;379:212-216.
+#=GF CC    U21 is a member of the C/D class of snoRNA which contain the
+#=GF CC    C (UGAUGA) and D (CUGA) box motifs.  U21 is encoded within 
+#=GF CC    an intron of the gene for ribosomal protein L5 in mammals [1], 
+#=GF CC    but within introns of the ADP ribosylation factor gene in
+#=GF CC    Drosophila [2].  U21 snoRNA has a 13 nt region of complementarity
+#=GF CC    with an invariant region of eukaryotic 28S ribosomal RNA.
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_SNORD21
+#=GF SQ    5
+
+#=GS D.melanogaster.1 AC    S62079.1/541-624
+#=GS G.gallus.1       AC    D10737.1/4698-4793
+#=GS G.gallus.2       AC    Z35416.1/1-94
+#=GS M.musculus.1     AC    Z35311.1/728-821
+#=GS H.sapiens.1      AC    Z35312.1/944-1038
+
+D.melanogaster.1             UCUAUAUGAUGUUAACAGCUUGU......AAUGAUUA.....UGCAUUGU
+G.gallus.1                   GCUAUGUGAUGAUACCCCAAUGUCUGACCACUCCGUAGUAGGUCCAUGGU
+G.gallus.2                   .CUAUGUGAUGAUACCCCAAUGUCUGACCACUCCGUAGUAGGUCCAUGGU
+M.musculus.1                 GCC.AAUGAUGACACCACACUAACUGAGCAGUUAGUAGUUGGUCCUUUGA
+H.sapiens.1                  GCUGAAUGAUGAUAUCCCACUAACUGAGCAGUCAGUAGUUGGUCCUUUGG
+#=GC SS_cons                 <<<<..............................................
+
+D.melanogaster.1             GAUUAUUCAAGUUUAU..UUUGUUUCAAGACGGGACUGACUAUAUUA
+G.gallus.1                   GUGUAAAUGAUGGACUGCGUAGUUUCAAGACGGGACUGA.UGGCAGC
+G.gallus.2                   GUGUAAAUGAUGGACUGCGUAGUUUCAAGACGGGACUGA.UGGCAG.
+M.musculus.1                 UUGCAUGUGAUGUAAU.CAUUGUUUCAAGACGGGACUGA.AGGCGGC
+H.sapiens.1                  UUGCAUAUGAUGCGAU.AAUUGUUUCAAGACGGGACUGA.UGGCAGC
+#=GC SS_cons                 ........................................>>>>...
+//

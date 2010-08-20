@@ -1,0 +1,36 @@
+# STOCKHOLM 1.0
+#=GF ID    CRISPR-DR9
+#=GF AC    RF01322
+#=GF DE    CRISPR RNA direct repeat element
+#=GF AU    Wilkinson A
+#=GF GA    24.0
+#=GF NC    0.0
+#=GF TC    24.4
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; CRISPR;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    URL; http://crispr.u-psud.fr/crispr/CRISPRHomePage.php
+#=GF DR    SO:0001459 SO:CRISPR
+#=GF WK    http://en.wikipedia.org/wiki/CRISPR
+#=GF SQ    7
+
+#=GS Symbiobacterium_ther.1 AC    AP006840.1/357447-357483
+#=GS Rhodoferax_ferriredu.1 AC    CP000267.1/4371048-4371084
+#=GS Nitrosomonas_eutroph.1 AC    CP000450.1/1044853-1044889
+#=GS Nitrosomonas_europae.1 AC    AL954747.1/921600-921636
+#=GS Geobacter_metallired.1 AC    CP000148.1/1195629-1195665
+#=GS Geobacter.1            AC    CP001390.1/3767228-3767264
+#=GS Geobacter_uraniiredu.1 AC    CP000698.1/3158805-3158841
+
+Symbiobacterium_ther.1             GUAGCACCCGGCCGCGAGGCCGGGUGAGGAUUGAAAC
+Rhodoferax_ferriredu.1             GGAUCGCCCGGCAUUCAUGUCGGGCGCGGAUUGAAAC
+Nitrosomonas_eutroph.1             GUAGCGCCCGGUCACCCGACUGGGCGAGGAUUGAAAC
+Nitrosomonas_europae.1             GUAGCGCCCGGUCACCAGACCGGGCGAGGAUUGAAAC
+Geobacter_metallired.1             GUAGCGCCCGCCUACAUAGGCGGGCGAGGAUUGAAAC
+Geobacter.1                        GUAGCGCCCGUCUGUAAAGGCGGGCGAGGAUUGAAAC
+Geobacter_uraniiredu.1             GAAGCGCCCGCCUUCAAUGGCGGGCGAGGAUUGAAAC
+#=GC SS_cons                       ....<<<<<<<<<....>>>>>>>>>...........
+#=GC RF                            GuAgCgCCCGgccacaAggcCGGGcGAGGAUUGAAAc
+//

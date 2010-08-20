@@ -1,0 +1,56 @@
+# STOCKHOLM 1.0
+#=GF ID    ApoB_5_CRE
+#=GF AC    RF00463
+#=GF DE    Apolipoprotein B (apoB) 5' UTR cis-regulatory element
+#=GF AU    Moxon SJ
+#=GF GA    30.0
+#=GF NC    0.0
+#=GF TC    37.1
+#=GF SE    PMID:15157107
+#=GF SS    Published; PMID:15157107
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000204 SO:five_prime_UTR
+#=GF RN    [1]
+#=GF RM    15157107
+#=GF RT    Translational control of apolipoprotein B mRNA: regulation via cis
+#=GF RT    elements in the 5' and 3' untranslated regions.
+#=GF RA    Pontrelli L, Sidiropoulos KG, Adeli K;
+#=GF RL    Biochemistry 2004;43:6734-6744.
+#=GF CC    This family represents an apolipoprotein B (apoB) cis regulatory element
+#=GF CC    located in the 5' UTR of apoB mRNA. The element is important for optimal
+#=GF CC    translation [1].
+#=GF WK    http://en.wikipedia.org/wiki/Apolipoprotein_B_(apoB)_5'_UTR_cis-regulatory_element
+#=GF SQ    5
+
+#=GS M.mulatta.1 AC    AANU01117284.1/2339-2465
+#=GS H.sapiens.1 AC    X04714.1/1-127
+#=GS H.sapiens.2 AC    ABBA01045079.1/69050-69176
+#=GS H.sapiens.3 AC    AJ331299.1/76-203
+#=GS H.sapiens.4 AC    X16152.1/899-1020
+
+M.mulatta.1             AUUCCCACCGGGACCUGCGGGGCUGAGUGCCCUUCUCGGUUGCUGUCGCU
+H.sapiens.1             AUUCCCACCGGGACCUGCGGGGCUGAGUGCCCUUCUCGGUUGCUGCCGCU
+H.sapiens.2             AUUCCCACCGGGACCUGCGGGGCUGAGUGCCCUUCUCGGUUGCUGCCGCU
+H.sapiens.3             AUUCCCCCCGAUAGAUACGGGGUUUAGUGCCCUUAUCGGUUCCGGCCGAU
+H.sapiens.4             AUUCCCACCGGGACCUGCGGGGCUGAGUGCCCUUCUCGGUUGCUGCCGCU
+#=GC SS_cons            ..<<<<...>>>>..<<<<<<<<<<.<<<..<<<<<<<<<.......>>>
+#=GC RF                 AUuccCaccGggagaugCGGGGcugAguGccCugcucgguUgcuGccgcu
+
+M.mulatta.1             GAAGAGCCCGCCCAGCCAGCCAGGGCCGCGAGGCCGAGGCCAGGCCGCA.
+H.sapiens.1             GAGGAGCCCGCCCAGCCAGCCAGGGCCGCGAGGCCGAGGCCAGGCCGCA.
+H.sapiens.2             GAGGAGCCCGCCCAGCCAGCCAGGGCCGCGAGGCCGAGGCCAGGCCGCA.
+H.sapiens.3             CAGCAGACCGGGCUUCCAGACAGGGCCGGGUGGCAGAGGCCAGGCCGCAC
+H.sapiens.4             GAGGAGCCCGCCCAGCCAGCCAGGGCCGCGAGGCCGAGGCCAGGCCGCA.
+#=GC SS_cons            >>>>>>..>>>.>>>>>.<<<..<<<<....>>>>..>>>....>>>>>.
+#=GC RF                 gagcaGacCgcgcagCCAGcCAGgGCCGgGaGGCcGAGgCcAGGCCGca.
+
+M.mulatta.1             GCCCAGGAGCCGCCCCACCGCAGCCGGC
+H.sapiens.1             GCCCAGGAGCCGCCCCACCGCAGCUGGC
+H.sapiens.2             GCCCAGGAGCCGCCCCACCGCAGCUGGC
+H.sapiens.3             GCCCUGGAGCCGCGCCACCGCAGCUGGU
+H.sapiens.4             GCCCAGGAGCCGCCCCACCGCA...G..
+#=GC SS_cons            <<<....<<<.<<......>>.>>>>>>
+#=GC RF                 gcCcaGGaGccGCgccAccGCAgCuGgc
+//

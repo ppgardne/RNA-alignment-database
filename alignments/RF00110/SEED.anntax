@@ -1,0 +1,57 @@
+# STOCKHOLM 1.0
+#=GF ID    RybB
+#=GF AC    RF00110
+#=GF DE    RybB RNA
+#=GF AU    Bateman A
+#=GF GA    40.0
+#=GF NC    24.6
+#=GF TC    44.2
+#=GF SE    Gottesman S, Storz G
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; sRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000655 SO:ncRNA
+#=GF RN    [1]
+#=GF RM    11445539
+#=GF RT    Identification of novel small RNAs using comparative genomics and
+#=GF RT    microarrays.
+#=GF RA    Wassarman KM, Repoila F, Rosenow C, Storz G, Gottesman S;
+#=GF RL    Genes Dev 2001;15:1637-1651.
+#=GF CC    This ncRNA was identified in a large scale screen of E. coli [1].
+#=GF CC    The function of this short RNA is unknown. The exact 5' and 3'
+#=GF CC    ends of this RNA are uncertain.
+#=GF WK    http://en.wikipedia.org/wiki/RybB_RNA
+#=GF SQ    8
+
+#=GS Pectobacterium_atros.1 AC    BX950851.1/3019344-3019423
+#=GS Photorhabdus_lumines.1 AC    BX571864.1/148741-148819
+#=GS Salmonella_enterica_.1 AC    CP000026.1/1968331-1968409
+#=GS Serratia_proteamacul.1 AC    CP000826.1/1795605-1795684
+#=GS S.glossinidius.1       AC    AP008232.1/1511284-1511362
+#=GS Yersinia_pestis_biov.1 AC    AE017042.1/1382184-1382264
+#=GS marine_metag.1         AC    AACY020520751.1/570-648
+#=GS marine_metag.2         AC    AACY022102840.1/831-905
+
+Pectobacterium_atros.1             ACUGCUUUUCUUUGAU.UCCCCUUAUUGAGGAAGCCCAUCGUUCCCGCC.
+Photorhabdus_lumines.1             ACUGCUUUUCUUUGAUAUCCCCAUAUUGAGGA.ACCCGAUAGUCAAUCC.
+Salmonella_enterica_.1             ACUGCUUUUCUUUGAUGUCCCCAUUUUGUGGA.GCCCAUCAACCCCGCC.
+Serratia_proteamacul.1             ACUGCUUUUCUUUGAUGUCCCCAUUUUGUGGA.GCCCGUUAGUCCCGCCU
+S.glossinidius.1                   ACUGCUUUUCUUUGAUGUCCCCAUUUUGAGGA.GCCCAAGCGUCCCGCC.
+Yersinia_pestis_biov.1             ACUGCUUUUCUUUGAUGUCCCCAUAUUGAGGA.GCCCGGUAGUCCCGCC.
+marine_metag.1                     ACUGCUUUUCUUUGAUGUCCCCAUUUUGUGGA.GCCCGAUAAUCCCGCC.
+marine_metag.2                     ACUGCUUUUCUUUGAUGUCCCCAAUUUGUGGA.GCCCAUCAACCCCGCC.
+#=GC SS_cons                       ...............................<.<<<<<<<<<<<......
+#=GC RF                            ACUGCUUUUCUUUGAUaUCCCCAUaUUGaGGA.aCCCgacAgcCaauCC.
+
+Pectobacterium_atros.1             UU.UCAGGUUCAAGAGC.GAUGGGCGUUUUCUUU
+Photorhabdus_lumines.1             AU.UUUGGUUCGAGACU.AUCGGGU.UUUUUUAU
+Salmonella_enterica_.1             AU.UUCGGUUCAAGGUU.GGUGGGU.UUUUUGUU
+Serratia_proteamacul.1             AU.UUAGGUUCAAGACU.AGCGGGU.UUUUUAUU
+S.glossinidius.1                   UA.UUAGGUUCAAGACG.CUUGGUU.UUUUUAUU
+Yersinia_pestis_biov.1             UUCUUAGGUUCAAGACUAACCGGGU.UUUUUCUU
+marine_metag.1                     UU.UUAGGUUCAAGAUU.AUCGGGU.UUUUUGUU
+marine_metag.2                     GU.UUUGGUUCAAGGUU.GAUGGGU.UUU....U
+#=GC SS_cons                       .............>>>>.>>>>>>>.>.......
+#=GC RF                            AU.UUuGGUUCaAGgcU.gucGGGu.UUUUUuaU
+//

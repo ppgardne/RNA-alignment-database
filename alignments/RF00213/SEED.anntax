@@ -1,0 +1,126 @@
+# STOCKHOLM 1.0
+#=GF ID    snoR38
+#=GF AC    RF00213
+#=GF DE    Small nucleolar RNA R38
+#=GF AU    Griffiths-Jones SR
+#=GF GA    28.0
+#=GF NC    27.6
+#=GF TC    28.0
+#=GF SE    INFERNAL
+#=GF SS    Predicted; PFOLD, Griffiths-Jones SR
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Mus_musculus300946
+#=GF DR    snoopy; Oryzias_latipes300090
+#=GF RN    [1]
+#=GF RM    7667877
+#=GF RT    Antisense snoRNAs: a family of nucleolar RNAs with long
+#=GF RT    complementarities to rRNA.
+#=GF RA    Bachellerie JP, Michot B, Nicoloso M, Balakin A, Ni J, Fournier MJ;
+#=GF RL    Trends Biochem Sci 1995;20:261-264.
+#=GF RN    [2]
+#=GF RM    11266566
+#=GF RT    Identification of 10 novel snoRNA gene clusters from Arabidopsis
+#=GF RT    thaliana.
+#=GF RA    Qu LH, Meng Q, Zhou H, Chen YQ, Liang-Hu Q, Qing M, Hui Z, Yue-Qin C;
+#=GF RL    Nucleic Acids Res 2001;29:1623-1630.
+#=GF RN    [3]
+#=GF RM    12736310
+#=GF RT    The high diversity of snoRNAs in plants: identification and
+#=GF RT    comparative study of 120 snoRNA genes from Oryza sativa.
+#=GF RA    Chen CL, Liang D, Zhou H, Zhuo M, Chen YQ, Qu LH;
+#=GF RL    Nucleic Acids Res 2003;31:2601-2613.
+#=GF CC    snoR38 is a C/D box small nucleolar RNA conserved across yeast [1], 
+#=GF CC    human, Arabidopsis [2] and rice [3].  It is encoded in the intron of 
+#=GF CC    elongation factor-1 gamma in both pombe and cerevisiae.  snoR38 guides 
+#=GF CC    the methylation of 2'-O-ribose sites in 28S rRNA.
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_R38
+#=GF SQ    19
+
+#=GS D.hansenii.1           AC    CR382136.2/1336867-1336952
+#=GS Ashbya_gossypii_ATCC.1 AC    AE016817.4/964344-964446
+#=GS C.glabrata.1           AC    CR380952.1/649758-649867
+#=GS S.cerevisiae.1         AC    Z28081.1/853-955
+#=GS D.melanogaster.1       AC    AC004288.1/11652-11734
+#=GS D.melanogaster.2       AC    AC004288.1/10223-10308
+#=GS T.nigroviridis.1       AC    BX629359.1/12513-12582
+#=GS M.musculus.1           AC    AL606506.11/153468-153543
+#=GS M.musculus.2           AC    AJ543400.1/2-75
+#=GS M.musculus.3           AC    AJ543402.1/2-77
+#=GS M.musculus.4           AC    AJ543401.1/2-76
+#=GS H.sapiens.1            AC    AJ543324.1/2-73
+#=GS H.sapiens.2            AC    AJ543325.1/2-85
+#=GS H.sapiens.3            AC    AK123993.1/1023-1100
+#=GS H.sapiens.4            AC    AJ543326.1/2-79
+#=GS O.sativa.1             AC    AJ490371.1/1-92
+#=GS O.sativa.2             AC    AJ490356.1/2-91
+#=GS A.thaliana.1           AC    AB020755.1/17473-17565
+#=GS A.thaliana.2           AC    AJ276575.1/7-100
+
+D.hansenii.1                       UUGUUUA.CGUGAUGAGAGAUUUUUUCAUAU.UUAUACAGUUAUCCCUGU
+Ashbya_gossypii_ATCC.1             CCCUAGU..GUGAUGAGAAAACCUUUCGA...AAAAACAGUUAUCCCUGU
+C.glabrata.1                       UUCUAAU..AUGAUGAGAACCUUUUUACAGUAUUUUACAGUUAUCCCUGU
+S.cerevisiae.1                     AAACAUA..AUGAUGAAAAAAAAUUUUA....UCAAACAGUUAUCCCUGU
+D.melanogaster.1                   UAUGAUG...UGAUGAACACCUUAUUUAAG..CCAAACAGUUAUCCCUGU
+D.melanogaster.2                   AUAUGGGCAAUGAUGAACACUUUAUUUAAG..CCAAACAGUUAUCCCUGU
+T.nigroviridis.1                   UGUAGCC.AAUGAUGAUACA..................AGUUAUCCCUGU
+M.musculus.1                       GACAGCU.GAGGAUGAUUUA..................AGUUAUCCCUGU
+M.musculus.2                       AUAAGCC.UAUGAUGGAUUG...................GUUAUCCCUGU
+M.musculus.3                       UUGAGCU.GAGGAUGAUUUA..................AGUUAUCCCUGU
+M.musculus.4                       UUGAGCU.GAGGAUGAUUUA..................AGUUAUCCCUGU
+H.sapiens.1                        ACAAGCC.UAUGAUGGUUA....................GUUAUCCCUGU
+H.sapiens.2                        CUGAGUC.CAUGAUGAUUUCAA.................GUUAUCCCUGU
+H.sapiens.3                        CUGAGCU.GAGGAUGAUUUAAA.................GUUAUCCCUGU
+H.sapiens.4                        AUGAGCU.GAGGAUGAUUUAAA.................GUUAUCCCUGU
+O.sativa.1                         AGAUGUG.GAUGAUGAAAUCACAAGUGA....AAAUACAGUUAUCCCUGU
+O.sativa.2                         CAAGGUG.AAUGAUGAAAUCACAAGU......AAAUACAGUUAUCCCUGU
+A.thaliana.1                       GAUUGUG.GAUGAUGAGAACAAAUAUGA....AAAAACAGUUAUCCCUGU
+A.thaliana.2                       UGUUUUG.GAUGAUGAGAAACAAAAAUCA...AAAUACAGUUAUCCCUGG
+#=GC SS_cons                       <<<<<<<...........................................
+
+D.hansenii.1                       CUUAA......................UACAUUAUGUCGAGAAUA...UU
+Ashbya_gossypii_ATCC.1             CUGAAUGGGCAUAAUAUCUGG....UUGCACAUGUGUCGAGAGAC..CAU
+C.glabrata.1                       CUGAAUGGGUUAACAAAAUGGUAAUAAACUCAUAUGUCGAUGAAU..UAU
+S.cerevisiae.1                     CUGAAUGGGUAAUAAUAGGUAA...CCUCUCAUAUGUUGAUAUUU..GUA
+D.melanogaster.1                   CAUAA......................GAAUAAUUGAUGAUAUAU....U
+D.melanogaster.2                   CAUAA......................GAAUAAUUGAUGAUAAAA....G
+T.nigroviridis.1                   CUGAA.......................CUGAAGUGUGGAGUUGU..GGU
+M.musculus.1                       CUGAA.AUG................ACACUUUUGUGAAGAGUCAU..GGU
+M.musculus.2                       CUGAA....................GAUUUCAGCUGAGGGAAAAUACUCU
+M.musculus.3                       CUGAA.AUG................ACACUUUUGUGAAGAGUCAU..GGU
+M.musculus.4                       CUGAA..AU................GACACUUUCUGAAGAGUCAU..GGU
+H.sapiens.1                        CUGAA....................AAUCUGGACUGAGGGAAAUAA.UCU
+H.sapiens.2                        CUGAAGGCAAAGAA...........AGGCCUUUCUGUGUGGAAUUU.GAA
+H.sapiens.3                        CUGAAAUGG................UAUCUUUUGUGAGGAGGUCU..GAC
+H.sapiens.4                        CUGAAAUGG................UAUCUUUUGUGAGGAGGUCU..GAC
+O.sativa.1                         CUGAUUCCU................UCAUAAGGGUGCUGAGAAUAC.UUU
+O.sativa.2                         CUGAUUCCU................UUCUAAGGGUGCUGAGAAUAC.UUA
+A.thaliana.1                       CUGAGGAUUUU..............AAUCCCUU.UGAUGAUUCAUU.UGU
+A.thaliana.2                       CUUAGGGUUUA..............AAGCCCGU.UGCUGAGUCUUU.UGU
+#=GC SS_cons                       ..................................................
+
+D.hansenii.1                       AUUCUGA.AAAUAA
+Ashbya_gossypii_ATCC.1             ACUCUGAUUUAGAG
+C.glabrata.1                       ACUCUGAAUUUAGA
+S.cerevisiae.1                     UUUCUGAUAUGUUU
+D.melanogaster.1                   CAGCUGACAACAUA
+D.melanogaster.2                   UUGCUGAUUCAUAU
+T.nigroviridis.1                   AACCUGAGGCUCAG
+M.musculus.1                       UUACUGAGGCUCGA
+M.musculus.2                       AUUCUGAGGCUUAG
+M.musculus.3                       UUACUGAGGCUCGA
+M.musculus.4                       UUACUGAGGCUCGA
+H.sapiens.1                        AUUCUGAGGCUUAA
+H.sapiens.2                        UAUCUGAAACUCAG
+H.sapiens.3                        UUGCUGAGGCUCAG
+H.sapiens.4                        UUGCUGAGGCUCAG
+O.sativa.1                         AAUCUGACACAGUU
+O.sativa.2                         AAUCUGACACAUUA
+A.thaliana.1                       AAUCUGACACAACC
+A.thaliana.2                       AAUCUGACACACAU
+#=GC SS_cons                       .......>>>>>>>
+//

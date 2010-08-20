@@ -1,0 +1,94 @@
+# STOCKHOLM 1.0
+#=GF ID    TMV_UPD-PK3
+#=GF AC    RF01072
+#=GF DE    Pseudoknot of upstream pseudoknot domain (UPD) of the 3'UTR
+#=GF AU    Wilkinson A
+#=GF GA    23.0
+#=GF NC    22.6
+#=GF TC    23.2
+#=GF SE    Pseudobase
+#=GF SS    Pseudobase
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    PKBASE; PKB00055
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    3934645
+#=GF RT    Five pseudoknots are present at the 204 nucleotides long 3' noncoding
+#=GF RT    region of tobacco mosaic virus RNA.
+#=GF RA    van Belkum A, Abrahams JP, Pleij CW, Bosch L;
+#=GF RL    Nucleic Acids Res. 1985;13:7673-7686.
+#=GF RN    [2]
+#=GF RM    8355685
+#=GF RT    A phylogenetically conserved sequence within viral 3' untranslated
+#=GF RT    RNA pseudoknots regulates translation.
+#=GF RA    Leathers V, Tanguay R, Kobayashi M, Gallie DR;
+#=GF RL    Mol Cell Biol. 1993;13:5331-5347.
+#=GF RN    [3]
+#=GF RM    8608444
+#=GF RT    A central pseudoknotted three-way junction imposes tRNA-like mimicry
+#=GF RT    and the orientation of three 5' upstream pseudoknots in the 3'
+#=GF RT    terminus of tobacco mosaic virus RNA.
+#=GF RA    Felden B, Florentz C, Giege R, Westhof E;
+#=GF RL    RNA. 1996;2:201-212.
+#=GF WK    http://en.wikipedia.org/wiki/UPSK_RNA
+#=GF SQ    27
+
+#=GS uncul.human.fecal.vi.1 AC    AAMG01000647.1/78-108
+#=GS Tobamovirus.1          AC    S68164.1/1326-1356
+#=GS Oat_golden_stripe_vi.1 AC    AJ132578.1/6804-6834
+#=GS Barley_stripe_mosaic.1 AC    X52774.1/2980-3010
+#=GS Poa_semilatent_virus.1 AC    M81486.1/3404-3434
+#=GS Beet_virus_Q.1         AC    AJ223597.1/2737-2767
+#=GS Beet_soil-borne_viru.1 AC    Z97873.1/5659-5689
+#=GS Beet_virus_Q.2         AC    AJ223596.1/5826-5856
+#=GS Tobacco_mosaic_virus.1 AC    AF155507.2/6248-6278
+#=GS Kyuri_green_mottle_m.1 AC    AJ295948.1/6376-6406
+#=GS Cucumber_fruit_mottl.1 AC    AF321057.1/6425-6455
+#=GS Pepper_mild_mottle_v.1 AC    X72587.1/563-593
+#=GS Odontoglossum_ringsp.1 AC    X82130.1/6266-6296
+#=GS Tobacco_mild_green_m.1 AC    AF103782.1/729-757
+#=GS Obuda_pepper_virus.1   AC    D13438.1/6370-6402
+#=GS Paprika_mild_mottle_.1 AC    AB089381.1/6287-6317
+#=GS Frangipani_mosaic_vi.1 AC    AF165884.2/2227-2257
+#=GS Youcai_mosaic_virus.1  AC    U30944.1/6092-6122
+#=GS Cucumber_green_mottl.1 AC    AB127937.1/964-994
+#=GS Ribgrass_mosaic_viru.1 AC    AF103781.1/547-576
+#=GS Cucumber_mottle_viru.1 AC    AB261167.1/6350-6380
+#=GS Streptocarpus_flower.1 AC    AM040955.1/6093-6123
+#=GS Brugmansia.1           AC    AM398436.1/6246-6275
+#=GS C.tobamovirus.1        AC    AB017503.1/6087-6117
+#=GS Maracuja_mosaic_viru.1 AC    DQ356949.1/6642-6672
+#=GS Wild_cucumber_mosaic.1 AC    AF035633.1/1264-1294
+#=GS Nemesia_ring_necrosi.1 AC    AY751781.1/621-651
+
+uncul.human.fecal.vi.1             AGUG..UUUUUCCCUCCACUUAAAUCGAAGGAU
+Tobamovirus.1                      AGUG..UUUUUCUCUCCACUUGAAUCGAAGAGA
+Oat_golden_stripe_vi.1             AGUG..CUUUCCAGUUCACUUAAAUAGAACUGG
+Barley_stripe_mosaic.1             AGUG..UUUGCAAGUCCACUAUAAUCGAACUUG
+Poa_semilatent_virus.1             AGUG..UUUUCAUGUCCACUUAAAUCGAACAUG
+Beet_virus_Q.1                     AGUG..UUUUUCGUUCCACUUAAAUCGAAACGA
+Beet_soil-borne_viru.1             AGUG..UUUUGAAGUCCACUUAAAUAGAACUUC
+Beet_virus_Q.2                     AGUG..UUUGCCGUUCCACUUAAAUCGAAACGG
+Tobacco_mosaic_virus.1             AGUG..UUUUUCCCUCCACUUAAAUCGAAGGGU
+Kyuri_green_mottle_m.1             AGAG..UUUUUCCCUCCUCUUAAAUCGAAGGGC
+Cucumber_fruit_mottl.1             AGAG..UUUUUCCCUCCUCUUAAAUCGAAGGGA
+Pepper_mild_mottle_v.1             AGUG..UUUUUCCCUCCACUUAAAUCGAAGGGU
+Odontoglossum_ringsp.1             AGUG..GCUAUCCCUCCACUUAAAUCGAAGGGU
+Tobacco_mild_green_m.1             AGUG...UUUUCCCUCCACUUAAAUCGAAGGG.
+Obuda_pepper_virus.1               AGUGUUUUUUUCCCUCCACUUAAAUCGAAGGGU
+Paprika_mild_mottle_.1             AGUG..UUUAUCCCUCCACUUAAAUCGAAGGGC
+Frangipani_mosaic_vi.1             AGUG..UUUUUCUGUCCACUUAAAUCGAACAGA
+Youcai_mosaic_virus.1              AGUG..UUUUUCUCUCCACUUAAAUCGAAGAGA
+Cucumber_green_mottl.1             AGUG..CUUUCCCGUUCACUUAAAUCGAACGGU
+Ribgrass_mosaic_viru.1             AGUG..UUUUUCUCUCCACUUAAAUCGAAGAG.
+Cucumber_mottle_viru.1             AGUG..UUUUUCCGUCCACUUAAAUCGAACGGC
+Streptocarpus_flower.1             AGUG..UUUUAUCCUCCACUUAAAUCGAAGGAU
+Brugmansia.1                       AGUG...UUUACUCUCCACUUAAAUCGAAGAGU
+C.tobamovirus.1                    AGUG..UUUUCCUCUCCACUUAAAUCGAAGAGG
+Maracuja_mosaic_viru.1             UGUU..UAUUCCGUUCCACUGAAAUCGAAACGG
+Wild_cucumber_mosaic.1             AGUG..UUUUCGGCUCCACUUAAAUCGAAGCCC
+Nemesia_ring_necrosi.1             AGUG..UUUCGGCUUCCACUUAAAUCGAAAGCC
+#=GC SS_cons                       <<<<......AAAAAA>>>>......a.aaaaa
+//

@@ -1,0 +1,37 @@
+# STOCKHOLM 1.0
+#=GF ID    snR58
+#=GF AC    RF01199
+#=GF DE    Small nucleolar RNA snR58
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    22.0
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    snornadb; snR58
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Saccharomyces_cerevisiae300024
+#=GF WK    http://en.wikipedia.org/wiki/SnoRNA
+#=GF SQ    3
+
+#=GS S.cerevisiae.1         AC    AJ223032.1/9-104
+#=GS Saccharomyces_bayanu.1 AC    AACA01000158.1/4156-4253
+#=GS Saccharomyces_mikata.1 AC    AABZ01000203.1/11569-11665
+
+S.cerevisiae.1                     CUUUAUGAUGAUAUUCUUUACGAACUUUU.AGACGUUAGACUUCUGAAGG
+Saccharomyces_bayanu.1             UCCUAAGAUGAUAUUCUUUACGAGCUUUUUGGACGUUAGACUUCUUAAGU
+Saccharomyces_mikata.1             UUUUAUGAUGAUAUCCUUUACGAACUUUUCAGACGUUAGACUUCUGAAGG
+#=GC SS_cons                       ..................................................
+#=GC RF                            uUUUAUGAUGAUAUuCUUUACGAACUUUUcAGACGUUAGACUUCUGAAGG
+
+S.cerevisiae.1                     AGAUUAGACCCUCCUAUGGAAGAGAAACUC.GUUAAACUUAUCUGAGU
+Saccharomyces_bayanu.1             AGAUUAGGUUAUCUUGUGAAAGAGAAACUCACCCCAACAAGUCUACAU
+Saccharomyces_mikata.1             AGAUUAGACCCUCCUGUGGAAGAGAAACUC.GUUUAACUUAUCUGAAU
+#=GC SS_cons                       ................................................
+#=GC RF                            AGAUUAGACCCUCCUaUGGAAGAGAAACUC.GUUaAACUUAUCUGAaU
+//

@@ -1,0 +1,98 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-384
+#=GF AC    RF00841
+#=GF DE    microRNA mir-384
+#=GF AU    Wilkinson A
+#=GF GA    26.0
+#=GF NC    26.0
+#=GF TC    26.0
+#=GF SE    miRBase; Wilkinson A, Daub J
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000289
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    17
+
+#=GS L.africana.1           AC    AAGU02527346.1/1674-1762
+#=GS O.cuniculus.1          AC    AAGW01425736.1/3157-3255
+#=GS O.princeps.1           AC    AAYZ01615936.1/1412-1500
+#=GS C.porcellus.1          AC    AAKN02020573.1/67489-67587
+#=GS M.musculus.1           AC    CAAA01218287.1/25473-25560
+#=GS R.norvegicus.1         AC    AAHX01093778.1/1786-1883
+#=GS Spermophilus_tridece.1 AC    AAQQ01334929.1/3073-3171
+#=GS M.mulatta.1            AC    AANU01174943.1/9038-9125
+#=GS H.sapiens.1            AC    Z84470.1/130295-130382
+#=GS P.troglodytes.1        AC    AACZ02065546.1/5853-5942
+#=GS M.murinus.1            AC    ABDC01432121.1/585-672
+#=GS Otolemur_garnettii_s.1 AC    AAQR01656858.1/1013-1107
+#=GS C.lupus.1              AC    AAEX02026444.1/6334-6431
+#=GS F.catus.1              AC    AANG01128599.1/11804-11891
+#=GS B.taurus.1             AC    AAFC03097915.1/116663-116760
+#=GS M.lucifugus.1          AC    AAPE01279634.1/8541-8628
+#=GS Dasypus_novemcinctus.1 AC    AAGV020551934.1/1830-1927
+
+L.africana.1                       GGUGUGAUAAGGAAUUGUAAAUAACU.CCAGGGUAAUGUU.UAAAAUGGU
+O.cuniculus.1                      UGUUAUAUCAGGCAUUAUGAAUAAUU.CCUAGGCAAUAUU.UAGAAUGGC
+O.princeps.1                       UUUAAAUUCAGGAAUUGU.AACAAUUCCCUAGGCAAUGUGUUAUAAUGUU
+C.porcellus.1                      UGUUAUACCAGGCAUCAUAAAUAAUU.CUUAGGCAAUAUU.UAAAAUGGC
+M.musculus.1                       UGUUAAAUCAGGAAUUGUAAACAAUU.CCUAGGCAAUGUG.UAUAAUGUU
+R.norvegicus.1                     UAUUAUAUCAGGCAUUAUAAAUAAUU.UCUAGGCAAUUUU.UAAAAUGAC
+Spermophilus_tridece.1             UGUCAUAUCAGGCAAUAUAAAUAAUU.UCUGGGCAAUAUU.CAGAAGGAC
+M.mulatta.1                        UGUUAAAUUAGGAAUUGUAAACAAUU.CCUAGGCAAUAUG.UAUAAUGUU
+H.sapiens.1                        UGUUAAAUCAGGAAUUUUAAACAAUU.CCUAGACAAUAUG.UAUAAUGUU
+P.troglodytes.1                    GAAUCAAUCUGGCAUUAUAAACAAUU.CAAAGGCAAUUUU.UAGAAUGAA
+M.murinus.1                        UGUUAAAUCAGGAAUUGUAAACAAUU.CCUAGGCAAUGUG.UAUAAUGUU
+Otolemur_garnettii_s.1             UGUUGUAUCAGGCAUUAUAAAUAAUU.CCUAGGCAAUAUU.UAGAAUGGC
+C.lupus.1                          UGUUAUAUCAGGCAUUAUAAAUAAUU.CCUAGGCAAUAUU.UAGAAUGGC
+F.catus.1                          UGUUAAAUCAGACUUUGCAAACAAUU.CCUAGGCAAAACU.UAAAAGGCC
+B.taurus.1                         UGUUAUAUCAGGCAUUAUAAAUAAUU.CCCAGGCAAUAUU.UAGAAUGGC
+M.lucifugus.1                      GGUGUGAUUAGGGAGUGUAAAUAAUU.UCUGAGUAAUGUU.UAAAAUAGC
+Dasypus_novemcinctus.1             UGUUAUAUUAGGCAUUAUAAAUAAUU.CCUAGGCAAUAUU.UAGACUGGC
+#=GC SS_cons                       ........<<<<.<<<<<.<<<<<<<..<<<<<.<<<....<<.......
+#=GC RF                            UGuuAaAUcAGGaAuuguAAAcaAuu.CcuaGGCAAugUu.uauAAUGac
+
+L.africana.1                       CACAAAC.....AGUUC.CCUAGA..........AACUAUUCACAAUG.C
+O.cuniculus.1                      UGAAAGC.....CAUUU.UUA.GGAUUGGCAAAGAAUUAUUUACAAUACC
+O.princeps.1                       UGUAAGU.....CAUUC.CUA.GA..........AAUUGUUCACAAUG.C
+C.porcellus.1                      UGCAAGC.....CAUUU.UUA.UGAUUGAUUCAGAAUUAUUUACAAUGUC
+M.musculus.1                       GGUAAGU.....CAUUC.CUA.GA..........AAUUGUUCACAAUG.C
+R.norvegicus.1                     UGCAAGA.....CAGUU.UUA.GGAUUGGCUAAGUGUUAUUUACAGUA.U
+Spermophilus_tridece.1             UGCAAGC.....UGUUU.UUA.GGACUGGCUAAAACUUAUUUACAAUACC
+M.mulatta.1                        CAUAAGA.....CAUUC.CUA.GA..........AAUUGUUCAUAAUG.C
+H.sapiens.1                        CAUAAGU.....CAUUC.CUA.GA..........AAUUGUUCAUAAUG.C
+P.troglodytes.1                    AGCAAGC.....AAUUCUCUA.UG..........AAUCCUUUACAAUGCC
+M.murinus.1                        UGUAAGU.....CAUUC.CUA.GA..........AAUUGUUCACAAUG.C
+Otolemur_garnettii_s.1             UGCAAGCCAUAGAAUUGGCUA.AG..........AAUUAUUUCAAAUACC
+C.lupus.1                          UGCAAGC.....CAUUU.UUA.GAAUUGGAAGAGAAUUAUUUACAAUA.C
+F.catus.1                          UGAAAGC.....AUUUU.UUA.GA..........AGCUAUUUACAAGG.C
+B.taurus.1                         CACAAGC.....CAUUU.UUA.GGAUUGGUUGAGAAUUAUUUACAAUA.C
+M.lucifugus.1                      CAUAAAC.....AGUUCCCUA.GA..........GAGUAUCCACAC.A.C
+Dasypus_novemcinctus.1             UGCAAGC.....CAAUU.UUA.GAAUUGGCUAAGAAUUAUUUACAAUA.C
+#=GC SS_cons                       ..>>.........>>>>.>>>.>...........>>>>>>>.>>>>>..>
+#=GC RF                            uauaAGu.....caUUC.Cua.gA..........aaUugUUuacaaUa.C
+
+L.africana.1                       CUCCAUUA
+O.cuniculus.1                      CUGCUCAC
+O.princeps.1                       CUGUAACA
+C.porcellus.1                      CUGCUCAA
+M.musculus.1                       CUGUAACA
+R.norvegicus.1                     CUUGCCCA
+Spermophilus_tridece.1             CUGUUCAC
+M.mulatta.1                        CUGUAACA
+H.sapiens.1                        CUGUAACA
+P.troglodytes.1                    CAGAAUAA
+M.murinus.1                        CUGUAACA
+Otolemur_garnettii_s.1             CUGCUCCC
+C.lupus.1                          CUUGCUCA
+F.catus.1                          CUGAAUUA
+B.taurus.1                         CCAACUCG
+M.lucifugus.1                      CUGCAUUA
+Dasypus_novemcinctus.1             UUUUACAA
+#=GC SS_cons                       >>>.....
+#=GC RF                            CUgaauaA
+//

@@ -1,0 +1,143 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-135
+#=GF AC    RF00246
+#=GF DE    mir-135 microRNA precursor family
+#=GF AU    Griffiths-Jones SR, Daub J
+#=GF GA    41.0
+#=GF NC    26.0
+#=GF TC    51.1
+#=GF SE    Griffiths-Jones SR, INFERNAL
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    MIR; MI0000161
+#=GF DR    MIR; MI0000452
+#=GF DR    MIR; MI0000453
+#=GF DR    MIR; MI0000645
+#=GF DR    MIR; MI0000646
+#=GF DR    MIR; MI0000715
+#=GF DR    MIPF; MIPF0000028
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF RN    [1]
+#=GF RM    12007417
+#=GF RT    Identification of tissue-specific microRNAs from mouse.
+#=GF RA    Lagos-Quintana M, Rauhut R, Yalcin A, Meyer J, Lendeckel W, Tuschl T;
+#=GF RL    Curr Biol 2002;12:735-739.
+#=GF RN    [2]
+#=GF RM    14691248
+#=GF RT    Identification of many microRNAs that copurify with polyribosomes in
+#=GF RT    mammalian neurons.
+#=GF RA    Kim J, Krichevsky A, Grad Y, Hayes GD, Kosik KS, Church GM, Ruvkun G;
+#=GF RL    Proc Natl Acad Sci U S A 2004;101:360-365.
+#=GF CC    miR-135 has been shown to be expressed in human (MIR:MI0000452,
+#=GF CC    MIR:MI0000453), mouse (MIR:MI0000161, MIR:MI0000646,
+#=GF CC    MIR:MI0000715) and rat (MIR:MI0000645) [1,2].  miR-135 has now
+#=GF CC    been predicted or experimentally confirmed in a wide range of
+#=GF CC    vertebrate species (MIPF:MIPF0000028). The hairpin precursors
+#=GF CC    (represented here) are predicted based on base pairing and
+#=GF CC    cross-species conservation -- their extents are not known.  In
+#=GF CC    this case the mature sequence is excised from the 5' arm of the
+#=GF CC    hairpin.
+#=GF WK    http://en.wikipedia.org/wiki/mir-135_microRNA_precursor_family
+#=GF SQ    30
+
+#=GS C.milii.1              AC    AAVX01101128.1/289-378
+#=GS O.latipes.1            AC    BAAF04047621.1/18411-18500
+#=GS Gasterosteus_aculeat.1 AC    AANH01002554.1/13804-13894
+#=GS T.rubripes.1           AC    CAAB01003403.1/16823-16913
+#=GS T.nigroviridis.1       AC    CAAE01014729.1/2152458-2152549
+#=GS D.rerio.1              AC    BX855597.6/51323-51414
+#=GS G.gallus.1             AC    AADN02044924.1/11762-11852
+#=GS A.carolinensis.1       AC    AAWZ01035952.1/6619-6709
+#=GS L.africana.1           AC    AAGU02576112.1/3375-3465
+#=GS E.telfairi.1           AC    AAIY01255743.1/1211-1301
+#=GS O.cuniculus.1          AC    AAGW01557502.1/200-290
+#=GS M.musculus.1           AC    AC125204.4/95972-96061
+#=GS M.musculus.2           AC    BC025935.1/2832-2921
+#=GS M.mulatta.1            AC    AY865878.1/475-564
+#=GS G.gorilla.1            AC    AY865880.1/464-553
+#=GS H.sapiens.1            AC    AC018659.35/133338-133427
+#=GS H.sapiens.2            AC    AC098936.2/102095-102185
+#=GS H.sapiens.3            AC    AC094021.2/73205-73294
+#=GS P.paniscus.1           AC    AY865877.1/420-509
+#=GS P.troglodytes.1        AC    AY865879.1/478-567
+#=GS P.pygmaeus.1           AC    AY865881.1/510-599
+#=GS Ateles_geoffroyi_bla.1 AC    AY865876.1/338-427
+#=GS L.lagotricha.1         AC    AY865882.1/491-580
+#=GS T.belangeri.1          AC    AAPY01288096.1/27-117
+#=GS C.lupus.1              AC    AAEX02008105.1/7518-7608
+#=GS F.catus.1              AC    AANG01260705.1/5806-5894
+#=GS M.lucifugus.1          AC    AAPE01018078.1/3601-3690
+#=GS Dasypus_novemcinctus.1 AC    AAGV020089264.1/878-968
+#=GS Monodelphis_domestic.1 AC    AAFR03023061.1/3780-3870
+#=GS O.anatinus.1           AC    AAPN01269426.1/3254-3344
+
+C.milii.1                          ACUCGCUCCUGUGCUUUAUGGCUUUUUAUUCCUAUGUGAUU..GUGACAU
+O.latipes.1                        GUGCACCAUUGUGUAUUAUGGCUUUUUAUUCCUAUGUGAUG..GUGAAAA
+Gasterosteus_aculeat.1             AGCCACAUUUGUGUCUUAUGGCUUUCUAUUCCUAUGUGAGUU.GGUUUGG
+T.rubripes.1                       ACUCGCUGCUGUGUUUUAUGGCUUUCUAUUCCUAUGUGAUUU.UCUCUAG
+T.nigroviridis.1                   AACCACGAUUGUGUCUUAUGGCUUUCUAUUCCUAUGUGAGUUAUUUACAG
+D.rerio.1                          AAACACUACUGUGCUUUAUGGCUUUCUAUUCCUAUGUGAUUUUGAUAUGA
+G.gallus.1                         GCCCUCUGCUGUGGUCUAUGGCUUUUUAUUCCUAUGUGAUUG.CUUUUCC
+A.carolinensis.1                   GCCCUCUGCUGUGGUCUAUGGCUUUUUAUUCCUAUGUGAUUG.CUUUUCA
+L.africana.1                       CAUCUCUGCUGCGGCCUAUGGCUUUUCAUUCCUAUGUGAUUG.CUGUUCC
+E.telfairi.1                       CGGCUCCGCUGCGGCCUAUGGCUUUUCAUUCCUAUGUGAUUG.AUGUUCC
+O.cuniculus.1                      CAGCUCUGCUGUGGCCUAUGGCUUUUCAUUCCUAUGUGAUUG.CUCCUCC
+M.musculus.1                       AUUCACUCUAGUGCUUUAUGGCUUUUUAUUCCUAUGUGAUC..GUAAUAA
+M.musculus.2                       AGGCCUCACUGUUCUCUAUGGCUUUUUAUUCCUAUGUGAUU..CUAUUGC
+M.mulatta.1                        AUUCACUCUAGUGCUUUAUGGCUUUUUAUUCCUAUGUGAUA..GUAAUAA
+G.gorilla.1                        AUUCACUCUAGUGCUUUAUGGCUUUUUAUUCCUAUGUGAUA..GUAAUAA
+H.sapiens.1                        AUUCACUCUAGUGCUUUAUGGCUUUUUAUUCCUAUGUGAUA..GUAAUAA
+H.sapiens.2                        CCACUCUGCUGUGGCCUAUGGCUUUUCAUUCCUAUGUGAUUG.CUGUCCC
+H.sapiens.3                        AGGCCUCGCUGUUCUCUAUGGCUUUUUAUUCCUAUGUGAUU..CUACUGC
+P.paniscus.1                       AGGCCUCGCUGUUCUCUAUGGCUUUUUAUUCCUAUGUGAUU..CUACUGC
+P.troglodytes.1                    AUUCACUCUAGUGCUUUAUGGCUUUUUAUUCCUAUGUGAUA..GUAAUAA
+P.pygmaeus.1                       AUUCACUCUAGUGCUUUAUGGCUUUUUAUUCCUAUGUGAUA..GUAAUAA
+Ateles_geoffroyi_bla.1             AGGCCUCGCUGUUCUCUAUGGCUUUUUAUUCCUAUGUGAUU..CUACUGC
+L.lagotricha.1                     AUUCACUCUAGUGCUUUAUGGCUUUUUAUUCCUAUGUGAUA..GUAAUAA
+T.belangeri.1                      CAGCUCUGCUGUGGCCUAUGGCUUUUCAUUCCUAUGUGAUUG.CUGUUCC
+C.lupus.1                          CAGCUCUGCUGUGGCCUAUGGCUUUUCAUUCCUAUGUGAUUG.CUGUUUC
+F.catus.1                          AGGCCUCGCUGUUCUCUAUGGCUUU.UAUUCCUAUGUGAUU..CUACUGC
+M.lucifugus.1                      CAGCUCUGCUGUGGCCUAUGGCUUUUCAUUCCUAUGUGAUU..GCCGUUG
+Dasypus_novemcinctus.1             AUUCACUCUAGUGCUUUAUGGCUUUUUAUUCCUAUGUGAUAG.UAAUAAA
+Monodelphis_domestic.1             GCUCUCUGCUGUGGCCUAUGGCUUUUCAUUCCUAUGUGAUUG.CUGUUCC
+O.anatinus.1                       GCUCUCUGCUGUGGCCUAUGGCUUUUUAUUCCUAUGUGAUUG.CUGCUUU
+#=GC SS_cons                       ...<<<....<<<<<<<<<<<<<<<....<<<<<<<<<<...........
+#=GC RF                            AaaCcCuacuGugcucuAuGGCuuuUuAUuCCuAuguGAUu..guaauaa
+
+C.milii.1                          GAUCUCAUGUAGGGAGAGAAGCCAUGAAAUACACAGUGAGAA
+O.latipes.1                        AUGUUCAUGUAGGAACAGAAGCCAUUUUACACGUGGCGAUAC
+Gasterosteus_aculeat.1             CAUGUCAUGUAGGGUCUAAAGCCAUUAGAUACUCAGUGGACA
+T.rubripes.1                       CAUGUCACAUAGGGUCUAAAGCCAUUGGGUACAGAGUGGGAG
+T.nigroviridis.1                   CAGGUCAUGUAGGGUUUAAAGCCAUUGGACACGCGGUGGGCA
+D.rerio.1                          UGUAUCAUGUAGGGUUCAAAGCCAUUAGGUACAGAGUGGCUU
+G.gallus.1                         UAACUCAUGUAGGGCGAAAAGCCAUGGGCUACUCAGGGGAGG
+A.carolinensis.1                   UAACUCAUGUAGGGCUAAAAGCCAUGGGCUACACAGAGGAAU
+L.africana.1                       CAACUCAUGUAGGGCUAAAAGCCAUGGGCUACAGUGAGGGGC
+E.telfairi.1                       AAACUCAUGUAGGGCUAAAAGCCAUGGGCUACAGUGAGGGGC
+O.cuniculus.1                      AAACUCAUGUAGGGCUAAAAGCCAUGGGCUACAGUGAGGGGC
+M.musculus.1                       AGUCUCAUGUAGGGAUGGAAGCCAUGAAAUACAUUGUGAAAA
+M.musculus.2                       UCGCUCAUAUAGGGAUUGGAGCCGUGGCGUACGGUGAGGAUA
+M.mulatta.1                        AGUCUCAUGUAGGGAUGGAAGCCAUGAAAUACAUUGUGAAAA
+G.gorilla.1                        AGUCUCAUGUAGGGAUGGAAGCCAUGAAAUACAUUGUGAAAA
+H.sapiens.1                        AGUCUCAUGUAGGGAUGGAAGCCAUGAAAUACAUUGUGAAAA
+H.sapiens.2                        AAACUCAUGUAGGGCUAAAAGCCAUGGGCUACAGUGAGGGGC
+H.sapiens.3                        UCACUCAUAUAGGGAUUGGAGCCGUGGCGCACGGCGGGGACA
+P.paniscus.1                       UCACUCAUAUAGGGAUUGGAGCCGUGGCGCACGGCGGGGACG
+P.troglodytes.1                    AGUCUCAUGUAGGGAUGGAAGCCAUGAAAUACAUUGUGAAAA
+P.pygmaeus.1                       AGUCUCAUGUAGGGAUGGAAGCCAUGAAAUACAUUGUGAAAA
+Ateles_geoffroyi_bla.1             UCACUCAUAUAGGGAUUGGAGCCGUGGCGCACGGCGGGGACA
+L.lagotricha.1                     AGUCUCAUGUAGGGAUGGAAGCCAUGCACCACAUAAUGUAAA
+T.belangeri.1                      AAACUCAUGUAGGGCUAAAAGCCAUGGGCUACAGUGACCCAA
+C.lupus.1                          UAAUUCAUGUAGGGCUAAAAGCCAUGGGCUACAGUGAGGGGC
+F.catus.1                          UCACUCAUAUAGGGAUUGGAGCCGUGGCGCACGGGCGGGGGC
+M.lucifugus.1                      GAACUCAUGUAGGGCUAAAAGCCAUGGGCUACAGUGAGGGGC
+Dasypus_novemcinctus.1             AGUCUCAUGUAGGGAUGGAAGCCAUGAAAUACAUUGUGAAAA
+Monodelphis_domestic.1             CAACUCAUGUAGGGCUAAAAGCCAUGGGCUACAGGGAGGGGA
+O.anatinus.1                       GAACUCAUGUAGGGCUGAAAGCCAUGGGCUACAGAGAGGGGA
+#=GC SS_cons                       ....>>>>>>>>>>...>>>>>>>>>>>>>>>...>>>....
+#=GC RF                            aaacUCauaUaGGgaUaaaaGCCaUggagcaCAgaGgGgaaa
+//

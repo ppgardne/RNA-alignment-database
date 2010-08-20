@@ -1,0 +1,36 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-540
+#=GF AC    RF00776
+#=GF DE    microRNA mir-540
+#=GF AU    Wilkinson A
+#=GF GA    19.7
+#=GF NC    0.0
+#=GF TC    24.9
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000212
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    3
+
+#=GS M.musculus.1           AC    AC152063.5/103381-103464
+#=GS Spermophilus_tridece.1 AC    AAQQ01350179.1/20-102
+#=GS M.lucifugus.1          AC    AAPE01089179.1/2202-2282
+
+M.musculus.1                       CCCUGGGGCUGGGCCAAGGGUCACCCUCUGACUCUGUGGCCAAGGGUAGA
+Spermophilus_tridece.1             CCUUGGGGCUGGGCCCAGGGUCACCCUCUGACUCUGCGGCCACGGGCAGA
+M.lucifugus.1                      CCCAGGGCUGGGCCCAGGGC.CACCCUCUGACUUGGUGGCUAAGAGCAGA
+#=GC SS_cons                       .........<<<<<<<<<<<<<..<<<<<<<<.<<<<.<<<...>>>..>
+#=GC RF                            aaauggggaugGGcccaGGgucAcccucuGacucuGuggccAAggguAga
+
+M.musculus.1                       CAGGUCAGAGGUCGAUCCUGGGCCUACUCUGGGG
+Spermophilus_tridece.1             CAGGGCAGAGGUGGAGU.UGGGCCAGCCCUGGGG
+M.lucifugus.1                      CAGGCCAGAUGUAGAGC..AGGGCUUCUCCCACC
+#=GC SS_cons                       >>>>>>>>>>>..>>>>>>>>>>>>>........
+#=GC RF                            CagguCagaggucgauCCugggCCuaauaugggg
+//

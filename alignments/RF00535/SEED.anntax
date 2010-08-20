@@ -1,0 +1,81 @@
+# STOCKHOLM 1.0
+#=GF ID    snoMe28S-Am982
+#=GF AC    RF00535
+#=GF DE    Small nucleolar RNA Me28S-Am982
+#=GF AU    Moxon SJ
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    23.4
+#=GF SE    PMID:15987805
+#=GF SS    Predicted; Daub J
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF RN    [1]
+#=GF RM    15987805
+#=GF RT    Genome-wide analyses of two families of snoRNA genes from Drosophila
+#=GF RT    melanogaster, demonstrating the extensive utilization of introns for
+#=GF RT    coding of snoRNAs.
+#=GF RA    Huang ZP, Zhou H, He HL, Chen CL, Liang D, Qu LH;
+#=GF RL    RNA. 2005;11:1303-1316.
+#=GF RN    [2]
+#=GF RM    12007400
+#=GF RT    Small nucleolar RNAs: an abundant group of noncoding RNAs with
+#=GF RT    diverse cellular functions.
+#=GF RA    Kiss T;
+#=GF RL    Cell 2002;109:145-148.
+#=GF CC    Me28S-Am982 is a member of the C/D class of snoRNA which contain the C
+#=GF CC    (UGAUGA) and  D (CUGA) box motifs. This family directs 2'-O-methylation of
+#=GF CC    28S A-982 [1].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_Me28S-Am982
+#=GF SQ    13
+
+#=GS D.virilis.1      AC    AANI01016540.1/23260-23340
+#=GS D.simulans.1     AC    AASR01002759.1/983-1062
+#=GS D.melanogaster.1 AC    AJ784270.1/2-76
+#=GS D.erecta.1       AC    AAPQ01007360.1/2428744-2428822
+#=GS D.yakuba.1       AC    AAEU02000094.1/193284-193360
+#=GS D.willistoni.1   AC    AAQB01008772.1/57096-57174
+#=GS D.melanogaster.2 AC    AC006074.1/17571-17650
+#=GS D.melanogaster.3 AC    AJ784269.1/2-76
+#=GS D.erecta.2       AC    AAPQ01007360.1/2429037-2429115
+#=GS D.melanogaster.4 AC    AC006074.1/17840-17919
+#=GS D.yakuba.2       AC    AAEU02000094.1/192994-193073
+#=GS A.aegypti.1      AC    AAGE02029551.1/798-878
+#=GS A.mellifera.1    AC    AADG05007308.1/14782-14856
+
+D.virilis.1                  UGUUUAUGAUGA.ACCAAACUUA..UCACCAUCUUUCGACUGAGCACAAA
+D.simulans.1                 GUGUUGUGAUGA.AUGAAACUU...ACACCAUCUUUCGACUGA.AAAAUC
+D.melanogaster.1             GUGUUGUGAUGA.AUGAAACUU...ACACCAUCUUUCGACUGA.AAAAUG
+D.erecta.1                   AUUUCGUGAUGA.AUGACUUUU...AUACCAUCUUUCGACUGA.AAAACA
+D.yakuba.1                   AUUUCGUGAUGA.AUGACACUU...AAACCAUCUUUCGACUGA.A...CA
+D.willistoni.1               GUUUCAUGAUGAGCUAAAACUU...UCACCAUCUUUCGACUGA.UAAAUA
+D.melanogaster.2             GUGUUGUGAUGA.AUGAAACUU...ACACCAUCUUUCGACUGA.AAAAUG
+D.melanogaster.3             AUUUCGUGAUGA.AUGACCCUA...UCAUCAUCUUUCGACUGA.AAAUCA
+D.erecta.2                   AUUUCGUGAUGA.AUGACCAUU...ACAUCAUCUUUCGACUGA.AAAACA
+D.melanogaster.4             AUUUCGUGAUGA.AUGACCCUA...UCAUCAUCUUUCGACUGA.AAAUCA
+D.yakuba.2                   GUGUUGUGAUGA.AUGAAACUU...ACACCAUCUUUCGACUGA.AAAAUG
+A.aegypti.1                  AUAUCGUGAUGA.AUAAACUUA...UCACCAUCUUUCGACUGA.UCACAU
+A.mellifera.1                AUUAUAUGAUGA.UUCAAAUAAUAAUCACCAUCUUUCGACUGA.G...AA
+#=GC SS_cons                 <<<...............................................
+#=GC RF                      auuUuaUGAUGA.AUgAAAcUu...aCACCAUCUUUCGACUGA.aAAAaA
+
+D.virilis.1                  CGUUGAUGCUAUACAAGUUU.CA..CUGAUUCAUUUG
+D.simulans.1                 UUAUGAUGCUAUACAAGUUUUCA..CUGAAACCCCCU
+D.melanogaster.1             UUAUGAAGCUAUACGAGUUUUUA..CUGA.....AAC
+D.erecta.1                   CUUUGAUG.UAUACAAGUUUUCA..CUGAAUUUUAAA
+D.yakuba.1                   UUUUGAUGCUAUACAAGUUUUUA..CUGAAUUUUAAA
+D.willistoni.1               U..UGAUGCUAUAUAAGUUUUUACCCUGA..UUACAU
+D.melanogaster.2             UUAUGAAGCUAUACGAGUUUUUA..CUGAAACCCCUU
+D.melanogaster.3             UUUUGAUGCUAUACUAGUUUUCA..CUGA.....AUU
+D.erecta.2                   CUUUGAUG.UAUACUAGUUUUCA..CUGAAUUUUAAA
+D.melanogaster.4             UUUUGAUGCUAUACUAGUUUUCA..CUGAAUUUUAAA
+D.yakuba.2                   UUAUGAUGCUAUACAAGUUUUCA..CUGAAAUAUCUU
+A.aegypti.1                  CGUGACUGUUAUAUAGUUCCUUAA.CUGAUGCCGGUU
+A.mellifera.1                CUGUGAUG.....GUAAUUUUUA..CUGAAAGCAAUU
+#=GC SS_cons                 ..................................>>>
+#=GC RF                      uUuUGAUGCUAUAcaAGUUUUuA..CUGAAauuaaau
+//

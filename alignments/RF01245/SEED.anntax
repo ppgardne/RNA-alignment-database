@@ -1,0 +1,58 @@
+# STOCKHOLM 1.0
+#=GF ID    snR9
+#=GF AC    RF01245
+#=GF DE    Small nucleolar RNA snR9
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    21.4
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; snRNA; snoRNA; HACA-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    snornadb; snR9
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF WK    http://en.wikipedia.org/wiki/SnoRNA
+#=GF SQ    5
+
+#=GS Saccharomyces_parado.1 AC    AABY01000088.1/34241-34426
+#=GS Saccharomyces_bayanu.1 AC    AACG02000010.1/70564-70750
+#=GS S.cerevisiae.1         AC    M20765.1/237-423
+#=GS Saccharomyces_kudria.1 AC    AACI02000041.1/11416-11601
+#=GS Saccharomyces_mikata.1 AC    AACH01000555.1/5395-5581
+
+Saccharomyces_parado.1             GGGAAUAUAAUACUAAAUACUCUGUUAUAUAGAACUUUCUAUGCCUUUUC
+Saccharomyces_bayanu.1             GGGAAUAUAAUACUAAAUACUCUGUUAUAUAGAACUUUCUAUGCCUUUUC
+S.cerevisiae.1                     GGGAAUAUAAUACUAAAUACUCUGUUAUAUAGAACUUUCUACGCCUUUUC
+Saccharomyces_kudria.1             GGGAAUAUAAUACUAAAUACUCUGUUAUAUAGAACUUUCUAUGCCUUUUC
+Saccharomyces_mikata.1             GGGAAUAUAAUACUAAAUACUCUGUUAUAUAGAACUUUCUAGGCCUUUUC
+#=GC SS_cons                       ...................<<<<<<........<<<<<<<<<<<<.....
+#=GC RF                            GGGAAUAUAAUACUAAAUACUCUGUUAUAUAGAACUUUCUACGCCUUUUC
+
+Saccharomyces_parado.1             CUCUAUGGCUAUGGAAGCGUGGACAACGGAGA.CAAAUAGACCAACCACU
+Saccharomyces_bayanu.1             CUCUAUGGCUACGGAAGCGUGGACAACGGAGACAAAUUAACCAAUUUAAU
+S.cerevisiae.1                     CUCUAUGGCUAUGAAAGCGUGGACAACGGAGAUCAAAUAGACCAAUUACU
+Saccharomyces_kudria.1             CUCUAUGGCUAUGGAAGCGUGGACAACGGAGA.CAAAUAGACGAACUAAU
+Saccharomyces_mikata.1             UUCUAUGGCUAUGAAAGCGUGGACAACGGAGAU.AAAUAGACAAAAUACU
+#=GC SS_cons                       ......>>>.>>>>>>>.>>.....>>>>>>.................<<
+#=GC RF                            CUCUAUGGCUAUGAAAGCGUGGACAACGGAGAUCAAAUAGACCAAUUACU
+
+Saccharomyces_parado.1             GAAUAUGGCUUUUGACGCUUCUUCUUCUCGGUGGGUAGGGAUUAAG.CUG
+Saccharomyces_bayanu.1             GAAUAUGGCUUUUGACAAAUCUUCUUCUCGGUGGGUAAGGACGAAA.CCG
+S.cerevisiae.1                     GAAUAUGGCUUUUGACAUAUCUUCUUCUUCAUGGGUGAGGAUUAAG.CUG
+Saccharomyces_kudria.1             GAAUAUGGCUUUUGACAAAUCUUCUUCUCGGUGGGUAAGGACGAAA.CUU
+Saccharomyces_mikata.1             GAAUUUGGCUUUUGACAAAUCUUCUUCUCGGUGGGUGAGGUCGAAAACUG
+#=GC SS_cons                       <<<...<<<<...................<<<<<<<.<<<<.........
+#=GC RF                            GAAUAUGGCUUUUGACAUAUCUUCUUCUUCAUGGGUGAGGAUUAAG.CUG
+
+Saccharomyces_parado.1             AUAUCCUGACCCGCCUAUCAUUAGUCCUUCAGACAUAC
+Saccharomyces_bayanu.1             AUAUCCUGACCUGCCUGUCAUUAGUCCUUCAGACAUAC
+S.cerevisiae.1                     AUAUCCUGACCCACCUAUCAUUAGUCCUUCAGACAUAC
+Saccharomyces_kudria.1             AUAUCCUGACCUGCCUGUCAUUAGUCCUUCAGACAUUU
+Saccharomyces_mikata.1             AUGUCCUGACCUGCCUGUCAUAAGUCUUUCAGACAUAC
+#=GC SS_cons                       ...>>>>.>>>>>>>.......>>>>.>>>>>......
+#=GC RF                            AUAUCCUGACCCACCUAUCAUUAGUCCUUCAGACAUAC
+//

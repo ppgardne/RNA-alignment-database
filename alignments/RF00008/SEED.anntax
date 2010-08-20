@@ -1,0 +1,310 @@
+# STOCKHOLM 1.0
+#=GF ID    Hammerhead_3
+#=GF AC    RF00008
+#=GF DE    Hammerhead ribozyme (type III)
+#=GF AU    Bateman A
+#=GF GA    22.0
+#=GF NC    22.0
+#=GF TC    22.0
+#=GF PI    Hammerhead
+#=GF SE    Bateman A
+#=GF SS    Published; PMID:7969422
+#=GF TP    Gene; ribozyme;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  --fil-no-hmm  CM SEQDB
+#=GF DR    SO:0000380 SO:hammerhead_ribozyme
+#=GF RN    [1]
+#=GF RM    7969422
+#=GF RT    Three-dimensional structure of a hammerhead ribozyme.
+#=GF RA    Pley HW, Flaherty KM, McKay DB;
+#=GF RL    Nature 1994;372:68-74.
+#=GF RN    [2]
+#=GF RM    9506521
+#=GF RT    The structural basis of hammerhead ribozyme self-cleavage.
+#=GF RA    Murray JB, Terwey DP, Maloney L, Karpeisky A, Usman N, Beigelman L,
+#=GF RA    Scott WG;
+#=GF RL    Cell 1998;92:665-673.
+#=GF RN    [3]
+#=GF RM    10899150
+#=GF RT    Distribution of hammerhead and hammerhead-like RNA motifs through the
+#=GF RT    GenBank.
+#=GF RA    Ferbeyre G, Bourdeau V, Pageau M, Miramontes P, Cedergren R;
+#=GF RL    Genome Res 2000;10:1011-1019.
+#=GF CC    The hammerhead ribozyme is one of the smallest catalytic
+#=GF CC    RNAs. These RNAs have an endonuclease function, and most
+#=GF CC    often are autocatalytic. Structurally it is composed of
+#=GF CC    three base paired helices, separated by short linkers of
+#=GF CC    conserved sequence. These helices are called I, II and III.
+#=GF CC    We have classified hammerhead ribozymes into three types
+#=GF CC    based on which helix the 5' and 3' ends of the sequence
+#=GF CC    join. This family are the type III hammerheads.
+#=GF CC    The conserved uridine-turn links helix I 
+#=GF CC    to helix II and usually has the sequence CUGA.  Helix II and
+#=GF CC    III are linked by a sequence CGAAA.  The cleavage reaction 
+#=GF CC    occurs between helix III and I, and is usually a C.
+#=GF CC    Hammerhead ribozymes are found in plant viroids and other
+#=GF CC    small replicating satellite RNA species.  Hammerhead
+#=GF CC    ribozymes have been found in animals as well as plants.
+#=GF CC    This family includes a couple of false matches currently
+#=GF CC    these are EMBL:AC078923 and EMBL:BC050488. These animal
+#=GF CC    sequences are not expected to be hammerhead ribozymes.
+#=GF WK    http://en.wikipedia.org/wiki/Hammerhead_ribozyme
+#=GF SQ    84
+
+#=GS D.caryophyllus.1       AC    AJ295018.1/58-1
+#=GS D.caryophyllus.2       AC    AJ295015.1/58-1
+#=GS E.latent.1             AC    AJ536620.1/1-40
+#=GS E.latent.2             AC    AJ536620.1/206-152
+#=GS E.latent.3             AC    AJ536617.1/1-40
+#=GS E.latent.4             AC    AJ536614.1/206-152
+#=GS E.latent.5             AC    AJ536619.1/206-152
+#=GS E.latent.6             AC    AJ536612.1/206-152
+#=GS E.latent.7             AC    AJ536615.1/1-44
+#=GS P.latent.1             AC    M83545.1/56-3
+#=GS P.latent.2             AC    AF170509.1/56-3
+#=GS P.latent.3             AC    AJ550898.1/282-335
+#=GS P.latent.4             AC    AJ550900.1/56-3
+#=GS P.latent.5             AC    AJ550909.1/56-3
+#=GS P.latent.6             AC    AJ241828.1/56-3
+#=GS P.latent.7             AC    AJ550911.1/56-3
+#=GS P.latent.8             AC    AJ005310.1/56-3
+#=GS C.chlorotic.1          AC    AJ247116.1/133-53
+#=GS P.latent.9             AC    AJ550906.1/282-334
+#=GS C.chlorotic.2          AC    Y14700.1/133-53
+#=GS P.latent.10            AC    AJ005319.1/56-3
+#=GS P.latent.11            AC    AJ241831.1/56-3
+#=GS P.latent.12            AC    AJ241823.1/282-335
+#=GS P.latent.13            AC    AJ241843.1/56-3
+#=GS C.chlorotic.3          AC    AJ247122.1/132-52
+#=GS P.latent.14            AC    AJ005294.1/282-334
+#=GS P.latent.15            AC    AJ005321.1/281-333
+#=GS P.latent.16            AC    AJ241841.1/57-3
+#=GS P.latent.17            AC    AF170503.1/280-333
+#=GS P.latent.18            AC    AJ005312.1/282-335
+#=GS P.latent.19            AC    AJ241831.1/281-334
+#=GS P.latent.20            AC    AJ550907.1/281-333
+#=GS P.latent.21            AC    AJ005312.1/56-3
+#=GS P.latent.22            AC    AJ550907.1/56-3
+#=GS P.latent.23            AC    AF170499.1/56-3
+#=GS P.latent.24            AC    AF170519.1/55-3
+#=GS P.latent.25            AC    AJ005299.1/282-335
+#=GS P.latent.26            AC    AJ005302.1/281-334
+#=GS P.latent.27            AC    AJ005318.1/56-3
+#=GS P.latent.28            AC    AJ241839.1/282-334
+#=GS P.latent.29            AC    AJ550901.1/282-334
+#=GS P.latent.30            AC    AJ550906.1/56-3
+#=GS P.latent.31            AC    AF170523.1/55-3
+#=GS P.latent.32            AC    AJ241830.1/282-334
+#=GS P.latent.33            AC    AJ550912.1/56-3
+#=GS P.latent.34            AC    AJ005303.1/56-3
+#=GS P.latent.35            AC    AJ005298.1/56-3
+#=GS P.latent.36            AC    AJ241847.1/281-334
+#=GS P.latent.37            AC    AJ241833.1/282-334
+#=GS P.latent.38            AC    AJ005314.1/281-334
+#=GS P.latent.39            AC    AF170503.1/55-3
+#=GS P.latent.40            AC    AF170504.1/284-337
+#=GS P.latent.41            AC    AF339739.1/56-3
+#=GS P.latent.42            AC    AF170516.1/283-335
+#=GS P.latent.43            AC    M83545.1/282-335
+#=GS P.latent.44            AC    AF339740.1/56-3
+#=GS C.chlorotic.4          AC    AJ247121.1/133-53
+#=GS P.latent.45            AC    AJ005322.1/281-334
+#=GS P.latent.46            AC    AJ241838.1/56-3
+#=GS C.chlorotic.5          AC    AJ247123.1/132-52
+#=GS P.latent.47            AC    AJ241845.1/282-335
+#=GS P.latent.48            AC    AJ550903.1/281-333
+#=GS P.latent.49            AC    AJ550910.1/282-336
+#=GS P.latent.50            AC    AF170520.1/282-335
+#=GS C.chlorotic.6          AC    AJ247113.1/134-53
+#=GS P.latent.51            AC    AJ241850.1/282-334
+#=GS P.latent.52            AC    AJ550899.1/56-3
+#=GS P.latent.53            AC    AJ005322.1/56-3
+#=GS P.latent.54            AC    AJ550909.1/282-333
+#=GS P.latent.55            AC    AJ550911.1/282-335
+#=GS P.latent.56            AC    AJ241819.1/56-3
+#=GS P.latent.57            AC    AJ005305.1/56-3
+#=GS P.latent.58            AC    AJ005300.1/282-335
+#=GS P.latent.59            AC    AJ005320.1/281-333
+#=GS P.latent.60            AC    AJ241840.1/56-3
+#=GS P.latent.61            AC    AJ550908.1/281-334
+#=GS Cherry_small_circula.1 AC    Y12833.1/339-285
+#=GS Subterranean_clover_.1 AC    M33001.1/56-111
+#=GS Velvet_tobacco_mottl.1 AC    J02439.1/42-95
+#=GS Cereal_yellow_dwarf_.1 AC    M63666.1/246-192
+#=GS Solanum_nodiflorum_m.1 AC    J02386.1/42-95
+#=GS Subterranean_clover_.2 AC    M33000.1/55-110
+#=GS Chicory_yellow_mottl.1 AC    D00685.1/1-46
+#=GS Tobacco_ringspot_vir.1 AC    M17439.1/1-48
+
+D.caryophyllus.1                   ACAGGGUC.UGACAAA......CCGUCACUGAAGACGUUCAACUU.....
+D.caryophyllus.2                   ACAGAGUC.UGACAAA......CCGUCACUGAAGACGUUCAACUU.....
+E.latent.1                         .........GGGUGGUGUGUG.CCACCCCUGAUGAGUCCGA.........
+E.latent.2                         CCACCGUC.GGAAAGUG.UGCGCUUUCCCUGAUGAGCCCAA.........
+E.latent.3                         .........GGGUGGUGUGUA.CCACCCCUGAUGAGUCCGA.........
+E.latent.4                         UCACCGUC.GGAAAGUG.UGCGCUUUCCCUGAUGAGCCCAA.........
+E.latent.5                         CCACCGUC.GGAAAGUG.UGUACUUUCCCUGAUGAGUCCGA.........
+E.latent.6                         UCACCGUC.GGAAAGUG.UGCGCUUUCCCUGAUGAGCCCGA.........
+E.latent.7                         .........GGGUGGUG.UGUACCAUCCCUGAUGAGUCCAA.........
+P.latent.1                         CAUAAGUC.UGGGCUA......AGCCCACUGAUGAGUCGCUGA.......
+P.latent.2                         CAUAAGUC.UAGGCUU......AGCCCACUGAUGAGCCGUUGA.......
+P.latent.3                         GAAGAGUC.UGCGCUA......AGCGCACUGAUGAGUCUUUGA.......
+P.latent.4                         CAUAAGUC.UGGGCUA......AGCCCACUGAUGAGCCUUUGC.......
+P.latent.5                         CAUAAGUC.UGGGCUU......AGCCCACUGAUGAGUUGCUGC.......
+P.latent.6                         CAUAAGUC.UGGGUUA......AGCCCACUGAUGAGCCGUUGA.......
+P.latent.7                         CAAAAGUC.UGGGCUA......AGCCCACUGAUGAGUUGCUGA.......
+P.latent.8                         CAUAAGUC.UGGGCUA......AGCCCACUGAUGAGCCGCUGA.......
+C.chlorotic.1                      .UCCAGUC.GAGACCUGAAGUGGGUUUACUGAUGAGGCUGUGGAGAGAGC
+P.latent.9                         GAAGAGUC..GUGCUU......AGCACACUGAUGAGUCUCUGA.......
+C.chlorotic.2                      .UCCAGUC.GAGACCUGAAGUGGGUUUCCUGAUGAGGCUGUGGAGAGAGC
+P.latent.10                        CAUAAGUC.UGGGCUA......AGCCCACUGAUGAGCCGUUGA.......
+P.latent.11                        CAUAAGUC.UGGGCUA......AGCCCACUGAUGAGCCGUUGA.......
+P.latent.12                        AAAGAGUC.UGUGCUA......AGCACACUGAUGAGUCUCUAA.......
+P.latent.13                        CAUAAGUC.UGGGCUU......AGCCCACUGAUGAGCCACUGA.......
+C.chlorotic.3                      .UCCAGUC.GAGACCUGAAGUGGGUUUCCUGACGAGGCUGUGGAGAGAGC
+P.latent.14                        UAAGAGUC..GUGCUA......AGCACACUGAUGAGUCUCUGA.......
+P.latent.15                        GAAGAGUC..GUGCUA......AGCACACUGAUGAGUCUCUGA.......
+P.latent.16                        CAAAAGUU.UGGGCUAA.....AGCCCACUGAUGAGCCGCUGA.......
+P.latent.17                        GAAAGGUC.UGUGCUU......AGCACACUGACGAGUUCCUGA.......
+P.latent.18                        GAUGAGUC.UGUGCUA......AGCACACUGAUGAGUCUAUGA.......
+P.latent.19                        GAAGAGUC.UGUGCUA......AGCACACUGAUGAGUCUCUGA.......
+P.latent.20                        AAAGAGUC..GCGCUU......AGCGCACUGAUGAGUCUCUGA.......
+P.latent.21                        CAAAAGUC.UGGGCUA......AGCCCACUGAUGAGCCGCUGA.......
+P.latent.22                        CAUAAGUC.UGGGCUU......AGCCUACUGAUGAGUCGCUGC.......
+P.latent.23                        CAAAAGUC.UGGGCUA......AGCCCACUGAUGAGCCGCUGA.......
+P.latent.24                        CAUAAGUC.UGGGCUU......AG.CCACUGAUGAGCCGUUGA.......
+P.latent.25                        UAAGAGUC.UGUGCUA......AGCACACUGAUGAAUCUCUGA.......
+P.latent.26                        AAAGAGUC.UGUGCUA......AGCACACUGAUGAGUCUCUGA.......
+P.latent.27                        CAUAAGUC.UGGGCUA......AGCCCACUGAUGAGCCGUUGA.......
+P.latent.28                        GAUGAGUC..GUGCUA......AGCACACUGAUGAGUCUCUGA.......
+P.latent.29                        GAAGAGUC..GCGCUA......AGCGCACUGAUGAGUCUUUGA.......
+P.latent.30                        CAUAAGUC.UGGGCUU......AGCCCACUGAUGAGUCGCUGC.......
+P.latent.31                        CAAAAGUC.UGGGCUU......AG.CCACUGAUGAGCCGUUGA.......
+P.latent.32                        AAAGAGUC..GUGCUA......AGCACACUGAUGAGUCUCUGA.......
+P.latent.33                        CAAAAGUC.UGGGCUA......AGCCCACUGAUGAGUUGCUGA.......
+P.latent.34                        CAAAAGUC.UGGGCUA......AGCCCACUGAUGAGCCGUUGA.......
+P.latent.35                        CAUAAGUC.UGGGCUA......AGCCCACUGAUGAGCCGUUGA.......
+P.latent.36                        GAAGAGUC.UGUGCUA......AGCACACUGAUGAGUUUCUGA.......
+P.latent.37                        AAAGAGUC..GUGCUA......AGCACACUGAUGAGUCUCUGA.......
+P.latent.38                        AAAGAGUC.UGUGCUA......AGCACACUGACGAGUCUCUGA.......
+P.latent.39                        CAUAAGUC.UGGGCUU......AG.CCACUGACGAGUCGCUGG.......
+P.latent.40                        GAUAAGUC.UGUGCUA......AGCACACUGAUGAGUCUCUGA.......
+P.latent.41                        CAUAAGUC.UGGGCUU......AGCCCACUGAUGAGGCGUUGA.......
+P.latent.42                        GAAGAGUC..GUGCUU......AGCACACUGAUGAGUCUCUGA.......
+P.latent.43                        GAAGAGUC.UGUGCUA......AGCACACUGACGAGUCUCUGA.......
+P.latent.44                        CAUAAGUC.UGGGCUU......AGCCCACUGAUGAGCCGUUGA.......
+C.chlorotic.4                      .UCCAGUC.GAGACCUGAAGUGGGUUUCCUGACGAGGCUGUGGAGAGAGC
+P.latent.45                        GAAGAGUC.UGUGCUA......AGCACACUGACGAGUCUCUGA.......
+P.latent.46                        CAAAAGUC.UGGGCUA......AGCCCACUGAUGAGCUGCUGA.......
+C.chlorotic.5                      .UCCAGUC.GAGACCUGAAGUGGGUUUCCUGAUGAGGCUGUGGAGAGAGC
+P.latent.47                        GAUGAGUC.UGUGCUA......AGCACACUGAUGAGUCUCUGA.......
+P.latent.48                        GAAGAGUC..GUGCUU......AGCACACUGAUGAGUCUCUGA.......
+P.latent.49                        GAAGAGUCCUGCGCUU......AGCGCACUGACGAGUCUCUGA.......
+P.latent.50                        GAUAAGUC.UGUGCUU......AGCACACUGAUGAGUCUCUGA.......
+C.chlorotic.6                      .UCCAGUC.GAGACCUGAAGUGGGUUUCCUGACGAGGCUGUGGAGAGAGC
+P.latent.51                        UAAGAGUC..GUGCUA......AGCACACUGAUGAGUCUCUGA.......
+P.latent.52                        CAUAAGUC.UGGGCUA......AGCCCACUGAUGAGCCUUUGC.......
+P.latent.53                        CAUAAGUC.UGGGCUA......AGCCCACUGACGAGCCGUUGA.......
+P.latent.54                        GAAGAGUC..GCGCUU......AGCGCACUGAUGAGUCUCUGA.......
+P.latent.55                        GAAGAGUC.UGUGCUA......AGCACACUGACGAGUCUCUGA.......
+P.latent.56                        CAUAAGUC.UGGGCUA......AGCCCACUGAUGAGCCGUUGA.......
+P.latent.57                        CAAAAGUC.UGGGCUA......AGCCCACUGACGAGCCGCUGG.......
+P.latent.58                        UAAGAGUC.UGUGGUA......AGCACACUGAUGAGUCUCUGA.......
+P.latent.59                        GAAGAGUC..GUGCUA......AGCACACUGAUGAGUCUCUGA.......
+P.latent.60                        CAGAAGUC.UGGGCUA......AGCCCACUGAUGAGCCGCUGA.......
+P.latent.61                        GAAGAGUC.UGCGCUU......AGCGCACUCAUGAGUCUCUGA.......
+Cherry_small_circula.1             CCGCUAUA.UGGGGAUGUGUG.UCCCUACUGACGAGUUCAA.........
+Subterranean_clover_.1             ACGCUGUC.UGUACUUAUAUC.AGUACACUGACGAGUCCCU.........
+Velvet_tobacco_mottl.1             UGUCCGUA..GUGGAUGUGUA.UCCACUCUGAUGAGUCCGA.........
+Cereal_yellow_dwarf_.1             CCGGUGUC.UCAAGGUGCGUA.CCUUGACUGAUGAGUCCGA.........
+Solanum_nodiflorum_m.1             UGUCCGUA..GUGGAUGUGUA.UCCACUCUGAUGAGUCCAA.........
+Subterranean_clover_.2             ACGCUGUC.UGUACUUGUAUC.AGUACACUGACGAGUCCCU.........
+Chicory_yellow_mottl.1             .........GCCAGACGU.GGACCCGGCCUGAUGAGUCCGAAA.......
+Tobacco_ringspot_vir.1             .........ACCGGAUGUGCUUUCCGGUCUGAUGAGUCCGU.........
+#=GC SS_cons                       .<<<<<<..<<<<<.........>>>>>.......<<<<...........
+
+D.caryophyllus.1                   ...............GCGUUGAACAGAAACUCUGC
+D.caryophyllus.2                   ...............GCGUUGAACAGAAACUCUGC
+E.latent.1                         ...................AAGGACGAA.......
+E.latent.2                         ...................AAGGGCGAAACGGUAC
+E.latent.3                         ...................AAGGACGAA.......
+E.latent.4                         ...................AAGGGCGAAACGGUAC
+E.latent.5                         ...................AAGGACGAAACGGUAC
+E.latent.6                         ...................AAGGGCGAAACGGUAC
+E.latent.7                         ...................AAGGACGAAAUGG...
+P.latent.1                         .................AAUGCGACGAAACUUAUG
+P.latent.2                         .................GAUACGGCGAAACUUAUG
+P.latent.3                         .................AAUAAGACGAAACUCUUC
+P.latent.4                         .................GACAAGGCGAAACUUAUG
+P.latent.5                         .................GAUGCAACGAAACUUAUG
+P.latent.6                         .................GAUACGGCGAAACUUAUG
+P.latent.7                         .................AACGCAACGAAACUUUUG
+P.latent.8                         .................AAUGCGGCGAAACUUUUG
+C.chlorotic.1                      GAAAGCUUUACUCCCA.CACAAGCCGAAACUGGA.
+P.latent.9                         .................GAUGAGACGAAACUCUUC
+C.chlorotic.2                      GAAAGCUUUACUCCCA.CACAAGCCGAAACUGGA.
+P.latent.10                        .................GAUACGGCGAAACUUAUG
+P.latent.11                        .................GAUACGGCGAAACUUCUG
+P.latent.12                        .................AAUGAGACGAAACUCUUU
+P.latent.13                        .................AAUGCGGCGAAACUUUUG
+C.chlorotic.3                      UAUUGCUUUACUCCCG.CACAAGCCGAAACUGGA.
+P.latent.14                        .................AAUGAGACGAAACUCUUG
+P.latent.15                        .................AAUGAGACGAAACUCUUG
+P.latent.16                        .................AAUGCGGCGAAACUUUUG
+P.latent.17                        .................AAUGGAACGAAACCUUUU
+P.latent.18                        .................AAUGAGACGAAACUCAUA
+P.latent.19                        .................AAUGAGACGAAACUCUUA
+P.latent.20                        .................GAUGAGACGAAACUCUUC
+P.latent.21                        .................AAUGCGGCUAAACUUUUG
+P.latent.22                        .................GAUGCGACGAAACUUAUG
+P.latent.23                        .................AAUGCGGCGAAACUUUUG
+P.latent.24                        .................GAUACGGCGAAACUUAUG
+P.latent.25                        .................AAUGAGACGAAACUCUUG
+P.latent.26                        .................AUUGAGACGAAACUCUUG
+P.latent.27                        .................GAUACGGUGAAACUUAUG
+P.latent.28                        .................AAUGAGACGAAACUCAUA
+P.latent.29                        .................GAUAAGACGAAACUCUUC
+P.latent.30                        .................GAUGCGACGAAACUUAUG
+P.latent.31                        .................GAUACGGCGAAACUUUUG
+P.latent.32                        .................AAUGAGACGAAACUCUUG
+P.latent.33                        .................GAUGCGACGAAACUUUUG
+P.latent.34                        .................GAUACGGCGAAACUUUUG
+P.latent.35                        .................GAUACGGCGAAACUUUUG
+P.latent.36                        .................AAUGAGACGAAACUCUUG
+P.latent.37                        .................AAUGAGACGAAACUCUUU
+P.latent.38                        .................AAUGAGACGAAACUCUUU
+P.latent.39                        .................GAUACGGCGAAACUUAUG
+P.latent.40                        .................AAUGAGACGAAACUUAUC
+P.latent.41                        .................GAUACGGCGAAACUUAUG
+P.latent.42                        .................AAUGAGACGAAACUCUUC
+P.latent.43                        .................GAUGAGACGAAACUCUUC
+P.latent.44                        .................GAUACGGCGGAACUUAUG
+C.chlorotic.4                      UUUCGCUUUACUCCCG.CACAAGCCGAAACUGGA.
+P.latent.45                        .................AAUGAGACGAAACUCUUU
+P.latent.46                        .................AAUGCGGCAAAACUUUUG
+C.chlorotic.5                      GAAAGCUUUACUCCCG.CACAAGCCGAAACUGGA.
+P.latent.47                        .................AAUGAGACGAAACUCAUG
+P.latent.48                        .................AAUGAGACGAAACUCUUU
+P.latent.49                        .................GAUGAGACGAAACUCUUC
+P.latent.50                        .................AAUGAGACGAAACUUAUC
+C.chlorotic.6                      AAAUUGCUUUACUCCCGCACAAGCCGAAACUGGA.
+P.latent.51                        .................AAAGAGACGAAACUCUUU
+P.latent.52                        .................GAUAAGGCGAAACUUAUG
+P.latent.53                        .................GAUACGGCGAAACUUAUG
+P.latent.54                        ..................AUGAGACGAAACUCUUC
+P.latent.55                        .................AAUGAGACGAAACUCUUC
+P.latent.56                        .................AAUACGGCGAAACUUUUG
+P.latent.57                        .................GAUACGGCGAAACUUUUG
+P.latent.58                        .................AAUGAGACGAAACUCUUG
+P.latent.59                        .................AAUGAGACGAAACUCUUU
+P.latent.60                        .................AAUGCGGCGAAACUUUUG
+P.latent.61                        .................GAUGAGACGAAACUCUUC
+Cherry_small_circula.1             ...................AAGAACGAAAUAGUUA
+Subterranean_clover_.1             ..................AAAGGACGAAACAGCGC
+Velvet_tobacco_mottl.1             ...................AAGGACGAAACGGAUG
+Cereal_yellow_dwarf_.1             ...................AAGGACGAAACACCAG
+Solanum_nodiflorum_m.1             ...................AAGGACGAAACGGAUG
+Subterranean_clover_.2             ..................AAAGGACGAAACAGCGC
+Chicory_yellow_mottl.1             .....................GGACGAAACAGUA.
+Tobacco_ringspot_vir.1             ...................GAGGACGAAACAGGAC
+#=GC SS_cons                       .....................>>>>...>>>>>>.
+//

@@ -1,0 +1,76 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-8
+#=GF AC    RF00241
+#=GF DE    mir-8/mir-141/mir-200 microRNA precursor family
+#=GF AU    Griffiths-Jones SR, Daub J
+#=GF GA    32.0
+#=GF NC    26.0
+#=GF TC    43.5
+#=GF SE    Griffiths-Jones SR
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIR; MI0000128
+#=GF DR    MIR; MI0000166
+#=GF DR    MIR; MI0000243
+#=GF DR    MIR; MI0000342
+#=GF DR    MIR; MI0000457
+#=GF DR    MIPF; MIPF0000019
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF RN    [1]
+#=GF RM    11679670
+#=GF RT    Identification of novel genes coding for small expressed RNAs.
+#=GF RA    Lagos-Quintana M, Rauhut R, Lendeckel W, Tuschl T;
+#=GF RL    Science 2001;294:853-858.
+#=GF RN    [2]
+#=GF RM    12554859
+#=GF RT    New microRNAs from mouse and human.
+#=GF RA    Lagos-Quintana M, Rauhut R, Meyer J, Borkhardt A, Tuschl T;
+#=GF RL    RNA 2003;9:175-179.
+#=GF CC    miR-8 from Drosophila [1] (MIR:MI0000128) and human and mouse
+#=GF CC    mir-141 (MIR:MI0000166, MIR:MI0000457), mir-429 (MIR:MI0001642)
+#=GF CC    and mir-200 (MIR:MI0000243, MIR:MI0000342) [2] are expressed from
+#=GF CC    the 3' arm of related precursor hairpins (represented
+#=GF CC    here). Members of this precursor family have now been predicted or
+#=GF CC    experimentally confirmed in a wide range of species
+#=GF CC    (MIPF:MIPF0000019). The bounds of the precursors are predicted
+#=GF CC    based on conservation and base pairing and are not generally
+#=GF CC    known.
+#=GF WK    http://en.wikipedia.org/wiki/mir-8/mir-141/mir-200_microRNA_precursor_family
+#=GF SQ    9
+
+#=GS D.melanogaster.1 AC    AC099021.1/85263-85337
+#=GS M.musculus.1     AC    AC002397.1/179832-179912
+#=GS M.musculus.2     AC    AL627204.7/131318-131391
+#=GS M.musculus.3     AC    AC002397.1/179426-179504
+#=GS M.musculus.4     AC    AL627204.7/130543-130619
+#=GS H.sapiens.1      AC    AL390719.47/106960-107036
+#=GS H.sapiens.2      AC    U47924.1/176113-176193
+#=GS H.sapiens.3      AC    U47924.1/175703-175780
+#=GS H.sapiens.4      AC    AL390719.47/106206-106279
+
+D.melanogaster.1             AUCUGUUCACAUCUUACCGGGCAGCAUUAGAUCCUUUUU.....AUAACU
+M.musculus.1                 CUCUGGGUCCAUCUUCCAGUGCAGUGUUGGAUGGUUGAAGUAUGAAGCUC
+M.musculus.2                 AGCCGUGGCCAUCUUACUGGGCAGCAUUGGAUAGUGUC......UGAUCU
+M.musculus.3                 AGGGGCCCUCGUCUUACCCAGCAGUGUUUGGGUGCUGGUUGG..GAGUCU
+M.musculus.4                 CUCUGUGGGCAUCUUACCGGACAGUGCUGGAUUUCUUGGC....UUGACU
+H.sapiens.1                  CCCUGUGAGCAUCUUACCGGACAGUGCUGGAUUUCCCAGC....UUGACU
+H.sapiens.2                  CCCUGGGUCCAUCUUCCAGUACAGUGUUGGAUGGUCUAAUUGUGAAGCUC
+H.sapiens.3                  GGGGGCCCUCGUCUUACCCAGCAGUGUUUGGGUGCGGUUGG...GAGUCU
+H.sapiens.4                  AGCCGUGGCCAUCUUACUGGGCAGCAUUGGAUGGAGUC......AGGUCU
+#=GC SS_cons                 .....<<.<<<<<<<<<...<<<<<<<<<<....................
+
+D.melanogaster.1             CUAAUACUGUCAGGUAAAGAUGU.CGUCCGU
+M.musculus.1                 CUAACACUGUCUGGUAAAGAUGGCCCCCGGG
+M.musculus.2                 CUAAUACUGCCUGGUAAUGAUGA.CGGCGGA
+M.musculus.3                 CUAAUACUGCCGGGUAAUGAUGGAGGCCCCU
+M.musculus.4                 CUAACACUGUCUGGUAACGAUGUUCAAAGGU
+H.sapiens.1                  CUAACACUGUCUGGUAACGAUGUUCAAAGGU
+H.sapiens.2                  CUAACACUGUCUGGUAAAGAUGGCUCCCGGG
+H.sapiens.3                  CUAAUACUGCCGGGUAAUGAUGGAGGCCCCU
+H.sapiens.4                  CUAAUACUGCCUGGUAAUGAUGA.CGGCGGA
+#=GC SS_cons                 >>>>>>>>>>...>>>>.>>>>>.>>.....
+//

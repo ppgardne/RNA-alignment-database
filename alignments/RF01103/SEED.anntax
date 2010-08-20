@@ -1,0 +1,25 @@
+# STOCKHOLM 1.0
+#=GF ID    UPD-PKc
+#=GF AC    RF01103
+#=GF DE    Pseudoknot of upstream pseudoknot domain (UPD) of the 3'UTR
+#=GF AU    Wilkinson A
+#=GF GA    35.0
+#=GF NC    30.2
+#=GF TC    42.8
+#=GF SE    Pseudobase
+#=GF SS    Pseudobase
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    URL; http://wwwbio.leidenuniv.nl/~Batenburg/pkbget.html
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF WK    http://en.wikipedia.org/wiki/UPSK_RNA
+#=GF SQ    2
+
+#=GS Soil-borne_wheat_mos.1 AC    AJ298069.1/3470-3498
+#=GS Soil-borne_cereal_mo.1 AC    AF146278.1/6828-6856
+
+Soil-borne_wheat_mos.1             UCUGUUUUUCGAACAGAUGUAAAUCGGAG
+Soil-borne_cereal_mo.1             UCUGUUUUUCGAACAGAUGUAAAUCGAAG
+#=GC SS_cons                       <<<<<.AAAAAA>>>>>......aaaaaa
+//

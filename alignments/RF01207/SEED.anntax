@@ -1,0 +1,50 @@
+# STOCKHOLM 1.0
+#=GF ID    snR73
+#=GF AC    RF01207
+#=GF DE    Small nucleolar RNA snR73
+#=GF AU    Wilkinson A
+#=GF GA    25.0
+#=GF NC    0.0
+#=GF TC    28.2
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    snornadb; snR73
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF WK    http://en.wikipedia.org/wiki/SnoRNA
+#=GF SQ    5
+
+#=GS K.lactis.1             AC    CR382124.1/957592-957696
+#=GS C.glabrata.1           AC    CR380959.2/770049-770154
+#=GS Saccharomyces_castel.1 AC    AACF01000013.1/100061-100163
+#=GS S.cerevisiae.1         AC    AJ010796.1/1-103
+#=GS Vanderwaltozyma_poly.1 AC    AAZN01000292.1/2408-2511
+
+K.lactis.1                         GUUUAUGAUGAUUAUCCACUU...UUCACGACGGUCAGCUGUUAUCCCCG
+C.glabrata.1                       GUUUAUGAUGAUU.ACCACUUAUUAUCACGACGGUCAACUGCGUUCUUCG
+Saccharomyces_castel.1             GUUUAUGAUGAUU.UAAUUUU...AUCACGACGGUCAACUGUGUUCUUCU
+S.cerevisiae.1                     GUUUAUGAUGAUU.UCCACAU...UUCACGACGGUCAACUGCGUUUUUCG
+Vanderwaltozyma_poly.1             GUUUAUGAUGAAUUUACUUUU...AUCACGACGGUCAACUGCGUUUCUUU
+#=GC SS_cons                       ..................................................
+#=GC RF                            guUUAUGAUGAUU.uccAcuU...aUCACGACGGUCAACUGuguUcuuCG
+
+K.lactis.1                         A.AAUGUUUAUUUGGG.GAUGUUGAUGAUAUUUUGCCUGUGACAGGGCGU
+C.glabrata.1                       A.U.UGUUUAUCUUAG.AACUUUGAUGAUAUUCUGCCUGUGACAGGGCGU
+Saccharomyces_castel.1             ACU.UGUUUAUUGAAG.AACGUUGAUGAUAUUU.GCCUGUGACAGGGCAU
+S.cerevisiae.1                     A.A.UGUUUAUCGAUU.AACUUUGAUGAUAUUUCGCCUGUGACAGGGCGU
+Vanderwaltozyma_poly.1             ACC.UGUUUAAUUAAGAAACUUUGAUGAUAACU.GCCUGUGACAAGGCAU
+#=GC SS_cons                       ..................................................
+#=GC RF                            A.a.UGUUUAUuuaaG.AAcgUUGAUGAUAUUUuGCCUGUGACAGGGCGU
+
+K.lactis.1                         GGUACUGAUU
+C.glabrata.1                       GGAACUGAUU
+Saccharomyces_castel.1             UGAUCUGAUC
+S.cerevisiae.1                     GGUACUGAGC
+Vanderwaltozyma_poly.1             GAUACUGA.C
+#=GC SS_cons                       ..........
+#=GC RF                            GGaACUGAuc
+//

@@ -1,0 +1,76 @@
+# STOCKHOLM 1.0
+#=GF ID    GRIK4_3p_UTR
+#=GF AC    RF01383
+#=GF DE    GRIK4 3 prime UTR element
+#=GF AU    Gardner PP
+#=GF GA    12.0
+#=GF NC    11.9
+#=GF TC    12.2
+#=GF SE    Predicted; CMfinder
+#=GF SS    Predicted; CMfinder
+#=GF TP    Gene;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF RN    [1]
+#=GF RM    18824690
+#=GF RT    A common variant in the 3'UTR of the GRIK4 glutamate receptor
+#=GF RT    gene affects transcript abundance and protects against bipolar
+#=GF RT    disorder.
+#=GF RA    Pickard BS, Knight HM, Hamilton RS, Soares DC, Walker R, Boyd JK,
+#=GF RA    Machell J, Maclean A, McGhee KA, Condie A, Porteous DJ, St Clair
+#=GF RA    D, Davis I, Blackwood DH, Muir WJ
+#=GF RL    Proc Natl Acad Sci U S A. 2008;105:14940-14945.
+#=GF WK    http://en.wikipedia.org/wiki/GRIK4
+#=GF SQ    10
+
+#=GS M.musculus.1    AC    CAAA01078933.1/1652-1710
+#=GS R.rattus.1      AC    X59996.1/2943-3001
+#=GS M.mulatta.1     AC    AANU01119004.1/4608-4684
+#=GS H.sapiens.1     AC    AP001929.5/104611-104706
+#=GS H.sapiens.2     AC    AADC01102600.1/1773-1869
+#=GS H.sapiens.3     AC    AADB02014399.1/719517-719598
+#=GS H.sapiens.4     AC    ABBA01031313.1/28672-28753
+#=GS P.troglodytes.1 AC    AADA01131649.1/5035-5135
+#=GS T.belangeri.1   AC    AAPY01307680.1/2159-2250
+#=GS M.lucifugus.1   AC    AAPE01626053.1/9922-9983
+
+M.musculus.1                UAGUGGCAGCAGCGAAGGA...CCAUGGAGCCA.GGCGG...........
+R.rattus.1                  GAGUAGUGGCGGCGAAGGA...CCGUGGAGCCA.GGCGG...........
+M.mulatta.1                 UAGUCCCGGCGGCCACAGG.ACGCGCGGAGGC..................
+H.sapiens.1                 UAGUCCCGGAGGCCACAGG.ACGCGCAGAGGCCGGGCGGG.....GCGGG
+H.sapiens.2                 UAGUCCCGGAGGCCACAGGUACGCGCAGAGGCCGGGCGGG.....GCGGG
+H.sapiens.3                 UAGUCCCGGAGGCCACAGG.ACGCGCAGAGGCCGGG..............
+H.sapiens.4                 UAGUCCCGGAGGCCACAGG.ACGCGCAGAGGCCGGG..............
+P.troglodytes.1             UAGUCCCGGAGGCCACAGG.ACGCGCAGAGGCCGGGCGGGGCGGGAGGGG
+T.belangeri.1               UAGCCCCGGCGGCCCCGGA..CACGUGGAGGCCAGGUGGG.......GAG
+M.lucifugus.1               UAGAGGCGGCAGAGACAGG....AAUGGAGCCAAGGCGGC..........
+#=GC SS_cons                ..<<<<<...<<<<...............>>>>.................
+#=GC RF                     uAGcCcCGGCgGccAcGGA.ACgcGuGGAggCcAGGCGGg..........
+
+M.musculus.1                .....GGAGGCGGGAGGGC.UAACAU.......................U
+R.rattus.1                  .....GGAGGCGGGAGGGC.UAAUGU.......................U
+M.mulatta.1                 ......GGGGCGGGGCGGG.CACUGCUGUCAGCCGCGAGCCGGGACUUGU
+H.sapiens.1                 AGGGGAGGGGCGGGGCGGG.CGCUGCUGUCAGCCGCCAGCCGGAACUUGU
+H.sapiens.2                 AGGGGAGGGGCGGGGCGGG.CGCUGCUGUCAGCCGCCAGCCGGAACUUGU
+H.sapiens.3                 .....AGGGGCGGGGCGGG.CGCUGCUGUCAGCCGCCAGCCGGAACUUGU
+H.sapiens.4                 .....AGGGGCGGGGCGGG.CGCUGCUGUCAGCCGCCAGCCAGAACUUGU
+P.troglodytes.1             AGGGGCGGGGCGGGGCGGG.CGCUGCUGUCAGCCGCCAGCCGGAACUUGU
+T.belangeri.1               GCGGGAGGGGCCGGGCCGG.GGCCGCUGUCCGC.GCCAGCCCGGACUUGU
+M.lucifugus.1               .....GGAGGCGGGAGGCGGGAAGGAAAUCA...................
+#=GC SS_cons                ......>>>>>.......................................
+#=GC RF                     ...gGGGgGgCGGGagGGG.caauGuugUCAGCcGCcAGCCgGgACUUGU
+
+M.musculus.1                ACA
+R.rattus.1                  ACA
+M.mulatta.1                 ACA
+H.sapiens.1                 ACA
+H.sapiens.2                 ACA
+H.sapiens.3                 ACA
+H.sapiens.4                 ACA
+P.troglodytes.1             ACA
+T.belangeri.1               ACA
+M.lucifugus.1               ...
+#=GC SS_cons                ...
+#=GC RF                     ACA
+//

@@ -1,0 +1,68 @@
+# STOCKHOLM 1.0
+#=GF ID    nos_TCE
+#=GF AC    RF00161
+#=GF DE    Nanos 3' UTR translation control element
+#=GF AU    Griffiths-Jones SR
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    24.3
+#=GF SE    Griffiths-Jones SR, INFERNAL
+#=GF SS    Published; PMID:10882131
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000205 SO:three_prime_UTR
+#=GF DR    GO:0008595 GO:determination of anterior/posterior axis, embryo
+#=GF DR    GO:0017148 GO:negative regulation of protein biosynthetic process
+#=GF DR    GO:0005515 GO:protein binding
+#=GF RN    [1]
+#=GF RM    10882131
+#=GF RT    Overlapping but distinct RNA elements control repression and
+#=GF RT    activation of nanos translation.
+#=GF RA    Crucs S, Chatterjee S, Gavis ER;
+#=GF RL    Mol Cell 2000;5:457-467.
+#=GF CC    The Nanos protein in Drosophila is required for correct
+#=GF CC    anterior/posterior patterning in the Drosophila embryo.
+#=GF CC    Translation of the nanos mRNA is repressed in the bulk 
+#=GF CC    cytoplasm and activated in the posterior region.  Repression is 
+#=GF CC    mediated by a translation control element (TCE) in the 3' UTR of 
+#=GF CC    the mRNA.  This element forms a Y-shaped structure, part of 
+#=GF CC    which is recognised by the Smaug protein leading to translational
+#=GF CC    repression [1].
+#=GF WK    http://en.wikipedia.org/wiki/Nanos_3'_UTR_translation_control_element
+#=GF SQ    9
+
+#=GS D.virilis.1         AC    U24695.1/2509-2569
+#=GS D.ananassae.1       AC    AB194434.1/904-965
+#=GS D.melanogaster.1    AC    M72421.1/2491-2554
+#=GS D.varians.1         AC    AB194435.1/863-926
+#=GS D.yakuba.1          AC    AAEU02002047.1/7722-7785
+#=GS D.parabipectinata.1 AC    AB194415.1/11664-11723
+#=GS D.pseudoananassae.1 AC    AB194432.1/846-908
+#=GS D.simulans.1        AC    AF252722.1/810-873
+#=GS D.merina.1          AC    AB194436.1/862-924
+
+D.virilis.1                     UGGA..AGAAGCUCUGGCAGCUUUUUAAGCGU.UUAUAUAAGA.GUUAUA
+D.ananassae.1                   GAACU.AGAAGCUCUGGAAGCUUCUUAAGCGUUUUAUAUAAUCAGAAAUA
+D.melanogaster.1                UGGAGCAGAGGCUCUGGCAGCUUUUGCAGCGU.UUAUAUAACAUGAAAUA
+D.varians.1                     AGGAUUUGAAGCUCUGGCAGCUUCUGCAGCGC.UUAUAUAGUCAGAAAUA
+D.yakuba.1                      AGGAGCAGAAGCUCUGGAAGCUUUUGUAGCGU.UUAUAUAACAAGAAAUA
+D.parabipectinata.1             GUCA....AAGCUCUGGCAGCUUCUUAAGCGU.UUAUAUAGUCAGAAAUA
+D.pseudoananassae.1             AGAAAUCGAAGCUCUGGCAGCUUCUUAAGCGU.UUAUAUAGUCAGAAAUA
+D.simulans.1                    NGGAGCAGAGGCUCUGGCAGCUUUUGCAGCGU.UUAUAUAACAAGAAAUA
+D.merina.1                      AGAACAAGAAGCUCUGGCAGCUUCUACAGCGC.UUAUAUAAUCAGAAAUA
+#=GC SS_cons                    <<<<..<<<<<<<.....>>>>>>>...<<<<..<<<<<<........>>
+#=GC RF                         aggaaaagaaGCucUGGaaGCuucuaaAGCGc.UuauauaAuaAGAAAua
+
+D.virilis.1                     UAUAUGCGCGUUCCA
+D.ananassae.1                   UAUAUGCGC..GUUC
+D.melanogaster.1                UAUAUACGCAUUCCG
+D.varians.1                     UAUAUUCGCGUUCGA
+D.yakuba.1                      UAUAUACGCCUUCCG
+D.parabipectinata.1             UAUAUGCGCGAUCAU
+D.pseudoananassae.1             UAUAUGCGCG.UUCA
+D.simulans.1                    UAUAUACGCAUUCCG
+D.merina.1                      UAUAUGCGCG.UUCU
+#=GC SS_cons                    >>>>.>>>>..>>>>
+#=GC RF                         uauaUgCGCguuccu
+//

@@ -1,0 +1,53 @@
+# STOCKHOLM 1.0
+#=GF ID    snoR127
+#=GF AC    RF01427
+#=GF DE    small nucleolar RNA snoR127
+#=GF AU    Osuch I
+#=GF GA    21.0
+#=GF NC    20.7
+#=GF TC    27.4
+#=GF SE    INFFERNAL
+#=GF SS    Predicted; RNAalifold; Osuch I
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  -g  CM SEQDB
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF RN    [1]
+#=GF RM    19357091
+#=GF RT    Mining small RNA sequencing data: a new approach to identify small
+#=GF RT    nucleolar RNAs in Arabidopsis.
+#=GF RA    Chen HM, Wu SH;
+#=GF RL    Nucleic Acids Res. 2009;37:e69.
+#=GF WK    http://en.wikipedia.org/wiki/SnoRNA
+#=GF SQ    3
+
+#=GS M.truncatula.1 AC    AC144541.12/54621-54772
+#=GS A.thaliana.1   AC    AC069556.4/36784-36921
+#=GS B.rapa.1       AC    AC189657.2/25797-25905
+
+M.truncatula.1             CUGGAAUGAUGUGAAUUAGCCAAAUCAGACAUUAAUGUGCUCCAUAAGGC
+A.thaliana.1               CUGGAAUGAUGAUGCUUAGCCAAAUCAGAUAU....GUGCUCCAAGAGGC
+B.rapa.1                   CUGGAGUGAUGAUGCUUAGCCAAAUCAGAUAU....GUGCUCCAAAAGGU
+#=GC SS_cons               <<<<..............................................
+#=GC RF                    CuGGAaUGAUGAUGCUUAGCCAAAUCAGAUAU....GUGCUCCAAaAGGu
+
+M.truncatula.1             AACCGGCAUGAUCGAUCUGCUUGGAUCAUGUUGAUGACCCUCAUGUUGAA
+A.thaliana.1               AUUUUUCUGUGGAACCUUGUUCAGC...AGAUGGUGUGCCUCUUGUUGUA
+B.rapa.1                   ACAU.................................GCCUCUUGUUGAA
+#=GC SS_cons               ..................................................
+#=GC RF                    AuaUuucuGuGGAAccuuGuucAGc...AGAuGGuGuGCCUCUUGUUGaA
+
+M.truncatula.1             GCGCAUUUCUCUGAUGAUCAACAAAGAGAUUGGUUUCUUUUUCCUGACCA
+A.thaliana.1               GUGC..GUCUUAGACGAU.AUCACAGGGAAUGGU...UAUUGC.UGACCA
+B.rapa.1                   GCGC..GUCUUGGACGAU.AUCACAGAGAAUGGU...UUUUGCCUGACCA
+#=GC SS_cons               ...............................................>>>
+#=GC RF                    GuGC..GUCUUaGACGAU.AUCACAGaGAAUGGU...UaUUGCcUGACCa
+
+M.truncatula.1             GA
+A.thaliana.1               GA
+B.rapa.1                   GA
+#=GC SS_cons               >.
+#=GC RF                    GA
+//

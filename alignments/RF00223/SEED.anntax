@@ -1,0 +1,112 @@
+# STOCKHOLM 1.0
+#=GF ID    IRES_Bip
+#=GF AC    RF00223
+#=GF DE    bip internal ribosome entry site (IRES)
+#=GF AU    Moxon SJ
+#=GF GA    36.0
+#=GF NC    34.5
+#=GF TC    40.8
+#=GF PI    Bip_IRES
+#=GF SE    http://ifr31w3.toulouse.inserm.fr/IRESdatabase/, INFERNAL
+#=GF SS    Predicted; PFOLD
+#=GF TP    Cis-reg; IRES;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000243 SO:internal_ribosome_entry_site
+#=GF DR    GO:0043022 GO:ribosome binding
+#=GF RN    [1]
+#=GF RM    12237106
+#=GF RT    Continuous heat shock enhances translational initiation directed by
+#=GF RT    internal ribosomal entry site.
+#=GF RA    Kim YK, Jang SK;
+#=GF RL    Biochem Biophys Res Commun 2002;297:224-231.
+#=GF CC    This family represents the bip internal ribosome entry site (IRES). BiP
+#=GF CC    protein expression has been found to be significantly enhanced by the heat
+#=GF CC    shock response due to IRES-dependent translation. It is thought that this
+#=GF CC    translational mechanism is essential for the survival of cells under
+#=GF CC    stress [1].
+#=GF WK    http://en.wikipedia.org/wiki/bip_internal_ribosome_entry_site_(IRES)
+#=GF SQ    9
+
+#=GS R.norvegicus.1         AC    M14866.1/698-964
+#=GS M.mulatta.1            AC    AANU01123159.1/8266-8527
+#=GS H.sapiens.1            AC    BC020235.1/1-237
+#=GS H.sapiens.2            AC    X59969.1/379-626
+#=GS H.sapiens.3            AC    M19645.1/379-625
+#=GS H.sapiens.4            AC    X87949.1/10-255
+#=GS P.troglodytes.1        AC    AADA01225449.1/20588-20842
+#=GS M.murinus.1            AC    ABDC01077565.1/377-625
+#=GS Otolemur_garnettii_s.1 AC    AAQR01670020.1/1619-1877
+
+R.norvegicus.1                     UACUGGCUGUGACUACACUGAC...UUGGACACUU..GGCCUUUUGCGGG
+M.mulatta.1                        CACCGGCCGAGACAGCACAGACGGACCGACCGAUUGGGGUGUUUCGCGAG
+H.sapiens.1                        ...........ACAGCACAGACAGAUUGACCUAUUGGGGUGUUUCGCGAG
+H.sapiens.2                        CGCCGGCCAAGACAGCACAGACAGAUUGACCUAUUGGGGUGUUUCGCGAG
+H.sapiens.3                        CGCCGGCCAAGACAGCACAGACAGAUUGACCUAUUGGGGUGUUUCGCGAG
+H.sapiens.4                        ..CCGGCCAAGACAGCACAGACAGAUUGACCUAUUGGGGUGUUUCGCGAG
+P.troglodytes.1                    CGCCGGCCGAGACGGCACAGACAGACCGACCGAUUGGGGUGUUUCCUGAA
+M.murinus.1                        CGGCGGCCAAGACAGCACGGAG...UAGACUGACUAGGGCGUUUCGGGAG
+Otolemur_garnettii_s.1             CGCCGGCCAAGACAGCACAGACAG...GACUGACUUAGGUGUUUCUCGAA
+#=GC SS_cons                       ...<<<<<<.....<<<<<<.............<<<<<<<..........
+#=GC RF                            cgcCgGCCaAGACAGCaCaGAcAGAuuGAccgAcugGGGcgUUUcgcGAg
+
+R.norvegicus.1                     UUUGAGAGGUAAGCGUCGCGGCCUGCUUCCA...GGCUACCCUGAUUUUG
+M.mulatta.1                        UGUGAGAGGUAAGCGCCGCGGCCUGCAUUUCCAGACCUGCCCU...CCUG
+H.sapiens.1                        UGUGAGAGGGAAGCGCCGCGGCCUGUAUUUCUAGACCUGCCCUUCGCCUG
+H.sapiens.2                        UGUGAGAGGGAAGCGCCGCGGCCUGUAUUUCUAGACCUGCCCUUCGCCUG
+H.sapiens.3                        UGUGAGAGGGAAGCGCCGCGGCCUGUAUUUCUAGACCUGCCCUUCGCCUG
+H.sapiens.4                        UGUGAGAGGGAAGCGCCGCGGCCUGUAUUUCUAGACCUGCCCUUCGCCUG
+P.troglodytes.1                    UGUGAGAGGUAAGCGCCGCGGCCUGCAUUUCCAGACCUGCCCUUCGCCUG
+M.murinus.1                        GGUAAGGGGUAAACGCCGCGGCCUGCUUUUC.AGAACUCUCCCCCGCCUU
+Otolemur_garnettii_s.1             CGUGAGAGGUGAGCGCCGCGGCCUCCUGUCCCAGACCUG.CCUUCGCCUU
+#=GC SS_cons                       ............<<<<<<<<<.............................
+#=GC RF                            uGUGAGAGGUAAGcGCCGCGGCCUGCuUUuccAGAaCUgcCCUucgccUg
+
+R.norvegicus.1                     GUUCGUGGCUCCUCCUGACCCUGAGAACCUCUGUCGCCU.CAGAUCAGAA
+M.mulatta.1                        GUUCGUGGCGCCUUGUGACC..CCCGGCCCCUGCCGCCUGCAAGUCGGAA
+H.sapiens.1                        GUUCGUGGCGCCUUGUGACC..CCGGGCCCCUGCCGCCUGCAAGUCGGAA
+H.sapiens.2                        GUUCGUGGCGCCUUGUGACC..CCGGGCCCCUGCCGCCUGCAAGUCGGAA
+H.sapiens.3                        GUUCGUGGCGCCUUGUGACC..CCGGGCCCCUGCCGCCUGCAAGUCG.AA
+H.sapiens.4                        GUUCGUGGCGCCUUGUGACC..CCGGGCCCCUGCCGCCUGCAAGUCGGAA
+P.troglodytes.1                    GUUCGUGGCGCCUUGUGACC..CCUG.......CCACCUGCAAGUCGGUA
+M.murinus.1                        GUUCGUG..........GCU..CCGGGCCCCUGCCGCCCUCACACCGGUA
+Otolemur_garnettii_s.1             GUUCUUGGCUCCUUGUGACC..CCGGAGCCCUGCCGCCCUCAGACCCAUA
+#=GC SS_cons                       ..>>>>>>>>>......>>>..>>>>........................
+#=GC RF                            GUUCGUGGCgCCUugUGgCC..CcggacCcCUGcCGCCuuCAaAuCgGaA
+
+R.norvegicus.1                     CCGUCGUCGCGUUUCGG.GCUACAGCCUGUUGCUGGACUCUGUGAGACAC
+M.mulatta.1                        ACCGCGCUGCGCUCCUGUGCUGCGGCCUGUGGCUGGACUGCCUGC.....
+H.sapiens.1                        AUUGCGCUGUGCUCCUGUGCUACGGCCUGUGGCUGGACUGCCUGC.....
+H.sapiens.2                        AUUGCGCUGUGCUCCUGUGCUACGGCCUGUGGCUGGACUGCCUGC.....
+H.sapiens.3                        AUUGCGCUGUGCUCCUGUGCUACGGCCUGUGGCUGGACUGCCUGC.....
+H.sapiens.4                        AUUGCGCUGUGCUCCUGUGCUACGGCCUGUGGCUGGACUGCCUGC.....
+P.troglodytes.1                    ACCGCGCUGCGCUCCUGUGCUGUGGCCUGUGGCUGGACUGCCUGG.....
+M.murinus.1                        ACCUCGCAACGCUCCCGUGCUGCGGCCUGUGGCAGGAUUGCCUGC.....
+Otolemur_garnettii_s.1             ACCUCGCUGCGCUCCUGUGCUGCGGCCUGUGGUAGGAUUGCCUAC.....
+#=GC SS_cons                       ..............>>>>>>..<<<<<...>>>>>...............
+#=GC RF                            ACcuCGcuGCGcUcCuGuGCUgCaGCCUGUGGCuGGAcUgccUGc.....
+
+R.norvegicus.1                     CUGACCGACCGCUGAGCGACUGACUGGUCCACAGCGCCGGCAAGAUGAAG
+M.mulatta.1                        .....GACGCCCUGCCUGCUGCUGCUGCCGGACUGGUUGGCAAGAUGAAG
+H.sapiens.1                        ......................UGCUGCCCAACUGGCUGGCAAGAUGAAG
+H.sapiens.2                        ......................UGCUGCCCAACUGGCUGGCAAGAUGAAG
+H.sapiens.3                        ......................UGCUGCCCAACUGGCUGGCAAGAUGAAG
+H.sapiens.4                        ......................UGCUGCCCAACUGGCUGGCAAGAUGAAG
+P.troglodytes.1                    ........GAUGCCCUGCCUGCUGCUGCCCGACUGGCUGGCAAGAUGAAG
+M.murinus.1                        .......GACGUCCUCCCUGCCUGGUGACCCUCUGGCCGGCAAGAUGAAG
+Otolemur_garnettii_s.1             .......GACGUCCUGCCUGCCUGGUGACCGACUCGCCGGCAAGAUGAAG
+#=GC SS_cons                       ..................................................
+#=GC RF                            ......................uguuGaCCaacugGCcGGCAAGAUGAAG
+
+R.norvegicus.1                     UUCACUGUGGUGGCGGCGGCGCUGCUG
+M.mulatta.1                        CUCUCCCUGGUGGCCGCGAUGCUGCUG
+H.sapiens.1                        CUCUCCCUGGUGGCCGCGAUGCUGCUG
+H.sapiens.2                        CUCUCCCUGGUGGCCGCGAUGCUGCUG
+H.sapiens.3                        CUCUCCCUGGUGGCCGCGAUGCUGCUG
+H.sapiens.4                        CUCUCCCUGGUGGCCGCGAUGCUGCUG
+P.troglodytes.1                    CUCUCCCUGGUGGCCGCGAUGCUGCUG
+M.murinus.1                        CUCUCCCUGGUGGCUGCAGUGCUGCUG
+Otolemur_garnettii_s.1             CUCUCCCUGGUGGCAGCGAUGCUGCUG
+#=GC SS_cons                       ..........>>>>>>...........
+#=GC RF                            cUCuCccUGGuGGCcGCGaUGCUGCUG
+//

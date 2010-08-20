@@ -1,0 +1,172 @@
+# STOCKHOLM 1.0
+#=GF ID    Hammerhead_1
+#=GF AC    RF00163
+#=GF DE    Hammerhead ribozyme (type I)
+#=GF AU    Bateman A
+#=GF GA    26.0
+#=GF NC    26.0
+#=GF TC    26.0
+#=GF SE    Bateman A
+#=GF SS    Published; PMID:9632772
+#=GF TP    Gene; ribozyme;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  --fil-no-hmm  CM SEQDB
+#=GF DR    SO:0000380 SO:hammerhead_ribozyme
+#=GF RN    [1]
+#=GF RM    11024185
+#=GF RT    Hammerhead-mediated processing of satellite pDo500 family transcripts
+#=GF RT    from Dolichopoda cave crickets.
+#=GF RA    Rojas AA, Vazquez-Tello A, Ferbeyre G, Venanzetti F, Bachmann L,
+#=GF RA    Paquin B, Sbordoni V, Cedergren R;
+#=GF RL    Nucleic Acids Res 2000;28:4037-4043.
+#=GF RN    [2]
+#=GF RM    10899150
+#=GF RT    Distribution of hammerhead and hammerhead-like RNA motifs through the
+#=GF RT    GenBank.
+#=GF RA    Ferbeyre G, Bourdeau V, Pageau M, Miramontes P, Cedergren R;
+#=GF RL    Genome Res 2000;10:1011-1019.
+#=GF CC    The hammerhead ribozyme is one of the smallest catalytic
+#=GF CC    RNAs. These RNAs have an endonuclease function, and most
+#=GF CC    often are autocatalytic. Structurally it is composed of
+#=GF CC    three base paired helices, separated by short linkers of
+#=GF CC    conserved sequence. These helices are called I, II and III.
+#=GF CC    We have classified hammerhead ribozymes into three types
+#=GF CC    based on which helix the 5' and 3' ends of the sequence
+#=GF CC    join. This family are the type I hammerheads.
+#=GF CC    The conserved uridine-turn links helix I 
+#=GF CC    to helix II and usually has the sequence CUGA.  Helix II and
+#=GF CC    III are linked by a sequence CGAAA.  The cleavage reaction 
+#=GF CC    occurs between helix III and I, and is usually a C.
+#=GF CC    Hammerhead ribozymes are found in plant viroids and other
+#=GF CC    small replicating satellite RNA species.  Hammerhead
+#=GF CC    ribozymes have been found in animals as well as plants.
+#=GF WK    http://en.wikipedia.org/wiki/Hammerhead_ribozyme
+#=GF SQ    30
+
+#=GS S.mansoni.1     AC    X15619.1/121-168
+#=GS S.japonicum.1   AC    AF213693.1/184-228
+#=GS S.japonicum.2   AC    AF213692.1/353-397
+#=GS S.mansoni.2     AC    AF036755.1/118-162
+#=GS S.mansoni.3     AC    AF036754.1/91-138
+#=GS S.mansoni.4     AC    AF036749.1/121-167
+#=GS S.mansoni.5     AC    AF036746.1/113-157
+#=GS S.mansoni.6     AC    X15621.1/101-144
+#=GS S.mansoni.7     AC    AF036748.1/120-164
+#=GS S.mansoni.8     AC    L07513.1/246-290
+#=GS S.mansoni.9     AC    AF036741.1/118-165
+#=GS S.mansoni.10    AC    D87492.1/743-788
+#=GS S.haematobium.1 AC    AF036395.1/119-163
+#=GS S.haematobium.2 AC    AF036390.1/118-165
+#=GS S.mansoni.11    AC    AF036751.1/118-161
+#=GS S.mansoni.12    AC    D87492.1/2147-2192
+#=GS S.mansoni.13    AC    FN357486.1/345293-345249
+#=GS S.haematobium.3 AC    AF036398.1/58-102
+#=GS S.mansoni.14    AC    AF036752.1/118-162
+#=GS S.mansoni.15    AC    X15620.1/19-62
+#=GS S.mansoni.16    AC    M98271.1/8-53
+#=GS S.haematobium.4 AC    AF036393.1/119-166
+#=GS S.mansoni.17    AC    D87493.1/3564-3609
+#=GS S.douthitti.1   AC    AF036400.1/123-167
+#=GS A.sunblotch.1   AC    AF404068.1/70-185
+#=GS A.sunblotch.2   AC    AF404040.1/70-186
+#=GS A.sunblotch.3   AC    AF404073.1/70-162
+#=GS A.sunblotch.4   AC    X52041.1/178-64
+#=GS A.sunblotch.5   AC    AF404041.1/70-183
+#=GS A.sunblotch.6   AC    AF404052.1/70-187
+
+S.mansoni.1                 AUCCAGCUGACGAGUCCCA...............................
+S.japonicum.1               AUCCAACCGAUGAGUCCCA...............................
+S.japonicum.2               AUCCAGCCGAUGAGUUCCA...............................
+S.mansoni.2                 AUCCNGCUGACGNGUCCCA...............................
+S.mansoni.3                 AUCCAGUUGACGAGUCCCA...............................
+S.mansoni.4                 AUU.AACAGACGAGUCCCA...............................
+S.mansoni.5                 AUCCAGCUGACCAGUCGGA...............................
+S.mansoni.6                 ACUCCG.UGACAAGUCUCG...............................
+S.mansoni.7                 AUCCAGCUGACGAGUCCUA...............................
+S.mansoni.8                 AUCUAGCUGACGAGUCCCG...............................
+S.mansoni.9                 AUCCAGCCGACGAGUCCCA...............................
+S.mansoni.10                GCACUGCUGAGGAGUCCCAC..............................
+S.haematobium.1             CCCUGGCUGACGAGUCCCA...............................
+S.haematobium.2             AUCCAACUGACGAGUGCCC...............................
+S.mansoni.11                AUCCAGCUGACGAGUCCCA...............................
+S.mansoni.12                CAAUUGCUGAGGAGUCCCAU..............................
+S.mansoni.13                AUCUAAAUGACGAGUCCUA...............................
+S.haematobium.3             AUCUUUCUGACGAGUUUCA...............................
+S.mansoni.14                AUCCAGCUGACGAGUCCCA...............................
+S.mansoni.15                GGCUAGCAGUGGAAUCC.A...............................
+S.mansoni.16                CGACUGCUGAGGAGUCCCAC..............................
+S.haematobium.4             AUCCAGCUGACGAGUCCCA...............................
+S.mansoni.17                GCACUUCUGAAGAGUCCCAU..............................
+S.douthitti.1               AUCCAGCUGACGAGUGCCA...............................
+A.sunblotch.1               CUUUCCAUGAAGAGACGAAGUGAUCAAGAGAUUGAAGACGAGUGAACUAA
+A.sunblotch.2               CUUUCCCUGAAGAGACGAAGUGAUCAAGAGAUUGAAGACGAGUGAACUAA
+A.sunblotch.3               CUUUCCCUGAAGAGACGAAGUGAUCAAGAGAUUGAAGACGAGUGAACUAA
+A.sunblotch.4               CUUUCCCUGAAGAGACGAAGUGAUCAAGAGAUUGAAGACGAGUGAACUAA
+A.sunblotch.5               CUUUCCCUGAAGAGACGAAGUGAUCAAGAGAUUGAAGACGAGUGAACUAA
+A.sunblotch.6               CUUUCCCUGAAGUGACGAAGUGAUCAAGAGAUUGAAGACGAGUGAACUAA
+#=GC SS_cons                <<<<<<.......<<<<.................................
+
+S.mansoni.1                 .........................................AAUAGGACG
+S.japonicum.1               .........................................AAUAGAACG
+S.japonicum.2               .........................................AACAGGACU
+S.mansoni.2                 .........................................AAUAGGACG
+S.mansoni.3                 .........................................AAUUGGACG
+S.mansoni.4                 .........................................AAUAGGACG
+S.mansoni.5                 .........................................AAUAGGACG
+S.mansoni.6                 .........................................AAUAGGACG
+S.mansoni.7                 .........................................AAUAGGGUG
+S.mansoni.8                 .........................................AAUAGGAGG
+S.mansoni.9                 .........................................AAUAAAACG
+S.mansoni.10                .........................................AAUAGGACG
+S.haematobium.1             .........................................AACAGGACG
+S.haematobium.2             .........................................AAUAGGAGG
+S.mansoni.11                .........................................AAUAGGACG
+S.mansoni.12                .........................................AAUAGGACG
+S.mansoni.13                .........................................AAUGGAACU
+S.haematobium.3             .........................................AAUAGGACG
+S.mansoni.14                .........................................AAUAGGACU
+S.mansoni.15                .........................................AAUAGGACG
+S.mansoni.16                .........................................AAUAGGGCG
+S.haematobium.4             .........................................AACAGGACG
+S.mansoni.17                .........................................GCUAGGACG
+S.douthitti.1               .........................................AAUAGGACG
+A.sunblotch.1               UUUUUUUUAAUAAAAGUUCACCACGACUCCUCCUUCUCU..CACAAGUCG
+A.sunblotch.2               UUUUUUUUUAAUAAAAGUUCACCACGACUCCUCCUUCUCU.CACAAGUCG
+A.sunblotch.3               CGACUCCUCCUUCUCU.........................CACAAGUCG
+A.sunblotch.4               UUUUUUUAAUAAAAGUUCACCACGACUCCUCCUUCUCU...CACAAGUCG
+A.sunblotch.5               UUUUUUUAUAAAAGUUCACCACGACUCCUCCUUCUCU....CACAAGUCG
+A.sunblotch.6               UUUUUUUUUAAUAAAAAGUUCACCACGACUCCUCCUUCUCUCACAAGUCG
+#=GC SS_cons                .............................................>>>>.
+
+S.mansoni.1                 AA...ACGC.UCGUCAAAAUGCAU
+S.japonicum.1               AA...ACCU.GCGUC...CUGGAU
+S.japonicum.2               AA...ACGC.GCUUC...UUGGAU
+S.mansoni.2                 GA...AGGC.GCGUC...CCGGAU
+S.mansoni.3                 AA...ACGC.GCGUCAAACUGGAU
+S.mansoni.4                 AAGUGACGC.GCGUC...CUGGAU
+S.mansoni.5                 AA...ACGC.GCGUC...CUGGAU
+S.mansoni.6                 AA...AUGU.GCGUC...CUAGAU
+S.mansoni.7                 AA...ACGC.GCGUC...CUGGAU
+S.mansoni.8                 AA...GUGC.UCGUU...CAAUAU
+S.mansoni.9                 AA...ACGC.GCGUCAAAGUGGAU
+S.mansoni.10                AA...ACGA.CCGUC...CAGUAC
+S.haematobium.1             AA...ACGC.GCGUC...CUGGAU
+S.haematobium.2             AA...ACGC.GCGUCAAACUGCAU
+S.mansoni.11                A....ACGC.ACUUC...CUAGAU
+S.mansoni.12                AA...ACGG.CCGUC...CAGUGC
+S.mansoni.13                AA...ACAC.AUGUG...UUUGAU
+S.haematobium.3             AA...ACGC.GUGUC...AUGGAU
+S.mansoni.14                UG...ACGC.GCGUC...CUGGAU
+S.mansoni.15                AA...ACGC.GCGUC...CUGGAU
+S.mansoni.16                AU...ACGG.ACGUC...CAGUGC
+S.haematobium.4             AA...ACGA.GAGUCAAACUGCAU
+S.mansoni.17                AA...ACAG.CCUUC...CAGUAC
+S.douthitti.1               AA...AUGU.GCAUC...CUGGAU
+A.sunblotch.1               AA...ACUCAGAGUC...GGAAAG
+A.sunblotch.2               AA...ACUCAGAGUC...GGAAAG
+A.sunblotch.3               AA...ACUCAGAGUC...GGAAAG
+A.sunblotch.4               AA...ACUCAGAGUC...GGAAAG
+A.sunblotch.5               AA...ACUCAGAGUC...GGAAAG
+A.sunblotch.6               AA...ACUCAGAGUC...GGAAAG
+#=GC SS_cons                .....<<<<.>>>>....>>>>>>
+//

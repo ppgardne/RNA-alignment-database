@@ -1,0 +1,61 @@
+# STOCKHOLM 1.0
+#=GF ID    snoR21
+#=GF AC    RF00352
+#=GF DE    Small nucleolar RNA R21
+#=GF AU    Moxon SJ
+#=GF GA    35.0
+#=GF NC    0.0
+#=GF TC    43.9
+#=GF SE    Moxon SJ, INFERNAL
+#=GF SS    Predicted; PFOLD; Moxon SJ
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF RN    [1]
+#=GF RM    11469857
+#=GF RT    Identification of 66 box C/D snoRNAs in Arabidopsis thaliana:
+#=GF RT    extensive gene duplications generated multiple isoforms predicting
+#=GF RT    new ribosomal RNA 2'-O-methylation sites.
+#=GF RA    Barneche F, Gaspin C, Guyot R, Echeverria M;
+#=GF RL    J Mol Biol 2001;311:57-73.
+#=GF RN    [2]
+#=GF RM    12007400
+#=GF RT    Small nucleolar RNAs: an abundant group of noncoding RNAs with
+#=GF RT    diverse cellular functions.
+#=GF RA    Kiss T;
+#=GF RL    Cell 2002;109:145-148.
+#=GF CC    snoR21 is a member of the C/D class of snoRNA which contain the C (UGAUGA)
+#=GF CC    and  D (CUGA) box motifs. Most of the members of the box C/D family
+#=GF CC    function in directing site-specific 2'-O-methylation of substrate RNAs
+#=GF CC    [1,2].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_R21
+#=GF SQ    6
+
+#=GS R.communis.1    AC    AASG02005532.1/7775-7857
+#=GS P.trichocarpa.1 AC    AARH01000785.1/12491-12575
+#=GS A.thaliana.1    AC    AL021636.3/72074-72154
+#=GS A.thaliana.2    AC    AF326226.1/1-81
+#=GS A.thaliana.3    AC    AL021636.3/72274-72356
+#=GS A.thaliana.4    AC    AF317946.1/1-83
+
+R.communis.1                CUUCCCUAUGAAGAAUGAU.AUUUGUAUGUUAAAUAAAAGUAGUGGGCUG
+P.trichocarpa.1             UAUCCCUAUGAAGAAUGAA.CUGAU.AUUUCAAUUAAAAGUAGUGGGCUG
+A.thaliana.1                .AUCCCAAUGAUGAAUGAU.AUGAA.AAAAAUGUUAAAAGUAGUGA.CUG
+A.thaliana.2                .AUCCCAAUGAUGAAUGAU.AUGAA.AAAAAUGUUAAAAGUAGUGA.CUG
+A.thaliana.3                AAUCCCAAUGAUGACUUAUUAAGAUUAAAAAUGUUAAAAGUAGUGA.CUG
+A.thaliana.4                AAUCCCAAUGAUGACUUAUUAAGAUUAAAAAUGUUAAAAGUAGUGA.CUG
+#=GC SS_cons                <<<<<<............................................
+#=GC RF                     caUCCCaAUGAaGAAUGAu.AuGAuUAaaaaaauUAAAAGUAGUGa.CUG
+
+R.communis.1                AU.CUCCAUUGAUGACUGAC...CAAUUCUGAGGGAUG
+P.trichocarpa.1             AU.CUCCAUUGAUGAUCACUAACCAAUUCUGAGGGAUG
+A.thaliana.1                AUUAUACCUUGAUUACUAGU...CAAUUCUGAGGGAUU
+A.thaliana.2                AUUAUACCUUGAUUACUAGU...CAAUUCUGAGGGAUU
+A.thaliana.3                AU.AUCUUUUGAUGAAAUUU...UAGCUCUGAGGGAUU
+A.thaliana.4                AU.AUCUUUUGAUGAAAUUU...UAGCUCUGAGGGAUU
+#=GC SS_cons                ................................>>>>>>
+#=GC RF                     AU.aUccaUUGAUGAauaaU...cAAUUCUGAGGGAug
+//

@@ -1,0 +1,49 @@
+# STOCKHOLM 1.0
+#=GF ID    RydC
+#=GF AC    RF00505
+#=GF DE    RydC RNA
+#=GF AU    Moxon SJ
+#=GF GA    45.0
+#=GF NC    0.0
+#=GF TC    56.7
+#=GF SE    PMID:15618228
+#=GF SS    Published; PMID:15618228
+#=GF TP    Gene; sRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000655 SO:ncRNA
+#=GF RN    [1]
+#=GF RM    15618228
+#=GF RT    A small bacterial RNA regulates a putative ABC transporter.
+#=GF RA    Antal M, Bordeau V, Douchin V, Felden B;
+#=GF RL    J Biol Chem. 2005;280:7901-7908.
+#=GF CC    This family represents a bacterial non-coding RNA called RydC. RydC is
+#=GF CC    thought to regulate an mRNA, yejABEF which encodes an ABC transporter
+#=GF CC    protein. RydC is known to bind the protein Hfq which causes a
+#=GF CC    conformational change in the RNA molecule. The Hfq/RydC complex is then
+#=GF CC    thought to bind to the target mRNA and induce its degradation [1].
+#=GF WK    http://en.wikipedia.org/wiki/RydC_RNA
+#=GF SQ    5
+
+#=GS Escherichia_coli_S88.1 AC    CU928161.2/1508357-1508420
+#=GS Escherichia_coli_str.1 AC    U00096.2/1489467-1489530
+#=GS S.enterica.1           AC    AL627270.1/76955-77020
+#=GS Salmonella_enterica_.1 AC    CP001113.1/1726026-1726091
+#=GS Shigella_sonnei_Ss04.1 AC    CP000038.1/1826318-1826381
+
+Escherichia_coli_S88.1             CUUCCGAUGUAGGCCCGU.AUUCUUCGCCUGUACCACGGGUC.GGUUUUA
+Escherichia_coli_str.1             CUUCCGAUGUAGACCCGU.AUUCUUCGCCUGUACCACGGGUC.GGUUUUA
+S.enterica.1                       CUUCCGAUGUAGACCCGUCCUCCUUCGCCUGCGUCACGGGUCCUGGUUAG
+Salmonella_enterica_.1             CUUCCGAUGUAGACCCGUCCUCCUUCGCCUGCGUCACGGGUCUUGGUUAG
+Shigella_sonnei_Ss04.1             CUUCCGAUGUAGACCCGU.AUUCUUCGCCUGUACCACGGGUC.GGUUUUA
+#=GC SS_cons                       ...........<<<<<<<.......AAAAAAAAA.>>>>>>>........
+#=GC RF                            CUUCCGAUGUAGACCCGucaUuCUUCGCCUGuauCaCGGGUCcuGuUUaa
+
+Escherichia_coli_S88.1             GUACAGGCGUUUUCUU
+Escherichia_coli_str.1             GUACAGGCGUUUUCUU
+S.enterica.1                       ACGCAGGCGUUUUCUG
+Salmonella_enterica_.1             ACGCAGGCGUUUUCUG
+Shigella_sonnei_Ss04.1             GUACAGGCAUUUUCUU
+#=GC SS_cons                       aaaaaaaaa.......
+#=GC RF                            auaCAGGCGUUUUCUu
+//

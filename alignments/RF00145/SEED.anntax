@@ -1,0 +1,78 @@
+# STOCKHOLM 1.0
+#=GF ID    snoZ105
+#=GF AC    RF00145
+#=GF DE    Small nucleolar RNA Z105
+#=GF AU    Moxon SJ, Wilkinson AC
+#=GF GA    32.0
+#=GF NC    28.0
+#=GF TC    37.8
+#=GF PI    snoR7
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    URL; http://bioinf.scri.sari.ac.uk/cgi-bin/plant_snorna/home
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF RN    [1]
+#=GF RM    12736310
+#=GF RT    The high diversity of snoRNAs in plants: identification and
+#=GF RT    comparative study of 120 snoRNA genes from Oryza sativa.
+#=GF RA    Chen CL, Liang D, Zhou H, Zhuo M, Chen YQ, Qu LH;
+#=GF RL    Nucleic Acids Res 2003;31:2601-2613.
+#=GF RN    [2]
+#=GF RM    12007400
+#=GF RT    Small nucleolar RNAs: an abundant group of noncoding RNAs with
+#=GF RT    diverse cellular functions.
+#=GF RA    Kiss T;
+#=GF RL    Cell 2002;109:145-148.
+#=GF CC    This family consists of several snoRNA Z105 sequences which are members of
+#=GF CC    the C/D class of snoRNA which contain the C (UGAUGA) and D (CUGA) box
+#=GF CC    motifs. This family seems to be found exclusively in plants. C/D box small
+#=GF CC    nucleolar RNAs are known to act as a methylation guides for 18S ribosomal
+#=GF CC    RNA [1].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_Z105
+#=GF SQ    11
+
+#=GS C.reinhardtii.1  AC    ABCN01006793.1/11379-11445
+#=GS O.sativa.1       AC    AJ489950.1/1-67
+#=GS O.sativa.2       AC    AAAA02011125.1/45831-45898
+#=GS O.sativa.3       AC    AP008213.1/2125441-2125510
+#=GS V.vinifera.1     AC    CAAP02004530.1/27516-27588
+#=GS S.lycopersicum.1 AC    AC193778.1/39952-40019
+#=GS L.japonicus.1    AC    AP006540.1/42483-42559
+#=GS R.communis.1     AC    AASG02002047.1/5426-5497
+#=GS P.trichocarpa.1  AC    AARH01002622.1/16085-16153
+#=GS A.thaliana.1     AC    AL049862.1/41876-41945
+#=GS B.rapa.1         AC    AC189189.1/52858-52925
+
+C.reinhardtii.1              UGGCUAUGAGGAAACACCUGUCU.GAUCA........UUUGAACUGAUGA
+O.sativa.1                   UUGGCAUGAUGAGGAAAACCGAU.GUUUUUGGAUCUAUUUGAUG......
+O.sativa.2                   UUGGCAUGAUGAGGAAACCUUAC.GUUUA........UCUGAUCUAUUUG
+O.sativa.3                   UUGGCAUGAUGAGGAAAUCAAUC.GUUUCUA......ACUGAUCCACUGG
+V.vinifera.1                 UUGGUAUGAUGAUGAACAUAACA.AUUAUUU......UCUGAUGAUUCUU
+S.lycopersicum.1             GCAUAAUGAUGAUGCAAAAU.....UUGU........UCCGAUUAUUCAU
+L.japonicus.1                CUGGCAUGAUGAUGAUAAUUACG.AUUGAUUUUG...UAUGAUUAUUCAU
+R.communis.1                 GCAUAGUGAUGAUGAACUUGAAA.UUUCCC.......GAUGAUUUUCAUG
+P.trichocarpa.1              AGGCAAUAAUGAUGAAAGAUUUA.AAUUA........UCUUAUAUGUAUG
+A.thaliana.1                 AAGGCAUGAUGAGGAUUGUUUUAUUGUCA........UCUGAUUCUCAUG
+B.rapa.1                     AAGGCAUGAUGAGGAUUGUUUAU.UGUCA........UCUGAUUUUCUGA
+#=GC SS_cons                 ..................................................
+#=GC RF                      uuGGcAUGAUGAgGAAAauuuaa.auUua........UCUGAUuuuuuug
+
+C.reinhardtii.1              G.....ACCAAUCA...CCUCCUACUCAUUCUGA
+O.sativa.1                   ......AUAAAUU....CCUCCUACUCAUUCUGA
+O.sativa.2                   A.....UGAUAAAUU..CCUCCUACUCAUUCUGA
+O.sativa.3                   AUG...AGAAAUU....CCUCCUACUCAUUCUGA
+V.vinifera.1                 GAUUG.AAUAAUAA...CCUCCUACUCAUUCUGA
+S.lycopersicum.1             GAAUGGAAUACCAA...CCUCCUACUCAUUCUGA
+L.japonicus.1                AUG...AUUAAUACAAUCCUCCUACUCAUUCUGA
+R.communis.1                 ACAGG.AAUAACAA...CCUCCUACUCAUACUGA
+P.trichocarpa.1              AUG...AUUCAACA...CCUCCUACUCAUUCUGA
+A.thaliana.1                 AUGA..AUAUAUA....CCUCCUACUCAUUCUGA
+B.rapa.1                     UGA...AUCAAUA....CCUCCUACUCAUUCUGA
+#=GC SS_cons                 ..................................
+#=GC RF                      aag...AuaAAuAA...CCUCCUACUCAUUCUGA
+//

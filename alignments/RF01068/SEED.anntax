@@ -1,0 +1,251 @@
+# STOCKHOLM 1.0
+#=GF ID    mini-ykkC
+#=GF AC    RF01068
+#=GF DE    mini-ykkC RNA motif
+#=GF AU    Weinberg Z, Gardner PP
+#=GF GA    23.0
+#=GF NC    22.7
+#=GF TC    24.0
+#=GF SE    Published; PMID:17621584; Weinberg Z
+#=GF SS    Published; PMID:17621584; Weinberg Z
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 100000  --toponly  CM SEQDB
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    17621584
+#=GF RT    Identification of 22 candidate structured RNAs in bacteria using
+#=GF RT    the CMfinder comparative genomics pipeline.
+#=GF RA    Weinberg Z, Barrick JE, Yao Z, Roth A, Kim JN, Gore J, Wang JX,
+#=GF RA    Lee ER, Block KF, Sudarsan N, Neph S, Tompa M, Ruzzo WL, Breaker
+#=GF RA    RR
+#=GF RL    Nucleic Acids Res. 2007;35:4809-4819.
+#=GF WK    http://en.wikipedia.org/wiki/Mini-ykkC_RNA_motif
+#=GF SQ    73
+
+#=GS Corynebacterium_glut.1 AC    BX927151.1/84765-84811
+#=GS Gloeobacter_violaceu.1 AC    BA000045.2/3187335-3187382
+#=GS Bradyrhizobium_japon.1 AC    BA000040.2/4473773-4473825
+#=GS Nitrobacter_winograd.1 AC    CP000115.1/2219778-2219829
+#=GS Rhodopseudomonas_pal.1 AC    CP000283.1/2440543-2440591
+#=GS Rhodopseudomonas_pal.2 AC    CP000301.1/5064861-5064909
+#=GS Rhodopseudomonas_pal.3 AC    BX572597.1/162257-162305
+#=GS Rhodopseudomonas_pal.4 AC    CP000283.1/2608481-2608526
+#=GS Rhodopseudomonas_pal.5 AC    CP000301.1/3222813-3222860
+#=GS Rhodopseudomonas_pal.6 AC    BX572600.1/144548-144591
+#=GS Rhodopseudomonas_pal.7 AC    CP000463.1/1374094-1374142
+#=GS Rhodopseudomonas_pal.8 AC    CP000463.1/3411592-3411635
+#=GS Ochrobactrum_anthrop.1 AC    CP000758.1/2644355-2644400
+#=GS Mesorhizobium_loti_M.1 AC    BA000012.4/3864269-3864318
+#=GS Mesorhizobium.1        AC    CP000390.1/1077820-1077866
+#=GS Agrobacterium_tumefa.1 AC    AE007869.2/1627110-1627159
+#=GS Rhizobium_etli_CFN_4.1 AC    CP000137.1/143224-143273
+#=GS Xanthobacter_autotro.1 AC    CP000781.1/1410143-1410192
+#=GS Xanthobacter_autotro.2 AC    CP000781.1/4652689-4652739
+#=GS Jannaschia.1           AC    CP000264.1/1252827-1252874
+#=GS Acidiphilium_cryptum.1 AC    CP000697.1/2991208-2991257
+#=GS Magnetospirillum_mag.1 AC    AP007255.1/1410478-1410525
+#=GS Rhodospirillum_rubru.1 AC    CP000230.1/336937-336985
+#=GS B.bronchiseptica.1     AC    BX640439.1/167183-167227
+#=GS Burkholderia_phymatu.1 AC    CP001044.1/953099-953146
+#=GS Burkholderia_xenovor.1 AC    CP000270.1/1349405-1349446
+#=GS Burkholderia_vietnam.1 AC    CP000614.1/2626967-2627011
+#=GS Burkholderia_cenocep.1 AC    CP000458.1/2537208-2537252
+#=GS Burkholderia.1         AC    CP000151.1/2708083-2708127
+#=GS B.ambifaria.1          AC    CP000440.1/2556866-2556910
+#=GS Burkholderia_cenocep.2 AC    AM747720.1/2630522-2630566
+#=GS Burkholderia_thailan.1 AC    CP000086.1/1166409-1166455
+#=GS Burkholderia_pseudom.1 AC    CP000572.1/1233467-1233513
+#=GS Ralstonia_eutropha_J.1 AC    CP000091.1/1606501-1606547
+#=GS Nitrosomonas_europae.1 AC    AL954747.1/2389307-2389357
+#=GS D.aromatica.1          AC    CP000089.1/88477-88521
+#=GS G.sulfurreducens.1     AC    AE017180.1/755400-755444
+#=GS W.succinogenes.1       AC    BX571660.1/26855-26903
+#=GS Aeromonas_hydrophila.1 AC    CP000462.1/2127812-2127857
+#=GS Saccharophagus_degra.1 AC    CP000282.1/1459875-1459918
+#=GS Pseudoalteromonas_at.1 AC    CP000388.1/1686408-1686454
+#=GS Shewanella.1           AC    CP000444.1/1985002-1985050
+#=GS Shewanella_baltica_O.1 AC    CP000753.1/3410111-3410159
+#=GS Shewanella_baltica_O.2 AC    CP000563.1/3324846-3324894
+#=GS Shewanella.2           AC    CP000469.1/1970735-1970783
+#=GS Alkalilimnicola_ehrl.1 AC    CP000453.1/2185316-2185364
+#=GS Escherichia_coli_APE.1 AC    CP000468.1/4784334-4784380
+#=GS E.coli.1               AC    X69949.1/348-394
+#=GS Pectobacterium_atros.1 AC    BX950851.1/2171199-2171246
+#=GS Photorhabdus_lumines.1 AC    BX571872.1/300678-300724
+#=GS S.enterica.1           AC    DQ472473.1/1250-1294
+#=GS Salmonella_enterica_.1 AC    CP000026.1/4331173-4331217
+#=GS Serratia_proteamacul.1 AC    CP000826.1/463043-463087
+#=GS Shigella_sonnei_Ss04.1 AC    CP000038.1/4603316-4603362
+#=GS Yersinia_pseudotuber.1 AC    CP000720.1/4139449-4139495
+#=GS Alcanivorax_borkumen.1 AC    AM286690.1/2165346-2165394
+#=GS Marinomonas.1          AC    CP000749.1/1273916-1273962
+#=GS Pseudomonas_aerugino.1 AC    CP000438.1/3579491-3579539
+#=GS Pseudomonas_entomoph.1 AC    CT573326.1/1469791-1469842
+#=GS Pseudomonas_fluoresc.1 AC    CP000094.1/1515886-1515933
+#=GS Pseudomonas_syringae.1 AC    CP000058.1/4535822-4535869
+#=GS P.mendocina.1          AC    CP000680.1/1523024-1523071
+#=GS Pseudomonas_syringae.2 AC    CP000075.1/4724000-4724047
+#=GS Pseudomonas_putida_K.1 AC    AE015451.1/1897096-1897147
+#=GS Pseudomonas_aerugino.2 AC    CP000744.1/3522547-3522595
+#=GS Pseudomonas_stutzeri.1 AC    CP000304.1/2181054-2181100
+#=GS Pseudomonas_fluoresc.2 AC    CP000076.1/5115332-5115385
+#=GS Pseudomonas_putida_F.1 AC    CP000712.1/4533467-4533518
+#=GS Pseudomonas_fluoresc.3 AC    CP000094.1/1858398-1858450
+#=GS Vibrio_cholerae_O395.1 AC    CP000627.1/1043227-1043274
+#=GS Vibrio_parahaemolyti.1 AC    BA000032.2/787493-787539
+#=GS Vibrio_harveyi_ATCC_.1 AC    CP000790.1/1077193-1077239
+#=GS metag._sequence.1      AC    AAFY01000765.1/857-899
+
+Corynebacterium_glut.1             .CUUCGGGACGACCCG.AAG.AAAUCUAUGACAGC......CUGGGAACG
+Gloeobacter_violaceu.1             CGGUGGGGACGACCCC.ACCCUUCGCAAAGUUUCG......CGGGG.ACG
+Bradyrhizobium_japon.1             UGGGAGGGACGGCCCU.CCUAUCCACCAGCAUAUCAGCCG.CGGGG.ACG
+Nitrobacter_winograd.1             GCGGAAGGACGACCUU.UCGUAUCCCACACAACCACGCG..CGGGG.ACG
+Rhodopseudomonas_pal.1             CGGCCGGGACGACCCG.GCCGAACAGGGAGCAUGAG.....CCGGG.ACG
+Rhodopseudomonas_pal.2             CGGCCGGGACGACCCG.GCCGAACAAGGAGCAUGAG.....CCGGG.ACG
+Rhodopseudomonas_pal.3             CGGCCGGGACGACCCG.GCCGCACAGGGAGCAUGAG.....CCGGG.ACG
+Rhodopseudomonas_pal.4             GCUCGAGGACGACCUC...CCAAUCACCCUUUCGG......CCGGG.ACG
+Rhodopseudomonas_pal.5             CCAAGAGGACGACCUC.CCAAUCACCCAAAUGACG......CAGGG.ACG
+Rhodopseudomonas_pal.6             ..UCGAGGACGACCUC.AA..AAUCACCUUUUCGG......CCGGG.ACG
+Rhodopseudomonas_pal.7             CGGCCGGGACGACCCG.GCCGACCAGGGAGCAUGAG.....CCGGG.ACG
+Rhodopseudomonas_pal.8             ..UCGAGGACGACCUC.AA..AAUCACCCUUUCGG......CCGGG.ACG
+Ochrobactrum_anthrop.1             CGGGAAGGACGGCCUU.CCCGCUUCUUCAACGA........ACGGG.ACG
+Mesorhizobium_loti_M.1             GCGCGGGGACGACCCC.GCGCCUCCCCAAGAAUUCGG....UCGGG.ACG
+Mesorhizobium.1                    GUGCAGGGACGGCCUU.GCUUUCUUCUAUCCGGA.......UGAGG.ACG
+Agrobacterium_tumefa.1             GCGCGAGGACGACCUC.GGCCAAAUCGGCGACAGCAU....GCGGG.ACG
+Rhizobium_etli_CFN_4.1             CGACCGGGACGGCCCG.GUCGCUUCCCUGGGGCACAG....CCGGG.ACG
+Xanthobacter_autotro.1             AGGCCGGGACGACCCG.GCCAUUCCCUCGGGACCCGG....CCGGG.ACG
+Xanthobacter_autotro.2             GGACGCGGACGGCCGC.GUGCCCUUGCGUAUCGAGCGG...CGGGG.ACG
+Jannaschia.1                       CCGCCGGGACGACCCG.GCCAUGUACGGGUAGUUG......UCAGG.ACG
+Acidiphilium_cryptum.1             GCCGGGGGACGACCCCACGGCCGGGACGAUCGCCCG.....CGAGG.ACG
+Magnetospirillum_mag.1             GGGCCGGGACGACCCG.CCCCUUUUCCCCUCACCU......CCGGG.ACG
+Rhodospirillum_rubru.1             AGGCGGGGACGACCCC.GCUGGAGGUGUUUUUCAGG.....CGGGG.ACG
+B.bronchiseptica.1                 GCGCCGGGACGACCCG.GCGCGUGUACUGGCC.........UGAGG.ACG
+Burkholderia_phymatu.1             UGCCGUGGACGACCUC.GGCAUGCAUGACCACGUG......GCGGG.ACG
+Burkholderia_xenovor.1             UCGUAAGGACGACCUU.GCGUUUUCACGAAC...........GGGG.ACG
+Burkholderia_vietnam.1             GCCCGGGGACGGCCCC.GGGCCGUUCGCUUCAAC........GGGG.ACG
+Burkholderia_cenocep.1             GCCCGGGGACGACCCC.GGGCCAUUCGCUUCAAC........GGGG.ACG
+Burkholderia.1                     GCCCGGGGACGACCCC.GGGUCAUUCGCUUCAAC........GGGG.ACG
+B.ambifaria.1                      GCCCGGGGACGACCCC.GGGUCAUUCGAUUCAAC........GGGG.ACG
+Burkholderia_cenocep.2             GCCCGGGGACGACCCC.GGGUCAUUCGCUUCAAC........GGGG.ACG
+Burkholderia_thailan.1             GCCCGGGGACGACCCC.GGGCCGUCGAUGUCCAAC.......GGGG.ACG
+Burkholderia_pseudom.1             GCCCGGGGACGACCCC.GGGCCGUCGAUGUUCAAC.......GGGG.ACG
+Ralstonia_eutropha_J.1             GCCGCGGGACGACCCG.UGGCCGAUACGCAACCG.......GCAGG.ACG
+Nitrosomonas_europae.1             GAUUGAGGACGACCUC.AUCUUCGGGACAAUCUACUAU...CCGGG.ACG
+D.aromatica.1                      CUUCCGGGACGACCCG.GAGGCAAAAGAAUCCGG........CGGG.ACG
+G.sulfurreducens.1                 CGGCGGGGACGACUCC.GCCGCCCGAACAUCCAC........GGGG.ACG
+W.succinogenes.1                   CCCCUAGGACGACCUA.GAGGGUGACUUCACCGAUG.....AUGGG.ACG
+Aeromonas_hydrophila.1             CCUCGGGGACGACCUC.GAGGCCUCCUGAUACG........CAGGG.ACG
+Saccharophagus_degra.1             UGUUUAGGACGACCUA.AGCAGGCUCUCAAU..........GCGGG.ACG
+Pseudoalteromonas_at.1             AAAUGAGGACGACCUC.AUCCCUCGCGCUUUUCU.......CUGGG.ACG
+Shewanella.1                       GCUUAGGGACGACCUU.AAAUACGCCGAUAUCAAUU.....UGGGG.ACG
+Shewanella_baltica_O.1             GCUUAGGGACGACCCU.AAAUACGCCUAAUCUAACA.....UGGGG.ACG
+Shewanella_baltica_O.2             GCUUAGGGACGACCCU.AAACAUGCCUUAAUUUGGU.....AGGGG.ACG
+Shewanella.2                       GCUUAGGGACGACCCU.AAAUACGCCGAUAUCAAUU.....UGGGG.ACG
+Alkalilimnicola_ehrl.1             GGCCGGGGACGACCCU.GGCCGCCAGAACGAAAACG.....GCGGG.AGG
+Escherichia_coli_APE.1             UUUGCAGGACGACCUG.CAAACGCGUCUUUUCACC.......GGGG.ACG
+E.coli.1                           UUUGCAGGACGACCUG.CAAACGCCUCUUUUCACC.......GGGG.ACG
+Pectobacterium_atros.1             CGCGAUGGACGACCAU.CAUGCGGAUCGCAUUUUG......GCGGG.ACG
+Photorhabdus_lumines.1             UAUCCGGGACGACCUG.GAUAUACUGCCGUUUUC.......UGGGG.ACG
+S.enterica.1                       UUUGCAGGACGACCUG.CAAACGCUUCUUUCACC........GGGG.ACG
+Salmonella_enterica_.1             GUUACAGGACGACCUG.UAAACGCUAUUCUCACC........GGGG.ACG
+Serratia_proteamacul.1             UAAACGGGACGACCUG.UUUACGCAUCUGUAUCC........GGGG.ACG
+Shigella_sonnei_Ss04.1             UUUGCAGGACGACCUG.CAAACGCCUCUUUUCACC.......GGGG.AUG
+Yersinia_pseudotuber.1             UGGCUGGGACGACCCA.GUUACGCAUCUGUUUUU.......CGGGG.ACG
+Alcanivorax_borkumen.1             CCCUGGGGACGACCCC.GGCGGCCAAGGCUAUAAAG.....ACGGG.ACG
+Marinomonas.1                      AUGUGGGGACGACCUC.ACCGCUCUAAUUAAUAA.......UGAGG.ACG
+Pseudomonas_aerugino.1             GAAGCGGGACGACCCG.UUUUCCCUCUUUCAUUGCG.....CGGGG.ACG
+Pseudomonas_entomoph.1             CUGUGAGGACGACCUC.ACGACGCAGUGCGUGAUCGCUA..CGGGG.ACG
+Pseudomonas_fluoresc.1             CGUCGGGGACGACCCC.GGCGCUCAUCGAAAAACU......GCGGG.ACG
+Pseudomonas_syringae.1             AGCAACGGACGACCGU.UGCGUAGAUAGAUCAAUA......GCGGG.ACG
+P.mendocina.1                      CACCACGGACGACCGU.GGCACAUGACGAAUGACG......GCGGG.ACG
+Pseudomonas_syringae.2             AGCAACGGACGACCGU.UGCGUAGAUUGAUCAAUA......GCGGG.ACG
+Pseudomonas_putida_K.1             CGGUGAGGACGACCUC.ACGACGCACCGCGUGACCACUC..CGGGG.ACG
+Pseudomonas_aerugino.2             GAAGCGGGACGACCCG.UUUUCCUUCUUUCAUUGCG.....CGGGG.ACG
+Pseudomonas_stutzeri.1             AACCACGGACGGCCGU.GGCACUGAUGAAUAAAG.......GCGGG.ACG
+Pseudomonas_fluoresc.2             UCGCGAGGACGACCUC.GCGACUCAUUCGAGCGAUCAAUUCCGGGG.ACG
+Pseudomonas_putida_F.1             CUGUGAGGACGACCUC.ACGACGCACCGCGUGACCAUUC..CGGGG.ACG
+Pseudomonas_fluoresc.3             ACGCGGGGACGACCCU.GCGGCUCAAUCGAGUUUUCAAUC.UGGGG.ACG
+Vibrio_cholerae_O395.1             AAGUGAGGACGACCUC.ACCGCUCCAUCUUUUCUU......CGGGG.ACG
+Vibrio_parahaemolyti.1             AAGUGAGGACGACCUC.ACCGCUCUAUCUUUUCUC.......GGGG.ACG
+Vibrio_harveyi_ATCC_.1             AAGUGAGGACGACCUC.ACCGCUCUUAUCACUAU.......CGGGG.ACG
+metag._sequence.1                  CUCGCAAGACGACUUG.CGAGAUGUAAGCAAU..........CGGG.ACG
+#=GC SS_cons                       <<<<<<<<....>>>>.>>>>....................<<<<<....
+#=GC RF                            ucccggGGACGACCcc.gggaaaaaaaaaaaaaaa......ccGGG.ACG
+
+Corynebacterium_glut.1             GCCCAG
+Gloeobacter_violaceu.1             ACCCCG
+Bradyrhizobium_japon.1             ACCCUG
+Nitrobacter_winograd.1             GCCCUG
+Rhodopseudomonas_pal.1             ACCCGG
+Rhodopseudomonas_pal.2             GCCCGG
+Rhodopseudomonas_pal.3             ACCCGG
+Rhodopseudomonas_pal.4             ACCCGG
+Rhodopseudomonas_pal.5             ACCCUG
+Rhodopseudomonas_pal.6             ACCCGG
+Rhodopseudomonas_pal.7             ACCCGG
+Rhodopseudomonas_pal.8             ACCCGG
+Ochrobactrum_anthrop.1             GCCCGU
+Mesorhizobium_loti_M.1             ACCCGC
+Mesorhizobium.1                    GCCUCA
+Agrobacterium_tumefa.1             GCCCGG
+Rhizobium_etli_CFN_4.1             ACCUGG
+Xanthobacter_autotro.1             ACCCGG
+Xanthobacter_autotro.2             ACCUCG
+Jannaschia.1                       ACCUGC
+Acidiphilium_cryptum.1             GCCUCG
+Magnetospirillum_mag.1             GCCCGG
+Rhodospirillum_rubru.1             ACCCCG
+B.bronchiseptica.1                 ACCUCG
+Burkholderia_phymatu.1             ACCCGC
+Burkholderia_xenovor.1             GCCCC.
+Burkholderia_vietnam.1             ACCCC.
+Burkholderia_cenocep.1             GCCCC.
+Burkholderia.1                     GCCCC.
+B.ambifaria.1                      GCCCC.
+Burkholderia_cenocep.2             GCCCC.
+Burkholderia_thailan.1             ACCCCA
+Burkholderia_pseudom.1             ACCCCA
+Ralstonia_eutropha_J.1             ACCUGC
+Nitrosomonas_europae.1             ACCUGG
+D.aromatica.1                      ACCCG.
+G.sulfurreducens.1                 ACCCC.
+W.succinogenes.1                   ACCCAA
+Aeromonas_hydrophila.1             ACCCUG
+Saccharophagus_degra.1             ACCCGC
+Pseudoalteromonas_at.1             ACCCAG
+Shewanella.1                       ACCCCG
+Shewanella_baltica_O.1             ACCCCU
+Shewanella_baltica_O.2             ACCCCU
+Shewanella.2                       ACCCCG
+Alkalilimnicola_ehrl.1             ACCUGG
+Escherichia_coli_APE.1             GCCCCA
+E.coli.1                           GCCCCA
+Pectobacterium_atros.1             ACCUGC
+Photorhabdus_lumines.1             ACUCCA
+S.enterica.1                       GCCCC.
+Salmonella_enterica_.1             GCCCC.
+Serratia_proteamacul.1             ACCCC.
+Shigella_sonnei_Ss04.1             GCCCCA
+Yersinia_pseudotuber.1             GCCCCG
+Alcanivorax_borkumen.1             GCCCGU
+Marinomonas.1                      ACCUCA
+Pseudomonas_aerugino.1             ACCCUG
+Pseudomonas_entomoph.1             GCCCCA
+Pseudomonas_fluoresc.1             GCCCGC
+Pseudomonas_syringae.1             GCCCGC
+P.mendocina.1                      GCCCGC
+Pseudomonas_syringae.2             GCCCGC
+Pseudomonas_putida_K.1             GCCCCA
+Pseudomonas_aerugino.2             ACCCUG
+Pseudomonas_stutzeri.1             GCCCGC
+Pseudomonas_fluoresc.2             ACCCCA
+Pseudomonas_putida_F.1             GCCCCA
+Pseudomonas_fluoresc.3             GCCCCG
+Vibrio_cholerae_O395.1             ACCCCA
+Vibrio_parahaemolyti.1             ACCCCA
+Vibrio_harveyi_ATCC_.1             ACCCCA
+metag._sequence.1                  GCCCG.
+#=GC SS_cons                       .>>>>>
+#=GC RF                            aCCCgg
+//

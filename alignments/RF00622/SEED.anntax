@@ -1,0 +1,79 @@
+# STOCKHOLM 1.0
+#=GF ID    CPEB3_ribozyme
+#=GF AC    RF00622
+#=GF DE    Mammalian CPEB3 ribozyme
+#=GF AU    Daub J
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    21.9
+#=GF SE    Published; PMID:16990549; INFERNAL
+#=GF SS    Published; PMID:16990549
+#=GF TP    Gene; ribozyme;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0000374 SO:ribozyme
+#=GF RN    [1]
+#=GF RM    16990549
+#=GF RT    A genomewide search for ribozymes reveals an HDV-like sequence in the
+#=GF RT    human CPEB3 gene.
+#=GF RA    Salehi-Ashtiani K, Luptak A, Litovchick A, Szostak JW;
+#=GF RL    Science. 2006;313:1788-1792.
+#=GF RN    [2]
+#=GF RM    15565159
+#=GF RT    Autocatalytic RNA cleavage in the human beta-globin pre-mRNA promotes
+#=GF RT    transcription termination.
+#=GF RA    Teixeira A, Tahiri-Alaoui A, West S, Thomas B, Ramadass A, Martianov
+#=GF RA    I, Dye M, James W, Proudfoot NJ, Akoulitchev A;
+#=GF RL    Nature. 2004;432:526-530.
+#=GF CC    The mammalian CPEB3 ribozyme is a self cleaving RNA located in the
+#=GF CC    second intron of the CPEB3 gene which belongs to a family of
+#=GF CC    genes regulating messenger RNA polyadenylation [1]. This ribozyme
+#=GF CC    is highly conserved and found only in mammals [1].  The CPEB3
+#=GF CC    ribozyme is structurally and biochemically related to the human
+#=GF CC    hepatitis delta virus (HDV) ribozyme (Rfam:RF00094) and the HDV
+#=GF CC    ribozyme is proposed to have arisen from the human transcriptome
+#=GF CC    [1]. There is currently only one other known self cleaving
+#=GF CC    ribozyme in mammals, the CoTC motif (Rfam:RF00621)[2].
+#=GF WK    http://en.wikipedia.org/wiki/Mammalian_CPEB3_ribozyme
+#=GF SQ    11
+
+#=GS E.telfairi.1           AC    AAIY01234049.1/2-76
+#=GS M.musculus.1           AC    AC113124.9/161384-161461
+#=GS R.norvegicus.1         AC    AC096310.9/197321-197397
+#=GS H.sapiens.1            AC    AL158040.14/122141-122218
+#=GS T.belangeri.1          AC    AAPY01211722.1/3801-3878
+#=GS C.lupus.1              AC    AAEX02015657.1/14700-14775
+#=GS B.taurus.1             AC    AAFC03085012.1/105579-105656
+#=GS Dasypus_novemcinctus.1 AC    AAGV020425402.1/519-596
+#=GS Monodelphis_domestic.1 AC    AAFR03024585.1/20274-20351
+#=GS S.purpuratus.1         AC    AAGJ02140070.1/974-1047
+#=GS S.purpuratus.2         AC    AAGJ02028263.1/1541-1614
+
+E.telfairi.1                       UGAGCAUAAC..AGGGCCACCCCA.AAGCGUUCACAUUGUGGCCCCUGUC
+M.musculus.1                       AGAGGAUAACAGGGGGCCACAGCAGAAGCGUUCACGUCGCGGCCCCUGUC
+R.norvegicus.1                     AGAGGAUAACAGGGG.CCACAGCAGAAGCGUUCACGUCGCGGCCCCUGUC
+H.sapiens.1                        AGGGGAUAACAGGGGGCCACAGCAGAAGCGUUCACGUCGCAGCCCCUGUC
+T.belangeri.1                      CGAGGAUAAUAGGGGGCCACAGCAGAAGCGUUCACGUCGCGGCCCCUGUC
+C.lupus.1                          AGAGGAUAAC..GGGGCCACAGCAAAAGUGUUCACGUCAUGGCCCCUGUC
+B.taurus.1                         AAAGGAUAACAAGGGGCCAGAGCAGAAGCAUUCACGUCGCGGCCCCUGUC
+Dasypus_novemcinctus.1             AUAGAAGAUAAUGGGGCCACAGCAGAAGCAUUCAUGUUGCAGCCCUUGUG
+Monodelphis_domestic.1             AGUGGAUAACAGGGGGCCAUAGCAGAAGCGUUCACGUCGCGGCCCCUGUC
+S.purpuratus.1                     AGGGGGGUCCCGGGGGCCAUUGAAGGAGCGUUCACGUCGCGGCCCCUGUC
+S.purpuratus.2                     AGAGGUACGCGGGGGGCCAUUGAAGGAGCGUUCACGUCGCGGUCCCUGUC
+#=GC SS_cons                       ............<<<<<...AAAAAAA<<<..B....>>>.>>>>>.b.<
+#=GC RF                            AgAGgAuAacAgGGGGCCAuAGcAGAAGCGUUCAcGUCGCgGCCCCUGUC
+
+E.telfairi.1                       AGAUUCUGGUAAAUCUGCGAGUUCUGCU
+M.musculus.1                       AGAUUCUGGCGAAUCUGCGAAUUCUGCU
+R.norvegicus.1                     AGAUUCUGGUGAAUCUGCGAAUUCUGCU
+H.sapiens.1                        AGAUUCUGGUGAAUCUGCGAAUUCUGCU
+T.belangeri.1                      AGAUUCUGGUGAAUCUGCGAAUUCUGCG
+C.lupus.1                          AGAUUCUGGUGAAUCUGCAAAUUCUGCU
+B.taurus.1                         AGAUUCUGGUGAAUCUGCGAAUUCUGCU
+Dasypus_novemcinctus.1             AGAUUCAAGUGAAUCUGUGAAUUCUGCU
+Monodelphis_domestic.1             AGAUUCAUAGGAAUCUGCGAAUUCUGCU
+S.purpuratus.1                     AGAU....GAAAAUCUGCGAAUCCUUCA
+S.purpuratus.2                     AGAU....GAAAAUCUGCGAAUCCUUCA
+#=GC SS_cons                       <<<<<<....>>>>>>>....aaaaaaa
+#=GC RF                            aGauuCagGuGaauCuGcGAAUuCUgCu
+//

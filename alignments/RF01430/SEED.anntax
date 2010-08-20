@@ -1,0 +1,63 @@
+# STOCKHOLM 1.0
+#=GF ID    snoR134
+#=GF AC    RF01430
+#=GF DE    small nucleolar RNA snoR134
+#=GF AU    Osuch I
+#=GF GA    40.0
+#=GF NC    26.4
+#=GF TC    65.1
+#=GF SE    INFERNAL
+#=GF SS    Predicted; RNAalifold; Osuch I
+#=GF TP    Gene; snRNA; snoRNA; HACA-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF RN    [1]
+#=GF RM    19357091
+#=GF RT    Mining small RNA sequencing data: a new approach to identify small
+#=GF RT    nucleolar RNAs in Arabidopsis.
+#=GF RA    Chen HM, Wu SH;
+#=GF RL    Nucleic Acids Res. 2009;37:e69.
+#=GF WK    http://en.wikipedia.org/wiki/SnoRNA
+#=GF SQ    5
+
+#=GS O.sativa.1      AC    AAAA02020760.1/6547-6696
+#=GS O.sativa.2      AC    AP003829.2/18074-18223
+#=GS M.truncatula.1  AC    AC151806.21/586-724
+#=GS P.trichocarpa.1 AC    AARH01005974.1/108-255
+#=GS A.thaliana.1    AC    DQ108711.1/84-227
+
+O.sativa.1                  UUGCACGGUGC.UAACCCCGGGCUUGUCGGAUUCAAAU..CGCCUGAAGA
+O.sativa.2                  AUGCACGGUGC.UAACCCCGGGCUUGUCGGAUUGGAAU..CCUCUGAAGA
+M.truncatula.1              ACGCACGUUGCAA..CCCCGGGCUUCUCUGAAAUUUAA.....AGGAAGU
+P.trichocarpa.1             CUGCACGAUGC.C..UCCCAGGCUUCGCUGAUUACAAA..CCCCUGAGGU
+A.thaliana.1                UCGCAGGA.GC.C..UCCCGGGCUAGUCUGAUAACUAAGGUACUUGAGGA
+#=GC SS_cons                ..<<<<<<.<<........<<<<<<<<<<..................>>>
+#=GC RF                     Uggcagga.GC.C..UCCCgGgCuaguCuGAUaACaAAgguaCuUGAgGa
+
+O.sativa.1                  AGGAAGCCCCAAUGCCUGUGCUAGAUCCACAAUACCAUUCAGUGUUGCAG
+O.sativa.2                  AUGAAGCCCCAAUGCCUGUGCUAGAUCCACCAUGCCAUUCAGUGUUGCAG
+M.truncatula.1              .GAAAGCCCCAUUGCACGUGCUAAAUUGAU...GCCAUUC.GUGUUGCAG
+P.trichocarpa.1             AGAAAGUCCCAAAGCUCGUGCUAAAGCAUC..UGCCGUUUAGUGUUGCAG
+A.thaliana.1                ACUAAGCCCCAAAGCUCCUGCUAGAUUAUUUUUGCCGUUU.GUGUUGCAG
+#=GC SS_cons                .>>.>>>>>....>>>>>>>>............<<<<<<<..<<.<<<<<
+#=GC RF                     AcuAaGcCcCAAAGCuccugcUAaAuuAUuuuUGCCGuuuAGuGUugCaG
+
+O.sativa.1                  G...UCUUGAUGCUUCGAGCAUGUGAUUGAUCUGUGUCAGCGUAAUGGAU
+O.sativa.2                  G...UCAUGAUGCUUCGAGCUCGUGAUUGGUCUGUGUCAGCGUAAUGGAU
+M.truncatula.1              U.UCAUCUCGU...UAAUUCCACGAUUGA.UCUGUGUCAAAGUAAUGGCU
+P.trichocarpa.1             UUUAGCCUUUUGUACCUUUCCACGGCUUU.UCUGUGUCAAAUCAACGGCU
+A.thaliana.1                AUUUGCCUUAU......UCCUUAGGCUUU.UCUGUGUCAAAAAAGCGGCU
+#=GC SS_cons                <...<<<................>>>....>>>>>>.>>...>>>>>>>.
+#=GC RF                     aUUaGCCUUaUguAccuUuCuaaGGCUUU.uCuGugUCaAAaaaaCGGCU
+
+O.sativa.1                  ACAUUU
+O.sativa.2                  ACAUUU
+M.truncatula.1              ACAUCG
+P.trichocarpa.1             ACAUCU
+A.thaliana.1                AUAUCU
+#=GC SS_cons                ......
+#=GC RF                     AuAUCU
+//

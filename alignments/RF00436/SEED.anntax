@@ -1,0 +1,125 @@
+# STOCKHOLM 1.0
+#=GF ID    UnaL2
+#=GF AC    RF00436
+#=GF DE    UnaL2 LINE 3' element
+#=GF AU    Bateman A
+#=GF GA    25.0
+#=GF NC    25.0
+#=GF TC    25.0
+#=GF SE    Bateman A
+#=GF SS    Published; PMID:15273327
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    15273327
+#=GF RT    Solution structure of an RNA stem-loop derived from the 3' conserved
+#=GF RT    region of eel LINE UnaL2.
+#=GF RA    Baba S, Kajikawa M, Okada N, Kawai G;
+#=GF RL    RNA 2004;10:1380-1387.
+#=GF CC    The eel long interspersed element (LINE) UnaL2 and its partner short
+#=GF CC    interspersed element (SINE) share a conserved 3' tail containing a
+#=GF CC    stem-loop that is critical for their retrotransposition. Presumably,
+#=GF CC    the first step of retrotransposition is the recognition of their
+#=GF CC    3' tails by UnaL2-encoded reverse transcriptase. The solution
+#=GF CC    structure of a 17-nucleotide RNA derived from the 3' tail of
+#=GF CC    UnaL2 was determined by NMR [1].
+#=GF WK    http://en.wikipedia.org/wiki/UnaL2_LINE_3'_element
+#=GF SQ    30
+
+#=GS A.japonica.1    AC    AB179626.1/214-267
+#=GS A.japonica.2    AC    AB179625.1/214-267
+#=GS A.japonica.3    AC    AB179627.1/188-241
+#=GS A.japonica.4    AC    AB179624.1/3561-3614
+#=GS A.japonica.5    AC    AB179628.1/210-263
+#=GS A.japonica.6    AC    AB179629.1/214-267
+#=GS A.japonica.7    AC    AB179631.1/212-266
+#=GS C.albula.1      AC    AB001853.1/99-152
+#=GS C.artedi.1      AC    AB001846.1/106-159
+#=GS C.lavaretus.1   AC    AB001843.1/100-153
+#=GS C.lavaretus.2   AC    AB001852.1/99-152
+#=GS P.spilonotus.1  AC    AB001839.1/75-130
+#=GS P.spilonotus.2  AC    AB001841.1/106-159
+#=GS P.spilonotus.3  AC    AB001861.1/126-179
+#=GS S.leucichthys.1 AC    AB001849.1/107-160
+#=GS S.leucichthys.2 AC    AB001847.1/99-152
+#=GS S.leucichthys.3 AC    AB001842.1/98-151
+#=GS O.nerka.1       AC    AB001863.1/91-144
+#=GS O.gorbuscha.1   AC    AB001969.1/103-156
+#=GS O.keta.1        AC    AB001963.1/111-164
+#=GS O.keta.2        AC    AB001962.1/107-160
+#=GS O.nerka.2       AC    AB001864.1/79-132
+#=GS O.keta.3        AC    AB001966.1/108-161
+#=GS S.salar.1       AC    AY543891.1/989-936
+#=GS S.alpinus.1     AC    AB012892.1/155-208
+#=GS S.malma.1       AC    AB012893.1/257-310
+#=GS S.alpinus.2     AC    AB012891.1/247-300
+#=GS S.alpinus.3     AC    AB012890.1/215-268
+#=GS S.alpinus.4     AC    AB012888.1/161-214
+#=GS S.alpinus.5     AC    AB012889.1/249-302
+
+A.japonica.1                AUGUAAAAGUUGUG..UA.AGUCGCUCUGGAUAAGAGCAUCUGCUAAAUU
+A.japonica.2                UGUAAAAAGUUGUG..UA.AGUCGCUCUGGAUAAGAGCGUCUGCUAAAUG
+A.japonica.3                UGUAAAAAGUUGUG..UA.AGUCGCUCUGGAUAAGAGCGUCUGCUAAAUG
+A.japonica.4                GAUAUGCACUUUUG..UA.CGUCGCUUUGGAUAAAAGCGUCUGCGAAAUA
+A.japonica.5                AUGUAAAAGUUGUG..UA.AGUCGCUCUGGGUAAGAGCGUCUGCUAAAUG
+A.japonica.6                AUGUAAAAGUUGUG..UA.AGUCGGUCUGGAUAAGAGCGUCUGCUAAAUG
+A.japonica.7                GUGUAAAAGUUGUG..UAAAGUCGCUCUGGAUAAGAGCGUCUGCUAAAUG
+C.albula.1                  UGCACGCAUGACUG..UA.AGUCGCUUUGGAUAAAAGCGUCUGCUAAAUG
+C.artedi.1                  UGCGCACAUGACUG..UA.AAUCGCUUUGGAUAAAAGCGUCUGCUAAAUG
+C.lavaretus.1               UGCACACAUGACUG..UA.AGUCGCUUUGGAUAAAACCGUCUGCUAAAUG
+C.lavaretus.2               UGCGCACAUGACUG..UA.AGUCGCUUUGGAUAAAAGCGUCUGCUAAAUG
+P.spilonotus.1              UGUAUGCACGCAUGACUA.AGUCGCUUUGGAUAAAAGCGUCUGCUAAAUG
+P.spilonotus.2              UGCACGCAUGACUG..UA.AGUCGCUUUGGAUAAAAGUGUCUGCUAAAUG
+P.spilonotus.3              GGCACGUAUGACUG..UA.AGUCGCUUUGGAUAAAAGCAUCUGCUAAAUG
+S.leucichthys.1             UGCACACAUGACUG..UA.AGUCGCUUUGGAUAAAAGCGUCUGCUAAAUG
+S.leucichthys.2             AAAAACAACAACUG..UA.AGUCGCUUUGGAUAAAAGCGUCUGCUAAAUG
+S.leucichthys.3             UGUGCACAGGACUG..UA.AGUCGCUUUGGAUAAAAGCGUCUGCUAAAUG
+O.nerka.1                   UCCACACUUGAAUG..UA.AGUCGCUUUGGAUAAAAGCAUCUGCUAAAUG
+O.gorbuscha.1               UGCACACAUGACUG..UA.AGUCGCUUUGGAUAAAAGCGUCUGCUAAAUG
+O.keta.1                    UGCACACAUGAAUG..UA.AGUCGCUUUGGAUAAAAGCGUCUGCUAAAUG
+O.keta.2                    UGCACACAUGACUG..UA.AGACGCUUUGGAUAAAAGCGUCUGCUAAAUG
+O.nerka.2                   UGCACGCAUGACUG..UA.AGUCGCUUUGGAUAAAAGCAUCUGCCAAAUG
+O.keta.3                    UGCACACAUGACUG..UA.UGUCGCUUUGGAUAAAAGCGUCUGCGAAAUG
+S.salar.1                   AAUGCACCAAUUUG..UA.AGUCNGUCUGGAUAAGAGCGUCUGCUAAAUG
+S.alpinus.1                 AACUUUCCAAUUUG..UA.AGUCGCUCUGGAUAAGAGCGUCUGCUAAAUG
+S.malma.1                   AACUUUCCAAUUUG..UA.AGUCGCUCUGGAUAAGAGUGUCUGCUAAAUG
+S.alpinus.2                 AACUUUCCAAUUUG..UA.AGUCGCUCUGGAUAAGAGCGUCUGCUAAAUG
+S.alpinus.3                 AACUUUCCAAUUUG..UA.AGUCGCUCUGGAUAAGAGCGUCUGCUAAAUG
+S.alpinus.4                 AACUUUCCAAUUUG..UA.AGUCGCUCUGGAUAAGAGCGUCUGCUAAAUG
+S.alpinus.5                 AACUUUCCAAUUUG..UA.AGUCGCUCUGGAUAAGAGCGUCUGCUAAAUG
+#=GC SS_cons                ............<<..<<....<<<<<<.....>>>>>>..>>>.>....
+
+A.japonica.1                CCUGUAA
+A.japonica.2                CCUGUAA
+A.japonica.3                CCUGUAA
+A.japonica.4                AAUGUAA
+A.japonica.5                CCUGUAA
+A.japonica.6                CCUGUAA
+A.japonica.7                CCUGUAA
+C.albula.1                  GCUUAUU
+C.artedi.1                  GCAUAUU
+C.lavaretus.1               GCAUAUU
+C.lavaretus.2               GCAUAUU
+P.spilonotus.1              GCAUUUU
+P.spilonotus.2              GCAUAUG
+P.spilonotus.3              GCAUAUG
+S.leucichthys.1             GCAUAUU
+S.leucichthys.2             GCAUAUU
+S.leucichthys.3             GCAUAUU
+O.nerka.1                   GCUGUGU
+O.gorbuscha.1               GCAUAUA
+O.keta.1                    GCAUAUA
+O.keta.2                    GCAUAUA
+O.nerka.2                   GCAUAUU
+O.keta.3                    GCAUAUA
+S.salar.1                   ACGUAAA
+S.alpinus.1                 ACUUAAA
+S.malma.1                   ACUUAAA
+S.alpinus.2                 ACUUAAA
+S.alpinus.3                 ACUUAAA
+S.alpinus.4                 ACUUAAA
+S.alpinus.5                 ACUUAAA
+#=GC SS_cons                .......
+//

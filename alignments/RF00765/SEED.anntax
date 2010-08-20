@@ -1,0 +1,45 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-337
+#=GF AC    RF00765
+#=GF DE    microRNA mir-337
+#=GF AU    Wilkinson A
+#=GF GA    50.0
+#=GF NC    21.5
+#=GF TC    53.8
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000195
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    6
+
+#=GS O.cuniculus.1   AC    AAGW01106121.1/1459-1555
+#=GS M.musculus.1    AC    AC152063.5/103649-103745
+#=GS P.troglodytes.1 AC    AADA01004389.1/906-1001
+#=GS T.belangeri.1   AC    AAPY01359946.1/778-872
+#=GS F.catus.1       AC    AANG01662487.1/1879-1974
+#=GS M.lucifugus.1   AC    AAPE01089179.1/1904-1999
+
+O.cuniculus.1               CCCGCGGUCGGUAGUUGGGGGAUGGGAACGGCUUCAUACAGGAGUUGAUU
+M.musculus.1                AGUGUAGUGAGAAGUUGGGGGGUGGGAACGGCGUCAUGCAGGAGUUGAUU
+P.troglodytes.1             CCCGUAGUCAGUAGUUGGGGGGUGGGAACGGCUUCAUACAGGAGUUGAU.
+T.belangeri.1               CCCAUAGUCAGC.GUUGGGGGGUAGGAACGGCUUCAUACAGGAGUUGGU.
+F.catus.1                   GCCGUAGUCAGUAGGUGGGGGGUGAGAACGGCUCCAUACAGGAGUUGAC.
+M.lucifugus.1               GCCACAAUCAGUAAGUGGGGGGUGAGAACGGCUUCAUCCAGGAGUUGAU.
+#=GC SS_cons                ................<<<<<<<<<<<<.<<<.<<<<<.<<<<<<<<<..
+#=GC RF                     SCCRYAGUCAGYAGKUGGGGGGUGRGAACGGCUUCAUACAGGAGUUGAUu
+
+O.cuniculus.1               GCACAGUCAUCCAGCUCCUAUAUGAUGCCUUUCUUCAUCCUCUUC..AA
+M.musculus.1                GCACAGCCAUUCAGCUCCUAUAUGAUGCCUUUCUUCACCCCCUUC..AA
+P.troglodytes.1             GCACAGUUAUCCAGCUCCUAUAUGAUGCCUUUCUUCAUCCCCUUC..AA
+T.belangeri.1               GCGCAGUUACCCGGCUCCUAUAUGACGCCUUUCUUCACC..CUCCAGCC
+F.catus.1                   GCACAGUUAUCCAGCUCCUAUAUGGCGCCUUUCCUCAUCCCCUUC..AA
+M.lucifugus.1               GCCCAGUUAUCCAGCGCCUAGAUGAUGCCUUUCUUCAUCCCCUUC..AA
+#=GC SS_cons                .........>.>>>>>>>>.>>>>>.>>>.>>>.>>>>>>>>>......
+#=GC RF                     GCACAGUYAUCCAGCUCCUAKAUGAYGCCUUUCUUCAYCCCCUYCagAA
+//

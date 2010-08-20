@@ -1,0 +1,98 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-448
+#=GF AC    RF00723
+#=GF DE    microRNA mir-448
+#=GF AU    Wilkinson A
+#=GF GA    22.0
+#=GF NC    21.8
+#=GF TC    22.2
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000149
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    17
+
+#=GS L.africana.1           AC    AAGU02788122.1/1424-1534
+#=GS E.telfairi.1           AC    AAIY01435447.1/95-210
+#=GS O.cuniculus.1          AC    AAGW01215745.1/570-681
+#=GS C.porcellus.1          AC    AAKN02056344.1/88410-88521
+#=GS R.norvegicus.1         AC    AAHX01113655.1/6710-6821
+#=GS Spermophilus_tridece.1 AC    AAQQ01707153.1/1229-1340
+#=GS M.mulatta.1            AC    AANU01095693.1/44335-44445
+#=GS H.sapiens.1            AC    Z75407.2/3338-3448
+#=GS P.troglodytes.1        AC    AADA01172097.1/1723-1833
+#=GS Otolemur_garnettii_s.1 AC    AAQR01354499.1/18843-18953
+#=GS T.belangeri.1          AC    AAPY01023583.1/940-1050
+#=GS C.lupus.1              AC    AAEX02004246.1/201345-201454
+#=GS B.taurus.1             AC    AAFC03097322.1/50759-50869
+#=GS M.lucifugus.1          AC    AAPE01293616.1/2463-2573
+#=GS E.europaeus.1          AC    AANN01153638.1/581-692
+#=GS S.araneus.1            AC    AALT01302712.1/526-635
+#=GS E.caballus.1           AC    AAWR02039291.1/142114-142225
+
+L.africana.1                       GUGGAGACU.UGUA.GGUUCUCCGCAGCUCUGCCAGGAACCCCU..GGUA
+E.telfairi.1                       GUGGGGAGGCUUGAACAUCCUGCAUAGUGCUGCCAGGAAACCCCCUACUC
+O.cuniculus.1                      GCAGGAAGG.UUGAACAUCCUGCAUAGUGCUGCCAAGAAAUCCC..UAUU
+C.porcellus.1                      AGGGGGGAC.UUGUAGGUUCUCCGCAACUCGGCCAGGAAGCCCU..GAUA
+R.norvegicus.1                     ACGGGGAGG.UUGAACAUCCUGCAUAGUGCUGCCAGGAAAUCCC..UACU
+Spermophilus_tridece.1             GCCGGGAGG.UUGAACAUCCUGCAUAGUGCUGCCAGGAAAUCCC..UAUU
+M.mulatta.1                        GCCGGGAGG.UUGAACAUCCUGCAUAGUGCUGCCAGGAAAUCCC..UAUU
+H.sapiens.1                        GCGGAGACU.UGUA.GGUUCUCCGCAACUCUGCCAGGAACCCCU..GAUA
+P.troglodytes.1                    GCCGGGAGG.UUGAACAUCCUGCAUAGUGCUGCCAGGAAAUCCC..UAUU
+Otolemur_garnettii_s.1             GCGGGGAGG.UAGAACAUCCUGCAUAGUGCUGCCAGGAAAUCCC..UAUU
+T.belangeri.1                      GUGGAG.AC.UUGUAGGUUCUCCGCAGUUCUGCCAGGAAGCCCU..GAUA
+C.lupus.1                          GCAGGGAGG.UUGAACAUCCUGCAUAGUGCUGCCAGGAAAUCCC..UAUU
+B.taurus.1                         GCGGAGACU.UGUA.GGUUCUCCGCAACUCGGCCAGGAAUCCCU..GAUA
+M.lucifugus.1                      GCAGGGAGG.UUGAACAUCCUGCAUAGUGCUGCCAGGAAAUCCC..UAUU
+E.europaeus.1                      AGCGGGGAC.UUGUAGGUUCUCCGCAGCUCUGCCAGGAACCCCU..GAUA
+S.araneus.1                        GCAGGGAGG.UUGAACAUCCUGCAUAGUGCUGCCAGGAAAAUCC..CGUU
+E.caballus.1                       GCGGGGAGG.UUGAACAUCCUGCAUAGUGCUGCCAGGAAAUCCC..CAUU
+#=GC SS_cons                       ...<<<<<<.<...<<<<<<<<<<<<.<<<.<<<<<.....<<<......
+#=GC RF                            GcaGgGagg.uuGAacaucCucCacAGuGCUGcCaGGAAaucCc..uAUa
+
+L.africana.1                       GUUGUUUCGCAA..GGGGCUGUCUGGCUGCAUGUGGGGAAUGGCCCACUU
+E.telfairi.1                       UCAUAAUAAG.AGAGCGGCAGGCUGGUUGCAUAUGUAGGAUGUCCCAUCU
+O.cuniculus.1                      UCAUACCAAGAG..GGGGCUGGCUGGUUGCAUAUGUAGGAUGUCCCAUCU
+C.porcellus.1                      GUCGUUUCGCAA..GGGGCUGUCUGGCUGCAUGUGCGGGAUGGCCCACUU
+R.norvegicus.1                     UCAUACUAAGAG..GGGGCUGGCUGGUUGCAUAUGUAGGAUGUCCCAUCU
+Spermophilus_tridece.1             UCAUACUAAGAG..GGGGCCAGCUGGUUGCAUAUGUAGGAUGUCCCAUCU
+M.mulatta.1                        UCAUACUAAG.A..GGGGCUGGCUGGUUGCAUAUGUAGGAUGUCCCAUCU
+H.sapiens.1                        GUUGUUGCGCAA..GGGGCUGUCAGGUUGCAUGUGGGGGAUAGCCCACUU
+P.troglodytes.1                    UCAUAUAAGA.G..GGGGCUGGCUGGUUGCAUAUGUAGGAUGUCCCAUCU
+Otolemur_garnettii_s.1             UCAUACUAAA.G..GGGGCUGGCUGGUUGCAUAUGUAGGAUGUCCCAUCU
+T.belangeri.1                      AUUAUUUCGCAG..GGGGCUGUCGGGCUGCAUGUGGGGGAUGGCCCACUG
+C.lupus.1                          UUAUACUAA..G..GGGGCUGGCUGGUUGCAUAUGUAGGAUGUCCCAUCU
+B.taurus.1                         GUUGUUUCGUAA..GGGGCUGUCGGGUUGCAUGUGGGGGAUCGCCCACUU
+M.lucifugus.1                      UAUACUAAGA.G..UGGGCUGGCUGGUUGCAUAUGUAGGAUGUCCCAUCU
+E.europaeus.1                      GUUGUUCCUCAG..GGGGCUGUCCGGCUGCAUGUGGGGGAUGGCCCACUU
+S.araneus.1                        AUAGUAAAA..G..GGCACUGACUGGUUGCAUAUGUAGGAUGUCCCAUCU
+E.caballus.1                       UUAUACUAAGAG..GGGGCUGGCUGGUUGCAUAUGUAGGAUGUCCCAUCU
+#=GC SS_cons                       ..............>>>.>>>>>.....>>>>>>>>>>>>>>>...>>>>
+#=GC RF                            uuauauuaaaAg..gGgGCuGgCuGGuUGCaUguGgaGgauguCCCaccu
+
+L.africana.1                       CUCUGCCUCCCCAGUCA
+E.telfairi.1                       CCCCACCCACUUCGCCA
+O.cuniculus.1                      CCCAGCCCACUUCAUCA
+C.porcellus.1                      CUCGGCCUCCCCGGUCA
+R.norvegicus.1                     CCCGGCCCACUUCGUCA
+Spermophilus_tridece.1             CCCGGCCCACUUCGUCG
+M.mulatta.1                        CCCAGCCUACUUCGUCA
+H.sapiens.1                        CUCCGCCUCCCCAGUCA
+P.troglodytes.1                    CCCAGCCCACUUCGUCA
+Otolemur_garnettii_s.1             CCCAGCUCCCUUCGUCA
+T.belangeri.1                      CUCUGCCUCCCCAGUCA
+C.lupus.1                          CCCCGCCCACUUCAUCG
+B.taurus.1                         CUCCGCCUCCCCAGUGA
+M.lucifugus.1                      CCCUGCCCACUUCGUCG
+E.europaeus.1                      CUCCGCCUCCCCCGUCA
+S.araneus.1                        CCCUGCCCACUUCGUCG
+E.caballus.1                       CCCCGCCCGCUUCAUCA
+#=GC SS_cons                       >>>..............
+#=GC RF                            CcCaGCCuaCuucGUcA
+//

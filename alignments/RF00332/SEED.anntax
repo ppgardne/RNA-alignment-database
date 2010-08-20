@@ -1,0 +1,89 @@
+# STOCKHOLM 1.0
+#=GF ID    snoZ266
+#=GF AC    RF00332
+#=GF DE    Small nucleolar RNA Z266
+#=GF AU    Moxon SJ
+#=GF GA    35.0
+#=GF NC    29.8
+#=GF TC    44.8
+#=GF SE    Moxon SJ, Daub J
+#=GF SS    Predicted; PFOLD; Moxon SJ
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF RN    [1]
+#=GF RM    12007400
+#=GF RT    Small nucleolar RNAs: an abundant group of noncoding RNAs with
+#=GF RT    diverse cellular functions.
+#=GF RA    Kiss T;
+#=GF RL    Cell 2002;109:145-148.
+#=GF RN    [2]
+#=GF RM    12736310
+#=GF RT    The high diversity of snoRNAs in plants: identification and
+#=GF RT    comparative study of 120 snoRNA genes from Oryza sativa.
+#=GF RA    Chen CL, Liang D, Zhou H, Zhuo M, Chen YQ, Qu LH;
+#=GF RL    Nucleic Acids Res 2003;31:2601-2613.
+#=GF CC    Z266 is a member of the C/D class of snoRNA which contain the C (UGAUGA)
+#=GF CC    and  D (CUGA) box motifs. Most of the members of the box C/D family
+#=GF CC    function in directing site-specific 2'-O-methylation of substrate RNAs
+#=GF CC    [1].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_Z266
+#=GF SQ    11
+
+#=GS O.sativa.1      AC    AJ532494.1/1-86
+#=GS O.sativa.2      AC    AP005546.3/28934-29023
+#=GS O.sativa.3      AC    AJ532496.1/2-91
+#=GS O.sativa.4      AC    AJ532493.1/1-82
+#=GS O.sativa.5      AC    AAAA02028020.1/10062-10150
+#=GS O.sativa.6      AC    AJ532495.1/1-89
+#=GS V.vinifera.1    AC    AM469974.2/11715-11812
+#=GS M.truncatula.1  AC    CU024877.11/2234-2325
+#=GS P.trichocarpa.1 AC    AARH01006732.1/230193-230291
+#=GS A.thaliana.1    AC    AC008153.5/70668-70761
+#=GS B.rapa.1        AC    AC189547.2/71971-72063
+
+O.sativa.1                  .AUUGGCAGGAAUGAUGAAUCAAUUAGAUGUACGAG........GUUACC
+O.sativa.2                  GAUUGGCUGGGAUGAUGAAUCAAUUAGAUGUGUGAA........CUCACC
+O.sativa.3                  GAUUGGCUGGGAUGAUGAAUCAAUUAGAUGUGUGAA........CUCACC
+O.sativa.4                  ...UGGCAGUAGUGAUGAAUCAAU.AGAUGUGUGAA........GUGACC
+O.sativa.5                  GAUUGGCAGGAAUGAUGAAUCAAUUAGAUGUGCGAA........GUCUCC
+O.sativa.6                  GAUUGGCAGGAAUGAUGAAUCAAUUAGAUGUGCGAA........GUCUCC
+V.vinifera.1                UGGCGGCAAGAGUGAUGAUUCAAUUAGAUGUGUGAAAGGAGAUUUCUUCU
+M.truncatula.1              AAUAUGCAAGUAUGAUGAUUCAAUUAGAUGUAUGAAAGGAGA..AAUCCU
+P.trichocarpa.1             AAUUGGCAAGUAUGAUGAUUCAAUUAGAUGUGUGAA........UGGAAA
+A.thaliana.1                AACGGCGAGGGAUGAUGAUUCAAUUAGAUGUGCGAAUG......GUUUCA
+B.rapa.1                    AGCGGCGAGG.AUGAUGAUUCAAUUAGAUGUGCGAAUG......GUUUCA
+#=GC SS_cons                <<<<<<<<<<........................................
+#=GC RF                     gauuGGCagGAAUGAUGAaUCAAUUAGAUGUGuGAA........uuuAca
+
+O.sativa.1                  UUA........UGAGCUAAA.AUUUUGA...GGCAUACAAU..UGUCUGA
+O.sativa.2                  UUA........UGAUCUAAAACUUUUGA...GGCAUAAUUA.CUUUCUGA
+O.sativa.3                  UUA........UGAUCUAAAACUUUUGA...GGCAUAAUUA.CUUUCUGA
+O.sativa.4                  UUA........UGAACUUAA.CUUUUGA...GGCAUACAUU.CUGUCUGA
+O.sativa.5                  UUG........UGAGCUUAA.CUUUUGA...GGCAUACAUU.CUGUCUGA
+O.sativa.6                  UUG........UGAGCUUAA.CUUUUGA...GGCAUACAUU.CUGUCUGA
+V.vinifera.1                UUC........UGAACUCAAAUCAUUGA...GGCAUAUUAA.UUUCCUGA
+M.truncatula.1              UGC........UGAACUCUAUUUUUUGA...GGCA....AA.CUGUCUGA
+P.trichocarpa.1             UUAAUCCAUAUUGAACUCAACAUUUUGA...GGCAUUUUUAAUUGUCUGA
+A.thaliana.1                UCA........UGAGCUCAAAAACUUUAUUUGGCAUUUUAU..AAUCUGA
+B.rapa.1                    UUA........UGAGCUUACAAACUUAAUUUGGCAAUUAUU..AAUCUGA
+#=GC SS_cons                ..................................................
+#=GC RF                     UUA........UGAaCUaAAaaUuUUGA...GGCAUAuuua.uUgUCUGA
+
+O.sativa.1                  CUUGCCAAU.
+O.sativa.2                  CCUGCCAAUC
+O.sativa.3                  CCUGCCAAUC
+O.sativa.4                  ACUGCCA...
+O.sativa.5                  CCUGCCAAUC
+O.sativa.6                  CCUGCCAAUC
+V.vinifera.1                CUUGCCACCC
+M.truncatula.1              CUUGCUUAUU
+P.trichocarpa.1             CUUGCGUGUU
+A.thaliana.1                CUUCGCCGUC
+B.rapa.1                    CUUCGCCGUC
+#=GC SS_cons                >>>>>>>>>>
+#=GC RF                     CcuGCCaauc
+//

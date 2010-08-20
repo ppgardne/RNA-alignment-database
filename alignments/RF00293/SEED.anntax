@@ -1,0 +1,67 @@
+# STOCKHOLM 1.0
+#=GF ID    snoM1
+#=GF AC    RF00293
+#=GF DE    Small nucleolar RNA snoM1
+#=GF AU    Moxon SJ
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    29.8
+#=GF SE    Moxon SJ, INFERNAL
+#=GF SS    Predicted; ILM: Moxon SJ
+#=GF TP    Gene; snRNA; snoRNA; HACA-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000594 SO:H_ACA_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Drosophila_melanogaster300117
+#=GF RN    [1]
+#=GF RM    12007400
+#=GF RT    Small nucleolar RNAs: an abundant group of noncoding RNAs with
+#=GF RT    diverse cellular functions.
+#=GF RA    Kiss T;
+#=GF RL    Cell 2002;109:145-148.
+#=GF CC    M1 is a member of the H/ACA class of snoRNAs which are thought to
+#=GF CC    guide the sites of modification of uridines to pseudouridines. snoM1 seems
+#=GF CC    to be found exclusively in Drosophila species.
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_snoM1
+#=GF SQ    7
+
+#=GS D.orena.1        AC    AB032439.1/767-865
+#=GS D.yakuba.1       AC    AB032437.1/932-1035
+#=GS D.melanogaster.1 AC    AF375471.1/1-99
+#=GS D.simulans.1     AC    AAGH01015529.1/6334-6429
+#=GS D.sechellia.1    AC    AAKO01002130.1/31576-31671
+#=GS D.teissieri.1    AC    DQ185017.1/645-748
+#=GS D.erecta.1       AC    AB032438.1/918-1016
+
+D.orena.1                    AAUUCAAUGAUUUCAACUUCACUGCUGACCUGCCACGCCUCACCGCCUCG
+D.yakuba.1                   AAUUCAAUGAUUUCAACUUCACUGCUGACCAGCCACGCCUCACUGCCUCG
+D.melanogaster.1             AAUUCAAUGAUUUCAACUUCACUGCUGACCAGCCACGCCUCAACGCCUCG
+D.simulans.1                 AAUUCAAUGAUUUCAACUUCACUGCUGACCAGCCACGCCUCAACGCCUCG
+D.sechellia.1                AAUUCAAUGAUUUCAACUUCACUGCUGACCAGCCACGCCUCAACGCCUCG
+D.teissieri.1                AAUUCAAUGAUUUCAACUUCACUGCUGACCAGCCACGCCUCACCGCCUCG
+D.erecta.1                   AAUUCAAUGAUUUCAACUUCACUGCUGACAAGCCACGCCUCACCGCCUCG
+#=GC SS_cons                 <<<..<<<<<<<<...<<<<.............................>
+#=GC RF                      aAuUCAAugAuuuCAACuuCACUGCUGACcAGCCACGCCUCAaCGCCUCG
+
+D.orena.1                    AAGGGAUUGG....CCCUAUUCCCUAACAAAUAGAGCAUAUUCUAAUU.A
+D.yakuba.1                   GAGGGAUUGCCUUUCCCCAUCCCCUGACAAAUCGAGCAUAUUCUAAUUCA
+D.melanogaster.1             GAGUGUUUGC....CCCCAGUCUCUGAUAGAUACACCAUAUUCUAAUA.C
+D.simulans.1                 GAGUGAUUGU....CC.CAGUCUCUGAUAG..ACAGCAUAUUCUAAUA.C
+D.sechellia.1                GAGUGAUUGU....CC.CAGUCUCUGAUAG..ACAGCAUAUUCUAAUA.C
+D.teissieri.1                GAGGGAUUGCCUUUCCCCAUUUCCUGACAAAUCGAGCAUAUUCUAAUUCA
+D.erecta.1                   GAGGGAUUGC....CCCUAUUCCCUAACAAAUAGAGCAUAUUCUAAUU.A
+#=GC SS_cons                 >>>>>>>..........<<<...>>>............>>>>...>>>..
+#=GC RF                      gaGagaUUGc....CCccAgUcucUgAuAaAUAgAgCAuaUUCUAaUu.a
+
+D.orena.1                    ACAC
+D.yakuba.1                   ACAC
+D.melanogaster.1             ACAC
+D.simulans.1                 ACGA
+D.sechellia.1                ACUU
+D.teissieri.1                ACAC
+D.erecta.1                   ACAC
+#=GC SS_cons                 ....
+#=GC RF                      ACAc
+//

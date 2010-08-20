@@ -1,0 +1,159 @@
+# STOCKHOLM 1.0
+#=GF ID    snosnR60_Z15
+#=GF AC    RF00309
+#=GF DE    Small nucleolar RNA snR60/Z15/Z230/Z193/J17
+#=GF AU    Moxon SJ
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    24.5
+#=GF PI    snoZ193
+#=GF SE    Griffiths-Jones S
+#=GF SS    Predicted; Griffiths-Jones S
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    snoRNABase; U80
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Oryzias_latipes300023
+#=GF DR    snoopy; Gasterosteus_aculeatus300081
+#=GF RN    [1]
+#=GF RM    12007400
+#=GF RT    Small nucleolar RNAs: an abundant group of noncoding RNAs with
+#=GF RT    diverse cellular functions.
+#=GF RA    Kiss T;
+#=GF RL    Cell. 2002;109:145-148.
+#=GF RN    [2]
+#=GF RM    10024243
+#=GF RT    A computational screen for methylation guide snoRNAs in yeast.
+#=GF RA    Lowe TM, Eddy SR;
+#=GF RL    Science 1999;283:1168-1171.
+#=GF RN    [3]
+#=GF RM    15556860
+#=GF RT    Guide RNAs with 5' caps and novel box C/D snoRNA-like domains for
+#=GF RT    modification of snRNAs in metazoa.
+#=GF RA    Tycowski KT, Aab A, Steitz JA;
+#=GF RL    Curr Biol. 2004;14:1985-1995.
+#=GF RN    [4]
+#=GF RM    12736310
+#=GF RT    The high diversity of snoRNAs in plants: identification and
+#=GF RT    comparative study of 120 snoRNA genes from Oryza sativa.
+#=GF RA    Chen CL, Liang D, Zhou H, Zhuo M, Chen YQ, Qu LH;
+#=GF RL    Nucleic Acids Res 2003;31:2601-2613.
+#=GF RN    [5]
+#=GF RM    11266566
+#=GF RT    Identification of 10 novel snoRNA gene clusters from Arabidopsis
+#=GF RT    thaliana.
+#=GF RA    Qu LH, Meng Q, Zhou H, Chen YQ;
+#=GF RL    Nucleic Acids Res. 2001;29:1623-1630.
+#=GF CC    The members of this family belong to the C/D class of snoRNAs
+#=GF CC    which contain the C (UGAUGA) and D (CUGA) box motifs. Most of the
+#=GF CC    members of the box C/D family function in directing site-specific
+#=GF CC    2'-O-methylation of substrate RNAs [1]. The family includes the
+#=GF CC    yeast snoRNA snR60 (also known as Z15) and the corresponding
+#=GF CC    human guide snoRNA U80 (SNORD80) [2,3]. This family also includes
+#=GF CC    the Arabidopsis orthologue of Z15 and a large number of related
+#=GF CC    plant snoRNAs Z230, Z193 and J17 [4,5].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_snR60/Z15/Z230/Z193/J17
+#=GF SQ    23
+
+#=GS N.crassa.1     AC    AL807371.1/51865-51971
+#=GS Y.lipolytica.1 AC    CR382127.1/78330-78421
+#=GS D.hansenii.1   AC    AJ810173.1/337-437
+#=GS K.lactis.1     AC    CR382126.1/190191-190306
+#=GS S.cerevisiae.1 AC    AF064272.1/1-104
+#=GS S.cerevisiae.2 AC    AJ223035.1/1-105
+#=GS Z.rouxii.1     AC    Y18560.1/1909-2007
+#=GS S.pombe.1      AC    AJ223844.1/4-101
+#=GS S.pombe.2      AC    AJ617329.1/1-83
+#=GS D.rerio.1      AC    CR759968.6/154064-154148
+#=GS D.rerio.2      AC    CR759968.6/154278-154362
+#=GS M.musculus.1   AC    AJ224029.1/1-77
+#=GS M.musculus.2   AC    X67268.1/1446-1526
+#=GS H.sapiens.1    AC    AF141346.1/3076-3157
+#=GS O.sativa.1     AC    AP004460.2/66056-66151
+#=GS O.sativa.2     AC    AJ490439.1/1-96
+#=GS O.sativa.3     AC    AY220644.1/1-79
+#=GS O.sativa.4     AC    AJ494935.1/1-96
+#=GS O.sativa.5     AC    AJ490437.1/1-100
+#=GS Z.mays.1       AC    BT017923.1/629-724
+#=GS A.thaliana.1   AC    AF317944.1/1-91
+#=GS A.thaliana.2   AC    AB020746.1/70437-70534
+#=GS A.thaliana.3   AC    AJ240074.1/1-88
+
+N.crassa.1                 CUUGGGCUUCCGUGAUGAUUUA..CAAUCAUAAGCAUAGUUCA.UCUGAA
+Y.lipolytica.1             CCGCAA.....AUGAUGAUUAA....GAA.UUCGCAUAGUUCA.UCUGAC
+D.hansenii.1               GCAGUGAA...AUGAUGAUGAAAAUAUUA.AUUGCAUAGUUCA.ACUGAU
+K.lactis.1                 UAUAUCUUA..AUGAUGAUACAUUUCCUUCAGUGCAUAGUUCA.ACUGAU
+S.cerevisiae.1             ...UGUUA...AUGAUGAUAACC...AAA.GAUGCAUAGUUCA.ACUGAU
+S.cerevisiae.2             ...UGUUA...AUGAUGAUAACC...AAA.GAUGCAUAGUUCA.ACUGAU
+Z.rouxii.1                 AAGAAGCC...CUGAUGAC......CAACCAAUGCAUAGUUCACACUGAA
+S.pombe.1                  AAAGGAUUUCUUUGAUGAUUCC....AAA.AAAGCAUAGUUCA.ACUGAG
+S.pombe.2                  .......UUCUUUGAUGAUUCC....AAA.AAAGCAUAGUUCA.ACUGAG
+D.rerio.1                  GUGAUGCAA..AUGAUGAC.............UGCAUAGUUCA.GCAGAA
+D.rerio.2                  GUGAUGCAG..AUGAUGAC.............UGCAUAGUUCA.GCAGAA
+M.musculus.1               ..GAUACC...AUGAUGAU........AA.....CAUAGUUCA.GCAGAC
+M.musculus.2               CCGAUACC...AUGAUGAU........AA.....CAUAGUUCA.GCAGAC
+H.sapiens.1                CCGAUACA...AUGAUGAU........AA.....CAUAGUUCA.GCAGAC
+O.sativa.1                 UGAGGUCGG..AUGAUGAG.......CAA..UUGCAUAGUUCA.AAUGAU
+O.sativa.2                 UGAGGUCGG..AUGAUGAG.......CAA..UUGCAUAGUUCA.AAUGAU
+O.sativa.3                 ....GA.....GUGAUGAG.......CAAAAAUGCAUAGUUCA.GAUGAU
+O.sativa.4                 UGAGGUCGG..AUGAUGAG.......CAA..UUGCAUAGUUCA.AAUGAU
+O.sativa.5                 .AAGGUCGA..GUGAUGAG.......CAAAAAUGCAUAGUUCA.GAUGAU
+Z.mays.1                   UGAGGUCGG..GUGAUGAG............UUGCAUAGUUCA.GAUGAU
+A.thaliana.1               .AGGGUCAA..GUGAUGAU.......UAAUAAUGCAUAGUUCA.AAUGAU
+A.thaliana.2               AGGGAUCAA..GUGAUGAU.......UGAUAACGCAUAGUUCA.GAUGAU
+A.thaliana.3               .....UCAA..GUGAUGAU.......UGAUAACGCAUAGUUCA.GAUGAU
+#=GC SS_cons               ...<<<<<..........................................
+
+N.crassa.1                 UUA..........UUCAUGAAGACAACUACG..UAUU..UUAUAGUCUUU
+Y.lipolytica.1             UA...........UCAAUGAAGAAUUAAUCU..UAGC.....AUGUCUUU
+D.hansenii.1               AUAU............AUGAAGAUAAAAAUA.CCAUC..AAAUAGUCUUU
+K.lactis.1                 AAGGAUAACUUCCUAUAUGAAGAUAAAAAUU..CAUCGAAUUUAGUCUUU
+S.cerevisiae.1             UGAACAUACUAUCGAAAUGAAGAUAAAAAUUUCCAUCGAAAUUAGUCUUU
+S.cerevisiae.2             UGAACAUACUAUCGAAAUGAAGAUAAAAAUUUCCAUCGAAAUUAGUCUUU
+Z.rouxii.1                 UGCAA........UUUGUGAAGAUA.......CCAACGAUUUUAGUCUUU
+S.pombe.1                  CAUCGU.......AUGCUGAAACUUU...UU.CCAUC......UGAUUUG
+S.pombe.2                  CAUCGU.......AUGCUGAAACUUU...UU.CCAUC......UGAUUUG
+D.rerio.1                  UU...........UCCAUGUAGAACA.......CAGA..GCAAUGUCUUU
+D.rerio.2                  AC...........UCCAUGUAGAACA.......CAGA..GCAAUGUCUUU
+M.musculus.1               UUA..........ACUCUGAUGAACA........AUC.....AUGUCUUU
+M.musculus.2               UUA..........ACUCUGAUGAACA........AUC.....AUGUCUUU
+H.sapiens.1                UA..............ACGCUGAUGA......GCAAU..AUUAAGUCUUU
+O.sativa.1                 UACA.........UUUGUAACUACUAUGAUU.ACAUC...UAAAGUCUUU
+O.sativa.2                 UACA.........UUUGUAACUAUUAUGGUU.ACAUC...UAAAGUCUUU
+O.sativa.3                 CAAACCCUA....GUGGUUAUGAUUACUUUG...AAU..AAAUAGUCUUU
+O.sativa.4                 UACA.........UUUGUAACUAUUAUGGUU.ACAUC...UAAAGUCUUU
+O.sativa.5                 CAAACCCUA....GUGGUUAUGAUUACUUUG...AAU..AAAUAGUCUUU
+Z.mays.1                   CAACCCUC.....GUGGUUCUGAUUACAUUG...AGU..AAUUAGUCUUU
+A.thaliana.1               C...............UCCAUGAUUACUAUU.CAGUA..GCACAGUCUUU
+A.thaliana.2               AAAU.........UCUAUUAUGAUUAACAUCUUCAGC....AUAGUCUUU
+A.thaliana.3               AAAU.........UCUAUUAUGAUUAACAUCUUCAGC....AUAGUCUUU
+#=GC SS_cons               ..................................................
+
+N.crassa.1                 CGCUCCCAUCUGAUUUUGCCCUUU
+Y.lipolytica.1             CGCUCCUAUCUGA...UUUUUAUC
+D.hansenii.1               CACCCCUAUCUGA...UUCACAAU
+K.lactis.1                 CGCUCCUAUCUGA...AAUCUCUG
+S.cerevisiae.1             CGCUCCUAUCUGA.....AC....
+S.cerevisiae.2             CGCUCCUAUCUGA.....ACA...
+Z.rouxii.1                 CGCUCCUAUCUGA.CUGGCUUUCU
+S.pombe.1                  CACGUCAGUCUGA...GAUUUCUC
+S.pombe.2                  CACGUCAGUCUGA...........
+D.rerio.1                  CGCUCCUAGCUGA...UGCAUCAC
+D.rerio.2                  CGCUCCUAGCUGA...UGCAUCAC
+M.musculus.1               CGCUCCUAUCUGA...UGUAUC..
+M.musculus.2               CGCUCCUAUCUGA...UGUAUCUG
+H.sapiens.1                CGCUCCUAUCUGA...UGUAUCUG
+O.sativa.1                 CGCUCCUAACUGA...CGACUUUA
+O.sativa.2                 CGCUCCUAACUGA...CGACUUUA
+O.sativa.3                 CGCUC...................
+O.sativa.4                 CGCUCCUAACUGA...CGACUUUA
+O.sativa.5                 CGCUCCUAACUGA...CGGCCUU.
+Z.mays.1                   CGCUCCUAUCUGA...CGACCUUA
+A.thaliana.1               CGCUCCUAUCUGA...UGGCCCU.
+A.thaliana.2               CGCUCCUAUCUGA...UGACCCUU
+A.thaliana.3               CGCUCCUAUCUGA...UGA.....
+#=GC SS_cons               ................>>>>>...
+//

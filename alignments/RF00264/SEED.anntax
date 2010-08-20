@@ -1,0 +1,81 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORA64
+#=GF AC    RF00264
+#=GF DE    Small nucleolar RNA SNORA64/SNORA10 family
+#=GF AU    Moxon SJ, Daub J
+#=GF GA    22.0
+#=GF NC    21.6
+#=GF TC    25.0
+#=GF PI    U64
+#=GF SE    PMID:10487763, Daub J
+#=GF SS    Published; PMID:10487763
+#=GF TP    Gene; snRNA; snoRNA; HACA-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000594 SO:H_ACA_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Mus_musculus300780
+#=GF DR    snoopy; Echinops_telfairi300096
+#=GF RN    [1]
+#=GF RM    10487763
+#=GF RT    Nucleolar localization signals of box H/ACA small nucleolar RNAs.
+#=GF RA    Narayanan A, Lukowiak A, Jady BE, Dragon F, Kiss T, Terns RM, Terns
+#=GF RA    MP;
+#=GF RL    EMBO J 1999;18:5120-5130.
+#=GF RN    [2]
+#=GF RM    12007400
+#=GF RT    Small nucleolar RNAs: an abundant group of noncoding RNAs with
+#=GF RT    diverse cellular functions.
+#=GF RA    Kiss T;
+#=GF RL    Cell 2002;109:145-148.
+#=GF CC    This family belongs to the H/ACA class of small nucleolar RNAs
+#=GF CC    (snoRNAs) which act as guides in the the modification of uridines
+#=GF CC    to pseudouridines [2]. This family includes the human snoRNAs U64
+#=GF CC    and ACA10 and mouse MBI-29.
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_SNORA64/SNORA10_family
+#=GF SQ    9
+
+#=GS H.sapiens.1 AC    AJ609432.1/1-133
+#=GS H.sapiens.2 AC    Y11158.1/1-134
+#=GS H.sapiens.3 AC    AC008083.23/27997-28128
+#=GS H.sapiens.4 AC    AB007147.1/104-236
+#=GS H.sapiens.5 AC    BC063011.1/424-557
+#=GS H.sapiens.6 AC    AC026222.5/25912-26043
+#=GS H.sapiens.7 AC    AC011891.3/54616-54747
+#=GS H.sapiens.8 AC    AC099331.2/140721-140854
+#=GS H.sapiens.9 AC    AC016907.6/186868-187000
+
+H.sapiens.1             GGUCUCUCAGCUCCGCUUAACCACAC...GGGUCCAGUGUGUGCUUGGCG
+H.sapiens.2             ACUCUCUCGGCUCUGCAUAGUUGCACUUGGCUUCACCCGUGUGACUUUCG
+H.sapiens.3             GGCCUCUCAGUGCCGCUUAAUCACAC...AGGUCCAGUGUGUGCUUGGUG
+H.sapiens.4             GGUCUCUCAGCUCCGCUUAACCACAC...GGGUCCAGUGUGUGCUUGGCG
+H.sapiens.5             ACUCUCUCGGCUCUGCAUAGUUGCACUUGGCUUCACCCGUGUGACUUUCG
+H.sapiens.6             GGCCUCUCAGUUCCGCUUAAUCACAC...AGGUCCAGUGUGUGCUUGGUG
+H.sapiens.7             ACACUCUCAGCUAUGUAUAGUUACACCUGGCUUCACUUGUGUGACUUUUG
+H.sapiens.8             AGACUCCCAGCUCUGCCCAGUUACACUAGGCUUCGCCUGUGUGGCUUCUG
+H.sapiens.9             GGUCUCUCAGCUCUGCUUAACCACAC...GGGUCCAGUGUGUGCUUGGCG
+#=GC SS_cons            .<<<<<<<..<<<<<...<<<<<<<<............>>>>>>>>....
+
+H.sapiens.1             UGUUUUCAGGGAGGCAGAGAAAGGCUCUCCUAAUGCACGACAGACCCGCC
+H.sapiens.2             UAA...CGGGGAGAGAGAGAAAAGAUCUCCUCAGG.ACCUCGGAUGGGCC
+H.sapiens.3             UCUUUUCUGGGAGGCAGAGGAAGGCUCUCCUAAU.CACAACAGACCUGCC
+H.sapiens.4             UGUUUUCAGGGAGGCAGAGAAAGGCUCUCCUAAUGNACGACAGACCCGCC
+H.sapiens.5             UAA...CGGGGAGAGAGAGAAAAGAUCUCCUCAGG.ACCUCGGAUGGGCC
+H.sapiens.6             UCUUUUCUGGGAGGCAGAGGAAGGCUCUCCUAAU.CACAACAGACCUGCC
+H.sapiens.7             CAA...UGGGAAGAGAGAGAGAAGGUCCCCUUGGU.ACCUCAGCUCGGCC
+H.sapiens.8             UAA...UGGGGAGGGAGAGAAAGGAUCUCCCCAGG.ACCUCAGAUUGGCU
+H.sapiens.9             UGUUUUCAGGGAGGCAGAGAAAGGCUCUCCUAAUGCACGACAGACCCGCC
+#=GC SS_cons            ......>>>>>.>>>>>>>.......<<<<<<<<<......<<<.<<<<<
+
+H.sapiens.1             CAGAA.UGGCCUCUCUGUUCCU.AGGAGUGCGACAAUU
+H.sapiens.2             UUACUGUGGCCUCUCUUUCCUUGAGGGGUGCAACAGGC
+H.sapiens.3             CAGAA.GGGCCUCUCUAUUUCU.AGGAGUAUGAUAGCU
+H.sapiens.4             CAGAA.UGGCCUCUCUGUUCCU.AGGAGUGCGACAAUU
+H.sapiens.5             UUACUGUGGCCUCUCUUUCCUUGAGGGGUGCAACAGGC
+H.sapiens.6             CAGAA.GGGCCUCUCUAUUUCU.AGGAGUAUGAUAGCU
+H.sapiens.7             UUAUGGUGGCC..UCUUUCCUUGAAGGGUGCAACAAAA
+H.sapiens.8             UUACUGUGGCAUCUCUUUCCUUGAGGGACACAAUAGGU
+H.sapiens.9             CAGAA.UGGCCUCUCUGUUCCU.AGGAGUGUGACAAUU
+#=GC SS_cons            .......>>>>>.>>>...>>>>>>>>>..........
+//

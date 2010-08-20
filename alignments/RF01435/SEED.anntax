@@ -1,0 +1,44 @@
+# STOCKHOLM 1.0
+#=GF ID    S_pombe_snR5
+#=GF AC    RF01435
+#=GF DE    small nucleolar RNA snR5
+#=GF AU    Osuch I
+#=GF GA    80.0
+#=GF NC    0.0
+#=GF TC    97.4
+#=GF SE    INFERNAL
+#=GF SS    Predicted; RNAalifold; Osuch I
+#=GF TP    Gene; snRNA; snoRNA; HACA-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF RN    [1]
+#=GF RM    15716270
+#=GF RT    Identification and functional analysis of 20 Box H/ACA small
+#=GF RT    nucleolar RNAs (snoRNAs) from Schizosaccharomyces pombe.
+#=GF RA    Li SG, Zhou H, Luo YP, Zhang P, Qu LH;
+#=GF RL    J Biol Chem. 2005;280:16446-16455.
+#=GF WK    http://en.wikipedia.org/wiki/SnoRNA
+#=GF SQ    3
+
+#=GS Schizosaccharomyces_.1 AC    AATM01000018.1/43544-43683
+#=GS S.pombe.1              AC    CU329671.1/2266027-2266169
+#=GS S.pombe.2              AC    AJ632001.1/1-143
+
+Schizosaccharomyces_.1             GCUUCAGGUCUCUUUUACCAAUUGCAGUCUGGCCAAAGGCAAUGAGGUUG
+S.pombe.1                          GCCAAUGGUCUCUUUUACCAAUUGCAGUCUGGCUUAAAGCAAUGAGGUUG
+S.pombe.2                          GCCAAUGGUCUCUUUUACCAAUUGCAGUCUGGCUUAAAGCAAUGAGGUUG
+#=GC SS_cons                       ......<<<<<<.......<<<<<<<..<<.<<<...>>>....>>..>>
+
+Schizosaccharomyces_.1             UAAUUAAAUGGCUUGAGACCGAAAACGAUCCUCCGUUCUAAUCCUGACCA
+S.pombe.1                          UAAUUAAAUGGCUUGAGACCUAGAACAAACACCUUUUACAAUCCUUGUUU
+S.pombe.2                          UAAUUAAAUGGCUUGAGACCUAAAACAAACACCUUUUACAAUCCUUGUUU
+#=GC SS_cons                       >>>>>.........>>>>>>........<<<<<.........<<<.<<<<
+
+Schizosaccharomyces_.1             UCGAAUUUAUA...AUGGUCCGGUUCGCUUAAGGAGAACAUCU
+S.pombe.1                          ACUGGUUUUGAUAGUAAAUUCGGUUCGCUUGUGGUGUACAUUA
+S.pombe.2                          ACUGGUUUUGAUAGUAAAUUCGGUUCGCUUGUGGUGUACAUUU
+#=GC SS_cons                       <<<<.......>>>>>>>>.>>>.........>>>>>......
+//

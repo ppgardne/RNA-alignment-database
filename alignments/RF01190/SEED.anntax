@@ -1,0 +1,36 @@
+# STOCKHOLM 1.0
+#=GF ID    snR50
+#=GF AC    RF01190
+#=GF DE    Small nucleolar RNA snR50
+#=GF AU    Wilkinson A
+#=GF GA    20.7
+#=GF NC    0.0
+#=GF TC    22.9
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    snornadb; snR50
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF WK    http://en.wikipedia.org/wiki/SnoRNA
+#=GF SQ    3
+
+#=GS S.cerevisiae.1         AC    AJ223034.1/8-96
+#=GS Saccharomyces_kudria.1 AC    AACI02000236.1/11645-11732
+#=GS Saccharomyces_mikata.1 AC    AACH01000741.1/1390-1477
+
+S.cerevisiae.1                     UAGAAUGAUGAAAGAGGUAGCAAUUUGCAGCAGAUUUUUCGUGAUUGAAU
+Saccharomyces_kudria.1             UAAAAUGAUGAAAGAGGUAGCAAUUUGCAACAGAU.UUACAUGAUCGAAU
+Saccharomyces_mikata.1             UAGAAUGAUGAAAGAGGUAGCAAAAUGUAACAGAAUUUUCAUGACUGAAA
+#=GC SS_cons                       <<................................................
+#=GC RF                            UAGAAUGAUGAAAGAGGUAGCAAUUUGCAGCAGAUUUUUCGUGAUUGAAU
+
+S.cerevisiae.1                     CAAACAAAGAUUAACCUUUACAGAACCGCUACACUGAUA
+Saccharomyces_kudria.1             CAAACAAAGAUUAACCUUUACAGAACCGCUACACUGAUA
+Saccharomyces_mikata.1             CAAACAA.GAUUAACCUUUACAGAACCGCUACACUGAUA
+#=GC SS_cons                       .....................................>>
+#=GC RF                            CAAACAAAGAUUAACCUUUACAGAACCGCUACACUGAUA
+//

@@ -1,0 +1,36 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-553
+#=GF AC    RF00979
+#=GF DE    microRNA mir-553
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    24.7
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000487
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    3
+
+#=GS M.mulatta.1     AC    AANU01219886.1/10436-10503
+#=GS P.troglodytes.1 AC    AACZ02007629.1/8840-8907
+#=GS M.murinus.1     AC    ABDC01323916.1/3871-3934
+
+M.mulatta.1                 CUUCAAUUUUAUUUGAAAAAGGUGAGGUUUUGUUUUGUCUGAGAAAAUCU
+P.troglodytes.1             CUUCAAUUUUAUUUUAAAACGGUGAGAUUUUGUUUUGUCUGAGAAAAUCU
+M.murinus.1                 CAUAUAUUCAAAAACAAAAAGGUGAGGUUUUGUUUUG.CUUAGAGAAUCU
+#=GC SS_cons                ............<<.<<<<.<<<<<<<<<<<.<<......>>.>>>>>>>
+#=GC RF                     CWUMAAUUYWAWWWSAAAAMGGUGAGRUUUUGUUUUGUCUGAGARAAUCU
+
+M.mulatta.1                 CACUGUUUUAGACUGAGG
+P.troglodytes.1             CGCUGUUUUAGACUGAGG
+M.murinus.1                 UGCUGUUUUAUUUUA...
+#=GC SS_cons                >>>>.>>>>.>>......
+#=GC RF                     CRCUGUUUUAGACURAGG
+//

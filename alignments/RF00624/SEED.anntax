@@ -1,0 +1,77 @@
+# STOCKHOLM 1.0
+#=GF ID    P9
+#=GF AC    RF00624
+#=GF DE    Pseudomonas sRNA P9
+#=GF AU    Daub J
+#=GF GA    35.0
+#=GF NC    31.3
+#=GF TC    42.1
+#=GF SE    INFERNAL
+#=GF SS    Predicted; RNAalifold
+#=GF TP    Gene;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000655 SO:ncRNA
+#=GF RN    [1]
+#=GF RM    16870723
+#=GF RT    Identification of 17 Pseudomonas aeruginosa sRNAs and prediction of
+#=GF RT    sRNA-encoding genes in 10 diverse pathogens using the bioinformatic
+#=GF RT    tool sRNAPredict2.
+#=GF RA    Livny J, Brencic A, Lory S, Waldor MK;
+#=GF RL    Nucleic Acids Res. 2006;34:3484-3493.
+#=GF CC    This small RNA (sRNA) was computationally identified in the
+#=GF CC    genome of the opportunistic pathogen Pseudomonas aeruginosa and
+#=GF CC    its expression verified by northern blot analysis [1]. P9 appears
+#=GF CC    to be conserved in several Pseudomonas species in addition to
+#=GF CC    Bordetella spp. In both Pseudomonas and Bordetella spp P9 appears
+#=GF CC    to be located upstream of a predicted threonine dehydratase gene.
+#=GF CC    P9 has a predicted Rho independent terminator at the 3' end but
+#=GF CC    the function of P9 is unknown [1]. This sRNA also appears to be
+#=GF CC    present in the Betaproteobacteria (Burkholderia and Ralstonia
+#=GF CC    species).
+#=GF WK    http://en.wikipedia.org/wiki/Pseudomonas_sRNA_P9
+#=GF SQ    12
+
+#=GS B.parapertussis.1      AC    BX640426.1/81990-82065
+#=GS B.bronchiseptica.1     AC    BX640440.1/318195-318270
+#=GS Ralstonia_eutropha_J.1 AC    CP000091.1/1636738-1636819
+#=GS Pseudomonas_aerugino.1 AC    CP000438.1/4198015-4198088
+#=GS Pseudomonas_syringae.1 AC    CP000075.1/1879678-1879751
+#=GS Pseudomonas_putida_K.1 AC    AE015451.1/3904753-3904826
+#=GS Pseudomonas_putida_W.1 AC    CP000949.1/3244879-3244952
+#=GS Pseudomonas_syringae.2 AC    AE016853.1/4311676-4311749
+#=GS Pseudomonas_fluoresc.1 AC    CP000076.1/3569881-3569953
+#=GS Pseudomonas_syringae.3 AC    CP000058.1/1930918-1930990
+#=GS Pseudomonas_fluoresc.2 AC    CP000094.1/2997820-2997896
+#=GS Pseudomonas_entomoph.1 AC    CT573326.1/3121408-3121484
+
+B.parapertussis.1                  AGCAU...UAUUACCGCCAUUCCAGCAGUGGCGGGUUAGCCUACGAA.UU
+B.bronchiseptica.1                 AGCAU...UAUUACCGCCAUUCCAGCAGUGGCGGGUUAGCCUACGAA.UU
+Ralstonia_eutropha_J.1             ...AU...UAUUAUCACCAUUCCUGGAAUGGUGGGUUAGCGCGCG...UC
+Pseudomonas_aerugino.1             AGCAU...UAUUACCGCCAUUCCAGCUAUGGCGGGUUAGCCAGCG...UC
+Pseudomonas_syringae.1             AUUAU...UAUUACCGUCAUUCCAGUCAUGGCGGGUUAGCCGACG...UU
+Pseudomonas_putida_K.1             AUUAU...UAUUACCGCCAUUAUCAGCUUGGCGGGCUAGCGCGUA...CG
+Pseudomonas_putida_W.1             AUUAU...UAUUACCGCCAUUAUCAGUUUGGCGGGCUAGCGCGUA...CG
+Pseudomonas_syringae.2             AUUAU...UAUUACCGUCAUUCCAGUCAUGGCGGGUUAGCCGACG...UU
+Pseudomonas_fluoresc.1             AGCAU...UAUUACCGCCAUUCCU.UAUUGGCGGGCUUGCUGACG...AC
+Pseudomonas_syringae.3             AUUAU...UAUUACCGUCAUUCCAGUCAUGGCGGGUUAGCAGACG...UU
+Pseudomonas_fluoresc.2             AGCAU...UAUUACCGCCAUUCCUCAUUUGGCGGGCUAGCUCACGACUGC
+Pseudomonas_entomoph.1             AGCAUUAUUAUUACCGCCAUUAUCGGUUUGGCGGGCUAGCGCGUA...CG
+#=GC SS_cons                       .............<<<<<<<.......>>>>>>>................
+#=GC RF                            AgcAU...UAUUACCGCCAuUCCAGuAaUGGCGGGuUAGCcgACG...uu
+
+B.parapertussis.1                  CCCA............GAAAACCCGCCCUCGAGGCGGGUUUU
+B.bronchiseptica.1                 CCCA............GAAAACCCGCCCUCGAGGCGGGUUUU
+Ralstonia_eutropha_J.1             CUCAGAUCAGUUACCGCAAAACCCGCCCU.GAGGCGGGUUUU
+Pseudomonas_aerugino.1             CACU............CCGAACCCGCCCUCGAGGCGGGUUCU
+Pseudomonas_syringae.1             UGCC............AAAAACCCGCCCUGGAGGCGGGUUUC
+Pseudomonas_putida_K.1             UGCA............CCGAACCCGCCCUGGAGGCGGGUUUU
+Pseudomonas_putida_W.1             UGCA............CCGAACCCGCCCUGGAGGCGGGUUUC
+Pseudomonas_syringae.2             UGCA............AAAAACCCGCCCUGGAGGCGGGUUUU
+Pseudomonas_fluoresc.1             UGCA............CCCAACCCGCCCUGGAGGCGGGUUUU
+Pseudomonas_syringae.3             UG.C............AAAAACCCGCCCUGGAGGCGGGUUUC
+Pseudomonas_fluoresc.2             AGCA............CCCAACCCGCCCUAGAGGCGGGUUUU
+Pseudomonas_entomoph.1             UGCA............CCGAACCCGCCCUGGAGGCGGGUUUU
+#=GC SS_cons                       ..................<<<<<<<<<.....>>>>>>>>>.
+#=GC RF                            ugCA............aAaAACCCGCCCUgGAGGCGGGUUuu
+//

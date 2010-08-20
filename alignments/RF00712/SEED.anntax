@@ -1,0 +1,51 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-460
+#=GF AC    RF00712
+#=GF DE    microRNA mir-460
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    23.2
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000134
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    8
+
+#=GS O.latipes.1            AC    BAAE01241804.1/319-395
+#=GS Gasterosteus_aculeat.1 AC    AANH01005365.1/54158-54234
+#=GS T.rubripes.1           AC    AJ550897.1/27759-27835
+#=GS D.rerio.1              AC    AL929518.16/147648-147724
+#=GS G.gallus.1             AC    AADN02000191.1/14140-14216
+#=GS A.carolinensis.1       AC    AAWZ01036331.1/1615-1691
+#=GS Monodelphis_domestic.1 AC    AAFR03030363.1/8341-8416
+#=GS O.anatinus.1           AC    AAPN01052000.1/337-412
+
+O.latipes.1                        CUUUACAGUUCCUGCAUUGUACACACUGUGCAUAUAUGUUACAUAAGCAC
+Gasterosteus_aculeat.1             CUUUACAGCUCCUGCAUUGUACACACUGUGCGUAGAAGUUACGUAAGCAC
+T.rubripes.1                       UUUUACAGUUCCUGCAUUGUACACACUGUGCAAAUCAUUUCUGGAAGCAC
+D.rerio.1                          CUCCUCGGCUCCUGCAUUGUACACACUGUGCGGAAAACAUGGACAUGCAC
+G.gallus.1                         CUAUAUAGCACCUGCAUUGUACACACUGUGUGUGUUAACUGGAAAUGCAC
+A.carolinensis.1                   CCUUAUAGGACCUGCAUUGUACACACUGUGUGUAUGGACUGGAGGUGCAC
+Monodelphis_domestic.1             CUUUAUAGAACCUGCAUUGUACACACUGUGUGUUUUCAUUCC.CAUGCAC
+O.anatinus.1                       CUGUAUAGAACCUGCAUUGUACACACUGUGUGUCUC.GCUCUCUGCACAC
+#=GC SS_cons                       .....<<<<..<<<<<<<<<<..<.<<<<<<...............>>>>
+#=GC RF                            cUuuAcaGcaCCugCauuGuaCACACuGuGcguauaaauUauAaAugCaC
+
+O.latipes.1                        AGCGCAUACAAUGUGGAUGCUGUGCUA
+Gasterosteus_aculeat.1             AGCGCAUACAAUGUGGAUGCUGUGCUA
+T.rubripes.1                       AGCGCAUACAAUGUGGAUGCUGUGCUG
+D.rerio.1                          AGCGCAUACAAUGUGGAUGCUGUGGAG
+G.gallus.1                         AGCGCAUACAAUGUGGAUUCUGUAGAA
+A.carolinensis.1                   AGCGCAUACAAUGUGGAUGCUAUAGAA
+Monodelphis_domestic.1             AGCGCAUACAAUGUGGAUACUAUAAGA
+O.anatinus.1                       AGCGCGUACAAUGUGGAUACUAUAGAA
+#=GC SS_cons                       >>.>..>>>>>>>>>>..>>>>.....
+#=GC RF                            aGCGCAuaCaauGugGAUgCugUagaA
+//

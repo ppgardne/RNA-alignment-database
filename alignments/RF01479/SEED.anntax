@@ -1,0 +1,50 @@
+# STOCKHOLM 1.0
+#=GF ID    rli48
+#=GF AC    RF01479
+#=GF DE    Listeria snRNA rli48
+#=GF AU    Osuch I
+#=GF GA    100.0
+#=GF NC    0.0
+#=GF TC    161.8
+#=GF SE    INFERNAL
+#=GF SS    Predicted;RNaalfold
+#=GF TP    Gene; snRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF RN    [1]
+#=GF RM    19448609
+#=GF RT    The Listeria transcriptional landscape from saprophytism to
+#=GF RT    virulence.
+#=GF RA    Toledo-Arana A, Dussurget O, Nikitas G, Sesto N, Guet-Revillet H,
+#=GF RA    Balestrino D, Loh E, Gripenland J, Tiensuu T, Vaitkevicius K,
+#=GF RA    Barthelemy M, Vergassola M, Nahori MA, Soubigou G, Regnault B, Coppee
+#=GF RA    JY, Lecuit M, Johansson J, Cossart P;
+#=GF RL    Nature. 2009;459:950-956.
+#=GF WK    http://en.wikipedia.org/wiki/Listeria_monocytogenes_non-coding_RNA
+#=GF SQ    3
+
+#=GS L.innocua.1            AC    AL596172.1/225572-225721
+#=GS Listeria_monocytogen.1 AC    AARS01000002.1/441784-441931
+#=GS L.monocytogenes.1      AC    AL591982.1/261274-261423
+
+L.innocua.1                        GACGUGAUAUACUUUUAAUAGAGGGAGGGGAGUUUCACCCCUCUG.AUUU
+Listeria_monocytogen.1             GACGUGAUAUA.CUUUUAUAGAGGGAGGGGAGUUUCACCCCUCUG..GUU
+L.monocytogenes.1                  GGCAUGUUAUA.AUUUAUUAGAGGGAGGGGAAUUCCACCCCUCUGAAUUU
+#=GC SS_cons                       ...<<<<...........<<<<<<<<<<<<.......>>>>>>.......
+
+L.innocua.1                        AGCGGUUCUUGUCUUUAUCAUUCUUGUGUAUUGUUGUCAGCGCUACUACA
+Listeria_monocytogen.1             ACUUGUCCUUGUUUUUGUCUAUCUUGCGUAAUGUUAUCAGCGCUACUGCA
+L.monocytogenes.1                  ACUUGUCCUUGUUUUUAUCUUUCUUGCGUAAUGUUAUCAGCGCUACUGCA
+#=GC SS_cons                       ....<<<<<<<...<<<<<.<<<<<<<<<<.<<<.....>>>.>>>.>>>
+
+L.innocua.1                        AGAGUGAUAAUUUCAAGGACUGUUUUUAUUUCCUCUAAAACAUCUUUCAC
+Listeria_monocytogen.1             AGAGUUACAAUUUCAAGGACUGUUUUUAUUUCCUCUAAGAUGUCUUUCAC
+L.monocytogenes.1                  AGAGUGAUAAUUUCGAGGACUGUUUUUAUUUCCUCUAAAACAUCCUUCAC
+#=GC SS_cons                       >>>>.>>>>>...>>>>>>>...........>>>>>>.........>>>>
+
+L.innocua.1                        U
+Listeria_monocytogen.1             U
+L.monocytogenes.1                  U
+#=GC SS_cons                       .
+//

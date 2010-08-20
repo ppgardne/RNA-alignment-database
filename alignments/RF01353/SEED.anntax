@@ -1,0 +1,28 @@
+# STOCKHOLM 1.0
+#=GF ID    CRISPR-DR44
+#=GF AC    RF01353
+#=GF DE    CRISPR RNA direct repeat element
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    26.2
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; CRISPR;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    URL; http://crispr.u-psud.fr/crispr/CRISPRHomePage.php
+#=GF DR    SO:0001459 SO:CRISPR
+#=GF WK    http://en.wikipedia.org/wiki/CRISPR
+#=GF SQ    3
+
+#=GS Picrophilus_torridus.1 AC    AE017261.1/62530-62557
+#=GS Thermoplasma_volcani.1 AC    BA000011.4/122589-122616
+#=GS Cyanothece.1           AC    AAXW01000052.1/29681-29708
+
+Picrophilus_torridus.1             CUUCCAUACUAUCUAGUAAUUCUUAAAC
+Thermoplasma_volcani.1             CUUCCAUACUAACUAGUACAUCUUAAAC
+Cyanothece.1                       CUUCAAUACUAUCUAGUAAUUCUAAUAG
+#=GC SS_cons                       ......<<<<....>>>>..........
+#=GC RF                            CUUCCAuaCuAaCUaGuaaaUCUUAAAC
+//

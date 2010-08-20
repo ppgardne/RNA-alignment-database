@@ -1,0 +1,72 @@
+# STOCKHOLM 1.0
+#=GF ID    rli51
+#=GF AC    RF01490
+#=GF DE    Listeria snRNA rli51
+#=GF AU    Osuch I
+#=GF GA    35.0
+#=GF NC    0.0
+#=GF TC    42.5
+#=GF SE    INFERNAL
+#=GF SS    Predicted; RNAalifold
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    19448609
+#=GF RT    The Listeria transcriptional landscape from saprophytism to
+#=GF RT    virulence.
+#=GF RA    Toledo-Arana A, Dussurget O, Nikitas G, Sesto N, Guet-Revillet H,
+#=GF RA    Balestrino D, Loh E, Gripenland J, Tiensuu T, Vaitkevicius K,
+#=GF RA    Barthelemy M, Vergassola M, Nahori MA, Soubigou G, Regnault B, Coppee
+#=GF RA    JY, Lecuit M, Johansson J, Cossart P;
+#=GF RL    Nature. 2009;459:950-956.
+#=GF WK    http://en.wikipedia.org/wiki/Listeria_monocytogenes_non-coding_RNA
+#=GF SQ    9
+
+#=GS L.monocytogenes.1 AC    AY168080.1/96-216
+#=GS L.monocytogenes.2 AC    EU372053.1/3947-4067
+#=GS L.monocytogenes.3 AC    FJ041145.1/3922-4042
+#=GS L.monocytogenes.4 AC    AY512490.1/3938-4058
+#=GS L.ivanovii.1      AC    AY510073.1/4042-4162
+#=GS L.monocytogenes.5 AC    EU372052.1/3947-4067
+#=GS L.monocytogenes.6 AC    EU372028.1/3954-4074
+#=GS L.ivanovii.2      AC    AY510072.1/4036-4154
+#=GS L.monocytogenes.7 AC    AY512446.2/3933-4053
+
+L.monocytogenes.1             AUAUCCCAAAGUUUAAGCCACCUAUAGUUUC.UACUGC.AAAACGUAUAA
+L.monocytogenes.2             AUAUCCCAAAGUUUAAGCCACCUAUAGUUUC.UACUGC.AAAACGUAUAA
+L.monocytogenes.3             AUAUCCCAAAGUUUAAGCCACCUAUAGUUUC.UACUGC.AAAACGUAUAA
+L.monocytogenes.4             AUAUCCCAAAGUUUAAGCCACCUAUAGUUUC.UACUGC.AAAACGUAUAA
+L.ivanovii.1                  AUAUUA.AAAGUUUAAGUCACUUAUAGUUUCCUACUGCGAAAACAUAUAA
+L.monocytogenes.5             AUAUCCCAAAGUUUAAGCCACCUAUAGUUUC.UACUGC.AAAACGUAUAA
+L.monocytogenes.6             AUAUCCCAUAGUUUAAGCCACCUAUAGUUUC.UACUGC.AAAACGUAUAA
+L.ivanovii.2                  AUAUUA.AAAGUUUGAGUCACUUAUAGUUUCCUACUGCGAAAACAUAUAA
+L.monocytogenes.7             AUAUCCCAAAGUUUAAGCCACCUAUAGUUUC.UACUGC.AAAACGUAUAA
+#=GC SS_cons                  ........<<<.<<<<<<<<<<<<<<<<<......<<......>><<<..
+#=GC RF                       AUAUua.AaaGUuuaaGcCaCcuauaguuUCcUACuGCgAAAACauauaa
+
+L.monocytogenes.1             U..UUAGUUCCCACAUAUACUAAAAAA..CGUGUCCUUAACUCUCUCUGU
+L.monocytogenes.2             U..UUAGUUCCCACAUAUACUAA.AAAA.CGUGUCCUUAACUCUCUCUGU
+L.monocytogenes.3             C..UUAGUUCCCACAUAUACUAA.AAA.ACGUGUCCUUAACUCUCUCUGU
+L.monocytogenes.4             U..UUAGUUCCCACAUAUACUAAAAAA..CGUGUCCUUAACUCUCUCUGU
+L.ivanovii.1                  UUUUUAGUUCCCACCCAUACUAA.AAU..UGUGUCCUUA..GCUCUCUAU
+L.monocytogenes.5             U..UUAGUUCCCACAUAUACUAAAAAA..CGUGUCCUUAACUCUCUCUGU
+L.monocytogenes.6             U..UUAGUUCCCACAUAUGCUAAAAAA..CGUGUCCUUAACUCUCUCUGU
+L.ivanovii.2                  U..UUAGUUCCCACCCAUACUAA.AAU..UGUGUCCUUAACUCUCUA..U
+L.monocytogenes.7             U..UUAGUUCCCACAUAUACUAAAAAA..CAUAUCCUUAACUCUCUCUGU
+#=GC SS_cons                  <..<<<<<..........>>>>>..>....>>>.................
+#=GC RF                       u..uuaGuUCCCACauAUaCuaa.Aau..ugugUCCUUAAcuCUCUcuaU
+
+L.monocytogenes.1             CAGAUUAGUUGUAGGUGGCUUAAACUU
+L.monocytogenes.2             CAGAUUAGUUGUAGGUGGCUUAAACUU
+L.monocytogenes.3             CAGAUUAGUUGUAGGUGGCUUAAACUU
+L.monocytogenes.4             CAGAUUAGUUGUAGGUGGCUUAAACUC
+L.ivanovii.1                  UAAUUUGGCUAUAGGUGGCUUAAUCUU
+L.monocytogenes.5             CAGAUUAGUUGUAGGUGGCUUAAACUU
+L.monocytogenes.6             CAGAUUAGUUGUAGGUGGCUUAAACUU
+L.ivanovii.2                  UAAUUUGGCUAUACGUGGCUUAAUCUU
+L.monocytogenes.7             CAGAUUAGUUGUAGGUGGCUUAAACUU
+#=GC SS_cons                  ......>>>>>>>>>>>>>>>>>.>>>
+#=GC RF                       uAaaUUagcuauagGuGgCuuaaaCuu
+//

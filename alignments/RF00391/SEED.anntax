@@ -1,0 +1,329 @@
+# STOCKHOLM 1.0
+#=GF ID    RtT
+#=GF AC    RF00391
+#=GF DE    RtT RNA
+#=GF AU    Moxon SJ, Gardner PP
+#=GF GA    20.0
+#=GF NC    19.8
+#=GF TC    20.1
+#=GF SE    PMID:1840671
+#=GF SS    Published; PMID:1840671; Moxon SJ
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0000655 SO:ncRNA
+#=GF RN    [1]
+#=GF RM    1840671
+#=GF RT    A novel RNA product of the tyrT operon of Escherichia coli.
+#=GF RA    Bosl M, Kersten H;
+#=GF RL    Nucleic Acids Res 1991;19:5863-5870.
+#=GF CC    This family represents a bacterial cis-regulatory element known as RtT RNA.
+#=GF CC    The exact function of RtT is unknown although it is thought that it may be
+#=GF CC    involved in changing the cellular response in relation to amino acid
+#=GF CC    starvation [1].
+#=GF WK    http://en.wikipedia.org/wiki/RtT_RNA
+#=GF SQ    58
+
+#=GS gamma_proteobacteriu.1  AC    AAPI01000014.1/20293-20165
+#=GS Enterobacter.1          AC    CP000653.1/205263-205397
+#=GS Enterobacter.2          AC    CP000653.1/2490772-2490901
+#=GS Enterobacter.3          AC    CP000653.1/2490477-2490606
+#=GS E.coli.1                AC    K01197.1/689-818
+#=GS Escherichia_coli_O15.1  AC    BA000007.2/1732540-1732408
+#=GS E.coli.2                AC    K01197.1/1340-1471
+#=GS E.coli.3                AC    K01197.1/1162-1293
+#=GS E.coli.4                AC    K01197.1/984-1115
+#=GS Escherichia_coli_ATC.1  AC    CP000946.1/186073-186206
+#=GS Klebsiella_pneumonia.1  AC    CP000647.1/2417587-2417717
+#=GS Klebsiella_pneumonia.2  AC    CP000647.1/2417762-2417892
+#=GS Klebsiella_pneumonia.3  AC    CP000647.1/839192-839329
+#=GS Klebsiella_pneumonia.4  AC    CP000647.1/2417286-2417418
+#=GS Pectobacterium_atros.1  AC    BX950851.1/2643863-2643992
+#=GS Photorhabdus_lumines.1  AC    BX571864.1/9913-10045
+#=GS Salmonella_enterica_.1  AC    CP000026.1/1188633-1188503
+#=GS Salmonella_enterica_.2  AC    ABEJ01000013.1/51173-51304
+#=GS S.enterica.1            AC    AL627269.1/199748-199617
+#=GS S.enterica.2            AC    AL627269.1/199937-199799
+#=GS Salmonella_enterica_.3  AC    ABEJ01000013.1/51349-51479
+#=GS Salmonella_enterica_.4  AC    AE017220.1/3771152-3771036
+#=GS Salmonella_enterica_.5  AC    CP001144.1/1516028-1515888
+#=GS Salmonella_enterica_.6  AC    AM933173.1/1427571-1427440
+#=GS Salmonella_enterica_.7  AC    CP001120.1/1900964-1901094
+#=GS Salmonella_enterica_.8  AC    CP001120.1/1900502-1900627
+#=GS Salmonella_enterica_.9  AC    CP001113.1/1849039-1849170
+#=GS Salmonella_enterica_.10 AC    CP001113.1/1849688-1849818
+#=GS Salmonella_enterica_.11 AC    CP001113.1/3794911-3794793
+#=GS Salmonella_enterica_.12 AC    CP001113.1/1849514-1849644
+#=GS Salmonella_enterica_.13 AC    CP000886.1/1268729-1268599
+#=GS Salmonella_enterica_.14 AC    AE014613.1/4007497-4007613
+#=GS Salmonella_enterica_.15 AC    AE006468.1/1852986-1853116
+#=GS Serratia_proteamacul.1  AC    CP000826.1/307799-307914
+#=GS Serratia_proteamacul.2  AC    CP000826.1/2990919-2991045
+#=GS Shigella_sonnei_Ss04.1  AC    CP000038.1/4038671-4038804
+#=GS Shigella_dysenteriae.1  AC    AAMJ02000054.1/693-825
+#=GS S.glossinidius.1        AC    AP008232.1/2265591-2265464
+#=GS Yersinia_enterocolit.1  AC    AM286415.1/2461012-2461139
+#=GS Yersinia_mollaretii_.1  AC    AALD01000019.1/71477-71351
+#=GS Yersinia_mollaretii_.2  AC    AALD01000045.1/34643-34775
+#=GS Y.pestis.1              AC    AE009952.1/3361562-3361433
+#=GS Y.pestis.2              AC    CP000668.1/2358364-2358239
+#=GS Yersinia_mollaretii_.3  AC    AALD01000055.1/31001-30875
+#=GS Yersinia_pseudotuber.1  AC    CP000720.1/3235413-3235281
+#=GS Y.pestis.3              AC    CP000668.1/1094373-1094498
+#=GS Yersinia_pestis_CA88.1  AC    ABCD01000001.1/1209721-1209847
+#=GS Yersinia_mollaretii_.4  AC    AALD01000036.1/34-159
+#=GS Yersinia_bercovieri_.1  AC    AALC01000053.1/28689-28563
+#=GS Yersinia_frederiksen.1  AC    AALE01000015.1/124964-124850
+#=GS Yersinia_mollaretii_.5  AC    AALD01000057.1/29479-29351
+#=GS Yersinia_pseudotuber.2  AC    BX936398.1/3198195-3198071
+#=GS Yersinia_intermedia_.1  AC    AALF01000007.1/128820-128703
+#=GS Yersinia_intermedia_.2  AC    AALF01000026.1/33201-33328
+#=GS Yersinia_enterocolit.2  AC    AM286415.1/1356898-1357023
+#=GS O.sativa.1              AC    AAAA02039262.1/995-1124
+#=GS marine_metag.1          AC    AACY022966564.1/505-633
+#=GS marine_metag.2          AC    AACY022990324.1/906-777
+
+gamma_proteobacteriu.1              GUAGUCAGUGUG.UGGAG...GUGGAUUAG....AG........CCA...
+Enterobacter.1                      GCAUUCUGCGAG.CUGAA...AAGGAUGAG....AA........CCU.CC
+Enterobacter.2                      AUUCUGCCCAUG.C.GGG...AAGGAUGAG....AA........GCU.UC
+Enterobacter.3                      AGUUUGCACUUA.UCGGG...AAGGGUGAG....AA........CCU.UC
+E.coli.1                            UUUGCACUCAU..CGGGG...AAGGGUGAG....AA........CCU.UC
+Escherichia_coli_O15.1              AGUUUGCACUCAUCGGGG...AAGGGUGAG....AA........CCU.UC
+E.coli.2                            AUUCUGCCCAAG.CGGGG...AAGGAUGAG....AA........GCU.UC
+E.coli.3                            AUUCUGCCCAUG.CGGGG...AAGGAUGAG....AA........GCU.UC
+E.coli.4                            AUUCUGCCCAUG.CGGGG...AAGGAUGAG....AA........GCU.UC
+Escherichia_coli_ATC.1              UGCAUCUGCAGC.UCAU....GAGGAUGAG....AA........CCU.CC
+Klebsiella_pneumonia.1              AUUCUGCCCUAC.A.GGG...AAGGAUGAG....AA........GCU.UC
+Klebsiella_pneumonia.2              AUUCUGCCCCA..CGGGG...AAGGAUGAG....AA........GCU.UC
+Klebsiella_pneumonia.3              UUGGCCCGCAGG.GCGAGUCUCAGGAUGAG....ACGAGUU...UCU.CU
+Klebsiella_pneumonia.4              UGUUUGCACUUA.GCGGG...AAGGGUAAG....AA........CCU.UC
+Pectobacterium_atros.1              CAAAUUCCCAUU.AGGGG...AAGG.UGAG....AA........CCU.UC
+Photorhabdus_lumines.1              UAGCUCAGUCGG.UAGCG...CAGU.UGACUUUUAA........UCAAUU
+Salmonella_enterica_.1              UAUCUCUCUGUA.CGGGG...AAGGAUGAG....AA........GCU.UC
+Salmonella_enterica_.2              UAUCUCUCCGUA.CGGGG...AAGGAUGAG....AA........GCU.UC
+S.enterica.1                        AUUCUACCCAUG.UGGGG...AAGGAUGAG....AA........GCU.UC
+S.enterica.2                        ..AGCGGCCAAA.GGGAG...CAGACUGUA....AAUCUGCCG.UCA.UC
+Salmonella_enterica_.3              UAUCUCUCCGUA.CGGGG...AAGGAUGAG....AA........GCU.UC
+Salmonella_enterica_.4              UAUCUGAAGCCU.GAC.....GAGGAUGAG....AACCU.....CCG.GG
+Salmonella_enterica_.5              CGAGCGAUCAUA.AGGGA...GCUGACUAC....AAAUCUGCCGUCA.UC
+Salmonella_enterica_.6              AUAUCUCUCUGU.ACGGG...AAGGAUGAG....AA........GCU.UC
+Salmonella_enterica_.7              AUAUCUCUCCGU.ACGGG...AAGGAUGAG....AA........GCU.UC
+Salmonella_enterica_.8              .GUUUGCACUUGUCGGGG...AAGGGUGAG....AA........CCU.UC
+Salmonella_enterica_.9              .GUUUGCACUUGUCGGGG...AAGGGUGAG....AA........CCU.UC
+Salmonella_enterica_.10             AUAUCUCUCUUA.C.GGG...AAGGAUGAG....AA........GCU.UC
+Salmonella_enterica_.11             GUAUCUGAAGUC.UGAC....GAGGAUGAG....AACCU.....CCG.GG
+Salmonella_enterica_.12             AUUCUACCCAUG.CGGGG...AAGGAUGAG....AA........GCU.UC
+Salmonella_enterica_.13             AUAUCUCUCUGU.ACGGG...AAGGAUGAG....AA........GCU.UC
+Salmonella_enterica_.14             UAUCUGAAGCCU.GAC.....GAGGAUGAG....AACCU.....CCG.GG
+Salmonella_enterica_.15             AUAUCUCUCUGU.ACGGG...AAGGAUGAG....AA........GCU.UC
+Serratia_proteamacul.1              UUAAAUUGCGGA.AGGGG...AAGG.CGAA....AG........UCU.UC
+Serratia_proteamacul.2              UGUCACUCCCAA.GCGGG...AAGGAUGAG....AA........GCU.UC
+Shigella_sonnei_Ss04.1              UGCAUUUGAAGC.CCAU....GAGGAUGAG....AA........CCU.CC
+Shigella_dysenteriae.1              UAGCUCAGUUGG.UAGAG...CAAU.UGACUUUUAA........UCAAUU
+S.glossinidius.1                    CCUGAGCUUCGC.GGGGG...AAGG.UGAG....AA........CCU.UC
+Yersinia_enterocolit.1              AUAGCACCCAUC.AGGGG...AAGG.UAAG....AA........CCU.UC
+Yersinia_mollaretii_.1              AAUAAUACUCAU.CGGGG...AAGG.UGAG....AA........CCU.UC
+Yersinia_mollaretii_.2              UAGCUCAGUUGG.UAGAG...CAGU.UGACUUUUAA........UCAAUU
+Y.pestis.1                          CUCAGUUGGCAG.AACAG...UUGACUUUU....AA........UCAAUG
+Y.pestis.2                          AUACUACACAUG.UCGUG...UGGG.UGAG....AU........CCU.GC
+Yersinia_mollaretii_.3              AAUGAGCACUUA.AGGGG...AAGG.UGAA....AA........CCU.UC
+Yersinia_pseudotuber.1              UAGCUCAGUUGG.UAGAG...CAGU.UGACUUUUAA........UCAAUU
+Y.pestis.3                          UUCUCAUAUCUG.GGGA.....AGG.UAAG....AA........CCU.UC
+Yersinia_pestis_CA88.1              AGUUCUCAUAUC.UGGGG...AAGG.UAAG....AA........CCU.UC
+Yersinia_mollaretii_.4              AACAACCCAGAA.UCGUG...UGGG.UGAG....AC........CCU.GC
+Yersinia_bercovieri_.1              GAUGAGCACUCA.AGGGG...AAGG.UGAA....AA........CCU.UC
+Yersinia_frederiksen.1              AUAACAGCUAUU.CGGGG...AAGG.UAAG....AA........CCU.UC
+Yersinia_mollaretii_.5              CUCAAUUGGUAA.AGCAG...UUGGCUUUU....AA........UCAAUU
+Yersinia_pseudotuber.2              CGAGUAUCAGGA.UGAUA...CGAG.U.AA....AA........UCU.GC
+Yersinia_intermedia_.1              UAUCAAAAUGAU.ACGAG........U.......AA........CCU.GC
+Yersinia_intermedia_.2              AUGAGCCACUUG.AGGGG...AAGG.UGAA....AA........CCU.UC
+Yersinia_enterocolit.2              UACUACACAAUA.UCGUG...UGGG.UGAG....AC........CCU.GC
+O.sativa.1                          UUUUCGCCUGUA.CGUGA...GAGGAUGAG....AA........UCU.CC
+marine_metag.1                      CUGAUGCCCACA.GAGGG...AGGG.UGAG....AA........CCC.UC
+marine_metag.2                      AUCCAUCCCAUG.C.GGG...AAGGAUGAG....AA........GCU.UC
+#=GC SS_cons                        ...............<<<...<<<<.<......................<
+#=GC RF                             uuaauaaacaua.agGgG...aaGGAuGAG....AA........cCu.uC
+
+gamma_proteobacteriu.1              .....CC.....UUGGUACGACAAGUAGCUUU.AGCUGCUUGAA..CG..
+Enterobacter.1                      G...GGGAAA..GAGGUUCGACUCC.AGCGG..AG...CGAGAGAACG..
+Enterobacter.2                      G...ACC.....AAGGUUCGAUUCG.AGCGC..AG...CGAGAAAGCG..
+Enterobacter.3                      G...U.U.....AAGGUUCGACUCU.UGCGA..AG...CAAGAGAACG..
+E.coli.1                            G...ACU.....AAGGUUCGAUUCG.AGCGAA.AG...CGAGAGAGCG..
+Escherichia_coli_O15.1              G...ACU.....AAGGUUCGACUCG.AGCGAA.AG...CGAGAGAACG..
+E.coli.2                            G...ACC.....AAGGUUCGACUUG.AGCGCC.AG...CGAGAGAGCG..
+E.coli.3                            G...ACU.....AAGGUUCGGCUCG.AGCGUC.AG...CGAGAGAGCG..
+E.coli.4                            G...ACC.....AAGGUUCGACUCG.AGCGCC.AG...CGAGAGAGCG..
+Escherichia_coli_ATC.1              G...GGGGCAGGGAGGUUCGACUCG.AGCGA..AG...CGAGAGAACG..
+Klebsiella_pneumonia.1              G...ACU.....AAGGUUCGACUCG.AGCGA..AG...CGAGAGAACG..
+Klebsiella_pneumonia.2              G...ACC.....AAGGUUCGACUCG.AGCGA..AA...CGAGAGAACG..
+Klebsiella_pneumonia.3              G...CAG.....CAGGUUCGGGUCG.AACGU..AG...UGAGACAACGGA
+Klebsiella_pneumonia.4              G...ACU.....AAGGUUCGACUCG.AGCGCC.AG...CGAGAGAACG..
+Pectobacterium_atros.1              G...ACC.....AAGGUUCGACAAA.ACCGGUACG...GUUUUGAGCA..
+Photorhabdus_lumines.1              G...GUCG....CAGGUUCGAGCCG.AGCGA..AG...CGAGACAACA..
+Salmonella_enterica_.1              G...ACU.....AAGGUUCGAUUCG.AGCGC..AG...CGAGAAAGCG..
+Salmonella_enterica_.2              G...ACU.....AAGGUUCGAUUCG.AGCGAA.AG...CGAGAAAGCG..
+S.enterica.1                        G...ACU.....AAGGUUCGAUUCG.AGCGAA.AG...CGAGAGAACG..
+S.enterica.2                        G...ACUUCG..AAGGUUCGAUUCG.AGCGC..AG...CGAGAAAGCG..
+Salmonella_enterica_.3              G...ACU.....AAGGUUCGAUUCG.AGCGC..AG...CGAGAAAGCG..
+Salmonella_enterica_.4              G...GCAA....GAGGUUCGACUCG.AGCGA..AG...CGAGAGAACG..
+Salmonella_enterica_.5              G...ACUUC...AAGGUUCGACUCG.AGCAAU.AG...UGAGAGAACG..
+Salmonella_enterica_.6              G...ACU.....AAGGUUCGAUUCG.AGCGUC.AG...CGAGAAAGCG..
+Salmonella_enterica_.7              G...ACU.....AAGGUUCGAUUCG.AGCGC..AG...CGAGAACGCG..
+Salmonella_enterica_.8              G...AUU.....AAGGUUCGACUCG........AG...CGAAAGAACG..
+Salmonella_enterica_.9              G...AUU.....AAGGUUCGACUCG.AGCGAA.AG...CGAGAGAACG..
+Salmonella_enterica_.10             G...ACU.....AAGGUUCGAUUCG.AGCGAA.AG...CGAGAAAGCG..
+Salmonella_enterica_.11             G...GCAA....GAGGUUCGACCCG.AGCGA..AG...CGAGAGAACG..
+Salmonella_enterica_.12             G...ACU.....AAGGUUCGAUUCG.AGCGC..AG...CGAGAAAGCG..
+Salmonella_enterica_.13             G...ACC.....AAGGUUCGAUUCG.AGCGC..AG...CGAGAAAGCG..
+Salmonella_enterica_.14             G...GCAA....GAGGUUCGACUCG.AGCGA..AG...CGAGAGAACG..
+Salmonella_enterica_.15             U...ACC.....AGGGUUCGAUUCG.AGCGC..AG...CGAGAAAGCG..
+Serratia_proteamacul.1              A...G.C.....AAGGUUCGAGUUG........UG...CAGCGCAUCG..
+Serratia_proteamacul.2              G...A.C.....AAGGUUCGAGUCU.CACGC..AG...UGAGACAACG..
+Shigella_sonnei_Ss04.1              GGGGGCGGG...GAGGUUCGACUCG.AGCGA..AG...CGAGAGAACG..
+Shigella_dysenteriae.1              G...GUCG....CAGGUUCGAGUUG.AGCGC..AG...CGAAACAACGGA
+S.glossinidius.1                    G...ACC.....CAGGUUCGCGUCG.AGCCU..CG...CGAAACAACG..
+Yersinia_enterocolit.1              G...ACC.....AAGGUUCGCGCCG.AGCAU..AG...CGAGACAACG..
+Yersinia_mollaretii_.1              G...A.C.....AAGGUUCGCGCCG.AGCGC..AG...CGAGACAACA..
+Yersinia_mollaretii_.2              G...GUUA....AAGGUUCGAGCCG.AGCGA..AG...CGAGACAGCA..
+Y.pestis.1                          G...GUCG....CAGGUUCGAGCCG.AGCAG..AG...CGAGACAACA..
+Y.pestis.2                          G...UUC......AGGUUCGAGCCG.AGCGA..AG...CGAGACAGCA..
+Yersinia_mollaretii_.3              G...A.U.....AAGGUUCGAGCCG.AGCGU..AG...CGAGACAACG..
+Yersinia_pseudotuber.1              G...GUCG....CAGGUUCGAGCCG.AGCAG..AG...CGAGACAACA..
+Y.pestis.3                          G...A.C.....AAGGUUCGCGCCG.AGCGU..AG...CGAGACAACG..
+Yersinia_pestis_CA88.1              G...A.C.....AAGGUUCGCGCCG.AGCGU..AG...CGAGACAACG..
+Yersinia_mollaretii_.4              G...UGC......AGGUUCGAGCCG.AGCGA..AG...CGAGACAGCA..
+Yersinia_bercovieri_.1              G...A.U.....AAGGUUCGAGCCG.AGCGU..AG...CGAGACAGCG..
+Yersinia_frederiksen.1              A...ACC......AGGUUCGCACCG.AGCGC..AG...UGAGACAACG..
+Yersinia_mollaretii_.5              G...GUCG....CAGGUUCGAGCCG.AGCGA..AG...CGAGACAGCA..
+Yersinia_pseudotuber.2              G...UUC......AGGUUCGAGCCG.AGCGA..AG...CGAGACAGCA..
+Yersinia_intermedia_.1              G...UUC......AGGUUCGAGCCG.AGCGA..AG...CGAGACAGCA..
+Yersinia_intermedia_.2              G...ACG.....AAGGUUCGAGCCG.AGCGU..AG...CGAGUCAACG..
+Yersinia_enterocolit.2              G...UUC......AGGUUCGAGCCG.AGCGA..AG...CGAGACAGCA..
+O.sativa.1                          G...AAG.....GAGGUUUGAGCCG.AACGU..AG...UGAGACCACG..
+marine_metag.1                      G....CC......GGGUUCGAGCAG.AGCAGCUUG...CUGCGAUGAA..
+marine_metag.2                      G...ACU.....AAGGUUCGAUUCG.AGCGG..AG...CGAGAAAGCG..
+#=GC SS_cons                        <....<<.........<<<<...<<.............>>......<<..
+#=GC RF                             G...aCc.....aAGGUuCGAguCg.AGCGa..AG...cGAGAaAACG..
+
+gamma_proteobacteriu.1              .UCACGACA.GUGACGGCCCGGAG.GGUGA..GGCUCGC.AGAGCCGAAU
+Enterobacter.1                      .UUGCGUGA.GCAACGGUCCGAAG.UCCGACAGGACGGC.CUCCAUCAUC
+Enterobacter.2                      .UUGCCGCAGGCAACGACCCGAAG.GGUGA..AGCGCAA.CGCGCUGAGU
+Enterobacter.3                      .UUGCCUCUGGCAACGGCCCGCAG.GGUGA..GGAGCGA.AGCGACGAAU
+E.coli.1                            .UUGCCACAGGCAACGGCCCGAAG..GUGA..GGAGCGA.AGCGACGAAU
+Escherichia_coli_O15.1              .UUUUCACAGGCAACGGCCCGAAG.GGUGA..GGAGCGA.AGCGACGAAU
+E.coli.2                            .UUGCCGCAGGCAACGACCCGAAG.GGCGA..AGCGCGC.AGCGCUGAGU
+E.coli.3                            .UUGCCGCAGGCAACGACCCGAAG.GGCGA..AGCGCGC.AGCGCUGAGU
+E.coli.4                            .UUGCCGCAGGCAACGACCCGAAG.GGCGA..AGCGCGC.AGCGCUGAGU
+Escherichia_coli_ATC.1              .UUGCGCCA.GCAACGGCCCGCAG.GGCGA..GCCACGA.AGUGGCGAGU
+Klebsiella_pneumonia.1              .UUGCCGCAGGCAACGGCCCGAAG.GGCGA..GGCGCUUUAGCGCCGAGU
+Klebsiella_pneumonia.2              .UUGCCGCAGGCAACGGCCCGAAG.GGCGA..GGCGCUUUAGCGCCGAGU
+Klebsiella_pneumonia.3              GCCGCUUGCGGCGACGGCCCGCAG.GGCGA..GGCGAA.....GCCGAGU
+Klebsiella_pneumonia.4              .UUGCCGCAGGCAACGGCCCGAAG.GGCGA..GGAGAGAUAGCGACGAGU
+Pectobacterium_atros.1              .ACGCUUA..GCGUUGACCCGCAG.GGUGA..GGUGCGA.AGCGCCGAAU
+Photorhabdus_lumines.1              .GCGCGUAA.GCGCUGGCCCGAAG.GGCGA...GGCCGU.AG.GCCGAGU
+Salmonella_enterica_.1              .UUGCCGUAGGCAACGGCCCGAAG.GGCGA..AGCGCGC.AGCGCUGAGU
+Salmonella_enterica_.2              .UUGCCAACGGCAACGACCCGAAG.GGCGA..AGCGCGC.AGCGCUGAGU
+S.enterica.1                        .UUGCCGCAGGCAACGACCCGAAG.GGCGA..AACGCGC.AGCGCUGAGU
+S.enterica.2                        .UUGCCGUAGGCAACGACCCGAAG.GGCGA..AGCGCGC.AGCGCUGAGU
+Salmonella_enterica_.3              .UUGCCGUAGGCAACGACCCGAAG.GGCGA..AGCGCGC.AGCGCUGAGU
+Salmonella_enterica_.4              .UUGCGUCA.GCAACGGCCCGCAG.UG......GCA...........AGG
+Salmonella_enterica_.5              .UUGCCGCAGGCAACGGCCCGAAG.GGUGA..GGAGCUUUAGCUCCGAAU
+Salmonella_enterica_.6              .UUGCCGCAGGCAACGACCCGAAG.GGCGA..AGCGCGC.AGCGCUGAGU
+Salmonella_enterica_.7              .UUGCCGCAGGCAACGACCCGAAG.GGCGA..AGCGCGC.AGCGCUGAGU
+Salmonella_enterica_.8              .UUGCCAACGGUAACGGCCCGUAG.GGUGA..GGAGUGA.AGCGACGAAU
+Salmonella_enterica_.9              .UUGCCAACGGCAACGGCCCGUAG.GGUGA..GGAGCGA.AGCGACGAAU
+Salmonella_enterica_.10             .UUGCCGCAGGCAACGACCCGAAG.GGCGA..AGCGCGC.AGCGCUGAGU
+Salmonella_enterica_.11             .UUGCGCCA.GCAACGGCCCGCAG.UG......GCA...........AGU
+Salmonella_enterica_.12             .UUGCCGCAGGCAACGACCCGAAG.GGCGA..AGCGCGC.UGCGCUGAGU
+Salmonella_enterica_.13             .UUGCCGCAGGCAACGACCCGAAG.GGCGA..AGCGCGC.AGCGCUGAGU
+Salmonella_enterica_.14             .UUGCGUCA.GCAACGGCCCGCAG.UG......GCA...........AGU
+Salmonella_enterica_.15             .UUGCCGCAGGCAACGACCCGAAG.GGCGA..AGCGCGC.AGCGCUGAGU
+Serratia_proteamacul.1              .....CGCAG...CCGGCCCGAAG.GGUGA...GAGUUA.AGCGACGAAC
+Serratia_proteamacul.2              .CGCUUC...AGCGCGGCCCGAAG.GGUGA..GUCGCAC.AGCGACGAAU
+Shigella_sonnei_Ss04.1              .UUGCGCCA.GCAACGGCCCGCAG.GGCGA..GCCACGA.AGUGGCGAGU
+Shigella_dysenteriae.1              GCCGCUCGCGGCGACGGCCCGAAG.GGCGA...GCGA......AGCGAGU
+S.glossinidius.1                    .AUGUGCA..GUAUCGGCCCGCAG.GGUGA..GGCGCAA.CGCUCCGAAU
+Yersinia_enterocolit.1              .ACGCGCA..GCGGCGGCCCGAAG.GGCGA..GGAACAA.CGUGACGAGU
+Yersinia_mollaretii_.1              .ACGCAUC..GCGUUGGCCCGAAG.GGCGA..GGAACGA.AGUGACGAGU
+Yersinia_mollaretii_.2              .ACGCGUCA.GCGUUGACCCGAAG.GGCGA...AUCCGC.AG.GAUGAGU
+Y.pestis.1                          .ACGCGCCA.GCGUUGACCCGAAG.GGCGA...GUCCAG.AG.GACGAGU
+Y.pestis.2                          .ACGCGUCA.GCGUUGACCCGAAG.GGCG...AGGCCAG.AG.GCCGAGU
+Yersinia_mollaretii_.3              .ACGCAAA..GCGUCGGCCCGAAG.GGUGA..GGAACGA.AGUGACGAAU
+Yersinia_pseudotuber.1              .ACGCGCCA.GCGUUGACCCGAAG.GGCGA...GUCCAG.AG.GACGAGU
+Y.pestis.3                          .ACGCAAA..GCGGCGGCCCGAAG.GGUGA..GGAACGC.AGUGACGAAU
+Yersinia_pestis_CA88.1              .ACGCAAA..GCGGCGGCCCGAAG.GGUGA..GGAACGC.AGUGACGAAU
+Yersinia_mollaretii_.4              .ACGCGUCA.GCGUUGACCCGAAG.GGCG...AGGCCAG.AG.GCCGAGU
+Yersinia_bercovieri_.1              .ACGCAAC..GCGGCGACCCGAAG.GGUGA..GGAACGA.AGUGACGAAU
+Yersinia_frederiksen.1              .ACGCAAA..GCGGCGGCCCGCAG.GGUGA..GC............GAAU
+Yersinia_mollaretii_.5              .ACGCGUUA.GCGUUG.ACCGAAG.GGCGA...GUCCGC.AG.GACGAGU
+Yersinia_pseudotuber.2              .ACGCGUCA.GCGUUGACCCGAAG.GGCG...AGGCCAG.AG.GCCGAGU
+Yersinia_intermedia_.1              .ACGCGCA..GCGUUGACCCGAAG.GGCG...AGGCCAG.AG.GCCGAGU
+Yersinia_intermedia_.2              .ACGCGCA..GCGGCGGCCCGAAG.GGUGA..GGAAUGA.AGUGACGAAU
+Yersinia_enterocolit.2              .ACGCGCCA.GCGUUGACCCGAAG.GGCG...AGGCCAG.AG.GCCGAGU
+O.sativa.1                          .UUGCUUUA.GCAACGGCCCGCAG.GGCAA..GCAUCGA.AGAUGCGCAU
+marine_metag.1                      .CGGCCGCAGGCCG..CCCCGAAGGGGUGA..GCCACGC.AGUGGCGAAU
+marine_metag.2                      .UUGCCGCAGGCAACGACCCGAAG.GGCGA..GGCGCAA.CGCGCCGAGU
+#=GC SS_cons                        .<<<<.....>>>>>>...>>>>..>>>>.....................
+#=GC RF                             .ucGCgucAGGCgaCGgCCCGaAG.gGCGa..aGaaCga.AGcGaCGAaU
+
+gamma_proteobacteriu.1              AAUCCA.CCUCCCGCCACCA
+Enterobacter.1                      AAAUUU.UUACACCCGCGAA
+Enterobacter.2                      AAUCCU.UCCCCCACCACCA
+Enterobacter.3                      AAUCCU.UCCCCCACCACCC
+E.coli.1                            AAUCCU.UCCCCCACCACCA
+Escherichia_coli_O15.1              AAUCCU.UUCCCCACCGCCA
+E.coli.2                            AAUCCU.UCCCCCACCACCA
+E.coli.3                            AAUCCU.UCCCCCACCACCA
+E.coli.4                            AAUCCU.UCCCCCACCACCA
+Escherichia_coli_ATC.1              AAUCCU.CUAUCACCGACCA
+Klebsiella_pneumonia.1              AAUCCU.UCCCCCACCACCA
+Klebsiella_pneumonia.2              AAUCCU.UCCCCCACCACCA
+Klebsiella_pneumonia.3              CAUCCU.GCACGACCCACCA
+Klebsiella_pneumonia.4              UAUCCU.UCCCCCACCACCA
+Pectobacterium_atros.1              UAUCCU.UCCCCCACCACCA
+Photorhabdus_lumines.1              CAUCCU.GCACGACCCACCA
+Salmonella_enterica_.1              CAUCCU.UCCCCCACCACCA
+Salmonella_enterica_.2              AAUCCU.UCCCCCACCACCA
+S.enterica.1                        CAUCCU.UCCCCCACCACCA
+S.enterica.2                        CAUCCU.UCCCCCACCACCA
+Salmonella_enterica_.3              AAUCCU.UCCCCCGUCAUCC
+Salmonella_enterica_.4              CAUCCU.CU.GUCACCGGCA
+Salmonella_enterica_.5              AAUC...CUUCCCGCUAUAG
+Salmonella_enterica_.6              CAUCCU.UCCCCCACCACCA
+Salmonella_enterica_.7              CAUCCU.UCCCCCACCACCA
+Salmonella_enterica_.8              AAUCCU.UCCUCCACCACCA
+Salmonella_enterica_.9              AAUCCU.UCCCCUACCACCA
+Salmonella_enterica_.10             CAUCCU.UCCCCCACCACCA
+Salmonella_enterica_.11             CAUCCU.CUGUCACCGGCAG
+Salmonella_enterica_.12             CAUCCU.UCCCCCACCACCA
+Salmonella_enterica_.13             CAUCCU.UCCCCCACCACCA
+Salmonella_enterica_.14             CAUCCU.CU.GUCACCGGCA
+Salmonella_enterica_.15             CAUCCU.UCCCCCACCACCA
+Serratia_proteamacul.1              AAUCCU.UCUCCCACCUAAA
+Serratia_proteamacul.2              AAUCCU.UCCCCCACCACCA
+Shigella_sonnei_Ss04.1              AAUCCU.CUAUCACCGACCA
+Shigella_dysenteriae.1              CAUCCU.GCACGACCCACCA
+S.glossinidius.1                    CAUUCU.UCAUCCCCCCCUU
+Yersinia_enterocolit.1              AAUCCU.UCCCCCACCACCA
+Yersinia_mollaretii_.1              CAUCCU.UCCCCCACCACCA
+Yersinia_mollaretii_.2              AAUCCC.GCACGAUAAGCAC
+Y.pestis.1                          CAUCCC.GCACGACCCACCG
+Y.pestis.2                          CAUCCC.GCACGGCCCACCA
+Yersinia_mollaretii_.3              AAUCCU.UCCCCCACCACCC
+Yersinia_pseudotuber.1              CAUCCC.GCACGACCCACCA
+Y.pestis.3                          AAUCCUGAGACUGUAAACAA
+Yersinia_pestis_CA88.1              AAUCCU.UCCCCCACCACUA
+Yersinia_mollaretii_.4              CAUCCC.GCACGGCCCACCA
+Yersinia_bercovieri_.1              AAUCCU.UCCCCCACCACCA
+Yersinia_frederiksen.1              AAUCCU.UCCCC.AUCACUA
+Yersinia_mollaretii_.5              CAUCCC.GCACGACCCACCA
+Yersinia_pseudotuber.2              CAUCCC.GCACGACCCACCA
+Yersinia_intermedia_.1              AAUCCC.GCUCGACCCACCA
+Yersinia_intermedia_.2              AAUCCU.UCCCCCACCACCA
+Yersinia_enterocolit.2              CAUCCC.GCACGACCCACCA
+O.sativa.1                          AAUCCU.CUCAUGCCGACCA
+marine_metag.1                      CAUCCC.UCCCUCACCGCCA
+marine_metag.2                      AAUCCU.UCCCCCACCACCA
+#=GC SS_cons                        .>.>>>.>>>>.........
+#=GC RF                             aaUCCu.uCcCccaCcACcA
+//

@@ -1,0 +1,65 @@
+# STOCKHOLM 1.0
+#=GF ID    Mg_sensor
+#=GF AC    RF01056
+#=GF DE    Magnesium Sensor
+#=GF AU    Gardner PP
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    82.3
+#=GF SE    Gardner PP
+#=GF SS    Published; PMID:17381304
+#=GF TP    Cis-reg; riboswitch;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    17381304
+#=GF RT    A Mg2+-responding RNA that controls the expression of a Mg2+ transporter.
+#=GF RA    Groisman EA, Cromie MJ, Shi Y, Latifi T
+#=GF RL    Cold Spring Harb Symp Quant Biol. 2006;71:251-258.
+#=GF RN    [2]
+#=GF RM    16615891
+#=GF RT    An RNA sensor for intracellular Mg(2+).
+#=GF RA    Cromie MJ, Shi Y, Latifi T, Groisman EA;
+#=GF RL    Cell. 2006;125:71-84.
+#=GF RN    [3]
+#=GF RM    18248433
+#=GF RT    Regulation of magnesium homeostasis in Salmonella: Mg(2+) targets the
+#=GF RT    mgtA transcript for degradation by RNase E.
+#=GF RA    Spinelli SV, Pontel LB, Garcia Vescovi E, Soncini FC;
+#=GF RL    FEMS Microbiol Lett. 2008;280:226-234.
+#=GF CC    The Magnesium sensor RNA element is a cis-regulatory element that
+#=GF CC    regulates the expression of the magnesium transporter protein
+#=GF CC    MgtA. It is located in the 5' UTR of this gene. The element
+#=GF CC    adopts different structures depending on the presence or absence
+#=GF CC    of Mg2+, this has the affect of regulating whether transcription
+#=GF CC    reads through the mgtA coding region or stops within the 5' UTR.
+#=GF WK    http://en.wikipedia.org/wiki/Magnesium_Sensor
+#=GF SQ    4
+
+#=GS Enterobacter.1         AC    CP000653.1/495640-495750
+#=GS Escherichia_coli_536.1 AC    CP000247.1/4704294-4704409
+#=GS Klebsiella_pneumonia.1 AC    CP000647.1/5085745-5085861
+#=GS S.enterica.1           AC    U07843.1/1597-1709
+
+Enterobacter.1                     CUUACCGGAGG.CUGUAUGGACCCUGAUCCCACCCCUCUCCCGCGAUGGA
+Escherichia_coli_536.1             CUUACCGGAGG.UUAUAUGGAACCUGAUCCCACGCCUCUCCCUCGACGGA
+Klebsiella_pneumonia.1             CUUACCGGAGAUAGUUAUGGACCCCGAUCCCACUCCUCAUCCUCGAUGGA
+S.enterica.1                       CUUACCGGAGG.CGACAUGGACCCUGAACCCACCCCUCUCCCGCGAUGGA
+#=GC SS_cons                       <<<<<<<<<<<......<<<.........>>>....<<<<<......>>>
+#=GC RF                            CuuaCCGGagg.cGAcAuGGAcccUGAAcCCaccccuCuCCcGcGAUGGa
+
+Enterobacter.1                     GAAU...CUCUUUCCGGUAAGCCAGCCCUC..GCUGUCUCACCGG..UGA
+Escherichia_coli_536.1             GAUUAAAACUUUUCCGGUAAGCCCGUCUUUUCACGGCGUUACCGGA.UG.
+Klebsiella_pneumonia.1             GCAACCUUUCUUUCCGGUAAGCCUGUUUAAC.ACUGCUUUACCGGAAAG.
+S.enterica.1                       GAAUUUUCCUUUUCCGGUAAGCCUGCCUCU..GCUGUCUUACCGG..UG.
+#=GC SS_cons                       >>........>>>>>>>>>>>...........<<<<<<<<<<........
+#=GC RF                            GaAUUUUccUuuuCCGGuaaGccUGccUcU..gCuGuCuuaCcGG..UG.
+
+Enterobacter.1                     UGUGAGGCAGCAACGUCAU
+Escherichia_coli_536.1             CGUAAGGCCGUGACGUUUU
+Klebsiella_pneumonia.1             CGUAAAGCAGUGACGUCCU
+S.enterica.1                       UGUAAGACAGUGACACAAU
+#=GC SS_cons                       .>>>>>>>>>>........
+#=GC RF                            UGuaaGaCaGuGAcAcAAU
+//

@@ -1,0 +1,30 @@
+# STOCKHOLM 1.0
+#=GF ID    CRISPR-DR26
+#=GF AC    RF01355
+#=GF DE    CRISPR RNA direct repeat element
+#=GF AU    Wilkinson A
+#=GF GA    32.0
+#=GF NC    31.5
+#=GF TC    32.4
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; CRISPR;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    URL; http://crispr.u-psud.fr/crispr/CRISPRHomePage.php
+#=GF DR    SO:0001459 SO:CRISPR
+#=GF WK    http://en.wikipedia.org/wiki/CRISPR
+#=GF SQ    4
+
+#=GS Pyrobaculum_islandic.1 AC    CP000504.1/990-1014
+#=GS Pyrobaculum_arsenati.1 AC    CP000660.1/1039265-1039289
+#=GS Pyrobaculum_aerophil.1 AC    AE009441.1/46179-46203
+#=GS Pyrobaculum_islandic.2 AC    CP000504.1/921-945
+
+Pyrobaculum_islandic.1             GUUUCUACUAUCUUUUGAUUUCUGG
+Pyrobaculum_arsenati.1             GUUUCAACUAUCUUUUGAUUUCGGC
+Pyrobaculum_aerophil.1             GUUUCAACUAUCUUUUGAUUUCUGG
+Pyrobaculum_islandic.2             GUUUCUACUAUCUUUUGAUUUCUGG
+#=GC SS_cons                       .........<<<....>>>......
+#=GC RF                            GUUUCaACUAuCUUUUGaUUUCUGG
+//

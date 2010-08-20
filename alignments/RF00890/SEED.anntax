@@ -1,0 +1,51 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-668
+#=GF AC    RF00890
+#=GF DE    microRNA mir-668
+#=GF AU    Wilkinson A
+#=GF GA    32.0
+#=GF NC    0.0
+#=GF TC    33.8
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000357
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    8
+
+#=GS O.cuniculus.1   AC    AAGW01206555.1/3900-3965
+#=GS M.musculus.1    AC    AAHY01103470.1/48031-48096
+#=GS P.troglodytes.1 AC    AACZ02151782.1/16562-16627
+#=GS C.lupus.1       AC    AAEX02019639.1/160113-160173
+#=GS F.catus.1       AC    AANG01133004.1/7218-7278
+#=GS B.taurus.1      AC    AAFC03087121.1/13899-13959
+#=GS M.lucifugus.1   AC    AAPE01089255.1/680-741
+#=GS E.caballus.1    AC    AAWR02020065.1/43983-44043
+
+O.cuniculus.1               GGUAAGCGCGCCUCGGGUGAGUGUGUGCCAA.ACCCUGGCGUAUGUCACU
+M.musculus.1                GGUAAGUGUGCCUCGGGUGAGCAUGCACUUA.AUGUAGGUGUAUGUCACU
+P.troglodytes.1             GGUAAGUGCGCCUCGGGUGAGCAUGCACUUA.AUGUGGGUGUAUGUCACU
+C.lupus.1                   GGUAAGUGCGUCUCGGGUGAGCAUGCAAUUA.AAAUGGUAGUAUGUCACU
+F.catus.1                   GGUAAGUGCGUCUCGGGUGAGCAUGCGAUUA.CGGUGGUAGCAUGUCACU
+B.taurus.1                  GGUAAGUGUGUCUCGGGUGAGCAUGCAAUGA.ACGUGCUCGCAUGUCACU
+M.lucifugus.1               GGUAAGUGCGUCUCGGGUGAGCAUGCGAUUAACUGUAGUAGUAUGUCACU
+E.caballus.1                GGUAAGUGCGUCUCGGGUGAGCAUGCAAUUG.AUGUAGUAGUAUGUCACU
+#=GC SS_cons                <<<<.<<<.<<<<<<<<<<<.<<<<<<<<<<....>>>>>>>>>>>>>>>
+#=GC RF                     ggcgagcgagccccgggcggacgcgcgcccg.aaacgggcgcgcgccgcc
+
+O.cuniculus.1               CUGCCCGGCCCACUACC
+M.musculus.1                CGGCUCGGCCCACUACC
+P.troglodytes.1             CGGCUCGGCCCACUACC
+C.lupus.1                   C.....GGCCCACUACC
+F.catus.1                   C.....GGCCCACUACC
+B.taurus.1                  C.....GGCCCACUACC
+M.lucifugus.1               C.....GGCCCACUACC
+E.caballus.1                C.....GGCCCACUACC
+#=GC SS_cons                >>>...>>>.>>>>>>>
+#=GC RF                     cggaaaggcacgccgcc
+//

@@ -1,0 +1,71 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORA63
+#=GF AC    RF00092
+#=GF DE    Small nucleolar RNA SNORA63
+#=GF AU    Griffiths-Jones SR
+#=GF GA    22.0
+#=GF NC    0.0
+#=GF TC    22.4
+#=GF PI    E3
+#=GF SE    Griffiths-Jones SR
+#=GF SS    Predicted; PFOLD; Griffiths-Jones SR
+#=GF TP    Gene; snRNA; snoRNA; HACA-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000594 SO:H_ACA_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Mus_musculus300555
+#=GF DR    snoopy; Homo_sapiens300073
+#=GF RN    [1]
+#=GF RM    9144174
+#=GF RT    Three small nucleolar RNAs that are involved in ribosomal RNA
+#=GF RT    precursor processing.
+#=GF RA    Mishra RK, Eliceiri GL;
+#=GF RL    Proc Natl Acad Sci U S A 1997;94:4972-4977.
+#=GF CC    E3 belongs to the H/ACA class of snoRNAs and is involved in the
+#=GF CC    processing of eukaryotic pre-rRNA and has regions of complementarity
+#=GF CC    to 18S rRNA.  E3 is encoded in introns in the gene for protein
+#=GF CC    synthesis initiation factor 4AII [1].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_SNORA63
+#=GF SQ    8
+
+#=GS X.laevis.1     AC    U64708.1/2-124
+#=GS G.gallus.1     AC    U64707.1/102-229
+#=GS O.cuniculus.1  AC    U64704.1/88-217
+#=GS M.musculus.1   AC    U64706.1/79-207
+#=GS M.musculus.2   AC    X56953.1/3592-3718
+#=GS R.norvegicus.1 AC    U64705.1/82-210
+#=GS H.sapiens.1    AC    L07384.1/2-133
+#=GS H.sapiens.2    AC    U12212.1/198-329
+
+X.laevis.1                 .UGCAGGAUUAG..UUACAAUAUAUCUGGGCAGUGCUGUGUUGUCGUUCC
+G.gallus.1                 AAGCAGGAUAAG..UUAUGAUAUAGCUGUGCAGUGCUGUAUUAUCGUUCC
+O.cuniculus.1              AAGCAGGAUUCAGACUACAAUAUAGCUGUUUAGUGCUGUGUUGUCGUUCC
+M.musculus.1               AAGCAGGAUUUA.ACUACAAUAUAGCUGCUCAGUGCUGUGUUGUCGUUCC
+M.musculus.2               AUGCAGGUACAG..UUACAAUAAAACUG..AAGUGUUCUAUUGUCGUUCC
+R.norvegicus.1             AAGCAGGAUUUU.ACUACAAUAUGGCUGCUCAGUGCUGUGUUGUCGUUCC
+H.sapiens.1                AAGCAGGAUUCAGACUACAAUAUAGCUGCUAAGUGCUGUGUUGUCGUUCC
+H.sapiens.2                ACGCAGGAUUCAGACUAGAAUAUAGCUGUUAAGUGCUGUGUUGUCAUUCU
+#=GC SS_cons               ..<<<<<.........<<<<<<<<<<........>>>>>>>>>>......
+
+X.laevis.1                 CCCUGCUAGAAAGUAAGUUGAUUCCUU..CUAUUCCUGGCUGUUCU....
+G.gallus.1                 CCCUGCUUAAAGAAAA.AUGUUUCCUU..CUAUCCCUACCUGCUUAGUUC
+O.cuniculus.1              CCCUGCUCAAAGUAAGGUUGUUU.CUUA.CUAUACCUGUCUGCUCUAUCC
+M.musculus.1               CCCUGCUCAGAAUAA..UUGUUU.CUUAACUAUACCUGUCUGCCAUCUGC
+M.musculus.2               CCCUGCUUAAAGCAU..UUGAUA.CAUUACUAUCUCUGCCCUAGCUCUAC
+R.norvegicus.1             CCCUGCUCAGAACAA..UUGUUU.CUUAACUAUACCUGUCUGCUGUCUAC
+H.sapiens.1                CCCUGCUUAAAAUAAAGUUGUUU.CUUAACUAUACCUGUCUGCUAUUCUC
+H.sapiens.2                CCCUGCUUAAAAUAAAGUUUUUUUCUUAACUAUACCUGUCUGCUAU.CUG
+#=GC SS_cons               .>>>>>............................<<<<.<<<<.......
+
+X.laevis.1                 CUAUAG..CAGACAGGAACGCUUGGUCUCAAACA.
+G.gallus.1                 CCACAG..CAGGUAGGGACGCUGGGUUUCAUACAU
+O.cuniculus.1              CUGUAG..CAGCCAGGGACGCUUGGUCUCAUACA.
+M.musculus.1               CUGUAG..CAGCCAGGGACGCUUGGUCUCAAACAU
+M.musculus.2               C.AUAGCUAAGGCAGAGACGCUUGGUUUCAAACAU
+R.norvegicus.1             CUGUAG..CAGCCAGGGACGCUUGGUCUCAUACAU
+H.sapiens.1                CUGUAG..CAGCCAGGGACGCUUGGUCUCAUACAU
+H.sapiens.2                CUGUAG..CAGCCAGGGAUGCUUGGUUUCAUACAU
+#=GC SS_cons               .....>..>>>.>>>>...................
+//

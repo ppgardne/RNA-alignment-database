@@ -1,0 +1,171 @@
+# STOCKHOLM 1.0
+#=GF ID    PrrB_RsmZ
+#=GF AC    RF00166
+#=GF DE    PrrB/RsmZ RNA family
+#=GF AU    Bateman A, Moxon SJ
+#=GF GA    21.0
+#=GF NC    18.8
+#=GF TC    21.2
+#=GF SE    Bateman A
+#=GF SS    Predicted; PFOLD; Moxon SJ
+#=GF TP    Gene; sRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000655 SO:ncRNA
+#=GF RN    [1]
+#=GF RM    10869066
+#=GF RT    A regulatory RNA (PrrB RNA) modulates expression of secondary
+#=GF RT    metabolite genes in Pseudomonas fluorescens F113.
+#=GF RA    Aarons S, Abbas A, Adams C, Fenton A, O'Gara F;
+#=GF RL    J Bacteriol 2000;182:3913-3919.
+#=GF CC    PrrB RNA is able to phenotypically complement gacS and gacA
+#=GF CC    mutants and is itself regulated by the GacS-GacA two-component
+#=GF CC    signal transduction system [1]. Inactivation of the prrB gene
+#=GF CC    in Pseudomonas fluorescens F113 resulted in a significant
+#=GF CC    reduction of 2, 4-diacetylphloroglucinol (Phl) and hydrogen
+#=GF CC    cyanide (HCN) production, while increased metabolite production
+#=GF CC    was observed when prrB was overexpressed [1]. The prrB gene
+#=GF CC    sequence contains a number of imperfect repeats of the
+#=GF CC    consensus sequence 5'-AGGA-3', and sequence analysis predicted
+#=GF CC    a complex secondary structure featuring multiple putative
+#=GF CC    stem-loops with the consensus sequences predominantly
+#=GF CC    positioned at the single-stranded regions at the ends of the
+#=GF CC    stem-loops. This structure is similar to the CsrB and RsmB
+#=GF CC    regulatory RNAs Rfam:RF00018 [1], suggesting this RNA
+#=GF CC    also interacts with a CsrA-like protein.
+#=GF WK    http://en.wikipedia.org/wiki/PrrB/RsmZ_RNA_family
+#=GF SQ    24
+
+#=GS A.vinelandii.1         AC    CP001157.1/1671924-1672091
+#=GS A.vinelandii.2         AC    CP001157.1/116835-117005
+#=GS P.syringae.1           AC    AF208000.1/1431-1590
+#=GS P.putida.1             AC    AF178851.1/1708-1855
+#=GS P.syringae.2           AC    AY355347.1/1892-2054
+#=GS Pseudomonas_stutzeri.1 AC    CP000304.1/1688188-1688349
+#=GS P.fluorescens.1        AC    AF245440.2/2207-2364
+#=GS P.putida.2             AC    AB054812.1/450-612
+#=GS Pseudomonas_syringae.1 AC    AE016853.1/1728406-1728566
+#=GS P.aeruginosa.1         AC    D26134.1/2585-2729
+#=GS P.mendocina.1          AC    CP000680.1/3344299-3344460
+#=GS P.fluorescens.2        AC    EF587266.1/3381-3543
+#=GS P.fluorescens.3        AC    AJ556798.1/316-475
+#=GS P.aeruginosa.2         AC    AF170100.1/449-597
+#=GS Pseudomonas_putida_W.1 AC    CP000949.1/4472949-4473109
+#=GS P.putida.3             AC    Y19122.1/2211-2373
+#=GS Pseudomonas_aerugino.1 AC    CP000744.1/1543096-1543244
+#=GS Pseudomonas_entomoph.1 AC    CT573326.1/4468722-4468883
+#=GS Pseudomonas.1          AC    EF026091.1/2475-2636
+#=GS Pseudomonas_syringae.2 AC    CP000058.1/4360761-4360922
+#=GS P.putida.4             AC    AB039965.1/3429-3591
+#=GS Pseudomonas_fluoresc.1 AC    CP000094.1/1309684-1309843
+#=GS marine_metag.1         AC    AACY023002312.1/153-314
+#=GS marine_metag.2         AC    AACY021828384.1/188-351
+
+A.vinelandii.1                     CCGCCCGGGGCGC.ACGCUAAUAUCGCGUCCGUGUCGACGGAGCGACGCG
+A.vinelandii.2                     GUCGCCGGAGGGC.UCCUUAAUAUCGCCCCUGUGCCGACGGAUCGGUACC
+P.syringae.1                       CUCCAGGGUUAAA.UCUCUAAUAUCGAAGCUGUGCCAACGGACAGGCACA
+P.putida.1                         CGCUCACCUGAAG.CCGCUAGUAUUCGAACUGUGCACACGGACAUGCACA
+P.syringae.2                       AGCCAUUCUUAAAGUCUUUAGUAUCUCAACUGUGCCGACGGAUCGACACA
+Pseudomonas_stutzeri.1             GCGCAAAAGGCUU.CCAUUAAUAUCGCUCCCGCGCUCAGGGAUUAGCGCG
+P.fluorescens.1                    CUUGCCGGGGAAC.UCUCUAAUAUCAGCCCUGUGUCGACGGAUAGACACA
+P.putida.2                         CGCCUGGCUGAAC.CCGCUAGUAUUCGAACUGUGCACAGGGACAUGCACA
+Pseudomonas_syringae.1             CUGUGAGGUUAAA.UCUCUACUAUCGAAGCUGUGCCAACGGACAGGCACA
+P.aeruginosa.1                     GGACGACUGGGAA.UCGCUAAUAUCACUCCUGCGUACAGGGAAC.ACGCA
+P.mendocina.1                      CUGAAUGCUGUAG.CGGCUAAUAUCACACCCGUGCUCAGGGACAAGCACA
+P.fluorescens.2                    CUCGUCCGGGAAA.UCACUAAUAUCAGUCCUGUGUCGACGGACAGACACG
+P.fluorescens.3                    CUUGUCAGGGAAC.UCUCUAGUAUCGGGGCUGUGUCGACGGACAGACACG
+P.aeruginosa.2                     GGAGCACAGGGAA.UCGCUAAUAUCACUCCUGCGUACAGGGAAC.ACGCA
+Pseudomonas_putida_W.1             UGCUCUGCAGAAG.UCGCUAGUAUUCGAACUGUGCACACGGACAUGCAGA
+P.putida.3                         UGCCCCCCUGAAA.UCGCUAGUAUUCGAACUGUGCACACGGACAUGCACA
+Pseudomonas_aerugino.1             GGCUCCUGGGGAA.UCGCUAAUAUCACUCCUGCGUACAGGGAAC.ACGCA
+Pseudomonas_entomoph.1             CGGCGCGCAGGAA.UCGCUAGUAUUCGAACUGUGUCUACGGACUGACACA
+Pseudomonas.1                      GGAAAUACUGCAA.ACGCUAGUAUCUCAACUGUGUCUACGGACUGACACA
+Pseudomonas_syringae.2             CUGCCGGGGUAAA.UCUCUAAUAUCGAAGCUGUGCCAACGGACAGGCACA
+P.putida.4                         CGCCCGGCUGAAC.CCGCUAGUAUUCGAACUGUGCACAGGGACAUGCACA
+Pseudomonas_fluoresc.1             CCCUGCGGGGAAC.UCGCUAGUAUCUGGGUUGUGUCGACGGAUAGACACG
+marine_metag.1                     GGGAAGUCUGUAG.CGGCUAAUAUCACAACCGUGCUUAGGGAUAAGCACA
+marine_metag.2                     CUUCUCUGGGAAC.GCUCUAACAUCAGCCCUGUGUCCACGGAUUGGCACA
+#=GC SS_cons                       ..............................<<<<<<........>>>>>>
+#=GC RF                            agacaaaaugAAa.UCucUAaUAUcagaaCuGuGccaAcGGAaAggCaCa
+
+A.vinelandii.1                     GGUUGUCACGGAC.GAUGAC...CAUGGAU.UUCGC.AGGACGGCGAA.U
+A.vinelandii.2                     GGCUGACCAGGAU.GGCGGC...CAAGGAC.UUCGC.AGGAGAGCGAUCC
+P.syringae.1                       GGCCAUCAAGGAU.GAAGGC...C.GGGAU.AUCGC.GGGAU.GCGAU.U
+P.putida.1                         GGC.UUCCAGGA..GA..GC...C.AAGAC.AUCGC.AAGAC.GCGAU.U
+P.syringae.2                       .GUGCUCAAGGAU.GAGUGCU..CAGGGACAAUCGC.AGGAC.GUGAU.U
+Pseudomonas_stutzeri.1             .GCCCUCA.GGAC.GAGGGU...CAGGACC.AUCGC.AGGAC.GCGAUGU
+P.fluorescens.1                    .GCCAUCAAGGAC.GAUGGU...C.AGGAC.AUCGC.AGGAA.GCGAU.U
+P.putida.2                         GGCUUUCA.GGAU.GAAGGC...CAGGGAC.AUCGC.AAGAA.GCGAUUU
+Pseudomonas_syringae.1             GGCCAUCAAGGAU.GACGGU...C.AGGAC.AUCGC.GGGAA.GCGAU.U
+P.aeruginosa.1                     ACCCCGAA..GA..UCGGGA...A.GGGAC.GUCGCCAGGGAGGCGAU.U
+P.mendocina.1                      GGUCAUCA.GGAU.GAUGAU...CAGGACU.GUCGC.AAGAU.GCGAU.C
+P.fluorescens.2                    .CCCGUCAAGGAC.GAUGGGAAGGAAGGAC.AUCGC.AGGAC.GCGAU.U
+P.fluorescens.3                    .CCCUUCAAGGAA.GAGGGG...AACGGAC.AUCGC.AGGAC.GCGAU.U
+P.aeruginosa.2                     ACCCC.GAAGGAU.CGGGGA...A.GGGAC.GUCGCCAGGGAGGCGAU.U
+Pseudomonas_putida_W.1             GGCGUUCA.GGAA.GAAGGC...CAAGGAC.AUCGC.AAGAC.GCGAU.U
+P.putida.3                         GGCUUUCAGGGA..GAAGGC...CAAGGAC.AUCGC.AAGAA.GCGAUUU
+Pseudomonas_aerugino.1             .GCCCCGAAGGAU.CGGGGA...A.GGGAC.AUCGCCAGGGAGGCGAU.U
+Pseudomonas_entomoph.1             GGCUUUCAAGGAU.GGAGGC...CAAGGAC.AUCGC.AGGAU.GCGAU.U
+Pseudomonas.1                      GGCUAUCAAGGAU.GACGGCC..AGGGGAC.AUCGC.AGGAC.GCGAU.U
+Pseudomonas_syringae.2             GGCCAUCAAGGAC.GACGGU...CAAGGAC.AUCGC.GGGAU.GCGAU.U
+P.putida.4                         GGCUUUCA.GGAU.GAAGGC...CAGGGAC.AUCGC.AAGAA.GCGAUUU
+Pseudomonas_fluoresc.1             .CCCUUCAAGGAA.GAGGGG...AAUGGAC.AUCGC.AGGAA.GCGAU.U
+marine_metag.1                     GGUCAUCA.GGAC.GAUGAU...CAGGAAC.AUCGC.AAGAA.GCGAU.U
+marine_metag.2                     .GCCAUCAAGGAACGAUGGUUU.GAAGGACCGUCGC.AGGAU.GCGAU.U
+#=GC SS_cons                       ..<<<<<.......>>>>>............<<<<<.......>>>>>..
+#=GC RF                            ggCccucAAGGAu.gaggGa...aAgGGAc.auCGC.AgGAa.GCGau.U
+
+A.vinelandii.1                     CAUC.AGGAUGAUGAGCC..AGGGAAAAAAGGGAAAAAAGGACUGAAGAG
+A.vinelandii.2                     CAUC.AGGACGAUGA.CUCAACGGAAGAAAGGCAGUAUUCC..GCGAAGA
+P.syringae.1                       CAUC.AGGAUGAUGA.CU..AGGGAAUACAGGGAUCAAGGA...AAAAUG
+P.putida.1                         CAUC.AGAA.GAUGU.UU..NGGACAAGCAG..ACUACG......AAAUU
+P.syringae.2                       CAUC.AGGAUGAUGA.AA..GGGACAAA.AGGGAAUAGGGA..AAAAAUG
+Pseudomonas_stutzeri.1             CAUCCAGGACGAUGA.GA...AGGGAUACAGGGAACAGGGA...AGGAGG
+P.fluorescens.1                    CAUC.AGGACGAUGA.AA...AGGAACACAGGGACUAGGGA...AAAAUG
+P.putida.2                         CAUC.AGGAUGAUGU.UU..GGGACAAGCAGGGACUACGGAA.AAAAAUG
+Pseudomonas_syringae.1             CAUC.AGGACGAUGA.CA..AGGGAAUACAGGGAUUAAGGA..CAAAAUG
+P.aeruginosa.1                     CAUC.AGGAUGAUGA.CG...........AGGGACUGAAGA........G
+P.mendocina.1                      CAUC.AGGACGAUGAGUU..GGGAAACAAAGGGACUAGGGA..AUAAAAG
+P.fluorescens.2                    CAUC.AGGAUGAUGA.AU..AGGAUUAA.AGGGAUUAGGGA..AAAAAUG
+P.fluorescens.3                    CAUC.AGGACGAUGA.AA...AGGAAUACAGGGAAUAGGGA..AAAAAUG
+P.aeruginosa.2                     CAUC.AGGACGAUGA.CG...........AGGGACUGAAGA........G
+Pseudomonas_putida_W.1             CAUC.AGGACGAUGU.UU..AGGACAAGCAGGGACUACGGA..AAAAAUG
+P.putida.3                         CAUC.AGGACGAUGU.UU..GGGACAAUCAGGGACUACGGAA.AAAAAUG
+Pseudomonas_aerugino.1             CAUC.AGGAUGAUGA.CG...........AGGGACUGAAGA........G
+Pseudomonas_entomoph.1             CAUC.AGGAUGAUGA.UU..GGGACAAACAGGGACUACGGA..AAAAAUG
+Pseudomonas.1                      CAUC.AGGAUGAUGA.AA...GGGAACAAAGGGACUACGGA..AAAAAUG
+Pseudomonas_syringae.2             CAUC.AGGAUGAUGA.CC..AGGGAAUACAGGGAUCAGGGA..UAAAAUG
+P.putida.4                         CAUC.AUGAUGAUGU.UU..GGGACAAGCAGGGACUACGGAA.AAAAAUG
+Pseudomonas_fluoresc.1             CAUC.AGGACGAUGA.AA...AGGAACACAGGGAAUAGGGA..AAAAAUG
+marine_metag.1                     CAUC.AGGAUGAUGGGCU..UGGAAAUAAAGGGACUAGGGA..AUAAAAG
+marine_metag.2                     CAUC.AGGAUGAUGA.AA...AGGAAUACAGGGACUAGGGA..AAAAAUG
+#=GC SS_cons                       <<<<......>>>>....................................
+#=GC RF                            CAuC.AGGAuGaUGA.aa..agGaaAaAcAGGGAcUAaGGA..AAAAAUG
+
+A.vinelandii.1                     CAGGCGAG.GUUAUC..CUCGCCUCUUUUUUU
+A.vinelandii.2                     ACGGCGAGAGCGAUCCUCUCGCCGUUUUUUAU
+P.syringae.1                       UGGGCGG..GUCAUA...CCGCCCCUUUUUUU
+P.putida.1                         UUGGCGG..UUCA.A...CCGCCC.UUUUUUG
+P.syringae.2                       UGGGCGG..GUCAAA...CCGCCCCUUUUUUU
+Pseudomonas_stutzeri.1             CGGGCGGG.GUCAAC..CCCGCCCCUUUUUUU
+P.fluorescens.1                    UGGGCGG..GUCAUA...CCGCCCCUUUUUUU
+P.putida.2                         UGGGCGG..GUCAAA...CCGCCCCUUUUUUU
+Pseudomonas_syringae.1             UGGGCGG..GUCAUA...CCGCCCCUUUUUUU
+P.aeruginosa.1                     UGGGCGGG.GUAAUA...CCCCGCUUUUUUUU
+P.mendocina.1                      UGGGCGG..CGCAAG...CCGCCCCUUUUUUU
+P.fluorescens.2                    UGGGCGG..GUCAAA...CCGCCCCUUUUUUU
+P.fluorescens.3                    UGGGCGG..GUCAUA...CCGCCCCUUUUUUC
+P.aeruginosa.2                     UGGGCGGG.GUAAUA.CCCCGCCCCUUUUUUU
+Pseudomonas_putida_W.1             UGGGCGG..GUCAAA...CCGCCCCUUUUUUC
+P.putida.3                         UGGGCGG..GUCAAA...CCGCCCCUUUUUUU
+Pseudomonas_aerugino.1             UGGGCGGG.GGAAUA.CCCCGCCCCUUUUUUU
+Pseudomonas_entomoph.1             UGGGCGG..GUCAAA...CCGCCCCUUUUUUU
+Pseudomonas.1                      UGGGCGG..GUUAAA...CCGCCCCCUUUUUU
+Pseudomonas_syringae.2             UGGGCGG..GUCAUA...CCGCCCCUUUUUUU
+P.putida.4                         UGGGCGG..GUCAAA...CCGCCCCUUUUUUU
+Pseudomonas_fluoresc.1             UGGGCGG..GUCAAA...CCGCCCCUUUUUUU
+marine_metag.1                     UGGGCGG..CGCAAG...CCGCCCCUUUUUUU
+marine_metag.2                     UGGGCGG..GUCAUA...CCGCCCCUUUUUUU
+#=GC SS_cons                       .<<<<<<...........>>>>>>........
+#=GC RF                            UGGGCGG..GUcAuA...CCGCCCcUUUUUUu
+//

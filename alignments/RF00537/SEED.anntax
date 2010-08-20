@@ -1,0 +1,117 @@
+# STOCKHOLM 1.0
+#=GF ID    snoMe28S-Am2634
+#=GF AC    RF00537
+#=GF DE    Small nucleolar RNA Me28S-Am2634
+#=GF AU    Moxon SJ
+#=GF GA    19.8
+#=GF NC    0.0
+#=GF TC    23.1
+#=GF SE    PMID:15987805
+#=GF SS    Predicted; ILM; Daub J
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF RN    [1]
+#=GF RM    15987805
+#=GF RT    Genome-wide analyses of two families of snoRNA genes from Drosophila
+#=GF RT    melanogaster, demonstrating the extensive utilization of introns for
+#=GF RT    coding of snoRNAs.
+#=GF RA    Huang ZP, Zhou H, He HL, Chen CL, Liang D, Qu LH;
+#=GF RL    RNA. 2005;11:1303-1316.
+#=GF RN    [2]
+#=GF RM    12007400
+#=GF RT    Small nucleolar RNAs: an abundant group of noncoding RNAs with
+#=GF RT    diverse cellular functions.
+#=GF RA    Kiss T;
+#=GF RL    Cell 2002;109:145-148.
+#=GF CC    Me28S-Am2634 is a member of the C/D class of snoRNA which contain the C
+#=GF CC    (UGAUGA) and  D (CUGA) box motifs. This family directs 2'-O-methylation of
+#=GF CC    28S A-2634 [1].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_Me28S-Am2634
+#=GF SQ    18
+
+#=GS D.mojavensis.1    AC    AAPU01011424.1/25535-25628
+#=GS D.mojavensis.2    AC    AAPU01011093.1/111411-111507
+#=GS D.virilis.1       AC    AANI01017292.1/82729-82823
+#=GS D.grimshawi.1     AC    AAPT01002824.1/1230-1325
+#=GS D.grimshawi.2     AC    AAPT01002824.1/1461-1557
+#=GS D.grimshawi.3     AC    AAPT01002824.1/1684-1781
+#=GS D.simulans.1      AC    AASR01028110.1/560-654
+#=GS D.melanogaster.1  AC    AC093192.2/140801-140885
+#=GS D.simulans.2      AC    AASS01010574.1/756-844
+#=GS D.melanogaster.2  AC    AC105264.3/54833-54924
+#=GS D.melanogaster.3  AC    AC105264.3/55060-55144
+#=GS D.erecta.1        AC    AAPQ01006533.1/457759-457851
+#=GS D.melanogaster.4  AC    AC093192.2/140574-140665
+#=GS D.melanogaster.5  AC    AC105264.3/54605-54702
+#=GS D.melanogaster.6  AC    AC093192.2/140346-140443
+#=GS D.pseudoobscura.1 AC    AADE01000764.1/1329-1424
+#=GS D.pseudoobscura.2 AC    AADE01000764.1/871-966
+#=GS D.willistoni.1    AC    AAQB01006165.1/155874-155968
+
+D.mojavensis.1                AUAAAU.....AUAUUU.UGAUGAUACUU.U.GAGUAGGAAUCUCAUUGA
+D.mojavensis.2                AAUAUU.....CUUAGUUUGAUGAUAUUUGU.GAGUAGGAAUCUCAAUGA
+D.virilis.1                   UCUAUU.....UCUAUA.UGAUGAUUUUUUC.AAGUAGGAAUCUCAUUGA
+D.grimshawi.1                 UACAUA.....UUAUUA.UGAUGAUAUUA.UAGAGUAGGAAUCUCAUUGA
+D.grimshawi.2                 UGUUAU.....UUAUAA.UGAUGAUAUUU.UAGAGUAGGAAUCUCAUUGA
+D.grimshawi.3                 UUUUUAA....UAAAUUCUGAUGAUAUUU.UAGAGUAGGAAUCUCAUUGA
+D.simulans.1                  ACUAUC.....UUCAUUCUGAUGAUAUUU.U.GAGUAGGAAUCUCAUUGA
+D.melanogaster.1              UAUAACA....CUUAGC.UGAUGAUAUUA.C.GAGUAGGAAUCUCAUUGA
+D.simulans.2                  AAUGUAUAACACUUAGC.UGAUGAUAUUU.C.GAGUAGGAAUCUCAUUGA
+D.melanogaster.2              UGUAAU.....CUGCUC.UGAUGAUAUUU.C.GAGUAGGAAUCUCAUUGA
+D.melanogaster.3              UAUAACA....CUUAGC.UGAUGAUAUUA.C.GAGUAGGAAUCUCAUUGA
+D.erecta.1                    UUUGAUAU...UUGCUC.UGAUGAUAUUU.C.GAGUAGGAAUCUCAUUGA
+D.melanogaster.4              UGUAAU.....CUGCUC.UGAUGAUAUUU.C.GAGUAGGAAUCUCAUUGA
+D.melanogaster.5              AACUUC.....UUUAUUGUGAUGAUAUUU.U.GAGUAGGAAUCUCAUUGA
+D.melanogaster.6              AACUUC.....UUUAUUGUGAUGAUAUUU.U.GAGUAGGAAUCUCAUUGA
+D.pseudoobscura.1             AUUAGU.....AUAUUG.UGAUGAUUUUU.U.GAGUAGGAAUCUCAUUGA
+D.pseudoobscura.2             UAUAUUU....UUUUUC.UGAUGAUUUUU.C...GUAGGAAUCUCACUGA
+D.willistoni.1                AAUUUC.....GAAUGA.UGAA.ACACUU.U.ACGUAGGAAUCUCAUUGA
+#=GC SS_cons                  ..<<<.............................................
+#=GC RF                       uauauu.....uUaauu.UGAUGAUAUUU.u.GAGUAGGAAUCUCAUUGA
+
+D.mojavensis.1                GCUUCAGUCAUUCGUUGCAUUGAAAUUAACUUUC.UCA...ACUG.AAUA
+D.mojavensis.2                GCUGUAAUCAUUCGUUGCAGUGAAAUUAAAUUU...CUACUAGUA.ACCG
+D.virilis.1                   GCUUCAGUCAUUCGUUGCCAUGAAAUCAACUUCU.UUUCC...UG.AACA
+D.grimshawi.1                 GCUUCAGUCAUUCGUUGCCAUGAAAUUAA..ACA.UCUCUAACUG.AUAA
+D.grimshawi.2                 GCUUCAGUCAUUCGUUGCCAUGAAAUUAA..ACA.UCUCUAACUGAACUU
+D.grimshawi.3                 GCUUCAGUCAUUCGUUGCCAUGAAAUCAA..ACA.UCUCUCACUG.AACA
+D.simulans.1                  GCCUCAGUCAUUCGUUGCUUUGAAAUUAAUUUUG.UCUCUCACUG.AUU.
+D.melanogaster.1              AA.....UAACC.......AUGAAAUCAAUUUUA.UCUCC.ACUG.AUAG
+D.simulans.2                  AA............UAACCAUGAAAUCAAUAUUU.UCUCA.ACUG.AUAA
+D.melanogaster.2              GC.....UACCU.GUAGCUAUGAAAUCAAUUUUAAUCUCCCACUG.AUCA
+D.melanogaster.3              AA.....UAACC.......AUGAAAUCAAUUUUA.UCUCC.ACUG.AUAG
+D.erecta.1                    GC.....UACCG..UAGCUAUGAAAUCAAUUUUAAUCUCUCACUG.AUCA
+D.melanogaster.4              GC.....UACCU.GUAGCUAUGAAAUCAAUUUUAAUCUCCCACUG.AUCA
+D.melanogaster.5              GCCUCAGUCAUUCGUUGCUUUGAAAUUAAUUUUG.UCUCUCACUG.AUUG
+D.melanogaster.6              GCCUCAGUCAUUCGUUGCUUUGAAAUUAAUUUUG.UCUCUCACUG.AUUG
+D.pseudoobscura.1             GCUUCAGUCAUUCGUUGCUUUGAAAU.AAGUUUG.UCUCUUACUG.AUAU
+D.pseudoobscura.2             GCUUCAGUCAUUCGUUGCUUUGAAAUCAAUUUAU.CUUUCUGAUU.AUAC
+D.willistoni.1                GCUUCAGUCAUUCGUUGCCUUGAAAACAA.UAAU.CCUCUGACUA.CUAG
+#=GC SS_cons                  ..................................................
+#=GC RF                       GCUUCAGUcAUUCGUUGCuaUGAAAUuAAuUUua.UCUcuuAcUG.Auaa
+
+D.mojavensis.1                AAUUUGU
+D.mojavensis.2                UAAUGCA
+D.virilis.1                   UAAUAUC
+D.grimshawi.1                 AAGUGCU
+D.grimshawi.2                 UAUAAAU
+D.grimshawi.3                 AUGAACU
+D.simulans.1                  ..GUGCA
+D.melanogaster.1              CAUUAUG
+D.simulans.2                  UAACAUU
+D.melanogaster.2              AAUCAUU
+D.melanogaster.3              CAUUAUG
+D.erecta.1                    AAUUAUU
+D.melanogaster.4              AAUCAUU
+D.melanogaster.5              CAAGCAU
+D.melanogaster.6              CAAGCAU
+D.pseudoobscura.1             GUUUAGU
+D.pseudoobscura.2             CAAUAGU
+D.willistoni.1                AAAGACA
+#=GC SS_cons                  ..>>>..
+#=GC RF                       aAauauu
+//

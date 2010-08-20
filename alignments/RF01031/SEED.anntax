@@ -1,0 +1,45 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-639
+#=GF AC    RF01031
+#=GF DE    microRNA mir-639
+#=GF AU    Wilkinson A
+#=GF GA    36.0
+#=GF NC    0.0
+#=GF TC    38.4
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000549
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    6
+
+#=GS O.cuniculus.1          AC    AAGW01119165.1/1044-1140
+#=GS M.mulatta.1            AC    AANU01214979.1/724-821
+#=GS H.sapiens.1            AC    AADB02020062.1/438450-438547
+#=GS M.murinus.1            AC    ABDC01432807.1/299-396
+#=GS Otolemur_garnettii_s.1 AC    AAQR01138128.1/685-782
+#=GS E.caballus.1           AC    AAWR02041705.1/28810-28905
+
+O.cuniculus.1                      UGGCCGGUGGCGCGCCCGAGGCGGGGUGGGGCGGGGCGAG.GGGGAGCUG
+M.mulatta.1                        UGGCCGACGGGGCGCGCGCGGCCGGGAGGGGCGGGGCGGACGCACAGCCG
+H.sapiens.1                        UGGCCGACGGGGCGCGCGCGGCCUGGAGGGGCGGGGCGGACGCAGAGCCG
+M.murinus.1                        UGGCCGGCGGGGCGCGCGCGACAGGGAGGGGCGGGGCGGACGCGGAGCCG
+Otolemur_garnettii_s.1             UGGUCAUCAGGGCGCGCGCAGCAGGGAGGGGCGGGGCGGACUCAGAGCCG
+E.caballus.1                       UGGCUGGU.GGGCGAGCGCGGCAGGGAGGGGCGGGGCAGGCGUGGAGCCG
+#=GC SS_cons                       ..<<<..<<.<<<<<.<<<<<<<<....<.<<.<<<<<<<<<<......>
+#=GC RF                            UGgCcggcgGgGCGCgCGCGgCcGGGAGGGGCGgGgCggcCGcagAGccg
+
+O.cuniculus.1                      CAGUUAGUCCGGCGCGACGGUCGCGAGCGCGCGAGGAUCCCCGUGCCG
+M.mulatta.1                        CGUUUAGUCUAGCGCAGCGGUCGCGAGCGCUCUGGGUAUCCUGUCCUG
+H.sapiens.1                        CGUUUAGUCUAUCGCUGCGGUUGCGAGCGCUGUAGGGAGCCUGUGCUG
+M.murinus.1                        CGGUUAGUCUGGCGCAGCGGUCGCGAGCGCGUUAGGCGACCCGUGCUG
+Otolemur_garnettii_s.1             CGGUUAGUCUAGCGCCGCGGUCGCGAGCGCGUUAGGUGGCUGCUGUGG
+E.caballus.1                       CGGGUAGUCUCGCGCGGCCGUCGCGAGCGCUG.GAGGAUCUUUGGUAC
+#=GC SS_cons                       >>>>>.>>>>.>>.>..>>>>>>>>.>>>>>.>>>>>...........
+#=GC RF                            CGgccAGuCcaGCGCagCgGcCGCGAGCGCcucggGcaacuuguguag
+//

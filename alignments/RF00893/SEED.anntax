@@ -1,0 +1,54 @@
+# STOCKHOLM 1.0
+#=GF ID    MIR854
+#=GF AC    RF00893
+#=GF DE    microRNA MIR854
+#=GF AU    Wilkinson A
+#=GF GA    50.0
+#=GF NC    49.7
+#=GF TC    63.0
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000361
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    3
+
+#=GS A.thaliana.1 AC    AB046428.1/51158-51378
+#=GS A.thaliana.2 AC    AB046426.1/52651-52871
+#=GS A.thaliana.3 AC    AB046429.1/6389-6609
+
+A.thaliana.1             CGGAUGAGGAUAGGGAGGAGGAGUAUGAUACGAGCAUGUAUCAUUUCAGU
+A.thaliana.2             CGGAUGAGGAUAGGGAGGAGGAGUAUGAUACGAGCAUGUAUCAUUUCAGU
+A.thaliana.3             CGGAUGAGGAUAGGGAGGAGGAGUAUGAUACGAGCAUGUAUCAUUUCAGU
+#=GC SS_cons             <<<<......<.<<<<<<<<<<<<<.........................
+#=GC RF                  CGGAUGAGGAUAGGGAGGAGGAGUAUGAUACGAGCAUGUAUCAUUUCAGU
+
+A.thaliana.1             GAGCACGUACCUCCAGCGCGGGAGAGCAAGAGCUUGAGUGAAGCUCACAG
+A.thaliana.2             GAGCACGUACCUCCAGCGCGGGAGAGCAAGAGCUUGAGUGAAGCUCACAG
+A.thaliana.3             GAGCACGUACCUCCAGCGCGGGAGAGCAAGAGCUUGAGUGAAGCUCAUAG
+#=GC SS_cons             ..................................................
+#=GC RF                  GAGCACGUACCUCCAGCGCGGGAGAGCAAGAGCUUGAGUGAAGCUCAYAG
+
+A.thaliana.1             AACCAACAGUAAGUUGCAGAGGUGGUGCAAGAAACAAGAUAGGCUACUUA
+A.thaliana.2             AAACAACAGUAAGUUGCAGAGGUGGUGCAAGAAACAAGAUAGGUUACUUA
+A.thaliana.3             AAACAACAGUAAGUUGCAGAGGUGGUGCAAGAAACAAGAUAGGCUACUUA
+#=GC SS_cons             ..................................................
+#=GC RF                  AAMCAACAGUAAGUUGCAGAGGUGGUGCAAGAAACAAGAUAGGYUACUUA
+
+A.thaliana.1             UCAAGUGCUUCAAAGCCAUCACGUUUCUGACAGACAAGAUAAGCUGCUUC
+A.thaliana.2             UCAAGUGCUUCAAGGCCAUCACGUUUCUGACGGACAAGAUAAGUUGCUUC
+A.thaliana.3             UCAAGUGCUUCAAAGCCAUCACGUUUCUGACGGACAAGAUAAGCUGCUUC
+#=GC SS_cons             ............................................>>>>>>
+#=GC RF                  UCAAGUGCUUCAARGCCAUCACGUUUCUGACGGACAAGAUAAGYUGCUUC
+
+A.thaliana.1             UCUUCUACUACAGCUAUUCCG
+A.thaliana.2             UCUUCUACCACAGCUAUUCCG
+A.thaliana.3             UCUUCUACUACAGCUAUUCCG
+#=GC SS_cons             >>>>>>.>.>.......>>>>
+#=GC RF                  UCUUCUACYACAGCUAUUCCG
+//

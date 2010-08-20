@@ -1,0 +1,110 @@
+# STOCKHOLM 1.0
+#=GF ID    IRES_L-myc
+#=GF AC    RF00261
+#=GF DE    L-myc internal ribosome entry site (IRES)
+#=GF AU    Moxon SJ
+#=GF GA    28.0
+#=GF NC    27.5
+#=GF TC    28.0
+#=GF SE    PMID:14730027, INFERNAL
+#=GF SS    Published; PMID:14730027
+#=GF TP    Cis-reg; IRES;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0000243 SO:internal_ribosome_entry_site
+#=GF DR    GO:0043022 GO:ribosome binding
+#=GF RN    [1]
+#=GF RM    14730027
+#=GF RT    L-Myc protein synthesis is initiated by internal ribosome entry.
+#=GF RA    Jopling CL, Spriggs KA, Mitchell SA, Stoneley M, Willis AE;
+#=GF RL    RNA 2004;10:287-298.
+#=GF CC    This family represents the L-myc internal ribosome entry site (IRES). The
+#=GF CC    myc family of genes when expressed are known to be involved in the control
+#=GF CC    of cell growth, differentiation and apoptosis. L-myc undergoes translation
+#=GF CC    via internal ribosome entry and bypasses the typical eukaryotic
+#=GF CC    cap-dependent translation pathway [1].
+#=GF WK    http://en.wikipedia.org/wiki/L-myc_internal_ribosome_entry_site_(IRES)
+#=GF SQ    11
+
+#=GS O.princeps.1           AC    AAYZ01189975.1/737-961
+#=GS M.musculus.1           AC    X13945.1/710-931
+#=GS H.sapiens.1            AC    X07262.1/108-322
+#=GS H.sapiens.2            AC    M19720.1/224-444
+#=GS P.troglodytes.1        AC    AACZ02004252.1/478-697
+#=GS M.murinus.1            AC    ABDC01243145.1/6216-6436
+#=GS C.lupus.1              AC    AAEX02020608.1/169-388
+#=GS B.taurus.1             AC    AAFC03027628.1/37586-37805
+#=GS S.scrofa.1             AC    CR956650.4/44511-44739
+#=GS M.lucifugus.1          AC    AAPE01632370.1/1386-1602
+#=GS Dasypus_novemcinctus.1 AC    AAGV020059830.1/1662-1879
+
+O.princeps.1                       AAUGCGCCUGUAGCUCGCGCUCCCGCGCCGAUCCCGGGAGCGUCCGGGCC
+M.musculus.1                       AAUGCGCCUGCAGAUCGCGCUCCCGCGUCGAUCCCGGGAGCGUCCUGGCU
+H.sapiens.1                        AAUGCGCCUGCAGCUCGCGCUCCCGCGCCGAUCCCGAGAGCGUCCGGGCC
+H.sapiens.2                        AAUGCGCCUGCAGCUCGCGCUCCCGCGCCGAUCCCGAGAGCGUCCGGGCC
+P.troglodytes.1                    AAUGCGCCUGCAGCUCGCGCUCCCGCGCCGAUCCCGAGAGCGUCCGGGCC
+M.murinus.1                        AAUGCGCCUGCAGCUCGCGCUCCCGCGCCGAUCCCGGGAGCGUCCGGGCU
+C.lupus.1                          AAUGCGCCUGCAUCUCGCGCUCCCGCGCCGAUCCCGGGAGCGUCCGGGCC
+B.taurus.1                         AAUGCGCCUGCAUCUCGCGCUCCCGCGCCGCUCUCGGGAGCGUCCGGGCC
+S.scrofa.1                         AAUGCGCCUGCAUCUCGCGCUCCCGCGCCGCUCCCGGGAGCGUCCCGGCA
+M.lucifugus.1                      AAUGCGCU.GCAUCUCGCGCUCUCGCUCCUAGCCCGGUAGCGUC.UGGGC
+Dasypus_novemcinctus.1             AAUGCUCCGGGAGCUCGCGCUCCCGCGCAGAUCACGGGAGCGCACGGGCU
+#=GC SS_cons                       ......<<.<..<<<<<<<<....>>>>...AAAA..>>>>..>.>>.<<
+#=GC RF                            AAuGcgCcuGacgCucGcGCucccGCgCcgAucccGggaGcguCcgGGcc
+
+O.princeps.1                       GCCGUGCGCGAGCGGGGAGCGGGGGGCGCGCGCGCUCGGGGGGAGCGCUC
+M.musculus.1                       GCCGUGUGCGAGCGAGG....CGGGGGGCGCGCGCACGGGGGGCGCGCUC
+H.sapiens.1                        GCCGUGCGCGAGCGAGG....GAGGGCGCGCG.GCGGGGGGG.CGCGCU.
+H.sapiens.2                        GCCGUGCGCGAGCGAGG....GAGGGCGCGCGCGCGGGGGGGGCGCGCUC
+P.troglodytes.1                    UCCGUGCNCGAGCGAGG....GAGGGCGCGCGCGCGGGGGG.GCGCGCUC
+M.murinus.1                        GUCGUGCGCGAGCGAGG....GAGGGGGCGCGCGCGGAAGGGGCGCGCUC
+C.lupus.1                          GCGGUGCGCGGGCGAGG....GCGGGGGCGCGCGC.GGGGGGGCGCGCUC
+B.taurus.1                         GCCGUGCGCGAGCGGGG....GCGGGAGCGCGCGCUGGGGG.GCUAACGC
+S.scrofa.1                         GCCGUGCGCGAGUGAAG....GCGGGAGCGCGCGCGCGGGGGGCGAGCUC
+M.lucifugus.1                      UUCGUGCACGAGCGAGG....GA..GAGCGGGCGCGCGUGGGGCGCGCUC
+Dasypus_novemcinctus.1             GCCGUGCGCGAGCGAGG....GUGAGCGCGCGCGCUCUCGAGGCGUGCUC
+#=GC SS_cons                       .<<<<<<<<<.<<..aa....aa..>>.>>>>>>>>>>>.<.<<<<<<<<
+#=GC RF                            ggcGuGcgCGAgcGAgG....gagggcGCGcgCgCgcggGGgGCGcGCcC
+
+O.princeps.1                       GGGAGUGA.GGGCCGCGCGCUCGGUGGCGCGCAUGUGCGUGUGUGCGGGC
+M.musculus.1                       GUGAGUGCGGGGCCGCGCGCUCGGUGGCGCGCAUGUGUGUGUGUGCGGGC
+H.sapiens.1                        GUGAGUGC.GGGCCGCGCUCUCGGCGG...NCAUGUGCGUGUGUGCUGGC
+H.sapiens.2                        GUGAGUGC.GGGCCGCGCUCUCGGCGGCGCGCAUGUGCGUGUGUGCUGGC
+P.troglodytes.1                    GUGAGUGC.UGGCCGCGCUCUCGGCGGCGCGCAUGUGCGUGUGUGCUGGC
+M.murinus.1                        GUGAGUGC.GGGCCGCGCGCUCGGUGGCGCGCAUGUGCGUGUGUGCGGGC
+C.lupus.1                          UAGGGUGC.GGGCCGCGCGCUCGGGGGCGCGCAUGUGCCUGUGUGCGGGC
+B.taurus.1                         CUGUGUGC.GGGCCUCGCACUCGGUGGCGCGCAUGUGCAAGUGUGCGGGC
+S.scrofa.1                         CUGAAUGC.GGGCCGCGCGCUCGGUGGCGCGCAUGUGCAUGUGUGCGGGC
+M.lucifugus.1                      UUGGAUGC.GGGUCGCGCGCUCGGUGGCGCGCAUGUGCUUGUGUGCGGGC
+Dasypus_novemcinctus.1             UUGAGUGC.GGGCCGCGCGCUCAGUGGCGCGCAUGUGUAUGUCUGCGGGC
+#=GC SS_cons                       <<....>>.>>>.>>>>>.>.<<<<<<<<<<<<<<....>>>>>>>..>>
+#=GC RF                            gcGagugc.GgGcCgCGCcCucGGcgGCGCgcauguGcacgugcGCgGGC
+
+O.princeps.1                       UGCCG........GGCUGCCCCGAGCCGGCGGGGAGCCGCUCCGCUCCAG
+M.musculus.1                       UGCCG........GGCUUCCCCGAGCCGGCGGGGAGCCGCUCCGCUCCAG
+H.sapiens.1                        UGCCG........GGCUGCCCCGAGCCGGCGGGGAGCCGGUCCGCUCCAG
+H.sapiens.2                        UGCCG........GGCUGCCCCGAGCCGGCGGGGAGCCGGUCCGCUCCAG
+P.troglodytes.1                    UGCCG........GGCUGCCCCGAGCCGGCGGGGAGCCGGUCCGCUCCAG
+M.murinus.1                        UGCCU........GGCUGCCCCGAGCGGGCCGGGAGCCGGUACGCUCCAG
+C.lupus.1                          UGCCG........GGCUGCCCCGAGCCGGCGGGGAGCCGGUCCGCUCCAG
+B.taurus.1                         UGCUU........CGCUGCCCCGAGCGGGCGGGGAGCCGGUCCGCUCCAG
+S.scrofa.1                         UGCCGGGCUGCCGGGCUGCCCCGAGCCGGCGGGGAGCCGGUCCGCUCCAG
+M.lucifugus.1                      UGCCG........GGCUGCCCCGAGCCGGCCCCGAGCGGGUCCGCUCCCG
+Dasypus_novemcinctus.1             UGCCG........GGCUACCCGCAGCCGGCGGCGAGCCGGUCCGCGCCAG
+#=GC SS_cons                       >>>>>..........<<<<<<<..<<<<<<.....>>>>>>.<<<<<<.<
+#=GC RF                            ugCCg........gGCugcCCCgAgccGGCgggGAGCCggucCGCuCCaG
+
+O.princeps.1                       GUGGCGGGAGGCGGGAGCGUGGUGAGGCUGCGGG
+M.musculus.1                       GUGGCGGGCGGCGGGAGCGAGGUGAGGCUGCGGG
+H.sapiens.1                        GUGGCGGGCGGCUGGAGCGAGGUGAGGCUGCGGG
+H.sapiens.2                        GUGGCGGGCGGCUGGAGCGAGGUGAGGCUGCGGG
+P.troglodytes.1                    GUGGCGGGCGGCUGGAGCGAGGUGAGGCUGCGGG
+M.murinus.1                        GUGGCGGGCGGCGGGCGCGAGGUGAGGCUGCGGG
+C.lupus.1                          GUGGCGGGCGGCGGGAGCGAGGUGAGGCGACGGG
+B.taurus.1                         GUGGCCGGUGGCGGGAGCGAGGUGAGGCUGCGGG
+S.scrofa.1                         GUGGCCGGCAGCGGGAGCGAGGUGAGGCUGCGGG
+M.lucifugus.1                      GUGGCGGGCGGCCGGAGCGAGGUGAGACUAGGGG
+Dasypus_novemcinctus.1             GUGGC...UGGCCGGAGCGAGGUGAGGCUGCGGG
+#=GC SS_cons                       .<<.....>>.>.>>>>>>.>>.>.....>>>>.
+#=GC RF                            GcgGcgggcgGCuGGaGCGAGGuGAGgcugcgGG
+//

@@ -1,0 +1,45 @@
+# STOCKHOLM 1.0
+#=GF ID    sR28
+#=GF AC    RF01136
+#=GF DE    Small nucleolar RNA sR28
+#=GF AU    Wilkinson A
+#=GF GA    48.0
+#=GF NC    0.0
+#=GF TC    52.7
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    URL; http://lowelab.ucsc.edu/snoRNAdb/
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF WK    http://en.wikipedia.org/wiki/SnoRNA
+#=GF SQ    6
+
+#=GS Sulfolobus_acidocald.1 AC    CP000077.1/808273-808328
+#=GS Pyrococcus_horikoshi.1 AC    BA000001.2/1484791-1484845
+#=GS P.abyssi.1             AC    AF254825.1/1-53
+#=GS P.woesei.1             AC    DQ202294.1/425-479
+#=GS T.zilligii.1           AC    U95207.1/9-63
+#=GS Thermococcus_kodakar.1 AC    AP006878.1/558824-558878
+
+Sulfolobus_acidocald.1             GUUCAUGAUGAGCUUGACCGGGAAUGAAUGGUGAUGUAAAGGCACGUGUG
+Pyrococcus_horikoshi.1             AGGAAUGAUGACCGGUUUCGGGACUGAACGAUGAUG.ACACCAGCUAUCG
+P.abyssi.1                         ..GGAUGAUGACCGGUUUCGGGACUGAGCUAUGAUG.ACACCAGCUAUCG
+P.woesei.1                         AGAGAUGAUGACCGGUUUCGGAUCCGAUGGAUGAGG.ACAUCAGCUAUCG
+T.zilligii.1                       GCCGAUGAUGAGUGGCUUCGGGUCCGAGGGGUGAGG.ACACCAGCUAUCG
+Thermococcus_kodakar.1             GCCCGUGAUGAGUGGCUUCGGGUCCGAGCGGUGAGG.ACACCAGCUAUCG
+#=GC SS_cons                       ..................................................
+#=GC RF                            guugAUGAUGAgCGGuuUCGGGacuGAauGgUGAuG.AcAccAGCuAucG
+
+Sulfolobus_acidocald.1             CUGAUU
+Pyrococcus_horikoshi.1             CUGACC
+P.abyssi.1                         CUGACU
+P.woesei.1                         CUGAUC
+T.zilligii.1                       CUGAGG
+Thermococcus_kodakar.1             CUGAGG
+#=GC SS_cons                       ......
+#=GC RF                            CUGAuu
+//

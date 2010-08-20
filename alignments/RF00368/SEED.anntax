@@ -1,0 +1,67 @@
+# STOCKHOLM 1.0
+#=GF ID    sroB
+#=GF AC    RF00368
+#=GF DE    sroB RNA
+#=GF AU    Moxon SJ, Gardner PP
+#=GF GA    33.0
+#=GF NC    0.0
+#=GF TC    36.9
+#=GF SE    PMID:14602901
+#=GF SS    Predicted; ILM
+#=GF TP    Gene; sRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000655 SO:ncRNA
+#=GF RN    [1]
+#=GF RM    14602901
+#=GF RT    RNomics in Escherichia coli detects new sRNA species and indicates
+#=GF RT    parallel transcriptional output in bacteria.
+#=GF RA    Vogel J, Bartels V, Tang TH, Churakov G, Slagter-Jager JG,
+#=GF RA    Huttenhofer A, Wagner EG;
+#=GF RL    Nucleic Acids Res 2003;31:6435-6443.
+#=GF CC    This family consists of a number of bacterial sroB RNA genes of around 90
+#=GF CC    bases in length. sroB is found in several Enterobacterial species but its
+#=GF CC    function is unknown [1].
+#=GF WK    http://en.wikipedia.org/wiki/sroB_RNA
+#=GF SQ    11
+
+#=GS Enterobacter.1         AC    CP000653.1/1069869-1069947
+#=GS Klebsiella_pneumonia.1 AC    CP000647.1/510363-510442
+#=GS Salmonella_enterica_.1 AC    CP001144.1/559439-559518
+#=GS Serratia_proteamacul.1 AC    CP000826.1/1266710-1266787
+#=GS Shigella_flexneri_2a.1 AC    AE005674.1/443626-443708
+#=GS Yersinia_bercovieri_.1 AC    AALC01000018.1/17885-17958
+#=GS Y.pseudotuberculosis.1 AC    CP000950.1/3463927-3464006
+#=GS Yersinia_pseudotuber.1 AC    CP000720.1/3409730-3409808
+#=GS Yersinia_enterocolit.1 AC    AM286415.1/3329500-3329573
+#=GS Yersinia_frederiksen.1 AC    AALE01000009.1/23985-24064
+#=GS Yersinia_mollaretii_.1 AC    AALD01000017.1/6864-6943
+
+Enterobacter.1                     AACCGAGGGU.CUCCUU.CGGCAUAAUAAUAACGA..UGA.AAUUCCUCU
+Klebsiella_pneumonia.1             AUCCGGGAUG.CAAAUCCCGGGAUAAUAAUAAUGA..UGA.AAUUCCUCU
+Salmonella_enterica_.1             AUCCGAAGCG.AAAGCGUCGGGAUAAUAAUAACGA..UGA.AAUUCCUCU
+Serratia_proteamacul.1             AAC.AGGGUU.ACAAUGC..GUAUAACUACAAUAC..AAGAAAUUCCUCU
+Shigella_flexneri_2a.1             CACCGUCGCUUAAAGUGACGGCAUAAUAAUAAAAAAAUGA.AAUUCCUCU
+Yersinia_bercovieri_.1             AGU....GUG.GGCGCU...AACUAACUAAAAUAA..UGAAAAUUCCUCU
+Y.pseudotuberculosis.1             GCAAGGAGUG.UGAGUG.CUUAAUAACAAAAAUAA..UGAAAAUUCCUCU
+Yersinia_pseudotuber.1             GCAAGGAAUG.UGAGUG.CUUAAUAACUAAAAUAA..UGAAAAUUCCUCU
+Yersinia_enterocolit.1             AGU....GUG.AGAGCU...AAAUAACUAAAAUAA..UGAAAAUUCCUCU
+Yersinia_frederiksen.1             GCAAGGAAUA.UGAGAG.CUUAAUAACUAAAAUAA..UGAAAAUUCCUCU
+Yersinia_mollaretii_.1             GCAAGGAGUG.AGAGCG.CUUAAUAACUAAAAUAA..UGAAAAUUCCUCU
+#=GC SS_cons                       ..<<<..<<.....>>..>>>.........<<.<<...............
+#=GC RF                            AaccGgagcg.aaAgcg.CggaAUAAuaAaaauaa..uGAAAAUUCCUCU
+
+Enterobacter.1                     UUGACGGGCCAAUAGAAAUAUUGGCCAUUUUUUU
+Klebsiella_pneumonia.1             UUGACGGGCCAAUAGCAAUAUUGGCCAUUUUUUU
+Salmonella_enterica_.1             UUGACGGGCCAAUAGCGAUAUUGGCCAUUUUUUU
+Serratia_proteamacul.1             UUGACUGGCCAGUAGCGAUAUUGGCCACUUUUUU
+Shigella_flexneri_2a.1             UUGACGGGCCAAUAGCGAUAUUGGCCAUUUUUUU
+Yersinia_bercovieri_.1             UUGACUGGCCGAUAGUGAUAUCGGCCAUUUUUUU
+Y.pseudotuberculosis.1             UUGACUGGCCGGUAGUGAUAUCGGCCAUUUUUUU
+Yersinia_pseudotuber.1             UUGACUGGCCGGUAGUGAUAUCGGCCAUUUU.UU
+Yersinia_enterocolit.1             UUGACUAGCCGAUAGCGAUAUCGGCUAUUUUUUU
+Yersinia_frederiksen.1             UUGACUGGCCGAUAGCGAUAUCGGCCAUUUUUUU
+Yersinia_mollaretii_.1             UUGACUGGCCGAUAGCGAUAUCGGCCAUUUUUUU
+#=GC SS_cons                       ......<<<<<<<<....>>>>>>>>...>>.>>
+#=GC RF                            UUGACuGGCCgauaGcgAuaucGGCCAuUuuUuu
+//

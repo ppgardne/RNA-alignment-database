@@ -1,0 +1,37 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-770
+#=GF AC    RF00888
+#=GF DE    microRNA mir-770
+#=GF AU    Wilkinson A
+#=GF GA    30.0
+#=GF NC    0.0
+#=GF TC    38.5
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000355
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    4
+
+#=GS M.musculus.1    AC    AC107681.15/75-170
+#=GS P.troglodytes.1 AC    AACZ02151768.1/12691-12788
+#=GS B.taurus.1      AC    AAFC03050876.1/23581-23676
+#=GS E.caballus.1    AC    AAWR02020057.1/98240-98339
+
+M.musculus.1                AAGCCAC...CUUCUG.UGCCCCCAGCACCACGUGUCUGGGCCACGUGAG
+P.troglodytes.1             CAGGAGCCACCUUCCG.AGCCUCCAGUACCACGUGUCAGGGCCACAUGAG
+B.taurus.1                  GAGCUACCCUUCCCUG...CCUCCAGUGCCAUGUGUCCGGGCCAUGUGAG
+E.caballus.1                CAGGAGCCGCCCUUCCGUGCCUCCAGCACCACGUGUCUGGGCCAUGUGAG
+#=GC SS_cons                ..<<<<<...<<<<<<.<<.<<<<<<<<<<<<..<<<<<<.<<<<<<<.<
+
+M.musculus.1                CAACGCCACGUGGGCCUGACGUGGAGCUGGGGCCGCAGGGGUCUGAUGGC
+P.troglodytes.1             CUGGGCCUCGUGGGCCUGAUGUGGUGCUGGGGCCUCAGGGG.UCUGCUCU
+B.taurus.1                  CAGAGCUUUGUGGGCCUGAGGUGGCUCUGGGGCUUCAGGGC.UCUGCUGU
+E.caballus.1                CAAGGUCACAUGGGCCCGAUGUGGUGCUGGGGGCGGCAGGGCUCUGCUCU
+#=GC SS_cons                <...>>>>>>>>>.>>>>>>>>>>>>>>>>>>.>>>>>>>>....>>>>>
+//

@@ -1,0 +1,44 @@
+# STOCKHOLM 1.0
+#=GF ID    UPD-PK2
+#=GF AC    RF01083
+#=GF DE    Pseudoknot of upstream pseudoknot domain (UPD) of the 3'UTR
+#=GF AU    Wilkinson A
+#=GF GA    30.0
+#=GF NC    27.9
+#=GF TC    35.6
+#=GF SE    Pseudobase
+#=GF SS    Pseudobase
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    PKBASE; PKB00059
+#=GF DR    PKBASE; PKB00063
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    8666266
+#=GF RT    The complete sequence of a Singapore isolate of odontoglossum
+#=GF RT    ringspot virus and comparison with other tobamoviruses.
+#=GF RA    Chng CG, Wong SM, Mahtani PH, Loh CS, Goh CJ, Kao MC, Chung MC,
+#=GF RA    Watanabe Y;
+#=GF RL    Gene. 1996;171:155-161.
+#=GF RN    [2]
+#=GF RM    7931178
+#=GF RT    Similarities between the secondary structure of satellite tobacco
+#=GF RT    mosaic virus and tobamovirus RNAs.
+#=GF RA    Gultyaev AP, van Batenburg E, Pleij CW;
+#=GF RL    J Gen Virol. 1994;75:2851-2856.
+#=GF WK    http://en.wikipedia.org/wiki/UPSK_RNA
+#=GF SQ    4
+
+#=GS Odontoglossum_ringsp.1 AC    U34586.1/6451-6471
+#=GS Odontoglossum_ringsp.2 AC    X82130.1/6244-6264
+#=GS Odontoglossum_ringsp.3 AC    AM055643.1/1046-1066
+#=GS Odontoglossum_ringsp.4 AC    X55295.1/733-753
+
+Odontoglossum_ringsp.1             CGUGGUGCAUACGAUAAUGCA
+Odontoglossum_ringsp.2             GCUGGUGCAUACGAUAAUGCA
+Odontoglossum_ringsp.3             CGUGGUGCAUACGAUAAUGCA
+Odontoglossum_ringsp.4             CGUGGUGCAUACGAUAAUGCA
+#=GC SS_cons                       AAA..<<<<<aaa...>>>>>
+#=GC RF                            cGuGguGCauAcGAuAauGCa
+//

@@ -1,0 +1,51 @@
+# STOCKHOLM 1.0
+#=GF ID    sbrA
+#=GF AC    RF01489
+#=GF DE    Listeria snRNA sbrA
+#=GF AU    Osuch I
+#=GF GA    45.0
+#=GF NC    15.7
+#=GF TC    51.8
+#=GF SE    INFERNAL
+#=GF SS    Predicted; WAR
+#=GF TP    Gene; snRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF RN    [1]
+#=GF RM    19448609
+#=GF RT    The Listeria transcriptional landscape from saprophytism to
+#=GF RT    virulence.
+#=GF RA    Toledo-Arana A, Dussurget O, Nikitas G, Sesto N, Guet-Revillet H,
+#=GF RA    Balestrino D, Loh E, Gripenland J, Tiensuu T, Vaitkevicius K,
+#=GF RA    Barthelemy M, Vergassola M, Nahori MA, Soubigou G, Regnault B, Coppee
+#=GF RA    JY, Lecuit M, Johansson J, Cossart P;
+#=GF RL    Nature. 2009;459:950-956.
+#=GF WK    http://en.wikipedia.org/wiki/Listeria_monocytogenes_non-coding_RNA
+#=GF SQ    6
+
+#=GS Bacillus.1             AC    ABCF01000017.1/44066-44134
+#=GS Listeria_welshimeri_.1 AC    AM263198.1/1378300-1378370
+#=GS L.monocytogenes.1      AC    AL591978.1/239363-239433
+#=GS Listeria_monocytogen.1 AC    AADR01000179.1/147-217
+#=GS Listeria_monocytogen.2 AC    AARL02001293.1/344-414
+#=GS Listeria_monocytogen.3 AC    AE017262.2/1379081-1379151
+
+Bacillus.1                         AUACAUCUAGAUCCAUACCCCUAAACUCCCUAGAUGAA..GGAUAGCUCU
+Listeria_welshimeri_.1             GUACAUCUAGAUCCAUACCCCUAAACUCCCUAGAUGUCUUGGGUAGUACU
+L.monocytogenes.1                  GUACAUCUAGAUCCAUACCCCUAAACUCCCUAGAUGUCUUGGGUAGUACU
+Listeria_monocytogen.1             GUACAUCUAGAUCCAUACCCCUAAACUCCCUAGAUGUCUUGGGUAGUACU
+Listeria_monocytogen.2             GUACAUCUAGAUUCAUACCCCUAAACUCCCUAGAUGUCUUGGGUAGUACU
+Listeria_monocytogen.3             GUACAUCUAGAUCCAUACCCCUAAACUCCCUAGAUGUCUUGGGUAGUACU
+#=GC SS_cons                       ...<<<<<<.....................>>>>>>....<<<<<<<<<<
+#=GC RF                            aUACauCuaGAUcCAUACCCCUAAACUCCCuaGauGaauuGgguaGcaCc
+
+Bacillus.1                         UAUAUGGGCUAUCCUCUUUUU
+Listeria_welshimeri_.1             UUCGGGUACUGCUCUUUUUUU
+L.monocytogenes.1                  CUCGGGUGCUGCUCUUUUUUU
+Listeria_monocytogen.1             UUCGGGUGCUGCUCUUUUUUU
+Listeria_monocytogen.2             UUCGGGUGCUGCUCUUUUUUU
+Listeria_monocytogen.3             UUCGGGUGCUGCUCUUUUUUU
+#=GC SS_cons                       ....>>>>>>>>>>.......
+#=GC RF                            uauagGugCuaccCuuUUUUU
+//

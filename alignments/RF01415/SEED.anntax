@@ -1,0 +1,96 @@
+# STOCKHOLM 1.0
+#=GF ID    Flavivirus_SLIV
+#=GF AC    RF01415
+#=GF DE    Flavivirus 3'UTR stem loop IV
+#=GF AU    Osuch I
+#=GF GA    44.0
+#=GF NC    42.8
+#=GF TC    44.1
+#=GF SE    INFERNAL
+#=GF SS    Published; PMID:19064258
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    19064258
+#=GF RT    A highly structured, nuclease-resistant, noncoding RNA produced by
+#=GF RT    flaviviruses is required for pathogenicity.
+#=GF RA    Pijlman GP, Funk A, Kondratieva N, Leung J, Torres S, van der Aa L,
+#=GF RA    Liu WJ, Palmenberg AC, Shi PY, Hall RA, Khromykh AA;
+#=GF RL    Cell Host Microbe. 2008;4:579-591.
+#=GF RN    [2]
+#=GF RM    14696330
+#=GF RT    5'- and 3'-noncoding regions in flavivirus RNA.
+#=GF RA    Markoff L;
+#=GF RL    Adv Virus Res. 2003;59:177-228.
+#=GF WK    http://en.wikipedia.org/wiki/Flavivirus
+#=GF SQ    20
+
+#=GS Koutango_virus.1       AC    L48980.1/463-537
+#=GS Kunjin_virus.1         AC    L24512.1/259-333
+#=GS Japanese_encephaliti.1 AC    AF075723.1/10614-10684
+#=GS West_Nile_virus.1      AC    DQ411032.1/10638-10712
+#=GS Japanese_encephaliti.2 AC    AF306514.1/209-279
+#=GS West_Nile_virus.2      AC    AF208017.1/702-776
+#=GS Kunjin_virus.2         AC    AF297847.1/505-579
+#=GS West_Nile_virus.3      AC    AY765264.1/10602-10676
+#=GS Japanese_encephaliti.3 AC    AB051292.1/10601-10671
+#=GS West_Nile_virus.4      AC    L48977.1/458-531
+#=GS Kunjin_virus.3         AC    AF297858.1/519-593
+#=GS West_Nile_virus.5      AC    DQ176636.2/10595-10669
+#=GS Japanese_encephaliti.4 AC    AY303794.1/10614-10684
+#=GS West_Nile_virus.6      AC    AF196537.1/523-594
+#=GS Japanese_encephaliti.5 AC    AF221499.1/10614-10683
+#=GS Kunjin_virus.4         AC    AF297857.1/485-559
+#=GS Kunjin_virus.5         AC    L49311.1/478-551
+#=GS Usutu_virus.1          AC    AY453412.1/10700-10767
+#=GS West_Nile_virus.7      AC    AF196535.1/535-609
+#=GS Alfuy_virus.1          AC    AY898809.1/10594-10661
+
+Koutango_virus.1                   CCAAUGUCAGGCCACACCUGAGUGUGCCAUCCUGC.GGAG.GAUGCUGUC
+Kunjin_virus.1                     CCAAUGUCAGACCACGCCAUGGCGUGCCACUCUGC.GGAC.AGUGCAGUC
+Japanese_encephaliti.1             CCAACGUCAGGCCACAAAU..UUGUGCCACUCCGC.UGGGGAGUGCGGCC
+West_Nile_virus.1                  CCAAUGUCAGACCACGCUACGGCGUGCCACUCUGC.GGAG.AGUGCAGUC
+Japanese_encephaliti.2             CCAACGUCAGGCCACAAUU..UUGUGCCAUUCCGC.UGGGGAGUGCGGCC
+West_Nile_virus.2                  CCAGUGUCAGACCACACUUUAAUGUGCCACUCUGC.GGAG.AGUGCAGUC
+Kunjin_virus.2                     CCAGUGUCAGACCACGCCAUGGCGUGCCACUCUGC.GGAG.AGUGCAGUU
+West_Nile_virus.3                  CAGUUGUCAGACCACACGCAAGUGUGCUACUCUGC.GAAG.AGUACUGUC
+Japanese_encephaliti.3             CCAACGUCAGGCCACAAUU..CUGUGCCACUCCGC.UGGGGAGUGCGGCC
+West_Nile_virus.4                  CCAGUGUCAGACCACACCUGA.UGUGCCACUCUGC.GGAG.AGUGCAGUC
+Kunjin_virus.3                     CCAAUGUCAGACCACCCAUUGGCGUGCCACUCUGC.GGAG.AGUGCAGUC
+West_Nile_virus.5                  CCAAUGUCAGACCACAUUUCGAUGUGCCACUCUGC.GGAG.AGUGCUGUC
+Japanese_encephaliti.4             CCACCGUCAGGCCACAAAU..UUGUGCCACCCCGCUGGAG.GGUGCGGCC
+West_Nile_virus.6                  CCACCGUCAGACCACACCGAGGUGUGCCACUCAGC.GGAG.AGUGCGGUC
+Japanese_encephaliti.5             CCAACGUCAGGCCACAAAU..UUGUGCCACCCCGC.UGGG.GGUGCGGCC
+Kunjin_virus.4                     CCAAUGUCAGACCACGCCAUGGCGUGCCACUCUGC.UGAG.AGUGCAGUU
+Kunjin_virus.5                     CCAGUGUCAGACCACACUU.AGUGUGCCACUCUGC.GGAG.AGUGCAGCC
+Usutu_virus.1                      CCCGUGUCAGGCCGC...AAA..GCGCCACUUCGC.CAAGGAGUGCAGCC
+West_Nile_virus.7                  CCAAUGUCAGACCACACUUUGGUGUGCCACUCUGC.GGAG.AGUGCAGUC
+Alfuy_virus.1                      CCCGUGUCAGGUCACA.....UUGUGCCACCUUGCCAGAA.GGUGCAACC
+#=GC SS_cons                       ....<<<<<<<<<<<<<....>>>>>.<<<<..........>>>>..>>>
+#=GC RF                            ccAacguCaGgCCaCacauaaguGuGcCaCucuGc.ggAG.aGuGcaGcC
+
+Koutango_virus.1                   UGCGCCAGUGCCCCAGGAGGACUGGGA
+Kunjin_virus.1                     UGCGACAGUGCCCCAGGAGGACUGGGU
+Japanese_encephaliti.1             UG...CGCAGCCCCAGGGGGACUGGGU
+West_Nile_virus.1                  UGCGAUAGUGCCCCAGGAGGACUGGGU
+Japanese_encephaliti.2             UG...CGCACCCCCAGGAGGACUGGGU
+West_Nile_virus.2                  UGCGAUAGUGCCCCAGGUGGACUGGGU
+Kunjin_virus.2                     UGUGACAGUGCCCCAGGAGGACUGGGU
+West_Nile_virus.3                  UGCGUUAGAGCCCCAGGAGGACUGGGA
+Japanese_encephaliti.3             UG...CGUAGCCCCAGGAGGACUGGGU
+West_Nile_virus.4                  UCCGAUAGUGCCCCAGGUGGACUGGGU
+Kunjin_virus.3                     UGCGACAGUGCCCCAGGAGGACUGGGU
+West_Nile_virus.5                  UGCGAUAGUGCCCCAGGUGGACUGGGU
+Japanese_encephaliti.4             UG...CGCAGCCCCAGGAGGACUGGGU
+West_Nile_virus.6                  UG...CGCAGCCCCAGGAGGACUGGGU
+Japanese_encephaliti.5             UG...CGCAGCCCCAGGAGGACUGGGU
+Kunjin_virus.4                     GACGACAGUGCCCCAGGAGGACUGGGU
+Kunjin_virus.5                     UGCGCUAGUGCCCCAGGUGGACUGGGU
+Usutu_virus.1                      UG...UAUGGCCCCAGGAGGACUGGGU
+West_Nile_virus.7                  UGUGAUAGUGCCCCAGGUGGACUGGGU
+Alfuy_virus.1                      UG...CGAGGCCCCAGGUGGACUGGGU
+#=GC SS_cons                       >>..>>>....<<<<<.....>>>>>.
+#=GC RF                            uGcgacggaGcCCCaGGAGGACuGGGu
+//

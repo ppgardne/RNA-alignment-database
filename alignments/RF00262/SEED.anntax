@@ -1,0 +1,52 @@
+# STOCKHOLM 1.0
+#=GF ID    sar
+#=GF AC    RF00262
+#=GF DE    sar RNA
+#=GF AU    Bateman A
+#=GF GA    25.0
+#=GF NC    0.0
+#=GF TC    36.8
+#=GF SE    Pubmed:9042942, INFERNAL
+#=GF SS    Predicted; RNAalifold; Daub J
+#=GF TP    Gene; antisense;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000644 SO:antisense_RNA
+#=GF DR    GO:0003729 GO:mRNA binding
+#=GF RN    [1]
+#=GF RM    9042942
+#=GF RT    Antisense RNA control of gene expression in bacteriophage P22. I.
+#=GF RT    Structures of sar RNA and its target, ant mRNA.
+#=GF RA    Schaefer KL, McClure WR;
+#=GF RL    RNA 1997;3:141-156.
+#=GF CC    Sar RNA is an antisense RNA that is partly responsible for the
+#=GF CC    negative regulation of antirepressor synthesis during development
+#=GF CC    of bacteriophage P22 [1].
+#=GF WK    http://en.wikipedia.org/wiki/sar_RNA
+#=GF SQ    6
+
+#=GS Escherichia_coli_O15.1 AC    AE005174.2/1661096-1661163
+#=GS Escherichia_coli_APE.1 AC    CP000468.1/2576646-2576713
+#=GS Enterobacteria_phage.1 AC    CP000711.1/6497-6564
+#=GS Enterobacteria_phage.2 AC    X01916.1/532-599
+#=GS Salmonella_phage_P22.1 AC    AF527608.1/15023-15090
+#=GS Enterobacteria_phage.3 AC    AY121861.1/1749-1816
+
+Escherichia_coli_O15.1             GUCAAUAUUUC.CUAAGCCGAUUUGUUGAUAA.CGAAGCCCUGACUGUUA
+Escherichia_coli_APE.1             GUUGGUUUUUCUCCACG..GAUUUACCGACAACCGAAGCCCUGACUGUUC
+Enterobacteria_phage.1             UCGUUAAUUCCUAUGCG..UGGUUUUACGAUACCGAAGCCCUGACUGUUC
+Enterobacteria_phage.2             GUUGGUUUUUCUCCAAG..GAUUUACUGACAACCGAAGCCCUGACUGUUA
+Salmonella_phage_P22.1             GUUGGUUUUUCUCCAAG..GAUUUACUGACAACCGAAGCCCUGACUGUUA
+Enterobacteria_phage.3             GUUGGUUUUUCUCCAAG..GAUUUACUGACAACCGAAGCCCUGACUGUUA
+#=GC SS_cons                       <<<<<<..................>>>>>>....<<<<<<<<<<<<<<..
+#=GC RF                            gucggcccuucucuaag..gAuuugccgacAAacGaaGccccgaccGcuA
+
+Escherichia_coli_O15.1             CAGCAGUUGGGGCUUCAACU
+Escherichia_coli_APE.1             CAGCAGUUGGGGCUUCACUG
+Enterobacteria_phage.1             CCGCAGUUGGGGCUUCAACU
+Enterobacteria_phage.2             CCGCAGUUGGGGCUUCAACU
+Salmonella_phage_P22.1             CCGCGGUUGGGGCUUCAACU
+Enterobacteria_phage.3             CCGCAGUUGGGGCUUCAACU
+#=GC SS_cons                       ..>>>>>>>>>>>>>>....
+#=GC RF                            cagCggucggggCuuCAAcu
+//

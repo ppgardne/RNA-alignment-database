@@ -1,0 +1,69 @@
+# STOCKHOLM 1.0
+#=GF ID    GP_knot1
+#=GF AC    RF01073
+#=GF DE    Gag/pol translational readthrough site
+#=GF AU    Wilkinson A
+#=GF GA    38.0
+#=GF NC    38.0
+#=GF TC    38.0
+#=GF SE    Pseudobase
+#=GF SS    Pseudobase
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    PKBASE; PKB00047
+#=GF DR    PKBASE; PKB00078
+#=GF DR    PKBASE; PKB00079
+#=GF DR    PKBASE; PKB00088
+#=GF DR    PKBASE; PKB00098
+#=GF DR    PKBASE; PKB00099
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    2402881
+#=GF RT    RNA pseudoknots: translational frameshifting and readthrough on viral
+#=GF RT    RNAs.
+#=GF RA    ten Dam EB, Pleij CW, Bosch L;
+#=GF RL    Virus Genes. 1990;4:121-136.
+#=GF RN    [2]
+#=GF RM    8076609
+#=GF RT    Pseudoknot-dependent read-through of retroviral gag termination
+#=GF RT    codons: importance of sequences in the spacer and loop 2.
+#=GF RA    Wills NM, Gesteland RF, Atkins JF;
+#=GF RL    EMBO J. 1994;13:4137-4144.
+#=GF WK    http://en.wikipedia.org/wiki/Gag/pol_translational_readthrough_site
+#=GF SQ    9
+
+#=GS M.musculus.1           AC    AAHY01014162.1/1518-1457
+#=GS M.musculus.2           AC    AAHY01145900.1/2934-2995
+#=GS P.endogenous.1         AC    AY099324.1/2582-2643
+#=GS Feline_leukemia_viru.1 AC    M18247.1/2424-2485
+#=GS Gibbon_ape_leukemia_.1 AC    M26927.1/2191-2251
+#=GS Mus_dunni_endogenous.1 AC    AF053745.1/2288-2348
+#=GS Amphotropic_murine_l.1 AC    AF411814.1/2228-2289
+#=GS Rat_sarcoma_virus.1    AC    M77193.1/3206-3267
+#=GS Baboon_endogenous_vi.1 AC    J02034.1/2580-2641
+
+M.musculus.1                       UAGGGAGGUCAGGGU.CAGGAGCCCCCCCCUGAACCCAGGAUAACCCUCA
+M.musculus.2                       UAGGGGGGUCAGGGU.CAGGAGCCCCCCCCUGAACCCAGGAUAACCCUCA
+P.endogenous.1                     UAGGGGAGACGGGGU.UCGGACCCCCUCCCCGAGCCCAGGGUAACUUUGA
+Feline_leukemia_viru.1             UAGGAGAGUCAGGGC.CAGGACCCCCCCCCUGAGCCCAGGAUAACCUUAA
+Gibbon_ape_leukemia_.1             UAGGGGAGUCAGGGU.UCGGACCCCCUCCCCGAACCUAGGGUAACACUGA
+Mus_dunni_endogenous.1             UAGGGAAGUCGGGGC.UCAGACCCCCUCCCUGAGCCUAGGGUAACUUUGU
+Amphotropic_murine_l.1             UAGGGGGGUCGGGGU.CAGGAGCCCCCCCCUGAACCCAGGAUAACCCUCA
+Rat_sarcoma_virus.1                UAGGGAGGUCAGGGC.CAGGAGCCCCCCCCUGAGCCCAGGAUAACUCUUG
+Baboon_endogenous_vi.1             UAGGGGUGUCAGGGCUCUGGAGCCCCCCCC.GAGCCCCGGCUAACUCUAU
+#=GC SS_cons                       ...........<<<<.<<<<.AAAAAAA>>>>.>>>>.............
+#=GC RF                            UAGGGaGGUCAGGGu.CaGGAGCCCCCCCCuGAaCCCAGGAUAACCCUCA
+
+M.musculus.1                       AAGUCGGGGGGCA
+M.musculus.2                       CUGUCGGGGGGCA
+P.endogenous.1                     AGGUGGAGGGGCA
+Feline_leukemia_viru.1             AAAUAGGGGGGCA
+Gibbon_ape_leukemia_.1             CUGUGGAGGGGA.
+Mus_dunni_endogenous.1             CUGUGGAGGGGA.
+Amphotropic_murine_l.1             AAGUAGGGAGGCA
+Rat_sarcoma_virus.1                AAGUUGGGGGGCA
+Baboon_endogenous_vi.1             CUGUAGGGGGGCA
+#=GC SS_cons                       .....aaaaaaa.
+#=GC RF                            aaGUCGGGGGGCA
+//

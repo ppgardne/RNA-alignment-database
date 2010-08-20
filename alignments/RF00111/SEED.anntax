@@ -1,0 +1,109 @@
+# STOCKHOLM 1.0
+#=GF ID    RyeB
+#=GF AC    RF00111
+#=GF DE    RyeB RNA
+#=GF AU    Bateman A
+#=GF GA    34.0
+#=GF NC    23.5
+#=GF TC    41.8
+#=GF SE    Gottesman S
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; sRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0000655 SO:ncRNA
+#=GF RN    [1]
+#=GF RM    11445539
+#=GF RT    Identification of novel small RNAs using comparative genomics and
+#=GF RT    microarrays.
+#=GF RA    Wassarman KM, Repoila F, Rosenow C, Storz G, Gottesman S;
+#=GF RL    Genes Dev 2001;15:1637-1651.
+#=GF CC    This ncRNA was identified in a large scale screen of E. coli [1].
+#=GF CC    The exact 5' and 3' ends of this RNA are uncertain. This RNA
+#=GF CC    overlaps RFAM:RF00101 on the opposite strand suggesting that
+#=GF CC    the two may act in a concerted manner.
+#=GF WK    http://en.wikipedia.org/wiki/RyeB_RNA
+#=GF SQ    18
+
+#=GS Shewanella.1           AC    CP000469.1/2083442-2083537
+#=GS Shewanella_woodyi_AT.1 AC    CP000961.1/2442748-2442838
+#=GS Shewanella_sediminis.1 AC    CP000821.1/3200789-3200891
+#=GS Shewanella_amazonens.1 AC    CP000507.1/2477672-2477759
+#=GS Shewanella_loihica_P.1 AC    CP000606.1/1812114-1812213
+#=GS Escherichia_coli_ATC.1 AC    CP000946.1/1992711-1992810
+#=GS Pectobacterium_atros.1 AC    BX950851.1/2786689-2786787
+#=GS Photorhabdus_lumines.1 AC    BX571868.1/65383-65482
+#=GS S.enterica.1           AC    AL627272.1/127690-127789
+#=GS Salmonella_enterica_.1 AC    CP000886.1/1142953-1143052
+#=GS Serratia_proteamacul.1 AC    CP000826.1/2129617-2129710
+#=GS Shigella_sonnei_Ss04.1 AC    CP000038.1/1385102-1385194
+#=GS S.glossinidius.1       AC    AP008232.1/2147389-2147489
+#=GS Yersinia_enterocolit.1 AC    AM286415.1/1991571-1991671
+#=GS Yersinia_intermedia_.1 AC    AALF01000001.1/143714-143803
+#=GS Yersinia_pseudotuber.1 AC    BX936398.1/2014814-2014915
+#=GS Vibrio_angustum_S14.1  AC    AAOJ01000002.1/106646-106742
+#=GS N.vitripennis.1        AC    AAZX01021393.1/473-568
+
+Shewanella.1                       AAG......CGC.A...CUG.CAUGGCG.CUUUCAUCUGUAGCGCACGGC
+Shewanella_woodyi_AT.1             A..................G.AGAGUAA.UUCUCACCAGUAGCGCACGGC
+Shewanella_sediminis.1             AGAG...AGUUA.A..UUCC.CGCGAGG.AUCUCACCAGUAGCGCACGGC
+Shewanella_amazonens.1             A..................U.CCCCUUU.UGCGACCGAAUAGCGCACGGC
+Shewanella_loihica_P.1             UGAG...AUGAA.A..UUC..GAGGCAA.UCUCAAACAGUAGCGCACGGC
+Escherichia_coli_ATC.1             AGGC...AACUA.A..GCC.UGCAUUAA.UGCCAACUUUUAGCGCACGGC
+Pectobacterium_atros.1             GGGC...UAGUACA..GCUU.GUAUAAA.UGCCAACUUUUAGCGCACGGC
+Photorhabdus_lumines.1             AAAUUGUAAGUU.GUUUUUC.GUCUCAA.UGAC.ACUUUUAGCGCACGGC
+S.enterica.1                       AGGC...GAUUU.A..GCCU.GCAUUAA.UGCCAACUUUUAGCGCACGGC
+Salmonella_enterica_.1             AGGC...GAUUU.A..GCCU.GCAUUAA.UGCCAACUUUUAGCGCACGGC
+Serratia_proteamacul.1             AAG.............CCUU.GCACAAAAUGCCAACUUUUAGCGCACGGC
+Shigella_sonnei_Ss04.1             UAAG............CCUG.CAUUAA..UGCCAACUUUUAGCGCACGGC
+S.glossinidius.1                   AGGA...CAUCA.AAAGCCU.ACAAAAA.UGCCAACUUUUAGCGCACGGC
+Yersinia_enterocolit.1             UGGCU..GAACA.A..GCCU.ACGUUAA.UGCCAACUUUUAGCGCACGGC
+Yersinia_intermedia_.1             AC................GU.UAAUUAA.UGCCAACUUUUAGCGCACGGC
+Yersinia_pseudotuber.1             CGGCU..GAAUA.A..GCCU.ACAUUAA.UACCAACUUUUAGCGCACGGC
+Vibrio_angustum_S14.1              AGUG...UAAUC.A..AACU.CCAUUUA.C.UAACCAGUUAGCGCAAGGC
+N.vitripennis.1                    UGUA...CUUUG.U..UAC..GUCUCAA.UGGCAAUUUUUAGCGCACGGC
+#=GC SS_cons                       .<<<............>>>............................<<<
+#=GC RF                            AGGC...aAuUa.A..GCCu.GcAUUAA.UGccAAcUUUUAGcGcAcGGC
+
+Shewanella.1                       UC..UUCAACGAGCCAU.UCCCCUAGGCCCAAACAG.CU...GGAAUCGU
+Shewanella_woodyi_AT.1             UCUUUAAACAGAGCCAU.UCCCCUGGACCCAAA..A.CAAUCGGAAUAGU
+Shewanella_sediminis.1             UCUUUAAACAGAGCCAU.UCCCCUGGACCCAGA..A.CAAUUGGAAUAGU
+Shewanella_amazonens.1             UCUUU...AUGAGCCAU.UCCCCUGGGCCCAAA..A.CAAUUGGAAUAGU
+Shewanella_loihica_P.1             UCU..GCAAAGAGCCAU.UCCCCUAGACCCAGA..A.CAAUUGGAAUAGU
+Escherichia_coli_ATC.1             UCUCUCCCAAGAGCCAU.UUCCCUGGACCGAAU..A.CA...GGAAUCGU
+Pectobacterium_atros.1             UCU..CCCAAGAGCCAU.UUCCCUAGACUGAAU..A.CA...GGAAUCGU
+Photorhabdus_lumines.1             UCU....UAAGAGCCAUUUUCCCUAGGCCGAGU..A.GA...GGAGU.CA
+S.enterica.1                       UCUCUCCCAAGAGCCAU.UUCCCUGGACCGAAU..A.CA...GGAAUCGU
+Salmonella_enterica_.1             UCUCUCCCAAGAGCCAU.UUCCCUGGACCGAAU..A.CA...GGAAUCGU
+Serratia_proteamacul.1             UCUCUCCCAAGAGCCAU.UUCCCUAGACCGAAU..A.UA...GGAAUCGU
+Shigella_sonnei_Ss04.1             UCUCUCCCAAGAGCCAU.UUCCCUGGACCGAAU..A.CA...GGAAUCGU
+S.glossinidius.1                   UCUCUC.CAAGAGCCAU.UUCCCUGGACAGAAU..A.UA...GGAAUCGU
+Yersinia_enterocolit.1             UCUCUCCCAAGAGCCAU.UUCCCUAGACCGAAU..A.UA...GGAAUCGU
+Yersinia_intermedia_.1             UCUGUCCCAAGAGCCAU.UUCCCUAGACCGAAU..A.UA...GGAAUCGU
+Yersinia_pseudotuber.1             UCUCUCCCAAGAGCCAU.UUCCCUAGACCGAAU..AUCA...GGAAUCGU
+Vibrio_angustum_S14.1              UCUUACG..AGAGCCAU.UCCCCUAGGCCCGAG..A.CA...GGAGUCGU
+N.vitripennis.1                    UCUGCC...AGAGCCAU.UUCCCAAGGCCCGGU..A.AU...CGGAAUCU
+#=GC SS_cons                       <<<......>>>>>>.........<<<<<<<<<..<.<..........>>
+#=GC RF                            uCucUcccAaGaGCCAU.UUcccUgGaCCGaau..a.CA...GGAAUcGu
+
+Shewanella.1                       UUUGGGCCUUUUUUU
+Shewanella_woodyi_AT.1             UUUGGGUCUUUUUUU
+Shewanella_sediminis.1             UUUGGGUCUUUUUUU
+Shewanella_amazonens.1             UUUGGGCCUUUUUUU
+Shewanella_loihica_P.1             UUUGGGUCUUUUUUU
+Escherichia_coli_ATC.1             GUUCGGUCUCUUUUU
+Pectobacterium_atros.1             AUUCAGUCUUUUUUU
+Photorhabdus_lumines.1             ACUCGGCCUUUUUUU
+S.enterica.1                       AUUCGGUCUUUUUUU
+Salmonella_enterica_.1             AUUCGGUCUCUUUUU
+Serratia_proteamacul.1             AUUCGGUCUUUUUUU
+Shigella_sonnei_Ss04.1             AUUCGGUCUUUUUUU
+S.glossinidius.1                   AUUCGAUUUUUUUAU
+Yersinia_enterocolit.1             AUUCGGUCUCUUUUU
+Yersinia_intermedia_.1             AUUCGGUCUUUUUUU
+Yersinia_pseudotuber.1             AUUCGGUCUUUUUUU
+Vibrio_angustum_S14.1              UUCGGGCUAUUUUUU
+N.vitripennis.1                    ACCAGGCCUCUUUUU
+#=GC SS_cons                       >>>>>>>>>......
+#=GC RF                            auuCGGuCucUUUUU
+//

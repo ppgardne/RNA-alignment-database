@@ -1,0 +1,46 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-5
+#=GF AC    RF00854
+#=GF DE    microRNA mir-5
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    81.5
+#=GF PI    mir-4
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000309
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    6
+
+#=GS D.grimshawi.1     AC    AAPT01006453.1/3132-3204
+#=GS D.willistoni.1    AC    AAQB01006291.1/71193-71265
+#=GS D.simulans.1      AC    AASS01023484.1/3619-3686
+#=GS D.ananassae.1     AC    AAPP01018770.1/57095-57166
+#=GS D.pseudoobscura.1 AC    AADE01001895.1/3489-3560
+#=GS D.melanogaster.1  AC    AABU01002766.1/12601624-12601692
+
+D.grimshawi.1                 GCUAAAAGGAACGAUCGUUGUGAUAUGCGUUCAUUAAAUCGUUACAUAUC
+D.willistoni.1                GCUAAAAGGAACGAUCGUUGUGAUAUGCGUUAGAUUCACCGUUAUAUAUC
+D.simulans.1                  GCUAAAAGGAACGAUCGUUGUGAUAUGAGUUGUUC.....CCAACAUAUC
+D.ananassae.1                 GCUAAAAGGAACGAUCGUUGUGAUAUGCGUUUAUC.CCUCGUUACAUAUC
+D.pseudoobscura.1             GCUAAAAGGAACGAUCGUUGUGAUAUGCGUUAAUU.CACCGUUACAUAUC
+D.melanogaster.1              GCUAAAAGGAACGAUCGUUGUGAUAUGAGUUGUUU....CCUAACAUAUC
+#=GC SS_cons                  <<<<<<<<<<<.<<<<<<<<<<<<<<<.................>>>>>>
+#=GC RF                       gcuaaaaggaacgaucgcugugauaugaguuaauu.aaucguaAcauauc
+
+D.grimshawi.1                 ACAGUGAUUUUCCUUUAUAGCGC
+D.willistoni.1                ACAGUGAUUUUCCUUUAUAGCGC
+D.simulans.1                  ACAGUGAUUUUCCUUUAUAUCGC
+D.ananassae.1                 ACAGUGAUUUUCCUUUAUAACGC
+D.pseudoobscura.1             ACAGUGAUUUUCCUUUAUAGCGC
+D.melanogaster.1              ACAGUGAUUUUCCUUUAUAACGC
+#=GC SS_cons                  >>>>>>>>>>>>>>>>.>>>>..
+#=GC RF                       acagcgaucuuccuuuAuagcgc
+//

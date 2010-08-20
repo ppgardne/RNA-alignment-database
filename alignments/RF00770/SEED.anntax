@@ -1,0 +1,45 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-330
+#=GF AC    RF00770
+#=GF DE    microRNA mir-330
+#=GF AU    Wilkinson A
+#=GF GA    60.0
+#=GF NC    0.0
+#=GF TC    96.4
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000200
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    6
+
+#=GS E.telfairi.1           AC    AAIY01734125.1/577-673
+#=GS M.musculus.1           AC    CAAA01027766.1/2291-2387
+#=GS R.norvegicus.1         AC    AAHX01004186.1/15846-15942
+#=GS M.mulatta.1            AC    AANU01182576.1/213-309
+#=GS E.caballus.1           AC    AAWR02030508.1/26041-26139
+#=GS Dasypus_novemcinctus.1 AC    AAGV020131910.1/223-319
+
+E.telfairi.1                       GAUCUUGGGC.GAUCACUGCCUCUCUGGGCCUGUGUCUUAGGCUCUGC.G
+M.musculus.1                       ACCCUUUGGC.GAUCUCUGCCUCUAAGGGCCAGAGUCUUAGGCUCUUC.A
+R.norvegicus.1                     ACCCUUUGGC.GAUCUCUGCCUCUCUGGGCCUGUGUCUUAGGCUCUUC.A
+M.mulatta.1                        GAUCUUUGGC.GAUCACUGCCUCUCUGGGCCUGUGUCUUAGGCUCUGC.A
+E.caballus.1                       GAUCCUUGGCGUU.CACUGCCUCUCUGGGCCUGUGUCUUAGGCUCUUCAA
+Dasypus_novemcinctus.1             GAUCUUGGGC.GAUCACUGCCUCUCUGGGCCUGUGUCUUAGGCUCUGC.A
+#=GC SS_cons                       .......<<<.<<.<.<<<<<<<<<<<<<<<<<<<.<<<..<<<<.....
+#=GC RF                            aaucuuugGc.GaucacugccucucuGGGccuGuGucuuAgGcucuuc.A
+
+E.telfairi.1                       UGUUCGACCGAGC.AAAGCACACGGCCUGCAGAGAGCCAGCGCUCCGCUC
+M.musculus.1                       AGAUCCAUCGAGC.AAAGCACAGGGCCUGCAGAGAGGUAGCGCUCUGCUC
+R.norvegicus.1                     AGAUCUAACGAGC.AAAGCACAGGGCCUGCAGAGAGGUAGCGCUCUGCUC
+M.mulatta.1                        AGAUCAACCGAGC.AAAGCACACGGCCUGCAGAGAGGCAGCGCUCUGCCC
+E.caballus.1                       AGAUCAACCGAGCAAAAGCACACGGCCUGCAGAGAGGCAGCGCUGCGCUC
+Dasypus_novemcinctus.1             AGAUCAACCGAGC.AAAGCACACGGCCUGCAGAGAGCCAGCGCUGCGCUC
+#=GC SS_cons                       .........>>>>..>>>>>>>.>>>>..>>>>>>>>>>>.>.>>.>>>.
+#=GC RF                            AgAucaAucgagC.AaagCaCaaggCCugCagagaggcagcgcuCugCcc
+//

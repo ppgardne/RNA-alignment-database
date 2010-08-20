@@ -1,0 +1,56 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORA8
+#=GF AC    RF00393
+#=GF DE    Small nucleolar RNA SNORA8
+#=GF AU    Moxon SJ
+#=GF GA    29.0
+#=GF NC    28.1
+#=GF TC    29.1
+#=GF PI    snoACA8
+#=GF SE    Moxon SJ
+#=GF SS    Predicted; RNAFOLD; Moxon SJ
+#=GF TP    Gene; snRNA; snoRNA; HACA-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000594 SO:H_ACA_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Mus_musculus300972
+#=GF DR    snoopy; Homo_sapiens300373
+#=GF RN    [1]
+#=GF RM    15199136
+#=GF RT    Human box H/ACA pseudouridylation guide RNA machinery.
+#=GF RA    Kiss AM, Jady BE, Bertrand E, Kiss T;
+#=GF RL    Mol Cell Biol 2004;24:5797-5807.
+#=GF CC    ACA8 is a member of the H/ACA class of snoRNA that guide the sites of
+#=GF CC    modification of uridines to pseudouridines [1].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_SNORA8
+#=GF SQ    5
+
+#=GS H.sapiens.1 AC    AL365205.35/103138-103277
+#=GS H.sapiens.2 AC    AC007448.14/61858-61996
+#=GS H.sapiens.3 AC    Z77249.2/39964-40102
+#=GS H.sapiens.4 AC    AJ609454.1/1-139
+#=GS S.scrofa.1  AC    AJ236935.1/1357-1495
+
+H.sapiens.1             UGCAUUGCCAUGGUAUCUGCACUCAGUAGUUUAUUCCUGCU.GGGUGUCC
+H.sapiens.2             UGCACUGC.AUGGCAUCUGCACCCAGCAGUUUACUCUUGCUAAGGUGUUC
+H.sapiens.3             UGCACUGC.GUGGUAUCUGCACUCAGCAGUUUACUCCUGCUAGGGUGUUC
+H.sapiens.4             UGCACUGC.AUGGUAUCUGCACUCAGCAGUUUACACCUGCUAGGGUGUUC
+S.scrofa.1              UGCACUGC.AUGGUAUCUGCAUUCAGCAGUUUGUUCCUGCU.GGGUGUUC
+#=GC SS_cons            .<<<<<<.......<<<<<<<<<<<<<<<.......>>>>>.>>>>>>..
+
+H.sapiens.1             AAAGAUCAGUGCCAUAGAAAUUCAGUAUCUAGCAUCACUGAUUUUCUUGG
+H.sapiens.2             AAAGGUCAGUGCUAUAGAAAUUCAGUAUCUGGCAUCAUUGGUUUUCUUGA
+H.sapiens.3             AAAGGUCAGUGCCAUAGAAAUCCAGUAUCUGGUUUCAUUGGUUUUCUUGG
+H.sapiens.4             AAAGGUCAGUGCUAUAGAAAUUCAGUAUCUGGCAUCGUUGGUUUUCUUGG
+S.scrofa.1              AAAGAACAGUGCAAUAUAAAUUCAGUAUCUGGCAUCGUUGGUUUUCUUGG
+#=GC SS_cons            ..>>>>>>>>>>..<<<<<<<<<<<.....<<<<<...............
+
+H.sapiens.1             CUUUGUGCUUGUUAAAACUUGGUAUUUCUAUUGACACAGUA
+H.sapiens.2             CUUUGUGCUUGUUAA.ACCUAGUAUUUCUAUUGAUACAGUA
+H.sapiens.3             CUUUGUGCUUGUUAA.ACCUGGUAUUUCUAUUGAUACAGCA
+H.sapiens.4             CUUUGUGCUUGUUAA.ACCUGGUAUUUCUACUGAUACAGUA
+S.scrofa.1              CUUUGUGCAAGUUAAGACCUGGUAUUUCUACUGAUACAGUA
+#=GC SS_cons            ....>>>>>.........>>>>.>>>>>>>...........
+//

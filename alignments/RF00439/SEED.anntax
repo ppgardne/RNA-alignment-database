@@ -1,0 +1,79 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORD87
+#=GF AC    RF00439
+#=GF DE    Small nucleolar RNA SNORD87
+#=GF AU    Moxon SJ
+#=GF GA    34.0
+#=GF NC    34.0
+#=GF TC    35.8
+#=GF PI    U87
+#=GF SE    Moxon SJ, INFERNAL
+#=GF SS    Predicted; RNAalifold_manual; Daub J
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Loxodonta_africana300380
+#=GF DR    snoopy; Echinops_telfairi300138
+#=GF RN    [1]
+#=GF RM    12119114
+#=GF RT    U87 RNA, a novel C/D box small nucleolar RNA from mammalian cells.
+#=GF RA    Gogolevskaya IK, Makarova JA, Gause LN, Kulichkova VA, Konstantinova
+#=GF RA    IM, Kramerov DA;
+#=GF RL    Gene 2002;292:199-204.
+#=GF RN    [2]
+#=GF RM    12007400
+#=GF RT    Small nucleolar RNAs: an abundant group of noncoding RNAs with
+#=GF RT    diverse cellular functions.
+#=GF RA    Kiss T;
+#=GF RL    Cell 2002;109:145-148.
+#=GF RN    [3]
+#=GF RM    11387227
+#=GF RT    RNomics: an experimental approach that identifies 201 candidates for
+#=GF RT    novel, small, non-messenger RNAs in mouse.
+#=GF RA    Huttenhofer A, Kiefmann M, Meier-Ewert S, O'Brien J, Lehrach H,
+#=GF RA    Bachellerie JP, Brosius J;
+#=GF RL    EMBO J 2001;20:2943-2953.
+#=GF CC    U87 (HBII-276)  is a member of the C/D class of snoRNA which contain
+#=GF CC    the C (UGAUGA) and  D (CUGA) box motifs. Most of the members of the 
+#=GF CC    box C/D family function in directing site-specific 2'-O-methylation
+#=GF CC    of substrate RNAs [1].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_SNORD87
+#=GF SQ    9
+
+#=GS O.princeps.1           AC    AAYZ01273769.1/1476-1560
+#=GS C.porcellus.1          AC    AAKN02001154.1/7148-7232
+#=GS M.musculus.1           AC    AF357333.1/1-64
+#=GS M.musculus.2           AC    AF396686.1/578-664
+#=GS R.norvegicus.1         AC    AF272707.1/1-72
+#=GS R.norvegicus.2         AC    AF396685.1/1899-1983
+#=GS P.troglodytes.1        AC    AACZ02095517.1/4679-4767
+#=GS Otolemur_garnettii_s.1 AC    AAQR01698440.1/598-682
+#=GS B.taurus.1             AC    AAFC03063700.1/26016-26102
+
+O.princeps.1                       GCUGGCACAAUGAUGAC..UUG....AAUUUUUGCCGUUUACCCAGCUGA
+C.porcellus.1                      GCUGGCACAAUGAUGAC..AUA....AAUUUUUGCCGUUUACCCAGCAGA
+M.musculus.1                       ................C..UUA....AGUUUUUGCCGUUUACCCAGCUGA
+M.musculus.2                       GCUGGCACAAUGAUGAC..UUA....AGUUUUUGCCGUUUACCCAGCUGA
+R.norvegicus.1                     ......ACAAUGAUGAC..UUA....UGUUUUUGCCGUUUACCCAGCUGA
+R.norvegicus.2                     GCUGGCACAAUGAUGAC..UUA....UGUUUUUGCCGUUUACCCAGCUGA
+P.troglodytes.1                    GCUGGCACAAUGAUGAC..UUAAAUUACUUUUUGCCGUUUACCCAGCUGA
+Otolemur_garnettii_s.1             GCUGGCACAAUGAUGAC..UUA....AAUUUUUGCCGUUUACCCAGCUGA
+B.taurus.1                         ACUGGCACAGUGAUGACAAGUU....ACUUUUUGCCGUUUACCCAGCUGA
+#=GC SS_cons                       <<<<<<<...........................................
+#=GC RF                            gcuggcacAAUGAUGAC..UUA....aGUUUUUGCCGUUUACCCAGCuga
+
+O.princeps.1                       GGGUUUCUUUGAUGAAAUUACAUCAA..AACUGAGAUGCCAGU
+C.porcellus.1                      GGGUUUCUUUGAAGAAAUCAUUUUAA..GACUGAGAUGCCAGU
+M.musculus.1                       GUGUUUCUUUGAAGAGAGAAUCUUAAAAGACUGAGA.......
+M.musculus.2                       GUGUUUCUUUGAAGAGAGAAUCUUAAAAGACUGAGAUGCCAGC
+R.norvegicus.1                     GGGUUUCUUUGAAGAGAGAAUCUUAA..GACUGAGC.......
+R.norvegicus.2                     GGGUUUCUUUGAAGAGAGAAUCUUAA..GACUGAGCUGCCAGC
+P.troglodytes.1                    GGGUGUCUUUGAAGAAAUAAUUUUAA..GACUGAGAUGCCAGU
+Otolemur_garnettii_s.1             GGGUAUCUUUGAAGAAAUAAUUUUAA..GACUGAGAUGCCAGU
+B.taurus.1                         GGGUAUCUUUGAAGAAAUAACUUUAA..GACUGAGAUGCCAGU
+#=GC SS_cons                       ....................................>>>>>>>
+#=GC RF                            GuGuuuCuuUGAAgaGagaAUCuuaAAAGACUGAGaugccagc
+//

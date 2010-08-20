@@ -1,0 +1,2199 @@
+# STOCKHOLM 1.0
+#=GF ID    lsrR
+#=GF AC    RF01419
+#=GF DE    Antisense RNA which regulates isiA expression
+#=GF AU    Osuch I
+#=GF GA    52.0
+#=GF NC    51.9
+#=GF TC    52.0
+#=GF SE    Predicted; MAFFT
+#=GF SS    Predicted; PFOLD; Osuch I
+#=GF TP    Gene; antisense;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF RN    [1]
+#=GF RM    16636284
+#=GF RT    An internal antisense RNA regulates expression of the photosynthesis
+#=GF RT    gene isiA.
+#=GF RA    Duhring U, Axmann IM, Hess WR, Wilde A;
+#=GF RL    Proc Natl Acad Sci U S A. 2006;103:7054-7058.
+#=GF WK    http://en.wikipedia.org/wiki/Iron_stress_repressed_RNA
+#=GF SQ    309
+
+#=GS Crocosphaera_watsoni.1 AC    AADV02000027.1/29055-29232
+#=GS Crocosphaera_watsoni.2 AC    AADV02000249.1/1086-900
+#=GS Crocosphaera_watsoni.3 AC    AADV02000296.1/863-689
+#=GS Cyanothece.1           AC    AAXW01000009.1/79515-79701
+#=GS Cyanothece.2           AC    AAXW01000011.1/95089-94912
+#=GS Synechococcus_elonga.1 AC    AP008231.1/968997-969183
+#=GS Synechococcus.1        AC    CT978603.1/1481140-1480954
+#=GS Synechococcus.2        AC    CP000435.1/817015-817201
+#=GS Synechococcus.3        AC    AANP01000004.1/315982-315796
+#=GS Synechococcus.4        AC    AAOK01000004.1/203251-203065
+#=GS Synechococcus.5        AC    CP000110.1/1811437-1811251
+#=GS Synechococcus.6        AC    CP000239.1/2624256-2624432
+#=GS Synechococcus.7        AC    CT971583.1/1514899-1514713
+#=GS Synechococcus.8        AC    CP000239.1/2366571-2366385
+#=GS Synechococcus_elonga.2 AC    M23639.1/790-613
+#=GS Synechococcus.9        AC    AAUA01000001.1/229102-228916
+#=GS Synechococcus.10       AC    CP000240.1/887341-887527
+#=GS Synechococcus.11       AC    M88253.1/955-778
+#=GS Synechococcus.12       AC    AATZ01000001.1/613782-613596
+#=GS Synechococcus.13       AC    CP000239.1/2622597-2622774
+#=GS Synechococcus.14       AC    BX569690.1/313391-313577
+#=GS Synechococcus.15       AC    CP000240.1/2372203-2372380
+#=GS Synechococcus.16       AC    AANO01000002.1/64718-64532
+#=GS Synechocystis.1        AC    L26530.1/691-514
+#=GS Synechocystis.2        AC    BA000022.2/1348259-1348445
+#=GS Thermosynechococcus_.1 AC    BA000039.2/1704142-1703956
+#=GS Thermosynechococcus_.2 AC    BA000039.2/1089797-1089620
+#=GS Gloeobacter_violaceu.1 AC    BA000045.2/2489488-2489287
+#=GS Anabaena.1             AC    L21858.1/896-719
+#=GS Anabaena_variabilis_.1 AC    CP000117.1/1530930-1530744
+#=GS A.elenkinii.1          AC    AJ311687.1/555-378
+#=GS Nodularia_spumigena_.1 AC    AAVW01000085.1/19826-20012
+#=GS Nodularia_spumigena_.2 AC    AAVW01000010.1/864-687
+#=GS Nodularia_spumigena_.3 AC    AAVW01000010.1/6331-6154
+#=GS Nodularia_spumigena_.4 AC    AAVW01000010.1/1904-1727
+#=GS Nostoc.1               AC    BA000019.2/4822586-4822763
+#=GS Nostoc.2               AC    BA000019.2/4818079-4818256
+#=GS Nostoc_punctiforme_P.1 AC    CP001037.1/4582747-4582933
+#=GS L.lagerheimii.1        AC    AJ311685.1/544-367
+#=GS Lyngbya.1              AC    AAVU01000074.1/448-262
+#=GS Trichodesmium_erythr.1 AC    CP000393.1/3826703-3826529
+#=GS Trichodesmium_erythr.2 AC    CP000393.1/817039-816853
+#=GS Trichodesmium_erythr.3 AC    CP000393.1/3828100-3827923
+#=GS Trichodesmium_erythr.4 AC    CP000393.1/3829197-3829020
+#=GS Trichodesmium_erythr.5 AC    CP000393.1/2534646-2534823
+#=GS uncul.Oscil.cyano.1    AC    AJ311683.1/544-367
+#=GS uncul.Oscil.cyano.2    AC    AJ311684.2/544-367
+#=GS Stanieria.1            AC    AJ311682.1/544-367
+#=GS P.didemni.1            AC    AY552464.1/1859-1685
+#=GS P.didemni.2            AC    AY552464.1/3103-2929
+#=GS P.didemni.3            AC    Z72475.1/571-394
+#=GS Prochlorococcus_mari.1 AC    CP000552.1/1163838-1163655
+#=GS Prochlorococcus_mari.2 AC    BX548175.1/1271393-1271207
+#=GS uncul.Proch.marin.cl.1 AC    DQ366716.1/6989-6806
+#=GS Prochlorococcus_mari.3 AC    CP000553.1/1315546-1315363
+#=GS Prochlorococcus_mari.4 AC    AF354643.1/1714-1531
+#=GS Prochlorococcus_mari.5 AC    CP000111.1/1169482-1169299
+#=GS uncul.Proch.marin.cl.2 AC    DQ366718.1/24210-24393
+#=GS P.hollandica.1         AC    X97043.1/910-733
+#=GS P.scandica.1           AC    AJ534947.1/502-328
+#=GS P.hollandica.2         AC    U40144.1/1724-1538
+#=GS P.hollandica.3         AC    X97043.1/2155-1978
+#=GS F.muscicola.1          AC    AJ296146.1/583-406
+#=GS F.muscicola.2          AC    AJ295840.2/571-394
+#=GS uncult._cyanobacteri.1 AC    AJ311691.1/541-367
+#=GS uncult._cyanobacteri.2 AC    AJ582999.1/527-350
+#=GS uncult._cyanobacteri.3 AC    AJ311694.1/544-367
+#=GS uncult._cyanobacteri.4 AC    AJ311688.1/541-367
+#=GS K.mikimotoi.1          AC    AB158788.1/515-329
+#=GS K.brevis.1             AC    AB158787.1/515-329
+#=GS K.brevis.2             AC    AY876223.1/499-313
+#=GS P.foliaceum.1          AC    AY876222.1/466-280
+#=GS G.theta.1              AC    AF041468.1/14421-14607
+#=GS R.salina.1             AC    EF508371.1/16590-16776
+#=GS R.abbreviata.1         AC    AY876214.1/499-313
+#=GS C.paradoxa.1           AC    U30821.1/99448-99262
+#=GS G.nostochinearum.1     AC    AY876226.1/499-313
+#=GS Isochrysis.1           AC    AY876216.1/394-208
+#=GS E.huxleyi.1            AC    AY741371.1/66479-66665
+#=GS P.gyrans.1             AC    AY876217.1/499-313
+#=GS P.lutheri.1            AC    AY876218.1/499-313
+#=GS Pavlova.1              AC    AB158791.1/515-329
+#=GS B.natans.1             AC    DQ851108.1/5527-5341
+#=GS B.atropurpurea.1       AC    AY876202.1/499-313
+#=GS P.yezoensis.1          AC    AP006715.1/145620-145806
+#=GS P.purpurea.1           AC    U38804.1/144840-145026
+#=GS C.merolae.1            AC    AY286123.1/11511-11697
+#=GS Cyanidium.1            AC    AY876204.1/499-313
+#=GS C.caldarium.1          AC    AF022186.2/2628-2442
+#=GS C.caldarium.2          AC    X62578.1/2940-2754
+#=GS G.sulphuraria.1        AC    AY876207.1/499-313
+#=GS G.maxima.1             AC    AY876205.1/472-286
+#=GS C.caeruleus.1          AC    AY876203.1/499-313
+#=GS R.violacea.1           AC    DQ308461.1/469-283
+#=GS C.crispus.1            AC    AY876210.1/499-313
+#=GS G.tenuistipitata.1     AC    AY673996.1/37840-37654
+#=GS P.palmata.1            AC    AY876211.1/499-313
+#=GS R.marinus.1            AC    AY876208.1/499-313
+#=GS S.helveticum.1         AC    DQ630521.1/24745-24575
+#=GS C.moewusii.1           AC    M90639.1/768-597
+#=GS C.reinhardtii.1        AC    AB044528.1/373-187
+#=GS C.raudensis.1          AC    DQ196176.1/601-415
+#=GS C.debaryana.1          AC    AB044527.1/373-187
+#=GS V.ordinata.1           AC    AB044529.1/373-187
+#=GS T.socialis.1           AC    AB044525.1/373-187
+#=GS E.elegans.1            AC    AB044486.1/373-187
+#=GS G.pectorale.1          AC    AB044521.1/373-187
+#=GS G.octonarium.1         AC    AB044520.1/373-187
+#=GS G.multicoccum.1        AC    AB044481.1/354-187
+#=GS G.multicoccum.2        AC    AB076171.2/473-287
+#=GS G.quadratum.1          AC    AB044522.1/373-187
+#=GS G.viridistellatum.1    AC    AB044524.1/373-187
+#=GS L.monstruosa.1         AC    AB044530.1/373-187
+#=GS P.morum.1              AC    AB044510.1/373-187
+#=GS P.colemaniae.1         AC    AB044512.1/373-187
+#=GS P.morum.2              AC    AB044505.1/373-187
+#=GS P.morum.3              AC    AB044508.1/373-187
+#=GS P.morum.4              AC    AB044509.1/373-187
+#=GS P.caudata.1            AC    AB044494.1/373-187
+#=GS P.thompsonii.1         AC    AB214413.1/373-187
+#=GS P.starrii.1            AC    AB214434.1/373-187
+#=GS P.californica.1        AC    AB044480.1/373-187
+#=GS V.tertius.1            AC    AB086178.1/373-187
+#=GS V.barberi.1            AC    AB044477.1/373-187
+#=GS V.dissipatrix.1        AC    AB214423.1/373-187
+#=GS V.powersii.1           AC    AB214418.1/373-187
+#=GS V.boldii.1             AC    AB044504.1/373-187
+#=GS V.steinii.1            AC    AB044501.1/373-187
+#=GS V.pringsheimii.1       AC    AB044499.1/373-187
+#=GS V.compacta.1           AC    AB044498.1/373-187
+#=GS Y.unicocca.1           AC    AB044496.1/373-187
+#=GS Y.unicocca.2           AC    AB044497.1/373-187
+#=GS E.viridis.1            AC    AF481843.1/506-320
+#=GS S.obliquus.1           AC    DQ396875.1/676-862
+#=GS O.viridis.1            AC    DQ291132.1/126619-126433
+#=GS O.tauri.1              AC    CR954199.2/786-972
+#=GS N.olivacea.1           AC    AF137379.1/46146-45960
+#=GS C.vulgaris.1           AC    AB001684.1/33956-34142
+#=GS L.terrestris.1         AC    EF506945.1/54725-54539
+#=GS K.sempervirens.1       AC    AF481845.1/506-320
+#=GS P.akinetum.1           AC    AY835431.1/93748-93575
+#=GS C.strigosa.1           AC    AF481839.1/506-320
+#=GS N.flexilis.1           AC    AF481847.1/506-320
+#=GS N.obtusa.1             AC    AF481848.1/506-320
+#=GS C.atmophyticus.1       AC    DQ422812.2/3560-3374
+#=GS C.globosum.1           AC    AF481837.1/506-320
+#=GS C.nitellarum.1         AC    AF481841.1/506-320
+#=GS A.formosae.1           AC    AB086179.1/51677-51491
+#=GS P.patens.1             AC    AP005672.1/42864-43050
+#=GS M.polymorpha.1         AC    X04465.1/40500-40314
+#=GS S.uncinata.1           AC    AB197035.2/120737-120551
+#=GS H.lucidula.1           AC    AY660566.1/54262-54448
+#=GS Adiantum_capillus-ve.1 AC    AY178864.1/32150-32336
+#=GS A.evecta.1             AC    DQ821119.1/40660-40846
+#=GS P.nudum.1              AC    AP004638.1/36026-36212
+#=GS A.australis.1          AC    AF528919.2/1566-1380
+#=GS A.bidwillii.1          AC    AY664840.1/1566-1380
+#=GS W.cedarbergensis.1     AC    AF528943.1/1566-1380
+#=GS C.deodara.1            AC    AF462401.1/1566-1380
+#=GS P.chinensis.1          AC    AF462407.1/1566-1380
+#=GS S.conspicua.1          AC    AY664839.1/1566-1380
+#=GS S.verticillata.1       AC    AF239793.1/1566-1380
+#=GS T.brevifolia.1         AC    AF525948.2/1566-1380
+#=GS T.californica.1        AC    AY664841.1/1566-1380
+#=GS M.moorei.1             AC    AY699173.1/1566-1380
+#=GS G.biloba.1             AC    DQ069644.1/637-451
+#=GS E.sinica.1             AC    AF239780.1/1566-1380
+#=GS G.parvifolium.1        AC    AB295926.1/637-451
+#=GS W.mirabilis.1          AC    AF239796.1/1255-1069
+#=GS C.demersum.1           AC    AF123817.1/1563-1377
+#=GS A.americanus.1         AC    DQ069643.1/601-415
+#=GS S.latifolia.1          AC    AF239789.1/1567-1381
+#=GS A.textile.1            AC    AY147675.1/1566-1380
+#=GS A.monspeliensis.1      AC    AY147676.1/1566-1380
+#=GS A.endlicheri.1         AC    AY147658.1/1566-1380
+#=GS P.tenax.1              AC    AY147671.1/1566-1380
+#=GS I.missouriensis.1      AC    AY147667.1/1566-1380
+#=GS A.stylidioides.1       AC    AY705211.1/813-627
+#=GS C.lindleyana.1         AC    AY705208.1/760-574
+#=GS C.septentrionalis.1    AC    AY705210.1/782-592
+#=GS S.romanzoffiana.1      AC    AY363056.1/538-352
+#=GS E.cassythoides.1       AC    AY705177.1/827-641
+#=GS C.rosea.1              AC    AY705203.1/827-641
+#=GS D.adolphii.1           AC    AY705207.1/813-627
+#=GS I.medeoloides.1        AC    AY705196.1/827-641
+#=GS P.minor.1              AC    AY705204.1/827-641
+#=GS Epistephium.1          AC    AY705192.1/827-641
+#=GS V.imperialis.1         AC    AY705179.1/806-620
+#=GS V.inodora.1            AC    AY705186.1/811-625
+#=GS X.resinosa.1           AC    AY147673.1/1566-1380
+#=GS P.bogneri.1            AC    AY147652.1/1566-1380
+#=GS X.caeruleum.1          AC    AY147657.1/1566-1380
+#=GS H.gardneri.1           AC    AY147650.1/1566-1380
+#=GS B.capitata.1           AC    AY147641.1/1566-1380
+#=GS D.elephantipes.1       AC    EF380353.1/34286-34100
+#=GS N.ossifragum.1         AC    AY147642.1/1566-1380
+#=GS L.radicans.1           AC    AY465679.1/1566-1380
+#=GS A.elegans.1            AC    AY147645.1/1566-1380
+#=GS T.grandiflorum.1       AC    AY465687.1/1566-1380
+#=GS C.monogyna.1           AC    EF153938.1/770-584
+#=GS C.papyrus.1            AC    AY465664.1/1566-1380
+#=GS E.monostachya.1        AC    AY465665.1/1512-1326
+#=GS M.fluviatilis.1        AC    AY147651.1/1566-1380
+#=GS O.sativa.1             AC    AC136521.2/141575-141389
+#=GS S.cereale.1            AC    X13366.1/1942-1756
+#=GS X.jupicai.1            AC    AY465671.1/1565-1379
+#=GS T.glutinosa.1          AC    AY147640.1/1566-1380
+#=GS T.elegans.1            AC    AY147655.1/1566-1380
+#=GS S.reginae.1            AC    AY465670.1/1566-1380
+#=GS A.trichopoda.1         AC    AJ506156.2/39473-39287
+#=GS I.parviflorum.1        AC    AF123823.1/1561-1375
+#=GS T.moorei.1             AC    AY116657.1/1566-1380
+#=GS C.caroliniana.1        AC    AF123815.1/1566-1380
+#=GS T.submersa.1           AC    EF153940.1/1509-1323
+#=GS B.microphylla.1        AC    EF380351.1/37258-37072
+#=GS H.canadensis.1         AC    AF239782.1/1536-1350
+#=GS P.americana.1          AC    AF528934.1/1566-1380
+#=GS Rheum_x_hybridum_gar.1 AC    AF239787.1/1573-1387
+#=GS G.chilensis.1          AC    AF239781.1/1566-1380
+#=GS V.vinifera.1           AC    CAAP02008422.1/10323-10143
+#=GS V.vinifera.2           AC    AM430133.2/11786-11596
+#=GS V.vinifera.3           AC    CAAP02000115.1/102245-102410
+#=GS V.vinifera.4           AC    AM444593.1/967-773
+#=GS V.vinifera.5           AC    DQ424856.1/37749-37563
+#=GS V.vinifera.6           AC    CAAP02002659.1/39670-39846
+#=GS V.vinifera.7           AC    AM423539.2/7314-7144
+#=GS V.vinifera.8           AC    AM447437.2/1214-1028
+#=GS H.annuus.1             AC    DQ383815.1/34141-33955
+#=GS C.sandwichiana.1       AC    AY936348.1/4464-4650
+#=GS A.belladonna.1         AC    AJ316582.1/35870-35684
+#=GS Pelargonium_x_hortor.1 AC    DQ897681.1/47242-47056
+#=GS O.glazioviana.1        AC    EU262890.1/30623-30809
+#=GS E.alatus.1             AC    AF528926.1/1566-1380
+#=GS C.arietinum.1          AC    AC145820.20/98759-98573
+#=GS L.japonicus.1          AC    AP002983.1/26804-26990
+#=GS L.japonicus.2          AC    AP004950.1/14873-14693
+#=GS Glycine_max_soybean.1  AC    DQ317523.1/26456-26642
+#=GS R.communis.1           AC    AASG02001643.1/33662-33473
+#=GS R.communis.2           AC    AASG02001249.1/17499-17692
+#=GS R.communis.3           AC    AASG02000597.1/43226-43418
+#=GS R.communis.4           AC    AASG02002677.1/23030-22834
+#=GS P.trichocarpa.1        AC    AARH01011413.1/13675-13504
+#=GS P.trichocarpa.2        AC    AARH01003324.1/43325-43492
+#=GS P.alba.1               AC    AP008956.1/34089-33903
+#=GS P.trichocarpa.3        AC    AARH01007846.1/112985-112801
+#=GS H.lupulus.1            AC    AB112503.1/509-323
+#=GS B.rapa.1               AC    AC189190.1/42758-42944
+#=GS C.papaya.1             AC    AM778096.1/110672-110487
+#=GS C.papaya.2             AC    AM778094.1/95027-95203
+#=GS C.papaya.3             AC    AM778094.1/179256-179070
+#=GS C.papaya.4             AC    EF625817.1/84496-84311
+#=GS C.sinensis.1           AC    DQ864733.1/37438-37249
+#=GS H.peltata.1            AC    AF528929.1/1566-1380
+#=GS A.macrophylla.1        AC    AF528920.1/1566-1380
+#=GS S.cernuus.1            AC    AF123826.1/1564-1378
+#=GS K.flaccidum.1          AC    AF481844.1/506-320
+#=GS M.viride.1             AC    AF166114.1/1991-1805
+#=GS S.punctulatum.1        AC    AY958085.1/116464-116278
+#=GS M.scalaris.1           AC    AF481846.1/506-320
+#=GS Spirogyra.1            AC    AF481849.1/506-320
+#=GS Z.circumcarinatum.1    AC    AY958086.1/47888-48074
+#=GS P.tricornutum.1        AC    EF067920.1/13993-14179
+#=GS O.sinensis.1           AC    Z67753.1/87948-88134
+#=GS S.costatum.1           AC    AY876221.1/469-283
+#=GS T.pseudonana.1         AC    EF067921.1/53541-53355
+#=GS P.littoralis.1         AC    AY876220.1/511-313
+#=GS H.akashiwo.1           AC    AY876219.1/499-313
+#=GS marine_metag.1         AC    AACY021985367.1/611-797
+#=GS marine_metag.2         AC    AACY022527936.1/460-277
+#=GS marine_metag.3         AC    AACY021436835.1/668-854
+#=GS marine_metag.4         AC    AACY020480390.1/813-630
+#=GS marine_metag.5         AC    AACY020159117.1/712-895
+#=GS marine_metag.6         AC    AACY022173898.1/421-235
+#=GS marine_metag.7         AC    AACY021136096.1/554-371
+#=GS marine_metag.8         AC    AACY023403422.1/907-1089
+#=GS marine_metag.9         AC    AACY020552557.1/3347-3530
+#=GS marine_metag.10        AC    AACY020050500.1/1276-1090
+#=GS marine_metag.11        AC    AACY023410220.1/156-339
+#=GS marine_metag.12        AC    AACY023917498.1/775-592
+#=GS marine_metag.13        AC    AACY021133897.1/1-184
+#=GS marine_metag.14        AC    AACY020225090.1/429-612
+#=GS marine_metag.15        AC    AACY022579995.1/687-870
+#=GS marine_metag.16        AC    AACY022034783.1/357-174
+#=GS marine_metag.17        AC    AACY021296091.1/647-830
+#=GS marine_metag.18        AC    AACY020698291.1/240-423
+#=GS marine_metag.19        AC    AACY022678378.1/540-723
+#=GS marine_metag.20        AC    AACY023852583.1/568-382
+#=GS marine_metag.21        AC    AACY021969765.1/456-270
+#=GS marine_metag.22        AC    AACY023496171.1/1091-1274
+#=GS marine_metag.23        AC    AACY020415043.1/351-537
+#=GS marine_metag.24        AC    AACY021940540.1/50-233
+#=GS marine_metag.25        AC    AACY021330979.1/630-447
+#=GS marine_metag.26        AC    AACY023613948.1/187-4
+#=GS marine_metag.27        AC    AACY020164518.1/511-694
+#=GS marine_metag.28        AC    AACY023522437.1/279-96
+#=GS marine_metag.29        AC    AACY020889377.1/1-171
+#=GS marine_metag.30        AC    AACY020865073.1/554-371
+#=GS marine_metag.31        AC    AACY022673157.1/742-556
+#=GS marine_metag.32        AC    AACY020459449.1/1080-1266
+#=GS marine_metag.33        AC    AACY023525685.1/1017-1203
+#=GS marine_metag.34        AC    AACY021756203.1/399-585
+#=GS marine_metag.35        AC    AACY021388426.1/341-158
+#=GS marine_metag.36        AC    AACY023137906.1/312-495
+#=GS marine_metag.37        AC    AACY022982591.1/603-420
+#=GS marine_metag.38        AC    AACY021151713.1/364-178
+#=GS marine_metag.39        AC    AACY023396835.1/453-636
+#=GS marine_metag.40        AC    AACY021880462.1/651-834
+#=GS marine_metag.41        AC    AACY020141787.1/783-966
+#=GS marine_metag.42        AC    AACY020078041.1/1064-878
+
+Crocosphaera_watsoni.1             GAUAGCCAU.AGAUCACU.AAGGGAUCUAAGG...UGGGUUG....GGUU
+Crocosphaera_watsoni.2             GAUAGCCGA.AAAUAAUU.GCGGGGUUCAAAG...UAGGAUU....AGUA
+Crocosphaera_watsoni.3             GAUAGCCAA.AAAUGCGG.AUUGGGUCUAAAU...UUGGUUC.......A
+Cyanothece.1                       GAUAGCCGA.AGAUAAUU.GCGGGGUUAAGGG...UAGGGUU....AGUA
+Cyanothece.2                       GAUAACCGU.AGAUAACU.AAGGGGUCUAAAG...UGGGUUG....AGUC
+Synechococcus_elonga.1             GGUAGCCGA.AGAUCACA.GCCGGGUUGAGGG...UUGGGUU....GGAG
+Synechococcus.1                    GAUAACCGA.AGAUCACA.CCAGGGCUGAGGG...UGGGGUU....CGUG
+Synechococcus.2                    AAUAACCAA.AGAUCACA.CCUGGAUCAAGAG...UUGGAUU....CGUG
+Synechococcus.3                    GAUAACCGA.AGAUCACA.CCGGGAUCGAGGG...UGGGGUU....GGUG
+Synechococcus.4                    GAUAACCGA.AGAUCACA.CCGGGAUCAAGCG...UUGGGUU....GGUG
+Synechococcus.5                    GGUAGCCGA.AGAUCACG.CCCGGAUCGAGGG...UCGGGUU....AGUG
+Synechococcus.6                    UAUGCCCAACAGGUGGCC.AAAGGGGUUCCAG...UUGG..G....AGAC
+Synechococcus.7                    GAUAACCGA.AGAUCACG.CCAGGAUCCAGGG...UGGGAUU....GGUG
+Synechococcus.8                    GGUAGCCGA.AGAUGACC.GCCGGGUUGAGCG...UGGGGUU....GGUG
+Synechococcus_elonga.2             GAUAACCAU.AAAUGACC.GCUGGAUUAAGCG...UCGGUUG....UGUU
+Synechococcus.9                    GAUAACCGA.AGAUCACA.CCGGGAUUCAGGG...UGGGGUU....GGUG
+Synechococcus.10                   AGUAGCCGA.AGAUCACA.GCGGGGUUCAAGG...UGGGGUU....GGUA
+Synechococcus.11                   GAUACCCGU.AGAUCACC.GCCGGAUCGAGGG...UCGGCUC....UGUA
+Synechococcus.12                   GAUAACCGA.AGAUCACG.CCAGGGUCGAGGG...UGGGGUU....CGUG
+Synechococcus.13                   GGUAGGCAA.AGAUCCGC.AGCGGAUUGAGGG...UGGGAUC....CGUA
+Synechococcus.14                   GAUAACCGA.AGAUCACG.CCCGGAUCGAGAG...UCGGGUU....GGUG
+Synechococcus.15                   GGUAGGCAA.AGAUCCGC.AGCGGAUUGAGGG...UGGGAUC....CGCA
+Synechococcus.16                   GAUAACCGA.AGAUCACA.CCCGGAUCAAGGG...UGGGGUU....GGUG
+Synechocystis.1                    GAUAACCAU.AAAUAACC.AAAGGAUCUAAUG...UUGGCUG....ACUG
+Synechocystis.2                    GAUAGCCGA.AGAUAAUC.GCCGGGUUGAGGG...UGGGGUU....AGUG
+Thermosynechococcus_.1             GAUAGCCAA.AAAUUACC.CUUGGGUCAAGGG...UGGGGUU....GGUA
+Thermosynechococcus_.2             GAUAGCCAU.AGAUGACA.AAGGGAUCCAACG...UGGGCUG....GGUU
+Gloeobacter_violaceu.1             CGUAGCCGA.AGAUGACC.GUCGGGUCGAGGG...UCGGAUU....GGUG
+Anabaena.1                         GAUAGCCAU.AGAUAACA.AAGGGGUUGAGGG...UGGGAUG....GUUA
+Anabaena_variabilis_.1             AAUAACCGA.AGAUUACA.GCUGGGUUCAGUG...UGGGAUU....AGUA
+A.elenkinii.1                      GAUAGCCAU.AAAUCACA.AAGGGCUUAACAG...UGCCCUC....AGUA
+Nodularia_spumigena_.1             AAUAACCGA.AGAUUACA.GCAGGGUUUAAUG...UUGGGUU....AGUA
+Nodularia_spumigena_.2             GAUAGCCAA.AAAUCACG.GUAGAAUUCCAGG...UAGGGUG....AGAA
+Nodularia_spumigena_.3             AGUAGCCAA.AAAUUGUC.AUCGGCUCCAAAU...UGGGAUU....ACUA
+Nodularia_spumigena_.4             GAUAGCCAA.AUAUCCGA.CCAGGGUUUAGAG...UUGGUUC....AGUA
+Nostoc.1                           GGUAGCUAA.AAAUAGUU.GCAAAGUUCCAAG...UCGGAUG....AGAA
+Nostoc.2                           AAUAACCGA.AAAUUAUG.CCUGGGUUAAGAG...UAGGGUU....AGUA
+Nostoc_punctiforme_P.1             CAUAACCGA.AGAUAACU.GCUGGGUUCAAUG...UGGGAUU....GGUA
+L.lagerheimii.1                    GAUAGCCAU.AAAUGACC.GCUGGAUUCAGGG...UGGGUUC....GGUU
+Lyngbya.1                          GAUAACCGA.AGAUCACA.GCCGGGUUCAAUG...UGGGGUU....AUUG
+Trichodesmium_erythr.1             GAUAGCCGA.AAAUUCUG.ACAGGAUUUAGGU...UUGGCUG.......U
+Trichodesmium_erythr.2             GAUAACCAA.AUAUAACA.GCAGGAUUCAAAG...UAGGGUU....AGUA
+Trichodesmium_erythr.3             AGUAGCCGA.AAAUGGUU.GUGGGGUUCAAAG...UUGGAUC....GUAA
+Trichodesmium_erythr.4             GGUACCCGA.AGAUAGUU.UGUGGAUUCAGAG...UUGGUUC....AGUA
+Trichodesmium_erythr.5             GAUAUCCAU.AUAUUACC.AAUGGAUCGAGAG...UGGGAUU....UGUU
+uncul.Oscil.cyano.1                GAUACCCAU.AGAUGACA.AAGGGAUCGAGAG...UAGGACU....UGUU
+uncul.Oscil.cyano.2                GAUAGCCAU.AAAUCACG.GCUGGACUCAGGG...UAGGUUC....GGUC
+Stanieria.1                        GAUAACCAA.AAAUGGUU.GCAGGAUUUAAAG...UAGGGUC....GGUA
+P.didemni.1                        GAUACCCAA.AGAUUGUA.AAUGGGUUAAGAG...UUGGGCU....AGUA
+P.didemni.2                        UGUAGCCUA.ACAAAGGA.AAAGGAUUGAGAG...UGGGACU.......C
+P.didemni.3                        GAUAACCAU.AAAUAACU.GCUGGAUUGAGAG...UUGGGCC....UGUC
+Prochlorococcus_mari.1             GAUAACCAA.GGAUAACU.CUAGGAUCAAGUG...UUGGGUU.......G
+Prochlorococcus_mari.2             CGUAUCCAA.AGAUCACG.CCUGGAUCAAGUG...UGGGGCU....GGUG
+uncul.Proch.marin.cl.1             GAUAACCAA.GAAUAACU.CUUGGAUCUAAAG...UUGGGUU.......U
+Prochlorococcus_mari.3             GAUAUCCAA.AAAUAAUU.CUUGGAUCGAGUG...UUGGGUU.......G
+Prochlorococcus_mari.4             GAUAACCAA.GUAUUACU.CUUGGAUCUAAAG...UUGG.......ACUA
+Prochlorococcus_mari.5             GAUAACCAA.GAAUAACC.CUUGGAUCUAAUG...UUGGAUU.......G
+uncul.Proch.marin.cl.2             GAUAACCAA.GAAUAACU.CUUGGAUCUAAAG...UUGGAUU.......A
+P.hollandica.1                     CGUACUCAA.ACAGGACG.GACAGGAUGGUGGCACCGGGGUU....GGUA
+P.scandica.1                       CAUAGCCGA.AGAUAUCA.GCCGGGUUUAGGU...UGGG.......AGAU
+P.hollandica.2                     GGUAACCGA.AGAGAACA.CUGGGGCUAAGGG...UGGGGUU....GGUG
+P.hollandica.3                     CAUACUCAA.AAAUAACG.GAGAGAAUGGUGGCACCGGGGUU....AGAG
+F.muscicola.1                      AGUAGCUAA.AAAUAGUC.AUUGGAUCAAAAG...UUGGAUU....GGUA
+F.muscicola.2                      GAUAGCCAA.AGAUGAUA.AAUGGAUUGAGAG...UAGGUUC....AGUA
+uncult._cyanobacteri.1             GAUACCCGU.AAAUCACC.AAUGGGUCAAGCG...UGGGUUG.......C
+uncult._cyanobacteri.2             GAUAGCCAU.AGAUAACC.CAAGGAUCGAGGG...UUGGUUC....ACUA
+uncult._cyanobacteri.3             GAUAGCCAU.AGAUCACA.AAAGGAUUGAGAG...UUGGUUC....AGUU
+uncult._cyanobacteri.4             GGUAGCCGU.AGAUCACC.CAGGGAUCGAGGG...UGGGCUG.......C
+K.mikimotoi.1                      UAUAGUUAA.AUAUGAUA.ACAGGAGCUAUUG...UUGGGGA....UGCU
+K.brevis.1                         CAUAAUUAG.CUAUUAUU.AUAGGAUUUAGGG...UCGGUGC....UGUA
+K.brevis.2                         CAUAAUUAG.CUAUUAUU.AUAGGAUUUAGAG...UUGGUUU....UAUA
+P.foliaceum.1                      CGUAACCAA.AAAUUACA.AUUGGGUUUAAUG...UUGGUGU....UGUA
+G.theta.1                          CAUAACCAA.AUAUAACA.GCUGGAUUUAAAG...UUGGAUU....AUCA
+R.salina.1                         CGUAUCCAA.UGAUUACU.ACAGGAUUUAAUG...UUGGGUU....GUCA
+R.abbreviata.1                     CAUAUCCGA.UGAUUACA.ACAGGGUUUAAAG...UAGGAUU....AUCG
+C.paradoxa.1                       UAUAACUAA.AAAUUACU.GUUGGGUUUAAUG...UUGGAUU....ACUA
+G.nostochinearum.1                 AAUAACCAA.AGAUUACU.UGUGGAUUUAAGG...UGGGGUU....ACUU
+Isochrysis.1                       CAUAACCGA.AAAUGAUU.AAAGGGUUUAAUG...UCGGAGC....UGUA
+E.huxleyi.1                        CAUAACCAA.AAAUGAUU.AAAGGGUUUAACG...UAGGAGC....UGAG
+P.gyrans.1                         CAUAGUUGA.AAAUAGCA.CCUGGGUUUAAAG...UAGGGUU....AGCU
+P.lutheri.1                        CAUAGUUAA.AUAUUGCA.CCUGGAUUUAAGG...UUGGAUU....AGGU
+Pavlova.1                          CAUAGUUGA.AGAUAGCA.CCUGGGUUUAGUG...UUGGGUU....UGUU
+B.natans.1                         AAUAACCAA.AAAUAGUA.GCAGGACUAAUAG...UUGCGUC....AGUA
+B.atropurpurea.1                   CAUAGCCAA.AAAUAACU.AAUGGAUUAAGAG...UUGGAUU....ACUC
+P.yezoensis.1                      CAUAACCAA.AGAUAACU.AGGGGAUUAAGUG...UAGGAUU....GCUA
+P.purpurea.1                       CAUAGCCAA.AUAUAACU.AAAGGAUUAAGAG...UAGGGUU....GCUC
+C.merolae.1                        AAUAACGAA.AGAUUAUA.GCUGGAUUUAGUG...UUGGAUU....UGAG
+Cyanidium.1                        AGUAUCCAA.AGAUAAUG.GCUGGGUUUAAUG...UUGGAGU....UGAA
+C.caldarium.1                      GAUAGCUAA.AAAUAAUU.GCUGGAUUUAAUG...UUGGAUU....AGUA
+C.caldarium.2                      GAUAGCCAA.AAAUUACU.AAUGGAUUUAGGG...UUGGAUU....AUUG
+G.sulphuraria.1                    GAUAUCCAA.AAAUUAUU.AAUGGAUUUAAGG...UUGGAUU....AGUG
+G.maxima.1                         GGUAUCGAA.AGAUAAUC.GCUGGAUUUAAUG...UCGGAUU....AGAG
+C.caeruleus.1                      GAUAGCCAA.AAAUUACA.GCUGGAUUUAAAG...UAGGAUU....ACUA
+R.violacea.1                       CAUAAGAAA.AAAUAACU.UGUGGAUUUAAUG...UUGGAUU....AGUA
+C.crispus.1                        CGUAUCCAA.AAAUUACU.GAAGGGUUUAAAG...UUGGGUU....AUUA
+G.tenuistipitata.1                 CAUAUCCAA.AUAUGAUA.GCUGGGUUUAAAG...UUGGGUU....AUUA
+P.palmata.1                        UGUAUCCGA.AUAUAAUA.AGCGGAUUCAGUG...UAGGAUU....AUUA
+R.marinus.1                        CAUAAUUGA.AUAUCACU.UGAGGAUUUAAGG...UAGGGUU....AGAA
+S.helveticum.1                     GUUUAC..A.UCAUCUUU.UAAUGAUGGGAGG...CGGGUUG........
+C.moewusii.1                       UAAAACUAG.CUUUCACU............AG...UUGG..A....GGCA
+C.reinhardtii.1                    GGUAACCAA.AAAUAACA.GCAGCAUUUGUUG...UUGGGUU....AGUA
+C.raudensis.1                      AGUAACCAA.AAACAACA.CCGAAGUUUGUAG...UUGGGUU....AGUA
+C.debaryana.1                      GGUAAUUAA.AAAUUACA.CCAGCAUUUGUUG...UUGGGUU....UGUA
+V.ordinata.1                       AAUAACCAA.AGAUUACA.GCAGCGUUUGUUG...UUGGGUU....UGUA
+T.socialis.1                       GGUAGCCAA.AAAUAACG.GCUGCGUUUGUUG...UUGGGUU....UGUA
+E.elegans.1                        GAUAACCAA.AAAUUACA.GCAGCGUUUGUAG...UAGGGUU....AGUA
+G.pectorale.1                      GGUAACCAA.AAAUAACA.GCAGCAUUUGUUG...UUGGAUU....AGUA
+G.octonarium.1                     GAUAACCAA.AAAUUACA.GCAGCAUUUGUUG...UUGGGUU....AGUA
+G.multicoccum.1                    GUU.....U.AAUUAAGU.UCUCACUUAAUUG...UGGC.........UG
+G.multicoccum.2                    GGUAACCAA.AAAUUACA.GCAGCAUUUGUUG...UUGGGUU....AGUA
+G.quadratum.1                      GGUAACCAA.AAAUUACA.GCAGCGUUUGUUG...UUGGGUU....UGUA
+G.viridistellatum.1                GGUAACCAA.AAAUUACA.GCAGCAUUUGUUG...UUGGAUU....AGUA
+L.monstruosa.1                     GGUAACCGA.AGAUAACA.GCAGCGUUUGUAG...UUGGGUU....AGUA
+P.morum.1                          GGUAACCAA.AGAUAACC.GCUGCGUUUGUUG...UUGGGUU....UGUG
+P.colemaniae.1                     GAUAACCAA.AGAUUACA.GCAGCAUUUGUUG...UUGGGUU....AGUA
+P.morum.2                          GGUAACCAA.AGAUAACU.GCAGCAUUUGUUG...UUGGGUU....UGUA
+P.morum.3                          GAUAACCAA.AGAUUACA.GCAGCAUUUGUUG...UUGGAUU....UGUA
+P.morum.4                          GAUAACCAA.AGAUUACA.GCAGCACUUGUUG...UUGGAUU....UGUA
+P.caudata.1                        GAUAACCAA.AAAUUACA.GCUGCGUUUGUUG...UUGGGUU....AGUA
+P.thompsonii.1                     GAUAACCAA.AAAUUACC.GCUGCGUUUGUUG...UUGGGUU....AGUA
+P.starrii.1                        GAUAACCAA.AAAUUACA.GCUGCGUUGGUUG...UUGGAUU....AGUA
+P.californica.1                    GGUAACCAA.AAAUCACA.GCUGCAUUUGUUG...UUGGGUU....AGUA
+V.tertius.1                        GAUAACCAA.AAAUUACA.GCUGCGUUUGUUG...UUGGGUU....AGUA
+V.barberi.1                        GGUAACCAA.AAAUAACA.GCAGCGUUUGUUG...UUGGAUU....AGUA
+V.dissipatrix.1                    GAUAACCAA.AAAUUACA.GCUGCGUUUGUUG...UUGGGUU....AGUA
+V.powersii.1                       GAUAGCCAA.AAAUCACA.GCCGCAUUUGUUG...UUGGGUU....AGUA
+V.boldii.1                         GAUAACCAA.AAAUUACA.GCAGCAUUUGUUG...UUGGAUU....AGUA
+V.steinii.1                        GGUAACCAA.AAAUUACA.GCUGCAUUUGUUG...UUGGGUU....AGUA
+V.pringsheimii.1                   GGUAACCAA.AAAUAACA.GCAGCAUUUGUUG...UUGGAUU....AGUA
+V.compacta.1                       GGUAACCAA.AAAUUACA.GCAGCAUUUGUUG...UUGGAUU....AGUG
+Y.unicocca.1                       GGUAACCAA.AAAUUACA.GCAGCAUUUGUUG...UUGGUUU....AGUA
+Y.unicocca.2                       GGUAACCAA.AAAUUACA.GCUGCGUUUGUUG...UUGGGUU....AGUA
+E.viridis.1                        AAUAGCCAA.AAAUAACA.GAAGCACUUGUAG...UUGGGUU....AGUA
+S.obliquus.1                       AGUAACCAA.AAACAACA.GCAGCAUUUGUAG...UUGGGUU....UGUA
+O.viridis.1                        AGUAACCAA.AGAUUACA.CCAGGGUUUGUAG...UUGGGUU....UGAA
+O.tauri.1                          AGUAUCCGA.AAAUAACU.GAAGGGUCGUAAG...UUGGGUA....GCUA
+N.olivacea.1                       UGUAGCCAA.AAAUGACA.GCUGGACUGGUUG...UUGGAUU....AGUA
+C.vulgaris.1                       UGUAGCUAA.AGAUAACA.CCAGGACUUACUG...UUGGGUU....UGAA
+L.terrestris.1                     GGUAACCAA.AGAUAACA.GCUGGGCUAGUUG...UUGGAUU....UGUU
+K.sempervirens.1                   UGUAACCAA.AAAUAACG.GCUGGGCUAACAG...UUGGGUU....UGUA
+P.akinetum.1                       AUUUGUUGU.AAAUUAUU.ACUAACUUACGGG...GGCCUUU........
+C.strigosa.1                       GAUAACCAA.AUAUUGUA.CUAGGAUUCAGAG...UUAUAUU....AGUA
+N.flexilis.1                       GAUAGCUAA.AUAUAACA.CUAGGAUUAAGAG...UUAGAUU....GGUA
+N.obtusa.1                         GAUAACCAA.AUAUUGUA.CUAGGAUUGAGAG...UUAUAUU....AGUA
+C.atmophyticus.1                   GGUAUCCAA.AAAUGGUU.GCAGGGUUUCCAG...UAGGAUU....UGUA
+C.globosum.1                       GAUAGCCAA.AGAUAAUA.CUUGGAUCAUAUG...UAGGAUU....AGUU
+C.nitellarum.1                     GAUAACCAA.AGAUAACU.CCUGGACUAACAG...UAAUAUU....AGUA
+A.formosae.1                       AAUACCCAA.AAAUAAUA.CUCGGACUAAGUG...UAAGAUU....UGUG
+P.patens.1                         AAUAACCAA.AUAUAACA.CCAGGACUAAGAG...UAAGAUU....UGUA
+M.polymorpha.1                     AAUAACCAA.AGAUUACA.CCUGGACUAAGAG...UUAAAUU....UGUA
+S.uncinata.1                       AAUGACCGA.AUAUAACA.CCUGGACCCGCUG...UGAGAUU....CGUA
+H.lucidula.1                       AAUAACCAA.AUACAACA.CUUGGAUUAAGAG...UAAGAUU....UGUA
+Adiantum_capillus-ve.1             GGUAACCAA.AGAUAAUA.UUGGGGUUUAGAG...UAAGAUU....CGUA
+A.evecta.1                         AAUAACCGA.AUAUAACA.CUUGGACUAAGAG...UAAGGUU....CGUA
+P.nudum.1                          GAUAACCAA.AAAGAAUA.CUUGGACUAAGAG...UAAGGUU....UGUA
+A.australis.1                      AAUAACCAA.AUAUAGUA.CCUGGAUUAAGCG...UAAGGUU....CGUA
+A.bidwillii.1                      AAUAACCAA.AAAUAACA.CUUGGGUUAAGUG...UUAAGUU....CGUA
+W.cedarbergensis.1                 AAUAACCAA.AUAUAGCA.CUUGAGUUAAGUG...UAAGGUU....CGUA
+C.deodara.1                        AAUAGCCAA.AUAUAGCA.CUUGGGUUAAGAG...UCGGGUU....CGUA
+P.chinensis.1                      AAUAACCAA.AUAUAACA.CUUGGGUUAAGUG...UUAUGUU....UGUA
+S.conspicua.1                      AAUAACCAA.AUAUAACA.CUUGGGUUAAGAG...UUAGGUU....CGUA
+S.verticillata.1                   AAUAACCAA.AUAUGACA.CUUGGAUUAAGUG...UCAGGUU....CGUA
+T.brevifolia.1                     AAUAACCAA.AUAUAGCC.ACUGGGUUAAGCG...UAAGGUU....CAUA
+T.californica.1                    AAUAACCAA.AUAUAACA.CCUGGGUUAAGCG...UAAGAUU....CGUU
+M.moorei.1                         AAUAACCAA.AUAUAACA.CUUGGGCUAAGAG...UUGGGUU....CGUA
+G.biloba.1                         AAUAACCAA.AUAGAACA.CUUGGGUCAAGAG...UCAGGUU....CGUA
+E.sinica.1                         AAUAACUAA.AAAUAGUA.UUGGGGUUAAGGG...UCAUAUU....UGUU
+G.parvifolium.1                    AAUAACCGA.AAAUAAUG.UUGGGGCUAAGAG...UCAAAUU....UGUG
+W.mirabilis.1                      AAAAACCAA.AAAUAGUG.UUGGGACUUAAAG...UAAGAUU....CGUU
+C.demersum.1                       AAUAACCAA.AUAUCACA.CUUGGGCUAAGGG...UCAAGUU....GGUA
+A.americanus.1                     AAUAACCAA.AUAUAACA.CUUGGG.CUAGUG...UUAAGUU....GGUU
+S.latifolia.1                      AAUAACCAA.AUAUAACA.CUUGGGCUAAGGG...UUAAGUU....GGUU
+A.textile.1                        AAUAACCAA.AUAUAACA.CUUGGGCUAAGUG...UCAAAUU....GGUA
+A.monspeliensis.1                  AAUAACCAA.AUAUAACA.CUUGGGCUAAGGG...UCAAGUU....GGUA
+A.endlicheri.1                     AAUAACCGA.AUAUAACG.CUUGGACUAAGGG...UCAAGUU....GGUA
+P.tenax.1                          AAUAACCAA.AUAUAACA.CUUGGGCUAAGGG...UCAAGUU....GGUA
+I.missouriensis.1                  AAUAACCAA.AUAUAACA.CUUGGGCUAAGGG...UCAAGUU....GUUA
+A.stylidioides.1                   AAUAACCAA.AUAUCACG.CUCGGGCUAAGGG...UCAAAUU....GGUA
+C.lindleyana.1                     AAUAACCAA.AUAUCACA.CUUGGGCUAAGGG...UCAAGUU....GGUA
+C.septentrionalis.1                AAUAACCAA.AUAUCACA.CUUGGGCUAAGGG...UCAAGUU....GGUA
+S.romanzoffiana.1                  AAUAACCAA.AGAUCACG.CUUGGGCUAAGGG...UCAAGUU....GGUA
+E.cassythoides.1                   AAUAACCAA.AUAUCACA.CUUGGGCUAAAGG...UCAAGUU....GGUA
+C.rosea.1                          AAUAACCAA.AUAUCACG.CUUGGGCUAAGGG...UAAAGUU....GGUA
+D.adolphii.1                       AAUAACCAA.AUAUCACG.CUUGGGCUAAGAG...UCAAGUU....AGUA
+I.medeoloides.1                    AAUAGCCAA.AUAUCACG.CUUGGGCUAAGCG...UCAAGUU....GGUA
+P.minor.1                          AAUAACCAA.AUAUCACG.CUUGGGCUAAGGG...UCAAGUU....GGUA
+Epistephium.1                      AAUACCCAA.AUAUCACA.CUUGGGCUGAGGG...UAAAGUU....GGUA
+V.imperialis.1                     AAUAACCAA.AUAUCACG.UUUGGGCUAAGGG...UCAAGUU....GGUA
+V.inodora.1                        AAUACCCAA.ACAUCACG.CCUGGGCUAAGGG...UCAAGUU....GGUA
+X.resinosa.1                       AAUAACCAA.AUAUAACA.CUUGGGCUAAGGG...UCAAGUU....GGUA
+P.bogneri.1                        AAUAACCAA.AUAUAAUA.CUUGGGCUAAGGG...UCAAGUU....AGUA
+X.caeruleum.1                      AAUAGCCAA.AUAUAACA.CUUGGGCUAAGGG...UCAAGUU....GGUA
+H.gardneri.1                       AAUAACCAA.AUAUGAUA.CUUGGGCUCAAGG...UCAAAUU....GGUA
+B.capitata.1                       AAUAACCAA.AUAUAACC.UUUGGGCUAAGAG...UCAAGUU....AGUA
+D.elephantipes.1                   AAUAACCAA.AUAUAACG.CUUGGGCUAAGGG...UCAAGUU....GGUA
+N.ossifragum.1                     AAUAACCAA.AAAUCACG.CUUGGGCUAAGGG...UCAAGUU....GGUA
+L.radicans.1                       AAUAACCAA.AUAUAACG.CUUGGGCUAAGGG...UCAAGUU....GGUA
+A.elegans.1                        AAUAACCAA.AUAUAACG.CCCGGGCUAAGGG...UCAAGUU....GGUU
+T.grandiflorum.1                   AAUAACCAA.AUAUAACG.CUUGGGCUAAGGG...UCAAGUU....GAUA
+C.monogyna.1                       AAUAACCAA.AUAGAACA.CUAGGGCUAAGGG...UCAAAUU....GGUA
+C.papyrus.1                        AAUAACCAA.AAAUGAUG.CUGGGGCUAAGAG...UUAAGUU....GGUA
+E.monostachya.1                    AAUAACCAA.AUAUAACA.CCGGGGUUAAGGG...UCAAAUU....GGUA
+M.fluviatilis.1                    AAUAGCCAA.AUAUAACA.CUAGGGCUAAGAG...UCAAAUU....GGUA
+O.sativa.1                         AAUAACCAA.AUAUAACA.CCGGGGCUAAGGG...UCAAAUU....GGUA
+S.cereale.1                        AAUAACCAA.AUAUAACA.CUGGGACUAAGGG...UCAAAUU....GGUA
+X.jupicai.1                        AAUAACCAA.AUAUCACA.CUAGGGUUAAGUG...UCAAAUU....GGUA
+T.glutinosa.1                      AAUAACCAA.AAAUAAUG.CUUGGGCUAAGGG...UCAAAUU....GGUA
+T.elegans.1                        AAUAACCAA.AAAUAACG.CCCGGGCUAAGGG...UCAAGUU....GGUA
+S.reginae.1                        AAUAACCAA.AUAUGACA.CUUGGGCGAAGGG...UCAAGUU....GGUA
+A.trichopoda.1                     AAUAACCAA.AUAUAACA.CUUGGGCUAAGUG...UCAGGUU....GGUU
+I.parviflorum.1                    AAUAACCAA.AUAUAACA.CUUGGGCUAAGGG...UCAAGUU....AGUA
+T.moorei.1                         AAUAACCAA.AUAUGAUA.CUUGGGCUAAGGG...UCAAGUU....AGUA
+C.caroliniana.1                    AAUAACCAA.AUAUAAUG.CUUGGGCUAAGGG...UCAAGUU....GGUA
+T.submersa.1                       AAUAACCAA.AUAACCUA.CUUGGGUUAAGGG...UCAAGUU....GGUA
+B.microphylla.1                    AAUAACCAA.AUAUAACA.CUUGGACUAAGGG...UCAAAUU....UGUA
+H.canadensis.1                     AAUAACCAA.AUAUAACA.CUUGGGCUAAGUG...UUAAGUU....GGUU
+P.americana.1                      AAUAACCAA.AUAUAAUA.CUUGGGCUAAGGG...UGACGUU....GGUA
+Rheum_x_hybridum_gar.1             AAUAACCAA.AUAUAAUA.CUUGGGCUAAGGG...UCAAGUU....GGUA
+G.chilensis.1                      AAUAACCAA.AUAUAACA.CUUGGGCUAAGGG...UCAAGUU....AGUA
+V.vinifera.1                       AAUAACCAA.AUAUAACA.CUUGGGCUAAGGG...UCAAGUU....GGUA
+V.vinifera.2                       AAUAAGCAA.AUGUGACA.CUUGAGCUAAGUU...CCAAGUU....GAUA
+V.vinifera.3                       AAUAACCAA.AUUUAAGA.CUUGGGGUAAAGG...UCAAAUU....AGUA
+V.vinifera.4                       AAUAACCAA.AUAUAACWACUUGGGCUAAGGG...UCAAGUU....GGUU
+V.vinifera.5                       AAUAACCAA.AUAUAACA.CUUGGG.CUAAGGGU.CAA.GUU....GGUA
+V.vinifera.6                       GUUGGGCAA.A....ACA.UAUGGUUGUUUGG...UUGGUUAAA..UGUU
+V.vinifera.7                       AAUAACCAA.AUUUAAGA.CUUGGGGUAAACG...UCAAAUUAGUWAGUU
+V.vinifera.8                       AAUAACCAA.AUAUAACA.CUUGGGCUAAGGG...UCAAGUU....GGUA
+H.annuus.1                         AAUAACCAA.AUAUGAUA.CUUGGGCUAAGCG...UCAAGUU....GGUG
+C.sandwichiana.1                   AAAAACCAA.AUAUGAUA.CUUGGACUCAGGG...UCAAGUU....CGUA
+A.belladonna.1                     AAUAACCAA.AUAUGAUA.CUCGGGCUAAGGG...UCAAGUU....GGUA
+Pelargonium_x_hortor.1             AAUAACCAA.AUAGAACA.CUUGGGCUAAGGG...UCAAAUU....AGUG
+O.glazioviana.1                    AAUAACCAA.AUAGAAUA.CUUGGGCUAAGGG...UCAAGUU....AGUA
+E.alatus.1                         AAUACCCAA.AUAUAACA.CUUGGACUAAGAG...UCAAGUU....GGUA
+C.arietinum.1                      AAUAACCGA.AUAUAAUA.CUUGGACUAAGGG...UUAAGUU....UGUA
+L.japonicus.1                      AAUAACCAA.AUAUAAUA.CUUGGACUAAGGG...UCAAAUU....GGUA
+L.japonicus.2                      AAUAACCAA.AUAUAAUA.GUUGGACUAA..G...UCAAAUU....GGUA
+Glycine_max_soybean.1              AAUAUCCAA.AUAUAAUA.CUUGGACUAAGGG...UCAAAUU....GGUU
+R.communis.1                       AAUAACCGA.AAAUAAUA.CUUGGGCUAAGGG...UUAAGUU....AGUA
+R.communis.2                       AAUAACCGA.AAAUAACA.CUUGGGCUAAGGG...UUAAGUU....AGUA
+R.communis.3                       AAUAACUGA.AAAUAACA.AUUGGACUAAAGG...UUAAGUA....G..U
+R.communis.4                       AAUAACUGA.AAAUAACA.CUUGGGCUAAGGG...UUAAGUU....AGUA
+P.trichocarpa.1                    GGU.....A.AUUUGAUG.GAGAGAGAAAAAG...UAGUUUG....GUUG
+P.trichocarpa.2                    AAUAACCAA.AAAUAAUA.....................CUU....GGUA
+P.alba.1                           AAUAACCAA.AAAUAACA.CUUGGGCUAAGGG...UCAAGUU....GGUA
+P.trichocarpa.3                    AAUAACCAA.AAAUAACA.CUUUGACUAAGAG...UCAAGUU....GGUA
+H.lupulus.1                        AAUAACCAA.AUACAAUA.CUUGGACUAAGGG...UCAAAUU....GGUA
+B.rapa.1                           AAUAACCAA.AUAUAACA.CUUGGGCUAAGAG...UCAAGUU....UGUA
+C.papaya.1                         AAUAACCAA.AUAUAACA.CUUGGGCUAAGAG...UCAAGUU....GGUA
+C.papaya.2                         AAUAACCAA.AUAUAACA.CUUGGGCUAAGAG...UCAAGUU....GGUA
+C.papaya.3                         AUUAACUAA.AUAUAACA.UUUGAGCUAAGAG...UCAAGUU....GGUA
+C.papaya.4                         AAUAACCAA.AUAUAACA.UUUGGGCUAAGAG...UCAAGUU....GGUA
+C.sinensis.1                       AAUAACCAA.AAAUAACA.CUUGGGCUAAGGG...UCAAGUU....GGUA
+H.peltata.1                        AAUAACCAA.AUAUAACA.CUUGGGCUGAGGG...UCAAGUU....GCUA
+A.macrophylla.1                    AAUAACCAA.AUAUAAUA.CUUGGGCUAAGGG...UCAAGUU....GGUA
+S.cernuus.1                        AAUAACCAA.AUAUAACA.CUUGGACUAAGGG...UCAAGUU....GGUA
+K.flaccidum.1                      GAUAACCAA.AGACGACA.GCAGGGCUAAGUG...UUAAGUU....AGUA
+M.viride.1                         AAUAACCAA.AGAUAACU.GCUGGACUAAGUG...UUGGAUC....UGUA
+S.punctulatum.1                    GAUAGCCAA.AAAUAACA.CCAGGAUUUAAAG...UUAAAUU....UGUU
+M.scalaris.1                       AAUAACCAA.AAAUAACA.CUAGGAUUUAGUG...UUAAGUU....AGUA
+Spirogyra.1                        AAUAACCAA.ACACAAUA.CUAGGGUUUAGAG...UAAGAUU....UACA
+Z.circumcarinatum.1                AAUAUCCAA.AUAUUACU.CCAGGGUUAAGAG...UGAUAUU....UGUG
+P.tricornutum.1                    CAUAACCAA.AAAUUACA.AUUGGGUUUAAUG...UAGGUGU....UGUA
+O.sinensis.1                       CAUAACCAA.AGAUUACG.AUUGGAUUUAAUG...UUGGCGU....UGUA
+S.costatum.1                       CAUAACCAA.AAAUUACA.AUUGGGUUUAAUG...UUGGCGU....UGUA
+T.pseudonana.1                     CGUAACCGA.AAAUUACG.AUUGGAUUUAAUG...UUGGAGU....UGUA
+P.littoralis.1                     CGUAUCCAA.AAAUAAUA.AAUGGAUUGAUAG...UUGGGUU....AUCG
+H.akashiwo.1                       CAUAUCCAA.AAAUAACU.AAUGGAUUUAGCG...UUGGGCU....AUUG
+marine_metag.1                     GGUAGCCGA.AGAUCACU.CCCGGAUCCAGGG...UUGGAUU....GGUG
+marine_metag.2                     GAUAACCAA.GAAUAACU.CUUGGAUCUAAGG...UUGGGUU.......U
+marine_metag.3                     CAUAACUGA.AGAUUACU.AAUGGGUUUAAUG...UAGGGUU....UUUA
+marine_metag.4                     GAUAACCAA.GAAUGACU.CUUGGGUCUAAAG...UUGGGUU.......A
+marine_metag.5                     GAUAACCAA.GAAUAACU.CUCGGAUCUAAAG...UUGGGUU.......U
+marine_metag.6                     CAUAUCCAA.AAAUUACU.AAUGGAUUUAACG...UCGGGUU....UUUG
+marine_metag.7                     GAUAUCCAA.GAAUAAUU.CGAGGGUCUAAUG...UUGGGUU.......G
+marine_metag.8                     AAUAACCAA.GAAUAACU.CUUGGAUCCAAAG...UUGGAUU.......A
+marine_metag.9                     GAUAACCAA.GAAUAACC.CUUGGAUCUAAAG...UUGGGUU.......A
+marine_metag.10                    AGUAUCCGA.AAAUAACU.GAUGGGUCGUAAG...UUGGGUA....GCUA
+marine_metag.11                    GAUAACCAA.AAAUUACC.CUUGGAUCCAAUG...UUGGGUU.......U
+marine_metag.12                    GAUAUCCAA.GAAUAAUU.CGUGGGUCUAAAG...UUGGAUU.......A
+marine_metag.13                    ...AGCCGA.AGACCACA.CCCGGAUCGAGAG...UCGGAUU....GGUG
+marine_metag.14                    GAUAACCAA.GGAUAAUU.CUAGGGUCGAGAG...UAGGAUU.......A
+marine_metag.15                    GAUAACCAA.AAAUUACC.CUUGGAUCCAAAG...UUGGAUU.......A
+marine_metag.16                    GAUAACCGA.GAAUAAUU.CUUGGAUCUAAGG...UUGGAUU.......A
+marine_metag.17                    AAUAACCAA.GAAUAACU.CUCGGAUCCAAGG...UUGGGUU.......U
+marine_metag.18                    GAUAUCCAA.AAAUGAUU.CUUGGAUCGAGUG...UUGGGUU.......G
+marine_metag.19                    GAUAACCAA.GAAUAACU.CUUGGAUCUAGUG...UUGGGUU.......A
+marine_metag.20                    GAUAACCGA.AGAUCACA.CCAGGAUCCAAGG...UUGGGUU....GGUG
+marine_metag.21                    GGUAGCCGA.AGAUCACG.CCCGGGUCGAGGG...UCGGGUU....GGUG
+marine_metag.22                    GAUAACCAA.GAAUGACU.CUCGGAUCUAAAG...UUGGGUU.......A
+marine_metag.23                    AAUAUCCAA.AAAUAACU.GAAGGGUCGUAAG...UUGGGUA....GUUA
+marine_metag.24                    GAUAACCAA.GAAUAAUA.CGAGGGUCUAAUG...UUGGAUU.......U
+marine_metag.25                    AAUAGCCAA.GAAUAACU.CUCGGAUCUAAAG...UUGGAUU.......G
+marine_metag.26                    GAUAACCAA.GUAUUACU.CUUGGAUCUAGUG...UUGGGUU.......U
+marine_metag.27                    AAUAACCAA.GAAUGACU.CUUGGAUCUAGUG...UUGGGUU.......A
+marine_metag.28                    AAUAUCCAA.GAAUUAUU.CUAGGAUCUAAAG...UUGGAUU.......A
+marine_metag.29                    GAU..................UGGGUUUAAUG...UUGGUGU....UGUA
+marine_metag.30                    GAUAACCAA.GAAUAACC.CUUGGAUCUAAAG...UUGGAUU.......U
+marine_metag.31                    GGUAGCCGA.AGAUCACU.CCCGGAUCGAGGG...UCGGGUU....GGUG
+marine_metag.32                    GAUAACCGA.AGAUCACA.CCGGGGUCGAGGG...UGGGGUU....CGUG
+marine_metag.33                    GAUAGCCGA.AGAUCACA.CCCGGAUCGAGAG...UCGGGUU....AGUG
+marine_metag.34                    CGUAACCAA.AGAUAACA.CCUGGGUUUAAAG...UAGGGUU....AUCA
+marine_metag.35                    GAUAACCAA.GAAUAACU.CUUGGGUCUAAAG...UUGGAUU.......A
+marine_metag.36                    GAUAACCAA.GAAUUACU.CUUGGAUCUAAGG...UUGGACU.......A
+marine_metag.37                    AAUAACCAA.GAAUAACU.CUUGGAUCUAAAG...UUGGGUU.......A
+marine_metag.38                    GAUAACCAA.AGAUCACA.CCGGGAUCGAGGG...UGGGGUU....GGUG
+marine_metag.39                    AAUAACCAA.AAAUUACU.CUUGGAUCUAAAG...UUGGAUU.......A
+marine_metag.40                    GAUAACCCA.AAAUGACU.CUUGGGUCUAAAG...UUGGAUU.......A
+marine_metag.41                    GGUAACCAA.GUAUUACU.CUUGGAUCUAAUG...UAGGACU.......G
+marine_metag.42                    GAUAACCGA.AGAUCACA.CCAGGGCUGAGGG...UUGGGUU....GGUG
+#=GC SS_cons                       ..................................................
+
+Crocosphaera_watsoni.1             ACUAAACGAA..........CCGCCU.......................C
+Crocosphaera_watsoni.2             AUCACACGCA..........CAUCUCC..GCC.AC....C.AG......G
+Crocosphaera_watsoni.3             ACAAUACGGA..........CUUCAC.......................C
+Cyanothece.1                       AUCACACGCA..........CAUCUCC..GCC.AC....C.AG......G
+Cyanothece.2                       ACUAAACGAA..........CCGUUU.......................C
+Synechococcus_elonga.1             AUGAUGCGGA..........CAUCGCC..ACC.AC....C.CG......G
+Synechococcus.1                    AUCAGACGAA..........CGUCCCC..ACC.AC....C.GG......G
+Synechococcus.2                    AUCAAACGAA..........CAUCUCC..ACC.AC....C.UG......G
+Synechococcus.3                    AUCAAGCGCA..........CGUCACC..ACC.GC....C.GG......G
+Synechococcus.4                    AUCAGACGUA..........CAUCACC..ACC.GC....C.CG......G
+Synechococcus.5                    AUCAUGCGGA..........CGUCACC..GCC.GC....C.GG......G
+Synechococcus.6                    ACCAGGCGCA..........CCUCUC.......................C
+Synechococcus.7                    AUCAGACGCA..........CAUCACC..ACC.GC....C.GG......G
+Synechococcus.8                    AUCACCCGCA..........CGUCGCC..ACC.CC....C.CG......G
+Synechococcus_elonga.2             ACCAAACGGA..........CUGUCU.......................G
+Synechococcus.9                    AUUAGACGAA..........CAUCACC..ACC.AC....C.GG......G
+Synechococcus.10                   AUUACCCGCA..........CAUCGCC..ACC.CC....C.UG......G
+Synechococcus.11                   ACCAAGCGCA..........CGGUUU.......................G
+Synechococcus.12                   AUCAAACGAA..........CGUCGCC..ACC.GC....C.GG......G
+Synechococcus.13                   ACUACGCGCA..........CGCGGC.......................C
+Synechococcus.14                   AUCAUGCGGA..........CGUCACC..GCC.GC....C.GG......G
+Synechococcus.15                   ACGAUCCGCA..........CGCGGC.......................C
+Synechococcus.16                   AUCAGGCGCA..........CGUCGCC..ACC.GC....C.AG......G
+Synechocystis.1                    ACUAGGCGCA..........CCGUUU.......................G
+Synechocystis.2                    AUCACCCGUA..........CGUCCCC..ACC.AC....C.GG......G
+Thermosynechococcus_.1             AUGACGCGGA..........CAUCGCC..GCC.AC....C.GG......G
+Thermosynechococcus_.2             AUCAAGCGUA..........CCGUUU.......................G
+Gloeobacter_violaceu.1             ACGGUGCGCA..........CCUGGCCGGCCC.AC....U.GG......U
+Anabaena.1                         ACUACUCUGA..........CAACCU.......................G
+Anabaena_variabilis_.1             AUUACACGUA..........CAUCACC..ACC.AC....C.AG......G
+A.elenkinii.1                      ACUAGCCGUA..........CAUCAU.......................C
+Nodularia_spumigena_.1             AUAACACGAA..........CAUCACC..ACC.AC....C.AG......G
+Nodularia_spumigena_.2             AUAACUCGCA..........CCUCAC.......................C
+Nodularia_spumigena_.3             AUCAGGCGAA..........CAUCAC.......................C
+Nodularia_spumigena_.4             AUUACCCUUA..........CAUCUG.......................C
+Nostoc.1                           AUAACUCGCA..........CUUCUC.......................C
+Nostoc.2                           AUCGAGCGUA..........CAUCUC.......................C
+Nostoc_punctiforme_P.1             AUAAUCCGAA..........CGUCACC..ACC.GC....C.UG......G
+L.lagerheimii.1                    ACCAGACGCA..........CGGUUU.......................G
+Lyngbya.1                          AUGACUCGGA..........CAUCUC.......................C
+Trichodesmium_erythr.1             ACUAGUCGUA..........CCUUUU.......................C
+Trichodesmium_erythr.2             AUUACUCGUA..........CAUCACC..GCC.AC....C.UG......G
+Trichodesmium_erythr.3             AUUACCCGCA..........CAUUCU.......................G
+Trichodesmium_erythr.4             AUCACUCGUA..........CAUUGG.......................C
+Trichodesmium_erythr.5             ACUAAACGAA..........CUGUUU.......................G
+uncul.Oscil.cyano.1                ACUACGCGGA..........CAUCAU.......................G
+uncul.Oscil.cyano.2                ACCAGACGCA..........CGGUUU.......................G
+Stanieria.1                        ACGACACGGA..........CAUCUU.......................G
+P.didemni.1                        ACAGUUCUGA..........CCUCGC.......................C
+P.didemni.2                        ACAGUACGUA..........CUUCAC.......................C
+P.didemni.3                        ACCAGGCGGA..........CGGUUC.......................C
+Prochlorococcus_mari.1             ACAAGUCUUA..........CUUCUCC..UCC.UC....C.AG......G
+Prochlorococcus_mari.2             AUUAAUCUCA..........CGUCGCC..ACC.AC....C.UG......G
+uncul.Proch.marin.cl.1             ACAAGUCUGA..........CUUCACC..ACC.AC....C.AG......G
+Prochlorococcus_mari.3             AUCAACCUAA..........CUUCUCC..UCC.AC....C.UG......G
+Prochlorococcus_mari.4             ACCAAUCUAA..........CUUCUCC..UCC.AC....C.GG......G
+Prochlorococcus_mari.5             ACUAAUCUGA..........CUUCACC..ACC.AC....C.AG......G
+uncul.Proch.marin.cl.2             ACAAGUCUGA..........CUUCACC..ACC.UC....C.AG......G
+P.hollandica.1                     ACCACGCGCA..........CUUCAC.......................C
+P.scandica.1                       ACGGUGUGCA..........CGGUAC.......................C
+P.hollandica.2                     AUAACCCGAA..........CGCCGCC..GCC.AC....C.AG......G
+P.hollandica.3                     ACAAUGCGCA..........CAUCGC.......................C
+F.muscicola.1                      AUCAGGCGGA..........CAUUUU.......................C
+F.muscicola.2                      ACUACCCGGA..........CGUCAU.......................G
+uncult._cyanobacteri.1             ACCAGUCGCA..........CCGUUU.......................G
+uncult._cyanobacteri.2             ACGACUCGGA..........CAGCGC.......................C
+uncult._cyanobacteri.3             ACAAGGCGAA..........CAUCAU.......................G
+uncult._cyanobacteri.4             ACCAGGCGAA..........CGGUUU.......................G
+K.mikimotoi.1                      ACGCGAACUA..........CAUCUCC..ACC.AC....C.AG......C
+K.brevis.1                         ACUCGAACUA..........CAUCUCC..ACC.UC....C.UG......C
+K.brevis.2                         ACUUGAACUA..........CAUCUCC..ACC.UC....C.UG......C
+P.foliaceum.1                      AUAAAACGAA..........CAUCACC..ACC.AC....C.AG......G
+G.theta.1                          AUUAUUCUAA..........CAUCUCC..UCC.AC....C.UG......G
+R.salina.1                         AUGAUACGUA..........CAUCUCC..UCC.AC....C.UG......G
+R.abbreviata.1                     AUAAUACGUA..........CAUCUCC..ACC.AC....C.UG......G
+C.paradoxa.1                       AUUACACGUA..........CAUCUCC..ACC.GC....C.UG......G
+G.nostochinearum.1                 AUUACCCGCA..........CAUCUCC..GCC.GC....C.AG......G
+Isochrysis.1                       AUAAUACGAA..........CAUCACC..ACC.AC....C.UG......G
+E.huxleyi.1                        AUAAUUCUAA..........CAUCUCC..ACC.AC....C.UG......G
+P.gyrans.1                         ACAACACGUA..........CGUCUCC..ACC.AC....C.UG......G
+P.lutheri.1                        ACAAGACGAA..........CAUCUCC..ACC.GC....C.AG......G
+Pavlova.1                          ACAACACGAA..........CGUCACC..ACC.AC....C.UG......G
+B.natans.1                         AUUAAACGAA..........CGUCACC..ACC.UC....C.AG......G
+B.atropurpurea.1                   ACGAAUCUAA..........CAUCACC..GCC.AC....C.UG......G
+P.yezoensis.1                      ACAAAUCUAA..........CAUCUCC..ACC.AC....C.UG......G
+P.purpurea.1                       ACAAACCUAA..........CAUCGCC..ACC.AC....C.UG......G
+C.merolae.1                        ACCAAUCGCA..........CAUCUCC..ACC.AC....C.UG......G
+Cyanidium.1                        ACAAAUCUUA..........CAUCCCC..UCC.UC....C.UG......G
+C.caldarium.1                      AUGAAUCUAA..........UAUCUCC..UCC.CC....C.AG......G
+C.caldarium.2                      AUAUAACGUA..........CAUCACC..UCC.AC....C.AG......G
+G.sulphuraria.1                    AUAUAACGUA..........CAUCUCC..UCC.GC....C.CG......G
+G.maxima.1                         AUCAAUCUUA..........CAUCUCC..ACC.AC....C.UG......G
+C.caeruleus.1                      AUAAAACGUA..........CAUCGCC..ACC.AC....C.UG......G
+R.violacea.1                       AUAUAUCUCA..........CAUCUCC..UCC.UC....C.UG......G
+C.crispus.1                        AUUAAUCUUA..........CAUCUCC..ACC.UC....C.UG......G
+G.tenuistipitata.1                 AUUAAUCGUA..........CAUCUCC..UCC.AC....C.AG......G
+P.palmata.1                        AUAAAUCUUA..........CAUCACC..UCC.AC....C.AG......G
+R.marinus.1                        AUAUAUCUAA..........CAUCUCC..UCC.AC....C.CG......G
+S.helveticum.1                     ..AAAAUUUA..........CCUCCU................G......G
+C.moewusii.1                       AUGUGACUAA..........UUUUCAC..CUC.CA....G.........G
+C.reinhardtii.1                    AUAACACGAA..........CGUCACC..ACC.AC....C.UG......G
+C.raudensis.1                      AUAAUUCUAA..........CGUCAC.......................C
+C.debaryana.1                      AUAACACGAA..........CGUCACC..ACC.AC....C.UG......G
+V.ordinata.1                       AUAAUACGAA..........CGUCAC.......................C
+T.socialis.1                       AUAACACGGAUAUCUCCCC.CUCCAG.......................G
+E.elegans.1                        AUAAUACGAA..........CAUCACC..ACC.AC....C.AG......G
+G.pectorale.1                      AUAACACGAA..........CGUCAC.......................C
+G.octonarium.1                     AUAACACGAAUAUCACCAC.CACCAG.......................G
+G.multicoccum.1                    AAAAAUUUAC..........CACCGG.......................G
+G.multicoccum.2                    AUAACACGAA..........CGUCUCC..UCC.CC....C.UG......G
+G.quadratum.1                      AUAACACGAA..........CGUCACC..ACC.CC....C.UG......G
+G.viridistellatum.1                AUAACACGAA..........CGUCUC.......................C
+L.monstruosa.1                     AUAACACGAA..........CGUCACC..ACC.AC....C.UG......G
+P.morum.1                          AUAACACGAA..........CGUCGCC..ACC.AC....C.AG......G
+P.colemaniae.1                     AUAACACGUA..........CGUCACC..ACC.AC....C.UG......G
+P.morum.2                          AUAACACGAA..........UGUCUCC..GCC.AC....C.UG......G
+P.morum.3                          AUUACACGUA..........CAUCAC.......................C
+P.morum.4                          AUAAUACGAA..........CAUCACC..GCC.UC....C.UG......G
+P.caudata.1                        AUAACACGAA..........CGUCACC..ACC.AC....C.AG......G
+P.thompsonii.1                     AUCAUACGAAUGUCACCAC.CACCAG.......................G
+P.starrii.1                        AUGACACGAAUGUCACCAC.CACCUG.......................G
+P.californica.1                    AUAACACGAAUGUCACCAC.CACCUG.......................G
+V.tertius.1                        AUUAUACGGAUGUCACCAC.CACCUG.......................G
+V.barberi.1                        AUAACACGAA..........CAUCACC..ACC.AC....C.AG......G
+V.dissipatrix.1                    AUAACACGGAUGUCGCCGC.CACCUG.......................G
+V.powersii.1                       AUAACACGAAUAUCUCCAC.CACCUG.......................G
+V.boldii.1                         AUUACACGUA..........CGUCUC.......................C
+V.steinii.1                        AUAACACGAA..........CGUCUC.......................C
+V.pringsheimii.1                   AUUACACGAA..........CGUCUCC..ACC.AC....C.UG......G
+V.compacta.1                       AUAACACGUA..........CGUCUCC..ACC.GC....C.AG......G
+Y.unicocca.1                       AUAACACGAA..........CGUCUCC..ACC.AC....C.UG......G
+Y.unicocca.2                       AUAACACGAA..........CGUCACC..ACC.AC....C.AG......G
+E.viridis.1                        AUUAUACGAA..........CAUCUC.......................C
+S.obliquus.1                       AUAAUACGAA..........CGUCUCC..ACC.UC....C.UG......G
+O.viridis.1                        AUGAUACGAA..........CGUCACC..ACC.AC....C.GG......C
+O.tauri.1                          AUUACACGUA..........CAUCACC..ACC.AC....C.AG......G
+N.olivacea.1                       AUCACGCGAA..........CAUCACC..GCC.GC....C.UG......G
+C.vulgaris.1                       AUAAUACGAA..........CAUCACC..ACC.AC....C.AG......G
+L.terrestris.1                     AUAACACGAA..........CAUCUCC..ACC.GC....C.GG......G
+K.sempervirens.1                   AUUAAACGUA..........CAUCACC..ACC.AC....C.UG......G
+P.akinetum.1                       ....GACGAU..........CGACCC........C....C.AA......C
+C.strigosa.1                       AUUUUUCUAA..........CAUCUCC..UCC.UC....C.UG......G
+N.flexilis.1                       AUUUUUCUUA..........CAUCUCC..UCC.UC....C.CG......G
+N.obtusa.1                         AUUUUUCUAA..........CAUCUCC..UCC.UC....C.UG......G
+C.atmophyticus.1                   AUAACUCUUA..........CAUCUC.......................C
+C.globosum.1                       AUUACUCGAA..........CAUCUCC..UCC.AC....C.AG......G
+C.nitellarum.1                     AUUUUUCUUA..........CAUCACC..ACC.AC....C.AG......G
+A.formosae.1                       AUUUCUCUUA..........CAUCUCC..ACC.AC....C.AG......G
+P.patens.1                         AUUUUUCUUA..........CGUCACC..UCC.UC....C.AG......G
+M.polymorpha.1                     AUUUUUCUUA..........CAUCUCC..ACC.AC....C.UG......G
+S.uncinata.1                       AUUUCCCUUA..........CAUCCCC..ACC.AC....C.GG......G
+H.lucidula.1                       AUUUUUCUUA..........CAUCUCC..ACC.AC....C.GG......G
+Adiantum_capillus-ve.1             AUUUCUCUUA..........CAUCUC.......................C
+A.evecta.1                         AUCUUUCUUA..........CAUCCCC..ACC.UC....C.AG......G
+P.nudum.1                          AUUUUUCUUA..........CAUCCCC..ACC.UC....C.GG......G
+A.australis.1                      AUUUUUCUUA..........CAUCUCC..ACC.AC....C.GG......G
+A.bidwillii.1                      AUUUUUCUUA..........CAUCUCC..ACC.GC....C.GG......G
+W.cedarbergensis.1                 AUUUUUCUUA..........CAUCUCC..ACC.GC....C.GG......G
+C.deodara.1                        AUUUUUCUUA..........CAUCUCC..ACC.GC....C.GG......G
+P.chinensis.1                      AUUUUUCUUA..........CAUCUCC..ACC.GC....C.GG......G
+S.conspicua.1                      AUUUUUCUCA..........CAUCCCC..ACC.GC....C.GG......G
+S.verticillata.1                   AUUUUUCUUA..........CAUCUCC..ACC.GC....C.GG......G
+T.brevifolia.1                     AUUUUUCUUA..........CAUCUCC..ACC.GC....C.AG......G
+T.californica.1                    AUUUUUCUUA..........CAUCUCC..ACC.GC....C.GG......G
+M.moorei.1                         AUUUUUCUUA..........CAUCUCC..ACC.AC....C.AG......G
+G.biloba.1                         AUUCUUCUUA..........CAUCUCC..ACC.AC....C.AG......G
+E.sinica.1                         AUUUUUCUUA..........CAUCUCC..ACC.AC....C.CG......G
+G.parvifolium.1                    AUUUUUCUAA..........CAUCUCC..UCC.AC....C.UG......G
+W.mirabilis.1                      AUUUUUCUCA..........CAUCUCC..ACC.AC....C.AG......G
+C.demersum.1                       AUUUUUCUUA..........CAUCUCC..CCC.CC....C.AG......G
+A.americanus.1                     AUUUUUCUUA..........CAUCUCC..CCC.CC....CCAG......G
+S.latifolia.1                      AUUUUUCUUA..........CAUCUCC..CCC.CC....C.GG......G
+A.textile.1                        AUUUUUCUUA..........CAUCCCC..CCC.CC....C.GG......G
+A.monspeliensis.1                  AUUUUUNUUA..........CAUCCCC..CCC.CC....C.UG......G
+A.endlicheri.1                     AUUUUUCUUA..........CAUCUCC..CCC.CC....C.GG......G
+P.tenax.1                          AUUUUUNUUA..........CAUCUCC..CCC.CC....C.AG......G
+I.missouriensis.1                  AUUUUUCUUA..........CAUCUCC..ACC.CC....C.GG......G
+A.stylidioides.1                   AUUUUUCUUA..........CAUCUCC..UCC.CC....C.GG......G
+C.lindleyana.1                     AUUUUUCUGA..........CAUCUC...CGC.CC....C.UG......G
+C.septentrionalis.1                AUUUUUUUGA..........CAUCUCC..CCC.CCACCUU.GG......G
+S.romanzoffiana.1                  AUUUUUCUUA..........CAUCUCC..CCC.UC....C.GG......G
+E.cassythoides.1                   AUUUUUCUAA..........CAUCUCC..CCC.CC....C.CG......G
+C.rosea.1                          AUUCUUCUUA..........CAUCUC.......................C
+D.adolphii.1                       AUUUUUCUUA..........CAUCUC.......................C
+I.medeoloides.1                    ANUUUUCUUA..........CAUCUC.......................C
+P.minor.1                          AUUUUUCUUA..........CAUCUC.......................C
+Epistephium.1                      AUCUUUCUGA..........CAUCCCC..CCC.UC....C.GG......G
+V.imperialis.1                     AUUUUUCUGA..........CAUCUCC..UCC.CC....C.GG......G
+V.inodora.1                        AUUUUUCUGA..........CAUCUCC..CCC.UC....C.GG......G
+X.resinosa.1                       AUUUUUCUUA..........CAUCUCC..UCC.CC....C.GG......G
+P.bogneri.1                        AUUUUUCUUA..........CAUCCCC..CCC.UC....C.AG......G
+X.caeruleum.1                      AUUUUUCUUA..........CAUCUCC..UCC.CC....C.AG......G
+H.gardneri.1                       AUCUUUCUUA..........CAUCUCC..ACC.CC....C.GG......G
+B.capitata.1                       AUUUUUCUGA..........CAUCCCC..CCC.CC....C.GG......G
+D.elephantipes.1                   AUUUUUCUUA..........CAUCUCC..UCC.CC....C.UG......G
+N.ossifragum.1                     AUUUUUNUUA..........CAUCUCC..CCC.CC....C.CG......G
+L.radicans.1                       AUUUUUCUUA..........CAUCUCC..GCC.UC....C.CG......G
+A.elegans.1                        AUUUUUCUGA..........CAUCCCC..CCC.CC....C.AG......G
+T.grandiflorum.1                   AUUUUUCUUA..........CAUCUCC..GCC.CC....C.GG......G
+C.monogyna.1                       AUUUUUCUUA..........CAUCUCC..CCC.CC....C.UG......G
+C.papyrus.1                        AUUUUUCUUA..........CAUCUCC..CCC.AC....C.UG......G
+E.monostachya.1                    AUUUUUCUUA..........CAUCUCC..CCC.GC....C.UG......G
+M.fluviatilis.1                    AUUUUUCUUA..........CAUCUCC..UCC.UC....C.CG......G
+O.sativa.1                         AUUUUUCUUA..........CAUCUCC..UCC.CC....C.AG......G
+S.cereale.1                        AUUUUUCUUA..........CAUCUCC..CCC.CC....C.AG......G
+X.jupicai.1                        AUCUUUCUUA..........CAUCUCC..UCC.AC....C.AG......G
+T.glutinosa.1                      AUUUUUCUUA..........CAUCUCC..UCC.UC....C.GG......G
+T.elegans.1                        AUUUUUCUUA..........CAUCUCC..UCC.CC....C.UG......G
+S.reginae.1                        AUUUUUNUUA..........CAUCUCC..CCC.CC....C.AG......G
+A.trichopoda.1                     AUUUUUCUUA..........CAUCUCC..GCC.AC....C.GG......G
+I.parviflorum.1                    AUUCUUCUUA..........CAUCUCC..CCC.CC....C.AG......G
+T.moorei.1                         AUUCUUCUUA..........CAUCUCC..CCC.CC....C.GG......G
+C.caroliniana.1                    AUUCUUCUUA..........CAUCCCC..CCC.AC....C.AG......G
+T.submersa.1                       AUUCUUCUUA..........CAUCUCC..ACC.CC....C.GG......G
+B.microphylla.1                    AUUUUUCUUA..........CAUCUCC..CCC.CC....C.AG......G
+H.canadensis.1                     AUUUUUCUUA..........CAUCUCC..ACC.CC....C.AG......G
+P.americana.1                      AUUUUUCUUA..........CAUCCCC..CCC.CC....C.UG......G
+Rheum_x_hybridum_gar.1             AUUUUUCUUA..........CAUCUCC..CCC.UC....C.UG......G
+G.chilensis.1                      AUUUUUCUUA..........CAUCUCC..CCC.UC....C.AG......G
+V.vinifera.1                       AUUUUUCUUA..........ACCCUC.......................C
+V.vinifera.2                       AUUUUUCRUUUUCUU.....ACCUUUC..AUA.UC....U.UG......A
+V.vinifera.3                       AUUUUUCUUA..........UAUUACC..CCU.UU....G.........G
+V.vinifera.4                       AAUUUUCUUA..........CAUCYUC..CCCSUC....C.GG......G
+V.vinifera.5                       AUUUUUCUUA..........CAUCUCC..CCC.UC....C.GG......G
+V.vinifera.6                       AUUAAUGAGA..........AUUCAUU......................G
+V.vinifera.7                       AAUUUUCUUA..........UAUUAC....CC.CU....U.UG......G
+V.vinifera.8                       AUUUUUCUUA..........CAUCUCC..CCC.UC....C.GG......G
+H.annuus.1                         AUUUUUCUUA..........CAUCUCC..UCC.UC....C.CG......G
+C.sandwichiana.1                   AUUUUUCUUA..........CAUCUC.......................C
+A.belladonna.1                     AUUUUUCUUA..........CAUCUCC..CCC.UC....C.UG......G
+Pelargonium_x_hortor.1             AUUUUUCUGA..........CAUCUCC..CCC.CC....C.UG......G
+O.glazioviana.1                    AUUUUUCGUA..........CAUCUCC..CCC.UC....C.CG......G
+E.alatus.1                         AUUUUUCUUA..........CAUCUCC..CCC.CC....C.CG......G
+C.arietinum.1                      AUUUUUCUUA..........CAUCUCC..CCC.UC....C.UG......G
+L.japonicus.1                      AUUUUUCUUA..........CAUCUCC..UCC.CC....C.GG......G
+L.japonicus.2                      AUUUUUCUUG..........CAUGUC.....C.CU....U.UG......G
+Glycine_max_soybean.1              AUUUUUCUUA..........CAUCUCC..GCC.CC....C.CG......G
+R.communis.1                       AUUUUUCUUACAU.......CUCCCCC..CCC.CC....C.CG......G
+R.communis.2                       AUUUUUCUUACAUCUCC...CCCCCCC..CCC.CC....C.CG......G
+R.communis.3                       AAUUUUCUUA..........CAUCACC..UUC.CC....U.CCACCCCCG
+R.communis.4                       AUUUUUCUUACAUCCCCCCCCCCCUCC..UUC.CU....C.UG......G
+P.trichocarpa.1                    CUAUUGCUCU..........CAGCUU....CU.UU....U.AG......C
+P.trichocarpa.2                    AUUUUUCUUA..........UAUCUCC..CCC.CC....A.........G
+P.alba.1                           AUUUUUCUUA..........CAUCUCC..CCC.CC....C.CG......G
+P.trichocarpa.3                    AUUUGUCUUA..........CAUCUC.....C.UC....G.CA......G
+H.lupulus.1                        AUUUUUCUUA..........CAUCUCC..UCC.CC....C.CG......G
+B.rapa.1                           AUUUUUCUUA..........CAUCCCC..CCC.UC....C.UG......G
+C.papaya.1                         AUUUUUGUUA..........CAUCUC...CCC.UU....C.GG......G
+C.papaya.2                         AUUUUUGUAA..........CAUCUC...CCC.UC....C.GG......G
+C.papaya.3                         AUUUUUCUUA..........UAUCUAC..CGC.UU....U.CG......G
+C.papaya.4                         AUUUUUCUUA..........UAUCUAC..CCC.UC....C.G.......G
+C.sinensis.1                       AUUUUUCUUAACA.......UCUCCCC..CCC.CC....C.CG......G
+H.peltata.1                        AUUUUUCUUA..........CAUCUCC..CCC.CC....C.CG......G
+A.macrophylla.1                    AUUUUUCUUA..........CAUCUCC..ACC.CC....C.AG......G
+S.cernuus.1                        AUUUUUCUUA..........CAUCUCC..CCC.CC....C.GG......G
+K.flaccidum.1                      AUCUUACGCA..........CUCCACC..CCC.UC....C.AG......G
+M.viride.1                         AUGAUUCUUA..........CAUCUCC..UCC.GC....C.UG......G
+S.punctulatum.1                    AUUUUACGUA..........CAUCUCC..ACC.AC....C.AG......G
+M.scalaris.1                       AUUUUUCUAA..........CAUCUCC..UCC.UC....C.UG......G
+Spirogyra.1                        AUUUUUCUUA..........CAUCUCC..ACC.AC....C.AG......G
+Z.circumcarinatum.1                AUUUUUCUUA..........CAUCUCC..GCC.AC....C.AG......G
+P.tricornutum.1                    AUUAAACGAA..........CAUCGCC..ACC.AC....C.UG......G
+O.sinensis.1                       AUUAAACGAA..........CGUCACC..ACC.AC....C.UG......G
+S.costatum.1                       AUAUAACGAA..........CAUCGCC..ACC.AC....C.UG......G
+T.pseudonana.1                     AUAUAACGAA..........CAUCACC..ACC.AC....C.CG......G
+P.littoralis.1                     AUAAAUCUAA..........CAUCACC..ACC.AC....C.AG......G
+H.akashiwo.1                       AUAAAACGAA..........CAUCACC..ACC.AC....C.GG......G
+marine_metag.1                     AUCAUGCGGA..........CAUCACC..GCC.AC....C.GG......G
+marine_metag.2                     ACAAGUCUGA..........CUUCACC..ACC.AC....C.AG......G
+marine_metag.3                     ACAAGACGUA..........CAUCUCC..UCC.AC....C.UG......G
+marine_metag.4                     ACAAGUCUGA..........CUUCACC..ACC.UC....C.AG......G
+marine_metag.5                     ACAAGUCUGA..........CUUCACC..ACC.AC....C.UG......G
+marine_metag.6                     AUUAAACGAA..........CAUCUCC..UCC.AC....C.UG......G
+marine_metag.7                     AUUAAUCUAA..........CUUCACC..UCC.AC....C.AG......G
+marine_metag.8                     ACAAGUCUUA..........CUUCACA..CCU.CC....A.G.......G
+marine_metag.9                     ACAAGUCUAA..........CUUCUCC..ACC.AC....C.AG......G
+marine_metag.10                    AUUACACGUA..........CAUCACC..ACC.AC....C.UG......G
+marine_metag.11                    AUAAGUCGGA..........CUUCUCC..UCC.AC....C.AG......G
+marine_metag.12                    AUUAAUCUAA..........CUUCGCC..ACC.AC....C.AG......G
+marine_metag.13                    AUCAGACGAA..........CAUCGCC..ACC.GC....C.GG......G
+marine_metag.14                    ACUAAUCUAA..........CUUCUCC..ACC.AC....C.AG......G
+marine_metag.15                    AUAAGGCGAA..........CUUCUCC..GCC.AC....C.AG......G
+marine_metag.16                    AUUAACCUAA..........CUUCACC..ACC.UC....C.AG......G
+marine_metag.17                    ACAAGUCUGA..........CUUCACC..ACC.AC....C.UG......G
+marine_metag.18                    AUCAACCUAA..........CUUCUCC..UCC.AC....C.GG......G
+marine_metag.19                    ACAAGUCUGA..........CUUCGCC..ACC.UC....C.AG......G
+marine_metag.20                    AUCAAACGAA..........CAUCACC..ACC.GC....C.AG......G
+marine_metag.21                    AUCAGGCGAA..........CGUCGCC..GCC.GC....C.AG......G
+marine_metag.22                    ACAAGUCUUA..........CUUCACC..ACC.GC....C.AG......G
+marine_metag.23                    AUUACACGUA..........CAUCACC..ACC.CC....C.UG......G
+marine_metag.24                    AUAAGUCUAA..........CUUCACC..ACC.AC....C.AG......G
+marine_metag.25                    ACUAGUCUGA..........CUUCACC..ACC.AC....C.AG......G
+marine_metag.26                    ACAAGUCUGA..........CUUCACC..ACC.AC....C.UG......G
+marine_metag.27                    ACAAGUCUGA..........CCUCACC..ACC.AC....C.AG......G
+marine_metag.28                    AUUAAUCUAA..........CUUCACC..ACC.AC....C.AG......G
+marine_metag.29                    AUUAAACGAA..........CAUCACC..ACC.AC....C.AG......G
+marine_metag.30                    ACAAGUCUAA..........CUUCUCC..ACC.AC....C.AG......G
+marine_metag.31                    AUCAUGCGGA..........CAUCACC..GCC.GC....C.GG......G
+marine_metag.32                    AUCAAACGAA..........CGUCUCC..ACC.AC....C.UG......G
+marine_metag.33                    AUCAGACGAA..........CAUCACC..GCC.GC....C.CG......G
+marine_metag.34                    AUGAUUCUUA..........CAUCACC..ACC.AC....C.UG......G
+marine_metag.35                    ACAAGUCUGA..........CUUCACC..ACC.AC....C.UG......G
+marine_metag.36                    ACCAAUCUGA..........CUUCUCC..ACC.AC....C.GG......G
+marine_metag.37                    ACAAGUCUGA..........CUUCACC..ACC.GC....C.UG......G
+marine_metag.38                    AUCAGACGCA..........CGUCACC..ACC.GC....C.GG......G
+marine_metag.39                    ACAAGUUUGA..........CUUCACC..ACC.AC....C.AG......G
+marine_metag.40                    ACAAGUCUGA..........CUUCACC..ACC.AC....C.AG......G
+marine_metag.41                    ACUAACCUAA..........CUUCUCC..ACC.AC....C.AG......G
+marine_metag.42                    AUCAGGCGAA..........CAUCGCC..ACC.AC....C.AG......G
+#=GC SS_cons                       ..................................................
+
+Crocosphaera_watsoni.1             UGUGGU...GG.............AA.........UCGUAUAUACCG.CC
+Crocosphaera_watsoni.2             AGCCCA...AG.............UG.........UCAUAGACACCG.CC
+Crocosphaera_watsoni.3             CACCAG...AG.............GA.........UCAUAAAUUCCU.CC
+Cyanothece.1                       UGCCCA...AG.............UG.........UCAUAGACACCA.CC
+Cyanothece.2                       AGUAGU...GG.............AG.........UCGUACAACCCA.CC
+Synechococcus_elonga.1             CGCCCA...GG.............UG.........UCAUAGACACCG.CC
+Synechococcus.1                    UGCCCA...GG.............UG.........UCGUACACACCG.CC
+Synechococcus.2                    GGCCCA...GG.............UG.........UCGUAGACGCCG.CC
+Synechococcus.3                    GGCCCA...GG.............UG.........UCGUAGACGCCG.CC
+Synechococcus.4                    AGCCCA...GG.............UG.........UCGUAAACGCCG.CC
+Synechococcus.5                    GGCCCA...GG.............UG.........UCGUAAACGCCG.CC
+Synechococcus.6                    UGCCAC...CG.............GG.........UCGAACAAGCCG.CC
+Synechococcus.7                    GGCCCA...GG.............UG.........UCGUAGACGCCG.CC
+Synechococcus.8                    AGCCCA...GG.............UG.........UCAUAGACGCCA.CC
+Synechococcus_elonga.2             ACUGGC...UG.............CG.........UCGUAUAGGCCA.CC
+Synechococcus.9                    GGCCCA...AG.............UG.........UCGUAGACGCCA.CC
+Synechococcus.10                   AGCCCA...GG.............UG.........UCAUAGACACCG.CC
+Synechococcus.11                   GGUCGC...UG.............UG.........UCGUACAAACCG.CC
+Synechococcus.12                   GGCCCA...GG.............UG.........UCGUAGACGCCG.CC
+Synechococcus.13                   CAGUUG...AG.............CA.........UCGUACAGCCCU.CC
+Synechococcus.14                   GGCCCA...GG.............UG.........UCGUAGACGCCA.CC
+Synechococcus.15                   CAGGUU...GG.............CA.........UCGUACAGCCCU.CC
+Synechococcus.16                   UGCCCA...GG.............UG.........UCGUAGACACCG.CC
+Synechocystis.1                    GGUGGU...GG.............CG.........UCGUACAAUCCC.CC
+Synechocystis.2                    GGCCCA...GG.............UG.........UCGUAUACACCG.CC
+Thermosynechococcus_.1             UGCCCA...AG.............UG.........UCGUAGAGGCCA.CC
+Thermosynechococcus_.2             CAAAUU...GG.............CA.........UCGUACAACCCA.CC
+Gloeobacter_violaceu.1             UGUUGU...UGUCGAAGAACCAGGGG.........UCGUAGAUGCCG.CC
+Anabaena.1                         AGUUGU...UG.............CG.........UCGUAUAGUCCU.CC
+Anabaena_variabilis_.1             GGCCCA...GG.............UG.........UCAUAGACACCA.CC
+A.elenkinii.1                      AAUUCU...GC.............UC.........CCGUAAAUUCCC.CC
+Nodularia_spumigena_.1             GGCCCA...AG.............UA.........UCGUACACACCG.CC
+Nodularia_spumigena_.2             CAAAUU...GG.............CA.........UCAUACAAGCCG.CC
+Nodularia_spumigena_.3             AAAAUU...CG.............GG.........UCAUAAACUCCG.CC
+Nodularia_spumigena_.4             UACAUC...AG.............GG.........UCAUAAAGACCA.CC
+Nostoc.1                           UAAUGU...GG.............GG.........UCGUAUAAGCCU.CC
+Nostoc.2                           CAAAUU...AG.............UG.........UCAUAAAUGCCG.CC
+Nostoc_punctiforme_P.1             UGCCCA...GG.............UG.........UCAUACAACCCA.CC
+L.lagerheimii.1                    GGUGGC...GG.............CA.........UCGUAUAAACCG.CC
+Lyngbya.1                          ACCACC...GGGCGCCCAAC....UA.........UCGUAGACACCG.CC
+Trichodesmium_erythr.1             UACUAG...UG.............GA.........UCAUAAAUACCG.CC
+Trichodesmium_erythr.2             UGCCCA...AG.............UA.........UCAUAGACACCA.CC
+Trichodesmium_erythr.3             AAUGAC...UG.............GA.........UCGUAUAAUCCA.CC
+Trichodesmium_erythr.4             GAUCGC...CG.............GA.........UCGUACAAACCA.CU
+Trichodesmium_erythr.5             AGUUGU...CG.............CA.........UCAUAAAGCCCA.UC
+uncul.Oscil.cyano.1                AAUUGC...GG.............AG.........UCAUAUAGUCCU.CC
+uncul.Oscil.cyano.2                GGUGGC...AG.............CA.........UCGUAUAAACCG.CC
+Stanieria.1                        GAUGUU...GA.............CA.........UCGUAAAGUCCA.CC
+P.didemni.1                        GAUGAC...AG.............GG.........UCAUAGAUACCG...
+P.didemni.2                        UAAAGU...AG.............CA.........UCAAAAAUACCA.CC
+P.didemni.3                        CGUUCC...CG.............CA.........UCAUACAGUCCA.CC
+Prochlorococcus_mari.1             AGCCCA...UG.............UA.........UCAUAAGCACCG.CC
+Prochlorococcus_mari.2             AGCCCA...GG.............UG.........UCAUAGAUGCCG.CC
+uncul.Proch.marin.cl.1             UGCCCA...CG.............UG.........UCAUAUGCACCG.CC
+Prochlorococcus_mari.3             AGCCCA...AG.............UG.........UCGUAUGCACCA.CC
+Prochlorococcus_mari.4             AGCCCA...UG.............UG.........UCAUAAGCACCA.CC
+Prochlorococcus_mari.5             UGCCCA...AG.............UA.........UCAUAAGCACCA.CC
+uncul.Proch.marin.cl.2             CGCCCA...UG.............UA.........UCAUAUGCACCG.CC
+P.hollandica.1                     AAUGGU...GG.............AG.........UCGUAGACCCCA.UG
+P.scandica.1                       CAGGGA...GG.............CA.........UCAUACACGCCA.CC
+P.hollandica.2                     AACCCA...AG.............GA.........UCAUAGAGUCCA.CC
+P.hollandica.3                     GAUGGU...GG.............AA.........UCGUAAACGCCG.UG
+F.muscicola.1                      UAUAUG...AG.............UG.........UCAUAUAUUCCG.CC
+F.muscicola.2                      AAUUGU...GG.............UG.........UCGUAUAGUCCA.CC
+uncult._cyanobacteri.1             AGUCGU...GG.............CA.........UCAUAGAGGCCG.CC
+uncult._cyanobacteri.2             GAUAGU...UG.............CG.........UCGUAUAAUCCC.CC
+uncult._cyanobacteri.3             AAUAUU...CG.............UG.........UCAUAAAUUCCU.CC
+uncult._cyanobacteri.4             CUGGGU...GG.............CA.........UCGUACAACCCG.CC
+K.mikimotoi.1                      GGCCCA...GG.............UA.........UCAUAAAUUCCA.CC
+K.brevis.1                         AGCCCA...GG.............UA.........UCGUAAAUACCU.CC
+K.brevis.2                         AGCCCA...GG.............UA.........UCGUAAAUACCU.CC
+P.foliaceum.1                      UGCCCA...UG.............UA.........UCAUAUACACCA.CC
+G.theta.1                          AGCCCA...UG.............UA.........UCGUAUAAACCA.CC
+R.salina.1                         AGCCCA...CG.............UA.........UCGUAUAAACCA.CC
+R.abbreviata.1                     AGCCCA...CG.............UA.........UCAUAUAAACCA.CC
+C.paradoxa.1                       UGCCCA...AG.............UG.........UCAUAAACACCA.CC
+G.nostochinearum.1                 UGCCCA...AG.............UA.........UCGUAAACACCA.CC
+Isochrysis.1                       AGCCCA...UG.............UA.........UCGUAUACUCCA.CC
+E.huxleyi.1                        AGCCCA...CG.............UA.........UCGUAAACACCA.CC
+P.gyrans.1                         AGCCCA...AG.............UA.........UCAUAAAGACCU.CC
+P.lutheri.1                        UGCCCA...UG.............UA.........UCGUAUAUACCU.CC
+Pavlova.1                          UGCCCA...UG.............UA.........UCGUAAAGACCA.CC
+B.natans.1                         AGCCCA...AG.............UA.........UCAUAAACACCA.CC
+B.atropurpurea.1                   UGCCCA...AG.............UA.........UCAUAUACUCCA.CC
+P.yezoensis.1                      AGCCCA...AG.............UG.........UCGUAUACCCCA.CC
+P.purpurea.1                       UGCCCA...UG.............UA.........UCAUAUACCCCU.CC
+C.merolae.1                        UGCCCA...AG.............UG.........UCAUACACACCU.GA
+Cyanidium.1                        AGCCCA...UG.............UA.........UCAUACACACCA.CC
+C.caldarium.1                      AGCCCA...UG.............UA.........UCAUAAAUUCCA.CC
+C.caldarium.2                      UGCCCA...UG.............UG.........UCAUAAACUCCC.CC
+G.sulphuraria.1                    AGCCCA...AG.............UA.........UCAUAAACUCCA.CC
+G.maxima.1                         AGCCCA...UG.............UA.........UCAUACACACCG.GA
+C.caeruleus.1                      AGCCCA...UG.............UA.........UCAUAUAUACCA.CC
+R.violacea.1                       CGCCCA...UG.............UA.........UCAUAUACGCCA.CC
+C.crispus.1                        UGCCCA...UG.............UA.........UCAUAAACACCA.CC
+G.tenuistipitata.1                 AGCCCA...UG.............UG.........UCAUAUACUCCA.CC
+P.palmata.1                        CGCCCA...UG.............UA.........UCAUAAACACCG.CC
+R.marinus.1                        AGCCCA...UG.............UA.........UCAUAAACACCG.CC
+S.helveticum.1                     AGCCCA...AG.............UA.........UCAUAUACACCA.CC
+C.moewusii.1                       AGCCCA...UG.............UA.........UCAUAGAUUCCU.CC
+C.reinhardtii.1                    AGCCCA...AG.............UA.........UCGUAAACACCA.CC
+C.raudensis.1                      ACCACC...CGGAGCCCAAG....UG.........UCAUAAAUACCA.CC
+C.debaryana.1                      AGCCCA...AG.............UG.........UCAUAAACACCG.CC
+V.ordinata.1                       ACCACC...UGGUGCCCAAG....UA.........UCAUAAACACCA.CC
+T.socialis.1                       GGCCCA...AG.............UG.........UCGUAAACACCA.CC
+E.elegans.1                        AGCCCA...AG.............UA.........UCAUAAACACCA.CC
+G.pectorale.1                      ACCACC...UGGUGCCCAAG....UA.........UCGUAAACACCA.CC
+G.octonarium.1                     UGCCCA...AG.............UA.........UCAUAAACACCA.CC
+G.multicoccum.1                    CGCCCA...AG.............UA.........UCGUAAACACCA.CC
+G.multicoccum.2                    UGCCCA...AG.............UA.........UCGUAAACACCA.CC
+G.quadratum.1                      CGCCCA...AG.............UA.........UCAUAAACACCA.CC
+G.viridistellatum.1                ACCGCC...CG.............GGGCCCAAGUAUCGUAAACACCA.CC
+L.monstruosa.1                     AGCCCA...AG.............UG.........UCAUAAACACCA.CC
+P.morum.1                          AGCCCA...UG.............UA.........UCAUAAACACCA.CC
+P.colemaniae.1                     AGCCCA...UG.............UA.........UCGUAAAUACCA.CC
+P.morum.2                          CGCCCA...UG.............UA.........UCAUAAACACCA.CC
+P.morum.3                          ACCACC...CG.............GGGCCCAAGUAUCGUAAAUACCU.CC
+P.morum.4                          UGCCCA...AG.............UA.........UCAUAAAUACCA.CC
+P.caudata.1                        AGCCCA...AG.............UA.........UCAUAAACACCA.CC
+P.thompsonii.1                     AGCCCA...AG.............UA.........UCAUAAACACCA.CC
+P.starrii.1                        AGCCCA...AG.............UA.........UCAUAAACACCA.CC
+P.californica.1                    AGCCCA...UG.............UG.........UCAUAAACACCA.CC
+V.tertius.1                        AGCCCA...AG.............UA.........UCAUAAACACCA.CC
+V.barberi.1                        CGCCCA...AG.............UA.........UCAUAAACACCA.CC
+V.dissipatrix.1                    AGCCCA...AG.............UA.........UCAUAAACACCG.CC
+V.powersii.1                       AGCCCA...AG.............UA.........UCAUAAACACCA.CC
+V.boldii.1                         GCCGCC...GGGAGCCCAAG....UA.........UCAUAAAUACCG.CC
+V.steinii.1                        ACCACC...GGGCGCCCAUG....UA.........UCGUAAACACCA.CC
+V.pringsheimii.1                   AGCCCA...UG.............UA.........UCAUAAACACCA.CC
+V.compacta.1                       AGCCCA...AG.............UA.........UCAUAAACACCA.CC
+Y.unicocca.1                       AGCCCA...AG.............UA.........UCAUAAACACCA.CC
+Y.unicocca.2                       AGCCCA...AG.............UA.........UCGUAAACACCA.CC
+E.viridis.1                        ACCACC...UGGUGCCCAAG....UA.........UCAUAAACACCU.CC
+S.obliquus.1                       AGCCCA...UG.............UA.........UCAUAAACACCA.CC
+O.viridis.1                        AGCCCA...AG.............UA.........UCGUAAACACCA.CC
+O.tauri.1                          UGCCCA...UG.............UA.........UCAUAAACUCCA.CC
+N.olivacea.1                       UGCCCA...UG.............UG.........UCAUAAACGCCA.CC
+C.vulgaris.1                       AGCCCA...UG.............UA.........UCAUAAAUUCCG.CC
+L.terrestris.1                     CGCCCA...AG.............UA.........UCAUAAACCCCA.CC
+K.sempervirens.1                   GGCCCA...AG.............UA.........UCAUAAACUCCA.CC
+P.akinetum.1                       GGACCA...CG.............GG.........UCAAAAAGACCG.CC
+C.strigosa.1                       UGCCCA...AG.............UA.........UCAUAAAGACCU.CC
+N.flexilis.1                       UGCCCA...AG.............UA.........UCAUAAAUACCU.CC
+N.obtusa.1                         UGCCCA...AG.............UG.........UCAUAAAGACCU.CC
+C.atmophyticus.1                   ACCUCC...UGGUGCCCAAG....UA.........UCAUAAACACCG.CC
+C.globosum.1                       AGCCCA...AG.............UA.........UCGUAAACACCU.CC
+C.nitellarum.1                     UGCCCA...UG.............UA.........UCAUAUACACCA.CC
+A.formosae.1                       AACCCA...GG.............UA.........UCGUAUACACCU.CC
+P.patens.1                         AGCCCA...AG.............UA.........UCAUAUAUUCCG.CC
+M.polymorpha.1                     AGCCCA...UG.............UA.........UCAUAAAUACCA.CC
+S.uncinata.1                       AGCCCA...GG.............UA.........UCAUAUGCACCU.CC
+H.lucidula.1                       AGCCCA...CG.............UA.........UCGUAUACACCU.CC
+Adiantum_capillus-ve.1             GCCACC...GGGUGCCCAUG....UA.........UCAUACAACCCU.CC
+A.evecta.1                         CGCCCA...UG.............UA.........UCAUAUACACCU.CC
+P.nudum.1                          UGCCCA...UG.............UG.........UCAUAGACACCG.CC
+A.australis.1                      AGCCCA...GG.............UA.........UCAUAUAUGCCA.CC
+A.bidwillii.1                      AGCCCA...AG.............UA.........UCAUAUACACCG.CC
+W.cedarbergensis.1                 AGCCCA...GG.............UA.........UCAUAUAUGCCA.CC
+C.deodara.1                        AGCCCA...GG.............UA.........UCAUAUACACCU.CC
+P.chinensis.1                      AGCCCA...GG.............UA.........UCAUAUACACCA.CC
+S.conspicua.1                      AGCCCA...GG.............UA.........UCAUAUACACCA.CC
+S.verticillata.1                   AGCCCA...GG.............UA.........UCAUAUACACCG.CC
+T.brevifolia.1                     AGCCCA...GG.............UA.........UCAUAUAUGCCA.CC
+T.californica.1                    AGCCCA...GG.............UA.........UCAUAUAUGCCA.CC
+M.moorei.1                         GGCCCA...GG.............UA.........UCAUAUACACCU.CC
+G.biloba.1                         GGCCCA...GG.............UA.........UCAUAUACACCU.CC
+E.sinica.1                         AGCCCA...GG.............UA.........UCAUAUAUACCU.CC
+G.parvifolium.1                    AGCCCA...GG.............UA.........UCGUAUAUACCG.CC
+W.mirabilis.1                      AGCCCA...GG.............UA.........UCAUAUAUACCG.CC
+C.demersum.1                       AGCCCA...AG.............UA.........UCAUAUACACCC.CC
+A.americanus.1                     AGCCCA...GG.............UG.........UCAUAUACACCC.CC
+S.latifolia.1                      AGCCCA...GG.............UA.........UCAUAUACGCCA.CC
+A.textile.1                        UGCCCA...GG.............UA.........UCAUAUAUACCU.CC
+A.monspeliensis.1                  GGCCCA...GG.............UA.........UCAUAUACACCU.CC
+A.endlicheri.1                     AGCCCA...GG.............UA.........UCAUAUACGCCC.CC
+P.tenax.1                          GGCCCA...GG.............UA.........UCAUAUACGCCC.CC
+I.missouriensis.1                  GGCCCA...GG.............UA.........UCAUAUACACCC.CC
+A.stylidioides.1                   UGCCCA...UG.............UA.........UCAUAUACGCCU.CC
+C.lindleyana.1                     UGCCCA...GG.............UA.........UCAUAUAUGCCU.CC
+C.septentrionalis.1                UGCCCA...GG.............UU.........UCAUAUAUGCCU.CC
+S.romanzoffiana.1                  UGCCCA...GG.............UA.........UCAUAUACGCCU.CC
+E.cassythoides.1                   GGCCCA...GG.............UA.........UCAUAUACGCCU.CC
+C.rosea.1                          CCCUCC...GGGUGCCCAAG....UA.........UCAUAUACGCCU.UC
+D.adolphii.1                       CCCUCC...GGGCGCCCAAG....UA.........UCAUAUACGCCU.CC
+I.medeoloides.1                    CCCUCC...GGGUGCCCAAG....CA.........UCAUAUACGCCU.CC
+P.minor.1                          CCCUCC...GGGUGCCCAAG....UA.........UCAUAUAUGCCU.CC
+Epistephium.1                      UGCCCA...GG.............UA.........UCAUAUACGCCC.CC
+V.imperialis.1                     UGCCCA...GG.............UA.........UCAUAUACGCCU.CC
+V.inodora.1                        UGCCCA...GG.............UA.........UCAUAUACGCUU.CC
+X.resinosa.1                       GGCCCA...GG.............UA.........UCAUAUACNCCC.CC
+P.bogneri.1                        GGCCCA...GG.............UA.........UCAUAUACGCCC.CC
+X.caeruleum.1                      GGCCCA...GG.............UA.........UCAUAUAUACCC.CC
+H.gardneri.1                       AGCCCA...AG.............UA.........UCAUAUAUACCC.CC
+B.capitata.1                       UGCCCA...GG.............UA.........UCGUAUACGCCU.CC
+D.elephantipes.1                   GGCCCA...AG.............UA.........UCGUAUACACCA.CC
+N.ossifragum.1                     GGCCCA...GG.............UA.........UCGUAUACGCCU.CC
+L.radicans.1                       GGCCCA...GG.............UA.........UCAUAUACGCCU.CC
+A.elegans.1                        GGCCCA...GG.............UA.........UCAUAUACGCCC.CC
+T.grandiflorum.1                   GGCCCA...GG.............UA.........UCAUAUACGCCC.CC
+C.monogyna.1                       GGCCCA...GG.............UA.........UCAUAUACACCU.CC
+C.papyrus.1                        AGCCCA...GG.............UA.........UCAUAUACACCU.CC
+E.monostachya.1                    GGCCCA...AG.............UA.........UCAUAUAAGCCG.CC
+M.fluviatilis.1                    GGCCCA...AG.............UA.........UCAUAUAUGCCA.CC
+O.sativa.1                         AGCCCA...GG.............UA.........UCAUAUAUAUCG.CC
+S.cereale.1                        GGCCCA...GG.............UA.........UCAUAUACACCG.CC
+X.jupicai.1                        GGCCCA...GG.............UA.........UCAUAUAUACCC.CC
+T.glutinosa.1                      AGCCCA...AG.............UA.........UCAUAUAUGCCC.CC
+T.elegans.1                        GGCCCA...GG.............UA.........UCAUAUACCCCC.CC
+S.reginae.1                        GGCCCA...GG.............UA.........UCAUAUAUGCCC.CC
+A.trichopoda.1                     GGCCCA...GG.............UA.........UCAUAUACGCCU.CC
+I.parviflorum.1                    AGCCCA...GG.............UA.........UCAUAUACGCCU.CC
+T.moorei.1                         AGCCCA...AG.............UA.........UCAUAUACGCCC.CC
+C.caroliniana.1                    AGCCCA...GG.............UA.........UCAUAUACGCCC.CC
+T.submersa.1                       UGCCCA...GG.............UA.........UCAUAUACGCCC.CC
+B.microphylla.1                    AGCCCA...GG.............UA.........UCAUAUACGCCC.CC
+H.canadensis.1                     AGCCCA...GG.............UA.........UCAUAUACUCCC.CC
+P.americana.1                      AGCCCA...GG.............UA.........UCAUAUACGCCC.CC
+Rheum_x_hybridum_gar.1             AGCCCA...GG.............UA.........UCAUAUAUGCCC.CC
+G.chilensis.1                      AGCCCA...GG.............UA.........UCAUAUACGCCC.CC
+V.vinifera.1                       GGGAGCCCAGG.............UA.........UCAUAUACGCCC.CC
+V.vinifera.2                       AGUACA...GU.............UG.........UCAAAUACACCU..C
+V.vinifera.3                       AACCCU...GG.............U.........................
+V.vinifera.4                       AGCCCA...GG.............UA.........UCAUAUACGCCGACC
+V.vinifera.5                       AGCCCA...GG.............UA.........UCAUAUACGCCG.CC
+V.vinifera.6                       AGCUCG...AG.............UA.........UCAUAUGCACCG.CC
+V.vinifera.7                       AACCCU...GG.............U.........................
+V.vinifera.8                       AGCCCA...GG.............UA.........UCAUAUACGCCG.CC
+H.annuus.1                         AGCCCA...AG.............UA.........UCAUAUACGCCC.CC
+C.sandwichiana.1                   CCCUCC...AG.............GGGCCCAAGUAUCAUAUACACCC.CC
+A.belladonna.1                     AGCCCA...GG.............UA.........UCAUAUACACCC.CC
+Pelargonium_x_hortor.1             AGCCCA...GG.............UA.........UCAUAUACACCC.CC
+O.glazioviana.1                    AGCCCA...GG.............UA.........UCAUAUACGCCA.CC
+E.alatus.1                         AGCCCA...GG.............UA.........UCAUAUACGCCC.CC
+C.arietinum.1                      AGCCCA...GG.............UA.........UCAUAUAUACCU.CC
+L.japonicus.1                      AGCCCA...AG.............UA.........UCAUAUAUACCC.CC
+L.japonicus.2                      AGCCCA...GG.............UA.........UCACAUAUACCC.CC
+Glycine_max_soybean.1              AGCCCA...CG.............UA.........UCAUAUAUACCU.CC
+R.communis.1                       AGCCCA...GG.............UA.........UCAUAUACGCCC.CC
+R.communis.2                       AGCCCA...GG.............UA.........UCAUAUACGCCC.CC
+R.communis.3                       AGCCCA...GG.............UA.........UCAUAUAUGCUC.CC
+R.communis.4                       AGACCA...GG.............UA.........UCAUAUACGCCC.CU
+P.trichocarpa.1                    CACUUU...UG.............UU.........UCUUAA.........
+P.trichocarpa.2                    AGCCCA...GG.............UA.........UCAUAUACACCC.CC
+P.alba.1                           AGCCCA...GG.............UA.........UCAUAUACGCCC.CC
+P.trichocarpa.3                    AGCCCA...UG.............UA.........UCAUAUACACCA.CC
+H.lupulus.1                        AGCCCA...GG.............UA.........UCAUAUACACCC.CC
+B.rapa.1                           AGCCCA...GG.............UA.........UCAUAUACGCCC.CC
+C.papaya.1                         AGCCCA...GG.............UA.........UCAUAUACACCU.CC
+C.papaya.2                         AGCCCA...GG.............UA.........UCAUAUACAUCU.CC
+C.papaya.3                         AGCCCA...GG.............UA.........UCAUACACACCU.CC
+C.papaya.4                         AGCCUA...GG.............UA.........UCAUAUACGACU.CC
+C.sinensis.1                       AGCCCA...GG.............UA.........UCAUACACGCCC.CC
+H.peltata.1                        GGCCCA...GG.............UA.........UCAUAUACGCCC.CC
+A.macrophylla.1                    GGCCCA...GG.............UA.........UCAUAUACGCCC.CC
+S.cernuus.1                        AGCCCA...GG.............UG.........UCAUAUACGCCU.CC
+K.flaccidum.1                      AGCCCA...UG.............UA.........UCAUAAAUGCCG.CC
+M.viride.1                         AGCCCA...UG.............UA.........UCAUAUACACCA.CC
+S.punctulatum.1                    UGCCCA...AG.............UA.........UCAUAAACACCA.CC
+M.scalaris.1                       AGCCCA...AG.............UA.........UCGUAUACACCA.CC
+Spirogyra.1                        AGCCCA...AG.............UA.........UCAUAUACACCA.CC
+Z.circumcarinatum.1                UGCCCA...AG.............UA.........UCAUACAAACCA.CC
+P.tricornutum.1                    UGCCCA...AG.............UA.........UCAUAAACACCA.CC
+O.sinensis.1                       CGCCCA...UG.............UA.........UCAUAAACACCA.CC
+S.costatum.1                       UGCCCA...UG.............UA.........UCAUAAACACCA.CC
+T.pseudonana.1                     UGCCCA...UG.............UA.........UCGUAAACACCA.CC
+P.littoralis.1                     UGCCCA...AG.............UA.........UCAUAUAAACCA.AA
+H.akashiwo.1                       UGCCCA...AG.............UA.........UCAUAAAUACCA.CC
+marine_metag.1                     UGCCCA...GG.............UG.........UCAUAGACGCCG.CC
+marine_metag.2                     UGCCCA...UG.............UG.........UCAUAUGCACCG.CC
+marine_metag.3                     AGCCCA...AG.............UG.........UCAUAAACACCA.CC
+marine_metag.4                     UGCCCA...AG.............UG.........UCAUAUGCACCA.CC
+marine_metag.5                     UGCCCA...UG.............UG.........UCAUAUGCACCG.CC
+marine_metag.6                     AGCCCA...UG.............UG.........UCAUAAACUCCA.CC
+marine_metag.7                     UGCCCA...UG.............UA.........UCAUAAGCACCA.CC
+marine_metag.8                     UGCCCA...UG.............UG.........UCAUAUGCACCA.CC
+marine_metag.9                     AGCCCA...UG.............UG.........UCAUAUGCACCG.CC
+marine_metag.10                    UGCCCA...CG.............UG.........UCAUAAACUCCA.CC
+marine_metag.11                    GGCCCA...AG.............UA.........UCAUAUGCACCG.CC
+marine_metag.12                    UGCCCA...UG.............UA.........UCAUAUGCACCG.CC
+marine_metag.13                    UGCCCA...GG.............UG.........UCGUAUACGCCA.CC
+marine_metag.14                    UGCCCA...AG.............UA.........UCAUAAGCUCCU.CC
+marine_metag.15                    UGCCCA...AG.............UA.........UCAUAUGCUCCA.CC
+marine_metag.16                    UGCCCA...AG.............UA.........UCAUAGGCUCCA.CC
+marine_metag.17                    UGCCCA...UG.............UG.........UCAUAUGCACCG.CC
+marine_metag.18                    AGCCCA...AG.............UG.........UCGUAUGCACCG.CC
+marine_metag.19                    UGCCCA...UG.............UG.........UCAUAUGCACCG.CC
+marine_metag.20                    UGCCCA...GG.............UG.........UCGUAAACGCCA.CC
+marine_metag.21                    GGCCCA...GG.............UG.........UCGUAGACGCCG.CC
+marine_metag.22                    UGCCCA...UG.............UA.........UCAUAUGCACCG.CC
+marine_metag.23                    UGCCCA...UG.............UA.........UCGUAAACUCCA.CC
+marine_metag.24                    GGCCCA...UG.............UA.........UCAUAAGCUCCA.CC
+marine_metag.25                    UGCCCA...UG.............UG.........UCAUAUGCACCG.CC
+marine_metag.26                    UGCCCA...UG.............UG.........UCAUAUGCACCG.CC
+marine_metag.27                    UGCCCA...UG.............UG.........UCAUAUGCACCG.CC
+marine_metag.28                    UGCCCA...AG.............UA.........UCAUAAGCUCCA.CC
+marine_metag.29                    CGCCCA...UG.............UG.........UCAUAUACACCG.CC
+marine_metag.30                    UGCCCA...UG.............UG.........UCAUAUGCACCG.CC
+marine_metag.31                    GGCCCA...UG.............UG.........UCAUACACGCCG.CC
+marine_metag.32                    AGCCCA...GG.............UG.........UCAUAAACGCCA.CC
+marine_metag.33                    UGCCCA...GG.............UG.........UCGUAGACGCCA.CC
+marine_metag.34                    UGCCCA...UG.............UA.........UCGUAAAGACCG.CC
+marine_metag.35                    UGCCCA...UG.............UG.........UCAUAUGCACCG.CC
+marine_metag.36                    GGCCCA...UG.............UG.........UCAUAAGCACCA.CC
+marine_metag.37                    UGCCCA...UG.............UG.........UCAUAUGCACCG.CC
+marine_metag.38                    GGCCCA...GG.............UG.........UCGUAGACGCCA.CC
+marine_metag.39                    UGCCCA...AG.............UA.........UCAUAUGCACCG.CC
+marine_metag.40                    AGCCCA...UG.............UA.........UCAUAUGCACCA.CC
+marine_metag.41                    UGCCCA...UG.............UA.........UCAUAAGCGCCU.CC
+marine_metag.42                    GGCCCA...GG.............UG.........UCGUAAACACCG.CC
+#=GC SS_cons                       ..................................................
+
+Crocosphaera_watsoni.1             CC..AGAA..........CAUCGCUUUUCCUACCAA.UA.GUAA.GGCAG
+Crocosphaera_watsoni.2             AA..AGAA..........CAUGGCUUUGAACACCAA.CA.AUAG.CGCAC
+Crocosphaera_watsoni.3             CC..AUUG..........GUUGGCUUUGAGGACCAG.AA.GGGC.UGCAC
+Cyanothece.1                       AA..AGAA..........CAUGGCUUUGAACACGAG.UA.ACAG.CGCAC
+Cyanothece.2                       CC..AAUA..........CAUGGCUUUUCCCACUAA.UA.ACAA.UGCAC
+Synechococcus_elonga.1             GA..AGAA..........CAUGGCCUUAAAGACCAG.CA.AGAA.GGCAC
+Synechococcus.1                    GA..AGAA..........CAUGGCCUUGAAGACCAG.CA.GCAG.GGCGC
+Synechococcus.2                    AA..AGAA..........CAUGGCCUUAAAGACCAA.AA.GGAG.GCAGC
+Synechococcus.3                    GA..AGAA..........CAUCGCCUUGAACACCAG.CA.GCAG.CGCAC
+Synechococcus.4                    GA..AGAA..........CAUGGCCUUGAAGACCAG.CA.GCAG.GCAAC
+Synechococcus.5                    GA..AGAA..........CAUGGCCUUGAAGACCAG.CA.GCAG.GCAGC
+Synechococcus.6                    AA..ACAC..........CACUGCCUUGAGCACCAA.AA.GCCA.GGCUC
+Synechococcus.7                    GA..AGAA..........CAUGGCCUUGAAGACCAG.CA.GCAG.GCAGC
+Synechococcus.8                    AA..ACCA..........CAUGGCCUUGGCCACCAA.CA.GGAA.AGCCC
+Synechococcus_elonga.2             CC..AAGU..........UGUUGCCUUUGCCACCAG.CA.GCAA.UGCUC
+Synechococcus.9                    GA..AGAA..........CAUGGCCUUGAAGACCAG.UA.GCAG.GCAUC
+Synechococcus.10                   AA..ACCA..........CAUGGCCUUGGCCACCAA.UA.GGAA.AGCCC
+Synechococcus.11                   AA..AGUA..........CAUCGCUUUCGCUACGAG.CA.AGAA.AGCAC
+Synechococcus.12                   GA..AAAA..........CAUGGCCUUAAAGACCAG.CA.GCAA.GCAGC
+Synechococcus.13                   CC..AGAA..........GAGCGCUUUGGCCACCAG.CA.ACCA.GGCCC
+Synechococcus.14                   GA..AGAA..........CAUGGCCUUGAAGACCAG.CA.GCAG.GCAGC
+Synechococcus.15                   CC..AAAA..........GAGAGCCUUGGCCACCAG.CA.GCCA.UGCAC
+Synechococcus.16                   GA..AGAA..........CAUCGCCUUGAACACCAG.CA.GCAG.GCAAC
+Synechocystis.1                    CC..AAUA..........CAUGGCUUUGCCUGCCAA.CA.GUAG.AGCUC
+Synechocystis.2                    AA..AGAA..........CAUGGCUUUAAAGACCAG.UA.ACAG.AGCAC
+Thermosynechococcus_.1             AA..AGAA..........CAUUGCUUUGGCCACCAA.AA.GUAA.AGCAC
+Thermosynechococcus_.2             CC..AGAU..........GGUUGCUUUGAGAACUAA.CA.GCAG.GGCAC
+Gloeobacter_violaceu.1             AA..ACCA..........GCAGGCCUUGGCCACCAG.CA.GGAA.GCAAC
+Anabaena.1                         CC..AAAA..........CAUAGCUUUUCCUACCAG.UA.AUAA.AGCUG
+Anabaena_variabilis_.1             AA..AGAA..........CAUUGCUUUCAAUACCAA.CA.GCAA.CGCAC
+A.elenkinii.1                      CC..AGAA..........CAUGCCUUUUCCCACCAG.CA.AUAA.AGCUC
+Nodularia_spumigena_.1             AA..AGAA..........CAUUGCCUUCAGCACCAA.CA.GCAA.CGCAC
+Nodularia_spumigena_.2             AA..AAAA..........CAUAGACUUGGCAACCAG.UA.AGCC.AGCAC
+Nodularia_spumigena_.3             AA..AAAA..........CAUCGCCUUUAGCACUAA.UA.GAAA.UGCAC
+Nodularia_spumigena_.4             CC..AAAA..........CAGUGCUUUCGCCACCAA.UA.ACCA.AGCAC
+Nostoc.1                           AA..AAAA..........GACGGCUUUGGCAACGAG.UA.AGCC.UGCUC
+Nostoc.2                           AA..AAAA..........CAUGGCUUUUAGCACUAG.UA.AGAA.UGCUC
+Nostoc_punctiforme_P.1             GA..AGAA..........CAUUGCUUUUGCUACCAA.UA.GCAG.CGCAC
+L.lagerheimii.1                    CC..AGUA..........CAUCGCUUUGGCGACUAG.CA.GUAA.GGCUC
+Lyngbya.1                          AA..AGAA..........CAUGGCUUUAAACACCAG.CA.ACAG.CGCAC
+Trichodesmium_erythr.1             UA..AAGC..........UGUUGCUUUUAUCACUAA.UA.GUGC.UGCUC
+Trichodesmium_erythr.2             CA..AGAA..........CACAGCUUUGAUUACUAA.UA.AGAA.UGCGC
+Trichodesmium_erythr.3             AU..AUGC..........CAUUGCUUUUGCUACAAG.CA.ACAA.AGCAC
+Trichodesmium_erythr.4             AC..CAUA..........AACGGCUUUGACUACCAG.CA.UCAA.UGCUC
+Trichodesmium_erythr.5             GA..AAUA..........CAUAGCUUUUGCUGCUAA.UA.AUAA.AGCAC
+uncul.Oscil.cyano.1                GA..AAAA..........CAUCGCUUUUGCCACCAG.UA.AUAA.AGCAC
+uncul.Oscil.cyano.2                CC..AGUA..........CAUCGCUUUGGCGACUAA.CA.AUAA.GGCUC
+Stanieria.1                        AA..AAAA..........CAUCGCUUUUCCUGCUAA.AA.GCAA.UGCAC
+P.didemni.1                        .A..AGAA..........AACAGCCCAGAGGACUAA.AA.ACAA.GGCAC
+P.didemni.2                        GA..AUAC..........AGUAGCUUUUAACACAAA.CA.AGAA.AGCAC
+P.didemni.3                        CC..AAUA..........CAUGGCUUUGCCAACUCG.CU.AUAA.GGCCC
+Prochlorococcus_mari.1             AAU.AAAA..........CACCAGUUUACUGACCAA.G..CUAA.UGCAC
+Prochlorococcus_mari.2             AA..AGAA..........GCAGGCCUUGAGGAUCAG.AG.CAAG.AGCUC
+uncul.Proch.marin.cl.1             AAU.AAAA..........CACCAGUUUACUGACCA..UG.CUAA.UGCAC
+Prochlorococcus_mari.3             UA..UAUA..........CAUCCAGUUAAUGGACCA.UA.GAAG.AGCUC
+Prochlorococcus_mari.4             GA..UAAA..........CAUCCAAUCUGCGACGAA.AA.AUAA.AGCAC
+Prochlorococcus_mari.5             AA..UGAA..........ACACCAGUUCACAGUCCA.UG.CUAA.UGCAC
+uncul.Proch.marin.cl.2             AAU.AAAA..........CACCAGUUAACUGACCA..CG.CUAA.UGCAC
+P.hollandica.1                     GA..ACCG..........CAGCCA...GAUGACAAA.CA.GCAG.GGCUG
+P.scandica.1                       CC..AGAA..........CAUGGCCUUAGCCACAAA.UG.CUAA.GCAAA
+P.hollandica.2                     AA..AGAA..........CAUGGCUUUGAAGACAAA.CA.GGCU.UGCGC
+P.hollandica.3                     GA..AGCG..........AAUCCA...ACCGACGAA.GA.AGAU.UGCCC
+F.muscicola.1                      AA..AAAA..........CAUGGCUUUUAGCACCAA.UA.AAAA.UGCAC
+F.muscicola.2                      CC..AGAA..........CAUCGCUUUUGCUACUAA.CA.ACAA.AGCGC
+uncult._cyanobacteri.1             CC..AUGU..........GGUGGCUUUUAGGACUAG.CA.GCAG.CGCGC
+uncult._cyanobacteri.2             CC..AGUA..........CAUAGCUUUGGCCACUAA.UA.AUAA.UGCAG
+uncult._cyanobacteri.3             CC..AAAA..........CAUGGCUUUACCUACCAG.CA.AUAA.AGCUG
+uncult._cyanobacteri.4             CC..AGGU..........GGUGGCUUUGGCGACGAG.GA.GCAG.CGCCC
+K.mikimotoi.1                      GA..AGUA..........CAUAGCUUUCGCAACAAG.UA.GAUA.ACAUC
+K.brevis.1                         GA..AGUA..........AAGGGCCUUAGCAACAAG.UA.AAUA.ACAUC
+K.brevis.2                         CA..AAUA..........AAGAGCCUUACCAACAAG.UA.AAUA.ACAUC
+P.foliaceum.1                      UA..AAUA..........CAUUGCUUUGAUAACUAA.UA.AGAA.AGCAC
+G.theta.1                          AA..CAUA..........AAUAGCUUUUAUAACUAA.UA.AUAA.UGCAC
+R.salina.1                         AA..CAUA..........CAUAGCUUUUACUACUAG.UA.GUAA.AGCUC
+R.abbreviata.1                     UA..CAUA..........AAGAGCUUUAAUUACUAA.UA.AUAA.AGCUC
+C.paradoxa.1                       GA..AGAA..........CAUUGCUUUUAAUACUAA.AA.GUAA.AGCAC
+G.nostochinearum.1                 AA..AAAA..........CAUUGCUUUAAAUACUAA.AA.GGAA.CGCAC
+Isochrysis.1                       AA..CGAA..........ACAAGCUUUGGCAACAAG.UA.AAAA.ACAAC
+E.huxleyi.1                        AA..CGAA..........ACAAGCUUUGGCAACAAG.UA.GGAA.ACAAC
+P.gyrans.1                         AA..AGAA..........CAUAGCCUUUAAAACAAG.AA.GGAA.AGCUC
+P.lutheri.1                        AA..AGAA..........CAUCGCCUUGGCUACAAG.UA.AAAA.UGCCC
+Pavlova.1                          AA..GGAA..........CAUCGCUUUAGUUACAAG.AA.GGAA.UGAUC
+B.natans.1                         GA..AAUA..........UGAAGCUUUUAAAACUAA.UA.ACCA.AGAUC
+B.atropurpurea.1                   AA..CAAA..........UAGAGCUUUGAUUACUAA.UA.AAAA.UGCUC
+P.yezoensis.1                      AA..UAAA..........UAAAGCUUUAAUAACUAA.CA.GAAA.AGCGC
+P.purpurea.1                       AA..CAAA..........UAAAGACUUGAUUACUAA.UA.GAAA.UGCUC
+C.merolae.1                        CA..GAAA..........CAUGGCUUUGAUUACUAA.UA.AAAA.CGCAC
+Cyanidium.1                        UA..CAAA..........CAGAGCUUUAAUAACUAG.UA.AAAA.UGAUC
+C.caldarium.1                      UA..UAAA..........UAGUGCUUUAAUAACUAA.CA.AAAA.UGCUC
+C.caldarium.2                      AA..AAAA..........CAUAGCUUUUAUAACUAG.CA.AGAA.AGCUC
+G.sulphuraria.1                    UA..UAAA..........CAUUGCUUUUACUACUAG.UA.AAAA.CGCUC
+G.maxima.1                         GA..UAAA..........CAUGGCUUUGAUCACUAG.AA.GGAA.AGCAC
+C.caeruleus.1                      AC..UAAA..........UAAAGCUUUAAUAACAAG.UA.AAAA.UGCGC
+R.violacea.1                       AA..AGAA..........UAAGGCUUUAACAACCAA.UA.AAAA.UGAUC
+C.crispus.1                        AA..AGAA..........AAGAGCUUUGAUAACUAA.UA.GAAA.AGAUC
+G.tenuistipitata.1                 GA..AAAA..........UAAAGCUUUAAUCACAAG.UA.AAAA.CGACC
+P.palmata.1                        AA..CAAA..........UAAAGCUUUUAUAACUAA.UA.AGAA.AGAAC
+R.marinus.1                        AA..AGAA..........UAAAGAUUUGAACACUAA.UA.AGAA.GGCAC
+S.helveticum.1                     AA..AGUA..........CAUAGCUUUCCAAACAAG.AA.GCCA.AGCUC
+C.moewusii.1                       AA..AAUA..........CAUAGCUUUUAAAACUAA.UA.ACCA.AGCAC
+C.reinhardtii.1                    AA..AGUA..........CAUAGCUUUCCAAACAAG.UA.ACCA.UGCAC
+C.raudensis.1                      AA..AGUA..........CAUAGCUUUUAAAACUAA.UA.ACCA.AGCAC
+C.debaryana.1                      AA..AGUA..........CAUAGCUUUCCAAACAAG.UA.ACCA.UGCAC
+V.ordinata.1                       AA..AAUA..........AAGAGCUUUUAAAACAAG.UA.ACCA.AGCCC
+T.socialis.1                       AA..AAUA..........CAUUGCUUUCCAAACAAG.UA.ACCA.AGCAC
+E.elegans.1                        AA..AGUA..........CAUAGCUUUCCAAACAAG.UA.ACCA.AGCAC
+G.pectorale.1                      AA..AGUA..........CAUUGCUUUCCAAACAAG.UA.ACCA.AGCAC
+G.octonarium.1                     AA..AAUA..........CAUUGCUUUCCAAACAAG.UA.ACCA.AGCAC
+G.multicoccum.1                    AA..AGUA..........CAUUGCUUUCCAAACAAG.UA.ACCA.UGCAC
+G.multicoccum.2                    AA..AGUA..........CAUUGCUUUCCAAACAAG.UA.ACCA.UGCAC
+G.quadratum.1                      AA..AAUA..........CAUUGCUUUCCAAACAAG.UA.ACCA.AGCAC
+G.viridistellatum.1                AA..AGUA..........CAUUGCUUUCCAAACUAG.UA.ACCA.UGCAC
+L.monstruosa.1                     GA..AGUA..........CAUUGCUUUCCAAACUAG.UA.ACCA.UGCAC
+P.morum.1                          AA..AGUA..........CAUUGCUUUCCAAACAAG.UA.ACCA.AGCAC
+P.colemaniae.1                     AA..AGUA..........CAUUGCUUUCCAAACAAG.UA.ACCA.AGCAC
+P.morum.2                          AA..AGUA..........CAUUGCUUUCCAAACAAG.UA.ACCA.AGCAC
+P.morum.3                          AA..AAUA..........CAUAGCCUUCCAAACAAG.UA.ACCA.GGCAC
+P.morum.4                          AA..AGUA..........CAUUGCUUUCCAAACAAG.UA.ACCA.AGCAC
+P.caudata.1                        AA..AGUA..........CAUUGCUUUCCAAACAAG.UA.ACCA.AGCAC
+P.thompsonii.1                     AA..AGUA..........CAUUGCUUUCCAAACAAG.UA.ACCA.AGCAC
+P.starrii.1                        AA..AGUA..........CAUAGCUUUCCAAACAAG.UA.ACCA.AGCAC
+P.californica.1                    AA..AGUA..........CAUAGCUUUCCAAACAAG.UA.ACCA.AGCAC
+V.tertius.1                        AA..AGUA..........CAUAGCUUUCCAAACAAG.UA.ACCA.AGCGC
+V.barberi.1                        GA..AGUA..........CAUAGCUUUCCAAACAAG.UA.ACCA.AGCCC
+V.dissipatrix.1                    AA..AGUA..........CAUAGCUUUCCAAACAAG.UA.ACCA.AGCAC
+V.powersii.1                       AA..AGUA..........CAUAGCUUUCCAAACAAG.UA.ACCA.AGCAC
+V.boldii.1                         AA..AGUA..........CAUAGCUUUCCAAACAAG.GA.GCCA.CGCGC
+V.steinii.1                        AA..AGUA..........CAUAGCUUUCCAAACAAG.UA.ACCA.AGCAC
+V.pringsheimii.1                   AA..AGUA..........CAUAGCUUUCCAAACAAG.UA.ACCA.AGCAC
+V.compacta.1                       AA..AGUA..........CAUUGCUUUCCAAACAAG.UA.ACCA.AGCAC
+Y.unicocca.1                       AA..AGUA..........CAUAGCUUUCCAAACAAG.UA.ACCA.UGCAC
+Y.unicocca.2                       AA..AGUA..........UAAAGCUUUCCAAACAAG.UA.ACCA.UGCAC
+E.viridis.1                        AA..AAUA..........UAAUGCUUUCCAAACUAA.UA.GCCA.UGCUC
+S.obliquus.1                       AA..AAUA..........CAUAGCUUUCCAUACUAA.UA.ACCA.AGCUC
+O.viridis.1                        GA..AGUA..........CAUAGCUUUCCAAACUAA.UA.ACCA.AGCAC
+O.tauri.1                          AA..AGUA..........CAUAGCUUUCCAAACAAG.AA.GCCA.AGCAC
+N.olivacea.1                       CA..AGUA..........ACGAGCUUUGAGAACCAA.CA.GCAA.AGCAC
+C.vulgaris.1                       AA..AGUA..........CAUUGCCUUCCAAACUAA.AA.GCCA.AGCAC
+L.terrestris.1                     AA..AGUA..........AAGAGCUUUCCAAACAAG.GA.GCCA.AGCAC
+K.sempervirens.1                   AA..AAUA..........UAAUGCUUUCCAAACUAA.AA.GCCA.AGCUC
+P.akinetum.1                       GA..AAUA..........CAUUGCUUUCCAAACUAA.AA.GCCA.UGCAC
+C.strigosa.1                       AA..ACCA..........GAUCGCUUUUGCCACUAA.UA.GUAA.UGCAC
+N.flexilis.1                       AA..ACCA..........AAUUGCUUUUGCUACUAA.UA.AUAA.AGCAC
+N.obtusa.1                         AA..ACCA..........AAUUGCUUUUGCAACUAA.UA.AAAA.UGCAC
+C.atmophyticus.1                   AA..AAUA..........CAUAGCUUUUCCUACUAG.UA.GUAG.AGCAC
+C.globosum.1                       AA..ACCA..........UACAGCUUUAGCUACUAA.UA.AUAA.UGCAC
+C.nitellarum.1                     AA..ACCA..........UAUAGCUUUAGCUACUAA.UA.AUAA.AGCGC
+A.formosae.1                       GA..AAAA..........UGAAGCCUUGAAUACCAG.GA.GAGA.AGCAC
+P.patens.1                         AA..AAUA..........UAAGGCUUUAAAUACUAA.AA.GGAA.AGCGC
+M.polymorpha.1                     AA..AAUA..........UAAGGCUUUAAAUACUAA.AA.GAAA.AGCAC
+S.uncinata.1                       GG..AAUA..........CGGAGCUUUGGACACCGA.UA.GAAG.GGCAC
+H.lucidula.1                       AA..AAUA..........CAAAGCUUUGAGCACUGA.AA.GAAA.AGCAC
+Adiantum_capillus-ve.1             GA..AAUA..........GAGUGCUUUGAAAACCAG.UA.GGAA.AGCGC
+A.evecta.1                         AA..AAUA..........UAGAGCUUUGAACACUAA.UA.AAAA.AGCAC
+P.nudum.1                          AA..AGUA..........CACAGACUUUAAUACUAA.AA.GGAA.AGCAC
+A.australis.1                      AA..AAUA..........AAAAGCCUUGAACACUAG.GA.GAAA.GGCAC
+A.bidwillii.1                      AA..AAUA..........CAAAGCCUUGAGCACUAG.AA.GAAA.AGCAC
+W.cedarbergensis.1                 AA..AAUA..........UAAAGCCUUAAACACUAG.AA.GAAA.AGCAC
+C.deodara.1                        AA..AAUA..........CAAAGCCUUGAGCACUAG.AA.GAAA.AGCAC
+P.chinensis.1                      GA..AAUA..........CAAAGCCUUGAGCACUAG.GA.GGAA.AGCGC
+S.conspicua.1                      AA..GAUA..........CAAAGCCUUGAGCACUAG.UA.GAAA.AGCGC
+S.verticillata.1                   AA..AAUA..........AAAAGCCUUGAACACUGG.AA.GAAA.AGCAC
+T.brevifolia.1                     AA..AAUA..........CAAAGCCUUGAAGACUAG.AA.GAAA.AGCAC
+T.californica.1                    AA..AAUA..........CACAGCCUUGAAUACUAA.GA.GAAA.AGCAC
+M.moorei.1                         AA..AAUA..........CAAAGCCUUGAGCACUAG.AA.GAAA.AGCAC
+G.biloba.1                         AA..AAUA..........CAAAGCCUUGAGCACUAG.GA.GAAA.AGCAC
+E.sinica.1                         AA..AAUA..........GAGAGCUUUUAGCACGAG.AA.GAAA.AGAAC
+G.parvifolium.1                    GA..AAAA..........CAAAGCUUUAAAUACGAG.AA.GAAA.AGCGC
+W.mirabilis.1                      AA..AAAA..........CAAAGCUUUUAGCACUAG.AA.GAAA.AGCGC
+C.demersum.1                       AA..AAUA..........AAGAGCUUUAAAUACUAA.AA.GAAA.AGCAC
+A.americanus.1                     AA..AAUA..........AAGAGCCUUGAAUACUAG.AA.GAAA.AGCAC
+S.latifolia.1                      AA..AAUA..........AAGAGCUUUAAAUACUAG.AA.GAAA.AGCGC
+A.textile.1                        AA..AAUA..........AAGAGCCUUGAAUACUAA.AA.GAAA.AGCAC
+A.monspeliensis.1                  AA..AAUA..........AAGAGCCUUAAGUACUAG.AA.GAAA.GGCAC
+A.endlicheri.1                     AA..AAUA..........AAUAGCCUUGAGUACUAG.AA.GAAA.AGCAC
+P.tenax.1                          NA..AAUA..........AAGAGCCUUGAAUACUAG.AA.GAAA.AGCAC
+I.missouriensis.1                  AA..AAUA..........AAGAGCCUUGAAUACUAG.AA.GAAA.GGCAC
+A.stylidioides.1                   AA..AAUA..........AAGGGCCUUGAGUACUAG.AA.GAAA.AGCAC
+C.lindleyana.1                     AA..AAUA..........UAGAGCAUUGAGUACUAG.AAUAAAA.AGCAC
+C.septentrionalis.1                AA..AAUA..........CAGAGCCUUGAGUACUAG.AA.GAAA.AGCAC
+S.romanzoffiana.1                  AA..AAUA..........AAGAGCCUUGAGUACUAG.AA.GAAA.AGCAC
+E.cassythoides.1                   AA..AAUA..........CAGAGCCUUGAGUACUAG.AA.GAAA.AGCAC
+C.rosea.1                          AA..AAGA..........AAGAGCUUUGAGCACCAG.AA.GAAA.AGCAC
+D.adolphii.1                       GA..AAUA..........CCUAGCCUUGAGUACUAG.AA.GAAA.AGCAC
+I.medeoloides.1                    AA..AAUA..........CAGAGAUUUGAGUACUAG.AA.GAAG.AGCAC
+P.minor.1                          AA..AAUA..........AAGAGCUUUGAGUACUAG.AA.GAAA.AGCAC
+Epistephium.1                      AA..AAUA..........CAGAGCCUUGAGUACUAG.AA.GAAA.AGCAC
+V.imperialis.1                     AA..AAUA..........CAGAGCCUUGAGUACUAG.AA.GAAA.AGCGC
+V.inodora.1                        AA..AAUA..........CAGAUCCUUGAGUACUAG.AA.GAAA.AGCAC
+X.resinosa.1                       AA..AAUA..........AANAGCCUUGANUACUAN.AA.NAAA.ANCAC
+P.bogneri.1                        AA..AAUA..........AAGAGCCUUGAGUACUAG.AA.GAAA.AGCAC
+X.caeruleum.1                      AA..AAUA..........AACGGCCUUGAGUACUAG.AA.GAAA.AGCAC
+H.gardneri.1                       AA..AAUA..........AAGAGCCUUGAAUACUAG.AA.GAAA.AGCAC
+B.capitata.1                       AA..AAUA..........AAGAGCCUUAAGUACUAG.AA.GAAA.AGCAC
+D.elephantipes.1                   AA..AAUA..........AAGAGCCUUGAGUACUAG.AA.GAAA.AGCAC
+N.ossifragum.1                     AA..AAUA..........AAGAGCCUUGAGUACUAG.AA.GAAA.GGCAC
+L.radicans.1                       AA..AAUA..........AAGAGCUUUAAGUACUAN.AA.AAAA.AGCAC
+A.elegans.1                        AA..AAUA..........AAGAGCCUUAAGUACUAG.AA.GAAA.AGCAC
+T.grandiflorum.1                   AA..AAUA..........AAGAGCCUUAAAUACGAG.AA.GAAA.AGCAC
+C.monogyna.1                       AA..AAUA..........AAGAGCCUUAAGUACUAG.AA.GAAA.AGCAC
+C.papyrus.1                        AA..AAUA..........AACAGCUUUAAAUACCAG.AA.GAAA.AGCAC
+E.monostachya.1                    AA..AAUA..........GAGAGCCUUGAGUACUAG.AA.GAAA.AGCAC
+M.fluviatilis.1                    AA..AAUA..........AAGAGCUUUGAGUACUAG.AA.GAAA.AGCGC
+O.sativa.1                         AA..AAUA..........AAGAGCUUUGAGUACUAG.AA.GAAA.AGCAC
+S.cereale.1                        AA..AAUA..........AAGAGCCUUGAGUACUAG.AA.GAAA.AGCAC
+X.jupicai.1                        AA..AAUA..........AAGGGCUUUGAAUACUAA.AA.GAAA.AGCAC
+T.glutinosa.1                      AA..AAUA..........AAGAGCCUUGAAUACUAG.AA.GAAA.AGCAC
+T.elegans.1                        AA..AGUA..........AAGGGCCUUAAAUACUAG.AA.GAAA.AGCAC
+S.reginae.1                        AA..AAUA..........AACAGCCUUGAGUACUAG.AA.GAAA.AGCAC
+A.trichopoda.1                     AA..AAUA..........AAGAGCCUUGAACACUAG.GA.GAAA.AGCGC
+I.parviflorum.1                    AA..AAUA..........AAGAGCCUUGAGCACUAG.GA.GAAA.AGCAC
+T.moorei.1                         AA..AAUA..........AAGAGCCUUAAGCACUAG.GA.GAAG.GGCGC
+C.caroliniana.1                    AA..AAUA..........AAGAGCCUUGAACACUAG.GA.GAAA.AGCGC
+T.submersa.1                       AA..AAUA..........AAGAGCUUUGAGGACCAG.GA.GAAA.GGCUC
+B.microphylla.1                    AA..AAUA..........AAGAGCCUUGAGUACUAG.AA.GAAA.AGCGC
+H.canadensis.1                     AA..AAUA..........AAGAGCCUUAAGUACUAG.AA.GAAA.AGCAC
+P.americana.1                      AA..AAUA..........AAGAGCCUUGAAUACUAG.AA.GAAA.AGCGC
+Rheum_x_hybridum_gar.1             CC..CAAA..........AAUAGCUUUGAAUACWRR.AR.GAAA.AGCAC
+G.chilensis.1                      AA..AAAA..........AAGAGCCUUAAAUACUAA.AA.GAAA.AGCAC
+V.vinifera.1                       AA..AAUA..........AAGAGCCUUGAAUACUAG.AA.GAAA.AACAC
+V.vinifera.2                       UG..AAUA..........AAGAACCACAAAUACUAGAGA.AACR.AACAC
+V.vinifera.3                       .C..AAUA..........AAUAAUAUCAAAUACUAA.AA.GAAA.AGAAC
+V.vinifera.4                       AA..AWUA..........AAGAGCCUUGAAUACUA..GA.AGAA.AGCAC
+V.vinifera.5                       AA..AAUA..........AAGAGCCUUGAAUACUAG.AA.GAAA.AGCAC
+V.vinifera.6                       AA..AAUA..........AAAAGUCUUGAAUGCUAA.AA.GAAA.AGUAC
+V.vinifera.7                       .C..AAUA..........AAUAAUAUCAAAUACUAA.AA.GAAA.AGAAU
+V.vinifera.8                       AA..AAUA..........AAGAGCCUUGAAUACUAG.AA.GAAA.AGCAC
+H.annuus.1                         AA..AAUA..........AAGAGCCUUGAAUACUAG.AA.GAAA.AGCAC
+C.sandwichiana.1                   AA..AAUA..........AAGUGCUUUGAAGACUAA.AA.GAAA.AGCAC
+A.belladonna.1                     AA..AAUA..........AAGAGCCUUGAAUACUAG.AA.GAAA.AGCAC
+Pelargonium_x_hortor.1             AA..AAGA..........AAGAGCCUUGAAUACUAG.AA.GAAA.AGCGC
+O.glazioviana.1                    AA..AAUA..........AAGAGCCUUGAAUACUAG.AA.GAAA.AGCAC
+E.alatus.1                         AA..AAUA..........AAGAGCUUUAAAUACUAA.CA.GAAA.GGCAC
+C.arietinum.1                      AA..AAUA..........AGAAGCCUUAAAUACUAG.AA.GAAA.AGCCC
+L.japonicus.1                      AA..AAUA..........AGAAGCCUUGAAUACUAG.AA.GAAA.AGCCC
+L.japonicus.2                      AA..AAUA..........AAAAGCCUUGAAGACUAG.AA.GAAAAUCCCC
+Glycine_max_soybean.1              AA..AAUA..........AAGAGCCUUGAAUACUAG.AA.GAAA.CGCAC
+R.communis.1                       AA..AAUA..........AAGAGCCUUGAAUACUAG.AA.GAAA.AGCAC
+R.communis.2                       AA..AAUA..........AAGAGCCUUGAAUACUAG.AA.GAAA.AGCAC
+R.communis.3                       AA..AAUA..........AAGAGCCUUGAAUACUAG.AA.GAAA.AGCAC
+R.communis.4                       AA..AAUA..........AAGAGCCUUGAAUACUAG.AA.GAAA.AGCAC
+P.trichocarpa.1                    .A..AGUA..........UAGAGCUUUGAAUAAUUG.AA.GAAA.AGCAC
+P.trichocarpa.2                    AA..GAUA..........AAGAGCUCUGAAUACUAG.AA.GAAA.AGCAC
+P.alba.1                           AA..AAUA..........AAGAGCUUUGAAUACUAG.AA.GAAA.AGCAC
+P.trichocarpa.3                    AA..AAUAG.........AAGAGCUUUGAACACUAG.AA.GAAA.AACAU
+H.lupulus.1                        AA..AAUA..........AAGAGCCUUAAAUACUAG.AA.GAAA.AGCAC
+B.rapa.1                           AA..AAUA..........GAGAGCCUUGAAUACUAG.AA.GAAA.AGCAC
+C.papaya.1                         AA..AAUA..........AAGAGCCUUGAAUACUAG.AA.GAAC.AACAC
+C.papaya.2                         AA..AAUA..........AAGAGUCUUGAAUACUAG.AA.G.........
+C.papaya.3                         AA..AAUA..........AAGAGUCUUGAAUAUUAG.AA.GAAA.AACAC
+C.papaya.4                         AA..AUUA..........AAGAGUCUUGAAUAUUAA.AG.GAAA.AACAC
+C.sinensis.1                       AA..AAUA..........AAGAGCCUUGAAUACUAG.AA.GAAA.AGCAC
+H.peltata.1                        AA..AAUA..........AAGGGCCUUGAGUACUAG.AA.GAAA.GGCAC
+A.macrophylla.1                    AA..AAUA..........AAGAGCCUUGAGUACUAG.AA.GAAA.AGCAC
+S.cernuus.1                        AA..AAUA..........AAGAGCUUUGAAUACUAG.AA.GAAA.UGCAC
+K.flaccidum.1                      AA..AAAA..........GACAGCUUUUCCUACAAG.UA.AGAG.AGCAC
+M.viride.1                         AA..AAUA..........GCAUGCUUUCCAUACUAA.UA.AAUA.UGCAC
+S.punctulatum.1                    GA..ACCA..........UACAGCUUUAAACACUAG.UA.AGAA.AGCAC
+M.scalaris.1                       AA..AAUA..........AAGAGCUUUUAAUACUAA.UA.AAAA.AGCUC
+Spirogyra.1                        AA..ACCA..........UAAAGCUUUGAACACUAA.UA.AAAA.UGCAC
+Z.circumcarinatum.1                AA..AAUA..........UAGUGCUUUGAAUACAAG.CA.AAAA.UGCAC
+P.tricornutum.1                    AA..UGUA..........CAUUGCUUUAGCAACUAA.UA.AAAA.AGCAC
+O.sinensis.1                       UA..AGUA..........CAUUGCUUUAAUAACUAA.UA.AGAA.UGAAC
+S.costatum.1                       UA..AGUA..........CAUAGCUUUUGCAACUAA.UA.AUAA.UGAUC
+T.pseudonana.1                     UA..AGUA..........CAUAGCUUUUGCAACUAA.UA.AUAA.UGCAC
+P.littoralis.1                     ACUAAAUACGUUACCUGGCAUAGCUCUGGCAGCAAA.UA.GUAA.UGCAC
+H.akashiwo.1                       AA..CAAA..........CAUUGCUUUAAUUACUAA.UA.AGAA.UGAAC
+marine_metag.1                     GA..AGAA..........CAUGGCCUUGAAGACCAG.CA.GCAG.GCAGC
+marine_metag.2                     AAU.GAAA..........CACCAGUUUACUGACCA..UG.CUAG.UGCAC
+marine_metag.3                     AA..CAUA..........CAUAGCUUUGGCUACUAA.UA.AAAA.CGCUC
+marine_metag.4                     AAU.AAAA..........CACCAGUUUAUUGACCA..UG.CUAA.UGCAC
+marine_metag.5                     AAU.AAAA..........CACCAGUUGACUGACCA..UG.CUAA.CGCAC
+marine_metag.6                     UA..UGUA..........CAUUGCUUUUGCAACUAA.UA.AGAA.UGAUC
+marine_metag.7                     UAU.GAAA..........CACCAGUUUACAGACCAA.G..CAAG.UGCUC
+marine_metag.8                     AAU.AAAA..........CACCAGUUCACUGACCA..UG.CUAA.UGCAC
+marine_metag.9                     AAU.AAAA..........CACCAGUUAACUGACCA..UG.CCAA.UGCAC
+marine_metag.10                    AA..AGUA..........CAUAGCUUUCCAAACAAG.AA.GCCA.ACAAC
+marine_metag.11                    AAU.AAAA..........CACCAGUUUACUGACCAA.G..CUAA.UGCAC
+marine_metag.12                    UAU.GAAA..........CACCAGUUUACUGACCAA.G..CAAG.UGCUC
+marine_metag.13                    AA..AGAA..........CAUGGCCUUGAAGACCAG.GA.GCAA.ACAGC
+marine_metag.14                    UC..CAAA..........CAUCCAGUUAGCUGUGAA.GA.AUAA.AGCAC
+marine_metag.15                    AAU.AAAA..........CACCAGUUUACUGACCAA.G..CUAA.UGAAC
+marine_metag.16                    GAU.GAAA..........CACCAGUUUAGAGACCA..UG.CUAA.UGCCC
+marine_metag.17                    AAU.AAAA..........CACCAGUUUACUGACCA..UG.CUAG.UGCAC
+marine_metag.18                    UA..UGUA..........CAUCCAAUUGAUGGACCA.UA.AAAG.AGCAC
+marine_metag.19                    AAU.AAAA..........CACCAGUUUACUGACCA..UG.CUAG.UGCAC
+marine_metag.20                    GA..AGAA..........CAUGGCCUUGAACACCAG.CA.GCAG.GCAGC
+marine_metag.21                    GA..AGAA..........CAUGGCCUUGAAGACCAG.CA.GCAG.GCAGC
+marine_metag.22                    AAU.AAAA..........CACCAGUUGAUUGACCA..UG.CUAA.UGCAC
+marine_metag.23                    AA..AGUA..........CAUAGCCUUCCAAACAAG.AA.GCCA.ACACC
+marine_metag.24                    GA..UGAAG.........CACCAGUUUAGAGACCAA.G..CAAG.AGCAC
+marine_metag.25                    AAU.AAAA..........CACCAGUUUACUGACCA..UG.CUAG.UGCAC
+marine_metag.26                    AAU.AAAA..........CACCAGUUUACUGACCA..UG.CUAG.UGCAC
+marine_metag.27                    AAU.AAAA..........CACCAGUUAACUGACCA..UG.CUAA.UGCAC
+marine_metag.28                    GAU.GAAA..........CACCAGUUUAGAGACCA..UG.CUAA.CGCCC
+marine_metag.29                    UA..AGUA..........CAUUGCUUUUACAACUAA.UA.AAAA.UGAAC
+marine_metag.30                    AAU.AAAA..........CACCAGUUCACUGACCA..UG.CUAA.UGCAC
+marine_metag.31                    GA..AGAA..........CAUGGCCUUGAAGACCAG.CA.GAAG.GCAGC
+marine_metag.32                    GA..AGAA..........CAUGGCCUUGAAGACCAG.GA.GCAG.GCAGC
+marine_metag.33                    GA..AGAA..........CAUGGCCUUGAAGACCAG.GA.GCAA.ACAGC
+marine_metag.34                    AA..CAUA..........UAAAGCUUUAAUAACUAG.UA.AUAG.UGCUC
+marine_metag.35                    AAU.AAAA..........CACCAGUUUACUGACCA..UG.CUAG.AGCAC
+marine_metag.36                    AA..UAAA..........CAUCCAAUCAGCUACGAA.AA.AUAA.AGCAC
+marine_metag.37                    AAU.AAAA..........CACCAGUUAACUGACCA..UG.CUAA.CGCAC
+marine_metag.38                    GA..AGAA..........CAUCGCCUUAAACACCAG.CA.GCAG.CGCAC
+marine_metag.39                    AAU.GAAA..........CACCAGUUCACUGACCA..UG.CCAA.UGCAC
+marine_metag.40                    AAU.AAAA..........CACCAGUUUAUUGACCAA.G..CUAA.UGCAC
+marine_metag.41                    GA..UGAA..........CAUCCAAUCAAAAACGAA.AA.AUAA.UGCAC
+marine_metag.42                    GA..AGAA..........CAUGGCCUUGAAGACCAG.GA.GCAG.GGCAC
+#=GC SS_cons                       ..................................................
+
+Crocosphaera_watsoni.1             CGACAC.CCAAGAAUAAG.AGAU.GAU...GGCCUAA..AAUAAUGCCA.
+Crocosphaera_watsoni.2             CACCUC.CUAAGAGAAUG.AGGU.GAU...AACCAAU..AAUGUUGGUC.
+Crocosphaera_watsoni.3             CAAUGC.CUAAUAGGACU.AAGU.GAA...UCCCUAA..AAUACUGGUC.
+Cyanothece.1                       CACAUC.CCAAGAUAAUG.AGGU.GAU...AACCAAU..AAUAUUGGUC.
+Cyanothece.2                       CGAUGC.CUAAAAACAAG.AGGU.GAU...GACCUAA..AAUAAUACCC.
+Synechococcus_elonga.1             CUAAGC.CCAGCAGAAUC.AGGU.GAU...AACCAAU..GAUGUUGGUC.
+Synechococcus.1                    CGACGC.CAAGAAGAAUC.AGGU.GAU...AACCAAU..GAUGUUGGUC.
+Synechococcus.2                    CAACGC.CAAGAAGGAUC.AGGU.GAU...AACCAAU..GAUGUUGGUC.
+Synechococcus.3                    CGACGC.CAAGCAGGAUC.AAGU.GGU...AACCGAU..GAUGUUGGUC.
+Synechococcus.4                    CGACAC.CCAGAAGGAUC.AAGU.GAU...AACCAAU..GAUGUUGGUC.
+Synechococcus.5                    CGACGC.CCAGGAGAAUC.AGGU.GAU...AACCAAU..GAUGUUGGUC.
+Synechococcus.6                    CCAAUC.CCAGCAGCACC.AGGU.GGA...UCCCUAG..GAUGGUGGUC.
+Synechococcus.7                    CGACGC.CCAGAAGGAUC.AGGU.GAU...AACCAAU..GAUGUUGGUC.
+Synechococcus.8                    CCAACC.CCAACAGGAUG.AGGU.GGA...UCCCCAA..GAUGGUGGUC.
+Synechococcus_elonga.2             CAACCC.CGAGGAACAGC.AAGU.GGU...GUCCCAG..AAUGAGGCCU.
+Synechococcus.9                    CAACGC.CGAGAAGAAUC.AAGU.GAU...AACCAAU..GAUGUUGGUC.
+Synechococcus.10                   CCAACC.CCAACAGGAUC.AGGU.GGA...UCCCCAG..GAUGGUGGUC.
+Synechococcus.11                   CCAGUC.CCAGCAACAGU.AAGU.GAU...GGCCCAA..AAUUAAACCC.
+Synechococcus.12                   CGACAC.CAAGAAGGAUC.AGGU.GAU...AACCAAU..GAUGUUGGUC.
+Synechococcus.13                   CCAGCC.CCAGCAGCAGC.AGGU.GGA...UCCCCAG..GAUGGUGGUC.
+Synechococcus.14                   CGACGC.CCAGAAGGAUC.AAGU.GAU...AACCGAU..GAUGUUGGUC.
+Synechococcus.15                   CCAGCC.CCAGCAGCAGC.AGGU.GGA...UGCCGAG..GAUGGUGGUC.
+Synechococcus.16                   CCACAC.CCAGAAGGAUG.AGGU.GAU...AGCCGAU..GAUGUUGGUC.
+Synechocystis.1                    CGGCCC.CCAGGAACAGG.AGAU.GAU...GACCCAA..AAUUAUCCCU.
+Synechocystis.2                    CACAAC.CCAACAGGAUC.AAGU.GGU...AGCCAAU..GAUGUUGGUC.
+Thermosynechococcus_.1             CAAUAC.CGAGGACGAUC.AGGU.GGA...AACCGAG..GAUCGUCGUC.
+Thermosynechococcus_.2             CGAACC.CCAAAAAGAGC.AGAU.GAU...GUCCCAA..AAUAAUGCCC.
+Gloeobacter_violaceu.1             CGAUCC.CAAGCAGGAUC.AGGU.GGA...UGCCCAG..GAUGGUGGUC.
+Anabaena.1                         CCAUGC.CUAAAAACAGG.AGGU.GAU...GCCCUAA..AAUCAAACCG.
+Anabaena_variabilis_.1             CACAUC.CCAGGAUGAUC.AGGU.GGA...AGCCGAU..GAUAUUGGUC.
+A.elenkinii.1                      CUACAC.CCACAAACACA.ACAC.CCU...CCCCCAA..AAUUAAGCCC.
+Nodularia_spumigena_.1             CACAUC.CCAGGAUGAUU.AGGU.GGA...AGCCGAU..GAUGUUGGUC.
+Nodularia_spumigena_.2             CUAAAC.CCAGUAAUAUU.AAGU.GAA...UGCCCAA..AAUAGUUGUC.
+Nodularia_spumigena_.3             CCAAAC.CCAGAAAAAUC.AAGU.GAU...GACCUAA..AAUCAAACCC.
+Nodularia_spumigena_.4             CAAAAC.CCAAUAGCAAG.AGAU.GAA...UACCGAU..AAUGGUAGUC.
+Nostoc.1                           CUAAAC.CUAGCAAAACU.AAAU.GUA...UGCCCAG..GAUAGUCGUC.
+Nostoc.2                           CUAAAC.CCAGAAUAAUU.AGGU.GAU...GUCCUAA..AAUCAAACUC.
+Nostoc_punctiforme_P.1             CGAAUC.CCAAAAUAAUC.AGAU.GGA...AUCCGAU..GAUGUUGGUC.
+L.lagerheimii.1                    CUGCGC.CCAAAAAUAGC.AGGU.GAU...GGCCCAA..AAUCAGUCCC.
+Lyngbya.1                          CACAAC.CCAACAGGAUU.AAGU.GGU...AGCCGAU..GAUGUUGGUC.
+Trichodesmium_erythr.1             CAAGUC.CUAACAACACU.AGAU.GGA...UACCUAG..AAUUGUUGUC.
+Trichodesmium_erythr.2             CCAAAC.CUAAUAUAAUU.AAGU.GGU...AGCCAAU..AAUAUUAGUC.
+Trichodesmium_erythr.3             CAAAUC.CCAACAAUACG.AGAU.GGA...UACCCAG..GAUAGUUGUC.
+Trichodesmium_erythr.4             CAAUCC.CUAGUAGUACU.AGAU.GAA...UGCCAAG..AAUAGUAGUC.
+Trichodesmium_erythr.5             CAAAUC.CUAAGAAAAGU.AGGU.GAU...GGCCUAA..GAUAAUACCU.
+uncul.Oscil.cyano.1                CUAAUC.CUAGAAAAAUC.AAGU.GAU...GUCCUAA..GAUUAAACCA.
+uncul.Oscil.cyano.2                CUGCGC.CCAAAAAUAGC.AGGU.GAU...GGCCCAA..AAUGACGCCC.
+Stanieria.1                        CUAUGC.CAAGAAAUAAU.AGAU.GAU...GACCCAG..GAUCAUGCCU.
+P.didemni.1                        CCAACC.CAAGAAGAAUU.AAGU.GGU...GACCAAG..GAUAAAACCU.
+P.didemni.2                        CUACUC.CUAAGAAAAUG.AGGU.GAU...GACCGAA..AAUAAAGGUU.
+P.didemni.3                        CUAAUC.CUAGAAAUAGC.AGAU.GAU...GUCCUAA..AAUCAACCCC.
+Prochlorococcus_mari.1             CUACUC.CUAAAACAAUC.AAAU.GAU...AUCCAAG..AAUAUUGGUC.
+Prochlorococcus_mari.2             CCCAGC.CUAGAAAAAUC.AGGU.UGU...AACCAAG..AAUGUUGGUC.
+uncul.Proch.marin.cl.1             CUACAC.CUAGUACAAUC.AAAU.GAU...AUCCAAG..GAUAUUUGUC.
+Prochlorococcus_mari.3             CAACAC.CAAGAACAACC.AAAU.GAA...AACCAAG..AAUAUUGGUC.
+Prochlorococcus_mari.4             CAACUC.CUAAAACUACU.AGGU.GAU...AACCCAA..UAUAUUAGUC.
+Prochlorococcus_mari.5             CUACAC.CAAGAACACAC.AAAU.GAU...AACCAAG..AAUAUUGGUC.
+uncul.Proch.marin.cl.2             CUACAC.CUAAAACAAUC.AAAU.GAU...AUCCAAG..GAUAUUUGUC.
+P.hollandica.1                     CGUAAC.CUAAGGUGAGG.AGGU.GGU...GACCGAG..GAUGUUCCCC.
+P.scandica.1                       GGAUCC.CCAACAAUAGG.AGGU.GGU...GACCGAG..GAUGAGGCUG.
+P.hollandica.2                     CAAUGC.CCAAAACGAUG.AGGU.GGA...AACCCAG..AAUAUUGGUC.
+P.hollandica.3                     CCAAUC.CGAGCAGCAGC.AGGU.GAU...GACCCAG..AAUUAAGCCC.
+F.muscicola.1                      CAAAAC.CCAGAAUAAUC.AGGU.GAU...GUCCUAA..GAUCAAACCU.
+F.muscicola.2                      CAGCAC.CUAAGAAAAGC.AGAU.GAU...GUCCUAA..GAUAAGACCA.
+uncult._cyanobacteri.1             CCGCUC.CUAAAAACAGC.AAAU.GGU...GCCCUAA..GAUCAUCCCC.
+uncult._cyanobacteri.2             CUAUAC.CUAAAAAGAGC.AGGU.GAU...GACCGAG..AAUAACUCCU.
+uncult._cyanobacteri.3             CUACGC.CUAAAAACAAG.AGGU.GGU...GUCCUAA..GAUUAAACCC.
+uncult._cyanobacteri.4             CCGCCC.CCAAAAACAGU.AGGU.GAU...GACCGAG..AAUCAUUCCU.
+K.mikimotoi.1                      CGCAAC.CUAAUAACACU.AGAU.GAA...AUCCCAA..GAUUGUUGCC.
+K.brevis.1                         CAAAAC.CGAGAAGUAUU.AGAU.GAA...AACCUAG..AAUUGUUGUC.
+K.brevis.2                         CAAAAC.CGAGAAGUAUU.AGAU.GAA...AACCUAG..AAUUGUUGUC.
+P.foliaceum.1                      CACAAC.CUAAAAGACAU.AAGU.GAA...UACCUAA..GAUUGUUGUC.
+G.theta.1                          CAAACC.CAAGUAUUACU.AAAU.GAA...UACCUAG..AAUCGUAGUA.
+R.salina.1                         CAAAUC.CUAGUAUCACU.AGGU.GAA...UACCUAG..AAUAGUAGUA.
+R.abbreviata.1                     CAAAUC.CUAGGAUUACU.AAAU.GAA...UACCUAG..AAUCGUAGUA.
+C.paradoxa.1                       CACUUC.CUAAAAGAAUU.AAAU.GAA...UACCAAU..AAUAGUAGUC.
+G.nostochinearum.1                 CGGUAC.CUAAUAGAAUU.AAAU.GGA...UACCAAU..AAUAGUGGUC.
+Isochrysis.1                       CAAUAC.CUAAUAAAAUU.AGGU.GAA...UUCCUAA..AAUUGUUGUC.
+E.huxleyi.1                        CAAUAC.CUAAUAAAAUU.AGGU.GGA...UUCCUAA..AAUUGUUGUC.
+P.gyrans.1                         CAACUC.CUAAAAGGAUA.AGGU.GAA...UACCUAA..GAUAGUAGUC.
+P.lutheri.1                        CAAUUC.CAAGCAAUACU.AAGU.GUA...UCCCUAA..AAUCGUUGUC.
+Pavlova.1                          CAAUAC.CUAGAAGGAUA.AGGU.GAA...UCCCUAG..GAUUGUAGUC.
+B.natans.1                         CUAAUC.CUAAAAGGAUU.AAAU.GAA...UACCUAA..AAUAGUUGUC.
+B.atropurpurea.1                   CAAUAC.CUAGUAAUACU.AAAU.GUA...UGCCAAG..UAUUGUUGUC.
+P.yezoensis.1                      CAAUGC.CUAAUAACACU.AAGU.GUA...UACCAAG..UAUUGUUGUC.
+P.purpurea.1                       CAAUUC.CUAGUAAUACU.AAAU.GUA...UACCAAG..AAUUGUUGUC.
+C.merolae.1                        CAAUAC.CUAGUAGAAUU.AAAU.GAA...UUCCCAA..GAUGGUGGUC.
+Cyanidium.1                        CAAUAC.CGAGUAAAAUU.AAAU.GGA...UCCCCAA..AAUUGUGGUC.
+C.caldarium.1                      CAAUAC.CUAGCAAUAUC.AAGU.GAA...UUCCUAG..UAUUGUUGUC.
+C.caldarium.2                      CAAUUC.CUAAUAAAAUU.AAAU.GAA...UACCUAA..AAUAGUUGUC.
+G.sulphuraria.1                    CAACCC.CCAAUAAAAUU.AAAU.GAA...UACCUAA..AAUUGUUGUC.
+G.maxima.1                         CUACUC.CUAAAAGAAUU.AAAU.GAA...UUCCUAA..AAUGGUGGUC.
+C.caeruleus.1                      CUAUAC.CUAGAAGUAUU.AAAU.GAA...UACCUAA..UAUAGUUGUC.
+R.violacea.1                       CAAUUC.CUAAUAGUACU.AAGU.GAA...UACCUAA..AAUUGUAGUC.
+C.crispus.1                        CUAUGC.CGAGAAGUAAU.AAAU.GAA...UGCCCAG..UAUAGUUGUC.
+G.tenuistipitata.1                 CUAUGC.CUAGUAAUACA.AGAU.GUA...UACCAAG..AAUUGUUGUC.
+P.palmata.1                        CUAUAC.CAAGUAGAAUU.AAAU.GAA...UUCCUAG..UAUAGUAGUC.
+R.marinus.1                        CUACUC.CUAAAAGAAUC.GGGU.GAA...UUCCAAU..AAUUGUUGUC.
+S.helveticum.1                     CAAAAC.CUAAAAUAAUU.AGGU.GGA...AACCUAA..AAUGCUUGUC.
+C.moewusii.1                       CACAAC.CUAACAUGAUU.AAGU.GGU...AACCUAA..GAUAGAAGUC.
+C.reinhardtii.1                    CUAAGC.CUAACAUGAUA.AGGU.GGU...AACCUAA..AAUGUUAGUC.
+C.raudensis.1                      CACAAC.CUAACAUGAUU.AAGU.GGU...AACCUAA..AAUUGAUGUC.
+C.debaryana.1                      CAAGAC.CUAGCAUGAUU.AGGU.GAU...AACCUAA..AAUGUUAGUC.
+V.ordinata.1                       CUAAAC.CUAACAUAAUA.AGGU.GAU...AACCUAA..AAUAUUAGUC.
+T.socialis.1                       CUAGAC.CUAAAAUAAUU.AAGU.GGU...AACCUAA..AAUGUUAGUC.
+E.elegans.1                        CUAGAC.CUAAAAUAAUU.AAGU.GGU...AACCCAG..AAUGUUAGUC.
+G.pectorale.1                      CUAGAC.CUAAAAUGAUU.AGGU.GGU...AACCUAG..AAUGUUAGUC.
+G.octonarium.1                     CUAAAC.CUAAAAUAAUU.AAGU.GGU...AACCUAA..AAUGUUAGUC.
+G.multicoccum.1                    CUAGAC.CUAAAAUGAUU.AAGU.GGU...AACCUAA..AAUGUUUGUC.
+G.multicoccum.2                    CUAAAC.CUAGAAUGAUU.AGGU.GGU...AACCUAA..AAUGUUUGUC.
+G.quadratum.1                      CUAGAC.CUAAAAUGAUU.AGGU.GGU...AACCUAA..GAUAUUAGUC.
+G.viridistellatum.1                CUAGAC.CUAAAAUGAUU.AAGU.GGU...AACCUAA..AAUGUUAGUC.
+L.monstruosa.1                     CUAAAC.CUAACAUAAUA.AGGU.GGU...AACCAAG..AAUGUUAGUC.
+P.morum.1                          CUAAAC.CUAAAAUAAUU.AGGU.GAU...AACCUAA..AAUAUUUGUC.
+P.colemaniae.1                     CUAGAC.CUAAAAUAAUU.AGGU.GAU...AACCUAA..AAUGUUAGUC.
+P.morum.2                          CUAAUC.CUAAAAUAAUU.AGGU.GAU...AACCUAA..AAUAUUAGUC.
+P.morum.3                          CAAGAC.CUAAAAUAAUU.AGGU.GAU...AACCUAA..AAUGUUAGUC.
+P.morum.4                          CUAGAC.CUAAAAUAAUU.AGGU.GAU...AACCUAA..AAUGUUUGUC.
+P.caudata.1                        CUAGAC.CUAAAAUAAUU.AGAU.GGU...AACCUAA..AAUGUUAGUC.
+P.thompsonii.1                     CUAAAC.CUAAAAUGAUU.AGGU.GAU...AACCUAG..AAUAUUAGUC.
+P.starrii.1                        CUAGAC.CUAAAAUAAUU.AAGU.GGU...AACCUAG..AAUGUUAGUC.
+P.californica.1                    CUAGAC.CUAAAAUGAUU.AGGU.GGU...AUCCUAA..AAUGUUAGUC.
+V.tertius.1                        CUAGUC.CUAAAAUGAUU.AGGU.GAU...AACCUAG..GAUGUUAGUC.
+V.barberi.1                        CUAGAC.CUAAAAUGAUU.AAGU.GGU...AACCUAA..AAUGUUAGUC.
+V.dissipatrix.1                    CUAGAC.CUAAAAUAAUU.AAAU.GGU...AACCUAA..GAUGUUAGUC.
+V.powersii.1                       CUAGAC.CUAGAAUGAUU.AAGU.GGU...AACCUAG..AAUAUUAGUC.
+V.boldii.1                         CUAGAC.CUAAAAUAAUU.AGGU.GAU...AACCUAA..AAUGUUAGUC.
+V.steinii.1                        CUAGGC.CUAAAAUAAUU.AAAU.GGU...AACCUAA..AAUGUUAGUC.
+V.pringsheimii.1                   CUAGAC.CUAAAAUGAUU.AGGU.GAU...AACCUAA..AAUGUUAGUC.
+V.compacta.1                       CUAGAC.CUAAAAUGAUU.AAGU.GAU...AACCUAA..GAUGUUAGUC.
+Y.unicocca.1                       CUAGAC.CUAAAAUAAUU.AGGU.GGU...AACCUAA..AAUAUUAGUC.
+Y.unicocca.2                       CUAAAC.CUAAAAUGAUU.AGGU.GGU...AACCUAG..AAUGUUAGUC.
+E.viridis.1                        CUAAUC.CUAAAAUAAUA.AGAU.GAU...AACCUAA..AAUAUUUGUC.
+S.obliquus.1                       CAAUAC.CUAACAUGAUA.AGGU.GGU...AACCUAA..GAUGUUAGUC.
+O.viridis.1                        CAAAAC.CUAAUAAGAUU.AAGU.GGA...UACCUAA..GAUAGUAGUC.
+O.tauri.1                          CAAUUC.CAAGAAGUACA.AGGU.GAA...UUCCUAA..AAUUGUUGUC.
+N.olivacea.1                       CAAGUC.CAAGAAGCACA.AGGU.GAA...UUCCUAA..AAUGGUAGUC.
+C.vulgaris.1                       CGAAUC.CUAGUACGAUA.AGAU.GAA...UACCUAA..AAUAGUAGUC.
+L.terrestris.1                     CAAUAC.CUAAGAUUAUU.AAAU.GAA...UACCUAG..GAUAGUGGUC.
+K.sempervirens.1                   CAAUUC.CAAGAAUAACA.AGAU.GUA...UUCCAAG..AAUAGUAGUC.
+P.akinetum.1                       CAAAGC.CUAAAAUAACU.AAAU.GAA...UACCUAA..AAUUGUAGAC.
+C.strigosa.1                       CCGCAC.CUAAAAGAAUC.AAAU.GAA...UACCUAG..AAUAGUAGUC.
+N.flexilis.1                       CUAGAC.CUAAUAAAAUU.AGAU.GAA...UACCUAA..AAUAGUGGUC.
+N.obtusa.1                         CUGCAC.CUAGCAAAAUU.AAAU.GAA...UACCUAA..AAUAGUAGUC.
+C.atmophyticus.1                   CAGCAC.CUAAAAGAAUA.AGAU.GAA...UACCAAG..AAUGGUAGUC.
+C.globosum.1                       CAAAGC.CUAGAAGAACU.AAAU.GAA...UACCUAA..AAUAGUAGUC.
+C.nitellarum.1                     CAACAC.CUAAUAUAAUU.AAAU.GAA...UACCUAA..AAUAGUAGUC.
+A.formosae.1                       CAAGAC.CUAGUAAAACA.AGAU.GAA...UACCUAG..AAUAGUAGUC.
+P.patens.1                         CAGCAC.CUAAUAAAAUU.AAAU.GAA...UACCUAA..AAUAGUAGUC.
+M.polymorpha.1                     CAGCAC.CUAACAAAAUU.AAAU.GAA...UACCUAA..AAUAGUAGUC.
+S.uncinata.1                       CAAUAC.CCAGCAGGAUC.GGGU.GAA...UACCUGG..AAUGGUGGUC.
+H.lucidula.1                       CAGCAC.CUAACAAGAUU.AAAU.GAA...UACCUAA..AAUUGUAGUC.
+Adiantum_capillus-ve.1             CGAAAC.CUAGUAAUAUU.AGAU.GAA...UACCGAG..AAUUGUAGUC.
+A.evecta.1                         CAGCAC.CUAACAGAAUU.AAGU.GAA...UACCUAA..AAUAGUGGUC.
+P.nudum.1                          CAGCAC.CCAAUAGUAUU.AAAU.GAA...UACCUAG..AAUAGUGGUC.
+A.australis.1                      CAGCAC.CUAGCAAGAUU.AGGU.GAA...UACCUAA..AAUUGUGGUC.
+A.bidwillii.1                      CAACAC.CUAGCAAGAUU.AGAU.GAA...UACCCAA..AAUUGUGGUC.
+W.cedarbergensis.1                 CGAUAC.CUAGCAAGAUU.AGGU.GAA...UACCUAA..AAUUGUGGUC.
+C.deodara.1                        CAACAC.CUAGCAAGAUU.AGGU.GAA...UACCCAA..AAUUGUGGUC.
+P.chinensis.1                      CAGCAC.CUAGCAAGAUU.AGGU.GAA...UACCCAA..AAUUGUGGUC.
+S.conspicua.1                      CAACAC.CUAGCAAUAUU.AGGU.GAA...UACCCAA..AAUUGUGGUC.
+S.verticillata.1                   CAACAC.CUAACAAGAUU.AGGU.GAA...UACCUAA..AAUUGUGGUC.
+T.brevifolia.1                     CAACAC.CUAGCAAAAUU.AAGU.GAA...UACCUAA..AAUUGUAGUC.
+T.californica.1                    CAACAC.CUAGCAAGAUU.AGGU.GAA...UACCUAA..AAUUGUGGUC.
+M.moorei.1                         CAACGC.CUAGCAAGAUU.AGGU.GAA...UACCCAA..AAUUGUGGUC.
+G.biloba.1                         CAACAC.CUAGCAGGAUU.AGGU.GAA...UACCCAA..AAUUGUGGUC.
+E.sinica.1                         CAGCAC.CGAGUAAGAUG.AGAU.GAA...UACCCAA..AAUGGUAGUC.
+G.parvifolium.1                    CAGCCC.CCAGUAGAAUG.AGGU.GAA...UACCCAA..AAUGGUGGUC.
+W.mirabilis.1                      CAGCCC.CUAGUAAAAUA.AGGU.GAA...UACCCAA..AAUAGUGGUC.
+C.demersum.1                       CUAGAC.CUAACAAGAUU.AAGU.GAA...UACCCAA..AAUGGUGGUC.
+A.americanus.1                     CUAUCC.CUAACAAAAUU.AGAU.GAA...UACCUAA..AAUUGUGGUC.
+S.latifolia.1                      CUAUAC.CUAACAAAAUU.AAGU.GAA...UACCGAG..AAUCGUGGUC.
+A.textile.1                        CUAUAC.CUAAUAAAAUU.AAGU.GAA...UACCCAA..AAUUGUAGUC.
+A.monspeliensis.1                  CUAUAC.CUAAUAAAAUU.AAGU.GAA...UACCCAA..AAUNGUGGUC.
+A.endlicheri.1                     CUAUAC.CUAAUAAAAUU.AGGU.GAA...UACCCAA..AAUUGUAGUC.
+P.tenax.1                          CUAUAC.CUAACAAAAUU.AAGU.GAA...UACCCNA..AAUUGUAGUC.
+I.missouriensis.1                  CUAUAC.CUAACAAAAUU.AAGU.GAA...UACCUAA..AAUNGUAGUC.
+A.stylidioides.1                   CUAUAC.CUAAUAAGAUU.AGGU.GAA...UGCCCAA..AAUUGUAGUC.
+C.lindleyana.1                     CUAUAC.CUAAUAAAAUU.AAGU.GAA...UACCCAA..AAUUGUAGUC.
+C.septentrionalis.1                CUAUAC.CUAAUAAAAUU.AAGU.GAA...CAUACAA..AAUUGUAGUC.
+S.romanzoffiana.1                  CUAUAC.CUAAUAAAACG.AGGU.GAA...UACCCAA..AAUUGUAGUC.
+E.cassythoides.1                   CUAUAC.CUAAUAAAAUU.AAGU.GAA...UGCCCAA..AAUGGUAGUC.
+C.rosea.1                          CUAGAC.CCAAUAAAAUU.AGGU.GAA...UACCCAA..GAUUGUAGUC.
+D.adolphii.1                       CUAUAC.CUAAUAAAAUU.AAGU.GAA...UACCCAA..GAUUGUAGUC.
+I.medeoloides.1                    CUAGAC.CCAAUAAAAUU.AAGU.GAA...UACCCAA..GAUUGUAGUC.
+P.minor.1                          CUAGAC.CUAAUAAAAUU.AAAU.GAA...UACCCAG..GAUUGUAGUC.
+Epistephium.1                      CUAUAC.CUAAUAAAAUU.AAGU.GAA...UACCCAA..AAUUGUAGCC.
+V.imperialis.1                     CUAUAC.CUAAUAAAAUU.AAGU.GAA...UCCCCAA..AAUUGUAGUC.
+V.inodora.1                        CUAUGC.CUAAUAAAAUU.AAGU.GAA...UCCCCAA..AAUCGUAGUC.
+X.resinosa.1                       CUAUAC.CUAACAAAAUU.AAGU.GAA...UACCCAA..AAUUGUANUC.
+P.bogneri.1                        CUAUAC.CUAACAAAAUU.AGGU.GAA...UACCUAA..AAUGGUAGUC.
+X.caeruleum.1                      CUAUAC.CUAACAAAAUU.AAAU.GAA...UACCUAA..AAUGGUAGUC.
+H.gardneri.1                       CUAAAC.CUAACAAAAUU.AAGU.GAA...UACCCAA..AAUGGUAGUC.
+B.capitata.1                       CUAUAC.CUAACAAAAUU.AAGU.GAA...UACCCAA..AAUUGUAGUC.
+D.elephantipes.1                   CUAUAC.CUAACAAAAUU.AAGU.GAA...UACCUAA..AAUUGUAGUC.
+N.ossifragum.1                     CUAUAC.CUAACAAAAUU.AAGU.GAA...UACCUAA..AAUUGUAGUC.
+L.radicans.1                       CUAUAC.CUAACAAAAUU.AAGU.GAA...UACCCAA..AAUUGUAGUC.
+A.elegans.1                        CUAUAC.CUAACAAAAUU.AAGU.GAA...UACCUAA..AAUUGUAGUC.
+T.grandiflorum.1                   CUAUAC.CUAACAAAAUU.AAGU.GAA...UACCCAA..AAUUGUAGUC.
+C.monogyna.1                       CCACAC.CUAACAAGAUU.AAGU.GAA...UGCCCAA..AAUGGUAGUC.
+C.papyrus.1                        CUAGAC.CUAACAAAAUU.AGGU.GAA...UGCCCAA..AAUUGUAGUC.
+E.monostachya.1                    CUAUAC.CUAACAAAAUU.AAGU.GAA...UACCCAA..AAUUGUAGUC.
+M.fluviatilis.1                    CUAGAC.CUAACAAAAUU.AAGU.GAA...UACCCAA..AAUUGUAGUC.
+O.sativa.1                         CUAUAC.CUAACAAAAUU.AGGU.GAA...UACCCAA..AAUUGUAGUC.
+S.cereale.1                        CUAGAC.CUAACAAAAUU.AAGU.GAA...UACCCAA..AAUUGUAGUC.
+X.jupicai.1                        CUAUAC.CUAACAAAAUU.AGGU.GAA...UACCUAA..AAUUGUAGUC.
+T.glutinosa.1                      CUAUAC.CUAACAAAAUU.AAGU.GAA...UACCCAA..AAUUGUGGUC.
+T.elegans.1                        CUAUAC.CUAACAAAAUU.AAGU.GAA...UACCCAA..AAUUGUAGUC.
+S.reginae.1                        CUAGAC.CUAACAAAAUU.AAGU.GAA...UACCCAA..AAUGGUAGUC.
+A.trichopoda.1                     CUACAC.CUAAUAAAAUU.AAGU.GAA...UACCCAA..AAUAGUGGUC.
+I.parviflorum.1                    CUAUAC.CUAACAAGAUU.AAGU.GAA...UACCCAA..AAUUGUGGUC.
+T.moorei.1                         CUAUAC.CUAACAAGAUU.AAGU.GAA...UACCCAA..AAUGGUGGUC.
+C.caroliniana.1                    CUAGAC.CUAACAAGAUU.AAGU.GAA...UCCCCAA..AAUGGUGGUC.
+T.submersa.1                       CUAUAC.CUAAGAGGAUC.AAGU.GAA...UACCCAA..AAUUGUGGUC.
+B.microphylla.1                    CUAUAC.CUAACAAAAUU.AAGU.GAA...UACCCAA..AAUCGUGGUC.
+H.canadensis.1                     CUAUAC.CUAACAAGAUU.AAGU.GAA...UACCCAA..AAUUGUGGUC.
+P.americana.1                      CUAUAC.CUAACAAGAUU.AAGU.GAA...UACCCAA..AAUUGUAGUC.
+Rheum_x_hybridum_gar.1             CUAGAC.CUAACAAGAUU.AAGU.GAA...UACCCAA..AAUUGUGGUC.
+G.chilensis.1                      CGAUAC.CUAACAAGAUU.AAGU.GAA...UCCCCAA..AAUUGUGGUC.
+V.vinifera.1                       CUAUAC.CUAACAAGAUU.AAGU.GAA...UACCAAA..AAUUGUGGUC.
+V.vinifera.2                       CUAUAC.CUAACAAGAGU.AAGU.GAA....UUUUAA..AAUUGCAGUC.
+V.vinifera.3                       GUAUAU.CUAACAAGAUU.UAGC.GAA.....UACAA..AAUUAUGAUC.
+V.vinifera.4                       CUAUACACUAACAAGAUU.AAGUAGAACUAACCCUAA..AAUUGUGGUCU
+V.vinifera.5                       CUAUAC.CUAACAAGAUU.AAGU.GAA...UACCCAA..AAUUGUGGUC.
+V.vinifera.6                       CUAUAC.CUAACAAGAUU.AAGA.GAA...UACCCAA..AAUUGUGGUU.
+V.vinifera.7                       GUAUAU.CUAACAAGAUU.UAGU.GAA.....UACAA..AAUUAUGAUC.
+V.vinifera.8                       CUAUAC.CUAACAAGAUU.AAGU.GAA...UACCCAA..AAUUGUGGUC.
+H.annuus.1                         CUAGAC.CUAACAAGAUU.AAAU.GAA...UACCUAA..AAUUGUGGUC.
+C.sandwichiana.1                   CUAUAC.CUAAUAAUAUUAAGGU.GAU....ACCUAA..AAUAGUNNNC.
+A.belladonna.1                     CUAUAC.CUAACAAGAUU.AAGU.GAA...UACCUAA..AAUUGUGGUC.
+Pelargonium_x_hortor.1             CUAUAC.CUAACAAGAUU.AAGU.GAA...UACCCAA..AAUUGUGGUC.
+O.glazioviana.1                    CUAAAC.CUAACAAGAUU.AAGU.GAA...UACCUAA..AAUUGUGGUC.
+E.alatus.1                         CUAGAC.CUAACAAGAUU.AAGU.GAA...UACCCAA..AAUUGUUGUC.
+C.arietinum.1                      CUAUAC.CUAACAAUAUU.AAGU.GAA...UACCUAA..AAUAGUAGUC.
+L.japonicus.1                      CUAUAC.CUAACAAGAUU.AAGU.GAA...UACCCAA..AAUGGUAGUC.
+L.japonicus.2                      CUAUAC.CUAACAAGAUU.AAGU.GAA...UACCCAA..AAGUGUAGUC.
+Glycine_max_soybean.1              CUAUAC.CUAACAAGAUU.AAGU.GAA...UACCCAA..AAUUGUAGUC.
+R.communis.1                       CUAUAC.CUAGCAAGAUU.AAGU.GAA...UACCUAA..AUUUGUUGUC.
+R.communis.2                       CUAUAC.CUAGCAAGAUU.AAGU.GAA...UACCUAU..AUAUAUAUAU.
+R.communis.3                       CUAUGC.CUAGCAAGAUU.AAGU.GAA...UAACUAAAAAAUUAUUAUC.
+R.communis.4                       CUAUAC.CUACCAAGAUU.AAGU.GAA...UACCUAA..AAUUGUUGUC.
+P.trichocarpa.1                    CUAUAC.CUGGCAAGAUU.AUGU.GAA...CACCUAA..AAUUGUUGUC.
+P.trichocarpa.2                    CUAUAC.CUAACAAGAUU.AAAU.GAA...UACCUAA..AAUUGUAAUA.
+P.alba.1                           CUAUAC.CUAGCAAGAUU.AAGU.GAA...UACCUAA..AAUUGUUGUC.
+P.trichocarpa.3                    UUAUAC.CUAACAAGAUU.AAGU.GAA...UAUCUAA..AAUUAUUAUC.
+H.lupulus.1                        CUACAC.CUAACAAAAUU.AAGU.GAA...UACCCAA..AAUUGUAGUC.
+B.rapa.1                           CUACAC.CUAACAAAAUU.AAGU.GAA...UACCCAA..AAUGGUGGUC.
+C.papaya.1                         UUAUAC.CUAACAAAAUU.AAGU.GAA...UACCCAA..AAUUAUGGUU.
+C.papaya.2                         .AAUAC.CUAACAAAAUU.AAGU.GAA...UACCCAA..AAUUGUGGUU.
+C.papaya.3                         CUAUAC.UUAACAAAAUU.AAAU.GAA...UACCCAA..AAUUAUGGUC.
+C.papaya.4                         CUAUAC.UUAACAAAAUU.AAAU.GAA...UACCCAA..AAUUAUGGUC.
+C.sinensis.1                       CUAUAC.CUAACAAGAUU.AGGU.GAA...UACCCAA..AAUUGUGGUC.
+H.peltata.1                        CUAUAC.CUAACAAGAUU.AAGU.GAA...UACCCAA..AAUGGUAGUC.
+A.macrophylla.1                    CCACGC.CUAACAAGAUU.AAGU.GAA...UACCCAA..AAUUGUGGUC.
+S.cernuus.1                        CUAUAC.CUAACAAAAUU.AAGU.GAA...UACCCAA..AAUAGUGGUC.
+K.flaccidum.1                      CAGCUC.CUAGCAAAAGA.AGAU.GAA...UACCAAG..AAUGGUUGUC.
+M.viride.1                         CAACAC.CUAAAACAAUU.AAAU.GAA...UACCAAG..AAUAGUAGUC.
+S.punctulatum.1                    CAAGUC.CUAAGAUAAUU.AAAU.GAA...UACCUAA..AAUGGUAGUC.
+M.scalaris.1                       CUAAAC.CUAAUAAAAUA.AGAU.GAA...UUCCUAA..AAUAGUAGUC.
+Spirogyra.1                        CAGCAC.CCAAAAGGAUU.AAAU.GAA...UACCUAA..AAUGGUAGUC.
+Z.circumcarinatum.1                CAGCAC.CUAAUAAAAUA.AGAU.GAA...UACCCAA..UAUGGUGGUC.
+P.tricornutum.1                    CACUAC.CUAAAAGACAU.AAAU.GAA...UCCCUAG..AAUAGUUGUC.
+O.sinensis.1                       CAACAC.CUAAUAAACAU.AAAU.GAA...UACCUAA..AAUAGUAGUC.
+S.costatum.1                       CUAAAC.CUAAUAAACAU.AAGU.GAA...UACCUAA..AAUAGUAGUC.
+T.pseudonana.1                     CUAAAC.CUAAUAAACAU.AAGU.GAA...UACCUAA..AAUAGUAGUC.
+P.littoralis.1                     CUAAGC.CAAGAAAAAUU.AAAU.GAA...UACCUAA..AAUAGAUGUC.
+H.akashiwo.1                       CAAUUC.CUAACAAAACU.AAAU.GAA...UACCUAA..GAUUGUAGUC.
+marine_metag.1                     CGACGC.CUAGAAGAAUC.AGGU.GAU...AACCAAU..GAUAUUGGUC.
+marine_metag.2                     CUACAC.CUAGAACAAUC.AAAU.GAU...AUCCGAG..GAUAUUUGUC.
+marine_metag.3                     CAAUUC.CUAAUAAACAU.AAAU.GAA...UACCUAA..AAUUGUUGUC.
+marine_metag.4                     CUACAC.CUAAAACAAUC.AAAU.GAU...AGCCAAG..AAUGUUUGUC.
+marine_metag.5                     CUACAC.CCAAAACAAUC.AAAU.GAU...AUCCAAG..GAUAUUUGUC.
+marine_metag.6                     CAAUUC.CUAGUAAACAU.AAGU.GAA...UACCUAA..AAUUGUUGUC.
+marine_metag.7                     CAACAC.CAAGGACAAUA.AGAU.GAU...AUCCGAG..AAUGUUAGUC.
+marine_metag.8                     CUACAC.CUAAUACAAUC.AAAU.GAU...AACCAAG..AAUAUUUGUC.
+marine_metag.9                     CUACAC.CAAGGACAAUC.AAAU.GAU...AUCCGAG..GAUAUUAGUC.
+marine_metag.10                    CAAGUC.CAAGAAUUACA.AGGU.GAA...UUCCUAA..AAUAGUAGUC.
+marine_metag.11                    CUACAC.CUAGAACUAUC.AAAU.GAU...AACCAAG..AAUAUUGGUC.
+marine_metag.12                    CAACAC.CUAAAACAAUU.AGAU.GAU...AUCCAAG..GAUAUUAGUC.
+marine_metag.13                    CAACGC.CCAAGAGGAUU.AGGU.GAU...AGCCAAU..GAUGUUGGUC.
+marine_metag.14                    CAACAC.CUAAAACGAUU.AAGU.GAU...AACCAAG..GAUAUUGGUC.
+marine_metag.15                    CUAUAC.CUAGAACUAUC.AAAU.GAU...AACCAAG..AAUGUUGGUC.
+marine_metag.16                    CUACAC.CUAAAACAAUA.AGGU.GAU...AUCCGAG..GAUAUUAGUC.
+marine_metag.17                    CUACAC.CUAAAACAAUC.AAAU.GAU...AUCCGAG..GAUAUUUGUC.
+marine_metag.18                    CAACUC.CUAGAACAACC.AAAU.GAA...AACCAAG..AAUGUUGGUC.
+marine_metag.19                    CUACAC.CUAAAACAAUC.AAAU.GAU...AUCCAAG..AAUGUUUGUC.
+marine_metag.20                    CGACGC.CAAGCAGGAUC.AAGU.GAU...AACCAAU..GAUGUUGGUC.
+marine_metag.21                    CGACUC.CCAGAAGAAUC.AGGU.GAU...AACCAAU..GAUGUUGGUC.
+marine_metag.22                    CAACAC.CUAGAACAAUC.AAAU.GAU...AACCAAG..GAUAUUGGUC.
+marine_metag.23                    CAAUUC.CAAGAAGCACG.AGGU.GAA...UUCCUAA..AAUUGUUGUC.
+marine_metag.24                    CUACUC.CAAGAACAAUA.AGAU.GAU...AUCCAAG..GAUAUUUGUC.
+marine_metag.25                    CUACAC.CCAAAACAAUC.AAAU.GAU...AUCCAAG..GAUGUUUGUC.
+marine_metag.26                    CUACAC.CCAGAACAAUC.AAAU.GAU...AUCCGAG..GAUAUUAGUC.
+marine_metag.27                    CUACAC.CCAAGACAAUC.AAAU.GAU...AUCCGAG..AAUAUUUGUC.
+marine_metag.28                    CGACAC.CUAAAACAAUA.AGGU.GAU...AACCGAG..GAUAUUAGUC.
+marine_metag.29                    CAAGAC.CUAAAAGGCAU.AGGU.GAA...UUCCUAA..GAUAGUUGUC.
+marine_metag.30                    CUACAC.CUAAAACAAUC.AAAU.GAU...AUCCAAG..GAUAUUAGUC.
+marine_metag.31                    CGACGC.CCAGAAGGAUG.AGGU.GAU...AACCAAU..GAUGUUGGUC.
+marine_metag.32                    CCACAC.CCAAAAGGAUG.AGGU.GAU...AACCAAU..GAUGUUGGUC.
+marine_metag.33                    CAACGC.CCAAGAGAAUA.AGGU.GAU...AACCAAU..GAUGUUGGUC.
+marine_metag.34                    CAAAUC.CUAGGAUAACU.AAGU.GAA...UACCAAG..AAUUGUAGUA.
+marine_metag.35                    CUACAC.CUAGAACAAUC.AAAU.GAU...AACCAAG..AAUGUUUGUC.
+marine_metag.36                    CAACUC.CUAAAACUAUU.AGGU.GAU...AACCCAA..UAUGUUAGUC.
+marine_metag.37                    CUACAC.CCAAAACAAUC.AAAU.GAU...AUCCAAG..GAUAUUUGUC.
+marine_metag.38                    CGACUC.CGAGAAGGAUC.AGGU.GGU...AGCCGAU..GAUGUUGGUC.
+marine_metag.39                    CUACAC.CUAGAAUUAUC.AAAU.GAU...AACCAAG..AAUAUUGGUC.
+marine_metag.40                    CUACAC.CUAAAACAAUC.AGAU.GAU...AUCCGAG..GAUAUUUGUC.
+marine_metag.41                    CAACGC.CUAAAACUAUU.AGGU.GAU...AACCCAA..AAUAUUAGUC.
+marine_metag.42                    CAACGC.CAAGAAGGAUC.AGGU.GAU...AACCAAU..GAUGUUGGUC.
+#=GC SS_cons                       ....................<<<.<<<.....<<<<<.............
+
+Crocosphaera_watsoni.1             AGUUUU.UUGGGAUCGUCCCA
+Crocosphaera_watsoni.2             AUUUGG.UUCUUAUCUUUCCA
+Crocosphaera_watsoni.3             AUUUUU.UUGCCAUCUUGCCA
+Cyanothece.1                       AUUUGG.UUCUUAUCUUUCCA
+Cyanothece.2                       AAUUUU.UUCGGGUCAUCCCA
+Synechococcus_elonga.1             AUCUGA.UUCUUGUCUUUCCA
+Synechococcus.1                    AUCUGA.UUCUUAUCGCGCCA
+Synechococcus.2                    AUCUGG.UUUUUAUCGCGCCA
+Synechococcus.3                    AUCUGG.UUCUUAUCCCGCCA
+Synechococcus.4                    AUCUGG.UUCUUGUCACGCCA
+Synechococcus.5                    AUCUGG.UUCUUGUCACGCCA
+Synechococcus.6                    AUCUUG.UUUUUGUCUUGCCA
+Synechococcus.7                    AUCUGG.UUCUUGUCACGCCA
+Synechococcus.8                    AUCUUG.UUCUUGUCUUUCCA
+Synechococcus_elonga.2             AGUUGU.UUGGGAUCAUUCCA
+Synechococcus.9                    AUCUGG.UUCUUGUCACGCCA
+Synechococcus.10                   AUCUUG.UUCUUGUCUUUCCA
+Synechococcus.11                   AAUUGC.UUCGGGUCUUCCCA
+Synechococcus.12                   AUCUGG.UUUUUGUCGCGCCA
+Synechococcus.13                   AUCUUG.UCGUCGUCUUCCCA
+Synechococcus.14                   AUCUGG.UUCUUGUCGCGCCA
+Synechococcus.15                   AUCUUG.UCGUCAUCUUCCCA
+Synechococcus.16                   AUCUGG.UUCUUGUCGCGCCA
+Synechocystis.1                    AGUUGC.UGGGGGUUUUCCCA
+Synechocystis.2                    AUCUGG.UUUUUAUCUUUCCA
+Thermosynechococcus_.1             AUUUUG.UUUUUAUCUUUCCA
+Thermosynechococcus_.2             AGUUGU.UUUGGAUCAUCCCA
+Gloeobacter_violaceu.1             AUCUUG.UUCUUGUCUUUCCA
+Anabaena.1                         AGUUGU.UUCGGGUCGUUCCA
+Anabaena_variabilis_.1             AUCUUG.UUCUUAUCUUUCCA
+A.elenkinii.1                      AGCUGU.UUGGGCUCAUCCCA
+Nodularia_spumigena_.1             AUCUUG.UUCUUGUCUUUCCA
+Nodularia_spumigena_.2             AUUUUG.UUGGCAUCCUCCCA
+Nodularia_spumigena_.3             AACUGC.UGAGGAUCAUUCCA
+Nodularia_spumigena_.4             AUUUUG.UCUUCAUCUUCCCA
+Nostoc.1                           AUUUUA.UUAGCAUCUUGCCA
+Nostoc.2                           AAUUGU.UUAGGGUCAUUCCA
+Nostoc_punctiforme_P.1             AUCUUG.UUCUUGUCUUUCCA
+L.lagerheimii.1                    AAUUGU.UUGGGGUCGUCCCA
+Lyngbya.1                          AUUUGG.UUCUUGUCUUUCCA
+Trichodesmium_erythr.1             AUCUUA.UUGCCAUCUUCCCA
+Trichodesmium_erythr.2             AUCUGG.UUCUUAUCUUUCCA
+Trichodesmium_erythr.3             AUUUUG.CCUGGAUCAUCCCA
+Trichodesmium_erythr.4             AUUUUG.UUACCAUCAUUCCA
+Trichodesmium_erythr.5             AGCUUU.UUUGGAUCAUCCCA
+uncul.Oscil.cyano.1                AGUUGU.UUCGGGUCGUUCCA
+uncul.Oscil.cyano.2                AAUUGU.UUCGGGUCGUCCCA
+Stanieria.1                        AAUUGC.UUGGGAUCGCCCCA
+P.didemni.1                        AGACGU.UUACCAUCACCCCA
+P.didemni.2                        AACUUG.UUGCCAUCAGACCA
+P.didemni.3                        AACUGC.UUGGGAUCGUCCCA
+Prochlorococcus_mari.1             AUUUGA.UUUUUAUCUCUCCA
+Prochlorococcus_mari.2             AUCUGA.UUUUUGUCUUUCCA
+uncul.Proch.marin.cl.1             AUUUGA.UUUUUAUCUCUCCA
+Prochlorococcus_mari.3             AUUUGG.UUUUUAUCUCUCCA
+Prochlorococcus_mari.4             AUUUGG.UUUUUAUCUCUCCA
+Prochlorococcus_mari.5             AUUUGA.UUUUUAUCUCUCCA
+uncul.Proch.marin.cl.2             AUUUGA.UUUUUAUCUCUCCA
+P.hollandica.1                     AGUUUG.GCCGCGUCAUCCCA
+P.scandica.1                       AGUUGC.UUGGUAUCGCCCCA
+P.hollandica.2                     AUCUGG.UUCUUAUCUUUCCA
+P.hollandica.3                     AGUUGC.UUGGGAUCAUCCCA
+F.muscicola.1                      AGCUUU.UUAGGAUCAUUCCA
+F.muscicola.2                      AGUUUA.UUAGCAUCAUCCCA
+uncult._cyanobacteri.1             AAUUGC.UUGGGGUCGCCCCA
+uncult._cyanobacteri.2             AAUUGU.CGGGGNUCGCUCCA
+uncult._cyanobacteri.3             AGUUGU.UUAGGAUCAUCCCA
+uncult._cyanobacteri.4             AAUUGG.GCCGGAUUUUCCCA
+K.mikimotoi.1                      AUCUUA.UUUUUGUCACGCCA
+K.brevis.1                         AUUUUA.UUUUUGUCACGCCA
+K.brevis.2                         AUUUUA.UUUUUGUCACGCCA
+P.foliaceum.1                      AUCUUA.UUUUUAUCACGCCA
+G.theta.1                          AUCUUA.UUUUUAUCACGCCA
+R.salina.1                         AUUUUG.UUCUUAUCACGCCA
+R.abbreviata.1                     AUUUUA.UUCUUAUCACGCCA
+C.paradoxa.1                       AUUUUA.UUUUUAUCUUUCCA
+G.nostochinearum.1                 AUCUUG.UUUUUAUCUUUCCA
+Isochrysis.1                       AUUUUG.UUCUUGUCACGCCA
+E.huxleyi.1                        AUUUUG.UUCUUAUCACGCCA
+P.gyrans.1                         AUCUUG.UUCUUAUCACGCCA
+P.lutheri.1                        AUUUUA.UUCUUAUCACGCCA
+Pavlova.1                          AUCUUG.UUUUUAUCACGCCA
+B.natans.1                         AUUUUG.UUUUUGUCUUUCCA
+B.atropurpurea.1                   AUCUUA.UUUUUAUCGCGCCA
+P.yezoensis.1                      AUUUUG.UUUUUAUCCCGCCA
+P.purpurea.1                       AUCUUG.UUUUUAUCGCGCCA
+C.merolae.1                        AUUUUA.UUUUUGUCUCUCCA
+Cyanidium.1                        AUUUUG.UUUUUAUCUCUCCA
+C.caldarium.1                      AUUUUA.UUUUUAUCUCUCCA
+C.caldarium.2                      AUUUUA.UUUUUAUCUCUCCA
+G.sulphuraria.1                    AUUUUA.UUUUUAUCUCUCCA
+G.maxima.1                         AUUUUG.UUUUUAUCUCUCCA
+C.caeruleus.1                      AUUUUA.UUUUUAUCUCUCCA
+R.violacea.1                       AUUUUA.UUUUUAUCACGCCA
+C.crispus.1                        AUCUUA.UUUUUAUCUCUCCA
+G.tenuistipitata.1                 AUUUUA.UUUUUAUCUCUCCA
+P.palmata.1                        AUUUUA.UUCUUAUCUCUCCA
+R.marinus.1                        AUUUUA.UUCUUAUCACGCCA
+S.helveticum.1                     AUUUUG.UUCUUGUCUUUCCA
+C.moewusii.1                       AUUUUA.UUUUUAUCUUUCCA
+C.reinhardtii.1                    AUUUUG.UUUUUGUCUUUCCA
+C.raudensis.1                      AUUUUA.UUUUUGUCUUUCCA
+C.debaryana.1                      AUUUUG.UUUUUAUCUUUCCA
+V.ordinata.1                       AUUUUG.UUUUUAUCUUUCCA
+T.socialis.1                       AUUUUG.UUUUUGUCUUUCCA
+E.elegans.1                        AUUUUG.UUUUUGUCUUUCCA
+G.pectorale.1                      AUUUUG.UUUUUGUCUUUCCA
+G.octonarium.1                     AUUUUG.UUUUUAUCUUUCCA
+G.multicoccum.1                    AUUUUG.UUUUUGUCUUUCCA
+G.multicoccum.2                    AUUUUG.UUUUUGUCUUUCCA
+G.quadratum.1                      AUCUUG.UUUUUGUCUUUCCA
+G.viridistellatum.1                AUUUUA.UUUUUGUCUUUCCA
+L.monstruosa.1                     AUUUUG.UUUUUGUCUUUCCA
+P.morum.1                          AUUUUG.UUUUUAUCUUUCCA
+P.colemaniae.1                     AUUUUG.UUUUUAUCUUUCCA
+P.morum.2                          AUUUUG.UUUUUAUCUUUCCA
+P.morum.3                          AUUUUG.UUUUUAUCUUUCCA
+P.morum.4                          AUUUUG.UUUUUAUCUUUCCA
+P.caudata.1                        AUUUUG.UUCUUGUCUUUCCA
+P.thompsonii.1                     AUUUUG.UUUUUGUCUUUCCA
+P.starrii.1                        AUUUUG.UUUUUGUCUUUCCA
+P.californica.1                    AUUUUG.UUUUUGUCUUUCCA
+V.tertius.1                        AUUUUG.UUUUUGUCUUUCCA
+V.barberi.1                        AUCUUA.UUUUUAUCUUUCCA
+V.dissipatrix.1                    AUUUUG.UUUUUGUCUUUCCA
+V.powersii.1                       AUUUUG.UUUUUGUCUUUCCA
+V.boldii.1                         AUUUUG.UUUUUAUCUUUCCA
+V.steinii.1                        AUUUUG.UUUUUGUCUUUCCA
+V.pringsheimii.1                   AUCUUG.UUUUUGUCUUUCCA
+V.compacta.1                       AUUUUG.UUUUUGUCUUUCCA
+Y.unicocca.1                       AUUUUA.UUUUUGUCUUUCCA
+Y.unicocca.2                       AUUUUG.UUUUUGUCUUUCCA
+E.viridis.1                        AUUUUA.UUUUUGUCUUUAAA
+S.obliquus.1                       AUUUUG.UUUUUGUCUUUCCA
+O.viridis.1                        AUUUUG.UUUUUAUCUUUCCA
+O.tauri.1                          AUUUUG.UUCUUGUCUUUCCA
+N.olivacea.1                       AUUUUG.UUCUUAUCUUUCCA
+C.vulgaris.1                       AUUUUA.UUUUUAUCUUUCCA
+L.terrestris.1                     AUUUUA.UUUUUAUCACGCCA
+K.sempervirens.1                   AUUUUA.UUUUUAUCUUUCCA
+P.akinetum.1                       AUUUUG.UUUUUAUCUUUCCA
+C.strigosa.1                       AUUUUA.UUUUUGUCCUUCCA
+N.flexilis.1                       AUUUUG.UUUUUAUCUUUCCA
+N.obtusa.1                         AUCUUA.UUUUUGUCCUUCCA
+C.atmophyticus.1                   AUUUUA.UUUUUAUCUUUCCA
+C.globosum.1                       AUUUUG.UUUUUAUCUUUCCA
+C.nitellarum.1                     AUUUUA.UUUUUAUCUUUCCA
+A.formosae.1                       AUUUUA.UUCUUAUCUUUCCA
+P.patens.1                         AUUUUA.UUUUUAUCUUUCCA
+M.polymorpha.1                     AUUUUG.UUUUUGUCUUUCCA
+S.uncinata.1                       AUUUUG.UUCCUAUCCCUCCG
+H.lucidula.1                       AUUUUG.UUCUUAUCUUUCCA
+Adiantum_capillus-ve.1             AUCUUA.UUUUUAUCCUUCCA
+A.evecta.1                         AUUUUG.UUCUUAUCUUUCCA
+P.nudum.1                          AUUUUA.CUCUUAUCCUUCCA
+A.australis.1                      AUUUUG.UUCCUAUCUUUCCA
+A.bidwillii.1                      AUUUUG.UUCCUAUCUUUCCA
+W.cedarbergensis.1                 AUUUUG.UUCCUAUCUUUCCA
+C.deodara.1                        AUUUUG.UUUCUAUCUUUCCA
+P.chinensis.1                      AUUUUG.UUCCUAUCUUUCCA
+S.conspicua.1                      AUUUUG.UUCCUAUCUUUCCA
+S.verticillata.1                   AUUUUG.UUCCUAUCUUUCCA
+T.brevifolia.1                     AUUUUA.UUUCUAUCUUUCCA
+T.californica.1                    AUUUUG.UUCCUAUCUUUCCA
+M.moorei.1                         AUUUUG.CUCCUAUCUUUCCA
+G.biloba.1                         AUUUUG.UUCCUAUCUUUCCA
+E.sinica.1                         AUUUUA.UUUCUAUCCUUCCA
+G.parvifolium.1                    AUUUUA.UUCCUAUCUUUCCA
+W.mirabilis.1                      AUUUUA.UUUCUAUCUUUCCA
+C.demersum.1                       AUUUUA.UUUCUAUCUUUCCA
+A.americanus.1                     AUUUUA.UUUCUAUCUUUCCA
+S.latifolia.1                      AUUUUA.UUUCUAUCUUUCCA
+A.textile.1                        AUUUUA.UUUCUAUCUUUCCA
+A.monspeliensis.1                  AUUUUA.UUUCUAUCUUUCCA
+A.endlicheri.1                     AUUUUA.UUUCUAUCUUUCCA
+P.tenax.1                          AUUUUA.UUCCUAUCUUUCCA
+I.missouriensis.1                  AUUUUA.UUUCUAUCUUUCCA
+A.stylidioides.1                   AUUUUA.UUUCUAUCUUUCCA
+C.lindleyana.1                     AUUUUA.UUUUUAUCUUUCCA
+C.septentrionalis.1                AUUUUA.UUUCUAUCUUUCCA
+S.romanzoffiana.1                  AUUUUA.UUUCUAUCUUUCCA
+E.cassythoides.1                   AUUUUA.UUUCUAUCUUUCCA
+C.rosea.1                          AUUUUA.UUUCGAUCUUUCCA
+D.adolphii.1                       AUUUUA.UUUCGGUCUUUCCA
+I.medeoloides.1                    AUUUUA.UUUCGAUCUUUCCA
+P.minor.1                          AUUUUA.UUUCGAUCUUUCCA
+Epistephium.1                      AUUUUA.UUUCUAUCUUUCCA
+V.imperialis.1                     AUUUUA.UUUCUAUCUUUCCA
+V.inodora.1                        AUUUUA.UUUCUAUCUUUCCA
+X.resinosa.1                       AUUUUA.UUUCUAUCUUUCCA
+P.bogneri.1                        AUUUUA.UUUCUAUCUUUCCA
+X.caeruleum.1                      AUUUUA.UUUCUAUCUUUCCA
+H.gardneri.1                       AUUUUA.UUUCUAUCUUUCCA
+B.capitata.1                       AUUUUA.UUUCUAUCUUUCCA
+D.elephantipes.1                   AUUUUA.UUUCUAUCUUUCCA
+N.ossifragum.1                     AUUUUA.UUCCUAUCUUUCCA
+L.radicans.1                       AUCUUA.UUUCUAUCUUUCCA
+A.elegans.1                        AUUUNA.UUUCUAUCUUUCCA
+T.grandiflorum.1                   AUUUGA.UUUCUAUCUUUCCA
+C.monogyna.1                       AUUUUA.UUUCUAUCUUUCCA
+C.papyrus.1                        AUUUUA.UUUCGAUCUUUCCA
+E.monostachya.1                    AUUUUA.UUUUUAUCUUUCCA
+M.fluviatilis.1                    AUUUUA.UUUCUAUCUUUCCA
+O.sativa.1                         AUUUUA.UUUCUAUCUUUCCA
+S.cereale.1                        AUUUUA.UUUCGAUCUUUCCA
+X.jupicai.1                        AUCUUA.UUUCUAUCUUUCCA
+T.glutinosa.1                      AUUUUA.UUUCUAUCUUUCCA
+T.elegans.1                        AUUUUA.UUUCUAUCUUUCCA
+S.reginae.1                        AUUUUA.UUUCUAUCUUUCCA
+A.trichopoda.1                     AUUUUA.UUUCUAUCUUUCCA
+I.parviflorum.1                    AUUUUA.UUUCUAUCUUUCCA
+T.moorei.1                         AUUUUA.UUUCUAUCUUUCCA
+C.caroliniana.1                    AUUUUA.UUUCUAUCUUUCCA
+T.submersa.1                       AUUUUA.UUUCUAUCUUUCCA
+B.microphylla.1                    AUUUUA.UUUCUAUCUUUCCA
+H.canadensis.1                     AUUUUA.UUUCUAUCUUUCCA
+P.americana.1                      AUUUUA.UUUCUAUCUUUCCA
+Rheum_x_hybridum_gar.1             AUUUUA.UUUCUAUCUUUCCA
+G.chilensis.1                      AUUUUA.UUUCUAUCUUUCCA
+V.vinifera.1                       AUUAUC.UUUCUAUCUUUCCA
+V.vinifera.2                       AUUUUA.UUUCUGUCUUUCCA
+V.vinifera.3                       AUCUUA.UUUC.UUUUUUCUU
+V.vinifera.4                       AUUUUA.UUUCUAUCUUYCYA
+V.vinifera.5                       AUUUUA.UUUCUAUCUUUCCA
+V.vinifera.6                       AUUUUA.UUUUUAUCUUUCCA
+V.vinifera.7                       AUCUUA.UUUCUAUUUUUUUU
+V.vinifera.8                       AUUUUA.UUUCUAUCUUUCCA
+H.annuus.1                         AUUUUA.UUUCUAUCUUUCCA
+C.sandwichiana.1                   ANUGUA.UUUCUAUCUUUCCA
+A.belladonna.1                     AUUUUA.UUUCGAUCUUUCCA
+Pelargonium_x_hortor.1             AUUUUG.UUUCUAUCUUUCCA
+O.glazioviana.1                    AUUUUA.UUUCUAUCUUUCCA
+E.alatus.1                         AUUUUA.UUUCUAUCUUUCCA
+C.arietinum.1                      AUUUUA.UUUCUGUCUUUCCA
+L.japonicus.1                      AUUUUA.UUUCUAUCUUUCCA
+L.japonicus.2                      AUUUUA.UUACG..CCCUGAG
+Glycine_max_soybean.1              AUUUUA.UUUCUAUCUUUCCA
+R.communis.1                       AUUUUA.UUUCUAUCUUUCCA
+R.communis.2                       AUAUAU.AUAUAUAUAAGCCU
+R.communis.3                       AUUUUA.UUUCUAUUUUUUUA
+R.communis.4                       AUUUUA.UUUCUAUAUUUCCA
+P.trichocarpa.1                    AUUUUAAUUUCUAUCUUACCA
+P.trichocarpa.2                    AUUUUA.UUUCUAUCUUUCCA
+P.alba.1                           AUUUUA.UUUCUAUCUUUCCA
+P.trichocarpa.3                    ACUUUA.UUUCUAUCUUUUCA
+H.lupulus.1                        AUUUUA.UUUCGAUCUUUCCA
+B.rapa.1                           AUUUUA.UUUCUAUCUUUCCA
+C.papaya.1                         AUUUUA.UUUAUAUCUUUCCG
+C.papaya.2                         AUUUUA.UUUAUAUCUUUCCA
+C.papaya.3                         AUUUUA.UUUCUAUCUUUCCA
+C.papaya.4                         AUUUUA.UUUCUAUCUUUCCA
+C.sinensis.1                       AUUUUA.UUUCUAUCUUUCCA
+H.peltata.1                        AUUUUA.UUUCUAUCUUUCCA
+A.macrophylla.1                    AUUUUA.UUUCUAUCUUUCCA
+S.cernuus.1                        AUUUUA.UUUCUAUCUUUCCA
+K.flaccidum.1                      AUCUUG.UUUUUAUCUUUCCA
+M.viride.1                         AUUUUG.UUUUUGUCUUUCCA
+S.punctulatum.1                    AUUUUG.UUCUUAUCUUUCCA
+M.scalaris.1                       AUCUUA.UUUUUAUCUUUCCA
+Spirogyra.1                        AUUUUG.UUUUUAUCCUUCCA
+Z.circumcarinatum.1                AUCUUG.UUUUUAUCUUUCCA
+P.tricornutum.1                    AUCUUG.UUUUUAUCACGCCA
+O.sinensis.1                       AUUUUA.UUUUUAUCACGCCA
+S.costatum.1                       AUCUUA.UUUUUAUCACGCCA
+T.pseudonana.1                     AUCUUA.UUUUUAUCACGCCA
+P.littoralis.1                     AUUUUA.UUUUUGUCACGCCA
+H.akashiwo.1                       AUUUUA.UUCUUAUCACGCCA
+marine_metag.1                     AUCUGG.UUCUUGUCCCGCCA
+marine_metag.2                     AUUUGA.UUUUUAUCUCUCCA
+marine_metag.3                     AUUUUA.UUUUUGUCACGCCA
+marine_metag.4                     AUUUGA.UUUUUAUCUCUCCA
+marine_metag.5                     AUUUGA.UUUUUGUCUCUCCA
+marine_metag.6                     AUUUUA.UUUUUAUCACGCCA
+marine_metag.7                     AUCUGA.UUUUUAUCUCUCCA
+marine_metag.8                     AUUUGA.UUUUUAUCUCUCCA
+marine_metag.9                     AUUUGA.UUUUUGUCUCUCCA
+marine_metag.10                    AUUUUG.UUCUUGUCUUUCCA
+marine_metag.11                    AUUUGA.UUUUUAUCUCUCCA
+marine_metag.12                    AUCUGA.UUUUUGUCUCUCCA
+marine_metag.13                    AUUUGA.UUCUUGUCACGCCA
+marine_metag.14                    AUUUGG.UUUUUAUCUCUCCA
+marine_metag.15                    AUCUGA.UUUUUAUCUCUCCA
+marine_metag.16                    AUUUGA.UUCUUGUCUCUCCA
+marine_metag.17                    AUUUGA.UUUUUAUCUCUCCA
+marine_metag.18                    AUUUGA.UUUUUGUCUCUCCA
+marine_metag.19                    AUUUGA.UUUUUAUCUCUCCA
+marine_metag.20                    AUCUGG.UUCUUAUCGCGCCA
+marine_metag.21                    AUCUGG.UUCUUGUCGCGCCA
+marine_metag.22                    AUUUGA.UUUUUAUCUCUCCA
+marine_metag.23                    AUUUUG.UUCUUAUCCUUCCA
+marine_metag.24                    AUCUGA.UUUUUAUCUCUCCA
+marine_metag.25                    AUUUGG.UUUUUAUCUCUCCA
+marine_metag.26                    AUCUGA.UUUUUGUCUCUCCA
+marine_metag.27                    AUUUGA.UUUUUAUCUCUCCA
+marine_metag.28                    AUUUGA.UUCUUGUCUCUCCA
+marine_metag.29                    AUUUUA.UUUUUAUCACGCCA
+marine_metag.30                    AUUUGA.UUCUUAUCUCUCCA
+marine_metag.31                    AUCUGG.UUCUUGUCACGCCA
+marine_metag.32                    AUCUGG.UUUUUGUCGCGCCA
+marine_metag.33                    AUCUGA.UUCUUGUCGCGCCA
+marine_metag.34                    AUCUUG.UUCUUAUCUCUCCA
+marine_metag.35                    AUUUGA.UUUUUAUCUCUCCA
+marine_metag.36                    AUUUGG.UUCUUAUCUCUCCA
+marine_metag.37                    AUUUGG.UUUUUGUCUCUCCA
+marine_metag.38                    AUCUGA.UUCUUAUCGCGCCA
+marine_metag.39                    AUUUGA.UUUUUAUCUCUCCA
+marine_metag.40                    AUUUGA.UUUUUAUCUCUCCA
+marine_metag.41                    AUUUGA.UUCUUAUCUCUCCA
+marine_metag.42                    AUCUGG.UUCUUAUCGCGCCA
+#=GC SS_cons                       .......>>>>>>>>>>>...
+//

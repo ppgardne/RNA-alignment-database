@@ -1,0 +1,55 @@
+# STOCKHOLM 1.0
+#=GF ID    snR3
+#=GF AC    RF01251
+#=GF DE    Small nucleolar RNA snR3
+#=GF AU    Wilkinson A
+#=GF GA    26.0
+#=GF NC    23.9
+#=GF TC    29.1
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Published; PMID:9106664; Wilkinson A
+#=GF TP    Gene; snRNA; snoRNA; HACA-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    snorna; snR3
+#=GF DR    snornadb; snR3
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Saccharomyces_cerevisiae300040
+#=GF WK    http://en.wikipedia.org/wiki/SnoRNA
+#=GF SQ    4
+
+#=GS S.cerevisiae.1         AC    Z49629.1/469-662
+#=GS Saccharomyces_mikata.1 AC    AABZ01000024.1/46395-46589
+#=GS Saccharomyces_bayanu.1 AC    AACA01000267.1/4730-4921
+#=GS Vanderwaltozyma_poly.1 AC    AAZN01000275.1/149819-150002
+
+S.cerevisiae.1                     AACUUUGUCCUAAAGUACUAAUCCACCGCAUUAGACAGUACGAAGAUCGA
+Saccharomyces_mikata.1             AACUUUGUCCUAAAGUACUAAUCCACCGCAUUAGACAGUACGAAGAUCGA
+Saccharomyces_bayanu.1             AACUUUGUCCUAAAGUACUAAUCCACCGCAAUAGACAGUACGAAGAUCGA
+Vanderwaltozyma_poly.1             AACUUUGUCCAAAAGU....UUCCACCGCAAUAGACAGUACGAGAUUUGA
+#=GC SS_cons                       .<<<<<<...>>>>>>.........<<<..........<<<<<<<<<<<<
+#=GC RF                            AaCuuugUccuaaaGuAcUAAUccACCgcAuUAGAcAGuaCGaagacCGa
+
+S.cerevisiae.1                     GCUAUUUAUUUGAACACUCGGUCUUAUUCGUGAUAAGCGUAAUGU..GGA
+Saccharomyces_mikata.1             GCUAUUAAUUUGAACACUCGAUUUUAUUCGUGAUAAGCGUAAUGU..GGA
+Saccharomyces_bayanu.1             GCUAUUAAUUUGAACACUCGGUCUUA.UCGUGAUAAGCGU..UGU..GGA
+Vanderwaltozyma_poly.1             GCUUUUUAUUCU..CACUCAGAUUUA.UCGUGAUAAGCGGUUUUUAAGGA
+#=GC SS_cons                       <...............>>>>>>>>...>>>>>............>..>>.
+#=GC RF                            GcUAUUaAUUUGAAcACuCGgucuUAuuCGugAUAAGcGUAAUGu..GGA
+
+S.cerevisiae.1                     GAGAUCAAUUUC.CGGGUCAUUUAU.AAGAACUCGAGUGGAUUGCUAGUU
+Saccharomyces_mikata.1             GAGAUCAAUUUUUCAGGUCAUUUAU.AAGAACUCGAGUGGAUUGCUGAUU
+Saccharomyces_bayanu.1             GAGAUCAAUUUUUCAGGUCAUUUAU.AAGAACUCGAGUGGAUUGCUGAUU
+Vanderwaltozyma_poly.1             UAGAUCAAAUU.....GUCACUCAUUAAGAACUCGAGUGGAUUACGUUAG
+#=GC SS_cons                       ...............<<<<<<<<.......<<<<<<<<.....<<<<<<<
+#=GC RF                            GAGAUcAAUUUuucagGuCaucuAU.AAGAaCuCGaGuGGAUUGCugauu
+
+S.cerevisiae.1                     GUUUUGAUUAGCUGAAUGAGACUCGAGUGUCAGAAGAUGACUAUAUUU
+Saccharomyces_mikata.1             GUUUUGGUCAGCUGAAUGAGACUCGAGUGUCAGAAGAUGACUAUAUUU
+Saccharomyces_bayanu.1             GUUUUGAUUGGCAGAAUGAGACUCGAGUGUCAGAAAAUGACUAUAUUU
+Vanderwaltozyma_poly.1             GCUUCCUAAC..UAAAUGAGACUCGAGUGUCAGAGAGUGCCUAUAUUU
+#=GC SS_cons                       .....>>>>>>>........>>>>>>>>......>>>>>>>>......
+#=GC RF                            GUUUUgaucaGCuGAAUGAGaCuCGaGuGUcAGAagauGaCuAUAUUU
+//

@@ -1,0 +1,88 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORD12
+#=GF AC    RF00581
+#=GF DE    Small nucleolar SNORD12/SNORD106
+#=GF AU    Marantidis E, Daub J
+#=GF GA    28.0
+#=GF NC    27.5
+#=GF TC    32.6
+#=GF PI    SNORD106; snoHBII-99
+#=GF SE    Marantidis E.
+#=GF SS    Predicted; RNAalifold, Daub J
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Mus_musculus300989
+#=GF DR    snoopy; Oryzias_latipes300092
+#=GF RN    [1]
+#=GF RM    16381836
+#=GF RT    snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D box
+#=GF RT    snoRNAs.
+#=GF RA    Lestrade L, Weber MJ;
+#=GF RL    Nucleic Acids Res. 2006;34:D158-D162.
+#=GF RN    [2]
+#=GF RM    11387227
+#=GF RT    RNomics: an experimental approach that identifies 201 candidates for
+#=GF RT    novel, small, non-messenger RNAs in mouse.
+#=GF RA    Huttenhofer A, Kiefmann M, Meier-Ewert S, O'Brien J, Lehrach H,
+#=GF RA    Bachellerie JP, Brosius J;
+#=GF RL    EMBO J. 2001;20:2943-2953.
+#=GF RN    [3]
+#=GF RM    12007400
+#=GF RT    Small nucleolar RNAs: an abundant group of noncoding RNAs with
+#=GF RT    diverse cellular functions.
+#=GF RA    Kiss T;
+#=GF RL    Cell. 2002;109:145-148.
+#=GF RN    [4]
+#=GF RM    14602913
+#=GF RT    Identification of 13 novel human modification guide RNAs.
+#=GF RA    Vitali P, Royo H, Seitz H, Bachellerie JP, Huttenhofer A, Cavaille J;
+#=GF RL    Nucleic Acids Res. 2003;31:6543-6551.
+#=GF CC    This family belong to the C/D class of snoRNA which contain the C
+#=GF CC    (UGAUGA) and D (CUGA) box motifs. This family includes the human
+#=GF CC    ortholog of mouse snoRNA HBII-99 and human snoRNA U106. In humans
+#=GF CC    both HB11-99 and U106 snoRNAs share the same host gene [1]. Most
+#=GF CC    of the members of the box C/D family function in directing
+#=GF CC    site-specific 2'-O-methylation of substrate RNAs. HBII-99 is
+#=GF CC    predicted to guide the 2'O-ribose methylation of 28S rRNA G3878
+#=GF CC    [2]. U106 contains conserved antisense elements which would
+#=GF CC    predict U106 methylates residues G1536 and U1602 of 18S
+#=GF CC    rRNA. However, these targets do not appear to be methylated and
+#=GF CC    U106 might function as an RNA chaperone during rRNA folding
+#=GF CC    [1]. A similar role has been suggested for the H/ACA snoRNAs U17a
+#=GF CC    and U17b Rfam:RF00045 [1].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_SNORD12/SNORD106
+#=GF SQ    8
+
+#=GS G.gallus.1   AC    CR390041.1/322-413
+#=GS M.musculus.1 AC    AL591711.22/136221-136311
+#=GS M.musculus.2 AC    AL591711.22/138024-138113
+#=GS M.musculus.3 AC    AL591711.22/137748-137836
+#=GS H.sapiens.1  AC    AL049766.14/57569-57659
+#=GS H.sapiens.2  AC    AL049766.14/57933-58022
+#=GS H.sapiens.3  AC    AL049766.14/56190-56278
+#=GS H.sapiens.4  AC    AY349607.1/2-78
+
+G.gallus.1               GCUGGUGUGGGUGAUGACUGAACUUUUUUCCCCAUCAGAGCGACAGUGUU
+M.musculus.1             GCUGGUGUAAAUGAUGAACUCACUUUUUUCCCCGUCAUAUCGACAGUGCU
+M.musculus.2             GCUGGUGAA.CUGAUGAUAUCAUUUCUUUCCCCGUCAGAUCGACCCUGUU
+M.musculus.3             AGGCAUG.U.GUGAUGACACAACUUUUUUCCCCAUCAGAUCGACCAUGUU
+H.sapiens.1              GCUGGCAUAUAUGAUGACUUAGCUUUUUUCCCCGACAGAUCGACUAUGUU
+H.sapiens.2              GCCUUUGCAGCUGAUGAUACAGCUUCUUUCCCCAUCAGAUCGACCCUGUU
+H.sapiens.3              GCUGGUGUAAAUGAUGACUUCACUUUUUUCCCCAUCAGAUCGACAAUGCU
+H.sapiens.4              G.....UAA.AUGAUGACUUCACUUUUUUCCCCAUCAGAUCGACAAUGCU
+#=GC SS_cons             <<<<<<<<<.........................................
+
+G.gallus.1               GAUUACUCAUCACUCUAGCCAGGUCU.UGUCUGA..UGCACCAGC
+M.musculus.1             GAUGUUUUAAAACAUUUGCCAG.UUU.GUCCUGA..UAAACACCA
+M.musculus.2             GAUCUCAAAUACUAAUUGCCAG.UUU.UGUCUGA..UGCAUCAGC
+M.musculus.3             GAUCACAUU.CUUUUAAGCCAG.UAU..GUCUGACAUGCCUGCCU
+H.sapiens.1              GAUCUAACU.UUUCUAAGCCAG.UUUCUGUCUGA..UAUGCCAGC
+H.sapiens.2              GAUCUCUAC.ACUAUUGGCCAG.UUU.UGUCUGA..UGCAUUGGC
+H.sapiens.3              GACGUCUUA.UAUU.UUGCCAG.UUA.GUUCUGA..UACAUCGGC
+H.sapiens.4              GACGUCUUA.UAUU.UUGCCAG.UUA.GUUCUGA..UA......C
+#=GC SS_cons             ....................................>>>>>>>>>
+//

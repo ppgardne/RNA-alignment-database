@@ -1,0 +1,153 @@
+# STOCKHOLM 1.0
+#=GF ID    rncO
+#=GF AC    RF00552
+#=GF DE    rncO
+#=GF AU    Moxon SJ
+#=GF GA    43.0
+#=GF NC    42.4
+#=GF TC    45.5
+#=GF SE    PMID:8972772
+#=GF SS    Published; PMID:8972772
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    8972772
+#=GF RT    RNase III autoregulation: structure and function of rncO, the
+#=GF RT    posttranscriptional "operator".
+#=GF RA    Matsunaga J, Simons EL, Simons RW;
+#=GF RL    RNA 1996;2:1228-1240.
+#=GF CC    This family represents a bacterial regulatory element (rncO)
+#=GF CC    found in the rnc leader sequence. The rnc operon is negatively
+#=GF CC    auto-regulated by transcript stability. rnc, the first gene in
+#=GF CC    the operon codes for RNase III which cleaves the long rncO stem
+#=GF CC    II leading to transcript degradation and a reduction in
+#=GF CC    translation [1].
+#=GF WK    http://en.wikipedia.org/wiki/rncO
+#=GF SQ    18
+
+#=GS Enterobacter.1         AC    CP000653.1/3323909-3324072
+#=GS Escherichia_coli_ATC.1 AC    CP000946.1/1208700-1208914
+#=GS Escherichia_coli_UTI.1 AC    CP000243.1/2845756-2845964
+#=GS Escherichia_coli_IAI.1 AC    CU928164.2/2878529-2878743
+#=GS Escherichia_coli_K-1.1 AC    D64044.1/11477-11691
+#=GS Escherichia_coli_CFT.1 AC    AE014075.1/2966876-2967090
+#=GS Escherichia_coli_101.1 AC    AAMK02000008.1/26052-26266
+#=GS Klebsiella_pneumonia.1 AC    CP000647.1/3179016-3179206
+#=GS Photorhabdus_lumines.1 AC    BX571870.1/148833-149010
+#=GS Salmonella_enterica_.1 AC    CP001127.1/2726559-2726770
+#=GS S.enterica.1           AC    U48415.1/72-282
+#=GS Salmonella_enterica_.2 AC    ABEH02000006.1/190140-190351
+#=GS Shigella_boydii_Sb22.1 AC    CP000036.1/2601087-2601301
+#=GS Shigella_flexneri_2a.1 AC    AE005674.1/2701224-2701438
+#=GS Shigella_flexneri_5_.1 AC    CP000266.1/2697704-2697918
+#=GS Shigella_dysenteriae.1 AC    CP000034.1/2598849-2599063
+#=GS Yersinia_pseudotuber.1 AC    CP000720.1/1337539-1337720
+#=GS Yersinia_enterocolit.1 AC    AM286415.1/1137336-1137517
+
+Enterobacter.1                     GAAGUUUAAGGUUGGCGC.AGAGC.CAGUGCCACGGCACACGAAACCGCG
+Escherichia_coli_ATC.1             GAAGUUUAAGGUUGGCAC.CUCCA.GGUUGCCACGGCACACGAAACAGCG
+Escherichia_coli_UTI.1             GAAGUUUAAGGUUGGCAC.CUCCA.GGUUGCCACGGCACACGAAACAGCG
+Escherichia_coli_IAI.1             GAAGUUUAAGGUUGGCAC.CUCCA.GGUUGCCACGGCACACGAAACAGCG
+Escherichia_coli_K-1.1             GAAGUUUAAGGUUGGCAC.CUCCA.GGUUGCCACGGCACACGAAACAGCG
+Escherichia_coli_CFT.1             GAAGUUUAAGGUUGGCAC.CUCCA.GGUUGCCACGGCACACGAAACAGCG
+Escherichia_coli_101.1             GAAGUUUAAGGUUGGCAC.CUCCA.GGUUGCCACGGCACACGAAACAGCG
+Klebsiella_pneumonia.1             GAAGUUUUUGGUUGUCGCUCUGCC.GGGUGACACUGCACACGAAAGCGUA
+Photorhabdus_lumines.1             UCAAACUUAAACUGGCUC.CUAUA.AGGGGCCAGUGCAAACGCAACAGUU
+Salmonella_enterica_.1             GAAGUUUUAGGUUGGCGC.CGUUU.GGUCGCCACGGCACACGAAACAGCG
+S.enterica.1                       GAAGUUUUAGGUUG.CGC.CGUUU.GGUCGCCACGGCACACGAAACAGCG
+Salmonella_enterica_.2             GAAGUUUUAGGUUGGCGU.CGUUU.GGUCGCCACGGCACACGAAACAGCG
+Shigella_boydii_Sb22.1             GAAGUUUAAGGUUGGCAC.CUUCA.GGUUGCCACGGCACACGAAACAGCG
+Shigella_flexneri_2a.1             GAAGUUUAAGGUUGGCAC.CUUCA.GGUUGCCACGGCACACGAAACAGCG
+Shigella_flexneri_5_.1             GAAGUUUAAGGUUGGCAC.CUCCA.GGUUGCCACGGCACACGAAACAGCG
+Shigella_dysenteriae.1             GAAGUUUAAGGUUGGCAC.CUCCA.GGUUUCCACGGCACACGAAACAGCG
+Yersinia_pseudotuber.1             GAGCGAUAAAGUUGGCUCUCUUAU.GGGAGCCACUGCAAACGAAACAGUU
+Yersinia_enterocolit.1             AGCGAUAAAAGUUGGCUC.UUUUAUGGGGGCCACUGCAAACGAAACAGUU
+#=GC SS_cons                       ............<<<<<<.<.....>>.>>>>><<<<<<<<<<<<<<<..
+#=GC RF                            GAAGUUUaAGGUuGGCgC.Cuuua.GGUcGCCaCgGCaCaCGaaaCaGcG
+
+Enterobacter.1                     UUGGUUUUC............................U............
+Escherichia_coli_ATC.1             UUGGUCCCCAUAUACCGGUAAACUGAAACUGCAGCGAAGCAGUUAGCAGA
+Escherichia_coli_UTI.1             UUGGUCCCCAUAUACCG.....CUA.AACUGCAGCGAAGCAGUUAGCAGA
+Escherichia_coli_IAI.1             UUGGUCCCCAUAUACCGGUAAACUGAAACUGCAGCGAAGCAGUUAGCAGA
+Escherichia_coli_K-1.1             UUGGUCCCCAUAUACCGGUAAACUGAAACUGCAGCGAACGAGUUAGCAGA
+Escherichia_coli_CFT.1             UUGGUCCCCAUAUACCGGUAAACUGAAACUGCAGUGAAGCAGUUAGCCGA
+Escherichia_coli_101.1             UUGGUCCCCAUAUACCGCUAAACUGAAACUGCAGCGAAGCAGUUAGCAGA
+Klebsiella_pneumonia.1             UUGG..UC..............UGU.UUCAAAUUACUGUUUGAA..GCGA
+Photorhabdus_lumines.1             UUG...UCG.............GGG..........GUU........CCUG
+Salmonella_enterica_.1             UUGG..UU.AUAGACAACCUUCUUUCCACUGCAGCGAUGCGGCAGGACAG
+S.enterica.1                       UUGG..UU.AUAGACAACCUUCUUUCCGCUGCAGCGAUGCGGCAGGACAG
+Salmonella_enterica_.2             UUGG..UU.AUAGACAACCUUCUUUCCGCUGCAGCGAUGCGGCAGGACAG
+Shigella_boydii_Sb22.1             UUGGUCCCCAUAUACCGGUAAACUGAAACUGCAGCGAAGCAGUUAGCAGA
+Shigella_flexneri_2a.1             UUGGUCCCCAUAUACCGCUAAACUGAAACUGCAGCGAAGCAGUUAGCAGA
+Shigella_flexneri_5_.1             UUGGUCCCCAUAUACCGCUAAACUGAAACUGCAGCGAAGCAGUUAGCAGA
+Shigella_dysenteriae.1             UUGGUCCCCAUAUACCGCUAAACUGAAACUGCAGCGAAGCAGUUAGCAGA
+Yersinia_pseudotuber.1             UUGU....CUUGGUUAUUUUUG............................
+Yersinia_enterocolit.1             UUGU.CUU..............GGUA........UUAU......UGGCCG
+#=GC SS_cons                       ......<<.<<<<<<.......<<<.<<<<<<......>>>>>>..>>>.
+#=GC RF                            UUGGuccccauacaCaaguaaacugaagCuGCAGcGAaGCaGcuaGcaga
+
+Enterobacter.1                     ...........CAGGUCGGUUUCGUGUGCUGCA.UU.UUUGACGCAUUC.
+Escherichia_coli_ATC.1             ACCAUGUAUAUCAGGUCUGUUUCGUGUGCUGAA.UU.GUUGACGCAUUU.
+Escherichia_coli_UTI.1             GCUAUGUAUAUCAGGUCUGUUUCGUGUGCUGAA.UU.GUUGACGCAUUU.
+Escherichia_coli_IAI.1             GCCAUGUAUAUCAGGUCUGUUUCGUGUGCUGAA.UU.GUUGACGCAUUU.
+Escherichia_coli_K-1.1             ACCAUGUAUAUCAGGUCUGUUUCGUGUGCUGAA.UU.GUUGACGCAUUU.
+Escherichia_coli_CFT.1             GCCAUGUAUAUCAGGUCUGUUUCGUGUGCUGAA.UU.GUUGACGCAUUU.
+Escherichia_coli_101.1             GCCAUGUAUAUCAGGUCUGUUUCGUGUGCUGAA.UU.GUUGACGCAUUU.
+Klebsiella_pneumonia.1             AUGCU......CAGGUCGGUUUCGUGUGCUGCA.UC.UUUGACGCAUUC.
+Photorhabdus_lumines.1             UAA........CAGGUCUGUUGCGUGUGCGUUU.UUAUUUGACGAAUUC.
+Salmonella_enterica_.1             AUGACGUGUAUCAGGUCUGUUUCGUGUGCUGGA.UU.GUUGACGCAUUC.
+S.enterica.1                       AUGACGUGUAUCAGGUCUGUUUCGUGUGCUGGA.UU.GUUGACGCAUUC.
+Salmonella_enterica_.2             AUGACGUGUAUCAGGUCUGUUUCGUGUGCUGGA.UU.GUUGACGCAUUC.
+Shigella_boydii_Sb22.1             GCCAUGUAUAUCAGGUCUGUUUCGUGUGCUGAA.UU.GUUGACGCAUUU.
+Shigella_flexneri_2a.1             GCCAUGUAUAUCAGGUCUGUUUCGUGUGCUGAA.UU.GUUGACGCAUUU.
+Shigella_flexneri_5_.1             GCCAUGUAUAUCAGGUCUGUUUCGUGUGCUGAA.UU.GUUGACGCAUUU.
+Shigella_dysenteriae.1             GCCAUGUAUAUCAGGUCUGUUUCGUGUGCUGAA.UU.GUUGACGCAUUU.
+Yersinia_pseudotuber.1             ...UCGGUCAGAC...CUGUUCCGUAUGCUGUAGUU.UUUGACGCAUUCU
+Yersinia_enterocolit.1             AUCA.........GACCUGUUCCGUCUGCUGUAGUU.UUUGACGCAUUCU
+#=GC SS_cons                       .....>>>>>>..>>.>>>>>>>>>>>>>>>...................
+#=GC RF                            AugAuGuguaucAggUCuGuuuCGuGuGCuGaA.UU.GUUGAcGcAUUu.
+
+Enterobacter.1                     ..AUU....UAUUGGUAUAGCAUGAACCCCAUCGUAAUUAAUCGGCUUCA
+Escherichia_coli_ATC.1             ..AUU....UAUUGGUAUCGCAUGAACCCCAUCGUAAUUAAUCGGCUUCA
+Escherichia_coli_UTI.1             ..AUU....UAUUGGUAUCGCAUGAACCCCAUCGUAAUUAAUCGGCUUCA
+Escherichia_coli_IAI.1             ..AUU....UAUUGGUAUCGCAUGAACCCCAUCGUAAUUAAUCGGCUUCA
+Escherichia_coli_K-1.1             ..AUU....UAUUGGUAUCGCAUGAACCCCAUCGUAAUUAAUCGGCUUCA
+Escherichia_coli_CFT.1             ..AUU....UAUUGGUAUCGCAUGAACCCCAUCGUAAUUAAUCGGCUUCA
+Escherichia_coli_101.1             ..AUU....UAUUGGUAUCGCAUGAACCCCAUCGUAAUUAAUCGGCUUCA
+Klebsiella_pneumonia.1             ..AUU....UAUUGGUAACGCAUGAACCCCAUCGUAAUUAAUCGGCUUCA
+Photorhabdus_lumines.1             ..UGACCGAUAUUGGUAGCACAUGAAUCCCAUCGUAAUUAACAGAUUGCA
+Salmonella_enterica_.1             ..AUU....UAUUGGUAUCGCAUGAACCCCAUCGUAAUUAAUCGGCUUCA
+S.enterica.1                       ..AUU....UAUUGGUAUCGCAUGAACCCCAUCGUAAUUAAUCGGCUUCA
+Salmonella_enterica_.2             ..AUU....UAUUGGUAUCGCAUGAACCCCAUCGUAAUUAAUCGGCUUCA
+Shigella_boydii_Sb22.1             ..AUU....UAUUGGUAUCGCAUGAACCCCAUCGUAAUUAAUCGGCUUCA
+Shigella_flexneri_2a.1             ..AUU....UAUUGGUAUCGCAUGAACCCCAUCGUAAUUAAUCGGCUUCA
+Shigella_flexneri_5_.1             ..AUU....UAUUGGUAUCGCAUGAACCCCAUCGUAAUUAAUCGGCUUCA
+Shigella_dysenteriae.1             ..AUU....UAUUGGUAUCGCAUGAACCCCAUCGUAAUUAAUCGGCUUCA
+Yersinia_pseudotuber.1             UGAUC....UAUUGGUAACUCAUGAAUCCCAUCGUAAUAAACAGGCUGCA
+Yersinia_enterocolit.1             UGAUC....UAUUGGUAACUCAUGAACCCCAUCGUAAUAAAUAGGCUACA
+#=GC SS_cons                       .........................................<<<<<<<<.
+#=GC RF                            ..AUU....UAUUGGUAUcGcAUGAAccccAUcGUAAUUAAuCgGCuuCA
+
+Enterobacter.1                     ACGGAAGCUGGGCUACACUUUUCAGC
+Escherichia_coli_ATC.1             ACGGAAGCUGGGCUACACUUUUAAUC
+Escherichia_coli_UTI.1             ACGGAAGCUGGGCUACACUUUUAAUC
+Escherichia_coli_IAI.1             ACGGAAGCUGGGCUACACUUUUAAUC
+Escherichia_coli_K-1.1             ACGGAAGCUGGGCUACACUUUUAAUC
+Escherichia_coli_CFT.1             ACGGAAGCUGGGCUACACUUUUAAUC
+Escherichia_coli_101.1             ACGGAAGCUGGGAUACACUUUUAAUC
+Klebsiella_pneumonia.1             ACGAAAGCUGGGCUACACUUUUCAUC
+Photorhabdus_lumines.1             GCGUAAGCUGGGGUACACUUUUGAUC
+Salmonella_enterica_.1             ACGGAAGCUGGGCUACACUUUUAAUC
+S.enterica.1                       ACGGAAGCUGGGCUACACUUUUAAUC
+Salmonella_enterica_.2             ACGGAAGCUGGGCUACACUUUUAAUC
+Shigella_boydii_Sb22.1             ACGGAAGCUGGGCUACACUUUUAAUC
+Shigella_flexneri_2a.1             ACGGAAGCUGGGCUACACUUUUAAUC
+Shigella_flexneri_5_.1             ACGGAAGCUGGGCUACACUUUUAAUC
+Shigella_dysenteriae.1             ACGGAAGCUGGGCUACACUUUUAAUC
+Yersinia_pseudotuber.1             GCGGAAGCUGGGCUACACUUUCCAAC
+Yersinia_enterocolit.1             GCGGAAGCUGGGCUACACUUUUCAAC
+#=GC SS_cons                       ...>>>>>>>>...............
+#=GC RF                            AcGGaaGCuGgGcUAcAcUUUUAAUc
+//

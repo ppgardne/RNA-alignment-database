@@ -1,0 +1,98 @@
+# STOCKHOLM 1.0
+#=GF ID    Vimentin3
+#=GF AC    RF00109
+#=GF DE    Vimentin 3' UTR protein-binding region
+#=GF AU    Griffiths-Jones SR
+#=GF GA    31.0
+#=GF NC    28.8
+#=GF TC    31.5
+#=GF SE    Griffiths-Jones SR
+#=GF SS    Published; PMID:9241253
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000205 SO:three_prime_UTR
+#=GF RN    [1]
+#=GF RM    9241253
+#=GF RT    RNA-protein interactions within the 3' untranslated region of
+#=GF RT    vimentin mRNA.
+#=GF RA    Zehner ZE, Shepherd RK, Gabryszuk J, Fu TF, Al-Ali M, Holmes WM;
+#=GF RL    Nucleic Acids Res 1997;25:3362-3370.
+#=GF RN    [2]
+#=GF RM    11377416
+#=GF RT    Perinuclear mRNA localisation by vimentin 3'-untranslated region
+#=GF RT    requires a 100 nucleotide sequence and intermediate filaments.
+#=GF RA    Bermano G, Shepherd RK, Zehner ZE, Hesketh JE;
+#=GF RL    FEBS Lett 2001;497:77-81.
+#=GF CC    The 3' UTR of the vimentin mRNA contains a Y shaped structure 
+#=GF CC    which has been shown to have protein binding activity [1].
+#=GF CC    The same region has been implicated in the control of mRNA
+#=GF CC    localisation to the perinuclear region of the cytoplasm, 
+#=GF CC    possibly at sites of intermediate filament assembly [2]. 
+#=GF CC    The identity of the proteins involved and the localisation
+#=GF CC    mechanism are not known.
+#=GF WK    http://en.wikipedia.org/wiki/Vimentin_3'_UTR_protein-binding_region
+#=GF SQ    19
+
+#=GS A.baerii.1             AC    AJ493266.1/1523-1589
+#=GS C.carpio.1             AC    S76850.1/1539-1604
+#=GS D.rerio.1              AC    BC053115.1/1499-1568
+#=GS X.Silurana.1           AC    BC087987.1/1512-1585
+#=GS X.laevis.1             AC    BC054327.1/872-945
+#=GS X.laevis.2             AC    BC045233.1/1484-1557
+#=GS X.laevis.3             AC    X16843.1/1495-1568
+#=GS X.laevis.4             AC    BC054161.1/1500-1573
+#=GS G.gallus.1             AC    V00447.1/86-155
+#=GS D.russellii.1          AC    AF447708.1/1750-1826
+#=GS C.griseus.1            AC    X87227.1/1201-1266
+#=GS Cricetulus.1           AC    M16718.1/1402-1467
+#=GS M.auratus.1            AC    K00927.1/229-294
+#=GS M.musculus.1           AC    M26251.1/1935-2000
+#=GS R.norvegicus.1         AC    X62952.1/1534-1599
+#=GS Macaca_fascicularis_.1 AC    AB169770.1/1641-1705
+#=GS H.sapiens.1            AC    M18895.1/303-367
+#=GS P.troglodytes.1        AC    AB188279.1/1604-1668
+#=GS B.taurus.1             AC    L13263.1/1457-1521
+
+A.baerii.1                         AAAAAAAGUGAAAAAA...........UAA.CAGCUUUAAAGUGCCUU.U
+C.carpio.1                         GUAAAAUAGAAAAA.................CAGCUUUAAAGUGCCUU.U
+D.rerio.1                          AAAGAAAAGAAAAGAA...........AAA.CAGCUUUAAAGUGCCUUCU
+X.Silurana.1                       UACCUGUUUUAAAGUUUGAAGA.....AAACCAGCUUUCAAGUGCCUU.U
+X.laevis.1                         GGUGUGUUUUAAACUUUGAAGA.....AAACCAGCUUUCAAGUGCCUU.U
+X.laevis.2                         GUUGUGUUUUAAAAUUUGAAGA.....AAACCAGCUUUCAAGUGCCUU.U
+X.laevis.3                         GGUGUGUUUUAAACUUUGAAGA.....AAACCAGCUUUCAAGUGCCUU.U
+X.laevis.4                         GUUGUGUUUUAAAAUUUGAAGA.....AAACCAGCUUUCAAGUGCCUU.U
+G.gallus.1                         UUCAUGUCUUAAAGGAAG.........AAA.CAGCUUUCAAGUGCCUU.U
+D.russellii.1                      UUCAAAUUUGAAAUAUUUUGCACACUUAUA....CUUUCAAGUGCCUU.U
+C.griseus.1                        UUUGUAUCUUAAGG.............AAA.CAGCUUUCAAGUGCCUU.U
+Cricetulus.1                       UUCGUAUCUUAAGG.............AAA.CAGCUUUCAAGUGCCUU.U
+M.auratus.1                        UUCGUAUCUUAAGG.............AAA.CAGCUUUCAAGUGCCUU.U
+M.musculus.1                       AUCGUAUCUUAGGA.............AAA.CAGCUUUCAAGUGCCUU.U
+R.norvegicus.1                     AUCGUAUCUUAGAAA............AAA.GAGCUUUCAAGUGCCUU.U
+Macaca_fascicularis_.1             UCCAUAUCUUAAAG.............AAA.CAGCUUUCAAGUGCCUU.U
+H.sapiens.1                        UCCAUAUCUUAAAG.............AAA.CAGCUUUCAAGUGCCUU.U
+P.troglodytes.1                    UCCAUAUCUUAAAG.............AAA.CAGCUUUCAAGUGCCUU.U
+B.taurus.1                         UCCAUAUCUUAAAG.............AAA.CAGCUUUCAAGUGCCUU.U
+#=GC SS_cons                       ....<<<<<<<<<......................>>>...<<<<.<<.<
+
+A.baerii.1                         ..CUGCAGU..UAUCUG..AGAGCGCCAGAUAGAGU
+C.carpio.1                         UUUUGCAUU..GCCACAUUAGAGCGGUCUGUUGAUA
+D.rerio.1                          ..UUGCAUU..GCCACAUUAGAGCGGUCUGUUAUUA
+X.Silurana.1                       ...UGCAGU..AAAUUGG.AGAGCACAAGAUAGGGA
+X.laevis.1                         ...UGCAGU..CAAUUGG.AGAGCGCAAGAUAGGGA
+X.laevis.2                         ...UGCAGU..UAAUUGG.AGAGCGCAAGAUAGGGA
+X.laevis.3                         ...UGCAGU..CAAUUGG.AGAGCGCAAGAUAGGGA
+X.laevis.4                         ...UGCAGU..UAAUUGG.GGAGCGCAAGAUAGGGA
+G.gallus.1                         ..CUCCAGU.UUUUCCA..UGAGCGCAAGAUUAUUA
+D.russellii.1                      ..CUACACAUUUUUCCA..UGAGCACAGGAUGGUUA
+C.griseus.1                        A.CUGCAGU..UUUUCA..GGAGCGCAAGAUACAUU
+Cricetulus.1                       A.CUGCAGU..UUUUCA..GGAGCGCAAGUAAGAUU
+M.auratus.1                        A.CUGCAGU..UUUUCA..GGAGCGCAAGAUAGAUU
+M.musculus.1                       A.CUGCAGU..UUUUCA..GGAGCGCAAGAUAGAUU
+R.norvegicus.1                     A.CUGCAGU...UUUCA..GGAGCGCAAGAUAGAUC
+Macaca_fascicularis_.1             ..CUGCAGU..UUUUCA..GGAGCGCAAGAUAGAUU
+H.sapiens.1                        ..CUGCAGU..UUUUCA..GGAGCGCAAGGAAUUAA
+P.troglodytes.1                    ..CUGCAGU..UCUUCA..GGAGCGCAAGAUAGAUU
+B.taurus.1                         ..CUGCAGUU.UUUUCA..GGAGCG.AAGAUAGAUU
+#=GC SS_cons                       ...<<..........>>..>>>>>>>>>>>>>....
+//

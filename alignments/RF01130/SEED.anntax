@@ -1,0 +1,53 @@
+# STOCKHOLM 1.0
+#=GF ID    sR46
+#=GF AC    RF01130
+#=GF DE    Small nucleolar RNA sR46
+#=GF AU    Wilkinson A
+#=GF GA    45.0
+#=GF NC    27.5
+#=GF TC    66.7
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    URL; http://lowelab.ucsc.edu/snoRNAdb/
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF RN    [1]
+#=GF RM    10775111
+#=GF RT    Homologs of small nucleolar RNAs in Archaea.
+#=GF RA    Omer AD, Lowe TM, Russell AG, Ebhardt H, Eddy SR, Dennis PP
+#=GF RL    Science. 2000;288:517-522.
+#=GF WK    http://en.wikipedia.org/wiki/SnoRNA
+#=GF SQ    7
+
+#=GS Pyrococcus_horikoshi.1 AC    BA000001.2/49019-49079
+#=GS Pyrococcus_furiosus_.1 AC    AE009950.1/9237-9297
+#=GS P.abyssi.1             AC    AJ248283.1/57376-57436
+#=GS T.barophilus.1         AC    ABSF01000012.1/359297-359352
+#=GS Thermococcus_onnurin.1 AC    CP000855.1/6323-6375
+#=GS Thermococcus.1         AC    ABXN01000016.1/71205-71257
+#=GS Thermococcus_kodakar.1 AC    AP006878.1/87729-87781
+
+Pyrococcus_horikoshi.1             GGCAAUGAGGAAUGAAUCCAAUGCUGAGCUUAGGCAAUGAUUGGCCCCAG
+Pyrococcus_furiosus_.1             GGCGAUGACGACUGAAUCCAAUGCUGAGCAAAGGCGAUGAUUGGCCCCAG
+P.abyssi.1                         GGCAAUGAGGAAUGAAUCCAAUGCUGAGCAAAGGCAAUGAUUGACCCCAG
+T.barophilus.1                     UGCGAUGAUGAAUGAAUCCAAUGCUGAACU.....GAUGAUUGACCCCAG
+Thermococcus_onnurin.1             UGCGAUGAUGAGUGAAUCCAAUGCUGACGG.....GAUGAUGAACCCCGA
+Thermococcus.1                     CGCGAUGAUGAGUGAAUCCAAUGCUGACGG.....GAUGAUGAACCCCAA
+Thermococcus_kodakar.1             CGCGAUGAUGAGUGAAUCCAAUGCUGAUGA.....GAUGAUGAGCCCCAA
+#=GC SS_cons                       .<<...<<<......>>>....>>..........................
+#=GC RF                            BGCGAUGAUGARUGAAUCCAAUGCUGASSWwaggcGAUGAUKRRCCCCAR
+
+Pyrococcus_horikoshi.1             AGUGGCCGAGC
+Pyrococcus_furiosus_.1             AGUGGCUGAGC
+P.abyssi.1                         AGUGGCCGAGC
+T.barophilus.1                     AGUGGCUGAGC
+Thermococcus_onnurin.1             AC...CUGAGC
+Thermococcus.1                     AC...CUGAGC
+Thermococcus_kodakar.1             AC...CUGAGC
+#=GC SS_cons                       ...........
+#=GC RF                            ASUGGCYGAGC
+//

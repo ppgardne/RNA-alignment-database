@@ -1,0 +1,60 @@
+# STOCKHOLM 1.0
+#=GF ID    NrrF
+#=GF AC    RF01416
+#=GF DE    NrrF RNA
+#=GF AU    Osuch I
+#=GF GA    30.0
+#=GF NC    20.9
+#=GF TC    60.6
+#=GF SE    INFERNAL
+#=GF SS    Published; PMID:17351036
+#=GF TP    Gene; antisense;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF RN    [1]
+#=GF RM    19060140
+#=GF RT    The Hfq-dependent small noncoding RNA NrrF directly mediates
+#=GF RT    Fur-dependent positive regulation of succinate dehydrogenase in
+#=GF RT    Neisseria meningitidis.
+#=GF RA    Metruccio MM, Fantappie L, Serruto D, Muzzi A, Roncarati D, Donati C,
+#=GF RA    Scarlato V, Delany I;
+#=GF RL    J Bacteriol. 2009;191:1330-1342.
+#=GF RN    [2]
+#=GF RM    17351036
+#=GF RT    A novel fur- and iron-regulated small RNA, NrrF, is required for
+#=GF RT    indirect fur-mediated regulation of the sdhA and sdhC genes in
+#=GF RT    Neisseria meningitidis.
+#=GF RA    Mellin JR, Goswami S, Grogan S, Tjaden B, Genco CA;
+#=GF RL    J Bacteriol. 2007;189:3686-3694.
+#=GF WK    http://en.wikipedia.org/wiki/NrrF_RNA
+#=GF SQ    3
+
+#=GS Neisseria_meningitid.1 AC    AM421808.1/2107592-2107751
+#=GS Neisseria_gonorrhoea.1 AC    AE004969.1/1975968-1976124
+#=GS Neisseria_meningitid.2 AC    AL157959.1/333520-333678
+
+Neisseria_meningitid.1             CCACUCGGAAGUCGUCCAUUCCGAACCAUUAAACACUGUAUUCCCUCACA
+Neisseria_gonorrhoea.1             CCACUCGGAAGCCGUCCGUUCCGAACCAUUAAACACUGUAUUCCCUCACA
+Neisseria_meningitid.2             CCACUCGGAAGCCGUCCGUUCCGAACCAUUAAACACCAUAUUUCCCCAUC
+#=GC SS_cons                       ......<<<<...<<<<<<.<<<<.<<<......................
+#=GC RF                            ccAcUcGGaaGccGuCCGuUCCGaACCaUUAAAcAccAUAUUUccccAUc
+
+Neisseria_meningitid.1             AUUCACUUUCACACUUGGAGUCGGCAUAUACGAGACAUACAUUCCCUUUU
+Neisseria_gonorrhoea.1             AUUCACUUUCACACUUGGAGUCGGCAUAUACGAGACAUACAUUCCCUUUU
+Neisseria_meningitid.2             A.UCACUUUCACACUUGGAGUCGGCAUAUACGAGACAUACAUUCCCUUUU
+#=GC SS_cons                       ...............>>>..>>>>.....>>>.>>>.....>>>>.....
+#=GC RF                            A.UcAcUUUcAcAcUuGGAGuCGGcAUAUaCGAGaCAUAcAuuCCcUUUU
+
+Neisseria_meningitid.1             UAUAUAUCAGAUACUCAAAACCGAAACGCCAAACCCACCUUCGCGGUGGG
+Neisseria_gonorrhoea.1             UA...AUCAGAUACUCAAAACCGAAACGCCAAACCCACCCUAGCGGUGGG
+Neisseria_meningitid.2             UAUAUAUCAGAUACUCAAAACCGAAACGCCAAACCCACCUUCGCGGUGGG
+#=GC SS_cons                       .......................<<<<<<<<<<<<<<<<.....>>>>>>
+#=GC RF                            UAUAUAUcAGAUAcUcAAAAccGaaaCGCCaaaCCCaCCUUcGcGGuGGG
+
+Neisseria_meningitid.1             UUUGGCGUUU
+Neisseria_gonorrhoea.1             UUUGGCGUUU
+Neisseria_meningitid.2             UUUGGCGUUU
+#=GC SS_cons                       >>>>>>>>>>
+#=GC RF                            uuuGGCGuuu
+//

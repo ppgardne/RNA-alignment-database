@@ -1,0 +1,502 @@
+# STOCKHOLM 1.0
+#=GF ID    Prion_pknot
+#=GF AC    RF00523
+#=GF DE    Prion pseudoknot
+#=GF AU    Moxon SJ
+#=GF GA    25.0
+#=GF NC    24.9
+#=GF TC    25.1
+#=GF SE    PMID:11160898
+#=GF SS    Published; PMID:11160898
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    11160898
+#=GF RT    Pseudoknots in prion protein mRNAs confirmed by comparative sequence
+#=GF RT    analysis and pattern searching.
+#=GF RA    Barrette I, Poisson G, Gendron P, Major F;
+#=GF RL    Nucleic Acids Res 2001;29:753-758.
+#=GF CC    This family represents a predicted pseudoknot structure found in prion
+#=GF CC    protein mRNA. It has been suggested that the family has a possible effect
+#=GF CC    in prion protein translation [1].
+#=GF WK    http://en.wikipedia.org/wiki/Prion_pseudoknot
+#=GF SQ    157
+
+#=GS A.hottentotus.1        AC    AY133061.1/136-178
+#=GS A.hottentotus.2        AC    AY133061.1/85-127
+#=GS P.capensis.1           AC    AY133057.1/160-202
+#=GS P.capensis.2           AC    AY133057.1/112-151
+#=GS E.maximus.1            AC    AY133055.1/558-600
+#=GS E.maximus.2            AC    AY133055.1/609-651
+#=GS T.manatus.1            AC    AY133056.1/213-255
+#=GS T.manatus.2            AC    AY133056.1/264-306
+#=GS T.ecaudatus.1          AC    AY133060.1/199-241
+#=GS O.afer.1               AC    AY133058.1/240-282
+#=GS O.afer.2               AC    AY133058.1/189-231
+#=GS G.variegatus.1         AC    AY133034.1/180-219
+#=GS O.cuniculus.1          AC    AF015603.1/183-222
+#=GS O.cuniculus.2          AC    AF015603.1/231-270
+#=GS O.princeps.1           AC    AY133036.1/157-196
+#=GS O.princeps.2           AC    AY133036.1/109-148
+#=GS C.porcellus.1          AC    AF139166.1/198-231
+#=GS C.porcellus.2          AC    AF139166.1/99-141
+#=GS C.porcellus.3          AC    AY133039.1/151-184
+#=GS C.porcellus.4          AC    AF139166.1/150-189
+#=GS C.porcellus.5          AC    AY133039.1/103-142
+#=GS Trichys_fasciculata_.1 AC    AY168450.1/109-148
+#=GS Trichys_fasciculata_.2 AC    AY168450.1/58-100
+#=GS Microtus_agrestis_sh.1 AC    AF367625.1/156-195
+#=GS Microtus_agrestis_sh.2 AC    AF367625.1/204-243
+#=GS M.glareolus.1          AC    AF367624.1/180-219
+#=GS Cricetulus.1           AC    M33958.1/306-345
+#=GS Cricetulus.2           AC    M33958.1/354-393
+#=GS M.auratus.1            AC    M14054.1/711-750
+#=GS M.auratus.2            AC    M14054.1/687-726
+#=GS Sigmodon_fulviventer.1 AC    AF117324.1/153-195
+#=GS Sigmodon_fulviventer.2 AC    AF117324.1/204-243
+#=GS M.unguiculatus.1       AC    AF117314.1/225-264
+#=GS M.unguiculatus.2       AC    AF117314.1/177-216
+#=GS A.sylvaticus.1         AC    AF367623.1/180-219
+#=GS A.sylvaticus.2         AC    AF367623.1/228-267
+#=GS M.musculus.1           AC    BC058674.1/259-301
+#=GS M.musculus.2           AC    U29186.1/28914-28953
+#=GS M.musculus.3           AC    U29186.1/28866-28905
+#=GS R.norvegicus.1         AC    S69654.1/204-243
+#=GS R.norvegicus.2         AC    S69654.1/252-291
+#=GS Nannospalax_ehrenber.1 AC    AY133040.1/166-208
+#=GS Nannospalax_ehrenber.2 AC    AY133041.1/82-127
+#=GS S.vulgaris.1           AC    AY133038.1/88-127
+#=GS S.vulgaris.2           AC    AY133037.1/237-276
+#=GS S.vulgaris.3           AC    AY133037.1/183-225
+#=GS C.torquatus.1          AC    U75385.1/135-174
+#=GS Macaca_arctoides_stu.1 AC    U08311.1/204-243
+#=GS T.gelada.1             AC    U75383.1/135-174
+#=GS C.guereza.1            AC    U75389.1/207-246
+#=GS C.guereza.2            AC    U08297.1/180-219
+#=GS C.guereza.3            AC    U75389.1/159-198
+#=GS P.francoisi.1          AC    U08302.1/228-267
+#=GS P.francoisi.2          AC    U08302.1/180-219
+#=GS H.sapiens.1            AC    AC011495.8/22659-22621
+#=GS H.sapiens.2            AC    S80743.1/36-75
+#=GS H.sapiens.3            AC    U29185.1/25677-25716
+#=GS H.sapiens.4            AC    AL163932.5/150210-150250
+#=GS H.sapiens.5            AC    AK090575.1/288-327
+#=GS H.sapiens.6            AC    AB020683.2/1417-1456
+#=GS H.sapiens.7            AC    AL391832.10/80189-80148
+#=GS H.sapiens.8            AC    S80743.1/84-123
+#=GS H.sapiens.9            AC    AC024575.6/35239-35279
+#=GS H.sapiens.10           AC    S80539.1/54-93
+#=GS P.pygmaeus.1           AC    U08305.1/228-267
+#=GS Hylobates_lar_common.1 AC    U08299.1/180-219
+#=GS Hylobates_lar_common.2 AC    U08299.1/228-267
+#=GS A.trivirgatus.1        AC    U08293.1/180-219
+#=GS A.trivirgatus.2        AC    U08293.1/132-171
+#=GS spider_monkey.1        AC    U15164.1/177-216
+#=GS Ateles_geoffroyi_bla.1 AC    U08309.1/132-171
+#=GS Ateles_geoffroyi_bla.2 AC    U08309.1/180-219
+#=GS Callithrix_jacchus_w.1 AC    U08304.1/177-216
+#=GS C.apella.1             AC    U08295.1/201-240
+#=GS S.sciureus.1           AC    FJ796962.1/153-192
+#=GS S.sciureus.2           AC    U08310.1/201-240
+#=GS S.sciureus.3           AC    U08310.1/249-288
+#=GS S.sciureus.4           AC    U15165.1/153-192
+#=GS S.sciureus.5           AC    U15165.1/201-240
+#=GS Callicebus_moloch_Re.1 AC    U08312.1/159-198
+#=GS V.variegata.1          AC    AF177293.1/3-42
+#=GS T.belangeri.1          AC    AAPY01183835.1/229-187
+#=GS T.tana.1               AC    AY133035.1/207-249
+#=GS T.tana.2               AC    AY133035.1/258-297
+#=GS C.lupus.1              AC    AF113938.1/90-129
+#=GS C.lupus.2              AC    AF113937.1/90-129
+#=GS N.procyonoides.1       AC    EU341507.1/224-263
+#=GS Mustela.1              AC    S46825.1/253-292
+#=GS M.putorius.1           AC    U08952.1/213-252
+#=GS M.putorius.2           AC    U08952.1/165-204
+#=GS P.lotor.1              AC    AY208166.1/147-186
+#=GS T.truncatus.1          AC    AF117311.1/48-87
+#=GS T.truncatus.2          AC    AF117311.1/96-138
+#=GS P.catodon.1            AC    AY133054.1/261-303
+#=GS P.catodon.2            AC    AY133054.1/213-252
+#=GS P.catodon.3            AC    AY133054.1/162-204
+#=GS H.amphibius.1          AC    AY133053.1/160-202
+#=GS H.amphibius.2          AC    AY133053.1/112-151
+#=GS A.americana.1          AC    AF090852.1/93-135
+#=GS G.subgutturosa.1       AC    AF117313.1/123-162
+#=GS B.taurus.1             AC    AY320375.1/189-231
+#=GS B.taurus.2             AC    AY585239.1/168-210
+#=GS B.taurus.3             AC    AY320375.1/93-132
+#=GS B.javanicus.1          AC    AF117310.1/156-198
+#=GS B.grunniens.1          AC    AY327450.1/213-252
+#=GS B.taurus.4             AC    AY367643.1/296-338
+#=GS B.taurus.5             AC    AJ132392.1/146-185
+#=GS B.grunniens.2          AC    AY327450.1/261-303
+#=GS B.taurus.6             AC    AY367639.1/202-244
+#=GS B.taurus.7             AC    AY320369.1/123-162
+#=GS B.taurus.8             AC    AY320375.1/141-180
+#=GS B.taurus.9             AC    AY320368.1/171-213
+#=GS B.taurus.10            AC    AY320369.1/72-114
+#=GS T.angasii.1            AC    AF117321.1/165-204
+#=GS T.strepsiceros.1       AC    X74759.1/189-228
+#=GS T.strepsiceros.2       AC    X74759.1/237-276
+#=GS T.strepsiceros.3       AC    X74771.1/213-252
+#=GS O.aries.1              AC    AY350268.1/237-279
+#=GS O.aries.2              AC    AY350268.1/189-228
+#=GS H.niger.1              AC    AF117323.1/108-147
+#=GS C.capreolus.1          AC    AY639096.1/189-228
+#=GS O.hemionus.1           AC    AF009181.2/237-279
+#=GS O.hemionus.2           AC    AY360091.1/247-289
+#=GS O.hemionus.3           AC    AY360091.1/199-238
+#=GS O.hemionus.4           AC    AY371694.1/611-650
+#=GS R.tarandus.1           AC    AY639093.1/189-228
+#=GS G.camelopardalis.1     AC    AF113942.1/192-234
+#=GS G.camelopardalis.2     AC    AF113942.1/93-135
+#=GS M.chrysogaster.1       AC    AY723286.1/271-313
+#=GS S.scrofa.1             AC    L07623.1/162-204
+#=GS C.dromedarius.1        AC    AF113940.1/78-117
+#=GS C.dromedarius.2        AC    AF113940.1/126-165
+#=GS L.glama.1              AC    AF113943.1/18-60
+#=GS L.glama.2              AC    AF113943.1/69-108
+#=GS Cynopterus_sphinx_In.1 AC    AY133046.1/348-387
+#=GS Cynopterus_sphinx_In.2 AC    AY133046.1/300-339
+#=GS Macrotus_californicu.1 AC    AY133049.1/208-247
+#=GS Macrotus_californicu.2 AC    AY133049.1/112-151
+#=GS M.daubentoni.1         AC    AY133048.1/133-178
+#=GS E.europaeus.1          AC    AY133043.1/142-190
+#=GS Hylomys_suillus_shor.1 AC    AY133044.1/190-235
+#=GS Hylomys_suillus_shor.2 AC    AY133044.1/136-181
+#=GS S.cinereus.1           AC    AY133045.1/85-130
+#=GS S.cinereus.2           AC    AY133045.1/139-184
+#=GS T.europaea.1           AC    AY133042.1/219-261
+#=GS T.europaea.2           AC    AY133042.1/273-312
+#=GS T.europaea.3           AC    AY133042.1/165-207
+#=GS E.caballus.1           AC    AY133051.1/210-249
+#=GS E.caballus.2           AC    AY133051.1/162-201
+#=GS E.caballus.3           AC    AF134232.1/172-130
+#=GS E.burchellii.1         AC    AF117329.1/135-174
+#=GS D.bicornis.1           AC    AY133052.1/237-279
+#=GS D.bicornis.2           AC    AY133052.1/189-228
+#=GS Manis.1                AC    AY133050.1/165-204
+#=GS Manis.2                AC    AY133050.1/213-252
+#=GS Manis.3                AC    AY133050.1/261-300
+#=GS C.didactylus.1         AC    AY133062.1/243-285
+
+A.hottentotus.1                    CCAUGG..UGG...CGGUGGC...UGGGG...ACAACCCCAUGG...UGG
+A.hottentotus.2                    CCAAGG..AGG...UGGAGGC...UGGGG...ACAGCCUCAUGG...AGG
+P.capensis.1                       ACAUGG..UGG...UGG...C...UGGGG...ACAGCCCCAUGGCGGCGG
+P.capensis.2                       UCAUGG..UGG...CGG...C...UGGGG...ACAGCCCCACGG...UGG
+E.maximus.1                        UCACAG..UGG...CGG...C...UGGGG...ACAGCCCCAUGGUGGUGG
+E.maximus.2                        CCACGG..UGG...UGG...C...UGGGG...ACAGCCCCAUGGUGGUGG
+T.manatus.1                        UCAUGG..UGG...UGG...C...UGGGG...ACAGCCCCAUGGUGGCGG
+T.manatus.2                        CCACGG..UGG...UGG...C...UGGGG...ACAGCCCCAUGGUGGCGG
+T.ecaudatus.1                      CGGUGG..GGG...CGG...C...UGGGG...CCAGCCUCAUGGUGGGGG
+O.afer.1                           CCACGG..UGG...UGG...C...UGGGG...ACAGCCCCAUGGUGGGGG
+O.afer.2                           UCACGG..UGG...UGG...C...UGGGG...ACAGCCCCACGGUGGUGG
+G.variegatus.1                     UCACGG..UGG...CGG...C...UGGGG...GCAGCCCCAUGG...UGG
+O.cuniculus.1                      CCAUGG..CGG...CGG...C...UGGGG...GCAGCCUCACGG...UGG
+O.cuniculus.2                      CCACGG..CGG...UGG...C...UGGGG...GCAGCCCCACGG...UGG
+O.princeps.1                       UCACGG..UGG...CGG...C...UGGGG...UCAGCCCCAUGG...UGG
+O.princeps.2                       CCAUGG..CGG...UGG...C...UGGGG...UCAGCCCCACGG...UGG
+C.porcellus.1                      UCAUGG..UGG...UGG...C...UGGGG.........CCAUGG...AGG
+C.porcellus.2                      CCACAG..CGG...GGGGACC...UGGGG...UCAGCCCCAUGG...AGG
+C.porcellus.3                      CCAUGG..CGG...UGG...C...UGGGG.........CCAUGG...AGG
+C.porcellus.4                      UCAUGG..UGG...UGG...C...UGGGG...CCAGCCCCAUGG...UGG
+C.porcellus.5                      UCAUGG..UGG...UAG...C...UGGGG...CCAGCCCCAUGG...UGG
+Trichys_fasciculata_.1             CCAUGG..UGG...UAG...U...UGGGG...ACAGCCCCACGG...UGG
+Trichys_fasciculata_.2             CCACAG..UGG...GGGCAAC...UGGGG...CCAGCCCCAUGG...UGG
+Microtus_agrestis_sh.1             CCAUGG..UGG...UGG...C...UGGGG...ACAGCCCCAUGG...CGG
+Microtus_agrestis_sh.2             UCACGG..UGG...UGG...U...UGGGG...UCAGCCCCAUGG...CGG
+M.glareolus.1                      CCAUGG..CGG...UGG...C...UGGGG...ACAGCCUCACGG...UGG
+Cricetulus.1                       CCAUGG..UGG...UGG...A...UGGGG...ACAGCCCCAUGG...UGG
+Cricetulus.2                       UCAUGG..UGG...UGG...U...UGGGG...UCAGCCCCAUGG...UGG
+M.auratus.1                        CCAUGG..UGG...UGG...C...UGGGG...UCAGCCCCAUGG...UGG
+M.auratus.2                        CCAUGG..UGG...UGG...C...UGGGG...ACAGCCCCAUGG...UGG
+Sigmodon_fulviventer.1             UCAGGG..UGG...CGGCACC...UGGGG...GCAGCCCCAUGG...UGG
+Sigmodon_fulviventer.2             UCAUGG..UGG...UGG...C...UGGGG...GCAGCCCCAUGG...UGG
+M.unguiculatus.1                   UCAUGG..CGG...GGG...C...UGGGG...UCAGCCUCAUGG...CGG
+M.unguiculatus.2                   CCAUGG..UGG...UGG...C...UGGGG...GCAGCCCCAUGG...UGG
+A.sylvaticus.1                     CCAUGG..UGG...UGG...C...UGGGG...ACAACCCCAUGG...CGG
+A.sylvaticus.2                     UCAUGG..UGG...UGG...C...UGGGG...UCAGCCCCAUGG...CGG
+M.musculus.1                       CCACGG..AGG...CGG...C...UGGGGAC.CCAGCUCUCUGG..GAGG
+M.musculus.2                       UCAUGG..UGG...UAG...U...UGGGG...UCAGCCCCAUGG...CGG
+M.musculus.3                       CCACGG..UGG...UGG...C...UGGGG...ACAACCCCAUGG...GGG
+R.norvegicus.1                     CCAUGG..UGG...UGG...C...UGGGG...ACAACCUCAUGG...UGG
+R.norvegicus.2                     UCAUGG..UGG...UGG...C...UGGGG...UCAGCCCCAUGG...CGG
+Nannospalax_ehrenber.1             UGGUGG..UGG...UGG...C...UGGGG...ACAGCCCCAUGGUGGUGG
+Nannospalax_ehrenber.2             GCAGGG..UGG...CGGCACC...UGGGG...GCAGCCUCAUGGUGGUGG
+S.vulgaris.1                       AGGUGG..UGG...UGG...C...UGGGG...ACAACCCCACGG...UGG
+S.vulgaris.2                       UGGUGG..UGG...UGG...C...UGGGG...ACAACCCCACGG...UGG
+S.vulgaris.3                       UCAUGG..UGG...UGG...C...UGGGG...GCAACCCCAUGGUGGCGG
+C.torquatus.1                      GGGUGG..CGG...UGG...C...UGGGG...GCAGCCUCAUGG...UGG
+Macaca_arctoides_stu.1             CCAUGG..UGG...CGG...C...UGGGG...ACAGCCUCAUGG...UGG
+T.gelada.1                         GGGUGG..UGG...UGG...C...UGGGG...GCAGCCUCAUGG...UGG
+C.guereza.1                        UCAUGG..UGG...UGG...C...UGGGG...ACAGCCUCAUGG...UGG
+C.guereza.2                        UCAUGG..UGG...UGG...C...UGGGG...GCAACCUCAUGG...UGG
+C.guereza.3                        UCAUGG..UGG...UGG...C...UGGGG...UCAGCCUCAUGG...UGG
+P.francoisi.1                      UCAUGG..UGG...CGG...C...UGGGG...ACAGCCUCAUGG...UGG
+P.francoisi.2                      UCAUGG..UGG...UGG...C...UGGGG...GCAGCCUCAUGG...UGG
+H.sapiens.1                        CGGUGG..AGG...UGG...C...UGGGG...U..GCCCCAUCG..CGGG
+H.sapiens.2                        GGGCGG..UGG...UGG...C...UGGGG...GCAGCCUCAUGG...UGG
+H.sapiens.3                        UCAUGG..UGG...UGG...C...UGGGG...GCAGCCCCAUGG...UGG
+H.sapiens.4                        CCAAGAUGUGG...AGG...C...UGGGG...UCAGCC.CUUGG...UGG
+H.sapiens.5                        CCAUGG..UGG...UGG...C...UGGGG...ACAGCCUCAUGG...UGG
+H.sapiens.6                        UCCUAG..AGG...AGG...C...UGGGG...GCAGCGUGAAGG...AGG
+H.sapiens.7                        UCAUGG..A.G...UGG...C...AGGGG...ACAGCCUGAUGGUGUUGA
+H.sapiens.8                        CCAUGG..UGG...UGG...C...UGGGG...ACAGCCUCAUGG...UGG
+H.sapiens.9                        UGAGAG..ACA...UGGC..C...UGGGG...UCAGCCCCAUGG...UAA
+H.sapiens.10                       UCAUGG..CGG...UGG...C...UGGGG...GCAGCCCCAUGG...UGG
+P.pygmaeus.1                       CCAUGG..UGG...UGG...C...UGGGG...GCAGCCUCAUGG...UGG
+Hylobates_lar_common.1             UCAUGG..UGG...UGG...C...UGGGG...GCAGCCUCAUGG...UGG
+Hylobates_lar_common.2             CCAUGG..UGG...UGG...C...UGGGG...ACAGCCUCAUGG...CGG
+A.trivirgatus.1                    CCAUGG..UGG...CGG...C...UGGGG...ACAGCCCCAUGG...CGG
+A.trivirgatus.2                    CCAGAG..CGG...UGG...C...UGGGG...GCAGCCUCAUGG...UGG
+spider_monkey.1                    UCAUGG..UGG...UGG...C...UGGGG...GCAACCCCAUGG...UGG
+Ateles_geoffroyi_bla.1             CCAGGG..UGG...UGG...C...UGGGG...GCAACCCCAUGG...UGG
+Ateles_geoffroyi_bla.2             CCAUGG..UGG...CGG...C...UGGGG...ACAGCCUCAUGG...UGG
+Callithrix_jacchus_w.1             UCAUGG..UGG...UGG...C...UGGGG...GCAACCUCAUGG...UGG
+C.apella.1                         CCAUGG..UGG...CGG...C...UGGGG...ACAGCCCCAUGG...UGG
+S.sciureus.1                       CCAGGG..UGG...UGG...C...UGGGG...GCAGCCUCAUGG...UGG
+S.sciureus.2                       CCAUGG..UGG...CGG...C...UGGGG...ACAGCCCCAUGG...UGG
+S.sciureus.3                       CCAUGG..UGG...UGG...C...UGGGG...ACAGCCUCAUGG...UGG
+S.sciureus.4                       CCAGGG..UGG...UGG...C...UGGGG...GCAGCCUCAUGG...UGG
+S.sciureus.5                       CCAUGG..UGG...CGG...C...UGGGG...ACAGCCCCAUGG...UGG
+Callicebus_moloch_Re.1             UCAUGG..UGG...CGG...C...UGGGG...GCAGCCCCAUGG...UGG
+V.variegata.1                      CCAGGG..CGG...CGG...C...UGGGG...ACAACCCCAUGG...GGG
+T.belangeri.1                      CCAGGG..CGG...UGGCACC...UGGGG...GCAGCCUCAUGG...UGG
+T.tana.1                           UCAUGG..UGG...CGG...C...UGGGGGCAGCAGCCUCAUGG...UGG
+T.tana.2                           CCAUGG..UGG...CAG...C...UGGGG...ACAGCCCCAUGG...UGG
+C.lupus.1                          UCAUGG..UGG...CGG...C...UGGGG...UCAGCCCCACGG...UGG
+C.lupus.2                          CCAUGG..UGG...CGG...C...UGGGG...UCAGCCCCACGG...UGG
+N.procyonoides.1                   GGGCGG..UGG...UGG...C...UGGGG...UCAGCCCCAUGG...UGG
+Mustela.1                          CCACGG..GGG...UGG...C...UGGGG...UCAGCCCCACGG...GGG
+M.putorius.1                       CCACGG..GGG...UGG...C...UGGGG...ACAGCCCCACGG...GGG
+M.putorius.2                       GGGUGG..UGG...CGG...C...UGGGG...CCAGCCCCACGG...GGG
+P.lotor.1                          CCAUGG..GGG...CGG...C...UGGGG...ACAGCCCCACGG...GGG
+T.truncatus.1                      CCACGG..UGG...UGG...C...UGGGG...ACAGCCCCACGG...UGG
+T.truncatus.2                      CCACGG..UGG...UGG...C...UGGGG...ACAGCCCCAUGGUGGUGG
+P.catodon.1                        CCAUGG..UGG...UGGAGGC...UGGGG...UCAGCCCCAUGG...UGG
+P.catodon.2                        CCAUGG..UGG...UGG...C...UGGGG...UCAGCCCCACGG...UGG
+P.catodon.3                        CCAGGG..AGGGGGAGG...C...UGGGG...CCAGCCCCACGG...UGG
+H.amphibius.1                      CCACGG..UGG...UGG...C...UGGGG...ACAGCCCCAUGGUGGCGG
+H.amphibius.2                      CCACGG..AGG...UGG...C...UGGGG...UCAGCCCCACGG...AGG
+A.americana.1                      CCAGGG..AGGGGGUGG...C...UGGGG...UCAGCCCCAUGG...AGG
+G.subgutturosa.1                   UCAUGG..AGG...UGG...C...UGGGG...UCAGCCCCAUGG...AGG
+B.taurus.1                         ACAUGG..UGG...UGG...C...UGGGG...ACAGCCACAUGGUGGUGG
+B.taurus.2                         GCAUGG..UGG...UGG...C...UGGGG...ACAGCCGCAUGGUGGUGG
+B.taurus.3                         CCAUGG..AGG...UGG...C...UGGGG...CCAGCCUCAUGG...AGG
+B.javanicus.1                      CCAUGG..AGG...UGG...C...UGGGG...ACAGCCACAUGGUGGUGG
+B.grunniens.1                      UCAUGG..AGG...UGG...C...UGGGG...CCAACCUCAUGG...AGG
+B.taurus.4                         CCAUGG..UGG...UGG...C...UGGGG...ACGGCCACAUGGUGGUGG
+B.taurus.5                         UCAUGG..AGG...UGG...C...UGGGG...UCAGCCCCAUGG...UGG
+B.grunniens.2                      CCAUGG..UGG...UGG...C...UGGGG...ACAGCCACAUGGUGGCGG
+B.taurus.6                         UCAGGG..AGGGGGUGG...C...CGGGG...UCAGCCCCAUGG...AGG
+B.taurus.7                         UCAUGG..AGG...UGG...C...UGGGG...CCAGCCUCAUGG...AGG
+B.taurus.8                         UCAUGG..AGG...UGG...C...UGGGG...UCAGCUCCAUGG...UGG
+B.taurus.9                         CCAUGG..UGG...UGG...C...UGGGG...ACAGCCACGUGGUGGUGG
+B.taurus.10                        UCAGGG..AGGGGGUGG...C...UGGGG...UCAGCCCCAUGG...AGG
+T.angasii.1                        UCAUGG..AGG...UGG...C...UGGGG...UCAGCCCCAUGG...UGG
+T.strepsiceros.1                   CCAUGG..AGG...UGG...C...UGGGG...CCAGCCUCAUGU...AGG
+T.strepsiceros.2                   CCAUGG..UGG...UGG...C...UGGGG...ACAGCCACAUGG...UGG
+T.strepsiceros.3                   CCAUGG..AGG...CGG...C...UGGGG...CCAGCCUCAUGG...AGG
+O.aries.1                          CCAUGG..UGG...UGG...C...UGGGG...ACAGCCACAUGGUGGUGG
+O.aries.2                          CCAUGG..AGG...UGG...C...UGGGG...CCAACCUCAUGG...AGG
+H.niger.1                          CCAUGG..AGG...UGG...C...UGGGG...ACAGCCACAUGG...AGG
+C.capreolus.1                      CCAUGG..AGG...UGG...C...UGGGG...CCAACCUCAUGG...AGG
+O.hemionus.1                       CCAUGG..UGG...UGG...C...UGGGG...GCAGCCACAUGGUGGUGG
+O.hemionus.2                       CCAUGG..WGG...UGG...C...UGGGG...GCAGCCACAUGGUGGUGG
+O.hemionus.3                       CCAUGR..AGG...UGG...C...UGGGG...CCAACCUCAUGG...AGG
+O.hemionus.4                       CCAUGA..AGG...UGG...C...UGGGG...CCAACCUCAUGG...AGG
+R.tarandus.1                       CCAUGG..GGG...UGG...C...UGGGG...CCAACCUCAUGG...AGG
+G.camelopardalis.1                 CCAUGG..UGG...UGG...U...UGGGG...ACAGCCACAUGGUGGUGG
+G.camelopardalis.2                 UCAGGG..AGGGGGUGG...C...UGGGG...UCAGCCCCAUGG...UGG
+M.chrysogaster.1                   GCAUGG..AGG...UGG...C...UGGGG...ACAGCCACAUGGUGGUGG
+S.scrofa.1                         CCAGGG..AGGGGGUGG...C...UGGGG...ACAGCCCCACGG...AGG
+C.dromedarius.1                    CCACGG..AGG...AGG...C...UGGGG...UCAGCCCCACGG...AGG
+C.dromedarius.2                    CCACGG..AGG...CGG...C...UGGGG...CCAGCCCCAUGG...UGG
+L.glama.1                          CCAGGG..AGGGGGCGG...C...UGGGG...UCAGCCCCACGG...AGG
+L.glama.2                          CCACGG..AGG...CGG...C...UGGGG...UCAGCCCCACGG...AGG
+Cynopterus_sphinx_In.1             CCAUGG..UGG...AGG...C...UGGGG...UCAGCCCCAUGG...UGG
+Cynopterus_sphinx_In.2             GGGUGG..UGG...UGG...C...UGGGG...CCAGCCCCACGG...UGG
+Macrotus_californicu.1             CCAUGG..UGG...CGGAGGC...UGGGG...ACAGCCCUAUGG......
+Macrotus_californicu.2             CCACGG..UGG...CGG...C...UGGGG...UCAGCCCCACGG...UGG
+M.daubentoni.1                     CCAUGG..UGG...UGGCGGC...UGGGG...UCAGCCCCAUGGUGGUGG
+E.europaeus.1                      CCAUGG..AGG...UGGAGGC...UGGGGUCAGCAGCCCCAUGGAGGUGG
+Hylomys_suillus_shor.1             CCAUGG..UGG...UGGAGGA...UGGGG...UCAGCCUCAUGGUGGUGG
+Hylomys_suillus_shor.2             CCAUGG..UGG...UGGAGGC...UGGGG...UCAGCCCCAUGGUGGUGG
+S.cinereus.1                       CCAGGG..AGG...CGGAGGC...UGGGG...UCAGCCCCAUGGGGGUGG
+S.cinereus.2                       CCAUGG..CGG...CGGAGGC...UGGGG...UCAGCCCCACGGGGGUGG
+T.europaea.1                       CGGCGG..UGG...AGG...C...UGGGG...ACAGCCCCAUGGUGGUGG
+T.europaea.2                       CGGUGG..UGG...AGG...C...UGGGG...ACAGCCCCACGG...UGG
+T.europaea.3                       GGGUGG..UGG...CGG...C...UGGGG...UCAGCCCCACGGCGGUGG
+E.caballus.1                       CCAUGG..UGG...UGG...C...UGGGG...UCAGCCGCAUGG...UGG
+E.caballus.2                       GGGCGG..UGG...CGG...C...UGGGG...UCAACCCCAUGG...UGG
+E.caballus.3                       GCAUGG..UGG...UGG...U...UGGGG...ACAGCCCCAUGGUGGUGG
+E.burchellii.1                     CCAUGG..UGG...UGG...C...UGGGG...UCAGCCGCACGG...UGG
+D.bicornis.1                       CCAUGG..UGG...UGG...C...UGGGG...ACAGCCCCAUGGUGGUGG
+D.bicornis.2                       CCAUGG..CGG...UGG...C...UGGGG...UCAGCCCCACGG...CGG
+Manis.1                            GGGUGG..UGG...UGG...C...UGGGG...GCAGCCCCAUGG...UGG
+Manis.2                            CCAUGG..UGG...CGG...U...UGGGG...GCAACCCCAUGG...UGG
+Manis.3                            UCAUGG..UGG...CGG...C...UGGGG...GCAACCCCAUGG...UGG
+C.didactylus.1                     UCACGG..UGG...CGG...CGGAUGGGG...CCAGCCCCACGG...UGG
+#=GC SS_cons                       <<<<<<..........................AAAAAA>>>>>>......
+
+A.hottentotus.1                    UGGUGGC
+A.hottentotus.2                    UGGCUGG
+P.capensis.1                       UGGCUGG
+P.capensis.2                       UGGUUGG
+E.maximus.1                        CGGCUGG
+E.maximus.2                        UGGCUGG
+T.manatus.1                        UGGCUGG
+T.manatus.2                        UGGCUGG
+T.ecaudatus.1                      CGGCUGG
+O.afer.1                           UGGCUGG
+O.afer.2                           UGGCUGG
+G.variegatus.1                     UGGCUGG
+O.cuniculus.1                      UGGCUGG
+O.cuniculus.2                      UGGCUGG
+O.princeps.1                       CGGCUGG
+O.princeps.2                       UGGCUGG
+C.porcellus.1                      UGGCUCG
+C.porcellus.2                      UAGCUGG
+C.porcellus.3                      UGGCUCG
+C.porcellus.4                      UAGCUGG
+C.porcellus.5                      UAGCUGG
+Trichys_fasciculata_.1             UGGCUGG
+Trichys_fasciculata_.2             UGGUUGG
+Microtus_agrestis_sh.1             UGGCUGG
+Microtus_agrestis_sh.2             CGGCUGG
+M.glareolus.1                      UGGUUGG
+Cricetulus.1                       UGGCUGG
+Cricetulus.2                       UGGCUGG
+M.auratus.1                        UGGCUGG
+M.auratus.2                        UGGCUGG
+Sigmodon_fulviventer.1             UGGCUGG
+Sigmodon_fulviventer.2             UGGUUGG
+M.unguiculatus.1                   UGGCUGG
+M.unguiculatus.2                   GGGCUGG
+A.sylvaticus.1                     UGGCUGG
+A.sylvaticus.2                     UGGCUGG
+M.musculus.1                       UGGUGGG
+M.musculus.2                       UGGAUGG
+M.musculus.3                       CAGCUGG
+R.norvegicus.1                     UGGCUGG
+R.norvegicus.2                     GGGCUGG
+Nannospalax_ehrenber.1             UGGCUGG
+Nannospalax_ehrenber.2             UGGCUGG
+S.vulgaris.1                       UGGCUGG
+S.vulgaris.2                       UGGCUGG
+S.vulgaris.3                       AGGUUGG
+C.torquatus.1                      UGGCUGG
+Macaca_arctoides_stu.1             CGGCUGG
+T.gelada.1                         UGGCUGG
+C.guereza.1                        UGGCUGG
+C.guereza.2                        UGGCUGG
+C.guereza.3                        CGGCUGG
+P.francoisi.1                      UGGCUGG
+P.francoisi.2                      CGGCUGG
+H.sapiens.1                        UGGCUGG
+H.sapiens.2                        UGGCUGG
+H.sapiens.3                        UGGCUGG
+H.sapiens.4                        AGGUUGC
+H.sapiens.5                        CAGCUGG
+H.sapiens.6                        AGGCUGG
+H.sapiens.7                        GGGUUGG
+H.sapiens.8                        UGGCUGG
+H.sapiens.9                        UGGUGGG
+H.sapiens.10                       UGGCUGG
+P.pygmaeus.1                       UGGCUGG
+Hylobates_lar_common.1             UGGCUGG
+Hylobates_lar_common.2             UGGCUGG
+A.trivirgatus.1                    UGGCUGG
+A.trivirgatus.2                    UGGCUGG
+spider_monkey.1                    CGGCUGG
+Ateles_geoffroyi_bla.1             CGGCUGG
+Ateles_geoffroyi_bla.2             UGGCUGG
+Callithrix_jacchus_w.1             CGGCUGG
+C.apella.1                         CAGCUGG
+S.sciureus.1                       UGGCUGG
+S.sciureus.2                       CGGCUGG
+S.sciureus.3                       CGGCUGG
+S.sciureus.4                       UGGCUGG
+S.sciureus.5                       CGGAUGG
+Callicebus_moloch_Re.1             UGGCUGG
+V.variegata.1                      UGGCUGG
+T.belangeri.1                      UGGCUGG
+T.tana.1                           UGGCUGG
+T.tana.2                           UGGUAGC
+C.lupus.1                          UGGCUGG
+C.lupus.2                          UGGCUGG
+N.procyonoides.1                   CGGCUGG
+Mustela.1                          UGGCUGG
+M.putorius.1                       UGGCUGG
+M.putorius.2                       UGGCUGG
+P.lotor.1                          UGGCUGG
+T.truncatus.1                      UGGCUGG
+T.truncatus.2                      AGGCUGG
+P.catodon.1                        UGGCACC
+P.catodon.2                        UGGCUGG
+P.catodon.3                        UGGCUGG
+H.amphibius.1                      AGGCUGG
+H.amphibius.2                      UGGUUGG
+A.americana.1                      UGGCUGG
+G.subgutturosa.1                   UGGCUGG
+B.taurus.1                         AGGCUGG
+B.taurus.2                         AGGCUGG
+B.taurus.3                         UGGCUGG
+B.javanicus.1                      AGGCUGG
+B.grunniens.1                      UGGCUGG
+B.taurus.4                         AGGCUGG
+B.taurus.5                         UGGCUGG
+B.grunniens.2                      AGGCUGG
+B.taurus.6                         UGGCUGG
+B.taurus.7                         UGGCUGG
+B.taurus.8                         UGGCUGG
+B.taurus.9                         AGGCUGG
+B.taurus.10                        UGGCUGG
+T.angasii.1                        UGGUUGG
+T.strepsiceros.1                   UGGCUGG
+T.strepsiceros.2                   UGGAGGG
+T.strepsiceros.3                   UGGCUGG
+O.aries.1                          AGGCUGG
+O.aries.2                          UGGCUGG
+H.niger.1                          UGGCUGG
+C.capreolus.1                      AGGCUGG
+O.hemionus.1                       AGGCUGG
+O.hemionus.2                       AGGCUGG
+O.hemionus.3                       UGGCUGG
+O.hemionus.4                       UGGCUGG
+R.tarandus.1                       UGGCUGG
+G.camelopardalis.1                 AGGCUGG
+G.camelopardalis.2                 UGGCUGG
+M.chrysogaster.1                   AGGCUGG
+S.scrofa.1                         UGGCUGG
+C.dromedarius.1                    CGGCUGG
+C.dromedarius.2                    AGGCUGG
+L.glama.1                          AGGCUGG
+L.glama.2                          AGGCUGG
+Cynopterus_sphinx_In.1             UGGCUGG
+Cynopterus_sphinx_In.2             AGGCUGG
+Macrotus_californicu.1             UGGCAAG
+Macrotus_californicu.2             CGGCUGG
+M.daubentoni.1                     CGGCUGG
+E.europaeus.1                      AGGCUGG
+Hylomys_suillus_shor.1             CGGUUGG
+Hylomys_suillus_shor.2             AGGCUGG
+S.cinereus.1                       AGGCUGG
+S.cinereus.2                       AGGCUGG
+T.europaea.1                       CGGCUGG
+T.europaea.2                       AGGCUGG
+T.europaea.3                       AGGCUGG
+E.caballus.1                       UGGUUGG
+E.caballus.2                       UGGUUGG
+E.caballus.3                       AGGCUGG
+E.burchellii.1                     UGGUUGG
+D.bicornis.1                       AGGCUGG
+D.bicornis.2                       CGGCUGG
+Manis.1                            CAGCUGG
+Manis.2                            CAGCUGG
+Manis.3                            UGGCACC
+C.didactylus.1                     CGGCGGA
+#=GC SS_cons                       .aaaaaa
+//

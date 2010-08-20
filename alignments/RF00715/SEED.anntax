@@ -1,0 +1,42 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-383
+#=GF AC    RF00715
+#=GF DE    microRNA mir-383
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    22.4
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000137
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    5
+
+#=GS G.gallus.1             AC    AADN02031350.1/11694-11766
+#=GS A.carolinensis.1       AC    AAWZ01025505.1/373383-373455
+#=GS H.sapiens.1            AC    ABBA01021609.1/97359-97431
+#=GS Monodelphis_domestic.1 AC    AAFR03038294.1/87558-87630
+#=GS O.anatinus.1           AC    AAPN01276053.1/1242-1314
+
+G.gallus.1                         CUCCUCAGAUCAGAAGGUGAUUGUGGCUUUGGGUAAAUAUUGAGCAGCCA
+A.carolinensis.1                   CUCCUCAGAUCAGAAGGUGAUUGUGGCUUUGCUUUUAUAUGAAACAGCCA
+H.sapiens.1                        CUCCUCAGAUCAGAAGGUGAUUGUGGCUUUGGGUGGAUAUUAAUCAGCCA
+Monodelphis_domestic.1             CUCCUCAGAUCAGAAGGUGAUUGUGGCUUUCGGUAGACAUGGAACAGCCA
+O.anatinus.1                       CUCCUCAGAUCAGAAGGUGAUUGUGGCUUUGGGUAGCUACUAAGCAGCCA
+#=GC SS_cons                       ...<<<.<<<<<<..<<<<.<<<<<<<<<<<<.......>>>>..>>>>>
+#=GC RF                            cuccucAgaccagAAggugAcuguggcuuccgguagAuAcggaacagcca
+
+G.gallus.1                         CAGCACUGCCUGGUCAGAAAGAG
+A.carolinensis.1                   CAGCACUGCCUGGUCAGAAAGAG
+H.sapiens.1                        CAGCACUGCCUGGUCAGAAAGAG
+Monodelphis_domestic.1             CAUCACUGGCUGGUCAGAAAGAG
+O.anatinus.1                       CAACACUGCCUGGUCAGAAAGAG
+#=GC SS_cons                       >>>>>>>..>>>>>>.....>>>
+#=GC RF                            cagcaccgacuggucAgAAAgag
+//

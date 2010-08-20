@@ -1,0 +1,28 @@
+# STOCKHOLM 1.0
+#=GF ID    CRISPR-DR49
+#=GF AC    RF01362
+#=GF DE    CRISPR RNA direct repeat element
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    28.5
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; CRISPR;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    URL; http://crispr.u-psud.fr/crispr/CRISPRHomePage.php
+#=GF DR    SO:0001459 SO:CRISPR
+#=GF WK    http://en.wikipedia.org/wiki/CRISPR
+#=GF SQ    3
+
+#=GS Bacteroides_fragilis.1 AC    CR626927.1/4661170-4661216
+#=GS Bacteroides_fragilis.2 AC    CR626927.1/4663161-4663207
+#=GS Parabacteroides_merd.1 AC    AAXE02000104.1/43149-43195
+
+Bacteroides_fragilis.1             GUUAUGAUUUACUUUCAAAUUAGUAUCUUUGAACCAUUGGAAACAGC
+Bacteroides_fragilis.2             GUUGUGAUUUGCUUUCAAAUUAGUAUCUUUGAACCAUUGGAAACAGC
+Parabacteroides_merd.1             GUUGUGAUUUACUUUCAUUUUAGUAUAUUUGAACCAUUAGAAACAAC
+#=GC SS_cons                       .............<<<<<<........>>>>>>..............
+#=GC RF                            GUUaUGAUUUaCUuuCaaaUUAGUAUCuuuGaaCCAUUGGAAACAGC
+//

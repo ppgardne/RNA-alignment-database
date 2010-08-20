@@ -1,0 +1,56 @@
+# STOCKHOLM 1.0
+#=GF ID    snoR27
+#=GF AC    RF01287
+#=GF DE    Small nucleolar RNA snoR27
+#=GF AU    Wilkinson A
+#=GF GA    23.0
+#=GF NC    22.2
+#=GF TC    23.8
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    URL; http://bioinf.scri.sari.ac.uk/cgi-bin/plant_snorna/home
+#=GF DR    URL; http://lowelab.ucsc.edu/snoRNAdb/
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Arabidopsis_thaliana300051
+#=GF WK    http://en.wikipedia.org/wiki/SnoRNA
+#=GF SQ    6
+
+#=GS V.vinifera.1          AC    CAAP02001933.1/46047-46138
+#=GS Glycine_max_soybean.1 AC    AC170860.16/132308-132397
+#=GS R.communis.1          AC    AASG02005916.1/14579-14672
+#=GS P.trichocarpa.1       AC    AARH01030264.1/984-1074
+#=GS A.thaliana.1          AC    AC007661.2/53369-53465
+#=GS B.rapa.1              AC    AC189510.1/85187-85284
+
+V.vinifera.1                      AU.GGAUCAAUGAU...GUUACUAUG.AAACUGCGCUAUCUAUCUG.AAA
+Glycine_max_soybean.1             UAUGGAUCGGUGAUGUUUAUUUUAAA....CUGCGUUAUCUAUCCG..AA
+R.communis.1                      AUUGGAUCGAUGAUG..UUCAUUAUG..AACUGCGUUAUCUAUCUG.AAA
+P.trichocarpa.1                   UGUGGAUCAAUGAUG..UUAUUGAUU.UUACUGCGUUAUCUUCCUGCA..
+A.thaliana.1                      AUUGGAUCGAUGAUUGAUUAGUUAAA.AUACUGCGUUAUCUUUCUGCAAA
+B.rapa.1                          AUUGGAUCAAUGAUU..UAAGUUAAUUAAACUGCGUUAUCUAUCUGCAAU
+#=GC SS_cons                      <<<<<<<...........................................
+#=GC RF                           auuGGAUCaAUGAUg..UuauUUAaa.AaACUGCGUUAUCUAUCUGCAAA
+
+V.vinifera.1                      CAUCUUAA...UAGAAUUUGAAGAUAACGGAAUA.ACAUCGUGAAAUCCA
+Glycine_max_soybean.1             UCUUCCCA...AAGGAAUUGAAGAUAA..CCAUA.UAUUGCUGAGAUCCA
+R.communis.1                      CUUCCUUA...UUGGAAUUGAAGAAGUCUAUAAACACAUUCUGAGAUCUU
+P.trichocarpa.1                   ..UCUAAC...AAUGAAAUGAAGAUAAAUGUUUU.ACACCCUGAGAUCCA
+A.thaliana.1                      UCUCCUAU...AAGGAUUUGAAGACAAAUCAUGA.AAAACCUGAGAUCCA
+B.rapa.1                          UCUCCUCUUUCUAGGAGUUUGAAGAAAACCAU.A.AAAACCUGAGAUCCA
+#=GC SS_cons                      .............................................>>>>>
+#=GC RF                           ucUccuaa...aAGGAaUUGAAGAuAAAucaauA.AaAaccUGAGAUCCa
+
+V.vinifera.1                      AU
+Glycine_max_soybean.1             UU
+R.communis.1                      GU
+P.trichocarpa.1                   UU
+A.thaliana.1                      AU
+B.rapa.1                          GU
+#=GC SS_cons                      >>
+#=GC RF                           au
+//

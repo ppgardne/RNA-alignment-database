@@ -1,0 +1,100 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORD93
+#=GF AC    RF00606
+#=GF DE    Small Nucleolar RNA SNORD93
+#=GF AU    Daub J
+#=GF GA    30.0
+#=GF NC    26.4
+#=GF TC    31.5
+#=GF SE    INFERNAL
+#=GF SS    Predicted; RNAalifold; Daub J
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    snoRNABase; HBII-336
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Loxodonta_africana300350
+#=GF DR    snoopy; Cavia_porcellus300509
+#=GF RN    [1]
+#=GF RM    12215523
+#=GF RT    Purified box C/D snoRNPs are able to reproduce site-specific
+#=GF RT    2'-O-methylation of target RNA in vitro.
+#=GF RA    Galardi S, Fatica A, Bachi A, Scaloni A, Presutti C, Bozzoni I;
+#=GF RL    Mol Cell Biol. 2002;22:6663-6668.
+#=GF RN    [2]
+#=GF RM    11387227
+#=GF RT    RNomics: an experimental approach that identifies 201 candidates for
+#=GF RT    novel, small, non-messenger RNAs in mouse.
+#=GF RA    Huttenhofer A, Kiefmann M, Meier-Ewert S, O'Brien J, Lehrach H,
+#=GF RA    Bachellerie JP, Brosius J;
+#=GF RL    EMBO J. 2001;20:2943-2953.
+#=GF RN    [3]
+#=GF RM    16381836
+#=GF RT    snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D box
+#=GF RT    snoRNAs.
+#=GF RA    Lestrade L, Weber MJ;
+#=GF RL    Nucleic Acids Res. 2006;34:D158-D162.
+#=GF CC    The members of this family belong to the C/D class of snoRNAs
+#=GF CC    which contain the C (UGAUGA) and D (CUGA) box motifs. Most of the
+#=GF CC    members of the box C/D family function in directing site-specific
+#=GF CC    2'-O-methylation of substrate RNAs [1]. This family includes
+#=GF CC    mouse MBII-336 identified in [2]. The human orthologue HBII-336
+#=GF CC    (SNORD93) is predicted to guide the 2'O-ribose methylation of 18S
+#=GF CC    rRNA A576 [3].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_SNORD93
+#=GF SQ    15
+
+#=GS L.africana.1           AC    AAGU02122115.1/4064-4138
+#=GS O.princeps.1           AC    AAYZ01658959.1/746-819
+#=GS C.porcellus.1          AC    AAKN02039012.1/62316-62388
+#=GS M.musculus.1           AC    AC117663.13/64070-64140
+#=GS H.sapiens.1            AC    AC005682.2/110610-110683
+#=GS P.troglodytes.1        AC    AC146127.4/44893-44966
+#=GS Otolemur_garnettii_s.1 AC    AAQR01509031.1/980-1048
+#=GS T.belangeri.1          AC    AAPY01584255.1/1738-1811
+#=GS C.lupus.1              AC    AAEX02025002.1/349113-349184
+#=GS F.catus.1              AC    AANG01382327.1/4280-4351
+#=GS B.taurus.1             AC    AAFC03129730.1/970-1042
+#=GS E.europaeus.1          AC    AANN01508855.1/934-1001
+#=GS S.araneus.1            AC    AALT01401044.1/674-745
+#=GS E.caballus.1           AC    AAWR02014040.1/1918-1991
+#=GS Monodelphis_domestic.1 AC    AAFR03047799.1/14426-14502
+
+L.africana.1                       UGGCCAAGGAUGAGAACUCUUAAUCUGAUUGGGCAUGCUUG...UGCUCU
+O.princeps.1                       UGGCCAAGGAUGAGAACCC.UUUGCUGAUUCAGUUUGCUCC...UGCGCU
+C.porcellus.1                      UGGCCAAAGAUGAGAACUC.UAACCUGAAUGGCUGUGUU.C...UGCUCU
+M.musculus.1                       UGGCCAAGGAUGAGAACUC.UAACCUGACUGGAUACGCU......GCUGU
+H.sapiens.1                        UGGCCAAGGAUGAGAACUC.UAAUCUGAUUUUAUGUGCUUC...UGCUGU
+P.troglodytes.1                    UGGCCAAGGAUGAGAACUC.UAAUCUGAUUUUAUGUGCUUC...UGCUGU
+Otolemur_garnettii_s.1             UGGCCAAGGAUGAGAACUC.UAAUCUGAUUGGAU.....UC...UGCUCU
+T.belangeri.1                      UGGCCAAGGAUGAAAAUUC.UAAUCUGAUUUGCUAUGCUUC...UGCUCU
+C.lupus.1                          UGGCCGAGGAUGAGAAAUC.UAAUCUGAUUGGAUAUGCU......UCUCU
+F.catus.1                          UGGCCAAGGAUGAGAACUCUUAAUCUGAUUGGAUAUGCU......UCUCU
+B.taurus.1                         UGGCCAAGGAUGAGAACCC.UAAUCUGAUUGGAUACCCU.C...UGCUCU
+E.europaeus.1                      UGGCCAAGGAUGAGAACUC.UAAUCUGAUUGGAUUUACU.........CU
+S.araneus.1                        UGGCCAAGGAUGAGAACUC..AAUCUGA.UGGAUGUACUUC...CACUCU
+E.caballus.1                       UGGCCAAGGAUGAGAACUC.UAAUCUGAUUGGAUAUGCUUC...UGCUCU
+Monodelphis_domestic.1             UGGCCAAGGAUGAAAACCA.CAGUCUGAUUGGGCAUGCUUUCCAUGCUCU
+#=GC SS_cons                       .<<<<.............................................
+#=GC RF                            UGGCCAAGGAUGAGAACUC.UAAuCUGAuUuuAUauGCUuc...uGCUGU
+
+L.africana.1                       GAUGG.GUUAAAGGAUUUACCUGAGGCCA
+O.princeps.1                       GAUGG.GUUAAAGGAUUUACCUGAGGCCA
+C.porcellus.1                      GAUGG.GUUAAAGGAUUUACCUGAGGCCA
+M.musculus.1                       GAUGG.GUUAAAGGAUUUACCUGAGGCCA
+H.sapiens.1                        GAUGG.AUUAAAGGAUUUACCUGAGGCCA
+P.troglodytes.1                    GAUGG.AUUAAAGGAUUUACCUGAGGCCA
+Otolemur_garnettii_s.1             GAUGG.AUUAAAGGAUUUACCUGAGGCCA
+T.belangeri.1                      GAUGG.GUUAAAGGAUUUACCUGAGGCCA
+C.lupus.1                          GAUGGCGUUGAAGGAUUUACCUGAGGCCA
+F.catus.1                          GAUGG.GUUAAAGGAUUUACCUGAGGCCA
+B.taurus.1                         GAUGG.GUUAAAGGAUUUACCUGAGGCCA
+E.europaeus.1                      GAUGG.GUUAAAGGAUUUACCUGAGGCCA
+S.araneus.1                        GAUGG.GUUAAAGGAUUUACCUGAGGCCA
+E.caballus.1                       GAUGG.GUUAAAGGAUUUACCUGAGGCCA
+Monodelphis_domestic.1             GAUGG.GUUAAAGGAUUUACCUGAGGCCA
+#=GC SS_cons                       ........................>>>>.
+#=GC RF                            GAUGG.aUUAAAGGAUUUACCUGAGGCCA
+//

@@ -1,0 +1,90 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-15
+#=GF AC    RF00455
+#=GF DE    mir-15 microRNA precursor family
+#=GF AU    Moxon SJ
+#=GF GA    32.0
+#=GF NC    0.0
+#=GF TC    37.8
+#=GF SE    Moxon SJ, INFERNAL
+#=GF SS    Predicted; RNAFOLD
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIR; MI0000069
+#=GF DR    MIR; MI0000438
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF RN    [1]
+#=GF RM    11679670
+#=GF RT    Identification of novel genes coding for small expressed RNAs.
+#=GF RA    Lagos-Quintana M, Rauhut R, Lendeckel W, Tuschl T;
+#=GF RL    Science 2001;294:853-858.
+#=GF RN    [2]
+#=GF RM    12434020
+#=GF RT    Frequent deletions and down-regulation of micro- RNA genes miR15 and
+#=GF RT    miR16 at 13q14 in chronic lymphocytic leukemia.
+#=GF RA    Calin GA, Dumitru CD, Shimizu M, Bichi R, Zupo S, Noch E, Aldler H,
+#=GF RA    Rattan S, Keating M, Rai K, Rassenti L, Kipps T, Negrini M, Bullrich
+#=GF RA    F, Croce CM;
+#=GF RL    Proc Natl Acad Sci U S A 2002;99:15524-15529.
+#=GF CC    This family represents the related mir-15a and mir-15b
+#=GF CC    sequences. In humans miR-15a and miR-16 are clustered within 0.5
+#=GF CC    kb at 13q14. This region has been shown to be deleted in more
+#=GF CC    than half of B cell chronic lymphocytic leukaemias (CLL). Both
+#=GF CC    miR-15a and miR-16 are deleted or down-regulated in more than two
+#=GF CC    thirds of CLL cases [2]. The mature sequence is excised from the
+#=GF CC    5' arm of the hairpin.
+#=GF WK    http://en.wikipedia.org/wiki/mir-15_microRNA_precursor_family
+#=GF SQ    14
+
+#=GS C.milii.1              AC    AAVX01075355.1/1112-1195
+#=GS O.latipes.1            AC    BAAF04019869.1/1029-1115
+#=GS Gasterosteus_aculeat.1 AC    AANH01002998.1/16865-16950
+#=GS T.rubripes.1           AC    CAAB01000783.1/48996-49083
+#=GS T.nigroviridis.1       AC    CAAE01014537.1/473298-473386
+#=GS D.rerio.1              AC    AL606727.3/61504-61589
+#=GS G.gallus.1             AC    AADN02021066.1/63821-63906
+#=GS A.carolinensis.1       AC    AAWZ01001750.1/5603-5688
+#=GS O.princeps.1           AC    AAYZ01325292.1/263-348
+#=GS M.musculus.1           AC    AC119847.12/19404-19489
+#=GS H.sapiens.1            AC    AC024221.23/49375-49460
+#=GS H.sapiens.2            AC    AF334404.1/99740-99824
+#=GS M.murinus.1            AC    ABDC01320645.1/1722-1804
+#=GS O.anatinus.1           AC    AAPN01007038.1/19411-19492
+
+C.milii.1                          ACUUUGUGGUGAUGUAGCAGCACAUAAUGGUUUGUG.AGUUGUAUGG.AG
+O.latipes.1                        ACCUUAGAAUGCUGUAGCAGCGCAUCAUGGUUUGAAACAGUCAGAAAAAA
+Gasterosteus_aculeat.1             CCCUUAGACUGCUAUAGCAGCGCAUCAUGGUUUGAA.ACAAUGUGGAAAG
+T.rubripes.1                       CCCUUAGACUGCUAUAGCAGCGCAUCAUGGUUUGUAACGAUGUAGAAAAG
+T.nigroviridis.1                   CCCUUAGACUGCUUUAGCAGCGCAUCAUGGUUUGUAAUGAUGUGGAAAAA
+D.rerio.1                          GCCUGUCGGUACUGUAGCAGCACAGAAUGGUUUGUG.AGUUAUAACGGGG
+G.gallus.1                         GCCUUAAAGUACUCUAGCAGCACAUCAUGGUUUGCA.UGCUGUAGUGAAG
+A.carolinensis.1                   GCUUUAAAGUACUCUAGCAGCACAUCAUGAUUUGUA.UGUCAUAGUAAAU
+O.princeps.1                       GCCUUAAAGUACUGUAGCAGCACAUCAUGGUUUACA.UAAUAUAGUCAAU
+M.musculus.1                       ACCUUAAAGUACUGUAGCAGCACAUCAUGGUUUACA.UACUACAGUCAAG
+H.sapiens.1                        GCCUUAAAGUACUGUAGCAGCACAUCAUGGUUUACA.UGCUACAGUCAAG
+H.sapiens.2                        ACCUUGGAGUAAAGUAGCAGCACAUAAUGGUUUGUG.GA.UUUUGAAAAG
+M.murinus.1                        GCCUUAAAGUACUGUAGCAGCACAUCAUG.UUUACA.UACUACAGUC.AG
+O.anatinus.1                       ACCUUGGGGUAAAGUAGCAGCACAUAAUGGUUUGUG.AGUUUUGAAA...
+#=GC SS_cons                       .<<<<<..........<<<<<<.<..<<<<<<<<<<..............
+#=GC RF                            aCCuuaaAGUAcugUAGCaGCacauaauGguuuGca.aguUaUAgaaAAg
+
+C.milii.1                          A..UACAGGCCAUGUUGUGCUGCCAUAUGAACACAA.GA
+O.latipes.1                        G..UGCGAACCAUUAUUUGCUGCUUUAGAAUUUUAAGGA
+Gasterosteus_aculeat.1             G..UGCGAACCAUUAUUUGCUGCUUUAGAAUUUUAAGGA
+T.rubripes.1                       G.GUGCAAGCCAUAAUCUGCUGCUUUAGAAUUUUAAGGA
+T.nigroviridis.1                   AGGUGCAAACCAUAAUUUGCUGCUUUAGAAUUUUAAGGA
+D.rerio.1                          G..UGCAGGCCGUACUGUGCUGCGGCAACAACGACAGGA
+G.gallus.1                         A..UGCGAAUCAUUAUUUGCUGCUUUAGAAAUUUAAGGA
+A.carolinensis.1                   A..UGCAAGUCAUUAUUUGCUGCUUUAGAAUUUUAAAGA
+O.princeps.1                       A..UGCGAAUCAUAAUUUGCUGCUCUAGAAAUUUAAGGA
+M.musculus.1                       A..UGCGAAUCAUUAUUUGCUGCUCUAGAAAUUUAAGGA
+H.sapiens.1                        A..UGCGAAUCAUUAUUUGCUGCUCUAGAAAUUUAAGGA
+H.sapiens.2                        G..UGCAGGCCAUAUUGUGCUGCCUCAAAAAUACAAGGA
+M.murinus.1                        A..UGCGAU.CAUUAUUUGCUGCUUUAGAAAUUUAGGGA
+O.anatinus.1                       ...UACAGGCCAUAUUGUGCUGCCUCAAAAAUACAAGGA
+#=GC SS_cons                       ...>>>>>>>>>>..>.>>>>>>..........>>>>>.
+#=GC RF                            a..ugCaaacCauAauguGCuGCuuuAaAAAuuuaaGGA
+//

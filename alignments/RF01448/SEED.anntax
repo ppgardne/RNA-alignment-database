@@ -1,0 +1,43 @@
+# STOCKHOLM 1.0
+#=GF ID    S_pombe_snR93
+#=GF AC    RF01448
+#=GF DE    small nucleolar RNA snR93
+#=GF AU    Osuch I
+#=GF GA    50.0
+#=GF NC    24.2
+#=GF TC    53.0
+#=GF SE    INFERNAL
+#=GF SS    Predicted; RNAalifold
+#=GF TP    Gene; snRNA; snoRNA; HACA-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF RN    [1]
+#=GF RM    15716270
+#=GF RT    Identification and functional analysis of 20 Box H/ACA small
+#=GF RT    nucleolar RNAs (snoRNAs) from Schizosaccharomyces pombe.
+#=GF RA    Li SG, Zhou H, Luo YP, Zhang P, Qu LH;
+#=GF RL    J Biol Chem. 2005;280:16446-16455.
+#=GF WK    http://en.wikipedia.org/wiki/SnoRNA
+#=GF SQ    2
+
+#=GS S.pombe.1 AC    AJ632011.1/1-143
+#=GS S.pombe.2 AC    CU329671.1/3172781-3172923
+
+S.pombe.1             UUGCACUUUUUAACAAAAUUACCCGUGAGAUUAAUUGCGGUUGAACUUGU
+S.pombe.2             UUGCACUUUUUAACAAAAUUACCCGUGAGAUUAAUUGCGGUUGAACUUGU
+#=GC SS_cons          ..<<<<.....<<<<<..<<<.<<<..<......>..>>>.>>>..>>>>
+#=GC RF               UUGCaCUUUUUaaCaaAAuuacCCGUGaGAUUAAuUGCGGUugaAcuuGu
+
+S.pombe.1             UUUUCGUGCUAGACUGAUGAUUCGCCCUUAUACAUAUUGGCUAACUUUCG
+S.pombe.2             UUUUCGUGCUAGACUGAUGAUUCGCCCUUAUACAUAUUGGCUAACUUUCG
+#=GC SS_cons          >....>>>>............<<<<<<...........<<<<<<..<<<<
+#=GC RF               uUUUcGuGCUAGAcUGAUGAUuCgCCCUUAUAcAUAuuGgCuaacUuuCG
+
+S.pombe.1             GCUAAUCUUCACCGAAUUUAGUCAAGAAUUGGGUGGUACAAAU
+S.pombe.2             GCUAAUCUUCACCGAAUUUAGUCAAGAAUUGGGUGGUACAAAU
+#=GC SS_cons          <..........>>>>>.>>>>>>.......>>>>>>.......
+#=GC RF               GcUAAUcUUcACCGaaUuuaGuCaaGAAUUGGGuGgUAcAAAU
+//

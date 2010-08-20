@@ -1,0 +1,67 @@
+# STOCKHOLM 1.0
+#=GF ID    PK-repBA
+#=GF AC    RF01089
+#=GF DE    Pseudoknot of the regulatory region of the repBA gene
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    21.5
+#=GF SE    Pseudobase
+#=GF SS    Pseudobase
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    PKBASE; PKB00179
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    7543895
+#=GF RT    The replication of an IncL/M plasmid is subject to antisense control.
+#=GF RA    Athanasopoulos V, Praszkier J, Pittard AJ;
+#=GF RL    J Bacteriol. 1995;177:4730-4741.
+#=GF RN    [2]
+#=GF RM    10074073
+#=GF RT    Analysis of elements involved in pseudoknot-dependent expression and
+#=GF RT    regulation of the repA gene of an IncL/M plasmid.
+#=GF RA    Athanasopoulos V, Praszkier J, Pittard AJ;
+#=GF RL    J Bacteriol. 1999;181:1811-1819.
+#=GF WK    http://en.wikipedia.org/wiki/Regulatory_region_of_repBA_gene
+#=GF SQ    7
+
+#=GS C.freundii.1           AC    AF550415.2/54744-54867
+#=GS Enterobacter.1         AC    CP000654.1/141918-142038
+#=GS E.amylovora.1          AC    AY422214.1/51958-52081
+#=GS K.pneumoniae.1         AC    U27345.1/557-680
+#=GS Yersinia_pseudotuber.1 AC    CP000718.1/1567-1687
+#=GS Yersinia_pestis_biov.1 AC    AE017044.1/1455-1577
+#=GS Y.enterocolitica.1     AC    AY150843.2/66153-66280
+
+C.freundii.1                       AACCCCCUGAU.UCAU.CCUCUCACUUUGGCCGGUCA.GAG....AUGAA
+Enterobacter.1                     AACCCCCUGAU.AUCU.UUCUCA.ACUUGG.CGGAAG.GGU....AGAU.
+E.amylovora.1                      AACCCCCUGAUCCCUGUAGAAAA.CUUUGGCCGGUCU.ACU....CAGGA
+K.pneumoniae.1                     AACCCCCUGAUCCUAU.UUCAGAACUUUGGCCGGCUC.GGA....AUAGA
+Yersinia_pseudotuber.1             AACCCCCCGAUUUCUA.GCUAUCAACUUGGCGGAAGGUGAC....UAGAC
+Yersinia_pestis_biov.1             AACCCCCUGAAAUCUG...CUUCAACUUGGCGGGAGA.GA.....CAGAG
+Y.enterocolitica.1                 AAGCCCCCGAAUCUCUAUUCACAAUCUUGG.CGGAUG.GGUUUAGAGAGA
+#=GC SS_cons                       .<<<<<<<<<<.<<<<.<<<.<<...AAAAAAAA.>>.>>>....>>>>.
+#=GC RF                            AACCCCCuGAuacccu.cccacaAacUUGGCcGGaug.ggg....agggA
+
+C.freundii.1                       AUCAGGGGGCGCAA..ACUGCCUUGCUGGCAGA.AAGGAUUAUAGCAAAU
+Enterobacter.1                     AUCAGGGGGUCCAAAAGCAGGCGCGAUGCCUGUGAAGGAUUAUAACGCAU
+E.amylovora.1                      AUCAGGGGGUGCAA..ACUGCCCA.CUGGCAGA.AAGGAUUAUAGCAAAU
+K.pneumoniae.1                     AUCAGGGGGUGCAA..ACUGCCCA.CUGGCAGA.AAGGAUUAUAGCAAAU
+Yersinia_pseudotuber.1             AUCGAGGGGU.......UAGGUAU.AAACCUAUGAAGGAUUAUAACGCAU
+Yersinia_pestis_biov.1             AUCAGGGGGUCCAAAAGCAGGCGC.UGGCCUGUGAAGGAUUAUAGCAAAU
+Y.enterocolitica.1                 AUCAGGGGCUCAAA.UACUGGCUG.CUGCCAGC.AAGGAUUAUAACGCAU
+#=GC SS_cons                       >>>>>>>>>>........................................
+#=GC RF                            aUCaGGGGGUccAA.AaCuGgCua.cUGcCaGa.AAGGAUUAUAgCAAAU
+
+C.freundii.1                       GCGUACCCUAUUGCAAUACAGCCCGGCCAAUAAG
+Enterobacter.1                     GCACCAUAGAAAACAAUAC...CCGGCCGCCCUA
+E.amylovora.1                      GCGUAACCUAUUGCAAUACAGCCCGGCCAAUAUG
+K.pneumoniae.1                     GCGUACCCUAUUGCAAUACAGCCCGGCCAAUAUG
+Yersinia_pseudotuber.1             GUUUGCUCUAAAACAACCCCAUUCUGCCAUAAGC
+Yersinia_pestis_biov.1             GCAUAACCUAACACAACCCCU.CAGACUCGCCAU
+Y.enterocolitica.1                 GUACAAUCCAAAUCAAGCCUU.CCGACCCGCCAU
+#=GC SS_cons                       ......................aaaaaaaa....
+#=GC RF                            GCauAAccuAaaaCAAuaCagcCcGgCcaacaau
+//

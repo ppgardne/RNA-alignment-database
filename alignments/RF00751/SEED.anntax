@@ -1,0 +1,51 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-12
+#=GF AC    RF00751
+#=GF DE    microRNA mir-12
+#=GF AU    Wilkinson A
+#=GF GA    40.0
+#=GF NC    25.9
+#=GF TC    49.1
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000181
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    8
+
+#=GS T.castaneum.1     AC    AAJJ01005828.1/1033-1102
+#=GS D.grimshawi.1     AC    AAPT01019076.1/28067-28140
+#=GS D.pseudoobscura.1 AC    AADE01000788.1/13719-13792
+#=GS D.simulans.1      AC    AASS01036731.1/415-488
+#=GS D.sechellia.1     AC    AAKO01004048.1/21405-21478
+#=GS A.mellifera.1     AC    AADG05008150.1/22436-22506
+#=GS N.vitripennis.1   AC    AAZX01000006.1/25515-25586
+#=GS A.californica.1   AC    AASC02002547.1/157295-157360
+
+T.castaneum.1                 AGGGUUUGAGUAUUACAUCAGGUACUGGUUCGGU....UUUGAAAAACCG
+D.grimshawi.1                 UACGGUUGAGUAUUACAUCAGGUACUGGUGUGCCAUUUAACCAACAACCA
+D.pseudoobscura.1             UACGGCUGAGUAUUACAUCAGGUACUGGUGUGCUUUAAAUCCAACAACCA
+D.simulans.1                  UACGGUUGAGUAUUACAUCAGGUACUGGUGUGCCUGAAAUCCAACAACCA
+D.sechellia.1                 UACGGUUGAGUAUUACAUCAGGUACUGGUGUGCCUGAAAUCCAACAACCA
+A.mellifera.1                 UGGGUGUGAGUAUUACAUCAGGUACUGGUGUGAU...AUUCAGACAACCA
+N.vitripennis.1               AGGGUGUGAGUAUUACAUCAGGUACUGGUGU..CUUUUUUUCAGCGACCA
+A.californica.1               UAGGUGUGAGUAUUACUUCAGGUACUGAG......UGAAUGAG...GUCA
+#=GC SS_cons                  <<<<<<..<<<<<.<<<<.<<<<<<<<<<<<............>>.>>>>
+#=GC RF                       cgggcgUGaGuauUaCaccagGuaCuGgugcgauauaAauuaagcAacCa
+
+T.castaneum.1                 GUCCCUGA.GUAACACUUACAUUCU
+D.grimshawi.1                 GUACUUAU.GUCAUACUACGCCGUG
+D.pseudoobscura.1             GUACUUAU.GUUAUACUACGCCGUG
+D.simulans.1                  GUACUUGU.GUCAUACUACGCCGUG
+D.sechellia.1                 GUACUUGU.GUCAUACUACGCCGUG
+A.mellifera.1                 GUACUUGU.GUUAUACUUACGCUCA
+N.vitripennis.1               GUACUUGU.GUUAUACUUGCGUUCG
+A.californica.1               GUACCUAAUGUGAUAUUCUCAUCUG
+#=GC SS_cons                  >>>>>>>>.>>.>>>>>..>>>>>>
+#=GC RF                       GuaCcugu.GuaauaCuaacgcccg
+//

@@ -1,0 +1,101 @@
+# STOCKHOLM 1.0
+#=GF ID    Tombus_5
+#=GF AC    RF00171
+#=GF DE    Tombusvirus 5' UTR
+#=GF AU    Griffiths-Jones SR, Moxon SJ
+#=GF GA    35.0
+#=GF NC    25.2
+#=GF TC    41.7
+#=GF SE    Griffiths-Jones SR
+#=GF SS    Published; PMID:11162089
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000204 SO:five_prime_UTR
+#=GF RN    [1]
+#=GF RM    11162089
+#=GF RT    An RNA domain within the 5' untranslated region of the tomato bushy
+#=GF RT    stunt virus genome modulates viral RNA replication.
+#=GF RA    Wu B, Vanti WB, White KA;
+#=GF RL    J Mol Biol 2001;305:741-756.
+#=GF RN    [2]
+#=GF RM    13130137
+#=GF RT    A second functional RNA domain in the 5' UTR of the Tomato bushy
+#=GF RT    stunt virus genome: Intra- and interdomain interactions mediate viral
+#=GF RT    RNA replication.
+#=GF RA    Ray D, Wu B, White KA;
+#=GF RL    RNA 2003;9:1232-1245.
+#=GF RN    [3]
+#=GF RM    15367615
+#=GF RT    Structural properties of a multifunctional T-shaped RNA domain that
+#=GF RT    mediate efficient tomato bushy stunt virus RNA replication.
+#=GF RA    Ray D, Na H, White KA;
+#=GF RL    J Virol 2004;78:10490-10500.
+#=GF CC    Tomato bushy stunt virus is the prototype member of the Tombusviridae
+#=GF CC    family.  In addition to viral proteins p33 and the RNA-dependent RNA 
+#=GF CC    polymerase p92, and unknown host factors, RNA signals within the UTRs
+#=GF CC    are necessary for genome replication.  2 RNA domains in the 5' UTR
+#=GF CC    have been reported [1,2], a 5' T-shaped domain (TSD) followed by a 
+#=GF CC    stem-loop (SL5) and a downstream domain (DSD).  These domains are 
+#=GF CC    combined into a single family here.  Reference [2] proposes that 
+#=GF CC    TSD-DSD interactions are involved in the mediation of viral RNA 
+#=GF CC    replication.  The full alignment of this family contains a number of 
+#=GF CC    defective interfering (DI) deletion mutants, used to study RNA virus
+#=GF CC    replication.
+#=GF WK    http://en.wikipedia.org/wiki/Tombusvirus_5'_UTR
+#=GF SQ    9
+
+#=GS Tomato_bushy_stunt_v.1 AC    M21958.1/2-168
+#=GS Carnation_Italian_ri.1 AC    X85215.2/2-146
+#=GS Tomato_bushy_stunt_v.2 AC    U80935.1/2-169
+#=GS Tomato_bushy_stunt_v.3 AC    AJ249740.1/2-171
+#=GS Cucumber_necrosis_vi.1 AC    M25270.1/3-154
+#=GS Pear_latent_virus.1    AC    AY100482.1/2-169
+#=GS Cucumber_Bulgarian_l.1 AC    AY163842.1/2-137
+#=GS Cymbidium_ringspot_v.1 AC    X15511.1/2-163
+#=GS Artichoke_mottled_cr.1 AC    X62493.1/2-182
+
+Tomato_bushy_stunt_v.1             .AAAUUCUCCAGGAUUUCUCGACC..UAGUUCGUUU...AUCUGGUGACU
+Carnation_Italian_ri.1             GAAAUAUCUCAGGAUUU...GACC...............GUCCGGUGAGU
+Tomato_bushy_stunt_v.2             GAAAUUCCCCAGGAUUUCUCGACC..UAGUACGUCU...ACCUGGUGACU
+Tomato_bushy_stunt_v.3             GAAAUUCCCCAGGAUUUCUCGACC..UAGUUCGUUGUU.AUCUGGUGACU
+Cucumber_necrosis_vi.1             .AAAUUCUCCAGGAUUUCUCAACC..UUGGUUGUGCU..AUCUGGUGACU
+Pear_latent_virus.1                GAAAUUCCUCAG.AUUUCUC..CCUGUUGACCAGGAGUUAU.CGGUGAGU
+Cucumber_Bulgarian_l.1             GAAAUUCUCCAGCCU.....GACC...............AGGUGGUGAGU
+Cymbidium_ringspot_v.1             GAAAUCCUCCAGGACACCUCGACC..UAGGUUGUGU...AUCCGGUGAUU
+Artichoke_mottled_cr.1             .AAAUUCUCCAGGAUUUCUCGACC..UCGGUUGUUUU..AUCUGGUAGUU
+#=GC SS_cons                       <<<<<<<<<..<<<<........................>>>>.......
+
+Tomato_bushy_stunt_v.1             UGCGC.UACCGUUGCUUUGCGUAGAGAAUUUCUCUCCA....UAAUUAUU
+Carnation_Italian_ri.1             UGCGC...UUAUCACU.UGCGUAAGGUAUUUCUCUCUUCA..UUGUUCAU
+Tomato_bushy_stunt_v.2             UGCGCUGUCUGUUGCUUUGCGUAGGGAAUUUCUCUCCA....AUAUUAUU
+Tomato_bushy_stunt_v.3             UGCGCUAACUGUUGCUUUGCGUAGAGAAUUUCUCUCCU....UUGUUAAU
+Cucumber_necrosis_vi.1             UGCGC...GUGUUGUC.UGCGUAGAGAAUUUCUCUCCU....UAACCAA.
+Pear_latent_virus.1                UGCGC...UUUGUGCUUUGCGUAAGGGAUUUCUCUCGUACAGGUACGAUC
+Cucumber_Bulgarian_l.1             UGCGG....UGUUGUCUACCGUAGAGGAUUUCUCUCGU....GCCUUGUU
+Cymbidium_ringspot_v.1             UGCGU..ACUGUUGCUUUGCGUAGAGGAUUUCUCUCCU....GUUCACUA
+Artichoke_mottled_cr.1             UGCGCUAAUCUUCGCUUUGCGUAGGGAAUUUCUCUCCU....UAAUACAU
+#=GC SS_cons                       <<<<<.............>>>>>>>>>>>>>>.<<<<<............
+
+Tomato_bushy_stunt_v.1             AUCUUUAGUUGUGGGGUUUGAAGGUUGGGUCUACCUU..UCGGGG.....
+Carnation_Italian_ri.1             AUG........GAGGGUUUGAAGGCUGAGUCUACCACAACUGUGG.....
+Tomato_bushy_stunt_v.2             AUCUUUAAUU.UGGGGUUUGAAGGUUGGGUCUACCCU..UCGGGG.....
+Tomato_bushy_stunt_v.3             UCUUUGACUU.AGGGGUUUGAAGGUUGGGUCUACCUU..UCGGGG.....
+Cucumber_necrosis_vi.1             ..........AAGGGGUUUGAAGACUGGGUCUACCGC..UUGCGG.....
+Pear_latent_virus.1                UCGGACCAGCUACGGGUUUGAAGGGUGAGCCUAUUCU..UCGGAA.....
+Cucumber_Bulgarian_l.1             ...........ACGGGUUUGAAGGGCGAGCCUAUCU...UC.GGA.....
+Cymbidium_ringspot_v.1             C.....AUAUCAGGGGUUUGAAGGCAGGGUCUACCUU..UCGGGG.....
+Artichoke_mottled_cr.1             UUCUG.AGUUAAGGGGUUUGAAGGUUGGGUCUAUCUU..UUGAGUUUAUC
+#=GC SS_cons                       ...........>>>>>.......<<<<<.<<<.<<<......>>>.....
+
+Tomato_bushy_stunt_v.1             ........GGAUAAAUUGUAACUUCCAACAAACAAGCGACAUG
+Carnation_Italian_ri.1             ........GGAUAAAUUGUAACUUUCAGCAAACA.GUG..AUG
+Tomato_bushy_stunt_v.2             ........GGAUAAAUUGUAACUUCCAACAAAUAAGCGACAUG
+Tomato_bushy_stunt_v.3             ........GGAUAAAUUGUAACUUCCAACAAACAAGCAACAUG
+Cucumber_necrosis_vi.1             .........GAUAAAUUGUAACUUCCAGUAAACGA.CGACAUG
+Pear_latent_virus.1                ........GGGUAAAUUGUAACUUUCACC.AAUAAGCA..AUG
+Cucumber_Bulgarian_l.1             ........GGGUAAAUUGUAACUUUCGCCAAACAGG.ACUAUG
+Cymbidium_ringspot_v.1             ........GGAUAAAUUGUAACUUCCUGCAAAUAAGCAAAAUG
+Artichoke_mottled_cr.1             UCACUAGAGGAUAAAUUGUAACUUCCAACAAAUAAGCGAUAUG
+#=GC SS_cons                       ........>>>.............>>>>>..............
+//

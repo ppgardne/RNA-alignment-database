@@ -1,0 +1,49 @@
+# STOCKHOLM 1.0
+#=GF ID    MIR1023
+#=GF AC    RF01043
+#=GF DE    microRNA MIR1023
+#=GF AU    Wilkinson A, Daub J
+#=GF GA    45.0
+#=GF NC    38.8
+#=GF TC    48.6
+#=GF SE    miRBase; Wilkinson A, Daub J
+#=GF SS    Predicted; RNAalifold
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000396
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    4
+
+#=GS P.patens.1 AC    ABEU01004286.1/181732-181899
+#=GS P.patens.2 AC    ABEU01004783.1/104781-104949
+#=GS P.patens.3 AC    ABEU01011925.1/25179-25350
+#=GS P.patens.4 AC    ABEU01008017.1/44387-44527
+
+P.patens.1             ...GCGCAGUU.ACACAGCUUGCAUUUC.GGUGUCCACUCUCUCCGUUUC
+P.patens.2             GGAGCG.AUUGGAC.CACCUUGCAGUUUCAUGGCACACUCUCUCCAUUUC
+P.patens.3             GAAGCGCGGCGGGC.CAGCUUGCAAUUUCAUGACACACUCUCUCCAUUUC
+P.patens.4             ....UGUAGAAGAUGCAGCUUGCAGAUU.AUCAUCCACUCUCUCCGUUUC
+#=GC SS_cons           ................<<<<<<<<<<<<.<<<<<.<<<<<<<<<<<.<<<
+
+P.patens.1             CCUUCCCAUGAUGGCUAGCCUUGAGUAAGUACAUAUGUUUUGAACACAUG
+P.patens.2             UCUACCGUUCAUGCAGCGGUUGAUCGAUUGGGUUGCUGGUUG.AUUGAUC
+P.patens.3             UCUGCCUGUCAUGACUUGGUUGAUCGAUGGAGCGGUGGUUUUCAUUGCCC
+P.patens.4             CCUUCCCACAGCUAUCAUCCG.GACUAG.....CAUUUCCUGUACAUAC.
+#=GC SS_cons           <<<<<<<...............<<<<<<<<...................>
+
+P.patens.1             UAUGCUUGCUUAAAAUCCUUUGUCGGAGGGAAUCGGAAAGAGUGUACAAU
+P.patens.2             GAUCGAUGGUCAGGA....GUUGGA.AGAGAAUUGGAGAGAGUGCAUUGU
+P.patens.3             GAUUGAGGAUCAGGA....GUUGGGGAGAGAAUUGAAGAGAGUGCAUUGU
+P.patens.4             ....................UAGGGAAGGGAAAUGGAGAGAGUGUAUAAU
+#=GC SS_cons           >>>>>>>...............>>>>>>>>>>.>>>>>>>>>>>.>>>>>
+
+P.patens.1             GAAUUGCAAGCUUGAUUGAUUCG....
+P.patens.2             GAAUUGCGGGGUUGACGAGGCGGAGGG
+P.patens.3             GAAUUGCAAGCUCCUCCUUUCUUUUCG
+P.patens.4             GAAUUGCAUGCUUGAUUGCUGAG....
+#=GC SS_cons           >>>>>>>>>>>>...............
+//

@@ -1,0 +1,58 @@
+# STOCKHOLM 1.0
+#=GF ID    snoR79
+#=GF AC    RF00323
+#=GF DE    Small nucleolar RNA R79
+#=GF AU    Moxon SJ
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    25.2
+#=GF SE    Moxon SJ
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF RN    [1]
+#=GF RM    12007400
+#=GF RT    Small nucleolar RNAs: an abundant group of noncoding RNAs with
+#=GF RT    diverse cellular functions.
+#=GF RA    Kiss T;
+#=GF RL    Cell 2002;109:145-148.
+#=GF RN    [2]
+#=GF RM    12477388
+#=GF RT    Experimental RNomics: identification of 140 candidates for small
+#=GF RT    non-messenger RNAs in the plant Arabidopsis thaliana.
+#=GF RA    Marker C, Zemann A, Terhorst T, Kiefmann M, Kastenmayer JP, Green P,
+#=GF RA    Bachellerie JP, Brosius J, Huttenhofer A;
+#=GF RL    Curr Biol 2002;12:2002-2013.
+#=GF CC    R79 is a member of the C/D class of snoRNA which contain the C (UGAUGA)
+#=GF CC    and  D (CUGA) box motifs. Most of the members of the box C/D family
+#=GF CC    function in directing site-specific 2'-O-methylation of substrate RNAs
+#=GF CC    [1].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_R79
+#=GF SQ    5
+
+#=GS A.thaliana.1 AC    AF318009.1/1-65
+#=GS A.thaliana.2 AC    AJ429613.1/1-65
+#=GS A.thaliana.3 AC    AJ429614.1/1-63
+#=GS A.thaliana.4 AC    AF262038.1/28852-28916
+#=GS A.thaliana.5 AC    AK221296.1/1548-1612
+
+A.thaliana.1             GAAGGUGAUGAUGAUAAAGAUGAACGCUUGGGAACUUCGACUGACAGUGA
+A.thaliana.2             GAAGGUGAUGAUGAUAAAGAUGAACGCUUGGGAACUUCGACUGACAGUGA
+A.thaliana.3             ..AGGUGAUGAUGAUAAAGAUGAACGCUUGGGAACUUCGACUGACAGUGA
+A.thaliana.4             GUAGGUGAUGAUGAUAAAGAUGAACGCUUGGGAACUUCGACUGACAGUGA
+A.thaliana.5             GUAGGUGAUGAUGAUAAAGAUGAACGCUUGGGAACUUCGACUGACAGUGA
+#=GC SS_cons             <<<<<.............................................
+#=GC RF                  GaagGUGAUGAUGAUAAAGAUGAACGCUUGGGAACUUCGACUGACAGUGA
+
+A.thaliana.1             GAACACUGAACUUUC
+A.thaliana.2             GAACACUGAACUUUC
+A.thaliana.3             GAACACUGAACUUUC
+A.thaliana.4             GAACACUGAACUUUC
+A.thaliana.5             GAACACUGAACUUUC
+#=GC SS_cons             ..........>>>>>
+#=GC RF                  GAACACUGAACuuuC
+//

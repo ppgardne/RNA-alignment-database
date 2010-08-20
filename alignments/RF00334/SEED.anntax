@@ -1,0 +1,86 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORA3
+#=GF AC    RF00334
+#=GF DE    Small nucleolar RNA SNORA3/SNORA45 family
+#=GF AU    Moxon SJ, Daub J
+#=GF GA    25.0
+#=GF NC    24.2
+#=GF TC    25.1
+#=GF PI    snoMBI-28
+#=GF SE    INFERNAL
+#=GF SS    Predicted; RNAalifold
+#=GF TP    Gene; snRNA; snoRNA; HACA-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    snoRNABase; ACA3
+#=GF DR    snoRNABase; ACA3-2
+#=GF DR    SO:0000594 SO:H_ACA_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Mus_musculus300761
+#=GF DR    snoopy; Homo_sapiens300363
+#=GF RN    [1]
+#=GF RM    15199136
+#=GF RT    Human box H/ACA pseudouridylation guide RNA machinery.
+#=GF RA    Kiss AM, Jady BE, Bertrand E, Kiss T;
+#=GF RL    Mol Cell Biol. 2004;24:5797-5807.
+#=GF RN    [2]
+#=GF RM    11387227
+#=GF RT    RNomics: an experimental approach that identifies 201 candidates for
+#=GF RT    novel, small, non-messenger RNAs in mouse.
+#=GF RA    Huttenhofer A, Kiefmann M, Meier-Ewert S, O'Brien J, Lehrach H,
+#=GF RA    Bachellerie JP, Brosius J;
+#=GF RL    EMBO J 2001;20:2943-2953.
+#=GF RN    [3]
+#=GF RM    16361266
+#=GF RT    A novel experimental approach for systematic identification of box
+#=GF RT    H/ACA snoRNAs from eukaryotes.
+#=GF RA    Gu AD, Zhou H, Yu CH, Qu LH;
+#=GF RL    Nucleic Acids Res. 2005;33:e194.
+#=GF RN    [4]
+#=GF RM    16381836
+#=GF RT    snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D box
+#=GF RT    snoRNAs.
+#=GF RA    Lestrade L, Weber MJ;
+#=GF RL    Nucleic Acids Res. 2006;34:D158-D162.
+#=GF CC    The members of this family belong to the H/ACA class of snoRNAs
+#=GF CC    which are thought to guide the sites of modification of uridines
+#=GF CC    to pseudouridines [1]. This family includes mouse snoMBI-28 and
+#=GF CC    human homologues ACA3 (SNORA3) and ACA3-2 (SNORA45).  Both ACA3
+#=GF CC    and ACA3-2 share the same host gene [3]. MBI-28, ACA3 and ACA3-2
+#=GF CC    are all predicted to guide the pseudouridylation of residues
+#=GF CC    in 28S rRNA [1,2,3].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_MBI-28
+#=GF SQ    6
+
+#=GS M.musculus.1 AC    AB020237.1/3193-3322
+#=GS M.musculus.2 AC    AF357390.1/1-120
+#=GS H.sapiens.1  AC    AJ609428.1/1-130
+#=GS H.sapiens.2  AC    AB020236.1/2404-2533
+#=GS H.sapiens.3  AC    AC104360.8/61997-62127
+#=GS H.sapiens.4  AC    AB020236.1/3615-3745
+
+M.musculus.1             GCCGAGGCUAGAGUCACAUCCUGACA.UGGUGCUUGUCCUGGUGUGCUAC
+M.musculus.2             ............GUCACGCUCAGGUAUUGCUUGUUGCCUUAGUGUGCUUA
+H.sapiens.1              AUCGAGGCUAGAGUCACGCUUGGGUAUCGGCUAUUGCCUGAGUGUGCUAG
+H.sapiens.2              AUCGAGGCUAGAGUCACGCUUGGGUAUCGGCUAUUGCCUGAGUGUGCUAG
+H.sapiens.3              GCCGAGACUAGAGUCACAUCCUGACA.CAACUCUUGUCCUGGUGUGCUAG
+H.sapiens.4              GCCGAGACUAGAGUCACAUCCUGACA.CAACUCUUGUCCUGGUGUGCUAG
+#=GC SS_cons             .<<<<<<<<..<<.<<<<<<..<<<<........>>>>..>>>>>>>>..
+
+M.musculus.1             AGUUCUCGGAGAGAAUCG.CUGGUCUUGAUUCAUUGGUAGGG.GCCUUCA
+M.musculus.2             AGUCCUCGAAGAAUAACUGCUGACCUU.AUUCACUGGCUGUGUGGACUUU
+H.sapiens.1              AGUCCUCGAAGAGUAACUGCUGACCUU.AUUCACUGGCUGUG.GGCCUUA
+H.sapiens.2              AGUCCUCGAAGAGUAACUGCUGACCUU.AUUCACUGGCUGUG.GGCCUUA
+H.sapiens.3              AGUACUCGAAGAGAAUCUACUGGUCUUGAUUCACUGGUGGGG.GCAGUCG
+H.sapiens.4              AGUACUCGAAGAGAAUCUACUGGUCUUGAUUCACUGGUGGGG.GCAGUCG
+#=GC SS_cons             >>>.>>>>>..........<<<<<<<.<...<<<<<<.<<<<.<<.....
+
+M.musculus.1             GUGUCCCUUCUAGUGCCCAGAUCAGAAACAUGG
+M.musculus.2             CUGGCACAGUCAGUCACCAGGUUAGUGACAUAU
+H.sapiens.1              UG.GCACAGUCAGUCACCAGGUUAGAGACAUGC
+H.sapiens.2              UG.GCACAGUCAGUCACCAGGUUAGAGACAUGC
+H.sapiens.3              GUGCCCCCGUUAGUGCCCAGAUCAGAAACAUAC
+H.sapiens.4              GUGCCCCCGUUAGUGCCCAGAUCAGAAACAUAC
+#=GC SS_cons             ..>>>>>>.>>>>>>.>.>>>>>>>........
+//

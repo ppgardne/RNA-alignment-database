@@ -1,0 +1,49 @@
+# STOCKHOLM 1.0
+#=GF ID    SVLPA
+#=GF AC    RF00491
+#=GF DE    Simian virus 40 late polyadenylation signal (SVLPA)
+#=GF AU    Moxon SJ
+#=GF GA    21.0
+#=GF NC    0.0
+#=GF TC    27.3
+#=GF SE    PMID:15024068
+#=GF SS    Published; PMID:15024068
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    15024068
+#=GF RT    Secondary structure as a functional feature in the downstream region
+#=GF RT    of mammalian polyadenylation signals.
+#=GF RA    Wu C, Alwine JC;
+#=GF RL    Mol Cell Biol 2004;24:2789-2796.
+#=GF CC    This family represents the simian virus 40 late polyadenylation signal
+#=GF CC    (SVLPA). SVLPA is a structured element which promotes efficient
+#=GF CC    polyadenylation [1].
+#=GF WK    http://en.wikipedia.org/wiki/Simian_virus_40_late_polyadenylation_signal_(SVLPA)
+#=GF SQ    6
+
+#=GS M.musculus.1      AC    AB058960.1/142-196
+#=GS H.sapiens.1       AC    X89399.1/2743-2797
+#=GS H.sapiens.2       AC    Z96177.1/274-328
+#=GS Simian_virus_40.1 AC    AF180737.1/2602-2650
+#=GS Simian_virus_40.2 AC    AF180738.1/102-156
+#=GS Simian_virus_40.3 AC    AF180739.1/102-150
+
+M.musculus.1                  CAACAAUUGCAUUCAUUUUAUGUUUCAGGUUCAGGGGGAGGUGUGGGAGG
+H.sapiens.1                   CAACAAUUGCAUUCAUUUUAUGUUUCAGGUUCAAGGGGAGAUGUGGGAGG
+H.sapiens.2                   CAACAAUUGCAUUCAUUUUAUGUUUCAGGUUCANGGGGAGGUGUGGGANG
+Simian_virus_40.1             CAACAAUUGCAUUCAUUUUAUGUUUCAGGUUCAGGGGGAGGUG......G
+Simian_virus_40.2             CAACAANNGCAUUCAUUUUAUGUUUCAGGUUCAGGGGGAGGUGUGGGAGG
+Simian_virus_40.3             CANCAAUUGCAUUCAUUUUAUGUUUCAGGUUCAGGGGGAGGUG......G
+#=GC SS_cons                  ......<<<<<<<..<<<<...............>>>>.>>>>>>>....
+
+M.musculus.1                  UUUUU
+H.sapiens.1                   UUUUU
+H.sapiens.2                   UUUUU
+Simian_virus_40.1             UUUUU
+Simian_virus_40.2             UUUUU
+Simian_virus_40.3             UUUUU
+#=GC SS_cons                  .....
+//

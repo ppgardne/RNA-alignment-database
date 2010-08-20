@@ -1,0 +1,76 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORA65
+#=GF AC    RF00302
+#=GF DE    Small nucleolar RNA SNORA65
+#=GF AU    Moxon SJ
+#=GF GA    23.0
+#=GF NC    0.0
+#=GF TC    24.1
+#=GF PI    U65
+#=GF SE    Moxon SJ
+#=GF SS    Predicted; RNAalifold
+#=GF TP    Gene; snRNA; snoRNA; HACA-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000594 SO:H_ACA_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Mus_musculus300367
+#=GF DR    snoopy; Oryzias_latipes300066
+#=GF RN    [1]
+#=GF RM    11387227
+#=GF RT    RNomics: an experimental approach that identifies 201 candidates for
+#=GF RT    novel, small, non-messenger RNAs in mouse.
+#=GF RA    Huttenhofer A, Kiefmann M, Meier-Ewert S, O'Brien J, Lehrach H,
+#=GF RA    Bachellerie JP, Brosius J;
+#=GF RL    EMBO J 2001;20:2943-2953.
+#=GF RN    [2]
+#=GF RM    12007400
+#=GF RT    Small nucleolar RNAs: an abundant group of noncoding RNAs with
+#=GF RT    diverse cellular functions.
+#=GF RA    Kiss T;
+#=GF RL    Cell 2002;109:145-148.
+#=GF CC    U65 belongs to the H/ACA class of snoRNAs which are thought to guide the
+#=GF CC    sites of modification of uridines to pseudouridines [1,2]. 
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_SNORA65
+#=GF SQ    8
+
+#=GS M.musculus.1 AC    AC154504.2/92059-92187
+#=GS M.musculus.2 AC    AC156290.10/22538-22658
+#=GS M.musculus.3 AC    AC130841.4/21298-21411
+#=GS M.musculus.4 AC    BC075731.1/796-925
+#=GS M.musculus.5 AC    AL662817.11/27507-27635
+#=GS M.musculus.6 AC    AF357418.1/1-118
+#=GS H.sapiens.1  AC    AL445222.9/104295-104424
+#=GS H.sapiens.2  AC    Y11159.1/8-137
+
+M.musculus.1             CCCGCCACUGCACCUGACCAG.UAU.UGUUGGCUGGUGCAAUCCAGUGGU
+M.musculus.2             CCCACCACUG.ACCUGACCAG.UAU.GGUUGGCUGGUACAAUAUAGUAGU
+M.musculus.3             CUGAAUACUGUAACGGUCCCCUUUAAAAGAACGAGGA....CUCAGUGCU
+M.musculus.4             CCCGCCACUGCACCUGACCAG.UAU.UGUUGGCUGGUGCAAUCCAGUGGU
+M.musculus.5             AAAGCCACUGCACCUGACCAG.UAU.UGUUGGCUGGUGCAACACAGUGGU
+M.musculus.6             ..........CACCUGACCAG.UAU.UGUUGGCUGGUGCAAUCCAGUGGU
+H.sapiens.1              CCCGCCACUGCACCUGACCAGGUCUCUGUUGGCUGGUGCAAUCCAGUGGU
+H.sapiens.2              CCCGCCACUGCACCUGACCAGGUCUCUGUUGGCUGGUGCAAUCCAGUGGU
+#=GC SS_cons             ....<<<<<<......<<<<<.<<.....>>.>>>>>......>>>>>>.
+
+M.musculus.1             GAGCUGACAGUGAGCCC.AGCUUUUAGGAAACAGGGCUGUCCUACAUGUG
+M.musculus.2             GAACUGACAGUGAGCCCCAGCUUUCAGGGAAUGGGGCUGUCCUACAUAUG
+M.musculus.3             GAGCUGACAGGAAGCCC..............CAGGGUUGUCCUACAUGUG
+M.musculus.4             GAGCUGACAGUGAGCCCCAGCUUUUAGGAAACAGGGCUGUCCUACAUGUG
+M.musculus.5             GAGCUGACAAUAAGCCC.AGCUUUUAGGAAACAGGGCUGUCCUACAUGUG
+M.musculus.6             GAGCCGACAGUGAGCCCCAGCUUUUAGGAAACAGGGCUGUCCUACAUGUG
+H.sapiens.1              GAGCUGAUAGUAAACCCCAGCUU..AGGAAACAGGGUUGUUCUUCAUGUG
+H.sapiens.2              GAGCUGAUAGUAAACCCCAGCUU..AGGAAACAGGGUUGUUCUUCAUGUG
+#=GC SS_cons             ..............<<<.<<<<<...<<...<<<<<<..<<<.......>
+
+M.musculus.1             GAUGGCUCUGUGCCGAAAGCGUGGGAACAGCC
+M.musculus.2             AAU........GUUGAAAGCAUGGGAACACCC
+M.musculus.3             GGUGACUCUGUGCUGAAAGCAUGGGAACAGCC
+M.musculus.4             GAUGGCUCUGUGCCGAAAGCAUGGGAACAGCC
+M.musculus.5             GAUGGCUCUGUGCCGAAAGCAUGGAAACAGCC
+M.musculus.6             GAUGGCUCUGUGCCGAAAGCAUGGGAACAG..
+H.sapiens.1              GAUGACUCUGUGCCGAAAGCAUGGGAACAGCC
+H.sapiens.2              GAUGACUCUGUGCCGAAAGCAUGGGAACAGCU
+#=GC SS_cons             >>..>>>>>>..>>..>>>>.>>>>.......
+//

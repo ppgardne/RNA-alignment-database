@@ -1,0 +1,111 @@
+# STOCKHOLM 1.0
+#=GF ID    Retro_dr1
+#=GF AC    RF00214
+#=GF DE    Retrovirus direct repeat 1 (dr1)
+#=GF AU    Moxon SJ
+#=GF GA    22.0
+#=GF NC    0.0
+#=GF TC    22.5
+#=GF SE    PMID:10438832
+#=GF SS    Published; PMID:10438832
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    10438832
+#=GF RT    Point mutations in the avian sarcoma/leukosis virus 3' untranslated
+#=GF RT    region result in a packaging defect.
+#=GF RA    Aschoff JM, Foster D, Coffin JM;
+#=GF RL    J Virol 1999;73:7421-7429.
+#=GF CC    This family represents the direct repeat 1 (dr1) element commonly found in
+#=GF CC    the 3' UTR of Avian sarcoma, Rous sarcoma and Avian leukosis viruses
+#=GF CC    (Alpharetroviruses and Avian type C retroviruses). dr1 is required for
+#=GF CC    efficient viral replication and is thought to be involved in genomic RNA
+#=GF CC    packaging although this may not be its only role [1].
+#=GF WK    http://en.wikipedia.org/wiki/Retrovirus_direct_repeat_1_(dr1)
+#=GF SQ    26
+
+#=GS Rous_sarcoma_virus.1    AC    U41726.1/76-165
+#=GS Avian_leukosis_virus.1  AC    AF305091.1/1768-1857
+#=GS Rous_sarcoma_virus.2    AC    V01197.1/6897-6989
+#=GS Rous_sarcoma_virus.3    AC    K03366.1/170-260
+#=GS Avian_leukosis_virus.2  AC    AF307952.1/1793-1882
+#=GS Rous_sarcoma_virus.4    AC    M84475.1/1968-2057
+#=GS Rous-associated_viru.1  AC    J02295.1/297-386
+#=GS Avian_leukosis_virus.3  AC    AF257656.1/1847-1936
+#=GS Avian_leukosis_virus.4  AC    M14897.1/772-861
+#=GS Avian_leukosis_virus.5  AC    AY027920.1/7037-7126
+#=GS Avian_leukosis_virus.6  AC    M16580.1/249-338
+#=GS Rous_sarcoma_virus.5    AC    X13818.1/316-408
+#=GS Rous_sarcoma_virus_-.1  AC    AF052428.1/6961-7050
+#=GS Avian_leukosis_virus.7  AC    AF307951.1/1793-1882
+#=GS Avian_leukosis_virus.8  AC    Z46390.1/7266-7355
+#=GS Avian_leukosis_virus.9  AC    AF257655.1/1847-1936
+#=GS Rous_sarcoma_virus_-.2  AC    D10652.1/6928-7017
+#=GS Avian_leukosis_virus.10 AC    M16584.1/52-141
+#=GS Rous_sarcoma_virus.6    AC    U41729.1/76-165
+#=GS Rous_sarcoma_virus.7    AC    X03982.1/371-460
+#=GS Rous_sarcoma_virus.8    AC    J02024.1/209-298
+#=GS Avian_leukosis_virus.11 AC    AF307949.1/2012-2101
+#=GS Y73_sarcoma_virus.1     AC    V01170.1/3359-3448
+#=GS Rous_sarcoma_virus.9    AC    L29199.1/784-873
+#=GS Rous_sarcoma_virus.10   AC    K00928.1/783-870
+#=GS Rous_sarcoma_virus.11   AC    K03523.1/182-271
+
+Rous_sarcoma_virus.1                UGUAACGGGGCAUGGCUUAACUAAGGGGACUAUGGCAUGUAUAGGCGAAA
+Avian_leukosis_virus.1              UGUGACGGGGCAAGGCUUGCCUGAGGGGACCAUACUAUGUAUAGGCGCUG
+Rous_sarcoma_virus.2                UGUAACGGGGCAAGGCUUGACCGAGGGGACUAUAACAUGUAUAGGCGAAA
+Rous_sarcoma_virus.3                UGUAACGGG.CAAGGCUUGACUGAGGGGACAAUAGCAUGUUUAGGCGAAA
+Avian_leukosis_virus.2              UGUAACGGGGCAAGGCUUGACUGAGGGGACUGUAGCAUGUAUAGGCGUUG
+Rous_sarcoma_virus.4                UGUAACGGGGCAAGGCUUGACUGAGGGGACAAUAGCAUGUUUAGGCGAAA
+Rous-associated_viru.1              UGUAACGGGGCAAGGCUUGACUGAGGGGACUACAGUAUGUAUAGGCGAAA
+Avian_leukosis_virus.3              UGUAACGGGGCAAGGCUUGACUGAGGGGACCAUAGUAUGUAUAGGCGAAA
+Avian_leukosis_virus.4              UAUAACGGGGCGGGGCUUGGCCGAGGGGACUGUAACAUGUAUAGGCGAAA
+Avian_leukosis_virus.5              UGUGACGGGGCAAGGCUUGACUGAGGGGACCAUACUAUGUAUAGGCGCUG
+Avian_leukosis_virus.6              UGUAACGGGGCAAGGCUUGACUGAGGGGACAAUAGUAUGUUUAGGCGAAA
+Rous_sarcoma_virus.5                UGUAACGGCGCAAGGCUUGACCGAGGGGACUAUAACAUGUAUAGGCGAAA
+Rous_sarcoma_virus_-.1              UGUAACGGGGCAUGGCUUAACUAAGGGGACUAUAGCAUGUAUAGGCGCAA
+Avian_leukosis_virus.7              UGUAACGGGACAAGGCUUGACUGAGGGGACUGUAGCAUGUAUAGGCGCUG
+Avian_leukosis_virus.8              UGUAACGGGGCAAGGCUUGACUGAGGGGACUGCAGCAUGUAUAGGCGCUG
+Avian_leukosis_virus.9              UGUAACGGGGCAAGGCUUGACUGAGGGGACCAUAGUAUGUAUAGGCGAAA
+Rous_sarcoma_virus_-.2              UGUAACGGGGCAUGGCUUAACUAAGGGGACUAUGGCAUGUAUAGGCGCAA
+Avian_leukosis_virus.10             UGUAACGGGGCAUGGCUUAACUAAGGGGACUAUGGCAUGUAUAGGCGCAA
+Rous_sarcoma_virus.6                UGUAACGGGGCAUGGCUUAACUAAGGGGACUAUGGCAUGUAUAGGCGCAA
+Rous_sarcoma_virus.7                UGUAACGGGGCAAGGCUUGACCGAGGGGACUAUAACAUGUAUAGGCGUCA
+Rous_sarcoma_virus.8                UGUAACGGGGCAUGGCUUAACUAAGGGGACUAUGGCAUGUAUAGGCGCAA
+Avian_leukosis_virus.11             UGUAACGGGGCAAGGCUUGACUGAGGGGACUGCGGCAUGUAUAGGCGCUG
+Y73_sarcoma_virus.1                 UGUCACGGGACAAGGCUUGACUGAGGGGACCAUAGCAUGUAUAGGCGAAA
+Rous_sarcoma_virus.9                UGUAACGGGACAUGGCUUAACUAAGGGGACUAUGGCAUGUAUAGGCGCAA
+Rous_sarcoma_virus.10               UGUAACGGGGCAUGGCUUAACUAAGGGGACUAUGGCAUGUAUAGGCGCAA
+Rous_sarcoma_virus.11               UGUAACGGGGCAAGGCUUGACUGAGGGGACUACAGUAUGUAUAGGCGAAA
+#=GC SS_cons                        <<<......>>>.........<<<<<<<<<<..........<<<<<<...
+
+Rous_sarcoma_virus.1                AGCGGGGCUUCGGUUGUA.CGCGG.UUAGGA.GUCCCC.UC.AGG
+Avian_leukosis_virus.1              GGCGGGGCUUCGGUUGUA.CGCGG.AUAGGA.AUCCCC.UC.AGG
+Rous_sarcoma_virus.2                AGCGGGGUCUCGGUUGUAACGCGC.UUAGGAAGUCCCC.UCGAGG
+Rous_sarcoma_virus.3                AGCGGGGCUUCGGUUGUA.CGCGG.UUAGGA.GUCCCCCCUCAGG
+Avian_leukosis_virus.2              UGCGGGGCUUCGGUUGUA.CGCGG.AUAGGA.AUCCCC.UC.AGG
+Rous_sarcoma_virus.4                AGCGGGGCUUCGGUUGUA.CGCGG.UUAGGA.GUCCCC.UC.AGG
+Rous-associated_viru.1              GGCGGGGCUUCGGUUGUA.CGCGG.UUAGGA.GUCCCC.UC.AGG
+Avian_leukosis_virus.3              GGCGGGGCUUCGGUUGUA.CGCGG.UUAGGA.GUCCCC.UC.AGG
+Avian_leukosis_virus.4              AGCGGGGCUGCGGUUAUA.CGCGG.AUAGGA.AUCCCC.UC.AGG
+Avian_leukosis_virus.5              GGCGGGGCUUCGGUUGUA.CGCGG.AUAGGA.AUCCCC.UC.AGG
+Avian_leukosis_virus.6              AGCGGGGCUUCGGUUGUA.CGCGG.UUAGGA.GUCCCC.UC.AGG
+Rous_sarcoma_virus.5                AGCGGGGUCUCGGUUGUAACGCGC.UUAGGAAGUCCCC.UCGAGG
+Rous_sarcoma_virus_-.1              AGCGGGGUUUCGGUUGUA.CGCGA.UUAGGA.GUCCCC.UU.AGG
+Avian_leukosis_virus.7              UGCGGGGCUUCGGUUGUA.CGCGG.AUAGGA.AUCCCC.UC.AGG
+Avian_leukosis_virus.8              GGCGGGGCUUCGGUUGUA.CGCGG.AUAGGA.AUCCCC.UC.AGG
+Avian_leukosis_virus.9              GGCGGGGCUUCGGUUGUA.CGCGG.AUAGGA.AUCCCC.UC.AGG
+Rous_sarcoma_virus_-.2              AGCGGGGUUUCGGUUGUA.CGCGA.UUAGGA.GUCCCC.UU.AGG
+Avian_leukosis_virus.10             AGCGGGGCUUCGGUUGUA.CGGGG.UUAGGA.GUCCCC.UC.AGG
+Rous_sarcoma_virus.6                AGCGGGGUUUCGGUUGUA.CGCGG.UUAGGA.GUCCCC.UU.AGG
+Rous_sarcoma_virus.7                AGCGGGGCUUCGGUUGUA.CGCGG.AUAGGAA.UCCCC.UC.AGG
+Rous_sarcoma_virus.8                AGCGGGGCUUCGGUUGUA.CGCGG.UUAGGA.GUCCCC.UC.AGG
+Avian_leukosis_virus.11             GGCGAGGUUUCGGUUGUA.CGCGG.RUAGGA.AUCCCC.UC.AGG
+Y73_sarcoma_virus.1                 AGCGGGGCUUCGGUUGUA.CGCGG.UUAGGA.GUCCCC.UC.AGG
+Rous_sarcoma_virus.9                AGCGGGGUUUCGGUUGUA.CGCGA.UUAGGA.GUCCCC.UU.AGG
+Rous_sarcoma_virus.10               AGCGGGGUUACG...GUA.CGCGACUUAGGA.GUCCCC.UU.AGG
+Rous_sarcoma_virus.11               GGCGGGGCUGCGGUUGUA.CGCGG.AUAGGA.AUCCCC.UC.AGG
+#=GC SS_cons                        .<<<<........>>>>....>>>.>>>..>.>>>>>>.>>>...
+//

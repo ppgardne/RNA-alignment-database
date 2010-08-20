@@ -1,0 +1,112 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORD18
+#=GF AC    RF00093
+#=GF DE    Small nucleolar RNA SNORD18
+#=GF AU    Griffiths-Jones SR
+#=GF GA    24.0
+#=GF NC    23.7
+#=GF TC    24.2
+#=GF PI    U18
+#=GF SE    Griffiths-Jones SR
+#=GF SS    Predicted; PFOLD; Griffiths-Jones SR
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Mus_musculus300894
+#=GF DR    snoopy; Homo_sapiens300399
+#=GF RN    [1]
+#=GF RM    7507233
+#=GF RT    Two different snoRNAs are encoded in introns of amphibian and human
+#=GF RT    L1 ribosomal protein genes.
+#=GF RA    Prislei S, Michienzi A, Presutti C, Fragapane P, Bozzoni I;
+#=GF RL    Nucleic Acids Res 1993;21:5824-5830.
+#=GF RN    [2]
+#=GF RM    11726521
+#=GF RT    Release of U18 snoRNA from its host intron requires interaction of
+#=GF RT    Nop1p with the Rnt1p endonuclease.
+#=GF RA    Giorgi C, Fatica A, Nagel R, Bozzoni I;
+#=GF RL    EMBO J 2001;20:6856-6865.
+#=GF CC    U18 is a member of the C/D class of snoRNA which contain the
+#=GF CC    C (UGAUGA) and D (CUGA) box motifs.  It is encoded in introns
+#=GF CC    of ribosomal protein L1 in Xenopus and human, and in introns 
+#=GF CC    of elongation factor 1 beta in yeast.  Related snoRNAs in 
+#=GF CC    Arabidopsis and rice have been named R63 and Z106 respectively.
+#=GF CC    Factors involved in the processing of the intronic snoRNA
+#=GF CC    have recently been elucidated [2].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_SNORD18
+#=GF SQ    16
+
+#=GS S.cerevisiae.1 AC    U12981.1/1-88
+#=GS C.albicans.1   AC    X96517.1/284-381
+#=GS S.pombe.1      AC    X61926.1/688-775
+#=GS X.Silurana.1   AC    M15678.1/705-773
+#=GS X.Silurana.2   AC    M15678.1/1373-1441
+#=GS X.Silurana.3   AC    X75486.1/57-126
+#=GS X.laevis.1     AC    X06552.1/5485-5556
+#=GS X.laevis.2     AC    X06552.1/4707-4777
+#=GS X.laevis.3     AC    X06552.1/2182-2251
+#=GS X.laevis.4     AC    X75488.1/49-119
+#=GS X.laevis.5     AC    X06552.1/2863-2934
+#=GS H.sapiens.1    AC    AB061820.1/2178-2249
+#=GS H.sapiens.2    AC    AB061820.1/3401-3472
+#=GS H.sapiens.3    AC    AB061820.1/4174-4242
+#=GS C.elegans.1    AC    Z75111.1/1-65
+#=GS O.sativa.1     AC    AJ307927.1/2-83
+
+S.cerevisiae.1             .GUGAAUGAUGAAUU.UAAUUCUUU.GGUCCGUGUUUAUGA.UGGGAAGU
+C.albicans.1               UUAAAAUGAUGAUCU.CAAUCUUU..GGUCCGUGUUUAUGAGGUGGCCUC
+S.pombe.1                  AAGCUAUGAUGACCA.AAAUU.....GGUCCGUGUUACUGA..GCGGAUU
+X.Silurana.1               UAUACAUGAUGAUCU.CCACUUCU..GGUCCGUGUUUCUGA.........
+X.Silurana.2               UGUUAAUGAUGAGCU.CCACUUCAU.GGUCCGUGUUUCUGA.........
+X.Silurana.3               UGAAUAUGAUGAGUU.CCACUUCAU.GGUCCGUGUUUCUGA.........
+X.laevis.1                 UGUUAAUGAUGAGUU.CCACUUCAUUGGUCCGUGUUUCUGA.........
+X.laevis.2                 UAUACAUGAUGAUUU.CCACUUCUAUGGUCCGUGUUUCUGA.........
+X.laevis.3                 UCGAUAUGAUGAGUU.CCACUUCAU.GGUCCGUGUUUCUGA.........
+X.laevis.4                 UGGAUAUGAUGAGCU.CCACUUCAU.GGUCCGUGUUUCUGA.........
+X.laevis.5                 GCUUUAUGAUGAGCU.CCACUUCUAUGGUCCGUGUUUCUGA.........
+H.sapiens.1                CAGUAGUGAUGAAAUUCCACUUCAUUGGUCCGUGUUUCUGA.........
+H.sapiens.2                UCAAAAUGAUGAGAUUCCACUUAAUUGGUCCGUGUUUCUGA.........
+H.sapiens.3                UUGUUAUGAUGAGAU.UCCACUUAA.GGUCCGUGUUUCUGA.........
+C.elegans.1                UGGCAGUGAUGAUCA.CA........AAUCCGUGUUUCUGA.........
+O.sativa.1                 GGAACAUGAUGAAGAACCAUU.....GGUCCGUGUUUCUGA.........
+#=GC SS_cons               <<<<..............................................
+
+S.cerevisiae.1             AAGACCCC.CGAUAUGAGUGACAA.........AAGAGAUGUGGUUGACU
+C.albicans.1               AAGACCCA.CCGCAUGAGUGACAAAGAAGAUUUAAAUCUUAUAUCUGACA
+S.pombe.1                  AAGACCCC.AGCAAACGAAGAGAA.....ACCCAAUUUUUAAUUCUGAUU
+X.Silurana.1               ..AACUCA.UGAUCUUUGUG.GAA.................GUUCUGACU
+X.Silurana.2               ...CCUUA.UGAUCUGAGUG.GAA.................GUUCUGAUA
+X.Silurana.3               ..ACCCAG.UGAUAAUAAUG.GAA.................GUUCUGAUU
+X.laevis.1                 .AACCUUA.UGAUCUAAGUG.GAA.................GUUCUGACU
+X.laevis.2                 ..AACUCA.UGAUAUUUGUG.GAA.................GUUCUGAUU
+X.laevis.3                 ..ACCUAG.UGAUAUUAAUG.GAA.................GUUCUGAUU
+X.laevis.4                 ..ACCGAAGUGAUAUCAAUG.GAA.................GUUCUGAUU
+X.laevis.5                 .UGCAUCA.UGAUCUCUGUG.GAA.................GUUCUGAUC
+H.sapiens.1                ..ACCACA.UGAUUUUCUCG.GAU.................GUUCUGAUG
+H.sapiens.2                ..AACACA.UGAUAUUUGUG.GAA.................AUUCUGACU
+H.sapiens.3                ..AACAAA.UGAU.UUUGUG.GAA.................GUUCUGAUU
+C.elegans.1                CAAGCGAU.UGAC..GAUAGAAAA................CCGGCUGAGC
+O.sativa.1                 UCAUCUCG.UGAUGAAACUA.CAA....UGAAGCACUCAUACUUCUGAUU
+#=GC SS_cons               ................................................>>
+
+S.cerevisiae.1             AU
+C.albicans.1               AU
+S.pombe.1                  UU
+X.Silurana.1               UA
+X.Silurana.2               UA
+X.Silurana.3               UA
+X.laevis.1                 GA
+X.laevis.2                 UA
+X.laevis.3                 UC
+X.laevis.4                 AC
+X.laevis.5                 AG
+H.sapiens.1                CU
+H.sapiens.2                UG
+H.sapiens.3                UA
+C.elegans.1                CA
+O.sativa.1                 CC
+#=GC SS_cons               >>
+//

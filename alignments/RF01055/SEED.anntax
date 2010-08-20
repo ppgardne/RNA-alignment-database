@@ -1,0 +1,1304 @@
+# STOCKHOLM 1.0
+#=GF ID    MOCO_RNA_motif
+#=GF AC    RF01055
+#=GF DE    Moco (molybdenum cofactor) riboswitch
+#=GF AU    Weinberg Z
+#=GF GA    28.0
+#=GF NC    22.4
+#=GF TC    31.4
+#=GF SE    Barrick JE, Weinberg Z
+#=GF SS    Published; PMID:18363797
+#=GF TP    Cis-reg; riboswitch;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    18363797
+#=GF RT    A widespread riboswitch candidate that controls bacterial genes
+#=GF RT    involved in molybdenum cofactor and tungsten cofactor metabolism.
+#=GF RA    Regulski EE, Moy RH, Weinberg Z, Barrick JE, Yao Z, Ruzzo WL,
+#=GF RA    Breaker RR
+#=GF RL    Mol Microbiol. 2008;68:918-932.
+#=GF RN    [2]
+#=GF RM    17621584
+#=GF RT    Identification of 22 candidate structured RNAs in bacteria using
+#=GF RT    the CMfinder comparative genomics pipeline.
+#=GF RA    Weinberg Z, Barrick JE, Yao Z, Roth A, Kim JN, Gore J, Wang JX,
+#=GF RA    Lee ER, Block KF, Sudarsan N, Neph S, Tompa M, Ruzzo WL, Breaker
+#=GF RA    RR
+#=GF RL    Nucleic Acids Res. 2007;35:4809-4819.
+#=GF WK    http://en.wikipedia.org/wiki/Moco_RNA_motif
+#=GF SQ    179
+
+#=GS Acidobacteria_bacter.1  AC    CP000360.1/5126307-5126444
+#=GS Bacteroides_capillos.1  AC    AAXG02000019.1/33936-34077
+#=GS A.metalliredigens.1     AC    CP000724.1/1069180-1069304
+#=GS A.oremlandii.1          AC    CP000853.1/2630463-2630586
+#=GS C.perfringens.1         AC    AB017192.1/8307-8501
+#=GS Clostridium_perfring.1  AC    ABDU01000042.2/353622-353816
+#=GS Clostridium_perfring.2  AC    CP000312.1/1962561-1962720
+#=GS Clostridium_perfring.3  AC    ABDX01000019.1/7434-7621
+#=GS Clostridium_perfring.4  AC    BA000016.3/2073211-2073405
+#=GS Symbiobacterium_ther.1  AC    AP006840.1/3132508-3132643
+#=GS E.acidaminophilum.1     AC    AJ312124.1/15932-16050
+#=GS Dorea_longicatena_DS.1  AC    AAXB02000020.1/32165-32320
+#=GS Desulfitobacterium_h.1  AC    CP001336.1/1640038-1640170
+#=GS Desulfitobacterium_h.2  AC    AP008230.1/4378102-4378234
+#=GS Desulfotomaculum_red.1  AC    CP000612.1/2515252-2515370
+#=GS P.thermopropionicum.1   AC    AP009389.1/593047-593165
+#=GS S.wolfei.1              AC    CP000448.1/1171931-1172054
+#=GS Thermosinus_carboxyd.1  AC    AAWL01000002.1/83580-83714
+#=GS Carboxydothermus_hyd.1  AC    CP000141.1/711593-711712
+#=GS Moorella_thermoaceti.1  AC    CP000232.1/1884198-1884333
+#=GS Thermoanaerobacter_p.1  AC    CP000924.1/904376-904493
+#=GS Thermoanaerobacter.1    AC    CP000923.1/1425277-1425394
+#=GS Caldicellulosiruptor.1  AC    CP000679.1/1094763-1094897
+#=GS Caulobacter.1           AC    CP000927.1/4176112-4176249
+#=GS Hyphomonas_neptunium.1  AC    CP000158.1/1582667-1582794
+#=GS Desulfotalea_psychro.1  AC    CR522870.1/3382835-3382961
+#=GS Desulfuromonas_aceto.1  AC    AAEW02000009.1/8014-8135
+#=GS Geobacter_uraniiredu.1  AC    CP000698.1/4162191-4162311
+#=GS G.sulfurreducens.1      AC    AE017180.1/2979275-2979393
+#=GS Geobacter_metallired.1  AC    CP000148.1/2016583-2016702
+#=GS Geobacter.1             AC    CP001390.1/336249-336367
+#=GS G.bemidjiensis.1        AC    CP001124.1/2644200-2644320
+#=GS Pelobacter_propionic.1  AC    CP000482.1/935247-935365
+#=GS Pelobacter_carbinoli.1  AC    CP000142.2/2958678-2958797
+#=GS S.fumaroxidans.1        AC    CP000478.1/38745-38855
+#=GS Aeromonas_hydrophila.1  AC    CP000462.1/1732669-1732808
+#=GS Aeromonas_salmonicid.1  AC    CP000644.1/2971068-2971207
+#=GS Moritella.1             AC    ABCQ01000014.1/59878-60025
+#=GS Pseudoalteromonas_at.1  AC    CP000388.1/2608595-2608745
+#=GS Psychromonas_ingraha.1  AC    CP000510.1/2652780-2652936
+#=GS Shewanella_sediminis.1  AC    CP000821.1/5381473-5381607
+#=GS Shewanella_baltica_O.1  AC    CP000891.1/327352-327485
+#=GS Shewanella_loihica_P.1  AC    CP000606.1/101467-101601
+#=GS Shewanella.1            AC    CP000444.1/4455368-4455501
+#=GS Shewanella_pealeana_.1  AC    CP000851.1/5004406-5004542
+#=GS Shewanella.2            AC    CP000446.1/294832-294965
+#=GS Shewanella.3            AC    CP000469.1/309677-309810
+#=GS Shewanella_frigidima.1  AC    CP000447.1/97810-97942
+#=GS Shewanella.4            AC    CP000503.1/268441-268574
+#=GS Shewanella_putrefaci.1  AC    AAWY01000006.1/65414-65547
+#=GS Shewanella_baltica_O.2  AC    CP000563.1/321974-322107
+#=GS Shewanella_amazonens.1  AC    CP000507.1/4159189-4159323
+#=GS Shewanella_denitrifi.1  AC    CP000302.1/114598-114731
+#=GS Shewanella_baltica_O.3  AC    CP000753.1/319215-319348
+#=GS Shewanella_oneidensi.1  AC    AE014299.1/4641102-4641235
+#=GS Shewanella_putrefaci.2  AC    CP000681.1/424831-424964
+#=GS Shewanella_woodyi_AT.1  AC    CP000961.1/5779002-5779136
+#=GS Enterobacter.1          AC    CP000653.1/1402015-1402149
+#=GS Escherichia_coli_CFT.1  AC    AE014075.1/839533-839677
+#=GS Escherichia_coli_str.1  AC    U00096.2/816135-816279
+#=GS E.coli.1                AC    X70420.1/73-217
+#=GS Escherichia_coli_SE1.1  AC    AP009240.1/898974-899118
+#=GS Escherichia_coli_E24.1  AC    CP000800.1/865089-865233
+#=GS Escherichia_coli_ATC.1  AC    CP000946.1/3129345-3129489
+#=GS Escherichia_coli_APE.1  AC    CP000468.1/781456-781600
+#=GS Escherichia_coli_str.2  AC    AP009048.1/817334-817478
+#=GS Escherichia_coli_IAI.1  AC    CU928160.2/865804-865948
+#=GS Escherichia_coli_O15.1  AC    BA000007.2/939277-939421
+#=GS Escherichia_coli_559.1  AC    CU928145.2/876431-876575
+#=GS Escherichia_coli_UTI.1  AC    CP000243.1/779855-779999
+#=GS Escherichia_coli_O15.2  AC    AE005174.2/940930-941074
+#=GS Escherichia_coli_536.1  AC    CP000247.1/832790-832934
+#=GS Klebsiella_pneumonia.1  AC    CP000647.1/905889-906027
+#=GS Pectobacterium_atros.1  AC    BX950851.1/3157412-3157560
+#=GS Photorhabdus_lumines.1  AC    BX571864.1/57269-57413
+#=GS Salmonella_enterica_.1  AC    ABEJ01000007.1/41426-41570
+#=GS Salmonella_enterica_.2  AC    CP000026.1/2029450-2029594
+#=GS S.enterica.1            AC    AL627268.1/76072-76216
+#=GS Salmonella_enterica_.3  AC    ABAO01000011.1/6431-6575
+#=GS Salmonella_enterica_.4  AC    AE017220.1/899104-899248
+#=GS Salmonella_enterica_.5  AC    CP001144.1/894657-894801
+#=GS Salmonella_enterica_.6  AC    AM933172.1/829612-829756
+#=GS Salmonella_enterica_.7  AC    AM933173.1/847519-847663
+#=GS Salmonella_enterica_.8  AC    CP001120.1/918745-918889
+#=GS Salmonella_enterica_.9  AC    ABEL01000001.1/615181-615325
+#=GS Salmonella_enterica_.10 AC    ABEI01000004.1/118460-118604
+#=GS Salmonella_enterica_.11 AC    CP001113.1/874828-874972
+#=GS Salmonella_enterica_.12 AC    CP000886.1/2253583-2253727
+#=GS Salmonella_enterica_.13 AC    CP000857.1/847673-847817
+#=GS Salmonella_enterica_.14 AC    ABAN01000005.1/160613-160757
+#=GS Salmonella_enterica_.15 AC    AE014613.1/2145861-2146005
+#=GS Salmonella_enterica_.16 AC    AE006468.1/870506-870650
+#=GS Serratia_proteamacul.1  AC    CP000826.1/1451002-1451144
+#=GS Shigella_boydii_CDC_.1  AC    CP001063.1/2372533-2372677
+#=GS Shigella_boydii_Sb22.1  AC    CP000036.1/682934-683078
+#=GS Shigella_flexneri_2a.1  AC    AE014073.1/755896-756040
+#=GS Shigella_flexneri_5_.1  AC    CP000266.1/795717-795862
+#=GS Shigella_flexneri_2a.2  AC    AE005674.1/759739-759883
+#=GS Shigella_sonnei_Ss04.1  AC    CP000038.1/805998-806142
+#=GS Shigella_dysenteriae.1  AC    CP000034.1/768693-768837
+#=GS S.glossinidius.1        AC    AP008232.1/1475425-1475565
+#=GS Yersinia_pseudotuber.1  AC    BX936398.1/1419284-1419430
+#=GS Yersinia_enterocolit.1  AC    AM286415.1/3151626-3151770
+#=GS Yersinia_pestis_biov.1  AC    AE017042.1/1078019-1078165
+#=GS Yersinia_pseudotuber.2  AC    CP000720.1/3203598-3203744
+#=GS Y.pestis.1              AC    AE009952.1/3329941-3330087
+#=GS Yersinia_pestis_biov.2  AC    AAYS01000002.1/351707-351853
+#=GS Yersinia_pestis_FV-1.1  AC    AAUB01000157.1/9443-9589
+#=GS Y.pestis.2              AC    CP000668.1/2886744-2886890
+#=GS Y.pestis.3              AC    CP000308.1/1219676-1219822
+#=GS Yersinia_pestis_biov.3  AC    AAYR01000003.1/37041-37187
+#=GS Yersinia_pestis_biov.4  AC    AAYT01000002.1/511107-511253
+#=GS Yersinia_pestis_biov.5  AC    AAYU01000002.1/139698-139844
+#=GS Yersinia_pestis_CA88.1  AC    ABCD01000002.1/667378-667524
+#=GS Yersinia_frederiksen.1  AC    AALE01000012.1/112465-112610
+#=GS Yersinia_pestis_biov.6  AC    AAYV01000015.1/91236-91382
+#=GS Yersinia_mollaretii_.1  AC    AALD01000048.1/3258-3422
+#=GS Yersinia_intermedia_.1  AC    AALF01000058.1/11923-12067
+#=GS Yersinia_pestis_CO92.1  AC    AL590842.1/1306720-1306866
+#=GS Yersinia_bercovieri_.1  AC    AALC01000042.1/3078-3242
+#=GS Yersinia_pestis_biov.7  AC    ABAT01000001.1/487802-487948
+#=GS Yersinia_pestis_Nepa.1  AC    CP000305.1/3199009-3199155
+#=GS Actinobacillus_succi.1  AC    CP000746.1/1838596-1838749
+#=GS H.influenzae.1          AC    CP000672.1/374845-374985
+#=GS Haemophilus_influenz.1  AC    CP000057.2/1826859-1827000
+#=GS H.influenzae.2          AC    CP000671.1/754622-754762
+#=GS Haemophilus_influenz.2  AC    L42023.1/1745226-1745366
+#=GS Haemophilus_influenz.3  AC    AAZD01000003.1/249903-250044
+#=GS Haemophilus_influenz.4  AC    AADP01000001.1/1117752-1117893
+#=GS Haemophilus_influenz.5  AC    AAZE01000014.1/10673-10814
+#=GS H.influenzae.3          AC    AAZH01000018.1/18993-19134
+#=GS Haemophilus_influenz.6  AC    AADO01000007.1/21222-21362
+#=GS Haemophilus_influenz.7  AC    AAZF01000005.1/174413-174554
+#=GS H.influenzae.4          AC    AAZI01000004.1/68933-69074
+#=GS Haemophilus_influenz.8  AC    AAZJ01000004.1/67324-67464
+#=GS H.influenzae.5          AC    AAZG01000002.1/216847-216987
+#=GS Haemophilus_somnus_1.1  AC    CP000436.1/881033-881170
+#=GS Haemophilus_somnus_2.1  AC    CP000947.1/1455599-1455736
+#=GS Mannheimia_haemolyti.1  AC    AASA01000098.1/11609-11765
+#=GS Mannheimia_succinici.1  AC    AE016827.1/1003377-1003526
+#=GS Pasteurella_multocid.1  AC    AE004439.1/728451-728600
+#=GS Reinekea.1              AC    AAOE01000024.1/17701-17833
+#=GS Vibrio_fischeri_ES11.1  AC    CP000020.2/1036399-1036547
+#=GS Photobacterium.1        AC    AAOU01000009.1/42833-43004
+#=GS Photobacterium_profu.1  AC    AAPH01000008.1/168857-169008
+#=GS P.profundum.1           AC    CR378666.1/204483-204635
+#=GS Vibrio_cholerae_AM-1.1  AC    AATY01000030.1/31818-31957
+#=GS Vibrio_cholerae_O395.1  AC    CP000627.1/583753-583892
+#=GS Vibrio_cholerae_V52.1   AC    AAKJ02000036.1/5658-5797
+#=GS Vibrio_cholerae_V51.1   AC    AAKI02000041.1/24302-24441
+#=GS Vibrio_cholerae_MZO-.1  AC    AAWF01000006.1/90336-90475
+#=GS Vibrio_shilonii_AK1.1   AC    ABCH01000027.1/16237-16374
+#=GS Vibrio_cholerae_MZO-.2  AC    AAUU01000009.1/30557-30696
+#=GS Vibrio_alginolyticus.1  AC    AAPS01000028.1/5735-5869
+#=GS Vibrio_vulnificus_YJ.1  AC    BA000037.2/1214618-1214768
+#=GS Vibrio.1                AC    AAND01000029.1/42171-42323
+#=GS Vibrio_cholerae_1587.1  AC    AAUR01000042.1/26319-26458
+#=GS Vibrio_cholerae_O1_b.1  AC    AE003852.1/1093019-1093158
+#=GS Vibrio_angustum_S14.1   AC    AAOJ01000002.1/672316-672485
+#=GS Vibrio_parahaemolyti.1  AC    AAWQ01000033.1/29524-29657
+#=GS Vibrio.2                AC    AAKK02000029.1/45467-45601
+#=GS Vibrio_cholerae_RC38.1  AC    AAKH02000052.1/6641-6780
+#=GS Vibrio_splendidus_12.1  AC    AAMR01000039.1/24725-24877
+#=GS Vibrio_cholerae_623-.1  AC    AAWG01000034.1/3973-4112
+#=GS Vibrio_vulnificus_CM.1  AC    AE016795.2/3156005-3156155
+#=GS Vibrio_harveyi_HY01.1   AC    AAWP01000079.1/7050-7183
+#=GS Vibrio_parahaemolyti.2  AC    BA000031.2/2204280-2204413
+#=GS Vibrio_cholerae_B33.1   AC    AAWE01000035.1/31695-31834
+#=GS Vibrio_cholerae_2740.1  AC    AAUT01000027.1/30542-30681
+#=GS Vibrio_cholerae_NCTC.1  AC    AAWD01000062.1/12165-12304
+#=GS Vibrio_cholerae_MAK_.1  AC    AAUS01000053.1/12178-12317
+#=GS Vibrionales_bacteriu.1  AC    AAZW01000021.1/37268-37420
+#=GS Petrotoga_mobilis_SJ.1  AC    CP000879.1/408659-408780
+#=GS unidentified_bacteri.1  AC    AC150248.3/31115-31259
+#=GS M.brevicollis.1         AC    AC198467.1/11345-11489
+#=GS M.brevicollis.2         AC    AC198536.1/10028-10172
+#=GS S.purpuratus.1          AC    AAGJ02014308.1/1627-1771
+#=GS P.trichocarpa.1         AC    AARH01015128.1/182-326
+#=GS marine_metag.1          AC    AACY022724149.1/8-127
+
+Acidobacteria_bacter.1              CUAGGAACGUGUUUC.CG.ACGUUCG.C.U.GCCUA.CGG......AAUA
+Bacteroides_capillos.1              CAAUUCAAUAUUCUC.CG.AGCCCCU.G.C.GCCUA.CGGC.....UUU.
+A.metalliredigens.1                 AUGAUAUUAAUUCUC.CG.AGCUUAUGA.C.UCCUA.AUAGAU...CAAU
+A.oremlandii.1                      AUAACUAAAUAUCUC.CG.AGUUCAU.C.GAUCCUA.AUACCUG..UUUU
+C.perfringens.1                     AUUAGUAUAAAUCUC.CA.AGCUUAA.A.G.AUCUA.AGGAG....AAGG
+Clostridium_perfring.1              AUUAGUAUAAAUCUC.CA.AGCUUAA.A.G.AUCUA.AGGAG....AAGG
+Clostridium_perfring.2              AUUAGUAUAACUCUC.CA.AGCUUAA.A.G.AUCUA.AGGAG....AAGG
+Clostridium_perfring.3              AUUAGUAUAAAUCUC.CA.AGCUUAA.A.G.AUCUA.AGGAG....AAGG
+Clostridium_perfring.4              AUUAGUAUAACUCUC.CA.AGCUUAA.A.G.AUCUA.AGGAG....AAGG
+Symbiobacterium_ther.1              GAUGUGAUCACGUCC.CG.AGUCAUG.C.G.ACCUG.UACCC....GAUG
+E.acidaminophilum.1                 UAUACACAGAUUUUC.CG.AGUCGUC.A.U.UUCUA.AAGCC....AA..
+Dorea_longicatena_DS.1              AAAUACAAGGUUCUC.CGAAGCCUUC.A.U.GCCUA.AGAUCC...AUAA
+Desulfitobacterium_h.1              AAUUGAAUAGUUUUC.CG.AGCUCCU.U.U.GUCUA.AAAGA....CUA.
+Desulfitobacterium_h.2              AAUUGAAUAGUUUUC.CG.AGCUCCU.U.U.GUCUA.AAAGA....CUA.
+Desulfotomaculum_red.1              AAAUUAAUAGUACUC.CG.AGCUUAG.G.C.ACCUA.AGAU.....AGUA
+P.thermopropionicum.1               AAAAAUCAUACUCUC.CG.AGCCAGG.U.A.ACCUA.AAGCU....CGA.
+S.wolfei.1                          AAAAGAAUAGAGCUC.CG.AGCCUUAUU.A.AUCUA.AAGAC....UGCG
+Thermosinus_carboxyd.1              UAUGGAAUACGCCUU.CG.AGCCUGU.C.C.GCCUA.AAGGU....AGCG
+Carboxydothermus_hyd.1              AAAAAUAAGCUGCUC.CG.AGUAUUU.U.C.ACCUA.AAGCU....UUA.
+Moorella_thermoaceti.1              UUGAAUAGUCAUCUC.CG.AGCCGGU.G.C.UCCUA.AGGGC....UGUC
+Thermoanaerobacter_p.1              UUAUUACUUAUUCUC.CG.AGUCUAU.A.A.UCCUA.AGGC.....AAGA
+Thermoanaerobacter.1                UUAUUACUUAUUCUC.CG.AGUCUAU.A.A.UCCUA.AGGC.....AAGA
+Caldicellulosiruptor.1              UUUUGAAAAUCUUUC.CG.AGCCAUU.G.CAACCUA.AAAAGA...GGGG
+Caulobacter.1                       CGAUGAAACUCGCUC.CG.AGCGUCC.C.G.GCCUA.ACGCGCA..UCCG
+Hyphomonas_neptunium.1              GUUGGAAAUUCGCUC.CG.AGCCGUU.C.C.GCCUA.AAGCGC...CGUU
+Desulfotalea_psychro.1              UUAAGAAUAUAACUC.CG.AGCUAAA.A.G.GCCUU.CGGUUUCUGCAUG
+Desulfuromonas_aceto.1              UACUAUCAAGAUCUC.CG.AGCCUGC.C.CCCCCUA.CGGAGG...UUGC
+Geobacter_uraniiredu.1              GAAACUGACGCUCUC.CG.AGCUGUA.G.C.GCCUA.AAAGGUU..UGUA
+G.sulfurreducens.1                  AUAUUUUGUUAUCUC.CG.AGCCCAU.C.C.GCCUACCAGGA....ACAU
+Geobacter_metallired.1              AUUUAAAACCGUCUC.CG.AGCCGCG.G.C.GCCUA.AAGGGA...ACAU
+Geobacter.1                         UGCUCGAACUUUCUC.CG.AGCCUGU.C.C.GCCUA.CCGGGAA..UAUU
+G.bemidjiensis.1                    UAAGCAGAUAGUCUC.CG.AGCCGCA.G.CCUUCUA.AAGGGA...GUAC
+Pelobacter_propionic.1              AUGCCAUGUUAUCUC.CG.AGCCUUG.C.C.ACCUA.AAAGG....AAAA
+Pelobacter_carbinoli.1              UACAGAACACGUCUC.CG.AGUCUU..A.A.GCCUA.AAAGGA...UGGA
+S.fumaroxidans.1                    AGAACGGUCGCUCCC.CG.AGCCGCC.G..........GGUC....UAA.
+Aeromonas_hydrophila.1              AAACUAGAUGAACUC.CG.AGCGGUU.U.U.GCCUA.AGUCC....UCA.
+Aeromonas_salmonicid.1              AAACUAGAUGAACUC.CG.AGCUGUU.U.U.GCCUA.AGUCC....UUG.
+Moritella.1                         AUAUUAAUCAAACUC.CG.AUCCUUAAC.G.AUCUA.AAUUUA...UAAA
+Pseudoalteromonas_at.1              CAGGUGGUUUAACUC.CG.AGCCUUC.A.U.ACCUA.AAUC.....AGAA
+Psychromonas_ingraha.1              UUUUAAAACCAGCUC.CG.AGCUUAA.U.AAAACUA.AGUUUC...CUUU
+Shewanella_sediminis.1              GCCCUGACGGUUCUC.CG.AGCUUUU.U.G.UCCUA.CGUC.....AACA
+Shewanella_baltica_O.1              CCGGUGACGGUUCUC.CG.AGCUUGC.C.U.ACCUA.AGUC.....GAAA
+Shewanella_loihica_P.1              GAAACGACGGUUCUC.CG.AGCUUUC.U.C.UCCUA.CGUC.....CACA
+Shewanella.1                        CGAAUGACGGUUCUC.CG.AGCUUGC.C.U.ACCUA.AGUC.....GACA
+Shewanella_pealeana_.1              AGGUUGACGGUUCUC.CG.AGCUUCU.U.A.CCCUA.CGUCG....AGAC
+Shewanella.2                        CGAAUGACGGUUCUC.CG.AGCUUGC.C.U.ACCUA.AGUC.....GACA
+Shewanella.3                        CGAAUGACGGUUCUC.CG.AGCUUGC.C.U.ACCUA.AGUC.....GACA
+Shewanella_frigidima.1              GAUCUGACGGUUCUC.CG.AGCUUUU.U.G.CCCUA.CGUC.....AAU.
+Shewanella.4                        CCAGCGACGGUUCUC.CG.AGCUUGC.C.U.ACCUA.CGUC.....AAUA
+Shewanella_putrefaci.1              CCAGCGACGGUUCUC.CG.AGCUUGC.C.U.ACCUA.CGUC.....AAUA
+Shewanella_baltica_O.2              CCGGUGACGGUUCUC.CG.AGCUUGC.C.U.ACCUA.AGUC.....GAAA
+Shewanella_amazonens.1              UCAAUGACGGUUCUC.CG.AGCUCCU.G.C.ACCUA.AGUC.....AAUG
+Shewanella_denitrifi.1              GCAUUGACGGUUCUC.CG.AGCUUCU.U.A.UCCUA.AGUC.....UUUA
+Shewanella_baltica_O.3              CCGGUGACGGUUCUC.CG.AGCUUGC.C.U.ACCUA.AGUC.....GAAA
+Shewanella_oneidensi.1              CAGCUGACGGUUCUC.CG.AGCUUGC.C.U.ACCUA.AGUC.....AACA
+Shewanella_putrefaci.2              CCAGCGACGGUUCUC.CG.AGCUUGC.C.U.ACCUA.CGUC.....AAUA
+Shewanella_woodyi_AT.1              UCACUGACGGUUCUC.CG.AGCUUUU.U.G.UCCUA.CGUC.....AACA
+Enterobacter.1                      GAUGAAAACAUACACUCU.AGCCUUG.A.C.GCCUG.UGUC.....ACAU
+Escherichia_coli_CFT.1              UUAACCACUAAACACUCU.AGCCUCU.G.C.ACCUG.GGUC.....AACU
+Escherichia_coli_str.1              AUAACCACUAAACACUCU.AGCCUCU.G.C.ACCUG.GGUC.....AACU
+E.coli.1                            AUAACCACUAAACACUCU.AGCCUCU.G.C.ACCUG.GGUC.....AACU
+Escherichia_coli_SE1.1              AUAACCACUAAACACUCU.AGCCUCU.G.C.ACCUG.GGUC.....AACU
+Escherichia_coli_E24.1              AUAACCACUAAACACUCU.AGCCUCU.G.C.ACCUG.GGUC.....AACU
+Escherichia_coli_ATC.1              AUAACCACUAAACACUCU.AGCCUCU.G.C.ACCUG.GGUC.....AACU
+Escherichia_coli_APE.1              UUAACCACUAAACACUCU.AGCCUCU.G.C.ACCUG.GGUC.....AACU
+Escherichia_coli_str.2              AUAACCACUAAACACUCU.AGCCUCU.G.C.ACCUG.GGUC.....AACU
+Escherichia_coli_IAI.1              AUAACCACUAAACACUCU.AGCCUCU.G.C.ACCUG.GGUC.....AACU
+Escherichia_coli_O15.1              UUAACCACUAAACACUCU.AGCCUCU.G.C.ACCUG.GGUC.....AACU
+Escherichia_coli_559.1              AUAACCACUAAACACUCU.AGCCUCU.G.C.ACCUG.GGUC.....AACU
+Escherichia_coli_UTI.1              UUAACCACUAAACACUCU.AGCCUCU.G.C.ACCUG.GGUC.....AACU
+Escherichia_coli_O15.2              UUAACCACUAAACACUYU.AGCCUCU.G.C.ACCUG.GGUC.....AACU
+Escherichia_coli_536.1              UUAACCACUAAACACUCU.AGCCUCU.G.C.ACCUG.GGUC.....AACU
+Klebsiella_pneumonia.1              AUAACCUGUUAACACUCU.AGCCUCU.U.C.GCCUG.UGUC.....AAAA
+Pectobacterium_atros.1              AUGAGAAUCAAACUC.CU.AGCCUUG.G.U.GCCUA.AGUGAU...GCGC
+Photorhabdus_lumines.1              CUAUGGAAUUAACUC.CU.AGCCUCU.G.C.AUCUA.AGUCAC...UUUU
+Salmonella_enterica_.1              AACCACAGUAAACACUCU.AGCCUCU.G.C.ACCUG.GGUCA....UUUU
+Salmonella_enterica_.2              AACCACAAUAAACACUCU.AGCCUCU.G.C.ACUUG.GGUCA....UUUU
+S.enterica.1                        AACCACAAUAAACACUCU.AGCCUCU.G.C.ACCUG.GGUCA....UUUU
+Salmonella_enterica_.3              AACCACAGUAAACACUCU.AGCCUCU.G.C.ACCUG.GGUCA....UUUU
+Salmonella_enterica_.4              AACCACAGUAAACACUCU.AGCCUCU.G.C.ACCUG.GGUCA....UUUU
+Salmonella_enterica_.5              AACCACAGUAAACACUCU.AGCCUCU.G.C.ACCUG.GGUCA....UUUU
+Salmonella_enterica_.6              AACCACAGUAAACACUCU.AGCCUCU.G.C.ACCUG.GGUCA....UUUU
+Salmonella_enterica_.7              AACCACAGUAAACACUCU.AGCCUCU.G.C.ACCUG.GGUCA....UUUU
+Salmonella_enterica_.8              AACCACAGUAAACACUCU.AGCCUCU.G.C.ACCUG.GGUCA....UUUU
+Salmonella_enterica_.9              AACCACAGUAAACACUCU.AGCCUCU.G.C.ACCUG.GGUCA....UUUU
+Salmonella_enterica_.10             AACCACAGUAAACACUCU.AGCCUCU.G.C.ACCUG.GGUCA....UUUU
+Salmonella_enterica_.11             AACCACAGUAAACACUCU.AGCCUCU.G.C.ACCUG.GGUCA....UUUU
+Salmonella_enterica_.12             AACCACAGUAAACACUCU.AGCCUCU.G.C.ACCUG.GGUCA....UUUU
+Salmonella_enterica_.13             AACCACAGUAAACACUCU.AGCCUCU.G.C.ACCUG.GGUCA....UUUU
+Salmonella_enterica_.14             AACCACAGUAAACACUCU.AGCCUCU.G.C.ACCUG.GGUCA....UUUU
+Salmonella_enterica_.15             AACCACAAUAAACACUCU.AGCCUCU.G.C.ACCUG.GGUCA....UUUU
+Salmonella_enterica_.16             AACCACAGUAAACACUCU.AGCCUCU.G.C.ACCUG.GGUCA....UUUU
+Serratia_proteamacul.1              CUGAAACCAAAACUC.CU.AGCCUCU.G.G.GCCUA.CGUUGU...UCUU
+Shigella_boydii_CDC_.1              UUAACCACUAAACACUCU.AGCCUCU.G.C.ACCUA.GGUC.....AACU
+Shigella_boydii_Sb22.1              UUAACCACUAAACACUCU.AGCCUCU.G.C.ACCUG.GGUC.....AACU
+Shigella_flexneri_2a.1              UUAACCACUAAACACUCU.AGCCUCU.G.C.ACCUG.GGUC.....AACU
+Shigella_flexneri_5_.1              UUAACCACUAAACACUCU.AGCCUCU.G.C.ACCUG.GGUC.....AACU
+Shigella_flexneri_2a.2              UUAACCACUAAACACUCU.AGCCUCU.G.C.ACCUG.GGUC.....AACU
+Shigella_sonnei_Ss04.1              UUAACCACUAAACACUCU.AGCCUCU.G.C.ACCUG.GGUC.....AACU
+Shigella_dysenteriae.1              UUAACCACUAAACACUCU.AGCCUCU.G.C.ACCUA.GGUC.....AACU
+S.glossinidius.1                    AGGUAUACAUAACUC.CU.AGCCUUU.A.C.GCCUA.AGUGGC...CCGU
+Yersinia_pseudotuber.1              GCUGAACAUAAACUC.CU.AGCCUUA.G.C.GUCUA.CGUUGU...CUUU
+Yersinia_enterocolit.1              ACUGAGCACAAACUC.CU.AGCCUUA.G.U.GUCUA.CGUUGU...UGCG
+Yersinia_pestis_biov.1              GCUGAACAUAAACUC.CU.AGCCUUA.G.C.GUCUA.CGUUGU...CUUU
+Yersinia_pseudotuber.2              ACUGAACAUAAACUC.CU.AGCCUUA.G.C.GUCUA.CGUUGU...CUUU
+Y.pestis.1                          GCUGAACAUAAACUC.CU.AGCCUUA.G.C.GUCUA.CGUUGU...CUUU
+Yersinia_pestis_biov.2              GCUGAACAUAAACUC.CU.AGCCUUA.G.C.GUCUA.CGUUGU...CUUU
+Yersinia_pestis_FV-1.1              GCUGAACAUAAACUC.CU.AGCCUUA.G.C.GUCUA.CGUUGU...CUUU
+Y.pestis.2                          GCUGAACAUAAACUC.CU.AGCCUUA.G.C.GUCUA.CGUUGU...CUUU
+Y.pestis.3                          GCUGAACAUAAACUC.CU.AGCCUUA.G.C.GUCUA.CGUUGU...CUUU
+Yersinia_pestis_biov.3              GCUGAACAUAAACUC.CU.AGCCUUA.G.C.GUCUA.CGUUGU...CUUU
+Yersinia_pestis_biov.4              GCUGAACAUAAACUC.CU.AGCCUUA.G.C.GUCUA.CGUUGU...CUUU
+Yersinia_pestis_biov.5              GCUGAACAUAAACUC.CU.AGCCUUA.G.C.GUCUA.CGUUGU...CUUU
+Yersinia_pestis_CA88.1              GCUGAACAUAAACUC.CU.AGCCUUA.G.C.GUCUA.CGUUGU...CUUU
+Yersinia_frederiksen.1              ACUGAACAUAAACUC.CU.AGCCUUA.G.U.GUCUA.CGUUGU...UGUG
+Yersinia_pestis_biov.6              GCUGAACAUAAACUC.CU.AGCCUUA.G.C.GUCUA.CGUUGU...CUUU
+Yersinia_mollaretii_.1              ACUGAACAUAAACUC.CU.AGCCUUG.G.U.GCCUA.CGUUGU...CCCG
+Yersinia_intermedia_.1              ACUGAACAUAAACUC.CU.AGCCUUG.G.C.GUCUA.CGUUGU...CUCG
+Yersinia_pestis_CO92.1              GCUGAACAUAAACUC.CU.AGCCUUA.G.C.GUCUA.CGUUGU...CUUU
+Yersinia_bercovieri_.1              ACUGAACAUAAACUC.CU.AGCCUUG.G.U.GUCUA.CGUUGU...CCGG
+Yersinia_pestis_biov.7              GCUGAACAUAAACUC.CU.AGCCUUA.G.C.GUCUA.CGUUGU...CUUU
+Yersinia_pestis_Nepa.1              GCUGAACAUAAACUC.CU.AGCCUUA.G.C.GUCUA.CGUUGU...CUUU
+Actinobacillus_succi.1              UCAAUUUUCGUUUAC.CG.AGCUUGU.G.U.GCCUA.AGUUCU...UCCG
+H.influenzae.1                      UUUAACGCAUAACUC.CG.AGCUUGU.U.UAGCCUA.AGUUUC...AUAG
+Haemophilus_influenz.1              UUUAACGCAUAACUC.CG.AGCUUGU.U.UAGCCUA.AGUUUCA..GAAG
+H.influenzae.2                      UUUAACGCAUAACUC.CG.AGCUUGU.U.UAGCCUA.AGUUUC...AUCG
+Haemophilus_influenz.2              UUUAACGCAUAACUC.CG.AGCUUGU.U.UAGCCUA.AGUUUC...AUAG
+Haemophilus_influenz.3              UUUAACGCAUAACUC.CG.AGCUUGU.U.UAGCCUA.AGUUUCA..CAAA
+Haemophilus_influenz.4              UUUAACGCAUAACUC.CG.AGCUUGU.U.UAGCCUA.AGUUUCA..CAAA
+Haemophilus_influenz.5              UUUAACGCAUAACUC.CG.AGCUUGU.U.UAGCCUA.AGUUUCA..CAAA
+H.influenzae.3                      UUUAACGCAUAACUC.CG.AGCUUGU.U.UAGCCUA.AGUUUCA..CAAG
+Haemophilus_influenz.6              UUUAACGCAUAACUC.CG.AGCUUGU.U.UAGCCUA.AGUUUC...AUCG
+Haemophilus_influenz.7              UUUAACGCAUAACUC.CG.AGCUUGU.U.UAGCCUA.AGUUUCA..GAAG
+H.influenzae.4                      UUUAACGCAUAACUC.CG.AGCUUGU.U.UAGCCUA.AGUUUCA..CAAA
+Haemophilus_influenz.8              UUUAACGCAUAACUC.CG.AGCUUGU.U.UAGCCUA.AGUUUC...AUAG
+H.influenzae.5                      UUUAACGCAUAACUC.CG.AGCUUGU.U.UAGCCUA.AGUUUC...AUCG
+Haemophilus_somnus_1.1              AAAAACUGACGACUC.CG.AGCUUGU.U.G.ACCUA.AGUU.....GCAA
+Haemophilus_somnus_2.1              AAAAACUGACGACUC.CG.AGCUUGU.U.G.ACCUA.AGUU.....GCAA
+Mannheimia_haemolyti.1              AUUUAUUGAAGACUC.CG.AGCAUUA.U.U.UCCUA.ACUCUA...AAAA
+Mannheimia_succinici.1              AGAAAUUUUAUAUAC.CG.AGCUUGU.A.C.GCCUA.AGUUUU...UAAA
+Pasteurella_multocid.1              AUUAUCGCAUAACUC.CG.AGCUUAU.U.UAACCUA.CGUUUC...UACA
+Reinekea.1                          CAUUAAGCAAUACAC.CG.AGUGACA.G.GGCGCUA.AGUGG....UCU.
+Vibrio_fischeri_ES11.1              UGGCUGCCAUAACUC.CG.AGCUCAA.G.C.UACUA.AGUUGU...UUUU
+Photobacterium.1                    UAACUGCCAUAACUC.CG.AGCAUUC.U.U.CACUA.AGUUAC...UAAG
+Photobacterium_profu.1              UAGCUGCCAUAACUC.CG.AGCUUUG.G.U.CACUA.CGUUUU...CUGU
+P.profundum.1                       UAGCUGCCAUAACUC.CG.AGCUUUA.G.U.CACUA.CGUUUU...CUGC
+Vibrio_cholerae_AM-1.1              GCUUGGCCUUAACUC.CG.AGCUUAC.C.G.CGCUA.AGUUUA...AACC
+Vibrio_cholerae_O395.1              GCUUGGCCUUAACUC.CG.AGCUUAC.C.G.CGCUA.AGUUUA...AACC
+Vibrio_cholerae_V52.1               GCUUGGCCUUAACUC.CG.AGCUUAC.C.G.CGCUA.AGUUUA...AACC
+Vibrio_cholerae_V51.1               GCUUGGCCUUAACUC.CG.AGCUUAC.C.G.CGCUA.AGUUUA...AACC
+Vibrio_cholerae_MZO-.1              GCUUGGCCUUAACUC.CG.AGCUUAC.C.G.CGCUA.AGUUUA...AACC
+Vibrio_shilonii_AK1.1               UAACUGCCAUAACUC.CG.AGCUCUA.C.G.CGCUA.AGUCGAA..CCAA
+Vibrio_cholerae_MZO-.2              GCUUGGCCUUAACUC.CG.AGCUUAC.C.G.CGCUA.AGUUUA...AACC
+Vibrio_alginolyticus.1              UGGUUGCCAUAACUC.CG.AGCUCAC.U.AUUGCUA.AGUCC....UU..
+Vibrio_vulnificus_YJ.1              GGGUUGCCAUAACUC.CG.AGCUUAA.C.U.UGCUA.AGUUAU...UUUA
+Vibrio.1                            CAGUUGCCAUAACUC.CG.AGCUCUC.G.CAUGCUA.AGUCGC...ACAG
+Vibrio_cholerae_1587.1              GCUUGGCCUUAACUC.CG.AGCUUAC.C.G.CGCUA.AGUUUA...AACC
+Vibrio_cholerae_O1_b.1              GCUUGGCCUUAACUC.CG.AGCUUAC.C.G.CGCUA.AGUUUA...AACC
+Vibrio_angustum_S14.1               UAACUGCCAUAACUC.CG.AGCAUUU.U.U.CACUA.AGUUAC...UAAG
+Vibrio_parahaemolyti.1              UGGUUGCCAUAACUC.CG.AGCUCAC.U.A.UGCUA.AGUC.....UGAG
+Vibrio.2                            UGGUUGCCAUAACUC.CG.AGCUCAC.U.AUUGCUA.AGUCC....GA..
+Vibrio_cholerae_RC38.1              GCUUGGCCUUAACUC.CG.AGCUUAC.C.G.CGCUA.AGUUUA...AACC
+Vibrio_splendidus_12.1              CAGUUGCCAUAACUC.CG.AGCUCUC.G.CAUGCUA.AGUCGC...ACAG
+Vibrio_cholerae_623-.1              GCUUGGCCUUAACUC.CG.AGCUUAC.C.G.CGCUA.AGUUUA...AACC
+Vibrio_vulnificus_CM.1              GGGUUGCCAUAACUC.CG.AGCUUAA.C.U.UGCUA.AGUUAU...UUUA
+Vibrio_harveyi_HY01.1               UGGUUGCCAUAACUC.CG.AGCUCAC.U.A.UGCUA.AGUCC....AA..
+Vibrio_parahaemolyti.2              UGGUUGCCAUAACUC.CG.AGCUCAC.U.A.UGCUA.AGUCC....GA..
+Vibrio_cholerae_B33.1               GCUUGGCCUUAACUC.CG.AGCUUAC.C.G.CGCUA.AGUUUA...AACC
+Vibrio_cholerae_2740.1              GCUUGGCCUUAACUC.CG.AGCUUAC.C.G.CGCUA.AGUUUA...AACC
+Vibrio_cholerae_NCTC.1              GCUUGGCCUUAACUC.CG.AGCUUAC.C.G.CGCUA.AGUUUA...AACC
+Vibrio_cholerae_MAK_.1              GCUUGGCCUUAACUC.CG.AGCUUAC.C.G.CGCUA.AGUUUA...AACC
+Vibrionales_bacteriu.1              CGGUUGCCAUAACUC.CG.AGCUCUC.G.CAUGCUA.AGUCGC...ACAG
+Petrotoga_mobilis_SJ.1              AUUUUAUAAUGUCUU.CG.AUCUAGG.U.U.ACCUA.CGGAA....UUCA
+unidentified_bacteri.1              AUAACCACUAAACACUCU.AGCCUCU.G.C.ACCUG.GGUC.....AACU
+M.brevicollis.1                     AUAACCACUAAACACUCU.AGCCUCU.G.C.ACCUG.GGUC.....AACU
+M.brevicollis.2                     AUAACCACUAAACACUCU.AGCCUCU.G.C.ACCUG.GGUC.....AACU
+S.purpuratus.1                      AUAACCACUAAACACUCU.AGCCUCU.G.C.ACCUG.GGUC.....AACU
+P.trichocarpa.1                     AUAACCACUAAACACUCU.AGCCUCU.G.C.ACCUG.GGUC.....AACU
+marine_metag.1                      AACAGAUAAUUUCUC.CG.AUUCAUU.CAU.GCCUA.AUGCG....CC..
+#=GC SS_cons                        ..<<.<....<<<<<.<...<<<<<<.<.<.<<<....<<<<........
+#=GC RF                             aaggaaaaaaaaCuC.CG.AGCcugu.g.c.aCCUA.Aggcg....aaaa
+
+Acidobacteria_bacter.1              .....................................CUAAGGCAUCGGG
+Bacteroides_capillos.1              ....................................GCUAUGGCGCCCGG
+A.metalliredigens.1                 .................................GGUCUGAUGGAGUGCAA
+A.oremlandii.1                      ...................................CGUAAUGGUCUAUGA
+C.perfringens.1                     ...................................UUCUAUGAUUUUUAA
+Clostridium_perfring.1              ...................................UUCUAUGAUUUUUAA
+Clostridium_perfring.2              ...................................UUCUAUGAUUUUUAA
+Clostridium_perfring.3              ...................................UUCUAUGAUUUUUAA
+Clostridium_perfring.4              ...................................UUCUAUGAUUUUUAA
+Symbiobacterium_ther.1              ...................................GGGUAUGGUCGCCUG
+E.acidaminophilum.1                 ...................................GGCCAUGAAAUGCUG
+Dorea_longicatena_DS.1              ............................AAAUUGUGAUGAUGGGAUGUUG
+Desulfitobacterium_h.1              ...................................UCUCAUGACGGAGGA
+Desulfitobacterium_h.2              ...................................UCUCAUGACGGAGGA
+Desulfotomaculum_red.1              ....................................AUUAUGGUUCUUAA
+P.thermopropionicum.1               ...................................CGCCAUGGU.ACCUG
+S.wolfei.1                          ...................................GUUCAUGAUUAUAGG
+Thermosinus_carboxyd.1              ...................................UCCCAUGGCAGACUG
+Carboxydothermus_hyd.1              ...................................GGCCAUGGUGAAAAU
+Moorella_thermoaceti.1              ...................................GCCUAUGGAACACCG
+Thermoanaerobacter_p.1              ....................................GCUAUGGAUUAUAG
+Thermoanaerobacter.1                ....................................GCUAUGGAUUAUAG
+Caldicellulosiruptor.1              ..........................UUUUUCCCUCUUCAUGGUGCUUUG
+Caulobacter.1                       ...................................CGCCAAGGCCGGGCC
+Hyphomonas_neptunium.1              .............................UCCCGGUGUCAUGGCGGCCCG
+Desulfotalea_psychro.1              ...................................GAUCAUGGUCUGC.A
+Desulfuromonas_aceto.1              ...................................CUUUAAGGG.GACAG
+Geobacter_uraniiredu.1              ...................................CCUGAUGGCGC.ACG
+G.sulfurreducens.1                  ...................................UCCCACGGC.GGCCG
+Geobacter_metallired.1              ...................................CCCCAUGGCGGUCCG
+Geobacter.1                         ...................................CCCCAUGGU.GUCAG
+G.bemidjiensis.1                    ...................................CCCCACGAAGCUUUG
+Pelobacter_propionic.1              ...................................CCUCAUGGU.GCACG
+Pelobacter_carbinoli.1              ...................................CCUCAUGGCUGACGG
+S.fumaroxidans.1                    ...................................GGCU..UUUGCGGCG
+Aeromonas_hydrophila.1              ...................................UGAUAGGGGGAAACC
+Aeromonas_salmonicid.1              ...................................GGAUAGGGGAAAGCC
+Moritella.1                         ................................AUUAAAUAUGAUCUUAAG
+Pseudoalteromonas_at.1              ....................................GACAAGGUAUGUUG
+Psychromonas_ingraha.1              ............................UUAAGGUAAAUAAGUCUGUUAA
+Shewanella_sediminis.1              ....................................GAUACGGACGCUAA
+Shewanella_baltica_O.1              ....................................GAUAUGGAGGUGUA
+Shewanella_loihica_P.1              ....................................GAUAGGGAGAUUAA
+Shewanella.1                        ....................................GAUAUGGGGGUGUA
+Shewanella_pealeana_.1              ...................................AGAUAAGGGUUUUUA
+Shewanella.2                        ....................................GAUAUGGGGGUGUA
+Shewanella.3                        ....................................GAUAUGGGGGUGUA
+Shewanella_frigidima.1              ....................................GAUAUGGGCAGUUA
+Shewanella.4                        ....................................GAUAUGGAGGUGUA
+Shewanella_putrefaci.1              ....................................GAUAUGGAGGUGUA
+Shewanella_baltica_O.2              ....................................GAUAUGGAGGUGUA
+Shewanella_amazonens.1              ....................................GAUAUGGUGUUUGA
+Shewanella_denitrifi.1              ....................................GAUACGGGUCAUUA
+Shewanella_baltica_O.3              ....................................GAUAUGGAGGUGUA
+Shewanella_oneidensi.1              ....................................GAUAUGGGGGUGUA
+Shewanella_putrefaci.2              ....................................GAUAUGGAGGUGUA
+Shewanella_woodyi_AT.1              ....................................GAUAUGGACGCUAA
+Enterobacter.1                      ....................................GAUAUGGCGCCCUG
+Escherichia_coli_CFT.1              ....................................GAUACGGUGCUUUG
+Escherichia_coli_str.1              ....................................GAUACGGUGCUUUG
+E.coli.1                            ....................................GAUACGGUGCUUUG
+Escherichia_coli_SE1.1              ....................................GAUACGGUGCUUUG
+Escherichia_coli_E24.1              ....................................GAUACGGUGCUUUG
+Escherichia_coli_ATC.1              ....................................GAUACGGUGCUUUG
+Escherichia_coli_APE.1              ....................................GAUACGGUGCUUUG
+Escherichia_coli_str.2              ....................................GAUACGGUGCUUUG
+Escherichia_coli_IAI.1              ....................................GAUACGGUGCUUUG
+Escherichia_coli_O15.1              ....................................GAUAUGGUGCUUUG
+Escherichia_coli_559.1              ....................................GAUACGGUGCUUUG
+Escherichia_coli_UTI.1              ....................................GAUACGGUGCUUUG
+Escherichia_coli_O15.2              ....................................GAUAUGGUGCUUUG
+Escherichia_coli_536.1              ....................................GAUACGGUGCUUUG
+Klebsiella_pneumonia.1              ....................................GAUAUGGCGAUUUG
+Pectobacterium_atros.1              .........................UUAUUGCGCGUGAUACGGUGCCUUG
+Photorhabdus_lumines.1              ............................UACACAGCGAUAUGAUGUUUUG
+Salmonella_enterica_.1              ...................................UGAUAUGGUGCUUUG
+Salmonella_enterica_.2              ...................................UGAUAUGGUGCUUUG
+S.enterica.1                        ...................................UGAUAUGGUGCUUUG
+Salmonella_enterica_.3              ...................................UGAUACGGUGCUUUG
+Salmonella_enterica_.4              ...................................UGAUAUGGUGCUUUG
+Salmonella_enterica_.5              ...................................UGAUACGGUGCUUUG
+Salmonella_enterica_.6              ...................................UGAUACGGUGCUUUG
+Salmonella_enterica_.7              ...................................UGAUACGGUGCUUUG
+Salmonella_enterica_.8              ...................................UGAUACGGUGCUUUG
+Salmonella_enterica_.9              ...................................UGAUACGGUGCUUUG
+Salmonella_enterica_.10             ...................................UGAUACGGUGCUUUG
+Salmonella_enterica_.11             ...................................UGAUACGGUGCUUUG
+Salmonella_enterica_.12             ...................................UGAUACGGUGCUUUG
+Salmonella_enterica_.13             ...................................UGAUAUGGUGCUUUG
+Salmonella_enterica_.14             ...................................UGAUAUGGUGCUUUG
+Salmonella_enterica_.15             ...................................UGAUAUGGUGCUUUG
+Salmonella_enterica_.16             ...................................UGAUACGGUGCUUUG
+Serratia_proteamacul.1              ..............................GUGAACAAUAUGGCGCUUGG
+Shigella_boydii_CDC_.1              ....................................GAUACGGUGCUUUG
+Shigella_boydii_Sb22.1              ....................................GAUACGGUGCUUUG
+Shigella_flexneri_2a.1              ....................................GAUACGGUGCUUUG
+Shigella_flexneri_5_.1              ....................................GAUACGGUGCUUUG
+Shigella_flexneri_2a.2              ....................................GAUACGGUGCUUUG
+Shigella_sonnei_Ss04.1              ....................................GAUACGGUGCUUUG
+Shigella_dysenteriae.1              ....................................GAUACGGUGCUUUG
+S.glossinidius.1                    .............................CAUGAGCCAUAGGGGGUUCUG
+Yersinia_pseudotuber.1              .........................UUUGUAUUGGCAAUAUGAUGUUCUG
+Yersinia_enterocolit.1              ...........................UUUAUGGACAAUAUGAUGCUCUG
+Yersinia_pestis_biov.1              .........................UUUGUAUUGGCAAUAUGAUGUUCUG
+Yersinia_pseudotuber.2              .........................UUUGUAUUGGCAAUAUGAUGUUCUG
+Y.pestis.1                          .........................UUUGUAUUGGCAAUAUGAUGUUCUG
+Yersinia_pestis_biov.2              .........................UUUGUAUUGGCAAUAUGAUGUUCUG
+Yersinia_pestis_FV-1.1              .........................UUUGUAUUGGCAAUAUGAUGUUCUG
+Y.pestis.2                          .........................UUUGUAUUGGCAAUAUGAUGUUCUG
+Y.pestis.3                          .........................UUUGUAUUGGCAAUAUGAUGUUCUG
+Yersinia_pestis_biov.3              .........................UUUGUAUUGGCAAUAUGAUGUUCUG
+Yersinia_pestis_biov.4              .........................UUUGUAUUGGCAAUAUGAUGUUCUG
+Yersinia_pestis_biov.5              .........................UUUGUAUUGGCAAUAUGAUGUUCUG
+Yersinia_pestis_CA88.1              .........................UUUGUAUUGGCAAUAUGAUGUUCUG
+Yersinia_frederiksen.1              ..........................UUUUUCUAACAAUAUGAUGCUCUG
+Yersinia_pestis_biov.6              .........................UUUGUAUUGGCAAUAUGAUGUUCUG
+Yersinia_mollaretii_.1              .......AGCCGCGAAUAUGCGUUUCGUUUAUGGACAAUAGGGUGCUCUG
+Yersinia_intermedia_.1              ...........................UUCGCGAACAAUAUGAUGCUCUG
+Yersinia_pestis_CO92.1              .........................UUUGUAUUGGCAAUAUGAUGUUCUG
+Yersinia_bercovieri_.1              .......UGUCGCGAAUACGUUUUUCGUUUACCGGCAAUAUGAUGCUCUG
+Yersinia_pestis_biov.7              .........................UUUGUAUUGGCAAUAUGAUGUUCUG
+Yersinia_pestis_Nepa.1              .........................UUUGUAUUGGCAAUAUGAUGUUCUG
+Actinobacillus_succi.1              ......................GUUAUCCGGCGCGGAAUAAGGCAGCAAC
+H.influenzae.1                      ...................................AAAUACGGU.GGCAA
+Haemophilus_influenz.1              ...................................AAAUACGGU.GGCAA
+H.influenzae.2                      ...................................AAAUACGGC.GACAA
+Haemophilus_influenz.2              ...................................AAAUACGGU.GGCAA
+Haemophilus_influenz.3              ...................................AAAUACGGU.GGCAA
+Haemophilus_influenz.4              ...................................AAAUACGGU.GGCAA
+Haemophilus_influenz.5              ...................................AAAUACGGU.GGCAA
+H.influenzae.3                      ...................................AAAUACGGU.GGCAA
+Haemophilus_influenz.6              ...................................AAAUACGGC.GACAA
+Haemophilus_influenz.7              ...................................AAAUACGGU.GGCAA
+H.influenzae.4                      ...................................AAAUACGGU.GGCAA
+Haemophilus_influenz.8              ...................................AAAUACGGU.GGCAA
+H.influenzae.5                      ...................................AAAUACGGC.GACAA
+Haemophilus_somnus_1.1              ....................................AAUAAGGU.UGCAA
+Haemophilus_somnus_2.1              ....................................AAUAAGGU.UGCAA
+Mannheimia_haemolyti.1              ....................UUAAAGACAAAUUUUUGAUAUGGAAUUUAU
+Mannheimia_succinici.1              ..........................UUUAUUUGAAAAUAAGGCGGCAAU
+Pasteurella_multocid.1              ...............................AUAGAAAUAAGGUGGUAAU
+Reinekea.1                          ...................................CCAUAAGCCCUUGUC
+Vibrio_fischeri_ES11.1              ........................UAAGAAGCACUCAAUAUGUAGCGUGA
+Photobacterium.1                    CGAUGUUGGACUUAUAUAUAUAUACGUUCAAAAGUUGAUAGGUGAUUAAU
+Photobacterium_profu.1              ....................UUUUCUUAAAUCAGAAUAUAUGUGUUCAGA
+P.profundum.1                       ...................UUUUCUUAAAUUCAGAAUAUAUGUGUUCAGA
+Vibrio_cholerae_AM-1.1              ................................UGUAAAUAUGCGUUGUAA
+Vibrio_cholerae_O395.1              ................................UUUAAAUAUGCGUUGUAA
+Vibrio_cholerae_V52.1               ................................UUUAAAUAUGCGUUGUAA
+Vibrio_cholerae_V51.1               ................................UUUAAAUAUGCGUUGUAA
+Vibrio_cholerae_MZO-.1              ................................UUUAAAUAUGCGUUGUAA
+Vibrio_shilonii_AK1.1               ...................................AGAUAAGCUUCUAGA
+Vibrio_cholerae_MZO-.2              ................................UUUAAAUAUGCGUUGUAA
+Vibrio_alginolyticus.1              ...................................GGAUAAGCGUUUUGA
+Vibrio_vulnificus_YJ.1              .....................UUUCAAUGAUGGAAUGAUAAGCAGCUUAA
+Vibrio.1                            ....................UGGUAUUUGCUGUACCGAUACGCAUCAAGA
+Vibrio_cholerae_1587.1              ................................UUUAAAUAUGCGUUGUAA
+Vibrio_cholerae_O1_b.1              ................................UUUAAAUAUGCGUUGUAA
+Vibrio_angustum_S14.1               ..CGAUGUUGGACAUUAAUAUAUACGUUCAAAAGUUGAUAGGUGAUUAAU
+Vibrio_parahaemolyti.1              ....................................GAUAAGCAUUUUGA
+Vibrio.2                            ...................................GGAUAAGCGUUUUGA
+Vibrio_cholerae_RC38.1              ................................UUUAAAUAUGCGUUGUAA
+Vibrio_splendidus_12.1              ....................UGGUAUUUGCUGUACCGAUACGCAUCAAGA
+Vibrio_cholerae_623-.1              ................................UUUAAAUAUGCGUUGUAA
+Vibrio_vulnificus_CM.1              .....................UUUCAAUGAUGGAAUGAUAAGCAGCUUAA
+Vibrio_harveyi_HY01.1               ...................................GGAUAGGCGUCUUGA
+Vibrio_parahaemolyti.2              ...................................GGAUAAGCAUUUUGA
+Vibrio_cholerae_B33.1               ................................UUUAAAUAUGCGUUGUAA
+Vibrio_cholerae_2740.1              ................................UUUAAAUAUGCGUUGUAA
+Vibrio_cholerae_NCTC.1              ................................UUUAAAUAUGCGUUGUAA
+Vibrio_cholerae_MAK_.1              ................................UUUAAAUAUGCGUUGUAA
+Vibrionales_bacteriu.1              ....................UGGUAUUUGCUGUACCGAUACGCAUCAAGA
+Petrotoga_mobilis_SJ.1              ...................................UUCUAUGGUGACUUA
+unidentified_bacteri.1              ....................................GAUACGGUGCUUUG
+M.brevicollis.1                     ....................................GAUACGGUGCUUUG
+M.brevicollis.2                     ....................................GAUACGGUGCUUUG
+S.purpuratus.1                      ....................................GAUACGGUGCUUUG
+P.trichocarpa.1                     ....................................GAUACGGUGCUUUG
+marine_metag.1                      ...................................CGCAAAGGCAGGAUG
+#=GC SS_cons                        ...................................>>>>..>>>>>>>>>
+#=GC RF                             ...................................cgcuAuGGugcacag
+
+Acidobacteria_bacter.1              CGC....GGUAUCCAUCUUUGUAG..........................
+Bacteroides_capillos.1              GCC....GUGGACGCCUCCACGG...........................
+A.metalliredigens.1                 GCC...............................................
+A.oremlandii.1                      GCC...............................................
+C.perfringens.1                     GCC....UGGAUUACUAAAUUAUUUAACAUUAAGUUUAAUAAGAACUUAA
+Clostridium_perfring.1              GCC....UGGAUUACUAAAUUAUUUAACAUUAAGUUUAAUAAGAACUUAA
+Clostridium_perfring.2              GCC....UGGAUUACUAAAUUAUUUAACAUUAAGUUGG............
+Clostridium_perfring.3              GCC....UGGAUUACUAAAUUAUUUAACAUUAAGUUUAAUAAGAGCUUAA
+Clostridium_perfring.4              GCC....UGGAUUACUAAAUUAUUUAACAUUAAGUUUAAUAAGAACUUAA
+Symbiobacterium_ther.1              ACCGGU.CCCGGUCG...................................
+E.acidaminophilum.1                 ACC...............................................
+Dorea_longicatena_DS.1              GCC....AGGAAUGACAGGUCUGUC.........................
+Desulfitobacterium_h.1              GCC....UGAGCAAA...................................
+Desulfitobacterium_h.2              GCC....UGAGCAAA...................................
+Desulfotomaculum_red.1              GCC...............................................
+P.thermopropionicum.1               GCC...............................................
+S.wolfei.1                          GCC...............................................
+Thermosinus_carboxyd.1              GCC....UGGGCCCG...................................
+Carboxydothermus_hyd.1              ACC...............................................
+Moorella_thermoaceti.1              GCC....UGGGUUUC...................................
+Thermoanaerobacter_p.1              GCC...............................................
+Thermoanaerobacter.1                GCC...............................................
+Caldicellulosiruptor.1              GCC...............................................
+Caulobacter.1                       GCCGC..GCCGGUAC...................................
+Hyphomonas_neptunium.1              GCC...............................................
+Desulfotalea_psychro.1              GCC...............................................
+Desulfuromonas_aceto.1              GCC...............................................
+Geobacter_uraniiredu.1              GCC...............................................
+G.sulfurreducens.1                  GCC...............................................
+Geobacter_metallired.1              GCC...............................................
+Geobacter.1                         GCC...............................................
+G.bemidjiensis.1                    GCC...............................................
+Pelobacter_propionic.1              GCC...............................................
+Pelobacter_carbinoli.1              GCC...............................................
+S.fumaroxidans.1                    GCC...............................................
+Aeromonas_hydrophila.1              GCCG...UCAGCCGAUGUUC..............................
+Aeromonas_salmonicid.1              GCCG...UCAGCCGAUGUUC..............................
+Moritella.1                         GACUC..AUAGCAUUUUAAAU.............................
+Pseudoalteromonas_at.1              GCC....GCGAAGUGCGUUCGCAAGAAUGUGU..................
+Psychromonas_ingraha.1              GCCG...CUUGUCUGACAUUUUGGUCA.......................
+Shewanella_sediminis.1              GCC....GUGGCAAUA..................................
+Shewanella_baltica_O.1              GCC....GUGGUAAUA..................................
+Shewanella_loihica_P.1              GCC....GUGGCAAUA..................................
+Shewanella.1                        GCC....GUGGCAAUA..................................
+Shewanella_pealeana_.1              GCC....GUGGCAAUA..................................
+Shewanella.2                        GCC....GUGGCAAUA..................................
+Shewanella.3                        GCC....GUGGUAAUA..................................
+Shewanella_frigidima.1              GCC....GUGGUAAUU..................................
+Shewanella.4                        GCC....GUGGUAAUA..................................
+Shewanella_putrefaci.1              GCC....GUGGUAAUA..................................
+Shewanella_baltica_O.2              GCC....GUGGUAAUA..................................
+Shewanella_amazonens.1              GCC....GUGGCGCG...................................
+Shewanella_denitrifi.1              GCC....GUGGUAAUA..................................
+Shewanella_baltica_O.3              GCC....GUGGUAAUA..................................
+Shewanella_oneidensi.1              GCC....GUGGCAAUA..................................
+Shewanella_putrefaci.2              GCC....GUGGUAAUA..................................
+Shewanella_woodyi_AT.1              GCC....GUGGCAAUA..................................
+Enterobacter.1                      GCC....GUGGCGGUU..................................
+Escherichia_coli_CFT.1              GCC....GUGACAAUGCUCGUAAAGA........................
+Escherichia_coli_str.1              GCC....GUGACAAUGCUCGUAAAGA........................
+E.coli.1                            GCC....GUGACAAUGCUCGUAAAGA........................
+Escherichia_coli_SE1.1              GCC....GUGACAAUGCUCGUAAAGA........................
+Escherichia_coli_E24.1              GCC....GUGACAAUGCUCGUAAAGA........................
+Escherichia_coli_ATC.1              GCC....GUGACAAUGCUCGUAAAGA........................
+Escherichia_coli_APE.1              GCC....GUGACAAUGCUCGUAAAGA........................
+Escherichia_coli_str.2              GCC....GUGACAAUGCUCGUAAAGA........................
+Escherichia_coli_IAI.1              GCC....GUGACAAUGCUCGUAAAGA........................
+Escherichia_coli_O15.1              GCC....GUGACAAUGCUCGUAAAGA........................
+Escherichia_coli_559.1              GCC....GUGACAAUGCUCGUAAAGA........................
+Escherichia_coli_UTI.1              GCC....GUGACAAUGCUCGUAAAGA........................
+Escherichia_coli_O15.2              GCC....GUGACAAUGCUCGUAAAGA........................
+Escherichia_coli_536.1              GCC....GUGACAAUGCUCGUAAAGA........................
+Klebsiella_pneumonia.1              GCC....GCGACGCCGCCGG..............................
+Pectobacterium_atros.1              GCC....GUGGCCUUCG.................................
+Photorhabdus_lumines.1              GCC....GUGACCACU..................................
+Salmonella_enterica_.1              GCC....GUGACAACGUUUAACGU..........................
+Salmonella_enterica_.2              GCC....GUGACAACGUUUAACGU..........................
+S.enterica.1                        GCC....GUGACAACGUUUAACGU..........................
+Salmonella_enterica_.3              GCC....GUGACAACGUUUAACGU..........................
+Salmonella_enterica_.4              GCC....GUGACAACGUUUAACGU..........................
+Salmonella_enterica_.5              GCC....GUGACAACGUUUAACGU..........................
+Salmonella_enterica_.6              GCC....GUGACAACGUUUAACGU..........................
+Salmonella_enterica_.7              GCC....GUGACAACGUUUAACGU..........................
+Salmonella_enterica_.8              GCC....GUGACAACGUUUAACGU..........................
+Salmonella_enterica_.9              GCC....GUGACAACGUUUAACGU..........................
+Salmonella_enterica_.10             GCC....GUGACAACGUUUAACGU..........................
+Salmonella_enterica_.11             GCC....GUGACAACGUUUAACGU..........................
+Salmonella_enterica_.12             GCC....GUGACAACGUUUAACGU..........................
+Salmonella_enterica_.13             GCC....GUGACAACGUUUAACGU..........................
+Salmonella_enterica_.14             GCC....GUGACAACGUUUAACGU..........................
+Salmonella_enterica_.15             GCC....GUGACAACGUUUAACGU..........................
+Salmonella_enterica_.16             GCC....GUGACAACGUUUAACGU..........................
+Serratia_proteamacul.1              GCC....GUGGCGAAGU.................................
+Shigella_boydii_CDC_.1              GCC....GUGACAAUGCUCGUAAAGA........................
+Shigella_boydii_Sb22.1              GCC....GUGACAAUGCUCGUAAAGA........................
+Shigella_flexneri_2a.1              GCC....GUGACAAUGCUCGUAAAGA........................
+Shigella_flexneri_5_.1              GCC....GUGACAAUGCUCGUAAAGA........................
+Shigella_flexneri_2a.2              GCC....GUGACAAUGCUCGUAAAGA........................
+Shigella_sonnei_Ss04.1              GCC....GUGACAAUGCUCGUAAAGA........................
+Shigella_dysenteriae.1              GCC....GUGACAAUGCUCGUAAAGA........................
+S.glossinidius.1                    GCC....GUGGCGAA...................................
+Yersinia_pseudotuber.1              GCC....GUGGCCUU...................................
+Yersinia_enterocolit.1              GCC....GUGGCUUC...................................
+Yersinia_pestis_biov.1              GCC....GUGGCCUU...................................
+Yersinia_pseudotuber.2              GCC....GUGGCCUU...................................
+Y.pestis.1                          GCC....GUGGCCUU...................................
+Yersinia_pestis_biov.2              GCC....GUGGCCUU...................................
+Yersinia_pestis_FV-1.1              GCC....GUGGCCUU...................................
+Y.pestis.2                          GCC....GUGGCCUU...................................
+Y.pestis.3                          GCC....GUGGCCUU...................................
+Yersinia_pestis_biov.3              GCC....GUGGCCUU...................................
+Yersinia_pestis_biov.4              GCC....GUGGCCUU...................................
+Yersinia_pestis_biov.5              GCC....GUGGCCUU...................................
+Yersinia_pestis_CA88.1              GCC....GUGGCCUU...................................
+Yersinia_frederiksen.1              GCC....GUGGCUUU...................................
+Yersinia_pestis_biov.6              GCC....GUGGCCUU...................................
+Yersinia_mollaretii_.1              GCC....GUGGCUUU...................................
+Yersinia_intermedia_.1              GCC....GUGGCUUU...................................
+Yersinia_pestis_CO92.1              GCC....GUGGCCUU...................................
+Yersinia_bercovieri_.1              GCC....GUGGCUUU...................................
+Yersinia_pestis_biov.7              GCC....GUGGCCUU...................................
+Yersinia_pestis_Nepa.1              GCC....GUGGCCUU...................................
+Actinobacillus_succi.1              GCC....AGCGAUGCGGUU...............................
+H.influenzae.1                      GCC....AAUAACGCGCUA...............................
+Haemophilus_influenz.1              GCC....AAUAACGCCGUG...............................
+H.influenzae.2                      GCC....AAUAACGCAGUU...............................
+Haemophilus_influenz.2              GCC....AAUAACGCGCUA...............................
+Haemophilus_influenz.3              GCC....AAUAACGCGGUA...............................
+Haemophilus_influenz.4              GCC....AAUAACGCGGUA...............................
+Haemophilus_influenz.5              GCC....AAUAACGCGGUA...............................
+H.influenzae.3                      GCC....AAUAACGCGCUA...............................
+Haemophilus_influenz.6              GCC....AAUAACGCCGUG...............................
+Haemophilus_influenz.7              GCC....AAUAACGCCGUG...............................
+H.influenzae.4                      GCC....AAUAACGCGGUA...............................
+Haemophilus_influenz.8              GCC....AAUAACGCGCUA...............................
+H.influenzae.5                      GCC....AAUAACGCCGUG...............................
+Haemophilus_somnus_1.1              GCC....UGUAACAUUGUCAAA............................
+Haemophilus_somnus_2.1              GCC....UGUAACAUUGUCAAA............................
+Mannheimia_haemolyti.1              GCCAGUAACAGCAUA...................................
+Mannheimia_succinici.1              GCC....AGCAAUGAAUUU...............................
+Pasteurella_multocid.1              GCC....AAUAGCAUAAAACUUG...........................
+Reinekea.1                          ACC....UCGCAGUA...................................
+Vibrio_fischeri_ES11.1              GCCA...GUGACAAUU..................................
+Photobacterium.1                    GCCA...GUGACGAU...................................
+Photobacterium_profu.1              GCCA...GUGACAUA...................................
+P.profundum.1                       GCCA...GUGACAUA...................................
+Vibrio_cholerae_AM-1.1              GCCA...GUGGCAGA...................................
+Vibrio_cholerae_O395.1              GCCA...GUGACCGC...................................
+Vibrio_cholerae_V52.1               GCCA...GUGACCGC...................................
+Vibrio_cholerae_V51.1               GCCA...GUGACCGC...................................
+Vibrio_cholerae_MZO-.1              GCCA...GUGACCGC...................................
+Vibrio_shilonii_AK1.1               GCCA...GUGACAAU...................................
+Vibrio_cholerae_MZO-.2              GCCA...GUGACCGC...................................
+Vibrio_alginolyticus.1              GCCA...GUGGCAUA...................................
+Vibrio_vulnificus_YJ.1              GCCA...GUGACAUG...................................
+Vibrio.1                            GCCA...GUGACAUG...................................
+Vibrio_cholerae_1587.1              GCCA...GUGACCGC...................................
+Vibrio_cholerae_O1_b.1              GCCA...GUGACCGC...................................
+Vibrio_angustum_S14.1               GCCA...GUGACGAU...................................
+Vibrio_parahaemolyti.1              GCCA...GUGACAUA...................................
+Vibrio.2                            GCCA...GUGGCGUA...................................
+Vibrio_cholerae_RC38.1              GCCA...GUGACCGC...................................
+Vibrio_splendidus_12.1              GCCA...GUGACAUG...................................
+Vibrio_cholerae_623-.1              GCCA...GUGACCGC...................................
+Vibrio_vulnificus_CM.1              GCCA...GUGACAUG...................................
+Vibrio_harveyi_HY01.1               GCCA...GUGACAUA...................................
+Vibrio_parahaemolyti.2              GCCA...GUGACAUA...................................
+Vibrio_cholerae_B33.1               GCCA...GUGACCGC...................................
+Vibrio_cholerae_2740.1              GCCA...GUGACCGC...................................
+Vibrio_cholerae_NCTC.1              GCCA...GUGACCGC...................................
+Vibrio_cholerae_MAK_.1              GCCA...GUGACCGC...................................
+Vibrionales_bacteriu.1              GCCA...GUGACAUG...................................
+Petrotoga_mobilis_SJ.1              GAC...............................................
+unidentified_bacteri.1              GCC....GUGACAAUGCUCGUAAAGA........................
+M.brevicollis.1                     GCC....GUGACAAUGCUCGUAAAGA........................
+M.brevicollis.2                     GCC....GUGACAAUGCUCGUAAAGA........................
+S.purpuratus.1                      GCC....GUGACAAUGCUCGUAAAGA........................
+P.trichocarpa.1                     GCC....GUGACAAUGCUCGUAAAGA........................
+marine_metag.1                      AAC...............................................
+#=GC SS_cons                        >>.....<<<<<......................................
+#=GC RF                             GCC....guggcaaaa..................................
+
+Acidobacteria_bacter.1              .......................AUGGAUC..GAGGGUGA.CG...AA.G
+Bacteroides_capillos.1              .......................UGUCCUUU.CAGGGUCU.GUG..CU.G
+A.metalliredigens.1                 ..............................UGUAGGGUAU.UG...UU.G
+A.oremlandii.1                      ..............................UGUAGGGUAU.UG...UG.G
+C.perfringens.1                     AUUGUUAAUUGGUUUAAUUGGGGUAAUCCA..CAGGGUAA.GG...UU.U
+Clostridium_perfring.1              AUUGUUAAUUAGUUUAAUUGGGGUAAUCCA..CAGGGUAA.GG...UU.U
+Clostridium_perfring.2              .......................UAAUCCA..CAGGGUAA.GG...UU.U
+Clostridium_perfring.3              AUUGUUAAUUUGGGGG.......UAAUCCA..CAGGGUAA.GG...UU.U
+Clostridium_perfring.4              AUUGUUAAUUGGUUUAAUUGGGGUAAUCCA..CAGGGUAA.GG...UU.U
+Symbiobacterium_ther.1              .......................UACCGGGC.CAGGGUUG.UC...GG.G
+E.acidaminophilum.1                 ..............................A.GUGGGCCU.UU...UG.A
+Dorea_longicatena_DS.1              .......................AGUUCCU..CAGGGUAG.AU...AG.G
+Desulfitobacterium_h.1              .......................CCGCUCA..CGGGGUCA.GU...CA.G
+Desulfitobacterium_h.2              .......................CCGCUCA..CGGGGUCA.GU...CA.G
+Desulfotomaculum_red.1              ..............................GUUAGGGUUU.GU...CU.G
+P.thermopropionicum.1               ..............................GGCAGGGUGU.AC...CG.G
+S.wolfei.1                          ..............................U.AUAGGUAU.AA...GU.G
+Thermosinus_carboxyd.1              .......................ACGCCCA..CGGGGUAU.AG...UU.G
+Carboxydothermus_hyd.1              ..............................A.AAGGGUACUAC...CG.G
+Moorella_thermoaceti.1              .......................GUACCCA..UGGGGUAG.GU...CG.G
+Thermoanaerobacter_p.1              ..............................GAUAGGGUAG.UG...CU.G
+Thermoanaerobacter.1                ..............................GAUAGGGUAG.UG...CU.G
+Caldicellulosiruptor.1              ..............................GAUAGGGUGC.AGGUUUG.G
+Caulobacter.1                       ........................GCCGGC..AAGGGUGA.CG...GG.G
+Hyphomonas_neptunium.1              ................................GAGGGUGG.CA...GUUG
+Desulfotalea_psychro.1              ..............................GUUAGGGUUG.UA...CU.G
+Desulfuromonas_aceto.1              ..............................U.CAGGGUUG.CA...UU.G
+Geobacter_uraniiredu.1              ..............................U.AUGGGUUC.UG...CC.G
+G.sulfurreducens.1                  ..............................G.ACGGGUGU.UG...CU.G
+Geobacter_metallired.1              ..............................U.AUGGGUAU.CG...CU.G
+Geobacter.1                         ..............................U.GUGGGCUC.UG...CU.G
+G.bemidjiensis.1                    ..............................G.UUGGGUGC.CG...CC.G
+Pelobacter_propionic.1              ..............................A.ACGGGUUU.CG...CU.G
+Pelobacter_carbinoli.1              ..............................GGCAGGGUUU.CG...CU.G
+S.fumaroxidans.1                    ..............................GGCAGGGUGU.GC...CU.G
+Aeromonas_hydrophila.1              .......................GAGCUGU..AAGGGUCA.GG...AA.A
+Aeromonas_salmonicid.1              .......................GAGCUGU..AAGGGUCA.GG...AA.A
+Moritella.1                         .......................UUGCUAU..AAGGGUUU.AA...UC.A
+Pseudoalteromonas_at.1              .......................CAUUCGC..CAGGGUUG.UG...AG.A
+Psychromonas_ingraha.1              .......................GCGCAAG..AAGGGUAA.AG...AG.A
+Shewanella_sediminis.1              .......................ACGCCAC..CGGGGUGU.GA...AC.A
+Shewanella_baltica_O.1              .......................AUGCCAC..CGGGGUGG.GA...UA.A
+Shewanella_loihica_P.1              .......................GUGCCAC..CGGGGUGA.GG...AA.A
+Shewanella.1                        .......................AGGCCAC..UGGGGUGA.GU...AA.A
+Shewanella_pealeana_.1              .......................ACGCCAC..CGGGGUGA.GA...AA.A
+Shewanella.2                        .......................AGGCCAC..UGGGGUGA.GU...AA.A
+Shewanella.3                        .......................AGGCCAC..UGGGGUGA.GU...AA.A
+Shewanella_frigidima.1              .......................UUGCCAC..CGGGGUGA.GU...AA.A
+Shewanella.4                        .......................AUGCCAC..CGGGGUGA.GU...AA.A
+Shewanella_putrefaci.1              .......................AUGCCAC..CGGGGUGA.GU...AA.A
+Shewanella_baltica_O.2              .......................AUGCCAC..CGGGGUGG.GA...UA.A
+Shewanella_amazonens.1              .......................GUGCCAC..CGGGGUGG.GGU..GC.A
+Shewanella_denitrifi.1              .......................AUGCCAC..CGGGGUGA.GU...AA.A
+Shewanella_baltica_O.3              .......................AUGCCAC..CGGGGUGG.GA...UA.A
+Shewanella_oneidensi.1              .......................AGGCCAC..UGGGGUGA.GU...AA.A
+Shewanella_putrefaci.2              .......................AUGCCAC..CGGGGUGA.GU...AA.A
+Shewanella_woodyi_AT.1              .......................UCGCCAC..CGGGGUGU.GA...UA.A
+Enterobacter.1                      .......................UCGCCAC..CAGGGUAC.AG...AA.A
+Escherichia_coli_CFT.1              .......................UUGCCAC..CAGGGCGA.AG...GA.A
+Escherichia_coli_str.1              .......................UUGCCAC..CAGGGCGA.AG...GA.A
+E.coli.1                            .......................UUGCCAC..CAGGGCGA.AG...GA.A
+Escherichia_coli_SE1.1              .......................UUGCCAC..CAGGGCGA.AG...GA.A
+Escherichia_coli_E24.1              .......................UUGCCAC..CAGGGCGA.AG...GA.A
+Escherichia_coli_ATC.1              .......................UUGCCAC..CAGGGCGA.AG...GA.A
+Escherichia_coli_APE.1              .......................UUGCCAC..CAGGGCGA.AG...GA.A
+Escherichia_coli_str.2              .......................UUGCCAC..CAGGGCGA.AG...GA.A
+Escherichia_coli_IAI.1              .......................UUGCCAC..CAGGGCGA.AG...GA.A
+Escherichia_coli_O15.1              .......................UUGCCAC..CAGGGCGA.AG...GA.A
+Escherichia_coli_559.1              .......................UUGCCAC..CAGGGCGA.AG...GA.A
+Escherichia_coli_UTI.1              .......................UUGCCAC..CAGGGCGA.AG...GA.A
+Escherichia_coli_O15.2              .......................UUGCCAC..CAGGGCGA.AG...GA.A
+Escherichia_coli_536.1              .......................UUGCCAC..CAGGGCGA.AG...GA.A
+Klebsiella_pneumonia.1              .......................UUGUCGC..CAGGGCGU.GG...AA.A
+Pectobacterium_atros.1              .......................UGGUCAC..CAGGGUGCGAG...GU.A
+Photorhabdus_lumines.1              .......................GAGUCAC..CAGGAUGUGAG...GC.A
+Salmonella_enterica_.1              .......................UUGCCAC..CAGGGCGC.AG...GA.A
+Salmonella_enterica_.2              .......................UUGCCAC..CAGGGCGC.AG...GA.A
+S.enterica.1                        .......................UUGCCAC..CAGGGCGC.AG...GA.A
+Salmonella_enterica_.3              .......................UUGCCAC..CAGGGCGC.AG...GA.A
+Salmonella_enterica_.4              .......................UUGCCAC..CAGGGCGC.AG...GA.A
+Salmonella_enterica_.5              .......................UUGCCAC..CAGGGCGC.AG...GA.A
+Salmonella_enterica_.6              .......................UUGCCAC..CAGGGCGC.AG...GA.A
+Salmonella_enterica_.7              .......................UUGCCAC..CAGGGCGC.AG...GA.A
+Salmonella_enterica_.8              .......................UUGCCAC..CAGGGCGC.AG...GA.A
+Salmonella_enterica_.9              .......................UUGCCAC..CAGGGCGC.AG...GA.A
+Salmonella_enterica_.10             .......................UUGCCAC..CAGGGCGC.AG...GA.A
+Salmonella_enterica_.11             .......................UUGCCAC..CAGGGCGC.AG...GA.A
+Salmonella_enterica_.12             .......................UUGCCAC..CAGGGCGC.AG...GA.A
+Salmonella_enterica_.13             .......................UUGCCAC..CAGGGCGC.AG...GA.A
+Salmonella_enterica_.14             .......................UUGCCAC..CAGGGCGC.AG...GA.A
+Salmonella_enterica_.15             .......................UUGCCAC..CAGGGCGC.AG...GA.A
+Salmonella_enterica_.16             .......................UUGCCAC..CAGGGCGC.AG...GA.A
+Serratia_proteamacul.1              .......................CAGCCAC..CAGGGUGCAGA...GC.G
+Shigella_boydii_CDC_.1              .......................UUGCCAC..CAGGGCGA.AG...GA.A
+Shigella_boydii_Sb22.1              .......................UUGCCAC..CAGGGCGA.AG...GA.A
+Shigella_flexneri_2a.1              .......................UUGCCAC..CAGGGCGA.AG...GA.A
+Shigella_flexneri_5_.1              .......................UUGCCAC..CAGGGCGA.AGG..AA.A
+Shigella_flexneri_2a.2              .......................UUGCCAC..CAGGGCGA.AG...GA.A
+Shigella_sonnei_Ss04.1              .......................UUGCCAC..CAGGGCGA.AG...GA.A
+Shigella_dysenteriae.1              .......................UUGCCAC..CAGGGCGA.AG...GA.A
+S.glossinidius.1                    .........................GCCAC..CAGGGUGCAGG...GU.A
+Yersinia_pseudotuber.1              .......................AAGCCAC..CAGGGUGCAAG...GU.A
+Yersinia_enterocolit.1              .......................AAGCCAC..CAGGGUGCGAG...GU.A
+Yersinia_pestis_biov.1              .......................AAGCCAC..CAGGGUGCAAG...GU.A
+Yersinia_pseudotuber.2              .......................AAGCCAC..CAGGGUGCAAG...GU.A
+Y.pestis.1                          .......................AAGCCAC..CAGGGUGCAAG...GU.A
+Yersinia_pestis_biov.2              .......................AAGCCAC..CAGGGUGCAAG...GU.A
+Yersinia_pestis_FV-1.1              .......................AAGCCAC..CAGGGUGCAAG...GU.A
+Y.pestis.2                          .......................AAGCCAC..CAGGGUGCAAG...GU.A
+Y.pestis.3                          .......................AAGCCAC..CAGGGUGCAAG...GU.A
+Yersinia_pestis_biov.3              .......................AAGCCAC..CAGGGUGCAAG...GU.A
+Yersinia_pestis_biov.4              .......................AAGCCAC..CAGGGUGCAAG...GU.A
+Yersinia_pestis_biov.5              .......................AAGCCAC..CAGGGUGCAAG...GU.A
+Yersinia_pestis_CA88.1              .......................AAGCCAC..CAGGGUGCAAG...GU.A
+Yersinia_frederiksen.1              .......................AAGCCAC..CAGGGUGCGAG...GU.A
+Yersinia_pestis_biov.6              .......................AAGCCAC..CAGGGUGCAAG...GU.A
+Yersinia_mollaretii_.1              .......................AAGCCAC..CAGGGUGCGAG...GU.A
+Yersinia_intermedia_.1              .......................AAGCCAC..CAGGGUGCGAG...GU.A
+Yersinia_pestis_CO92.1              .......................AAGCCAC..CAGGGUGCAAG...GU.A
+Yersinia_bercovieri_.1              .......................AAGCCAC..CAGGGUGCGAG...GU.A
+Yersinia_pestis_biov.7              .......................AAGCCAC..CAGGGUGCAAG...GU.A
+Yersinia_pestis_Nepa.1              .......................AAGCCAC..CAGGGUGCAAG...GU.A
+Actinobacillus_succi.1              .......................UAUCGCU..CAGGGAUC.CG...UU.G
+H.influenzae.1                      .......................CGUUAUU..CAGGGAUA.CG...CU.G
+Haemophilus_influenz.1              .......................UGUUAUU..CAGGGAUA.CG...CU.G
+H.influenzae.2                      .......................CGUUAUU..CAGGGAUA.CG...CU.G
+Haemophilus_influenz.2              .......................CGUUAUU..CAGGGAUA.CG...CU.G
+Haemophilus_influenz.3              .......................CGUUAUU..CAGGGAUA.CG...CU.G
+Haemophilus_influenz.4              .......................CGUUAUU..CAGGGAUA.CG...CU.G
+Haemophilus_influenz.5              .......................CGUUAUU..CAGGGAUA.CG...CU.G
+H.influenzae.3                      .......................CGUUAUU..CAGGGAUA.CG...CU.G
+Haemophilus_influenz.6              .......................UGUUAUU..CAGGGAUA.CG...CU.G
+Haemophilus_influenz.7              .......................UGUUAUU..CAGGGAUA.CG...CU.G
+H.influenzae.4                      .......................CGUUAUU..CAGGGAUA.CG...CU.G
+Haemophilus_influenz.8              .......................CGUUAUU..CAGGGAUA.CG...CU.G
+H.influenzae.5                      .......................UGUUAUU..CAGGGAUA.CG...CU.G
+Haemophilus_somnus_1.1              .......................UGUUGCA..CAUGGUAC.AA...CU.A
+Haemophilus_somnus_2.1              .......................UGUUGCA..CAUGGUAU.AA...CU.A
+Mannheimia_haemolyti.1              .......................AAGCUGUUCAAAGGAUA.AC...UU.A
+Mannheimia_succinici.1              .......................UAUUGCU..CAGGGAUAAUG...UG.G
+Pasteurella_multocid.1              .......................UGCUAUU..CAGGGAUA.CG...CU.G
+Reinekea.1                          ..........................GCGA..CAGGGUAG.CGA..UU.G
+Vibrio_fischeri_ES11.1              .......................CGGUCAC..AAGGGUUU.GU...UU.G
+Photobacterium.1                    .......................UUGUCAC..CAGGGUUU.AU...UU.A
+Photobacterium_profu.1              .......................CUGUCAC..CAGGGUCA.AU...UU.A
+P.profundum.1                       .......................CUGUCAC..CAGGGUCA.AU...UU.A
+Vibrio_cholerae_AM-1.1              .......................AUGUCAC..AAGGGCAG.GA...UU.G
+Vibrio_cholerae_O395.1              .......................UUGUCAC..AAGGGCAG.AA...UU.G
+Vibrio_cholerae_V52.1               .......................UUGUCAC..AAGGGCAG.AA...UU.G
+Vibrio_cholerae_V51.1               .......................UUGUCAC..AAGGGCAG.AA...UU.G
+Vibrio_cholerae_MZO-.1              .......................UUGUCAC..AAGGGCAG.AA...UU.G
+Vibrio_shilonii_AK1.1               .......................UUGUCAC..AAGGGCAU.AA...UU.G
+Vibrio_cholerae_MZO-.2              .......................UUGUCAC..AAGGGCAG.AA...UU.G
+Vibrio_alginolyticus.1              .......................CUGUCAC..AAGGGCAU.GA...UU.G
+Vibrio_vulnificus_YJ.1              .......................AUGUCAC..AAGGGCGU.AA...UU.G
+Vibrio.1                            .......................UUGUCAC..AAGGGCUU.AA...UU.G
+Vibrio_cholerae_1587.1              .......................UUGUCAC..AAGGGCAG.AA...UU.G
+Vibrio_cholerae_O1_b.1              .......................UUGUCAC..AAGGGCAG.AA...UU.G
+Vibrio_angustum_S14.1               .......................UUGUCAC..CAGGGUUU.AU...UU.A
+Vibrio_parahaemolyti.1              .......................CUGUCAC..AAGGGCAU.GA...UU.G
+Vibrio.2                            .......................CUGUCAC..AAGGGCAU.GA...UU.G
+Vibrio_cholerae_RC38.1              .......................UUGUCAC..AAGGGCAG.AA...UU.G
+Vibrio_splendidus_12.1              .......................UUGUCAC..AAGGGCUU.AA...UU.G
+Vibrio_cholerae_623-.1              .......................UUGUCAC..AAGGGCAG.AA...UU.G
+Vibrio_vulnificus_CM.1              .......................AUGUCAC..AAGGGCGU.AA...UU.G
+Vibrio_harveyi_HY01.1               .......................CUGUCAC..AAGGGCAC.AA...UU.G
+Vibrio_parahaemolyti.2              .......................CUGUCAC..AAGGGCAU.GA...UU.G
+Vibrio_cholerae_B33.1               .......................UUGUCAC..AAGGGCAG.AA...UU.G
+Vibrio_cholerae_2740.1              .......................UUGUCAC..AAGGGCAG.AA...UU.G
+Vibrio_cholerae_NCTC.1              .......................UUGUCAC..AAGGGCAG.AA...UU.G
+Vibrio_cholerae_MAK_.1              .......................UUGUCAC..AAGGGCAG.AA...UU.G
+Vibrionales_bacteriu.1              .......................UUGUCAC..AAGGGCUU.AA...UU.G
+Petrotoga_mobilis_SJ.1              ..............................GAUAGGGUAU.AG...AA.G
+unidentified_bacteri.1              .......................UUGCCAC..CAGGGCGA.AG...GA.A
+M.brevicollis.1                     .......................UUGCCAC..CAGGGCGA.AG...GA.A
+M.brevicollis.2                     .......................UUGCCAC..CAGGGCGA.AG...GA.A
+S.purpuratus.1                      .......................UUGCCAC..CAGGGCGA.AG...GA.A
+P.trichocarpa.1                     .......................UUGCCAC..CAGGGCGA.AG...GA.A
+marine_metag.1                      ..............................GAAAGGGUCA.GC...AU.G
+#=GC SS_cons                        .........................>>>>>....<<<<<<.<<...<<.<
+#=GC RF                             .......................aagccac..cAGGGcgu.ag...cg.g
+
+Acidobacteria_bacter.1              GAAACUUCGCCGCCUCC.CGUU....U.GGAAAGGAA.G.CACCUCGGCG
+Bacteroides_capillos.1              GAAACGGACAGGCCUUC.CGUGUU..U.GAGAAGGAG.A.GGUUUUUUCA
+A.metalliredigens.1                 GAAACAAUAAUGCCUCC.CAUAG...C.GGAAAGGAG.U.GCGCAAAUCU
+A.oremlandii.1                      GAAACUUCAAUGCCUCC.CAUUG...U.GGAAAGGAG.U.ACUAUGCAGA
+C.perfringens.1                     GAAAGAAUUUUGCCUCCACGUAUU..UUGGGAAGGAG.A.AUAAGCAAAA
+Clostridium_perfring.1              GAAAGAAUUUUGCCUCCACGUAUU..UUGGGAAGGAG.A.AUAAGCAAAA
+Clostridium_perfring.2              GAAAGAAUUUUGCCUCC.ACGUAUUUU.GGGAAGGAG.A.AUAAGCAAAA
+Clostridium_perfring.3              GAAAGAAUUUUGCCUCCACGUAUU..UUGGGAAGGAG.A.AUAAGCAAAA
+Clostridium_perfring.4              GAAAGAAUUUUGCCUCCACGUAUU..UUGGGAAGGAG.A.AUAAGCAAAA
+Symbiobacterium_ther.1              GAAACCUGGCGGCCUCC.CGU.....U.GGAAAGGGG.C.GGAACUGCGG
+E.acidaminophilum.1                 GAAAUUGGGGGGCCUCC.CAUAUU..U.GGAAAGGAG.A.AUCUUAAACC
+Dorea_longicatena_DS.1              GAAACGUAUCUGCCUCC.CGCGUAUUU.GGAAAGGAG.A.GCAGCACCUU
+Desulfitobacterium_h.1              GAAACCAGCUGGCCUUC.ACUGA...U.GAAAAGGAA.G.CAGAAAAUAC
+Desulfitobacterium_h.2              GAAACCAGCUGGCCUUC.ACUGA...U.GAAAAGGAA.G.CAGAAAAUAC
+Desulfotomaculum_red.1              GAAACGGGCAGGCCUCC.CAAUG...C.GGAAAGGAG.A.AACACAUUAU
+P.thermopropionicum.1               GAAACCGGUGUGCCUUC.CAUUG...C.GAAAAGGAG.A.GCUGGAUUUG
+S.wolfei.1                          GAAACGCUUAUGCCUCC.CCGUAUUGU.GGAAAGGAG.U.ACUUAUUUAG
+Thermosinus_carboxyd.1              GAAACGGCUAUGCCUUC.CCAGUU..U.GAAAAGGAG.G.UAGACAAAUG
+Carboxydothermus_hyd.1              GAAACCGGGGUGCCUCC.CGUUU...U.GGAAAGGAG.U.UAUCAAAGCG
+Moorella_thermoaceti.1              GAAACGGGCCUGCCUCC.CUUUGCU.C.GGAAAGGAG.A.UUCCCCAUGG
+Thermoanaerobacter_p.1              GAAACGGUGCUGCCUCC.CGCC....U.GGAAAGGAG.A.AUAGGAAGGC
+Thermoanaerobacter.1                GAAACGGUGCUGCCUCC.CGCC....U.GGAAAGGAG.A.AUAGGAAGGC
+Caldicellulosiruptor.1              GAAACCACUGCGCCUCC.CGCUU...U.GGAAAGGAA.A.GAUUUAAAGG
+Caulobacter.1                       GAAACGCCGUCGCCUCC.CUUGCU..U.GGAAAGGAG.C.CCGCAUGGGA
+Hyphomonas_neptunium.1              GAAACCCUGCCGCCUCC.CGUGCU..U.GGAAAGGAG.C.CAUGCGAUGA
+Desulfotalea_psychro.1              GAAACGGUUCAGCCUUC.CACCACU.U.GAAAAGGAG.UCUGUAUGAAUG
+Desulfuromonas_aceto.1              GAAACGGUGUGGCCUCC.CAGUCU..U.GGAAAGGAG.A.UUCUUACCAU
+Geobacter_uraniiredu.1              GAAACGGCAGCGCCUCC.CUUU....U.GGAAAGGAGAA.ACCGCAGCGU
+G.sulfurreducens.1                  GAAACGGCAGCGCCUCC.CCUC....U.GGAAAGGAG.A.UUCCGGGCCA
+Geobacter_metallired.1              GAAACGGCGUUGCCUUC.CUUA....U.GCAAAGGGG.A.CCCAGCGACG
+Geobacter.1                         GAAACGGCAGGACCUUC.CUU.....U.GAAAAGGAG.A.ACCUCUCGCC
+G.bemidjiensis.1                    GAAACGGCGCCGCCUCC.CCUU....U.GGAAAGGAG.A.ACCGCCGCCG
+Pelobacter_propionic.1              GAAACAGCGGAGCCUCC.CUUC....A.GGAAAGGAGCU.UGUCCUCGUU
+Pelobacter_carbinoli.1              GAAACGGCGGAGCCUCC.CUUU....C.GGAAAGGAG.A.UAUUUGCAUU
+S.fumaroxidans.1                    GAAACGGGCAUGCCUCC.CGUUG...C.GGAAAGGGG.A.GCAGGUCAAA
+Aeromonas_hydrophila.1              GAAAUGCCCUGGCCUCC.CGUAUU..U.GGAAAGGUG.U.UUAUGUCGCC
+Aeromonas_salmonicid.1              GAAAUGCCCUGGCCUCC.CGUAUU..U.GGAAAGGUG.U.UUAUGUUGCC
+Moritella.1                         GAAAUGAUUAGGCCUCC.CGUAUU..U.GGAAAGGUG.U.UUAUGCAACU
+Pseudoalteromonas_at.1              GAAAUCAAACAGCCUCC.CCGUAAG.U.GCCAAGGCG.A.UAAGGCCCGG
+Psychromonas_ingraha.1              GAAAUGUCUUUGCCUCC.CGUAUU..U.GGAAAGGAA.C.UUAACAUGAG
+Shewanella_sediminis.1              GAAAUGCUCUCACCUCC.CCUUACU.U.GGAAAGGUG.A.UCAUGUCUCA
+Shewanella_baltica_O.1              GAAAUGCUCUCACCUCC.CACACU..U.GGAAAGGUG.A.UCAUGUCUCA
+Shewanella_loihica_P.1              GAAAUUGACUCACCUCC.CCUUACU.U.GGAAAGGUG.A.UCAUGUCUCA
+Shewanella.1                        GAAAUGCACUCGCCUCC.CACACU..U.GGAAAGGUG.A.UCAUGUCUCA
+Shewanella_pealeana_.1              GAAAUGAUCUCACCUCC.CCUUACU.U.GGAAAGGUG.A.UCAUGUCCCA
+Shewanella.2                        GAAAUGCACUCGCCUCC.CACACU..U.GGAAAGGUG.A.UCAUGUCUCA
+Shewanella.3                        GAAAUGCACUCGCCUCC.CACACU..U.GGAAAGGUG.A.UCAUGUCUCA
+Shewanella_frigidima.1              GAAAUGCACUCACCUCC.CACACU..U.GGAAAGGUU.A.ACAUGUCCCA
+Shewanella.4                        GAAAUGCUCUCACCUCC.CACACU..U.GGAAAGGUG.A.UCAUGUCUCA
+Shewanella_putrefaci.1              GAAAUGCUCUCACCUCC.CACACU..U.GGAAAGGUG.A.UCAUGUCUCA
+Shewanella_baltica_O.2              GAAAUGCUCUCACCUCC.CACACU..U.GGAAAGGUG.A.UCAUGUCUCA
+Shewanella_amazonens.1              GAAAUGGCUUCACCUCC.CGAUACU.U.GGAAAGGUG.A.UCAUGUCUCA
+Shewanella_denitrifi.1              GAAAUGCACUCACCUCC.CGCACU..U.GGAAAGGUU.A.ACAUGUCUCA
+Shewanella_baltica_O.3              GAAAUGCUCUCACCUCC.CACACU..U.GGAAAGGUG.A.UCAUGUCUCA
+Shewanella_oneidensi.1              GAAAUGCUCUCGCCUCC.CACACU..U.GGAAAGGUG.A.UCAUGUCUCA
+Shewanella_putrefaci.2              GAAAUGCUCUCACCUCC.CACACU..U.GGAAAGGUG.A.UCAUGUCUCA
+Shewanella_woodyi_AT.1              GAAAUUCUCUCACCUCC.CCUUACU.U.GGAAAGGUG.A.UCAUGUCUCA
+Enterobacter.1                      GAAAUGACUGUGCCUCC.CGUAUC..U.GGAAAGGUG.U.ACAUGGCUUC
+Escherichia_coli_CFT.1              GAAAUGACUUCGCCUCC.CGUAUC..U.GGAAAGGUG.U.ACAUGGCUUC
+Escherichia_coli_str.1              GAAAUGACUUCGCCUCC.CGUAUC..U.GGAAAGGUG.U.ACAUGGCUUC
+E.coli.1                            GAAAUGACUUCGCCUCC.CGUAUC..U.GGAAAGGUG.U.ACAUGGCUUC
+Escherichia_coli_SE1.1              GAAAUGACUUCGCCUCC.CGUAUC..U.GGAAAGGUG.U.ACAUGGCUUC
+Escherichia_coli_E24.1              GAAAUGACUUCGCCUCC.CGUAUC..U.GGAAAGGUG.U.ACAUGGCUUC
+Escherichia_coli_ATC.1              GAAAUGACUUCGCCUCC.CGUAUC..U.GGAAAGGUG.U.ACAUGGCUUC
+Escherichia_coli_APE.1              GAAAUGACUUCGCCUCC.CGUAUC..U.GGAAAGGUG.U.ACAUGGCUUC
+Escherichia_coli_str.2              GAAAUGACUUCGCCUCC.CGUAUC..U.GGAAAGGUG.U.ACAUGGCUUC
+Escherichia_coli_IAI.1              GAAAUGACUUCGCCUCC.CGUAUC..U.GGAAAGGUG.U.ACAUGGCUUC
+Escherichia_coli_O15.1              GAAAUGACUUCGCCUCC.CGUAUC..U.GGAAAGGUG.U.ACAUGGCUUC
+Escherichia_coli_559.1              GAAAUGACUUCGCCUCC.CGUAUC..U.GGAAAGGUG.U.ACAUGGCUUC
+Escherichia_coli_UTI.1              GAAAUGACUUCGCCUCC.CGUAUC..U.GGAAAGGUG.U.ACAUGGCUUC
+Escherichia_coli_O15.2              GAAAUGACUUCGCCUCC.CGUAUC..U.GGAAAGGUG.U.ACAUGGCUUC
+Escherichia_coli_536.1              GAAAUGACUUCGCCUCC.CGUAUC..U.GGAAAGGUG.U.ACAUGGCUUC
+Klebsiella_pneumonia.1              GAAAUGACCGCGUCUCC.CGUAUU..U.GGAAAGGUG.U.AUAUGGCCUC
+Pectobacterium_atros.1              GAAAUGCCUGCAUCUCC.CGUAUU..U.GGAAAGGUG.U.UUAUGGUGAG
+Photorhabdus_lumines.1              GAAAUGCCCACGUCUCC.CAUGUU..U.GGAAAGGUG.U.UAUGGUGAAA
+Salmonella_enterica_.1              GAAAUGACUCCGCCUCC.CGUAUU..U.GGAAAGGUG.U.ACAUGGCUUC
+Salmonella_enterica_.2              GAAAUGACUCCGCCUCC.CGUAUU..U.GGAAAGGUG.U.ACAUGGCUUC
+S.enterica.1                        GAAAUGACUCCGCCUCC.CGUAUU..U.GGAAAGGUG.U.ACAUGGCUUC
+Salmonella_enterica_.3              GAAAUGACUCCGCCUCC.CGUAUU..U.GGAAAGGUG.U.ACAUGGCUUC
+Salmonella_enterica_.4              GAAAUGACUCCGCCUCC.CGUAUU..U.GGAAAGGUG.U.ACAUGGCUUC
+Salmonella_enterica_.5              GAAAUGACUCCGCCUCC.CGUAUU..U.GGAAAGGUG.U.ACAUGGCUUC
+Salmonella_enterica_.6              GAAAUGACUCCGCCUCC.CGUAUU..U.GGAAAGGUG.U.ACAUGGCUUC
+Salmonella_enterica_.7              GAAAUGACUCCGCCUCC.CGUAUU..U.GGAAAGGUG.U.ACAUGGCUUC
+Salmonella_enterica_.8              GAAAUGACUCCGCCUCC.CGUAUU..U.GGAAAGGUG.U.ACAUGGCUUC
+Salmonella_enterica_.9              GAAAUGACUCCGCCUCC.CGUAUU..U.GGAAAGGUG.U.ACAUGGCUUC
+Salmonella_enterica_.10             GAAAUGACUCCGCCUCC.CGUAUU..U.GGAAAGGUG.U.ACAUGGCUUC
+Salmonella_enterica_.11             GAAAUGACUCCGCCUCC.CGUAUU..U.GGAAAGGUG.U.ACAUGGCUUC
+Salmonella_enterica_.12             GAAAUGACUCCGCCUCC.CGUAUU..U.GGAAAGGUG.U.ACAUGGCUUC
+Salmonella_enterica_.13             GAAAUGACUCCGCCUCC.CGUAUU..U.GGAAAGGUG.U.ACAUGGCUUC
+Salmonella_enterica_.14             GAAAUGACUCCGCCUCC.CGUAUU..U.GGAAAGGUG.U.ACAUGGCUUC
+Salmonella_enterica_.15             GAAAUGACUCCGCCUCC.CGUAUU..U.GGAAAGGUG.U.ACAUGGCUUC
+Salmonella_enterica_.16             GAAAUGACUCCGCCUCC.CGUAUU..U.GGAAAGGUG.U.ACAUGGCUUC
+Serratia_proteamacul.1              GAAACGCUCGCAUCUCC.CGACUU..U.GG.AAGGUG.U.UAUGGUGCCG
+Shigella_boydii_CDC_.1              GAAAUGACUUCGCCUCC.CGUAUC..U.GGAAAGGUG.U.ACAUGGCUUC
+Shigella_boydii_Sb22.1              GAAAUGACUUCGCCUCC.CGUAUC..U.GGAAAGGUG.U.ACAUGGCUUC
+Shigella_flexneri_2a.1              GAAAUGACUUCGCCUCC.CGUAUC..U.GGAAAGGUG.U.ACAUGGCUUC
+Shigella_flexneri_5_.1              GAAAUGACUUCGCCUCC.CGUAUC..U.GGAAAGGUG.U.ACAUGGCUUC
+Shigella_flexneri_2a.2              GAAAUGACUUCGCCUCC.CGUAUC..U.GGAAAGGUG.U.ACAUGGCUUC
+Shigella_sonnei_Ss04.1              GAAAUGACUUCGCCUCC.CGUAUC..U.GGAAAGGUG.U.ACAUGGCUUC
+Shigella_dysenteriae.1              GAAAUGACUUCGCCUCC.CGUAUC..U.GGAAAGGUG.U.ACAUGGCUUC
+S.glossinidius.1                    GAAAUGCCGGCAUCUCC.CGUAUU..U.GGAAAGGUG.U.UACUGUGUCA
+Yersinia_pseudotuber.1              GAAAUGCCUGCAUCUCC.CGUAUU..U.GGAAAGGUG.U.UAUGGUACAA
+Yersinia_enterocolit.1              GAAAUGCCUGCAUCUCC.CGUAUU..U.GGAAAGGUG.U.UAUGGUACAA
+Yersinia_pestis_biov.1              GAAAUGCCUGCAUCUCC.CGUAUU..U.GGAAAGGUG.U.UAUGGUACAA
+Yersinia_pseudotuber.2              GAAAUGCCUGCAUCUCC.CGUAUU..U.GGAAAGGUG.U.UAUGGUACAA
+Y.pestis.1                          GAAAUGCCUGCAUCUCC.CGUAUU..U.GGAAAGGUG.U.UAUGGUACAA
+Yersinia_pestis_biov.2              GAAAUGCCUGCAUCUCC.CGUAUU..U.GGAAAGGUG.U.UAUGGUACAA
+Yersinia_pestis_FV-1.1              GAAAUGCCUGCAUCUCC.CGUAUU..U.GGAAAGGUG.U.UAUGGUACAA
+Y.pestis.2                          GAAAUGCCUGCAUCUCC.CGUAUU..U.GGAAAGGUG.U.UAUGGUACAA
+Y.pestis.3                          GAAAUGCCUGCAUCUCC.CGUAUU..U.GGAAAGGUG.U.UAUGGUACAA
+Yersinia_pestis_biov.3              GAAAUGCCUGCAUCUCC.CGUAUU..U.GGAAAGGUG.U.UAUGGUACAA
+Yersinia_pestis_biov.4              GAAAUGCCUGCAUCUCC.CGUAUU..U.GGAAAGGUG.U.UAUGGUACAA
+Yersinia_pestis_biov.5              GAAAUGCCUGCAUCUCC.CGUAUU..U.GGAAAGGUG.U.UAUGGUACAA
+Yersinia_pestis_CA88.1              GAAAUGCCUGCAUCUCC.CGUAUU..U.GGAAAGGUG.U.UAUGGUACAA
+Yersinia_frederiksen.1              GAAAUGCCUGCAUCUCC.CGUAUU..U.GGAAAGGUG.U.UAUGGUACAA
+Yersinia_pestis_biov.6              GAAAUGCCUGCAUCUCC.CGUAUU..U.GGAAAGGUG.U.UAUGGUACAA
+Yersinia_mollaretii_.1              GAAAUGCCUGCAUCUCC.CGUAUU..U.GGAAAGGUG.U.UAUGGUACAA
+Yersinia_intermedia_.1              GAAAUGCCUGCAUCUCC.CGUAUU..U.GGAAAGGUG.U.UAUGGUACAA
+Yersinia_pestis_CO92.1              GAAAUGCCUGCAUCUCC.CGUAUU..U.GGAAAGGUG.U.UAUGGUACAA
+Yersinia_bercovieri_.1              GAAAUGCCUGCAUCUCC.CGUAUU..U.GGAAAGGUG.U.UAUGGUACAA
+Yersinia_pestis_biov.7              GAAAUGCCUGCAUCUCC.CGUAUU..U.GGAAAGGUG.U.UAUGGUACAA
+Yersinia_pestis_Nepa.1              GAAAUGCCUGCAUCUCC.CGUAUU..U.GGAAAGGUG.U.UAUGGUACAA
+Actinobacillus_succi.1              GAAACAGUUGGUCCUAC.CGAUUUU.U.GUAAAGGUA.U.UCAAUGCAAU
+H.influenzae.1                      GAAACGGUUUGUCCUCU.CCGUAUU.U.AGAAAGGUG.U.AAAAUGCAAU
+Haemophilus_influenz.1              GAAACGGUUUAUCCUCU.CCAUAUU.U.AGAAAGGUG.U.AAAAUGCAAU
+H.influenzae.2                      GAAACGGUUUAUCCUCU.CCGUAUU.U.AGAAAGGUG.U.AAAAUGCAAU
+Haemophilus_influenz.2              GAAACGGUUUAUCCUCU.CCGUAUU.U.AGAAAGGUG.U.AAAAUGCAAU
+Haemophilus_influenz.3              GAAACGGUUUAUCCUCU.CCAUAUU.U.AGAAAGGUG.U.AAAAUGCAAU
+Haemophilus_influenz.4              GAAACGGUUUAUCCUCU.CCAUAUU.U.AGAAAGGUG.U.AAAAUGCAAU
+Haemophilus_influenz.5              GAAACGGUUUAUCCUCU.CCAUAUU.U.AGAAAGGUG.U.AAAAUGCAAU
+H.influenzae.3                      GAAACGGUUUAUCCUCU.CCGUAUU.U.AGAAAGGUG.U.AAAAUGCAAU
+Haemophilus_influenz.6              GAAACGGUUUAUCCUCU.CCAUAUU.U.AGAAAGGUG.U.AAAAUGCAAU
+Haemophilus_influenz.7              GAAACGGUUUAUCCUCU.CCAUAUU.U.AGAAAGGUG.U.AAAAUGCAAU
+H.influenzae.4                      GAAACGGUUUAUCCUCU.CCAUAUU.U.AGAAAGGUG.U.AAAAUGCAAU
+Haemophilus_influenz.8              GAAACGGUUUGUCCUCU.CCGUAUU.U.AGAAAGGUG.U.AAAAUGCAAU
+H.influenzae.5                      GAAACGGUUUAUCCUCU.CCAUAUU.U.AGAAAGGUG.U.AGAAUGCAAU
+Haemophilus_somnus_1.1              GAAAUGGUUGUGCCACU.CCCUU...U.AGAAAGGUG.U.CGAAAAUAAA
+Haemophilus_somnus_2.1              GAAAUGGUUGUGCCACU.CCCUU...U.AGAAAGGUG.U.CGAAAAUAAA
+Mannheimia_haemolyti.1              GAAAUGGGUUGUCCUCU.CGUGUU..U.AGAAAGGUG.U.CAAAUGCAGU
+Mannheimia_succinici.1              GAAACGACUUAUCCUCU.CAUCUU..C.AGAAAGGUA.U.CAAAUGCAAU
+Pasteurella_multocid.1              GAAACGGUUUAUCCUCU.CGUAUUU.U.AGAAAGGUG.U.GACAUGCAAA
+Reinekea.1                          GAAACGGCGUUGCCUCC.CGUGUU..U.GGAAAGGUG.A.AUAAUGUUAC
+Vibrio_fischeri_ES11.1              GAAAUGAACAAGCCUCC.CGUGUU..U.GGAAAGGUG.U.UCCGUGGCGC
+Photobacterium.1                    GAAAUGAAUUGACCUCC.CGUAUU..U.GGAAAGGUG.U.UCCGUGGCGA
+Photobacterium_profu.1              GAAAUGAAUCGGCCUCC.CGUAUU..U.GGAAAGGUG.U.UCCAUGGCGC
+P.profundum.1                       GAAAUGAAUCGGCCUCC.CGUAUU..U.GGAAAGGUG.U.UCCAUGGCGC
+Vibrio_cholerae_AM-1.1              GAAAUGAUUUUGCCUCC.CGUAUU..U.GGAAAGGUG.U.UCUGUGGCGC
+Vibrio_cholerae_O395.1              GAAAUGAUUUUGCCUCC.CGUAUU..U.GGAAAGGUG.U.UCUGUGGCGC
+Vibrio_cholerae_V52.1               GAAAUGAUUUUGCCUCC.CGUAUU..U.GGAAAGGUG.U.UCUGUGGCGC
+Vibrio_cholerae_V51.1               GAAAUGAUUUUGCCUCC.CGUAUU..U.GGAAAGGUG.U.UCUGUGGCGC
+Vibrio_cholerae_MZO-.1              GAAAUGAUUUUGCCUCC.CGUAUU..U.GGAAAGGUG.U.UCUGUGGCGC
+Vibrio_shilonii_AK1.1               GAAAUGAUUGUGCCUCC.CGUGUU..U.GGAAAGGUG.U.UCCGUGGCGC
+Vibrio_cholerae_MZO-.2              GAAAUGAUUUUGCCUCC.CGUAUU..U.GGAAAGGUG.U.UCUGUGGCGC
+Vibrio_alginolyticus.1              GAAAUGGCCAUGCCUCC.CGUGUU..U.GGAAAGGUG.U.UCCGUGGCGC
+Vibrio_vulnificus_YJ.1              GAAAUGACUACGCCUCC.CGUGUU..U.GGAAAGGUG.U.UCCGUGGCGC
+Vibrio.1                            GAAAUGAUUAUGCCUCC.CGUGUU..U.GGAAAGGUG.U.UCCGUGGCGC
+Vibrio_cholerae_1587.1              GAAAUGAUUUUGCCUCC.CGUAUU..U.GGAAAGGUG.U.UCUGUGGCGC
+Vibrio_cholerae_O1_b.1              GAAAUGAUUUUGCCUCC.CGUAUU..U.GGAAAGGUG.U.UCUGUGGCGC
+Vibrio_angustum_S14.1               GAAAUGAAUUGACCUCC.CGUAUU..U.GGAAAGGUG.U.UCCGUGGCGA
+Vibrio_parahaemolyti.1              GAAAUGGCCAUGCCUCC.CGUGUU..U.GGAAAGGUG.U.UCCGUGGCGC
+Vibrio.2                            GAAAUGGCCAUGCCUCC.CGUGUU..U.GGAAAGGUG.U.UCCGUGGCGC
+Vibrio_cholerae_RC38.1              GAAAUAAUUUUGCCUCC.CGUAUU..U.GGAAAGGUG.U.UCUGUGGCGC
+Vibrio_splendidus_12.1              GAAAUGAUUAUGCCUCC.CGUGUU..U.GGAAAGGUG.U.UCCGUGGCGC
+Vibrio_cholerae_623-.1              GAAAUGAUUUUGCCUCC.CGUAUU..U.GGAAAGGUG.U.UCUGUGGCGC
+Vibrio_vulnificus_CM.1              GAAAUGACUACGCCUCC.CGUGUU..U.GGAAAGGUG.U.UCCGUGGCGC
+Vibrio_harveyi_HY01.1               GAAAUGAUUAUGCCUCC.CGUGUU..U.GGAAAGGUG.U.UCCGUGGCGC
+Vibrio_parahaemolyti.2              GAAAUGGCCAUGCCUCC.CGUGUU..U.GGAAAGGUG.U.UCCGUGGCGC
+Vibrio_cholerae_B33.1               GAAAUGAUUUUGCCUCC.CGUAUU..U.GGAAAGGUG.U.UCUGUGGCGC
+Vibrio_cholerae_2740.1              GAAAUGAUUUUGCCUCC.CGUAUU..U.GGAAAGGUG.U.UCUGUGGCGC
+Vibrio_cholerae_NCTC.1              GAAAUGAUUUUGCCUCC.CGUAUU..U.GGAAAGGUG.U.UCUGUGGCGC
+Vibrio_cholerae_MAK_.1              GAAAUGAUUUUGCCUCC.CGUAUU..U.GGAAAGGUG.U.UCUGUGGCGC
+Vibrionales_bacteriu.1              GAAAUGAUUAUGCCUCC.CGUGUU..U.GGAAAGGUG.U.UCCGUGGCGC
+Petrotoga_mobilis_SJ.1              GAAACUUCUAUGCCUCC.CGCAUU..A.GGAAAGGAG.A.CACAUUAUGA
+unidentified_bacteri.1              GAAAUGACUUCGCCUCC.CGUAUC..U.GGAAAGGUG.U.ACAUGGCUUC
+M.brevicollis.1                     GAAAUGACUUCGCCUCC.CGUAUC..U.GGAAAGGUG.U.ACAUGGCUUC
+M.brevicollis.2                     GAAAUGACUUCGCCUCC.CGUAUC..U.GGAAAGGUG.U.ACAUGGCUUC
+S.purpuratus.1                      GAAAUGACUUCGCCUCC.CGUAUC..U.GGAAAGGUG.U.ACAUGGCUUC
+P.trichocarpa.1                     GAAAUGACUUCGCCUCC.CGUAUC..U.GGAAAGGUG.U.ACAUGGCUUC
+marine_metag.1                      GAAACGUGCUGGCCUCC.CGUUU...U.GGAAAGGAG.A.CCUCCUAUGU
+#=GC SS_cons                        ....>>>>>>>>>>><<...........>>...>>>>.>.>....>.>>.
+#=GC RF                             GAAAccgcuacgCCUCC.CgUauU..U.GGAAAGGaG.u.uaaauuacca
+
+Acidobacteria_bacter.1              CAUGC
+Bacteroides_capillos.1              GGCUG
+A.metalliredigens.1                 AAUGC
+A.oremlandii.1                      UCCCU
+C.perfringens.1                     GUAAA
+Clostridium_perfring.1              GUAAA
+Clostridium_perfring.2              GUAAA
+Clostridium_perfring.3              GUAAA
+Clostridium_perfring.4              GUAAA
+Symbiobacterium_ther.1              GAGAU
+E.acidaminophilum.1                 ACUGG
+Dorea_longicatena_DS.1              UGCUU
+Desulfitobacterium_h.1              AGGAU
+Desulfitobacterium_h.2              AGGAU
+Desulfotomaculum_red.1              GCCAA
+P.thermopropionicum.1               GGACC
+S.wolfei.1                          CUGUU
+Thermosinus_carboxyd.1              AUUAG
+Carboxydothermus_hyd.1              CCUUU
+Moorella_thermoaceti.1              CUUCU
+Thermoanaerobacter_p.1              UGCUA
+Thermoanaerobacter.1                UGCUA
+Caldicellulosiruptor.1              AUACU
+Caulobacter.1                       CGUCU
+Hyphomonas_neptunium.1              CACAU
+Desulfotalea_psychro.1              UCUCA
+Desulfuromonas_aceto.1              GCGCU
+Geobacter_uraniiredu.1              UGCAA
+G.sulfurreducens.1                  CGUGC
+Geobacter_metallired.1              CGGAG
+Geobacter.1                         ACGCU
+G.bemidjiensis.1                    CUUUC
+Pelobacter_propionic.1              AGAGA
+Pelobacter_carbinoli.1              UUGAG
+S.fumaroxidans.1                    CCGGG
+Aeromonas_hydrophila.1              ACUGC
+Aeromonas_salmonicid.1              ACUGC
+Moritella.1                         UCAAG
+Pseudoalteromonas_at.1              CAACU
+Psychromonas_ingraha.1              CCAAC
+Shewanella_sediminis.1              ACUAC
+Shewanella_baltica_O.1              AUUAC
+Shewanella_loihica_P.1              ACUAC
+Shewanella.1                        AUUAC
+Shewanella_pealeana_.1              ACUAC
+Shewanella.2                        AUUAC
+Shewanella.3                        AUUGC
+Shewanella_frigidima.1              ACUAC
+Shewanella.4                        AUUAC
+Shewanella_putrefaci.1              AUUAC
+Shewanella_baltica_O.2              AUUAC
+Shewanella_amazonens.1              ACUUC
+Shewanella_denitrifi.1              ACUAC
+Shewanella_baltica_O.3              AUUAC
+Shewanella_oneidensi.1              AUUAC
+Shewanella_putrefaci.2              AUUAC
+Shewanella_woodyi_AT.1              ACUAC
+Enterobacter.1                      ACAAC
+Escherichia_coli_CFT.1              ACAAC
+Escherichia_coli_str.1              ACAAC
+E.coli.1                            ACAAC
+Escherichia_coli_SE1.1              ACAAC
+Escherichia_coli_E24.1              ACAAC
+Escherichia_coli_ATC.1              ACAAC
+Escherichia_coli_APE.1              ACAAC
+Escherichia_coli_str.2              ACAAC
+Escherichia_coli_IAI.1              ACAAC
+Escherichia_coli_O15.1              ACAAC
+Escherichia_coli_559.1              ACAAC
+Escherichia_coli_UTI.1              ACAAC
+Escherichia_coli_O15.2              ACAAC
+Escherichia_coli_536.1              ACAAC
+Klebsiella_pneumonia.1              ACAGC
+Pectobacterium_atros.1              UCAAC
+Photorhabdus_lumines.1              CAACU
+Salmonella_enterica_.1              ACAAC
+Salmonella_enterica_.2              ACAAC
+S.enterica.1                        ACAAC
+Salmonella_enterica_.3              ACAAC
+Salmonella_enterica_.4              ACAAC
+Salmonella_enterica_.5              ACAAC
+Salmonella_enterica_.6              ACAAC
+Salmonella_enterica_.7              ACAAC
+Salmonella_enterica_.8              ACAAC
+Salmonella_enterica_.9              ACAAC
+Salmonella_enterica_.10             ACAAC
+Salmonella_enterica_.11             ACAAC
+Salmonella_enterica_.12             ACAAC
+Salmonella_enterica_.13             ACAAC
+Salmonella_enterica_.14             ACAAC
+Salmonella_enterica_.15             ACAAC
+Salmonella_enterica_.16             ACAAC
+Serratia_proteamacul.1              CAACU
+Shigella_boydii_CDC_.1              ACAAC
+Shigella_boydii_Sb22.1              ACAAC
+Shigella_flexneri_2a.1              ACAAC
+Shigella_flexneri_5_.1              ACAAC
+Shigella_flexneri_2a.2              ACAAC
+Shigella_sonnei_Ss04.1              ACAAC
+Shigella_dysenteriae.1              ACAAC
+S.glossinidius.1                    CAACU
+Yersinia_pseudotuber.1              CUCAC
+Yersinia_enterocolit.1              CUUAC
+Yersinia_pestis_biov.1              CUCAC
+Yersinia_pseudotuber.2              CUCAC
+Y.pestis.1                          CUCAC
+Yersinia_pestis_biov.2              CUCAC
+Yersinia_pestis_FV-1.1              CUCAC
+Y.pestis.2                          CUCAC
+Y.pestis.3                          CUCAC
+Yersinia_pestis_biov.3              CUCAC
+Yersinia_pestis_biov.4              CUCAC
+Yersinia_pestis_biov.5              CUCAC
+Yersinia_pestis_CA88.1              CUCAC
+Yersinia_frederiksen.1              CUGAC
+Yersinia_pestis_biov.6              CUCAC
+Yersinia_mollaretii_.1              CUGAC
+Yersinia_intermedia_.1              CUCAC
+Yersinia_pestis_CO92.1              CUCAC
+Yersinia_bercovieri_.1              CUUAC
+Yersinia_pestis_biov.7              CUCAC
+Yersinia_pestis_Nepa.1              CUCAC
+Actinobacillus_succi.1              CUAUU
+H.influenzae.1                      CCAUU
+Haemophilus_influenz.1              CCAUU
+H.influenzae.2                      CCAUU
+Haemophilus_influenz.2              CCAUU
+Haemophilus_influenz.3              CCAUU
+Haemophilus_influenz.4              CCAUU
+Haemophilus_influenz.5              CCAUU
+H.influenzae.3                      CCAUU
+Haemophilus_influenz.6              CCAUU
+Haemophilus_influenz.7              CCAUU
+H.influenzae.4                      CCAUU
+Haemophilus_influenz.8              CCAUU
+H.influenzae.5                      CCAUU
+Haemophilus_somnus_1.1              ACUUU
+Haemophilus_somnus_2.1              ACUUU
+Mannheimia_haemolyti.1              CUAUU
+Mannheimia_succinici.1              CUAUU
+Pasteurella_multocid.1              CAAUU
+Reinekea.1                          AGGAU
+Vibrio_fischeri_ES11.1              AACAA
+Photobacterium.1                    AACAA
+Photobacterium_profu.1              AACAA
+P.profundum.1                       AACAA
+Vibrio_cholerae_AM-1.1              AACAA
+Vibrio_cholerae_O395.1              AACAA
+Vibrio_cholerae_V52.1               AACAA
+Vibrio_cholerae_V51.1               AACAA
+Vibrio_cholerae_MZO-.1              AACAA
+Vibrio_shilonii_AK1.1               AACAA
+Vibrio_cholerae_MZO-.2              AACAA
+Vibrio_alginolyticus.1              AACAA
+Vibrio_vulnificus_YJ.1              AACAA
+Vibrio.1                            AACAA
+Vibrio_cholerae_1587.1              AACAA
+Vibrio_cholerae_O1_b.1              AACAA
+Vibrio_angustum_S14.1               AACAA
+Vibrio_parahaemolyti.1              AACAA
+Vibrio.2                            AACAA
+Vibrio_cholerae_RC38.1              AACAA
+Vibrio_splendidus_12.1              AACAA
+Vibrio_cholerae_623-.1              AACAA
+Vibrio_vulnificus_CM.1              AACAA
+Vibrio_harveyi_HY01.1               AACAA
+Vibrio_parahaemolyti.2              AACAA
+Vibrio_cholerae_B33.1               AACAA
+Vibrio_cholerae_2740.1              AACAA
+Vibrio_cholerae_NCTC.1              AACAA
+Vibrio_cholerae_MAK_.1              AACAA
+Vibrionales_bacteriu.1              AACAA
+Petrotoga_mobilis_SJ.1              ACCGG
+unidentified_bacteri.1              ACAAC
+M.brevicollis.1                     ACAAC
+M.brevicollis.2                     ACAAC
+S.purpuratus.1                      ACAAC
+P.trichocarpa.1                     ACAAC
+marine_metag.1                      UGGAC
+#=GC SS_cons                        .....
+#=GC RF                             aaaau
+//

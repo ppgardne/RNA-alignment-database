@@ -1,0 +1,69 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-29
+#=GF AC    RF00074
+#=GF DE    mir-29  microRNA precursor
+#=GF AU    Griffiths-Jones SR, Daub J
+#=GF GA    36.0
+#=GF NC    34.4
+#=GF TC    39.0
+#=GF SE    INFERNAL
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000009
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF RN    [1]
+#=GF RM    11779458
+#=GF RT    microRNAs: tiny regulators with great potential.
+#=GF RA    Ambros V;
+#=GF RL    Cell 2001;107:823-826.
+#=GF CC    This family represents the microRNA (miRNA) precursors mir-29.
+#=GF CC    This miRNA has been predicted or confirmed in a wide range of
+#=GF CC    species (MIPF:MIPF0000009). Animal miRNAs are transcribed as
+#=GF CC    ~70nt precursors and subsequently processed by the Dicer enzyme
+#=GF CC    to give a ~22nt product.  In this case the mature sequence comes
+#=GF CC    from the 3' arm of the precursor.  The extents of the hairpin
+#=GF CC    precursors are not generally known and are estimated based on
+#=GF CC    hairpin prediction.  The products are thought to have regulatory
+#=GF CC    roles through complementarity to mRNA.
+#=GF WK    http://en.wikipedia.org/wiki/mir-29_microRNA_precursor
+#=GF SQ    10
+
+#=GS D.rerio.1    AC    BX465862.7/161280-161350
+#=GS D.rerio.2    AC    BX001041.6/158788-158851
+#=GS D.rerio.3    AC    BX323868.6/63999-64062
+#=GS D.rerio.4    AC    BX001041.6/158937-159008
+#=GS D.rerio.5    AC    CR749762.6/80264-80332
+#=GS M.musculus.1 AC    BC058715.1/4089-4150
+#=GS M.musculus.2 AC    AC024913.33/28700-28763
+#=GS H.sapiens.1  AC    AF480543.1/5-76
+#=GS H.sapiens.2  AC    AF480542.1/5-75
+#=GS P.pygmaeus.1 AC    AY865998.1/352-415
+
+D.rerio.1                CAGAUGCUGGUUUCACAUGGUGGUUUAGAUGUGUUCUACCAA.AGUCUAG
+D.rerio.2                UUGA..CCGAUUUCUUUUGGUG.UUCAGAGU...CUUUUGGGGUUUCUAG
+D.rerio.3                AUGA..CUGAUUUCCUUUGGUG.CUUAGAGU...CCCAUCUGUCAUCUAG
+D.rerio.4                UGGAAGCUGGUUUCAAGUGGUGUUUUAGAGUGCUGAUCAAAUGAAUCUAG
+D.rerio.5                GCGUGACUGAUUUCCUCUGGUG.UUCAGAGUGGACUGGGUUU..UUCUAG
+M.musculus.1             CUGA..CCGAUUUCUCCUGGUG.UUCAGAGU.....CUGUUUUUGUCUAG
+M.musculus.2             AUGA..CUGAUUUCUUUUGGUG.UUCAGAGU...CAAUAGAAUUUUCUAG
+H.sapiens.1              UGGAAGCUGGUUUCACAUGGUGGCUUAGAUUUUUCCAUCUUUGUAUCUAG
+H.sapiens.2              AGGAAGCUGGUUUCAUAUGGUGGUUUAGAUUUAAAUAGUGAU.UGUCUAG
+P.pygmaeus.1             AUGA..CUGAUUUCUUUUGGUG.UUCAGAGU...CAAUAUAAUUUUCUAG
+#=GC SS_cons             <<<<..<<<<<<<<...<<<<<....<<<<..............>>>>..
+
+D.rerio.1                CACCAUUUGAAAUCAGUGUUCU
+D.rerio.2                CACCAUUUGAAAUCGG..UUAC
+D.rerio.3                CACCAUUUGAAAUCGG..UUAU
+D.rerio.4                CACCAUUUGAAAUCAGUGUUCU
+D.rerio.5                CACCAUUUGAAAUCGGUCGUGC
+M.musculus.1             CACCAUUUGAAAUCGG..UUAU
+M.musculus.2             CACCAUCUGAAAUCGG..UUAU
+H.sapiens.1              CACCAUUUGAAAUCAGUGUUUU
+H.sapiens.2              CACCAUUUGAAAUCAGUGUUCU
+P.pygmaeus.1             CACCAUCUGAAAUCGG..UUAU
+#=GC SS_cons             >>>>>...>>>>>>>>..>>>>
+//

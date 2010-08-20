@@ -1,0 +1,305 @@
+# STOCKHOLM 1.0
+#=GF ID    Toga_5_CRE
+#=GF AC    RF00470
+#=GF DE    Togavirus 5' plus strand cis-regulatory element
+#=GF AU    Moxon SJ
+#=GF GA    76.0
+#=GF NC    61.2
+#=GF TC    111.5
+#=GF SE    PMID:11720292
+#=GF SS    Predicted; PFOLD
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    11720292
+#=GF RT    Cis-acting RNA elements at the 5' end of Sindbis virus genome RNA
+#=GF RT    regulate minus- and plus-strand RNA synthesis.
+#=GF RA    Frolov I, Hardy R, Rice CM;
+#=GF RL    RNA 2001;7:1638-1651.
+#=GF CC    This family represents a Togavirus virus 5' plus strand cis-regulatory
+#=GF CC    element which is thought to be essential for both plus and minus strand RNA
+#=GF CC    synthesis [1].
+#=GF WK    http://en.wikipedia.org/wiki/Togavirus_5'_plus_strand_cis-regulatory_element
+#=GF SQ    33
+
+#=GS Aura_virus.1            AC    AF126284.1/4-298
+#=GS Ross_River_virus.1      AC    M20162.1/25-292
+#=GS Venezuelan_equine_en.1  AC    AF075257.1/1-265
+#=GS Venezuelan_equine_en.2  AC    AF448539.1/1-258
+#=GS Venezuelan_equine_en.3  AC    AF448537.1/1-258
+#=GS Venezuelan_equine_en.4  AC    AF004472.2/1-259
+#=GS Venezuelan_equine_en.5  AC    AF004458.2/1-259
+#=GS Venezuelan_equine_en.6  AC    AF004459.2/1-259
+#=GS Venezuelan_equine_en.7  AC    L01442.2/1-259
+#=GS Venezuelan_equine_en.8  AC    U55362.2/1-259
+#=GS Venezuelan_equine_en.9  AC    AF075259.1/1-263
+#=GS Venezuelan_equine_en.10 AC    U34999.1/1-258
+#=GS Venezuelan_equine_en.11 AC    AF448536.1/1-258
+#=GS Venezuelan_equine_en.12 AC    AF075258.1/1-259
+#=GS Venezuelan_equine_en.13 AC    AF448538.1/1-258
+#=GS Venezuelan_equine_en.14 AC    L04653.1/1-259
+#=GS Venezuelan_equine_en.15 AC    AF100566.1/1-260
+#=GS Venezuelan_equine_en.16 AC    AF075255.1/1-258
+#=GS Venezuelan_equine_en.17 AC    AF075253.1/1-257
+#=GS Venezuelan_equine_en.18 AC    AF069903.1/1-259
+#=GS Venezuelan_equine_en.19 AC    J04332.1/1-259
+#=GS Venezuelan_equine_en.20 AC    L00930.1/1-259
+#=GS Venezuelan_equine_en.21 AC    U55360.2/1-259
+#=GS Venezuelan_equine_en.22 AC    L01443.1/1-259
+#=GS Ockelbo_virus.1         AC    M69205.1/1-280
+#=GS Sindbis-like_virus_Y.1  AC    AF103734.1/1-280
+#=GS Sindbis_virus.1         AC    AF429428.1/1-279
+#=GS Sindbis-like_virus.1    AC    U38304.1/1-280
+#=GS Sindbis-like_virus.2    AC    U38305.1/1-280
+#=GS Sindbis_virus.2         AC    J02368.1/38-316
+#=GS Sindbis_virus.3         AC    AF492770.1/1-279
+#=GS Sindbis_virus.4         AC    AF103728.1/1-280
+#=GS Sindbis_virus.5         AC    J02363.1/1-280
+
+Aura_virus.1                        GCGGACGGACUAGUACUUGUACUACA..GAAUUAACUGCCGUGUGCCGC.
+Ross_River_virus.1                  UUCGCCUUUCUUGGAUCC...CUUGU..UACUCCA.CC......GCAG..
+Venezuelan_equine_en.1              AUGGGCGGCGCAUGA.....GAGAUU..AGCCCAA.........UACCA.
+Venezuelan_equine_en.2              AUGGGCGGCG.......C......AU..GAGAGAA.........GCCCA.
+Venezuelan_equine_en.3              AUGGGCGGCG.......C......AU..GAGAGAA.........GCCCAA
+Venezuelan_equine_en.4              AUGGGCGGCG.......C......AU..GAGAGAA.........GCCCA.
+Venezuelan_equine_en.5              AUGGGCGGCG.......C......AU..GAGAGAA.........GCCCA.
+Venezuelan_equine_en.6              AUGGGCGGCG.......C......AU..GAGAGAA.........GCCCA.
+Venezuelan_equine_en.7              AUGGGCGGCG.......C......AU..GAGAGAAGC.......CCAGA.
+Venezuelan_equine_en.8              AUGGGCGGCG.......C......AU..GAGAGAA.........GCCCA.
+Venezuelan_equine_en.9              AUGGGCAAUACGUAAGAG..UAGCCC..AAA..AA..........CUG..
+Venezuelan_equine_en.10             AUGGGCGGCG.......C......AU..GAGAGAA.........GCCCAA
+Venezuelan_equine_en.11             AUGGGCGGCG.......C......AU..GAGAGAA.........GCCCAA
+Venezuelan_equine_en.12             AUGGGCGGCG.....CAU......UA..GAGAGUA.........GCCCA.
+Venezuelan_equine_en.13             AUGGGCGGCG.......C......AU..GAGAGAA.........GCCCAA
+Venezuelan_equine_en.14             AUGGGCGGCG.......C......AA..GAGAGAA.........GCCCAA
+Venezuelan_equine_en.15             AUGGGCGGCG.......C......AU..GAGAGAA.........GCCCA.
+Venezuelan_equine_en.16             AUGGGCGGCG.......C......AU..GAGAGAA.........GCCCA.
+Venezuelan_equine_en.17             AUGGGCGGCGU............AU...GAGAGUA.........GCCCA.
+Venezuelan_equine_en.18             AUGGGCGGCG.......C......AU..GAGAGAAGC.......CCAGA.
+Venezuelan_equine_en.19             AUGGGCGGCG.......C......AU..GAGAGAAGC.......CCAGA.
+Venezuelan_equine_en.20             AUGGGCGGCG.......C......AU..GAGAGAAGC.......CCAGA.
+Venezuelan_equine_en.21             AUGGGCGGCG.......C......AU..GAGAGAA.........GCCCA.
+Venezuelan_equine_en.22             AUAGGCGGCG.......C......AU..GAGAGAAGC.......CCAGA.
+Ockelbo_virus.1                     AUUGGCGGCGUAGUACAC..ACUAUU..GAAUCAAACA......GCCGA.
+Sindbis-like_virus_Y.1              AUUGGCGGCGUAGUACAC..ACUAUU..GAAUUAAACA......GCCGA.
+Sindbis_virus.1                     AUUGACGGCGUAGUAGAC..ACUAUU..AUAAGAAAUA......GCCGA.
+Sindbis-like_virus.1                NUUGNCGGCGUAGUAUAC..ACUAUU..GAAUCAAACA......GCCGA.
+Sindbis-like_virus.2                AUUGGCGGCGUAGUACAC..ACUAUU..GAAUCAAACA......GCCGA.
+Sindbis_virus.2                     ACCGGGGUUCGGUUCCCC..GACGGG..GAGCCAAACA......GCCGA.
+Sindbis_virus.3                     AUUGGCGGCGUAGUACAC..ACUAUAAAGAAUCAA.........GCCGA.
+Sindbis_virus.4                     AUUGACGGCGUAGUACAC..ACUAUU..GAAUCAAACA......GCCGA.
+Sindbis_virus.5                     AUUGACGGCGUAGUACAC..ACUAUU..GAAUCAAACA......GCCGA.
+#=GC SS_cons                        ....<<<<..........................................
+
+Aura_virus.1                        .C..CGCUAAACUAGCCCCAAUCAUCGAAAAUGGAGAAACCGACAGUG.C
+Ross_River_virus.1                  .............UGA.GAGAUAAAC.A..ACCCAGAA...UGAAGGUCA
+Venezuelan_equine_en.1              ..........AAUCAU.ACUACCCAA.AU.AUGGAGAAAGUUCACGUU.G
+Venezuelan_equine_en.2              .AAUC.....AAUA...ACUACC..C.AAAAUGGAGAAAGUUCACGUU.G
+Venezuelan_equine_en.3              AC..C.....AAUA...ACUACC..C.AAAAUGGAGAAAGUUCACGUU.G
+Venezuelan_equine_en.4              .CACC.....AAUUAC..CUACC..C.AAAAUGGAGAAAGUUCACGUU.G
+Venezuelan_equine_en.5              .CACC.....AAUUAC..CUACC..C.AAAAUGGAGAAAGUUCACGUU.G
+Venezuelan_equine_en.6              .CACC.....AAUUAC..CUACC..C.AAAAUGGAGAAAGUUCACGUU.G
+Venezuelan_equine_en.7              .C..C.....AAUUAC..CUACC..C.AAAAUGGAGAAAGUUCACGUU.G
+Venezuelan_equine_en.8              .CACC.....AAUUAC..CUACC..C.AAAAUGGAGAAAGUUCACGUU.G
+Venezuelan_equine_en.9              ..........AAUACA.CCUACC..C.AUCAUGGAGAAAGUUCACGUU.G
+Venezuelan_equine_en.10             AC..C.....AAUA...ACUACC..C.AAAAUGGAGAAAGUUCACGUU.G
+Venezuelan_equine_en.11             AC..C.....AAUA...ACUACC..C.AAAAUGGAGAAAGUUCACGUU.G
+Venezuelan_equine_en.12             .A........AACUAA.ACUACC..C.AACAUGGAGAAAGUUCACGUU.G
+Venezuelan_equine_en.13             AC..C.....AAUA...ACUACC..C.AAAAUGGAGAAAGUUCACGUU.G
+Venezuelan_equine_en.14             AC..C.....AAUUAC..CUACC..C.AAAAUGGAGAAAGUUCACGUU.G
+Venezuelan_equine_en.15             .CACC.....AAUUAC..CUACCCAA.A.AAUGGAGAAAGUUCACGUU.G
+Venezuelan_equine_en.16             .A..G.....AAUAAA.ACUACC..C.AUCAUGGAGAAGGUUCACGUU.G
+Venezuelan_equine_en.17             .A........AUUAAA.ACUACC..C.AUUAUGGAGAA...AGUUC....
+Venezuelan_equine_en.18             .C..C.....AAUUAC..CUACC..C.AAAAUGGAGAAAGUUCACGUU.G
+Venezuelan_equine_en.19             .C..C.....AAUUAC..CUACC..C.AAAAUGGAGAAAGUUCACGUU.G
+Venezuelan_equine_en.20             .C..C.....AAUUAC..CUACC..C.AAAAUGGAGAAAGUUCACGUU.G
+Venezuelan_equine_en.21             .CACC.....AAUUAC..CUACC..C.AAAAUGGAGAAAGUUCACGUU.G
+Venezuelan_equine_en.22             .C..C.....AAUUAC..CUACC..C.AAAAUGGAGAAAGUUCACGUU.G
+Ockelbo_virus.1                     .C..C.....AAUUGC.ACUACCAUC.ACAAUGGAGAAGCCAGUAGUU.A
+Sindbis-like_virus_Y.1              .C..C.....AAUUGC.ACUACCAUC.ACAAUGGAGAAGCCAGUAGUU.A
+Sindbis_virus.1                     .C..C.....AAUAGC.ACU.CCAUC.ACAAUGGAGAAACCUGUAGUU.A
+Sindbis-like_virus.1                .C..C.....AAUUGC.ACUACCAUC.ACAAUGGAGAAGCCAGUAGUU.A
+Sindbis-like_virus.2                .C..C.....AAUUGC.ACUACCAUC.ACAAUGGAGAAGCCAGUAGUU.A
+Sindbis_virus.2                     .C..C.....AAUUGC.ACUACCAUC.ACAAUGGAGAAGCCAGUAGUA.A
+Sindbis_virus.3                     .C..C.....AAUUGC.ACUACCAUC.AUCAUGGAGAAACCUGUAGUU.A
+Sindbis_virus.4                     .C..C.....AACAGC.ACUACCAUC.AUAAUGGAGAAGCCUGUAGUU.A
+Sindbis_virus.5                     .C..C.....AAUUGC.ACUACCAUC.ACAAUGGAGAAGCCAGUAGUA.A
+#=GC SS_cons                        ..................<<<<<..<.....<<<.<<<............
+
+Aura_virus.1                        ACGUUGACGUAGACCCCCAAAGUCCGUUUGUG.CU.ACAACUGCAGAA..
+Ross_River_virus.1                  CUGUAGAUGUUGAGGCUGACAGCCCAUUUUUG.AAGGC.CCUUCAGAA..
+Venezuelan_equine_en.1              ACAUCGAGG.AGG.....AUAGCCCCUUCCUC.AG...AGCUUUACAACG
+Venezuelan_equine_en.2              ACAUCGAGGAAGAU......AGUCCCUUCCUC.AG.AGCAUUACAACG..
+Venezuelan_equine_en.3              ACAUCGAGGAAGAU......AGUCCCUUCCUC.AG.AGCAUUACAACG..
+Venezuelan_equine_en.4              ACAUCGAGGAAGAC......AGCCCAUUCCUC.AG.AGCUUUGCAACG..
+Venezuelan_equine_en.5              ACAUCGAGGAAGAC......AGCCCAUUCCUC.AG.AGCUUUGCAACG..
+Venezuelan_equine_en.6              ACAUCGAGGAAGAC......AGCCCAUUCCUC.AG.AGCUUUGCAACG..
+Venezuelan_equine_en.7              ACAUCGAGGAAGAC......AGCCCAUUCCUC.AG.AGCUUUGCAGCG..
+Venezuelan_equine_en.8              ACAUCGAGGAAGAC......AGCCCAUUCCUC.AG.AGCUUUGCAACG..
+Venezuelan_equine_en.9              ACAUCGAGGAAGACAGCCC..GUUCCUUCG.A.GC.UUUAC...AGCG..
+Venezuelan_equine_en.10             ACAUCGAGGAAGAU......AGUCCCUUCCUC.AG.AGCAUUACAACG..
+Venezuelan_equine_en.11             ACAUCGAGGAAGAU......AGUCCCUUCCUC.AG.AGCAUUACAACG..
+Venezuelan_equine_en.12             ACAUCGAGGAAGAC......AGUCCGUUCCUC.AG...AGCUUUACAACG
+Venezuelan_equine_en.13             ACAUCGAGGAAGAU......AGUCCCUUCCUC.AG.AGCAUUACAACG..
+Venezuelan_equine_en.14             ACAUCGAGGAAGAC......AGCCCAUUCCUC.AG...AGCUUUACAACG
+Venezuelan_equine_en.15             ACAUCGAGGAAGAC......AGCCCAUUCCUC.AG.AGCUUUGCAACG..
+Venezuelan_equine_en.16             AUAUCGAGGAAGAC......AGCCCCUUCCU...C.AGAGCUUUACAACG
+Venezuelan_equine_en.17             ACGUUGAUAUCGAGGAGGAUAGCCCCUUCCUCAGA.GC.UUUGCAACG..
+Venezuelan_equine_en.18             ACAUCGAGGAAGAC......AGCCCAUUCCUC.AG.AGCUUUGCAGCG..
+Venezuelan_equine_en.19             ACAUCGAGGAAGAC......AGCCCAUUCCUC.AG.AGCUUUGCAGCG..
+Venezuelan_equine_en.20             ACAUCGAGGAAGAC......AGCCCAUUCCUC.AG.AGCUUUGCAACG..
+Venezuelan_equine_en.21             ACAUCGAGGAAGAC......AGCCCAUUCCUC.AG.AGCUUUGCAACG..
+Venezuelan_equine_en.22             ACAUCGAGGAAGAC......AGCCCAUUCCUC.AG.AGCUUUGCAGCG..
+Ockelbo_virus.1                     ACGUAGACGUAGACCCUCAGAGUCCGUUUGUC.GU.GCAACUGCAAAA..
+Sindbis-like_virus_Y.1              ACGUAGACGUAGACCCUCAGAGUCCGUUUGUC.GU.GCAACUGCAAAA..
+Sindbis_virus.1                     ACGUGGACGUAGACCCCCAGAGUCCGUUUGUC.GC.UCAGCUGCAGAA..
+Sindbis-like_virus.1                ACGUAGACGUAGACCCGCAGAGUCCGUUUGUC.GU.GCAACUGCAAAA..
+Sindbis-like_virus.2                ACGUAGACGUAGACCCUCAGAGUCCGUUUGUC.GU.GCAACUGCAAAA..
+Sindbis_virus.2                     ACGUAGACGUAGACCCCCAGAGUCCGUUUGUC.GU.GCAACUGCAAAA..
+Sindbis_virus.3                     ACGUUGACGUAGACCCUCAGAGUCCGUUCAUU.AC.GCAACUGCAGAA..
+Sindbis_virus.4                     ACGUAGACGUAGACCCCCAGAGUCCGUUUGUC.GC.UCAACUGCAAAA..
+Sindbis_virus.5                     ACGUAGACGUAGACCCCCAGAGUCCGUUUGUC.GU.GCAACUGCAAAA..
+#=GC SS_cons                        ....................<<<......<.......>.>>>........
+
+Aura_virus.1                        GA.GUUUCCCACAAUUCGAGAUUGUGGCUCAGCAGGUCACUCCGAAUGAC
+Ross_River_virus.1                  .AGCAUUCCCGGCUUUUGAGGUUGAAUCACAGCAGGUCACACCUAAUGAC
+Venezuelan_equine_en.1              GA.GCUUCCCGCAGUUUGAGGUAGAAGCCAAGCAGGUCACCGAUAACGAC
+Venezuelan_equine_en.2              GA.GCUUCCCGCAGUUUGAGGUAGAAGCCAAGCAGGUCACAGAUAAUGAC
+Venezuelan_equine_en.3              GA.GCUUCCCGCAGUUUGAGGUAGAAGCCAAGCAGGUCACAGAUAAUGAC
+Venezuelan_equine_en.4              GA.GCUUCCCGCAGUUUGAGGUAGAAGCCAAGCAGGUCACUGAUAAUGAC
+Venezuelan_equine_en.5              GA.GCUUCCCGCAGUUUGAGGUAGAAGCCAAGCAGGUCACUGAUAAUGAC
+Venezuelan_equine_en.6              GA.GCUUCCCGCAGUUUGAGGUAGAAGCCAAGCAGGUCACUGAUAAUGAC
+Venezuelan_equine_en.7              GA.GCUUCCCGCAGUUUGAGGUAGAAGCCAAGCAGGUCACUGAUAAUGAC
+Venezuelan_equine_en.8              GA.GCUUCCCGCAGUUUGAGGUAGAAGCCAAGCAGGUCACUGAUAAUGAC
+Venezuelan_equine_en.9              GA.GCUUCCCACAGUUUGAGGUAGAAGCCAAGCAGGUCACCGAUAAUGAC
+Venezuelan_equine_en.10             GA.GCUUCCCGCAGUUUGAGGUAGAAGCCAAGCAGGUCACAGAUAAUGAC
+Venezuelan_equine_en.11             GA.GCUUCCCGCAGUUUGAGGUAGAAGCCAAGCAGGUCACAGAUAAUGAC
+Venezuelan_equine_en.12             GA.GUUUUCCACAGUUUGAGGUAGAAGCCAAGCAGGUCACAGACAACGAC
+Venezuelan_equine_en.13             GA.GCUUCCCGCAGUUUGAGGUAGAAGCCAAGCAGGUCACAGAUAAUGAC
+Venezuelan_equine_en.14             GA.GCUUCCCGCAGUUUGAGGUAGAAGCCAAGCAGGUCACUGAUAAUGAC
+Venezuelan_equine_en.15             GA.GCUUCCCGCAGUUUGAGGUAGAAGCCAAGCAGGUCACUGAUAAUGAC
+Venezuelan_equine_en.16             GA.GCUUCCCCCAGUUUGAGGUAGAAGCCAAGCAGGUUACAGACAACGAC
+Venezuelan_equine_en.17             GA.GCUUCCCCCAGUUUGAGGUAGAAGCCAAGCAGGUCACAGACAAUGAC
+Venezuelan_equine_en.18             GA.GCUUCCCGCAGUUUGAGGUAGAAGCCAAGCAGGUCACUGAUAAUGAC
+Venezuelan_equine_en.19             GA.CGUUCCCGCAGUUUGAGGUAGAAGCCAAGCAGGUCACUGAUAAUGAC
+Venezuelan_equine_en.20             GA.GCUUCCCGCAGUUUGAGGUAGAAGCCAAGCAGGUCACUGAUAAUGAC
+Venezuelan_equine_en.21             GA.GCUUCCCGCAGUUUGAGGUAGAAGCCAAGCAGGUCACUGAUAAUGAC
+Venezuelan_equine_en.22             GA.GCUUCCCGCAGUUUGAGGUAGAAGCCAAGCAGGUCACUGAUAAUGAC
+Ockelbo_virus.1                     GA.GCUUCCCGCAAUUUGAGGUAGUAGCACAGCAGGCCACUCCAAAUGAC
+Sindbis-like_virus_Y.1              GA.GCUUCCCGCAAUUUGAGGUAGUAGCACAGCAGGUCACUCCAAAUGAC
+Sindbis_virus.1                     GA.GUUUCCCGCAAUUUGAGGUAGUAGCACAGCAGGCCACUCCAAAUGAC
+Sindbis-like_virus.1                GA.GCUUCCCGCAAUUUGAGGUAGUAGCACAGCAGGUCACUCCAAAUGAC
+Sindbis-like_virus.2                GA.GCUUCCCGCAAUUUGAGGUAGUAGCACAGCAGGUCACUCCAAAUGAC
+Sindbis_virus.2                     .A.GCUUCCCGCAAUUUGAGGUAGUAGCACAGCAGGUCACUCCAAAUGAC
+Sindbis_virus.3                     GA.GUUUCCCGCAGUUUGAGGUAGUAGCACAGCAGGCCACACCAAAUGAC
+Sindbis_virus.4                     GA.GCUUCCCGCAAUUCGAGGUAGUAGCACAGCAGGCCACACCAAAUGAC
+Sindbis_virus.5                     AA.GCUUCCCGCAAUUUGAGGUAGUAGCACAGCAGGUCACUCCAAAUGAC
+#=GC SS_cons                        .....>>>>>>......>.>>>>>......<<<<<<<<<.......>>>>
+
+Aura_virus.1                        CAUGCUAAUGCCAGAGCUUUUUCGCAUCUGGCUAGUAAACUGAUCGAACA
+Ross_River_virus.1                  CAUGCUAAUGCCAGAGCUUUUUCGCAUCUGGCCACAAAGUUAAUUGAACA
+Venezuelan_equine_en.1              CAUGCUAAUGCUAGAGCCUUUUCGCAUCUAGCUUCUAAGUUGAUCGAAAC
+Venezuelan_equine_en.2              CAUGCUAACGCCAGAGCGUUUUCGCAUUUGGCAUCGAAAUUGAUCGAGAC
+Venezuelan_equine_en.3              CAUGCUAACGCCAGAGCGUUUUCGCAUUUGGCAUCGAAAUUGAUCGAGAC
+Venezuelan_equine_en.4              CAUGCUAAUGCCAGAGCGUUUUCGCAUCUGGCUUCAAAACUGAUCGAAAC
+Venezuelan_equine_en.5              CAUGCUAAUGCCAGAGCGUUUUCGCAUCUGGCUUCAAAACUGAUCGAAAC
+Venezuelan_equine_en.6              CAUGCUAACGCCAGAGCGUUUUCGCAUCUGGCUUCAAAACUGAUCGAAAC
+Venezuelan_equine_en.7              CAUGCUAAUGCCAGAGCGUUUUCGCAUCUGGCUUCAAAACUGAUCGAAAC
+Venezuelan_equine_en.8              CAUGCUAAUGCCAGAGCGUUUUCGCAUCUGGCUUCAAAACUGAUCGAAAC
+Venezuelan_equine_en.9              CAUGCUAAUGCCAGAGCGUUUUCGCAUCUGGCCUCCAAAUUGAUCGAGAC
+Venezuelan_equine_en.10             CAUGCUAACGCCAGAGCGUUUUCGCAUUUGGCAUCGAAAUUGAUCGAGAC
+Venezuelan_equine_en.11             CAUGCUAACGCCAGAGCGUUUUCGCAUUUGGCAUCGAAAUUGAUCGAGAC
+Venezuelan_equine_en.12             CAUGCUAAUGCUAGAGCGUUUUCGCAUCUAGCUUCCAAAUUAAUCGAAAC
+Venezuelan_equine_en.13             CAUGCUAACGCCAGAGCGUUUUCGCAUUUGGCAUCGAAAUUGAUCGAGAC
+Venezuelan_equine_en.14             CAUGCUAAUGCCAGAGCGUUUUCGCAUCUGGCUUCAAAACUGAUCGAAAC
+Venezuelan_equine_en.15             CAUGCUAAUGCCAGAGCGUUUUCGCAUCUGGCUUCAAAACUGAUCGAAAC
+Venezuelan_equine_en.16             CAUGCUAACGCUAGAGCGUUUUCGCAUCUAGCAUCUAAACUGAUCGAGAC
+Venezuelan_equine_en.17             CAUGCUAAUGCUAGAGCGUUUUCGCAUCUAGCUUCCAAACUGAUCGAAAC
+Venezuelan_equine_en.18             CAUGCUAAUGCCAGAGCGUUUUCGCAUCUGGCUUCAAAACUGAUCGAAAC
+Venezuelan_equine_en.19             CAUGCUAAUGCCAGAGCGUUUUCGCAUCUGGCUUCAAAACUGAUCGAAAC
+Venezuelan_equine_en.20             CAUGCUAACGCCAGAGCGUUCUCGCAUCUGGCUUCAAAACUGAUCGAAAC
+Venezuelan_equine_en.21             CAUGCUAACGCCAGAGCGUUUUCGCAUCUGGCUUCAAAACUGAUCGAAAC
+Venezuelan_equine_en.22             CAUGCUAAUGCCAGAGCGUUUUCGCAUCUGGCUUCAAAACUGAUCGAAAC
+Ockelbo_virus.1                     CAUGCUAAUGCCAGAGCAUUUUCGCAUCUGGCCAGUAAACUAAUCGAGCU
+Sindbis-like_virus_Y.1              CAUGCUAAUGCCAGAGCAUUUUCGCAUCUGGCCAGUAAACUAAUCGAGCU
+Sindbis_virus.1                     CAUGCUAACGCCAGAGCAUUUUCGCAUCUGGCCAGUAAACUAAUCGAGCU
+Sindbis-like_virus.1                CAUGCUAAUGCCAGAGCAUUUUCGCAUCUGGCCAGUAAACUAAUCGAGCU
+Sindbis-like_virus.2                CAUGCUAAUGCCAGAGCAUUUUCGCAUCUGGCCAGUAAACUAAUCGAGCU
+Sindbis_virus.2                     CAUGCUAAUGCCAGAGCAUUUUCGCAUCUGGCCAGUAAACUAAUCGAGCU
+Sindbis_virus.3                     CAUGCAAAUGCCAGAGCUUUUUCGCAUCUGGCCAGCAAACUGAUCGAGCU
+Sindbis_virus.4                     CAUGCUAAUGCCAGAGCAUUUUCGCAUCUGGCUAGUAAAUUAAUCGAGCU
+Sindbis_virus.5                     CAUGCUAAUGCCAGAGCAUUUUCGCAUCUGGCCAGUAAACUAAUCGAGCU
+#=GC SS_cons                        >.>>>>...<<<<<<<<......>>.>>>>>>.........<<<<<....
+
+Aura_virus.1                        UGAGAUCCCCACCU.CAGUUACGAUCUUGGACAUAGGAAGCGCACCAGCU
+Ross_River_virus.1                  AGAGGUUCCAGCCAACAUC.ACCAUCCUGGACGUGGGCAGUGCGCCCGCA
+Venezuelan_equine_en.1              GGAGGUAGACCCAU.CCGAUACGAUCCUAGACAUAGGCAGUGCACCUGCC
+Venezuelan_equine_en.2              GGAGGUGGAACCAU.CCGAUACGAUCCUAGACAUUGGAAGUGCGCCUGCC
+Venezuelan_equine_en.3              GGAGGUGGAACCAU.CCGAUACGAUCCUAGACAUUGGAAGUGCGCCUGCC
+Venezuelan_equine_en.4              GGAGGUGGACCCAU.CCGACACGAUCCUUGACAUUGGAAGUGCGCCCGCC
+Venezuelan_equine_en.5              GGAGGUGGACCCAU.CCGACACGAUCCUUGACAUUGGAAGUGCGCCCGCC
+Venezuelan_equine_en.6              GGAGGUGGACCCAU.CCGACACGAUCCUUGACAUUGGAAGUGCGCCCGCC
+Venezuelan_equine_en.7              GGAGGUGGACCCAU.CCGACACGAUCCUUGACAUUGGAAGUGCGCCCGCC
+Venezuelan_equine_en.8              GGAGGUGGACCCAU.CCGACACGAUCCUUGACAUUGGAAGUGCGCCCGCU
+Venezuelan_equine_en.9              GGAGGUAGAACCAU.CCGAUACGAUCCUAGACAUAGGCAGUGCACCGGCA
+Venezuelan_equine_en.10             GGAGGUGGAACCAU.CCGAUACGAUCCUAGACAUUGGAAGUGCGCCUGCC
+Venezuelan_equine_en.11             GGAGGUGGAACCAU.CCGAUACGAUCCUAGACAUUGGAAGUGCGCCUGCC
+Venezuelan_equine_en.12             GGAGGUUGACCCAU.CCGAUACGAUUUUAGACAUAGGCAGUGCGCCUGCC
+Venezuelan_equine_en.13             GGAGGUGGAACCAU.CCGAUACGAUCCUAGACAUUGGAAGUGCGCCUGCC
+Venezuelan_equine_en.14             GGAGGUGGACCCAU.CCGACACGAUCCUUGACAUUGGAAGUGCGCCCGCC
+Venezuelan_equine_en.15             GGAGGUGGACCCAU.CCGACACGAUCCUUGACAUUGGAAGUGCGCCCGCC
+Venezuelan_equine_en.16             GGAGGUGGAACCAU.CCGAUACGAUCUUAGACAUUGGAAGUGCGCCCGCU
+Venezuelan_equine_en.17             GGAGGUAGAACCAU.CCGACACGAUCCUAGACAUUGGAAGUGCGCCCGCC
+Venezuelan_equine_en.18             GGAGGUGGACCCAU.CCGACACGAUCCUUGACAUUGGAAGUGCGCCCGCC
+Venezuelan_equine_en.19             GGAGGUGGACCCAU.CCGACACGAUCCUUGACAUUGGAAGUGCGCCCGCC
+Venezuelan_equine_en.20             GGAGGUGGACCCAU.CCGACACGAUCCUUGACAUUGGAAGUGCGCCCGCC
+Venezuelan_equine_en.21             GGAGGUGGACCCAU.CCGACACGAUCCUUGACAUUGGAAGUGCGCCCGCC
+Venezuelan_equine_en.22             GGAGGUGGACCCAU.CCGACACGAUCCUUGACAUUGGAAGUGCGCCCGCC
+Ockelbo_virus.1                     GGAGGUUCCUACCA.CAGCGACGAUUUUGGACAUAGGCAGCGCACCGGCU
+Sindbis-like_virus_Y.1              GGAGGUUCCUACCA.CAGCGACGAUUUUGGACAUAGGCAGCGCACCGGCU
+Sindbis_virus.1                     GGAGAUUCCGAUCA.CAGCGACGAUUUUGGACAUUGGCAGCGCACCAGCU
+Sindbis-like_virus.1                GGAGGUUCCUACCA.CAGCGACGAUUUUGGACAUAGGCAGCGCACCGGCU
+Sindbis-like_virus.2                GGAGGUUCCUACCA.CAGCGACGAUUUUGGACAUAGGCAGCGCACCGGCU
+Sindbis_virus.2                     GGAGGUUCCUACCA.CAGCGACGAUCUUGGACAUAGGCAGCGCACCGGCU
+Sindbis_virus.3                     GGAGGUCCCGACCA.CAGCGACGAUCUUGGACAUCGGCAGCGCACCUGCU
+Sindbis_virus.4                     GGAGGUUCCUACCA.CAGCGACGAUUUUGGACAUAGGCAGCGCACCGGCU
+Sindbis_virus.5                     GGAGGUUCCUACCA.CAGCGACGAUCUUGGACAUAGGCAGCGCACCGGCU
+#=GC SS_cons                        .....................>>>>>.......................>
+
+Aura_virus.1                        CGUAGAAU
+Ross_River_virus.1                  AGGAGGUU
+Venezuelan_equine_en.1              CGUAGAAU
+Venezuelan_equine_en.2              CGCAGAAU
+Venezuelan_equine_en.3              CGCAGAAU
+Venezuelan_equine_en.4              CGCAGAAU
+Venezuelan_equine_en.5              CGCAGAAU
+Venezuelan_equine_en.6              CGCAGAAU
+Venezuelan_equine_en.7              CGCAGAAU
+Venezuelan_equine_en.8              CGCAGAAU
+Venezuelan_equine_en.9              CGCCGAAU
+Venezuelan_equine_en.10             CGCAGAAU
+Venezuelan_equine_en.11             CGCAGAAU
+Venezuelan_equine_en.12             CGCAGAAU
+Venezuelan_equine_en.13             CGCAGAAU
+Venezuelan_equine_en.14             CGCAGAAU
+Venezuelan_equine_en.15             CGCAGAAU
+Venezuelan_equine_en.16             CGCAGAAU
+Venezuelan_equine_en.17             CGCAGAAU
+Venezuelan_equine_en.18             CGCAGAAU
+Venezuelan_equine_en.19             CGCAGAAU
+Venezuelan_equine_en.20             CGCAGAAU
+Venezuelan_equine_en.21             CGCAGAAU
+Venezuelan_equine_en.22             CGCAGAAU
+Ockelbo_virus.1                     CGUAGAAU
+Sindbis-like_virus_Y.1              CGUAGAAU
+Sindbis_virus.1                     CGUAGAAU
+Sindbis-like_virus.1                CGUAGAAU
+Sindbis-like_virus.2                CGUAGAAU
+Sindbis_virus.2                     CGUAGCAU
+Sindbis_virus.3                     CGUAGAAU
+Sindbis_virus.4                     CGUAGAAU
+Sindbis_virus.5                     CGUAGAAU
+#=GC SS_cons                        >>>.....
+//

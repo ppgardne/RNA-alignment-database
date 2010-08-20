@@ -1,0 +1,48 @@
+# STOCKHOLM 1.0
+#=GF ID    PVX_3
+#=GF AC    RF00184
+#=GF DE    Potato virus X cis-acting regulatory element
+#=GF AU    Moxon SJ
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    26.0
+#=GF PI    PVX_cis-reg
+#=GF SE    PMID:12581634
+#=GF SS    Published; PMID:12581634
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000205 SO:three_prime_UTR
+#=GF RN    [1]
+#=GF RM    12581634
+#=GF RT    Cis-acting regulatory elements in the potato virus X 3'
+#=GF RT    non-translated region differentially affect minus-strand and
+#=GF RT    plus-strand RNA accumulation.
+#=GF RA    Pillai-Nair N, Kim KH, Hemenway C;
+#=GF RL    J Mol Biol 2003;326:701-720.
+#=GF CC    This family represents a cis-acting regulatory element which is found in
+#=GF CC    the 3' UTR of the Potato virus X genome. This element has been found to be
+#=GF CC    required for minus strand RNA accumulation and is therefore essential for
+#=GF CC    efficient viral replication [1].
+#=GF WK    http://en.wikipedia.org/wiki/Potato_virus_X_cis-acting_regulatory_element
+#=GF SQ    4
+
+#=GS Potato_virus_X.1 AC    AF272736.2/6358-6411
+#=GS Potato_virus_X.2 AC    X72214.1/6355-6408
+#=GS Potato_virus_X.3 AC    AY512654.1/990-1043
+#=GS Potato_virus_X.4 AC    AF111193.1/6358-6411
+
+Potato_virus_X.1             CCAUAACUACGUCUACAUAACCGACGCCUACCCCAGUUUCAUAGUAUUUU
+Potato_virus_X.2             CCAUAACUACGUCCACAUAACCGACGCGUAUCCCAGUUUCAUAGUAUUUU
+Potato_virus_X.3             CCAUAACUACGUCCACAUAACCGACGCCUACCCCAGUUUCAUAGUAUUUU
+Potato_virus_X.4             CCAUAAUUACGUCUACAUAACCGACGCCUACCCCAGUUUCAUAGUAUUUU
+#=GC SS_cons                 .........<<<<.........>>>>......<<<<..............
+#=GC RF                      CCAUAAcUACGuCuACAUAACCGaCGCcUAuCCCaGUUUCAUAGUAUUUU
+
+Potato_virus_X.1             CUGG
+Potato_virus_X.2             CUGG
+Potato_virus_X.3             CUGG
+Potato_virus_X.4             CUGG
+#=GC SS_cons                 >>>>
+#=GC RF                      CuGG
+//

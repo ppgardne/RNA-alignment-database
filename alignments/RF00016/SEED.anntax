@@ -1,0 +1,134 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORD14
+#=GF AC    RF00016
+#=GF DE    Small nucleolar RNA SNORD14
+#=GF AU    Griffiths-Jones SR, Mifsud W
+#=GF GA    23.0
+#=GF NC    23.0
+#=GF TC    23.3
+#=GF PI    U14
+#=GF SE    Griffiths-Jones SR
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Mus_musculus300888
+#=GF DR    snoopy; Homo_sapiens300754
+#=GF DR    snoopy; Saccharomyces_cerevisiae300053
+#=GF RN    [1]
+#=GF RM    8668536
+#=GF RT    An essential domain in Saccharomyces cerevisiae U14 snoRNA is absent
+#=GF RT    in vertebrates, but conserved in other yeasts.
+#=GF RA    Samarsky DA, Schneider GS, Fournier MJ;
+#=GF RL    Nucleic Acids Res 1996;24:2059-2066.
+#=GF CC    U14 small nucleolar RNA (U14 snoRNA) is required for early
+#=GF CC    cleavages of eukaryotic precursor rRNAs. In yeasts, this molecule
+#=GF CC    possess a stem-loop region (known as the Y-domain) which is
+#=GF CC    essential for function. A similar structure, but with a different
+#=GF CC    consensus sequence, is found in plants, but is absent in
+#=GF CC    vertebrates [1].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_SNORD14
+#=GF SQ    18
+
+#=GS S.cerevisiae.1 AC    X96815.1/716-841
+#=GS S.pombe.1      AC    U29583.1/543-654
+#=GS X.laevis.1     AC    Z49896.1/2359-2452
+#=GS X.laevis.2     AC    Z49897.1/2330-2421
+#=GS X.laevis.3     AC    Z49896.1/3386-3480
+#=GS X.laevis.4     AC    Z49896.1/1591-1686
+#=GS X.laevis.5     AC    Z49897.1/1656-1746
+#=GS H.sapiens.1    AC    D88010.1/2919-3009
+#=GS H.sapiens.2    AC    AC006597.2/8065-8154
+#=GS O.sativa.1     AC    AF332622.1/717-819
+#=GS O.sativa.2     AC    AJ310377.1/211-341
+#=GS O.sativa.3     AC    AP002485.2/15585-15700
+#=GS Z.mays.1       AC    Y11048.1/1341-1463
+#=GS Z.mays.2       AC    Z35302.1/1-124
+#=GS Z.mays.3       AC    Z35299.1/1-129
+#=GS Z.mays.4       AC    Z35301.1/1-128
+#=GS Z.mays.5       AC    Y11048.1/1797-1925
+#=GS S.tuberosum.1  AC    Z35303.1/11-130
+
+S.cerevisiae.1             .....UCACGGUGAUGAAAGA........CUGGUUCCUUA..ACAUUCGC
+S.pombe.1                  ...UCAACAGGUGAUG...AAAU..........UUCCAUUGAACAUUCGC
+X.laevis.1                 .....UUGCUAAGAUGAAUACGA..........UUCCAAAG.CCAUUCGU
+X.laevis.2                 .....UCACAGUGAUGA.CUGGU..........UUCCAAU...CAUUCGC
+X.laevis.3                 .....UCGCUGUGAUGAACUU...........GUUCCAAAG.CCAUUCGU
+X.laevis.4                 .....UCGCUGUGAUGAAUGUGA..........UUCCAAAG.CCAUUCGU
+X.laevis.5                 .....UCACAGUGAUGA.CUGGU..........UUCCAAU...CAUUCGC
+H.sapiens.1                .....UCACUAUGAUGA.UUGGU..........UGCCAGA...CAUUCGC
+H.sapiens.2                .....UCACUGUGAUGA.UGGUU..........UUCCAA....CAUUCGC
+O.sativa.1                 ........UAAUGAUGCUAAAA...........UUUCUCAUAGCAUCUGC
+O.sativa.2                 UGCAUGGCAAAUGAUGCUAAAAGC.AAGGCUUGUUUCUCAUAACAUUCGC
+O.sativa.3                 ........CAAUGAUGAUAAAUUU.AAGGCUUGUUUCUCAUAACAUUCGC
+Z.mays.1                   ....AUGGCAAUGAUGUUGAAGUUAAAGGCUUGUUUCUCA..ACAUUCGC
+Z.mays.2                   ...UAUGGCAAUGAUGAUGAAAGAUAAGGCUUGUUUCUCA..ACAUUCGC
+Z.mays.3                   UGCAUUGCAAGUGAUGAUGAAGUC.AAGGCUUGUUUCUCU..ACAUUCGC
+Z.mays.4                   CGGU.GCCCUAUGAUGACAAAAUC.AAGGCUUGUUUCUCU..ACAUUCGC
+Z.mays.5                   UGCAUUGCAAGUGAUGACAAAAUC.AAGGCUUGUUUCUCG..ACAUUCGC
+S.tuberosum.1              ........CUCUGAUGAUACAAUUGAAGGCUUGUUUCUCUAAACAUUCGC
+#=GC SS_cons               <<<<<<<<<.........................................
+
+S.cerevisiae.1             AGUUUCCACGGUA.GGAGUAC.........GCUUACGAAC.CCAUCGUUA
+S.pombe.1                  AGUUUCC.CCGGA..GCGGCA............UACGAAC.CCA.AUUU.
+X.laevis.1                 AGUUUCCACCAGAU.........GUCGUAAGACU................
+X.laevis.2                 AGUUUCUACCAGAA........AGCUUU..GCCU................
+X.laevis.3                 AGUUUCCACCAGAU.........GCCGAAAGGCU................
+X.laevis.4                 AGUUUCCACCAGAU........GUCU.CACGACU................
+X.laevis.5                 AGUUUCUACCAGAA........AGCUUU..G.CU................
+H.sapiens.1                AGUUUCCACCAGAA........AUGUUUUU.CCU................
+H.sapiens.2                AGUUUCCACCAGAA........AGGUUUU..CCU................
+O.sativa.1                 AGUUACUGCCUAAUAGCUUUCGCCCUGCCAGGCU................
+O.sativa.2                 AGUUGCCGCCUAAGAGCUUUCGCCUUGCCAGGUU................
+O.sativa.3                 AGUUGCCGCCUAAGAGCUUUCGCCCUGCCAGGCU................
+Z.mays.1                   AGUAGCCGCCUAAGAGCUUUCGCCCUGCCAGGCU................
+Z.mays.2                   AGUAGCCGCCUAAGAGCUUUCGCCACGCCAGGCU................
+Z.mays.3                   AGUUGCCGCCUAAGAGCUUUCGCCCUGCCAGGCU................
+Z.mays.4                   AGUUGCCGCCUAAGAGCUUUCGCCCUGCCAGGCU................
+Z.mays.5                   AGUUGCCGCCUAAGAGCUUUCGCCCUGCCAGGCU................
+S.tuberosum.1              AGUGGCCGCCUAAG........AUCUUUC.GCCU....UCGCCA....GG
+#=GC SS_cons               ..............<<<<<<<<............<<<<......>>>>..
+
+S.cerevisiae.1             .GUACUCUCGGUGACCGCUCUUCUUUAGAGACCUUCCUA.GGAUGUCUGA
+S.pombe.1                  .UGCCGC........AGAUGUCGUGCAUAGUCCUUCCUUUGGAUGUCUGA
+X.laevis.1                 ..............CAUGAUGGCUC....UACCUUCCUU.GGAUGUCUGA
+X.laevis.2                 ..............GGUGUUGGCU..AGUAACCUUCCUU.GGAUGUCUGA
+X.laevis.3                 ..............GAUGAUGGCC..UAGCACCUUCCUU.GGAUGUCUGA
+X.laevis.4                 ..............UAUGAUGGUU..UAUUACCUUCCUU.GGAUGUCUGA
+X.laevis.5                 ..............GGUGUUGGCC..UGUAACCUUCCUU.GGAUGUCUGA
+H.sapiens.1                ..............UAUGUUGGCC....AGUUCUUCCUU.GGAUGUCUGA
+H.sapiens.2                .............UAGUGUUGGGU....AAACCUUCCUU.GGAUGUCUGA
+O.sativa.1                 UGAGAGCU..........AGUGCUGUUAAAUCCUUCGUU.GAAUG.C..A
+O.sativa.2                 UGAGAGCU..........AAUGCUGCUAAUUCCUUCCUU.GGAUGUCUGA
+O.sativa.3                 UGAGAGCU..........AAUGCUGUUAAUUCCUUCCUU.GGAUGUCUGA
+Z.mays.1                   UGAGAGCU..........UGUGCUGUUUAAUCCUUCCUU.GGAUGUCUGA
+Z.mays.2                   CGAGAGCU..........UGUGCUGUUGAAUCCUUCCUU.GGAUGUCUGA
+Z.mays.3                   UGAGAGCU..........AGUGCUGCCAAAUCCUUCCUU.GGAUGUCUGA
+Z.mays.4                   UGAGAGCU..........AAUGCUGCAGAAUCCUUCCUU.GGAUGUCUGA
+Z.mays.5                   UGAGAGGU..........AGUGCUGCCAAAUCCUUCCUU.GGAUGUCUGA
+S.tuberosum.1              ........CUUGAGAGAUAAUGCUGCUUUAUCCUUCCUU.GGAUGUCUGA
+#=GC SS_cons               >>>>>>>>..........................................
+
+S.cerevisiae.1             GUGA.....
+S.pombe.1                  UGUUG....
+X.laevis.1                 GCGA.....
+X.laevis.2                 GUGA.....
+X.laevis.3                 GCGA.....
+X.laevis.4                 GCGA.....
+X.laevis.5                 GUGA.....
+H.sapiens.1                GUGA.....
+H.sapiens.2                GUGA.....
+O.sativa.1                 UA.......
+O.sativa.2                 UGCAAUGCA
+O.sativa.3                 GC.......
+Z.mays.1                   GCCAUA...
+Z.mays.2                   GCCAUA...
+Z.mays.3                   UGCAAUGCA
+Z.mays.4                   GGGCCGCCG
+Z.mays.5                   CGCAAUGCA
+S.tuberosum.1              GAUC.....
+#=GC SS_cons               >>>>>>>>>
+//

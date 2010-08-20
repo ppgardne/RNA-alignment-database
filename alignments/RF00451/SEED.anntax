@@ -1,0 +1,145 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-395
+#=GF AC    RF00451
+#=GF DE    mir-395 microRNA precursor family
+#=GF AU    Moxon SJ
+#=GF GA    34.0
+#=GF NC    33.9
+#=GF TC    36.5
+#=GF SE    Moxon SJ
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIR; MI0001007
+#=GF DR    MIR; MI0001008
+#=GF DR    MIR; MI0001009
+#=GF DR    MIR; MI0001010
+#=GF DR    MIR; MI0001011
+#=GF DR    MIR; MI0001012
+#=GF DR    MIR; MI0001028
+#=GF DR    MIR; MI0001029
+#=GF DR    MIR; MI0001030
+#=GF DR    MIR; MI0001031
+#=GF DR    MIR; MI0001032
+#=GF DR    MIR; MI0001033
+#=GF DR    MIR; MI0001034
+#=GF DR    MIR; MI0001035
+#=GF DR    MIR; MI0001036
+#=GF DR    MIR; MI0001037
+#=GF DR    MIR; MI0001038
+#=GF DR    MIR; MI0001039
+#=GF DR    MIR; MI0001040
+#=GF DR    MIR; MI0001041
+#=GF DR    MIR; MI0001042
+#=GF DR    MIR; MI0001043
+#=GF DR    MIR; MI0001044
+#=GF DR    MIR; MI0001045
+#=GF DR    MIR; MI0001053
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF RN    [1]
+#=GF RM    15200956
+#=GF RT    Computational Identification of Plant MicroRNAs and Their Targets,
+#=GF RT    Including a Stress-Induced miRNA.
+#=GF RA    Jones-Rhoades MW, Bartel DP;
+#=GF RL    Mol Cell 2004;14:787-799.
+#=GF CC    mir-395 was identified in both Arabidopsis thaliana and Oryza sativa
+#=GF CC    computationally and was later experimentally verified. mir-395 is thought
+#=GF CC    to target mRNAs coding for ATP sulphurylases [1]. The mature
+#=GF CC    sequence is excised from the 3' arm of the hairpin.
+#=GF WK    http://en.wikipedia.org/wiki/mir-395_microRNA_precursor_family
+#=GF SQ    21
+
+#=GS O.sativa.1     AC    AP008210.1/32656850-32656935
+#=GS O.sativa.2     AC    AL606669.4/11698-11785
+#=GS O.sativa.3     AC    AP004460.2/70367-70478
+#=GS O.sativa.4     AC    AL606669.4/11841-11928
+#=GS O.sativa.5     AC    AP004460.2/70542-70640
+#=GS O.sativa.6     AC    AL606669.4/11979-12067
+#=GS O.sativa.7     AC    AF402959.1/7319-7406
+#=GS O.sativa.8     AC    AL606669.4/12120-12205
+#=GS O.sativa.9     AC    AP004460.2/70702-70813
+#=GS O.sativa.10    AC    AP004460.2/70875-70973
+#=GS O.sativa.11    AC    AL606669.4/11419-11504
+#=GS O.sativa.12    AC    AL606669.4/12280-12421
+#=GS O.sativa.13    AC    AP008215.1/6553165-6553307
+#=GS M.truncatula.1 AC    AC149601.3/12939-13054
+#=GS M.truncatula.2 AC    AC149601.3/18765-18879
+#=GS A.thaliana.1   AC    AC010675.6/79378-79489
+#=GS A.thaliana.2   AC    AC000348.2/5930-6029
+#=GS A.thaliana.3   AC    AC000348.2/4655-4747
+#=GS A.thaliana.4   AC    AC010675.6/83269-83368
+#=GS A.thaliana.5   AC    DQ063654.1/98-192
+#=GS A.thaliana.6   AC    DQ063653.1/31-130
+
+O.sativa.1                 GUAUCACCGUGAGUUCCCUUCAAG.CACUUCACGUGGCACU.....AUUU
+O.sativa.2                 GUAUUAUCGAGAGUUCCCUUCAAC.CACUUCACGUGGCACU.....GUUU
+O.sativa.3                 UUGUUACCUGGAGUUUCCUCAACA.CACUUCACAUCUGCUAGGCCCUAUU
+O.sativa.4                 GUAUUGUCGUGAGUUCCCUUCAAG.CACUUCACGUGGCACU.....AUCU
+O.sativa.5                 GUUUUACCGGGAGUUCUCUUCAAG.CACUUCACGUAGAGCUUUC..UAUU
+O.sativa.6                 GUAUUAUCAAGAGUUCUCUUUAAG.CACUUCAUACGACACCAU...UAUU
+O.sativa.7                 GUAUUGUCGUGAGUUCCCUUCAAG.CACUUCACGUGGCACU.....AUCU
+O.sativa.8                 GAGUCCCUAGGAGUUCCUUUCAAG.CACUUUACGACACACUG....UAUU
+O.sativa.9                 GUGUUCCCAAGAGUUCCUUGCAAG.CACUUCACAUAGAACUUC...UGUU
+O.sativa.10                GUUUUAUCGGGAGUUUCCUUCAAG.CACUUCACGUAGAGCUUUC..UAUU
+O.sativa.11                GUAUCACCGUGAGUUCCCUUCGAA.CACUUCACGUGGCACU.....AUUU
+O.sativa.12                UUGUCCACUGGAGUUCUCCUCAAUCCACUUCAGUAGAUAGCU....AUGG
+O.sativa.13                UUAUCCACUGGAGUUCUCCUCAAACCACUUCAGCAGAUAGCUAGC.UAGG
+M.truncatula.1             UUGUUUCUUAGAGUUCCUUUGAA..CGCUUCAUGCAUGAGAAU...AUGU
+M.truncatula.2             UUGUCUCUUAGAGUUCCUUUGAA..CGCUUCAUGCAUGAGAAU...AUCU
+A.thaliana.1               AUGUCCCCUUGAGUUCCCUU.AAA.CGCUUCAUUGUUCAUACU...UUGU
+A.thaliana.2               AUGUCCCCAUGAGUUCCCUUUAA..CGCUUCAUUGUUAAAUA......CU
+A.thaliana.3               AUGUCUCCUAGAGUUCCUCUGAG..CACUUCAUUGGGGAUACA...AUUU
+A.thaliana.4               AUGUCCUCUAGAGUUCUCCUGAA..CACUUCAUUGGAAAUUUGU..UAUU
+A.thaliana.5               AUGUUUUCUAGAGUUCCUCUGAG..CACUUCAUUGGAGAUACAAU.UUUU
+A.thaliana.6               AUGUCCACAUGAGUUCCCUUUAA..CGCUUCAUUGUUGAAUA......CU
+#=GC SS_cons               ....<<<<<.<<<<<<<<<<.<<<.<<<<<<<<<<<<.............
+
+O.sativa.1                 .CAAUGCC..........................................
+O.sativa.2                 .CAAGGCCUA........................................
+O.sativa.3                 ACAAUUGCGCAAUG..................................UG
+O.sativa.4                 .CAAUGCCUA........................................
+O.sativa.5                 GACAUGGAGCUUUA....................................
+O.sativa.6                 .UAUAGGGU.........................................
+O.sativa.7                 .CAAUGCCUA........................................
+O.sativa.8                 .GAGAGU...........................................
+O.sativa.9                 ACUCUCAUGUAACA...............................UUGGG
+O.sativa.10                GAUAUGGAGCUUUG....................................
+O.sativa.11                .CAAUGCC..........................................
+O.sativa.12                .CUAGGCCUCAUUGCAUUGCACUGUUACAUAACUGUGAUCAUGGGGCCAA
+O.sativa.13                .CCUCAUUGCAUUG..CACCACUGUUGCAUAACUAUGAGCAUGGGGCCAA
+M.truncatula.1             .AUUUGGUCUAAUA.........................UCCAUUAGAAA
+M.truncatula.2             .AUUUGGUCUAAAA..........................UCCAUUAGAA
+A.thaliana.1               .UAUCAUCUAUCGA.............................UCGAUCA
+A.thaliana.2               .CAAAGCCACAUUG....................................
+A.thaliana.3               .UUCUAAAUGAUUA....................................
+A.thaliana.4               .CAGUAAGCUAACA....................................
+A.thaliana.5               .UAUAAAAUAGUUU....................................
+A.thaliana.6               .CAAAGCCACAUUG....................................
+#=GC SS_cons               ..................................................
+
+O.sativa.1                 ............UAUUGUGAAGUGUUUGGGGGAACUCUCGAUGUUCC
+O.sativa.2                 ............UUGUGUGAAGUGUUUGGGGGAACUCUCGAUAUCAC
+O.sativa.3                 GAGUCUGCAAUUGGUAGUGAAGUGUUUGGGGGAACUCUAGGUGGCAC
+O.sativa.4                 ............CUAUGUGAAGUGUUUGGGGGAACUCUCGAUAUCAC
+O.sativa.5                 .........GAACAAUGUGAAGUGUUUGGGGGAACUCUUGGUACCAA
+O.sativa.6                 ............UGUUGUGAAGUGUUUGGAGGAACUCUCGGUGUCAU
+O.sativa.7                 ............CUAUGUGAAGUGUUUGAGGGAACUCUCGGUAUCAC
+O.sativa.8                 ............UGUCGUGAAGUGUUUGGGGGAACUCUUAGUGUCGC
+O.sativa.9                 AACUUGAGAAGCUACUGUGAAGUGUUUGGGGGAACUCUAGGUGGCAC
+O.sativa.10                .........GAACAAUGUGAAGUGUUUGGGGGAACUCUUGAUACCAA
+O.sativa.11                ............UAUUGUGAAGUGUUUGGGGGAACUCUCGAUGUCAU
+O.sativa.12                AAGCUAGCUAUGUAUAGUGAAGUGCUUGGGGGAACUCCAGUUGACAC
+O.sativa.13                AAGUUAGCUGCUUAUAGUGAAGUGUUUGGGGAAACUCCGGUUGGCAA
+M.truncatula.1             AGAUAGUUCUUCAUCAAUGAAGUGUUUGGGGGAACUCUUGGGUUCAA
+M.truncatula.2             AAAUAGUUCUUCUUAAAUGAAGUGUUUGGGGGAACUCUUGGGUUCAA
+A.thaliana.1               AUCAAUCUGAUGAACACUGAAGUGUUUGGGGGGACUCUAGGUGACAU
+A.thaliana.2               ..GUUUGUAUACAACACUGAAGUGUUUGGGGGGACUCUUGGUGUCAU
+A.thaliana.3               ............UCCACUGAAGUGUUUGGGGGAACUCCCGGACCCAU
+A.thaliana.4               ......GUUAAUUCCACUGAAGUGUUUGGGGGAACUCCCGAUGUCAU
+A.thaliana.5               ............UCUACUGAAGUGUUUGGGGGAACUCCCGGGCUGAU
+A.thaliana.6               ..GUUUGUAUAUAACACUGAAGUGUUUGGGGGGACUCUUGGUGUCAU
+#=GC SS_cons               ............>>>>>>>>>>>>>>>>>>>>>>>>>.>>>>>....
+//

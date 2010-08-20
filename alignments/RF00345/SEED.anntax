@@ -1,0 +1,95 @@
+# STOCKHOLM 1.0
+#=GF ID    snoR1
+#=GF AC    RF00345
+#=GF DE    Small nucleolar RNA snoR1
+#=GF AU    Moxon SJ, Wilkinson AC
+#=GF GA    31.0
+#=GF NC    24.5
+#=GF TC    31.2
+#=GF SE    Moxon SJ
+#=GF SS    Predicted; PFOLD; Moxon SJ
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF RN    [1]
+#=GF RM    11469857
+#=GF RT    Identification of 66 box C/D snoRNAs in Arabidopsis thaliana:
+#=GF RT    extensive gene duplications generated multiple isoforms predicting
+#=GF RT    new ribosomal RNA 2'-O-methylation sites.
+#=GF RA    Barneche F, Gaspin C, Guyot R, Echeverria M;
+#=GF RL    J Mol Biol 2001;311:57-73.
+#=GF RN    [2]
+#=GF RM    12007400
+#=GF RT    Small nucleolar RNAs: an abundant group of noncoding RNAs with
+#=GF RT    diverse cellular functions.
+#=GF RA    Kiss T;
+#=GF RL    Cell 2002;109:145-148.
+#=GF CC    snoR1 is a member of the C/D class of snoRNA which contain the C (UGAUGA)
+#=GF CC    and  D (CUGA) box motifs. Most of the members of the box C/D family
+#=GF CC    function in directing site-specific 2'-O-methylation of substrate RNAs
+#=GF CC    [1,2].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_snoR1
+#=GF SQ    13
+
+#=GS Ostreococcus_lucimar.1 AC    CP000590.1/67522-67608
+#=GS O.sativa.1             AC    AJ532544.1/4-90
+#=GS O.sativa.2             AC    AK069055.1/771-869
+#=GS O.sativa.3             AC    AJ532543.1/5-99
+#=GS O.sativa.4             AC    AAAA02005023.1/6403-6489
+#=GS O.sativa.5             AC    AJ532545.1/6-104
+#=GS Z.mays.1               AC    Y11048.1/29-119
+#=GS V.vinifera.1           AC    AM460458.2/2388-2484
+#=GS M.truncatula.1         AC    CT961056.6/118462-118556
+#=GS R.communis.1           AC    AASG02003803.1/16987-17082
+#=GS P.trichocarpa.1        AC    AARH01007419.1/62252-62347
+#=GS A.thaliana.1           AC    AJ300656.1/3-95
+#=GS B.rapa.1               AC    AC189633.2/51934-52027
+
+Ostreococcus_lucimar.1             GGCGAUGAUGAUCA...CC...ACA.UUCUGACACCUCUUGUACGAG.AC
+O.sativa.1                         UGCUGUGAUGAGCAUUUGC...UUACUUCUGACACCUCUUGUAUGAGAAG
+O.sativa.2                         AGCUGUGAUGAGCAU...UGC.UUUCUUCUGACACCUCUUGUAUGAGAAG
+O.sativa.3                         UGCCGUGAUGAU...UGCUCGCUUAUUUCUGACACCUCUUGUAUGAGAAG
+O.sativa.4                         UGCUGUGAUGAGCAUUUGC...UUACUUCUGACACCUCUUGUAUGAGAAG
+O.sativa.5                         AGCUGUGAUGAGCAUUGCU....UUCUUCUGACACCUCUUGUAUGAGAAG
+Z.mays.1                           AGCUGUGAUGUGCA...CUGC.UUUCUUCUGACACCUCUUGUAUGAGCAG
+V.vinifera.1                       GGCAAAGAUGAAGAGUGCUUU.AUAUUUCUGACACCUCUUGUAUGAGAAG
+M.truncatula.1                     GGCGAGGAUGAAGAGUGCUAUUUAUAUUCUGACACCUCUUGUAUGAGAUG
+R.communis.1                       GGCAAAGAUGAAGAGUGCUU..CUAAUUCUGACACCUCUUGUAUGAGAAU
+P.trichocarpa.1                    GGCCGUGAUGAAGAGUGCUAC.AUAAUUCUGACACCUCUUGUAUGAGAGG
+A.thaliana.1                       GGCGAUGAUGAUCAAUGCU...UAAUUUCUGACACCUCUUGUAUGAGAAG
+B.rapa.1                           GGCAAGGAUGAUUACUGCU...UAAUUUCUGACACCUCUUGUAUGAGAAG
+#=GC SS_cons                       <<................................................
+
+Ostreococcus_lucimar.1             UUUGUG...GCCA.......UUGUUCGAUGAACUCAUU.AUGCAUAAGA.
+O.sativa.1                         GGCCU...............CCCUUCCUUGAGCAGAUU.UAGCAACCCU.
+O.sativa.2                         UGCUUC...UCCCAGAGAAGCUCUUCGUUGAGCAGAGUAUAGCAAUUGU.
+O.sativa.3                         UUGUUC...UUUC.......CUCUUCCUUGGGGAUGAG.GAGGAGCACUU
+O.sativa.4                         GGCCU...............CCCUUCCUUGAGCAGAUU.UAGCAACCCU.
+O.sativa.5                         UGCUUC...UCCCAGAGAAGCUCUUCGUUGAGCAGAGUAUAGCAAUUGU.
+Z.mays.1                           GGACUU...UGUU.......CCCUCCGUUGAGCAGAUU.CAGCAACUCU.
+V.vinifera.1                       AGCUCUCAAAAAG.......CUCUUCUUUGAGCACAUA.CAGCUACUCU.
+M.truncatula.1                     AAUCAG...AGGA.......UUCAUCUAUGAGCACAUA.AAGCAACUCU.
+R.communis.1                       CUCUUUCUAAGAG.......CUCUUCUUUGAGCACAGA.UAGCAACUCU.
+P.trichocarpa.1                    AGCUUUUC.GGAG.......CUCUUCUUUGAGCACAUA.CAGCAACUCU.
+A.thaliana.1                       AGCUUGA..UAAC.......CUCUUCUUUGAGCACAUU.AUGCAAUACU.
+B.rapa.1                           AGCUUGA..UAAA.......CUCUUCCUUGAGCACAUU.AUGCAAAUACU
+#=GC SS_cons                       ..................................................
+
+Ostreococcus_lucimar.1             ..CUGAGCC
+O.sativa.1                         ..CUGAGCU
+O.sativa.2                         ..CUGAGCU
+O.sativa.3                         CGCUGAGCA
+O.sativa.4                         ..CUGAGCU
+O.sativa.5                         ..CUGAGCU
+Z.mays.1                           ..CUGAGCU
+V.vinifera.1                       ..CUGAGCC
+M.truncatula.1                     ..CUGAGUC
+R.communis.1                       ..CUGAGCC
+P.trichocarpa.1                    ..CUGAGCC
+A.thaliana.1                       ..CUGAGCC
+B.rapa.1                           ..CUGAGCC
+#=GC SS_cons                       .......>>
+//

@@ -1,0 +1,82 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-317
+#=GF AC    RF00720
+#=GF DE    microRNA mir-317
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    39.6
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000144
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    13
+
+#=GS T.castaneum.1        AC    AAJJ01000475.1/38168-38254
+#=GS D.virilis.1          AC    AANI01014607.1/383607-383695
+#=GS D.mojavensis.1       AC    AAPU01011031.1/18227-18314
+#=GS D.grimshawi.1        AC    AAPT01018372.1/102669-102760
+#=GS D.persimilis.1       AC    AAIZ01005964.1/1504-1594
+#=GS D.willistoni.1       AC    AAQB01008630.1/421538-421628
+#=GS D.ananassae.1        AC    AAPP01019533.1/3894-3984
+#=GS D.simulans.1         AC    AASU01002322.1/1049-1139
+#=GS A.gambiae.1          AC    AAAB01008859.1/3281503-3281595
+#=GS C.quinquefasciatus.1 AC    AAWU01003687.1/17257-17344
+#=GS A.mellifera.1        AC    AADG05001988.1/60488-60578
+#=GS B.mori.1             AC    BAAB01140584.1/454-542
+#=GS P.humanus.1          AC    AAZO01004205.1/873-973
+
+T.castaneum.1                    GGUGGGGCGGUGCUGGGGACC.ACCCUGUGUUUACUCUGUAUUU......
+D.virilis.1                      GUGCAAUUGCCGCUGGGAUAC.ACCCUGUGCUCGCUUUGAAUUG......
+D.mojavensis.1                   GUGCAAUUGCCGCUGGGAUAC.ACCCUGUGCUCGCUUUGAGUUU......
+D.grimshawi.1                    GUGCAAUUGCCACUGGGAUAUUGCCCUGUGCUCGCUUUGAAUAU......
+D.persimilis.1                   GUGCAACUGCCGUUGGGAUAC.ACCCUGUGCUCGCUUUGAAUAU......
+D.willistoni.1                   GUGCAACUGCCACUGGGAUAC.ACCCUGUGCUCGCUUUGAAUAU......
+D.ananassae.1                    GUGCAUCGGCUGCUGGGAUAC.ACCCUGUGCUCGCUUUGAAUGA......
+D.simulans.1                     AUGCAACUGCCAUUGGGAUAC.ACCCUGUGCUCGCUUUGAAUGA......
+A.gambiae.1                      ACGUCUCUGCCACUGGGAUAC.UCCUUGUGCUCGCUGUGCAUAUC.....
+C.quinquefasciatus.1             GAAUUUCGGCUACCGGGAUAC.ACCCUGUGCUCGCUUUGCAUUC......
+A.mellifera.1                    GCUCUCGGAGAACAGGGAGCC.ACUCUGCGUUCACUCGGUGGGU......
+B.mori.1                         GCUAUCGAACGACCGGGUGCC.ACGCUGUGCUCUCUCGAAAAUU......
+P.humanus.1                      ACUGACUCGAGACCGGGUAUC.AUCCUGUGUUGACUUCAUCGUUUUAUAA
+#=GC SS_cons                     .<<<<<<.<<<<<<<<<<<<<.<<<<<<<<.<<<<<<.............
+#=GC RF                          gcucaagugccaCuGgGauaC.aCCCuGuGuuCaCucugaAuuu......
+
+T.castaneum.1                    ........CGACCAGUGAACACAGCUGGUGGUAUCUCAGUUUCUUCCCAU
+D.virilis.1                      .....UGCAAGCAAGUGAACACAGCUGGUGGUAUC.CAGUGGCCGUUGGC
+D.mojavensis.1                   .....AUGUUGCAAGUGAACACAGCUGGUGGUAUC.CAGAGGCCGUUG.A
+D.grimshawi.1                    ...UGUGUAAGCAAGUGAACACAGCUGGUGGUAUC.CAGUGGCCGUUUGG
+D.persimilis.1                   ...GGUGCAAGCAAGUGAACACAGCUGGUGGUAUC.CAAUGGCCGUUCUG
+D.willistoni.1                   ...UGUGCAAACAAGUGAACACAGCUGGUGGUAUC.CAGUGGCCGUUUUU
+D.ananassae.1                    ...AAUGCAAGCAAGUGAACACAGCUGGUGGUAUC.CAGUGGCCGUUUUG
+D.simulans.1                     ...AAUGCAAGCAAGUGAACACAGCUGGUGGUAUC.CAGUGGCCGUUUGG
+A.gambiae.1                      ...GAUUCAAACUAGUGAACACAUCUGGUGGUAUCUCAGUGGCCGGGAUG
+C.quinquefasciatus.1             .......GAAACUAGUGAACACAGCUGGUGGUAUCUCAGUGGCCCUGAUC
+A.mellifera.1                    ....AAUGAAGCGGGUGAACACAGCUGGUGGUAUCUCAGUUUUCUGAGGG
+B.mori.1                         ...AUGGCG...GAGUGAACACAGCUGGUGGUAUCUCAGUUGUUCCCUAG
+P.humanus.1                      AUUAUUAUAAGAAAGUGAACACAGCUGGUGGUAUCUCAGCUUCUGGUCAG
+#=GC SS_cons                     ............>>>>>>.>>>>>..>>>.>>>>>>>>>>>>>.>>>>>>
+#=GC RF                          ...aaaaaAAacgaGuGaACaCaGCUGGuGGuauCuCaGuggcucuugag
+
+T.castaneum.1                    CA
+D.virilis.1                      AG
+D.mojavensis.1                   CA
+D.grimshawi.1                    CG
+D.persimilis.1                   CA
+D.willistoni.1                   UG
+D.ananassae.1                    CA
+D.simulans.1                     CA
+A.gambiae.1                      AG
+C.quinquefasciatus.1             CG
+A.mellifera.1                    CG
+B.mori.1                         UU
+P.humanus.1                      UU
+#=GC SS_cons                     ..
+#=GC RF                          ua
+//

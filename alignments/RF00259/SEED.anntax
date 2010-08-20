@@ -1,0 +1,64 @@
+# STOCKHOLM 1.0
+#=GF ID    IFN_gamma
+#=GF AC    RF00259
+#=GF DE    Interferon gamma 5' UTR regulatory element
+#=GF AU    Moxon SJ
+#=GF GA    22.0
+#=GF NC    21.0
+#=GF TC    22.9
+#=GF SE    PMID:11832212
+#=GF SS    Published; PMID:11832212
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000204 SO:five_prime_UTR
+#=GF RN    [1]
+#=GF RM    11832212
+#=GF RT    Human interferon-gamma mRNA autoregulates its translation through a
+#=GF RT    pseudoknot that activates the interferon-inducible protein kinase
+#=GF RT    PKR.
+#=GF RA    Ben-Asouli Y, Banai Y, Pel-Or Y, Shir A, Kaempfer R;
+#=GF RL    Cell 2002;108:221-232.
+#=GF CC    This family represents a pseudoknot containing stem-loop structure found in
+#=GF CC    the 5' UTR of interferon (IFN) gamma mRNA. This structure is thought to be
+#=GF CC    involved in translational regulation and the pseudoknot has been found to
+#=GF CC    activate PKR which is known to be a translational inhibitor. Mutations in
+#=GF CC    the pseudoknot structure have been found to reduce PKR activation and
+#=GF CC    increase the translation of IFN-gamma [1].
+#=GF WK    http://en.wikipedia.org/wiki/Interferon_gamma_5'_UTR_regulatory_element
+#=GF SQ    5
+
+#=GS H.sapiens.1            AC    X01992.1/3-171
+#=GS H.sapiens.2            AC    AF375790.2/1570-1738
+#=GS H.sapiens.3            AC    J00219.1/351-519
+#=GS Callithrix_jacchus_w.1 AC    X64659.1/2643-2811
+#=GS B.taurus.1             AC    Z54144.2/2620-2785
+
+H.sapiens.1                        CAUUGUUCUGAUCAUCUGAAGAUCAGCUAUUAGAAGAGAAAGAUCAGUUA
+H.sapiens.2                        CAUUGUUCUGAUCAUCUGAAGAUCAGCUAUUAGAAGAGAAAGAUCAGUUA
+H.sapiens.3                        CAUUGUUCUGAUCAUCUGAAGAUCAGCUAUUAGAAGAGAAAGAUCAGUUA
+Callithrix_jacchus_w.1             CAUUUUUCUGAUCAUCUGAAGAUCAGCUAUUGGAAGAGAAAGAUCAGCCA
+B.taurus.1                         CAUUCUUCUGAUCAUCUGCAGAUCAGCAAUUAGAAAAGAAAGAUCAGCUA
+#=GC SS_cons                       .......AAAAAAA<<<<<<<<..<<<<<..<<<<<....<<<<<<<<..
+
+H.sapiens.1                        AGUCCUUUGGACCUGAUCAGCUUGAUACAAGAACUACUGAUUUCAACUUC
+H.sapiens.2                        AGUCCUUUGGACCUGAUCAGCUUGAUACAAGAACUACUGAUUUCAACUUC
+H.sapiens.3                        AGUCCUUUGGACCUGAUCAGCUUGAUACAAGAACUACUGAUUUCAACUUC
+Callithrix_jacchus_w.1             AGUCCUUUGGACCUGAUCAACUUGAUACGAGAACUACUGAUUUCAACUUC
+B.taurus.1                         CCUCCUUGGGACCUGAUCA...UAACACAGGAGCUACCGAUUUCAACUAC
+#=GC SS_cons                       <<<..<<<<....aaaaaaa.......>>>>.>>>>>>>>>>>...>>>>
+
+H.sapiens.1                        UUUGGCUUAAUUCUCUCGGAAACGAUGAAAUAUACAAGUUAUAUCUUGGC
+H.sapiens.2                        UUUGGCUUAAUUCUCUCGGAAACGAUGAAAUAUACAAGUUAUAUCUUGGC
+H.sapiens.3                        UUUGGCUUAAUUCUCUCGGAAACGAUGAAAUAUACAAGUUAUAUCUUGGC
+Callithrix_jacchus_w.1             UUUGGCUGAGCUCUCUCCGAAACAAUGAAAUAUACAAGUUAUAUCUUGGC
+B.taurus.1                         UCCGGCCUAACUCUCUCCUAAACAAUGAAAUAUACAAGCUAUUUCUUAGC
+#=GC SS_cons                       >.>>>>>....>>>.>>>>><<<<<<<..<<<<<.....>>>>>...<<<
+
+H.sapiens.1                        UUUUCAGCUCUGCAUCGUU
+H.sapiens.2                        UUUUCAGCUCUGCAUCGUU
+H.sapiens.3                        UUUUCAGCUCUGCAUCGUU
+Callithrix_jacchus_w.1             UUUUCAGCUCUGCGUCGUU
+B.taurus.1                         UUUACUGCUCUGUGGGCUU
+#=GC SS_cons                       <....>>>>...>>>>>>>
+//

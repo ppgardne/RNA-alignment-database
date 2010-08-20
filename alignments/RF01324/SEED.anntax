@@ -1,0 +1,32 @@
+# STOCKHOLM 1.0
+#=GF ID    CRISPR-DR11
+#=GF AC    RF01324
+#=GF DE    CRISPR RNA direct repeat element
+#=GF AU    Wilkinson A
+#=GF GA    45.0
+#=GF NC    17.3
+#=GF TC    53.2
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; CRISPR;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    URL; http://crispr.u-psud.fr/crispr/CRISPRHomePage.php
+#=GF DR    SO:0001459 SO:CRISPR
+#=GF WK    http://en.wikipedia.org/wiki/CRISPR
+#=GF SQ    5
+
+#=GS Methanopyrus_kandler.1 AC    AE009439.1/1362609-1362644
+#=GS Methanopyrus_kandler.2 AC    AE009439.1/1363323-1363358
+#=GS Methanopyrus_kandler.3 AC    AE009439.1/1328636-1328671
+#=GS Methanopyrus_kandler.4 AC    AE009439.1/1297217-1297252
+#=GS Methanopyrus_kandler.5 AC    AE009439.1/1112486-1112521
+
+Methanopyrus_kandler.1             UAUUAUUUACCCAUAUUAUUACGGGUUAAUUGCGAG
+Methanopyrus_kandler.2             GUUUCAUUACCCAUAUUAUUGCGGGUUAAUUGCGAG
+Methanopyrus_kandler.3             GUUUCAUUACCCGUAUUAUUGCGGGUUAAUUGCGAG
+Methanopyrus_kandler.4             GUUUCAUUACCCGUGUUAUUACGGGUUAAUUGCGAG
+Methanopyrus_kandler.5             GUUUCAUUACCCGUAUUAUUACGGGUUAAUUGCGAG
+#=GC SS_cons                       ........<<<<<<<....>>>>>>>..........
+#=GC RF                            GUUUcAUUaCCCGuaUUAUuaCGGGuUAAUUGcGAG
+//

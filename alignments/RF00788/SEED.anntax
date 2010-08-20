@@ -1,0 +1,54 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-287
+#=GF AC    RF00788
+#=GF DE    microRNA mir-287
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    31.1
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000224
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    9
+
+#=GS D.mojavensis.1    AC    AAPU01010664.1/17553-17645
+#=GS D.virilis.1       AC    AANI01016269.1/16786-16878
+#=GS D.grimshawi.1     AC    AAPT01009679.1/245-326
+#=GS D.yakuba.1        AC    AAEU02000290.1/178244-178333
+#=GS D.erecta.1        AC    AAPQ01007040.1/1493287-1493379
+#=GS D.willistoni.1    AC    AAQB01006734.1/266959-267050
+#=GS D.ananassae.1     AC    AAPP01015675.1/1283521-1283611
+#=GS D.sechellia.1     AC    AAKO01001640.1/35443-35535
+#=GS D.pseudoobscura.1 AC    AADE01001319.1/26535-26625
+
+D.mojavensis.1                CUCCCACGCACACACACACGC.GCAUAAUGUUUGAAAUUUUGCACACAUU
+D.virilis.1                   CUUUCGCACACACACAAACGU.GCAUAAUGUUUGAAAUUUUGCACACAUU
+D.grimshawi.1                 ...........ACACAUACAU.GCAUAAUGCUUGAAAUUUUGCACACAUU
+D.yakuba.1                    GCAAGCCGUGGAUGUAUGGGU.GUG...GGUCUGAAAUUUUGCACACAUU
+D.erecta.1                    GUGGACGCUGGAUGUAUGGGU.GUGUGGGCUCUGAAAUUUUGCACACAUU
+D.willistoni.1                GUAAUAUGUAUAUGUAUUGC...UGUAAAGUCUGAAAUUUUGCACACAUU
+D.ananassae.1                 UAUAGGGCUGUGUGUAUUGGUAGUG...GGUCUGAAAUUUUGCACACAUU
+D.sechellia.1                 GGACGCCGUGGAUGUAUGGGU.GUGUAGGGUCGGAAAUUUUGCACACAUU
+D.pseudoobscura.1             GAGACAGUCUUAUGUGUGAGU.GUG..GGGCCUGAAAUUUUGCACACAUU
+#=GC SS_cons                  ..................<<<.<<<<<<<...<<<..<<<<<.<<<<<<<
+#=GC RF                       gaaaaagauauAuguAUaaGu.GuGcaaaguccGaAAuuuugcaCaCauu
+
+D.mojavensis.1                UACAAUAAUUGUAAAUGUGUUGAAAAUCGUUUGCACA.ACUGUGA
+D.virilis.1                   UACAAUAAUUGUAAAUGUGUUGAAAAUCGUUUGCACA.ACUGUGA
+D.grimshawi.1                 UACAAUAUUUGUAAAUGUGUUGAAAAUCGUUUGCACA.ACUGUGA
+D.yakuba.1                    UACAGUAAUUGUAAAUGUGUUGAAAAUCGUUUGCAUG.ACUGUGA
+D.erecta.1                    UACAAUAAUUGUAAAUGUGUUGAAAAUCGUUUGCACG.ACUGCGA
+D.willistoni.1                UACAAUUAUUGUAAAUGUGUUGAAAAUCGUUUGCACAAACUGUGA
+D.ananassae.1                 UACAAUAAUUGUAAAUGUGUUGAAAAUCGUUUGCACA.ACUGUGA
+D.sechellia.1                 UACAAUAAUUGUAAAUGUGUUGAAAAUCGUUUGCACG.ACUGUGA
+D.pseudoobscura.1             UACAAUAAUUGUAAAUGUGUUGAAAAUCGUUUGCACA.ACUGUGA
+#=GC SS_cons                  <<<<.....>>>>>>>>>>>>>>>>.>>>>>>>>>>>..>>....
+#=GC RF                       uaCaAUAAUuGuaaauGuGuugaaaAuCguuugCaCa.ACuGuGA
+//

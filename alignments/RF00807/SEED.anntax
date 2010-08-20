@@ -1,0 +1,45 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-314
+#=GF AC    RF00807
+#=GF DE    microRNA mir-314
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    72.2
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000246
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    6
+
+#=GS D.virilis.1       AC    AANI01017486.1/342740-342830
+#=GS D.mojavensis.1    AC    AAPU01011627.1/156896-156990
+#=GS D.grimshawi.1     AC    AAPT01020574.1/773257-773332
+#=GS D.pseudoobscura.1 AC    AAFS01000446.1/64778-64866
+#=GS D.ananassae.1     AC    AAPP01019289.1/431088-431175
+#=GS D.yakuba.1        AC    AAEU02000214.1/162929-163018
+
+D.virilis.1                   UCGUAACUUGUGUGGCU.UGAAUGUACCUGGUU.GAGGAACGAA....UU
+D.mojavensis.1                UCGUAACUUGUGUGGCUUCGAAUGUACCUCGUCGAGCG..AAAAGCGAAU
+D.grimshawi.1                 UCGUAACUUGUGUGGCUUCGAAUGUACCUGGCU.AAGG...........A
+D.pseudoobscura.1             UCGUAACUUGUGUGGCUUCGAAUGUACCUAGUU.GAGG..AAAA....CU
+D.ananassae.1                 UCGUAACUUGUGUGGCUUCGAAUGUACCUAGUU.GAGG..AAAA.....A
+D.yakuba.1                    UCGUAACUUGUGUGGCUUCGAAUGUACCUAGUU.GAGG..AAAA....AC
+#=GC SS_cons                  .<<.<<<<<<<.<<<<<.<<<<..<<<<......<<<<...<<<.....<
+#=GC RF                       ucGuaacuuguguGGcuucGaauguaccuaguu.gggG..aaaa....ac
+
+D.virilis.1                   CAACGUUUGGAUUUUGUUGCCUUUGGUAUUCGAGCCAAUAAGUUCGG
+D.mojavensis.1                UCAUUGUUGGAUUUUGUUGCUCUUGGUAUUCGAGCCAAUAAGUUCGG
+D.grimshawi.1                 AAGUUGGAUUU........CCU.AGGUAUUCGAGCCAAUAAGUUCGG
+D.pseudoobscura.1             CCGAAAU.GGAUUUUGUUACCUCUGGUAUUCGAGCCAAUAAGUUCGG
+D.ananassae.1                 UCAGUUUGGAU.UUUGUUACCUCUGGUAUUCGAGCCAAUAAGUUCGG
+D.yakuba.1                    CCCAUGUCGGAUUUUGUUACCUCUGGUAUUCGAGCCAAUAAGUUCGG
+#=GC SS_cons                  <<......>>>.>>>....>>>>.>>>>>>>>>>>>>>>>>>>>>>.
+#=GC RF                       ccaauguaggguuuuguuaCcccugguauuCgagCCaauaaguuCgg
+//

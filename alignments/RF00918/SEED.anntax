@@ -1,0 +1,48 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-872
+#=GF AC    RF00918
+#=GF DE    microRNA mir-872
+#=GF AU    Wilkinson A
+#=GF GA    46.0
+#=GF NC    45.6
+#=GF TC    46.5
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000399
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    7
+
+#=GS O.princeps.1           AC    AAYZ01052122.1/818-897
+#=GS M.musculus.1           AC    AL772277.13/13725-13805
+#=GS Spermophilus_tridece.1 AC    AAQQ01543934.1/2534-2614
+#=GS M.murinus.1            AC    ABDC01451942.1/2331-2411
+#=GS C.lupus.1              AC    AAEX02016356.1/28143-28220
+#=GS E.caballus.1           AC    AAWR02015956.1/93482-93561
+#=GS Monodelphis_domestic.1 AC    AAFR03055299.1/38205-38289
+
+O.princeps.1                       UACUUGUUAGAA.GGUUACUUGUUAGUUCAGGACCUUGUUAUU.CUUGUC
+M.musculus.1                       AACUUGUUAGAA.GGUUACUUGUUAGUUCAGGACCUCAUUACUUUCUGCC
+Spermophilus_tridece.1             UACUUGUUAGAA.GGUUACUUGUUAGUUCAGGACCUCAUUAUUUCCUGCC
+M.murinus.1                        UACUUGUUAGAA.GGUUACUUGUUAGUUCAGGACCUCAUUAUUUUUUGCC
+C.lupus.1                          GUUUUGUUAGAA.GGUUAUGUGUUAGCUCAAGGCUUCAUUAUUUCCUGCC
+E.caballus.1                       UACUUGUUAGAA.GGUUACUUGUUAGUUCAGGACCUCGUUAUUUCUUGCC
+Monodelphis_domestic.1             UUUCUGUUCACAGUGCUACCACUUAGUUCAGGUCCUCAUUUUCUCUUGCC
+#=GC SS_cons                       .<<<.<<<<<.<.<<<<<<<...<<<<<<<<<................>>
+#=GC RF                            UACUUGUUAGAAgGGUUACUUGUUAGUUCAGGACCUCRUUAUUUCYUGCC
+
+O.princeps.1                       UGAACUAUUGUAGUAGCCUCCU...AACUGGUCUC
+M.musculus.1                       UGAACUAUUGCAGUAGCCUCCU...AACUGGUUAU
+Spermophilus_tridece.1             UGAACUAUUGUAGUAGCCUCCU...AACUGGUCAC
+M.murinus.1                        UGAACUAUAGCAGUAGCCUCUU...AACUGGUGUC
+C.lupus.1                          UGACCUAUUGAAGUAGCCUUCU...AAC.GGUU..
+E.caballus.1                       UGAACU.UUGCAGUAGCCUCCU...AACUGGUCUC
+Monodelphis_domestic.1             UGGACUAUUGAAGUAGCCUUCACUGAACUGGUCUC
+#=GC SS_cons                       >>>>>>>....>>>>>>>>.>>...>>>.>>>...
+#=GC RF                            UGAACUAUUGMAGUAGCCUCCUcugAACUGGUCWC
+//

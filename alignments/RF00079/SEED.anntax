@@ -1,0 +1,124 @@
+# STOCKHOLM 1.0
+#=GF ID    SraE_OmrA_OmrB
+#=GF AC    RF00079
+#=GF DE    SraE_OmrA_OmrB family RNA
+#=GF AU    Bateman A
+#=GF GA    32.0
+#=GF NC    0.0
+#=GF TC    32.8
+#=GF PI    SraE_RygA_RygB; SraE
+#=GF SE    Bateman A
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; sRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0000655 SO:ncRNA
+#=GF RN    [1]
+#=GF RM    11448770
+#=GF RT    Novel small RNA-encoding genes in the intergenic regions of
+#=GF RT    Escherichia coli.
+#=GF RA    Argaman L, Hershberg R, Vogel J, Bejerano G, Wagner EG, Margalit H,
+#=GF RA    Altuvia S;
+#=GF RL    Curr Biol 2001;11:941-950.
+#=GF RN    [2]
+#=GF RM    11445539
+#=GF RT    Identification of novel small RNAs using comparative genomics and
+#=GF RT    microarrays.
+#=GF RA    Wassarman KM, Repoila F, Rosenow C, Storz G, Gottesman S;
+#=GF RL    Genes Dev 2001;15:1637-1651.
+#=GF RN    [3]
+#=GF RM    16359331
+#=GF RT    Remodelling of the Escherichia coli outer membrane by two small
+#=GF RT    regulatory RNAs.
+#=GF RA    Guillier M, Gottesman S;
+#=GF RL    Mol Microbiol. 2006;59:231-247.
+#=GF CC    This RNA family was discovered in E. coli during two large scale
+#=GF CC    screens [1-2]. OmrA was previously known as SreA (or RygA) and
+#=GF CC    OmrB was previously named RygB [3]. OmrA and OmrB share regions
+#=GF CC    of high sequence similarity at their 5' and 3' ends but distinct
+#=GF CC    central regions. They are tandemly located in the intergenic
+#=GF CC    region between the aas and galR genes in the E. coli
+#=GF CC    genome. Transcription of these sRNAs is regulated by the
+#=GF CC    two-component system EnvZ-OmpR. Both OmrA and OmrB have been
+#=GF CC    shown to co-immunoprecipitated with the RNA chaperone Hfq and are
+#=GF CC    proposed to function by base pairing with their target mRNA
+#=GF CC    [2]. These sRNA are proposed to play an important role in
+#=GF CC    modelling the composition of the cell outer membrane in response
+#=GF CC    to environmental conditions [3].
+#=GF WK    http://en.wikipedia.org/wiki/SraE/RygA/RygB_family_RNA
+#=GF SQ    16
+
+#=GS Enterobacter.1         AC    CP000653.1/3580656-3580737
+#=GS Enterobacter.2         AC    CP000653.1/3580454-3580539
+#=GS Escherichia_coli_IAI.1 AC    CU928160.2/3027607-3027688
+#=GS E.coli.1               AC    U29581.1/57657-57744
+#=GS Klebsiella_pneumonia.1 AC    CP000647.1/3563070-3563157
+#=GS Klebsiella_pneumonia.2 AC    CP000647.1/3563275-3563356
+#=GS Pectobacterium_atros.1 AC    BX950851.1/4090514-4090604
+#=GS Salmonella_enterica_.1 AC    CP001127.1/3074600-3074684
+#=GS Salmonella_enterica_.2 AC    CP000857.1/3109386-3109472
+#=GS Serratia_proteamacul.1 AC    CP000826.1/4240235-4240323
+#=GS Serratia_proteamacul.2 AC    CP000826.1/4239958-4240050
+#=GS S.glossinidius.1       AC    AP008232.1/3424460-3424551
+#=GS Yersinia_bercovieri_.1 AC    AALC01000010.1/30109-30204
+#=GS Yersinia_frederiksen.1 AC    AALE01000008.1/174640-174735
+#=GS Yersinia_pestis_biov.1 AC    AAYT01000006.1/84555-84649
+#=GS marine_metag.1         AC    AACY022553564.1/729-811
+
+Enterobacter.1                     CCCAGAGGUAUUGAUAGGUG..AA.....AUCAGC.UCCGG...UUGAUU
+Enterobacter.2                     CCCAGAGGUAUUGAUUGGUG..AG.....AAUUCUAAGUAC...GG.AAU
+Escherichia_coli_IAI.1             CCCAGAGGUAUUGAUAGGUG..AA.....GUCAAC.UUCGG...GUUGAG
+E.coli.1                           CCCAGAGGUAUUGAUUGGUG..AG.....AUUAUUCGGUAC...GCUCUU
+Klebsiella_pneumonia.1             CCCAGAGGUAUUGAUAGGUG..AG.....UUUCUCAGGUAC...GCUCUU
+Klebsiella_pneumonia.2             CCCAGAGGUAUUGAUAGGUG..GA.....GUCAAC.GUCAC...GUUGAC
+Pectobacterium_atros.1             CCCAGAGGUAUUGAUUGGUG..AU.....ACAUCGAUGUACUCUGUACAU
+Salmonella_enterica_.1             CCCAGAGGUAUUGAUAGGUG..GA.....AUCAAC.GUCAUU..GUUGAU
+Salmonella_enterica_.2             CCCAGAGGUAUUGAUUGGUG..AG.....AUUAUUCGGUAC...GCUCUU
+Serratia_proteamacul.1             CCCAGAGGUAUUGAUUGGUG..AA.....UCUCAGCAACUU...GUUGUU
+Serratia_proteamacul.2             CCCAGAGGUAUUGAUUGGUG..AG.....AAAUCAGCAUACUCUGUAUGU
+S.glossinidius.1                   CCCAGAGGUAUUGAUUGGUG..AG.....AAAUCAACAUACUCUGUAUGU
+Yersinia_bercovieri_.1             CCCAGAGGUAUUAAUUGGUG..AGUAAUCAACAUACGCUGU...GUGUUA
+Yersinia_frederiksen.1             CCCAGAGGUAUUAAUUGGUGAGUA.....AUCAACAUACGCU..GUGUGU
+Yersinia_pestis_biov.1             CCCAGAGGUAUUAAUUGGUGAAUA.....AUCAACAUUCGCU..GUGUAU
+marine_metag.1                     CCCAGAGGUAUUGAUAGGUG..AA.....AUCAACUUUCGG...GUUGAU
+#=GC SS_cons                       .<<...>>........<<<<..............................
+#=GC RF                            CCCAGAGGUAUUGAUaGGuG..aa.....AUuAaucGuuAu...GuUgaU
+
+Enterobacter.1                     AACA........CGAUUUG....CACCAACCUGCGUCCA..UACGCAGGU
+Enterobacter.2                     CGUACU....CAUCUCUUG....CACCAGCCUGCGCAGA..UGCGCAGGU
+Escherichia_coli_IAI.1             CACA........UGAAUUA....CACCAGCCUGCGCAGA..UGCGCAGGU
+E.coli.1                           CGUACCC...UGUCUCUUG....CACCAACCUGCGCGGA..UGCGCAGGU
+Klebsiella_pneumonia.1             CGUACUG...AACGUCUUA....CACCGACCUGCGCGGA..UGCGCAGGU
+Klebsiella_pneumonia.2             CACU........UUACUUA....CACCAGCCUGCGCAGA..UGCGCAGGU
+Pectobacterium_atros.1             UGAAAUC...AUUUGAUUA....CACCAACCUACGCGGA..UGCGUAGGU
+Salmonella_enterica_.1             CACA........CGAAUUA....CACCAACCUGCGUAGAGAUGCGCAGGU
+Salmonella_enterica_.2             CGUACC....UGUCUCUUG....CACCAACCUGCGCGGA..UGCGCAGGU
+Serratia_proteamacul.1             GAACCCAU..AUUAAUUUG....CACCAACCUACGCAGA..UGCGUAGGU
+Serratia_proteamacul.2             UGAAGCCAU.UUUCAAUUG....CACCAACCUACGCGGA..UGCGUAGGU
+S.glossinidius.1                   UGAAACCA..UUUCAGUUG....CACCAACCUACGCGGA..CGCGUAGGU
+Yersinia_bercovieri_.1             AAAACCAGUUUUUGAUUUG....CACCGACCUACGCAGA..UGCGUAGGU
+Yersinia_frederiksen.1             UAAAAGCC..AGUUUUUUAUUUGCACCGACCUACGCAGA..UGCGUAGGU
+Yersinia_pestis_biov.1             CAAAGAU...CGUUUUUUAUUUGCACCGACCUACGCAGA..UGCGUAGGU
+marine_metag.1                     CACU........AGAAUUA....CACCAGCCUGCGCAGA..UGCGCAGGU
+#=GC SS_cons                       .......................>>>><<<<<<<<<......>>>>>>>>
+#=GC RF                            CauAcc....ugugaaUUa....CaCCaaCCuGCGcaGA..UgCGCaGGu
+
+Enterobacter.1                     UUUUUUU
+Enterobacter.2                     UUUUUUU
+Escherichia_coli_IAI.1             UUUUUUU
+E.coli.1                           UUUUUUU
+Klebsiella_pneumonia.1             UUUUUUU
+Klebsiella_pneumonia.2             UUUUUUU
+Pectobacterium_atros.1             UUUUUUU
+Salmonella_enterica_.1             UUUUUUU
+Salmonella_enterica_.2             UUUUUUU
+Serratia_proteamacul.1             UUUUUUU
+Serratia_proteamacul.2             UUUUUUU
+S.glossinidius.1                   UUUUUUU
+Yersinia_bercovieri_.1             UUUUUUU
+Yersinia_frederiksen.1             UUUUUUU
+Yersinia_pestis_biov.1             UUUUUUU
+marine_metag.1                     UUUUUUU
+#=GC SS_cons                       >......
+#=GC RF                            uUUUUUU
+//

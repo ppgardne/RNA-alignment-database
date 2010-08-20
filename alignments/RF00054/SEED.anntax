@@ -1,0 +1,69 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORD25
+#=GF AC    RF00054
+#=GF DE    Small nucleolar RNA SNORD25
+#=GF AU    Griffiths-Jones SR
+#=GF GA    21.0
+#=GF NC    0.0
+#=GF TC    23.1
+#=GF PI    U25
+#=GF SE    Griffiths-Jones SR
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Mus_musculus300709
+#=GF DR    snoopy; Homo_sapiens300169
+#=GF RN    [1]
+#=GF RM    11266566
+#=GF RT    Identification of 10 novel snoRNA gene clusters from Arabidopsis
+#=GF RT    thaliana.
+#=GF RA    Qu LH, Meng Q, Zhou H, Chen YQ, Liang-Hu Q, Qing M, Hui Z, Yue-Qin C;
+#=GF RL    Nucleic Acids Res 2001;29:1623-1630.
+#=GF RN    [2]
+#=GF RM    8559254
+#=GF RT    A mammalian gene with introns instead of exons generating stable RNA
+#=GF RT    products.
+#=GF RA    Tycowski KT, Shu MD, Steitz JA;
+#=GF RL    Nature 1996;379:464-466.
+#=GF CC    U25 is a member of the C/D class of snoRNA which contain the
+#=GF CC    C (UGAUGA) and D (CUGA) box motifs.  U25 is found in gene clusters
+#=GF CC    in plants [1], and within the U22 snoRNA host gene (UHG) in mammals
+#=GF CC    [2].  U25 is thought to as a 2'-O-ribose methylation guide for
+#=GF CC    ribosomal RNA.  This RNA has also been named snoRNA R73 in some 
+#=GF CC    plants.
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_SNORD25
+#=GF SQ    8
+
+#=GS M.musculus.1 AC    U40654.1/666-735
+#=GS H.sapiens.1  AC    U40580.1/750-817
+#=GS H.sapiens.2  AC    L36587.1/100-167
+#=GS O.sativa.1   AC    AL662969.3/86448-86535
+#=GS O.sativa.2   AC    AL662969.3/87797-87884
+#=GS O.sativa.3   AC    AL662969.3/87631-87717
+#=GS O.sativa.4   AC    AL662969.3/86874-86961
+#=GS A.thaliana.1 AC    AJ276573.1/1-85
+
+M.musculus.1             ..CCCCUAUGAUGAGGACC.UUUUCACAGACCUGUA........CUGAUA
+H.sapiens.1              ..UUCCUAUGAUGAGGACC.UUUUCACAGACCUGUA........CUGAGC
+H.sapiens.2              ..UUCCUAUGAUGAGGACC.UUUUCACAGACCUGUA........CUGAGC
+O.sativa.1               UGUGGCAGUGAUGAGC.CC..UAACAGACCUGUAAUGAUUCUUGUGUAUA
+O.sativa.2               GGCAACAGUGAUGAGU.CC..UUACAGACCUGUAAUGAUUCUUGCGGGAA
+O.sativa.3               UUUGACGGUGAUUAGC.CC..UAACAGACCUGUAAUGAUUCUUGCGGAUA
+O.sativa.4               CAUGGCGGUCUUGAGC.CC..UAACAGACCUGAAAUAAUUAUUGCGGAUA
+A.thaliana.1             AAGAACAGUGAUGAGU.CAGUUUACAGACCUGUAAUGA...UUGCGGUAA
+#=GC SS_cons             .<<<<<............................................
+
+M.musculus.1             UAU..........CUGUGAGGAUAAGUAACUCUGAGGAGGC
+H.sapiens.1              U............CCGUGAGGAUAAAUAACUCUGAGGAGAU
+H.sapiens.2              U............CCGUGAGGAUAAGUAACUCUGAGGAGAU
+O.sativa.1               UGAUCGCUUGAUUCAAAGAACAUCUAAGGGACUGAGUUGUC
+O.sativa.2               UGAUCGCUUGAUUCAAAGAACAUCUAAGGGACUGAGUUAUC
+O.sativa.3               CGAUCGCUUGAU.CAAAGAACAUCUAAGGGACUGAGUAAUA
+O.sativa.4               UGAUUGCUUAAUUCAGAGCACAUCUAAGGGACUGAGUUGCC
+A.thaliana.1             UGAUCGCAUUA..UUAUGAACAUCUAAGGGACUGAGUUCUU
+#=GC SS_cons             ...................................>>>>>.
+//

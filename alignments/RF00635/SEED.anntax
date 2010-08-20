@@ -1,0 +1,107 @@
+# STOCKHOLM 1.0
+#=GF ID    HAR1F
+#=GF AC    RF00635
+#=GF DE    Human accelerated region 1F
+#=GF AU    Gardner PP
+#=GF GA    25.0
+#=GF NC    24.7
+#=GF TC    25.1
+#=GF SE    MultiZ
+#=GF SS    Predicted; Evofold
+#=GF TP    Gene;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    URL; http://en.wikipedia.org/wiki/HAR1F
+#=GF DR    URL; http://genome.ucsc.edu/cgi-bin/hgTracks?org=human&db=hg17&hgt.out3=1.5x&position=chr20%3A61203966-61204071
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF RN    [1]
+#=GF RM    16915236
+#=GF RT    An RNA gene expressed during cortical development evolved rapidly in humans.
+#=GF RA    Pollard KS, Salama SR, Lambert N, Lambot MA, Coppens S, Pedersen JS, Katzman S, King B, Onodera C, Siepel A, Kern AD, Dehay C, Igel H, Ares M, Vanderhaeghen P, Haussler D
+#=GF RL    Nature. 2006 Sep; 443:(7108)167-72
+#=GF RN    [2]
+#=GF RM    17040131
+#=GF RT    Forces shaping the fastest evolving regions in the human genome.
+#=GF RA    Pollard KS, Salama SR, King B, Kern AD, Dreszer T, Katzman S, Siepel A, Pedersen JS, Bejerano G, Baertsch R, Rosenbloom KR, Kent J, Haussler D
+#=GF RL    PLoS Genet. 2006 Oct; 2:(10)e168
+#=GF WK    http://en.wikipedia.org/wiki/HAR1F
+#=GF SQ    17
+
+#=GS G.gallus.1             AC    AADN02019221.1/506-637
+#=GS C.porcellus.1          AC    AAKN02052574.1/55127-55258
+#=GS M.musculus.1           AC    CAAA01140157.1/4478-4609
+#=GS R.norvegicus.1         AC    AAHX01027091.1/43403-43534
+#=GS M.mulatta.1            AC    AANU01093131.1/408-539
+#=GS H.sapiens.1            AC    AL096828.29/11685-11816
+#=GS P.troglodytes.1        AC    AACZ02192939.1/1042-1173
+#=GS Otolemur_garnettii_s.1 AC    AAQR01441857.1/431-562
+#=GS C.lupus.1              AC    AAEX02023864.1/63922-64053
+#=GS F.catus.1              AC    AANG01585582.1/8343-8474
+#=GS B.taurus.1             AC    AAFC03066796.1/8394-8525
+#=GS M.lucifugus.1          AC    AAPE01317417.1/1099-1229
+#=GS E.europaeus.1          AC    AANN01462194.1/1200-1330
+#=GS S.araneus.1            AC    AALT01222540.1/822-953
+#=GS E.caballus.1           AC    AAWR02039032.1/12169-12300
+#=GS Monodelphis_domestic.1 AC    AAFR03005409.1/67843-67974
+#=GS O.anatinus.1           AC    AC152889.1/75324-75455
+
+G.gallus.1                         UAGAAAGAACAUGAAAUGGAGGAGAAAUUACAGCAAUUUAUCAACUGAAA
+C.porcellus.1                      UCCAAAGAACAUGAAAUGGAGGAGAAAUUACAGCAAUUUAUCAACUGAAA
+M.musculus.1                       UCGAAAGAACAUAAAAUGGAGGAGAAAUUACAGCAAUUUAUCAGCUGAAA
+R.norvegicus.1                     UCGAAAGAACAUAAAAUGGAGGAGAAAUUACAGCAAUUUAUCAGCUGAAA
+M.mulatta.1                        UCGAAAGAACAUGAAAUGGAGGAGAAAUUACAGCAAUUUAUCAGCUGAAA
+H.sapiens.1                        UCGAAAGAGCAUGAAACGGAGGAGACGUUACAGCAACGUGUCAGCUGAAA
+P.troglodytes.1                    UCGAAAGAACAUGAAAUGGAGGAGAAAUUACAGCAAUUUAUCAACUGAAA
+Otolemur_garnettii_s.1             UCAAAAGAACAUGAAAUGGAGGAGAAAUUACAGCAAUUUAUCAACUGAAA
+C.lupus.1                          UCGAAAGAACAUGAAAUGGAGGAGAAAUUACAGCAAUUUAUCAACUGAAA
+F.catus.1                          UCGAAAGAACAUGAAAUGGAGGAGAAAUUACAGCAAUUUAUCAGCUGAAA
+B.taurus.1                         UCCAAAGAACACGAAAUGGAGGAGAAAUUACAGCAAUUCAUCAGCUGAAA
+M.lucifugus.1                      UCAAAAGAACACGAAAUGGAGGAGAAAUUACAGCAAUUUAUCAACUGAAA
+E.europaeus.1                      UCGAAAUAACAUGAAAUGGAGGAGAAAUUACAGCAAUUUAUCAACCGAAA
+S.araneus.1                        UCCAGAGAACAUGAAAUGGAGGAGAAAUUACAGCAAUUUAUCAGCUGAAA
+E.caballus.1                       UCGCAAGAACAUGAAAUGGAGGAGAAAUUACAGCAAUUUAUCAACAGAAA
+Monodelphis_domestic.1             UAGAAAGAACAUGAAAUGGAGGAGAAAUUACAGCAAUUUAUCAACUGAAA
+O.anatinus.1                       UAGAAAGAACAUGAAAUGGAGGAUAAAUUACAGCAAUUUAUCAAAUGAAA
+#=GC SS_cons                       ...........<<<<<<.<<<<<<<<<<<.....>>>>>.....>><<<<
+#=GC RF                            UcaAAAGAAcAuGaaacGGaGGagaaauuAcAGcaauuuAUcAacuGaaa
+
+G.gallus.1                         UUAUAGGUGUAGACACAUGUCAGCAGUAGAAACAGUUUCUAUCAAAAUUA
+C.porcellus.1                      UUAUAGGUGUAGACACAUGUCAGCAGUGGAAACAGUUCCUAUCAAAAUUA
+M.musculus.1                       UUAUAGGUGUAGACACAUGUCAGCCGUGGAAAUGGUUUCUAUCAAAAUUA
+R.norvegicus.1                     UUAUAGGUGUAGACACAUGUCAGCAGUGGAAAUGGUUUCUAUCAAAAUUA
+M.mulatta.1                        UUAUAGGUGUAGACACAUGUCAGCAGUGGAAAUAGUUUCUAUCAAAAUUA
+H.sapiens.1                        UGAUGGGCGUAGACGCACGUCAGCGGCGGAAAUGGUUUCUAUCAAAAUGA
+P.troglodytes.1                    UUAUAGGUGUAGACACAUGUCAGCAGUGGAAAUAGUUUCUAUCAAAAUUA
+Otolemur_garnettii_s.1             UUAUAGGUAUAGACACAUGUCAGCAGUGGAAACAGUUUCCAUCAAAAUUA
+C.lupus.1                          UUAUAGGUGUAGACACAUGUCAGCGGUGCAAACAGUUUCUAUCAAAAUUA
+F.catus.1                          UUAUAGGUGUAGACACAUGUCAGCAGUGGAAACAGUUUCUAUCAAAAUUA
+B.taurus.1                         UUAUAGGUGUAGACACAUGUCAGCAGUGGAAACCGUUUCUAUCAAAAUUA
+M.lucifugus.1                      UUAUAGGUGUAGACACAUGUCAUCCGUGGAAACAGUUACGAUCAAAAUUA
+E.europaeus.1                      UUAUAGGUGUAGACACAUGUCAGC.GUGGAAACAGUUUCUAUCAAAAUGA
+S.araneus.1                        UUAUAGGUGUAGACACAUGUCAGCGUGGGAAACAGUUUCUAUCAAAAUUA
+E.caballus.1                       UUAUAGGUGUAGACACACGUCAGCAGUGGAAACAGUUUCUAUCAAAGUUA
+Monodelphis_domestic.1             UUAUAGGUGUAGACACAUGUCAGCAGUGGAAACAGUUUCUAUCAAAAUUA
+O.anatinus.1                       UUAUAGGUGUAGACACAUGUCAGCAAUGGAAACAAUUUCUAUCAAAAUUA
+#=GC SS_cons                       <.<<<.<<<....>>>.>>>..............>>>>>....<<<<<..
+#=GC RF                            cuaugGGcGUAGACgCAcgucAgcaguGGAAAuAguuuCuAUcaaaauuA
+
+G.gallus.1                         AAGUAUUUAGAGAUUUUCCUCAAAUUUCAAAU
+C.porcellus.1                      AAGUGUUUGGAGAUUUUUCUCAAAUUUCAAAU
+M.musculus.1                       AAGUAUUUAGAGAUUUUCCUCAAAUUUCAAAU
+R.norvegicus.1                     AAGUAUUUAGAGAUUUUCCUCAAAUUUCAAAU
+M.mulatta.1                        AAGUAUUUAGAGAUUUUCCUCAAAUUUCAAAU
+H.sapiens.1                        AAGUGUUUAGAGAUUUUCCUCAAGUUUCAAAU
+P.troglodytes.1                    AAGUAUUUAGAGAUUUUCCUCAAAUUUCAAAU
+Otolemur_garnettii_s.1             AAGUAUUUAGAGAUUUUCUUCACAUUUCAAAU
+C.lupus.1                          AAGUAUUUAGAGAUUUUCCUCAAAUUUCAAAU
+F.catus.1                          AAGUAUUUAGAGAUUUUCCUCAAAUUUCAAAU
+B.taurus.1                         AAGUAUUUAGAGAUUUUCCUUAAAUUUCAAAU
+M.lucifugus.1                      AAGUGUUUAGAGAUUUUCCUC.AAUUUUAAAU
+E.europaeus.1                      AAGUAUUUAGAGAUUUUCCUCAAAUUUCAAAU
+S.araneus.1                        AAGUAUUUAGAGAUUUUCCUCAAAUUUCAAAU
+E.caballus.1                       AAGUAUUUAGAGAUUUUCCUCACAUUUCAAAU
+Monodelphis_domestic.1             AAGUAUUUAGAGAUUUUCCUCAAAUUUCAAAU
+O.anatinus.1                       AAGUAUUUAGAGAUUUUCCUCAAAUUUCAAAU
+#=GC SS_cons                       ............>>>>>>>>>..>>>>>>...
+#=GC RF                            AAGUaUUUAGAGauuuuCCuCAAguuuCaAAU
+//

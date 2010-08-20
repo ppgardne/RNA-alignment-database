@@ -1,0 +1,45 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-326
+#=GF AC    RF00719
+#=GF DE    microRNA mir-326
+#=GF AU    Wilkinson A
+#=GF GA    30.0
+#=GF NC    0.0
+#=GF TC    36.8
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000143
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    6
+
+#=GS O.princeps.1           AC    AAYZ01294195.1/2684-2778
+#=GS C.porcellus.1          AC    AAKN02051174.1/76507-76600
+#=GS M.musculus.1           AC    CAAA01006270.1/25567-25661
+#=GS Otolemur_garnettii_s.1 AC    AAQR01554194.1/1391-1485
+#=GS C.lupus.1              AC    AACN010575653.1/202-296
+#=GS E.caballus.1           AC    AAWR02018146.1/14357-14451
+
+O.princeps.1                       GCCACCCGUCUGUUGGGCUGGGGGCAGGGCCUUUGUGAAGGCGGGUUGUG
+C.porcellus.1                      CUCCUCUGUCUGCUGGGCUGGGGGCAGGGCCUUUGUGAAGGCGGGU.GUG
+M.musculus.1                       CUCAUCUGUCUGUUGGGCUGGGGGCAGGGCCUUUGUGAAGGCGGGUUAUG
+Otolemur_garnettii_s.1             CUCAUCUGUCUGUUGGGCUGGAGGCAGGGCCUUUGUGAAGGCGGGUUGUG
+C.lupus.1                          CUCCUCUGUCUGUUGGGCUGGAGGCAGGGCCUUUGUGAAGGCGGGUGGUG
+E.caballus.1                       CUCGUCUGUCUGUUGGGCUGGAGGCAGGGCCUUUGUGAAGGCGAGUUGUG
+#=GC SS_cons                       ...<<<<<<<<.<<<<<<<<<<<<<<<<<<<<....<.<<<<<<......
+#=GC RF                            aucacccgccugcggggcugggggcagggcccuugugAaggcggguuaug
+
+O.princeps.1                       CUCGGAUCGCCUCUGGGCCCUUCCUCCAGCCCCGAGAUGGAUUCA
+C.porcellus.1                      CAAAGAUCGCCUCUGGGCCCUUCCUCCAGCCCCGAGGCGGAUUCA
+M.musculus.1                       CUCAGAUCGCCUCUGGGCCCUUCCUCCAGUCCCGAGGCAGAUUUA
+Otolemur_garnettii_s.1             CUCAGAUCGCCUCUGGGCCCUUCCUCCAGCCCCGAGGCGGAUUCA
+C.lupus.1                          AUCGGAUCGCCUCUGGGCCCUUCCUCCAGCCCAGAGGCGGAUUCA
+E.caballus.1                       CUGGGAUCGCCUCUGGGCCCUUCCUCCAGCCCAGAGGCGGAUUCA
+#=GC SS_cons                       ......>>>>>>>.>>>>>>>>>>>>>>>>>>>>>>>>>>>>...
+#=GC RF                            aucagAccgccucugggcccugcccccagccccgaggcggguuaA
+//

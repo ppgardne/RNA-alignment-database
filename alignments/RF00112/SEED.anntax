@@ -1,0 +1,103 @@
+# STOCKHOLM 1.0
+#=GF ID    CyaR_RyeE
+#=GF AC    RF00112
+#=GF DE    CyaR/Rye RNA
+#=GF AU    Bateman A, Daub J
+#=GF GA    30.0
+#=GF NC    0.0
+#=GF TC    39.4
+#=GF PI    RyeE
+#=GF SE    Gottesman S, Storz G, INFERNAL
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; sRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000655 SO:ncRNA
+#=GF RN    [1]
+#=GF RM    11445539
+#=GF RT    Identification of novel small RNAs using comparative genomics and
+#=GF RT    microarrays.
+#=GF RA    Wassarman KM, Repoila F, Rosenow C, Storz G, Gottesman S;
+#=GF RL    Genes Dev 2001;15:1637-1651.
+#=GF RN    [2]
+#=GF RM    18399940
+#=GF RT    Systematic deletion of Salmonella small RNA genes identifies CyaR, a
+#=GF RT    conserved CRP-dependent riboregulator of OmpX synthesis.
+#=GF RA    Papenfort K, Pfeiffer V, Lucchini S, Sonawane A, Hinton JC, Vogel J;
+#=GF RL    Mol Microbiol. 2008;68:890-906.
+#=GF CC    This sRNA was originally identified in a large scale screen of
+#=GF CC    E. coli. It was shown to bind Hfq and called RyeE [1]. This sRNA
+#=GF CC    has since been characterised as a post-transcriptional regulator
+#=GF CC    of the 18 kDa OmpX porin in Salmonella [2]. Phylogenetic and
+#=GF CC    mutational analyses suggest that a conserved RNA hairpin of this
+#=GF CC    sRNA which features a C-rich apical loop, acts to sequester the
+#=GF CC    Shine-Dalgarno sequence of ompX mRNA and inhibits translational
+#=GF CC    initiation [2]. The expression of this sRNA has been shown to be
+#=GF CC    tightly controlled by the cyclic AMP receptor protein, CRP and
+#=GF CC    has been renamed CyaR (cyclic AMP-activated RNA)[2]. CyaR appears to
+#=GF CC    be highly conserved amongst enterobacteria and the cyaR gene is
+#=GF CC    frequently located downstream of the yegQ gene.
+#=GF WK    http://en.wikipedia.org/wiki/RyeE_RNA
+#=GF SQ    18
+
+#=GS Enterobacter.1         AC    CP000653.1/2911593-2911677
+#=GS Escherichia_coli_APE.1 AC    CP000468.1/2259167-2259252
+#=GS Klebsiella_pneumonia.1 AC    CP000647.1/2775701-2775785
+#=GS Pectobacterium_atros.1 AC    BX950851.1/3574694-3574778
+#=GS Photorhabdus_lumines.1 AC    BX571868.1/175508-175592
+#=GS S.enterica.1           AC    DQ077535.1/279-363
+#=GS Salmonella_enterica_.1 AC    CP001127.1/2252673-2252757
+#=GS Salmonella_enterica_.2 AC    CP001120.1/2278718-2278802
+#=GS Serratia_proteamacul.1 AC    CP000826.1/3938239-3938328
+#=GS Shigella_dysenteriae.1 AC    CP000034.1/2056399-2056484
+#=GS Shigella_boydii_CDC_.1 AC    CP001063.1/1042520-1042605
+#=GS Shigella_flexneri_2a.1 AC    AE005674.1/2173894-2173979
+#=GS Shigella_flexneri_5_.1 AC    CP000266.1/2176798-2176883
+#=GS Yersinia_pestis_biov.1 AC    AAYT01000003.1/317658-317745
+#=GS Yersinia_enterocolit.1 AC    AM286415.1/1229572-1229660
+#=GS Yersinia_frederiksen.1 AC    AALE01000007.1/98356-98444
+#=GS Yersinia_bercovieri_.1 AC    AALC01000009.1/8834-8922
+#=GS marine_metag.1         AC    AACY021413777.1/414-498
+
+Enterobacter.1                     CCGCUGAAAAACAUAACCCAUA.AAUGC.....U....AGCUGUACCAGG
+Escherichia_coli_APE.1             UCGCUGAAAAACAUAACCCAUAAAAUGC.....U....AGCUGUACCAGG
+Klebsiella_pneumonia.1             UCGCUGAAAAACAUAACCCAUA.AAUGC.....U....AGUUGUACCAGG
+Pectobacterium_atros.1             AAAACAUAGAACAAAAAAUAAG.CGUAG.....U....GAUACUACUAGG
+Photorhabdus_lumines.1             GAAAAAUAAAAAAUUAAAAAAG.UUUUA.....C....AGUAAGACUAGG
+S.enterica.1                       GCGCUGAAAAACAUAACCCAUA.AAUGC.....U....AGCUGUACCAAG
+Salmonella_enterica_.1             GCGCUGAAAAACAUAACCCAUA.AAUGC.....U....AGCUGUACCAGG
+Salmonella_enterica_.2             GCGCUGAAAAACAUAACCCAUA.AAUGC.....U....AGCUGUACCAGG
+Serratia_proteamacul.1             CUGCUUAAAACUAAGAACGAAA.AAUAUUUGCAU....AGCAAUACUAGG
+Shigella_dysenteriae.1             UCGCUGAAAAACAUAACCCAUAAAAUGC.....U....AGCUGUACUAGG
+Shigella_boydii_CDC_.1             UCGCUGAAAAACAUAACCCAUAAAAUGC.....U....AGCUGUACCAGG
+Shigella_flexneri_2a.1             UCGCUGAAAAACAUAAUCCAUAAAAUGC.....U....AGCUGUACCAGG
+Shigella_flexneri_5_.1             UCGCUGAAAAACAUAAUCCAUAAAAUGC.....U....AGCUGUACCAGG
+Yersinia_pestis_biov.1             CCGAGUACAAUCAAUAACUAAA.AAAGU.....GUUA.AGUAAUACUAGG
+Yersinia_enterocolit.1             UCGAGUACAAUCAAGAACUAAA.AAAGU.....UUUAAAGCAAGACUAGG
+Yersinia_frederiksen.1             UCGAGUACAAUCAAGAACUAAA.AAAGU.....UUUAAAGCAAGACUAGG
+Yersinia_bercovieri_.1             UCGAGUACAAUCAAGAACUAAA.AAAGU.....UUUAAAACAAGACUAGG
+marine_metag.1                     UCGCUGAAAAACAUAACCCAUA.AAUGC.....U....AGCUGUACCAGG
+#=GC SS_cons                       ...............................................<<<
+#=GC RF                            aagauaAAAAacAaaAAcuAAA.AAuau.....u....AGuAauACuAGG
+
+Enterobacter.1                     AACCACCUCCUUAGCCUGCGUAAUCUCCCUUACGCAGGCUUAUUU
+Escherichia_coli_APE.1             AACCACCUCCUUAGCCUGUGUAAUCUCCCUUACGCAGGCUUAUUU
+Klebsiella_pneumonia.1             AACCACCUCCUUAGCCUGCGUAAUCUCCCUUACGCGGGCUUAUUU
+Pectobacterium_atros.1             AACCACCUCCUUGGCCAGCUCAAUCUCCCUUGAGCUGGCUUUUCU
+Photorhabdus_lumines.1             AACCACCUCCUUGGCCGGCUCAAUCUCCCUUGAGCUGGCCUUUUC
+S.enterica.1                       AACCACCUCCUUGGCCUGCGUAAUCUCCCUUACGCAGGCUUAUUU
+Salmonella_enterica_.1             AACCACCUCCUUGGCCUGCGUAAUCUCCCUUACGCAGGCUUAUUU
+Salmonella_enterica_.2             AACCACCUCCUUGGCCUGCGUAAUCUCCCUUACGCAGGCUUAUUU
+Serratia_proteamacul.1             AACCACCUCCUUAGCCGGUCCAAUCUCCCUUGGACUGGCUUUUUC
+Shigella_dysenteriae.1             AACCACCUCCUUAGCCUGUGUAAUCUCCCUUACACGGGCUUAUUU
+Shigella_boydii_CDC_.1             AACCACCUCCUUAGCCUGUGUAAUCUCCCUUACACGGGCUUAUUU
+Shigella_flexneri_2a.1             AACCACCUCCUUAGCCUGUGUAAUCUCCCUUACACGGGCUUAUUU
+Shigella_flexneri_5_.1             AACCACCUCCUUAGCCUGUGUAAUCUCCCUUACACGGGCUUAUUU
+Yersinia_pestis_biov.1             AACCACCUCCUUGGCUAGCCCAAUCUCCCUUGGGCUGGCCUUUUC
+Yersinia_enterocolit.1             AACCACCUCCUUGGCCAACCCAAUCUCCCUUGGGCUGGCCUUUUC
+Yersinia_frederiksen.1             AACCACCUCCUUGGCUAGCCCAAUCUCCCUUGGGCUGGCCUUUUC
+Yersinia_bercovieri_.1             AACCACCUCCUUGGCUAGCCCAAUCUCCCUUGGGCUGGCCUUUUC
+marine_metag.1                     AACCACCUCCUUAGCCUGCGUAAUCUCCCUUACGCGGGCUUAUUU
+#=GC SS_cons                       <......>>>>.<<<<<<<<<<<......>>>>>>>>>>>.....
+#=GC RF                            AACCACCUCCUUgGCCaGCcCAAUCUCCCUUGgGCuGGCcUuUUu
+//

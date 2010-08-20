@@ -1,0 +1,41 @@
+# STOCKHOLM 1.0
+#=GF ID    UPD-PKib
+#=GF AC    RF01080
+#=GF DE    Pseudoknot of upstream pseudoknot domain (UPD) of the 3'UTR
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    24.7
+#=GF SE    Pseudobase
+#=GF SS    Pseudobase
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    PKBASE; PKB00202
+#=GF DR    PKBASE; PKB00118
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    10603167
+#=GF RT    Molecular characterization of a new furovirus mainly infecting rye.
+#=GF RA    Koenig R, Pleij CW, Huth W;
+#=GF RL    Arch Virol. 1999;144:2125-2140.
+#=GF RN    [2]
+#=GF RM    9714254
+#=GF RT    Genome properties of beet virus Q, a new furo-like virus from
+#=GF RT    sugarbeet, determined from unpurified virus.
+#=GF RA    Koenig R, Pleij CW, Beier C, Commandeur U;
+#=GF RL    J Gen Virol. 1998;79:2027-2036.
+#=GF WK    http://en.wikipedia.org/wiki/UPSK_RNA
+#=GF SQ    4
+
+#=GS Chinese_wheat_mosaic.1 AC    AJ271839.1/3358-3389
+#=GS Soil-borne_wheat_mos.1 AC    AB033689.1/7019-7050
+#=GS French_barley_mosaic.1 AC    AJ749657.1/3098-3129
+#=GS Beet_soil-borne_viru.1 AC    U64512.1/3276-3307
+
+Chinese_wheat_mosaic.1             GGUGCUUGCUAUUUCACCUAAAUCGAAAUAGC
+Soil-borne_wheat_mos.1             GGUGCUUGUUAGUUCACCUAAAUCGAACUAAC
+French_barley_mosaic.1             GGUGCUUGUUAUUUCACCUAAAUCGAAAUAAC
+Beet_soil-borne_viru.1             GGUGCUUUUAUGUUCACCGAAAUCGAACAUAC
+#=GC SS_cons                       AAAA...<<<<<<<aaaa.......>>>>>>>
+//

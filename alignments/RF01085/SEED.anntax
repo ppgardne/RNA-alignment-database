@@ -1,0 +1,54 @@
+# STOCKHOLM 1.0
+#=GF ID    TLS-PK4
+#=GF AC    RF01085
+#=GF DE    Pseudoknot of tRNA-like structure
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    133.7
+#=GF SE    Pseudobase
+#=GF SS    Pseudobase
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    PKBASE; PKB00135
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    7214524
+#=GF RT    Near identity of 3- RNA secondary structure in bromoviruses and
+#=GF RT    cucumber mosaic virus.
+#=GF RA    Ahlquist P, Dasgupta R, Kaesberg P;
+#=GF RL    Cell. 1981;23:183-189.
+#=GF RN    [2]
+#=GF RM    6628363
+#=GF RT    Three-dimensional models of the tRNA-like 3' termini of some plant
+#=GF RT    viral RNAs.
+#=GF RA    Rietveld K, Pleij CW, Bosch L;
+#=GF RL    EMBO J. 1983;2:1079-1085.
+#=GF RN    [3]
+#=GF RM    1935928
+#=GF RT    tRNA-like structures. Structure, function and evolutionary
+#=GF RT    significance.
+#=GF RA    Mans RM, Pleij CW, Bosch L;
+#=GF RL    Eur J Biochem. 1991;201:303-324.
+#=GF WK    http://en.wikipedia.org/wiki/Transfer_RNA-like_structures
+#=GF SQ    2
+
+#=GS Broad_bean_mottle_vi.1 AC    K01776.1/83-200
+#=GS Broad_bean_mottle_vi.2 AC    K01778.1/151-266
+
+Broad_bean_mottle_vi.1             AAGAUAUCUGUACCGCCUGCUCCCCGGUGGUUUCGAUCCAUGGCUUCACG
+Broad_bean_mottle_vi.2             AAGAUAUCUGUACCGUCUUCUCCCCGACGGUUUCAAUCCAUAGCUUCACG
+#=GC SS_cons                       ..<<<<<<<..<<<<<<..AAAAAA>>>>>>.....<<<<<.<<<.<<..
+#=GC RF                            AAGauauCuGuaCCGuCuucuccccGaCGGuuucAAuCCauAGCuuCacG
+
+Broad_bean_mottle_vi.1             AUGUGUUGCAUAGAUGGAAGAUAUCGUGUGGUGUUGAAAAACACCACAUA
+Broad_bean_mottle_vi.2             UUGUGUAGCGUAGGUGGAAGGUAUCGUGUGGUGU..AUAAACACCACAUA
+#=GC SS_cons                       ...>>.>>>....>>>>>>>>>>>><<<<<<<<<......>>>>>>>>>.
+#=GC RF                            uuGuGuaGCGuAGguGGaaGguauCguGuGGuGu..AuAAaCaCCaCauA
+
+Broad_bean_mottle_vi.1             GUCUCUUAGGGGAGACCA
+Broad_bean_mottle_vi.2             GUCUCUUAGGGGAGACCA
+#=GC SS_cons                       ........aaaaaa....
+#=GC RF                            GucucuuAGGGGAGAccA
+//

@@ -1,0 +1,78 @@
+# STOCKHOLM 1.0
+#=GF ID    MIR812
+#=GF AC    RF01062
+#=GF DE    microRNA MIR812
+#=GF AU    Wilkinson A
+#=GF GA    75.0
+#=GF NC    75.0
+#=GF TC    75.0
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000345
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    9
+
+#=GS O.sativa.1      AC    AACV01018244.1/7040-6870
+#=GS O.nivara.1      AC    EF990865.1/515-344
+#=GS O.sativa.2      AC    AACV01016567.1/8146-7984
+#=GS O.sativa.3      AC    AAAA02020507.1/1729-1568
+#=GS O.sativa.4      AC    AAAA02005032.1/4454-4623
+#=GS O.sativa.5      AC    AL772425.7/108701-108531
+#=GS O.brachyantha.1 AC    DQ810282.1/207377-207550
+#=GS O.barthii.1     AC    DQ280681.1/7224-7398
+#=GS O.rufipogon.1   AC    CU406947.1/297-470
+
+O.sativa.1                  GGUUUUAGUGCCCAAC.UUUGACCGUCCGUCUUAUUUGAAAAUUUUUUU.
+O.nivara.1                  GACUUUUUCUCACAUG.UUUGACCAUUCGUUUUAUUUAAAAAUUUUAUGU
+O.sativa.2                  AUUUCCGUAUCCAACA.UUUGAUCAUCUGCCUUAUUCGAAAAAUUUAUAA
+O.sativa.3                  GUUUCCGCGUCUAAUG.UUUGACCGUCCAUCUUAUUUGAAAAA..AAUUA
+O.sativa.4                  GUAUCCGUAUCUA.CG.UUUGACCGUUCGUCUUAUUUGAAAAUUUUAUGA
+O.sativa.5                  GGAUCUGUGUCCAACG.UUUGACCGUUCGUCUUAUUUGAAAAAUUUAUGA
+O.brachyantha.1             GUUUUUGUGUCCAACG.UUUGAUCAUCCGUCUUAUUUGAAAAAUUUUCAA
+O.barthii.1                 AUAUCCGUGUUUAGCGCUUUGACCAUCCGUCUUAUUUGAAAAAUUUAUAA
+O.rufipogon.1               AUAUCCGUGUCCAACG.UUUGACUGUCCGUCUUAUUUAAAAUAUUUGUGA
+#=GC SS_cons                ..<<<<....<<<<<<.<<<<<<<<<<<<<<<<<<<<<<...........
+#=GC RF                     guauccguaUCcaAcG.UUUgACCGUcCGuCUUAUuugAAAAaUUUaUga
+
+O.sativa.1                  .AUUAC..U...AUUUUUAUUGUUAUUAGAUGAUAAAAUAUAAAUAUUAC
+O.nivara.1                  AAAUAUA.U...AAAAUAUAAAUCAC.AAUUAAAGUACUAUAAAUGAUAA
+O.sativa.2                  AAA...........AAAACAAGUCAC.GCAUAAAGUAUUAUUCAUGUUUU
+O.sativa.3                  AAA............ACAUAAGUCAU.GCAUAAAAUAUUAUUCAUGUUUU
+O.sativa.4                  AAAGAU..U...AAAAAAAUAGUCAC.GCAUAAAGUAAUAUUCAUGUUUU
+O.sativa.5                  AAAAAC..U...AAUAAAAUAGUCAC.CCAUAAAGUACUAUUUAUGUUUU
+O.brachyantha.1             AAAAUUAGA...AAAAAGUUAAUCAC.ACAUAAAGUACUAUUCAUGAUUU
+O.barthii.1                 AAAAUA..UUAAAAAAAACUAGUCAC.ACAUAAAGUACUAUUCAUGUUUU
+O.rufipogon.1               AAAAUU..UAAAAAAUAUUUAGUUAC.GCAUAAAGUACUAUUUAUGUUUU
+#=GC SS_cons                ..................................................
+#=GC RF                     AAAuAu..U...AaaaaaauAGUcAu.acAUAAAguAaUAUuaAUguUau
+
+O.sativa.1                  UUCAUGCGUGACUUAAUUUUUAAAAAAAUUUCAUAAAAUUUUUAAAUAAG
+O.nivara.1                  AACAACUCAUAAC.AAAAUAAAUUAUAAUUACAUAAAGUUUUUGAAUAAG
+O.sativa.2                  AUCAUAUAAGAAC.AAUAAAAAUACUAAUCAUAAAAAAAGU..AAAUAAG
+O.sativa.3                  AUCAUUUAACAAU.AAUAAUAACACCAAUCAUAAAAAAAAAUUAUAUAAG
+O.sativa.4                  AUCAUCUAAUAAC.AAUAAAAAUACUAAUCAUUAAAAAUUUUCAAAUAAG
+O.sativa.5                  AUCAUCUAAUAAC.AAUAAAAAUACUAAUCACAAAAAAAAUUUAAAUAAG
+O.brachyantha.1             AUCAUCUAAUAAAAAACAAAAAUAUCAAUCGCAAAAAAAAUUUAAAUAAG
+O.barthii.1                 AUCAUCUAAUAAC.AAUAAAAAUAAUAAACAUAAUCUUUUUUCAAAUAAG
+O.rufipogon.1               AUCAUCUAAUAGC.AAUAAAAAUAAUAAUCAUAAAAAUUUUUCAAAUAAG
+#=GC SS_cons                .........................................>>>>>>>>>
+#=GC RF                     AUCAUaUaAuAau.AAUAaaAAuAauAAUuAuAaAAAauuUUcaaAUAAG
+
+O.sativa.1                  ACGGACGGUUAAACGUUGGACACGGAAAC
+O.nivara.1                  ACGAAUGGUCAAACAUGUGAGAAAAAGUC
+O.sativa.2                  ACGGACGGUUAAACGUUGGACACGAAAAC
+O.sativa.3                  ACGGACGGUUAAACGUUGGACACGGAAAC
+O.sativa.4                  ACGGACGGUUAAACGUUGGACACGAAUAC
+O.sativa.5                  ACGAACGGUCAAACGUUGGACAUGAAUAA
+O.brachyantha.1             ACGAAAAGUUAAAAAUUGUAGGUAAAAAA
+O.barthii.1                 ACAAACGGUCAAACGUUGAACAUGAACAG
+O.rufipogon.1               ACGAACGGUUAAACAUUGAACGUGAAUAG
+#=GC SS_cons                >>>>>>>>>>>>>>>>>>>....>>>>..
+#=GC RF                     aCGgACGGUcAAACgUugGAcAcggauAc
+//

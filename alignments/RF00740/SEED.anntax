@@ -1,0 +1,45 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-370
+#=GF AC    RF00740
+#=GF DE    microRNA mir-370
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    23.7
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000167
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    6
+
+#=GS O.cuniculus.1 AC    AAGW01320819.1/1363-1440
+#=GS O.princeps.1  AC    AAYZ01216249.1/13302-13374
+#=GS M.musculus.1  AC    AAHY01103463.1/5689-5767
+#=GS M.murinus.1   AC    ABDC01401092.1/3492-3570
+#=GS T.belangeri.1 AC    AAPY01359958.1/473-550
+#=GS B.taurus.1    AC    AAFC03050875.1/5952-6030
+
+O.cuniculus.1             AGACAGAGAGGCCAGGUCACGUCUCUGCAGUUGCACGGCUC.UGAGUGCC
+O.princeps.1              AGACAGAAAAGCUGGGUCACUUCUCUGCAGUUGCACAGCUCAUGAGUGCC
+M.musculus.1              AGACGGAGAGACCAGGUCACGUCUCUGCAGUUACACAGCUCAUGAGUGCC
+M.murinus.1               AGACAGAGAGGCCAGGUCACGUCCCUGCAGUUACACAGCUCAUGAGUGCC
+T.belangeri.1             AGACAGAGAGGCCAGGUCACGUCUCUGCAGUUACGCAGCUG.UGAGAGCC
+B.taurus.1                AGGCAGAGAAGCCAGGUCACGUCUCUGCAGUUACACCGCUCACGAGUGCC
+#=GC SS_cons              <<<<<<<.<<<<<<<<<..<..<<<.<<<<.<<<.<<.....>>.>>>.>
+#=GC RF                   agacggaagggccgggucAcaucccugcagucgcAcagcucAugAgcgcc
+
+O.cuniculus.1             UGCUGGGGUGGAACCUGGUCAGUCUGUCU
+O.princeps.1              UGCUGGCGUGGAAUCUG....CUC..UCU
+M.musculus.1              UGCUGGGGUGGAACCUGGUUUGUCUGUCU
+M.murinus.1               UGCUGGGGUGGAACCUGGUCUGUCUGUCU
+T.belangeri.1             UGCUGGGGUGGAACCUGGUCUGUCUGUCA
+B.taurus.1                UGCUGGGGUGGAACCUGGUCUGUCUGUCU
+#=GC SS_cons              >>>.>>>..>..>>>>>>>>>.>>>>>>>
+#=GC RF                   ugcugggguggAacccggcccauccgucu
+//

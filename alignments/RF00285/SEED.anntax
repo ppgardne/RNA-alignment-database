@@ -1,0 +1,57 @@
+# STOCKHOLM 1.0
+#=GF ID    snoZ6
+#=GF AC    RF00285
+#=GF DE    Z6 small nucleolar RNA
+#=GF AU    Moxon SJ
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    20.5
+#=GF PI    Z6
+#=GF SE    Moxon SJ
+#=GF SS    Predicted; PFOLD; Moxon SJ, Daub J
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF RN    [1]
+#=GF RM    12215523
+#=GF RT    Purified box C/D snoRNPs are able to reproduce site-specific
+#=GF RT    2'-O-methylation of target RNA in vitro.
+#=GF RA    Galardi S, Fatica A, Bachi A, Scaloni A, Presutti C, Bozzoni I;
+#=GF RL    Mol Cell Biol 2002;22:6663-6668.
+#=GF CC    Z6 belongs to the C/D class of snoRNA which contain the C (UGAUGA)
+#=GF CC    and D (CUGA) box motifs. Most of the members of the box C/D family function
+#=GF CC    in directing site-specific 2'-O-methylation of substrate RNAs [1].
+#=GF WK    http://en.wikipedia.org/wiki/Z6_small_nucleolar_RNA
+#=GF SQ    7
+
+#=GS M.musculus.1   AC    AJ344343.1/4557-4647
+#=GS M.musculus.2   AC    AB166747.1/4408-4498
+#=GS R.norvegicus.1 AC    AY749166.1/4115-4205
+#=GS R.norvegicus.2 AC    AB193179.1/4143-4233
+#=GS H.sapiens.1    AC    AJ010679.1/1-91
+#=GS H.sapiens.2    AC    AB017549.1/452-542
+#=GS H.sapiens.3    AC    BC041570.1/378-468
+
+M.musculus.1               UGCUAGUGAUGAAGCUGCCUCGCUCUGAGCACUGGGCCUUGCCUGGGGGC
+M.musculus.2               UGCUAGUGAUGAAGCUGCCUCGCUCUGAGCACUGGGCCUUGCCUGGGGGC
+R.norvegicus.1             UGCUGGUCAUGAAGUUGCCUCAAUCCGAGCACUGGGCCUUGCCUGGGGGC
+R.norvegicus.2             UGCUGGUCAUGAAGUUGCCUCAAUCCGAGCACUGGGCCUUGCCUGGGGGC
+H.sapiens.1                UGCUGGUGGUGAAGCUCCCUCUCUCCGAGCACUGGGCCCUGCCUGGGGGC
+H.sapiens.2                UGCUGGUGGUGAAGCUCCCUCUCUCCGAGCACUGGGCCCUGCCUGGGGGC
+H.sapiens.3                UGCUGGUGGUGAAGCUCCCUCUCUCCGAGCACUGGGCCCUGCCUGGGGGC
+#=GC SS_cons               <<<<..............................................
+#=GC RF                    uGcugGUgAUGAAGcUgCCUCacUCcGAGCACUGGGCCuUGCCUGGGGGC
+
+M.musculus.1               UCUAGGGAGCCAGGGGAGAUGCUACCACGGAAGCUGAAACG
+M.musculus.2               UCUAGGGAGCCAGGGGAGAUGCUACCACGGAAGCUGAAACG
+R.norvegicus.1             UCUCGGGAGCCAGGGAAGAUGCUACCACGGAAGCUGAAACA
+R.norvegicus.2             UCUCGGGAGCCAGGGAAGAUGCUACCACGGAAGCUGAAACA
+H.sapiens.1                UCCCGGGAGCCAGGGGAGAUGCUACCUCGGAAGCUGAAGCG
+H.sapiens.2                UCCCGGGAGCCAGGGGAGAUGCUACCUCGGAAGCUGAAGCG
+H.sapiens.3                UCCCGGGAGCCAGGGGAGAUGCUACCUCGGAAGCUGAAGCG
+#=GC SS_cons               .....................................>>>>
+#=GC RF                    UCucGGGAGCCAGGGgAGAUGCUACCACGGAAGCUGAagCa
+//

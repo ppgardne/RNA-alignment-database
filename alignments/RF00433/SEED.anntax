@@ -1,0 +1,73 @@
+# STOCKHOLM 1.0
+#=GF ID    Hsp90_CRE
+#=GF AC    RF00433
+#=GF DE    Hsp90 cis-regulatory element
+#=GF AU    Moxon SJ
+#=GF GA    22.0
+#=GF NC    0.0
+#=GF TC    22.8
+#=GF SE    PMID:15347681, INFERNAL
+#=GF SS    Published; PMID:15347681
+#=GF TP    Cis-reg; thermoregulator;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    15347681
+#=GF RT    Translational regulation of Hsp90 mRNA. AUG-proximal 5'-untranslated
+#=GF RT    region elements essential for preferential heat shock translation.
+#=GF RA    Ahmed R, Duncan RF;
+#=GF RL    J Biol Chem 2004;279:49919-49930.
+#=GF CC    The hsp90 gene product is involved in the Drosophila heat shock
+#=GF CC    response and translation of the hsp90 mRNA is very inefficient
+#=GF CC    under normal growth temperatures. When heat shock occurs
+#=GF CC    translation becomes more efficient.  This family represents a
+#=GF CC    section of the Drosophila hsp90 mRNA 5' UTR that is required for
+#=GF CC    increased translational efficiency during the heat shock
+#=GF CC    response. The exact mechanism of action unknown [1].
+#=GF WK    http://en.wikipedia.org/wiki/Hsp90_cis-regulatory_element
+#=GF SQ    6
+
+#=GS D.yakuba.1       AC    AAEU02000132.1/310682-310830
+#=GS D.melanogaster.1 AC    J01106.1/161-312
+#=GS D.melanogaster.2 AC    AY122080.1/193-344
+#=GS D.melanogaster.3 AC    X03810.1/877-1028
+#=GS D.erecta.1       AC    AAPQ01006550.1/448359-448507
+#=GS D.simulans.1     AC    X03811.1/879-1030
+
+D.yakuba.1                   AGUCUUAAAAAAAU.UUCGUGAGGUGUGCGUCGUUACAGCAAGCAGCGUC
+D.melanogaster.1             AGUCUUGAAAAAAAUUUCGUACGGUGUGCGUCGUAACAACAAACAGCGUC
+D.melanogaster.2             AGUCUUGAAAAAAAUUUCGUACGGUGUGCGUCGUAACAACAAGCAGCGUC
+D.melanogaster.3             AGUCUUGAAAAAAAUUUCGUACGGUGUGCGUCGUAACAACAAGCAGCGUC
+D.erecta.1                   AGUCUUGAAAAAAU.UUCGUGCAGUGCGCGUCGUAGCAGCAAAUAGCGUC
+D.simulans.1                 AGUCUUGAAAAAAAUUUCGUGCGGUGUGCGUCGUUACAGCAAACAGCGUC
+#=GC SS_cons                 .<<<<<<.......<<<<<.<<<.<<<..<<.......>>..>>>.>>>.
+#=GC RF                      AgccuuGAAAAAAAuuucguacGguGcgcGccguaAcAgCAAgCagCguc
+
+D.yakuba.1                   UGA..AGUUUUGUGAAUUUCCAAUUCUAUACAAAGCAAAGUGAAAAUAUC
+D.melanogaster.1             UGAAAAGUUUUGUGAAUUUCCAAUUCUAUACAAAGCAAAGUGAAAAUAUC
+D.melanogaster.2             UGAAAAGUUUUGUGAAUUUCCAAUUCUAUACAAAGCAAAGUGAAAAUAUC
+D.melanogaster.3             UGAAAAGUUUUGUGAAUUUCCAAUUCUAUACAAAGCAAAGUGAAAAUAUC
+D.erecta.1                   UGA..AGUUUUGUGAAUUUCCAAUUCUAUACAAAGCAAAGUGAAAAUAUC
+D.simulans.1                 UGAAAAGUUUUGUGAAUUUCCACUUCUACACAAAGCAAAGAGAAAAUAUC
+#=GC SS_cons                 >>>>>.....<<<<..<<<<...<<<<<<.<<.<<.<<<<<<<<<<<<..
+#=GC RF                      cgaaaAguuuuguGAAuuuccAauucuacAcaAaGcaaaGugaaaauauc
+
+D.yakuba.1                   UGUAUUUUUACCUUUAUUCUGUGAAUAGAACGAAAAACAUACAUACAAGG
+D.melanogaster.1             UGUAUUUUUACCUUUAUUCUGUGAAUAGAACGAAAAACAUACAUACAAGG
+D.melanogaster.2             UGUAUUUUUACCUUUAUUCUGUGAAUAGAACGAAAAACAUACAUACAAGA
+D.melanogaster.3             UGUAUUUUUACCUUUAUUCUGUGAAUAGAACGAAAAACAUACAUACAAGG
+D.erecta.1                   UGUAUUUUUACCUUUAUUCUGUGAAUAGAACGAAAAACAUACAUACAAGG
+D.simulans.1                 UGUAUUUUUACCUUUAUUCUGUGAAUAGAACGAAAAACAUAAAUACAAGG
+#=GC SS_cons                 ..>>>>>>>>.>>>>...>>.>>.>>>>>>.>>>>..>>>>....>>>>>
+#=GC RF                      uguauuuucacCuuuAuuCugugAguagaacgaaaAACacaaAuACaagg
+
+D.yakuba.1                   UG
+D.melanogaster.1             UG
+D.melanogaster.2             UG
+D.melanogaster.3             UG
+D.erecta.1                   UG
+D.simulans.1                 UG
+#=GC SS_cons                 >.
+#=GC RF                      cg
+//

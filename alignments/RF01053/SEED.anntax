@@ -1,0 +1,41 @@
+# STOCKHOLM 1.0
+#=GF ID    Deinococcus_Y_RNA
+#=GF AC    RF01053
+#=GF DE    Deinococcus radiodurans Y RNA
+#=GF AU    Gardner PP
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    158.3
+#=GF SE    Gardner PP
+#=GF SS    Published; PMID:10766734
+#=GF TP    Gene;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000405 SO:Y_RNA
+#=GF RN    [1]
+#=GF RM    10766734
+#=GF RT    Ro ribonucleoproteins contribute to the resistance of Deinococcus
+#=GF RT    radiodurans to ultraviolet irradiation.
+#=GF RA    Chen X, Quinn AM, Wolin SL
+#=GF RL    Genes Dev. 2000;14:777-782.
+#=GF WK    http://en.wikipedia.org/wiki/Y_RNA
+#=GF SQ    2
+
+#=GS D.radiodurans.1        AC    AF233656.1/1-126
+#=GS Deinococcus_radiodur.1 AC    AE000513.1/1271906-1272031
+
+D.radiodurans.1                    GCUCUGGGCCGAAGUGGUCACGGUUACUUCUCCAACCUCAAUGGGCGGAA
+Deinococcus_radiodur.1             GCUCUGGGCCGAAGUGGUCACGGUUACUUCUCCAACCUCAAUGGGCGGAA
+#=GC SS_cons                       <<<<<<<<.<<<.<<<<<<<<<<..<<<<<....................
+#=GC RF                            GcucuGGgccgaAGuGGucacGGuuacuucuccAAccucAAugggcggAA
+
+D.radiodurans.1                    GCGGUGCAAGCCGUUCCGGGUUCGAUUCCCGGCAUGAAGUGGCCCGUCCG
+Deinococcus_radiodur.1             GCGGUGCAAGCCGUUCCGGGUUCGAUUCCCGGCAUGAAGUGGCCCGUCCG
+#=GC SS_cons                       .<<<<....>>>>..<<<<<.......>>>>>...>>>>>.......>>>
+#=GC RF                            gcGGcgcAAgCCguuccGGGuucgAuuCCCggcAugaaguggcccguCCg
+
+D.radiodurans.1                    UGACCCGAACCCUUGUCCAGAGCACU
+Deinococcus_radiodur.1             UGACCCGAACCCUUGUCCAGAGCACU
+#=GC SS_cons                       >>>>>...>>..>>>>>>>>>>>...
+#=GC RF                            ugaCCcgAaCccuuguCCagagCAcu
+//

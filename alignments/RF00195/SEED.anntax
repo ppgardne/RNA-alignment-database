@@ -1,0 +1,84 @@
+# STOCKHOLM 1.0
+#=GF ID    RsmY
+#=GF AC    RF00195
+#=GF DE    RsmY RNA family
+#=GF AU    Griffiths-Jones SR
+#=GF GA    28.0
+#=GF NC    26.6
+#=GF TC    30.9
+#=GF SE    Griffiths-Jones SR
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; sRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000655 SO:ncRNA
+#=GF RN    [1]
+#=GF RM    14622422
+#=GF RT    RsmY, a small regulatory RNA, is required in concert with RsmZ for
+#=GF RT    GacA-dependent expression of biocontrol traits in Pseudomonas
+#=GF RT    fluorescens CHA0.
+#=GF RA    Valverde C, Heeb S, Keel C, Haas D;
+#=GF RL    Mol Microbiol 2003;50:1361-1379.
+#=GF CC    The rsmY gene, like rsmZ (Rfam:RF00166), is regulated by the GacS/GacA
+#=GF CC    signal transduction system in the plant-beneficial soil bacterium and
+#=GF CC    biocontrol model organism Pseudomonas fluorescens CHA0.  GacA/GacS 
+#=GF CC    target genes are translationally repressed by the small RNA binding 
+#=GF CC    protein RsmA.  RsmY and RsmZ RNAs bind RsmA to relieve this repression
+#=GF CC    and so enhance secondary metabolism and biocontrol traits [1].
+#=GF WK    http://en.wikipedia.org/wiki/RsmY_RNA_family
+#=GF SQ    11
+
+#=GS P.fluorescens.1        AC    AY780887.1/24-141
+#=GS Pseudomonas_entomoph.1 AC    CT573326.1/5427050-5427173
+#=GS Pseudomonas_putida_F.1 AC    CP000712.1/460861-460987
+#=GS P.mendocina.1          AC    CP000680.1/4453965-4454083
+#=GS Pseudomonas_stutzeri.1 AC    CP000304.1/4177586-4177705
+#=GS P.syringae.1           AC    L12224.1/171-292
+#=GS Pseudomonas_putida_W.1 AC    CP000949.1/5329058-5329183
+#=GS P.aeruginosa.1         AC    D50019.1/18-138
+#=GS marine_metag.1         AC    ABEF01039908.1/238-355
+#=GS marine_metag.2         AC    AACY023449337.1/803-921
+#=GS marine_metag.3         AC    AACY022429521.1/480-598
+
+P.fluorescens.1                    AUGGACGUCGCGCAGGAAGCGCAAAGCAACAACAC..GGAC....AC.GU
+Pseudomonas_entomoph.1             AUGGACGGAGCGCAGGAAGCGCAA.UGGACAGAACAGGGAC....ACCGU
+Pseudomonas_putida_F.1             AUGGACGUUGCGCAGGAAGCGCAA.AGGACAGAUCAAGGACGACGAC.GA
+P.mendocina.1                      AUGGAUUCAGCGCAGGAAGCGCCUAGAGAAAA...AGGGAC....CC.GC
+Pseudomonas_stutzeri.1             AGGAAUGUGGCGCAGGAAGCGCGAUCAAACAACAC.GGACC....AC.AC
+P.syringae.1                       AUGGACGUAGCGCAGGACGCGCAACAAGACAUAACAGGGAC....AC.GU
+Pseudomonas_putida_W.1             AUGGACGUUGCGCAGGAAGCGCAA.AGGACAGAACAGGGACAA..AC.GA
+P.aeruginosa.1                     A.GGACAUUGCGCAGGAAGCGCCA.AAGACAAUAC..GGAA....AC.UC
+marine_metag.1                     AUGGACGUCGCGCAGGAAGCGCAA..AGCAACAACAGGGAC....AC.GU
+marine_metag.2                     AUGGAUUCAGCGCAGGAAGCGCAC...AAACGAACAGGGAC....AC.AC
+marine_metag.3                     AUGGAUUCAGCGCAGGAAGCGCCU..AGACA.AACAGGGAC....AC.GC
+#=GC SS_cons                       .........<<<<.....>>>>............................
+#=GC RF                            AuGGACaUaGCGCAGGAaGCGCaAcAAGACAaaACAgGGAa....AC.uu
+
+P.fluorescens.1                    AGG..AUUCUGCCAGGACGGCG.GAGUGAAAUGGAUGU..CAGGGAAACA
+Pseudomonas_entomoph.1             AGGAUUUCCUGCCAGGAUGGCG.GGGUGAAAUGGAAGUCACAGGGAAACA
+Pseudomonas_putida_F.1             AGGACCACCUGCCAGGAUGGCG.GGGCGAUACGGAUGUCACAGGGAAACA
+P.mendocina.1                      UGGACAGCCACCA.GGAUGGUGUGCAGAUCAAGGAUGU..CAGGACAACA
+Pseudomonas_stutzeri.1             AGGGAGCGGUGCCAGGACGGCG.CGCGAUCAAGGAUGU..CAGGAU.UCA
+P.syringae.1                       AGGGAAGCCUGCCAGGAUGGCG.GGGUGAAAGGGAAAU..CAGGGAAACA
+Pseudomonas_putida_W.1             AGGAUUUCCUGCCAGGACGGUG.GGGCGAUAGGGAUGUCACAGGGAAAAA
+P.aeruginosa.1                     AGGGAAUCCACCAUGGAUGGUG.GCGUAGCACGGAUGU..CAGGAUAGAG
+marine_metag.1                     AGG..AUUCUGCCAGGAUGGCG.GAGUGAAAUGGAUGU..CAGGGAAACA
+marine_metag.2                     UGGACAGCCACCA.GGACGGUGAGCAGAUCAAGGAUGU..CAGGACAACA
+marine_metag.3                     UGGACAGCCGCCA.GGAUGGUGAGCAGAUCAAGGAUGU..CAGGACUACA
+#=GC SS_cons                       .......<<<...>>>..................................
+#=GC RF                            AGGGAAuCCagCauGGAUGGuG.GgGUaaaAgGGAaaU..CAGGaaAaaa
+
+P.fluorescens.1                    GUCUGC.AAAGCCCCGCUUC...GGCGGGGUUUU
+Pseudomonas_entomoph.1             GUCUGG.AAAACCCCGCUUC...GGCGGGGUUUU
+Pseudomonas_putida_F.1             GUCUGG.AAAACCCCGCUUC...GGCGGGGUUUU
+P.mendocina.1                      GUCUGC.AAGGCCCCGCAAU...CGCGGGGUUUU
+Pseudomonas_stutzeri.1             GUCUGC.AGAGCCCCGCUUC...GGCGGGGUUUU
+P.syringae.1                       GUCUGG.AAAGCCCCGCUUC...GGCGGGGUUUU
+Pseudomonas_putida_W.1             GUCUGGGAAAACCCCGCUUC...GGCGGGGUUUU
+P.aeruginosa.1                     GUCUGC.AAAACCCCGCCCAAAAGGCGGGGUUUU
+marine_metag.1                     GUCUGC.AAAGCCCCGCUUC...GGCGGGGUUUU
+marine_metag.2                     GUCUGC.AAGGCCCCGCAAU...CGCGGGGUUUU
+marine_metag.3                     GUCUGC.AAGGCCCCGCAAU...CGCGGGGUUUU
+#=GC SS_cons                       .......<<<<<<<<<<.......>>>>>>>>>>
+#=GC RF                            GUCUGg.aaaaCCCCGCuuaAAAGGCGGGGuuuu
+//

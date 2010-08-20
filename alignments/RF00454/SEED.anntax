@@ -1,0 +1,69 @@
+# STOCKHOLM 1.0
+#=GF ID    p27_CRE
+#=GF AC    RF00454
+#=GF DE    p27 cis-regulatory element
+#=GF AU    Moxon SJ
+#=GF GA    35.0
+#=GF NC    26.8
+#=GF TC    47.3
+#=GF SE    PMID:12837699, INFERNAL
+#=GF SS    Predicted; PFOLD; Moxon SJ
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0000204 SO:five_prime_UTR
+#=GF RN    [1]
+#=GF RM    12837699
+#=GF RT    Cell cycle-dependent translation of p27 involves a responsive element
+#=GF RT    in its 5'-UTR that overlaps with a uORF.
+#=GF RA    Gopfert U, Kullmann M, Hengst L;
+#=GF RL    Hum Mol Genet 2003;12:1767-1779.
+#=GF CC    This family represents a structured G/C rich element located in the 5' UTR
+#=GF CC    of p27 mRNA. This element contributes to cell-cycle regulated translation
+#=GF CC    and when deleted leads to a 50% drop in regulation. The element is thought
+#=GF CC    to be able to form several different structures with similar free energy.
+#=GF CC    It has been suggested that proteins may only bind to a specific structure
+#=GF CC    thus conformational changes could regulate translation [1].
+#=GF WK    http://en.wikipedia.org/wiki/p27_cis-regulatory_element
+#=GF SQ    11
+
+#=GS O.cuniculus.1          AC    AAGW01497575.1/928-986
+#=GS O.princeps.1           AC    AAYZ01005918.1/1-57
+#=GS C.porcellus.1          AC    AAKN02030905.1/9746-9804
+#=GS M.musculus.1           AC    U77915.1/677-735
+#=GS M.musculus.2           AC    U51681.1/1648-1700
+#=GS Spermophilus_tridece.1 AC    AAQQ01623836.1/347-404
+#=GS H.sapiens.1            AC    AB003688.1/2994-3052
+#=GS H.sapiens.2            AC    AF480891.2/120-178
+#=GS P.troglodytes.1        AC    AACZ02132199.1/10361-10419
+#=GS Otolemur_garnettii_s.1 AC    AAQR01191689.1/2875-2933
+#=GS C.lupus.1              AC    AAEX02011105.1/13929-13987
+
+O.cuniculus.1                      CCACCUUAAG.GCCGCGCUCGCCAGCCUCGGCGGGGCGGCUCCCGGCGCC
+O.princeps.1                       ..ACCUUAAG.GCCGCGCUCGCCAGCCUCGGUGGGGCGGCUCCCGGCGCC
+C.porcellus.1                      CCACCUUAAGAGC.GCGCUCGCCAGCCUCGGCUGGGCGGCUCCCGGCGCC
+M.musculus.1                       CCACCUUAAGAGC.GCGCUCGCCAGCCUGGGCGGAGCGGCUCCCGGCGCC
+M.musculus.2                       CCACCUUAAGAGC.GCG.UCGC.AGCCU...GGGGA.GGCUCCCGGCACC
+Spermophilus_tridece.1             CCACCUUAAGACC.GCGCUUGCCAGCCUCGGCUGGGCGGCUCCCGGCGC.
+H.sapiens.1                        CCACCUUAAG.GCCGCGCUCGCCAGCCUCGGCGGGGCGGCUCCCGCCGCC
+H.sapiens.2                        CCACCUUAAG.GCCGCGCUCGCCAGCCUCGGCGGGGCGGCUCCCGCCGCC
+P.troglodytes.1                    CCACCUUAAG.GCCGCGCUCGCCAGCCUCGGCGGGGCGGCUCCCGCCGCC
+Otolemur_garnettii_s.1             CCACCUUAAG.GCCGCGCUCGCCAGCCUCGGUGGGGCGGCUCCCGGCGCU
+C.lupus.1                          CCACCUUAAG.GCCGCGCUCGCCAGCCUCGGCGGGGCGGCUCCCGGCGCC
+#=GC SS_cons                       ........<<.<<.<<....>>..>>>>..<<<<<.<<<...>>>.>.>>
+#=GC RF                            ccAccUUAaGAGCaGCGcUcGCcAGCCucGgcGGGcCGGcUcCCGgCgCC
+
+O.cuniculus.1                      GCGACCAAUG
+O.princeps.1                       GCGACCAAUG
+C.porcellus.1                      GCGACCAAUG
+M.musculus.1                       GAGACCAAUG
+M.musculus.2                       GAGACCAAUG
+Spermophilus_tridece.1             GCGACCAAUG
+H.sapiens.1                        GCAACCAAUG
+H.sapiens.2                        GCAACCAAUG
+P.troglodytes.1                    GCAACCAAUG
+Otolemur_garnettii_s.1             GCAACCAAUG
+C.lupus.1                          GCAACCAAUG
+#=GC SS_cons                       >>........
+#=GC RF                            gcgAccAAUG
+//

@@ -1,0 +1,60 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORA5
+#=GF AC    RF00392
+#=GF DE    Small nucleolar RNA SNORA5
+#=GF AU    Moxon SJ
+#=GF GA    24.0
+#=GF NC    23.2
+#=GF TC    26.7
+#=GF PI    snoACA5
+#=GF SE    Moxon SJ
+#=GF SS    Predicted; RNAFOLD; Moxon SJ
+#=GF TP    Gene; snRNA; snoRNA; HACA-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000594 SO:H_ACA_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Mus_musculus300928
+#=GF DR    snoopy; Oryzias_latipes300079
+#=GF RN    [1]
+#=GF RM    15199136
+#=GF RT    Human box H/ACA pseudouridylation guide RNA machinery.
+#=GF RA    Kiss AM, Jady BE, Bertrand E, Kiss T;
+#=GF RL    Mol Cell Biol 2004;24:5797-5807.
+#=GF CC    ACA5 is a member of the H/ACA class of snoRNA that guide the sites of
+#=GF CC    modification of uridines to pseudouridines [1].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_SNORA5
+#=GF SQ    6
+
+#=GS M.musculus.1 AC    AC112261.4/56192-56327
+#=GS M.musculus.2 AC    AL603787.8/33225-33357
+#=GS H.sapiens.1  AC    AC013416.4/55441-55577
+#=GS H.sapiens.2  AC    AJ609453.1/1-134
+#=GS H.sapiens.3  AC    AC020634.16/18865-18995
+#=GS H.sapiens.4  AC    AC013416.4/54383-54515
+
+M.musculus.1             UG.CAGUCAAGUCAAAUUCAGUCCCUGCC.CUGUC.AUGGUGGGAACUGG
+M.musculus.2             UG.CAGCUGUGUCAAAUUCAGUGCCUCUC.CUAAUGAUGGCAAGCACUGG
+H.sapiens.1              UG.CAGUCAAGUCAAAUUCAGUGCCCGUUUCUGUC.AUAGCGGGGGCUGG
+H.sapiens.2              UG.CAGCCGUGUCAAAUUCAGUACCUGUC.CUAUGCAUGGUAGGCACUGG
+H.sapiens.3              UG.CAGCUGUGUCAAAUUUGGUGCCUGCC.CUGCCUGUG.UAGGCACUGA
+H.sapiens.4              UGGCAGCCAUGUCAAAUUCAGUGCCUGCC.CUGUCUAUGGUAGGCACUGG
+#=GC SS_cons             .<.<<<............<<<<<<<<<<<.........>>>>>>>>>>>.
+
+M.musculus.1             CCUAGAUGGCUGCCACAA.CAAGUUCUGCUGCUCAUGGGCCCC.GGGUCU
+M.musculus.2             CCCAGAAGGCUGCCAUAG.AAACU.CUGUGACUCCUGAGCU.C.UGUUCC
+H.sapiens.1              CCCAGAUGGCUGCCACAGCAAGCU.CCACAGCUCAUGGGCC.CUGGGUCA
+H.sapiens.2              CCCAGAAGGCUGCCACAG.AAACA.CUGUGACUCAUGGGCC.C.UGUUCC
+H.sapiens.3              CCCAGAAGGCUGCCACAG.AAACA.C..UGACUCAUGGGCC.C.UGUUCC
+H.sapiens.4              CCCAGAAGACUGCCACAG.AAACA...GUGACUCACAGGCC.C.UGUUAC
+#=GC SS_cons             .........>>>>..............<<<<<<......<<.<.<<....
+
+M.musculus.1             CCUGUCCUGGAACCU.GGGGAUAAGUUUGGCUGCAGACACUA
+M.musculus.2             CCA.UGCUAGGUUCA.G.GGAUAAAUGGAGUCACAGACAUCA
+H.sapiens.1              CCUACCCUGGGACCUGG.GGAUAAGUUUGGCUGUGGACAGUG
+H.sapiens.2              UGUGUCCCAGGCUCA.G.GGAUAAAUUUGGUUACAGACAUCA
+H.sapiens.3              UGUGUCUCGGGCUCA.G.GGAUAAAUUUGGUUACAGAUACCA
+H.sapiens.4              UGUGUCCCAGGCUCA.G.GGAUAAAUUUGGUUACAGACACCA
+#=GC SS_cons             .............>>.>.>>........>>>>>>........
+//

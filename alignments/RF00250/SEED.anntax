@@ -1,0 +1,193 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-TAR
+#=GF AC    RF00250
+#=GF DE    Trans-activation response element (TAR)
+#=GF AU    Moxon SJ
+#=GF GA    23.0
+#=GF NC    0.0
+#=GF TC    24.1
+#=GF PI    TAR
+#=GF SE    PMID:12882959
+#=GF SS    Published; PMID:12882959
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIR; MI0007073
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF RN    [1]
+#=GF RM    12882959
+#=GF RT    The apical loop of the HIV-1 TAR RNA hairpin is stabilized by a
+#=GF RT    cross-loop base pair.
+#=GF RA    Kulinski T, Olejniczak M, Huthoff H, Bielecki L, Pachulska-Wieczorek
+#=GF RA    K, Das AT, Berkhout B, Adamiak RW;
+#=GF RL    J Biol Chem 2003;278:38892-38901.
+#=GF RN    [2]
+#=GF RM    18299284
+#=GF RT    Identification of functional microRNAs released through
+#=GF RT    asymmetrical processing of HIV-1 TAR element.
+#=GF RA    Ouellet DL, Plante I, Landry P, Barat C, Janelle ME, Flamand L,
+#=GF RA    Tremblay MJ, Provost P
+#=GF RL    Nucleic Acids Res. 2008;36:2353-2365.
+#=GF RN    [3]
+#=GF RM    19220914
+#=GF RT    HIV-1 TAR miRNA protects against apoptosis by altering cellular
+#=GF RT    gene expression.
+#=GF RA    Klase Z, Winograd R, Davis J, Carpio L, Hildreth R, Heydarian M,
+#=GF RA    Fu S, McCaffrey T, Meiri E, Ayash-Rashkovsky M, Gilad S, Bentwich
+#=GF RA    Z, Kashanchi F
+#=GF RL    Retrovirology. 2009;6:18.
+#=GF CC    This family represents the HIV trans-activation response (TAR)
+#=GF CC    element which is known to be required for the trans-activation of
+#=GF CC    the viral promoter and for virus replication. The TAR hairpin
+#=GF CC    acts as a binding site for the Tat protein and this interaction
+#=GF CC    stimulates the activity of the long terminal repeat promoter [1].
+#=GF CC    Further experiments have shown that TAR acts as a miRNA that
+#=GF CC    protects against apoptosis [2,3].
+#=GF WK    http://en.wikipedia.org/wiki/Trans-activation_response_element_(TAR)
+#=GF SQ    45
+
+#=GS Human_immunodeficien.1  AC    AF196736.1/484-544
+#=GS Human_immunodeficien.2  AC    AF457060.1/8743-8802
+#=GS Simian_immunodeficie.1  AC    AF115393.1/8994-9054
+#=GS Simian-Human_immunod.1  AC    AF465242.1/9763-9822
+#=GS Human_immunodeficien.3  AC    AF484519.1/8748-8808
+#=GS Human_immunodeficien.4  AC    AF063164.1/454-514
+#=GS Human_immunodeficien.5  AC    AF063150.1/456-516
+#=GS Human_immunodeficien.6  AC    U72094.1/327-387
+#=GS Human_immunodeficien.7  AC    U51296.1/362-421
+#=GS Human_immunodeficien.8  AC    U72138.1/316-376
+#=GS Human_immunodeficien.9  AC    AY074891.1/8871-8931
+#=GS Human_immunodeficien.10 AC    AF102206.1/384-443
+#=GS Human_immunodeficien.11 AC    AF096779.1/454-514
+#=GS Human_immunodeficien.12 AC    AF457079.1/8708-8767
+#=GS Human_immunodeficien.13 AC    AF286233.1/8890-8950
+#=GS Human_immunodeficien.14 AC    AF190128.1/8856-8916
+#=GS Human_immunodeficien.15 AC    AF411965.1/9548-9608
+#=GS Human_immunodeficien.16 AC    AF196762.1/466-526
+#=GS Human_immunodeficien.17 AC    AF063151.1/456-516
+#=GS Human_immunodeficien.18 AC    AF457068.1/8753-8812
+#=GS Human_immunodeficien.19 AC    U24479.1/327-387
+#=GS Human_immunodeficien.20 AC    AF254726.1/391-451
+#=GS Human_immunodeficien.21 AC    AF457086.1/8766-8825
+#=GS Human_immunodeficien.22 AC    AF119820.1/463-523
+#=GS Human_immunodeficien.23 AC    L28878.1/358-418
+#=GS Human_immunodeficien.24 AC    AF443095.1/8922-8982
+#=GS Human_immunodeficien.25 AC    AF063179.1/457-517
+#=GS Human_immunodeficien.26 AC    AY037273.1/8734-8794
+#=GS Human_immunodeficien.27 AC    AF457057.1/8730-8789
+#=GS Human_immunodeficien.28 AC    AF457076.1/8775-8834
+#=GS Human_immunodeficien.29 AC    AF484484.1/8728-8787
+#=GS Human_immunodeficien.30 AC    U72122.1/306-366
+#=GS Human_immunodeficien.31 AC    AF286239.1/8968-9027
+#=GS Human_immunodeficien.32 AC    AF254724.1/392-452
+#=GS Simian_immunodeficie.2  AC    X52154.1/9632-9691
+#=GS Simian_immunodeficie.3  AC    AF103818.1/9605-9663
+#=GS Human_immunodeficien.33 AC    AF442567.1/8145-8205
+#=GS Human_immunodeficien.34 AC    AF457071.1/8730-8789
+#=GS Human_immunodeficien.35 AC    AF321523.1/455-515
+#=GS Human_immunodeficien.36 AC    AF254684.1/394-453
+#=GS Human_immunodeficien.37 AC    AF254695.1/392-452
+#=GS Human_immunodeficien.38 AC    AF443094.1/8913-8973
+#=GS Simian_immunodeficie.4  AC    DQ373065.1/9036-9095
+#=GS Human_immunodeficien.39 AC    AF063176.1/456-516
+#=GS Human_immunodeficien.40 AC    L28844.1/328-388
+
+Human_immunodeficien.1              GGGUCUCUCUAGUUAGACCAGAUUCGAGCCUGGGAGCUCUCUGGCUAGUG
+Human_immunodeficien.2              AGGUCUCUCUUGUUGGACCAGAU.AGAGCCUAGGAGCUCUCUGGCUAGCA
+Simian_immunodeficie.1              GGGUCUCUCUUGCUAGACCAGAUCUGAGCCUGGGAGCUCUCUGGUCAGGU
+Simian-Human_immunod.1              GGGUCUCUCUAGUUAGACCAGAUCUGAGCCUGGGAGCUCUCUGGCUAGCU
+Human_immunodeficien.3              GGGUCUCUCUUGUCAGACCAGAUUUGAGCCUGAGAGCUCUCUGGCCGACU
+Human_immunodeficien.4              GGGCUCCUCUGGUUAGACCAAAUCUGAGGCUGGGAGCUCUCUGGCUAGCU
+Human_immunodeficien.5              GGGUCUCUCUGGUUAGACACAAUCUGAGCCUGGGAGCUCUCUGACUAGCU
+Human_immunodeficien.6              GGGUCUCUCUAGUUAGACCAGAUCUAAGCCUAGGAGCUCUCUAGCUAGCU
+Human_immunodeficien.7              GGGUCUCUCUUGUUAGACCAGGUC.GAGCCCGGGAGCUCUCUGGCUAGCA
+Human_immunodeficien.8              GGGUCUCUCUAGUUAGACCAGAUCUAAGCCUAAGAGCUCUCUGGCUGACU
+Human_immunodeficien.9              GGGUCUCUCUAGGUAGAUCAGAUCAGAGCCUGGGAGCUCUCUGGCUAUCU
+Human_immunodeficien.10             GGGUCUCUCUUGCUAGACCAGAU.UGAGCCUGGGAGCUCUCUGACUAGCA
+Human_immunodeficien.11             GGGUCUCUCUAGGUAGACCAGAUCUGAGCCUGGGAGCUCUAUGGCUAUUU
+Human_immunodeficien.12             GGGUCUCUCUUAGUAGACCAGAU.AGAGCCUGGGAGCUCUCUGGCUAGUA
+Human_immunodeficien.13             GGGUCUCUCUAGGUAGACCAGAUCUGAGCCCGAGUGCUCUCUGGCUAUCC
+Human_immunodeficien.14             GGGUCUCUUUGGUUAGACCAGAUCUGAGCCUGGGAGUUCUCUGGCUGGCC
+Human_immunodeficien.15             GGGUCUCUCUAGGCAGACCAGAUUUGAGCCCGGGAGCUCUCUGGCUAUCU
+Human_immunodeficien.16             GUGUCUCUCUAGUUAUACCAUAUCUGAUCCUGGGAGCUCUCUGGCUAGCU
+Human_immunodeficien.17             GGGUCUUUCUGGUUAGACCGAAUCUGAGCCUGGGAGCUCUCUGGCUAGCU
+Human_immunodeficien.18             GGGUCUCUCUUGUUAGACCAGAU.AGAGUCUGAGAACUCUCUGGCUAGCG
+Human_immunodeficien.19             GGGUCUCUCUGGUUAGACCAGAUCUGAGCCUGGGAGCUCUCUGGCUAACU
+Human_immunodeficien.20             GGGUCUCUCUAGGUGGACCAGAUCUGAGCCUGGGCGCUCUCUGGCUACCU
+Human_immunodeficien.21             GGGUCUCUCUUGGUAGACCAGAUC.GAGCCUGGGAGCUCUCUGGUUGACA
+Human_immunodeficien.22             GGGUCUCUCUGGUUAGGCCAGGUCUGAGCCUGGGAGCUCUCUGGCUAGCU
+Human_immunodeficien.23             RGGUCUCUCURGUUAGACCAGAUCUGAGCCURRGAGCUCUCURGCUAACU
+Human_immunodeficien.24             GGGUCUCUCUAGGUAGACCAGAUAUGAGCCUGGGAGCUCUCUGGCUGCUU
+Human_immunodeficien.25             GGGUCUCUCUAGUCAGACCAGAUCUGAGCCUGAAAGCUCUCUAGCUAGCU
+Human_immunodeficien.26             AGGUCUCUCUAAGUAGACCAGAUCUGAGCCUAGGAGCUCUCUGGCUAACU
+Human_immunodeficien.27             AGGUCUCUCUUAGUAGACCAGAUC.GAGCCUAGGAGCUCUCUAGCUAGCA
+Human_immunodeficien.28             AAGUCUCUCUUGUUAGACCAGAUC.GAGCCUAGGAGCUCUCUGACCAGCG
+Human_immunodeficien.29             AGGUCUCUCUUGUUAGACCAGAUC.GAGCCUAGGAGCUCUCUAGCUAGCA
+Human_immunodeficien.30             UGGUCUCUCUUGUUAGACCAGAUCAGGGCCUGAGAGCUCUCUGGCUAACU
+Human_immunodeficien.31             GGGUCUCUCUUGUUGGACCAGAU.AGAGCCUGGGAGCUCUCUGGCUAGCA
+Human_immunodeficien.32             GGGUCUCUCUUGUUAGACCAGAUUUGAGCCUGAGAGCUCUCUGGCUAGCU
+Simian_immunodeficie.2              GGGUCUCUUUCACUGGACCAGAUUUGAGCCUGGGAGCUCUCUACC.AGUG
+Simian_immunodeficie.3              GGGUCUCUUCG.CUAGACCAGAUAAGAGCCCGGGAGCUCUCUGGCUAG.U
+Human_immunodeficien.33             AGGUCUCUCUUGCUAGACCAGAUCUGAGCCUAGGAGCUCUCUGGCUAGUU
+Human_immunodeficien.34             AAGUCUCUCUUGUUAGACCAGAUC.GAGCCUAGGAGCUCUUUAGCUAGCA
+Human_immunodeficien.35             GGGUCUCUCUAGGUAGGCCAGAUCUGAGCCCGGGAGCUCUCUGGCUAUAU
+Human_immunodeficien.36             GGGUCUCUCUAGGUAGACCAGGUCCAAGCCCGGGAGCUC.CUGGCUAUCU
+Human_immunodeficien.37             GGGUCUCUCUAGGUAGACCAGAUCUGAGCCUGGGAGCUCUCUGGCCUUCU
+Human_immunodeficien.38             GGGUCGCCUUAGGUAGACCAGAUCUGAGCCCGGGAGCUCUCUGGCUAUCU
+Simian_immunodeficie.4              GGGUCUCUCUUGUUAGACCAGAUUAGAGCCUGGGAGCUCUCUGGCUAGCA
+Human_immunodeficien.39             GGCUCUCUCUAGUUGGACCAGAUCUGAGCCUAGAAGCUCUCUGGCUAACU
+Human_immunodeficien.40             AGGUCUCUCUUGUUAGACCAGAUCCGAGCCUAGGAACUCUCUGGCUAACU
+#=GC SS_cons                        <<<<.<<<<<<<<<<<.<<<<<...<<<<......>>>>>>>>>>>>>>>
+#=GC RF                             gggcauccccaggcggAccagauaagagccuaagAgcucucuggccgccu
+
+Human_immunodeficien.1              GAGGAACCCAC
+Human_immunodeficien.2              AAAGAACCCAC
+Simian_immunodeficie.1              AGAGAACCCAC
+Simian-Human_immunod.1              .GAGAACCCAC
+Human_immunodeficien.3              AGGGAACCCAC
+Human_immunodeficien.4              AGGGAACCCAC
+Human_immunodeficien.5              AGGGAACCCAC
+Human_immunodeficien.6              AAAGAACCCAC
+Human_immunodeficien.7              AGGGAACCCAC
+Human_immunodeficien.8              AGGGAACCCAC
+Human_immunodeficien.9              GGGGAACCCAC
+Human_immunodeficien.10             GAGGAACCCAC
+Human_immunodeficien.11             GGGGAACCCAA
+Human_immunodeficien.12             AGGGAACCCAU
+Human_immunodeficien.13             AGGGAACCCAC
+Human_immunodeficien.14             AAGGAACCCAC
+Human_immunodeficien.15             AGGGAACCCAC
+Human_immunodeficien.16             AGGGAACCCAC
+Human_immunodeficien.17             AGGGAAUCCAC
+Human_immunodeficien.18             AGGGAACCCAC
+Human_immunodeficien.19             AGGGAACCCAC
+Human_immunodeficien.20             AGGGAACCCAC
+Human_immunodeficien.21             AGGGAACCCAC
+Human_immunodeficien.22             UAGGAACCCAU
+Human_immunodeficien.23             ARGGAACCHAC
+Human_immunodeficien.24             AGGGAACCCAC
+Human_immunodeficien.25             AGGGAACCCAC
+Human_immunodeficien.26             AAGGAACCCAC
+Human_immunodeficien.27             AAAGAACCCAC
+Human_immunodeficien.28             AAGGAACCCAC
+Human_immunodeficien.29             GGGAAACCCAC
+Human_immunodeficien.30             AGGGAACCCAC
+Human_immunodeficien.31             GGGGAACCCAC
+Human_immunodeficien.32             AGAGAACCCAC
+Simian_immunodeficie.2              AAGGAACCCAC
+Simian_immunodeficie.3              GUAGAACCCAC
+Human_immunodeficien.33             AAGGAACCCAC
+Human_immunodeficien.34             AAGGAACCCAC
+Human_immunodeficien.35             GGGGAACCCAC
+Human_immunodeficien.36             AGGAAACCCAC
+Human_immunodeficien.37             AGAGAACCCAC
+Human_immunodeficien.38             AGGGAACCCAC
+Simian_immunodeficie.4              AG.GAACCCAC
+Human_immunodeficien.39             AGGGAACCCAC
+Human_immunodeficien.40             AAGGAACCCAC
+#=GC SS_cons                        >>>>>>>>>..
+#=GC RF                             ggggagcccAa
+//

@@ -1,0 +1,68 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORD83
+#=GF AC    RF00137
+#=GF DE    Small nucleolar RNA SNORD83
+#=GF AU    Griffiths-Jones SR; Daub J
+#=GF GA    31.0
+#=GF NC    0.0
+#=GF TC    38.7
+#=GF PI    U83
+#=GF SE    Griffiths-Jones SR
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    snoRNABase; U83
+#=GF DR    snoRNABase; U84
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Mus_musculus300916
+#=GF DR    snoopy; Oryzias_latipes300094
+#=GF RN    [1]
+#=GF RM    10684929
+#=GF RT    Characterisation of the U83 and U84 small nucleolar RNAs: two novel
+#=GF RT    2'-O-ribose methylation guide RNAs that lack complementarities to
+#=GF RT    ribosomal RNAs.
+#=GF RA    Jady BE, Kiss T;
+#=GF RL    Nucleic Acids Res 2000;28:1348-1354.
+#=GF RN    [2]
+#=GF RM    16381836
+#=GF RT    snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D box
+#=GF RT    snoRNAs.
+#=GF RA    Lestrade L, Weber MJ;
+#=GF RL    Nucleic Acids Res. 2006;34:D158-D162.
+#=GF CC    U83 (SNORD83) and U84 (SNORD84) are members of the C/D class of
+#=GF CC    snoRNA which contain the C (UGAUGA) and D (CUGA) box motifs.
+#=GF CC    They act as guanine methylation guides but lack complementarity
+#=GF CC    to ribosomal RNA [1].  U83 and U84 are spliced from introns 5 and
+#=GF CC    4 of the BAT1 gene in mammals.
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_SNORD83
+#=GF SQ    7
+
+#=GS M.musculus.1   AC    BC024859.1/809-885
+#=GS R.norvegicus.1 AC    AF387339.1/12156-12229
+#=GS R.norvegicus.2 AC    AJ314857.1/8059-8137
+#=GS R.norvegicus.3 AC    AJ314857.1/13267-13341
+#=GS H.sapiens.1    AC    AJ243199.1/1-78
+#=GS S.scrofa.1     AC    AJ251914.1/37947-38024
+#=GS S.scrofa.2     AC    Z34846.1/492-568
+
+M.musculus.1               GCCACAUGAUGUUUGCAUUUGGGAA.GUGAGCGCUCUGCGCA..GUGCUG
+R.norvegicus.1             GC.AAAUGAUGUGUG...UUUGAUAUAGGAGCACUGUGUGCA..AGGACG
+R.norvegicus.2             GCCACAUGAUGUUUGCAAUUGGGAA.GUGAGCGCUCUGCGCGCGGUGCUG
+R.norvegicus.3             GCCAAAUGAUGUGUG...UUUGAUAUAGGAGCACUGUGUGCA..AGGACG
+H.sapiens.1                GCCAUAUGAUGUUUUCUUUUCGAAAGGUGAGCGCUUUGCGCA..GUGAUG
+S.scrofa.1                 GCCACAUGAUGUUUUCAUUUUGAAAAGUGAGAGCUUUGCGCA..GUGACG
+S.scrofa.2                 GCCACAUGAUGUUUUCAUUUUGAAAAGUGAGAGCUUUGCGCA..GUGACG
+#=GC SS_cons               <<<<..........................<<<<...>>>>.........
+
+M.musculus.1               ACCCUUAUCUAUCACCCUUGACUGAUGGCU
+R.norvegicus.1             ACCCUCAUCUAUCACCCAUGACUGAUGGCU
+R.norvegicus.2             ACCCUUAUCUAUCACCCUUGACUGAUGGCU
+R.norvegicus.3             ACCCUCAUCUAUCACCCAUGACUGAUGGCU
+H.sapiens.1                ACCCUCAUCUAUCACCCUUGACUGAUGGCU
+S.scrofa.1                 ACUUUUAUCUAUCACCCUUGACUGAUGGCU
+S.scrofa.2                 ACUUUUAUC.AUCACCCUUGACUGAUGGCU
+#=GC SS_cons               .........................>>>>.
+//

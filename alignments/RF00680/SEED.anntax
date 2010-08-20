@@ -1,0 +1,42 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-224
+#=GF AC    RF00680
+#=GF DE    microRNA mir-224
+#=GF AU    Wilkinson A
+#=GF GA    50.0
+#=GF NC    0.0
+#=GF TC    74.0
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000088
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    5
+
+#=GS O.princeps.1           AC    AAYZ01416179.1/505-584
+#=GS Spermophilus_tridece.1 AC    AAQQ01376165.1/3529-3609
+#=GS H.sapiens.1            AC    AADB02037484.1/327473-327553
+#=GS F.catus.1              AC    AANG01462441.1/2285-2365
+#=GS Dasypus_novemcinctus.1 AC    AAGV020950165.1/903-982
+
+O.princeps.1                       GGGCUUUCAAGUCACUAGUGGUUCCGUUUAGUAGAUGGU.UUGCAUUUCU
+Spermophilus_tridece.1             GGGCUUUCAAGUCACUACUGUUUCCGCUUAGUAGAUGGUUGUACAUUGUU
+H.sapiens.1                        GGGCUUUCAAGUCACUAGUGGUUCCGUUUAGUAGAUGAUUGUGCAUUGUU
+F.catus.1                          GGGCUUUCAAGUUACUAGUGAUUCCGUUUAGUAGAUGGCUGUGCAUUGUU
+Dasypus_novemcinctus.1             GUGCUUUCAAGUCACUUGUCUACCA..UUAGUAGAUGGUUGUGCAUUGUU
+#=GC SS_cons                       <<<<<<<..<<<<<<<<<.<<<<<<<<<<.<.<<<..<<.....>>..>>
+#=GC RF                            gggccuucAagucacuaguggccccgcuuAguagaugguugugcacuguc
+
+O.princeps.1                       UCAAAAUGGUGCC.CUAGUGACUACAAAGCCC
+Spermophilus_tridece.1             UCAGAAUGGUGCC.CUAGUGACUACAAAGCAC
+H.sapiens.1                        UCAAAAUGGUGCC.CUAGUGACUACAAAGCCC
+F.catus.1                          UCAAAAUGGCCCC.CUAGUGACUACAAAGCCC
+Dasypus_novemcinctus.1             UCAAAAAUGGUACCCUAGUGACUACAAUGCCC
+#=GC SS_cons                       >>.>>>>>>>>>>.>>>>>>>>>..>>>>>>>
+#=GC RF                            ucAaagcggggccacuagugacuAcaaggccc
+//

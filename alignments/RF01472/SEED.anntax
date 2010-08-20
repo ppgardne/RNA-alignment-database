@@ -1,0 +1,64 @@
+# STOCKHOLM 1.0
+#=GF ID    rli40
+#=GF AC    RF01472
+#=GF DE    Listeria snRNA rli40
+#=GF AU    Osuch I
+#=GF GA    250.0
+#=GF NC    32.9
+#=GF TC    261.3
+#=GF SE    INFERNAL
+#=GF SS    Predicted; RNAalifold
+#=GF TP    Gene; snRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF RN    [1]
+#=GF RM    17259222
+#=GF RT    Identification of new noncoding RNAs in Listeria monocytogenes and
+#=GF RT    prediction of mRNA targets.
+#=GF RA    Mandin P, Repoila F, Vergassola M, Geissmann T, Cossart P;
+#=GF RL    Nucleic Acids Res. 2007;35:962-974.
+#=GF WK    http://en.wikipedia.org/wiki/Listeria_monocytogenes_non-coding_RNA
+#=GF SQ    4
+
+#=GS L.ivanovii.1           AC    AJ888460.1/13815-14075
+#=GS L.innocua.1            AC    AL596168.1/16576-16838
+#=GS Listeria_welshimeri_.1 AC    AM263198.1/1259992-1260254
+#=GS L.monocytogenes.1      AC    AL591978.1/115547-115810
+
+L.ivanovii.1                       GAAAUUAUUAUUA..GUAAGUGAGGCGUCCUUAUGAAAAUGUCUAAACCA
+L.innocua.1                        GAAAUUAUUUUUAAUGUAAGUGAGGCGUCCUUAUGAAAAUAUCUAAACCG
+Listeria_welshimeri_.1             GGAAAUAUAUUUAAAGUAAGUGAGGCGUCCUUAUGAAAAUUUCUAAACCG
+L.monocytogenes.1                  GAAAUUAUUUUUAAUGUAAGUGAGGCGUCCUUAUGAAAAUUUCUAAACCA
+#=GC SS_cons                       .....<<<<<<<....<<<<<<<<..<<<<<...<<<<<<<...<<<<<<
+
+L.ivanovii.1                       GCAUAUAUCGUUUUGCUUGUUGUCGGCUUGGUUUUUGUUUUUUUAGGACU
+L.innocua.1                        GCAUAUAUGGUUUUACUUGUUGUUGGCUUGGUUUUUGUUUUUUUGGGACU
+Listeria_welshimeri_.1             GCAUAUAUGGUUUUGCUCGUUGUUGGCUUGGUUUUUGUUUUUUUAGGACU
+L.monocytogenes.1                  GCUUAUUUGGUUUUACUUGUUGUUGGCUUGGUUUUUGUUUUUCUAGGACU
+#=GC SS_cons                       <<..<<<.<<.....>>...>>>..>>.>>>>>>.>>>>>>>..>>>>>.
+
+L.ivanovii.1                       AUCUAACAUUGGGAUUUCGAUUUUCUGGGAUUUUAGUGAUUUAGAAAACU
+L.innocua.1                        AUCUAAUAUCGGAAUUUCUAUUUUUUGGGACUUUAGCGACUUAGAAAAUA
+Listeria_welshimeri_.1             AUCUAAUAUCGGAAUUUCUAUUUUUUGGGAUUUUAGCGACUUAGAGAAUU
+L.monocytogenes.1                  AUCUAAUAUAGGAAUCUCUAUUUUUUGGGAUUUUAGCGACUUAGAGAAUU
+#=GC SS_cons                       ...........<<<<<<..<<<<<<<<<<..........>>>>>>>>>>.
+
+L.ivanovii.1                       UGAUGGUUGGCUUAUUGUUAAUCAUUAUUGGGACAAUUACACUUAGAAUC
+L.innocua.1                        UGCUGGUUGGCUCUUUGCUAAUCAUCAUUGGGCUUAUUACACUUAGAGUU
+Listeria_welshimeri_.1             UGAUGGUUGGUAGCUUAUUGAUCAUCAUUGGGCUCAUCACACUUAGAGUU
+L.monocytogenes.1                  UGAUGGUUGGUGGUUUGUUAAUCAUCAUUGGACUCAUCACACUUAGGAUU
+#=GC SS_cons                       <<<<<<<<<<<.....>>>>>>>>>>>..................>>>>>
+
+L.ivanovii.1                       CGCUAUUCGUUUAAAAAAAGAGGAUAGAA.AAGCACUGCAGUCAACUUUU
+L.innocua.1                        CGAUAUACAUUUAAAAAAAGAGGAUAGAA.AAGCACUGCAAAUUAUGAUU
+Listeria_welshimeri_.1             CGGUAUUCAUUUAAAAAAAGAGAAUA.AAAAGGCACUGCAAUUUGAUUUU
+L.monocytogenes.1                  CGAUAUUCAUUUAAAAAAAGAGGAUAGAAAAAGCACUGCAAUUAUUGAUU
+#=GC SS_cons                       >....>>>>>>>>......>>>>>>><<<<<<<<<<<<<<<.......>>
+
+L.ivanovii.1                       GCAGUGCUUUUCUA
+L.innocua.1                        GCAGUGCUUUUCUA
+Listeria_welshimeri_.1             GCAGUGCUUUUUUA
+L.monocytogenes.1                  GCAGUGCUUUUUCU
+#=GC SS_cons                       >>>>>>>>>>>>>.
+//

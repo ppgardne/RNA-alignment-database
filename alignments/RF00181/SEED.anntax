@@ -1,0 +1,286 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORD113
+#=GF AC    RF00181
+#=GF DE    Small nucleolar RNA SNORD113/SNORD114 family
+#=GF AU    Griffiths-Jones SR, Daub J
+#=GF GA    26.0
+#=GF NC    25.9
+#=GF TC    26.0
+#=GF PI    sno_14q_I_II; sno_14q_I
+#=GF SE    PMID:12045206
+#=GF SS    Published; PMID:12045206
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Mus_musculus300531
+#=GF DR    snoopy; Homo_sapiens300018
+#=GF RN    [1]
+#=GF RM    12045206
+#=GF RT    Identification of tandemly-repeated C/D snoRNA genes at the imprinted
+#=GF RT    human 14q32 domain reminiscent of those at the Prader-Willi/Angelman
+#=GF RT    syndrome region.
+#=GF RA    Cavaille J, Seitz H, Paulsen M, Ferguson-Smith AC, Bachellerie JP;
+#=GF RL    Hum Mol Genet 2002;11:1527-1538.
+#=GF CC    The imprinted human domain at 14q32 contains two clusters of
+#=GF CC    tandemly repeated small nucleolar RNAs named 14q(I) and 14q(II)
+#=GF CC    snoRNAs. These two clusters are named SNORD113 and SNORD114
+#=GF CC    respectively in the HGNC approved gene symbol nomenclature.  The
+#=GF CC    snoRNAs found in both clusters are clearly related and are
+#=GF CC    represented here by a single family. These snoRNAs are intron
+#=GF CC    encoded and are processed from the tissue-specific non-coding
+#=GF CC    human MEG8 RNA, which lies downstream of the imprinted genes DLK1
+#=GF CC    and GTL2.  snoRNAs 14q(I) and 14q(II) differ from previously
+#=GF CC    identified C/D box snoRNAs in their expression profiles and lack
+#=GF CC    of complementarity to rRNA and snRNA.  Homologues of these
+#=GF CC    snoRNAs are found in the imprinted non-coding mouse transcript
+#=GF CC    Rian, and in the rat non-coding Bsr (brain-specific repetitive)
+#=GF CC    RNA.
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_SNORD113
+#=GF SQ    59
+
+#=GS M.musculus.1   AC    AC121784.2/82332-82403
+#=GS M.musculus.2   AC    AC121784.2/69447-69528
+#=GS M.musculus.3   AC    AC121784.2/48567-48638
+#=GS M.musculus.4   AC    AC121784.2/76334-76408
+#=GS M.musculus.5   AC    AC121784.2/77918-77991
+#=GS M.musculus.6   AC    AB076245.1/1700-1771
+#=GS M.musculus.7   AC    AC121784.2/78528-78602
+#=GS M.musculus.8   AC    AB076245.1/105-176
+#=GS M.musculus.9   AC    AC121784.2/75479-75547
+#=GS M.musculus.10  AC    AC121784.2/52659-52730
+#=GS M.musculus.11  AC    AC121784.2/77053-77127
+#=GS M.musculus.12  AC    AC121784.2/51879-51950
+#=GS M.musculus.13  AC    AC121784.2/46958-47030
+#=GS R.norvegicus.1 AC    AB014881.1/925-1009
+#=GS R.norvegicus.2 AC    AB014878.1/886-973
+#=GS R.norvegicus.3 AC    AB014879.1/10-96
+#=GS R.norvegicus.4 AC    AB014878.1/1781-1860
+#=GS R.norvegicus.5 AC    AB014877.1/895-980
+#=GS R.norvegicus.6 AC    AB014883.1/1284-1367
+#=GS H.sapiens.1    AC    AL132709.5/136822-136751
+#=GS H.sapiens.2    AC    AL132709.5/182043-181969
+#=GS H.sapiens.3    AC    AL132709.5/139624-139553
+#=GS H.sapiens.4    AC    AL132709.5/168250-168176
+#=GS H.sapiens.5    AC    AL132709.5/135542-135471
+#=GS H.sapiens.6    AC    AL132709.5/146793-146719
+#=GS H.sapiens.7    AC    AL132709.5/166229-166160
+#=GS H.sapiens.8    AC    AL132709.5/185108-185034
+#=GS H.sapiens.9    AC    AL132709.5/142597-142509
+#=GS H.sapiens.10   AC    AL132709.5/149496-149422
+#=GS H.sapiens.11   AC    AL132709.5/158545-158469
+#=GS H.sapiens.12   AC    AL132709.5/132469-132398
+#=GS H.sapiens.13   AC    AL132709.5/133438-133369
+#=GS H.sapiens.14   AC    AL132709.5/141607-141533
+#=GS H.sapiens.15   AC    AL132709.5/153488-153414
+#=GS H.sapiens.16   AC    AL132709.5/148929-148858
+#=GS H.sapiens.17   AC    AL132709.5/151720-151647
+#=GS H.sapiens.18   AC    AL132709.5/154547-154476
+#=GS H.sapiens.19   AC    AL132709.5/171766-171695
+#=GS H.sapiens.20   AC    AL132709.5/137723-137652
+#=GS H.sapiens.21   AC    AL132709.5/164433-164362
+#=GS H.sapiens.22   AC    AL132709.5/169743-169666
+#=GS H.sapiens.23   AC    AL132709.5/180473-180397
+#=GS H.sapiens.24   AC    AL132709.5/140595-140524
+#=GS H.sapiens.25   AC    AL132709.5/183412-183335
+#=GS H.sapiens.26   AC    AL132709.5/152651-152577
+#=GS H.sapiens.27   AC    AL132709.5/148004-147935
+#=GS H.sapiens.28   AC    AL132709.5/131508-131439
+#=GS H.sapiens.29   AC    AL132709.5/128363-128289
+#=GS H.sapiens.30   AC    AL132709.5/145122-145048
+#=GS H.sapiens.31   AC    AL132709.5/145774-145703
+#=GS H.sapiens.32   AC    AL132709.5/156819-156747
+#=GS H.sapiens.33   AC    AL132709.5/191680-191609
+#=GS H.sapiens.34   AC    AL132709.5/129680-129609
+#=GS H.sapiens.35   AC    AL132709.5/167225-167151
+#=GS H.sapiens.36   AC    AL132709.5/138673-138602
+#=GS H.sapiens.37   AC    AL132709.5/178148-178075
+#=GS H.sapiens.38   AC    AL132709.5/175950-175879
+#=GS H.sapiens.39   AC    AL132709.5/134553-134482
+#=GS H.sapiens.40   AC    AL132709.5/155570-155499
+
+M.musculus.1               UUGGUUG.AUGAUGACCA...............CCGGUGG...CAUUUG.
+M.musculus.2               UGCAGCACCUGAUGCCCCCGGAUU.........GCUGUGG...CAUGUG.
+M.musculus.3               AGGGUUA.GUCUUGACCU...............CUGGUAG...CACACG.
+M.musculus.4               AGGACCA.AUGAUGAGAU...............CUGGUGG...CGUUUG.
+M.musculus.5               AGGACCG.AUGAUGAGAU...............CUGGUGG...CGUUUG.
+M.musculus.6               UGGAUCU.GUGAUGACAA...............AGGGUGG...CGUAUG.
+M.musculus.7               CAGAACA.AUGAUGAGAU...............CUGGUGG...CAUCUG.
+M.musculus.8               AGGGUUA.GUCUUGACCU...............CUGGUAG...CACACA.
+M.musculus.9               AGGACCG.AUGAUGAGAU...............CUGAUGG...UGUCUG.
+M.musculus.10              UGUAUUU.GUGAUGAUCA...............CUGGUGC...CAGAUG.
+M.musculus.11              AGGACCU.AUGAUGAGAU...............CUGGUGG...CAUCUG.
+M.musculus.12              UGGAUCU.AUGAUGACCU...............CUGGUGC...CGUAUG.
+M.musculus.13              UGGAUCA.AUGAUGACCA...............GCGGUAGC..CGUAUG.
+R.norvegicus.1             UGGAUCA.UUGAUGACCAAAAAAAAAUCAU...CUGGGAGU..CUUCUG.
+R.norvegicus.2             UGGAUCA.UUGAUGACCAAAAAAAAAAAAACAUCUGGGAGU..CCUCUG.
+R.norvegicus.3             UGGAUCA.UUGAUGACCAAAAAAAAAAAACAU.CUGGGAGU..CCUCUG.
+R.norvegicus.4             .GGAUCA.UUGAUGACCAUAAAAG.........AUGUGGGAGUCGUCUG.
+R.norvegicus.5             UGGAUCA.UUGAUGAACAAAAAAAAAAACAU..CUGGGAGU..CCUCUG.
+R.norvegicus.6             UGGAUCA.UUGAUGACCAAAAAAAAUCAU....CUGGGAGU..CCUCUG.
+H.sapiens.1                UGGAUCG.AUGGUGACUG...............UUGAUGG...CAUAUG.
+H.sapiens.2                UGGACCA.GUGAUGAAUA...............UCAUGGGG..UUUCUG.
+H.sapiens.3                UGGAUCA.AUGAUGACCA...............CUGGUGG...CGUAUG.
+H.sapiens.4                UGGACCA.AUGAUGACCA...............CUGGUGG...CGUUUG.
+H.sapiens.5                UGGAUCG.AUGAUGACUA...............CUGGUGG...CGUAUG.
+H.sapiens.6                UGGACCA.AUGAUGACAA...............AUGGUGG...CAUUGG.
+H.sapiens.7                UGGAUUG.AUGAUGACCA...............CUGGUGG...CCUAUG.
+H.sapiens.8                UGGACCA.AUGAUGAGUA...............CCAUGGGG..UAUCUG.
+H.sapiens.9                UGGACUG.UUGAUGACAA...............GUGGUGG...CUUAUGU
+H.sapiens.10               UGGACCA.AUGAUGACAA...............CUGCCGG...CGUAUG.
+H.sapiens.11               UGAACUA.GUGGUGAUGG...............CUUGUGG...CAUAUUU
+H.sapiens.12               UGGAUCG.AUGAUGACUG...............CUGGUGG...CGUAUG.
+H.sapiens.13               UGGUUCA.GUGUUGACUA...............CUGGUGU...CGUGUG.
+H.sapiens.14               UAGAACA.ACGAUAACAA...............AUAGUAG...UGCAGG.
+H.sapiens.15               UGGACCA.GUGAUGGUGA...............CUGGUGG...UGUGUG.
+H.sapiens.16               UGGAUCG.AUGAUGACCA...............CUGGUGG...CGUAUG.
+H.sapiens.17               UGGACCA.GUGAUGACCA...............CUGGUGG...CAUAUG.
+H.sapiens.18               AAGAUCA.AUGAUGACUA...............CUGUUAG...UGUAUG.
+H.sapiens.19               UGGACCU.AUGAUGAUGA...............CUGGUGG...CGUAUG.
+H.sapiens.20               UGGAUCG.AUGAUGACUA...............CUGGUGG...CGUAUG.
+H.sapiens.21               UGGAUCA.AUGAUGUCCA...............CUGGUGG...CGUAUA.
+H.sapiens.22               GGGACCA.AUGAUAAUGA...............CUGUUGG...GGUAUG.
+H.sapiens.23               UGGAUCA.AUGAUGAGUA...............UGCGUGGGG.CAUCUG.
+H.sapiens.24               UGGAUCG.AUGAUGACUA...............CUGGUGG...CGUAUG.
+H.sapiens.25               UGGAUCA.AUGAUGAGUA...............UUGGUGGAGGUGUCUG.
+H.sapiens.26               UGGACCA.AUGAUGACAA...............AUACCGG...CGUAUG.
+H.sapiens.27               UGGACCA.AUUAUGACUA...............CUG........GUGUG.
+H.sapiens.28               UGGAUCG.AUGAUGACUA...............CUGGUAG...C..AUG.
+H.sapiens.29               UGAGCAA.GCGAUGACAG...............CCGGUGG...UGUGUG.
+H.sapiens.30               UGGAUCA.AUGAUAAAAC...............UUGCUGG...CAUAUG.
+H.sapiens.31               UAGAUCA.GUGAUGACUA...............CUGUUGG...UGUAUG.
+H.sapiens.32               UUGAUGAUAUGAUGGCCA...............CUGGUGG...CUUAUG.
+H.sapiens.33               UAGACCA.AUGAUGAGUA...............UUCUGGGG..UGUCUG.
+H.sapiens.34               UGGAUCA.AUCAUGACUA...............CUGGUAU...UGGAUG.
+H.sapiens.35               UGAGCCA.GUGAUGAAAA...............CUGGUGG...CAUAGA.
+H.sapiens.36               UGGAUCG.AUGAUGACUA...............CCGGUGG...CGUAUG.
+H.sapiens.37               UGGACCA.AUGAUGAG.A...............UUGGAGGG..UGUCUG.
+H.sapiens.38               UGGAUCA.AUGAUGAGUA...............CCCUGGGG..UGUCUG.
+H.sapiens.39               UGGAUCG.AUGAUGAGCA...............CUGGUGG...AGUAUG.
+H.sapiens.40               UGGAUCG.AUGAUGACUG...............CUGGUGG...CGUAUG.
+#=GC SS_cons               .<<<<<............................................
+
+M.musculus.1               ACUCAUACAUGAUGA.CUUU................GAGUCUGAAACACC
+M.musculus.2               AGGCAUGUAUGUUGA.AUAUCAU.............AUGUCUAGAACUCU
+M.musculus.3               AUUUGUGGAUGAUGG.GUACA................GGUCUGGAAGUCU
+M.musculus.4               AGUGAUACUCCAUGA.ACGCCAA.............GUAUCCAGAAAUCU
+M.musculus.5               AGUGAUACUCCAUGA.ACGCCAA.............GUAUCCAGAAAUCU
+M.musculus.6               AGUUGUGGAUCAUGA.GUACA................UGUCUGGAAGUCU
+M.musculus.7               AAUUUUUCUUGAUGGCAUCCA..............UGUCAAGAGAAAUCU
+M.musculus.8               AUUUGUGGAUGAUGG.GUACA................GGUCUGGAAGUCU
+M.musculus.9               AGUGUUUCUCGAUGACAUGAA....................CAGAUAUCU
+M.musculus.10              AGUUAUGCAUCAUGG.UCACA................GGUCUGCGAGUCC
+M.musculus.11              ACUGUAUCUCGAUGA.CAGCCAU.............GAGAACAGAUGUCU
+M.musculus.12              AGUCGGGGAUCAUGA.UCACA................GGUCUGGGAGUCU
+M.musculus.13              AUUCAUGGAUCAUGA.CUACA................GAUCUGGGAGUCU
+R.norvegicus.1             AGACAUCCAUGAUGA.CCACAAC................AUUGGGAGUCU
+R.norvegicus.2             AGACAUCCAUGAUGA.CCACAAC................AUUGGGAGUCU
+R.norvegicus.3             AGACAUCCAUGAUGA.CCACAAC................AUUGGGAGUCU
+R.norvegicus.4             AAACAUGCAUGAUGA.CCACAAC................AUUGCGAGUCU
+R.norvegicus.5             AGACAUCCAUGAUGA.CCACAAC................AUUGGGAGUCU
+R.norvegicus.6             AGACAUCCAUGAUGA.CCACAAC................AUUGGGAGUCU
+H.sapiens.1                ACUCACAUAUGAUGA.GUAC................GUAUCUGGAACUCU
+H.sapiens.2                AAACAACAUUUUUGA.UUAAAC..............CCAUCUGCAACUCU
+H.sapiens.3                AGUCAUAUGUGAUGA.AUAC................GUGUCUGGAACUCU
+H.sapiens.4                AGUCAUGGACGAUGA.AUACUAC.............GUGUCUGAAACUCU
+H.sapiens.5                AGUCUUUUGCGAUGA.AUAC................GUGUCUAGAACUCU
+H.sapiens.6                AGUUAUGGACGAUGA.AUGAUAU.............GUGUCUGAAACUCU
+H.sapiens.7                AGUCAU..ACAAUGA.AUAC................GUGUCUAGAACUCU
+H.sapiens.8                AAACAGGAUUUUUGA.UUAAAC..............CCAUAUGCAAUUCU
+H.sapiens.9                GGUUGUACAUGCUGG.UUGUAUAUGAAGAAUAUUACAUAUCUGAAACUUU
+H.sapiens.10               AGUGUUGGGUGAUGA.AUAAUAC.............GUGUCUAGAACUCU
+H.sapiens.11               AGUCACAGAUGAUGA.AUAAAUAC............AUGCCUGAGACUCU
+H.sapiens.12               AGUCAUAUGCGAUGA.AUAC................GUGUCUAGAACUCU
+H.sapiens.13               AGUCAU..ACAAUGA.AUACA................UGUCUGGAACUCU
+H.sapiens.14               AGUCAUAAACUAUGA.GUAAUAU.............GUGUGUGGAACUCU
+H.sapiens.15               AGUCAUGCACAGUGA.AUAUCAU.............GUGUCUGGAACUCU
+H.sapiens.16               AGUCAUACAUGAUGA.AUAU................GUGUCUGGAACUCU
+H.sapiens.17               AGUCAUACACA.UGA.ACACCAU.............GUUUCUAGAACUCU
+H.sapiens.18               AGUUACACAUGAUGA.AUACA................UGUCUGAAACUCU
+H.sapiens.19               AGUCAUUGACGGUGA.AUACA................GGUCUGGAAGUCU
+H.sapiens.20               AGUCAUAGACAAUGA.AUAC................GUGUCUGGAACUCU
+H.sapiens.21               AAUCAUAUUUGGUGA.AUAUA................UGUCUGGAACUCU
+H.sapiens.22               AGUCAGUGAGGUUGA.AUAACAGUUU..........GUAUCUGGAAAUCU
+H.sapiens.23               AAUCAAAUAUUCUGA.UUAUACC.............CUGUCUGUAUCUCU
+H.sapiens.24               AGUCAUCUACAGUGA.AUAC................GUCUCUGGAACUCU
+H.sapiens.25               AAUCAACACUUUUGA.UUAAGCC.............CUCUGUGUAACUCU
+H.sapiens.26               AGUCUUGGAUGAUGA.AUAAUAC.............GUGUCUGGAACUCU
+H.sapiens.27               AGUCACGCAUAAUGA.ACACCAC.............GUGUCUGGAACUCU
+H.sapiens.28               AGUCAUAUACAGUGA.AUACA................UGUCUGGAACUCU
+H.sapiens.29               AGUCAUGGAGGAUGA.AUACUAA.............GUGCCUGGAACUCU
+H.sapiens.30               AAUCUUGGAUAAUGG.AUGAUAC.............GUGUGUGGAACUCU
+H.sapiens.31               AGUCAUAUACGAUGA.AUACA................UGUCUGAAAUUCU
+H.sapiens.32               AGUCUUAUACAGUGA.AUACA................UGUUUGAAACUCU
+H.sapiens.33               AAUCAAUGAUUUUGA.UUAAAC.................CCUGUAACUCU
+H.sapiens.34               GGUCUUCGUCAGUGA.AUGCC................UAUCUGGAACUCU
+H.sapiens.35               AGUCAAGGAUGCUGA.AUAAUGU.............GUGUCUAGAACUCU
+H.sapiens.36               AGUCAUAUGUGAUGA.AUAC................GUGUUUGGAACUCU
+H.sapiens.37               AAUCAAAAAUUUUGA.UUAAAG..............CCAUCUGUAACUCU
+H.sapiens.38               AAUCUUGGAUUUUGA.UUAAAC.................CCUAUAACUCU
+H.sapiens.39               AGUCACAUACGAUGA.AUAC................GUGUCUGGAACUCU
+H.sapiens.40               AGUCUUACAUGAUGA.AUAC................GUGUCUGGAACUCU
+#=GC SS_cons               ..................................................
+
+M.musculus.1               AAGAUCCAA
+M.musculus.2               GAUCUAAAA
+M.musculus.3               GAAGUCUAU
+M.musculus.4               GAGGUCAAU
+M.musculus.5               GAUG.CCUU
+M.musculus.6               GAGAUUCAC
+M.musculus.7               GAAGUCAGG
+M.musculus.8               GAAGUCUAU
+M.musculus.9               GAGGUCAGG
+M.musculus.10              GAGGUCCAC
+M.musculus.11              GAGGUCAGG
+M.musculus.12              GAGGUCCAC
+M.musculus.13              GAGUUCCAC
+R.norvegicus.1             GAGGUCCAC
+R.norvegicus.2             GAGGUCCAC
+R.norvegicus.3             GAGGUCCAC
+R.norvegicus.4             GAGGUCCAC
+R.norvegicus.5             GAGGUCCAC
+R.norvegicus.6             GAGGUCCAC
+H.sapiens.1                GAGGUCUGU
+H.sapiens.2                GAGGUCCAU
+H.sapiens.3                GAGGUCCAC
+H.sapiens.4                GAGGUCCAA
+H.sapiens.5                GAGGUCCGU
+H.sapiens.6                GAGGUCCAA
+H.sapiens.7                GAGGUCCAU
+H.sapiens.8                GAGGUCCAU
+H.sapiens.9                GAGGUCCAA
+H.sapiens.10               GAGGUCCAA
+H.sapiens.11               GAGGUUAGU
+H.sapiens.12               GAGGUCCAU
+H.sapiens.13               GAGGCCCAU
+H.sapiens.14               GAGCAUCAA
+H.sapiens.15               GAGGUCCAA
+H.sapiens.16               GAGGUCCUU
+H.sapiens.17               GAGGUCCAA
+H.sapiens.18               GAGGUCCAU
+H.sapiens.19               GAGGUCCAA
+H.sapiens.20               GAGGUCCAU
+H.sapiens.21               GAGGUCCAA
+H.sapiens.22               GAGGUCCAA
+H.sapiens.23               GAGGUCCAU
+H.sapiens.24               GAGGUCUGU
+H.sapiens.25               GAGAUCUGU
+H.sapiens.26               GAGGUCCAU
+H.sapiens.27               GAGGUCCAA
+H.sapiens.28               GAGGUCUGU
+H.sapiens.29               GAGGUUCAA
+H.sapiens.30               GAGGUCCAA
+H.sapiens.31               GAGGUCCAA
+H.sapiens.32               GAGGUCUGU
+H.sapiens.33               GAGGUCCAU
+H.sapiens.34               GAGGUCCAU
+H.sapiens.35               GAGGUUCAA
+H.sapiens.36               GAGGUCCAU
+H.sapiens.37               GAGGUCCAU
+H.sapiens.38               GAGGUCCAU
+H.sapiens.39               GAGGUCCAU
+H.sapiens.40               GAGGUCCAU
+#=GC SS_cons               ..>>>>>..
+//

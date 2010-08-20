@@ -1,0 +1,159 @@
+# STOCKHOLM 1.0
+#=GF ID    cHP
+#=GF AC    RF00617
+#=GF DE    flavivirus capsid hairpin cHP
+#=GF AU    Daub J
+#=GF GA    31.0
+#=GF NC    28.6
+#=GF TC    32.0
+#=GF SE    PMID:16474125
+#=GF SS    Published; PMID:16474125
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    16474125
+#=GF RT    RNA secondary structure in the coding region of dengue virus type 2
+#=GF RT    directs translation start codon selection and is required for viral
+#=GF RT    replication.
+#=GF RA    Clyde K, Harris E;
+#=GF RL    J Virol. 2006;80:2170-2182.
+#=GF CC    cHP is a conserved RNA hairpin structure identified within the
+#=GF CC    capsid coding region of several flavivirus genomes. These
+#=GF CC    positive strand RNA genomes are translated as a single
+#=GF CC    polypeptide and subsequently cleaved into constituent proteins,
+#=GF CC    the first of which is the capsid protein. The cHP hairpin is
+#=GF CC    located within the capsid coding region between two AUG start
+#=GF CC    codons. The cHP cis element has been shown to direct translation
+#=GF CC    start from the thermodynamically unstable first start codon
+#=GF CC    [1]. The ability of cHP to direct initiation from the first start
+#=GF CC    codon is proportional to its thermodynamic stability, is position
+#=GF CC    dependent, and is sequence independent [1]. It has been
+#=GF CC    demonstrated that both AUGs and the conserved cHP are necessary
+#=GF CC    for efficient viral replication in human and mosquito cells
+#=GF CC    [1].
+#=GF WK    http://en.wikipedia.org/wiki/flavivirus_capsid_hairpin_cHP
+#=GF SQ    59
+
+#=GS Dengue_virus_2.1        AC    AF022438.1/97-141
+#=GS Dengue_virus_1.1        AC    D00502.1/102-146
+#=GS Dengue_virus_2.2        AC    AF360862.1/1-45
+#=GS Dengue_virus_2.3        AC    AF360863.1/1-45
+#=GS Dengue_virus_2.4        AC    AF100465.1/86-130
+#=GS Dengue_virus_1.2        AC    AF226687.2/95-139
+#=GS Dengue_virus_2.5        AC    M84727.1/97-141
+#=GS Dengue_virus_4.1        AC    AF289029.1/102-143
+#=GS Dengue_virus_3.1        AC    AB010982.1/1-45
+#=GS Dengue_virus_3.2        AC    AB189125.1/95-139
+#=GS Dengue_virus_2.6        AC    AF022440.1/97-141
+#=GS Dengue_virus_1.3        AC    AF180818.1/95-139
+#=GS Dengue_virus_2.7        AC    AF100466.2/88-132
+#=GS Dengue_virus_4.2        AC    M14931.2/102-143
+#=GS Dengue_virus_2.8        AC    L04561.1/94-138
+#=GS Dengue_virus_1.4        AC    S75335.1/1-45
+#=GS Dengue_virus_2.9        AC    AY692470.1/25-69
+#=GS Dengue_virus_2.10       AC    AB189122.1/97-141
+#=GS Dengue_virus_2.11       AC    X51708.1/1-45
+#=GS Dengue_virus_1.5        AC    AY376738.1/81-125
+#=GS Dengue_virus_2.12       AC    AF469176.1/1-45
+#=GS Dengue_virus_1.6        AC    X70952.1/1-45
+#=GS Dengue_virus_2.13       AC    AF204177.1/97-141
+#=GS Dengue_virus_1.7        AC    AF309641.1/81-125
+#=GS Dengue_virus_2.14       AC    AY744147.1/97-141
+#=GS Dengue_virus_3.3        AC    AY858044.2/95-139
+#=GS Dengue_virus_2.15       AC    M19197.1/97-141
+#=GS Dengue_virus_2.16       AC    AF038403.1/97-141
+#=GS Dengue_virus_3.4        AC    AB010990.1/1-45
+#=GS Dengue_virus_3.5        AC    AY099340.1/95-139
+#=GS Dengue_virus_4.3        AC    AY152108.1/1-42
+#=GS Dengue_virus_3.6        AC    AB189127.1/95-139
+#=GS Dengue_virus_2.17       AC    X51710.1/1-45
+#=GS Dengue_virus_1.8        AC    AY708047.1/95-139
+#=GS Dengue_virus_4.4        AC    AY152304.1/1-42
+#=GS Dengue_virus_1.9        AC    AY762084.1/93-137
+#=GS Dengue_virus_2.18       AC    M84728.1/97-141
+#=GS Dengue_virus_3.7        AC    AB010986.1/1-45
+#=GS Dengue_virus_2.19       AC    U88237.1/1-43
+#=GS Usutu_virus.1           AC    AY453411.1/97-144
+#=GS Kunjin_virus.1          AC    AY274504.1/97-144
+#=GS Japanese_encephaliti.1  AC    S75726.1/1-45
+#=GS St._Louis_encephalit.1  AC    M16614.1/99-146
+#=GS Japanese_encephaliti.2  AC    AY184212.1/96-143
+#=GS Japanese_encephaliti.3  AC    AB051292.1/97-144
+#=GS Japanese_encephaliti.4  AC    U03696.1/69-116
+#=GS West_Nile_virus.1       AC    AY765264.1/97-144
+#=GS West_Nile_virus.2       AC    AY688948.1/97-144
+#=GS West_Nile_virus.3       AC    AY277251.1/92-139
+#=GS Japanese_encephaliti.5  AC    U21057.1/69-116
+#=GS Japanese_encephaliti.6  AC    AF080251.1/96-143
+#=GS Japanese_encephaliti.7  AC    AY303794.1/96-143
+#=GS Japanese_encephaliti.8  AC    U03694.1/69-116
+#=GS Japanese_encephaliti.9  AC    AF289817.1/68-115
+#=GS West_Nile_virus.4       AC    AY278441.1/97-144
+#=GS Murray_Valley_enceph.1  AC    AF161266.1/96-143
+#=GS West_Nile_virus.5       AC    AY701412.1/55-102
+#=GS Japanese_encephaliti.10 AC    AF416457.1/96-143
+#=GS Alfuy_virus.1           AC    AY898809.1/96-143
+
+Dengue_virus_2.1                    AUGAAUAACCAACGAAAAAAGGCGAA..AAAU...ACGCCUUUCAAUAUG
+Dengue_virus_1.1                    AUGAACAACCAACGGAAAAAGACGGG..UAAC...CCGUCUUUCAAUAUG
+Dengue_virus_2.2                    AUGAAUAACCAACGGAAAAAGGCGAG..AAGU...ACGCCUUUCAAUAUG
+Dengue_virus_2.3                    AUGAAUAACCAACGAAAAAAGGCGAG..AGGU...ACGCCUUUCAAUAUG
+Dengue_virus_2.4                    AUGAAUAACCAACGAAAAAAGGCGAG..AAAC...ACGCCUUUCAAUAUG
+Dengue_virus_1.2                    AUGAACAACCAACGGAAAAAGACGGG..UCGA...CCGUCUUUCAAUAUG
+Dengue_virus_2.5                    AUGAAUGACCAACGGAAA.AAGGCGA..AAAA.CACGCCAU.UCAAUAUG
+Dengue_virus_4.1                    AUG...AACCAACGAAAAAGGGUGGU..UAGA...CCACCUUUCAAUAUG
+Dengue_virus_3.1                    AUGAACAACCAACGAAAAAGGACGGG..AAAA...CCGUCUAUCAAUAUG
+Dengue_virus_3.2                    AUGAACAACCAACGGAAAAAGACGGG..UAAA...CCGUCUAUCAAUAUG
+Dengue_virus_2.6                    AUGAAUAACCAACGGAAA.AAGGCGA..AAAA.CACGCCUU.UCAAUAUG
+Dengue_virus_1.3                    AUGAUCAACCAACGAAAAAAGACGGG..UCGA...CCGUCUUUCAAUAUG
+Dengue_virus_2.7                    AUGAAUAACCAACGGAAAAAGGCGAA..AAGC...ACGCCUUUCAAUAUG
+Dengue_virus_4.2                    AUG...AACCAACGAAAAAAGGUGGU..UAGA...CCACCUUUCAAUAUG
+Dengue_virus_2.8                    AUGAAUGACCAACGGAAAAAGGCGAG..AAAC...AUGCCUUUCAAUAUG
+Dengue_virus_1.4                    AUGAACGACCAACGGAAAAAGACGGG..UCGA...CCGUCUUUCAAUAUG
+Dengue_virus_2.9                    AUGAAUAACCAACGAAAAAAGGCGAG..AAGU...ACGCCUUUCAAUAUG
+Dengue_virus_2.10                   AUGAAUAACCAACGGAAAAAGGCGAG..AAAU...ACGCCUUUCAAUAUG
+Dengue_virus_2.11                   AUGAAUGACCAACGAAAAAAGGCGAG..AAGU...ACGCCUUUCAAUAUG
+Dengue_virus_1.5                    AUGAACAACCAACGAAAAAAGACGGG..UCGA...CCGUCUUUCAAUAUG
+Dengue_virus_2.12                   AUGAAUAACCAACGGAAAAAGGCGAA..AACC...ACGCCUUUCAAUAUG
+Dengue_virus_1.6                    AUGAUCAACCAACGGAAAAAGACGGG..UCGA...CCGUCUUUCAAUAUG
+Dengue_virus_2.13                   AUGAAUAACCAACGAAAAAAGGCGAG..AAAU...ACGCCUUUCAAUAUG
+Dengue_virus_1.7                    AUGAACAACCAACGAAAAAAGACGGC..UCGA...CCGUCUUUCAAUAUG
+Dengue_virus_2.14                   AUGAAUAACCAACGGAAAAAGGCGAG..AAAC...ACGCCUUUCAAUAUG
+Dengue_virus_3.3                    AUGAACAACCAACGGAAAAAGACGGG..AAAA...CCGUCAAUCAAUAUG
+Dengue_virus_2.15                   AUGAAUGACCAACGGAAAAAGGCGAG..AAAC...ACGCCUUUCAAUAUG
+Dengue_virus_2.16                   AUGAAUAACCAACGAAAAAAGGCGAG..AAAU...ACCCCUUUCAAUAUG
+Dengue_virus_3.4                    AUGAACAACCAACGAAAAAAGACGGG..AAGA...CCGUCUAUCAAUAUG
+Dengue_virus_3.5                    AUGAACAACCAACGGAAGAAGACGGG..AAAA...CCGUCUAUCAAUAUG
+Dengue_virus_4.3                    AUG...AACCAACGAAAAAAGGUGGU..UAGA...CCACCUUUCAAUAUG
+Dengue_virus_3.6                    AUGAACAACCAACGGAAAAAGACGGG..AAAA...CCGUCUAUCAAUAUG
+Dengue_virus_2.17                   AUGAAUAACCAACGAAAAAAUGCGAG..AAAA...ACGCCUUUCAAUAUG
+Dengue_virus_1.8                    AUGAACAACCAACGGAAAAAGACGGC..UCGA...CCGUCUUUCAAUAUG
+Dengue_virus_4.4                    AUG...AACCAACGAAAAAAGGUGGU..UAGG...CCACCUUUCAAUAUG
+Dengue_virus_1.9                    AUGAACAACCAACGGAAGAAGACGGG..UCGA...CCGUCUUUCAAUAUG
+Dengue_virus_2.18                   AUGAAUGACCAACGGAAAGAGGCGAA..AAAC...ACGCCAUUCAAUAUG
+Dengue_virus_3.7                    AUGAACAACCAACGAAAAAAGACGGG..AAAA...CCGUCUAUCAAUAUG
+Dengue_virus_2.19                   AUGAAUAACCAACGAAAAAAGGCGAG..AAGU...ACGCCUUUCA..AUG
+Usutu_virus.1                       AUGUCUAAGAAACCAGGAGGGCCCGG..AAGAAACCGGGCCAUCAAUAUG
+Kunjin_virus.1                      AUGUCUAAGAAACCAGGAGGGCCCGGC.AAAA.GCCGGGCUGUCAAUAUG
+Japanese_encephaliti.1              ...ACUAAAAAACCAGGAGGGCCCGG..UAAAAACCGGGCUAUCAAUAUG
+St._Louis_encephalit.1              AUGUCUAAAAAACCAGGAAAACCCGG..UAGAAACCGGGUUGUCAAUAUG
+Japanese_encephaliti.2              AUGACUAAAAAACCACGAGGGCCCGG..UAUAAACCGGGCUAUCUAUAUG
+Japanese_encephaliti.3              AUGACUAAAAAACCAGGAGGGCCCGG..AAGAAACCGGGCCAUCAAUAUG
+Japanese_encephaliti.4              AUGACUAAAAAACCAGGAGGGCCCGG..UAAAAACCGGGCCAUCAAUAUG
+West_Nile_virus.1                   AUGUCUAGGAAACCAGGAGGGCCCGGAGAUAA..CCGGGCUGUCAAUAUG
+West_Nile_virus.2                   AUGUCUAAGAAACCAGGAGGGCCCGG..UAAAAACCGGGCUGUCAAUAUG
+West_Nile_virus.3                   AUGUCUAAGAAACCAGGAGGGCCCGG..AAAAAACCGGGCUGUCAAUAUG
+Japanese_encephaliti.5              AUGAUUAAAAAACCAGGAGGGCCCGG..UAAAAACCGGGCCAUCAAUAUG
+Japanese_encephaliti.6              AUGACUAAAAAACCAGGAGGGCCCGGU.AAGA.ACCGGGCUAUCAAUAUG
+Japanese_encephaliti.7              AUGACUAAAAAACCAGGAGGGCCCGGG.AAAA.ACCGGGCUAUCAAUAUG
+Japanese_encephaliti.8              AUGACUAAAAAACCAGGAGCGCCCGG..UAAAAACCGGGCUAUCAAUAUG
+Japanese_encephaliti.9              AUGACUAAAAAACCAGGAGGGCCCGGG.AAAA.ACCGGGCCAUCAAUAUG
+West_Nile_virus.4                   AUGUCUAAGAAACCAGGAGGGCCCGGC.AAGA.GUCGGGCUGUCAAUAUG
+Murray_Valley_enceph.1              AUGUCUAAAAAACCAGGAGGACCCGG..GAAGCCCCGGGUCGUCAAUAUG
+West_Nile_virus.5                   AUGUCUAAGAAACCAGGAGGGCCCGGC.AAGA.GCCGGGCUGUCAAUAUG
+Japanese_encephaliti.10             AUGACUAAAAAACCAGGAGGGCCCGG..UAAAAGCCGGGCUAUCAAUAUG
+Alfuy_virus.1                       AUGUCUAAAAAACCAGGAGGACCCGG..AAGAAACCGGGUCGUCAGUAUG
+#=GC SS_cons                        ................<<.<<<<<<..........>>>>>>.>>......
+//

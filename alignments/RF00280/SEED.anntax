@@ -1,0 +1,83 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORD51
+#=GF AC    RF00280
+#=GF DE    Small nucleolar RNA SNORD51
+#=GF AU    Moxon SJ
+#=GF GA    31.0
+#=GF NC    29.5
+#=GF TC    32.3
+#=GF PI    U51
+#=GF SE    Moxon SJ, INFERNAL
+#=GF SS    Predicted; PFOLD; Moxon SJ, Daub J
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Homo_sapiens300725
+#=GF DR    snoopy; Loxodonta_africana300446
+#=GF RN    [1]
+#=GF RM    12215523
+#=GF RT    Purified box C/D snoRNPs are able to reproduce site-specific
+#=GF RT    2'-O-methylation of target RNA in vitro.
+#=GF RA    Galardi S, Fatica A, Bachi A, Scaloni A, Presutti C, Bozzoni I;
+#=GF RL    Mol Cell Biol 2002;22:6663-6668.
+#=GF RN    [2]
+#=GF RM    8674114
+#=GF RT    Site-specific ribose methylation of preribosomal RNA: a novel
+#=GF RT    function for small nucleolar RNAs.
+#=GF RA    Kiss-Laszlo Z, Henry Y, Bachellerie JP, Caizergues-Ferrer M, Kiss T;
+#=GF RL    Cell 1996;85:1077-1088.
+#=GF CC    U51 belongs to the C/D class of snoRNA which contain the C (UGAUGA)
+#=GF CC    and D (CUGA) box motifs. Most of the members of the box C/D family function
+#=GF CC    in directing site-specific 2'-O-methylation of substrate RNAs [1].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_SNORD51
+#=GF SQ    13
+
+#=GS A.carolinensis.1       AC    AAWZ01041576.1/62659-62736
+#=GS L.africana.1           AC    AAGU02488008.1/3729-3806
+#=GS O.princeps.1           AC    AAYZ01152970.1/1365-1442
+#=GS M.musculus.1           AC    AL645950.13/73701-73778
+#=GS R.norvegicus.1         AC    AABR04006300.1/27906-27983
+#=GS H.sapiens.1            AC    X96650.1/1-70
+#=GS H.sapiens.2            AC    AL049840.8/49457-49533
+#=GS Otolemur_garnettii_s.1 AC    AAQR01436451.1/785-863
+#=GS T.belangeri.1          AC    AAPY01284286.1/1238-1315
+#=GS F.catus.1              AC    AANG01689589.1/2853-2930
+#=GS S.araneus.1            AC    AALT01001762.1/139-215
+#=GS E.caballus.1           AC    AAWR02007092.1/1049-1127
+#=GS Monodelphis_domestic.1 AC    AAFR03041977.1/28118-28195
+
+A.carolinensis.1                   UUGGUGACAUGAUGAACAAAACCAAAUCACCAUCUUUCGGCUGAAAUUGU
+L.africana.1                       CUGCUUAUGUGAUGAAUCAAAUCA.AUCACCAUCUUUCGGCUGAGCUCGU
+O.princeps.1                       CCAGUUACAUGAUGAAUAAAAUCAAAUCACCAUCUUUCGGCUGAGCUCGU
+M.musculus.1                       CUGGGUACAUGAUGAAUAAAAUCAAAUCACCUUCUUUCGGCUGAGCUCCU
+R.norvegicus.1                     CUGGGUACAUGAUGAAUAAAAUCGAAUCACCAUCUUUCGGCUGAGCUCCU
+H.sapiens.1                        ...GUUGCAUGAUGAAUAAAAUCAAAUCACCAUCUUUCGGCUGAGUUCGU
+H.sapiens.2                        AUUGUUACAU..UGA.UAAAAUCAAAUCACCAUCUUUUAGCUAAGCUUGU
+Otolemur_garnettii_s.1             CUGGUUCCAUGAUGAAUAAAAUCAAAUCACCAUCUUUCGGCUGAGCUGGU
+T.belangeri.1                      CUGGUUACAUGAUGAAUAAAAUCAAAUCACCAUCUUUCGGCUGAGGUCCU
+F.catus.1                          ACUUAAAAAUGAUGAGUAAAACCAAAUCACCAUCUUUCGGCUGAGCUCGU
+S.araneus.1                        CUGGUUGUGUGAUGAAUAAAAUCAAAUCACCAUCUUUCGGCUGAGUUCCU
+E.caballus.1                       CCUGUUACAUGAUGAAUAAAAUCAAAUCACCAUCUUUCGGCUGAGCUCCU
+Monodelphis_domestic.1             CUGGCUACAUGAUGAAUAAAAUCUAAUCACCAUCUUUCGGCUGAGUUCGU
+#=GC SS_cons                       <.<..<<...........................................
+#=GC RF                            cUgGuuaCAUGAUGAAUAAAAUCAAAUCACCAUCUUUcgGCUgAGcUcgU
+
+A.carolinensis.1                   GAU.GAUUUGUUUUUUU.CUGAAUGAUCUA
+L.africana.1                       GAUGGAUUUGUUUUUUU.CUGAUAAAGCUG
+O.princeps.1                       GAUGGAUUUGCUUUUU..CUGAUGAAACUG
+M.musculus.1                       GAUGGAUUUGCUUUUU..CUGAUAAAUCUG
+R.norvegicus.1                     GAUGGAUUUGCUUUUUU.CUGAUGUC.CAG
+H.sapiens.1                        GAUGGAUUUGCUUUUUU.CUGAUU......
+H.sapiens.2                        GCUGGAUUUGCUUUUUUUCUGAUAAAGAUG
+Otolemur_garnettii_s.1             GAUGGAUUUGCUUUUUU.CUGAUAAAGCUG
+T.belangeri.1                      GAUGGAUUUGCUUUUU..CUGAUAAAGCUG
+F.catus.1                          GAUGGAUUUGCUUUUUU.CUGAU.GAGACU
+S.araneus.1                        GAUGGAUUUGCUUUUUU.CUGAUAA..CAG
+E.caballus.1                       GAUGGAUUUGCUUUUUU.CUGAUACAGUUG
+Monodelphis_domestic.1             GAUGGAAUUGCUUUUUU.CUGAUU.GGCUG
+#=GC SS_cons                       ......................>>...>.>
+#=GC RF                            GAUGGAUUUGCUUUUUU.CUGAuaAAgcUg
+//

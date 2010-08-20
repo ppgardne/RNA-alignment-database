@@ -1,0 +1,49 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORD109A
+#=GF AC    RF01278
+#=GF DE    Small nucleolar RNA SNORD109A
+#=GF AU    Wilkinson A
+#=GF GA    35.0
+#=GF NC    0.0
+#=GF TC    39.3
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    snorna; HBII-438A
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Homo_sapiens300793
+#=GF WK    http://en.wikipedia.org/wiki/SnoRNA
+#=GF SQ    7
+
+#=GS L.africana.1           AC    AAGU02568982.1/1938-2004
+#=GS C.porcellus.1          AC    AAKN02054628.1/68053-68119
+#=GS H.sapiens.1            AC    AY055808.1/1-67
+#=GS M.murinus.1            AC    ABDC01550852.1/596-662
+#=GS C.lupus.1              AC    AAEX02009245.1/58726-58792
+#=GS E.europaeus.1          AC    AANN01347476.1/737-809
+#=GS Dasypus_novemcinctus.1 AC    AAGV020383062.1/700-766
+
+L.africana.1                       GGGUCAAUGAUGAACAUAAAUGUCCGAGGAUGCUGAGUGAC.......UC
+C.porcellus.1                      GGAUCGAUGAUGAGAAAACUUGUCUGAGGACGCUGAGGGAC.......UA
+H.sapiens.1                        GGAUCGAUGAUGAGAAUAAUUGUCUGAGGAUGCUGAGGGAC.......UC
+M.murinus.1                        GGAUCGAUGAUGAGCAAAAUUAUCUGAGGACGGUGAAGGAC.......AC
+C.lupus.1                          GGAUCAAUGAUGAUCACAAUUGUCUGAGGAUGCUGAGGGAC.......UC
+E.europaeus.1                      GGAUCGAUGAUGAGAA.AACUGUCUGAGGAUGCUGAGAGACAAAACAAGC
+Dasypus_novemcinctus.1             UGAUCAAUGAUGAGCAUAAUUGUCUGAGGAUGCUGAGGGAC.......UC
+#=GC SS_cons                       <<<<<.............................................
+#=GC RF                            GGauCGAUGAUGAGAAUAAUUGUCUGAGGAUGCUGAGGGAC.......UC
+
+L.africana.1                       AUUGCAGAUGUCAAUCUGAGAUCG
+C.porcellus.1                      AUUACAGAUGGCAAUCUGAGGUCC
+H.sapiens.1                        AUUCCAGAUGUCAAUCUGAGGUCC
+M.murinus.1                        ACUGCAGAUGUCAAUCUGAGGUCC
+C.lupus.1                          AUUCCAGAUGUCAAUCUGAGGUCC
+E.europaeus.1                      ACUGCAGAUGUCAAUCUGAGGUCC
+Dasypus_novemcinctus.1             AUUCUAGAUGUCAAUCUGAGGUCC
+#=GC SS_cons                       ...................>>>>>
+#=GC RF                            AUUCCAGAUGUCAAUCUGAGguCC
+//

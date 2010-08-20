@@ -1,0 +1,141 @@
+# STOCKHOLM 1.0
+#=GF ID    L13_leader
+#=GF AC    RF00555
+#=GF DE    Ribosomal protein L13 leader
+#=GF AU    Barrick JE
+#=GF GA    30.0
+#=GF NC    21.4
+#=GF TC    30.5
+#=GF SE    Predicted; Barrick JE, CMFinder
+#=GF SS    Predicted; Barrick JE, CMFinder
+#=GF TP    Cis-reg; leader;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  --fil-no-hmm  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    7517053
+#=GF RT    Diverse mechanisms for regulating ribosomal protein synthesis in
+#=GF RT    Escherichia coli.
+#=GF RA    Zengel JM, Lindahl L;
+#=GF RL    Prog Nucleic Acid Res Mol Biol. 1994;47:331-370.
+#=GF CC    This family is a putative r-protein leader autoregulatory
+#=GF CC    structure [1] found in B. subtilis and other low-GC Gram-positive
+#=GF CC    bacteria. It is located in the 5' untranslated regions of mRNAs
+#=GF CC    encoding the L13-S9 (rplM-rpsI) ribosomal protein operon.
+#=GF WK    http://en.wikipedia.org/wiki/Ribosomal_protein_L13_leader
+#=GF SQ    26
+
+#=GS B.subtilis.1           AC    D64126.1/3296-3352
+#=GS Bacillus_licheniform.1 AC    AE017333.1/151667-151724
+#=GS Oceanobacillus_iheye.1 AC    BA000028.3/159658-159716
+#=GS L.monocytogenes.1      AC    AL591983.1/290181-290233
+#=GS Staphylococcus_haemo.1 AC    AP006716.1/838593-838662
+#=GS Staphylococcus_epide.1 AC    CP000029.1/1844796-1844853
+#=GS S.carnosus.1           AC    X63912.1/137-202
+#=GS Staphylococcus_sapro.1 AC    AP008934.1/716592-716659
+#=GS Staphylococcus_aureu.1 AC    BA000017.4/2360306-2360375
+#=GS Lactobacillus_planta.1 AC    AL935254.1/311909-311963
+#=GS L.acidophilus.1        AC    CP000033.3/307686-307736
+#=GS Lactobacillus_casei_.1 AC    CP000423.1/2447965-2448021
+#=GS Lactobacillus_delbru.1 AC    CP000412.1/358213-358264
+#=GS Lactobacillus_saliva.1 AC    CP000233.1/1478779-1478833
+#=GS Lactobacillus_johnso.1 AC    AE017198.1/399439-399493
+#=GS Lactobacillus_sakei_.1 AC    CR936503.1/1706054-1706111
+#=GS Pediococcus_pentosac.1 AC    CP000422.1/1375721-1375781
+#=GS Lactococcus_lactis_s.1 AC    AM406671.1/2506412-2506490
+#=GS Streptococcus_agalac.1 AC    AL766844.1/88806-88887
+#=GS Streptococcus_pneumo.1 AC    ABAF01000002.1/242115-242198
+#=GS Streptococcus_suis_0.1 AC    CP000407.1/1793940-1794018
+#=GS Streptococcus_thermo.1 AC    CP000024.1/101380-101466
+#=GS Streptococcus_pyogen.1 AC    CP000003.1/1657991-1658075
+#=GS Streptococcus_mutans.1 AC    AE014133.1/169699-169778
+#=GS Streptococcus_sangui.1 AC    CP000387.1/2039355-2039434
+#=GS Streptococcus_pyogen.2 AC    CP000056.1/1637004-1637088
+
+B.subtilis.1                       GGUAUG..UAUUUCAA......CCCCACGA.UA.AGCCCCGGAA..CUUA
+Bacillus_licheniform.1             GGUAUG..UAUUUCAA......CCCCACGA.UA.AGCCCCGGAA.ACUUA
+Oceanobacillus_iheye.1             GGCAUUU.UAUUUCUAA.....ACC.AUGA.UU.AGCCCCGGAA.UCUAA
+L.monocytogenes.1                  GGUAU...UGUUUG........CCCCACAA.UA.AGCCCCGGAA.GGUUG
+Staphylococcus_haemo.1             GGUAU...UGUUU.UAUAUCCACCCCAUGA.UA.AGCCCCGGAA.ACUUA
+Staphylococcus_epide.1             UGUUU...UAUAUCA.......CCCCACGA.UA.AGCCCCGGAA.ACUUA
+S.carnosus.1                       GGUAUUGUUUUAUAUCAC....CACCACGA.UA.AGCCCCGGAA.ACUUA
+Staphylococcus_sapro.1             GGUAU...UGUUUUAUAUCA..CCC.ACGA.UA.AGCCCCGGAA.UCUUA
+Staphylococcus_aureu.1             GGUAU...UGUUU.UAUAUCCACCCCACGA.UA.AGCCCCGGAA.ACUUA
+Lactobacillus_planta.1             GGUAU...UGUUUG........CCCCACGA.UA.AGCCCCGGAAAUCUUA
+L.acidophilus.1                    AGUA....UGUUUG........UCC.ACGA.UA.GGCCCCGGAA.ACUUA
+Lactobacillus_casei_.1             GGUAU...UGUUUG........CCCCACGA.UA.AGCCCCGGAA.ACUUA
+Lactobacillus_delbru.1             AGUAU.....GUUUG.......UCC.ACGG.UA.GGCCCCGGAA.ACUUA
+Lactobacillus_saliva.1             GGUAU...UGUUUGC.......CCC.ACAG.UA.AGCCCCGUUAAUCUUA
+Lactobacillus_johnso.1             CGUAU...GUUUGU.........CC.ACGA.UA.GGCCCCGGAA.ACUUA
+Lactobacillus_sakei_.1             GGUAU...UGUUUG........CCCCACGA.UA.GGCCCCGGAA.ACUUA
+Pediococcus_pentosac.1             GGUAU...UGUUUACCUC....CAC.AAAA.UA.AGCCCCGGAA.ACUUA
+Lactococcus_lactis_s.1             GGUAU...UGUUUAC.......CCCAUUUU.UGUGGCCCCGGAA.ACCCA
+Streptococcus_agalac.1             GGUAU...UGUUUAC.......CCCAUUUGUAA.GGCCCCGGAA..CCUU
+Streptococcus_pneumo.1             GGUAU...UGUUUAC.......CCCAUUUGAAA.GGCCCCGGAA..CCUU
+Streptococcus_suis_0.1             GGUAU...UGUUUAC.......CCCAUUUGAAA.GGCCCCGGAA..CCUU
+Streptococcus_thermo.1             GGUAU...UGUUUAC.......CCCAUUUGAAA.GGCCCCGGAA..CCUU
+Streptococcus_pyogen.1             GGUAU...UGUUUAC.......CCCAUUUGAAA.GGCCCCGGAA..CCUU
+Streptococcus_mutans.1             GGUAU...UGUUUGC.......CCCAUUUGAAA.GGCCCCGGAA.CCCUU
+Streptococcus_sangui.1             GGUAU...UGUUUAC.......CCCAUUUGUAA.GGCCCCGGAA..CCUU
+Streptococcus_pyogen.2             GGUAU...UGUUUAC.......CCCAUUUGAAA.GGCCCCGGAA..CCUU
+#=GC SS_cons                       ........<<<<<<<..........<<<<<.<<.<<..........>>>>
+#=GC RF                            GGUAU...uGuuugc.......cCCcacua.ua.gGCCCCGGAA.aCcua
+
+B.subtilis.1                       .UUGUG.....UUG...............................UGAA.
+Bacillus_licheniform.1             .UUGUG.....U.U..............................UUGAA.
+Oceanobacillus_iheye.1             .UUAU.....GU.U...............................AGAAU
+L.monocytogenes.1                  .UUGUG.....U.U................................UAA.
+Staphylococcus_haemo.1             .UUGUG.....U.U......................ACAAGAUAUAUAA.
+Staphylococcus_epide.1             .UUGUG.....U.U......................ACAA......GAU.
+S.carnosus.1                       .UUGUG.....U.U......................ACUA....GAUAU.
+Staphylococcus_sapro.1             .UUGU.....GUA.......................ACAC.GAUAUAGAA
+Staphylococcus_aureu.1             .UUGUG.....U.U......................ACAAGAUAUAUAA.
+Lactobacillus_planta.1             .UUGAG.....UGU................................CAA.
+L.acidophilus.1                    .UUGU.....UU.U................................CAA.
+Lactobacillus_casei_.1             .ACGUG.....U.U......................CAAA......CAA.
+Lactobacillus_delbru.1             .UUGU.....AU.U...............................CAAA.
+Lactobacillus_saliva.1             .UUGU.....AU.G...............................UCAA.
+Lactobacillus_johnso.1             .UUGU.....UU.G......................UCAA......ACA.
+Lactobacillus_sakei_.1             .UUGAG....UG.U......................CAAA......CAA.
+Pediococcus_pentosac.1             .UUAA.....AG.U......................UGAG.....UUAA.
+Lactococcus_lactis_s.1             .AAAAU...ACUUU...GCAGGACUCUUACACCUGCU........GUAA.
+Streptococcus_agalac.1             UCAAAU...ACUCU...CGUGGACCGGAACAUCCACACCU.....GUAA.
+Streptococcus_pneumo.1             CCAAAU...ACU.UUUCGAUGGGAAGGAACACCCAUCACC.....GUAA.
+Streptococcus_suis_0.1             CCAAAU....AC.C....CGCGGACCGGAACAUCCGCCCA.....GUAA.
+Streptococcus_thermo.1             CCAAAUAUACUUUU.CGAUGGGAAGGGACACCCAUCACUC.....GUAA.
+Streptococcus_pyogen.1             CCAAAU..ACCU.U.CGAUGGGACGGAACACCCAUCACCU....UGUAA.
+Streptococcus_mutans.1             .CAAAU...AAU.U....UGUGGACCGGAACAUCCACAUU.....GUAA.
+Streptococcus_sangui.1             UCAAAU...AAC.U....CGCGGACCGGAACAUCCGCCCU.....GUAA.
+Streptococcus_pyogen.2             CCAAAU..ACCU.U.CGAUGGGAUGGAACACCCAUCACCU....UGUAA.
+#=GC SS_cons                       .>>>>>.......................................>>>>.
+#=GC RF                            .uagug....aU.U......................Acaa.....gcaa.
+
+B.subtilis.1                       AUAGAAC
+Bacillus_licheniform.1             AUAGAAC
+Oceanobacillus_iheye.1             AUAAAUA
+L.monocytogenes.1                  ACAAUAA
+Staphylococcus_haemo.1             GCAAAUU
+Staphylococcus_epide.1             AUAUAAG
+S.carnosus.1                       AGAAGCA
+Staphylococcus_sapro.1             GCACGUA
+Staphylococcus_aureu.1             GCAGAAA
+Lactobacillus_planta.1             ACAAACA
+L.acidophilus.1                    ACUGCAA
+Lactobacillus_casei_.1             GCACAGA
+Lactobacillus_delbru.1             CUACGAA
+Lactobacillus_saliva.1             ACAUGUA
+Lactobacillus_johnso.1             GAAGAAA
+Lactobacillus_sakei_.1             ACACAGA
+Pediococcus_pentosac.1             ACAAAAC
+Lactococcus_lactis_s.1             ACAAAUU
+Streptococcus_agalac.1             ACAAAAA
+Streptococcus_pneumo.1             ACAAAAA
+Streptococcus_suis_0.1             ACAAAAA
+Streptococcus_thermo.1             ACAAAAA
+Streptococcus_pyogen.1             ACAAAUA
+Streptococcus_mutans.1             ACAUAAA
+Streptococcus_sangui.1             ACAAAAA
+Streptococcus_pyogen.2             ACAAAUA
+#=GC SS_cons                       >>>....
+#=GC RF                            aCaAAaA
+//

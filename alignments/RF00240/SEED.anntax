@@ -1,0 +1,89 @@
+# STOCKHOLM 1.0
+#=GF ID    RNA-OUT
+#=GF AC    RF00240
+#=GF DE    RNA-OUT
+#=GF AU    Bateman A
+#=GF GA    35.0
+#=GF NC    31.5
+#=GF TC    35.0
+#=GF SE    PMID:2482367, INFERNAL
+#=GF SS    Predicted; Pfold
+#=GF TP    Gene; antisense;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000644 SO:antisense_RNA
+#=GF RN    [1]
+#=GF RM    2482367
+#=GF RT    Insertion sequence IS10 anti-sense pairing initiates by an
+#=GF RT    interaction between the 5' end of the target RNA and a loop in the
+#=GF RT    anti-sense RNA.
+#=GF RA    Kittle JD, Simons RW, Lee J, Kleckner N;
+#=GF RL    J Mol Biol 1989;210:561-572.
+#=GF CC    Transposition of insertion sequence IS10 is regulated by an
+#=GF CC    anti-sense RNA which inhibits transposase expression when IS10 is
+#=GF CC    present in multiple copies per cell. The anti-sense RNA (RNA-OUT)
+#=GF CC    consists of a stem domain topped by a flexibly paired loop; the 5'
+#=GF CC    end of the target molecule, RNA-IN, is complementary to the top
+#=GF CC    of the loop, and complementarity extends for 35 base-pairs down
+#=GF CC    one side of RNA-OUT [1].
+#=GF CC    This bacterial RNA is also found in the genomic sequence of
+#=GF CC    eukaryotic organisms.  This is probably due to vector
+#=GF CC    contamination.
+#=GF WK    http://en.wikipedia.org/wiki/RNA-OUT
+#=GF SQ    16
+
+#=GS Bacillus.1             AC    EF158106.1/10782-10851
+#=GS Shewanella_putrefaci.1 AC    AAWY01000043.1/31658-31726
+#=GS Escherichia_coli_O15.1 AC    ABJT01000108.1/2744-2813
+#=GS K.pneumoniae.1         AC    AY236073.2/2048-2116
+#=GS Salmonella_enterica_.1 AC    AE017220.1/3200649-3200718
+#=GS S.flexneri.1           AC    AF162223.1/9033-9102
+#=GS H.influenzae.1         AC    AJ627386.1/14658-14727
+#=GS Mannheimia_haemolyti.1 AC    AASA01000102.1/9937-10006
+#=GS P.aeruginosa.1         AC    AF078527.1/2546-2614
+#=GS P.aeruginosa.2         AC    AF133699.1/3533-3601
+#=GS Photobacterium.1       AC    AB262965.1/7478-7547
+#=GS Vibrio_parahaemolyti.1 AC    BA000032.2/1400186-1400255
+#=GS Vibrio_parahaemolyti.2 AC    AAWQ01000001.1/205675-205744
+#=GS Vibrionales_bacteriu.1 AC    AAZW01000016.1/47862-47938
+#=GS A.laidlawii.1          AC    AF248639.1/3345-3414
+#=GS uncult._bacterium.1    AC    AY691910.1/4002-4071
+
+Bacillus.1                         UCGCACAUCUUGUUGUMUGAUUAU.......UGAUUUUUCGCGAAACCAU
+Shewanella_putrefaci.1             UCGCGCAUCUUGUUGUCCAAGUGU.......AGUUUUU.GGCGAAACCAU
+Escherichia_coli_O15.1             UCGCACAUCUUGUUGUCUGAUUAU.......UGAUUUUUCGCGAAACCAU
+K.pneumoniae.1                     UCGCGCAUCUUGUUGUCCAAGUGU.......AGUUUUU.AGCGAAACCAU
+Salmonella_enterica_.1             UCGCACAUCUUGUUGUCUGAUUAU.......UGAUUUUUCGCGAAACCAU
+S.flexneri.1                       UCGCACAUCUUGUUGUCUGAUUAU.......UGAUUUUUCGCGAAACCAU
+H.influenzae.1                     UCGCACAUUUUGUUGUCUGAUUAU.......UGAUUUUUGGCGAAACCAU
+Mannheimia_haemolyti.1             UCGCACAUUUUGUUGUCUGAUUAU.......UGAUUUUUGGCGAAACCAU
+P.aeruginosa.1                     UCGCGCAUCUUGUUGUCCAAGUGU.......AGUUUUU.GGCGAAACCAU
+P.aeruginosa.2                     UCGCGCAUCUUGUUGUCCAAGUGU.......AGUUUUU.GGAGAAACCAU
+Photobacterium.1                   UCGCACAUCUUGUUGUCUGGUUAU.......UGAUUUUUCGCAGAACCAU
+Vibrio_parahaemolyti.1             UCGUACAUCUUGUUGUUUGGUUGU.......UGUUUUUUGGCGAAAUCAU
+Vibrio_parahaemolyti.2             UCGCACAUCUUGUUGUUUGGUUGU.......UGUUUUUUGGCGAAAUCAU
+Vibrionales_bacteriu.1             UCACACAUCUUGUUGUUUGAUUAUUGAUUAUUGAUUUUUGGCGAAACCAU
+A.laidlawii.1                      UCGCACAUCUUGUUGUCUGAUUAU.......UCAUUUUUCGCGAAACCAU
+uncult._bacterium.1                UCGCACAUUUUGUUGUCUGAUUAU.......UGAUUUUUGGCGAAACCAU
+#=GC SS_cons                       ..<<<<<<<<<<<<<<.<<......................<<<<....>
+#=GC RF                            UcgCgCauCuuGuugucugAuUaU.......agaUUUUugGCgaaAccAu
+
+Bacillus.1                         UUGAUCAUAUGACAAGAUGUGUAUCCA
+Shewanella_putrefaci.1             UUGAUCAUGCAACAAGAUGCGCUUCCA
+Escherichia_coli_O15.1             UUGAUCAUAUGACAAGAUGUGUAUCUA
+K.pneumoniae.1                     UUGAUCAUGCAACAAGAUGCGCUUCCA
+Salmonella_enterica_.1             UUGAUCAUAUGACAAGAUGUGUAUCCA
+S.flexneri.1                       UUGAUCAUAUGACAAGAUGUGUAUCCA
+H.influenzae.1                     UUGAUCAUAUGACAAGAUGUGUAUCCA
+Mannheimia_haemolyti.1             UUGAUCAUAUGACAAGAUGUGUAUCUC
+P.aeruginosa.1                     UUGAUCAUGCAACAAGAUGCGCUUCCA
+P.aeruginosa.2                     UUGAUCAUGCAACAAGAUGCGCUUCCA
+Photobacterium.1                   UUGAUCACAUGACAAGAUGUGCAUCUA
+Vibrio_parahaemolyti.1             UUGAUCACAUGACAAGAUGUGCAUCUA
+Vibrio_parahaemolyti.2             UUGAUCACAUGACAAGAUGUGCAUCUA
+Vibrionales_bacteriu.1             UUGAUCACAUGACAAGAUGUGUUUCUA
+A.laidlawii.1                      UUGAUCAUAUGACAAGAUGUGUAUCCA
+uncult._bacterium.1                UUGAUCAUAUGACAAGAUGUGUAUCUA
+#=GC SS_cons                       >>>..>>.>>>>>>>>>>>>>>.....
+#=GC RF                            uuGAUcauacaaCaaGauGcGcaUccA
+//

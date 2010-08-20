@@ -1,0 +1,49 @@
+# STOCKHOLM 1.0
+#=GF ID    RF_site1
+#=GF AC    RF01074
+#=GF DE    Putative RNA-dependent RNA polymerase ribosomal frameshift site
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    37.5
+#=GF SE    Pseudobase
+#=GF SS    Pseudobase
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    PKBASE; PKB00240
+#=GF DR    PKBASE; PKB00044
+#=GF DR    PKBASE; PKB00046
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    12038685
+#=GF RT    Biological properties and molecular characterization of beet
+#=GF RT    chlorosis virus (BChV).
+#=GF RA    Hauser S, Stevens M, Beuve M, Lemaire O;
+#=GF RL    Arch Virol. 2002;147:745-762.
+#=GF RN    [2]
+#=GF RM    8030201
+#=GF RT    Nucleotide sequence of cucurbit aphid-borne yellows luteovirus.
+#=GF RA    Guilley H, Wipf-Scheibel C, Richards K, Lecoq H, Jonard G;
+#=GF RL    Virology. 1994;202:1012-1017.
+#=GF RN    [3]
+#=GF RM    1840612
+#=GF RT    Nucleotide sequence analysis and genomic organization of the NY-RPV
+#=GF RT    isolate of barley yellow dwarf virus.
+#=GF RA    Vincent JR, Lister RM, Larkins BA;
+#=GF RL    J Gen Virol. 1991;72:2347-2355.
+#=GF WK    http://en.wikipedia.org/wiki/Ribosomal_frameshift
+#=GF SQ    4
+
+#=GS Cereal_yellow_dwarf_.1 AC    EF521839.1/1666-1705
+#=GS Beet_western_yellows.1 AC    AF473561.1/1475-1514
+#=GS Cucurbit_aphid-borne.1 AC    X76931.1/1482-1521
+#=GS Beet_chlorosis_virus.1 AC    AF352024.1/1581-1620
+
+Cereal_yellow_dwarf_.1             GGGAAACGGGA.AGGCGGCGGCGUCCGCCGUAACAAACGCA
+Beet_western_yellows.1             GGGAAACGGGA.GAGCGGCAGCGCCCGCCGAAACAACCGCA
+Cucurbit_aphid-borne.1             GGGAAACGGGC.AGGCGGCGGCGACCGCCGAAACAACCGCA
+Beet_chlorosis_virus.1             GGGAAAUGGACUGAGCGGCGCCGACCGCCA.AACAACCGGC
+#=GC SS_cons                       .............<<<<<..AAA.>>>>>........aaa.
+#=GC RF                            GGGAAAcGGga.AGGCGGCGccgACCGCCgaAACAAcaggc
+//

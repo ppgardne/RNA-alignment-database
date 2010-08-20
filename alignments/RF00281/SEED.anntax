@@ -1,0 +1,108 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORD47
+#=GF AC    RF00281
+#=GF DE    Small nucleolar RNA SNORD47
+#=GF AU    Moxon SJ
+#=GF GA    32.0
+#=GF NC    31.1
+#=GF TC    32.0
+#=GF PI    U47
+#=GF SE    Moxon SJ, INFERNAL
+#=GF SS    Predicted; ILM; Moxon SJ, Daub J
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 100000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Mus_musculus300641
+#=GF DR    snoopy; Oryzias_latipes300022
+#=GF RN    [1]
+#=GF RM    12215523
+#=GF RT    Purified box C/D snoRNPs are able to reproduce site-specific
+#=GF RT    2'-O-methylation of target RNA in vitro.
+#=GF RA    Galardi S, Fatica A, Bachi A, Scaloni A, Presutti C, Bozzoni I;
+#=GF RL    Mol Cell Biol 2002;22:6663-6668.
+#=GF RN    [2]
+#=GF RM    8674114
+#=GF RT    Site-specific ribose methylation of preribosomal RNA: a novel
+#=GF RT    function for small nucleolar RNAs.
+#=GF RA    Kiss-Laszlo Z, Henry Y, Bachellerie JP, Caizergues-Ferrer M, Kiss T;
+#=GF RL    Cell 1996;85:1077-1088.
+#=GF RN    [3]
+#=GF RM    11387227
+#=GF RT    RNomics: an experimental approach that identifies 201 candidates for
+#=GF RT    novel, small, non-messenger RNAs in mouse.
+#=GF RA    Huttenhofer A, Kiefmann M, Meier-Ewert S, O'Brien J, Lehrach H,
+#=GF RA    Bachellerie JP, Brosius J;
+#=GF RL    EMBO J 2001;20:2943-2953.
+#=GF CC    U47 belongs to the C/D class of snoRNA which contain the C (UGAUGA)
+#=GF CC    and D (CUGA) box motifs. Most of the members of the box C/D family function
+#=GF CC    in directing site-specific 2'-O-methylation of substrate RNAs [1].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_SNORD47
+#=GF SQ    19
+
+#=GS O.latipes.1            AC    BAAF04088084.1/9612-9687
+#=GS O.latipes.2            AC    BAAE01161714.1/315-390
+#=GS D.rerio.1              AC    CR759968.6/155156-155227
+#=GS D.rerio.2              AC    CR759968.6/155415-155485
+#=GS L.africana.1           AC    AAGU02529726.1/735-811
+#=GS E.telfairi.1           AC    AAIY01534871.1/615-691
+#=GS O.princeps.1           AC    AAYZ01154866.1/3609-3685
+#=GS M.musculus.1           AC    X67268.1/1927-2003
+#=GS M.musculus.2           AC    AF357371.1/1-65
+#=GS H.sapiens.1            AC    X96647.1/1-77
+#=GS M.murinus.1            AC    ABDC01278790.1/3577-3652
+#=GS Otolemur_garnettii_s.1 AC    AAQR01510048.1/2359-2436
+#=GS T.belangeri.1          AC    AAPY01728088.1/9117-9195
+#=GS B.taurus.1             AC    AAFC03120161.1/30696-30772
+#=GS M.lucifugus.1          AC    AAPE01015809.1/372-448
+#=GS E.caballus.1           AC    AAWR02036950.1/19398-19475
+#=GS Dasypus_novemcinctus.1 AC    AAGV020619277.1/2224-2299
+#=GS Monodelphis_domestic.1 AC    AAFR03026464.1/108871-108949
+#=GS O.anatinus.1           AC    AAPN01008930.1/64398-64475
+
+O.latipes.1                        AACCGAUGAUG.AAACGAUUCUGCCAAAUGACUGC.UGCUGAUUAUA.AC
+O.latipes.2                        AACCGAUGAUG.AAACGAUUUUGCCAAAUGACUCC.UGCUGAUUAUA.AC
+D.rerio.1                          AACCUGUGAUG.AAAUGAUUCUGCCAAAUGAAUCC.UAAUGAUUAUA.CC
+D.rerio.2                          AACCUGUGACG.ACAUGAUUCUGCCAAAUGA.AUC.UAAUGAUUAUA.CC
+L.africana.1                       AACCAGUGAUG.UAAUGAUUCUGCCAAAUGAAAUA.GAAUGAUAUCA.CU
+E.telfairi.1                       AACCAAUGAUG.UAAUGAUUCUGCCAAAUGAAACA.UCAUGAUAUUA.CU
+O.princeps.1                       AGCCAGUGAUG.CAAUGAUUCUGCCAAAUGAAAAA.GAAUGAUAUCA.CC
+M.musculus.1                       AACCAGUGAUG.UGAUGAUUCUGCCAAAUGAUACA.AAGUGAUAUCA.CC
+M.musculus.2                       ..........G.UGAUGAUUCUGCCAAAUGAUACA.AAGUGAUAUCA.CC
+H.sapiens.1                        AACCAAUGAUG.UAAUGAUUCUGCCAAAUGAAAUA.UAAUGAUAUCA.CU
+M.murinus.1                        AACCAAUGAUG.UAAUGAUUCUGCCAAAUGAAAUA.GAAUGAUAUCA.CU
+Otolemur_garnettii_s.1             GAUCAAUGGUG.UAAUGAUUCUGCCCAAUGAGAUA.GAAUGAUAUCA.UU
+T.belangeri.1                      AACCAAUGAUGUUAAUGAUUCUGCCAAAUGAAAUA.GAAUGAUAUCA.CU
+B.taurus.1                         AACCAGUGAUG.UGAUGAUUCUGCCAAAUGA.AUA.GAAUGAUAUCAACC
+M.lucifugus.1                      AACCAGUGAUG.UAGUGAUUCUGCCAAAUGAAAUA.GGAUGAUAUCA.CU
+E.caballus.1                       AACCAGUGAUG.UGAUGAUUCUGCCAAAUGAAAUA.GAAUGAUAUCA.CU
+Dasypus_novemcinctus.1             AACCAGUGAUG.UAAUGAUUCUGCCAAAUGAAGUA.GAAUGAUAUCA.CU
+Monodelphis_domestic.1             AACCAGUGAUGUUAAUGAUUCUGCCAAAUGAAAUGGCAAUGAUUUCA.CC
+O.anatinus.1                       AACCAAUGAUG.AUAAGAUUCUGCCAAAUGAAAGA.GACUGAUUUCA.CC
+#=GC SS_cons                       <<<<..............................................
+#=GC RF                            aaCCAgUGAUG.uAAUGAUUCUGCCAAAUGAAAuA.gAAUGAUAUCA.Cu
+
+O.latipes.1                        .C.CUUUACCGUUCCAUUUUU..GUCUGAGGUU
+O.latipes.2                        .C.CUUUACCGUUCCAUUUUU..UUUUGAGGUU
+D.rerio.1                          .C...CAACCGUUCCAUAU....UUCUGAGGUU
+D.rerio.2                          .C...CAACCGUUCCAUAU....UUCUGAGGUU
+L.africana.1                       .C.AAAAACCGUUCCAUUUUAA.UUCUGAGGUU
+E.telfairi.1                       .C.AAUAACCGUUCCAUUUUAA.UUCUGAGGUU
+O.princeps.1                       .U.GCAAACCGUUCCAUCUAAA.CACUGAGGCU
+M.musculus.1                       .U.UUAAACCGUUCCAUUUUAU.UUCUGAGGUU
+M.musculus.2                       .U.UUAAACCGUUCCAUUUUAU.UUCUGAGG..
+H.sapiens.1                        .G.UAAAACCGUUCCAUUUUGA.UUCUGAGGUU
+M.murinus.1                        .U.AAAAACCGUUCCAUUUUG..UUCUGAGGUU
+Otolemur_garnettii_s.1             UG.UAAAACUAUUCCAUUUUGA.UUCUGAGGUU
+T.belangeri.1                      .UAUAAAACCGUUCCAUUUUGA.UACUGAGGUU
+B.taurus.1                         .A.AAAAACCGUUCCAUUUUGA.UUCUGAGGUU
+M.lucifugus.1                      .C.AUUUACCGUUCCAUUUUUA.UUCUGAGGUU
+E.caballus.1                       .UAUAAAACCGUUCCAUUUUGA.UUCUGAGGUU
+Dasypus_novemcinctus.1             .C..AAAACCGUUCCAUAUUGU.UUCUGAGGUU
+Monodelphis_domestic.1             .C.AUAUACCGUUCCACUUUUA.UUCUGAGGUU
+O.anatinus.1                       .U.AUAAAACGUUCCUUUUUUUAUUCUGAGGUU
+#=GC SS_cons                       .............................>>>>
+#=GC RF                            .u.aaAAACCGUUCCAUUUUaA.UUCUGAGGuu
+//

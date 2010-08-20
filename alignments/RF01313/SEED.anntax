@@ -1,0 +1,55 @@
+# STOCKHOLM 1.0
+#=GF ID    HHBV_epsilon
+#=GF AC    RF01313
+#=GF DE    Heron HBV RNA encapsidation signal epsilon
+#=GF AU    Chen A, Brown C, Daub J
+#=GF GA    21.0
+#=GF NC    0.0
+#=GF TC    38.1
+#=GF SE    Chen A
+#=GF SS    Published; PMID:9188560
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    9188560
+#=GF RT    Sequence- and structure-specific determinants in the interaction
+#=GF RT    between the RNA encapsidation signal and reverse transcriptase of
+#=GF RT    avian hepatitis B viruses.
+#=GF RA    Beck J, Nassal M;
+#=GF RL    J Virol. 1997;71:4971-4980.
+#=GF RN    [2]
+#=GF RM    17430968
+#=GF RT    Thermodynamics and NMR studies on Duck, Heron and Human HBV
+#=GF RT    encapsidation signals.
+#=GF RA    Girard FC, Ottink OM, Ampt KA, Tessari M, Wijmenga SS;
+#=GF RL    Nucleic Acids Res. 2007;35:2800-2811.
+#=GF WK    http://en.wikipedia.org/wiki/Heron_HBV_RNA_encapsidation_signal_epsilon
+#=GF SQ    6
+
+#=GS Duck_hepatitis_B_vir.1 AC    K01834.1/2560-2616
+#=GS Stork_hepatitis_B_vi.1 AC    AJ251937.1/2572-2628
+#=GS Heron_hepatitis_B_vi.1 AC    M22056.1/2566-2622
+#=GS Rosss_goose_hepatiti.1 AC    AY494848.1/2560-2616
+#=GS Snow_goose_hepatitis.1 AC    AF110998.1/2563-2619
+#=GS Sheldgoose_hepatitis.1 AC    AY494853.1/2590-2646
+
+Duck_hepatitis_B_vir.1             UGCCAAGGUAUCUUUACGUCUACAUUGCUGUUGUCGUGUGUGACUGUACC
+Stork_hepatitis_B_vi.1             UGCCAAGGUAUCUUUACGUCAACCUCGCUGUUGUUCCUUGUGACUGUACC
+Heron_hepatitis_B_vi.1             UGCCAAGGUAUCUUUACGUCGACCUCGCUGUUGUUCCUUGUGACUGUACC
+Rosss_goose_hepatiti.1             UGCCAAGGUAUUUUUACGUCGUCUUUGCUGUUGUUCCUUGUGACUGUACC
+Snow_goose_hepatitis.1             UGCCAAGGUAUAUUUACGUCUACAUUGCUGUUGUCAUGUUUGACUGUACC
+Sheldgoose_hepatitis.1             UGCCAAGGUAUCUUUACGUCUACAUUGCUGUUGUUCUUUGUGACUGUACC
+#=GC SS_cons                       <<<<<<<<<<<......<<<.....................>>>.>>>>>
+#=GC RF                            ugCCaaGGuaucUUUAcGuCaAccUcGcUGUUGUUccUUGUGaCUguaCC
+
+Duck_hepatitis_B_vir.1             UUUGGUA
+Stork_hepatitis_B_vi.1             UUUGGUA
+Heron_hepatitis_B_vi.1             UUUGGUA
+Rosss_goose_hepatiti.1             UUUGGUA
+Snow_goose_hepatitis.1             UUUGGUA
+Sheldgoose_hepatitis.1             UUUGGUA
+#=GC SS_cons                       .>>>>>>
+#=GC RF                            UuuGGua
+//

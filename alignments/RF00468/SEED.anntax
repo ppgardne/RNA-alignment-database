@@ -1,0 +1,363 @@
+# STOCKHOLM 1.0
+#=GF ID    HCV_SLVII
+#=GF AC    RF00468
+#=GF DE    Hepatitis C virus stem-loop VII
+#=GF AU    Moxon S, Griffiths-Jones S
+#=GF GA    24.0
+#=GF NC    23.8
+#=GF TC    24.7
+#=GF SE    PMID:15452207
+#=GF SS    Predicted; RNAalifold; Griffiths-Jones S
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    15452207
+#=GF RT    Cis-acting RNA signals in the NS5B C-terminal coding sequence of the
+#=GF RT    hepatitis C virus genome.
+#=GF RA    Lee H, Shin H, Wimmer E, Paul AV;
+#=GF RL    J Virol 2004;78:10865-10877.
+#=GF CC    This family represents the Hepatitis C stem-loop VII structure
+#=GF CC    found in the coding region of the RNA-dependent RNA polymerase
+#=GF CC    gene, NS5B. The structure is important (but not essential) for
+#=GF CC    colony formation, though its exact function and mechanism are
+#=GF CC    unknown [1].
+#=GF WK    http://en.wikipedia.org/wiki/Hepatitis_C_virus_stem-loop_VII
+#=GF SQ    110
+
+#=GS Hepatitis_C_virus.1     AC    D16615.1/849-913
+#=GS Hepatitis_C_virus.2     AC    D86537.1/849-913
+#=GS Hepatitis_C_virus.3     AC    AF054263.1/191-256
+#=GS Hepatitis_C_virus.4     AC    D86536.1/849-913
+#=GS Hepatitis_C_virus.5     AC    AB047644.1/9195-9259
+#=GS Hepatitis_C_virus.6     AC    D86542.1/849-913
+#=GS Hepatitis_C_virus.7     AC    AY682766.1/1540-1605
+#=GS Hepatitis_C_virus.8     AC    AB049098.1/9095-9160
+#=GS Hepatitis_C_virus.9     AC    AB049096.1/9095-9160
+#=GS Hepatitis_C_virus.10    AC    D10988.1/9196-9260
+#=GS Hepatitis_C_virus.11    AC    D86530.1/849-913
+#=GS Hepatitis_C_virus.12    AC    D49769.1/849-913
+#=GS Hepatitis_C_virus_su.1  AC    AY232739.1/9159-9223
+#=GS Hepatitis_C_virus.13    AC    D87353.1/849-913
+#=GS Hepatitis_C_virus_is.1  AC    D84262.2/9155-9219
+#=GS Hepatitis_C_virus_su.2  AC    AY460204.1/9129-9194
+#=GS Hepatitis_C_virus.14    AC    D37862.1/849-913
+#=GS Hepatitis_C_virus_su.3  AC    AB189099.1/1528-1593
+#=GS Hepatitis_C_virus.15    AC    AB057690.1/1528-1593
+#=GS Hepatitis_C_virus.16    AC    D49772.1/849-913
+#=GS Hepatitis_C_virus.17    AC    D87357.1/849-913
+#=GS Hepatitis_C_virus.18    AC    AF511948.1/9130-9195
+#=GS Hepatitis_C_virus.19    AC    D86529.1/849-913
+#=GS Hepatitis_C_virus.20    AC    D37853.1/849-913
+#=GS Hepatitis_C_virus_is.2  AC    D84264.2/9142-9206
+#=GS Hepatitis_C_virus_su.4  AC    AF177036.1/9195-9259
+#=GS Hepatitis_C_virus.21    AC    AB186421.1/842-907
+#=GS Hepatitis_C_virus.22    AC    D87360.1/849-913
+#=GS Hepatitis_C_virus.23    AC    D37857.1/849-913
+#=GS Hepatitis_C_virus_su.5  AC    AB189118.1/430-495
+#=GS Hepatitis_C_virus_su.6  AC    AB189095.1/1528-1593
+#=GS Hepatitis_C_virus.24    AC    AJ000009.1/9109-9174
+#=GS Hepatitis_C_virus_is.3  AC    D84263.2/9133-9197
+#=GS Hepatitis_C_virus_su.7  AC    U89019.1/9109-9171
+#=GS Hepatitis_C_virus_su.8  AC    AY878650.1/9125-9189
+#=GS Hepatitis_C_virus.25    AC    AB057598.1/1528-1593
+#=GS Hepatitis_C_virus.26    AC    D49760.1/849-913
+#=GS Hepatitis_C_virus.27    AC    AB057681.1/1528-1593
+#=GS Hepatitis_C_virus.28    AC    D84398.1/850-913
+#=GS Hepatitis_C_virus.29    AC    AY682779.1/1540-1605
+#=GS Hepatitis_C_virus_is.4  AC    D63821.1/9152-9216
+#=GS Hepatitis_C_virus.30    AC    D16619.1/849-913
+#=GS Hepatitis_C_virus.31    AC    D50467.1/849-913
+#=GS Hepatitis_C_virus.32    AC    D87356.1/849-913
+#=GS Hepatitis_C_virus.33    AC    AB057600.1/1528-1593
+#=GS Hepatitis_C_virus.34    AC    D16621.1/849-913
+#=GS Hepatitis_C_virus.35    AC    AB057614.1/1528-1593
+#=GS Hepatitis_C_virus_SA.1  AC    AF064490.1/9044-9108
+#=GS Hepatitis_C_virus_su.9  AC    AF207758.1/9114-9179
+#=GS Hepatitis_C_virus_su.10 AC    M67463.1/9129-9194
+#=GS Hepatitis_C_virus.36    AC    D37858.1/849-913
+#=GS Hepatitis_C_virus.37    AC    AB080299.1/9126-9191
+#=GS Hepatitis_C_virus_is.5  AC    D50409.1/9208-9271
+#=GS Hepatitis_C_virus_su.11 AC    AY232732.1/9159-9223
+#=GS Hepatitis_C_virus.38    AC    D31973.1/853-916
+#=GS Hepatitis_C_virus_is.6  AC    D49374.1/9164-9228
+#=GS Hepatitis_C_virus.39    AC    D49775.1/849-913
+#=GS Hepatitis_C_virus_su.12 AC    AB189115.1/430-495
+#=GS Hepatitis_C_virus_su.13 AC    M84754.1/9126-9191
+#=GS Hepatitis_C_virus.40    AC    D86543.1/849-913
+#=GS Hepatitis_C_virus_su.14 AC    AY232745.1/9159-9223
+#=GS Hepatitis_C_virus_su.15 AC    AB189089.1/1528-1593
+#=GS Hepatitis_C_virus.41    AC    AY973865.1/1529-1593
+#=GS Hepatitis_C_virus_su.16 AC    AY232742.1/9159-9223
+#=GS Hepatitis_C_virus.42    AC    D00828.1/852-916
+#=GS Hepatitis_C_virus_su.17 AC    M58335.1/9117-9182
+#=GS Hepatitis_C_virus.43    AC    AB047645.1/9192-9256
+#=GS Hepatitis_C_virus.44    AC    D87362.1/849-913
+#=GS Hepatitis_C_virus_su.18 AC    S62220.1/9137-9202
+#=GS Hepatitis_C_virus_su.19 AC    AY232734.1/9159-9223
+#=GS Hepatitis_C_virus_su.20 AC    AY232746.1/9159-9223
+#=GS Hepatitis_C_virus.45    AC    AB057612.1/1528-1593
+#=GS Hepatitis_C_virus_su.21 AC    AF238481.1/9161-9225
+#=GS Hepatitis_C_virus.46    AC    D49767.1/849-913
+#=GS Hepatitis_C_virus_su.22 AC    U45476.1/9126-9191
+#=GS Hepatitis_C_virus.47    AC    AY682758.1/1540-1605
+#=GS Hepatitis_C_virus.48    AC    AB057679.1/1528-1593
+#=GS Hepatitis_C_virus.49    AC    D49778.1/849-913
+#=GS Hepatitis_C_virus.50    AC    AB057692.1/1528-1593
+#=GS Hepatitis_C_virus.51    AC    D30797.1/849-913
+#=GS Hepatitis_C_virus_su.23 AC    AF238482.1/9161-9225
+#=GS Hepatitis_C_virus.52    AC    AY682761.1/1540-1605
+#=GS Hepatitis_C_virus_su.24 AC    U16362.1/9127-9192
+#=GS Hepatitis_C_virus.53    AC    D49774.1/849-913
+#=GS Hepatitis_C_virus.54    AC    AY682753.1/1540-1605
+#=GS Hepatitis_C_virus_is.7  AC    D84265.2/9139-9203
+#=GS Hepatitis_C_virus.55    AC    AY682775.1/1540-1605
+#=GS Hepatitis_C_virus.56    AC    D86539.1/849-913
+#=GS Hepatitis_C_virus_su.25 AC    AY232731.1/9159-9223
+#=GS Hepatitis_C_virus.57    AC    D49776.1/849-913
+#=GS Hepatitis_C_virus.58    AC    D50480.1/9114-9179
+#=GS Hepatitis_C_virus.59    AC    AY682786.1/1540-1605
+#=GS Hepatitis_C_virus.60    AC    D87364.1/849-913
+#=GS Hepatitis_C_virus.61    AC    D16617.1/849-913
+#=GS Hepatitis_C_virus.62    AC    AB049095.1/9095-9160
+#=GS Hepatitis_C_virus_su.26 AC    AB154194.1/9114-9179
+#=GS Hepatitis_C_virus.63    AC    D49766.1/849-913
+#=GS Hepatitis_C_virus.64    AC    AY973861.1/1514-1578
+#=GS Hepatitis_C_virus_is.8  AC    AB030907.1/9196-9260
+#=GS Hepatitis_C_virus.65    AC    D37863.1/849-913
+#=GS Hepatitis_C_virus_is.9  AC    D14853.1/9129-9194
+#=GS Hepatitis_C_virus_is.10 AC    AB031663.1/9196-9260
+#=GS Hepatitis_C_virus.66    AC    D86531.1/848-913
+#=GS Hepatitis_C_virus.67    AC    AB057616.1/1528-1593
+#=GS Hepatitis_C_virus.68    AC    D16613.1/849-913
+#=GS Hepatitis_C_virus.69    AC    AB057680.1/1528-1593
+#=GS Hepatitis_C_virus.70    AC    AB057683.1/1528-1593
+#=GS Hepatitis_C_virus.71    AC    D49780.1/849-913
+#=GS Hepatitis_C_virus_su.27 AC    AB189101.1/1528-1593
+#=GS Hepatitis_C_virus.72    AC    AY973849.1/1498-1563
+
+Hepatitis_C_virus.1                 AGCUCAUCGCCC.AAGGAGGGAAGGCCAGAAUAUGUGGCUUGUACCUCUU
+Hepatitis_C_virus.2                 AGCUCAUCGCUC.AGGGGGGCAAGGCCAGAAUCUGUGGCAUAUACCUCUU
+Hepatitis_C_virus.3                 AAGCUACUGUCCCAGGGGGGGAGGGCCGCCACUUGUGGCAGAUACCUCUU
+Hepatitis_C_virus.4                 AGCUUAUCGCCC.AGGGAGGUAGAGCCAAAAUCUGUGGCAUAUACCUCUU
+Hepatitis_C_virus.5                 CCCUCAUCUCCC.GAGGGGGGAGAGCGGCCAUUUGUGGCCGGUAUCUCUU
+Hepatitis_C_virus.6                 AGCUUAUCGCCC.AGGGAGGUAAAGCCAAGAUAUGUGGCAUAUACCUCUU
+Hepatitis_C_virus.7                 AAGCUUCUGUCCAGAGGAGGCAGGGCUGCCAUAUGUGGCAAGUACCUCUU
+Hepatitis_C_virus.8                 AAACUACUGUCCCAGGGGGGGAGGGCCGCCACCUGUGGCAAAUACCUCUU
+Hepatitis_C_virus.9                 AAGCUACUGUCCCAAGGGGGGAGGGCUGCCACCUGUGGCAAAUACCUCUU
+Hepatitis_C_virus.10                CACUCAUCGCCC.AAGGAGCGAGGGCGGCCAUUUGUGGCCGCUACCUCUU
+Hepatitis_C_virus.11                CCCUCAUUGCCC.GGGGAGGGAGGGCGGCCAUAUGUGGCCGCUACCUCUU
+Hepatitis_C_virus.12                CUCUCAUCGUCC.GGGGGGGGAGGGCGGCCACCUGUGGCCGCUACCUCUU
+Hepatitis_C_virus_su.1              CACUCAUCGCCC.AAGGGGGGAGGGCGGCCAUCUGUGGCCGCUACCUCUU
+Hepatitis_C_virus.13                AGCUUAUUGCCC.AAGGAGGGAAGGCUGCAAUAUGUGGCAAGUACCUCUU
+Hepatitis_C_virus_is.1              AACUCAUUGCCC.AAGGUGGGAAAGCAGCGAUAUGCGGCAAGUACCUCUU
+Hepatitis_C_virus_su.2              AAGCUACUGUCCCGGGGGGGGAGGGCUGCCAUUUGCGGCACGUACCUCUU
+Hepatitis_C_virus.14                AGCUUAUCACCC.GAGGGGGGAAAGCUGCUAUAUGCGGCAAGUACCUCUU
+Hepatitis_C_virus_su.3              AGACUGCUGUCCCAGGGGGGGAGGGCUGCCACUUGUGGCAAAUACCUGUU
+Hepatitis_C_virus.15                AGGCUACUGUCCCAGGGGGGGAGGGCCGCCACUUGUGGCAAAUACCUCUU
+Hepatitis_C_virus.16                CCUUAAUUGUCC.AAGGAGGAAGAGCGGCCAUAUGUGGCCGCUACCUCUU
+Hepatitis_C_virus.17                AACUCAUUGCCC.AGGGAGGUGCAGCAGCAAUAUGCGGCAAGUACCUCUU
+Hepatitis_C_virus.18                AGACUUCUGUCCAGAGGAGGCAGGGCUGCCAUAUGUGGCAAGUACCUCUU
+Hepatitis_C_virus.19                CGCUCAUCUCCC.GGGGUGGGAGGGCGGCCAUUUGUGGCCGUUACCUCUU
+Hepatitis_C_virus.20                AACUCAUUGUCC.AGGGAGGAAGGGCCAGAAUAUGUGGCCUAUACCUCUU
+Hepatitis_C_virus_is.2              AGCUUAUUGCCC.AAGGGGGAGGCGCUGCAAUUUGCGGCAAGUACCUCUU
+Hepatitis_C_virus_su.4              CCCUCAUCUCCC.GUGGGGGGAGAGCGGCCGUUUGCGGUCGAUAUCUCUU
+Hepatitis_C_virus.21                AAGCUGCUGUCCCAGGGGGGGAGGGCCGCCACUUGUGGCAGGUACCUCUU
+Hepatitis_C_virus.22                AACUCAUUGCCC.AAGGAGGGAGAGCAGCUAUAUGCGGCAGAUACCUCUU
+Hepatitis_C_virus.23                AGCUCAUUGCUC.AGGGGGGGAAAGCCGCUAUUUGCGGCAGAUACCUCUU
+Hepatitis_C_virus_su.5              AAGCUGCUGUCCCAGGGAGGGAGGGCUGCCACUUGUGGCAAGUACCUCUU
+Hepatitis_C_virus_su.6              AAGCUACUGUCCCAGGGGGGGAGGGCCGCCACUUGCGGUAAAUACCUCUU
+Hepatitis_C_virus.24                AAGCUACUGUCCCAGGGGGGAAGGGCUGCCACUUGUGGCCGCUACCUCUU
+Hepatitis_C_virus_is.3              AGCUCAUCGCCCAAGGGGGGAAACAC.GCUAUAUGCGGUAAGUACCUCUU
+Hepatitis_C_virus_su.7              AAGCUACUGUCCCAAGGGGGGAGGGCUGCCACUUGU...GAAUACCUCUU
+Hepatitis_C_virus_su.8              AGCUUAUCGCCC.AGGGAGGGAACGCAGCGAUUUGCGGCAAGUACCUCUU
+Hepatitis_C_virus.25                AGGCUACUGUCCCGGGGGGGGAGGGCUGCCACUUGUGGCAAAUACCUCUU
+Hepatitis_C_virus.26                CCCUCAUUGUCC.AAGGAGGGAAGGCGGCUAUAUGCGGCCGCUAUCUCUU
+Hepatitis_C_virus.27                AAGCUACUGUCCCAAGGGGGGAGGGCCGCCACUUGUGGCAGGUACCUGUU
+Hepatitis_C_virus.28                CCUCAUCAGCCG..GGGGGGGAGGGCGGCCACGUGCGGUCGCUACCUCUU
+Hepatitis_C_virus.29                AAGUUGCUGUCCCAGGGGGGGAGGGCCGCCAUCUGUGGCAGGUACCUCUU
+Hepatitis_C_virus_is.4              AGCUCAUUUCCC.AGGGAGGGAAGGCCAAAAUCUGUGGCCUUUACCUCUU
+Hepatitis_C_virus.30                AGCUUAUCGCCC.AAGGAGGAAAGGCCAAGAUUUGUGGCCUCUACCUUUU
+Hepatitis_C_virus.31                AGCUCAUCGCUC.AGGGAGGUAGGGCCGCCAUCUGCGGCACCUAUCUCUU
+Hepatitis_C_virus.32                AACUCAUUGCCC.AGGGGGGGAAAGCUGCUAUAUGCGGCAAGUACCUCUU
+Hepatitis_C_virus.33                AAGCUGCUGUCCCAGGGGGGGAGAGCUGCCACUUGUGGCAAGUACCUCUU
+Hepatitis_C_virus.34                AGCUUAUAGCUC.AGGGGGGAAAGGCCAAAAUCUGUGGCCUUUACCUCUU
+Hepatitis_C_virus.35                AAGCUACUGUCCCAGGGAGGAAGGGCCGCCAUCUGUGGCAAAUACCUCUU
+Hepatitis_C_virus_SA.1              AGCUCAUCGCUC.AGGGAGGUAAGGCCGCCAUCUGCGGCAUCUAUCUCUU
+Hepatitis_C_virus_su.9              AAGCUGCUGUCCCGGGGGGGGAGGGCAGCCACUUGUGGCAAAUACCUCUU
+Hepatitis_C_virus_su.10             AGGCUUCUGGCCAGAGGAGGCAAGGCUGCCAUAUGUGGCAAGUACCUCUU
+Hepatitis_C_virus.36                AACUCAUCGCCC.AGGGGGGGAAAGCCGCAAUAUGUGGUCGGUACCUCUU
+Hepatitis_C_virus.37                AAGUUACUGUCCCAGGGGGGGAGGGCCGCCACUUGUGGCAAGUACCUCUU
+Hepatitis_C_virus_is.5              CCUCAUCAGCCG..AGGGGGGAGCGCGGCCACAUGUGGCCGCUACCUCUU
+Hepatitis_C_virus_su.11             CACUCAUCGCCC.AAGGAGGGAAGGCAGCCAUUUGUGGCCGCUACCUCUU
+Hepatitis_C_virus.38                CCUCAUCAGCCG..AGGUGGGAGGGCGGCCACAUGUGGCCGUUACCUCUU
+Hepatitis_C_virus_is.6              AACUCAUUGCCC.AAGGAGGAAAGGCCAGAAUAUGCGGUCUAUACCUCUU
+Hepatitis_C_virus.39                CCCUCAUUGCCC.AGGGAGGGAGAGCGGCCAUAUGUGGCCGCUAUCUCUU
+Hepatitis_C_virus_su.12             AAGCUACUGUCCCAGGGGGGGAGGGCUGCCACGUGUGGCAAGUACCUCUU
+Hepatitis_C_virus_su.13             AAGCUACUGUCUCAGGGGGGGAGGGCUGCCACUUGUGGCCGGUACCUCUU
+Hepatitis_C_virus.40                AGCUCAUCGCCC.AGGGAGGGAGAGCCAAGAUCUGUGGCAUAUAUCUCUU
+Hepatitis_C_virus_su.14             CACUCAUCGCCC.AGGGAGGGAGGGCGGCCAUUUGCGGUCGCUACCUCUU
+Hepatitis_C_virus_su.15             AAGCUGCUGUCCCAGGGGGGGAGGGCUGCUACUUGUGGCAAAUACCUCUU
+Hepatitis_C_virus.41                AACUCAUUGCCC.AAGGGGGGAAAGCGGCCAUAUGCGGUAAGUACCUCUU
+Hepatitis_C_virus_su.16             CACUCAUCGCCC.AGGGAGGGAGGGCGGCCAUUUGUGGCCGAUACCUCUU
+Hepatitis_C_virus.42                CACUCAUCGCCC.AGGGAGGGAGAGCGGCCAUCUGUGGCCGUUACCUCUU
+Hepatitis_C_virus_su.17             AGGCUACUGUCCCAGGGAGGGAGGGCCGCCACUUGUGGCAAAUACCUCUU
+Hepatitis_C_virus.43                CCCUCAUCUCCC.GCGGGGGGAGAGCGGCCGUUUGCGGUCGGUAUCUCUU
+Hepatitis_C_virus.44                AACUCAUCGCCC.AAGGGGGGAAAGCGGCUAUAUGCGGUAAGUACCUCUU
+Hepatitis_C_virus_su.18             AAACUACUGUCCCAGGGGGGGAGGGCGGCCACUUGCGGCAAAUACCUCUU
+Hepatitis_C_virus_su.19             CACUCAUCGCCC.AGGGAGGGAGAGCGGCCACUUGUGGCCGCUACCUCUU
+Hepatitis_C_virus_su.20             CACUCAUUGCCC.AGGGAGGGAGAGCGGCCAUUUGUGGACGCUACCUCUU
+Hepatitis_C_virus.45                AGGCUACUGUCUCAGGGGGGGAAGGCUGCCACUUGUGGCAAAUACCUCUU
+Hepatitis_C_virus_su.21             CCCUCAUCUCCC.AUGGGGGGAGAGCGGCCAUUUGCGGUCGGUAUCUCUU
+Hepatitis_C_virus.46                AGCUCAUUUCCC.AAGGAGGGAAGGCCAAAAUCUGCGGCCUGUACCUCUU
+Hepatitis_C_virus_su.22             AAGCUACUGUCCCCGGGGGGGGAGGGCUCCACUUGUGGCAAAUACCUCUU
+Hepatitis_C_virus.47                AGGCUCCUGUCCAGGGGAGGCAGAGCUGCCAUAUGUGGCAAGUACCUCUU
+Hepatitis_C_virus.48                AAGCUACUGUCCCAGGGGGGGAGAGCUGCCACUUGUGGCAGAUAUCUGUU
+Hepatitis_C_virus.49                CCCUCAUUGUCC.AAGGAGGAAAAGCGGCCAUAUGCGGCCGCUACCUCUU
+Hepatitis_C_virus.50                AAGUUGCUGUCCCAGAGGGGGAGGGCCGCCAUUUGUGGCAAGUACCUCUU
+Hepatitis_C_virus.51                AGCUCAUUGCUC.AGGGGGGGAAAGCCGCUAUUUGCGGCAAGUACCUCUU
+Hepatitis_C_virus_su.23             CCCUCAUCUCCC.AUGGAGGGAGGGCGGCCGUUUGCGGUCGGUAUCUCUU
+Hepatitis_C_virus.52                AGGCUUCUGUCCAGAGGAGGCAGAGCUGCCAUAUGUGGCCAGUACCUCUU
+Hepatitis_C_virus_su.24             AAGCUACUGUCCCAGGGGGGGAGGGCCGCCACUUGUGGCAAGUACCUCUU
+Hepatitis_C_virus.53                AGCUCAUUUCCC.AGGGAGGGAAGGCUAAAGUCUGCGGCCUUUACCUCUU
+Hepatitis_C_virus.54                AGGCUUCUGUCCAGAGGAGGCAGGGCUGCCAUUUGUGGCAGGUACCUCUU
+Hepatitis_C_virus_is.7              AGCUUAUUGCCC.AAGGAGGGAAAGCCGCAGUAUGUGGCAAGUACCUCUU
+Hepatitis_C_virus.55                AGGCUACUGUCCAGGGGAGGUAGGGCUGCCAUAUGUGGCAAGUACCUCUU
+Hepatitis_C_virus.56                AGCUCAUCGCCC.AGGGAGGGAAAGCCAAAAUCUGUGGCGUGUACCUCUU
+Hepatitis_C_virus_su.25             CGCUCAUCGCCC.AAGGAGGGAGAGCGGCCAUUUGCGGCCGCUACCUCUU
+Hepatitis_C_virus.57                CCCUCAUUGCCC.AAGGGGGAAAAGCGGCCACGUGUGGCCGCUACCUCUU
+Hepatitis_C_virus.58                AAGCUACUGUCCCAGGGGGGGAGGGCCGCCACCUGUGGGAGGUACCUCUU
+Hepatitis_C_virus.59                AGGCUUCUGUCCAGGGGAGGCAGGGCUGCCAUAUGUGGCAAAUACCUCUU
+Hepatitis_C_virus.60                AGCUCAUCGCCC.AGGGGGGGAAAGCCGCUAUCUGCGGUAAGUACCUCUU
+Hepatitis_C_virus.61                AGCUCAUUGUCC.AGGGGGGAAAGGCCAGAAUAUGUGGUCUAUACCUCUU
+Hepatitis_C_virus.62                AAGCUACUGUCCCAAGGAGGGAGGGCCGCCACUUGUGGCAAGUACCUCUU
+Hepatitis_C_virus_su.26             AAGCUCCUGUCCCAGGGGGGGAGGGCUGCCAACUGUGGCAAAUACCUCUU
+Hepatitis_C_virus.63                AGCUUAUCGCCC.AGGGUGGGAAAGCCGCUAUAUGCGGCACGUACCUCUU
+Hepatitis_C_virus.64                AGCUUAUCGCCC.AGGGAGGGAAGGCCAAAAUAUGUGGCCUUUAUCUCUU
+Hepatitis_C_virus_is.8              CACUCAUCAUCC.AGGGAGGGAGGGCGGCCACUUGUGGACGCUACCUCUU
+Hepatitis_C_virus.65                AGCUGAUCAGCC.GGGGGGGGAAAGCCGCAAUAUGCGGCAAGUACCUCUU
+Hepatitis_C_virus_is.9              ACACUCCUAUCCCAGGGGGGGAGAGCCGCUAUAUGCGGUAAGUAUCUCUU
+Hepatitis_C_virus_is.10             CACUCAUCUCCC.AGGGAGGGAGAGCGGCCACUUGUGGCUUCUAUCUCUU
+Hepatitis_C_virus.66                AAGUUGCUGUCCCAGGGGGGGAGGGCUGCCAUCUGCGGUAAGUACCUCUU
+Hepatitis_C_virus.67                AAGUUACUGUCCCAGGGGGGGAGGGCCGCUAAUUGCGGCAAAUACCUCUU
+Hepatitis_C_virus.68                AGCUCAUCGCUC.AAGGAGGAAAGGCCAAAAUUUGUGGUCUUUACCUCUU
+Hepatitis_C_virus.69                AAGCUGCUGUCCCAGGGGGGGAGGGCCGCCACGUGUGGCAAGUAUCUCUU
+Hepatitis_C_virus.70                AAGCUGCUGUCUCAGGGGGGGAGGGCCGCCAUUUGUGGCAAAUACCUCUU
+Hepatitis_C_virus.71                CCCUCAUUGUCC.AAGGAGGAAGAGCGGCCACAUGUGGCCGCUACCCCUU
+Hepatitis_C_virus_su.27             AAGCUACUGUCCCAGGGGGGGAGGGCUGCCACAUGUGGCAGAUACCUGUU
+Hepatitis_C_virus.72                AGGCUCCUGUCCAGAGGAGGGAGGGCUGCCAUAUGUGGCAAGUACCUCUU
+#=GC SS_cons                        ......<<<<<<..<<<<<<....<<<<<.....>>>>>.....>>>>>>
+
+Hepatitis_C_virus.1                 CAACUGGGCAGUACGC
+Hepatitis_C_virus.2                 CAACUGGGCGGUGAAA
+Hepatitis_C_virus.3                 UAACUGGGCAGUAAGG
+Hepatitis_C_virus.4                 UAACUGGGCGGUAAAA
+Hepatitis_C_virus.5                 CAACUGGGCGGUGAAG
+Hepatitis_C_virus.6                 CAACUGGGCGGUAAAA
+Hepatitis_C_virus.7                 CAAUUGGGCAGUAAGA
+Hepatitis_C_virus.8                 CAACUGGGCAGUGAAG
+Hepatitis_C_virus.9                 CAAUUGGGCUGUAAGG
+Hepatitis_C_virus.10                CAACUGGGCGGUGAAA
+Hepatitis_C_virus.11                UAACUGGGCAGUGAGA
+Hepatitis_C_virus.12                UAACUGGGCGGUGAAG
+Hepatitis_C_virus_su.1              CAACUGGGCGGUGAAG
+Hepatitis_C_virus.13                UAAUUGGGCGAUAAAG
+Hepatitis_C_virus_is.1              UAACUGGGCAGUGAAG
+Hepatitis_C_virus_su.2              CAACUGGGCAGUAAAG
+Hepatitis_C_virus.14                CAACUGGGCGGUAAAA
+Hepatitis_C_virus_su.3              CAACUGGGCAGUGAAG
+Hepatitis_C_virus.15                CAAUUGGGCAGUAAGG
+Hepatitis_C_virus.16                CAACUGGGCAGUUAAG
+Hepatitis_C_virus.17                UAACUGGGCGGUGAGG
+Hepatitis_C_virus.18                CAACUGGGCAGUAAAA
+Hepatitis_C_virus.19                CAACUGGGCGGUGAAA
+Hepatitis_C_virus.20                UAACUGGGCAGUGCGU
+Hepatitis_C_virus_is.2              CAACUGGGCAGUAAAG
+Hepatitis_C_virus_su.4              CAAUUGGGCGGUGAAG
+Hepatitis_C_virus.21                CAACUGGGCGGUAAAA
+Hepatitis_C_virus.22                UAACUGGGCGGUGAAG
+Hepatitis_C_virus.23                CAAUUGGGCCGUGAGA
+Hepatitis_C_virus_su.5              UAACUGGGCAGUAAGG
+Hepatitis_C_virus_su.6              CAACUGGGCAGUAAGG
+Hepatitis_C_virus.24                CAACUGGGCAGUAAAG
+Hepatitis_C_virus_is.3              CAAUUGGGCCGUGAGA
+Hepatitis_C_virus_su.7              CAAUUGGGCGGUAAAG
+Hepatitis_C_virus_su.8              UAAUUGGGCGGUAAGG
+Hepatitis_C_virus.25                CAACUGGGCAGUAAAG
+Hepatitis_C_virus.26                CAAUUGGGCAGUGAAG
+Hepatitis_C_virus.27                CAACUGGGCGGUAAGG
+Hepatitis_C_virus.28                CAACUGGGCUGUGAAG
+Hepatitis_C_virus.29                CAACUGGGCAGUAAGG
+Hepatitis_C_virus_is.4              CAACUGGGCAGUGCGC
+Hepatitis_C_virus.30                CAAUUGGGCGGUACGC
+Hepatitis_C_virus.31                UAACUGGGCGGUGAGA
+Hepatitis_C_virus.32                UAACUGGGCGGUGAAG
+Hepatitis_C_virus.33                CAACUGGGCAGUAAAA
+Hepatitis_C_virus.34                UAACUGGGCUGUACGC
+Hepatitis_C_virus.35                CAAUUGGGCAGUAAGG
+Hepatitis_C_virus_SA.1              CAACUGGGCGGUGAAA
+Hepatitis_C_virus_su.9              CAACUGGGCAGUGAGG
+Hepatitis_C_virus_su.10             CAACUGGGCAGUAAGA
+Hepatitis_C_virus.36                UAACUGGGCUGUGAGA
+Hepatitis_C_virus.37                CAACUGGGCAGUAAAG
+Hepatitis_C_virus_is.5              CAACUGGGCUGUGAGG
+Hepatitis_C_virus_su.11             CAACUGGGCGGUGAAG
+Hepatitis_C_virus.38                CAACUGGGCUGUGAAG
+Hepatitis_C_virus_is.6              UAACUGGGCAGUGCGC
+Hepatitis_C_virus.39                UAAUUGGGCUGUGAGG
+Hepatitis_C_virus_su.12             CAACUGGGCAGUAAGG
+Hepatitis_C_virus_su.13             CAACUGGGCGGUAAAG
+Hepatitis_C_virus.40                CAACUGGGCGGUGAGA
+Hepatitis_C_virus_su.14             UAACUGGGCGGUGAAG
+Hepatitis_C_virus_su.15             CAACUGGGCAGUAAGG
+Hepatitis_C_virus.41                UAACUGGGCAGUGAAG
+Hepatitis_C_virus_su.16             CAACUGGGCUGUGAAG
+Hepatitis_C_virus.42                CAACUGGGCGGUGAAG
+Hepatitis_C_virus_su.17             CAACUGGGCAGUAAAA
+Hepatitis_C_virus.43                CAACUGGGCGGUGAGG
+Hepatitis_C_virus.44                CAAUUGGGCGGUGAAG
+Hepatitis_C_virus_su.18             CAACUGGGCAGUAAAG
+Hepatitis_C_virus_su.19             CAACUGGGCGGUGAGG
+Hepatitis_C_virus_su.20             CAACUGGGCGGUGAAG
+Hepatitis_C_virus.45                CAACUGGGCGGUAAGG
+Hepatitis_C_virus_su.21             CAACUGGGCGGUGAAA
+Hepatitis_C_virus.46                UAACUGGGCAGUGCGC
+Hepatitis_C_virus_su.22             CAACUGGGCAGUAAGG
+Hepatitis_C_virus.47                CAAUUGGGCAGUAAGA
+Hepatitis_C_virus.48                CAACUGGGCGGUAAGG
+Hepatitis_C_virus.49                UAAUUGGGCAGUGAAG
+Hepatitis_C_virus.50                CAACUGGGCAGUAAAA
+Hepatitis_C_virus.51                CAACUGGGCGGUGAAG
+Hepatitis_C_virus_su.23             CAACUGGGCGGUGAAG
+Hepatitis_C_virus.52                CAACUGGGCAGUAAGA
+Hepatitis_C_virus_su.24             CAACUGGGCGGUGAGG
+Hepatitis_C_virus.53                UAACUGGGCAGUGCGC
+Hepatitis_C_virus.54                CAACUGGGCAGUAAGG
+Hepatitis_C_virus_is.7              CAAUUGGGCGAUAAAG
+Hepatitis_C_virus.55                CAACUGGGCUGUAAAG
+Hepatitis_C_virus.56                CAACUGGGCGGUGAAA
+Hepatitis_C_virus_su.25             CAACUGGGCGGUGAAG
+Hepatitis_C_virus.57                CAAUUGGGCGGUGAGG
+Hepatitis_C_virus.58                CAACUGGGCAGUAAAG
+Hepatitis_C_virus.59                CAACUGGGCAGUAAGA
+Hepatitis_C_virus.60                CAACUGGGCGGUGAAG
+Hepatitis_C_virus.61                UAACUGGGCAGUGCGC
+Hepatitis_C_virus.62                CAACUGGGCAGUAAGG
+Hepatitis_C_virus_su.26             CAACUGGGCAGUAAGG
+Hepatitis_C_virus.63                UAACUGGGCCGUAAAA
+Hepatitis_C_virus.64                CAAUUGGGCGGUACGC
+Hepatitis_C_virus_is.8              CAACUGGGCGGUGAAG
+Hepatitis_C_virus.65                CAAUUGGGCGGUAAAA
+Hepatitis_C_virus_is.9              CAACUGGGCGGUGAAA
+Hepatitis_C_virus_is.10             CAACUGGGCGGUGAGG
+Hepatitis_C_virus.66                CAACUGGGCAGUAAGG
+Hepatitis_C_virus.67                CAACUGGGCAGUAAGG
+Hepatitis_C_virus.68                CAAUUGGGCGGUACGC
+Hepatitis_C_virus.69                CAACUGGGCGGUAAGG
+Hepatitis_C_virus.70                CAACUGGGCAGUAAGG
+Hepatitis_C_virus.71                CAAUUGGGCAGUGAAG
+Hepatitis_C_virus_su.27             CAACUGGGCAGUAAGG
+Hepatitis_C_virus.72                CAACUGGGCAGUAAGA
+#=GC SS_cons                        .....>>>>>>.....
+//

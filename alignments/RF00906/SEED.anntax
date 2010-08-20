@@ -1,0 +1,166 @@
+# STOCKHOLM 1.0
+#=GF ID    MIR1122
+#=GF AC    RF00906
+#=GF DE    microRNA MIR1122
+#=GF AU    Wilkinson A
+#=GF GA    50.0
+#=GF NC    50.0
+#=GF TC    50.0
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000382
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    34
+
+#=GS O.sativa.1     AC    AC105731.2/33963-34055
+#=GS O.sativa.2     AC    AC082645.13/82631-82723
+#=GS O.sativa.3     AC    AAAA02013872.1/26789-26694
+#=GS B.sylvaticum.1 AC    EF059989.1/343417-343552
+#=GS A.sativa.1     AC    AY083681.1/2466-2333
+#=GS A.speltoides.1 AC    DQ145552.1/803-667
+#=GS A.tauschii.1   AC    AF548379.1/5968-6092
+#=GS A.speltoides.2 AC    AF343491.1/1292-1200
+#=GS A.speltoides.3 AC    AF343490.1/1268-1176
+#=GS A.tauschii.2   AC    CT009625.1/19456-19364
+#=GS A.speltoides.4 AC    AJ302096.1/1385-1477
+#=GS A.velutinum.1  AC    AF277253.1/887-801
+#=GS H.persica.1    AC    AY821703.1/1189-1271
+#=GS H.piliferum.1  AC    AF277239.1/1056-1188
+#=GS H.vulgare.1    AC    X83518.1/7623-7532
+#=GS H.vulgare.2    AC    AF459085.1/1867-1743
+#=GS H.murinum.1    AC    AY553259.1/528-618
+#=GS H.vulgare.3    AC    AF474071.1/34506-34598
+#=GS H.vulgare.4    AC    AF474373.1/52134-52258
+#=GS L.elongatum.1  AC    EF397435.1/125-217
+#=GS P.sanctum.1    AC    AY821714.1/1194-1287
+#=GS S.cereale.1    AC    AF099670.1/728-820
+#=GS T.turgidum.1   AC    AY368673.1/832-738
+#=GS T.aestivum.1   AC    AY963808.1/10854-10724
+#=GS T.monococcum.1 AC    AB238931.1/2749-2883
+#=GS T.urartu.1     AC    DQ267106.1/58607-58473
+#=GS T.turgidum.2   AC    CT009587.1/113990-114124
+#=GS T.urartu.2     AC    AF306829.1/774-682
+#=GS T.monococcum.2 AC    AY821732.1/670-536
+#=GS T.turgidum.3   AC    DQ871219.1/56040-55948
+#=GS T.monococcum.3 AC    AF458279.1/188-280
+#=GS T.turgidum.4   AC    AY146587.2/110938-111052
+#=GS T.aestivum.2   AC    CR626934.1/28888-28980
+#=GS T.turgidum.5   AC    DQ871219.1/236267-236133
+
+O.sativa.1                 UGGGUACUCCCUCCGUCCCACAAUAUAAG....GGAUUUG..........
+O.sativa.2                 AAAGUACUCCCUCUAGUCAUUAAUAUAUGACGUUUU..............
+O.sativa.3                 UACAUACUCCCUCCGUCCCAUAAUAUAGCAACCUAGUACU....AUAU..
+B.sylvaticum.1             GCUGUACUCCCUCCGUCCAACAAAAGAUGUCUCAAGUUUGU.CAAAAUUU
+A.sativa.1                 ..ACUACUCCCUCCGUCACAAAAAGGAUGUCUCAAGUUUGU.UUGAAUUU
+A.speltoides.1             UAGUUACUCCCUCCGUCCGGAAAUACUUGUCACCAAAAUGGAUAAAAGGG
+A.tauschii.1               AUUAUACUCCCUCCGUCCGAAAUUAUUUGUCGGAGAAAUG..........
+A.speltoides.2             AUAAUACUCCCUCCUUCCCAUAAUAU......................AA
+A.speltoides.3             ACUGUACUCCCUCCGUCCCAUAAUAU......................AA
+A.tauschii.2               UAAUUACUCCCUCCGUCCCAUAAUAUAA...........G..........
+A.speltoides.4             CUAGUACUCCCUCUGUAAACUAAUAUAA...........G..........
+A.velutinum.1              CAAGUACUCCCUCUGUAAAGAAAUAUA.......................
+H.persica.1                AUCAUACUCCCUCCGUCCCAAAAUAAGUGACUCAACUUUA..........
+H.piliferum.1              CAAAUACUCCCUCCGUCCCAAAAUUCUUGUCAUAGAUUUGU.CUAAAUAC
+H.vulgare.1                CAAAUACUCCCUCUGUAAACUA...........AUAUAAG..........
+H.vulgare.2                UAAAUACUCCCUCCGUCCGGAAGUACUUGUCGUCAAAAUGG.AAAGAAAU
+H.murinum.1                UUAGUACUC.CUCUGUAAACUAAUAUA.......................
+H.vulgare.3                AUAAUACUCCCUCUGUAAACUAAUAUAA...........G..........
+H.vulgare.4                UACAUACUCCCUCCGUCCGGAAUUACUUGUCACACAAAUGG.AUAAAAAU
+L.elongatum.1              CACUUACUUCUUCCGUCCCAUAAUGUAAU.....................
+P.sanctum.1                AUUAUACUCCCUCCGAUCCAAAAUAAGCGUCGUG................
+S.cereale.1                UUAAUACUCCCUCUGUAAACUAAUAUAA......A...............
+T.turgidum.1               GUGGUACUCCCUCCGUAAAUUAAUAU......................AA
+T.aestivum.1               CACAUACUCCCUCCGUCCGGAAAUACUUGUCAUCAAAAUGG.AUAAAAGG
+T.monococcum.1             GUAGUACUCCCUCCGUCCGAAAAUACUUGUCAUCAAAAUGG.ACAAAAAG
+T.urartu.1                 AAUGUACUCCUUUUGUCCUAAAAUUUGUGUCUUAGAUUUGU.CUACAUAC
+T.turgidum.2               GAAAUACUCCCUUCGUCCGAAAAUACUUGUCAUCAAAAUAA.AUAUAAGA
+T.urartu.2                 AUUAUACACCCUCUGUUCCUAAAUAUAAGACGUU................
+T.monococcum.2             CAUGUACUCCCUCCGUCCCAAAAUUCUUGUCUUAGAUUUGU.CUAAAUAC
+T.turgidum.3               CAAAUAUUCCCUCUGUCCCAUAAUAUAAG.....................
+T.monococcum.3             GAAGUAUUCCCUCUGUAAACUAAUAUAAGACCU.................
+T.turgidum.4               GAGGUACUCCCUCCGUUCCGAAUUACUUGUCUCAAAAAUG..........
+T.aestivum.2               AAACUAUUCCCUCCGUCCCAUAAUAUAA...........G..........
+T.turgidum.5               UACGUACUCCCUCCGUCCCAAAAUUCUUGUCUUAGAUUUGU.CUAAAAAC
+#=GC SS_cons               ....<<<<<<<<<<<<<<<<<<<<<<<<<<<<<.................
+#=GC RF                    uAaaUACUCCCUCCGUCCcaAAAuacuuGUCauAaAaaUGu.auAAAaau
+
+O.sativa.1                 GGGUGGAUG...............A......CAUCCACCCC.........
+O.sativa.2                 ........UUAAC.ACUAAAAUAUG.UAUUAA..................
+O.sativa.3                 .GAUGU.................CC..........CAUCCGGUAAUA...
+B.sylvaticum.1             GGAUGUAUCUAGA.CAUGACUUAGU.GUAUAGAUGCAUUCAAAUUUAGUC
+A.sativa.1                 GGACGAAUCUAUA.UAUUAAAUAGU.GUCUAGAUACAUCCAAGUUUAGAC
+A.speltoides.1             GGAUGUAUCUAGA.UGUAUUUUAGU..UCUAGAUACAUUUCUUAUUAUCC
+A.tauschii.1               .GAUGUAUCUAGA.CGUAUUUUAGU..UCUAGAUACAUCCAUUUUUAUCC
+A.speltoides.2             GAACGUUCUUCAC.ACUAGUGUAGU..GUCAAAAACGCUU..........
+A.speltoides.3             GAACGUUUUUUAC.ACUAGUGUAGU..GUCAAAAACGCUU..........
+A.tauschii.2               .AACGUUUUUCAA.GCUAACAUAGU..UUGAAAAACGUUC..........
+A.speltoides.4             .AGCGUUUAGAUC.ACUAUUUUAGU..AUUCUAAACGCUC..........
+A.velutinum.1              .AGAGCGUUUAGA.UCACUAU..GA..UCUAAACGCUCU...........
+H.persica.1                .....................UACU.........................
+H.piliferum.1              GGAUGUAUCUAGU.CAUGUUUUAGU..GUUAGACACAUUCAUAUCUAAAC
+H.vulgare.1                .AGCGUUUAGAUC.ACUAAAGUAGU..GAUCUAAACGCUCUUAUA.....
+H.vulgare.2                GGAUGUAUCUAGA.ACUAAAAUACG..UCUAGAUACAUCC..........
+H.murinum.1                .AAAGCAUUUAGAUCAUUAAGUAGUGAUCUAAAUGCUCU...........
+H.vulgare.3                .AGUGUUUAGAUU.ACUAAAGUAGU..AUUCUAAAUGCUC..........
+H.vulgare.4                GGAUAUAUCUAGA.ACUAAAAUACA..UCUAGAUACAUCC..........
+L.elongatum.1              .ACGUUUUUGCAA.GCUAUGUUAGU..UUGUAAAAACGUC..........
+P.sanctum.1                .GUUUUAGUUCAA.A.........U..UUGAACUAAAACC..........
+S.cereale.1                .AGCAUUUAGAUC.ACUAAAGUAGU..GUUCUAAACACUCU.........
+T.turgidum.1               GAGUGUUUUGAUC.ACUAUUUUAGU..GAUCUAAACGCUCUU........
+T.aestivum.1               GGAUGUAUCUAGA.CAUAUUUUAGU..UCUAGAUACAUCUCUUUUUAGUC
+T.monococcum.1             GGAUGUAUUUAGA.ACUAAAAUACA..UCUAGAUACAUCCCCUUUUAUUC
+T.urartu.1                 GAAUGUAUUUAUU.CACAUUUUAGU..GUUAGAUACAUUCGUAUUUAAAU
+T.turgidum.2               GGAUGUAUUUAGA.UAUAUUUUAGU..UCUAAAUACAUUCAAUUUUAUCC
+T.urartu.2                 .UUUGUAGUUCAA.A............UUGAACUGCAAAA..........
+T.monococcum.2             GGAUGUAUCAAGU.CACGUUUUAGU..AUUAGAUACAUCCGUAUCUAGGC
+T.turgidum.3               .AACUUUUUUCAA.GCUUUGUUAGU..UUGAAAAAUGUU...........
+T.monococcum.3             .....UUUAGAUC.ACUAAAGUAGU..GAUCUAAA...............
+T.turgidum.4               .GAUGUAUCUAGA.ACUAAAAUAUG..UCUAGAUACAUCC..........
+T.aestivum.2               .AGCGUUUUUGAC.ACUAGUGCAGU..GUCAAAAACGCUC..........
+T.turgidum.5               GGAUGUAUCAAGU.CACGUUUUAGU..AUUAGAUACAUCCGUAUCUAGAC
+#=GC SS_cons               .<<<<<<<<<<<<..............>>>>>>>>>>>>...........
+#=GC RF                    GGAuGuAUCuAga.cAUAauuUAGu..ucUaGAUaCaUCCauaUUUAgaC
+
+O.sativa.1                 AAAUCC....CUUAUAUUAUGGGACGGAGGGAGUAGGUUGU
+O.sativa.2                 AA....ACGUCAUAUAUUAAUAGCCGGAGGGAGUA..CUUU
+O.sativa.3                 ......GGUUGCUAUAUUAUGGGACGGAGGGAGUA..UUCA
+B.sylvaticum.1             AAAAUUGAGACAUCCUUUGUUGGACGGAGGAAGUA..CCAU
+A.sativa.1                 AAAUUUGAUACAUCCUUUUCGGGACGGAGGGAGUA..CAUG
+A.speltoides.1             AUUUUGAUGACAAGUAUUUUCGAACGGAGGGAGUA.CGUUU
+A.tauschii.1               AUUUCUGCAACAAGUAGUUCCGGACGGAGGGAGUA..UCAU
+A.speltoides.2             ....UU.......AUAUUAUGGGACGGAGGGAGUA..GAAU
+A.speltoides.3             ....UU.......AUAUUAUGGGACGGAGGGAGUA..GAAU
+A.tauschii.2               ...........UUAUAUUAUGGGAGGAAGGGAGUA..UAUA
+A.speltoides.4             ...........UUAUAUUAGUUUACGGAGGGAGUA..GUUU
+A.velutinum.1              ............UAUAUUUCUUUACAGAGGGAGUA..UAUA
+H.persica.1                AAAGUUGAGUCACUUAUUUUGGGACGGAGGGAGUA..GGAG
+H.piliferum.1              AAAUCUAAGACNAGAAUUUUGGGACGGAGGGAGUA....UU
+H.vulgare.1                .....U...........UAGUUCACA.AGGGAGUA..CUAU
+H.vulgare.2                AUUUCUAUGACAAAUAAUUCCGGACGGAGGGAGUA..UAAU
+H.murinum.1                ............UAUAUUAGUUUACGGAGGGAGUA..GUUG
+H.vulgare.3                ...........UUAUAUUAGUUUACGGAGGGAGUA..AUAA
+H.vulgare.4                AUUCCUAUGACAAAUAUUUCCGGACAGAGGGAGUA..UAAG
+L.elongatum.1              ...........UUACAUUAUGGGAUAGAGGGAGUA..CAUU
+P.sanctum.1                ......AUGACGCUUAUUUUAGAUCGGAGGGAGUA..GUAG
+S.cereale.1                ............UAUAUUAGUUUACGGAGGGAGUA..CAUC
+T.turgidum.1               .............AUAUUAGUUUACUGAGGGAGUGCUUUUU
+T.aestivum.1               ACUUUGAUGACAAGUAUUUUCGGACGGAGGGAGUA......
+T.monococcum.1             AUUUUGAUGACAAGUAUUUCCGGACGGAGGGAGUA..CAUC
+T.urartu.1                 AAAUUUAAGAUAAGAAUUUUGGGACAGAGGAAGUA..UAUA
+T.turgidum.2               AUUUUGAUGACAAGUAUUUUCGGACGGAGGGAGUA..UAUU
+T.urartu.2                 ......ACGUCUUAUAUUUAGAAACAGAGGUAGUA..AUUA
+T.monococcum.2             AAAUCUAAGACAAGAAUUUUGGAACGGAGGAAGUA..UAAG
+T.turgidum.3               ..........CUUAUAUUAUGGGACGGAGGGAGUA..CCAU
+T.monococcum.3             ......AGGUCUUAUAUUAGUUUACAGAGGGAGUA..CAAU
+T.turgidum.4               AUUUUUUCGACAAGUAAUUCAGAACGGAGGGAGUA..ACAA
+T.aestivum.2               ...........UUAUAUUAUGGGACGGAGGGAGUA..CAAC
+T.turgidum.5               GAAUCUAAGACAAGAAUUUUGGGACGGAGGGAGUA..CAAG
+#=GC SS_cons               ......>>>>>>>>>>>>>>>>>>>>>>>>>>>>>......
+#=GC RF                    AauUuUauGACaaguaUUUugGGACGGAGGGAGUA..uAau
+//

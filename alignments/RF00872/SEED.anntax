@@ -1,0 +1,98 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-652
+#=GF AC    RF00872
+#=GF DE    microRNA mir-652
+#=GF AU    Wilkinson A
+#=GF GA    50.0
+#=GF NC    50.0
+#=GF TC    50.0
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000333
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    17
+
+#=GS L.africana.1           AC    AAGU02890100.1/702-795
+#=GS C.porcellus.1          AC    AAKN02039981.1/11382-11479
+#=GS M.musculus.1           AC    AAHY01203960.1/162-259
+#=GS M.mulatta.1            AC    AANU01095443.1/40917-41014
+#=GS H.sapiens.1            AC    ABBA01017831.1/65666-65761
+#=GS P.troglodytes.1        AC    AACZ02217400.1/569-666
+#=GS P.abelii.1             AC    ABGA01152213.1/4819-4914
+#=GS T.syrichta.1           AC    ABRT010494874.1/94-190
+#=GS C.lupus.1              AC    AACN010214799.1/660-755
+#=GS F.catus.1              AC    ACBE01245880.1/1926-2022
+#=GS T.truncatus.1          AC    ABRN01090407.1/4522-4617
+#=GS B.taurus.1             AC    AAFC03082687.1/22415-22513
+#=GS L.pacos.1              AC    ABRR01183245.1/1634-1731
+#=GS P.vampyrus.1           AC    ABRP01145045.1/4347-4444
+#=GS S.araneus.1            AC    AALT01529428.1/6713-6810
+#=GS E.caballus.1           AC    AAWR02023510.1/34220-34313
+#=GS Choloepus_hoffmanni_.1 AC    ABVD01051371.1/1994-2090
+
+L.africana.1                       CAAGCAGCCAGUGCACUGCACAACUCUAGGG...GGGUCCAUUCACA...
+C.porcellus.1                      ACGAAUGGCUAUGCACUGCACAACCCUAGGAAGGGGUGCCAUUCACA...
+M.musculus.1                       AGGAACAGCUAUGUACUGCACAACCCUAGGAGGGGGUGCCAUUCACA...
+M.mulatta.1                        ACGAAUGGCUAUGCACUGCACAACCCUAGGAGAGGGUGCCAUUCACA...
+H.sapiens.1                        CAACCAGGUUGUAUACUGUACAACCUUUG...GGGGUGCCAUUCACA...
+P.troglodytes.1                    ACGAAUGGCUAUGCACUGCACAACCCUAGGAGAGGGUGCCAUUCACA...
+P.abelii.1                         UGCACAGGUUGUGCACUGCACAACUCCAA...GGGAUGCCAAUCACAUUG
+T.syrichta.1                       GCAACAGGUUGUGCACUGCACAACUCCAA...GGGGUGCCAGUCACAUUG
+C.lupus.1                          UGUGUGGGCUGUGUGCUCCACAACUCCAC....GGGUGUCAUUCACA...
+F.catus.1                          UGGCCAGGUUGUGCACUGCACAACUCUAGAA...GGUACCAGUCACA...
+T.truncatus.1                      UGUUCAGGUUGCUCACUGCAUAAUCCUAG...AGGGCUCCAUUCACA...
+B.taurus.1                         UCUGUAGGCUAUGCAUUGCACAACUCACGGGUAGGUAGUCUUUCACG...
+L.pacos.1                          ACGAAUGGCUAUGCACUGCACAACCCUAGGAGAGGGUGCCAUUCACA...
+P.vampyrus.1                       AUGAGCGGCUAUGUACUGCACAACCCUAGGAAUGUGUGCCAUUCACA...
+S.araneus.1                        AUGAAUGGCUGUGUCCUACACAACCCUAGUAGAUGGUGCCAUUCACA...
+E.caballus.1                       UUGUGAGGUUGUGCACUGUAUGACUUCAG....GGGUGCCAUUCACA...
+Choloepus_hoffmanni_.1             UGUGCAGCCUGUGCACAUCACAAUUCCAG...GGGGUGCCAUUCACA...
+#=GC SS_cons                       ...........<<<<<<<<<<<<<<<<<<.....<<<<<<<<<<<.....
+#=GC RF                            uauaaagguUgugcaCUGCACAACuCcaggAgaGGgcgCCAuuCacA...
+
+L.africana.1                       ..GACUAAAAGG.UGAAUG.GU.GGC.CCUGGGGUUGUACUGUGCACAGC
+C.porcellus.1                      UGGACUAUA.AU.UGAAUG.GC.GCC.ACUAGGGUUGUGAAGUGUACAAC
+M.musculus.1                       UAGAGUAUA.AU.UGAAUG.GC.GCC.ACUAGGGUUGUGCAGUGUACAGC
+M.mulatta.1                        UAGACUAUA.AU.UGAAUG.GC.GCC.ACUAGGGUUGUGCAGUGCACAAC
+H.sapiens.1                        AAGACUGUA.GUGUGAAUG.GU.GUC.CCUGGAAUUAUGCAGUACACAAC
+P.troglodytes.1                    UAGACUAUA.AU.UGAAUG.GC.GCC.ACUAGGGUUGUGCAGUGCACAAC
+P.abelii.1                         CAGACUAUG....UGAAUG.GU.GAC.CCUGGAGUUGUGCAGUGCACAGU
+T.syrichta.1                       CAGACUCUG....UGAAUG.GUGACC.CCUUGAGUUGUGCAGUGUACAGU
+C.lupus.1                          UAGACUACA.CUGUGAAUG.AU.GCCACCUAGAGUUGUGCAGUACACAAC
+F.catus.1                          GUGUGAUCU.AUGUGCAUG.GU.GCCCUCUAGAAUUGUGUAGUGCACAAG
+T.truncatus.1                      UGGAGUAUG.GUGUGAAUG.GU.GCC.CUUAGAGUUGUGCAGUGCACAAC
+B.taurus.1                         AAGAAUAUG.AAGUAAAUG.GC.AUC.UCUAGAGUUGUGCAGUGUACAAC
+L.pacos.1                          UAGACUGUA.AU.UGAAUG.GC.GCC.ACUAGGGUUGUGCAGUGCAUAGC
+P.vampyrus.1                       UAGACUAAA.AU.UGAAUG.GC.GCC.ACUAGGGUUGUGCAGUGUACAAC
+S.araneus.1                        UAGACUAUA.AU.UGAAUG.GC.GCC.ACUAGGGUUGUGCAGUGCACAGC
+E.caballus.1                       UCAUAUUUA....UGAGUGUGCUGCC.CCUGGAGUUGUACAGUGCACAAC
+Choloepus_hoffmanni_.1             UCGACCACA.CUGUGACUG.GU.ACCCUCUGGAGUUGUGCAGUGCACAAC
+#=GC SS_cons                       <<.....>>....>>>>>>.>>.>>>..>>>>>>>>>>>>>>>>>>....
+#=GC RF                            cAGAauaUg.Au.uGaaUG.Gc.gcC.ccugGaGUUGUGCAGugcaCAAc
+
+L.africana.1                       CUGCAC
+C.porcellus.1                      CUACAC
+M.musculus.1                       CUACAC
+M.mulatta.1                        CUGCAC
+H.sapiens.1                        CUGCAC
+P.troglodytes.1                    CUACAC
+P.abelii.1                         CUGUAC
+T.syrichta.1                       CUGUAC
+C.lupus.1                          CUUCAC
+F.catus.1                          CUGCAC
+T.truncatus.1                      AUGCCC
+B.taurus.1                         UUGCAC
+L.pacos.1                          CAUUCG
+P.vampyrus.1                       CUACAC
+S.araneus.1                        CUAUAC
+E.caballus.1                       CUGCAC
+Choloepus_hoffmanni_.1             CUGGCC
+#=GC SS_cons                       ......
+#=GC RF                            cUgcAC
+//

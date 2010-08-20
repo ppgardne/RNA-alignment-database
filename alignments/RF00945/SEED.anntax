@@ -1,0 +1,36 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-1226
+#=GF AC    RF00945
+#=GF DE    microRNA mir-1226
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    21.9
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000444
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    3
+
+#=GS P.troglodytes.1        AC    AACZ02035906.1/2036-2110
+#=GS M.murinus.1            AC    ABDC01287930.1/4361-4436
+#=GS Otolemur_garnettii_s.1 AC    AAQR01550445.1/61-136
+
+P.troglodytes.1                    GUGAGGGCAUGCAGGCCUGGAUGGGGCAGCUGGGAUGGUCCAAAAGGGUG
+M.murinus.1                        UGGGGGGCAGCCAGGACUGGAUGGGGUAGCUGGGAAGGGCCAGAAGGGUG
+Otolemur_garnettii_s.1             UGGGGGGCAGGCAAGACUGGAUGGGGCAGCUGAGAAGGGCUGGAAGGGUA
+#=GC SS_cons                       ...<<<<<<<<<<<<<<<<<.<<<<<<.<<<.<<.....>>.....>>>.
+#=GC RF                            gugagggcacgcagggcuggAuggggcAgccgggAugguccAAAAgggcg
+
+P.troglodytes.1                    GCCUCAC.CAGCCCUGUGUUCCCUAG
+M.murinus.1                        GCCUCACUCAGCCCUGUGUUCCCUAG
+Otolemur_garnettii_s.1             GCCUCACUCAGCCCUAUAUUCCCUAG
+#=GC SS_cons                       >>>>>>>.>>>>>>>>>>>>>>>>..
+#=GC RF                            gccccac.cagcccugcgugcccuAg
+//

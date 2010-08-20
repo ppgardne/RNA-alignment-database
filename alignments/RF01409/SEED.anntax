@@ -1,0 +1,51 @@
+# STOCKHOLM 1.0
+#=GF ID    STnc250
+#=GF AC    RF01409
+#=GF DE    STnc250 Hfq binding RNA
+#=GF AU    Daub J, Gardner PP
+#=GF GA    36.0
+#=GF NC    35.8
+#=GF TC    36.4
+#=GF PI    ypfM_ORF
+#=GF SE    Predicted; WAR; Infernal
+#=GF SS    Predicted; WAR
+#=GF TP    Gene; sRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF RN    [1]
+#=GF RM    18725932
+#=GF RT    Deep sequencing analysis of small noncoding RNA and mRNA targets
+#=GF RT    of the global post-transcriptional regulator, Hfq.
+#=GF RA    Sittka A, Lucchini S, Papenfort K, Sharma CM, Rolle K, Binnewies
+#=GF RA    TT, Hinton JC, Vogel J;
+#=GF RL    PLoS Genet. 2008;4:e1000163.
+#=GF RN    [2]
+#=GF RM    17971080
+#=GF RT    A small non-coding RNA of the invasion gene island (SPI-1)
+#=GF RT    represses outer membrane protein synthesis from the Salmonella
+#=GF RT    core genome.
+#=GF RA    Pfeiffer V, Sittka A, Tomer R, Tedin K, Brinkmann V, Vogel J
+#=GF RL    Mol Microbiol. 2007;66:1174-1191.
+#=GF WK    http://en.wikipedia.org/wiki/Hfq_binding_sRNA
+#=GF SQ    4
+
+#=GS S.enterica.1           AC    AL627274.1/255894-255987
+#=GS Salmonella_enterica_.1 AC    CP000026.1/453883-453976
+#=GS Salmonella_enterica_.2 AC    ABEH02000006.1/327014-327107
+#=GS marine_metag.1         AC    AACY022063666.1/620-713
+
+S.enterica.1                       GAAGUCAUGCUUCGUAAAUAAAUGCCUGGAAGGCACCGCGCUCCCAUAGG
+Salmonella_enterica_.1             GAAGUCAUGCUUCGUAAAUAAAUGCCUGGAAAGCACCGCGCUCCCAUAGA
+Salmonella_enterica_.2             GAAGUCAUGCUUCGUAAAUAAAUGACUGGAAGGCACCGCGCUCCCAUAGG
+marine_metag.1                     GAAGUGAUGCUUCGUAAAUAAUUUUCUGGAAGAAAUUCAUAUCCUGUAAA
+#=GC SS_cons                       <<<<.....>>>>.........<<<<.....>>>>......<<<<....>
+#=GC RF                            GAAGUSAUGCUUCGUAAAUAAWUKYCUGGAAGGCAYYSCKCUCCYRUAGR
+
+S.enterica.1                       GGAUAAGAAAAGGCGACUCAACGAAAGUCGCCUUUUUUGUGCCC
+Salmonella_enterica_.1             GGAUAAGAAAAGGCGACUCAACGAAAGUCGCCUUUUUUGUGCCC
+Salmonella_enterica_.2             GGAUAAGAAAAGGCGACUCAACGAAAGUCGCCUUUUUUGUGCCC
+marine_metag.1                     GGAUAAAAAAAGGCGACUCAACGUAAGUCGCCUUUUUUGUGCCC
+#=GC SS_cons                       >>>..<<<<<<<<<<<<<.......>>>>>>>>>>>>>......
+#=GC RF                            GGAUAAGAAAAGGCGACUCAACGWAAGUCGCCUUUUUUGUGCCC
+//

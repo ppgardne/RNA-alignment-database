@@ -1,0 +1,203 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-166
+#=GF AC    RF00075
+#=GF DE    mir-166 microRNA precursor
+#=GF AU    Griffiths-Jones SR, Daub J
+#=GF GA    25.0
+#=GF NC    23.7
+#=GF TC    29.7
+#=GF SE    Griffiths-Jones SR, Daub J
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  --fil-no-hmm  CM SEQDB
+#=GF DR    MIPF; MIPF0000004
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF RN    [1]
+#=GF RM    12101121
+#=GF RT    MicroRNAs in plants.
+#=GF RA    Reinhart BJ, Weinstein EG, Rhoades MW, Bartel B, Bartel DP;
+#=GF RL    Genes Dev 2002;16:1616-1626.
+#=GF RN    [2]
+#=GF RM    11779458
+#=GF RT    microRNAs: tiny regulators with great potential.
+#=GF RA    Ambros V;
+#=GF RL    Cell 2001;107:823-826.
+#=GF CC    This family represents the plant microRNA (miRNA) precursor
+#=GF CC    mir-166. This miRNA has now been predicted or experimentally
+#=GF CC    confirmed in a wide range of plant species (MIPF:MIPF0000004).
+#=GF CC    Animal miRNAs are transcribed as ~70nt precursors and
+#=GF CC    subsequently processed by the Dicer enzyme to give a ~22nt
+#=GF CC    product.  In plants the precursor sequences may be longer, and
+#=GF CC    the carpel factory (caf) enzyme appears to be involved in
+#=GF CC    processing.  In this case the mature sequence comes from the 3'
+#=GF CC    arm of the precursor, and both Arabidopsis and rice genomes
+#=GF CC    contain a number of related miRNA precursors which give rise to
+#=GF CC    almost identical mature sequences.  The extents of the hairpin
+#=GF CC    precursors are not generally known and are estimated based on
+#=GF CC    hairpin prediction.  The products are thought to have regulatory
+#=GF CC    roles through complementarity to mRNA.
+#=GF WK    http://en.wikipedia.org/wiki/mir-166_microRNA_precursor
+#=GF SQ    30
+
+#=GS O.sativa.1     AC    AY551232.1/7-113
+#=GS O.sativa.2     AC    AP004125.3/115014-115130
+#=GS O.sativa.3     AC    AY551233.1/12-120
+#=GS O.sativa.4     AC    AY551230.1/23-201
+#=GS O.sativa.5     AC    AC025296.10/95861-95981
+#=GS O.sativa.6     AC    AP008216.1/13967992-13968078
+#=GS O.sativa.7     AC    AP008209.1/25099871-25100005
+#=GS O.sativa.8     AC    AY551231.1/31-172
+#=GS O.sativa.9     AC    AY551234.1/11-145
+#=GS Z.mays.1       AC    AY501432.1/1-124
+#=GS Z.mays.2       AC    AY664413.1/238494-238586
+#=GS Z.mays.3       AC    AY664417.1/307178-307265
+#=GS N.sylvestris.1 AC    AY599420.1/1-187
+#=GS M.truncatula.1 AC    AC140029.19/70482-70585
+#=GS M.truncatula.2 AC    CT009488.4/103285-103389
+#=GS M.truncatula.3 AC    AC148816.3/87332-87512
+#=GS M.truncatula.4 AC    AC155889.2/41932-42101
+#=GS M.truncatula.5 AC    AC148487.14/34671-34762
+#=GS M.truncatula.6 AC    AC144592.26/52605-52711
+#=GS M.truncatula.7 AC    CT009488.4/103459-103549
+#=GS M.truncatula.8 AC    AC140029.19/70272-70377
+#=GS A.thaliana.1   AC    AB016871.1/76861-77005
+#=GS A.thaliana.2   AC    AL138642.1/84877-84998
+#=GS A.thaliana.3   AC    AL590346.1/40100-40217
+#=GS A.thaliana.4   AC    AC005819.3/30684-30829
+#=GS A.thaliana.5   AC    AB016875.1/40211-40311
+#=GS A.thaliana.6   AC    AB005234.1/57935-58034
+#=GS A.thaliana.7   AC    AL590346.1/42078-42188
+#=GS A.thaliana.8   AC    AF013294.1/57881-58026
+#=GS A.thaliana.9   AC    AC023628.3/19835-19945
+
+O.sativa.1                 GUUAAGGGGAUUGUUGUCUGGUUCAAGGUCUCCACAU.UGUGCAAAAU..
+O.sativa.2                 GUUAAGGGGUUUGUUGUCUGGCUCGAGG.CAUCCGGG.ACUCCGGUUUCU
+O.sativa.3                 CUUGUGGGGAAUGUUGGCUGGCUCGAGGUAUCCACAU.CUUAAUUCCUCU
+O.sativa.4                 UUUGAGGGGAAUGUUGUCUGGCUCGGGGCUACUUUUA.AUUUCUCUCUCU
+O.sativa.5                 UCUGAGUGGAAUGUUGUCUGGUUCAAGGUCUCAUGCA.CCUUGCGGUUUU
+O.sativa.6                 GUUGAGAGGAAUGUCGUCUGGCCUGAG.......................
+O.sativa.7                 GGUGUUUGGAAUGCAGUUUGAUCCAAGAUCUGCCUAU.AUAUAUGGUGUG
+O.sativa.8                 GUUAAGGGGUUUGUUGUCUGGUUCAAGGCCUCCUGCU.GUCCUACAUCAC
+O.sativa.9                 GGUGUCUGGAAUGGAGGCUGAUCCAAGAUCAUUGCUU.GGUGCAAAAUAC
+Z.mays.1                   ..UGAGUGGAAUGUUGUCUGGUUCAAGGUCUUGCUUUCCGAUUUGAGAAU
+Z.mays.2                   GUUGAGGGGAAUGUCGUCUGGCGCGAGACCGUA.................
+Z.mays.3                   GUUGAGGGGAAUGUCGUCUGGCGCGAGA......................
+N.sylvestris.1             ..UGAGGGGAAUGUUGUCUGGCUCGAGGUCACCAACU.AGAUCCAUAAAC
+M.truncatula.1             GUUGAGAGGAACGUUGUCUGGCUCGAGGUGAUGGAGA.UGGAAGA.....
+M.truncatula.2             GCUGAGAGGAACGCAGUCUGGCUCGAGGAAUGCUCAG.AUCUGUUU....
+M.truncatula.3             GGUGUUUGGAAUGAGGUUUGUUCCAAGAUCAUCACAC.AUCAUGUUUCUU
+M.truncatula.4             GUUGAUGGGAAUGUUGUUUGGCUCGAGGUAAUAACUA.ACUCAAUUUCUU
+M.truncatula.5             GUUCAGGGGAAUGGUGUCUGAUUCGAGACCAU..................
+M.truncatula.6             UUUGAGGGGAAUGUUGUCUGGCUCGAGGACGCUUUCU.UCUCGAUCUAAU
+M.truncatula.7             GUUGAGGGGAAUGUUGCCUGGCUCAAGGCUUUUCAUA.GUUU........
+M.truncatula.8             UUUGAGGGGAAUGUUGGCUGGCUCGAGGCUUUUCAGU.UUCACAAAGGAA
+A.thaliana.1               UUUGAGGGGAAUGUUGUCUGGCACGAGGCCCUUAACUUAGAUCUAUAUUU
+A.thaliana.2               UUUGAGGGGACUGUUGUCUGGCUCGAGGACUCUUAUU.CUAAUACAAUCU
+A.thaliana.3               GUUGAGAGGAUUGUUGUCUGGCUCGAGGUCAUGAAGA.AGAGAAUCACUC
+A.thaliana.4               UUUGAGGGGACUGUUGUCUGGCUCGAGGACUCUGGCU.CGCUCUAUUCAU
+A.thaliana.5               GUUCAGGUGAAUGAUGCCUGGCUCGAGACCAUUCAAU.CUCA........
+A.thaliana.6               GUUUAGAGGAAUGUUGUUUGGCUCGAGGUCAUGGAGA.GUA.........
+A.thaliana.7               GUUGAGAGGAAUAUUGUCUGGCUCGAGGUCAUGAAGA.AGAUCGGUAGAU
+A.thaliana.8               GUUGUGGGGAAUGUUGUUUGGAUCGAGGAUAUCAUAA.ACGCAUACACAU
+A.thaliana.9               GUUGAGGGGAAUGUUGUCUGGAUCGAGGAUAUUAUAG.AUAUAUACAUGU
+#=GC SS_cons               <<<<<<<<<<<<<..<<<<<<..<<<........................
+
+O.sativa.1                 ..................................................
+O.sativa.2                 CCUUU.............................................
+O.sativa.3                 ..................................................
+O.sativa.4                 UUUGAUAUCUUCUUUUCUCGAUCUCCUAGCUUGAUCUUUUGAUCUCUCAA
+O.sativa.5                 GAGGA.............................................
+O.sativa.6                 ..................................................
+O.sativa.7                 UAUAUCAUAUCUUGUGAUAUGGG...........................
+O.sativa.8                 AUUUUUUUUUCUUUGUUCUGAAUUUCUGA.....................
+O.sativa.9                 UAGGGCAUUGUUGUAAGUGCCA............................
+Z.mays.1                   GAUCCAUGCUUGC.....................................
+Z.mays.2                   ..................................................
+Z.mays.3                   ..................................................
+N.sylvestris.1             UCCAUAUUAUGCUUUUUUGAAUAUAAAGAUUAGUUUUUCUUUUCUUUUCA
+M.truncatula.1             ..................................................
+M.truncatula.2             ..................................................
+M.truncatula.3             CUUCCCUUUCAAUAAUUCUUGAUUAAUUUAUGUUCAUACAUCUAUAUAUA
+M.truncatula.4             UGUCUUUGAAAGCUUUUCUUUGUUUCACUCUUUUUGAUUCUUAGAAAGUU
+M.truncatula.5             ..................................................
+M.truncatula.6             GC................................................
+M.truncatula.7             ..................................................
+M.truncatula.8             GU................................................
+A.thaliana.1               GAUUAUAUAUAUAUGUCUCUUCUUUAUUCAU...................
+A.thaliana.2               CAUUUGAAU.........................................
+A.thaliana.3               GAAUU.............................................
+A.thaliana.4               GUUGGAUCUCUUUCGAUCUAACAAUCGAAUUGA.................
+A.thaliana.5               ..................................................
+A.thaliana.6               ..................................................
+A.thaliana.7               UG................................................
+A.thaliana.8               GUUUAUAUGUUAUGAUGCAUUAUAUGACUGAUG.................
+A.thaliana.9               GU................................................
+#=GC SS_cons               ..................................................
+
+O.sativa.1                 ..............................GUUCAUUCAUGGAGGCACAG
+O.sativa.2                 ..........................CCUACUGGAGGCGCCUAAUUUCCG
+O.sativa.3                 ..............................CCGGCGAUCGAGCCGGCUCG
+O.sativa.4                 AUCGAUCUUAAGAAAA..........AGAUCAGUCAAAGAGAUGAGAGUA
+O.sativa.5                 ..........................UGAUUUGUGCAAGGUUUUUCAUUC
+O.sativa.6                 ..............................AUCGUACCACAGUGGUGGGU
+O.sativa.7                 ..........................GGAUAUGCAACAGGUGUGUGAC.A
+O.sativa.8                 ..........................UGGAUGUGUGUGUGCAUGAUGCAU
+O.sativa.9                 ..........................UUAGUUCUUUUUUGUUUCCGAGUU
+Z.mays.1                   ..........................AUGUGUAGGUUUUUUUGUUCCUCA
+Z.mays.2                   ..............................CCAGACGACGUGCUCUCUCG
+Z.mays.3                   ..............................CCGUACCGGACGACGUGCUC
+N.sylvestris.1             CUAGGAAAAUUUAAAGAUUAGUUGAUUAUAUUAAAAAGGGUUUAUGGAUC
+M.truncatula.1             ..............................GUACUCUCUACUCACUCAUC
+M.truncatula.2             ..............................UGAUCUGAUCGAUAUGUUCA
+M.truncatula.3             UAUCUAUAUAUAUUAUCA........AGUCAUUACAUGCAUGGGAUGAGA
+M.truncatula.4             GAAACU....................AAGUGAGCUUUAAAGGUUUGAUUU
+M.truncatula.5             ..............................UCGUCACAAGUAAACAGUAG
+M.truncatula.6             ..................................AAAUUUGUGGUCAUGG
+M.truncatula.7             ........................................GAUCUAUCUA
+M.truncatula.8             ...................................UCAGUCUUAAUUGUA
+A.thaliana.1               ..........................UAGUCUAUACAUGAAUGAUCAUUU
+A.thaliana.2               ..........................ACAUUCAGAUCUGAUGAUUGAUUA
+A.thaliana.3               ..........................AAUUUGGAAGAACAAAUUAAGAAA
+A.thaliana.4               ..........................ACCUUCAGAUUUCAGAUUUGAUUA
+A.thaliana.5               ..............................UGAUCUCAUGAUUAUAACGA
+A.thaliana.6               ..............................AUUCGUUAACCCAACUCAAA
+A.thaliana.7               ..............................AUUCAUUUUAAAGAGUGAAA
+A.thaliana.8               ..........................UAAUGUACAUAUAUAUACAUACAU
+A.thaliana.9               ..............................AUGUUAAUGAUUCAAGUGAU
+#=GC SS_cons               ..................................................
+
+O.sativa.1                 GAUGCUU...GGUGAUCUCGGACCAGGCUUCAAUCCCUUUAAC
+O.sativa.2                 GCGAGCU...CGGAGCCUCGGACCAGGCUUCAAUCCCUUUAAC
+O.sativa.3                 GGCGUGU...GGAAGCGUCGGACCAGGCUUCAUUCCUCGCAAG
+O.sativa.4                 GAUGUCU...GUAGAUCUCGGACCAGGCUUCAUUCCCCCCAAA
+O.sativa.5                 CUCUCAUCCGUGGGAUCUCGGACCAGGCUUCAUUCCCCUCAGA
+O.sativa.6                 ACACGUG...GACGGUCUCGGACCAGGCUUCAUUCCCCUCAAC
+O.sativa.7                 GGGGUAG...GUAGAUCUCGGAUCAGGCUUCAUUCCUCACACC
+O.sativa.8                 GGCUGGU...GGUGACCUCGGACCAGGCUUCAUUCCCUUUAAC
+O.sativa.9                 UGUUAUC...GAGGAUCUCGGACCAGGCUUCAUUCCUCACACC
+Z.mays.1                   GAUCUAC...AAGAUC.UCGGACCAGGCUUCAUUCCCCUCAGG
+Z.mays.2                   GUCGUCG...GACGGUCUCGGACCAGGCUUCAUUCCCCCCAAC
+Z.mays.3                   UCGGUUG...GACGGUCUCGGACCAGGCUUCAUUCCUCCCAAC
+N.sylvestris.1             AUGAGUU...AGUGUUGUCGGACCAGGCUUCAUUCCCCCCAAU
+M.truncatula.1             ACUAACU...UUCAAUCUCGGACCAGGCUUCAUUCCCCCCAGC
+M.truncatula.2             UAUCUAA...UUAAUUCUCGGACCAGGCUUCAUUCCUCCCAUC
+M.truncatula.3             UAUUGAG...AGUGAUCUCGGACCAGGCUUCAUUCCUCACACC
+M.truncatula.4             UGAUGUGU..GAUUAUCUCGGACCAGGCUUCAUUCCUACCAAC
+M.truncatula.5             CCUUGAG...AAUGAUCUCGGACCAGGCUUCAUUCCCCCUAGC
+M.truncatula.6             AUUGUAA...AGUAUUCUCGGACCAGGCUUCAUUCCCCCCAAU
+M.truncatula.7             CUAUGAU...UAAGGCUUCGGGCCAGGCUUCAUCCCCCUCAAA
+M.truncatula.8             UGAACUA...UAAGGCUUCGGACCAGGCUUCAUUCCCCUCAAA
+A.thaliana.1               UACGGUU...AAUGACGUCGGACCAGGCUUCAUUCCCCUCAAU
+A.thaliana.2               GGGUUUU...AGUGUCGUCGGACCAGGCUUCAUUCCCCCCAAU
+A.thaliana.3               ACCCUAG...AUGAUUCUCGGACCAGGCUUCAUUCCCCCUAAC
+A.thaliana.4               GGGUUUU...AGCGUCUUCGGACCAGGCUUCAUUCCCCCCAAU
+A.thaliana.5               UGAUGAU...GAUGAUGUCGGACCAGGCUUCAUUCCCCUCAAC
+A.thaliana.6               ACUCUAA...AUGAUUCUCGGACCAGGCUUCAUUCCCCUCAAC
+A.thaliana.7               UCCCUAA...AUGAUUCUCGGACCAGGCUUCAUUCCCCCCAAC
+A.thaliana.8               GCCACAU...GGUAUCGUCGGACCAGGCUUCAUCCCCCUCAAC
+A.thaliana.9               CAUAGAG...AGUAUCCUCGGACCAGGCUUCAUCCCCCCCAAC
+#=GC SS_cons               .................>>>..>>>>>>..>>>>>>>>>>>>>
+//

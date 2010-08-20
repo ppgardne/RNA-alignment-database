@@ -1,0 +1,91 @@
+# STOCKHOLM 1.0
+#=GF ID    G-CSF_SLDE
+#=GF AC    RF00183
+#=GF DE    G-CSF factor stem-loop destabilising element (SLDE)
+#=GF AU    Moxon SJ
+#=GF GA    32.0
+#=GF NC    22.8
+#=GF TC    34.4
+#=GF SE    PMID:11865046
+#=GF SS    Published; PMID:11865046
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    11865046
+#=GF RT    RNA destabilization by the granulocyte colony-stimulating factor
+#=GF RT    stem-loop destabilizing element involves a single stem-loop that
+#=GF RT    promotes deadenylation.
+#=GF RA    Putland RA, Sassinis TA, Harvey JS, Diamond P, Coles LS, Brown CY,
+#=GF RA    Goodall GJ;
+#=GF RL    Mol Cell Biol 2002;22:1664-1673.
+#=GF CC    This family represents the granulocyte colony-stimulating factor stem-loop
+#=GF CC    destabilising element (G-CSF SLDE). G-CSF is secreted by fibroblasts and
+#=GF CC    endothelial cells in response to the inflammatory mediators interleukin-1
+#=GF CC    (IL-1) and tumour necrosis factor alpha and by activated macrophages. The
+#=GF CC    synthesis of G-CSF is regulated both transcriptionally and through control
+#=GF CC    of mRNA stability. In unstimulated cells G-CSF mRNA is unstable but
+#=GF CC    becomes stabilised in response to IL-1 or tumour necrosis factor alpha, and
+#=GF CC    also in the case of monocytes and macrophages, in response to
+#=GF CC    lipopolysaccharide. It is likely that the presence of the SLDE in the G-CSF
+#=GF CC    mRNA contributes to the specificity of regulation of G-CSF mRNA and 
+#=GF CC    enhances the rate of shortening of the poly(A) tail [1].
+#=GF WK    http://en.wikipedia.org/wiki/G-CSF_factor_stem-loop_destabilising_element
+#=GF SQ    16
+
+#=GS E.telfairi.1           AC    AAIY01407164.1/1672-1764
+#=GS O.cuniculus.1          AC    AAGW01449136.1/609-697
+#=GS C.porcellus.1          AC    AAKN02042390.1/41925-42015
+#=GS M.musculus.1           AC    AAHY01095698.1/215580-215673
+#=GS R.norvegicus.1         AC    U37101.1/917-1009
+#=GS Spermophilus_tridece.1 AC    AAQQ01352634.1/1267-1363
+#=GS H.sapiens.1            AC    X03655.1/931-1023
+#=GS M.murinus.1            AC    ABDC01229622.1/2203-2298
+#=GS Otolemur_garnettii_s.1 AC    AAQR01436569.1/1196-1290
+#=GS T.belangeri.1          AC    AAPY01741689.1/3107-3185
+#=GS C.lupus.1              AC    AAEX02035019.1/26361-26456
+#=GS F.catus.1              AC    AANG01671083.1/530-626
+#=GS B.taurus.1             AC    AF092533.1/899-995
+#=GS S.scrofa.1             AC    U68481.1/913-1007
+#=GS M.lucifugus.1          AC    AAPE01476919.1/8375-8471
+#=GS E.caballus.1           AC    AF503365.1/780-876
+
+E.telfairi.1                       CUGAGGGUGCC.CACCUUGGGGCCCUUGGGAGCAGC...AG.GUCUCCCA
+O.cuniculus.1                      CCGUGAGC.CC.C....CGGGGCCCUGGGGAGCACC...AG.GAGGUCCA
+C.porcellus.1                      CCCAGGUCUGU.GCCCUGCAGGGCCAGG..AGCAUC...AGGGUCUCCCG
+M.musculus.1                       CUGAGGCA.CCAUCUCAGGGGGGCCCAGGCAGCAUC...UG.GUCUCCCU
+R.norvegicus.1                     CUGAGGCA.CC.UGUCUCAGGGGCCCAGGCAGCAUC...UG.GUCUCCCU
+Spermophilus_tridece.1             CUGAGGUA.UC.UAACUUGGGCCCAUGGGAAGCGUCAGAAG.CUCUCUCA
+H.sapiens.1                        CUGAGGGU.CC.CCACCUGGGACCCUUGAGAGUAUC...AG.GUCUCCCA
+M.murinus.1                        CCGAGGAUACC.CACCAUGGGGCCCUCGGGAGA.UCAGAAG.GUCUCCCA
+Otolemur_garnettii_s.1             CUAGGGUA.CC.CACCAUGGG.GCCUUGGGAGGAUCAGAAG.GUCUCCCA
+T.belangeri.1                      CUCUGG.................CCCGUGGGGCAUCAGGAG.GUCUCCCA
+C.lupus.1                          CAAGGGUA.CC.CACCUUGAGGCCCAUGGAAGCAUCAGGAA.GUCUUCCA
+F.catus.1                          CCAAGGGUACC.CACCUUGAGGCCCUCGGAAGCAUCAGGAA.GUCUCCCA
+B.taurus.1                         CUGAGGAUGCC.CACCUCGGGGCCCUUGGAAGCAUCGGGAA.GUCUCCCA
+S.scrofa.1                         CUAAGGGU.GC.CCACCUGGGGCCUU.GGAAGCAUUGGGAA.GUCUCCCA
+M.lucifugus.1                      CCGAGGGCACC.CGACUUGGGGCCCUUGGAAGCAUCAGAAG.CUCUCCCA
+E.caballus.1                       CUGAGGGUACC.CACCUUGGGGCCCUUGGAAGCAUCGGGAA.GUCUCCCA
+#=GC SS_cons                       ..<<<<<<.<<.<.....>>>>>>>>>.......<<......<<<<<<<.
+#=GC RF                            CugaGGgc.CC.caacuugGGgcCCucGGaAGcAuC...Ag.GuCuCCCA
+
+E.telfairi.1                       CGUGGGAGACAAGCCA.CCCUG.UUUAAUAUUUAAACGGCAGUGUUCCCU
+O.cuniculus.1                      CGUGGGAGACAAGACUGCUCUG.UUUAAUAUUUAAACAGCAGUGUUCCCC
+C.porcellus.1                      CGUGGGGGAC..GACAUCCCUG.UUUAAUAUUUAAACAGCAGUGUUCCCA
+M.musculus.1                       UCCGGGGGACAAGACAUCCCUG.UUUAAUAUUUAAACAGCAGUGUUCCCA
+R.norvegicus.1                     UCUGGGGGACAAGACAUCCCUG.UUUAAUAUUUAAACAGCAGUGUUCCCA
+Spermophilus_tridece.1             CGUGGAAGACAAGGCCAUACCGAUGUAAUAUUUAAACAGCAGUGUUCCCC
+H.sapiens.1                        CGUGGGAGACAAGAAAUCCCUG.UUUAAUAUUUAAACAGCAGUGUUCCCC
+M.murinus.1                        CAUGGGAGACGAGACAUCCCUG.UUUAAUAUUUAAACAGCAGUGUUCCCC
+Otolemur_garnettii_s.1             CAUUGGAGACCAGACAUCCCUG.UUUAAUAUUUAAACAGCAGUGUUCCCC
+T.belangeri.1                      UGUGGGAGACCAGACA..CCUG.UUUAAUAUUUAAACAGCAGUGUUCCCC
+C.lupus.1                          GGUGGGAGACAAAACAACCCUG.UUUAAUAUUUAAACAGCAGUGUUCCCC
+F.catus.1                          AGUGGGAGACAAGACAACCCUG.UUUAAUAUUUAAACAGCAGUGUUCCCC
+B.taurus.1                         AGUGGGAGAUGAGACAGCUCUG.UUUAAUAUUUAAACAGCAGUGUUCCCC
+S.scrofa.1                         CGUGGGAGACAAGACAGCCCUG.UUUAAUAUUUAAACAGCAGUGUUCCCC
+M.lucifugus.1                      CGUGGGAGACAAGACAGCCCUG.UUUAAUAUUUAAACAGCAGUGUUCGCC
+E.caballus.1                       CGUGGGAGACAAGACAGGCCUG.UUUAAUAUUUAAACAGCAGUGUUCCCC
+#=GC SS_cons                       ...>>>>>>>..>>.....<<<.<<<<<...>>>>>>>>...........
+#=GC RF                            cgUGGGaGaCAAGacAaccCuG.uuuaaUAUuuaaaCaGCAGUGUUCcCc
+//

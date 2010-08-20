@@ -1,0 +1,50 @@
+# STOCKHOLM 1.0
+#=GF ID    MIR535
+#=GF AC    RF00714
+#=GF DE    microRNA MIR535
+#=GF AU    Wilkinson A
+#=GF GA    56.0
+#=GF NC    34.6
+#=GF TC    61.5
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000136
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    5
+
+#=GS O.sativa.1   AC    AAAA02031907.1/20366-20463
+#=GS V.vinifera.1 AC    CAAP02015851.1/103-203
+#=GS V.vinifera.2 AC    AM489362.2/576-677
+#=GS R.communis.1 AC    AASG02028037.1/869-959
+#=GS R.communis.2 AC    AASG02007689.1/8332-8432
+
+O.sativa.1               ........GGUGACAACGAGAGAGAGCACGCCGGUGCGGCGGUCACGGUG
+V.vinifera.1             UAUAAUUGCUUGACAACGAGAGAGAGCAUGCUUGUCAGCAU.UCAUGUGA
+V.vinifera.2             UGCAAUUGCUUGACAAAGAGAGAGAGCACACUUGUUAGCAU.UCAUGUGA
+R.communis.1             CAUCAUUUGUUGACAACGAGAGAGAGCACGCUUGUUAGCCU.UCAUGUAA
+R.communis.2             CUUAGUUGGUUGACGACGAGAGAGAGCACGUUUGUCAGCAG.UCAUGCAA
+#=GC SS_cons             ..........<<<<<<<<.<<<<<<<<<<<<..<<.......<<<<<...
+#=GC RF                  agaAauuagguGACaaCGAGAGAGaGCACGCugGaauGcau.uCauGcaa
+
+O.sativa.1               AGCCGGCCCGCGGCGGCGUACCUGCGUGCUUUCUCCCGUUGUCACUGCCA
+V.vinifera.1             GGA....ACAUGACUGUUUACAGGCGUGCUCUCUAUCGCUAUCAUGCAAU
+V.vinifera.2             GGUA...ACAUGACUGUGUACAGGUGUGCUUUCUCUCGCUGUCAUACAAU
+R.communis.1             GGA....ACAUGGUUGCACACCAGCGUGCUCCCUAUCGUUGUCAAU....
+R.communis.2             UGG....ACAUGUCUGUCUACAUGCGUGCUCUCUUUUGCCGUCAUACAAU
+#=GC SS_cons             ........>>>>>......>>..>>>>>>>>>>>>.>>>>>>>>......
+#=GC RF                  agA....gCauGgauGuGUuCaaGCGUGCuCUCUCcCGuuGUCacaaAAu
+
+O.sativa.1               UACACA
+V.vinifera.1             CUUCAC
+V.vinifera.2             CUUCUC
+R.communis.1             ......
+R.communis.2             UUUCUC
+#=GC SS_cons             ......
+#=GC RF                  auuauc
+//

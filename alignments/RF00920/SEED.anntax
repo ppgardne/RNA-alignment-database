@@ -1,0 +1,53 @@
+# STOCKHOLM 1.0
+#=GF ID    MIR444
+#=GF AC    RF00920
+#=GF DE    microRNA MIR444
+#=GF AU    Wilkinson A
+#=GF GA    22.0
+#=GF NC    0.0
+#=GF TC    23.8
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000402
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    4
+
+#=GS O.sativa.1    AC    AK066992.1/189-316
+#=GS O.rufipogon.1 AC    CU406550.1/236-400
+#=GS O.sativa.2    AC    AK063114.1/148-276
+#=GS H.vulgare.1   AC    AK249841.1/242-414
+
+O.sativa.1                UGCAAGUGGAGGCGGCAAGCUAGAGACAGCAACUGCAUAUCUUGCAAGAA
+O.rufipogon.1             UGCAUAUGGUGGCACCAAGCAUGAGGUUACAACUGCAUUACUUGCAAGGG
+O.sativa.2                UGCAAUUGGGGGCAGCAAGCUAGAGGUGGCAACUGCAUAAUUUGCAAGAA
+H.vulgare.1               CGCAUGUGGCGGCACCAAGCAUGAGGCAACAACUGCAGUACUUGUGGGGA
+#=GC SS_cons              .<<<<..<<<<<<<.<<<<<..<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+#=GC RF                   uGcaaauGGaGGCaacaaGCaaGaGgcagCaaCuGCacaacuuGCaaGaa
+
+O.sativa.1                AAUC....................GGU.......................
+O.rufipogon.1             AAUCACAAGUCACAAGAAACACAUGUUAUUACAAUGGAUAAUCAA.....
+O.sativa.2                A.UUGU..................UGG.......................
+H.vulgare.1               AGGCACAAG...............UAGGACACCAACAUUACCUGCAAGCA
+#=GC SS_cons              <<<<..............................................
+#=GC RF                   aaccauAAa...............agu.......................
+
+O.sativa.1                .................UUUAUGGCCAUACCGAUGAUUUUCUUGCAAGCU
+O.rufipogon.1             .................UGGGUCAUCAUACU.AUGACUUUCUUGCAAGUU
+O.sativa.2                .................CUGAAGAUCAUACCGAUGAUAUUCUUGCAAGUU
+H.vulgare.1               AGACGCAAAAUUAAUAGAACAUCACCAUACUUGUGGCUUUCUUGCAAGUC
+#=GC SS_cons              ..................................>>>>>>>>>>>>>>>>
+#=GC RF                   .................augAaaAucAUAcuaAUgguuuuCuuGCaaguu
+
+O.sativa.1                GUGCAGUUGUUGUCUCAAGCUUGCUGCCUCCCUUUGCC
+O.rufipogon.1             GUGCAGUUGUUGCCUCAAGCUUGCUGCCUCCGUCUGUC
+O.sativa.2                AUGCAGUUGCUGCCUCAAGCUUGCUGCCUCCUGUUGCC
+H.vulgare.1               GUGCAGUUGCUGCCUCAAGCUUGCUGCCUCCCUUUGCC
+#=GC SS_cons              >>>>>>>>>>>>>>>>..>>>>>.>>>>>>>..>>>>.
+#=GC RF                   guGCaGuuGcugcCuCAAGCuugcuGCCuCCauuugCc
+//

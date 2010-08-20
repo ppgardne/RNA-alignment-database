@@ -1,0 +1,51 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-760
+#=GF AC    RF00915
+#=GF DE    microRNA mir-760
+#=GF AU    Wilkinson A
+#=GF GA    55.0
+#=GF NC    23.7
+#=GF TC    74.5
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000395
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    8
+
+#=GS L.africana.1    AC    AAGU02532368.1/5-84
+#=GS E.telfairi.1    AC    AAIY01391264.1/890-968
+#=GS C.porcellus.1   AC    AAKN02004112.1/23939-24017
+#=GS M.musculus.1    AC    AC134918.5/80661-80739
+#=GS H.sapiens.1     AC    AADC01005182.1/14823-14903
+#=GS P.troglodytes.1 AC    AACZ02007358.1/5450-5528
+#=GS M.murinus.1     AC    ABDC01171198.1/108-187
+#=GS C.lupus.1       AC    AAEX02026688.1/4698-4776
+
+L.africana.1                GGCA.CGUCGUCCCCCUCAGCCCACCAGAGCCCGGAUACCUCAGAAAUUC
+E.telfairi.1                GGCG.CGUCGCCCCGCUCAGUCCGCCAGAGCGCGGAUGUCUCCGAAAUUC
+C.porcellus.1               GGUA.CGGCGCCCCCCUCAGUCUGCCAGAGCCCGGAUGCCUCAGAAAUUC
+M.musculus.1                GGCG.CGUCGCCCCCCUCAGGCCACCAGAGCCCGGAUACCUCAGAAAUUC
+H.sapiens.1                 GGCG.CGUCGCCCCCCUCAGUCCACCAGAGCCCGGAUACCUCAGAAAUUC
+P.troglodytes.1             GGCG.CGUCGCCCCCCUCAGUCCACCAGAGCCCGGAUACCUCAGAAAUUC
+M.murinus.1                 GGCGGUGUCGCCCCCCUCAGUCCACCAGAGCCCGGAUGCCUCAGAAAUUC
+C.lupus.1                   GGCG.CGUCGACCCCCGCAGGCCCCCAGGGCCCGGAGGCCUCCGAAAUUC
+#=GC SS_cons                ..<<...<<<<.<<<<.<<<..<.<<<<<<<<.<<<<.........>>>>
+#=GC RF                     ggcg.cgucgcccccccccggccAccagagcccggauAccucAgAAaucc
+
+L.africana.1                GG.CUCUGGGUCUGUGGAGGAGCGAAAUGCAA
+E.telfairi.1                GG.CUCUGGGU.CUGUGGGGUGCGAAAUGCAA
+C.porcellus.1               GG.CUCUGGGU.CUGUGGGGGACGAAAUGCAA
+M.musculus.1                GG.CUCUGGGUCUGUGG.GGAGCGAAAUGCAA
+H.sapiens.1                 GGAUUCUGGGUUCUGUGGGGAGCGAAAUGCAA
+P.troglodytes.1             GG.CUCUGGGUCUGUGG.GGAGCGAAAUGCAA
+M.murinus.1                 GG.CUCUGGGU.CUGUGGGGAGCGAAAUGCAG
+C.lupus.1                   GG.CUCCGGGU.CUGUGGGGGGCGAAAUGCAA
+#=GC SS_cons                >>.>>>>>>>..>>>.>>>>.>>>..>>>...
+#=GC RF                     gg.cucuggggccgggggggggcgAAacgaAa
+//

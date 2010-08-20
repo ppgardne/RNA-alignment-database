@@ -1,0 +1,50 @@
+# STOCKHOLM 1.0
+#=GF ID    IBV_D-RNA
+#=GF AC    RF00385
+#=GF DE    Infectious bronchitis virus D-RNA
+#=GF AU    Moxon SJ
+#=GF GA    24.0
+#=GF NC    0.0
+#=GF TC    28.2
+#=GF SE    PMID:11119581
+#=GF SS    Published; PMID:11119581
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    11119581
+#=GF RT    cis-acting sequences required for coronavirus infectious bronchitis
+#=GF RT    virus defective-RNA replication and packaging.
+#=GF RA    Dalton K, Casais R, Shaw K, Stirrups K, Evans S, Britton P, Brown TD,
+#=GF RA    Cavanagh D;
+#=GF RL    J Virol 2001;75:125-133.
+#=GF CC    This family represents a cis-regulatory element known as defective RNA or
+#=GF CC    D-RNA. This region is thought to be essential for viral replication and
+#=GF CC    efficient packaging [1].
+#=GF WK    http://en.wikipedia.org/wiki/Infectious_bronchitis_virus_D-RNA
+#=GF SQ    10
+
+#=GS Infectious_bronchiti.1 AC    U52601.1/1238-1278
+#=GS Infectious_bronchiti.2 AC    AY319651.1/27421-27462
+#=GS T.coronavirus.1        AC    AF111995.1/1438-1478
+#=GS Infectious_bronchiti.3 AC    U52594.1/1381-1422
+#=GS Infectious_bronchiti.4 AC    U52598.1/1424-1465
+#=GS Infectious_bronchiti.5 AC    M28565.1/1541-1582
+#=GS Infectious_bronchiti.6 AC    U52596.1/1422-1463
+#=GS T.coronavirus.2        AC    AF111996.1/1438-1478
+#=GS Infectious_bronchiti.7 AC    AJ278334.1/215-256
+#=GS Infectious_bronchiti.8 AC    L06251.1/212-253
+
+Infectious_bronchiti.1             GGUAGAUAGGCAUGUAGCUU.AGCACCUACAUGUCUAUCGCC
+Infectious_bronchiti.2             GGAAGAUAGGCAUGUAGCUUGAUUACCUACAUGUCUAUCGCC
+T.coronavirus.1                    GGAAGAUAGGCAUGUAGCUU.AGCACCUACAUGUCUAUCGCC
+Infectious_bronchiti.3             GGCAGAUAGGCAUGUAGCUUGAUUACCUACAUGUCUAUCGCC
+Infectious_bronchiti.4             GGAAGAUAGGCAUGUAGCUUAAUUACCUACAUGUCUAUCGCC
+Infectious_bronchiti.5             GGAAGAUAGGCAUGUAGCUUGAUUACCUACAUGUGUAUCGCC
+Infectious_bronchiti.6             GAAAGAUAGGCAUGUAGCUUGAUUACCUAUAUGUCUAUCGCC
+T.coronavirus.2                    GGCAGAUAGGCAUGUAGCUU.AGCACCUACAUGUCUAUCGCC
+Infectious_bronchiti.7             GGAAGAUAGGCAUGUAGUUUGAUUACCUACAUGUCUAUCGCC
+Infectious_bronchiti.8             GGGAGAUAGGCAUGUAGCUUGAUUACCUACAUGUCUAUCGCC
+#=GC SS_cons                       <<..<<<<<<<<<<<<<.........>>>>>>>>>>>>>.>>
+//

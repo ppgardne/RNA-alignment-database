@@ -1,0 +1,42 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-304
+#=GF AC    RF00853
+#=GF DE    microRNA mir-304
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    90.0
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000308
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    5
+
+#=GS D.virilis.1       AC    AANI01016408.1/101204-101292
+#=GS D.grimshawi.1     AC    AAPT01019076.1/28634-28722
+#=GS D.melanogaster.1  AC    AABU01002771.1/4690658-4690745
+#=GS D.willistoni.1    AC    AAQB01006319.1/7152-7240
+#=GS D.pseudoobscura.1 AC    AADE01000788.1/13102-13189
+
+D.virilis.1                   GCAGCAUUGAUUAAUCUCAAUUUGUAAAUGUGAGCGAUUU.UAAA.GUAU
+D.grimshawi.1                 GCAGCAUUGAAUAAUCUCAAUUUGUAAAUGUGAGCG.AUUAUUAA.GAAU
+D.melanogaster.1              GCAGCAUUGAAUAAUCUCAAUUUGUAAAUGUGAGCG.GUU.UAAG.CCAU
+D.willistoni.1                GUAACAUUGAUUAAUCUCAAUUUGUAAAUGUGAGCG.AUU.UAAAUCCAU
+D.pseudoobscura.1             GCAGCAUUGAAUAAUCUCAAUUUGUAAAUGUGAGCG.AUU.UGAG.GCAU
+#=GC SS_cons                  <<<<..<<<<.<<<<<<<...<<<<<<<.<<<<<.<...<.<<<<....>
+#=GC RF                       gcagcAucgaAcaaucucAAuuugcaaaugugagcg.auu.cgag.acAc
+
+D.virilis.1                   UUGACGCACUCACUUUGCAAUUGGAGAUUGCUCGAGAUUGC
+D.grimshawi.1                 UUGACGCACUCACUUUGCAAUUGGAGAUUGCUCGAGAUUGC
+D.melanogaster.1              UUGACGCACUCACUUUGCAAUUGGAGAUUGCUCGAGACUGC
+D.willistoni.1                UCGAUGCACUCACUUUGCAAUUGGAGAUUGCUCGAGAUUGC
+D.pseudoobscura.1             UUGACACACUCACUUUGCAACUGGAGAUUGCUCGAAACUGC
+#=GC SS_cons                  >>>>..>.>>>>>>>>>>>>...>>>>>>>.>>>>..>>>>
+#=GC RF                       ucgacacAcucacuuugcaauuggagauugcucgaaAcugc
+//

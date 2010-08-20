@@ -1,0 +1,75 @@
+# STOCKHOLM 1.0
+#=GF ID    SraG
+#=GF AC    RF00082
+#=GF DE    SraG RNA
+#=GF AU    Bateman A
+#=GF GA    30.0
+#=GF NC    0.0
+#=GF TC    33.3
+#=GF SE    Bateman A, INFERNAL
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; sRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  -g  CM SEQDB
+#=GF DR    SO:0000655 SO:ncRNA
+#=GF RN    [1]
+#=GF RM    11448770
+#=GF RT    Novel small RNA-encoding genes in the intergenic regions of
+#=GF RT    Escherichia coli.
+#=GF RA    Argaman L, Hershberg R, Vogel J, Bejerano G, Wagner EG, Margalit H,
+#=GF RA    Altuvia S;
+#=GF RL    Curr Biol 2001;11:941-950.
+#=GF CC    This RNA was discovered in E. coli during a large scale screen [1].
+#=GF CC    The function of this RNA is unknown. Evidence was found for specific
+#=GF CC    cleavage of this RNA [1].
+#=GF WK    http://en.wikipedia.org/wiki/SraG_RNA
+#=GF SQ    7
+
+#=GS E.coli.1               AC    X01073.1/431-600
+#=GS Pectobacterium_atros.1 AC    BX950851.1/783834-784001
+#=GS P.luminescens.1        AC    X76069.1/501-670
+#=GS Photorhabdus_lumines.1 AC    BX571874.1/71730-71899
+#=GS Salmonella_enterica_.1 AC    CP001120.1/3466753-3466920
+#=GS Yersinia_pseudotuber.1 AC    BX936398.1/569847-570028
+#=GS Y.enterocolitica.1     AC    Y10692.1/1797-1974
+
+E.coli.1                           ..UC.UGC.GCAUCCUCGCGACUAAUGACAACCCUAACCCAGCUCUAUGU
+Pectobacterium_atros.1             CUUUGCACUACAUUCUCACGACUAAUGACAACCCUUAUCUUGCUUAUGCA
+P.luminescens.1                    CUUCAUGC.ACAUCCUCGCGACUAAUGACAGGUCUCAUUCCU..UUAAG.
+Photorhabdus_lumines.1             CUCCAUGCCACAUCCUCGCGACUAACGACAGGUCUUACUCCC..UUAAG.
+Salmonella_enterica_.1             CUUC.UGC.GCAUCCUCGCGACUAAUGACAACCCUAACCCUG..AUAUGG
+Yersinia_pseudotuber.1             CUUCACACUGCAUCCUCGCGACUAAUGACAAUCCUUAACUUUCAUUAAGU
+Y.enterocolitica.1                 CUUCACACUGCAUCCUCGCGACUAAUGACAACCCUUAACCCCCAUGA.GU
+#=GC SS_cons                       <<<<.<<..<<<....<<<<.<<<<<<<......................
+#=GC RF                            CuuCAcgCugCAUcCUCGCGACuAAuGACAAccCUuAaccuucauuAaGu
+
+E.coli.1                           GGGUAAAGCCUCUCAUUAGCCGCGCGAACCUCUGCAACGGAAGAUCAUUC
+Pectobacterium_atros.1             GA.UAAAGCCUCUCAUUAGCCGCGCGAACCUCUGUAAUGAAAGAUCCUAU
+P.luminescens.1                    .....CA..CUCUCAUUAGCCGCGCGAACCUCUGUAACCGAAGAGCCUUA
+Photorhabdus_lumines.1             .....CA..CUCUCAUUAGCCGCGCGAACCUCUGUAACUGAAGAGCCUAA
+Salmonella_enterica_.1             G..UAAAGCCUCUCAUUAGCCGCGCGAACCUCUGCAACGGAAGAUCAUUC
+Yersinia_pseudotuber.1             ...UAAAGUCUCUCAUUAGCCGCGCGAACCUCUGCAUUGGAAGAUCCUAU
+Y.enterocolitica.1                 ...UAAAGUCUCUCAUUAGCCGCGCGAACCUCUGCACCGGAAGAUCCUAU
+#=GC SS_cons                       ............>>>>>>>...>>>>......>>>..>>>>>>.....<<
+#=GC RF                            ...UAAAGuCUCUCaUUaGCCGCGCGAACCUCUGcAAcgGaaGAuCcUac
+
+E.coli.1                           .....AUAGC......AACAAUA.CAUUAGUUUCCAGUGA.AU.UGCUGC
+Pectobacterium_atros.1             ..................UAACAACAAUACACUACUCUGUUUUGCUAAUG
+P.luminescens.1                    CCCAAAAAUC......AUCAUUAGCAUUCUUAUGCUGCUACAUAUGAUGA
+Photorhabdus_lumines.1             AC.AAAAACC......ACCACCAGCAUUUUUGUGCUGUUAUCUAUGAUGG
+Salmonella_enterica_.1             .....AUAGC......AACAAUA.CAUUAGUUUCCAGCGA.AU.UGCUGC
+Yersinia_pseudotuber.1             UU.AUAAAUCUUAUAUAAUAAUAACAAUAUACUAACGUAUUCUAUCAUUA
+Y.enterocolitica.1                 GU.UUUAAAAAUA...UAGAACAACAAUAUACUAGCGUAUUUUAUCAUUG
+#=GC SS_cons                       ......................................>>..........
+#=GC RF                            au.AaAAAac......AAuAAuAaCAaUAuaaUacuGuguuaUAUgAUga
+
+E.coli.1                           CGUCAGCUUGAAAAAAGGGGCC.ACUCAGGCCCCCUUUU
+Pectobacterium_atros.1             CUUCC..UAGAAGAAAGGGGCCAAAAGAGGCCCCUUUCC
+P.luminescens.1                    UUUCU.CAGAAGAAAAGGGGCC.AUAUAUGGCCCCUUUC
+Photorhabdus_lumines.1             CUUCU.CAGAAGAAAAGGGGCC.CUAUAUGGCCCCUUUC
+Salmonella_enterica_.1             CAUCUGCUGGAAAAAAGGGGCC.AUGAAGGCCCCCUCUU
+Yersinia_pseudotuber.1             CUUCU..UAGAAAAAAGGGGCC.AACUUGGCCCCUUUCU
+Y.enterocolitica.1                 CUUCU..UAGAAAAAAGGGGCC.AAUUUGGCCCUUUCUC
+#=GC SS_cons                       ................<<<<<<......>>>>>>.....
+#=GC RF                            CuUCu.cuagAAAAAAGGGGCC.AaauAGGCCCCuUuuc
+//

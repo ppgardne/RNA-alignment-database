@@ -1,0 +1,103 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-24
+#=GF AC    RF00178
+#=GF DE    mir-24 microRNA precursor family
+#=GF AU    Griffiths-Jones SR
+#=GF GA    36.0
+#=GF NC    23.0
+#=GF TC    48.9
+#=GF SE    Griffiths-Jones SR
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIR; MI0000080
+#=GF DR    MIR; MI0000081
+#=GF DR    MIR; MI0000231
+#=GF DR    MIR; MI0000572
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF RN    [1]
+#=GF RM    11679670
+#=GF RT    Identification of novel genes coding for small expressed RNAs.
+#=GF RA    Lagos-Quintana M, Rauhut R, Lendeckel W, Tuschl T;
+#=GF RL    Science 2001;294:853-858.
+#=GF RN    [2]
+#=GF RM    11779458
+#=GF RT    microRNAs: tiny regulators with great potential.
+#=GF RA    Ambros V;
+#=GF RL    Cell 2001;107:823-826.
+#=GF CC    This family represents the microRNA (miRNA) mir-24 family.  miRNAs 
+#=GF CC    are transcribed as ~70nt precursors (modelled here) and 
+#=GF CC    subsequently processed by the Dicer enzyme to give a ~22nt 
+#=GF CC    product.  In this case the mature sequence comes from the 3' 
+#=GF CC    arm of the precursor.  The extents of the hairpin precursors
+#=GF CC    are not generally known and are estimated based on hairpin 
+#=GF CC    prediction.  The products are thought to have
+#=GF CC    regulatory roles through complementarity to mRNA.  The involvement
+#=GF CC    of Dicer in miRNA processing suggests a relationship with the 
+#=GF CC    phenomenon of RNA interference.  miRNAs are numbered based on
+#=GF CC    the sequence of the mature RNA.  miR-24 has been identified in
+#=GF CC    human and mouse [1].
+#=GF WK    http://en.wikipedia.org/wiki/mir-24_microRNA_precursor_family
+#=GF SQ    17
+
+#=GS C.milii.1              AC    AAVX01198958.1/114-181
+#=GS O.latipes.1            AC    BAAF04082680.1/2479-2546
+#=GS Gasterosteus_aculeat.1 AC    AANH01003598.1/92361-92428
+#=GS T.rubripes.1           AC    CAAB01001656.1/42447-42514
+#=GS T.nigroviridis.1       AC    CAAE01012021.1/29337-29403
+#=GS D.rerio.1              AC    BX664751.9/53655-53722
+#=GS A.carolinensis.1       AC    AAWZ01000886.1/15246-15313
+#=GS M.musculus.1           AC    AC122794.3/95755-95820
+#=GS Spermophilus_tridece.1 AC    AAQQ01011467.1/13-83
+#=GS H.sapiens.1            AC    AF480559.1/14-81
+#=GS H.sapiens.2            AC    AF480560.1/3-70
+#=GS T.belangeri.1          AC    AAPY01721327.1/457-524
+#=GS C.lupus.1              AC    AAEX02021110.1/155601-155668
+#=GS E.europaeus.1          AC    AANN01357153.1/1031-1098
+#=GS S.araneus.1            AC    AALT01392929.1/1575-1642
+#=GS Monodelphis_domestic.1 AC    AAFR03027068.1/11428-11495
+#=GS O.anatinus.1           AC    AAPN01322484.1/710-777
+
+C.milii.1                          CUUCUGUGCCUACUGAGCUGAUAACAGUUGAUAUUGUU...UGCACUGGC
+O.latipes.1                        CUCCCGUGCCUACUGAACUGGUAUCAGUGUUUGACCUG...AAAACUGGC
+Gasterosteus_aculeat.1             CUCCCGUGCCUACUGAACUGGUAUCAGUGUUUUUUCUA...AAAACUGGC
+T.rubripes.1                       CUCCUGUGCCUACUGAACUGGUAUCAGUGUCAUACUGG...AAAACUGGC
+T.nigroviridis.1                   CUCCUGUGCCUACUGAGCUGAAAAC.AGUCGGAUAUCA...GACACUGGC
+D.rerio.1                          CUCCUGUGCCUACUGAGCUGAUAACAGUUGAUGUAUUU...AGCACUGGC
+A.carolinensis.1                   CUUCCGUGCCUACUGAGCUGAUACUCAGUUGCUUUAGA...UAAACUGGC
+M.musculus.1                       CUCCCGUGCCUACUGAGCUGAAACA..GUUGAUUCCAG...UGCACUGGC
+Spermophilus_tridece.1             CUCCGGUGCCUACUGAGCUGAUAUCAGUUCUCAUUUUACACUACAUAGGC
+H.sapiens.1                        CUCCCGUGCCUACUGAGCUGAAACACAGUUGGUUUGUG...UACACUGGC
+H.sapiens.2                        CUCCGGUGCCUACUGAGCUGAUAUCAGUUCUCAUUUUA...CACACUGGC
+T.belangeri.1                      CUCCCGCGCCUACCGAGCUGACACACACUUGGUUUGUA...CAGACUGGC
+C.lupus.1                          CUCCCGUGCCUACUGAGCUGAAACACAGUUGAUUUGUG...CAGACUGGC
+E.europaeus.1                      CUCCAGUACCUACUGAACUGAAACACAGUUUUUUUCAU...GCAACUGGC
+S.araneus.1                        CUCCGGUGCCUACUGAGCUGAUAUCAGUUCUCGUUUCA...CACACUGGC
+Monodelphis_domestic.1             CUCCGGUGCCUACUGAGCUGAUAACAGUUCUGAUUUUA...CACACUGGC
+O.anatinus.1                       CUCCUGUGCCUACUGAGCUGAAACGCAGUUGCUUUGCU...UAAACUGGC
+#=GC SS_cons                       <<<<....<<<.<<<<<<<<<.............................
+#=GC RF                            cucCcGUGCCuACuGagCuGaaAuaaagUugaaUuuua...uACACUGGC
+
+C.milii.1                          UCAGUUCAGCAGGAACAGGAG
+O.latipes.1                        UCAGUUCAGCAGGAACAGGAG
+Gasterosteus_aculeat.1             UCAGUUCAGCAGGAACAGGAG
+T.rubripes.1                       UCAGUUCAGCAGGAACAGGAG
+T.nigroviridis.1                   UCAGUUCAGCAGGAACCGGAG
+D.rerio.1                          UCAGUUCAGCAGGAACCGGAG
+A.carolinensis.1                   UCAGUUCAGCAGGAACAGGAG
+M.musculus.1                       UCAGUUCAGCAGGAACAGGAG
+Spermophilus_tridece.1             UCAGUUCAGCAGGAACAGGAG
+H.sapiens.1                        UCAGUUCAGCAGGAACAGGGG
+H.sapiens.2                        UCAGUUCAGCAGGAACAGCAU
+T.belangeri.1                      UCAGUUCAGCAGGAACAGGAA
+C.lupus.1                          UCAGUUCAGCAGGAACAGGAG
+E.europaeus.1                      UCAGUUCAGCAGGAACCGGAG
+S.araneus.1                        UCAGUUCAGCAGGAACAGGAG
+Monodelphis_domestic.1             UCAGUUCAGCAGGAACAGGAG
+O.anatinus.1                       UCAGUUCAGCAGGAACAGGAG
+#=GC SS_cons                       >>>>>>>>>.>>>....>>>>
+#=GC RF                            uCaGuuCaGCaGGAACAGgag
+//

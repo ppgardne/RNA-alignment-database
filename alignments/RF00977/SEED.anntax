@@ -1,0 +1,39 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-600
+#=GF AC    RF00977
+#=GF DE    microRNA mir-600
+#=GF AU    Wilkinson A
+#=GF GA    35.0
+#=GF NC    22.1
+#=GF TC    49.8
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000484
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    4
+
+#=GS L.africana.1           AC    AAGU02864407.1/360-442
+#=GS M.mulatta.1            AC    AANU01127189.1/17617-17693
+#=GS P.troglodytes.1        AC    AACZ02107159.1/19505-19585
+#=GS Dasypus_novemcinctus.1 AC    AAGV020251216.1/651-733
+
+L.africana.1                       GCGGCACCAGGUUCACAAGAGAGCUCUUGUCUGUCAGGCACCAGAAGUGA
+M.mulatta.1                        GUGUCUCCAGCUUCACAGGAAGGCUCUUGUCUGUCAGGCAGUGGA.GUUA
+P.troglodytes.1                    GUGGCUCCAGCUUCAUAGGAAGGCUCUUGUCUGUCAGGCAGUGGA.GUUA
+Dasypus_novemcinctus.1             GUGGCUCCAGCCUCACAGGGAAACUUGUGUCUAUCAGGUACCAGAAGUCA
+#=GC SS_cons                       ..<.<<...<<<<...<<.<<<<<<<<<<<<<....<<<.......>>..
+#=GC RF                            GUGgCuccAGCcucAcaGGaaggCccuuGuCuaUcAGgcAguaGA.guuA
+
+L.africana.1                       CUUCAGGAGCUGGAGCCUUGCCCAGGCCAGGUC
+M.mulatta.1                        C....AGA.CAAGAGCCUUGCUCAGGCCAGCCC
+P.troglodytes.1                    CUUACAGA.CAAGAGCCUUGCUCAGGCCAGCCC
+Dasypus_novemcinctus.1             CUCACAGAGCUAGGGCCUUGCCCAGGCCAGGCU
+#=GC SS_cons                       >....>>>.>>>>>>>>>>.>>.>>>>.>>.>.
+#=GC RF                            CuuAcaGa.CaaggGccuuGCucagGCcaGgCu
+//

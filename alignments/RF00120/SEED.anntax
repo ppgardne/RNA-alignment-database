@@ -1,0 +1,55 @@
+# STOCKHOLM 1.0
+#=GF ID    C0343
+#=GF AC    RF00120
+#=GF DE    C0343 RNA
+#=GF AU    Moxon SJ
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    36.5
+#=GF SE    Hershberg R
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; sRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000655 SO:ncRNA
+#=GF RN    [1]
+#=GF RM    12202758
+#=GF RT    Transcriptome analysis of Escherichia coli using high-density
+#=GF RT    oligonucleotide probe arrays.
+#=GF RA    Tjaden B, Saxena RM, Stolyar S, Haynor DR, Kolker E, Rosenow C;
+#=GF RL    Nucleic Acids Res 2002;30:3732-3738.
+#=GF CC    This family consists of a number of bacterial RNA genes of around 74 bases
+#=GF CC    in length. The C0343 RNA gene is present in E. coli, Shigella flexneri and
+#=GF CC    Salmonella species where it is found between the ydaN and dbpA genes. The
+#=GF CC    function of this RNA is unknown.
+#=GF WK    http://en.wikipedia.org/wiki/C0343_RNA
+#=GF SQ    7
+
+#=GS Bacillus_cereus_Rock.1 AC    ACMI01001020.1/45-119
+#=GS Enterobacter.1         AC    CP000653.1/2328144-2328218
+#=GS Escherichia_coli_O15.1 AC    AE005174.2/2168257-2168331
+#=GS Klebsiella_pneumonia.1 AC    CP000647.1/1540132-1540206
+#=GS Salmonella_enterica_.1 AC    CP000026.1/1296971-1297045
+#=GS S.enterica.1           AC    AL627270.1/53705-53779
+#=GS S.enterica.2           AC    AF308568.1/1853-1927
+
+Bacillus_cereus_Rock.1             CCGUGCCGAUGCCCGAUCCCAUACCGCGUCCGCAGCCGAUGCCCGAUCCG
+Enterobacter.1                     CGGUACCAAUCCCCGAUCCUAUUCCUCGUCCGCAACCCAUGCCGGACCCG
+Escherichia_coli_O15.1             CUGUUCCAGUGCCCGAUCCGAUCCCUCGCCCGCAACCCAUGCCUGACCCA
+Klebsiella_pneumonia.1             CGGCUCCUUUACCCGAUCCACGACCGCGUCCGCAGCCCCAGCCCGAUCCG
+Salmonella_enterica_.1             CUGUUCCCAUUCCUGAGCCGCUUCCCCGUCCUCAGCCGAUGCCCGACCCG
+S.enterica.1                       CUGUUCCCAUUCCUGAGCCGCUUCCCCGUCCUCAGCCGAUGCCCGACCCG
+S.enterica.2                       CUGUUCCCAUUCCUGAGCCGCUUCCCCGUCCUCAGCCGAUGCCCGACCCG
+#=GC SS_cons                       ..<<<<............<<......>>...<<<.....>>>........
+#=GC RF                            CUGuuCCaaUuCCuGAuCCGaUuCCuCGuCCgCAaCCgAUGcCuGACCCa
+
+Bacillus_cereus_Rock.1             CCGCCGGAUGAAGAACCGAUUAAAU
+Enterobacter.1                     CCGCCAGAUGAAGAACCGAUUAAAU
+Escherichia_coli_O15.1             CCACCCGAUGAAGAACCGAUUAAAU
+Klebsiella_pneumonia.1             CCGCCUGACGAAGAGCCGAUUAAAU
+Salmonella_enterica_.1             CCGCCGGACGAAGAACCGAUUAAAA
+S.enterica.1                       CCGCCGGACGAAGAACCGAUUAAAA
+S.enterica.2                       CCGCCGGACGAAGAACCGAUUAAAA
+#=GC SS_cons                       ............>>>>.........
+#=GC RF                            CCaCCgGAuGAAGaaCCGAUUAAAa
+//

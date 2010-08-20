@@ -1,0 +1,62 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORD35
+#=GF AC    RF00211
+#=GF DE    Small nucleolar RNA SNORD35
+#=GF AU    Griffiths-Jones SR
+#=GF GA    33.0
+#=GF NC    32.4
+#=GF TC    38.7
+#=GF PI    U35
+#=GF SE    Griffiths-Jones SR
+#=GF SS    Predicted; PFOLD, Griffiths-Jones SR
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Mus_musculus300752
+#=GF DR    snoopy; Oryzias_latipes300005
+#=GF RN    [1]
+#=GF RM    8764399
+#=GF RT    Intron-encoded, antisense small nucleolar RNAs: the characterization
+#=GF RT    of nine novel species points to their direct role as guides for the
+#=GF RT    2'-O-ribose methylation of rRNAs.
+#=GF RA    Nicoloso M, Qu LH, Michot B, Bachellerie JP;
+#=GF RL    J Mol Biol 1996;260:178-195.
+#=GF CC    U35 is a C/D box snoRNA located in intron 6 of ribosomal protein 
+#=GF CC    L13A and intron 3 of ribosomal protein S11 in humans [1] and at 
+#=GF CC    homologous positions in mouse and chicken ribosomal protein genes.
+#=GF CC    U35 guides the methylation of 2'-O-ribose sites in 28S rRNA.
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_SNORD35
+#=GF SQ    8
+
+#=GS G.gallus.1   AC    AB032798.1/2193-2284
+#=GS G.gallus.2   AC    AB032798.1/1514-1604
+#=GS M.musculus.1 AC    Z69625.1/1-89
+#=GS M.musculus.2 AC    X51528.1/3860-3949
+#=GS M.musculus.3 AC    AB028894.1/2954-3040
+#=GS H.sapiens.1  AC    X94601.1/135-219
+#=GS H.sapiens.2  AC    AB028893.1/4355-4440
+#=GS H.sapiens.3  AC    AB028893.1/10920-11006
+
+G.gallus.1               UGGUGGUGAUGUCUGAA..CUCACGAUGGUCUUCAGAGUCC.CUGUUGGU
+G.gallus.2               UGCACAUGAUGCCAUU...CUCACGAUGGUCUUCCAAGCCU.CAUGGUGA
+M.musculus.1             GGCACAUGAUGUUCUUAUUCUCACGAUGGUCUUCGGAUGCCACAGUUAG.
+M.musculus.2             GGCACAUGAUGUUCUUAUUCUCACGAUGGUCUUCGGAUGCCACAGUUAG.
+M.musculus.3             GGCAAGUGAUGUCUGUU..CUCACGAUGGUCUUCAGAUGUC.CUCUAGG.
+H.sapiens.1              GGCAGAUGAUGUCCUUAU.CUCACGAUGGUCUGCGGAUUG...ACUGCG.
+H.sapiens.2              GGCAGAUGAUGUCCUUAU.CUCACGAUGGUCUGCGGAUGUC.CCUGUG..
+H.sapiens.3              GGCAGAUGAUGUUUGUU..UUCACGAUGGUCUUCAGAUGCC.CACGUGG.
+#=GC SS_cons             <<<<..............................................
+
+G.gallus.1               GAGGGGACUGCUGACAAUGUCAGUGGCAACUGCUGAACCAUCAGA
+G.gallus.2               AGGGGCUGUGACGACAACGCCACAUGGCUUUGCUGAUGCCUGGUA
+M.musculus.1             ...GGCAAUGCCGAUAAUGCCA.AAGGCUAAGCUGAUGCCAGGA.
+M.musculus.2             ...GGCAGUGCCGAUAAUGCCA.AAGGCUAAGCUGAUGCCAGGAG
+M.musculus.3             ....GCACUGCUGAGACAGCCAGUUGACAAAGCUGAUGCCAUAAA
+H.sapiens.1              ....GGAAUGGCGACAAUGCCA.AUGGCUUAGCUGAUGCCAGGAG
+H.sapiens.2              ....GGAAUGGCGACAAUGCCA.AUGGCUUAGCUGAUGCCAGGAG
+H.sapiens.3              ....GCACUGCUGAGAAAGCCACUUGGUAAAACUGAUGCCGGAAA
+#=GC SS_cons             ....................................>>>>.....
+//

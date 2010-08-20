@@ -1,0 +1,92 @@
+# STOCKHOLM 1.0
+#=GF ID    Tombus_3_IV
+#=GF AC    RF00176
+#=GF DE    Tombusvirus 3' UTR region IV
+#=GF AU    Bateman A
+#=GF GA    24.0
+#=GF NC    0.0
+#=GF TC    25.3
+#=GF SE    Bateman A
+#=GF SS    Published; PMID:12954222
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000205 SO:three_prime_UTR
+#=GF RN    [1]
+#=GF RM    12954222
+#=GF RT    3'-Terminal RNA secondary structures are important for accumulation
+#=GF RT    of tomato bushy stunt virus DI RNAs.
+#=GF RA    Fabian MR, Na H, Ray D, White KA;
+#=GF RL    Virology 2003;313:567-580.
+#=GF RN    [2]
+#=GF RM    14532132
+#=GF RT    A replication silencer element in a plus-strand RNA virus.
+#=GF RA    Pogany J, Fabian MR, White KA, Nagy PD;
+#=GF RL    EMBO J 2003;22:5602-5611.
+#=GF CC    Tomato bushy stunt virus is the prototype member of the Tombusviridae
+#=GF CC    family.  In addition to viral proteins p33 and the RNA-dependent RNA 
+#=GF CC    polymerase p92, and unknown host factors, RNA signals within the UTRs
+#=GF CC    are necessary for genome replication.
+#=GF CC    This element contains a pseudoknot [2].
+#=GF WK    http://en.wikipedia.org/wiki/Tombusvirus_3'_UTR_region_IV
+#=GF SQ    18
+
+#=GS Cymbidium_ringspot_v.1 AC    D00719.1/409-499
+#=GS Tomato_bushy_stunt_v.1 AC    M21958.1/4686-4776
+#=GS Defective_interferin.1 AC    AF241533.1/375-463
+#=GS Cucumber_necrosis_vi.1 AC    U16701.1/503-594
+#=GS Tomato_bushy_stunt_v.2 AC    M59048.1/489-578
+#=GS Tomato_bushy_stunt_v.3 AC    M59043.1/500-591
+#=GS Carnation_Italian_ri.1 AC    X85215.2/4670-4760
+#=GS Tomato_bushy_stunt_v.4 AC    U80935.1/4686-4776
+#=GS Pear_latent_virus.1    AC    AY100482.1/4675-4766
+#=GS Cymbidium_ringspot_v.2 AC    S43932.1/386-477
+#=GS Tomato_bushy_stunt_v.5 AC    M59050.1/503-592
+#=GS Artichoke_mottled_cr.1 AC    X51456.1/2110-2200
+#=GS Cucumber_necrosis_vi.2 AC    U16703.1/325-416
+#=GS Cucumber_necrosis_vi.3 AC    S64508.1/531-622
+#=GS Tomato_bushy_stunt_v.6 AC    M18056.1/306-396
+#=GS Defective_interferin.2 AC    AF038044.1/460-550
+#=GS Artichoke_mottled_cr.2 AC    X62493.1/4698-4789
+#=GS Tomato_bushy_stunt_v.7 AC    AJ249740.1/4679-4770
+
+Cymbidium_ringspot_v.1             AACCAAGACACGGUUGAUCUCACCCUUC.GGGGGGCUAUAGAGAUCGCUG
+Tomato_bushy_stunt_v.1             GACCCAGACACGGUUGAUCUCACCCUUC.GGGGGGCUAUAGAGAUCGCUG
+Defective_interferin.1             .ACCUAGAUAUGGUUGAUCUCACCU..CGGGGGGGCUAUAGAGAUCGCUG
+Cucumber_necrosis_vi.1             UUGCCAGACACGGUUGAUCUCACCCUCCGGGGGGGCUAUAGAGAUCGCUG
+Tomato_bushy_stunt_v.2             ..CCCAGACACAGUUGAUCUCACCCUUCGGGGGGGCUAUAGAGAUCGCUG
+Tomato_bushy_stunt_v.3             GACCCAGACACGGUUGAUCUCACCCUUCGGGGGGGCUAUAGAGAUCGCUG
+Carnation_Italian_ri.1             GACCCAGACACGGUUGAUCUCACCU.UCGGGGGGGCUAUAGAGAUCGCUG
+Tomato_bushy_stunt_v.4             GACCUGGACACGGUUGAUCUCACCU.UCGGGGGGGCUAUAGAGAUCGCUG
+Pear_latent_virus.1                ACUUUGAGCACGGUUGAUCUCACCCUCCGGGGGGGCUAUAGAGAUCGCUG
+Cymbidium_ringspot_v.2             AACCAAGACACGGUUGAUCUCACCCUUCGGGGGGGCUAUAGAGAUCGCUG
+Tomato_bushy_stunt_v.5             ..CCCAGACACAGUUGAUCUCACCCUUCGGGGGGGCUAUAGAGAUCGCUG
+Artichoke_mottled_cr.1             GAGUUAGACACGGUUGAUCUCACCU.UCGGGGGGGCUAUAGAGAUCACCG
+Cucumber_necrosis_vi.2             UUGCCAGACACGGUUGAUCUCACUCUCCGGGGGGGCUAUAGAGAUCGCUG
+Cucumber_necrosis_vi.3             UUGCCAGACACGGUUGAUCUCACCCUCCGGGGGGGCUAUAGAGAUCGCUG
+Tomato_bushy_stunt_v.6             GACCCAGACACGGUUGAUCUCCCCU.UCGGGGGGGCUAUAGAGAUCACUG
+Defective_interferin.2             GACCUAGACACGGUUGAUCUCACCU.UCGGGGGGGCUAUAGAGAUCGCUG
+Artichoke_mottled_cr.2             GAGUUAGACACGGUUGAUCUCACCCUUCGGGGGGGCUAUAGAGAUCACUG
+Tomato_bushy_stunt_v.7             UGCCCAGACACGGUUGAUCUCACCCUUCGGGGGGGCUAUAGAGAUCGCUG
+#=GC SS_cons                       ..........<<<<.<<<<<<.<<<....>>>AAA.....>>>>>>>>>>
+
+Cymbidium_ringspot_v.1             GAAGCACUACCGGACAACCGGAACAUUGCAGCAAUGCAGGGG
+Tomato_bushy_stunt_v.1             GAAGCACUACCGGACAACCGGAACAUUGCAGAAAUGCAGCCC
+Defective_interferin.1             GAAGCACUACCGGACAACCGGAACAUUGCAGCAAUGCAGCCC
+Cucumber_necrosis_vi.1             GAAACACUACCGGACAACCGGAACAUUGCAGAAAUGCAGCCC
+Tomato_bushy_stunt_v.2             GAAGCACUACCGGACAACCGGAACAUUGCAGAAAUGCAGCCC
+Tomato_bushy_stunt_v.3             GAAACACUACCGGACAACCGGAACAUUGCAGAAAUGCAGCCC
+Carnation_Italian_ri.1             GAAGCACUACCGGACAACCGGAACAUUGCAGAAAUGCAGCCC
+Tomato_bushy_stunt_v.4             GAAGCACUACCGGACAACCGGAACAUUGCAGCAAUGCAGCCC
+Pear_latent_virus.1                GAAACACUACCGGACAACCGGAACAUUGCAGAAAUGCAGCCC
+Cymbidium_ringspot_v.2             GAAGCACUACCGGACAACCGGAACAUUGCAGCAAUGCAGCCC
+Tomato_bushy_stunt_v.5             GAAACACUACCGGACAACCGGAACAUUGCAGAAAUGCAGCCC
+Artichoke_mottled_cr.1             GAAGCACUACCGGACAACCGGAACAUUGCAGCAAUGCAGCCC
+Cucumber_necrosis_vi.2             GAAACACUACCGGACAACCGGAACAUUGCAGAAAUGCAGCCC
+Cucumber_necrosis_vi.3             GAAGCACUACCGGACAACCGGAACAUUGCAGAAAUGCAGCCC
+Tomato_bushy_stunt_v.6             GAAGCACUACCGGACAACCGGAACAUUGCAGAAAUGCAGCCC
+Defective_interferin.2             GAAGCAUUACCGGACAACCGGAACAUUGCAGCAAUGCAGCCC
+Artichoke_mottled_cr.2             GAAGCACUACCGGACAACCGGAACAUUGCAGCAAUGCAGCCC
+Tomato_bushy_stunt_v.7             GAAGCACUACCGGACAACCGGAACAUUGCAGAAAUGCAGCCC
+#=GC SS_cons                       .........<<<<....>>>>....<<<<<....>>>>>aaa
+//

@@ -1,0 +1,39 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-885
+#=GF AC    RF01015
+#=GF DE    microRNA mir-885
+#=GF AU    Wilkinson A
+#=GF GA    50.0
+#=GF NC    49.9
+#=GF TC    50.0
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000532
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    4
+
+#=GS P.troglodytes.1        AC    AACZ02033754.1/28007-28080
+#=GS Otolemur_garnettii_s.1 AC    AAQR01546943.1/4149-4219
+#=GS Dasypus_novemcinctus.1 AC    AAGV021057099.1/191-264
+#=GS O.anatinus.1           AC    AAPN01033075.1/1251-1325
+
+P.troglodytes.1                    CCGCACUCUCUCCAUUACACUACCCUGCCUCUU.CUCCAUGAGAGGCAG.
+Otolemur_garnettii_s.1             CG..ACUCUUUUCAUUACACUACC.UGCCUCUU.CUCAU.GAGAGGCAAG
+Dasypus_novemcinctus.1             CCACACUCUCUCCAUUACACUACCCUGCCUCUU.CUCCACGAGAGGCAG.
+O.anatinus.1                       CUGUGCUCUUUCCACUAGGCCACGCUGCUUCUCAAAGAAUGAGAAGCAG.
+#=GC SS_cons                       <<<..<<<<<<<<<<<<<<<<.<<<<<<<<<<<.......>>>>>>>>>.
+#=GC RF                            ccgaAccccccccaccacaccAccccgcccccc.auaaAuggggggcgg.
+
+P.troglodytes.1                    CGGGGUGUAGUGGAUAGAGCACGGGU
+Otolemur_garnettii_s.1             CGGGGUGUAGUGGAUAGAGCCACGGU
+Dasypus_novemcinctus.1             CUGGGUGUAGCGGAUAGAGCACGGGU
+O.anatinus.1                       CGUGGCCUAGUGGAAAGAGCACAGGU
+#=GC SS_cons                       .>>>>>>>>>>>>>>>>>>..>>>..
+#=GC RF                            aggggugugguggggggggaAcgggu
+//

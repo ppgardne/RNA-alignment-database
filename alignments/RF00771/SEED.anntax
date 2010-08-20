@@ -1,0 +1,39 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-185
+#=GF AC    RF00771
+#=GF DE    microRNA mir-185
+#=GF AU    Wilkinson A
+#=GF GA    25.0
+#=GF NC    0.0
+#=GF TC    33.2
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000202
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    4
+
+#=GS E.telfairi.1           AC    AAIY01387213.1/2963-3043
+#=GS P.troglodytes.1        AC    AACZ02194042.1/7926-8006
+#=GS B.taurus.1             AC    AAFC03097072.1/7852-7932
+#=GS Dasypus_novemcinctus.1 AC    AAGV020977699.1/650-729
+
+E.telfairi.1                       GGGGGUGAGGGGCUGGAGAGAAAGGCAGUCCCUGAUGGUCCCCUCCCCAG
+P.troglodytes.1                    GGGGGCGAGGGAUUGGAGAGAAAGGCAGUUCCUGAUGGUCCCCUCCCCAG
+B.taurus.1                         GGGGGUGAGGGACUGGAGAGAAAGGCAGUUCCUGAUGGUCCCCUCCCCAG
+Dasypus_novemcinctus.1             GGGGCCGAGGGACUGGAGAGAAAGGCAGUUCCUGAUGGUGCCU.CCCCAG
+#=GC SS_cons                       <<<<<.<<<<<<<<<<<<.<<<<<<<<<<<<<<<..<<......>>.>>>
+#=GC RF                            gggggaggggggccggggaggggggcggcccccgaaggaaaaaaccacgg
+
+E.telfairi.1                       GGGCUGGUUUUCCUCUGGUCCUUCCUUCCCA
+P.troglodytes.1                    GGGCUGGCUUUCCUCUGGUCCUUCCCUCCCA
+B.taurus.1                         GGGCUGGCUUUCCUCCGGCCCCUCCUUCCUG
+Dasypus_novemcinctus.1             GGGCUGGCUUUCCUCUGGUCCUUCCCUCCCA
+#=GC SS_cons                       >>>>>>>>>>>>>>>>>>>>>>>>.>>>>>.
+#=GC RF                            gggccgccccccccccggccccccaccccca
+//

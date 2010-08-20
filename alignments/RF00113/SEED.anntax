@@ -1,0 +1,125 @@
+# STOCKHOLM 1.0
+#=GF ID    QUAD
+#=GF AC    RF00113
+#=GF DE    QUAD RNA
+#=GF AU    Bateman A
+#=GF GA    55.0
+#=GF NC    43.2
+#=GF TC    61.2
+#=GF SE    Gottesman S, Storz G
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; sRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000655 SO:ncRNA
+#=GF RN    [1]
+#=GF RM    11445539
+#=GF RT    Identification of novel small RNAs using comparative genomics and
+#=GF RT    microarrays.
+#=GF RA    Wassarman KM, Repoila F, Rosenow C, Storz G, Gottesman S;
+#=GF RL    Genes Dev 2001;15:1637-1651.
+#=GF CC    This family contains multiple ncRNA from E. coli that were
+#=GF CC    identified in a large scale screen of E. coli, were they were
+#=GF CC    called candidates 43,55 and 61 [1]. These RNAs have also been
+#=GF CC    identified by other groups and called QUAD RNAs.
+#=GF WK    http://en.wikipedia.org/wiki/QUAD_RNA
+#=GF SQ    17
+
+#=GS Escherichia_coli_CFT.1 AC    AE014075.1/2440196-2440338
+#=GS Escherichia_coli_O15.1 AC    AE005174.2/3861252-3861402
+#=GS Escherichia_coli_str.1 AC    U00096.2/3193148-3193297
+#=GS Escherichia_coli_str.2 AC    U00096.2/3054837-3054987
+#=GS Escherichia_coli_O15.2 AC    AE005174.2/2899260-2899403
+#=GS Escherichia_coli_536.1 AC    CP000247.1/2190401-2190543
+#=GS Escherichia_coli_CFT.2 AC    AE014075.1/2439868-2440010
+#=GS Escherichia_coli_str.3 AC    U00096.2/2151634-2151776
+#=GS Escherichia_coli_536.2 AC    CP000247.1/2190729-2190871
+#=GS S.enterica.1           AC    AL627277.1/109438-109590
+#=GS S.enterica.2           AC    AL627278.1/13826-13975
+#=GS Salmonella_enterica_.1 AC    FM200053.1/824696-824841
+#=GS Salmonella_enterica_.2 AC    AE006468.1/3362324-3362474
+#=GS Shigella_flexneri_2a.1 AC    AE005674.1/2990729-2990879
+#=GS Shigella_flexneri_5_.1 AC    CP000266.1/3155351-3155500
+#=GS Shigella_flexneri_2a.2 AC    AE014073.1/2983210-2983360
+#=GS Shigella_boydii_CDC_.1 AC    CP001063.1/1057382-1057530
+
+Escherichia_coli_CFT.1             UUGACAAUUGGACCGUGAAGGCAUACUUUC.AG.GAAUGAGGGUUG..AG
+Escherichia_coli_O15.1             UUGACAUCGUUGAUUCUUUAACCUAAUUU..AGUGAGUAAGGGUAA..GG
+Escherichia_coli_str.1             UUGACGCUGUUGUUUUUUCAACCUAGAGUAAAG.GAACAAGGGUAA..GG
+Escherichia_coli_str.2             UUGACAUCGUUGAUUCUUUGACCUAAUUU..AGUGAGUAAGGGUAA..GG
+Escherichia_coli_O15.2             UUGACAUUCUGAACGUGAAGGCAUACUUUC.AG.GAGUGAGGGUAG..AG
+Escherichia_coli_536.1             UUGACACUAAGGGCGGAGUGACAUAAUUUC.AG.GAGUGAGGGUAG..AG
+Escherichia_coli_CFT.2             UUGACAACAAGGGUUGAGUGACAUAAUUUC.AG.GAGUGAGGGUAGA.GC
+Escherichia_coli_str.3             UUGACAAUCUUAUCGUGAAGGCAUACUUUC.AG.GAGUGAGGGUAG..AG
+Escherichia_coli_536.2             UUGACAAUUGGACCGUGAAGGCAUACUUUC.AG.GAGUGAGGGUAG..AG
+S.enterica.1                       UUGACAGCGUCGCUUUUUUGACCUAAAUUUCUC.GGUGAAGGGUGA..GG
+S.enterica.2                       UUGACGCUGCUUUUUUUUCGACCUAAAGUAAAG.GAAUAAGGGUGAGAGG
+Salmonella_enterica_.1             UUGACAUUAUUCUUGAUGUGGCUUAACGUC.AG.GAGUGAGGGUAA..GG
+Salmonella_enterica_.2             UUGACGCUGCUUUUUUUUCGACCUAAAGUAAAG.GAAUAAGGGUGA..GA
+Shigella_flexneri_2a.1             UUGACAUCGUUGAUUCUUUAACCUAAUUU..AGUGAGUAAGGGUAA..GG
+Shigella_flexneri_5_.1             UUGACGCUGAUUUUUUUUCAACCUAAAGUAAAG.GAACAAGGGUGA..GG
+Shigella_flexneri_2a.2             UUGACAUCGUUGAUUCUUUGACCUAAUUU..AGUGAGUAAGGGUAA..GG
+Shigella_boydii_CDC_.1             UUGACACUAAGGGCGGAGUGACAUAAUUUC.AG.GAGUGAGGGUUA..GG
+#=GC SS_cons                       ...............................<<.<<..<<<<<<....<<
+#=GC RF                            UUGACauuguUguUuuUuuGACcUAAagUaAAG.GAaUaAGGGuAA..GG
+
+Escherichia_coli_CFT.1             C..GGGGUUUCCCCC.GCCC......UGG...UAGUCU..UAGUAAGCCG
+Escherichia_coli_O15.1             G..AGGAUGACUCCUCCCCUGAGA.CUGA...CUGU....UAAUAAGCUG
+Escherichia_coli_str.1             G..AGGAUUUCUCCC.CCCU.....CUGA...UGAGUUGUUAGUAAGUCG
+Escherichia_coli_str.2             G..AGGAUUGCUCCUCCCCUGAGA.CUGA...CUGU....UAAUAAGCGC
+Escherichia_coli_O15.2             C..GGGGUUUCCCCC.GCCC......UGG...UAGUCU..UAGUAUGCUG
+Escherichia_coli_536.1             C..GGGGUUUCCCCC.GCCC......UGG...UAGUCU..UAGUAAGCUG
+Escherichia_coli_CFT.2             G....GGGUUUUCCC.CGCC.....CUGG...UAGUCU..UAGUAUGCUG
+Escherichia_coli_str.3             C..GGGGUUUCCCCC.GCCC......UGG...UAGUCU..UAGUAAGCGG
+Escherichia_coli_536.2             C..UGGGUUUCCCCC.GCCC......UGG...UAGUCU..UAGUAUGCUG
+S.enterica.1                       G..AGG..CGAACCU.CCCUC....CUGCGUACUCACUGUUAAUAUGCUG
+S.enterica.2                       G....GAUCUCUCCC.CCCU.....CUGA...UUGGCUGUUAGUAAGCUG
+Salmonella_enterica_.1             G..AGGAUUCCUCCU.CCCC.....CUGG....UGUCU..UAGUAAGCUG
+Salmonella_enterica_.2             G..GGGAUCUCUCCCCCCCU.....CUGA...UUGUCUGUUAGUAAGCUG
+Shigella_flexneri_2a.1             G..AGGAUUGCUCCUCCCCU.....GUGA...CUGACUGUUAAUAAGCUG
+Shigella_flexneri_5_.1             G..AGGAUUUCUCCC.CCCU.....CUGA...UUGGCUGUUAAUAAGCUG
+Shigella_flexneri_2a.2             G..AGGAUGACUCCU.CCCUUGAGACUGA...CUGU....UAAUAAGCUC
+Shigella_boydii_CDC_.1             GAGAGGUUUCCCCCU.CCCC.....CUGG...GGUUCU..UAGUAAGCCU
+#=GC SS_cons                       <...............>>>......<<<<.....................
+#=GC RF                            G..AGGAUuuCUCCu.CCCu.....CuGg...uuGucUguUAgUAAGcug
+
+Escherichia_coli_CFT.1             GGAAGCUUAUGACUAAGAGCA...CCACGAUGAUGAUCCACUUCAUCAU.
+Escherichia_coli_O15.1             GCAAACUUAUCAGUAACAGUACAAUCAGUAUGAUGACAAGUCGCAUCAU.
+Escherichia_coli_str.1             GGAAACUUAACAGUAACAACACAACCAGUAUGAUGACGAGCUUCAUCAU.
+Escherichia_coli_str.2             UGAAACUUAUGAGUAACAGUACAAUCAGUAUGAUGACAAGUCGCAUCAU.
+Escherichia_coli_O15.2             GGUAGCUAAUCACUAA..GAAGCACCACGAUGAUGAGUAUCUUCAUCAU.
+Escherichia_coli_536.1             GCCAGCUAAUGACUAAGAGCA...CCACGAUGAUGAGUCGCUUCAUCAU.
+Escherichia_coli_CFT.2             GGUAGCUAAUGACUAAGAGCA...CCACGAUGAUGAGUAGCUUCAUCAU.
+Escherichia_coli_str.3             GGAAGCUUAUGACUAAGAGCA...CCACGAUGAUGAGUAGCUUCAUCAU.
+Escherichia_coli_536.2             GGUAGCUAAUCACUAAGAGCA...CCACGAUGAUGAGUAUCUUCAUCAU.
+S.enterica.1                       GGCAAGCGAUGAUUAACAGGAUCAGCAGCAUGAUGACGUAUCUCAUCAUC
+S.enterica.2                       GGAAACUUAUCAGUAACAGAACAAUCAGUAUGAUGACCUGGUGCAUCAU.
+Salmonella_enterica_.1             GUAGGCUAAUCACUAAGAGUAUCACCAGUAUGAUGACUACCUUCAUCAU.
+Salmonella_enterica_.2             CGAAACUUAUCAGUAACAGAACAAUCAGUAUGAUGACCUGGUGCAUCAU.
+Shigella_flexneri_2a.1             GGAAACUUAUGAGUAACAGUACAAUCAGUAUGAUGGCAAGUCGCAUCAU.
+Shigella_flexneri_5_.1             CGAAACUUACGAGUAACAACACAAUCAGUAUGAUGACGAGCUUCAUCAU.
+Shigella_flexneri_2a.2             CGAAACUUAUCAGUAACAGUACAAUCAGUAUGAUGACAAGUCGCAUCAU.
+Shigella_boydii_CDC_.1             GGAAGCUAAUCACUAAGAGUAUCACCAGUAUGAUGACGUGCUUCAUCAU.
+#=GC SS_cons                       ........................>>>><<<<<<<........>>>>>>.
+#=GC RF                            ggAAACUuAucAgUAAcAGuAcAAcCaGuAuGAuGACaAguugCaUCaU.
+
+Escherichia_coli_CFT.1             GACCCUU.UCCUUAUU
+Escherichia_coli_O15.1             AACCCUUCUCCUUCAA
+Escherichia_coli_str.1             AACCCUU.UCCUUAUA
+Escherichia_coli_str.2             AACCCUUCUCCUUCAA
+Escherichia_coli_O15.2             GACCCUU.UCCUUAUU
+Escherichia_coli_536.1             GACCCUU.UCCUUAUU
+Escherichia_coli_CFT.2             GACCCUU.UCCUUAUU
+Escherichia_coli_str.3             GACCCUU.UCCUUAUU
+Escherichia_coli_536.2             GACCCUU.UCCUUAUU
+S.enterica.1                       GUCCCUU.UCCUUUUU
+S.enterica.2                       AACCCUU.UCCUUAUU
+Salmonella_enterica_.1             AACCCUU.UCCUUAUU
+Salmonella_enterica_.2             AACCCUU.UCCUUAUU
+Shigella_flexneri_2a.1             AACCCUUCUCCUUCAA
+Shigella_flexneri_5_.1             AACCCUU.UCCUUCUG
+Shigella_flexneri_2a.2             AACCCUUCUCCUUUAA
+Shigella_boydii_CDC_.1             ACCCCUU.UCCUUAUU
+#=GC SS_cons                       >>>>>>>.>>>>....
+#=GC RF                            aaCCCUu.UCCUUAua
+//

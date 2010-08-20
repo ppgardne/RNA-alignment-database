@@ -1,0 +1,479 @@
+# STOCKHOLM 1.0
+#=GF ID    Sacc_telomerase
+#=GF AC    RF01050
+#=GF DE    Saccharomyces telomerase
+#=GF AU    Gardner PP
+#=GF GA    32.0
+#=GF NC    0.0
+#=GF TC    32.4
+#=GF SE    Published; PMID:15242611
+#=GF SS    Published; PMID:15242611
+#=GF TP    Gene;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  -g  CM SEQDB
+#=GF DR    URL; http://telomerase.asu.edu/
+#=GF DR    SO:0000390 SO:telomerase_RNA
+#=GF RN    [1]
+#=GF RM    15242611
+#=GF RT    A phylogenetically based secondary structure for the yeast
+#=GF RT    telomerase RNA.
+#=GF RT    The telomerase database.
+#=GF RA    Dandjinou AT, Lévesque N, Larose S, Lucier JF, Abou Elela S,
+#=GF RA    Wellinger RJ
+#=GF RA    Podlevsky JD, Bley CJ, Omana RV, Qi X, Chen JJ
+#=GF RL    Curr Biol. 2004;14:1148-1158.
+#=GF RL    Nucleic Acids Res. 2008;36:339-343.
+#=GF RN    [2]
+#=GF RM    18073191
+#=GF RT    The telomerase database.
+#=GF RA    Podlevsky JD, Bley CJ, Omana RV, Qi X, Chen JJ;
+#=GF RL    Nucleic Acids Res. 2008;36:D339-D343.
+#=GF WK    http://en.wikipedia.org/wiki/Vertebrate_telomerase_RNA
+#=GF SQ    13
+
+#=GS S.mikatae.1            AC    AY639011.1/1-1215
+#=GS S.pastorianus.1        AC    AY639014.1/1-1196
+#=GS Saccharomyces_cerevi.1 AC    AAEG01000107.1/88071-89228
+#=GS S.paradoxus.1          AC    AM296234.1/1-1165
+#=GS S.kudriavzevii.1       AC    AY639012.1/1-1215
+#=GS Saccharomyces_mikata.1 AC    AABZ01000048.1/18596-19811
+#=GS Saccharomyces_kudria.1 AC    AACI02000039.1/23030-24244
+#=GS Saccharomyces_bayanu.1 AC    AACA01000196.1/11518-12737
+#=GS S.cerevisiae.1         AC    U14595.1/11-1168
+#=GS Saccharomyces_parado.1 AC    AABY01000040.1/50453-51617
+#=GS S.cariocanus.1         AC    AY639010.1/1-1163
+#=GS S.bayanus.1            AC    AY639013.1/1-1219
+#=GS S.cerevisiae.2         AC    DJ025870.1/307597-308754
+
+S.mikatae.1                        AUGAGGAAGAUGCGUCGCCUAUUAAAAUGUCUGGCGGCUGUUACAUUUGC
+S.pastorianus.1                    GAGAGGAAGGU.GGUAACCUAAUAACACGUC.AGCGACUGGUAUGUUUGC
+Saccharomyces_cerevi.1             GAGAGGAAGAUAGGUACCCUAUGAAAAUGUC.AAUGGCUGUUGCGUUUGC
+S.paradoxus.1                      CAAAGGAAGAUAGGUAACCUAUUAAGAUGUC.AGCGGCUGUUGCGUUUGC
+S.kudriavzevii.1                   AUGAGG.AGGUCGGUUACCUAUUAAGAUGUC.CAUGGUCGUCACGUUUAG
+Saccharomyces_mikata.1             AUGAGGAAGAUGCGUCGCCUAUUAAAAUGUCUGGCGGCUGUUACAUUUGC
+Saccharomyces_kudria.1             AUGAGG.AGGUCGGUUACCUAUUAAGAUGUC.CAUGGUCGUCACGUUUAG
+Saccharomyces_bayanu.1             GAGAGGAAGGU.AGUAACCUAAUAAUACGUC.AGCGACUGGUAUGUUUGC
+S.cerevisiae.1                     GAGAGGAAGAUAGGUACCCUAUGAAAAUGUC.AAUGGCUGUUGCGUUUGC
+Saccharomyces_parado.1             CAAAGGAAGAUAGGUAACCUAUUAAAAUGUC.AGCGGCUGUUGCGUUUGC
+S.cariocanus.1                     UAGAGGAAGAUAGGUAGCCUAUUAAAAUGUC.AGCGGCUGUCGCGUUUGC
+S.bayanus.1                        GAGAGGAAGGU.AGUAACCUAAUAAUACGUC.AGCGACUGGUAUGUUUGC
+S.cerevisiae.2                     GAGAGGAAGAUAGGUACCCUAUGAAAAUGUC.AAUGGCUGUUGCGUUUGC
+#=GC SS_cons                       .................<<.........<<<....<<<<.....<<<<<<
+#=GC RF                            aAGAGGAAGaUagGUAaCCUAuUAAaAuGuC.AgcGGcuGuUAcGuUUGc
+
+S.mikatae.1                        UUUCUAGCACUUUUCUAUUCU..CGUUUCC.UUUUUUUGUACCUUCCCCU
+S.pastorianus.1                    UUGCCCUUUUUUAA..........UUUGCU.UCUCAAUGUAUUUUUUCCA
+Saccharomyces_cerevi.1             UUAAUCGUAUUUUUUUUUUUUUCAGUCCGU.GUUUUUUGUACAUUCUACG
+S.paradoxus.1                      UUAGUUGUUUUUUUUUUU.....AGUAUUU.GUUUUUUGUACAUUUUCCG
+S.kudriavzevii.1                   UUACUAGUAUUUUUUCUCUUU..UGUUUCU.GUUUUUUGUGCAUUUUCCA
+Saccharomyces_mikata.1             UUUCUAGCACUUUUCUAUUCU..CGUUUCC.UUUUUUUGUACCUUCCCCU
+Saccharomyces_kudria.1             UUACUAGUAUUUUUUCUCUUU..UGUUUCU.GUUUUUUGUGCAUUUUCCA
+Saccharomyces_bayanu.1             CUGCCCUUUUUUUA..........UUUUGCUUGUCAAUGUAUUUUUUCCA
+S.cerevisiae.1                     UUAAUCGUAUUUUUUUUUUUUUCAGUCCGU.GUUUUUUGUACAUUCUACG
+Saccharomyces_parado.1             UUAGUUGUUUUUUUUUUU.....AGUAUUU.UUUUUUUGUACGUUUUCCG
+S.cariocanus.1                     UUAGUUG..UUUUUUUUU.....AGUAUUU.GUCGUCUGUACAUUUUCCG
+S.bayanus.1                        CUGCCCUUUUUUUA..........UUUUGCUUGUCAAUGUAUUUUUUCCA
+S.cerevisiae.2                     UUAAUCGUAUUUUUUUUUUUUUCAGUCCGU.GUUUUUUGUACAUUCUACG
+#=GC SS_cons                       .<<<<....<<<<...........<<<<.........<<<<<......<<
+#=GC RF                            UuaccagUauuUuuuuuU.....agUuuuu.uuUuuuUGuaCaUUuUCCa
+
+S.mikatae.1                        UUUGAAUUUUCCAUCGUAUAAGCCUCAGAAAUUUGGUAGACACUUAAUGA
+S.pastorianus.1                    UUUGAGUUUUCUGUUG.AUAAGCCUCAGAGUUUUGGUAGGCGCCUAGUGG
+Saccharomyces_cerevi.1             UUUGAGUUUUCCAUCAUGCAGGCCUCAGAAAUUUGGUAGGCACUCGAUGG
+S.paradoxus.1                      UUUGAAUUUUCUAUCAUGCAAGCCUCAGAGAUUUGGUAGAUGCUUAAUGA
+S.kudriavzevii.1                   UUUGAGUUUUCUAUUGU.UGAGCCUCAGAUAUUUGGUAGACGCUUAAUGG
+Saccharomyces_mikata.1             UUUGAAUUUUCCAUCGUAUAAGCCUCAGAAAUUUGGUAGACACUUAAUGA
+Saccharomyces_kudria.1             UUUGAGUUUUCUAUUGU.UGAGCCUCAGAUAUUUGGUAGACGCUUAAUGG
+Saccharomyces_bayanu.1             UUUGAGUUUUCUGUUG.AUAAGCCUCAGAGUUUUGGUAGGCGCCUAGUGG
+S.cerevisiae.1                     UUUGAGUUUUCCAUCAUGCAGGCCUCAGAAAUUUGGUAGGCACUCGAUGG
+Saccharomyces_parado.1             UUUGAAUUUUCUAUCAUGCAAGCCUCAGAGAUUUGGUAGAUGCUUAAUGA
+S.cariocanus.1                     UUUGAAUUUUCUAUCAUGCAAGCCUCAGAGAUUUGGUAGAUGCUUAAUGA
+S.bayanus.1                        UUUGAGUUUUCUGUUG.AUAAGCCUCAGAGUUUUGGUAGGCGCCUAGUGG
+S.cerevisiae.2                     UUUGAGUUUUCCAUCAUGCAGGCCUCAGAAAUUUGGUAGGCACUCGAUGG
+#=GC SS_cons                       <<<<..........<<.<<<<<..<<<<.....<<<<<<<<.........
+#=GC RF                            UUUGAgUUUUCuAUcgUguaaGCCUCAGAgAUUUGGUAGacgCuUAAUGg
+
+S.mikatae.1                        UGAAUAGGUUGGGUUAGAUUU.GAUUUGAGAUCUUGAGUCACCAGGCAGU
+S.pastorianus.1                    UGGAACGGUUGAGCCGGAAUCGCGAUUGAGAUGUGAUGUUAGUGGGCCAU
+Saccharomyces_cerevi.1             UGAAGAGAUAGUGUCGGAUUUCGGAUUGAUCUUUCA.GUUGAUAGCCUGC
+S.paradoxus.1                      UGUAAAGGUUGCGUUGAAUUUUGAAUUGUUCUCUCAAGUUAGCAGGCAG.
+S.kudriavzevii.1                   UGGAAUGAUUGGACCGGAUUUAGGGUUGUGUUCUCAGAUUGGCGGGCAGU
+Saccharomyces_mikata.1             UGAAUAGGUUGGGUUAGAUUU.GAUUUGAGAUCUUGAGUCACCAGGCAGU
+Saccharomyces_kudria.1             UGGAAUGAUUGGACCGGAUUUAGGGUUGUGUUCUCAGAUUGGCGGGCAGU
+Saccharomyces_bayanu.1             UGGAAUGGUUGGGCUGGAAUCGGAAUUGAGAUGUGAUGUUAACGGGCCAU
+S.cerevisiae.1                     UGAAGAGAUAGUGUCGGAUUUCGGAUUGAUCUUUCA.GUUGAUAGCCUGC
+Saccharomyces_parado.1             UGUAAAGGUUGCGUUGAAUUUUGGAUUGUUCUCUCAAGUUAGCAGGCAG.
+S.cariocanus.1                     UGUAGAGGUUGCGAUGAAUUUUGGAUUGUUCUCUCAAGUUAGCAGGCAG.
+S.bayanus.1                        UGGAAUGGUUGGGCUGGAAUCGGAAUUGAGAUGUGAUGUUAACGGGCCAU
+S.cerevisiae.2                     UGAAGAGAUAGUGUCGGAUUUCGGAUUGAUCUUUCA.GUUGAUAGCCUGC
+#=GC SS_cons                       ............................................<<<...
+#=GC RF                            UGgAaaGgUUGgGuuGGAuUuaGgAUUGagaUcUcAaGUUAacaGgCaGU
+
+S.mikatae.1                        CCCAA.......UUUUUUU.UACGAAAUAUUAGGAGUGUGCUGAUGUCAG
+S.pastorianus.1                    UGUGCA...UCUUUUUUAUAUUUUGGGCAAUGCGAGCACGCUAGUGCCA.
+Saccharomyces_cerevi.1             .UGCUC...UUUUCUUU...UCCAAAGAAUUUCGAGUAUGCUGGUGUCAG
+S.paradoxus.1                      GUGCAC...UUUUCUCUUU.UACGAAGGACUUCGAGUGCACUGGGGUCAG
+S.kudriavzevii.1                   UACACUGGUUGUUGUUUUUUAACGAAGGGCUAUGAGUGCGCUGGUGUCAG
+Saccharomyces_mikata.1             CCCAA.......UUUUUUU.UACGAAAUAUUAGGAGUGUGCUGAUGUCAG
+Saccharomyces_kudria.1             UACACUGGUUGUUGUUUUUUAACGAAGGGCUAUGAGUGCGCUGGUGUCAG
+Saccharomyces_bayanu.1             CGUGCA...UCUUUUUUAAAUUUUGAGCAAUUUGAGUACGCUAGUGCCAC
+S.cerevisiae.1                     .UGCUC...UUUUCUUU...UCCAAAGAAUUUCGAGUAUGCUGGUGUCAG
+Saccharomyces_parado.1             GUGCAC...UUUUCUCUUU.UACGAAGGACUUCGAGUGCACUGGGGUCAG
+S.cariocanus.1                     .GUCAC...UUUUCUCUUU.UACGAAGGACUUCGAGUGCACUGGGGUCAG
+S.bayanus.1                        CGUGCA...UCUUUUUUAAAUUUUGAGCAAUUUGAGUACGCUAGUGCCAC
+S.cerevisiae.2                     .UGCUC...UUUUCUUU...UCCAAAGAAUUUCGAGUAUGCUGGUGUCAG
+#=GC SS_cons                       .............................................>>>..
+#=GC RF                            uauaaa...UuUUuUUUuU.UacgAAGaAaUauGAGUgcGCUGGUGcCAG
+
+S.mikatae.1                        CAUAGAUG.AUGUAUUAUACAUGUUUUGUGUGGUU...UGCUAUAUUUCU
+S.pastorianus.1                    ......................GUAUG.CGCGGUUU.CUGUUCUUAACGU
+Saccharomyces_cerevi.1             UGUAGAUG.CUUGUGUGUGCGCA.AUU.UGUGGUUUUUUAUUGUGUUUCU
+S.paradoxus.1                      CAUAGAUA.CUUGUGUGUAUAUAUAUU.UGUGGUUU.UUGUUAUUUUUCU
+S.kudriavzevii.1                   UGUAGAUA.CAUAUGUAUGCG..UACA.UGUGGUUU.UUGUUGUUCUUCU
+Saccharomyces_mikata.1             CAUAGAUG.AUGUAUUAUACAUGUUUUGUGUGGUU...UGCUAUAUUUCU
+Saccharomyces_kudria.1             UGUAGAUA.CAUAUGUAUGCG..CACA.UGUGGUUU.UUGUUGUUCUUCU
+Saccharomyces_bayanu.1             UAUGCAUGUUUCAUGUAUACAUGUAUG.CGCGGUUU.CUGUUCUUGUCGU
+S.cerevisiae.1                     UGUAGAUG.CUUGUGUGUGCGCA.AUU.UGUGGUUUUUUAUUGUGUUUCU
+Saccharomyces_parado.1             CAUAGAUA.CUUGUGUGUACGUAUAUU.UGUGGUUU.UUGUUAUUUUUCU
+S.cariocanus.1                     CAUAGAUA.CUUGUGUGUACGUAUAUU.UGUGGUUU.UUGUUAUUUUUCU
+S.bayanus.1                        UAUGCAUGUUUCAUGUAUACAUGUAUG.CGCGGUUU.CUGUUCUUGUCGU
+S.cerevisiae.2                     UGUAGAUG.CUUGUGUGUGCGCA.AUU.UGUGGUUUUUUAUUGUGUUUCU
+#=GC SS_cons                       ............................<<<<<<.....<<.<<.<<<<.
+#=GC RF                            uAUAGAUa.cuuaUGUaUaCguaUAUu.uguGGuUU.uUgcUauucuucU
+
+S.mikatae.1                        ACUUAUAGAUGGCU.................AAAAUCUGAGUUU.GAGA.
+S.pastorianus.1                    ACUUAUAGAUCGCUACGUUAUUUCAUUUUUGAAAAUCUGAG.CC.CGGGG
+Saccharomyces_cerevi.1             ACUUAUAGAUGGCU.................AAAAUCUGAGUUUAGAAA.
+S.paradoxus.1                      ACUUAUAGAUGGCU.................AAAAUCUGAGUUU.GAAAG
+S.kudriavzevii.1                   ACUUAUAGAUCGCU.................AAAAUCUGAGUUU.GA.GA
+Saccharomyces_mikata.1             ACUUAUAGAUGGCU.................AAAAUCUGAGUUU.GAGA.
+Saccharomyces_kudria.1             ACUUAUAGAUCGCU.................AAAAUCUGAGUUU.GA.GA
+Saccharomyces_bayanu.1             ACUUAUAGAUCGCUACGUUAUUUCAAUUUUGAAAAUCUGAGUCC.UGG.G
+S.cerevisiae.1                     ACUUAUAGAUGGCU.................AAAAUCUGAGUUUAGAAA.
+Saccharomyces_parado.1             ACUUAUAGAUGGCU.................AAAAUCUGAGUUU.GAAAG
+S.cariocanus.1                     ACUUAUAGAUGGCU.................AAAAUCUGAGUUU.GAAAG
+S.bayanus.1                        ACUUAUAGAUCGCUACGUUAUUUCAAUUUUGAAAAUCUGAGUCC.UGG.G
+S.cerevisiae.2                     ACUUAUAGAUGGCU.................AAAAUCUGAGUUUAGAAA.
+#=GC SS_cons                       <<<<..<<<<........................>>>>>>>>...>>>>.
+#=GC RF                            ACUUAUAGAUgGCU.................AAAAUCUGAGUuu.gaagg
+
+S.mikatae.1                        GCAGCA.UGCCACAGAUGCUUGGAUUUUACUAUUGGAUUUUGCUGCCGGA
+S.pastorianus.1                    AGUGCGGAUCCAUACAUACAUGUAAUUUGUUGUUGC.AGUAUU.GCUAGA
+Saccharomyces_cerevi.1             AUGCA..AACCGUAAAUUCUUAAACACUGCUAUUGCAUUUAGUUGCUAAA
+S.paradoxus.1                      AUGGC..CACCAUAAAUUCUUAAAA.GUGGUAUCGCAUUUAGCCCCC...
+S.kudriavzevii.1                   AAUGCGGGACCAUCCAUGUCCGAAUAUAACUGACGCAUUUUGUAGCUAGA
+Saccharomyces_mikata.1             GCAGCA.UGCCACAGAUGCUUGGAUUUUACUAUUGGAUUUUGCUGCCGGA
+Saccharomyces_kudria.1             AAUGCGGGACCAUCCAUGUCCGAAUAUAACUGACGCAUUUUGUAGCUAGA
+Saccharomyces_bayanu.1             AGUGCGGAGCCAUGCAUACAUGUACUUUAUUGUUGCAUAGUAUUGCUAGA
+S.cerevisiae.1                     AUGCA..AACCGUAAAUUCUUAAACACUGCUAUUGCAUUUAGUUGCUAAA
+Saccharomyces_parado.1             AUGGC..CACCAUAAAUUCUUAAAA.GUGGUAUCGCAUUUAGCCCCC...
+S.cariocanus.1                     GUGGC..CACUAUAAAUUCUUAAAAAGUGGCACCGCAUUUAGCCCCC...
+S.bayanus.1                        AGUGCGGAGCCAUGCAUACAUGUACUUUAUUGUUGCAUAGUAUUGCUAGA
+S.cerevisiae.2                     AUGCA..AACCGUAAAUUCUUAAACACUGCUAUUGCAUUUAGUUGCUAAA
+#=GC SS_cons                       >>.>>...>>>>>>....................................
+#=GC RF                            auugcg.aaCCauaaAUacuUgaAaauUauUauuGcAUuUaguuGCuAGA
+
+S.mikatae.1                        AUAGGGCUU.UCGGGACACUUA......UUCCUUUGCUUAAG.ACCAACU
+S.pastorianus.1                    GUACAUUUUUCUCCGCGA.UUG...UCUGU.CUU..CUUUA.CACCAGUU
+Saccharomyces_cerevi.1             GCAGUGUUU.UUGAACUUAUUCCUGUUAUUCCUU..CUUC.GUACCGAUC
+S.paradoxus.1                      ....................................CUUC.GUACCAAUU
+S.kudriavzevii.1                   ACACGUUUU.UCCUACAA.UUA......UCCCGCUCCUCUUAGAAAAAUU
+Saccharomyces_mikata.1             AUAGGGCUU.UCGGGACACUUA......UUCCUUUGCUUAAG.ACCAACU
+Saccharomyces_kudria.1             ACACGUUUU.UCCUACAA.UUA......UCCCGCUCCUCUUAGAAAAAUU
+Saccharomyces_bayanu.1             GUACACUUU.CUCCAUGA.UUG...UCUGU.CUU..CUUUA.CACCAGUU
+S.cerevisiae.1                     GCAGUGUUU.UUGAACUUAUUCCUGUUAUUCCUU..CUUC.GUACCGAUC
+Saccharomyces_parado.1             ....................................CUUC.GUACCAAUU
+S.cariocanus.1                     ....................................CUUC.GUACCGAUU
+S.bayanus.1                        GUACACUUU.CUCCAUGA.UUG...UCUGU.CUU..CUUUA.CACCAGUU
+S.cerevisiae.2                     GCAGUGUUU.UUGAACUUAUUCCUGUUAUUCCUU..CUUC.GUACCGAUC
+#=GC SS_cons                       ..................................................
+#=GC RF                            auAcauUUU.uucaaaaA.UUa......uu.Cuu..CUUuAGuAccAAUU
+
+S.mikatae.1                        CUGUUUUC.GCCUUUGCCCCUUCAUCA..UUA...UA...CAAAAU...G
+S.pastorianus.1                    CUGUUUUCCGUCUCAACCUCUUCAUUA..UUA...UG...GAAAGC...A
+Saccharomyces_cerevi.1             CUCUUCUC.GACCUAACCUUUUAAUUA..CCA...UG........GGAAG
+S.paradoxus.1                      CUGUUUUC.GUCUCAAGCUCUUCAUUA..CUACAGCG........C.AAG
+S.kudriavzevii.1                   CUGCUUUC.ACUCCAA.CUCUUCAUCA..UUU...UAUAAGAAUUU...G
+Saccharomyces_mikata.1             CUGUUUUC.GCCUUUGCCCCUUCAUCA..UUA...UA...CAAAAU...G
+Saccharomyces_kudria.1             CUGCUUUC.ACUCCAA.CUCUUCAUCA..UUU...UAUAAGAAUUU...G
+Saccharomyces_bayanu.1             CUGUUUUCUGUCUUAACCUCUUCACUA..UCA...UG...GAAAGU...U
+S.cerevisiae.1                     CUCUUCUC.GACCUAACCUUUUAAUUACCAUG...GG........A..AG
+Saccharomyces_parado.1             CUGUUUUC.GUCUCAAGCUCUUCAUUA..CUACAGCG........C.AAG
+S.cariocanus.1                     CUGUUUUC.GUCUCAAGCUCUUCAUUA..CUACAGCG........C.AAG
+S.bayanus.1                        CUGUUUUCUGUCUUAACCUCUUCACUA..UCA...UG...GAAAGU...U
+S.cerevisiae.2                     CUCUUCUC.GACCUAACCUUUUAAUUA..CCA...UG........GGAAG
+#=GC SS_cons                       .................................................>
+#=GC RF                            CUGUUUUC.GucuuAAcCUCUUCAUuA..uUA...ug........u...g
+
+S.mikatae.1                        UCUACCAUUACCACACCCACACAUUGAUAUUAUGACUAAUUGUUUAUUAG
+S.pastorianus.1                    UCUACCAUUACCACACCCACACACGAACGUUAAGGCUAAUCGUU.AUUAG
+Saccharomyces_cerevi.1             CCUACCAUCACCACACCCACACACAAAUGUUACAGCUAAUUGUUUAUUAG
+S.paradoxus.1                      UCUACCAUUACCACACCCACACACAGAUAUCACGGCUAAU.GUUUAUUAG
+S.kudriavzevii.1                   UCUACCAUUACCACACCCACACACAAACAUUACGGCUAGUAGUUUAUUAG
+Saccharomyces_mikata.1             UCUACCAUUACCACACCCACACAUUGAUAUUAUGACUAAUUGUUUAUUAG
+Saccharomyces_kudria.1             UCUACCAUUACCACACCCACACACAAACAUUACGGCUAGUAGUUUAUUAG
+Saccharomyces_bayanu.1             UCUACCAUUACCACACCCACACACGAACAUUAAGGCUAAUCGUU.AUUAG
+S.cerevisiae.1                     CCUACCAUCACCACACCCACACACAAAUGUUACAGCUAAUUGUUUAUUAG
+Saccharomyces_parado.1             UCUACCAUUACCACACCCACACACAGAUACCACGGCUAAU.GUUUAUUAG
+S.cariocanus.1                     UCUACCAUUACCACACCCACACACAGAUAUUACGGCUAAU.GUUUAUUAG
+S.bayanus.1                        UCUACCAUUACCACACCCACACACGAACAUUAAGGCUAAUCGUU.AUUAG
+S.cerevisiae.2                     CCUACCAUCACCACACCCACACACAAAUGUUACAGCUAAUUGUUUAUUAG
+#=GC SS_cons                       >>>>>>>...........................<<<<<<.....>>>>>
+#=GC RF                            uCUACCAUUACCACACCCACACACaAAuAUUAaGgCUAaUuGUUUAuUAG
+
+S.mikatae.1                        CUAAGUUCCCAU.G.GCCACUUUUUACU.UUUUUCUCAUUUUCUUAUUUU
+S.pastorianus.1                    UUGAAUCUCCAUA.....GCCAAG.....CUCUUUUUUUUUUC.......
+Saccharomyces_cerevi.1             CGAAGUUUGCACGAGUUCGCUGUUUAUU.UUUUUCUCGUUUUCUUAUACC
+S.paradoxus.1                      UUAAGUUUCCAUGAGCUCACUCUUUAUUCUUUUCCUCGUUUUCUUAUACC
+S.kudriavzevii.1                   UCAAAUUUCCAUGGCCACACAUUUUGUC.UUUUUCUCGUUUUCUUAU...
+Saccharomyces_mikata.1             CUAAGUUCCCAUG..GCCACUUUUUACU.UUUUUCUCAUUUUCUUAUUUU
+Saccharomyces_kudria.1             UCAAAUUUCCAUGGCCACACAUUUUGUC.UUUUUCUCGUUUUCUUAU...
+Saccharomyces_bayanu.1             UUCAAUCUCCAUAGCCACACUCUU.........UUUUUCUUCC.......
+S.cerevisiae.1                     CAAAGUUUGCACGAGUUCGCUGUUUAUU.UUUUUCUCGUUUUCUUAUACC
+Saccharomyces_parado.1             UUAAGUUUCCAUGAGCUCACUCUUUAUUCUUUUCCUCGUUUUCUUAUACC
+S.cariocanus.1                     UCAAGUUUCCAUGAGCUCACUCUUUAUUCUUUUUCUCGUUUUCUUAUACC
+S.bayanus.1                        UUCAAUCUCCAU.A.GCCACACUC.......UUUUUUUCUUCC.......
+S.cerevisiae.2                     CAAAGUUUGCACGAGUUCGCUGUUUAUU.UUUUUCUCGUUUUCUUAUACC
+#=GC SS_cons                       >.................................................
+#=GC RF                            cuAAaUuUcCAUgagguCACuaUuUAuu.UUUUUcUcgUUUUCUUAUAcc
+
+S.mikatae.1                        UAUUAUAUUUUCUGUCACUUCU.GAAGUGACGGAAAAGA...GGAGUUUG
+S.pastorianus.1                    ...AAUGUUUUCCGUCGCUUUC.CAAGUGACAGAAAAAA..AGGAGUUUG
+Saccharomyces_cerevi.1             UAGUAUUUUUUCUGACACUGUUUAAGGUGACAGAAAAAA..AGGAGUUUA
+S.paradoxus.1                      UAGUAUGUUUUCUGACGCUUUUUGAAGUGACAGAAAAAA...GGAGUUUA
+S.kudriavzevii.1                   ...UGUGUUUUCUGUCACUGUG.AAAGUGACGGAGAAAA..AGGAGUUUG
+Saccharomyces_mikata.1             UAUUAUAUUUUCUGUCACUUCU.GAAGUGACGGAAAAGA...GGAGUUUG
+Saccharomyces_kudria.1             ...UGUGUUUUCUGUCACUGUG.AAAGUGACGGAGAAAA..AGGAGUUUG
+Saccharomyces_bayanu.1             ...AAUAUUUUCCGUCGCUUUC.CAAGUGACAGAAAAAAAAAGGAGUUUG
+S.cerevisiae.1                     UAGUAUUUUUUCUGACACUGUUUAAGGUGACAGAAAAAA..AGGAGUUUA
+Saccharomyces_parado.1             UAGUAUGUUUUCUGGCGCUUUUUGAAGUGACAGAAAAAA...GGAGUUUA
+S.cariocanus.1                     UAGUAUUUUUUCUGACGCUUUUUGAAGUGACAGAACAAA...GGAGUUUA
+S.bayanus.1                        ...AAUAUUUUCCGUCGCUUUC.CAAGUGACAGAAAAAAA.AGGAGUUUG
+S.cerevisiae.2                     UAGUAUUUUUUCUGACACUGUUUAAGGUGACAGAAAAAA..AGGAGUUUA
+#=GC SS_cons                       .......<<<<<<<.<<<<......>>>>.>>>>>>>.....<<<<<<..
+#=GC RF                            UAguAUaUuuUCuGuCaCuuUu.aAaGuGACaGAaaAAA..AGGAGUUUg
+
+S.mikatae.1                        .AAUUAGAUUUGCAAAACGGGCGGUAUCAAGAAUACUGUCACUCUAUAUG
+S.pastorianus.1                    .AAUUAGGCUUGCAAAAGGGGCAAUAUCAAUGAUACUGUCACCCUUAAUG
+Saccharomyces_cerevi.1             .AGUUAGAUUUGCAAA.CAGACGGUGCUA..AGCGCUGUCAC..UUUAUG
+S.paradoxus.1                      .AAUUAGAUUUGCAAA.CGGACGGUACUA..AAUACCGUCACU.UUUACG
+S.kudriavzevii.1                   GAAUCAGAUUUGCAAAACGGGCUGUAUCAAUAAUACUGUCAUUCCUAAUG
+Saccharomyces_mikata.1             .AAUUAGAUUUGCAAAACGGGCGGUAUCAAGAAUACUGUCACUCUAUAUG
+Saccharomyces_kudria.1             .AAUCAGAUUUGCAAAACGGGCUGUAUCAAUAAUACUGUCAUUCCUAAUG
+Saccharomyces_bayanu.1             .AAUUAGGCUUGCAAAAGGGACAAUAUAUAUGAUACUGUCACUCCUAAUG
+S.cerevisiae.1                     .AGUUAGAUUUGCAAA.CAGACGGUGCUA..AGCGCUGUCAC..UUUAUG
+Saccharomyces_parado.1             .AAUUAGAUUUGCAAA.CGGACGGUACUA..AAUACCGUCACU.UUUACG
+S.cariocanus.1                     .AAUUAGAUUUGCAAA.CGGACGGAACUA..AAUACUGUCACU.UUUAUG
+S.bayanus.1                        .AAUUAGGCUUGCAAAAGGGACAAUAUAUAUGAUACUGUCACUCCUAAUG
+S.cerevisiae.2                     .AGUUAGAUUUGCAAA.CAGACGGUGCUA..AGCGCUGUCAC..UUUAUG
+#=GC SS_cons                       .<<<<<<<<..........<<<<.<<<.....>>>.>>>>.........>
+#=GC RF                            .AauuAGacUUGCAAAAcGGaCaGuauuAAuAauaCuGuCAcUCuUaAUg
+
+S.mikatae.1                        UCUAAUUUAUCGUCAACUCUGCAAAAAGAAAAUAGGAAGAAGAAAA.UAG
+S.pastorianus.1                    UCUGAUUUAUCGUCAACUCUGUAA..AGGAAACAAGAGAGAGAAAGGUUG
+Saccharomyces_cerevi.1             UCUAUCUUAUCGUUAACUCUGGAAAAAGAAAAA.GGAAAAAGAACG.UCA
+S.paradoxus.1                      UCUAACUUAUCGUUAACUCUGCAAAAAGAAAACAAGAAAAAGAAAA.UCA
+S.kudriavzevii.1                   UCUGAUUCAUCGUCAACUCUGUAAAAAGAGAACAAGAAAGGDAAAA.UUG
+Saccharomyces_mikata.1             UCUAAUUUAUCGUCAACUCUGCAAAAAGAAAAUAGGAAGAAGAAAA.UAG
+Saccharomyces_kudria.1             UCUGAUUCAUCGUCAACUCUGUAAAAAGAGAACAAGAAAGGAAAAA.UUG
+Saccharomyces_bayanu.1             UCUAAUUUAUCGUCAACUCUGUAA..AGGAAGCAAGAAAGAGAAAGGUUG
+S.cerevisiae.1                     UCUAUCUUAUCGUUAACUCUGGAAAAAGAAAAA.GGAAAAAGAACG.UCA
+Saccharomyces_parado.1             UCUAACUUAUCGUUAACUCUGCAAAAAGAAAACAAGAAAAAGAAAA.UCA
+S.cariocanus.1                     UCUAACUUAUCGUUAACUCUGCAAAAAGAAAAUAAGAAAAAGAAAA.UCA
+S.bayanus.1                        UCUAAUUUAUCGUCAACUCUGUAA..AGGAAGCAAGAAAGAGAAAGGUUG
+S.cerevisiae.2                     UCUAUCUUAUCGUUAACUCUGGAAAAAGAAAAA.GGAAAAAGAACG.UCA
+#=GC SS_cons                       >>>>>>>.......>>>>>>..............................
+#=GC RF                            uCUaauUUAUCGUcAACUCUGuAAAAAGAAAAcAAGAAAaAGAAAa.Uug
+
+S.mikatae.1                        GCGGAUA.AGAGUAUAU...AGAGAAAUGAUUUAUUCUAUUUUUUUUU.U
+S.pastorianus.1                    GUGGAGAUUAAAUCUGUAGAAAGAGGAAGGUUUAUUCUAG..........
+Saccharomyces_cerevi.1             GGGAACA.UGAGUAUAU...AUAGAAAUGGUUUAUUCUAG.........U
+S.paradoxus.1                      GUGAAUA.GGAGUAUAU...AUAGAAAUGGUUUAUUCUAUU........U
+S.kudriavzevii.1                   AUGGGCA.AAAGUAUAU...AUAGAAAUGGUUUAUUCCCG.........U
+Saccharomyces_mikata.1             GCGGAUA.AGAGUAUAU...AGAGAAAUGAUUUAUUCUAUUUUUUUUUUU
+Saccharomyces_kudria.1             AUGGGCA.AAAGUAUAU...AUAGAAAUGGUUUAUUCCCG.........U
+Saccharomyces_bayanu.1             CUGGAAAUAAAAUUUGUACAAACAAGACGGUUUAUUCUAG..........
+S.cerevisiae.1                     GGGAACA.UGAGUAUAU...AUAGAAAUGGUUUAUUCUAG.........U
+Saccharomyces_parado.1             GUGAAUA.GGAGUAUAU...AUAGAAAUGGUUUAUUCUAU.........U
+S.cariocanus.1                     GUGGAUA.GGAGUAUAU...AUAGAAAUGAUUUAUUCUAGU........U
+S.bayanus.1                        CUGGAAAUAAAAUUUGUACAAACAAGACGGUUUAUUCUAG..........
+S.cerevisiae.2                     GGGAACA.UGAGUAUAU...AUAGAAAUGGUUUAUUCUAG.........U
+#=GC SS_cons                       ......................<<<<<<<<AAAAAAAA............
+#=GC RF                            guGGAuA.aaAGUAUAU...AuagaaAuGGUUUAUUCUAG.........U
+
+S.mikatae.1                        CUUUUUCGUUUUU.CAGUAGAUUUUUGCCUUUCGAGAGAAUAAAUUCCAC
+S.pastorianus.1                    UUAUUCCAUUUUU.CAGUAGAUUUUUGCCUUUUACUAGAAUUAAUUUAAC
+Saccharomyces_cerevi.1             UUUUUCCGUUUUUUCAGUAGAUUUUUGCCUUUAAA.AGAAUAAAUCCCAC
+S.paradoxus.1                      UUUUUUCGUUUUU.CAGUAGAUUUUCGCCUUUAAA.AGAAUAAAUUCCAU
+S.kudriavzevii.1                   UUUUUCCAUUUCU.CAGUAGAUUUUUCCCUUUUGCGAGAAUAAAUUGACA
+Saccharomyces_mikata.1             CUUUUUCGUUUUU.CAGUAGAUUUUUGCCUUUCGAGAGAAUAAAUUCCAC
+Saccharomyces_kudria.1             UUUUUCCAUUUUU.CAGUAGAUUUUUCCCUUUUGCGAGAAUAAAUUGACA
+Saccharomyces_bayanu.1             UUAUUCCAUUUUU.CAGUAGAUUUUUGCCUUUUACUAGAGUCAAUUUAAC
+S.cerevisiae.1                     UUUUUCCGUUUUUUCAGUAGAUUUUUGCCUUUAAA.AGAAUAAAUCCCAC
+Saccharomyces_parado.1             UUUUUUUGUUUUU.CAGUAGAUUUUCGCCUUUAAA.AGAAUAAAUUCCAU
+S.cariocanus.1                     UUUUUUCGUUUUU.CAGUAGAUUUUCGCCUUCAAA.GGAAUAAAUUCCAU
+S.bayanus.1                        UUAUUCCAUUUUU.CAGUAGAUUUUUGCCUUUUACUAGAGUCAAUUUAAC
+S.cerevisiae.2                     UUUUUCCGUUUUUUCAGUAGAUUUUUGCCUUUAAA.AGAAUAAAUCCCAC
+#=GC SS_cons                       .....>>>>>>>>..<<<<<<<<<<...........aaaaaaaa......
+#=GC RF                            UUuUUCCaUuucu.CAGUAGAUUUUUGCCUUUaAagAGAAUAAAUUcaAc
+
+S.mikatae.1                        U......AAAAAGGGUUAAAGAAAAAUCUAUUCACUGAACUUAU.UGAUG
+S.pastorianus.1                    CAA..UAUAAAAGGUUCAAGGAAAAAUCUAUUCACUGAACUUAU.UA..G
+Saccharomyces_cerevi.1             U....ACAAAAAGGUAAAAUAAAAAAUCUAUUCACUGAACUUAC.UGAUG
+S.paradoxus.1                      U....AAAAAAAGGUAAAAAGAAAAAUCUAUUCACUGAACUUGC.CGAUA
+S.kudriavzevii.1                   CUUGAACAAAAAGCUUCGAAGAAAAAUCUAUUCACUGAACUUAUAU.AUA
+Saccharomyces_mikata.1             U......AAAAAGGGUUAAAGAAAAAUCUAUUCACUGAACUUAU.UGAUG
+Saccharomyces_kudria.1             CUUGAACAAAAAGCUUCGAAGAAAAAUCUAUUCACUGAACUUAUAU.AUA
+Saccharomyces_bayanu.1             CAG..UAUAAAAGGUUCAAGGAAAAAUCUAUUCACUGAACUUAU.CA..C
+S.cerevisiae.1                     U....ACAAAAAGGUAAAAUAAAAAAUCUAUUCACUGAACUUAC.UGAUG
+Saccharomyces_parado.1             U....AAAAAAAGGUAAAAAGAAAAAUCUAUUCACUGAACUUGC.UGAUA
+S.cariocanus.1                     U....AAGAAAAGGUAAAAAGAAAAAUCUAUUCACUGAACUUAC.UGAUA
+S.bayanus.1                        CAG..UAUAAAAGGUUCAAGGAAAAAUCUAUUCACUGAACUUAU.CA..C
+S.cerevisiae.2                     U....ACAAAAAGGUAAAAUAAAAAAUCUAUUCACUGAACUUAC.UGAUG
+#=GC SS_cons                       ......................>>>>>>>>>>..>>>>.>>>>>.>>...
+#=GC RF                            u....AaAAAAAGGUuaAAaGAAAAAUCUAUUCACUGAACuuac.cgAUa
+
+S.mikatae.1                        AAAACUUUAAAUGCGUCAAGUACAUCAAAAGAGGAAAC....AGAGGGAA
+S.pastorianus.1                    AAAACCUCAAAUGUGUUGGAUGCAUUGAAAAGAUUAAC....CAAA...A
+Saccharomyces_cerevi.1             AAAUUUCCAAAUGUGCCCCGUACAUCGAACGAUGUGAC....AGAG..AA
+S.paradoxus.1                      GAAUUUGCAAAUGUGUCAAGUGCAUC.AAGGAGAAGAU....AGAGG.AG
+S.kudriavzevii.1                   GAAAAAUCAAAUGUGCUAAGUAUAUUUAAAAUGGAAACAAAUAGGGGGAA
+Saccharomyces_mikata.1             AAAACUUUAAAUGCGUCAAGUACAUCAAAAGAGGAAAC....AGAGGGAA
+Saccharomyces_kudria.1             GAAAAAUCAAAUGUGCUAAGUAUAUUUAAAAUGGAAACAAAUAGGGGGAA
+Saccharomyces_bayanu.1             GAAACCUCAAAUGUGUCAGACGCAUUAAAAAGAUAAAU..........CA
+S.cerevisiae.1                     AAAUUUCCAAAUGUGCCCCGUACAUCGAACGAUGUGAC....AGAG..AA
+Saccharomyces_parado.1             GAAUUUGCAAAUGUGUCAAGUGCAUC.AAGGAGAAGAU....AGAGG.AA
+S.cariocanus.1                     GGAUUUGCAAAUGUGUCAAGUGCAUC.AAGGAGAAGAU....AGAGG.AA
+S.bayanus.1                        GAAACCUCAAAUGUGUCAGACGCAUUAAAAAGAUAAAU..........CA
+S.cerevisiae.2                     AAAUUUCCAAAUGUGCCCCGUACAUCGAACGAUGUGAC....AGAG..AA
+#=GC SS_cons                       .......>>>>>>......>>>>>..........>>>>...........>
+#=GC RF                            gAAAuuUCAAAuGUGucAaGuaCAUuaAAAaaggaaAc....AGAGG.Aa
+
+S.mikatae.1                        AGAACCAGGUUGGCAAACAAGCAAAAAGGCAAGGACGAACCU........
+S.pastorianus.1                    AAAAAAAGGCACGCAAGCAGGUCAAAAGACUAGGACUC.CCUUCGUUUCC
+Saccharomyces_cerevi.1             AAAUACGAGUAGGUAAAUAAGCCAAAAGGCAAGGGUGU.CCU........
+S.paradoxus.1                      AAACUCGAUUAGGCAAACAAGCCAAAAGGCAAGGAUAC.CCC........
+S.kudriavzevii.1                   AGAGAUAGGUAGAUAAACAGCCCAAGGGACAAGGACAC.CCU........
+Saccharomyces_mikata.1             AGAACCAGGUUGGCAAACAAGCAAAAAGGCAAGGACGAACCU........
+Saccharomyces_kudria.1             AGAGAUAGGUAGAUAAACAGCCCAAGGGACAAGGACAC.CCU........
+Saccharomyces_bayanu.1             AAAAAACGGUAUGCAAGCGAGUCAAAAGACUGGUACUC.CCUUCGUUUCC
+S.cerevisiae.1                     AAAUACGAGUAGGUAAAUAAGCCAAAAGGCAAGGGUGU.CCU........
+Saccharomyces_parado.1             AAACUCGAUAAGGCAAACAAGCCAAAAGGCAAGGAUGC.CCU........
+S.cariocanus.1                     AAACCU.AUUAGGCAAACAAGCCAAAAGACAAGGAUAC.CCU........
+S.bayanus.1                        AAAAAACGGUAUGCAAGCGAGUCAAAAGACUGGUACUC.CCUUCGUUUCC
+S.cerevisiae.2                     AAAUACGAGUAGGUAAAUAAGCCAAAAGGCAAGGGUGU.CCU........
+#=GC SS_cons                       >>>....>>>>.>>>>>>.>>>>....>>>....................
+#=GC RF                            AaaaAaagguaggCAAaCAagCCAAAAGaCAAGGAcac.CCU........
+
+S.mikatae.1                        ...........UCCUCAAGCACUGAAU.GUUUUGCGAGUGAAUGGUAAGC
+S.pastorianus.1                    UUUCCCAUUUUGCCUCAAGCAUCGAAUAAGUUUGCGAGCAAAACAUAACC
+Saccharomyces_cerevi.1             ...........UUCUUAAGCAUCGGUUAGGUUUGCGGGCGAUCAGUAACU
+S.paradoxus.1                      ...........UUCUCAAGCAUUG.UUAGGUUUAUGGGCUACCAGUAAGC
+S.kudriavzevii.1                   ...........UCCUCAGGCACUGAAUAUAUUGGAGAGUGGACAGUAACA
+Saccharomyces_mikata.1             ...........UCCUCAAGCACUGAAU.GUUUUGCGAGUGAAUGGUAAGC
+Saccharomyces_kudria.1             ...........UCCUCAGGCACUGAAUAUAUUGGAGAGUGGACAGUAACA
+Saccharomyces_bayanu.1             UGUCCCAUUUUGCCUCAAGCAUUGAAUAAGUUUGCGAGCGAAUAAUAACC
+S.cerevisiae.1                     ...........UUCUUAAGCAUCGGUUAGGUUUGCGGGCGAUCAGUAACU
+Saccharomyces_parado.1             ...........UUCUCAAGCAUUG.UUAGGAUUAUGGGCUACCAGUAAGC
+S.cariocanus.1                     ...........UUCUCAAGCAUUG.UUAG.UUUAUGGGCUACUAGUAAGC
+S.bayanus.1                        UGUCCCAUUUUGCCUCAAGCAUUGAAUAAGUUUGCGAGCGAAUAAUAACC
+S.cerevisiae.2                     ...........UUCUUAAGCAUCGGUUAGGUUUGCGGGCGAUCAGUAACU
+#=GC SS_cons                       ..................<<<<<<<.........................
+#=GC RF                            ...........ucCUCAAGCAccGaAUAgaUUUGcGAGcgAAuAGUAAcc
+
+S.mikatae.1                        GCGAGAAAUGAUGAUACAAGUUG.AAAAGACAUAAUUUGAGAUUUUUCAA
+S.pastorianus.1                    GG....GCAAAUGUUACAA.GAG.AAAAUACAUGAUUUGGGAUCU.UCUU
+Saccharomyces_cerevi.1             G.....AACAAUGACACAAGAUC..AAGAACGUAAUUUGAGAUUUUUCAA
+S.paradoxus.1                      G.....AAAAAUGAUACAGGACGAAAAAAACAUAAUUCGAGAUUUUUCAG
+S.kudriavzevii.1                   G.....AGAAAUGAUACAAGAUG.GAAAGCCAUAAAUUGAGAUUU.UCUU
+Saccharomyces_mikata.1             GCGAGAAAUGAUGAUACAAGUUG.AAAAGACAUAAUUUGAGAUUUUUCAA
+Saccharomyces_kudria.1             G.....AGAAAUGAUACAAGAUG.GAAAGCCAUAAAUUGAGAUUU.UCUU
+Saccharomyces_bayanu.1             GG....GGAAAUGAUACAA.GAG.AAAAUCCAUAAUUUGGGAUCU.UCUU
+S.cerevisiae.1                     G.....AACAAUGACACAAGAUC..AAGAACGUAAUUUGAGAUUUUUCAA
+Saccharomyces_parado.1             G.....AAAAAUGAUACAGGACAGAAAAAACAUAAUUCGAGAUUUUUCAG
+S.cariocanus.1                     G.....AAGAAUGAUACAGGAUGAAAAAAACAUAUUAUGAGAUUUUUCAG
+S.bayanus.1                        GG....GGAAAUGAUACAA.GAG.AAAAUCCAUAAUUUGGGAUCU.UCUU
+S.cerevisiae.2                     G.....AACAAUGACACAAGAUC..AAGAACGUAAUUUGAGAUUUUUCAA
+#=GC SS_cons                       ..............<<<<<.<<<.......<<<<<..<<<<.........
+#=GC RF                            G.....AaaAAUGAuACAaGacG.AAAAaACauaAUUuGaGAUuUUUCaa
+
+S.mikatae.1                        .AAUAGAUUAUUUUAGACAU.CCUACUUUAAUCAUUU.UUGAUGAAUCAA
+S.pastorianus.1                    GGAUGGAUUUGUUUACAUAUUUCU..UUACUCAUUUU.UUGAGGA.UCAA
+Saccharomyces_cerevi.1             .GAUGG.UUUUUUUAGGUAU..CUAUUAAAA.CUACU.UUGAUGA.UCAA
+S.paradoxus.1                      .GAUGGAUUUUUUUAGGUAU..CUAUCAAAA.CUAUU.CUGAUGA.UCAA
+S.kudriavzevii.1                   GAAUGGGUUCAUUUAGAUAUUUCUC.UUUAGCCAUUU.UUGAUAA.UCAA
+Saccharomyces_mikata.1             .AAUAGAUUAUUUUAGACAU.CCUACUUUAAUCAUUU.UUGAUGAAUCAA
+Saccharomyces_kudria.1             GAAUGGGUUCAUUUAGAUAUUUCUC.UUUAGCCAUUU.UUGAUAA.UCAA
+Saccharomyces_bayanu.1             GGAUGGAUUCAUUUAUGUAU..UUAUUUGCU.CAUUU.UUGAGGA.UCAA
+S.cerevisiae.1                     .GAUGG.UUUUUUUAGGUAU..CUAUUAAAA.CUACU.UUGAUGA.UCAA
+Saccharomyces_parado.1             .GAUGGAUUUUUUUAGGUAU..CUAUCAAAA.CUAUU.CUGAUGA.UCAA
+S.cariocanus.1                     .GAUGGAUUCUUUUAGGUAU..CUAUCGAAA.CCAUU.CUGAUGA.UCAA
+S.bayanus.1                        GGAUGGAUUCAUUUAUGUAU..UUAUUUG..CUCAUUUUUGAGGA.UCAA
+S.cerevisiae.2                     .GAUGG.UUUUUUUAGGUAU..CUAUUAAAA.CUACU.UUGAUGA.UCAA
+#=GC SS_cons                       .......................................<<<....>>><
+#=GC RF                            .gAUGGAUUuaUUUAgaUAU.uCUAuUuaAAccaaUU.UUGAuGA.UCAA
+
+S.mikatae.1                        UACGGUAUUUUUGU.CGCUUCCUUAUUACAGUAA.U.GCAGACAUUAACU
+S.pastorianus.1                    UACAAUAUUCUUGU.CCCAUCCUUGCUAAAGUAAAGAACGGGCAUUAAUU
+Saccharomyces_cerevi.1             UACGGUAUUUUUGU.CGCAUU.........................AUUU
+S.paradoxus.1                      UACAGUAUUUUUGU.CGCAUUAUUAUUACGGUA.GU.GUAGACAUUAGUU
+S.kudriavzevii.1                   UACAGUAUUCUUGUUCCCAUCCUUGUCAGAUUAAGGAAGGAACAUUAAUU
+Saccharomyces_mikata.1             UACGGUAUUUUUGU.CGCUUCCUUAUUACAGUAA.U.GCAGACAUUAACU
+Saccharomyces_kudria.1             UACAGUAUUCUUGUUCCCAUCCUUGUCAGAUUAAGGAAGGAACAUUAAUU
+Saccharomyces_bayanu.1             UACAAUAUUCUUGU.CCUAUCCUUGCUAAAGUAAAGAACGGGCAUUAAUU
+S.cerevisiae.1                     UACGGUAUUUUUGU.CGCAUU.........................AUUU
+Saccharomyces_parado.1             UACAGUAUUUUUGU.CGCAUUACUAUUACGGUA.GU.GCAGACAUUAGUU
+S.cariocanus.1                     UACAGUAUUUUUGU.CGCAUUCUUAUUACGGUACGU.GCARACAUUAGUU
+S.bayanus.1                        UACAAUAUUCUUGU.CCUAUCCUUGCUAAAGUAAAGAACGGGCAUUAAUU
+S.cerevisiae.2                     UACGGUAUUUUUGU.CGCAUU.........................AUUU
+#=GC SS_cons                       <<<<<<.<<<<<<<....................................
+#=GC RF                            UACaGUAuUuUuGu.CgCAUccUUguUAaAGUAAag.acggACAUUAAUU
+
+S.mikatae.1                        UCUGAGCGGAAGGAACCGUGUGUUCAGUUUAUGGAUUUU.CGUGUAAAGC
+S.pastorianus.1                    UCCGAACAGAAAGAAUUGUGUGUUCACUUUAUGG..UUUUCGCAUUGUAC
+Saccharomyces_cerevi.1             UCCAAGCGGAAGGAACCGUGUGUUCAUUUUAUGAAUCUU.GGUGUUGUAU
+S.paradoxus.1                      UCCAAGCGGAAGAAACUGUGUGUUCAUUUUAUGGAUUUU.CGUGUUGUAC
+S.kudriavzevii.1                   .CCAAACAGGAAAAACUGUGUGUUCACUUCGUGGGUUUG.CGUGUUGUAC
+Saccharomyces_mikata.1             UCUGAGCGGAAGGAACCGUGUGUUCAGUUUAUGGAUUUU.CGUGUAAAGC
+Saccharomyces_kudria.1             .CCAAACAGGAAAAACUGUGUGUUCACUUCGUGGGUUUG.CGUGUUGUAC
+Saccharomyces_bayanu.1             UCUGAACGGAAAGAAUUGUGUGUUCACUUUAUGG..UUUUCGCAUUGUAC
+S.cerevisiae.1                     UCCAAGCGGAAGGAACCGUGUGUUCAUUUUAUGAAUCUU.GGUGUUGUAU
+Saccharomyces_parado.1             UCCAAGCGGAAGAAACUGUGUGUUCAUUUUAUGGAUUUU.CGUGUUGUAC
+S.cariocanus.1                     UCCAAGCGGAAGAAACUGUGUGUUCAUUUUAUGGAUUUU.CGUGUUGUAC
+S.bayanus.1                        UCUGAACGGAAAGAAUUGUGUGUUCACUUUAUGG..UUUUCGCAUUGUAC
+S.cerevisiae.2                     UCCAAGCGGAAGGAACCGUGUGUUCAUUUUAUGAAUCUU.GGUGUUGUAU
+#=GC SS_cons                       .....>>>>>>>..>>>>>>>.>>>>..>>>>>.......>>>.>>>>>.
+#=GC RF                            UCcaAaCaGaAagAACuGUGUGUuCauUUuauGGAUUUU.CguGuUGUaC
+
+S.mikatae.1                        GUUUUUU..CGGUUGCGAUAGCAGUUACUUACUUUCCUCGAUGCC..UUU
+S.pastorianus.1                    UUUUCCU...ACUUGCAUUAGCAGUUGUUU..GGCUCACUACUUU.UUUC
+Saccharomyces_cerevi.1             ........UCA..........CAGCUACU...UCUCC.UAAUGCC..UUC
+S.paradoxus.1                      GAUUUUUUUCAGUUGCGUUAGCAACUAC.G..UGCCCACAAUACU..UCC
+S.kudriavzevii.1                   AUUUC.CUUCAUCCGUGUUGGCGGUUACUU..UCCUCAAUAUACC..UUC
+Saccharomyces_mikata.1             GUUUUUU..CGGUUGCGAUAGCAGUUACUUACUUUCCUCGAUGCC..UUU
+Saccharomyces_kudria.1             AUUUC.CUUCAUCCGUGUUGGCGGUUACUU..UCCUCAAUAUACC..UUC
+Saccharomyces_bayanu.1             AUUUUUC..AACUUGCAUGAGCAG..UCGG..UUUCCUCAAUACUUUUUC
+S.cerevisiae.1                     ........UCA..........CAGCUACU...UCUCC.UAAUGCC..UUC
+Saccharomyces_parado.1             GAUUUUUUUCAGUUGCGUUAGCAACUAC.G..UGCCCACAAUACU..UCC
+S.cariocanus.1                     GAUUUUUGUCAGUUGCCUCAACAACUAC.G..UGCCCACAAUACU..UCC
+S.bayanus.1                        AUUUUUC..AACUUGCAUGAGCAG..UCGG..UUUCCUCAAUACUUUUUC
+S.cerevisiae.2                     ........UCA..........CAGCUACU...UCUCC.UAAUGCC..UUC
+#=GC SS_cons                       ............<<<<....>>>>........................>>
+#=GC RF                            auUUuuuuUcAgcuGCgUuAGCaguUAcuu..UuucCacAAUacu.UUuC
+
+S.mikatae.1                        GAUGCAUUCAGAUAAUUUUUGGAA...CAUUU
+S.pastorianus.1                    GAUGCUCACGAAUAAUUUUUGGAACCUCAUUU
+Saccharomyces_cerevi.1             GAUGCAUUUAGAUAAUUUUUGGAAA..CAUUU
+S.paradoxus.1                      GAUGCAUUUAGAUAAUUUUUGGAAA..CA.UU
+S.kudriavzevii.1                   AGUGCAUACA...AAUUUUUGGAA...CAAUU
+Saccharomyces_mikata.1             GAUGCAUUCAGAUAAUUUUUGGAA...CAUUU
+Saccharomyces_kudria.1             AGUGCAUACA...AAUUUUUGGAAC..AAUUU
+Saccharomyces_bayanu.1             GGUGCUUACGAAUAAUUUUUGGAACUUCAAUU
+S.cerevisiae.1                     GAUGCAUUUAGAUAAUUUUUGGAAA..CAUUU
+Saccharomyces_parado.1             GAUGCAUUUAGAUAAUUUUUGGAAA..CAUUU
+S.cariocanus.1                     GAUGCAUUCAGAUAAUUUUUGGAAA..CAUUU
+S.bayanus.1                        GGUGCUUACGAAUAAUUUUUGGAACUUCAAUU
+S.cerevisiae.2                     GAUGCAUUUAGAUAAUUUUUGGAAA..CAUUU
+#=GC SS_cons                       >>>>>...............>>..........
+#=GC RF                            ggUGCAUacAgAUAAUUUUUGGAAa..CAuUU
+//

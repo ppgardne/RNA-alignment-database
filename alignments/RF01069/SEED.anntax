@@ -1,0 +1,139 @@
+# STOCKHOLM 1.0
+#=GF ID    purD
+#=GF AC    RF01069
+#=GF DE    purD RNA motif
+#=GF AU    Weinberg Z, Gardner PP
+#=GF GA    25.0
+#=GF NC    0.0
+#=GF TC    31.4
+#=GF SE    Published; PMID:17621584; Weinberg Z
+#=GF SS    Published; PMID:17621584; Weinberg Z
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    17621584
+#=GF RT    Identification of 22 candidate structured RNAs in bacteria using
+#=GF RT    the CMfinder comparative genomics pipeline.
+#=GF RA    Weinberg Z, Barrick JE, Yao Z, Roth A, Kim JN, Gore J, Wang JX,
+#=GF RA    Lee ER, Block KF, Sudarsan N, Neph S, Tompa M, Ruzzo WL, Breaker
+#=GF RA    RR
+#=GF RL    Nucleic Acids Res. 2007;35:4809-4819.
+#=GF WK    http://en.wikipedia.org/wiki/PurD_RNA_motif
+#=GF SQ    21
+
+#=GS Campylobacter_fetus_.1 AC    CP000487.1/1253105-1253234
+#=GS Campylobacter_coli_R.1 AC    AAFL01000002.1/145243-145370
+#=GS Campylobacter_concis.1 AC    CP000792.1/1502210-1502338
+#=GS Campylobacter_jejuni.1 AC    CP000025.1/1300422-1300549
+#=GS Campylobacter_jejuni.2 AC    CP000768.1/424532-424659
+#=GS Campylobacter_lari_R.1 AC    CP000932.1/480470-480599
+#=GS Campylobacter_homini.1 AC    CP000776.1/211827-211937
+#=GS Campylobacter_jejuni.3 AC    AL111168.1/1179643-1179770
+#=GS Campylobacter_curvus.1 AC    CP000767.1/541301-541429
+#=GS Campylobacter_jejuni.4 AC    CP000538.1/1181299-1181426
+#=GS Campylobacter_upsali.1 AC    AAFJ01000002.1/15726-15851
+#=GS Helicobacter_pylori_.1 AC    CP000241.1/1226241-1226355
+#=GS Helicobacter_hepatic.1 AC    AE017125.1/578994-579127
+#=GS H.acinonychis.1        AC    AM260522.1/1390581-1390694
+#=GS Sulfurimonas_denitri.1 AC    CP000153.1/424860-424993
+#=GS W.succinogenes.1       AC    BX571659.1/149379-149509
+#=GS Nitratiruptor.1        AC    AP009178.1/1349200-1349332
+#=GS Sulfurovum.1           AC    AP009179.1/1946809-1946938
+#=GS metag._sequence.1      AC    AAFY01021399.1/110-242
+#=GS metag._sequence.2      AC    AAFY01003596.1/87-211
+#=GS metag._sequence.3      AC    AAFY01000382.1/216-327
+
+Campylobacter_fetus_.1             GU.AC..GCAAA..UGGUGUGA.U.GCGAUCUCGUUUGUAGCCA.UUUU.
+Campylobacter_coli_R.1             GU.GC..GAUUU...ACCGUGUUCUGUGGCGUCGUUUG.AGUUUCGAAA.
+Campylobacter_concis.1             GU.AU..GGGUGCC..UUGCGA..UGUGGCUUCGUUUG.AGCCU.UAAAC
+Campylobacter_jejuni.1             GU.GU..GAUUU...ACCGUGUUCUGUGGCAUCGUUUG.AGCUUUGAAA.
+Campylobacter_jejuni.2             GU.GU..GAUUU...ACCGUGUUCUGUGGCAUCGUUUG.AGCUUUGAAA.
+Campylobacter_lari_R.1             GU.GU..GAUUU...ACCGUGUUCUGUGACUUCGUUUG.AGUUUUGAAA.
+Campylobacter_homini.1             GU.GA..GAUUU..UUGUGCGA..CGUGGCCGA............GUUA.
+Campylobacter_jejuni.3             GU.GU..GAUUU...ACCGUGUUCUGUGGCAUCGUUUG.AGCUUUGAAA.
+Campylobacter_curvus.1             GU.AC.AGGUGC...UAUGCG..AUGUGAUUUCGUUUG.AGUGC.GAAA.
+Campylobacter_jejuni.4             GU.GU..GAUUU...ACCGUGUUCUGUGGCAUUGUUUG.AGCUUUGAAA.
+Campylobacter_upsali.1             GU.GC..GAUUU...ACCGUGU.CUGUGGCGUCGUUUG.AGUUUCGAAA.
+Helicobacter_pylori_.1             GU.AGU.GGUUUU..UGUGUGAU.GGCA.UUU.............UUU..
+Helicobacter_hepatic.1             GU.AGU.AAUCU..UUGUGUGU.CGGUGUUUGCGCUUG.AGCUA.CUUUG
+H.acinonychis.1                    GU.AGU.GGUUUU..UGUGUGAU.GGCA.UUU.............UUU..
+Sulfurimonas_denitri.1             GUAAU..GCUCU...UGUGUGU.CGGUGCUAUCGUUUG.AGAUA.UGUUU
+W.succinogenes.1                   GU.AGAUGAUCU...UGUGUGUUCGGUGUUUCCGUUUGUAGCCU.CUA..
+Nitratiruptor.1                    GU.AGAUUUUGG...UGUGUGU.CGGUGACUCCGUUUG.AGCCAGGGACG
+Sulfurovum.1                       GU.AGUCGGGCC...GGUGUGU.AGACAUUUUCGUUCG.AACGGGGUAA.
+metag._sequence.1                  GU.AG.AAUUCU...UGUGUGU.CGGUGUCAUCGUUUG.AGAUA.UGUUA
+metag._sequence.2                  GU.AGUUGUUCU...UGUGUGC..AUCGGUUUUGUUUG..AAGC.AUUA.
+metag._sequence.3                  GU.AA.AUAUGU...GGUGUGC..AGCG......UUUG.......CUUUU
+#=GC SS_cons                       ...<<..<<<<<...........<<<<<.<<<<.......<<<<<.....
+
+Campylobacter_fetus_.1             ........UAGCGAGAGAU.UGCGA.CCUAAAG..UUUGA.G.UCUAUCU
+Campylobacter_coli_R.1             .......GAAGCGAGAAGU.UACAG.CCUUUAA..AAAUC.G.CCUAACG
+Campylobacter_concis.1             ........A.GCGAGAAGU.UGCA.ACCUUUU.GGUAUCC.A.UCUAUUU
+Campylobacter_jejuni.1             .......AAAGUGAGAAGU.UGCAG.CCUUUAA..AAAUU.A.CCUAGCG
+Campylobacter_jejuni.2             .......AAAGCGAGAAGU.UGCAG.CCUUUAA..AAAUU.A.CCUAGCG
+Campylobacter_lari_R.1             .......AAAGCGAGAAGC.UGCAG.CCUUUAA..AAAUC.A.CCUAAUG
+Campylobacter_homini.1             ..............UUGGU.UGCG.ACCUGAUA..AAAUU.U.CCUAACU
+Campylobacter_jejuni.3             .......AAAGCGAGAAGU.UGCAG.CCUUUAA..AAAUU.A.CCUAGCG
+Campylobacter_curvus.1             ........GUGCGAGAGAU.UGCA.ACCUUGAG..GCGCUUG.UCUAUUU
+Campylobacter_jejuni.4             .......AAAGCGAGAAGU.UGCAG.CCUUUAA..AAAUU.A.CCUAGCG
+Campylobacter_upsali.1             .......GAAGCGAGAAGU.UGCAG.CCUUUAA..AAAUU.G.CCUAGCG
+Helicobacter_pylori_.1             ...............AAAUCUGCC..CCUAAG..AAAAUC.C.UCCUAGC
+Helicobacter_hepatic.1             AGA.....UAGUGAGCAUU.CGCCG.CCUAAUG..AGAUU.C.UCUUAAC
+H.acinonychis.1                    ...............AAAUCUGCC..CCUAAU..AAGAUU.C.UCCUAGC
+Sulfurimonas_denitri.1             ACUC....UGUCGAGAUAA.UGCCG.CCGAUAA..AGAGC.ACUCUCUUC
+W.succinogenes.1                   ........AGGUGAGGAUU.UGCCG.CCU.AAU..AGGUCGC.UCUUGUC
+Nitratiruptor.1                    C......CUGGCGAGGAGC.CGCCG.CCUAAU...CCAAAAC.UCGCUCC
+Sulfurovum.1                       .......CCCGUGAGAAAU.UGCCU.CCUAAA...GGCCCGC.UCUCUCC
+metag._sequence.1                  ACUC....UGUCGAGAUGA.UGCCG.CCUUUAG..AGGAUUC.UCUCUUC
+metag._sequence.2                  ........GCUU.AGAAAC.UGAU..CCUAAU...AGA.CAC.UCGCUUU
+metag._sequence.3                  AGCAUUU...........U.CGCU..CCUAAA...ACAUAGU.UCUUAUG
+#=GC SS_cons                       .......>>>>>..>>>>..>>>>>..........>>>>>.>.>......
+
+Campylobacter_fetus_.1             GCAAGG...UUGGCUUUUUA.UU....AGGGCCGAUUCUA.CUGCGUAA.
+Campylobacter_coli_R.1             GUUUUCU..UUGACUU.UU..UG.....GGGUCAAUCUU...UAUUAAG.
+Campylobacter_concis.1             GCAAGA...UUGGCUU.UG..UUUAU..GGGCCACUCUU...CUAUGCG.
+Campylobacter_jejuni.1             GUUUUCU..UUGACUU.UU..UG.....GGGUCAAUCUU...UGUUAAA.
+Campylobacter_jejuni.2             UUUUUCU..UUGACUU.UU..UG.....GGGUCAAUCUU...GGUUAAA.
+Campylobacter_lari_R.1             GCAUACU..UUGACUU.UU..UGA....GGGUCAG....A.CACUUAUAC
+Campylobacter_homini.1             GCAAGA...UUGGCUU.UU..UC.....GGGCCGAUUCU...UUUUACGC
+Campylobacter_jejuni.3             GUUUUCU..UUGACUU.UU..UG.....GGGUCAAUCUU...UGUUAAA.
+Campylobacter_curvus.1             GCAAGA...UUGGCUU.UG..UUUAC..GGGCCACUCUU...UUAUGCG.
+Campylobacter_jejuni.4             GUUUUCU..UUGACUU.UU..UG.....GGGUCAAUCUU...UGUUAAA.
+Campylobacter_upsali.1             .ACUUUU..UUGACUU.UU..UG.....GGGUCAAUCUU...UGUAAAA.
+Helicobacter_pylori_.1             CUUAUUAGUGUAGGUU.UGU.UG.....AACUUAUGCGCA..UGUAAAAG
+Helicobacter_hepatic.1             CCUAUUU..GUGGCUU.UU..UU.....AGGCUACGCAAAUCGGGGUAA.
+H.acinonychis.1                    CUUAUUGGUGUAGGUU.AU..UG.....AACUUAUGCACA..UGUAAAAG
+Sulfurimonas_denitri.1             GCCCAAAU.ACGGCUU.UU..AGAACC.AAGCCAA......CUGCGAGA.
+W.succinogenes.1                   UGAGUUG..UUGGCUU.UUUUUG.....GGGCCACGCAA...CUUGGUAA
+Nitratiruptor.1                    CUCUUCU..UAUGGUC.UUA.GG.....GACCAUGGCAU...UGCGCGA.
+Sulfurovum.1                       UGCAUCG..UUGGCUU.UUU.UA.....GGGCCGA.......CUUUAACA
+metag._sequence.1                  ACCCAAAU.UCGGCUU.UU..AGAACC.AAGCCAG.......UGCGAAA.
+metag._sequence.2                  GCCACAU..UAAGCCUUUG..AGAACCAAGGCUAA......UUGUGAAA.
+metag._sequence.3                  UGCUAGUG.UUGGCUU.UUA........GGGCCAGUUAGA..UGGUUAA.
+#=GC SS_cons                       .........<<<<<<<............>>>>>>>...............
+
+Campylobacter_fetus_.1             ...CGGCCAUUUGGGU
+Campylobacter_coli_R.1             ...CGGCUGUUUGGGU
+Campylobacter_concis.1             ..ACGCCCACUUGGGU
+Campylobacter_jejuni.1             ...CGGCUGUUUGGGU
+Campylobacter_jejuni.2             ...CGGCUGUUUGGGU
+Campylobacter_lari_R.1             UC.CGGCCAUUUGGGU
+Campylobacter_homini.1             AC.CGCUCACUUGGGU
+Campylobacter_jejuni.3             ...CGGCUGUUUGGGU
+Campylobacter_curvus.1             ..ACGCUCACUUGGGU
+Campylobacter_jejuni.4             ...CGGCUGUUUGGGU
+Campylobacter_upsali.1             ...CGGCUACUUGGGU
+Helicobacter_pylori_.1             UAGCGGUCAUCUGGGU
+Helicobacter_hepatic.1             ...CGCUCAUUUGGGG
+H.acinonychis.1                    UAGCGGUCAUCUGGGU
+Sulfurimonas_denitri.1             ...CGGCUACUCGGGC
+W.succinogenes.1                   ...CGCCCGCUCGGGC
+Nitratiruptor.1                    ..ACGCCCGCUCGGGC
+Sulfurovum.1                       GAACGGCCACUCGGGC
+metag._sequence.1                  ...CGGCUACUCGGGC
+metag._sequence.2                  ...CGCUCACUCGGUU
+metag._sequence.3                  ...CGGCUACUUGGAA
+#=GC SS_cons                       ................
+//

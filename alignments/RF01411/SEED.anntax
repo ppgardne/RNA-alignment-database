@@ -1,0 +1,77 @@
+# STOCKHOLM 1.0
+#=GF ID    BsrF
+#=GF AC    RF01411
+#=GF DE    BsrF
+#=GF AU    Gardner PP
+#=GF GA    50.0
+#=GF NC    20.6
+#=GF TC    74.8
+#=GF SE    Predicted; WAR; Infernal
+#=GF SS    Predicted; WAR
+#=GF TP    Gene; sRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF RN    [1]
+#=GF RM    18948176
+#=GF RT    Novel small RNA-encoding genes in the intergenic regions of
+#=GF RT    Bacillus subtilis.
+#=GF RA    Saito S, Kakeshita H, Nakamura K
+#=GF RL    Gene. 2008;428:1-10.
+#=GF WK    http://en.wikipedia.org/wiki/Bacillus_subtilis_BSR_sRNAs
+#=GF SQ    11
+
+#=GS Bacillus.1             AC    AAOX01000006.1/156625-156733
+#=GS B.subtilis.1           AC    X58387.1/371-469
+#=GS Bacillus.2             AC    ABCF01000001.1/108044-108150
+#=GS B.subtilis.2           AC    AF027868.1/59089-59197
+#=GS Bacillus_coagulans_3.1 AC    AAWV02000002.1/301813-301931
+#=GS Bacillus_cereus_subs.1 AC    CP000764.1/3188516-3188629
+#=GS Bacillus_anthracis_s.1 AC    AAER01000035.1/744473-744583
+#=GS Bacillus_cereus_ATCC.1 AC    AE017194.1/4178929-4179039
+#=GS Bacillus_thuringiens.1 AC    AE017355.1/4221151-4221260
+#=GS Bacillus_weihensteph.1 AC    CP000903.1/4267194-4267303
+#=GS Bacillus_cereus_AH12.1 AC    ACMT01000195.1/5609-5719
+
+Bacillus.1                         GCGAUGAGCUAA.UUGAAUAAGCCGGC.GGGCGCUCCUUUAU.UGGAAAU
+B.subtilis.1                       G..........AAUUGUGUAAGCCGAU.GUACAUGCCUUUACGGC...AC
+Bacillus.2                         GCGAUGAGCUGAAUUGUGUAAGUCGAG.GGACGAGCUUUCUAAGC..AAC
+B.subtilis.2                       GCGAUGAGCUGAAUUGUGUAAGCCGAU.GUACAUGCCUUUACGGC...AC
+Bacillus_coagulans_3.1             GCGAUGAGCUGAAUUGCAUAAGCCGGCAAGGCAACCUUUUU..GG..AAU
+Bacillus_cereus_subs.1             GCGAUGAGCUAAUUUACGUAAGACGAG.AGAUAUGCUUAAGU.GCUAAAC
+Bacillus_anthracis_s.1             GCGAUGAGCUAAUUUACGUAAGACGAG.AGAUAUGCUUAAGU.GCUAAAC
+Bacillus_cereus_ATCC.1             GCGAUGAGCUAAUUUACGUAAGACGAG.AGAUAUGCUUAAGU.GCUAAAC
+Bacillus_thuringiens.1             GCGAUGAGCUAAUUUACGUAAGACGAG.AGAUAUGCUUAAGU.GCUAAAC
+Bacillus_weihensteph.1             GCGAUGAGCUAAUUUACGUAAGUCGAG.AGAUAUGCUUAAGU.GCUAAAC
+Bacillus_cereus_AH12.1             GCGAUGAGCUAAUUUACGUAAGACGAG.AGAUAUGCUUAAGU.GCUAAAC
+#=GC SS_cons                       .............<<<<<.....<<<<.<<<<..<<.......>>....<
+#=GC RF                            GcGAUGAGcUaAauugcGUAAGaCGag.ggacaugcuUuaau.gcuAAAc
+
+Bacillus.1                         GCACG.AUGUGG.CGUGCA.GCCU..GCCGCCUCAAU.ACGCA..AGACC
+B.subtilis.1                       ACACGAAUGUGG.CGUGUG.GUGC..AUCGCCUCAAU.ACGCA..AAGAC
+Bacillus.2                         GUGCG.AUGUGG.CGCGCG.GUCU..CUCGCCUCAAU.ACGCA....GGC
+B.subtilis.2                       ACACGAAUGUGG.CGUGUG.GUGC..AUCGCCUCAAU.ACGCA..AAGAC
+Bacillus_coagulans_3.1             GCACA.AUGUGG.AGUGCAAGCCUUAGCCGCCGCAAGAAAGAUUGGAAAA
+Bacillus_cereus_subs.1             ACGCGGAUGUGGCCGCCUG.GUCU..CUCGCCGUAAA.ACGCAUCAAGAC
+Bacillus_anthracis_s.1             ACGCGAAUGUGGUCGCCUG.GUCU..CUCGCCGUAA..ACGCAUCAAGAC
+Bacillus_cereus_ATCC.1             ACGCGAAUGUGGUCGCCUG.GUCU..CUCGCCGUAA..ACGCAUCAAGAC
+Bacillus_thuringiens.1             ACGCGAAUGUGGUCGCCUG.GUCU..CUCGCCGUAA..ACGCAUCAAGAC
+Bacillus_weihensteph.1             AAGCGAAUGUGGUCGCCUG.GUCU..UUCGCCGUAA..ACGCAUCA.GAC
+Bacillus_cereus_AH12.1             ACGCGAAUGUGGUCGCCUG.GUUU..CUCGCCGUAA..ACGCAUCAAGAC
+#=GC SS_cons                       <.<<<<......>>>>.>>.>>>>..>>>>.>>>>>...........<<<
+#=GC RF                            gcgCGgAUGUGGcCGcgcg.gucc..cuCGcCgcaa..AcGcAuaAagaC
+
+Bacillus.1                         CUCUGUUUC......AGGGGGUCUUU
+B.subtilis.1                       GUUUGCCUU.....AGGCAAACG.UC
+Bacillus.2                         GCCUGUUUU....CGAACAGGCG..C
+B.subtilis.2                       GUUUGCCUU.....AGGCAAACG.UC
+Bacillus_coagulans_3.1             AAGCGCCCCGGACCGGGCGCUUU.UU
+Bacillus_cereus_subs.1             GCCUGCUAA.....UUUCAGGCG.UC
+Bacillus_anthracis_s.1             GCCUGCUUU.......GCAGGCG.UC
+Bacillus_cereus_ATCC.1             GCCUGUUUU.......GCAGGCG.UC
+Bacillus_thuringiens.1             GCCUGCUU........GCAGGCG.UC
+Bacillus_weihensteph.1             GCCUGCUUU.......GCAGGCG.UC
+Bacillus_cereus_AH12.1             GCCUGCUUU.......GCAGGCG.UC
+#=GC SS_cons                       <<<<<<..........>>>>>>>.>>
+#=GC RF                            gccuGcuuu.......gCaggcG.uc
+//

@@ -1,0 +1,52 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-BHRF1-3
+#=GF AC    RF00367
+#=GF DE    mir-BHRF1-3 microRNA precursor family
+#=GF AU    Moxon SJ
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    94.1
+#=GF SE    PMID:15118162
+#=GF SS    Published; PMID:15118162
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF RN    [1]
+#=GF RM    15118162
+#=GF RT    Identification of Virus-Encoded MicroRNAs.
+#=GF RA    Pfeffer S, Zavolan M, Grasser FA, Chien M, Russo JJ, Ju J, John B,
+#=GF RA    Enright AJ, Marks D, Sander C, Tuschl T;
+#=GF RL    Science 2004;304:734-736.
+#=GF CC    This family represents the mir-BHRF1-3 microRNA precursor found in Human
+#=GF CC    herpesvirus 4 (Epstein-Barr virus). In Epstein-Barr virus mir-BHRF1-3 is
+#=GF CC    found in the 3' UTR of the BHRF1 (Bam HI fragment H rightward open reading
+#=GF CC    frame 1) gene which is known to encode a distant Bcl-2 homologue. The
+#=GF CC    mature sequence is excised from the 5' arm of the hairpin [1].
+#=GF WK    http://en.wikipedia.org/wiki/mir-BHRF1-3_microRNA_precursor_family
+#=GF SQ    5
+
+#=GS H.sapiens.1            AC    AADB02183321.1/1826-1890
+#=GS Human_herpesvirus_4_.1 AC    M80517.1/55254-55318
+#=GS Human_herpesvirus_4_.2 AC    V01555.2/55254-55318
+#=GS Human_herpesvirus_4_.3 AC    M17416.1/1451-1515
+#=GS Human_herpesvirus_4_.4 AC    M11923.1/401-465
+
+H.sapiens.1                        UCUAACGGGAAGUGUGUAAGCACACACGUAAUUUGCAAGCGGUGCUUCAC
+Human_herpesvirus_4_.1             UCUAACGGGAAGUGUGUAAGCACACACGUAAUUUGCAAGCGGUGCUUCAC
+Human_herpesvirus_4_.2             UCUAACGGGAAGUGUGUAAGCACACACGUAAUUUGCAAGCGGUGCUUCAC
+Human_herpesvirus_4_.3             UCUAACGGGAAGUGUGUAAGCACACACGUAAUUUGCAAGCGGUGCUUCAC
+Human_herpesvirus_4_.4             UCUAACGGGAAGUGUGUAAGCACACACGUAAUUUGCAAGCGGUGCUUCAC
+#=GC SS_cons                       ..<<<<<<<.<<<<<<.<<<<<<...<<<.........>>>>>>>>>>>>
+#=GC RF                            ucuaacgggAagcguguaagcacAcAcgcAAuuugcAAgcggugcuucac
+
+H.sapiens.1                        GCUCUUCGUUAAAAU
+Human_herpesvirus_4_.1             GCUCUUCGUUAAAAU
+Human_herpesvirus_4_.2             GCUCUUCGUUAAAAU
+Human_herpesvirus_4_.3             GCUCUUCGUUAAAAU
+Human_herpesvirus_4_.4             GCUCUUCGUUAAAAU
+#=GC SS_cons                       >>>.>>>>>>>....
+#=GC RF                            gcuccccguuaAAAu
+//

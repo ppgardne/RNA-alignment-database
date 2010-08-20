@@ -1,0 +1,43 @@
+# STOCKHOLM 1.0
+#=GF ID    snoU30
+#=GF AC    RF01283
+#=GF DE    Small nucleolar RNA U30
+#=GF AU    Wilkinson A
+#=GF GA    35.0
+#=GF NC    0.0
+#=GF TC    40.1
+#=GF SE    Predicted; Wilkinson A
+#=GF SS    Predicted; Wilkinson A
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    URL; http://bioinf.scri.sari.ac.uk/cgi-bin/plant_snorna/home
+#=GF DR    URL; http://lowelab.ucsc.edu/snoRNAdb/
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF WK    http://en.wikipedia.org/wiki/SnoRNA
+#=GF SQ    5
+
+#=GS V.vinifera.1    AC    AM475808.2/15675-15755
+#=GS R.communis.1    AC    AASG02002801.1/14078-14167
+#=GS P.trichocarpa.1 AC    AARH01002519.1/12439-12521
+#=GS A.thaliana.1    AC    AP000603.1/65098-65183
+#=GS B.rapa.1        AC    AC189369.2/56854-56941
+
+V.vinifera.1                UGCUGUGAUGAAGGUUAAA....AGAUCUCGUUAAUCUGA.AGAUUCAU.
+R.communis.1                UGCUGUGAUGAUGAGAUAAAAAUA.AUCUCGUUAAUCUGAUACCUAUCAU
+P.trichocarpa.1             UGCUGUGAUGAUGAGACUAU...A.AUCUCGUUAAUCUGA.UUUAACCA.
+A.thaliana.1                UGCAGUGAUGAUGGGUAUA....A.AUCUCGUUAAUCUGA.AUUUUUGUU
+B.rapa.1                    UGCAGUGAUGAUGGAUUUAUGU.A.AUCUCGUUAAUCUGA.AAUAUU..U
+#=GC SS_cons                .<<...............................................
+#=GC RF                     UGCAGUGAUGAuGGaUAuA....A.AUCUCGUUAAUCUGA.AauuUuaUU
+
+V.vinifera.1                ..UGAGGAUACUUUCUU...AUCCAUUCAAUACAUU.CUGAGC
+R.communis.1                UAUGAGGACAAAUCCUC..UUUCCAUUCUUUAGUUUUCUGAGC
+P.trichocarpa.1             ..UGAGGAAAAACCCUC.UGAUCCAUUCUUCACUGU.CUGAGC
+A.thaliana.1                AAUGAAGAUACUUACUUCCCAACCAUUCAUUAAUAU.CUGAGC
+B.rapa.1                    AUUGAGGAUAAAUACUUCCCAACCAUUCAUUCAAAUACUGAGC
+#=GC SS_cons                .........................................>>
+#=GC RF                     AaUGAgGAUAcuUACUUcccAACCAUUCAuUAAAAU.CUGAGC
+//

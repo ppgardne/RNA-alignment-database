@@ -1,0 +1,52 @@
+# STOCKHOLM 1.0
+#=GF ID    RF_site4
+#=GF AC    RF01090
+#=GF DE    Edr gene ribosomal frameshift signal
+#=GF AU    Wilkinson A
+#=GF GA    42.0
+#=GF NC    0.0
+#=GF TC    46.3
+#=GF SE    Pseudobase
+#=GF SS    Pseudobase
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    PKBASE; PKB00257
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    15767280
+#=GF RT    Characterization of the frameshift signal of Edr, a mammalian example
+#=GF RT    of programmed -1 ribosomal frameshifting.
+#=GF RA    Manktelow E, Shigemoto K, Brierley I;
+#=GF RL    Nucleic Acids Res. 2005;33:1553-1563.
+#=GF WK    http://en.wikipedia.org/wiki/Ribosomal_frameshift
+#=GF SQ    7
+
+#=GS E.telfairi.1           AC    AAIY01557043.1/3331-3396
+#=GS C.porcellus.1          AC    AAKN02016859.1/6843-6908
+#=GS M.musculus.1           AC    AAHY01051104.1/1053-1118
+#=GS H.sapiens.1            AC    BC050659.2/1365-1433
+#=GS Otolemur_garnettii_s.1 AC    AAQR01741868.1/144-209
+#=GS C.lupus.1              AC    AAEX02024914.1/7539-7604
+#=GS M.eugenii.1            AC    AB260975.1/11458-11523
+
+E.telfairi.1                       GGGAAACUCCCAGGCCCCGCUGUAGAGGGACCGUCAGCGGCCGGGCCAG.
+C.porcellus.1                      GGGAAACUCCCCGGCCCCGCUGUAGAGGGACCAUCAGCGACCGGGCCGG.
+M.musculus.1                       GGGAAACUCCCCGGCCCCGCUGUAGGGGGACCUUCAGCGACAGGGCCAG.
+H.sapiens.1                        GGGAAACUCCCCGGCCCCGCUGUAGAGGGACCUUCAGCGACCGAACCAGC
+Otolemur_garnettii_s.1             GGGAGACUCCCCGGCCCUGCUGUAGAGGGACCUUCAGCGACUGAGCCAG.
+C.lupus.1                          GGGAAACUCCCCGGCCCCGCUGUAGAGGGACCUUCAGCGACCGGGCCAG.
+M.eugenii.1                        GGGAAACUCCCUGGCCCCGCUGUAGAGGGACCCCCAGCGCCCGGGCCUG.
+#=GC SS_cons                       ............<<<<<<<<<<....AAAAAAAA>>>>>...>>>>>...
+#=GC RF                            GGGAAACUCCCcGGCCCCGCuGUAGAGGGACCuUCaGCGACaGGGCCAG.
+
+E.telfairi.1                       ..AAAGAAUGAGGUCCCCA
+C.porcellus.1                      ..AAAUCAUAAGGUCCCAA
+M.musculus.1                       ..AACGAAUAAGGUCCCCA
+H.sapiens.1                        UUAGGCAAAAGAGUCCCCA
+Otolemur_garnettii_s.1             ..AAAUAAUAAGGUCCCCA
+C.lupus.1                          ..AAAUAAUAAGGUCCCCA
+M.eugenii.1                        ..AACCAGAAAGGUCCCCC
+#=GC SS_cons                       .........aaaaaaaa..
+#=GC RF                            ..AAAuAAUAAGGUCCCcA
+//

@@ -1,0 +1,39 @@
+# STOCKHOLM 1.0
+#=GF ID    ylbH
+#=GF AC    RF00516
+#=GF DE    ylbH leader
+#=GF AU    Barrick JE, Breaker RR
+#=GF GA    28.0
+#=GF NC    0.0
+#=GF TC    38.6
+#=GF SE    Barrick JE
+#=GF SS    Predicted; Barrick JE
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF CC    This family is a putative regulatory RNA structure that is found
+#=GF CC    upstream of the ylbH gene in B. subtilis and related low GC
+#=GF CC    Gram-positive bacteria.
+#=GF WK    http://en.wikipedia.org/wiki/ylbH_leader
+#=GF SQ    3
+
+#=GS Bacillus_subtilis_su.1 AC    AL009126.3/1569199-1569319
+#=GS Bacillus_thuringiens.1 AC    AE017355.1/3773470-3773586
+#=GS Thermoanaerobacter_t.1 AC    AE008691.1/1456662-1456779
+
+Bacillus_subtilis_su.1             AUAAAAAAAUCCCCGCAGGCA..UCUGCGGGG...............UCC
+Bacillus_thuringiens.1             AGAAAAAAAACCCUGC...AAA....GCAGGG...............CUC
+Thermoanaerobacter_t.1             AUAA......GGGAGGCCUAAAAAGGCUUCCCUUUUUAAAUUUUUAAUCC
+#=GC SS_cons                       ..........<<<<<<<<<....>>>>>>>>>...............<<<
+
+Bacillus_subtilis_su.1             UUCUAUUCCUUAAUAUGUUAAGGA.GAAGGCAAAGGGAGAGGAGAAACCG
+Bacillus_thuringiens.1             UUCUUAUACUAGCAUGUACUAGUAAGAAGGCAAAGGGAGAGGAGAAACCG
+Thermoanaerobacter_t.1             AG....GCAGG.AGUUCG.CCUGC..CUGGA.CUGGGAGAGGAGAAAUUG
+#=GC SS_cons                       <<....<<<<<<......>>>>>>........>>>>>...........<<
+
+Bacillus_subtilis_su.1             GAGGAAGAACUUAUGGGGAAACGUAAGUCUUCUCCGCGG
+Bacillus_thuringiens.1             GAGGAAGAACUUAUGGGGAAACGUAAGUCUUCUCCGCGG
+Thermoanaerobacter_t.1             AAGGAAGAA.UU..GGGGAAAU..UUCUAUUC.CCGUUA
+#=GC SS_cons                       <<.<<<<.<<<<<..........>>>>>>>>>>>>>...
+//

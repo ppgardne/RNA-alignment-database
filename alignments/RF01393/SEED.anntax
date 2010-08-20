@@ -1,0 +1,53 @@
+# STOCKHOLM 1.0
+#=GF ID    isrJ
+#=GF AC    RF01393
+#=GF DE    isrJ Hfq binding RNA
+#=GF AU    Daub J, Gardner PP
+#=GF GA    28.0
+#=GF NC    25.3
+#=GF TC    28.2
+#=GF SE    Predicted; ClustalW; Infernal
+#=GF SS    Predicted; RNAalifold
+#=GF TP    Gene; sRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF RN    [1]
+#=GF RM    18725932
+#=GF RT    Deep sequencing analysis of small noncoding RNA and mRNA targets
+#=GF RT    of the global post-transcriptional regulator, Hfq.
+#=GF RA    Sittka A, Lucchini S, Papenfort K, Sharma CM, Rolle K, Binnewies
+#=GF RA    TT, Hinton JC, Vogel J;
+#=GF RL    PLoS Genet. 2008;4:e1000163.
+#=GF RN    [2]
+#=GF RM    18267966
+#=GF RT    Small RNAs encoded within genetic islands of Salmonella
+#=GF RT    typhimurium show host-induced expression and role in virulence.
+#=GF RA    Padalon-Brauch G, Hershberg R, Elgrably-Weiss M, Baruch K,
+#=GF RA    Rosenshine I, Margalit H, Altuvia S
+#=GF RL    Nucleic Acids Res. 2008;36:1913-1927.
+#=GF WK    http://en.wikipedia.org/wiki/Hfq_binding_sRNA
+#=GF SQ    5
+
+#=GS Salmonella_enterica_.1 AC    ABEJ01000005.1/3826-3900
+#=GS Salmonella_enterica_.2 AC    AE017220.1/1099138-1099216
+#=GS Salmonella_enterica_.3 AC    ABAN01000002.1/901-979
+#=GS Salmonella_enterica_.4 AC    AE006468.1/2761957-2762031
+#=GS Yersinia_pestis_biov.1 AC    AAYU01000001.1/398535-398601
+
+Salmonella_enterica_.1             AGUAAAUCUGAUAUCGUCGCCAUAGCUUCAAUCGUCGACCAAACAAAUUC
+Salmonella_enterica_.2             UGUAAAUCUGAUAUCGUCGCCAUAGCUUCAAUCGUCGACCAAACAAAUUC
+Salmonella_enterica_.3             UGUAAAUCUGAUAUCGUCGUCAUAGUUUCAAUCGUCGACCAAGCAAAUUC
+Salmonella_enterica_.4             UGUAAAUCUGAUAUCGUCGCCAUAGCUUCAAUCGUCGACCAAACAAAUUC
+Yersinia_pestis_biov.1             ACAAUUACCGCCAACGGUAACAAACUGA.....GUUAUCCAA...AAUCU
+#=GC SS_cons                       ...............<<<<.<............>.>>>>...........
+#=GC RF                            uGUAAAUcUGAUAUcGuCGcCAUAGcUUcAAUcGUCGaCcAAAcAAAUUc
+
+Salmonella_enterica_.1             AAGCCUCGCCAUCG....UGCGGGGCUUU
+Salmonella_enterica_.2             AAGCCCUGCGGAUAACACCGCGGGGCUUU
+Salmonella_enterica_.3             AAGCCCUGCGGAUAACACCGCGGGGCUUU
+Salmonella_enterica_.4             AAGCCUCGCCAUCG....UGCGGGGUUUU
+Yersinia_pestis_biov.1             GAGCCUCGCCAUCG....UGCGGGGUUUU
+#=GC SS_cons                       <<<<<<<<<<<......>>>>>>>>>>>.
+#=GC RF                            aaGCCccGCggauaAcAccGCggGGCuuU
+//

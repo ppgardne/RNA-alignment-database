@@ -1,0 +1,90 @@
+# STOCKHOLM 1.0
+#=GF ID    snoZ161_228
+#=GF AC    RF00328
+#=GF DE    Small nucleolar RNA Z161/Z228
+#=GF AU    Moxon SJ, Wilkinson AC
+#=GF GA    25.0
+#=GF NC    0.0
+#=GF TC    37.2
+#=GF PI    snoZ161
+#=GF SE    Moxon SJ
+#=GF SS    Predicted; PFOLD; Moxon SJ
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF RN    [1]
+#=GF RM    12007400
+#=GF RT    Small nucleolar RNAs: an abundant group of noncoding RNAs with
+#=GF RT    diverse cellular functions.
+#=GF RA    Kiss T;
+#=GF RL    Cell 2002;109:145-148.
+#=GF RN    [2]
+#=GF RM    12736310
+#=GF RT    The high diversity of snoRNAs in plants: identification and
+#=GF RT    comparative study of 120 snoRNA genes from Oryza sativa.
+#=GF RA    Chen CL, Liang D, Zhou H, Zhuo M, Chen YQ, Qu LH;
+#=GF RL    Nucleic Acids Res 2003;31:2601-2613.
+#=GF CC    Z161 and Z228 are members of the C/D class of snoRNA which contain the
+#=GF CC    C (UGAUGA) and  D (CUGA) box motifs. Most of the members of the box C/D
+#=GF CC    family function in directing site-specific 2'-O-methylation of substrate
+#=GF CC    RNAs [1,2].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_Z161/Z228
+#=GF SQ    11
+
+#=GS O.sativa.1       AC    AJ494933.1/3-84
+#=GS O.sativa.2       AC    AJ490376.1/2-91
+#=GS O.sativa.3       AC    AJ494931.1/3-84
+#=GS O.sativa.4       AC    AJ494932.1/3-84
+#=GS O.sativa.5       AC    AJ494930.1/3-84
+#=GS O.sativa.6       AC    AJ490373.1/3-94
+#=GS O.sativa.7       AC    AJ490374.1/3-95
+#=GS V.vinifera.1     AC    AM423845.2/409-506
+#=GS S.lycopersicum.1 AC    AC193778.1/40094-40189
+#=GS R.communis.1     AC    AASG02002047.1/5571-5666
+#=GS P.trichocarpa.1  AC    AARH01001039.1/627050-627146
+
+O.sativa.1                   GGGCCUAAUGAUGAGAAUAUGUAAAUUA.U.CUCACAACGGUCUACUGA.
+O.sativa.2                   GGGUCAUGUGAUGAGAAACAAUAUGCA...ACUCACGACGGUCAUCUGAG
+O.sativa.3                   GGGCCUAAUGAUGAGAAUAUGUAAAUUA.U.CUCAAAACGGUCUGCUGA.
+O.sativa.4                   GAGCCUACUUACGAGAAUAUGUAAAUUA.U.CUCACAACGGUCUGCUGA.
+O.sativa.5                   GGGCCUAAUGAUGAGAAUAUGUAAUUUA.U.CUCACAACGGUCUGCUGA.
+O.sativa.6                   GGGCCAUGUGAUAAGAAUCCAUAUGCAA.UACUCACGACGGUCAUCUGAU
+O.sativa.7                   GGGCCAUGUGAUGAGAAUCCAUAUGCAA.UACUCACGACGGUCGUCUGAU
+V.vinifera.1                 AAACCAGGUGAUGAGUUUGGAUUAAAUU.UUCUCACGACGGUCGUCUGAG
+S.lycopersicum.1             AAGCCGCUUGAUGAUUUUUGGAUAAUAU.U.CUCACGACGGUCGUCUGAG
+R.communis.1                 AAAUCAAGUGAUGAAAUUGGAUUUAAAU.UUCUCACGACGGUCGUCUGAG
+P.trichocarpa.1              AAAUCAAGUGAUGAAUCUGGAUUGUAAAUUUCUCACGACGGUCGUCUGAG
+#=GC SS_cons                 <<<<..............................................
+#=GC RF                      gggcCAAgUGAUGAgAAUauAUAaaaAA.UaCUCACGACGGUCguCUGAg
+
+O.sativa.1                   .GAAUUC...UUU.....CAUGU....GACAAAU.AU...UCUCUGAAGC
+O.sativa.2                   ACACUUA...GUGUG..UAAUGGUGCAGUCAUAUUAU....CUCUGAUGC
+O.sativa.3                   .GAAUUC...CUU.....GAUGU....GAGAAAU.AU...UCUCUGAAGC
+O.sativa.4                   .GAAUUC...UUU.....GAUGU....GACAAAA.AU...UCUCUGAAGC
+O.sativa.5                   .GAAUUC...UUU.....GAUGU....GACAUAU.AU...UCUCUGAAGC
+O.sativa.6                   ACACUUA...GUGUG..UCAUGUUGCAGUCAUAU.AU...UCUCUGAUGC
+O.sativa.7                   ACACUUA...GUGUG..UCAUGUUGCAGUCAUAUUAU...UCUCUGAUGC
+V.vinifera.1                 ACACAAU...GUGUCGCCUUUGAUGCAUCGAUCCAAUACUUCUCUGAUGG
+S.lycopersicum.1             GUACAUUUAUGUGCC..UAACUGAUGAUAGAUCCAAU..UUUUCUGAUGG
+R.communis.1                 GCACCUCAAAGUGUC..GAAUUGAUGAGUGAUCCAAU...CAUCUGAUGA
+P.trichocarpa.1              ACACUU...CGUGUCAACACUGAUGUAAAGAUCCAAU..GUUUCUGAUGA
+#=GC SS_cons                 .<<<......>>>...................................>>
+#=GC RF                      AcAcUUc...gUgUc..uaAUGuuguAGagAuAu.AU...UcUCUGAugc
+
+O.sativa.1                   CC
+O.sativa.2                   CC
+O.sativa.3                   CC
+O.sativa.4                   CC
+O.sativa.5                   CC
+O.sativa.6                   CC
+O.sativa.7                   CC
+V.vinifera.1                 UU
+S.lycopersicum.1             UU
+R.communis.1                 UU
+P.trichocarpa.1              UU
+#=GC SS_cons                 >>
+#=GC RF                      cc
+//

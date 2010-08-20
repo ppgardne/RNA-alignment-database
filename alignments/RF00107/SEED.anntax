@@ -1,0 +1,59 @@
+# STOCKHOLM 1.0
+#=GF ID    FinP
+#=GF AC    RF00107
+#=GF DE    FinP
+#=GF AU    Griffiths-Jones SR
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    59.3
+#=GF SE    Griffiths-Jones SR
+#=GF SS    Published; PMID:9917389
+#=GF TP    Gene;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000644 SO:antisense_RNA
+#=GF RN    [1]
+#=GF RM    9917389
+#=GF RT    Degradation of FinP antisense RNA from F-like plasmids: the
+#=GF RT    RNA-binding protein, FinO, protects FinP from ribonuclease E.
+#=GF RA    Jerome LJ, van Biesen T, Frost LS;
+#=GF RL    J Mol Biol 1999;285:1457-1473.
+#=GF RN    [2]
+#=GF RM    14633993
+#=GF RT    FinO is an RNA chaperone that facilitates sense-antisense RNA
+#=GF RT    interactions.
+#=GF RA    Arthur DC, Ghetu AF, Gubbins MJ, Edwards RA, Frost LS, Glover JN;
+#=GF RL    EMBO J 2003;22:6346-6355.
+#=GF CC    The FinOP system regulates the transfer of F-like plasmids.
+#=GF CC    FinP encodes an antisense RNA product that is complementary
+#=GF CC    to part of the 5' UTR of the traJ mRNA.  The traJ gene encodes
+#=GF CC    a protein required for transcription from the major transfer
+#=GF CC    promoter, pY.  The FinO protein is essential for effective
+#=GF CC    repression, acting by binding to FinP and protecting it from
+#=GF CC    RNase E degradation. 
+#=GF WK    http://en.wikipedia.org/wiki/FinP
+#=GF SQ    6
+
+#=GS E.coli.1               AC    X55896.1/966-1041
+#=GS E.coli.2               AC    X55894.1/958-1036
+#=GS E.coli.3               AC    U01159.2/961-1039
+#=GS E.coli.4               AC    M20941.1/140-217
+#=GS S.enterica.1           AC    AF389529.1/1037-1113
+#=GS Salmonella_enterica_.1 AC    AE006471.1/61518-61593
+
+E.coli.1                           CACACAUAGGAACCUCCUCA..AAGGAUUCUAUG.ACAGUCGAUGCAGGG
+E.coli.2                           GAUACAUAGGAACCUCCUCACAAAGGAUUCUAUGGACAGUCGAUGCAGGG
+E.coli.3                           GAUACAUAGGAACCUCCUCACAAAGGAUUCUAUGGACAGUCGAUGCAGGG
+E.coli.4                           GAUACAUAGGAACCUCCUCUCAAAGGAUUCUAUGGACAGUCGAUGCGGGG
+S.enterica.1                       GAUACACAGGAGCCUCCUCA..AAGGAUUCUAUGGGUAGUCGAUGCAGGG
+Salmonella_enterica_.1             GACACAUAGGAACCUCCUCA..AAGGAUUCUAUGGACAGUCGAUGCAGGG
+#=GC SS_cons                       ....<<<<<<<.<<<........>>>.>>>>>>>....<<<<<<<<<<<<
+
+E.coli.1                           AGG.GACAAGCUCCCUGCAUCGGCGAUUUU
+E.coli.2                           AGGAGAGAA.CUCCCUGCAUCGGCGAUUUU
+E.coli.3                           AGUUCACGU.CUCCCUGCAUCGGCGAUUUU
+E.coli.4                           AGGUCGCU..CUCCCUGCAUCGGCGAUUUU
+S.enterica.1                       AGG.GACCAACUCCCUGCAUCGGCGAUUUA
+Salmonella_enterica_.1             AGU.GACAG.CUCCCUGUAUCGGCGAUUUA
+#=GC SS_cons                       <<........>>>>>>>>>>>>>>......
+//

@@ -1,0 +1,35 @@
+# STOCKHOLM 1.0
+#=GF ID    snoR4a
+#=GF AC    RF01301
+#=GF DE    Small nucleolar RNA snoR4a
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    22.9
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    URL; http://bioinf.scri.sari.ac.uk/cgi-bin/plant_snorna/home
+#=GF DR    URL; http://lowelab.ucsc.edu/snoRNAdb/
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Arabidopsis_thaliana300074
+#=GF WK    http://en.wikipedia.org/wiki/SnoRNA
+#=GF SQ    2
+
+#=GS A.thaliana.1 AC    AC068667.6/42916-42992
+#=GS A.thaliana.2 AC    AC068667.6/51308-51384
+
+A.thaliana.1             GGAUAUGAUGAAAUGGCAAUAAUGUUUUGUGACACCCAGUCUGAUCUUCG
+A.thaliana.2             GGAUAUGACGAAAUGGCAAUAAUGUUUUGUGACACCCAGUCUGAUCUUCG
+#=GC SS_cons             <<<..........<<<<<................................
+#=GC RF                  GGAUAUGAYGAAAUGGCAAUAAUGUUUUGUGACACCCAGUCUGAUCUUCG
+
+A.thaliana.1             UGAUUGAUUUGCCAUAUUUUCUGAUCC
+A.thaliana.2             UGAUUGAUCUGCCAUAUUUUCUGAUCC
+#=GC SS_cons             .........>>>>>..........>>>
+#=GC RF                  UGAUUGAUYUGCCAUAUUUUCUGAUCC
+//

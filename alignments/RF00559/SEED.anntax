@@ -1,0 +1,231 @@
+# STOCKHOLM 1.0
+#=GF ID    L21_leader
+#=GF AC    RF00559
+#=GF DE    Ribosomal protein L21 leader
+#=GF AU    Barrick JE, Moy RH
+#=GF GA    20.0
+#=GF NC    19.3
+#=GF TC    35.8
+#=GF SE    Predicted; CMFinder, Barrick JE, Moy RH
+#=GF SS    Predicted; CMFinder, Barrick JE, Moy RH
+#=GF TP    Cis-reg; leader;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    7517053
+#=GF RT    Diverse mechanisms for regulating ribosomal protein synthesis in
+#=GF RT    Escherichia coli.
+#=GF RA    Zengel JM, Lindahl L;
+#=GF RL    Prog Nucleic Acid Res Mol Biol. 1994;47:331-370.
+#=GF CC    This family is a putative r-protein leader autoregulatory
+#=GF CC    structure [1] found in B. subtilis and other low-GC Gram-positive
+#=GF CC    bacteria. It is located in the 5' untranslated regions of mRNAs
+#=GF CC    encoding ribosomal protein L21, a protein of unknown function,
+#=GF CC    and ribosomal protein L27 (rplU-ysxB-rpmA).
+#=GF WK    http://en.wikipedia.org/wiki/Ribosomal_protein_L21_leader
+#=GF SQ    38
+
+#=GS Bacillus_clausii_KSM.1 AC    AP006627.1/2726204-2726276
+#=GS Bacillus_licheniform.1 AC    CP000002.3/2809103-2809177
+#=GS B.subtilis.1           AC    X59528.1/1870-1945
+#=GS Bacillus_halodurans_.1 AC    BA000004.3/3129168-3129240
+#=GS Bacillus.1             AC    AAOX01000015.1/104841-104922
+#=GS Bacillus.2             AC    ABCF01000098.1/6599-6680
+#=GS Bacillus_thuringiens.1 AC    AE017355.1/4241555-4241632
+#=GS Bacillus_cereus_E33L.1 AC    CP000001.1/4296409-4296486
+#=GS Bacillus_cereus_subs.1 AC    CP000764.1/3208670-3208747
+#=GS Geobacillus_kaustoph.1 AC    BA000043.1/2624353-2624432
+#=GS Geobacillus_thermode.1 AC    CP000557.1/2644009-2644089
+#=GS Oceanobacillus_iheye.1 AC    BA000028.3/2073564-2073644
+#=GS L.monocytogenes.1      AC    AL591979.1/167068-167146
+#=GS Listeria_monocytogen.1 AC    AE017262.2/1556775-1556852
+#=GS L.innocua.1            AC    AL596169.1/30537-30615
+#=GS S.aureus.1             AC    CP000046.1/1733474-1733601
+#=GS Staphylococcus_epide.1 AC    CP000029.1/1248687-1248763
+#=GS Staphylococcus_sapro.1 AC    AP008934.1/1159200-1159273
+#=GS Staphylococcus_haemo.1 AC    AP006716.1/1307326-1307403
+#=GS Enterococcus_faecali.1 AC    AE016830.1/931220-931295
+#=GS E.faecium.1            AC    AAAK03000096.1/1617-1693
+#=GS Lactobacillus_saliva.1 AC    CP000233.1/981236-981312
+#=GS L.acidophilus.1        AC    CP000033.3/1314554-1314633
+#=GS Lactobacillus_gasser.1 AC    CP000413.1/725693-725773
+#=GS Lactobacillus_planta.1 AC    AL935256.1/197559-197632
+#=GS Lactobacillus_brevis.1 AC    CP000416.1/1005868-1005945
+#=GS Pediococcus_pentosac.1 AC    CP000422.1/820542-820609
+#=GS Lactococcus_lactis_s.1 AC    AE005176.1/1090513-1090586
+#=GS Streptococcus_pyogen.1 AC    BA000034.2/1289161-1289235
+#=GS Streptococcus_sangui.1 AC    CP000387.1/1077610-1077697
+#=GS Streptococcus_mutans.1 AC    AE014133.1/796925-797000
+#=GS Streptococcus_pneumo.1 AC    AAZZ01000006.1/107295-107382
+#=GS Streptococcus_agalac.1 AC    AL766850.1/177863-177942
+#=GS Streptococcus_agalac.2 AC    AE009948.1/1379715-1379794
+#=GS Streptococcus_suis_0.1 AC    CP000407.1/761580-761668
+#=GS Streptococcus_thermo.1 AC    CP000023.1/400958-401034
+#=GS Ureaplasma_urealytic.1 AC    CP001184.1/243198-243276
+#=GS Ureaplasma_parvum_se.1 AC    AF222894.1/255828-255903
+
+Bacillus_clausii_KSM.1             AUGAACUUACAA.CCGCGCA..GAUUAGGCGUUAA..............A
+Bacillus_licheniform.1             CCCGUGCUACAA.CCGCUCA..GCACAGGCGUU................A
+B.subtilis.1                       CCAUUGCUACAA.CCGCUCA..GUACAGGUGUU................A
+Bacillus_halodurans_.1             CAAUGACUACAA.CCGCACA..GACUAGGUUUAUA..............A
+Bacillus.1                         ACCAAGCUACAA.CCGCUCA..GAGCAGGUAUUC...............A
+Bacillus.2                         CCCGUGCUACAA.CCGCUCA..AAUCAGGCAAU................A
+Bacillus_thuringiens.1             UAUAUGCUACAA.CCGCACA..AGACAGGUUCCCU..............A
+Bacillus_cereus_E33L.1             UAUAUGCUACAA.CCGCACA..AGACAGGUUCCCU..............A
+Bacillus_cereus_subs.1             UAUAUACUACAA.CCGCACA..AUGCAGGUGUAC...............A
+Geobacillus_kaustoph.1             CCCGCACUACAA.CCGCUCA..GCGCGGGCGAUG...............A
+Geobacillus_thermode.1             CCCGUACUACAACCCGCUCA..GCGCGGGUUGUG...............A
+Oceanobacillus_iheye.1             GUAAAACAGCAU.UCGUUGU..UUUUUGCUUAACAUUUU..........U
+L.monocytogenes.1                  ACCAAGCUACAA.CCGCACA..GAGCUGGGUC.................A
+Listeria_monocytogen.1             ACCAAGCUACAA.CCGCACA..GAGCUGGGUC.................A
+L.innocua.1                        ACCAAGCUACAA.CCGCACA..GAGCUGGGUU.................A
+S.aureus.1                         AGCUACAUACAA.CCGCUCAA.AUAUAGGUUC.................A
+Staphylococcus_epide.1             AGCUACAUACAA.CCGCUCGC.AUACAGGUUG.................A
+Staphylococcus_sapro.1             AGCUACAUACAA.CCGCUCGG.AUUCAGGUUA.................A
+Staphylococcus_haemo.1             AGCUACAUACAA.CCGCUCA..AAUAUAGGUUU................A
+Enterococcus_faecali.1             CCACAGCUACAA.CCGCACA..GAACAAGUUUUU...............A
+E.faecium.1                        CCACAGCUACAA.CCGCUCA..GAACAAGUAAU................A
+Lactobacillus_saliva.1             UCACAUCUGCAA.CCGCACG..UUUUAAGUUU.................A
+L.acidophilus.1                    CCACAUCUGCAA.CCGCACG..GCUAGGGUUAG................A
+Lactobacillus_gasser.1             UCACAUCUGCAA.CCGCACGUUUAUGGGGUAAG................A
+Lactobacillus_planta.1             CUACAGCUACAA.CCGCACG..GAUUGAGUCUU................A
+Lactobacillus_brevis.1             CCACAGCUGCAA.CCGCUCG..GAACGAGUUU.................A
+Pediococcus_pentosac.1             UCCACGCUACAA.CCGCACA..AAGUGAGUUUUA...............A
+Lactococcus_lactis_s.1             CAUAAAGUGCAA.CCGCACGA.AGUUUCGUAUU................A
+Streptococcus_pyogen.1             CAUCCUGUGCAA.CCGCGCG..AAAAUCGUUAUC...............A
+Streptococcus_sangui.1             AUUCCUGUGCAA.CCGCACG..AUCAUCGUUGCUCACUCUGUGAGAUAGA
+Streptococcus_mutans.1             CAUCCUGUGCAA.CCGCACG..AAAAUCGCUUUU...............A
+Streptococcus_pneumo.1             GAUCCUGUGCAA.CCGCACG..AACAUCGUUGCUUGAUUAUUCAAGUUUA
+Streptococcus_agalac.1             CAUCCUGUGCAA.CCGCGCG..AAAAUCGUUAGAUU.............A
+Streptococcus_agalac.2             CAUCCUGUGCAA.CCGCGCG..AAAAUCGUUAGAUU.............A
+Streptococcus_suis_0.1             CAUCCUGUGCAA.CCGCACG..AAUGCCGUUCUU...............U
+Streptococcus_thermo.1             CGUCCUGUGCAA.CCGCACG..ACUACUGUUUUUGU.............A
+Ureaplasma_urealytic.1             AUGCAGCUUCAA.CCACUCA..AAAAAGGUUUCU...............A
+Ureaplasma_parvum_se.1             AUGCAGCUUCAA.CCACUCA..AAAAAGGUUUAAAAAUA..........A
+#=GC SS_cons                       ..............<<<.<<..<<<<<<<<....................
+#=GC RF                            aaaaaucUaCAA.CCGCaCa..aaucagGuuuua...............A
+
+Bacillus_clausii_KSM.1             AUG.G...C.........................AUGU............
+Bacillus_licheniform.1             A.GUGCU.U.........................UCUU............
+B.subtilis.1                       A.GAGCU.U.........................UUAC............
+Bacillus_halodurans_.1             AUG.G...A.........................UCUC............
+Bacillus.1                         A.GUUUUUGCUUU.....................UUGC............
+Bacillus.2                         A.GCUUUUGUUGAA....................UAAC............
+Bacillus_thuringiens.1             A.A.GGCA..........................UGUA............
+Bacillus_cereus_E33L.1             A.A.GGCA..........................UUUA............
+Bacillus_cereus_subs.1             A.AUGACAG.........................UCUA............
+Geobacillus_kaustoph.1             A.GCGCUCCG........................UCU.............
+Geobacillus_thermode.1             A.GUGUUCCG........................GUUG............
+Oceanobacillus_iheye.1             A.AAAUCCG.........................UAUU............
+L.monocytogenes.1                  A.GUAUUUACUUC.....................GUGU............
+Listeria_monocytogen.1             A.GUAUUUACUUC.....................GUGU............
+L.innocua.1                        A.GUAUUUACC.......................UUGU............
+S.aureus.1                         A.GAACAUUUUUAAUGAAGAAAGCGAUUUUCCCACAGAGUGCAAACGCUU
+Staphylococcus_epide.1             A.GUACAAU.........................CAU.............
+Staphylococcus_sapro.1             A.GUACA...........................UGUA............
+Staphylococcus_haemo.1             A.G.AACAUU........................UUUU............
+Enterococcus_faecali.1             A.GCAUGA..........................GUAA............
+E.faecium.1                        A.GCACAGCA........................UAUG............
+Lactobacillus_saliva.1             A.GUAUCUCU........................UUAG............
+L.acidophilus.1                    A.GACUUCUU........................GAGU............
+Lactobacillus_gasser.1             A.GAGAAUUAAC......................GUUA............
+Lactobacillus_planta.1             A.GAUCA...........................GCAA............
+Lactobacillus_brevis.1             A.GUUUUCCGC.......................UUGC............
+Pediococcus_pentosac.1             A.G.C..............................AUA............
+Lactococcus_lactis_s.1             A.GUGGC...........................AUAC............
+Streptococcus_pyogen.1             A.GUAGAC..........................CAA.............
+Streptococcus_sangui.1             A.GUGG..U.........................UCGU............
+Streptococcus_mutans.1             A.GCAGCUU.........................UCGU............
+Streptococcus_pneumo.1             A.GUGG..U.........................UUGU............
+Streptococcus_agalac.1             A.GUAGGGC.........................AAG.............
+Streptococcus_agalac.2             A.GUAGAGC.........................AAG.............
+Streptococcus_suis_0.1             C.GUUGAGAG........................UAGA............
+Streptococcus_thermo.1             A.GUGGG.U.........................UCGU............
+Ureaplasma_urealytic.1             A.A.UAAAUUUUU.....................AAAA............
+Ureaplasma_parvum_se.1             AUGUUA............................AUU.............
+#=GC SS_cons                       ..<.<<<<..........................................
+#=GC RF                            A.Gugcccu.........................uuua............
+
+Bacillus_clausii_KSM.1             .................CCUGCCU..AUGA.UGGCGAGUCUGAUGUUAUG
+Bacillus_licheniform.1             ...............AGCC.CCCU..GUGACUGGCGAGUCUUAGUUUAUU
+B.subtilis.1                       ...............AGCC.CCCU.GGUAUCUGGCGAGUCUUAGUCUAAU
+Bacillus_halodurans_.1             .................CCUACCU..AGAA.UGGCGAGUCUGAGUAUAUG
+Bacillus.1                         ..............AAAAC.GCCU..GCAAUUGGCGAGUCUUAGUCUAUA
+Bacillus.2                         ..............AAAAC.GCCU..GUACUUGGCGAGUCUGAGUUUAUA
+Bacillus_thuringiens.1             ..............UGUCU.ACCU.CGUUUUUGGCGAGUCUUAGUAAUUA
+Bacillus_cereus_E33L.1             ..............UGUCU.ACCU.CGUUUUUGGCGAGUCUUAGUAAUUA
+Bacillus_cereus_subs.1             ..............UGUCU.ACCU.CGUGU.UGGCGAGUCUUAGUAAUUA
+Geobacillus_kaustoph.1             .............UGGGCC.GCCUUGGCGC.UGGCGAGUCUGAGUCCAUG
+Geobacillus_thermode.1             ..............GAACC.GCCUUGACGC.UGGCGAGUCUGAGUUCAUA
+Oceanobacillus_iheye.1             ..............GGAUU.ACCU..AAAU.G.GCGAGUCUGAGUUGAAU
+L.monocytogenes.1                  ..............AAAUC.CCCU..GUGA.UGGCGAGUCUUAGUAUAUG
+Listeria_monocytogen.1             ..............AAAUC.CCCU..GUGA.UGGCGAGUCUUAG.UAUAU
+L.innocua.1                        ............GUAAGUC.CCCU..GUAA.UGGCGAGUCUUAGUAUAUG
+S.aureus.1                         GACUCAAUAACGAAAUGUC.ACCU..AUGUAUGGCGUGACUUAUUAUACA
+Staphylococcus_epide.1             .............AUUGUC.ACCU..GUAUAUGGCGUGACUUAUUAUAUA
+Staphylococcus_sapro.1             ...............UGUC.ACCU..GAGUUUGGCGUGACUUAAAUUAUU
+Staphylococcus_haemo.1             ............UAUG.UCACCUA..UAUA.UGGCGUGACUUAUUAAUAU
+Enterococcus_faecali.1             ..............UCAUC.ACUU..GGGA.UGGCGAGUCUAAGUCUAGA
+E.faecium.1                        ..............CUGUC.ACUU..CGGA.UGGCGAGUCUAAGUAUAUC
+Lactobacillus_saliva.1             ..............AGGUC.ACUA..CAUUACGGCGAGUCUAAGUAUUUU
+L.acidophilus.1                    ............AAGAAGC.ACCC..CAGUUCGGCGAGUCUAAGUAUUUU
+Lactobacillus_gasser.1             ..............AUUCC.ACCU..CAUA.CGGCGAGUCUAAGUAUUUU
+Lactobacillus_planta.1             ...............UGGC.ACUU..ACAUUCGGCGAGUCUAAGUGAUUU
+Lactobacillus_brevis.1             ..............GGAGC.ACUU..GUCUUCGGCGAGUCUAAGUCUAAA
+Pediococcus_pentosac.1             .................GC.ACUU..ACUU.UGGCGAGUCUUAGAAUUAA
+Lactococcus_lactis_s.1             ...............GCCC.ACG...AACAAAGGCGAGUCUAACAGUCGC
+Streptococcus_pyogen.1             ..............GUCUC.ACGA..UUCC.AGGCGAGUCUUCACAGAGG
+Streptococcus_sangui.1             ................CCC.ACGA..UGCU.AGGCGAGUCUUCACAAAAU
+Streptococcus_mutans.1             ..............AGCUC.ACGA..UUU..AGGCGAGUCUUCACGGAGG
+Streptococcus_pneumo.1             ................CCC.ACGA..UGCU.AGGCGAGUCUUCACAAAAA
+Streptococcus_agalac.1             .............GCUCUC.ACGA..UUUAUAGGCGAGUCUUCACAGAGG
+Streptococcus_agalac.2             .............GCUCUC.ACGA..UUUAUAGGCGAGUCUUCACAGAGG
+Streptococcus_suis_0.1             ...GUAAGUGGUUCGUCCC.ACGG..UACU.AGGCGAGUCUUCACAUCAA
+Streptococcus_thermo.1             ...............CCCC.GCAG..UACU.AGGCGAGUCUUCACAGAGG
+Ureaplasma_urealytic.1             ..............UUUAU.ACCU..UAU..UGGUGAGUCUAAGUUGAUA
+Ureaplasma_parvum_se.1             ................UAU.ACCU..UAU..UGGUGAGUCUAAGUUGAUA
+#=GC SS_cons                       ..............>>>>>.>>>>..>>>>.>>>>>..............
+#=GC RF                            ..............gggcC.aCcu..gauu.uGGCGAGUCUuAguauAua
+
+Bacillus_clausii_KSM.1             A
+Bacillus_licheniform.1             A
+B.subtilis.1                       A
+Bacillus_halodurans_.1             A
+Bacillus.1                         A
+Bacillus.2                         A
+Bacillus_thuringiens.1             A
+Bacillus_cereus_E33L.1             A
+Bacillus_cereus_subs.1             U
+Geobacillus_kaustoph.1             A
+Geobacillus_thermode.1             A
+Oceanobacillus_iheye.1             G
+L.monocytogenes.1                  A
+Listeria_monocytogen.1             G
+L.innocua.1                        A
+S.aureus.1                         G
+Staphylococcus_epide.1             G
+Staphylococcus_sapro.1             A
+Staphylococcus_haemo.1             A
+Enterococcus_faecali.1             A
+E.faecium.1                        A
+Lactobacillus_saliva.1             A
+L.acidophilus.1                    U
+Lactobacillus_gasser.1             U
+Lactobacillus_planta.1             A
+Lactobacillus_brevis.1             A
+Pediococcus_pentosac.1             G
+Lactococcus_lactis_s.1             U
+Streptococcus_pyogen.1             G
+Streptococcus_sangui.1             C
+Streptococcus_mutans.1             A
+Streptococcus_pneumo.1             A
+Streptococcus_agalac.1             G
+Streptococcus_agalac.2             G
+Streptococcus_suis_0.1             A
+Streptococcus_thermo.1             G
+Ureaplasma_urealytic.1             A
+Ureaplasma_parvum_se.1             A
+#=GC SS_cons                       .
+#=GC RF                            A
+//

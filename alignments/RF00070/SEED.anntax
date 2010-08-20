@@ -1,0 +1,79 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORD29
+#=GF AC    RF00070
+#=GF DE    Small nucleolar RNA SNORD29
+#=GF AU    Moxon SJ; Griffiths-Jones SR
+#=GF GA    24.0
+#=GF NC    0.0
+#=GF TC    28.2
+#=GF PI    U29
+#=GF SE    Moxon SJ; Griffiths-Jones SR
+#=GF SS    Predicted; PFOLD; Moxon SJ, Daub J
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Mus_musculus300713
+#=GF DR    snoopy; Oryctolagus_cuniculus300345
+#=GF RN    [1]
+#=GF RM    12007400
+#=GF RT    Small nucleolar RNAs: an abundant group of noncoding RNAs with
+#=GF RT    diverse cellular functions.
+#=GF RA    Kiss T;
+#=GF RL    Cell 2002;109:145-148.
+#=GF RN    [2]
+#=GF RM    8962077
+#=GF RT    A small nucleolar RNA requirement for site-specific ribose
+#=GF RT    methylation of rRNA in Xenopus.
+#=GF RA    Tycowski KT, Smith CM, Shu MD, Steitz JA;
+#=GF RL    Proc Natl Acad Sci U S A 1996;93:14480-14485.
+#=GF RN    [3]
+#=GF RM    8559254
+#=GF RT    A mammalian gene with introns instead of exons generating stable RNA
+#=GF RT    products.
+#=GF RA    Tycowski KT, Shu MD, Steitz JA;
+#=GF RL    Nature 1996;379:464-466.
+#=GF CC    U29 is a member of the C/D class of snoRNA which contain the C (UGAUGA)
+#=GF CC    and  D (CUGA) box motifs. Most of the members of the box C/D family
+#=GF CC    function in directing site-specific 2'-O-methylation of substrate RNAs
+#=GF CC    [1].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_SNORD29
+#=GF SQ    10
+
+#=GS X.laevis.1   AC    U72864.1/1-65
+#=GS X.laevis.2   AC    U72863.1/1-65
+#=GS X.laevis.3   AC    U72866.1/1-65
+#=GS X.laevis.4   AC    U72862.1/1-65
+#=GS X.laevis.5   AC    U72865.1/1-65
+#=GS M.musculus.1 AC    U40654.1/1763-1827
+#=GS H.sapiens.1  AC    U40580.1/2415-2479
+#=GS O.sativa.1   AC    AJ532523.1/1-92
+#=GS O.sativa.2   AC    AC087551.3/49489-49580
+#=GS O.sativa.3   AC    AJ532522.1/1-93
+
+X.laevis.1               .UUGCUGUGAUGAAAC.....UAACUAGCUCACUUUGA.....AUAAACG
+X.laevis.2               .UUGCUGUGAUGAAAC.....UAACUAGCUCACUUUGA.....AUAAGCG
+X.laevis.3               .UUGCUGUGAUGAAAC.....UAACUAGCUCACUUUGA.....AUAAACA
+X.laevis.4               .UUGCUGUGAUGAAAC.....UAACUAGCUCACUUUGA.....UUAAACA
+X.laevis.5               .UUGCUGUGAUGAAAC.....UAACUAGCUCACUUUGA.....UUAAGCA
+M.musculus.1             .UUUCUAUGAUGAAUC.....AAACUAGCUCACUAUGA.....CUGCUAA
+H.sapiens.1              .UUUCUAUGAUGAAUC.....AAACUAGCUCACUAUGA.....CCGACAG
+O.sativa.1               UCUGCAAUGAUGAUACCUUUUUACUCAGCUCAUUAUGAGACUUCCCUUUG
+O.sativa.2               UCUGCAAUGAUGAUACCUUUUUACUCAGCUCAUUAUGAGACUUCCCUUUG
+O.sativa.3               UUGGCGAUGAUGAUACUCUUUUACCCAGCUCAUUAUGAGACUUCCCUUUG
+#=GC SS_cons             ..<<<.............................................
+
+X.laevis.1               UGAAAAG......CUUUGAACU...........CCUGAGCAUC
+X.laevis.2               UGAAAAG......CUUUGAACU...........CCUGAGCAUC
+X.laevis.3               UGAAAAG......CUUUGAACU...........CCUGAGCAUC
+X.laevis.4               UGAAAAG......CUUUGAACU...........CCUGAGCAUC
+X.laevis.5               UGAAAAG......CUUUGAACU...........CCUGAGCAUC
+M.musculus.1             UGAAAAC......ACAGGAACA...........CCUGAGAAAC
+H.sapiens.1              UGAAAAU......ACAUGAACA...........CCUGAGAAAC
+O.sativa.1               UGGGUUGUUUGGGAUAUGAACUUUCCCUUA.UACCUGAGCAGA
+O.sativa.2               UGGGUUGUUUGGGAUAUGAACUUUCCCUUA.UACCUGAGCAGA
+O.sativa.3               UGGGUUGUCUUGGAUAUGAACUUUUCCUUUGUAUCUGAGCUUA
+#=GC SS_cons             ......................................>>>..
+//

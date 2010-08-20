@@ -1,0 +1,63 @@
+# STOCKHOLM 1.0
+#=GF ID    Plasmid_RNAIII
+#=GF AC    RF00235
+#=GF DE    Plasmid RNAIII
+#=GF AU    Bateman A
+#=GF GA    25.0
+#=GF NC    0.0
+#=GF TC    131.7
+#=GF SE    Pubmed:14583190
+#=GF SS    Predicted; ILM
+#=GF TP    Gene;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    14583190
+#=GF RT    Antisense-RNA mediated transcriptional attenuation: importance of a
+#=GF RT    U-turn loop structure in the target RNA of plasmid pIP501 for
+#=GF RT    efficient inhibition by the antisense RNA.
+#=GF RA    Heidrich N, Brantl S;
+#=GF RL    J Mol Biol 2003;333:917-929.
+#=GF CC    This RNA is found in bacterial plasmids including pIP501.
+#=GF CC    RNAIII acts by transcriptional attenuation of the essential
+#=GF CC    repR-mRNA. RNAIII is composed of four stem loops with
+#=GF CC    loops L3 and L4 that interact with the RNA target [1].
+#=GF WK    http://en.wikipedia.org/wiki/Plasmid_RNAIII
+#=GF SQ    7
+
+#=GS Enterococcus_faecali.1 AC    AE016833.1/45634-45764
+#=GS E.faecalis.1           AC    X92945.2/34918-35048
+#=GS S.agalactiae.1         AC    X17655.1/336-463
+#=GS S.pyogenes.1           AC    X64695.1/214-344
+#=GS S.agalactiae.2         AC    X72021.1/336-463
+#=GS S.agalactiae.3         AC    U83488.1/6157-6284
+#=GS S.pyogenes.2           AC    X66468.1/349-479
+
+Enterococcus_faecali.1             ACAGAUAUUUAAGUAUCUGAUUAAUAAAGUAAUUAAAUACUUUACCAAAU
+E.faecalis.1                       ACAGAUAUUUAAGUAUCUGAUUAAUAAAGUAAUUAAAUACUUUACCAAAU
+S.agalactiae.1                     ACAGAUAUUUAAGUAUCUGAUUAAUAAAGUAAUUAAAUACUUUACCAAAU
+S.pyogenes.1                       ACAGAUAUUUAAGUAUCUGAUUAAUAAAGUAAUUAAAUACUUUACCAAAU
+S.agalactiae.2                     ACAGAUAUUUAAGUAUCUGAUUAAUAAAGUAAUUAAAUACUUUACCAAAU
+S.agalactiae.3                     ACAGAUAUUUAAGUAUCUGAUUAAUAAAGUAAUUAAAUACUUUACCAAAU
+S.pyogenes.2                       ACAGAUAUUUAAGUAUCUGAUUAAUAAAGUAAUUAAAUACUUUACCAAAU
+#=GC SS_cons                       .<<<<<<<....>>>>>>>.....<<<<<<<......>>>>>>>......
+
+Enterococcus_faecali.1             UUCGGGUCUCGACUUCUUUAAUUGAUUGGUGGUAAUCAAUUAAGGCUCGC
+E.faecalis.1                       UUUGGGUCUCGACUUCUUUAAUUGAUUGGUGGUAAUCAAUUAAGGCUCGC
+S.agalactiae.1                     UUUGGGUCUCGACUUCUUUAAUUGAUUGGUGGUAAUCAAUUAAGGCUCGC
+S.pyogenes.1                       UUUGGGUCUCGACUUCUUUAAUUGAUUGGUGGUAAUCAAUUAAGGCUCGC
+S.agalactiae.2                     UUUGGGUCUCGACUUCUUUAAUUGAUUGGUGGUAAUCAAUUAAGGCUCGC
+S.agalactiae.3                     UUUGGGUCUCGACUUCUUUAAUUGAUUGGUGGUAAUCAAUUAAGGCUCGC
+S.pyogenes.2                       UUUGGGUCUCGACUUCUUUAAUUGAUUGGUGGUAAUCAAUUAAGGCUCGC
+#=GC SS_cons                       ..<<<<.........<<<<<<<<<<<<<....>>>>>>>>>>>>>>>>>.
+
+Enterococcus_faecali.1             AACUUAUUUUCUUGGCGGAAAAUAAGUUGGU
+E.faecalis.1                       AACUUAUUUUCUUGGCGGAAAAUAAGUUGGU
+S.agalactiae.1                     .AGUUAAAAUUUCU.CAGGCUUUAACU.GGU
+S.pyogenes.1                       AACUUAUUUUCUUGGCGGAAAAUAAGUUGGU
+S.agalactiae.2                     .AGUUAAAAUUUCU.CAGGCUUUAACU.GGU
+S.agalactiae.3                     .AGUUAAAAUUUCU.CAGGCUUUAACU.GGU
+S.pyogenes.2                       AACUUAUUUUCUUGGCGGAAAAUAAGUUGGU
+#=GC SS_cons                       ..<<<<<<<<<<....>>>>>>>>>>.....
+//

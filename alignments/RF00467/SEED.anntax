@@ -1,0 +1,100 @@
+# STOCKHOLM 1.0
+#=GF ID    RSV_PBS
+#=GF AC    RF00467
+#=GF DE    Rous sarcoma virus (RSV) primer binding site (PBS)
+#=GF AU    Moxon SJ
+#=GF GA    27.0
+#=GF NC    26.7
+#=GF TC    27.0
+#=GF SE    PMID:15153244
+#=GF SS    Published; PMID:15153244
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    15153244
+#=GF RT    Selection of functional mutations in the U5-IR stem and loop regions
+#=GF RT    of the Rous sarcoma virus genome.
+#=GF RA    Johnson M, Morris S, Chen A, Stavnezer E, Leis J;
+#=GF RL    BMC Biol 2004;2:8.
+#=GF CC    This family represents a structured region around the Rous sarcoma virus
+#=GF CC    primer binding site (PBS). This region is known to be required for the
+#=GF CC    efficient initiation of reverse transcription [1].
+#=GF WK    http://en.wikipedia.org/wiki/Rous_sarcoma_virus_(RSV)_primer_binding_site_(PBS)
+#=GF SQ    23
+
+#=GS G.gallus.1             AC    CR523283.1/39-113
+#=GS Avian_leukosis_virus.1 AC    AY027920.1/280-354
+#=GS Rous_sarcoma_virus.1   AC    X03980.1/56-130
+#=GS Rous_sarcoma_virus.2   AC    L29198.1/285-359
+#=GS Rous_sarcoma_virus.3   AC    M31387.1/56-130
+#=GS Avian_sarcoma_virus_.1 AC    Y00302.1/56-130
+#=GS Avian_sarcoma_virus_.2 AC    L21974.1/290-364
+#=GS Rous_sarcoma_virus.4   AC    M11786.1/56-130
+#=GS Avian_leukosis_virus.2 AC    AY350569.1/56-130
+#=GS Avian_myeloblastosis.1 AC    X51496.1/44-118
+#=GS Avian_erythroblastos.1 AC    X06197.1/56-130
+#=GS UR2_sarcoma_virus.1    AC    M10455.1/56-130
+#=GS Rous_sarcoma_virus_-.1 AC    D10652.1/56-130
+#=GS Avian_leukosis_virus.3 AC    Z46390.1/280-354
+#=GS Rous_sarcoma_virus.5   AC    M21526.1/290-364
+#=GS Rous_sarcoma_virus.6   AC    X68524.1/56-130
+#=GS Rous_sarcoma_virus.7   AC    AF033808.1/56-130
+#=GS Avian_leukosis_virus.4 AC    AY013304.1/231-305
+#=GS Rous_sarcoma_virus.8   AC    J02339.1/57-131
+#=GS Y73_sarcoma_virus.1    AC    V01170.1/56-130
+#=GS Avian_sarcoma_virus.1  AC    X51863.1/290-364
+#=GS Avian_myeloblastosis.2 AC    L10923.1/347-421
+#=GS Avian_myelocytomatos.1 AC    V01174.1/383-457
+
+G.gallus.1                         AGUCCCUAACGAUUGCGAACACCUGAAUGAAGCUGAAGGCUUCAUUUGGU
+Avian_leukosis_virus.1             AUUCCCUGACGACUACGAGCACCUGAAUGAACCAGAAGGCUUCAUUUGGU
+Rous_sarcoma_virus.1               AUUCCCUGACGACUACGAGCACAUGCAUGAAGCAGAAGGCUUCAUUUGGU
+Rous_sarcoma_virus.2               AUUCCCUGACGACUACGAGCACCUGCAUGAAGCAGAAGGCUUCAUUUGGU
+Rous_sarcoma_virus.3               AUUCCCUGACGACUACGAGCACAUGCAUGAAGCAGAAGGCUUCAUUUGGU
+Avian_sarcoma_virus_.1             AGUCCCUAACGAUUGCGAACACCUGCAUGAAGCGAAAGGCUUCAUUUGGU
+Avian_sarcoma_virus_.2             AGUCCCUAACGAUUGCGAACACCUGAAUGAAGCAGAAGGCUUCAUUUGGU
+Rous_sarcoma_virus.4               AUUCCCUAACGACUACGAGCACCUGCAUGAAGCAGAAGGCUUCAUUUGGU
+Avian_leukosis_virus.2             AUUCCCUGACGACUACGAGCACAUGCAUGAAGCAGAAGGCUUCAUUUGGU
+Avian_myeloblastosis.1             AUUCCCUGACGACUGCGAACACCUGAAUGAAGCUGAAGGCUUCAUUUGGU
+Avian_erythroblastos.1             AGUCCCUAACGAUUGCGAACACCUGAAUGAAGCGGAAGGCUUCAUUUGGU
+UR2_sarcoma_virus.1                AUUCCCUGACGACUACGAACACCUAAAUGAAGCGGAAGGCUUCAUUUGGU
+Rous_sarcoma_virus_-.1             AGUCCCUAACGGUUGCGAACACCUGGAUGAAGCAGAAGGCUUCAUUUGGU
+Avian_leukosis_virus.3             AUUCCCUGACAACUACGAGCACCUGCAUGAAGCGGAUGGCUUCAUUUGGU
+Rous_sarcoma_virus.5               AGUCCCUAACGAUUGCGAACACCUGAAUGAAGCAGAAGGCUUCAUUUGGU
+Rous_sarcoma_virus.6               AUUCCCUAACGAUUGCGAACACCUGAAUGAAGCAGAAGGCUUCAUUUGGU
+Rous_sarcoma_virus.7               AUUCCCUAACGAUUGCGAACACCUGAAUGAAGCAGAAGGCUUCAUUUGGU
+Avian_leukosis_virus.4             AGUCCCUAACGAUUGCGAACACCUGAAUGAAGCAGAAGGCUUCAUUUGGU
+Rous_sarcoma_virus.8               AUUCCCUGACGACUACGAGCACAUGCAUGAAGCAGAAGGCUUCAUUUGGU
+Y73_sarcoma_virus.1                AUUCCCUGACGACUACGAGCACCUGAAUGAAGCAGAAGGCUUCAUUUGGU
+Avian_sarcoma_virus.1              AUUCCCUAACGAUUGCGAACACCUGAAUGAAGCAGAAGGCUUCAUUUGGU
+Avian_myeloblastosis.2             AUUCCCUGACGACUACGAGCACCUGCAUGAAGCAGAAGGCUUCAUUUGGU
+Avian_myelocytomatos.1             AGUCCCUAACGAUUACGCGAACCUGAAUGAAGCAGAAGGCUUCAUUUGGU
+#=GC SS_cons                       ..<<<<<<<<................<<<<<<<.....>>>>>>>.....
+
+G.gallus.1                         GACCCCGACGUGAUCGUUAGGGAAU
+Avian_leukosis_virus.1             GACCCCGACGUGAUCGUUAGGGAAU
+Rous_sarcoma_virus.1               GACCCCGACGUGAUCGUUAGGGAAU
+Rous_sarcoma_virus.2               GACCCCGACGUGAUAGUUAGGGAAU
+Rous_sarcoma_virus.3               GACCCCGAUGUGAGGGUUAGGGAAU
+Avian_sarcoma_virus_.1             GACCCCGACGUGAUCGUUAGGGAAU
+Avian_sarcoma_virus_.2             GACCCCGACGUGAUAGUUAGGGAAU
+Rous_sarcoma_virus.4               GACCCCGACGUGAUCGUUAGGGAAU
+Avian_leukosis_virus.2             GACCCCGACGUGAUCAUUAGGGAAU
+Avian_myeloblastosis.1             GACCCCGACGUGAUCGUUAGGGAAU
+Avian_erythroblastos.1             GACCCCGACGUGAUCGUUAGGGAAU
+UR2_sarcoma_virus.1                GACCCCGACGUGAUAGUUAGGGAAU
+Rous_sarcoma_virus_-.1             GACCCCGACGUGAUAGUUAGGGAAU
+Avian_leukosis_virus.3             GACCCCGAUGUGAUAGUUAGGGAAU
+Rous_sarcoma_virus.5               GACCCCGACGUGAUGGUUAGGGAAU
+Rous_sarcoma_virus.6               GACCCCGACGUGAUCGUUAGGGAAU
+Rous_sarcoma_virus.7               GACCCCGACGUGAUAGUUAGGGAAU
+Avian_leukosis_virus.4             GACCCCGACGUGAUCGUUAGGGAAU
+Rous_sarcoma_virus.8               GACCCCGACGUGAUUGUUAGGGAAU
+Y73_sarcoma_virus.1                GACCCCGACGUGAUCGUUAGGGAAU
+Avian_sarcoma_virus.1              GACCCCGACGUGAUGGUUAGGGAAU
+Avian_myeloblastosis.2             GACCCCGACGUGAUCGUUAGGGAAU
+Avian_myelocytomatos.1             GACCCCGACGUGAUCGUUAGGGAAU
+#=GC SS_cons                       ...............>>>>>>>>..
+//

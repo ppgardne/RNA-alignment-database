@@ -1,0 +1,54 @@
+# STOCKHOLM 1.0
+#=GF ID    IS1222_FSE
+#=GF AC    RF00383
+#=GF DE    Insertion sequence IS1222 ribosomal frameshifting element
+#=GF AU    Moxon SJ
+#=GF GA    30.0
+#=GF NC    28.7
+#=GF TC    31.9
+#=GF SE    PMID:15126494
+#=GF SS    Published; PMID:15126494
+#=GF TP    Cis-reg; frameshift_element;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    15126494
+#=GF RT    -1 frameshifting at a CGA AAG hexanucleotide site is required for
+#=GF RT    transposition of insertion sequence IS1222.
+#=GF RA    Mejlhede N, Licznar P, Prere MF, Wills NM, Gesteland RF, Atkins JF,
+#=GF RA    Fayet O;
+#=GF RL    J Bacteriol 2004;186:3274-3277.
+#=GF CC    This family represents the insertion sequence IS1222 ribosomal
+#=GF CC    frameshifting element. The element stimulates frameshifting which is
+#=GF CC    known to be required for transposition [1].
+#=GF WK    http://en.wikipedia.org/wiki/Insertion_sequence_IS1222_ribosomal_frameshifting_element
+#=GF SQ    5
+
+#=GS K.pneumoniae.1     AC    AY378100.1/192650-192767
+#=GS P.agglomerans.1    AC    X78052.1/454-571
+#=GS P.agglomerans.2    AC    AF324174.1/302-419
+#=GS R.aquatilis.1      AC    AY528232.1/302-419
+#=GS Y.enterocolitica.1 AC    AJ414030.1/14-131
+
+K.pneumoniae.1                 GGCACUUCAGGUGGCUCUGGGGCGAAAGUACUGACGACAGACCAGAAGCG
+P.agglomerans.1                GGCGCUUCAGGUGGCUCUUGGGCGAAAGUACUGACGACAGACCAGAAGCG
+P.agglomerans.2                GGCGCUUCAGGUGGCUCUGGGUCGAAAGUUCUGACGACAGACCAGAAGCG
+R.aquatilis.1                  GGCGCUUCAGGUGGCUCUGGGGCGAAAGUACUGACGACAGACCAGAAGCG
+Y.enterocolitica.1             GGCGCUUCAGGUGGCUCUUGGGCGAAAGUACUGACGACAGACCAGAAGCG
+#=GC SS_cons                   ..................................<<<<<<<<<....<<<
+
+K.pneumoniae.1                 GGAAGCCGUUGAGUUUAUGUGUGAUGCGACCGGUCUGUCGCAACGUCGUG
+P.agglomerans.1                GGAAGCCGUGAUGUUGAUAUGUGAUGCGACCGGUCUGUCGCAACGUCGUG
+P.agglomerans.2                GGAAGCCGUGGACGUCAUGUGUGAGGUCGCCGGUCUGUCGCAACGUCGUG
+R.aquatilis.1                  GGAAGCCGUGAUGUUGAUGUGUGAUGCGACCGGUCUGUCGCAACGUCGUG
+Y.enterocolitica.1             GGAAGCCGUGAUGUUGAUGUGUGAUGCGACCGGUCUGUCGCAACGUCGUG
+#=GC SS_cons                   <....>>>>...<<<<..........>>>>.>>>>>>>>>..........
+
+K.pneumoniae.1                 CCUGCAGGCUUACAGGUU
+P.agglomerans.1                CCUGCAGGCUCACAGGUU
+P.agglomerans.2                CCUGCAGGCUGGCAGGUC
+R.aquatilis.1                  CCUGCAGGCUUACAGGUU
+Y.enterocolitica.1             CCUGCAGGCUAACAGGUU
+#=GC SS_cons                   ..................
+//

@@ -1,0 +1,162 @@
+# STOCKHOLM 1.0
+#=GF ID    Qrr
+#=GF AC    RF00378
+#=GF DE    Qrr RNA
+#=GF AU    Moxon SJ
+#=GF GA    26.0
+#=GF NC    0.0
+#=GF TC    30.5
+#=GF SE    PMID:15242645
+#=GF SS    Published; PMID:15242645; Moxon SJ
+#=GF TP    Gene; sRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000655 SO:ncRNA
+#=GF RN    [1]
+#=GF RM    15242645
+#=GF RT    The Small RNA Chaperone Hfq and Multiple Small RNAs Control Quorum
+#=GF RT    Sensing in Vibrio harveyi and Vibrio cholerae.
+#=GF RA    Lenz DH, Mok KC, Lilley BN, Kulkarni RV, Wingreen NS, Bassler BL;
+#=GF RL    Cell 2004;118:69-82.
+#=GF CC    This family represents a set of small RNAs (the Qrr RNAs) that are thought
+#=GF CC    to be involved in the regulation of quorum sensing in Vibrio species. It is
+#=GF CC    believed that these RNAs, guided by a protein, Hfq, can mediate the
+#=GF CC    destabilisation of the quorum-sensing master regulators LuxR/HapR mRNAs
+#=GF CC    [1].
+#=GF WK    http://en.wikipedia.org/wiki/Qrr_RNA
+#=GF SQ    31
+
+#=GS V.fischeri.1           AC    AF228519.1/518-623
+#=GS L.anguillarum.1        AC    AY525157.1/333-427
+#=GS Photobacterium.1       AC    AAOU01000009.1/38505-38611
+#=GS P.profundum.1          AC    CR378666.1/200099-200201
+#=GS Vibrio_parahaemolyti.1 AC    AAWQ01000017.1/35050-35158
+#=GS Vibrio_cholerae_O395.1 AC    CP000626.1/316725-316831
+#=GS Vibrio.1               AC    AAKK02000001.1/250460-250568
+#=GS Vibrio_vulnificus_YJ.1 AC    BA000038.2/627093-627201
+#=GS Vibrio_vulnificus_YJ.2 AC    BA000038.2/77804-77914
+#=GS Vibrio_vulnificus_YJ.3 AC    BA000037.2/1211462-1211555
+#=GS Vibrio.2               AC    AAND01000001.1/259777-259885
+#=GS Vibrio_vulnificus_CM.1 AC    AE016796.1/836623-836730
+#=GS Vibrio_parahaemolyti.2 AC    AAWQ01000033.1/32697-32791
+#=GS Vibrio_shilonii_AK1.1  AC    ABCH01000003.1/97606-97713
+#=GS Vibrio_cholerae_V51.1  AC    AAKI02000122.1/2058-2167
+#=GS Vibrio_cholerae_MZO-.1 AC    AAUU01000009.1/33657-33752
+#=GS Vibrio_alginolyticus.1 AC    AAPS01000004.1/297662-297770
+#=GS Vibrio_vulnificus_CM.2 AC    AE016796.1/1798876-1798984
+#=GS Vibrio.3               AC    AAKK02000008.1/84530-84638
+#=GS Vibrio_vulnificus_CM.3 AC    AE016796.1/1358376-1358485
+#=GS Vibrio_harveyi_HY01.1  AC    AAWP01000018.1/40244-40352
+#=GS Vibrio_parahaemolyti.3 AC    AAWQ01000003.1/93982-94089
+#=GS Vibrio_splendidus_12.1 AC    AAMR01000015.1/54266-54374
+#=GS Vibrio_alginolyticus.2 AC    AAPS01000011.1/74021-74129
+#=GS Vibrio_cholerae_NCTC.1 AC    AAWD01000001.1/11476-11583
+#=GS Vibrio_vulnificus_YJ.4 AC    BA000038.2/524169-524277
+#=GS Vibrio_harveyi_HY01.2  AC    AAWP01000010.1/13270-13378
+#=GS Vibrionales_bacteriu.1 AC    AAZW01000005.1/104523-104630
+#=GS Vibrionales_bacteriu.2 AC    AAZW01000001.1/225699-225809
+#=GS Vibrionales_bacteriu.3 AC    AAZW01000005.1/96839-96948
+#=GS M.brevicollis.1        AC    AC198531.1/23125-23233
+
+V.fischeri.1                       UGACCC.UU..U.AAGCCAAAGGGUCA.CCUAGCCAACUGACGUUGUUAG
+L.anguillarum.1                    UGACCC.UU..A.G.......GGGUCA.CCUAGCCAACUGACGUUGUUAG
+Photobacterium.1                   AUGACU.CU..U.AAGUUAAGAGUCAA.CCUAGCCAACUGACGUUGUUUG
+P.profundum.1                      UGACUC.UU..A.AUGUA...GAGUCAACCUAGCCAACUGACGUUGUUUG
+Vibrio_parahaemolyti.1             UGACCC.UUA.U.UAAGCCGAGGGUCA.CCUAGCCAACUGACGUUGUUAG
+Vibrio_cholerae_O395.1             UGACCC.UU..C.UAAGCCGAGGGUCA.CCUAGCCAACUGACGUUGUUAG
+Vibrio.1                           CGACCC.UUC.U.UAAGCCGAGGGUCA.CCUAGCCAACUGACGUUGUUAG
+Vibrio_vulnificus_YJ.1             UGACCCUUU..U.UAAGCCGAGGGUCA.CCUAGCCAACUGACGUUGUUAG
+Vibrio_vulnificus_YJ.2             CGACCC.UUA.U.UAAGCCGAGGGUCA.CCUAGCCAACUGACGUUGUUAG
+Vibrio_vulnificus_YJ.3             CGACCC.CU..C.........GGGUCA.CCUAGCCAACUGACGUUGUUAG
+Vibrio.2                           UGACCC.UUC.U.UAAGCCGAGGGUCA.CCUAGCCAACUGACGUUGUUAG
+Vibrio_vulnificus_CM.1             UGACCC.UUA.U.UAAGCCGAGGGUCA.CCUAGCCAACUGACGUUGUUAG
+Vibrio_parahaemolyti.2             CGACCC.CU..C.........GGGUCA.CCUAGCCAACUGACGUUGUUAG
+Vibrio_shilonii_AK1.1              CGACCC.UC..U.GAUUUAA.GGGUCA.CCUAGCCAACUGACGUUGUUAG
+Vibrio_cholerae_V51.1              UGACCC.UUAAU.UAAGCCGAGGGUCA.CCUAGCCAACUGACGUUGUUAG
+Vibrio_cholerae_MZO-.1             UGACCC...........GCAAGGGUCA.CCUAGCCAACUGACGUUGUUAG
+Vibrio_alginolyticus.1             UGACCC.UUA.U.UAAGCCGAGGGUCA.CCUAGCCAACUGACGUUGUUAG
+Vibrio_vulnificus_CM.2             UGACCC.UUA.U.UAAGCCGAGGGUCA.CCUAGCCAACUGACGUUGUUAG
+Vibrio.3                           UGACCC.UU..UCUAAGCCGAGGGUCA.CCUAGCCAACUGACGUUGUUAG
+Vibrio_vulnificus_CM.3             CGACCC.UUA.U.UAAGCCGAGGGUCA.CCUAGCCAACUGACGUUGUUAG
+Vibrio_harveyi_HY01.1              CGACCC.UUC.U.UAAGCCGAGGGUCA.CCUAGCCAACUGACGUUGUUAG
+Vibrio_parahaemolyti.3             UGACCC.UU..UCUAAGCCGAGGGUCA.CCUAGCCAACUGACGUUGUUAG
+Vibrio_splendidus_12.1             UGACCC.UUC.U.UAAGCCGAGGGUCA.CCUAGCCAACUGACGUUGUUAG
+Vibrio_alginolyticus.2             UGACCC.UU..UCUAAGCCGAGGGUCA.CCUAGCCAACUGACGUUGUUAG
+Vibrio_cholerae_NCTC.1             UGACCC.UUG.U.UAAGCCGAGGGUCA.CCUAGCCAACUGACGUUGUUAG
+Vibrio_vulnificus_YJ.4             UGACCC.UUA.U.UAAGCCGAGGGUCA.CCUAGCCAACUGACGUUGUUAG
+Vibrio_harveyi_HY01.2              UGACCC.UUC.U.UAAGCCGAGGGUCA.CCUAGCCAACUGACGUUGUUAG
+Vibrionales_bacteriu.1             UGACCC.UUC.U.UAAGCCGAGGGUCA.CCUAGCCAACUGACGUUGUUAG
+Vibrionales_bacteriu.2             UGACCC.UUC.U.UAAGCCGAGGGUCA.CCUAGCCAACUGACGUUGUUAG
+Vibrionales_bacteriu.3             UGACCC.UUC.U.UAAGCCGAGGGUCA.CCUAGCCAACUGACGUUGUUAG
+M.brevicollis.1                    CGACCC.UUC.U.UAAGCCGAGGGUCA.CCUAGCCAACUGACGUUGUUAG
+#=GC SS_cons                       <<<<<<...............>>>>>>................<<<<..<
+#=GC RF                            uGaCCC.UU..U.AAGccAAAGGGuCa.ccUAGccAAcUGAcGuuguUAG
+
+V.fischeri.1                       UGAAAU....UUA...C..UUUCACAUGAACAAUA.A.AGCCAACCG.G.
+L.anguillarum.1                    UGAAUA....AAG...U..GUUCACA.....AAUA.ACAGCCAAUAG.A.
+Photobacterium.1                   UGGAUU....UUU.......UUCACUAAAACAAUG.A.CGCCAACCG.AA
+P.profundum.1                      UGGAAU....GAA.......UUCACUAAAACAAUG.A.UGCCAACCG.A.
+Vibrio_parahaemolyti.1             UGAAUAC...ACA..UU..GUUCACAAGUAU.AUA.C.CGCCAAUCA.CC
+Vibrio_cholerae_O395.1             UGAACA....CCA..UU..GUUCACACUUAUAG.A.C.GGCCAAUCA.CA
+Vibrio.1                           UGAACU....UGAUUUU..GUUCACAUGUAU.AUA.A..GCCAAUCG.C.
+Vibrio_vulnificus_YJ.1             UGAACC....UGA..UU..GUUCACAAAUAU.AUA.C.AGCCAAUCA.CC
+Vibrio_vulnificus_YJ.2             UGAAUAC...ACA..UU..GUUCACAUCAUACAUA.A..GCCAAUCG.CA
+Vibrio_vulnificus_YJ.3             UGAACC....UAG...U..GUUCACA..AUUGAUA.G...CCAAUAG.U.
+Vibrio.2                           UGAACCC...AUA..UU..GUUCACACAAAAUAUA.U.GACCAAUCA.C.
+Vibrio_vulnificus_CM.1             UGAACU....UGA.UUU..GUUCACAUGUAU.AUA.A..GCCAAUCG.CA
+Vibrio_parahaemolyti.2             UGAACG....AUA...U..GUUCAC....AAAACA.A..GCCAAUAGAC.
+Vibrio_shilonii_AK1.1              UGAACACC..UCU...U..GUUCACACG..UUAUA.U.AGCCAAUCG.CC
+Vibrio_cholerae_V51.1              UGAAUG....AAA..UU..GUUCACAUUUGUUUUA.UCAGCCAAUCA.C.
+Vibrio_cholerae_MZO-.1             UGAAUAA...UCA..AU..GUUCACA.....AAUA.ACAGCCAAUAG.A.
+Vibrio_alginolyticus.1             UGAAUA....CAA.AUU..GUUCACAAGUAU.AUA.C.CGCCAAUCA.C.
+Vibrio_vulnificus_CM.2             UGAAUAA...UGA.CUU..GUUCACACAUAU.AUA.C.GGCCAAACA.C.
+Vibrio.3                           UGAACCA...CUU...U..GUUCACAAAUAU.AUA.C.AGCCAAUCA.C.
+Vibrio_vulnificus_CM.3             UGAAUAC...ACA..UU..GUUCACAUCAUACAUA.A.GCCAAUCGC.A.
+Vibrio_harveyi_HY01.1              UGAAUAC...ACA..UU..GUUCACAAAAUACAUA.A..GCCAAUCG.C.
+Vibrio_parahaemolyti.3             UGAACC....CAA..UU..GUUCACAAGUAU.AUA.C.AGCCAAUCA.CA
+Vibrio_splendidus_12.1             UGAACC....UUU...GUUGUUCACGAUAUAUAUA.G..GCCAAUUG.C.
+Vibrio_alginolyticus.2             UGAACCA...UCU...U..GUUCACAAAUAU.AUA.C.AGCCAAUCA.C.
+Vibrio_cholerae_NCTC.1             UGAAUA....GUA..UU..GUUCACAUCAUAUAUA.A..GCCAAUCG.CG
+Vibrio_vulnificus_YJ.4             UGAAUAA...UGA.CUU..GUUCACAC.AUAAAUA.C.GGCCAAACA.C.
+Vibrio_harveyi_HY01.2              UGAACU....CGAAUUU..GUUCAC...AAAUAUAUA.AGCCAAUCG.CA
+Vibrionales_bacteriu.1             UGAACCU...UUA..UU..GUUCACACAAAAUAUA.U.GACCAAUCA.C.
+Vibrionales_bacteriu.2             UGAACCUAUGUUU...U..GUUCACAAAUAU.AUA.G.AGCCAAUCG.C.
+Vibrionales_bacteriu.3             UGAACCUA..UUC..UU..GUUCACAAAAUAUAUA.A..GCCAAUCG.C.
+M.brevicollis.1                    UGAAUA....CAA.UUU..GUUCACACUAAAUAUA.A..GCCAAUCG.C.
+#=GC SS_cons                       <<<<<<..........>..>>>>>>.......>>>.>...<<<<<<<.<.
+#=GC RF                            uGaaag....UUA...c..uuuCaCAUGAAcAaua.a.AGCCaaCCG.g.
+
+V.fischeri.1                       ..G.A..UA..UU..G.CGGUUGGCUUCUUUUUU
+L.anguillarum.1                    ..C.C..UU..UU..U.CUAUUGGCUAUUUUUUU
+Photobacterium.1                   ..C.C..UU..UUUAU.CGGUUGGCUUUUUUUUA
+P.profundum.1                      ..A.AC.UA..UU..C.CGGUUGGUUUUUUUUUA
+Vibrio_parahaemolyti.1             ..U.U..UC..UU..G.UGAUUGGCGUUUUUUCU
+Vibrio_cholerae_O395.1             ..C.U..UC..UU..G.UGGUUGGCCUUUUUUUU
+Vibrio.1                           ..A.C..UC..UU.UG.CGGUUGGCUAUUUUUUU
+Vibrio_vulnificus_YJ.1             U.C.G..UA..UU..G.UGAUUGGCUUUUUUUUU
+Vibrio_vulnificus_YJ.2             CUC.A..UU..UU..G.CGGUUGGUUUUUUUUUU
+Vibrio_vulnificus_YJ.3             ..G.A..AA..UG..A.CUGUUGGCUUUUUUUUG
+Vibrio.2                           ..C.C..UU..UU..G.UGAUUGGUUUUUUUUUG
+Vibrio_vulnificus_CM.1             ..C.C..UU..UU..G.CGGUUGGCUCUUUUUUU
+Vibrio_parahaemolyti.2             ..C.C..GA..CU..GCCUAUUGGCUUCUUUUUU
+Vibrio_shilonii_AK1.1              UUG.U..UU..UC..G.CGAUUGGCUUUUUUCUU
+Vibrio_cholerae_V51.1              ..C.C..UU..UU..G.UGAUUGGCUUUUUUCUU
+Vibrio_cholerae_MZO-.1             ..C.U..CA..U...U.CUAUUGGCUAUUUUUUU
+Vibrio_alginolyticus.1             ..GUU..UA..UU..G.UGAUUGGCGUUUUUUCU
+Vibrio_vulnificus_CM.2             ..C.U..GA..UU..G.UGUUUGGCCUUUUUUUA
+Vibrio.3                           ..G.AAUCC..UU..G.UGGUUGGCUUUUUUUAU
+Vibrio_vulnificus_CM.3             ..C.U..UA..UU.UU.GCGGUUGGUUUUUUUUU
+Vibrio_harveyi_HY01.1              ..C.C..UAA.UU..G.CGGUUGGCUAUUUUUUU
+Vibrio_parahaemolyti.3             ..C.A..CC..UU..G.UGGUUGGCUUUUUUUUU
+Vibrio_splendidus_12.1             ..G.AA.UA..UU..G.CGAUUGGCCAUUUUUUU
+Vibrio_alginolyticus.2             ..G.A..CUCCUU..G.UGGUUGGCUUUUUUUUA
+Vibrio_cholerae_NCTC.1             ..G.U..UC..UU..G.CGAUUGGCUAUUUUUUU
+Vibrio_vulnificus_YJ.4             ..C.U..GA..UU..G.UAUUUGGCCUUUUUUUU
+Vibrio_harveyi_HY01.2              ..C.A..AA..UU..G.CGGUUGGCUAUUUUUUU
+Vibrionales_bacteriu.1             ....A..CG..UU..G.UGAUUGGUUUUUUUUGC
+Vibrionales_bacteriu.2             ..G.AU.UA..UU..G.CGGUUGGCUAUUUUUUU
+Vibrionales_bacteriu.3             ..G.AU.UA..UU..G.CGGUUGGCUAUUUUUUU
+M.brevicollis.1                    ..G.AU.UA..UU..G.CGGUUGGCUAUUUUUUU
+#=GC SS_cons                       ...............>.>>>>>>>..........
+#=GC RF                            ..G.A..UA..UU..c.CGGuuGGcUUcUUUUUU
+//

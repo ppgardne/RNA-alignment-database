@@ -1,0 +1,31 @@
+# STOCKHOLM 1.0
+#=GF ID    UPD-PKg
+#=GF AC    RF01112
+#=GF DE    Pseudoknot of upstream pseudoknot domain (UPD) of the 3'UTR
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    28.8
+#=GF SE    Pseudobase
+#=GF SS    Pseudobase
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    PKBASE; PKB00188
+#=GF DR    PKBASE; PKB00199
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    10603167
+#=GF RT    Molecular characterization of a new furovirus mainly infecting rye.
+#=GF RA    Koenig R, Pleij CW, Huth W;
+#=GF RL    Arch Virol. 1999;144:2125-2140.
+#=GF WK    http://en.wikipedia.org/wiki/UPSK_RNA
+#=GF SQ    2
+
+#=GS Soil-borne_cereal_mo.1 AC    AF146278.1/6726-6746
+#=GS Soil-borne_wheat_mos.1 AC    L07937.1/6800-6820
+
+Soil-borne_cereal_mo.1             CGUUGCCGUCACGAUAGACGG
+Soil-borne_wheat_mos.1             CGUGGUCAGUACGAUAACUGA
+#=GC SS_cons                       AAA..<<<<<aaa...>>>>>
+//

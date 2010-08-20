@@ -1,0 +1,73 @@
+# STOCKHOLM 1.0
+#=GF ID    Rota_CRE
+#=GF AC    RF00501
+#=GF DE    Rotavirus cis-acting replication element (CRE)
+#=GF AU    Moxon SJ
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    25.8
+#=GF SE    PMID:
+#=GF SS    Predicted; Pfold; Moxon SJ
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    11289804
+#=GF RT    Features of the 3'-consensus sequence of rotavirus mRNAs critical to
+#=GF RT    minus strand synthesis.
+#=GF RA    Chen D, Barros M, Spencer E, Patton JT;
+#=GF RL    Virology 2001;282:221-229.
+#=GF CC    This family represents a Rotavirus cis-acting replication element (CRE)
+#=GF CC    found at the 3'-end of rotavirus mRNAs. The family is thought to promote
+#=GF CC    the synthesis of minus strand RNA to form viral dsRNA [1].
+#=GF WK    http://en.wikipedia.org/wiki/Rotavirus_cis-acting_replication_element_(CRE)
+#=GF SQ    14
+
+#=GS P.rotavirus.1          AC    X06722.1/992-1059
+#=GS Simian_rotavirus_ASA.1 AC    J02353.1/992-1059
+#=GS Rotavirus_subgroup_2.1 AC    X57944.1/992-1059
+#=GS H.rotavirus.1          AC    AF506293.1/992-1056
+#=GS H.rotavirus.2          AC    AB022770.1/991-1058
+#=GS B.rotavirus.1          AC    J02420.1/992-1059
+#=GS B.rotavirus.2          AC    Z21640.1/992-1059
+#=GS H.rotavirus.3          AC    AF506018.1/992-1059
+#=GS Rotavirus.1            AC    L04534.1/991-1058
+#=GS Rotavirus.2            AC    L04529.1/992-1059
+#=GS Rotavirus.3            AC    L04531.1/992-1059
+#=GS Rotavirus.4            AC    L04530.1/992-1059
+#=GS Rotavirus.5            AC    L04532.1/991-1058
+#=GS Rotavirus.6            AC    L20901.2/990-1057
+
+P.rotavirus.1                      GGAAUUUAAUUCGCUUUCGAUUCAAGGAUGAUGAUGACGGAGCAAGAAUA
+Simian_rotavirus_ASA.1             GGAAUUUAAUUCGUUAUCGAUUUGAGAAUGGGUAUGACAAAGUAAGAAUA
+Rotavirus_subgroup_2.1             GGAAUUUAAUUCGCUUUCGGUUCAAAAAUGAUGAUGACGAAGCAAGAAUA
+H.rotavirus.1                      GGAAUUUAAUUCGCUU.CGAUUCAAGAAUGA.GAU.ACGAAGCAAGAAUA
+H.rotavirus.2                      GGAAUUUAAUUCGCUUUCGAUUUGAGAAUGAUGAUGACGGAGCAAGAAUA
+B.rotavirus.1                      GGAAUUUAAUUCGUUAUCGGUUUGAAGGUGGGUAUGGCAGAGCAAGAAUA
+B.rotavirus.2                      GGAAUUUAAUUCGCUAUCGAUUUGAGAAUGGGUAUGGCAAAGUAAGAAUA
+H.rotavirus.3                      GGAAUCUAAUUCGUUAUCUGUUUGAAGGUGGGUAUGGCAGAGUAAGAAUA
+Rotavirus.1                        GGAAUUUAAUUCACUUUCGAUUCGAGAAUGAUGAUGACGAAGCAAGAAUA
+Rotavirus.2                        GGAAUUUAAUUCGUUAUCGAUUCAAGAAUGGGUAUAACGAAGUAAGAAUA
+Rotavirus.3                        GGCGUUUAAUUCGCUAUCAAUUUGAGGAUGAUGAUGGCUUAGCAAGAAUA
+Rotavirus.4                        GGAAUUUAAUUCGCUAUCGAUUUGAGAAUGGGUAUGGCAAAGUAAGAAUA
+Rotavirus.5                        GGCGUUUAAUUCGCUAUCAAUUUGAGGAUGAUGAUGGCUUAGCAAGAAUA
+Rotavirus.6                        GGCGUUUAAUUCGCUAUCAAUUUGAGGAUGAUGAUGGCUUAGCAAGAAUA
+#=GC SS_cons                       <<.<<.<<<..<<<<.<<.<<<<......................>>>>.
+
+P.rotavirus.1                      GAAAGCGCUUAUGUGACC
+Simian_rotavirus_ASA.1             GAAAGCGCUUAUGUGACC
+Rotavirus_subgroup_2.1             GAUAGCGCUUAUGUGACC
+H.rotavirus.1                      GAAAGCGCUUAUGUGACC
+H.rotavirus.2                      GAAAGCGCUUAUGUGACC
+B.rotavirus.1                      GAAAGCGCUUAUGUGACC
+B.rotavirus.2                      GAAAGCGCUUAUGUGACC
+H.rotavirus.3                      GAAAGCGCUUAUGUGACC
+Rotavirus.1                        GAAAGCGCUUAUGUGACC
+Rotavirus.2                        GAAAGCGCUUAUGUGACC
+Rotavirus.3                        GAAAGCGCUUAUGUGACC
+Rotavirus.4                        GAAAGCGCUUAUGUGACC
+Rotavirus.5                        GAAAGCGCUUAUGUGACC
+Rotavirus.6                        GAAAGCGCUUAUGUGACC
+#=GC SS_cons                       >>.>>>>.>>>.>>..>>
+//

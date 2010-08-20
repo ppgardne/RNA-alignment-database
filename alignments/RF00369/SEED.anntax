@@ -1,0 +1,70 @@
+# STOCKHOLM 1.0
+#=GF ID    sroC
+#=GF AC    RF00369
+#=GF DE    sroC RNA
+#=GF AU    Moxon SJ
+#=GF GA    30.0
+#=GF NC    26.7
+#=GF TC    35.6
+#=GF SE    PMID:14602901
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; sRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0000655 SO:ncRNA
+#=GF RN    [1]
+#=GF RM    14602901
+#=GF RT    RNomics in Escherichia coli detects new sRNA species and indicates
+#=GF RT    parallel transcriptional output in bacteria.
+#=GF RA    Vogel J, Bartels V, Tang TH, Churakov G, Slagter-Jager JG,
+#=GF RA    Huttenhofer A, Wagner EG;
+#=GF RL    Nucleic Acids Res 2003;31:6435-6443.
+#=GF CC    This family consists of a number of bacterial sroC RNA genes of around 160
+#=GF CC    bases in length. sroC is found in several Enterobacterial species but its
+#=GF CC    function is unknown [1].
+#=GF WK    http://en.wikipedia.org/wiki/sroC_RNA
+#=GF SQ    6
+
+#=GS Enterobacter.1         AC    CP000653.1/1296786-1296938
+#=GS E.coli.1               AC    U10981.1/183-345
+#=GS Klebsiella_pneumonia.1 AC    CP000647.1/769968-770129
+#=GS S.enterica.1           AC    AL627267.1/186434-186594
+#=GS Salmonella_enterica_.1 AC    AM933173.1/719069-719229
+#=GS marine_metag.1         AC    AACY022982399.1/683-842
+
+Enterobacter.1                     ACUAAUUAGAACCAUAG.GGGCGGGAUCUCCUGCCCUCUCGAUUGUCGG.
+E.coli.1                           ACUAAUUACAAGAACCAGGGGCGGAAAUUCCAGCCCUCUCGAUUGUUAC.
+Klebsiella_pneumonia.1             ACUAAUUAUAACAACCAGGGGCGGGAUAUCCUGCCCUCCCGAUGAUUGUC
+S.enterica.1                       ACUAACUAAAACUAAAUGGGACGGGA.CUCCUGUCCUCUCGAUUGUCGC.
+Salmonella_enterica_.1             ACUAACUAAAACUAAAUGGGACGGGA.CUCCUGUCCUCUCGAUUGUCGC.
+marine_metag.1                     ACUAACUAAAAUA..AAUGGGAGGCU.UCCCCUCCCUCUCGAUUGCUAC.
+#=GC SS_cons                       ...........<<<....<<<<<<.....>>.>>>><<<<<<<<<<.<<.
+#=GC RF                            AcUAAuUAaAAcaaaaaGGGgCGGaA.uUCCaGcCCuCuCGauuGuugC.
+
+Enterobacter.1                     GAAGCGUGGACAGACUAUACGCUGAGUGGUCGUUCCCCACUCAGCGCGAA
+E.coli.1                           GUAGCACGGACAGACUAUACGCCUGAUGGUCGUUCCCCAUCGGGCCUGAA
+Klebsiella_pneumonia.1             ACAGCACGGACAGACUAUACGGCGGCUGGUCGUUCCCCAGCCGCCGCGAA
+S.enterica.1                       UCAGCACGGACAGACUAUAAGCCUGAUGGUCGUUCCCCAUCGGGCCUGAA
+Salmonella_enterica_.1             UCAGCACGGACAGACUAUAAGCCUGAUGGUCGUUCCCCAUCGGGCCUGAA
+marine_metag.1                     UCGGCACGGACAGACUAUAAGCCUGAUGGUCGUUCCCCAUCAGGCCUGAA
+#=GC SS_cons                       ......<<<.<<<.......<<<<<<<<<.......>>>>>>>>>>>>..
+#=GC RF                            uuAGcACGGACaGAcUAUAaGCCuGauGGUcGUUccCCauCgGGCCuGAA
+
+Enterobacter.1                     A.....AUUGAGCUUCUCACCAAUCUUCGAGGGUAGCGCUGCUACCCUUU
+E.coli.1                           AACCGCAAUACGCUGGGUAACAAUCUUCGAGGGUAGCAGUUAACGCUGCU
+Klebsiella_pneumonia.1             UACCGAAACAAGCUGGACAACCGUCUUCGAGGGUAGCACUGGCUACCCUU
+S.enterica.1                       A.CCGCAGAUCGCCGGGCAACAAUCUUCGAGGGUAGCGCUGCUACCCUUU
+Salmonella_enterica_.1             G.CCGCAAAUCGCCGGGCAACAAUCUUCGAGGGUAGCGCUGCUACCCUUU
+marine_metag.1                     AACCGCAAAACGCCGAAUAACAAUCUUCGAGGGUAGCGCUGCUACCCUUU
+#=GC SS_cons                       ..>>>...........>>.>>>>>...>>>>>..................
+#=GC RF                            A.CCGcAAaacGcuGGGcAaCaaucUUCGaGgGUAGcagUuaaagcuuuU
+
+Enterobacter.1                     UUUUUC....UGGA
+E.coli.1                           ACCCUCUUUUUUCU
+Klebsiella_pneumonia.1             UUUUUUCCAG..GA
+S.enterica.1                       UUUUUCGGAGUAGA
+Salmonella_enterica_.1             UUUUUCGGAGUAGA
+marine_metag.1                     UUUUUCUGGAGUAG
+#=GC SS_cons                       ..........>>>.
+#=GC RF                            auuuUcuuauuuga
+//

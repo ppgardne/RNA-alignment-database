@@ -1,0 +1,205 @@
+# STOCKHOLM 1.0
+#=GF ID    snopsi28S-3316
+#=GF AC    RF00546
+#=GF DE    Small nucleolar RNA psi28S-3316
+#=GF AU    Moxon SJ
+#=GF GA    26.0
+#=GF NC    0.0
+#=GF TC    32.2
+#=GF SE    Moxon SJ
+#=GF SS    Predicted; RNAFOLD; Moxon SJ
+#=GF TP    Gene; snRNA; snoRNA; HACA-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000594 SO:H_ACA_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF RN    [1]
+#=GF RM    15199136
+#=GF RT    Human box H/ACA pseudouridylation guide RNA machinery.
+#=GF RA    Kiss AM, Jady BE, Bertrand E, Kiss T;
+#=GF RL    Mol Cell Biol 2004;24:5797-5807.
+#=GF CC    psi28S-3316 is a member of the H/ACA class of snoRNA. This family is
+#=GF CC    responsible for guiding the modification of uridine 3316 in Drosophila 28S
+#=GF CC    rRNA to pseudouridine [1].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_psi28S-3316
+#=GF SQ    33
+
+#=GS D.mojavensis.1    AC    AAPU01010147.1/86867-86995
+#=GS D.mojavensis.2    AC    AAPU01010147.1/86691-86824
+#=GS D.virilis.1       AC    AANI01014934.1/204832-204965
+#=GS D.virilis.2       AC    AANI01014934.1/200817-200945
+#=GS D.grimshawi.1     AC    AAPT01021484.1/869751-869884
+#=GS D.grimshawi.2     AC    AAPT01021484.1/865796-865929
+#=GS D.grimshawi.3     AC    AAPT01021484.1/869913-870042
+#=GS D.grimshawi.4     AC    AAPT01021484.1/866118-866249
+#=GS D.yakuba.1        AC    AAEU02000410.1/177646-177776
+#=GS D.willistoni.1    AC    AAQB01006145.1/106227-106364
+#=GS D.sechellia.1     AC    AAKO01001995.1/14441-14572
+#=GS D.persimilis.1    AC    AAIZ01002209.1/668-800
+#=GS D.ananassae.1     AC    AAPP01018740.1/149100-149230
+#=GS D.pseudoobscura.1 AC    AADE01000570.1/43470-43610
+#=GS D.willistoni.2    AC    AAQB01006145.1/105133-105272
+#=GS D.erecta.1        AC    AAPQ01007048.1/170212-170343
+#=GS D.yakuba.2        AC    AAEU02000410.1/174095-174228
+#=GS D.melanogaster.1  AC    AJ629215.1/2-133
+#=GS D.melanogaster.2  AC    AJ629213.1/2-130
+#=GS D.ananassae.2     AC    AAPP01018740.1/149471-149601
+#=GS D.willistoni.3    AC    AAQB01006145.1/101702-101836
+#=GS D.yakuba.3        AC    AAEU02000410.1/177902-178032
+#=GS D.pseudoobscura.2 AC    AADE01000570.1/43319-43453
+#=GS D.willistoni.4    AC    AAQB01006145.1/105578-105716
+#=GS D.erecta.2        AC    AAPQ01007048.1/166965-167098
+#=GS D.erecta.3        AC    AAPQ01007048.1/170822-170950
+#=GS D.melanogaster.3  AC    AJ629256.1/2-132
+#=GS D.ananassae.3     AC    AAPP01018740.1/145856-145988
+#=GS D.yakuba.4        AC    AAEU02000410.1/177350-177470
+#=GS D.melanogaster.4  AC    AJ629214.1/2-135
+#=GS D.erecta.4        AC    AAPQ01007048.1/170519-170649
+#=GS D.erecta.5        AC    AAPQ01007048.1/166822-166952
+#=GS D.melanogaster.5  AC    AJ629257.1/2-132
+
+D.mojavensis.1                AGCACCUAAA.AGCGUUUUCUUGCA.CGCCAAUU....AAAUGCGCUUGA
+D.mojavensis.2                GGCACCUAAA.AGCGUUUUCUUGAU.UGCUUUUU....AAACGCGCCUGA
+D.virilis.1                   AGCACCUAAA.AGCGUUUUCUUGAU.UGCUUUUU....AAACGCGCCUGA
+D.virilis.2                   AGCACCUAAA.AGCGUUUUCUUGUA.CGCCAACU....CAAUGCGCUUGA
+D.grimshawi.1                 AGCACCUAAA.AGCGUUUUCUUGAU.AGCUUUUU....AAACGCUCCUGA
+D.grimshawi.2                 AGCACCUAAA.AGCGUUUUCUCGAU.AGCUUUUU....AAACGCUCCUGA
+D.grimshawi.3                 AGCACCUAAA.AGCGUUUUCUUGUA.GGCCAAUU....CAAUGCUCUUGA
+D.grimshawi.4                 GGCACCUAAA.AGCGUUUUCUUGUA.GGUCAACU....UAAUGCUCUUGA
+D.yakuba.1                    UGCACCUAAA.AGCGUUUUCUUGCA.AGCUUGUU....AAAUGCUCUUGA
+D.willistoni.1                GGCACCUAAAAAGCGUUUUCCUGUU.GG.UAGAA....AAGUGCUCUGGA
+D.sechellia.1                 AGCACCUAAA.AGCGUUUUCUUGUU.AGCCUGAU....AAAUGCUCUUGA
+D.persimilis.1                AGCACCUAAA.AGCGUUUUCUUGCC.AGCCCAAU....AAAUGCUCUCGA
+D.ananassae.1                 UGCACCUAAA.AGCGUUUUCUUGCC.GGCCUGUU....ACCUGCUCUUGA
+D.pseudoobscura.1             AGCACCUAAA.AGCGUUUUCUUGCC.AGCCCAAU....AAAUGCUCUUGA
+D.willistoni.2                AGCACCUUAA.AGCGUUUUCUUGUC.GGCCAAAUUAUAAAAUGCUCUGGA
+D.erecta.1                    AGCACCUCAA.AGCGUUUUCUUGCC.AGCCUAAU....AAAUGCUCUUGA
+D.yakuba.2                    CGCACCUAAA.AGCGUUUUCUUGCC.AGCCCCUU....AAGUGCUCUCGA
+D.melanogaster.1              AGCACCUAAA.AGCGUUUUCUUAUC.AGCUUGAU....AAAUGCUCUUGA
+D.melanogaster.2              CGCACCUAAA.AGCGUUUUCUCGUC.GGCUCGUU....AAAUGCUCUUGA
+D.ananassae.2                 AGCACCUAAA.AGCGUUUUCUUGCC.AGCCCGUU....AACUGCUCUUGA
+D.willistoni.3                UGCACCUAAA.AGCGUUUUCUUGUCCGCCUUAAA....AAAUGCGCUUGA
+D.yakuba.3                    UGCACCUAAA.AGCGUUUUCUUGCA.AGCUUGUU....AAAUGCUCUUGA
+D.pseudoobscura.2             CGCACCUAAA.AGCGUUUUCUUGAU.AGUCUCUUUG..AAAUGCUCUUGA
+D.willistoni.4                UGCACCUAAAAAGCGUUUUCCUGUU.GG.UAGAA....AAGUGCUCUGGA
+D.erecta.2                    CGCACCUAAA.AGCGUUUUCUUGAC.AGCCUGUU....AAGUGCUCUUGA
+D.erecta.3                    UGCACCUAAA.AGCGUUUUCUUGCC.AGCUCAUU....A..UGCUCUUGA
+D.melanogaster.3              UGCACCUAAA.AGCGUUUCCUUGCA.AGCCCGUU....AACUGCUCUUGG
+D.ananassae.3                 CGCACCUAAA.AGCGUUUUCUUGCC.AGCCCGUU....AACUGCUCUUGA
+D.yakuba.4                    AGCACCGAAA.AGCGUUUUCUUGCC.AGCCUGAU....AAAUGCUCAUGA
+D.melanogaster.4              CGCACCUAAA.AGCGUUUUCUUGCC.AGCCCGUU....AAGUGCUCUCGA
+D.erecta.4                    UGCACCUAAA.AGCGUUUUCUUGCA.AGCCCUUU....AAAUGCUCCUGA
+D.erecta.5                    CGCACCUAAA.AGCGUUUUCUCGUC.GGCUUGUU....AAAUGCUCUUGA
+D.melanogaster.5              UGCACCUAAA.AGCGUUUUCUUGUC.AGCCUGAU....AAAUGCUCUUGA
+#=GC SS_cons                  <<<<<<......<<<<<<<<..<<..<..............>>>....>>
+#=GC RF                       uGCaCCUAAA.AgCGuuuuCUuGcc.aGCucGuU....AAaugCUCUuGa
+
+D.mojavensis.1                AAAUCGUACAU.GUGUGCUAGAUC.A...A...AGC.....UAAGUUGC.
+D.mojavensis.2                AAAUCGUAGCU.GUGUGCCAGAGC.A...A...UUG...CUGCGGUUGC.
+D.virilis.1                   AAAUCGUAGCU.GUGUGCUAGAGC.A...A...UUG...CUGCGGUUGC.
+D.virilis.2                   AAAUCGUAGCU.GUGUGCUAGAGC.A...A...AGC.....UUAGUUGC.
+D.grimshawi.1                 AAAUCGUAGCU.GUGUGCUAGAAU.A...A...AUG...CUGCGGUUGC.
+D.grimshawi.2                 AAAUCGUAGCU.GUGUGCUAGAAC.A...A...AUG...CUGAGGUUGC.
+D.grimshawi.3                 AAAUCGUAGCU.GUGUGCCAGAUU.A...A...AUC.....UAAGUUGC.
+D.grimshawi.4                 AAAUCGUAGCU.GUGUGCCAGAUU.A...A...A.....UCUAAGUUGC.
+D.yakuba.1                    AAAUCGUAGAU.GUGUGCAAAAUC.A...A...UCA...UUACAAUAGC.
+D.willistoni.1                AAAUCGUAGUU.GUGUGCUAUAGCGA...A...UUC...UUUCCAUAGC.
+D.sechellia.1                 AAAUCGUAGAU.GUGUGCAAUAGC.A...A...UCU...CUACAAUAGU.
+D.persimilis.1                AAAUCGUAGAU.GUGUGCCAUAGC.A...A...GGC.....UCAGUUGC.
+D.ananassae.1                 AAAUCGUAGAU.GUGUGCCAGAAC.A...A...GCU...UCCCAACAGC.
+D.pseudoobscura.1             AAAUCGUUGAU.GUGUGCCAGACA.A...AAC.UUC...UCGCAACAGCA
+D.willistoni.2                AAAUCGUACAAAGUGUGCAAAACU.A...A...AGUAAAAAACAGUUGC.
+D.erecta.1                    AAAUCGUAGUU.GUGUGCAAUAGC.A...A...UCU...UUACAAUAGC.
+D.yakuba.2                    AAAUCGUAGAU.GUGUGCCAGAGC.A...A...UCG...UCGCAGUUGC.
+D.melanogaster.1              AAAUCGUAGAU.GUGUGCAAUAGC.A...A...UAU...CUACAAUAGC.
+D.melanogaster.2              AAAUCGUAGAU.GUGUGCCAGAGC.G...A...AGC.....UCAGUUGC.
+D.ananassae.2                 AAAUCGUAGAU.GUGUGCCAGAGC.A...A...GCU...UCCCAACAGC.
+D.willistoni.3                AAAUCGUAGAU.GUGUGCUAGAAU.AUAUA...UAU...AGACAGUUGC.
+D.yakuba.3                    AAAUCGUAGAU.GUGUGCAAAAUC.A...A...ACA...UUACAAUAGC.
+D.pseudoobscura.2             AAAUCGUAGAU.GUGUGCCAUAGC.A...A...GGC.....UCAGUUGC.
+D.willistoni.4                AAAUCGUAGUU.GUGUGCUAAAGC.A...AAAUUUC...UUUCCAUUGC.
+D.erecta.2                    AAAUCGUAGAU.GUGUGCCAGAGC.A...A...UCG...UCGCAGUUGC.
+D.erecta.3                    AAAUCGUAGAU.GUGUGCAAAAUC.A...A...UCC...UCACAAUAGC.
+D.melanogaster.3              AAAUCGUAGAU.GUGUGCAAAAUC.A...A...UCC...UCACAAUAGC.
+D.ananassae.3                 AAAUCGUAGAU.GUGUGCCAGAGC.A...A...CCU...UUGCAACAGC.
+D.yakuba.4                    AAAUCGUAGAU.GUGUGCCAUAGC.A...A...UUU...UUACAAUAGC.
+D.melanogaster.4              AAAUCGUAGAU.GUGUGCCAGAGC.A...A...UCG...UCGCAGUUGC.
+D.erecta.4                    AAAUCGUAGAU.GUGUGCGAUAAC.A...A...UCC...ACACAAUAGC.
+D.erecta.5                    AAAUCGUAGAU.GUGUGCUAGAGG.G...A...UGC.....UCAGUUGC.
+D.melanogaster.5              AAAUCGUAGAU.GUGUGCAAAAUC.A...A...UCC...UCACAAUAGC.
+#=GC SS_cons                  >>>.>>>.....>.>>>>>....................<<<<<<<....
+#=GC RF                       aaaUCGuAGAU.GUGuGCaAaAgC.A...A...uac...ucaCaguaGC.
+
+D.mojavensis.1                AAGUGACUC...UUUG..A.AGUAUU.....UA.....GAAG.AGUCCAU
+D.mojavensis.2                AAGUGAAUU..GAUGU..C.AAUUAG....UGC.....AACA.AUUCCAU
+D.virilis.1                   AAGUGUCUU..GAUGC..CAGUUAAU.....GC.....AUCA.ACUACAU
+D.virilis.2                   AGGUGACUU..UUUGU..A.CUUCAA.....AU.....AA.G.AGUCCAU
+D.grimshawi.1                 AAAUGAAUU..GAUGC..CAAUUAUU.....GC.....AUUA.UUUCUAU
+D.grimshawi.2                 AAAUGAAUU..GAUGC..C.AAUUAA....UGC.....AUUA.UUUCUAU
+D.grimshawi.3                 AAGUGACUU..UUUGU..A.UUUCUA.....AA.....UAAA.AGUCCAU
+D.grimshawi.4                 AAGUGACUUUUUGAGU..U.UUUAAU.....AU.....UGAA.AGUCCAU
+D.yakuba.1                    AAGUGAUUU..UUGUU..C.CUCU.......AA.....CUCA.AAUCCAU
+D.willistoni.1                AAAACGACU..UGACU..U.AUUUUU.....AGAGAGUUCUU.GUCUAUU
+D.sechellia.1                 UUGGGAUUC...AGUU..U.CUAUAU.....AA.....CUUC.AUUUCGU
+D.persimilis.1                AAGUGAUUC..UGCCC..C.AUCAAU.....GG...CAGCAG.GAUCACC
+D.ananassae.1                 AAGUGACAA..GAGUU..C.UUAU.......AA.....CUCU.UAUCCGU
+D.pseudoobscura.1             AAGUGAUCG..GAGUU..C.CAUUCAUUGAUGA.....CUCU.GGUCCGU
+D.willistoni.2                AAGUGAUUC..CAAUA..A.ACACAU.....UG.....UUGG.AAUCCAU
+D.erecta.1                    AAGUGAUUC...AGUU..U.CGUUAU.....AA.....CUUC.GAUCCGU
+D.yakuba.2                    AAGUGAUCU..GAAUC..C.AUGACA.....GA.....AUCU.GGUCCAU
+D.melanogaster.1              UUGGGAUUC...AGUU..U.CUAUAU.....AA.....CUUC.AAUCCGU
+D.melanogaster.2              AAGUGAUAC..GGCCA..U.UUUUUG.....UG.....GCAGAUAUCCAU
+D.ananassae.2                 AAGUGACAA..GAGUU..C.UAAU.......GA.....CUCU.UGUCCGU
+D.willistoni.3                AAGUGAUUC..CAAUU..G.AUUUAC.....AG.....U.GG.AAUCCAU
+D.yakuba.3                    AAGUGAUUU..UAGUU..U.CUUU.......AA.....CUCU.AAUCCGU
+D.pseudoobscura.2             AAGUGAUUC..UGCCC..C.AUCGAU.....GG...CAGCAG.AAUCAUA
+D.willistoni.4                AAGUGACUU..GAUUCAUC.CUAAGA.....GA.....GUCUUUGUCCAU
+D.erecta.2                    AAGUGAUCU..GGAUC..C.AUGACA.....GA.....AUCA.GGUCCAU
+D.erecta.3                    AAGUGAUUU..UAGUU..C.CUUC.......AA.....CUCU.AAUCCGU
+D.melanogaster.3              AAGUGAUUU..UAGUU..C.CUCU.......AA.....CUCA.AAUCCAU
+D.ananassae.3                 AAGUGAUCU..GGGUU..C.UCCUGU.....AA.....CUUU.UAUCCGU
+D.yakuba.4                    AAGUGAUAC...AG........................CUUC.GAUCCGU
+D.melanogaster.4              AAGUGAUCU..AGAUC..C.GUGACA.....GA.....AUCA.GAUCCAA
+D.erecta.4                    AAGUGAUUU..UUGUU..C.CUCU.......AA.....CUCA.AAUCCAU
+D.erecta.5                    AAGUGAUUC..GGCCU..U.UCUUCG.....UG.....GCAGAUAUACAU
+D.melanogaster.5              AAGUGAUUU..UAGUU..C.CCUU.......AA.....CUCU.AAUCCGU
+#=GC SS_cons                  <<<<<<<<<...<<<<...............>>.....>>.>.>>>.>>>
+#=GC RF                       aagcGaucc..aggcc..u.uuauaa.....gg.....ccag.gauCCgc
+
+D.mojavensis.1                A..ACG.CUGAGUACAUUU
+D.mojavensis.2                UU.ACA.CCACGCACAUGU
+D.virilis.1                   UA.ACA.CCUCGCACAAGC
+D.virilis.2                   A..ACG.CUGAGUACAUUU
+D.grimshawi.1                 UU.ACA.CCACGCACAAUC
+D.grimshawi.2                 UU.ACA.UCUCGCACAAGC
+D.grimshawi.3                 A..ACG.CUGAGUACAUUU
+D.grimshawi.4                 A..ACG.CUGGGAACAGAA
+D.yakuba.1                    UU.ACA.UUGUGAACAUAC
+D.willistoni.1                A..AAU.UGGUAAACAGAU
+D.sechellia.1                 UC.AGA.UUGUAAACAUCC
+D.persimilis.1                AU.AAG.CUGGCUACAGAU
+D.ananassae.1                 UU.ACG.UUGUGAAUAAUU
+D.pseudoobscura.1             UU.ACG.UUGUGAACACCA
+D.willistoni.2                U..ACG.CUGAUUACACGC
+D.erecta.1                    UU.ACG.UUGUGAACAUUC
+D.yakuba.2                    UUUAAA.CUGGGCUCAUUU
+D.melanogaster.1              UC.AGA.UUGUAAACAUCC
+D.melanogaster.2              A..ACG.CUGACUACAA..
+D.ananassae.2                 UU.ACG.UUGUGAAUAAGU
+D.willistoni.3                G..ACG.CUGACUACAGAU
+D.yakuba.3                    UU.ACA.UUGUAAACAUUC
+D.pseudoobscura.2             AU.AAG.CUGGCUACAGAU
+D.willistoni.4                UU.AUU.UGGUGAACAGUU
+D.erecta.2                    UU.UAAGCUGGGCUCAUUU
+D.erecta.3                    UU.ACA.UUGUGAAUAGUC
+D.melanogaster.3              UU.ACA.UUGUGAACAUAC
+D.ananassae.3                 UG.ACG.UUGUAAACAUUU
+D.yakuba.4                    UU.ACA.UUGUAAACAUCC
+D.melanogaster.4              UU.AAAGCUGGGCUCAUUU
+D.erecta.4                    UU.ACA.UUGUGAACAUAU
+D.erecta.5                    A..ACG.CUGACUACAAGU
+D.melanogaster.5              UU.ACA.UUGUGAACAGUC
+#=GC SS_cons                  >>...>.>>>>>>......
+#=GC RF                       uu.Aaa.cuGugaACAuuc
+//

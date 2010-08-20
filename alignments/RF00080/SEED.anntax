@@ -1,0 +1,199 @@
+# STOCKHOLM 1.0
+#=GF ID    yybP-ykoY
+#=GF AC    RF00080
+#=GF DE    yybP-ykoY leader
+#=GF AU    Moxon SJ
+#=GF GA    20.0
+#=GF NC    19.4
+#=GF TC    21.8
+#=GF PI    SraF
+#=GF SE    Barrick JE, Breaker RR
+#=GF SS    Predicted; Barrick JE, Breaker RR
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    11448770
+#=GF RT    Novel small RNA-encoding genes in the intergenic regions of
+#=GF RT    Escherichia coli.
+#=GF RA    Argaman L, Hershberg R, Vogel J, Bejerano G, Wagner EG, Margalit H,
+#=GF RA    Altuvia S;
+#=GF RL    Curr Biol 2001;11:941-950.
+#=GF RN    [2]
+#=GF RM    15096624
+#=GF RT    New RNA motifs suggest an expanded scope for riboswitches in
+#=GF RT    bacterial genetic control.
+#=GF RA    Barrick JE, Corbino KA, Winkler WC, Nahvi A, Mandal M, Collins J, Lee
+#=GF RA    M, Roth A, Sudarsan N, Jona I, Wickiser JK, Breaker RR;
+#=GF RL    Proc Natl Acad Sci U S A 2004;101:6421-6426.
+#=GF CC    This RNA was originally discovered in E. coli during a large scale screen
+#=GF CC    and was named SraF [1]. The family was later found to exist upstream of
+#=GF CC    related families of protein genes in many bacteria, including the the yybP
+#=GF CC    and ykoK genes in B. subtilis. The specific functions of these proteins are
+#=GF CC    unknown, but this structured RNA element may be involved in their genetic
+#=GF CC    regulation as a riboswitch [2].
+#=GF WK    http://en.wikipedia.org/wiki/yybP-ykoY_leader
+#=GF SQ    25
+
+#=GS C.diphtheriae.1        AC    BX248358.1/90421-90582
+#=GS Corynebacterium_glut.1 AC    BX927153.1/297548-297716
+#=GS Mycobacterium_tuberc.1 AC    BX842584.1/155440-155547
+#=GS S.coelicolor.1         AC    AL939112.1/94322-94442
+#=GS Bacillus_subtilis_su.1 AC    AL009126.3/4169822-4169927
+#=GS Bacillus_subtilis_su.2 AC    AL009126.3/1410625-1410749
+#=GS B.megaterium.1         AC    AF109909.2/85-201
+#=GS B.pumilus.1            AC    AF325827.1/1344-1451
+#=GS L.monocytogenes.1      AC    AL591977.1/131463-131588
+#=GS L.innocua.1            AC    AL596167.1/48063-48187
+#=GS S.aureus.1             AC    Y14370.1/1188-1315
+#=GS S.epidermidis.1        AC    AF270169.1/2476-2621
+#=GS Thermoanaerobacter_t.1 AC    AE008691.1/255474-255595
+#=GS Thermoanaerobacter_t.2 AC    AE008691.1/36537-36635
+#=GS Lactobacillus_planta.1 AC    AL935253.1/180146-180248
+#=GS Streptococcus_pyogen.1 AC    BA000034.2/1414556-1414659
+#=GS Streptococcus_agalac.1 AC    CP000114.1/594401-594502
+#=GS E.coli.1               AC    U18997.1/19117-19256
+#=GS Photorhabdus_lumines.1 AC    BX571872.1/163547-163681
+#=GS Salmonella_enterica_.1 AC    CP001120.1/1979740-1979862
+#=GS Salmonella_enterica_.2 AC    CP000857.1/3332345-3332484
+#=GS Xanthomonas_campestr.1 AC    AE008922.1/5057766-5057886
+#=GS Xanthomonas_axonopod.1 AC    AE008923.1/5161384-5161494
+#=GS Xanthomonas_campestr.2 AC    CP000050.1/4910565-4910684
+#=GS Xanthomonas_axonopod.2 AC    AE008923.1/4930319-4930437
+
+C.diphtheriae.1                    ACUGUAGUUGGAGGGGAGUACCCC......A.......CCCAC.......
+Corynebacterium_glut.1             UCCCGUAUUGGAGGGGAGUACCCC..............ACAAG.......
+Mycobacterium_tuberc.1             GACGUUAGCGAAGGGGAGUAGUCC..............CGAA........
+S.coelicolor.1                     GACGGCGCAGAAGGGGAGUAGCU...............CUUCG.......
+Bacillus_subtilis_su.1             GAACACUCCAAAGGGGAGUAGCU...............UUCAC.......
+Bacillus_subtilis_su.2             UGAAAUCCCAAAGGGGAGUAGCG.UCCGGAAU......GUAU........
+B.megaterium.1                     UUACGGAGUAAAGGGGAGUAGCG.UCAGG.........GAAA........
+B.pumilus.1                        AAACUUCCUAAAGGGGAGUAGCU...............UUAAC.......
+L.monocytogenes.1                  ACAAAUGUCAGAGGGGAGUAGCG.CUGAUUAG......CUUUU.......
+L.innocua.1                        ACAAAUGUCAGAGGGGAGUAGCG.CUGAUUAG......CUUUU.......
+S.aureus.1                         CAUUUUGUCAGAGGGGAGUAACUUAAGAAUCAUGACCGUAUAA.......
+S.epidermidis.1                    AAAACUGUCAGAGGGGAGUAACUUGAGAAUA.......GUUAUUGAAUGC
+Thermoanaerobacter_t.1             AACAUAAGUAAAGGGGAGUAGCUU.GCCACA.......GUAU........
+Thermoanaerobacter_t.2             UCU..CGGUAAAGGGGAGUAACUC..............UAAAU.......
+Lactobacillus_planta.1             GAUACAAUCAUAAGGGAGUAACUAGCAGAA.........AUA........
+Streptococcus_pyogen.1             GUUAUUAUAUCAAGGGAGUAGCAGACGG..........CUAG........
+Streptococcus_agalac.1             AUUAACAUAUCAAGGGAGUAGCAGACGG..........UUUA........
+E.coli.1                           GUUACCUGCAAAGGGGAGUAACUU..............CAUUG.......
+Photorhabdus_lumines.1             CACCGCAGCAAAGGGGAGUAACUUC.............CUUA........
+Salmonella_enterica_.1             GCGCCGUCAAUUGGGGAGUAGCCGAUUUCCAG......ACUCC.......
+Salmonella_enterica_.2             GUUACGCGCAAAGGGGAGUAACUU..............CAUUG.......
+Xanthomonas_campestr.1             UCGGCCGCAGAAGGGGAGUAGCUC..............CCAG........
+Xanthomonas_axonopod.1             UCGGGCGCAGAAGGGGAGUAGCUC..............CCAG........
+Xanthomonas_campestr.2             GCGCGCCCCCUUGGGGAGUAGCCUGCUUCCA.......GUCGA.......
+Xanthomonas_axonopod.2             UGCGCGCCCCUUGGGGAGUAGCCUGCUUUCG.......UCAUC.......
+#=GC SS_cons                       ......<<<<<<<<......<<<<<<<<<<....................
+
+C.diphtheriae.1                    .........................GGCAUUGA..UCGUCAACACGGUUA
+Corynebacterium_glut.1             .........................CAGCGUUGAUUCGUCAACACGGAAA
+Mycobacterium_tuberc.1             .........................UCGUCGAG..UCGACAUACUGGC..
+S.coelicolor.1                     .........................CCGGACCG..UCGACAUACUGCUCA
+Bacillus_subtilis_su.1             .........................AGUAA.AG..UCGUCAUUACGGGA.
+Bacillus_subtilis_su.2             ...................UCCGGAAACAA.AG..UCGUCAUUUCAUGGA
+B.megaterium.1                     ....................CCUGAAACAA.AG..UCGUCAUUACAUGGA
+B.pumilus.1                        .........................AGCAA.AG..UCGUCAUUACGGAGU
+L.monocytogenes.1                  ..................UAAUCAGGAUAA.AG..UCGUCAUUACAUGAU
+L.innocua.1                        ...................AAUCAGGAUAA.AG..UCGUCAUUACAUGAU
+S.aureus.1                         ................AUGAUUCGACACUU.UA..UCGUCAUUACGAAG.
+S.epidermidis.1                    AUUUAAACCGAUAAUAACUAUUCAACACUU.UG..UCGUCAUUACGAAGA
+Thermoanaerobacter_t.1             ...................GUGGUUUAACC.UG..UCGUCAGCACGGGAA
+Thermoanaerobacter_t.2             .........................CAAUC.AG..UCGUCAUGACGGC..
+Lactobacillus_planta.1             ...................UUCUGCGGCAA.UA..UCGUCAGCAAGAA..
+Streptococcus_pyogen.1             .....................CCGUGAUUG.UA..UCGUCAAUACGGAAU
+Streptococcus_agalac.1             .....................CCGUGGCAA.UG..UCGUCAUUACGAAA.
+E.coli.1                           .........................CCGGUCGA..UCGUCAUUACGAUGU
+Photorhabdus_lumines.1             ........................GCCGGUUUA..UCGUCAUUACGAUGC
+Salmonella_enterica_.1             ...................GGAAAUGUACG.UG..UCAACAUACUCGUU.
+Salmonella_enterica_.2             .........................CCGGUCGA..UCGUCAUUACGAUGU
+Xanthomonas_campestr.1             .........................CGUUGUCG..CCGUCAUUACGAGCC
+Xanthomonas_axonopod.1             .........................CGUUGUCG..CCGUCAUGACGAGCC
+Xanthomonas_campestr.2             ..................UGGAAGCGCCCG.CA..UCAACAUACUCGGCC
+Xanthomonas_axonopod.2             ...................GAAAGCGCCUG.CA..UCAACAUACUCGGC.
+#=GC SS_cons                       ...................>>>>>><<<<<.<<..<<<.......<<<<<
+
+C.diphtheriae.1                    CCAUGCGAGAAU........UCUCGUACGAUCCCGG.UCAUGUCGGUUUA
+Corynebacterium_glut.1             UCAAACUUUAAAGAAUUUUAGGUUGUGAAUUCCCGGUCACACUG.GCCCA
+Mycobacterium_tuberc.1             ........GAAA...............A..GCCCGG.CUGGCGA.ACCGU
+S.coelicolor.1                     G.......CCCG..............CCUGAGCCGG.CGCCCGGAGGCAG
+Bacillus_subtilis_su.1             ........CAAG.............GUG.UCCUCGG.CUUUGCU.GGCAA
+Bacillus_subtilis_su.2             ........UUGU...............AUCCAUCGG.CUUUGUU.GGCAU
+B.megaterium.1                     ........GUAU................UCCAUCGG.CUUUGUU.GGCAU
+B.pumilus.1                        A.......UAAU...............UACUCUCGG.CUUUGUU.GGCAA
+L.monocytogenes.1                  A.......GAGA...............UAUCAUCGG.UUUUAUC.ACAUU
+L.innocua.1                        A.......GAGA...............UAUCAUCGG.UUUUAUC.ACAUU
+S.aureus.1                         ........AUAU.................CUUCCGG.UAAAGUG.GGCAA
+S.epidermidis.1                    ........UAAG................UCUUCCGG.UAAAGUG.GGCAA
+Thermoanaerobacter_t.1             .........AUU................UUCUCCGG.CAGGUUA.GAAAC
+Thermoanaerobacter_t.2             ........UUUU...............U..GCCCGG.CUGAUUGAGCAG.
+Lactobacillus_planta.1             ........GCCA..................AUCCGG.UAUUGUCU.....
+Streptococcus_pyogen.1             ........UUCG................GUUUCCGG.UACAAUCU.....
+Streptococcus_agalac.1             ........GAAA.................UUUCCGG.CGUUGUCU.....
+E.coli.1                           GU......GAAA............AAACACAUCCGG.UCACCGG.GCAAC
+Photorhabdus_lumines.1             ........AACA................GCAUCCGG.UAGCCGG.GCAAC
+Salmonella_enterica_.1             ........GCAA.................AACGUGG.CGCGUACGGACCA
+Salmonella_enterica_.2             GUG.....CAAA.............ACCACAUCCGG.UCACCGG.GCAGC
+Xanthomonas_campestr.1             CUGCCU..GUCA..............GGCGCUCCGG.UGCAACG.GCAAC
+Xanthomonas_axonopod.1             C.......GCCA.........UGUGCAGCGCUCCGG.UGCAACG.GCAAC
+Xanthomonas_campestr.2             ........GUUG................CGCCGUGG.UGCGGGC.AACCA
+Xanthomonas_axonopod.2             ........CAGU..............GC.GCCGUGG.UGCAGGC.AACCA
+#=GC SS_cons                       ............................>>>>>>>>.>>>>>>>.<<<<<
+
+C.diphtheriae.1                    CUUUGAUUUUAGGUUAU...UUGCUCAAGCAGGCCGGAUCAGAGUGAGCG
+Corynebacterium_glut.1             UUUUGUUU.....UUCAGAUGCAUGUUAGAUGCGUUGAGGGACAAGGGUG
+Mycobacterium_tuberc.1             UUG..........AUAC.........................CAACGGUG
+S.coelicolor.1                     GCCUCGUGCG...CGAG.........................GCGGGCC.
+Bacillus_subtilis_su.1             U............CUC...........................AUUGUU.
+Bacillus_subtilis_su.2             GCCU.........GAAU.........................UCAUGUCU
+B.megaterium.1                     AA...........UGA..........................UUAUGCUU
+B.pumilus.1                        C............GAUC..........................GUUGUU.
+L.monocytogenes.1                  UA...........ACUU.........................UAAAUGUU
+L.innocua.1                        UA...........ACUU.........................UAAAUGUU
+S.aureus.1                         U............UAA...........................AUUGCUU
+S.epidermidis.1                    A............AAU...........................AUUGCUA
+Thermoanaerobacter_t.1             UCCG.........GACG.........................GAGUUUUG
+Thermoanaerobacter_t.2             .............AUA.............................AUGCG
+Lactobacillus_planta.1             .............UAAA................................U
+Streptococcus_pyogen.1             .............UAAA................................C
+Streptococcus_agalac.1             .............UAAA................................C
+E.coli.1                           CCG..........AAAG..GAAUACGCAGACGUAUUCCUUUUUUGUUGUA
+Photorhabdus_lumines.1             CUUGAAC......UUAU......ACCUGAUGGUACAUUUUCUGUGUUGUA
+Salmonella_enterica_.1             GC...........CGCC.........................GCUGGUCA
+Salmonella_enterica_.2             CAU..........AAAG..GAAUGCGUCAGCGUAUUCCUUUAUUGUUGUA
+Xanthomonas_campestr.1             CGG..........CCCG.......................GCCGGUUGCG
+Xanthomonas_axonopod.1             CGG..........CCCG.......................GCCGGUUGCG
+Xanthomonas_campestr.2             .............CUCU...........................UGGUUU
+Xanthomonas_axonopod.2             .............GUUU...........................CGGUUU
+#=GC SS_cons                       <<........................................>>>>>>>>
+
+C.diphtheriae.1                    GGGGAGACCUCCGGUUCAUCU
+Corynebacterium_glut.1             GGGGAGACCUCCGGUUCUUAA
+Mycobacterium_tuberc.1             GGCGAGACCUUCGACCGAUGU
+S.coelicolor.1                     AGCGAGACCUUCGGCAAGCAG
+Bacillus_subtilis_su.1             AGCGAGACCUUUGCCAAAUCU
+Bacillus_subtilis_su.2             AGCAAGACCUUUGCCUUAUGU
+B.megaterium.1                     AGCAAGACCUUUGCCAUAUUU
+B.pumilus.1                        AGCAAGACCUUUACUCGAGAU
+L.monocytogenes.1                  AGCGAGACCUUUGCCUUUACG
+L.innocua.1                        AGCGAGACCUUUGCCUUUAUG
+S.aureus.1                         AGUGAGACCUUUGCUAUUUAU
+S.epidermidis.1                    AGUGAGACCUUUGCUAUUAAA
+Thermoanaerobacter_t.1             AGCAAGACCUUUAUAGAGGUA
+Thermoanaerobacter_t.2             AGUGAGACCUUUACUUUGUGG
+Lactobacillus_planta.1             AGUGAGACUUAUGUAUGUUCA
+Streptococcus_pyogen.1             AGCGAGACUUGUUUAAGAAAA
+Streptococcus_agalac.1             AGCGAGACUUGUUUUCAUAAA
+E.coli.1                           AGUGAGACCUU.GCCGGAAGG
+Photorhabdus_lumines.1             AGUGAGACCUU.GCCAGAAGG
+Salmonella_enterica_.1             GGCGAGACCAUAGGCGCAUCA
+Salmonella_enterica_.2             AGUGAGACCUU.GCCGAAUGG
+Xanthomonas_campestr.1             AGCGAGACCUUCGCCGCGCAG
+Xanthomonas_axonopod.1             AGCGAGACCUU..........
+Xanthomonas_campestr.2             GGCGAGACCAGCGGCAUGCGU
+Xanthomonas_axonopod.2             GGCGAGACCAGCGGCAUGCGU
+#=GC SS_cons                       >>>....>>>>>>>>......
+//

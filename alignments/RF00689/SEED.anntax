@@ -1,0 +1,93 @@
+# STOCKHOLM 1.0
+#=GF ID    MIR390
+#=GF AC    RF00689
+#=GF DE    microRNA MIR390
+#=GF AU    Wilkinson A
+#=GF GA    46.0
+#=GF NC    45.0
+#=GF TC    48.1
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000101
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    12
+
+#=GS O.sativa.1      AC    AC133007.4/86351-86434
+#=GS V.vinifera.1    AC    AM484368.2/7807-7952
+#=GS V.vinifera.2    AC    CAAP02001908.1/24675-24799
+#=GS M.truncatula.1  AC    AC143338.29/35410-35527
+#=GS R.communis.1    AC    AASG02000259.1/53979-54102
+#=GS R.communis.2    AC    AASG02008232.1/8369-8506
+#=GS P.trichocarpa.1 AC    AARH01003823.1/151375-151507
+#=GS P.trichocarpa.2 AC    AARH01000472.1/96655-96783
+#=GS P.trichocarpa.3 AC    AARH01003029.1/551541-551656
+#=GS A.thaliana.1    AC    AB025632.1/22985-23104
+#=GS A.thaliana.2    AC    AC004683.3/59209-59307
+#=GS B.rapa.1        AC    AC189355.2/75830-75939
+
+O.sativa.1                  UGGAACAAUCCUUGAAGCUCAGGAGGGAUAGCGCCUCGAA..........
+V.vinifera.1                UGGGAGAAUCUGUUAAGCUCAGGAGGGAUAGCGCCAUGAG..CCAUGAU.
+V.vinifera.2                UGGGAGAAUCUGUUAAGCUCAGGAGGGAUAGCGCCACUAC..GCUUAAA.
+M.truncatula.1              UGAAAGAAUCUGUUAAGCUCAGGAGGGAUAGCGCCAUAGA..AUGUCUU.
+R.communis.1                AUGGAGACUCUGUUAAGCUCAGGAGGGAUAGCGCCGUGAA..GAUCAUUG
+R.communis.2                UGGAAGAAUCUAAUAAGCUCAGGAGGGAUAGCGCCAUGGA..UGGAUAU.
+P.trichocarpa.1             UGGGAGGAUCUGUUAAGCUCAGGAGGGAUAGCGCCAUGAGC.UGAUGAUA
+P.trichocarpa.2             CGGGAGAAUCUGUUAAGCUCAGGAGGGAUAGCGCCAUGAGCAUGACAAA.
+P.trichocarpa.3             UGGAAGAAUCUGUUAAGCUCAGGAGGGAUAGCGCCCUAAG..........
+A.thaliana.1                GAGAAAUAGCUAUAAAGCUCAGGAGGGAUAGCGCCAUGGC..UCACCAG.
+A.thaliana.2                GAGAAGAAUCUGUAAAGCUCAGGAGGGAUAGCGCCAUG.A..UGAUCAC.
+B.rapa.1                    GAGAAGUAGCUGUAAAGCUCAGGAGGGAUAGCGCCAUGAC..UCAUCAC.
+#=GC SS_cons                .........<.....<<<<<<<<<.<<<<<<<<<<...............
+#=GC RF                     gAGAAgaAucUgUaAAgCuCAGGAGGGAuAGCGCCAugaa..uuAuuau.
+
+O.sativa.1                  ..................................................
+V.vinifera.1                .GAAAAUGAUUGUUGAGUUGAAAAU....UUUUUCUAGCUUGUUUUUUGG
+V.vinifera.2                ...CCAUUUUUAUUUUUU...........UUGGAAAUGGGUUUUUU.U.G
+M.truncatula.1              ...CUUUUUUUGG................UUCCAUUUUAUUGAUUG....
+R.communis.1                .AUAUAUUAUUGU................CCAAACAAAACAUAUGUAU.A
+R.communis.2                .GUGUUUUUAUGAAUAUGACUCGUCUUUUCUUGGCUUGCUUUUUUU.A.U
+P.trichocarpa.1             AGUUGAUGUUUGAUGGGUUAAU.......CUCAACAUAAUCAAUCU...A
+P.trichocarpa.2             .GUCUAUGUUUGAGUUAAU..........CUCAACAAAAUCAAUCC...A
+P.trichocarpa.3             .GAUAAUCAUGGG................CUCUUUUUAUGUGGUUU.UUG
+A.thaliana.1                ......UGCUGUAU...............GUUUUGUAUAUGCGUACAUGU
+A.thaliana.2                .AUUCGUUAUCUA.....................................
+B.rapa.1                    .............................CAUUACUAUAUGUCUUU.G.U
+#=GC SS_cons                ..................................................
+#=GC RF                     .auuaAUauUcaA................uUcauauaaaUuuguaU.u.u
+
+O.sativa.1                  AUCAAAC..........UAGGCGCUAUCUAUCCUGAGCUCCAUGGUUUGU
+V.vinifera.1                GUCAUCAUUUUGUGUGUGUGGCGCUAUCUAUCCUGAGUUUCACGGGWUCU
+V.vinifera.2                GUUGUUG..........GUUGCGCUAUCCAUCCUGAGUUUCAUUGGUUCU
+M.truncatula.1              AUCUUCU..........CUUGCGCUAUCCAUCCUGAGUUUCAUGGCUUCU
+R.communis.1                GUCUUUA..........GUGGCGCUAUCCAUCCUGAGUUUCACAGGUUCU
+R.communis.2                CUCUUCU..........AUAGCGCUAUCCAUCCUGAGUUUCAUUGGUUCU
+P.trichocarpa.1             GUCAUUA..........GUGGCGCUAUCUAUCCUGAGUUCUAUAGGUUCU
+P.trichocarpa.2             GUCAUCA..........GUGGCGCUAUCUAUCCUGAGUUCUAUGGGUUCU
+P.trichocarpa.3             AUUCUCA..........GUGGCGCUAUCCAUCCUGAGUUUCAUUGCUUCU
+A.thaliana.1                AUAUCUG..........UUGGCGCUAUCCAUCCUGAGUUCCAUAGCUUCU
+A.thaliana.2                ...UUUU..........UUGGCGCUAUCCAUCCUGAGUUUCAUUGGCUCU
+B.rapa.1                    AUAUGUA..........AUGGCGCUAUCCAUCCUGAGUUCCAUGGCUUCU
+#=GC SS_cons                ...................>>>>>>>>>>.>>>>>>>>>.....>.....
+#=GC RF                     AUaauuA..........aUGGCGCUaUCCAUCCUGaGcUUuAuaggUuuu
+
+O.sativa.1                  UCUU
+V.vinifera.1                UCUU
+V.vinifera.2                UCUU
+M.truncatula.1              UCAU
+R.communis.1                UCUU
+R.communis.2                UCUU
+P.trichocarpa.1             CCUU
+P.trichocarpa.2             CCUU
+P.trichocarpa.3             UCUU
+A.thaliana.1                UCUU
+A.thaliana.2                UCUU
+B.rapa.1                    UCUU
+#=GC SS_cons                ....
+#=GC RF                     UCuU
+//

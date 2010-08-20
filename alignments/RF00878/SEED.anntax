@@ -1,0 +1,58 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-456
+#=GF AC    RF00878
+#=GF DE    microRNA mir-456
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    68.8
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000341
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    7
+
+#=GS C.milii.1              AC    AAVX01070382.1/1554-1647
+#=GS O.latipes.1            AC    BAAF04097110.1/4963-5066
+#=GS Gasterosteus_aculeat.1 AC    AANH01010790.1/61460-61563
+#=GS D.rerio.1              AC    BX004877.10/47503-47607
+#=GS G.gallus.1             AC    AADN02011847.1/76016-76127
+#=GS A.carolinensis.1       AC    AAWZ01005369.1/34967-35074
+#=GS O.anatinus.1           AC    AAPN01283735.1/3587-3703
+
+C.milii.1                          UUUGAAGCCAC........UGUGUGUGAG.......AGCAGGUAUCUUCC
+O.latipes.1                        CAGGCAGCUGC........UGGCUCUGUG.......AGCAGGCAUCUUCC
+Gasterosteus_aculeat.1             CAGGUGGCUGC........UGGCUCUGUG.......AGCAGGCAUCUUCC
+D.rerio.1                          AUUUCCGCUGGC.......UGGUUGUGUG.......UGCAGGCAUCUUUC
+G.gallus.1                         AUUUAAGCUGCUGUGUGUGUGCGUGUGUG.......AGCAGGCAUCUUCU
+A.carolinensis.1                   CUAUACAGUGU....UAUGUGUAUGUGUG.......AGCAGGCAUCUUCU
+O.anatinus.1                       AAGAGAGGGAGAGAGAGUGGGGAUGGGGGAAGCAAAUGCAAGCAUCU..C
+#=GC SS_cons                       ...................<<<<<<<<<<........<<<<.<<<<<..<
+#=GC RF                            AuuuAAgcuGGCguguguguGgguguguG.......agCagGCauCuUuc
+
+C.milii.1                          CAGCCUACACGUAGGUCCUGAAAUCUGCAGGCUGGUUUGAUGGUUGUCUU
+O.latipes.1                        CAGCCUACAUGUAGAUCCAGCCGUCUGCAGGCUGGUUAGAUGGUUGUCAC
+Gasterosteus_aculeat.1             UAGCCUACAUGUAGAUCCAGGAAUCUGCAGGCUGGUUAGAUGGUUGUCAC
+D.rerio.1                          CAGUCUACAUGUGGAUCCAGGAGUCUGCAGGCUGGUUAGAUGGUUGUCAC
+G.gallus.1                         CAGCCUACAUGUGGAUUCCUAAAUCUGCAGGCUGGUUAGAUGGUUGUCAU
+A.carolinensis.1                   CAGCCUACAUGUGGAUUCCUAAAUCUGCAGGCUGGUUAGAUGGUUGUCAU
+O.anatinus.1                       AGUCUUAAAUGUGGAUUCUUAAAUCUGCUGUUUCGUUAGUUGGUUGUCAU
+#=GC SS_cons                       <<<<<<....<<<<<<......>>>>>>>>>>>>>..>>>>>.>>>>>>>
+#=GC RF                            CaGcCuACAUGugGauuCauaAauCugCaGgCuGgUUaGauGGuuGuCac
+
+C.milii.1                          GCACACA..........GC
+O.latipes.1                        AUAUCUGGCUGUCGUCAUC
+Gasterosteus_aculeat.1             AUGUCUAGCUGUCUUCAUC
+D.rerio.1                          GUACCCAGCAAACAUCACA
+G.gallus.1                         GCAUUCAUCUGAUAACUGC
+A.carolinensis.1                   ACAUUCAUCUAAUGUCUGC
+O.anatinus.1                       UCAUUCAUGUGCUAUCUGC
+#=GC SS_cons                       >>>>>>>............
+#=GC RF                            gcaccCaucugAuAAcuGC
+//

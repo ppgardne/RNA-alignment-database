@@ -1,0 +1,578 @@
+# STOCKHOLM 1.0
+#=GF ID    MIR159
+#=GF AC    RF00638
+#=GF DE    microRNA MIR159
+#=GF AU    Wilkinson A
+#=GF GA    40.0
+#=GF NC    34.3
+#=GF TC    42.6
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000010
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    67
+
+#=GS O.sativa.1             AC    AP008207.1/9759682-9759874
+#=GS O.sativa.2             AC    AK064418.1/273-459
+#=GS O.sativa.3             AC    AY551214.1/3-192
+#=GS O.sativa.4             AC    AP002745.2/130234-130424
+#=GS O.sativa.5             AC    AP001800.2/44264-44453
+#=GS O.rufipogon.1          AC    CU406292.1/220-493
+#=GS O.sativa.6             AC    AP001800.2/28720-28917
+#=GS O.sativa.7             AC    AP002745.2/122526-122724
+#=GS V.vinifera.1           AC    AM432013.2/1939-2131
+#=GS V.vinifera.2           AC    AM458581.1/27231-27413
+#=GS V.vinifera.3           AC    AM454957.2/557-754
+#=GS V.vinifera.4           AC    AM462844.1/17742-17936
+#=GS V.vinifera.5           AC    AM457512.2/2039-2227
+#=GS V.vinifera.6           AC    AM471650.2/47061-47253
+#=GS V.vinifera.7           AC    AM434575.1/6094-6317
+#=GS V.vinifera.8           AC    AM457512.2/3453-3648
+#=GS V.vinifera.9           AC    AM427583.2/11957-12150
+#=GS V.vinifera.10          AC    AM474694.1/202-394
+#=GS S.lycopersicum.1       AC    AP009362.1/69443-69635
+#=GS S.lycopersicum.2       AC    AP009362.1/68028-68220
+#=GS S.lycopersicum.3       AC    EF091572.1/1-172
+#=GS L.japonicus.1          AC    AP006665.1/46415-46593
+#=GS M.truncatula.1         AC    CR962124.2/16257-16450
+#=GS M.truncatula.2         AC    CU459032.2/137752-137942
+#=GS R.communis.1           AC    AASG02019405.1/2341-2563
+#=GS R.communis.2           AC    AASG02006722.1/5309-5498
+#=GS R.communis.3           AC    AASG02000051.1/89024-89224
+#=GS R.communis.4           AC    AASG02012489.1/1166-1359
+#=GS R.communis.5           AC    AASG02000051.1/86758-86979
+#=GS R.communis.6           AC    AASG02000051.1/79825-80017
+#=GS R.communis.7           AC    AASG02000468.1/24439-24641
+#=GS R.communis.8           AC    AASG02014601.1/2536-2726
+#=GS R.communis.9           AC    AASG02011104.1/5917-6116
+#=GS P.trichocarpa.1        AC    AARH01017144.1/4716-4901
+#=GS P.trichocarpa.2        AC    AY728415.1/7-185
+#=GS P.trichocarpa.3        AC    AARH01006065.1/469812-470008
+#=GS P.trichocarpa.4        AC    AY728413.1/1-192
+#=GS P.trichocarpa.5        AC    AY884232.1/7-186
+#=GS P.trichocarpa.6        AC    AY884229.1/1-180
+#=GS P.trichocarpa.7        AC    AARH01006065.1/463210-463415
+#=GS P.trichocarpa.8        AC    AARH01008917.1/59768-59958
+#=GS P.trichocarpa.9        AC    AARH01006065.1/468133-468321
+#=GS P.trichocarpa.10       AC    AARH01006425.1/130179-130368
+#=GS P.trichocarpa.11       AC    AY884231.1/6-193
+#=GS P.trichocarpa.12       AC    AY884228.1/1-188
+#=GS P.trichocarpa.13       AC    AARH01000160.1/529592-529782
+#=GS A.cebennensis.1        AC    AY775957.1/547-737
+#=GS A.thaliana.1           AC    AC007660.2/72104-72304
+#=GS A.thaliana.2           AC    AY922324.1/461-652
+#=GS A.halleri.1            AC    AY775961.1/595-786
+#=GS A.thaliana.3           AC    AC005397.3/28710-28936
+#=GS A.thaliana.4           AC    AB005233.1/55413-55604
+#=GS A.thaliana.5           AC    AC012679.5/41166-41369
+#=GS A.lyrata.1             AC    AY775958.1/577-766
+#=GS A.thaliana.6           AC    AC069551.4/12020-12227
+#=GS B.oleracea.1           AC    EF203471.1/100-300
+#=GS B.oleracea.2           AC    AY775975.1/842-1033
+#=GS Capsella_bursa-pasto.1 AC    AY775962.1/657-847
+#=GS C.rubella.1            AC    AY775959.1/657-847
+#=GS C.orientalis.1         AC    AY775964.1/557-749
+#=GS C.orientalis.2         AC    AY775964.1/559-748
+#=GS D.sophia.1             AC    AY775970.1/570-761
+#=GS E.cheiri.1             AC    AY775974.1/600-788
+#=GS M.maritima.1           AC    AY775967.1/620-808
+#=GS N.officinale.1         AC    AY775971.1/606-797
+#=GS R.indica.1             AC    AY775966.1/585-776
+#=GS T.arvense.1            AC    AY775965.1/635-823
+
+O.sativa.1                         GAUGAAGAAGAAGAGCUC.CCUU.UCGAUCCAAUUCAGGAGAG....GA.
+O.sativa.2                         UGUGUAAGAAGAGAGCUC.UCU..UCAGUCCACUCUCAGAUGG....CU.
+O.sativa.3                         GGUUAUGAAGUGGAGCUC.CUU..UCGUUCCAAUGAAAGGUUU....AU.
+O.sativa.4                         UGAUGUGAGGAGGAGCUC.CUU..UCGAUCCAAUUCAGGAGAG....GA.
+O.sativa.5                         GAAGAAGAAGACGAGCUC.CCU..UCGAUCCAAUCCAGGAGAG....GA.
+O.rufipogon.1                      GUUGUGGACGUUGAGCUC.CUU..UCGGUCCAAAAAGGGGUGU....UG.
+O.sativa.6                         AUGGAUGGAAGAGAGCGU.CCU..UCAGUCCACUCAUGGGCGG....UG.
+O.sativa.7                         GAGGAGGAAGAGGAGCUC.CUU..UCGAUCCAAUUCAGGAGAG....GA.
+V.vinifera.1                       GGGGGAUUGAACAAGCUG.CCU..UCAUCCCAAAAUCAAAAGA....GU.
+V.vinifera.2                       UUACAUUGAAGAGAGCUU.UCU..UCAGUCCACUCAUGGGUGG....CA.
+V.vinifera.3                       GGGGGUUUAUGGGAGCUC.CUUU.ACGCUCCAGUUCUGAAAGG....AG.
+V.vinifera.4                       UUGUGGAAGAAGGAGCUC.UCU..UUAGUCCAGUCCGAGACAG....CU.
+V.vinifera.5                       AGGGGCUUGUGGGAGCUU.CUUU.ACACUCCAGAACUGAAAGG.......
+V.vinifera.6                       AGUGGUUUAAGAGAGCUU.CCU..UCAGUCCACUCAUGGAUGG....GU.
+V.vinifera.7                       GGAACAGCUGAAGAGCUC.CUU..UUAGUCCAAUAAAGAGGGC....UG.
+V.vinifera.8                       UGGGGUUCAAUGGAGCUC.UCU..UUGCUCCUAGCUAGAAGGA....GA.
+V.vinifera.9                       GGUUUUGGAGUGGAGCUC.CUU..GAAGUCCAAUAGAGGGUCU....UA.
+V.vinifera.10                      UGGGGGUUGAACAAGCUG.CCC..UCAUUCCAAAUUCAAAAGA....GU.
+S.lycopersicum.1                   GUUUUGAAGGUAGAGCUCUUCU..GAAUUCCAAAGAGGAUCUA....AG.
+S.lycopersicum.2                   GUUCUGAAUGUAGAGCUUUUCU..GAAUUUCAAAGAGGAUCUG....AG.
+S.lycopersicum.3                   .........AGAGAGCUU.UCU..UUAGUCCACACAUGGGGAA....CG.
+L.japonicus.1                      AAUAGAAUGAAGGAGCUU.CCU..UCUGCCCAACCAUGGAUAU....AU.
+M.truncatula.1                     UGAAUGGUAAGAGAGCUU.UCU..UUAGUCCACUCAUGGGUGA....CA.
+M.truncatula.2                     AAUAGAUGAAGAGAGCUU.CCU..UCAGUCCACUCAUGGAAGG....GU.
+R.communis.1                       AGCAUUUUAAGAGAGCUU.UCU..UCAGUCCACUCAUGGGUGG....CG.
+R.communis.2                       .........AAGGAGCUC.CUU..UCAGUCCAAUAUGGAGGGC....UU.
+R.communis.3                       UAUAUAUAUGCGGAGCUC.CUU..UUGGUCCAAAAUGAGGACU....CUG
+R.communis.4                       GCUAAAGGAGUGGAGCUC.CUU..GAAGUCCAAUAGAGGAUCU....UG.
+R.communis.5                       AUGCGUGCAUGGGGGCUC.UCUUCUAGCUCCGAUUCUGAAAGG....AG.
+R.communis.6                       UUAGGCGUAAUGGUGCUC.UCU..UCACUCCUGUUGUAAAAGG....AG.
+R.communis.7                       AAUGGUGUGAGAGAGCUU.CCU..UCAGCCCACUCAUGGAUGG....GGG
+R.communis.8                       UAUGGGAAGAAGGAGCUC.UCU..UCAGUCCAGUCCAAGGCGG....UU.
+R.communis.9                       AAUGGUUUAAGAGAGCUC.UCU..UCAGUCCACUCAUGGGCGG....GC.
+P.trichocarpa.1                    GAUUAGGGAGUGGAGCUC.CUU..GAAGUCCAAUAGAGGUUCU....UG.
+P.trichocarpa.2                    .........AAAGUGCUC.CUU..UUAGUCCAAUAAGGAGGGC....UG.
+P.trichocarpa.3                    UUGUAAAUUUGGGAGCUU.UCU..UUGGUUCAAAAUGAGGAAA....GA.
+P.trichocarpa.4                    ...GGUGGGAGAGAGCUU.CCU..UCAGCCCACUCAUGGAUAG....GAG
+P.trichocarpa.5                    .........GAGGUGCUC.CUU..UUAGUCCAAUACGGAGGGC....UG.
+P.trichocarpa.6                    ..AUAGAUAAGAGAGCUU.UUU..UCGGUCCACUUAUAGAUAG....UA.
+P.trichocarpa.7                    UGAGGCUCAAUGGAGCUC.UCC..CCACUCCAUGCCUGAAAGG....AG.
+P.trichocarpa.8                    UAUAACUUAAUGGAGCUU.CCU..CCACUCCAAGUCUGAAAAG....GA.
+P.trichocarpa.9                    ACCAUUAAAUAGGAGCUU.GCU...CACUCCAGAUCUGAAAGG....AG.
+P.trichocarpa.10                   GAUUAUGGAGUGGAGCUC.CUU..GAAGUCCAAUAGAAGCUCC....UG.
+P.trichocarpa.11                   .........AGAGAGCUU.CUU..UCAGCCCACUCGUGGAUAG....GA.
+P.trichocarpa.12                   .....UUUAAGAGAGCUU.UCU..UCAGUCCACUCAUGGACGG....GC.
+P.trichocarpa.13                   UAAUAGCUAAGAGAGCUU.UCU..UCAGUCCACUCAUGGGUGG....UA.
+A.cebennensis.1                    UAAAUGUAGAGAGAGCUU.CCU..UGAGUCCAUUCACAGGUCG....GA.
+A.thaliana.1                       UAGAUAUAGAAGGAGAUU.CUU..UCAGUCCAGUCAUGGAUAGAAAAAG.
+A.thaliana.2                       UAUAUGUAGAGAGAGCUU.CCU..UGAGUCCAUUCACAGGUCG....UG.
+A.halleri.1                        UAUAUGUAGAGAGAGCUU.CCU..UGAGUCCAUUCACAGGUCG....UG.
+A.thaliana.3                       GUGUAACAGAAGGAGCUC.CCU..UCCUCCAAAACGAAGAGGA....CAA
+A.thaliana.4                       GGUGGAGGAAGAGAGCUU.UCU..UCGGUCCACUCAUGGAGUA....AU.
+A.thaliana.5                       ACGAUGGAAGUAGAGCUC.CUU..AAAGUUCAAACAUGAGUUG....AG.
+A.lyrata.1                         UAUAUGUAGAGAGAGCUU.CCU..UGAGUCCAUUCACAGGUCG....UG.
+A.thaliana.6                       GAAGAAGAGGAAGAGCUC.CUU..GAAGUUCAAUGGAGGGUUU....AG.
+B.oleracea.1                       UAGAUAUAGAAGGAGAUU.CUU..UCAGUCCAGUCAUGGAUAGAACAAG.
+B.oleracea.2                       UCGAUAGAUAGAGAGCUU.CCU..UGAGUCCAUUCACAGGUUG....UG.
+Capsella_bursa-pasto.1             UAUGUAUGGAGAGAGCUU.CCU..UGAGUCCAUUCACAGGUCG....UG.
+C.rubella.1                        UAUGUACGGAGAGAGCUU.CCU..UGAGUCCAUUCACAGGUCG....UG.
+C.orientalis.1                     CAAAAAGAGAGGGAGCUC.CCU..UCAGUCCAAUCAAAGAGAA....UC.
+C.orientalis.2                     UAUAUAGAUAGAGAGUUU.CCU..UGAGUCCAUUCACAGGUCG....UG.
+D.sophia.1                         CAGAAAGAGAGGGAGCUC.CCU..UCAGUCCAAUCAAAGAGAA....UC.
+E.cheiri.1                         UAUAUCGAGAGAGAGCUU.CCU..UGAGUCCAUUCACAGGUCG....UG.
+M.maritima.1                       UAGUUAGAAAGAGAGCUU.CCU..UGAGUCCAUUCACAGGUCG....UG.
+N.officinale.1                     UAUAUUAAUGGAGAGCUU.CCU..UGAGUCCAUUCACAGGUCG....UG.
+R.indica.1                         UAUAUUAAGGGAGAGCUU.CCU..UGAGUCCAUUCACAGGUCG....UG.
+T.arvense.1                        GAUAAAGAGAGAGAGCUU.CCU..UGAGUCCAUUCACAGGUCG....UG.
+#=GC SS_cons                       ............<<<<<<.<<....<<<<<<<......<...........
+#=GC RF                            uaugaagaAAagGAGCUC.CCU..UCAgUCCAAUcauGgAugg....ag.
+
+O.sativa.1                         ...AG.U...GGUAGGAUGCAG...............CUGCCGGUU.CAU
+O.sativa.2                         ...GU.AG..GGU.UUUAUUAG...............CUGCCGAAU.CAU
+O.sativa.3                         ...CU.GAA.GGG.UGAUACAG...............CUGCUUGUU.CAU
+O.sativa.4                         ...AG.UG..GUG.GGAUGCAG...............CUGCCGGUU.CAU
+O.sativa.5                         ...AG.U...GGUAGGAUGCAG...............CUGCCGGUU.CAU
+O.rufipogon.1                      ...CU.GUG.GGU.CGAUUGAG...............CUGCUGGGU.CAU
+O.sativa.6                         ...CU.AG..GGU.CGAAUUAG...............CUGCCGACU.CAU
+O.sativa.7                         ...AG.U...GGUAGGAUGCAG...............CUGCCGAUU.CAU
+V.vinifera.1                       ...AG.A...AGG.UGUUACAU...............CUGCUGGUU.CAU
+V.vinifera.2                       ...GU.AG..GAU.UGAAUUAG...............CUGCCGACUCCAU
+V.vinifera.3                       ...AU.GAU.GGU.AUCCACAG...............CUGCUGGUU.CAU
+V.vinifera.4                       ...UC.AAG.GCUGAUACGUGG...............CUGCUGACU.CGU
+V.vinifera.5                       ..............AGAUACUA...............CUGCUGGUU.CAU
+V.vinifera.6                       ...UA.GG..GGUUUGGAUUAG...............CUGCCGACU.CAU
+V.vinifera.7                       ...AG.G...GGC.GGCCAGAG...............CUGCCAUCU.CAU
+V.vinifera.8                       ...UG.AG..GGUAUGCCACAG...............CUGCCAGUU.CAU
+V.vinifera.9                       ...CU.G...GGU.AGAUUGAG...............CUGCUGACU.UAU
+V.vinifera.10                      ...AG.A...AGG.UGUUACAU...............CUGCUGGUU.CAU
+S.lycopersicum.1                   ...A...G..GGA.AAAUUGAG...............CUGCUGAUC.UAU
+S.lycopersicum.2                   ...A...G..GGA.AAAUCGAG...............CUGCUAAUC.UAU
+S.lycopersicum.3                   ...AU.AG..GGU.UCAAUUUG...............CUGCCGACU.CAU
+L.japonicus.1                      ...GU.GAG.GGA.AGCCUUUG...............UUG.......CAA
+M.truncatula.1                     ...AU.AA..GAUUUCAAUUAG...............CUGCUGACU.CAU
+M.truncatula.2                     ...AA.GG..GGUUUGAAUUAC...............CUGCUGACU.CAU
+R.communis.1                       ...GU.AG..GAU.UUAAUUAG...............CUGCCGACU.CAU
+R.communis.2                       ...AG.AA..GCG.GCAAAGAG...............CUGCCAUCU.CAU
+R.communis.3                       A..AA.GAG.GGCAUAGCAGGU...............CUGCUAGUU.CAU
+R.communis.4                       ...AU.G...GGU.AGAUUGAG...............CUGCUGAGC.UAU
+R.communis.5                       ...AU.GAU.GGUGCGACAUGG...............CUGCUAGUU.CAU
+R.communis.6                       ...GU.GAU.GGUAGGCCACGG...............CUGCUAGUU.CAU
+R.communis.7                       UA.AA.GG..GGC.UGAAGUAU...............CUGCCGACU.CAU
+R.communis.8                       ...GA.GG..GCUGGGACUUAG...............CUGCUGACU.CGU
+R.communis.9                       ...GA.AG..GUUUUGAAUUAU...............CUGCCGACU.CAU
+P.trichocarpa.1                    ...CU.G...GGU.AGAUUAAG...............CUGCUAAGC.UAU
+P.trichocarpa.2                    ...AG.A...AGC.GGCUAGAG...............CUGCCAUCU.CAU
+P.trichocarpa.3                    ...AA.GUG.GGU.AUACUCGU...............CUGCUUGUU.CAU
+P.trichocarpa.4                    A..AA.GG..GGU.UGAAUUAG...............CUGCCGACU.CAU
+P.trichocarpa.5                    ...AG.A...AGC.GGCUAGAG...............CUGCCAUCU.CAU
+P.trichocarpa.6                    ...AU.AU..GAU.UUAAUUAG...............UUACCGACU.CAU
+P.trichocarpa.7                    ...UUCGAU.GGUAGACCAUGG...............CUGCUAGUU.CAU
+P.trichocarpa.8                    ...UGUGAG.GGUGUAUCACUG...............CUGCAAACU.CAU
+P.trichocarpa.9                    ...GU.GAUAGGA.AACCACUU...............CUGCUACUU.CAU
+P.trichocarpa.10                   ...CU.G...GGU.AGAUCGAG...............CUGCUGAGC.UAU
+P.trichocarpa.11                   ...CA.AAGGGGU.UGAACUAG...............CUGCCGACU.CAU
+P.trichocarpa.12                   ...GA.AG..GGUUUGGAUUAG...............CUGCCGACU.CAU
+P.trichocarpa.13                   ...GU.AG..GAU.UUAAUUAG...............CUGCCGACU.CAU
+A.cebennensis.1                    ...UA.U...GAU.CCAAUUAG...............CUUCCGACU.CAU
+A.thaliana.1                       ...AA.GAG.GGU.AGAAAUAU...............CUGCCGACU.CAU
+A.thaliana.2                       ...AU.AU..GAU.UCAAUUAG...............CUUCCGACU.CAU
+A.halleri.1                        ...AU.AU..GAU.CCAAUUAG...............CUUCCGACU.CAU
+A.thaliana.3                       GAUUU.GA..GGA.........ACUAAAAUGCAGAAUCUAAGAGUU.CAU
+A.thaliana.4                       ...AU.GUGAGAU.UUAAUUGA...............CUCUCGACU.CAU
+A.thaliana.5                       ...CA.G...GGUAAAGAAAAG...............CUGCUAAGC.UAU
+A.lyrata.1                         ...AU.AU..GAU.CCAAUUAG...............CUUCCGACU.CAU
+A.thaliana.6                       ...CA.GG..GUG.AAGUAAAG...............CUGCUAAGC.UAU
+B.oleracea.1                       ...AA.GAG.GGU.AGAAACAU...............CUGCCGACU.CAU
+B.oleracea.2                       ...AU.AU..GAU.CCAAUUAG...............CUUCCGAAU.CAU
+Capsella_bursa-pasto.1             ...AU.AU..GAU.CCAAUUAG...............CUUCCGACU.CAU
+C.rubella.1                        ...AU.AU..GAU.CCAAUUAG...............CUUCCGACU.CAU
+C.orientalis.1                     ...AA.U...GAUCCAAUUUGU...............CUACCGCAU.CAU
+C.orientalis.2                     ...AU.AU..GAU.CCAAUUAG...............CUUCCGACU.CAU
+D.sophia.1                         ...AA.U...GAUCCAAUUUGU...............CUACCGCAU.CAU
+E.cheiri.1                         ...AU.AU..GAU.CCAAUUAG...............CUUCCGACU.CAU
+M.maritima.1                       ...AU.AU..GAU.CCAAUUAG...............CUUCCGACU.CAU
+N.officinale.1                     ...AU.AU..GAU.CCAAUUAG...............CUUCCGACU.CAU
+R.indica.1                         ...AU.AU..GAU.UCAAUUAG...............CUUCCGACU.CAU
+T.arvense.1                        ...AU.AU..GAU.CCAAUUAG...............CUUCCGACU.CAU
+#=GC SS_cons                       .....................................<<.<<<....<<<
+#=GC RF                            ...au.ga..GGU.agAaauAG...............CUGCcgacU.CAU
+
+O.sativa.1                         GG.AUACCU.CUG.GA.GUGCAG.GGCAAAU...................
+O.sativa.2                         CC.AUUCAC.CUA.CCAGGAAAG.UUGC.....AGGAG............
+O.sativa.3                         GG.UUCCCA.CUA.UUC.UAUCU.CAUAGGA...................
+O.sativa.4                         GG.AUACCU.CUG.CA.GUUCAU.GCCG......................
+O.sativa.5                         GG.AUACCU.CUG.CAGUGCAUG.UCGUAGG...................
+O.rufipogon.1                      GG.AUCCCG.UUA.GCCUACUCC.AUGUUCA..UCAUUCAGCUCGAGAUC
+O.sativa.6                         UC.ACCCAC.AUG.CCA.AGCAA.GAAACGC..UUGAGA...........
+O.sativa.7                         GG.AUACCU.CUG.GAGUGCAUG.GCAGCAA...................
+V.vinifera.1                       GG.AUACCU.UUG.UA.GUGUAC.AGAUUAA..UAUAU............
+V.vinifera.2                       UC.AUCCAA.AUA.CUGUGUUAA.GGACUAC...................
+V.vinifera.3                       GA.GUACCU.AUG.GCUGCACAA.UAUAUAUA.GCAAU............
+V.vinifera.4                       UG.CUUCAA.GAA.CUCAUCACA.UASKCCUG.GAAAA............
+V.vinifera.5                       GA.AAACCU.AUG.GCUGCAUUC.UCUAUACU.GAAAU............
+V.vinifera.6                       UC.AUUCAA.ACA.CAGUAGAAU.GGAA.......AUG............
+V.vinifera.7                       GC.ACUUGG.CUA.UGCUUAUUC.UUUUCUCA.AUCAAUUCGGUUCGAGU
+V.vinifera.8                       GA.AUGCCC.AUG.GAUGCUCAA.GUUCUAG..CAUAU............
+V.vinifera.9                       GG.AUCCCA.CAG.CCCUAUCCC.GUCA.....AUGGGGG..........
+V.vinifera.10                      GG.AUACCU.UUG.UAGUGUACA.GAUUAAU..AUAUC............
+S.lycopersicum.1                   GG.AUCCCU.CAA.UCCUAUCUA.UUUU.....CAGAUUA..........
+S.lycopersicum.2                   GG.AUCCCU.CAA.ACCUAUCUA.UUCUCAA..AAUAA............
+S.lycopersicum.3                   UC.AUCCAA.AUG.UUGAGGUCU.UGAU.....AAUCG............
+L.japonicus.1                      AA.AUA.AA.CUA.UUAUUCAUU.CAUUCAU...................
+M.truncatula.1                     UC.AUCCAA.AUG.UUGAGUAAA.AUAU.....AUAGA............
+M.truncatula.2                     UG.AUUCAA.ACA.CAAUAGACA.AUUAUGG...................
+R.communis.1                       UC.AUCCAA.AUA.CUGAGUUAA.AAAG.....UUCAGAAAACAAAAGGG
+R.communis.2                       GC.AUUAAGGCAA.UACUUGACA.AGUUUUUCACAGUG............
+R.communis.3                       GG.AUACCU.AUG.GGUUGCAGU.UGGAAACU.AACACA...........
+R.communis.4                       GG.AUCCCA.CAG.CCCUAUAAG.CAGAGAU..UAUAA............
+R.communis.5                       GA.AUACCC.UUU.GGUGCGCAG.GUCAGUU..CUAUGUAGUUGGCAAAU
+R.communis.6                       GA.AUACCC.CUG.GCUGCGCAG.GAUUAAAGUAAUAA............
+R.communis.7                       UC.AUUCAA.GCA.CUAGUAGAC.AAAGGGA..UUGGUACU.........
+R.communis.8                       UG.GUUCAA.GAG.CUCAUCAUC.AUCA.....AUGUG............
+R.communis.9                       UC.AUUCAA.ACA.CACUAGAAA.AGGGAGCAUUAAAG............
+P.trichocarpa.1                    GG.AUCCAC.AGU.CCUAUCUAU.CAAC......................
+P.trichocarpa.2                    GC.AUUUAGGCAA.UGCUUAACA.UUUGGCA..AAGA.............
+P.trichocarpa.3                    GG.AUACCU.CUG.GGU.UGCGC.AGGAUAUA.UUAGU............
+P.trichocarpa.4                    UC.AUUCAA.GCA.CCAGUAGAA.AAAGGGG..AAUGGAUAU........
+P.trichocarpa.5                    GC.AUUUAG.GCA.AUGCUUAAC.AUUUGACG.AAGAG............
+P.trichocarpa.6                    UC.AUCCAA.AUA.CUGAGUUAU.GAGCUAA...................
+P.trichocarpa.7                    GA.AUACCC.UUG.GGUGCGCAG.AAUUAGC..AACGGUGCAGGCG....
+P.trichocarpa.8                    GCAAUUCCC.AUA.AGAAGGCAU.GGUU......................
+P.trichocarpa.9                    GA.AUACCC.GUG.GGUGUGCGC.GUAGCCA..UGGUG............
+P.trichocarpa.10                   GA.AUCCCA.CAG.CCCUAUCACCAUCAGUC...................
+P.trichocarpa.11                   UC.AUUCAA.GCA.CUAGUAGAA.AAAAAGGCGAACGGUGUU........
+P.trichocarpa.12                   UC.AUUCAA.ACA.CAGUAGAAA.UUAAGGG..AGCAGU...........
+P.trichocarpa.13                   UC.AUCCAA.AUA.CUGAGUUAA.AGGACAAG.GAGAU............
+A.cebennensis.1                    UC.AUCCAA.AUA.CCGAGUCGC.CAAAAUU..CAAA.............
+A.thaliana.1                       CC.AUCCAA.ACA.CUCGUGGUA.GAGAAAC..GAUAA............
+A.thaliana.2                       UC.AUCCAA.AUA.CCGAGUCGC.CAAAAUU..CAAA.............
+A.halleri.1                        UC.AUCCAA.AUA.CCGAGUCGC.CAAAAUU..CGAA.............
+A.thaliana.3                       GU.CUUCCU.CAU.AGAGAGUGC.GCGGUGUU.AAAAG............
+A.thaliana.4                       UC.AUCCAA.AUA.CCAAAUGAA.AGAAUUU...................
+A.thaliana.5                       GG.AUCCCA.UAAGCCCUAAUCC.UUGUAAA..GUAAA............
+A.lyrata.1                         UC.AUCCAA.AUA.CCGAGUCGC.UAAAAUC...................
+A.thaliana.6                       GG.AUCCCA.UAA.GCCUUAUCA.AAUUCAA..UAUAAUUGAU.......
+B.oleracea.1                       CC.AUCCAA.ACA.CUUCUGGUA.AAAAGAA..AAUAGA...........
+B.oleracea.2                       UC.AUCCAA.AUA.CUGAGUCAC.CAAAAUU..CAAA.............
+Capsella_bursa-pasto.1             UC.AUCCAA.AUA.CCGAGUCUC.ACCAAAAU.UCUAA............
+C.rubella.1                        UC.AUCCAA.AUA.CCGAGUCUC.ACCA.....AAAUUG...........
+C.orientalis.1                     UC.AUUCAU.UUA.ACGAGUUUA.GAUU.....GAAAU............
+C.orientalis.2                     UC.AUCCAA.AUA.CCGAGUCAU.CAAA.....AUUUC............
+D.sophia.1                         UC.AGUCAU.UUA.AC.GAGUCU.AGUU.....UGAAU............
+E.cheiri.1                         UC.AUCCAA.AUA.CCGAGUCAC.CAAAAUU..CGAA.............
+M.maritima.1                       UC.AUCCAA.AUA.CCGAGUCAC.CAAAAUU..CAAA.............
+N.officinale.1                     UC.AUACAA.AUA.CCGAGUCAC.AGAAAUC..UUAA.............
+R.indica.1                         UC.AUCCAA.AUA.UCGAGUCAC.CAAA.....AUUUG............
+T.arvense.1                        UC.AUCCAA.AUA.CC.GAGUCA.CCAAAAU..UCGAG............
+#=GC SS_cons                       <.....<...........................................
+#=GC RF                            gc.AUaCca.aUA.cccuugcaa.aauauaa..aAaAg............
+
+O.sativa.1                         ..................................................
+O.sativa.2                         ..................................................
+O.sativa.3                         ..................................................
+O.sativa.4                         ..................................................
+O.sativa.5                         ..................................................
+O.rufipogon.1                      UGAAAGAAACUACUCCAAUUUAUACUAAUAGUAUGUGUGUAGAUAGGAAA
+O.sativa.6                         ..................................................
+O.sativa.7                         ..................................................
+V.vinifera.1                       ..................................................
+V.vinifera.2                       ..................................................
+V.vinifera.3                       ..................................................
+V.vinifera.4                       ..................................................
+V.vinifera.5                       ..................................................
+V.vinifera.6                       ..................................................
+V.vinifera.7                       AUGGCUGUGGAGUGA...................................
+V.vinifera.8                       ..................................................
+V.vinifera.9                       ..................................................
+V.vinifera.10                      ..................................................
+S.lycopersicum.1                   ..................................................
+S.lycopersicum.2                   ..................................................
+S.lycopersicum.3                   ..................................................
+L.japonicus.1                      ..................................................
+M.truncatula.1                     ..................................................
+M.truncatula.2                     ..................................................
+R.communis.1                       GCGGGUGCUGUAGAAAAG................................
+R.communis.2                       ..................................................
+R.communis.3                       ..................................................
+R.communis.4                       ..................................................
+R.communis.5                       GGCAAUG...........................................
+R.communis.6                       ..................................................
+R.communis.7                       ..................................................
+R.communis.8                       ..................................................
+R.communis.9                       ..................................................
+P.trichocarpa.1                    ..................................................
+P.trichocarpa.2                    ..................................................
+P.trichocarpa.3                    ..................................................
+P.trichocarpa.4                    ..................................................
+P.trichocarpa.5                    ..................................................
+P.trichocarpa.6                    ..................................................
+P.trichocarpa.7                    ..................................................
+P.trichocarpa.8                    ..................................................
+P.trichocarpa.9                    ..................................................
+P.trichocarpa.10                   ..................................................
+P.trichocarpa.11                   ..................................................
+P.trichocarpa.12                   ..................................................
+P.trichocarpa.13                   ..................................................
+A.cebennensis.1                    ..................................................
+A.thaliana.1                       ..................................................
+A.thaliana.2                       ..................................................
+A.halleri.1                        ..................................................
+A.thaliana.3                       ..................................................
+A.thaliana.4                       ..................................................
+A.thaliana.5                       ..................................................
+A.lyrata.1                         ..................................................
+A.thaliana.6                       ..................................................
+B.oleracea.1                       ..................................................
+B.oleracea.2                       ..................................................
+Capsella_bursa-pasto.1             ..................................................
+C.rubella.1                        ..................................................
+C.orientalis.1                     ..................................................
+C.orientalis.2                     ..................................................
+D.sophia.1                         ..................................................
+E.cheiri.1                         ..................................................
+M.maritima.1                       ..................................................
+N.officinale.1                     ..................................................
+R.indica.1                         ..................................................
+T.arvense.1                        ..................................................
+#=GC SS_cons                       ..................................................
+#=GC RF                            ..................................................
+
+O.sativa.1                         ...................AG.......UCCUACCCUUUCAUGGGUUUGC
+O.sativa.2                         .................UGUAUCUCUUG..........GUAGCGGACUGG
+O.sativa.3                         .................AAAGAGAUAGG..........CUUGUGGUUUGC
+O.sativa.4                         ...................GUAGGCCUGCACUU.....GCAUGGGUUUGC
+O.sativa.5                         ...................CUUGCACUU..........GCAUGGGUUUGC
+O.rufipogon.1                      AUGAUGGAGUACUCGUUGUUGGGAUAGG..........CUUAUGGCUUGC
+O.sativa.6                         ................UAGCGAAGCUUA..........GCAGAUGAGUGA
+O.sativa.7                         ...................UGCUGUAGGCCUGCACUU.GCAUGGGUUUGC
+V.vinifera.1                       ................CUAAUGUCCACU..........UUAAGGGUUUGC
+V.vinifera.2                       ...................CC.......A.........GUAAAUGAUUGA
+V.vinifera.3                       ................GUUGUGUGCAAA..........CUAUGGGUGUGC
+V.vinifera.4                       ...................GAUGGAUGG..........UUUUUUGAUCCA
+V.vinifera.5                       ................UUUGUAUACAAA..........CUAUGGGUUUGC
+V.vinifera.6                       ................GAGUUUACUACU..........GUGAAUGUGUGA
+V.vinifera.7                       ................CAAAUGCUAAGU..........UUAGCCUGAUGC
+V.vinifera.8                       ................GGUGAGAGCAAG..........CUAUGGGUGAGC
+V.vinifera.9                       ................GCAUUGGAUAGG..........CUUGUGGCUUGC
+V.vinifera.10                      ................CAAUG.......UCCCCU....UUAAGGGUUUGC
+S.lycopersicum.1                   ................AUUUUAGAUAGG..........UUUGUGGUUUGC
+S.lycopersicum.2                   .................UUUUAGAUAGG..........UUUGUGGUUUGC
+S.lycopersicum.3                   ................AGUGCCACCUCA..........GCAACUGAGUGA
+L.japonicus.1                      ............................AU........AUAAUUAUGUGA
+M.truncatula.1                     ................AACAUAUACUCA..........UCAAAUGAGUGA
+M.truncatula.2                     ................GGUUAUGCUAUU..........GUGAAUGUGUGA
+R.communis.1                       ................AAGGUUUACCCA..........GUAAAUGAGUGA
+R.communis.2                       ................AAAAUCUCAAGU..........UUGGCCUGGUGC
+R.communis.3                       ................UUUUUGCGCAGC..........UUAAGGGUUUGC
+R.communis.4                       .................UUUUGGAUAGG..........CUUGUGGCUUGC
+R.communis.5                       ................GUGAUGCGCAGC..........CUAAGAGUAAGC
+R.communis.6                       ................AGUUUGCGCAGG..........CUAAGGGUUUGC
+R.communis.7                       ................GUUUUAGCUACU..........GUGAUUGUAUGA
+R.communis.8                       ...................UAAGAGAUGU.........CUUUUUGAUCCA
+R.communis.9                       ................AUAGCUGCUAUU..........GUGAAUGUGUGA
+P.trichocarpa.1                    .................CGAAGGAUAGG..........UUUGCGGCUUGC
+P.trichocarpa.2                    ...................GGUUUAAGC..........UUGGCCAGGUGC
+P.trichocarpa.3                    ................UAGGGCUACAGC..........UUAAGGGUUUGC
+P.trichocarpa.4                    ................UCUUUUGCUACU..........GUGAUUGUGUGA
+P.trichocarpa.5                    ...................AGGUUAAGC..........UUGGCCACUUGC
+P.trichocarpa.6                    ...................GAUUACCCA..........GUAAAUGAAUGA
+P.trichocarpa.7                    ................AAGUUGCGCAGG..........CUAAGGGUCUGC
+P.trichocarpa.8                    .................UUUAUUGCAAU..........CUAAGGGCCUGC
+P.trichocarpa.9                    .................AGCUGCGCAGG..........CUAAGGGUCUGC
+P.trichocarpa.10                   .................AUUUUGAUGGG..........CCUGCGGCUUGC
+P.trichocarpa.11                   ................UCUUUUGCUACU..........GUGAUUGUGUGA
+P.trichocarpa.12                   ................AUGGCUGCUAUU..........GUGAAUGUGUGA
+P.trichocarpa.13                   ................UACCC.......A.........GUAAAUGAGUGA
+A.cebennensis.1                    ...................UUAGACUCG..........UUAAAUGAAUGA
+A.thaliana.1                       ................AUUUAAACCGCA..........GUGACUGUGUGA
+A.thaliana.2                       ...................CUAGACUCG..........UUAAAUGAAUGA
+A.halleri.1                        ...................CUAGACUCG..........UUAAAUGAAUGA
+A.thaliana.3                       ................CUUGAAGAAAGCACACUU....UAAGGGGAUUGC
+A.thaliana.4                       .................GUUCUCAUAUG..........GUAAAUGAAUGA
+A.thaliana.5                       ................AAAGGAUUUGGU..........UAUAUGGAUUGC
+A.lyrata.1                         ................GAACUAGACUCG..........UUAAAUGAAUGA
+A.thaliana.6                       ................GAUAAGGUUUUU..........UUUAUGGAUGCC
+B.oleracea.1                       ................UUUUAUACCACA..........GUGGCUGUGUGA
+B.oleracea.2                       ...................CUAAACUCG..........UUAAAUGAAUGU
+Capsella_bursa-pasto.1             ...................CAAGACUUG..........UUAAAUGAAUGA
+C.rubella.1                        ................GAACAAGACUUG..........UUAAAUGAAUGA
+C.orientalis.1                     ................UUUGAUGACUCG..........GUAUUUGGAUGA
+C.orientalis.2                     ................AAUCUAAACUCG..........UUAAAUGAAUGA
+D.sophia.1                         ................UUGGGUGACUCG..........GUAUGUGGAUGA
+E.cheiri.1                         ...................CUAGACUCG..........UUAAAUGAAUGA
+M.maritima.1                       ...................CUAGACUCG..........UUAAAUGAAUGA
+N.officinale.1                     ...................CUGGACUCG..........GUAAAUGAAUGA
+R.indica.1                         .................AACUAGACUCG..........UUAAAUGAAUGA
+T.arvense.1                        ...................CAAGACUCG..........UUAAAUGAAUGA
+#=GC SS_cons                       ............................................>....>
+#=GC RF                            ................auuuuugacAgg..........uUAaggGuuUGc
+
+O.sativa.1                         AUGACUCGGGAGAUGA.A..........CCCGCCAU....UGUCUUCCUC
+O.sativa.2                         AUGACGCGGGAGCUAAAA..........UUUAGCUC......UGCGCCGU
+O.sativa.3                         AUGACCAAGGAGCCGA.A..........UCAACUCC......UUGCUGAC
+O.sativa.4                         AUGACCUGGGAGAUGA.A..........CCUGCCAU....UGUGUUCCUC
+O.sativa.5                         AUGACCCGGGAGAUGA.A..........CCCACCAU....UGUCUUCCUC
+O.rufipogon.1                      AUGCCCCAGGAGCUGC.A..........UCAACCCU.......ACAUGGA
+O.sativa.6                         AUGAAGCGGGAGGUAA.C..........GUUCCGAU....CUCGCGCCGU
+O.sativa.7                         AUGACCCGGGAGAUGA.A..........CCCACCAU....UGUCUUCCUC
+V.vinifera.1                       AUGAAUGGGGAGAUGA.G..........GUUGCCUU.......CUUCACU
+V.vinifera.2                       AUGAUGCGGGAGACAA.A..........UUGGAUCU......UAAGCUCC
+V.vinifera.3                       AUGACCUCGGAGAAGU.G..........GUUGCCUU.......GAUCUUU
+V.vinifera.4                       ACGAUGCAGGAGCUGC.G..........UUCAGUUA.......UGGCUGU
+V.vinifera.5                       AUGAMCUUGGAGAAGU.G..........UUUGCUUU......UAUCUUUU
+V.vinifera.6                       AUGAUGCGGGAGGUAA.A..........UUUCAUCC.....UUUUCUUGU
+V.vinifera.7                       AUGACAUGGGAGCAAC.U..........CCUCCGCA.....CGCUUUGCC
+V.vinifera.8                       AUGACUUGGGAGAUGA.G..........GGUACUUU.......GAUCUUU
+V.vinifera.9                       AUAUCUCAGGAGCUGC.A..........UUAUCCAA......GUUUAGAU
+V.vinifera.10                      AUGAAUGGGGAGAUGA.G..........GUUUCCUU.......CUUGACU
+S.lycopersicum.1                   AUAUAUCAGGAGCUGC.A..........UUUACUCU.......UCUAGGA
+S.lycopersicum.2                   AUAUAUCAGGAGCUUC.A..........UUUACUCU.......UCUAGGA
+S.lycopersicum.3                   AUGAAGCGGGAGUACAAG..........UUGAGUCU......UGAGCUUC
+L.japonicus.1                      AUGAAGUGGAAGAUGU.A......UAUUUUGCAGCC......UUCUUUGG
+M.truncatula.1                     AUGAUGCGGGAGACAA.A..........UUGAAUCU......UAAGUUUC
+M.truncatula.2                     AUGAUGCAGGAGGUGA.A..........UUUCUUCC.......UUUUCUU
+R.communis.1                       AUGAUGCGGGAGACAA.A..........UUGAAUCU......UAAGCUUC
+R.communis.2                       AUGGUGUGGGAGCAAC.U..........CCUUCCCU......CCUUCCCC
+R.communis.3                       AUGACCUGGGAGACGU.G..........UUUCCCUU.......CCCCUUU
+R.communis.4                       AUAUCUCAGGAGCUUC.A..........UUACCUUG......UAUUAGAU
+R.communis.5                       AUCUGCUGGGAGCUCU.G..........UUUACCUU...UGAUAUUCUUU
+R.communis.6                       AUGACCUGGGAGACGU.G..........GUUACCUU.......CUUCUUU
+R.communis.7                       AUGAUGCGGGAGAUAA.U..........UUUGCAUC.....CCUCUUUUU
+R.communis.8                       ACGAAGCUGGAGCUGU.G..........UUCAGUUA.......UGGCUGU
+R.communis.9                       AUGAUGCGGGAGAUAA.A..........UUUCAUAC.....UUCUCUUCU
+P.trichocarpa.1                    AUAUCUCAGGAGCUUU.A..........UUGCCUAA......UGUUAGAU
+P.trichocarpa.2                    AUGGUGUGGGAGCAAC.U..........CCUUCCGC....AUGCUUUGUU
+P.trichocarpa.3                    AUGGCCAAGGAGACGU.U..........GCCUGCCU......UCUCCUUU
+P.trichocarpa.4                    AUGAUGCGGGAGAUAA.U..........UUUACAUC....CCCUCUUUUU
+P.trichocarpa.5                    AUGGUGUGGGAGCAAC.U..........CCUUCCGC....AUGCUUUGCU
+P.trichocarpa.6                    GUGAUGCGGGAGACAA.A..........UUAAAUCU......UAAACUUC
+P.trichocarpa.7                    AUGACCUAGGAGACGU.G..........GUUACCCU.......GACCCUU
+P.trichocarpa.8                    AUGAAUCUGAAGAAGU.G..........ACUGUCUA......GUUUUUUC
+P.trichocarpa.9                    AUGUGCUAGGAGAUGU.G..........GUUGCCUU.......GAUCUUU
+P.trichocarpa.10                   AUAUCUCAGGAGCUUU.A..........UUACCUAA......UGUUAGAU
+P.trichocarpa.11                   AUGAUGCGGGAGAUAA.U..........UUUCCAUC....CUCUCCUUUU
+P.trichocarpa.12                   AUGAUGCGGGAGAUAA.A..........UUUCAUCC.....UUUUCUUCU
+P.trichocarpa.13                   AUGAUGCGGGAGACAA.A..........UUGAAUCC......UAAGCUUC
+A.cebennensis.1                    AUGAUGCGGUAGACAA.A..........UUGGAUCA......UUGAUUCU
+A.thaliana.1                       AUGAUGCGGGAGAUAU.U..........UUUGAUCC......UUCUUUAU
+A.thaliana.2                       AUGAUGCGGUAGACAA.A..........UUGGAUCA......UUGAUUCU
+A.halleri.1                        AUGAUGCGGUAGACAA.A..........UUGGAUCA......UUGAUUCU
+A.thaliana.3                       ACGACCUCUUAGAUUC.UCCCUCUUUCUCUACAUAU...CAUUCUCUUCU
+A.thaliana.4                       AUGAUGCGAGAGACAA.A..........UUGAGUCU......UCACUUCU
+A.thaliana.5                       AUAUCUCAGGAGCUUUAA..........CUUGCCCUUUAAUGGCUUUUAC
+A.lyrata.1                         AUGAUGCGGUAGACAA.A..........UGGAUCAU.......UGAUUCU
+A.thaliana.6                       AUAUCUCAGGAGCUUUCA..........CUUACCCCUUUAAUGGCUUCAC
+B.oleracea.1                       AUGAUGCGGGAGAUGU.U..........UUCAUCUC.......UCUUUAU
+B.oleracea.2                       AUGAUGCGGUAGACAA.A..........UUGGGUUA......UUGAUUCU
+Capsella_bursa-pasto.1             AUGAUGCGGUAGACAA.A..........UUGGAUCA......UUGAUUCU
+C.rubella.1                        AUGAUGCGGUAGACAA.A..........UUGGAUCA......UUGAUUCU
+C.orientalis.1                     AUGAGUCGGAAGCUAA.U..........UGGAUCAU......AUCACGAC
+C.orientalis.2                     AUGAUGCGGUAGACAA.A..........UUGGAUCA......UUGAUUCU
+D.sophia.1                         AUGAGUCGGAAGCUAA.U..........UGGAUCAU......AUCACGAC
+E.cheiri.1                         AUGAUGCGCUAGACAA.A..........UUGGAUCA......UUGAUUCU
+M.maritima.1                       AUGAUGCGGUAGACAA.A..........UUGGGUCA......UUGAUUCU
+N.officinale.1                     AUGAUGCUGUAGACAA.A..........UUGGAUCA......UUGAUUCU
+R.indica.1                         AUGAUGCGGUAGACAA.A..........UUGGAUCA......UUGAUUCU
+T.arvense.1                        AUGAAGCGGUAGACAA.A..........UUGGGUCA......UUGAUUCU
+#=GC SS_cons                       >>>...>>>.>>......................................
+#=GC RF                            AUGAcgcgGGAGAUga.a..........uUuaccuu......UuuucuuU
+
+O.sativa.1                         UAUUGAUUGGAUUG...AAGGGAGCUCCUCUAGCUACAUCU
+O.sativa.2                         UUGUGGUUGGACUG...AAGGGUGCUCCCUUGCUC......
+O.sativa.3                         CACUCUUUGGAUUG...AAGGGAGCUCUGCAUCUUGAUCCC
+O.sativa.4                         UAUUGAUUGGAUUG...AAGGGAGCUCCGGCUACACCUAUC
+O.sativa.5                         UUAUGCUUGGAUUG...AAGGGAGCUCUACACCUCUCUCUC
+O.rufipogon.1                      CCCUCUUUGGAUUG...AAGGGAGCUCUGCAUCUUUUGUCA
+O.sativa.6                         CUUUGCUUGGACUG...AAGGGUGCUCCCUCCUCCUCGAUC
+O.sativa.7                         UAUUGAUUGGAUUG...AAGGGAGCUCCACAUCUCUCUCGU
+V.vinifera.1                       UAUAAUUUGGUUUG...AAGGGAGCUCUGAUAGUCCUUCUC
+V.vinifera.2                       CUGUGCUUGGACUG...AAGGGAGCUCCCUUCACUGCAAUC
+V.vinifera.3                       CUGGCCUUGGAGUG...AAGGGAGCUCUCAUAACCCUUCUA
+V.vinifera.4                       CACGUCUUGGACUG...AAGGGAGCUCCCUUGUAUUCCACA
+V.vinifera.5                       CUGGCCUUGGAGUG...AAGGGAGCUCUCAUAACCGAUCUA
+V.vinifera.6                       CUGUGCUUGGACUG...AAGGGAGCUCCCUUCUACUGUUUU
+V.vinifera.7                       CACUCAUUGGACUG...AAGGGAGCUCCCAGGGCAGAUCUC
+V.vinifera.8                       CUGGUAUUGGAGUG...AAGGGAGCUCUAUGGUUCUUACUU
+V.vinifera.9                       CCUUGUUUGGAUUG...AAGGGAGCUCUACACCUCUCUCUC
+V.vinifera.10                      UGUAAUUUGGUUUG...AAGGGAGCUCUGAUGACCCUUCUA
+S.lycopersicum.1                   UCUUUAUUGGAAAG...AAGGGAGCUCUACACUUGAUAACC
+S.lycopersicum.2                   UCCUUAUUGGAAUG...AAGGGAGCUCUACGUUUGAUAACC
+S.lycopersicum.3                   CUGUACUUGGACUG...AAGGGAGCUCC.............
+L.japonicus.1                      CUAUGUUUGGACUG...AAGGGAGCUCCUUCUUUCUGUUGC
+M.truncatula.1                     CUAUACUUGGACUG...AAGGGAGCUCCCUUUUCUUCCUUU
+M.truncatula.2                     CUUUGCUUGGACUG...AAGGGAGCUCCCUUUUUCUAUUUA
+R.communis.1                       CUGUACUUGGACUG...AAGGGAGCUCCCUUUACUGUUAUU
+R.communis.2                       CACCCAUUGGACUG...AAGGGAGCUCCUUCUUUCAUUUUG
+R.communis.3                       CCUUAAUUGGAUUG...AAGGGAGCUCCUCCUGUUUAUUUG
+R.communis.4                       CCUUGUUUGGAUUG...AAGGGAGCUCUACAUCUCUCUCUC
+R.communis.5                       UUGGUAUUGGGGCG...AAGGAAGCUCCUAUAUUUACAUGU
+R.communis.6                       UUUAUAUUGGAGUG...AAGGGAGCUCUGUUGUCU......
+R.communis.7                       CCGUGCUUGGACUG...AAGGGAGCUCCUUCUUUCUACAGC
+R.communis.8                       CAUGUCUUGGACUG...AAGGGAGCUCCCUCCAAUUCUUAC
+R.communis.9                       CUGUGCUUGGACUG...AAGGGAGCUCCCUUUAGCUGUAUC
+P.trichocarpa.1                    CCCUUUUUGGAUUG...AAGGGAGCUCUAAACCCAUAACCC
+P.trichocarpa.2                    CGCCCAUUGGACUG...AAGGGAGCUCCUGGUUUU......
+P.trichocarpa.3                    CGUUUCUUGGAUUG...AAGGGAGCUCCUACAUGUAUCUCA
+P.trichocarpa.4                    CUGUGCUUGGACUG...AAGGGAGCUCCUUCC.........
+P.trichocarpa.5                    CGCCCAUUGGACUG...AAGGGAGCUCCUGGUUUU......
+P.trichocarpa.6                    CUAUCAUUGGACUG...AAGGGAGCUCCCUUUACU......
+P.trichocarpa.7                    UUUGUAUUGGAGUG...AAGGGAGCUCGAUGGUCUUUCACC
+P.trichocarpa.8                    UGGAUAUUGGAGAGAUCAAGGGAAAUCCACACACACUU...
+P.trichocarpa.9                    UUGGUCUUGGGGUG...AAGGGAGCUCCUAUAGUC......
+P.trichocarpa.10                   CUUUUUUUGGAUUG...AAGGGAGCUCUAAACCUUUGAUCU
+P.trichocarpa.11                   CUGUGCUUGGACUG...AAGGGAGCUCCUUCC.........
+P.trichocarpa.12                   CUGUGCUUGGACUG...AAGGGAGCUCCCUUUAAU......
+P.trichocarpa.13                   CUGUACUUGGACUG...AAGGGAGCUCCCUUUCCUUUUAUA
+A.cebennensis.1                    CUUUGAUUGGACUG...AAGGGAGCUCCCUCUCUCUUCUGU
+A.thaliana.1                       CUGUGUUUGGACUG...AAGGGAGCUCCUUCUUUUUCUACA
+A.thaliana.2                       CUUUGAUUGGACUG...AAGGGAGCUCCCUCUCUCUUUUGU
+A.halleri.1                        CUUUGAUUGGACUG...AAGGGAGCUCCCUCUCUCUUCUGU
+A.thaliana.3                       CUUCGUUUGGAUUG...AAGGGAGCUCCUUUUCUUCUUCUC
+A.thaliana.4                       CUAUGCUUGGACUG...AAGGGAGCUCCCUAUUUUUAUCUU
+A.thaliana.5                       UCUUCUUUGGAUUG...AAGGGAGCUCUACAUCUUCUUUCA
+A.lyrata.1                         CUUUGAUUGGACUG...AAGGGAGCUCCCUCUCUCUUCUGU
+A.thaliana.6                       UCUUCUUUGGAUUG...AAGGGAGCUCUUCAUCUCUCCAUC
+B.oleracea.1                       CUGUGUUUGGACUG...AAGGGAGCUCCUUCUUUAUCUACA
+B.oleracea.2                       CUAUGAUUGGACUG...AAGGUAGCUCCCUCCCCUUUUUGA
+Capsella_bursa-pasto.1             UUUUGAUUGGACUG...AAGGGAGCUCCCUUUCUUCUU...
+C.rubella.1                        CUUUGAUUGGACUG...AAGGGAGCUCCCUUUCUUCUU...
+C.orientalis.1                     CUGUGAAUGGACUC...AAGGAAACUCUCUAUCUAUAUAUA
+C.orientalis.2                     CUUUGAUUGGACUG...AAGGGAGCUCCCUCUCUUUUU...
+D.sophia.1                         CUGUGAAUGGACUC...AAGGAAGCUCUCUCUAUAUAUUUU
+E.cheiri.1                         CUUUGAUUGGACUG...AAGGGAGCUCCCUUCCUUUUU...
+M.maritima.1                       CUUUGAUUGGACUG...AAGGGAGCUCCCUCCCUCUUU...
+N.officinale.1                     CUCUGAUUGGACUG...AAGGGAGCUCCCUCUCUUUAGGUA
+R.indica.1                         CUCUGAUUGGACUG...AAGGGAGCUCCCUCUCUUUAGGUA
+T.arvense.1                        CUAUGAUUGGACUG...AAGGGAGCUCCCUCUAUAUUU...
+#=GC SS_cons                       >......>>>>>>>.....>>>>>>>>..............
+#=GC RF                            cuuUgaUUGGAcUG...AAGGGAGCUCCuuuuuuuuuUuuc
+//

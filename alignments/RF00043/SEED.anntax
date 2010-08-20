@@ -1,0 +1,59 @@
+# STOCKHOLM 1.0
+#=GF ID    Plasmid_R1162
+#=GF AC    RF00043
+#=GF DE    R1162-like plasmid antisense RNA
+#=GF AU    Bateman A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    41.3
+#=GF SE    Bateman A, INFERNAL
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; antisense;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF RN    [1]
+#=GF RM    2430262
+#=GF RT    Copy-number of broad host-range plasmid R1162 is regulated by a small
+#=GF RT    RNA.
+#=GF RA    Kim K, Meyer RJ;
+#=GF RL    Nucleic Acids Res 1986;14:8027-8046.
+#=GF CC    The copy-number of the broad host-range plasmid R1162 is controlled
+#=GF CC    by the amounts of two proteins, encoded by cotranscribed genes
+#=GF CC    comprising a region of the plasmid called RepI. RepI is negatively
+#=GF CC    regulated by a 75 base RNA that is complementary to a segment of
+#=GF CC    the RepI message [1].
+#=GF WK    http://en.wikipedia.org/wiki/R1162-like_plasmid_antisense_RNA
+#=GF SQ    8
+
+#=GS C.suis.1               AC    AY428550.1/11023-11096
+#=GS A.caldus.1             AC    AF325537.2/5765-5838
+#=GS D.nodosus.1            AC    Y19120.1/3371-3442
+#=GS E.coli.1               AC    Z47410.1/1220-1294
+#=GS P.multocida.1          AC    AJ871969.4/3379-3450
+#=GS unidentified_bacteri.1 AC    Z78058.1/1759-1831
+#=GS uncult._bacterium.1    AC    AJ271879.1/3249-3322
+#=GS Plasmid_pTF-FC2.1      AC    M73777.1/788-859
+
+C.suis.1                           CGGCGC.GGCAGGGUGCGGGAACACCCGGCAGCGCCUAACCAUAACCGUU
+A.caldus.1                         CGGCGCGAGCCGGAG.UGUCAGUCCCCGGCAGCGCCUAACCACGCCAGUU
+D.nodosus.1                        CGGCGCAUGGCGGGG.CA....UCCCCGCCAGCGCUUGACCAUCAACCGC
+E.coli.1                           CGGCGCAGGGCGGGG.GUAGUGACCCCGCCAGCGCCUAACCACCAACUGC
+P.multocida.1                      CGGCGCAUGGCGGGG.AU....GCCCCGCCAGCGCCUGACCAUCAACCGC
+unidentified_bacteri.1             UAGCGCUU.AUGGGG.UA.GUGACCCCGCCAGCGCCUAACCACCAACUGC
+uncult._bacterium.1                CGGCGCAGGGCGGGG.GUGGUGACCCCGCCAGCGCCUAACCACCAACUGC
+Plasmid_pTF-FC2.1                  CGGCGC.GGCAGGGG.AUUGCGGCCCCGGCAGCGCCUAACCACAAC.UGU
+#=GC SS_cons                       .<<<<<..<<<<<<<........>>>>>>>.>>>>>...<<<.....<<<
+#=GC RF                            cgGCGCaaGgCGGgG.uaaaaguCcCCGcCAGCGCcuAACCacaaaacgc
+
+C.suis.1                           CUACACAGGAGAACAGC..AUGGCUUU
+A.caldus.1                         CUGGAAAGGAGAACAGC..AUGGCUUU
+D.nodosus.1                        CUGCAAAGGAGGCAAACCAAUGGCUAC
+E.coli.1                           CUGCAAAGGAGGCAAUC.AAUGGCUAC
+P.multocida.1                      CUGCAAAGGAGGCAAACCAAUGGCUAC
+unidentified_bacteri.1             CUGCAAAGGAGGCAAUC.AAUGGCUAC
+uncult._bacterium.1                CUGAACAGGAGGCAAUC..AUGGCUAC
+Plasmid_pTF-FC2.1                  CUGAAAAGGAGACAAGC.A.UGGCUUU
+#=GC SS_cons                       <<.<...>.>>>>>......>>>....
+#=GC RF                            CuGcAAAgGaGgcgAac.AAuGGcuau
+//

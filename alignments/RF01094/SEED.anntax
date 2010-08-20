@@ -1,0 +1,45 @@
+# STOCKHOLM 1.0
+#=GF ID    RF_site6
+#=GF AC    RF01094
+#=GF DE    Polymerase ribosomal frameshift site
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    152.1
+#=GF SE    Pseudobase
+#=GF SS    Pseudobase
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    PKBASE; PKB00128
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    2388833
+#=GF RT    The carboxyl-terminal part of the putative Berne virus polymerase is
+#=GF RT    expressed by ribosomal frameshifting and contains sequence motifs
+#=GF RT    which indicate that toro- and coronaviruses are evolutionarily
+#=GF RT    related.
+#=GF RA    Snijder EJ, den Boon JA, Bredenbeek PJ, Horzinek MC, Rijnbrand R,
+#=GF RA    Spaan WJ;
+#=GF RL    Nucleic Acids Res. 1990;18:4535-4542.
+#=GF WK    http://en.wikipedia.org/wiki/Ribosomal_frameshift
+#=GF SQ    2
+
+#=GS Breda_virus.1 AC    AY427798.1/14184-14301
+#=GS Berne_virus.1 AC    X52374.1/1045-1162
+
+Breda_virus.1             UUUAAACUGCUGAGAGAUGUCUGGUGCGCCUGCAGACAUCUCUGUUUUCA
+Berne_virus.1             UUUAAACUGUUGAGAGGUGCCUGGAGCGCCUGCAGGCAUCUCUGUUUUCA
+#=GC SS_cons              ............<<<<<<<<<<<....AAAAA>>>>>>>>>>>.......
+#=GC RF                   UUUAAACUGUUGaGaGguGCCuGGAGCGCCUGCaGGCauCuCuGUUUUCA
+
+Breda_virus.1             AAAUGGCGCGUAUCAGUCGUCACGAUCUAAGCAUUAUAUUGAUUUGGCGA
+Berne_virus.1             AAAUGGCGCAUACCAGUCUUCAAGGUCAAAACAUUAUAUUGAUUUGGCAA
+#=GC SS_cons              ..................................................
+#=GC RF                   AAAUGGCGCAUACCAGUCUUCAAGGUCAAAACAUUAUAUUGAUUUGGCAA
+
+Breda_virus.1             CUGAGUACAACGCAGGCA
+Berne_virus.1             CUGAGUAUAAUGCAGGCA
+#=GC SS_cons              ............aaaaa.
+#=GC RF                   CUGAGUAUAAUGCAGGCA
+//

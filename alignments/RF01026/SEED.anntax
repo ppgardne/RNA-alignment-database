@@ -1,0 +1,50 @@
+# STOCKHOLM 1.0
+#=GF ID    MIR828
+#=GF AC    RF01026
+#=GF DE    microRNA MIR828
+#=GF AU    Wilkinson A
+#=GF GA    18.0
+#=GF NC    17.5
+#=GF TC    18.4
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000544
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    5
+
+#=GS V.vinifera.1   AC    AM481109.2/2468-2574
+#=GS V.vinifera.2   AC    AM442138.1/1823-1883
+#=GS M.truncatula.1 AC    AC168149.8/75613-75695
+#=GS A.thaliana.1   AC    AL161571.2/157498-157597
+#=GS B.rapa.1       AC    AC189237.1/100224-100330
+
+V.vinifera.1               AAAGUUUCUUGCUCAAAUGAGUAUUCCAAACAACAGCUUGUGAAGCAAUG
+V.vinifera.2               UUGGUUUCUUGCUCAAAUGAGUGUUCCACAUCA.................
+M.truncatula.1             AAUGUUUCUUGCUCAAAUGAGUAUUCCA......................
+A.thaliana.1               AAUGUUUCUUGCUUAAAUGAGUAUUCCAUGUAA............AAAUG
+B.rapa.1                   AAUGUUUCUUGCUUAAAUGGGUAUUCCAUGAAAGUGAUUC.....ACACU
+#=GC SS_cons               ....<<.<<<....<<<<<<<<<<<.<<<.....................
+#=GC RF                    AAaGUUuCuUGCUcAAAUGAGuaUUCCAaAuAA............aAAUG
+
+V.vinifera.1               AUUACUGUCAUAGUCUCUGCAUGUGGAUUGUU.....GUUGAGAUGCUCA
+V.vinifera.2               ....................................ACCUG.GAUAGUCA
+M.truncatula.1             ......AUCACAGUUGCAGAUCUUUGUUUUCUGCUGAC.UGAGAUGCUCA
+A.thaliana.1               AUUCACUCACUCGUAUGGGUGGGUUGGGUUUUCUCUUCAUGAGAUGCUCA
+B.rapa.1                   CACUAUGUAGACCUAACUACGAGUCGAUUUCUCUCUUCAUGAGAUGCUCA
+#=GC SS_cons               ......................................>>>.>>>>>>>>
+#=GC RF                    AUUaauuuaaUaGUaUggGuagGUuGagUuUUcucuacuUGAGAugCUCA
+
+V.vinifera.1               UUU...GAGGAAGCA
+V.vinifera.2               UUUCCUGCAAAACCA
+M.truncatula.1             UUU...GAGCAAGCA
+A.thaliana.1               UUU...GAGCAAGCA
+B.rapa.1                   UUU...AAGCAAGCA
+#=GC SS_cons               >>>...>>>.>>...
+#=GC RF                    UUU...GaGaAAgCA
+//

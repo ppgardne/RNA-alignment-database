@@ -1,0 +1,32 @@
+# STOCKHOLM 1.0
+#=GF ID    PSLVbeta_UPD-PK2
+#=GF AC    RF01110
+#=GF DE    Pseudoknot of upstream pseudoknot domain (UPD) of the 3'UTR
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    29.9
+#=GF SE    Pseudobase
+#=GF SS    Pseudobase
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    PKBASE; PKB00166
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    8623558
+#=GF RT    Comparisons of the genomic cis-elements and coding regions in RNA
+#=GF RT    beta components of the hordeiviruses barley stripe mosaic virus,
+#=GF RT    lychnis ringspot virus, and poa semilatent virus.
+#=GF RA    Solovyev AG, Savenkov EI, Agranovsky AA, Morozov SY;
+#=GF RL    Virology. 1996;219:9-18.
+#=GF WK    http://en.wikipedia.org/wiki/UPSK_RNA
+#=GF SQ    2
+
+#=GS N.vectensis.1          AC    ABAV01019324.1/20595-20616
+#=GS Poa_semilatent_virus.1 AC    M81486.1/3382-3403
+
+N.vectensis.1                      GGUUUUAUCUACCAUAAGAUUU
+Poa_semilatent_virus.1             GGUUUUAUCUACCAUAAGAUAA
+#=GC SS_cons                       <<<.AAAAAA>>>...aaaaaa
+//

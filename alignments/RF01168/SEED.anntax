@@ -1,0 +1,45 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORD126
+#=GF AC    RF01168
+#=GF DE    Small nucleolar RNA SNORD126
+#=GF AU    Wilkinson A
+#=GF GA    30.0
+#=GF NC    24.9
+#=GF TC    30.9
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    snorna; SNORD126
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF WK    http://en.wikipedia.org/wiki/SnoRNA
+#=GF SQ    6
+
+#=GS O.princeps.1           AC    AAYZ01187716.1/149-225
+#=GS M.musculus.1           AC    AAHY01113754.1/39310-39386
+#=GS H.sapiens.1            AC    AM413038.1/14-90
+#=GS C.lupus.1              AC    AACN010729405.1/708-784
+#=GS Monodelphis_domestic.1 AC    AAFR03022281.1/33862-33938
+#=GS O.anatinus.1           AC    AAPN01395706.1/2305-2381
+
+O.princeps.1                       GGUUUGCCAUGAUGAGAUGCAUGUUCAGUCCGUGUUUCAGCUGAUGACCC
+M.musculus.1                       AGUUUGCUAUGAUGAAAUGCAUGUGAAGUCCGUGUUUCAGCUGAUCACAC
+H.sapiens.1                        AGUUUGCCAUGAUGAAAUGCAUGUUAAGUCCGUGUUUCAGCUGAUCAGCC
+C.lupus.1                          AGUUUGCCAUGAUGAAAUGCAUGGUGAGUCCGUGUUUCAGCCGAUCACCC
+Monodelphis_domestic.1             UGUCUGCCAUGAUGAAAUGCAAUUUCAGUCCGUGUUUCAGCUGAUUACCC
+O.anatinus.1                       CCCCUGCCUUGAUGAAAUGCAUGUUCAGUCCGUGUUUCAGCUGACCACCC
+#=GC SS_cons                       <<<<<<<...........................................
+#=GC RF                            AGUUUGCCAUGAUGAAAUGCAUGUUAAGUCCGUGUUUCAGCUGAUCAGCC
+
+O.princeps.1                       UGAUUAAACACAUGCUCUGAGCAGACU
+M.musculus.1                       UGAUUAUACACAUGUGCUGAGCAGACA
+H.sapiens.1                        UGAUUAAACACAUGCUCUGAGCAGACU
+C.lupus.1                          UGGUCAAACACAUGCUCUGAGCAGACU
+Monodelphis_domestic.1             UGAUUGCAUGCAUACUCUGAGCAGACU
+O.anatinus.1                       UGAUUAUACACAUGCGCUGAGCAGGAG
+#=GC SS_cons                       ....................>>>>>>>
+#=GC RF                            UGAUUAAACACAUGCUCUGAGCAGACU
+//

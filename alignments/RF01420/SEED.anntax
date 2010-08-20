@@ -1,0 +1,55 @@
+# STOCKHOLM 1.0
+#=GF ID    snoR113
+#=GF AC    RF01420
+#=GF DE    Small nucleolar RNA snoR113
+#=GF AU    Osuch I
+#=GF GA    30.0
+#=GF NC    29.6
+#=GF TC    41.2
+#=GF SE    INFERNAL
+#=GF SS    Predicted; RNAalifold; Osuch I
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF RN    [1]
+#=GF RM    19357091
+#=GF RT    Mining small RNA sequencing data: a new approach to identify small
+#=GF RT    nucleolar RNAs in Arabidopsis.
+#=GF RA    Chen HM, Wu SH;
+#=GF RL    Nucleic Acids Res. 2009;37:e69.
+#=GF WK    http://en.wikipedia.org/wiki/SnoRNA
+#=GF SQ    5
+
+#=GS V.vinifera.1    AC    AM439246.2/30554-30644
+#=GS M.truncatula.1  AC    AC150743.12/61371-61461
+#=GS R.communis.1    AC    AASG02004037.1/16901-17014
+#=GS P.trichocarpa.1 AC    AARH01006437.1/153808-153923
+#=GS A.thaliana.1    AC    AC020889.3/25746-25848
+
+V.vinifera.1                UGGCUAUGAUGACAA....AAAGGCCGGACUUACAGCUGCUUCCAGUG..
+M.truncatula.1              UGGCAAUGAUGAUA.....AAAGGCCGGUCUUACGGCUGCCAUUUACG..
+R.communis.1                UGGCGAUGAUGACAAACAUAAAGGCCGGACUUACGGCUGCCACUGCUAAU
+P.trichocarpa.1             UGGCGAUGAUGAUAAA...AAAGGCCGGACUUACGGCUGCUACCAGAAAA
+A.thaliana.1                UGGCGAUGAUGAAAA....AAAGGCCGGACUUACGGCUACUACCACCGUG
+#=GC SS_cons                .<<<..............................................
+#=GC RF                     UGGCgAUGAUGAcAA....AAAGGCCGGACUUACgGCUgCuACcAcugag
+
+V.vinifera.1                .......GG.........UUGGUAGUAGAAUGAUG...AAGUUUUGCUAA
+M.truncatula.1              .......UA.........UUGGUAGUAGAUUGAUU..ACUUUAAGGUUUA
+R.communis.1                AUAAUUUAGCUGGGUU..UUGGUAGUAGAUUGAUGAACCCACUUUUAUAA
+P.trichocarpa.1             CUAAUUAAUUUUUCGUGGUCGGUAGUAGAUUGAUGAACUUCUCAUAUAAA
+A.thaliana.1                AAAGUGUGG.........UGGGUAGUAGAAUGAUGCUAAAGUAUCCAAAG
+#=GC SS_cons                ..................................................
+#=GC RF                     AaAaUgUgG.........UuGGUAGUAGAAUGAUGaaaAAguuUuuAuAA
+
+V.vinifera.1                GGUGAUU...CUGAGCCAG
+M.truncatula.1              GGGUUUU...CUGAGCCAG
+R.communis.1                GGUUACU...CUGAGCCAG
+P.trichocarpa.1             GGUGUCUGUUCUGAGCCAC
+A.thaliana.1                GUUACAG...CUGAGCCUC
+#=GC SS_cons                ..............>>>..
+#=GC RF                     GgUaAau...CUGAGCCAg
+//

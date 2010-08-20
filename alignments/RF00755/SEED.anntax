@@ -1,0 +1,36 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-542
+#=GF AC    RF00755
+#=GF DE    microRNA mir-542
+#=GF AU    Wilkinson A
+#=GF GA    40.0
+#=GF NC    0.0
+#=GF TC    86.5
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000185
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    3
+
+#=GS L.africana.1   AC    AAGU02249219.1/1713-1797
+#=GS E.telfairi.1   AC    AAIY01425199.1/1318-1400
+#=GS R.norvegicus.1 AC    AAHX01102601.1/64448-64532
+
+L.africana.1               AGACCUCAGACAUUUCGGGGAUCAUCAUGUCACGAGAUACCACUGUGCAC
+E.telfairi.1               AGACCUUAGGCAUUUCGGGGAUC..CCUGUCAUGGGAUACCACUGCAUAC
+R.norvegicus.1             GGAUCUCAGACGUCUCGGGGAUCAUCAUGUCACGAGAUACCACUGCGCAC
+#=GC SS_cons               ...<<<<<<<<.<.<<<<..<<<<...<<<<<<<<<.<<<....>>>..>
+#=GC RF                    agAccccagacauuucgGggaucaucauGucacgaGAcgccAcugcguAC
+
+L.africana.1               UUGUGACAGAUUGAUAACUGAAAGGUCUGGGAGCC
+E.telfairi.1               UUGUGACAGAUUGAUAACUGAAAGGUUUAGGGCCU
+R.norvegicus.1             UUGUGACAGAUUGAUAACUGAAAGGUCUGGGAGCC
+#=GC SS_cons               >>>>>>>>...>>>>..>>>>.>.>>>>>>>>...
+#=GC RF                    uugugaCagAuugauAACugaAaggucuggggacu
+//

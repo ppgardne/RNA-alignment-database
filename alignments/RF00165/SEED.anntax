@@ -1,0 +1,76 @@
+# STOCKHOLM 1.0
+#=GF ID    Corona_pk3
+#=GF AC    RF00165
+#=GF DE    Coronavirus 3' UTR pseudoknot
+#=GF AU    Griffiths-Jones SR
+#=GF GA    34.0
+#=GF NC    30.7
+#=GF TC    43.8
+#=GF SE    Griffiths-Jones SR
+#=GF SS    Published; PMID:10482585
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000205 SO:three_prime_UTR
+#=GF RN    [1]
+#=GF RM    10482585
+#=GF RT    A phylogenetically conserved hairpin-type 3' untranslated region
+#=GF RT    pseudoknot functions in coronavirus RNA replication.
+#=GF RA    Williams GD, Chang RY, Brian DA;
+#=GF RL    J Virol 1999;73:8349-8355.
+#=GF CC    Coronaviruses are plus-strand RNA viruses with ~30kb genomes.
+#=GF CC    The 3' UTR region of coronavirus genomes contains a conserved
+#=GF CC    ~55nt pseudoknot structure which has been shown to be necessary
+#=GF CC    for viral genome replication [1].  The mechanism of
+#=GF CC    cis-regulation is unclear, but this element is postulated to
+#=GF CC    function in the plus-strand.
+#=GF WK    http://en.wikipedia.org/wiki/Coronavirus_3'_UTR_pseudoknot
+#=GF SQ    14
+
+#=GS C.coronavirus.1        AC    D13096.1/9359-9422
+#=GS C.coronavirus.2        AC    X66717.1/2272-2334
+#=GS F.coronavirus.1        AC    X66718.1/795-857
+#=GS F.coronavirus.2        AC    X90572.1/1000-1062
+#=GS Transmissible_gastro.1 AC    Z35758.1/8161-8224
+#=GS F.coronavirus.3        AC    X90578.1/1000-1062
+#=GS F.coronavirus.4        AC    X90576.1/809-871
+#=GS F.coronavirus.5        AC    X90577.1/1000-1062
+#=GS Human_coronavirus_22.1 AC    X51325.1/1443-1505
+#=GS Porcine_epidemic_dia.1 AC    AF353511.1/27820-27882
+#=GS Murine_hepatitis_vir.1 AC    AF207902.1/31022-31083
+#=GS Murine_hepatitis_vir.2 AC    X00509.1/2201-2262
+#=GS B.coronavirus.1        AC    AF058944.1/9309-9370
+#=GS B.coronavirus.2        AC    M36656.1/1479-1540
+
+C.coronavirus.1                    CUACUCUUGUACAGAAUGGUAAGCCAAGUGUCAAUAGGAGGUAC.AAGCA
+C.coronavirus.2                    CUACUCUUGUACAGAAUGGUAAGC.ACGUG.UAAUAGGAGGUAC.AAGCC
+F.coronavirus.1                    CUACUCUUGUACAGAAUGGUAAGC.ACGUG.UAAUGGGAGGUAC.AAGCA
+F.coronavirus.2                    CUACUCUUGUACAGAAUGGUAAGC.ACGUG.UAGUAGGAGGUAC.AAGCA
+Transmissible_gastro.1             CUACUCUUAUACAGAAUGGUAAGC.ACGUG.UAAUAGGAGGUAAUAAGCA
+F.coronavirus.3                    CUACUCUUGUACAGAAUGGUAAGC.ACGUG.UGAUGGGAGGUAC.AAGCA
+F.coronavirus.4                    CUACUCUUGUACAGAAUGGUAAGC.ACGUG.UAAUAGGAGGUAC.AAGCA
+F.coronavirus.5                    CUACUCUUGUACAGAAUGGUAAAC.ACGUG.UAAUAGGAGGUAC.AAGCA
+Human_coronavirus_22.1             CUAGUCUUAUACACAAUGGUAAGC.CAGUGGUAGUAAAG.GUAU.AAGAA
+Porcine_epidemic_dia.1             UUGGUCUUGCACACAACGGUAAGC.CAGUGGUAAUGUCA.GUGC.AAGAA
+Murine_hepatitis_vir.1             ACACUCUCUAUCAGAAUGGAUGUCUUGCUG.UCAUAACA.GAUA.GAGAA
+Murine_hepatitis_vir.2             ACACUCUCUAUCAGAAUGGAUGUCUUGCUG.UCAUAACA.GAUA.GAGAA
+B.coronavirus.1                    GCACUCUCUAUCAGAUUGGAUGUCUUGCUG.CUAUAAUA.GAUA.GAGAA
+B.coronavirus.2                    GCAUUCUCUAUCAGAAUGGAUGUCUUGCUG.CUAUAAUA.GAUA.GAGAA
+#=GC SS_cons                       ....AAAAAAAA...............<<<.<<<<<<<..aaaa.aaaa.
+
+C.coronavirus.1                    A.CCUAUUG.CAUAUUA
+C.coronavirus.2                    ACCCUAUUG.CAUAUUA
+F.coronavirus.1                    ACCCCAUUG.CAUAUUA
+F.coronavirus.2                    ACCCUAUUG.CAUAUUA
+Transmissible_gastro.1             ACCCUAUUG.CAUAUUA
+F.coronavirus.3                    ACCCCAUUA.CAUAUUA
+F.coronavirus.4                    ACCCUAUUG.CAUAUUA
+F.coronavirus.5                    ACCCUAUUG.CAUAUUA
+Human_coronavirus_22.1             A.UUUGCUACUAUGUUA
+Porcine_epidemic_dia.1             G.GAUAUUACCAUAGCA
+Murine_hepatitis_vir.1             G.GUUGUGG.CAGACCC
+Murine_hepatitis_vir.2             G.GUUGUGG.CUGCCCU
+B.coronavirus.1                    G.GUUAUAG.CAGACUA
+B.coronavirus.2                    G.GUUAUAG.CAGACUA
+#=GC SS_cons                       ..>>>>>>>.>>>....
+//

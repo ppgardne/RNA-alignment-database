@@ -1,0 +1,262 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORA17
+#=GF AC    RF00560
+#=GF DE    Small nucleolar RNA SNORA17
+#=GF AU    Marantidis E
+#=GF GA    28.0
+#=GF NC    27.9
+#=GF TC    28.1
+#=GF PI    snoACA17
+#=GF SE    Marantidis E, INFERNAL
+#=GF SS    Predicted; RNAalifold
+#=GF TP    Gene; snRNA; snoRNA; HACA-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000594 SO:H_ACA_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Mus_musculus300412
+#=GF DR    snoopy; Homo_sapiens300290
+#=GF RN    [1]
+#=GF RM    15199136
+#=GF RT    Human box H/ACA pseudouridylation guide RNA machinery.
+#=GF RA    Kiss AM, Jady BE, Bertrand E, Kiss T;
+#=GF RL    Mol Cell Biol. 2004;24:5797-5807.
+#=GF RN    [2]
+#=GF RM    9047361
+#=GF RT    Mapping to nucleotide resolution of pseudouridine residues in large
+#=GF RT    subunit ribosomal RNAs from representative eukaryotes, prokaryotes,
+#=GF RT    archaebacteria, mitochondria and chloroplasts.
+#=GF RA    Ofengand J, Bakin A;
+#=GF RL    J Mol Biol. 1997;266:246-268.
+#=GF CC    snoRNA ACA 17 belongs to the H/ACA family of snoRNAs and is
+#=GF CC    predicted to guide pseudouridylation of the 28S rRNA at positions
+#=GF CC    U4659 and U4598. It shares the same host gene together with
+#=GF CC    ACA43. NB This family has a high threshold value to exclude a
+#=GF CC    large number of closely related sequences that do not appear to
+#=GF CC    have conserved H and ACA boxes, and may be pseudogenes.
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_SNORA17
+#=GF SQ    53
+
+#=GS A.carolinensis.1       AC    AAWZ01033803.1/5350-5208
+#=GS E.telfairi.1           AC    AAIY01268469.1/912-1041
+#=GS O.princeps.1           AC    AAYZ01571100.1/456-325
+#=GS M.musculus.1           AC    AC159299.2/205614-205483
+#=GS M.musculus.2           AC    BC046478.1/316-447
+#=GS M.musculus.3           AC    AL663042.5/46926-46793
+#=GS M.musculus.4           AC    BX936366.8/102933-103064
+#=GS M.musculus.5           AC    AL732311.13/50067-49936
+#=GS M.musculus.6           AC    AC147162.2/137638-137507
+#=GS M.musculus.7           AC    AC124719.3/60776-60645
+#=GS M.musculus.8           AC    AL929577.9/115568-115437
+#=GS M.musculus.9           AC    AL772346.5/72472-72603
+#=GS M.musculus.10          AC    AC158351.4/104624-104493
+#=GS M.musculus.11          AC    AC044804.4/242661-242530
+#=GS M.musculus.12          AC    AC155939.6/82555-82424
+#=GS M.musculus.13          AC    AC102195.14/77372-77241
+#=GS M.musculus.14          AC    AC124517.4/119239-119370
+#=GS M.musculus.15          AC    AC138288.13/66444-66575
+#=GS M.musculus.16          AC    AC122847.4/112382-112513
+#=GS M.musculus.17          AC    AC156631.2/55855-55724
+#=GS M.musculus.18          AC    AC122025.3/62844-62713
+#=GS M.musculus.19          AC    AL773512.6/105824-105955
+#=GS M.musculus.20          AC    AC120020.9/24687-24556
+#=GS M.musculus.21          AC    AC139319.6/13901-14032
+#=GS M.musculus.22          AC    AC131332.12/15646-15777
+#=GS M.musculus.23          AC    AC132335.3/147117-147248
+#=GS M.musculus.24          AC    AC160393.2/162851-162720
+#=GS M.musculus.25          AC    AC154284.1/100289-100158
+#=GS M.musculus.26          AC    AC116747.10/162742-162873
+#=GS M.musculus.27          AC    AC125262.9/82422-82292
+#=GS M.musculus.28          AC    AC160983.2/170827-170958
+#=GS M.musculus.29          AC    AC157950.2/130553-130423
+#=GS M.musculus.30          AC    AL928643.6/100932-101063
+#=GS M.musculus.31          AC    AL671963.9/45705-45574
+#=GS M.musculus.32          AC    AC159274.2/136463-136332
+#=GS R.norvegicus.1         AC    AAHX01069608.1/34817-34686
+#=GS H.sapiens.1            AC    AK090585.1/512-643
+#=GS H.sapiens.2            AC    AJ609434.1/1-132
+#=GS H.sapiens.3            AC    AC078860.19/16828-16700
+#=GS H.sapiens.4            AC    BC042667.1/532-663
+#=GS H.sapiens.5            AC    AL592546.7/54124-53993
+#=GS H.sapiens.6            AC    AL355987.31/5364-5233
+#=GS M.murinus.1            AC    ABDC01163242.1/9845-9714
+#=GS Otolemur_garnettii_s.1 AC    AAQR01328770.1/350-219
+#=GS T.belangeri.1          AC    AAPY01364388.1/271-141
+#=GS C.lupus.1              AC    AACN010677500.1/623-491
+#=GS F.catus.1              AC    AANG01443872.1/432-299
+#=GS B.taurus.1             AC    AAFC03086501.1/28639-28770
+#=GS M.lucifugus.1          AC    AAPE01584128.1/1225-1096
+#=GS E.europaeus.1          AC    AANN01080924.1/908-778
+#=GS E.caballus.1           AC    AAWR02025983.1/946-1076
+#=GS Monodelphis_domestic.1 AC    AAFR03005638.1/59378-59246
+#=GS O.anatinus.1           AC    AAPN01114604.1/4824-4957
+
+A.carolinensis.1                   CUUGCCCCCAGAGGCGUUGCAGACACGGCUGU...CGUGCCAUGUUUGCG
+E.telfairi.1                       ACUGCCCCUAGAAGCAUUGCAG.CGUGGCCAC...CCUGCCACAGCUGUG
+O.princeps.1                       GCUGCCCCUCGAGGCGUUGCAGGUGCGGCUGC...UGUGCCGCACCUGUG
+M.musculus.1                       UUUGUCCCUAGAGGAGUUGCAGGUGUGGCUGC...UGUGUCACAUGGGUG
+M.musculus.2                       CCUGCUCCUAGAGGCGUUGCAGGUGUGGCUGC...UGUGUCACAUGUGCG
+M.musculus.3                       CCUGCCCCUAGAGGUGUUGCAUGUAUGGCUGC...UGUGUCAUGUGUGCA
+M.musculus.4                       CCUGCCCCUAGAGGUGUUUUAGGUGUGGCUGC...AGUGUCAUAUGUGUG
+M.musculus.5                       CCUGCUCCUAGAGGCGUUGCAGGUGUGGCUGC...UGUGUCACAUGUGCG
+M.musculus.6                       ACUGCCCCUAGAGGCAUUGCAGAUAUGGCGGC...UGUGUCACAUGUGUG
+M.musculus.7                       ACUGCCCCUAGAGGCUUUGCAGGUGUGGCCGC...UGUGUCAUAUGUGUG
+M.musculus.8                       UCUGCCCCUACAGGCGUUGCAGGUGUGGCUGC...UGUGUCACAUGUGUG
+M.musculus.9                       CCUGCCCAUAGAGAUAUUGCAGGUUUGGCUGC...UGUGUCACAUGUGCG
+M.musculus.10                      CCUGCCCCUACCAGCAUUGCAGUUGUGGCUGC...UCUGUUGCAUAUGUG
+M.musculus.11                      UUUGUCCCUAGAGGAGUUGCAGGUGUGGCUGC...UGUGUCACAUGGGUG
+M.musculus.12                      ACUGCACCUAGAGGUGUUGCAGGUGUGGCUGC...UAUGUCACAUGUGUG
+M.musculus.13                      CCUGCCCCUAGAGGCCUUGCAGGUGUGGCUGC...UGUGUCCCAUGUGGG
+M.musculus.14                      ACUGCCCCUAGAGGCAUUGCAGAUAUGGCGGC...UGUGUCACAUGUGUG
+M.musculus.15                      CCUUCCCCUAGAGGCUUUGCAGGUGUGGCUGC...UCUGUCACAUGUGUG
+M.musculus.16                      UUUGUCCCUAGAGGAGUUGCAGGUGUGGCUGC...UGUGUCACAUGGGUG
+M.musculus.17                      CCUGCUCCUAGAGGCAUUGUAGGUGUGGCUGC...UGUGUCACAUGCACG
+M.musculus.18                      ACUGCCCCUAGAGGUUUUGCAGGUGUGGCUGC...UGUGUCACAUGUGCA
+M.musculus.19                      UCUGCCUCUAGAGGCAUUGUAUGUGUGGCUGC...UGUGUCUCAUGUGUG
+M.musculus.20                      CCUGCCCCUAGAGGCGUUGCAGGUGUGGCUGC...UGUGUCACAUGUGUG
+M.musculus.21                      UUUGCCUCUAGAGGUAUUGCAGGUAUGGCUGC...UGUGUCACAUGUGCA
+M.musculus.22                      ACUGCCCCUAGAGGCUUUGCAGGUGUGGCCGC...UGUGUCAUAUGUGUG
+M.musculus.23                      ACUUUCCCUAGAGACACUGCAGAUGUGGCUGC...UGUGUCACCUGUGCA
+M.musculus.24                      CUUGCUCCUAAAGGCAUUGCAGGUGUGACUGC...UGGGUCACCUGUACG
+M.musculus.25                      CCUGCCCCUAGAGGCGUUGCAGGUGUGGCUGC...UGUGUCACAUGUGUG
+M.musculus.26                      CCUGCCCCUACCAGCAUUGCAGUUGUGGCUGC...UCUGUUGCAUAUGUG
+M.musculus.27                      CCUGCCCCUAGAAGCACUGUACGUGUGGCUGC...UGUGUCACCGGUGUG
+M.musculus.28                      CCUUCCCCUAGAGGCUUUGCAGGUGUGGCUGC...UCUGUCACAUGUGUG
+M.musculus.29                      CCUGUCCCUAGAGGCAUUGCAGGUGUGGCUAC...UGUGUCGCAUGUGUG
+M.musculus.30                      CCUGCCCCUAGAGGUGUUUUAGGUGUGGCUGC...AGUGUCAUAUGUGUG
+M.musculus.31                      CCUGCCUCUGGAAGCAUUGCAGAUGUGACUGC...UGUGUCACAUGUGUG
+M.musculus.32                      ACUGCCCCUAGAGGUUUUGCAGGUGUGGCUGC...UGUGUCACAUGUGCA
+R.norvegicus.1                     CCUGCCCCUAGAGGCACUGCAGGUGUGGCUGC...UGUGUCACAUGUGCG
+H.sapiens.1                        ACUGCCCCUAGAGGCGUUGCAGCUGUGGCUGC...CGUGUCACAUCUGUG
+H.sapiens.2                        ACUGCCCCUAGAGGCGUUGCAGCUGUGGCUGC...CGUGUCACAUCUGUG
+H.sapiens.3                        AUUUUAC...AUAGCGCUGCAGAUGUGGCUGC...UGUGUCACAUUUGUG
+H.sapiens.4                        ACUGCCCCUAGAGGCGUUGCAGCUGUGGCUGC...CGUGUCACAUCUGUG
+H.sapiens.5                        ACUGCCCCUGGAGGCAUUGCAGAUGUGGCUGC...UGUGUCACAUUUGUG
+H.sapiens.6                        ACUGCCCCUAGAGGCGUUGCAGCUGUGGCUGC...CGUGUCACAUCUGUG
+M.murinus.1                        ACUUCUCCUAGAGGCAUUGCAGAUGUGGGUGC...UGUGUCACAUUUGUG
+Otolemur_garnettii_s.1             AUUGUCCCUAGAGGAGUUGCAGAUGUGGCCGU...UGUGUCACAUUUGUG
+T.belangeri.1                      CCUGCCCCUAGAGGCGUUGCAGAUGUGGCUGC...UGUGUCACAGCUGCG
+C.lupus.1                          ACUGCCCCCAGAGGCGUUGCAGGUGUGGCUGCAUCUGUGUCACAUUUGUG
+F.catus.1                          ACUGCCCCCAGAGGCGUUGCAGGUGUGGCUGCGUUUGUGUCACAUUUGUG
+B.taurus.1                         ACUGCCCCUAGAGGCGCUGCAGGCGUGGCUGC...CGUGUCACGUCUGCG
+M.lucifugus.1                      ACUGCCCCUAGAGGCAUUGUAGGUGUGGCUGC...CAUGUUGCACCUGCG
+E.europaeus.1                      CCUGCCCCUAGAGGCGUUACAGAUGUGACUGC...UGUGUCACAUGUGUG
+E.caballus.1                       ACUGCCCCUAGAGGCGUUACAGAUGUGGCUGC...GGUGUCACAUUUGUG
+Monodelphis_domestic.1             AUUGCCCCUAGAGGCGUUACAAAUUUGGCUGC...UGUGCCUCAUUUGUG
+O.anatinus.1                       GGUGCCCCUCGAGGCGUUGCAGAUGUGGCUGC...GGUGCCCCAUUUGUG
+#=GC SS_cons                       .<<<<<<<<<<.<<<...<<<<.<<<<<<.........>>>>>>.>>>>>
+#=GC RF                            aCuGCCCCcagAGgCauUgCagauGuGgCuGc...ugUGcCaCaucuGcG
+
+A.carolinensis.1                   UCAUUGGGUGGCAAAGAGGAAAGAAAGGCUAUGUCUACGCUCAGUGCUC.
+E.telfairi.1                       UCAUUAGAGGGCAAAGAGAA..GAGGGGCUAUGUCUAGGCUCAGGGGUC.
+O.princeps.1                       UCAGCAGGUGGCAGAGAGCA..GUGCGGCUACGUCUACGCUCCGCGCCC.
+M.musculus.1                       UCAGUAGGUGGCAGAGAGGA..GAGAGGUUAUGUCUAUGCUCAGUGUUC.
+M.musculus.2                       UCAGUAGGUGGCAGAGAGAA..AAGAGGCUAUGUCUACGCUCAGUGUUC.
+M.musculus.3                       UCAGUAGGUGGCAGAGAGGA..GAGAGUCUAUGUUCAGGCUCAGUGUUC.
+M.musculus.4                       UCAGUAGGUGGCAGAGAGGA..GAGAGGCUGUGCCUAUGCUCACUGUUC.
+M.musculus.5                       UCAGUAGGUGGCAGAGAGAA..AAGAGGCUAUGUCUACGCUCAGUGUUC.
+M.musculus.6                       CCAGUAGGUGGCAGAGAGGA..GAAAGGUUAUGUCUAUGCUCAAUGUUC.
+M.musculus.7                       UCAAUAGGUGGCAGGGAGGA..GAGUGACUAUGUCUAUGCUCAGUGUUC.
+M.musculus.8                       UCAGUAGGUGGCAGAGAGGA..GAGAGGCUAUGUCUACGCUCAGUGUUC.
+M.musculus.9                       UCAGUAGGUGGCAGAGGGGA..GAGAGGCUAUGUCUAUGCUCAGUGUUC.
+M.musculus.10                      UCAGCAGGUGGCAGAGAGGA..GAGAGGCUGUGUCUAUGCUCAGUGUCC.
+M.musculus.11                      UCAGUAGGUGGCAGAGAGGA..GAGAGGUUAUGUCUAUGCUCAGUGUUC.
+M.musculus.12                      UCAGUAGGUGGCAGAGAAGA..GAAAGGCUAUGUUUACACUCAGUGUUC.
+M.musculus.13                      UCAAUAGGUGGCAGAGAGGA..GAAAGGCUAUGUCUUCGGUCUGUGUUC.
+M.musculus.14                      CCAGUAGGUGGCAGAGAGGA..GAAAGGUUAUGUCUAUGCUCAAUGUUC.
+M.musculus.15                      UCAGUAGGUGGCAGAGAGUA..GAGAAGUUAUGUCUAUGCUCAGUGUUU.
+M.musculus.16                      UCAGUAGGUGGCAGAGAGGA..GAGAGGUUAUGUCUAUGCUCAGUGUUC.
+M.musculus.17                      UCGGUAGGUGGCAGAGAGGA..GAGAGGCUACAUCUACACUCAGUGUUC.
+M.musculus.18                      UCAGUAGGAGGCAGAGAGAA..GAGAGGCUAUGCCUGUGCUCAGUGUUC.
+M.musculus.19                      UCAGUAGGUGGCAGAGAGGA..GACAGGCUAUGCCUACUCUCAGUGUAC.
+M.musculus.20                      UCAGUAGGUGGCAGAGAGGA..AAGAGGCUAUGUCUACGCUCAGUGUUC.
+M.musculus.21                      UCAAGAGGUGGCAGAGGGGA..GAAAGGCUAUGUCUACACUCAGUGUUC.
+M.musculus.22                      UCAAUAGGUGGCAGGGAGGA..GAGUGACUAUGUCUAUGCUCAGUGUUC.
+M.musculus.23                      UCGGUAGGAGGCAGAGAGGA..GAGAGGCUAUGUCUACACUCAGGGUUC.
+M.musculus.24                      UCAGUGGGUGGCAGAGUAGA..GAGAGGCUAUGUCUAUACUCAGUGUUC.
+M.musculus.25                      UCAGUAGGUGGCAGAGAGGA..AAGAGGCUAUGUCUACGCUCAGUGUUC.
+M.musculus.26                      UCAGCAGGUGGCAGAGAGGA..GAGAGGCUGUGUCUAUGCUCAGUGUCC.
+M.musculus.27                      UCAGUAGGUGGCAGAGAGGA..GACAGGCUGUGCCUAAGCUCAGUGUUC.
+M.musculus.28                      UCAGUAGGUGGCAGAGAGUA..GAGAAGUUAUGUCUAUGCUCAGUGUUU.
+M.musculus.29                      UCAGUAGGUGGUAGAGAGG...GAAAGGCCAUGUCUACACUCAGUGUCC.
+M.musculus.30                      UCAGUAGGUGGCAGAGAGGA..GAGAGGCUGUGCCUAUGCUCACUGUUC.
+M.musculus.31                      UCAGUAGGUGGCAGAGAGGA..GAGAGGCUAUGUCUACGCUCAGUGUUC.
+M.musculus.32                      UCAGUAGGAGGCAGAGAGAA..GAGAGGCUAUGCCUGUGCUCAGUGUUC.
+R.norvegicus.1                     UCAGUAGGUGGCAGAGAGGA..AAGAGGCUAUGUCUACGCUCAGUGUUC.
+H.sapiens.1                        UCAUUAGGUGGCAGAGAUUA..GAGAGGCUAUGUCUACGCUCAGCGUUC.
+H.sapiens.2                        UCAUUAGGUGGCAGAGAUUA..GAGAGGCUAUGUCUACGCUCAGCGUUC.
+H.sapiens.3                        UUAUUAGGUGGCAGAGAGAA..GAGAGGCUAUGUCUAUGCUCAGUGUUC.
+H.sapiens.4                        UCAUUAAGUGGCAGAGAUUA..GAGAGGCUAUGUCUACGCUCAGCGUUC.
+H.sapiens.5                        UCAUUAGGUAGCAGCGAUUA..GAGAGGCUAUGUCUAUGCUCAGCGUUC.
+H.sapiens.6                        UCAUUAGGUGGCAGAGAUUA..GAGAGGCUAUGUCUACGCUCAGCGUUC.
+M.murinus.1                        UCAUUAGGUGACAGAGAGAG..GAGAGGCUAUGUCUACAUUCAGUGUUC.
+Otolemur_garnettii_s.1             UCAUUAGGUGGCAGAGAGAA..AAAAGGCCAUGUAUACAUUCAGUGUUC.
+T.belangeri.1                      UCAGUAGUGGGCAGAGAGCA...AGAGGCUAUGUCUACGCUCAGUGUUC.
+C.lupus.1                          UCAUUGGGUGGCAGAAAGAA..GAGAGGCU.UAUCUACGCCCAGUGUUC.
+F.catus.1                          UCAUUCGGCGGCAGAGAGAA..GGGAGGCU.UGUCUACGCCCAGCGUUC.
+B.taurus.1                         UCAUGAGGUGGCAGAGAGGA..AAGAGGCUCGGUCUACGCCCAGUGUUC.
+M.lucifugus.1                      UCAUUAGGUGGCAGAGAGCA..GAGAGGCU.UGCCUACGCCCAGCAUCC.
+E.europaeus.1                      UCAAUAGGUGGCAGAGAGAA..GAGAGGCU.UGUCUACGUCCAGUGCUC.
+E.caballus.1                       UCAUUGGGUGGCAGAGAGAA..GAGAGGCU.UGUCUACGCUCAGUGUUC.
+Monodelphis_domestic.1             UCAGUAGGUGGCAAAGAGAA...AGAGACUAUGUCUACGCUCAGUGCUC.
+O.anatinus.1                       UCAUGAGGUGGCAGAGAGGA..U.AAGGCUAUGUCUACGCUCCGUGUUCA
+#=GC SS_cons                       >>.>>>>>.>>>>>........<.<<<<<<<<....<<<.<<<<<<<<<.
+#=GC RF                            uCAcugGGuGGCaGAGAgaA..GAgaGgCuauGucUacgcuCaguGcuC.
+
+A.carolinensis.1                   .UGAAAUGAAAAACC.GUGGGCA.CUCAGAAUGAUUUGUAGCCUGACAAA
+E.telfairi.1                       .UGAC........GU.G.AACCA..CCUGACUGACUGCUAGCCCCACAGU
+O.princeps.1                       .UGGC........AC.GUGGGCU..UCGGAAUGAUUAGUAGGCGGACAGC
+M.musculus.1                       .UGAU........CU.GUGAACC..UCUGAAUGAUAGGUAGUUUAACAUA
+M.musculus.2                       .UGCC........CU.GUGAACG..UCUGAAUGAUUUGUAGCCUGACAAC
+M.musculus.3                       .UGGC........CU.AUGGACUUCUCUGAAUGAUUAGUGGCCUGACACA
+M.musculus.4                       .AGAC........CA.UUGAACA..UUUGAAUGAUCAGUAGCCUAACAUU
+M.musculus.5                       .UGCC........CU.GUGAACG..UCUGAAUGAUUUGUAGCCUGACAAC
+M.musculus.6                       .UGAU........CU.AUGGACA..UCUGAAUAAUUAGUAGUCUAACAAU
+M.musculus.7                       .UGAC........CC.AUGAACA..UCAGAGUGAUUAGCAGCCUAACAUC
+M.musculus.8                       .UGAC........CU.GUGAACA..UCUGAAUGAUUAGUAGCCUAACAUU
+M.musculus.9                       .AGAU........CU.AGGAACU..UCUGAAUGUUUCUUAGCCUAACACU
+M.musculus.10                      .UGAC........CU.GUGAACA..UCUGAAUGAUUAGUAACCUCACAUU
+M.musculus.11                      .UGAU........CU.GUGAACC..UCUGAAUGAUAGGUAGUUUAACAUA
+M.musculus.12                      .UGAC........CC.GCAUACA..UCUGAAUGAUAGGCAGCCUAACACU
+M.musculus.13                      .UGAC........CU.AGGAACA..UCUGAAUGAUUAGUAACCUAACAUC
+M.musculus.14                      .UGAU........CU.AUGGACA..UCUGAAUAAUUAGUAGUCUAACAAU
+M.musculus.15                      .UGAC........CU.GUGAAUA..UCUGAAUGAUUAGUAGCCUAACAAU
+M.musculus.16                      .UGAU........CU.GUGAACC..UCUGAAUGAUAGGUAGUUUAACAUA
+M.musculus.17                      .UGGC........CU.GUGAAUG..UCUGCAUGAUUAGUAGCCUAAUAUU
+M.musculus.18                      .UGAC........CU.GUGAACA..ACUGAAUCAUUAGUAGCCUAACAGU
+M.musculus.19                      .UUAU........GU.AUAAACA..UCUGAAUGUUUUGAAGUCUAACAUU
+M.musculus.20                      .UGAU........CU.GUGAACA..UCUGAAUGAUUAGUAGCCAAACAUU
+M.musculus.21                      .UAAC........AU.GUGAACA..UCUGAAUGGUCAGUAGUCUAACAUU
+M.musculus.22                      .UGAC........CC.AUGAACA..UCAGAGUGAUUAGCAGCCUAACAUC
+M.musculus.23                      .UGCC........CU.GUGAGUC..UCUGAAUGAUUGGCAGCCUAACACU
+M.musculus.24                      .UGAC........CU.UCGAGCA..UCUGAAUGAUUAGUAGCCUAACACU
+M.musculus.25                      .UGAU........CU.GUGAACA..UCUGAAUGAUUAGUAGCCAAACAUU
+M.musculus.26                      .UGAC........CU.GUGAACA..UCUGAAUGAUUAGUAACCUCACAUU
+M.musculus.27                      .UGAC........CU.UUGAACA..GCUGAAUG.AUGGUAGCCUGACAUU
+M.musculus.28                      .UGAC........CU.GUGAAUA..UCUGAAUGAUUAGUAGCCUAACAAU
+M.musculus.29                      .UGAC........CU.GGGAACA..UCUGAAUGAGCAGUAGCCUAACACU
+M.musculus.30                      .AGAC........CA.UUGAACA..UUUGAAUGAUCAGUAGCCUAACAUU
+M.musculus.31                      .UAAC........CG.AUGGGCA..UCUGAAUGGUUAUUAGCCUAACGUG
+M.musculus.32                      .UGAC........CU.GUGAACA..ACUGAAUCAUUAGUAGCCUAACAGU
+R.norvegicus.1                     .UGAC........CU.GUGAACA..UUUGAAUGAUUAGUAGCCUAAUAUU
+H.sapiens.1                        .UGCC........CC.GUGAACG..UUUGAAUGUUUGAUAGUCUCACACU
+H.sapiens.2                        .UGCC........CC.GUGAACG..UUUGAAUGUUUGAUAGUCUCACACU
+H.sapiens.3                        .UGCC........CC.AUGAACA..UUUGAAUGUUUAAUAGUCAGACACU
+H.sapiens.4                        .UGCC........CC.GUGAACG..UUUGAAUGUUUGAUAGUCUCACACU
+H.sapiens.5                        .UGUC........CC.AUGAACA..UUUGAAUGUUUAAUAGUCUGACUCU
+H.sapiens.6                        .UGCC........CC.GUGAACG..UUUGAAUGUUUGAUAGUCUCACACU
+M.murinus.1                        .UGAC........CC.AUGAAUG..UUUGAAUGAUUAAUAGUCUGCCAUA
+Otolemur_garnettii_s.1             .UGAC........CU.AUGAAUG..UUUGAAUGAUUAAUAGUCUGACACA
+T.belangeri.1                      .UGAC........UC.GUGAACA..UUUGAAUGAUUAGUAGCCUCACACU
+C.lupus.1                          .AG.C........UG.GUGAACG..UCUGGAUGAUUAAUAGUCUGACACU
+F.catus.1                          .CGGC........UG.CAGAACG..UCUGGAUGAUUAAUAGCCUGACAGC
+B.taurus.1                         .UGGC........CG.GUGGACA..UCUGGAUGAUUGAUAGUCUGACACU
+M.lucifugus.1                      .UGG.........CU.GUGGGCG..CCUGGAUGGUUGACGGCCUGGCACU
+E.europaeus.1                      .UGAC........CU.GUGAGCC..ACUGGGUGAUUGAUAGUCUGACACU
+E.caballus.1                       .UGGC........CU.GUGGACG..CCUGGAUGAUGAAUAGUCUGACACU
+Monodelphis_domestic.1             .UGAC........CCAGUGAGCA.CUCAGAAUGAUUAAUAGCCUGACACU
+O.anatinus.1                       AAAAU........UU.GUGAGCA.CGCAGAAUGAUUAAUAGCCUGACAGU
+#=GC SS_cons                       ..................>>>>>...>>>>.>>>...>>>>>>>>.>...
+#=GC RF                            .ugAc........cu.guGagCa..ucuGaAcguuuaauaGcCucACAau
+//

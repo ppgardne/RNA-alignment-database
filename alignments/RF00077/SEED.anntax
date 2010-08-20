@@ -1,0 +1,66 @@
+# STOCKHOLM 1.0
+#=GF ID    SraB
+#=GF AC    RF00077
+#=GF DE    SraB RNA
+#=GF AU    Bateman A
+#=GF GA    32.0
+#=GF NC    29.7
+#=GF TC    34.9
+#=GF PI    sraB
+#=GF SE    Bateman A
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; sRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000655 SO:ncRNA
+#=GF RN    [1]
+#=GF RM    11448770
+#=GF RT    Novel small RNA-encoding genes in the intergenic regions of
+#=GF RT    Escherichia coli.
+#=GF RA    Argaman L, Hershberg R, Vogel J, Bejerano G, Wagner EG, Margalit H,
+#=GF RA    Altuvia S;
+#=GF RL    Curr Biol 2001;11:941-950.
+#=GF CC    This RNA was discovered in E. coli during a large scale screen [1].
+#=GF CC    This ncRNA was found to be expressed only in stationary phase [1].
+#=GF CC    The function of this RNA is unknown.
+#=GF WK    http://en.wikipedia.org/wiki/SraB_RNA
+#=GF SQ    5
+
+#=GS E.coli.1               AC    M29698.1/90-258
+#=GS Escherichia_coli_CFT.1 AC    AE014075.1/1290089-1290256
+#=GS Salmonella_enterica_.1 AC    ABEJ01000009.1/157589-157755
+#=GS Salmonella_enterica_.2 AC    CP001144.1/2091764-2091931
+#=GS Shigella_dysenteriae.1 AC    CP000034.1/1873232-1873400
+
+E.coli.1                           UAGGCAUAUUUUUUUCCAUCAGAUAUAGCGUAUUGAUGAUAGCCAUUUUA
+Escherichia_coli_CFT.1             UAGGCAUAUUUUUUUCCAUCAGAUAUAGCGUAUUGAUGAUAGCCAAUUUA
+Salmonella_enterica_.1             GGGGCAUAUUUUUU.CCCUCAGAUAUAGCGUAAUGAUGAGAGCCAUCUUA
+Salmonella_enterica_.2             GGGGCAUAUUUUUU.CCCUCAGAUAUAGCGUAAUGAUGAGAGCCAUCUUA
+Shigella_dysenteriae.1             UAGGCAUAUUUUUUUCCAUCAGAUAUAGCGUAUUGGUGAUAGCCAUUUUA
+#=GC SS_cons                       .................<<<<...............>>>>..........
+#=GC RF                            uaGGCAUAUUUUUUuCCcuCaGAUAUAGCGUAaUGAuGagAGCCAUuUUA
+
+E.coli.1                           AACUAUGCGCUUCGUUUUGCAGGUUGAUGUUUGUUAUCAGCACUGAACGA
+Escherichia_coli_CFT.1             AACUAUGCGCUUCGUUUUGCUGACUGGCAACUU.UGCCAGCACUGAACGA
+Salmonella_enterica_.1             AACUAUGCUCUUCGGUCUUCAAGCCUGUCAUACUGACUCGUCUUGAGCGA
+Salmonella_enterica_.2             AACUAUGCUCUUCGGUCUUCAAGCCUGUCAUACUGACUCGUCUUGAGCGA
+Shigella_dysenteriae.1             AACUAUGCGCUUCGUUUUGCAGGUUGAUGUUCGUUAUCAGCACUGAACGA
+#=GC SS_cons                       ..........<<<<<<...<<<.<<<<<<.....>>>>>>..>>>>>>>>
+#=GC RF                            AACUAUGCuCuuCGcuuUuCagGccggucaUagUgaccgguacuGagCGa
+
+E.coli.1                           AAAUAAAGCAGUAACCCGCAAUGUGUGCGAAUUAUUGGCAAAAGGCAACC
+Escherichia_coli_CFT.1             AAAUAAGGCUGUAACCCGCAAUGUGUGCGAAUUAUUGGCAAAAGGCAACC
+Salmonella_enterica_.1             AAAUAAGUCUGUAACCCGCAAUGUGUGCGAAUUAU.GGCAAAAGGCAACC
+Salmonella_enterica_.2             AAAUAAGUCUGUAACCCGCAAUGUGUGCGAAUUAUUGGCAAAAGGCAACC
+Shigella_dysenteriae.1             AAAUAAAGCAGUAACCCGCAAUGUGUGCGAAUUAUUGGCAAAAGGCAACC
+#=GC SS_cons                       >.........<<<<..<<<<.....>>>>..>>>>....<<<<<<<<.<<
+#=GC RF                            aAAUAAauCaguaaCCCGCaAUGUGuGCGAAuuauUGGCaaaaGGCaACC
+
+E.coli.1                           ACAGGCUGCCUUUUUCUUU
+Escherichia_coli_CFT.1             GCAGGCUGCCUUUUUCUUU
+Salmonella_enterica_.1             GCAGGCUGCUUUUCUUUGA
+Salmonella_enterica_.2             GCAGGCUGCCUUUUUCUUU
+Shigella_dysenteriae.1             ACAGGCUGCCUUUUUCUUU
+#=GC SS_cons                       ...>>.>>>>>>>>.....
+#=GC RF                            aCAGGCuGCCuuuuUCUUU
+//

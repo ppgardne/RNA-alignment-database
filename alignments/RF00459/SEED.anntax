@@ -1,0 +1,127 @@
+# STOCKHOLM 1.0
+#=GF ID    MPMV_package
+#=GF AC    RF00459
+#=GF DE    Mason-Pfizer monkey virus packaging signal
+#=GF AU    Moxon SJ
+#=GF GA    54.0
+#=GF NC    54.0
+#=GF TC    54.0
+#=GF SE    PMID:14687944, INFERNAL
+#=GF SS    Predicted; PFOLD; Moxon SJ
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    14687944
+#=GF RT    Mutational analysis of the predicted secondary RNA structure of the
+#=GF RT    Mason-Pfizer monkey virus packaging signal.
+#=GF RA    Mustafa F, Lew KA, Schmidt RD, Browning MT, Rizvi TA;
+#=GF RL    Virus Res 2004;99:35-46.
+#=GF RN    [2]
+#=GF RM    7884866
+#=GF RT    Secondary structure model of the Mason-Pfizer monkey virus 5' leader
+#=GF RT    sequence: identification of a structural motif common to a variety of
+#=GF RT    retroviruses.
+#=GF RA    Harrison GP, Hunter E, Lever AM;
+#=GF RL    J Virol 1995;69:2175-2186.
+#=GF CC    This family represents a group of sequences that are related to the
+#=GF CC    Mason-Pfizer monkey virus (MPMV) packaging signal. The packaging signal is
+#=GF CC    located in the 5' UTR and is required for specific RNA encapsidation [1].
+#=GF WK    http://en.wikipedia.org/wiki/Mason-Pfizer_monkey_virus_packaging_signal
+#=GF SQ    9
+
+#=GS E.telfairi.1           AC    AAIY01568405.1/839-1114
+#=GS R.norvegicus.1         AC    AAHX01057948.1/6014-6286
+#=GS M.mulatta.1            AC    AANU01253468.1/8032-8307
+#=GS P.anubis.1             AC    AC113268.8/164780-165062
+#=GS M.murinus.1            AC    ABDC01313292.1/5294-5577
+#=GS Simian_retrovirus_2.1  AC    AF126467.1/349-623
+#=GS Simian_retrovirus_2.2  AC    M16605.1/349-623
+#=GS Mason-Pfizer_monkey_.1 AC    AF033815.1/123-398
+#=GS Simian_retrovirus_1.1  AC    M11841.1/351-632
+
+E.telfairi.1                       UGGCACC.C.AAUGCG...GGGC.CCGGAUACGA..GGG.AUA.CCGUGA
+R.norvegicus.1                     UGGUGCC.C.ACUGUGUGGGGCC.U.GUAUACAG..GGGCUUUAUCUUGA
+M.mulatta.1                        UGGCGCCUC.AACGUG...GAGCCU.GGAAACGA..GGGAUUC..CGUGA
+P.anubis.1                         UGGCGCC.UGAACAGG...GACC.U.GGA...AACGAGGGACU.CCGUGA
+M.murinus.1                        UGGCGCC.C.AACGUG...GGGC.UCGGAUACGA..GGGAUGC.A.GUGA
+Simian_retrovirus_2.1              UGGCGCC.C.AACGUG...GGGC.U.GGAUACGA..GGGAAUC.CUGUGA
+Simian_retrovirus_2.2              UGGCGCC.C.AACGUG...GGGC.U.GGAUACGA..GGGAAUC.CUGUGA
+Mason-Pfizer_monkey_.1             UGGCGCC.C.AACGUG...GGGC.U.GGAUACGA..GGGAAUU.UCGUGA
+Simian_retrovirus_1.1              UGGCGCC.C.AACGUG...GCGU.U.GGAUACGA..GGGAAUU.UCGUGA
+#=GC SS_cons                       .....<<.<....<<<.............>>>....>>>.....<<<<..
+#=GC RF                            UGGCGCC.C.AACGug...GgGc.U.GGAuaCGA..GGGAAUu.ccguGA
+
+E.telfairi.1                       GGAA...GAA....GGCGC..AAAGGAGGCCGGC.GAGUAAAAGUGAGAG
+R.norvegicus.1                     GGAA...GAA....GAC....UCAGGUGGCUGGCUUUGUAUACAGAAAU.
+M.mulatta.1                        GGAA...GAG....GACGCG.AAAGAACGGUCGACCUUCAAGGUGAAACU
+P.anubis.1                         GGAA...GAG....GACGCCAAAGGACGGUCGACCGCUAACCCAGACAAA
+M.murinus.1                        GGACAUGGACGUGUGUCGCC.AAAGCUCGUAGGGACCGAGCAGCUUAAAG
+Simian_retrovirus_2.1              GGAA...GAG....AGCGCG.UAACACGGCCGGCAGUCA.AAGUGAAAG.
+Simian_retrovirus_2.2              GGAA...GAG....AGCGCG.UAACACGGCCGGCAGUCA.AAGUGAAAG.
+Mason-Pfizer_monkey_.1             GGAA...GAC....GACGCG.UUCGCCGGCCGGC.GAUUAAAAGUGAAAG
+Simian_retrovirus_1.1              GGAA...GAC....GACGCGGUUUGCCGGCCCG..GAUUAAAAGAGAAAC
+#=GC SS_cons                       ........>>....>>..................................
+#=GC RF                            GGAA...Gac....ggCGCG.UaagaCGGCCgGcAGauaAAAagaaAAaa
+
+E.telfairi.1                       .....AAAAUUC...CUUC..GGCCACCGCAGGAGCCUGCUGCGCUGAGG
+R.norvegicus.1                     .........UCC...UUUGA.AU..GUCGAGGGAGCCUGCCGUGGC..UG
+M.mulatta.1                        .....AAACUCC...UCCGA..UC.ACCGCGGGAACCUGCCGCGUC..AG
+P.anubis.1                         AGGAGUAAAACUC..UUCCG.AUCA.CCGCGGGAACCUGCUGCGUC..UG
+M.murinus.1                        .....UGAAAGUGCCUUCGA..CCA.UUGCGGGAGCCUGCCUCGCU..UG
+Simian_retrovirus_2.1              .....AAAAACC...UUCCA..GCUGCCGCGGGAACCUGCCGCGUC..GG
+Simian_retrovirus_2.2              .....AAAAACC...UUCCA..GCUGCCGCGGGAGCCUGCCGCGUC..GG
+Mason-Pfizer_monkey_.1             ......UAAACUC..UCUU..GGCCGCCGCGGGAACCUGCCGCGUU..GG
+Simian_retrovirus_1.1              GAAA.GUAAACU...UUCUUCGGCCGCCGCGGGAGCCUGCCGCGUA..GG
+#=GC SS_cons                       .........<<<...<<.....<<<..<<<<<.......>>>>>....>>
+#=GC RF                            .....aaAAaCc...uccua.gGCcGCCGCGGGAaCCUGCCGCGUa..gG
+
+E.telfairi.1                       CUGAAGGUGAGUAAAA..GAG.CCUGAAAAUGGGACAAGAAUUAAGCCAC
+R.norvegicus.1                     AAACGAAGGGGAGUGAUAGAA.UCUGAAUAUGGGACAAGCAUUAAGCUAA
+M.mulatta.1                        .AAUUGAAGGUAAGUGACGUG.UCCG.AAAUGGGACAAGAAUUAAGUCAA
+P.anubis.1                         AAUCGAA.GGUAAGUGGCGCG.UCCG.AAAUGGGACAAGAAUUAAGUCAG
+M.murinus.1                        AGUA.AAAGUUGA...AUGCGUCUGCAAAAAUGGGCAGGAACUUAGCCAA
+Simian_retrovirus_2.1              .CAAUAAAGGUAAGCGUUGCG.UUCGAAUAUGGGACAAGAAUUAAGCCAA
+Simian_retrovirus_2.2              .CAAUAAAGGUAAGCGUUGCG.CUCAAAUAUGGGACAAGAAUUAAGCCAA
+Mason-Pfizer_monkey_.1             ACCU.GAAAGUAAGUGUUGCG.CUCGGAUAUGGGGCAAGAAUUAAGCCAG
+Simian_retrovirus_1.1              ACCUGAA.AGUAAGUGGUGCG.CUCGGAUAUGGGGCAGGAAUUAAGCCAG
+#=GC SS_cons                       .>...>>.>>>.....<<<<..<<<<....>>>>>>>>....<<<<<<..
+#=GC RF                            ACaaugaAgGuAAGuGuuGcG.CuCgaAUAcGgGgCaaGAAUuaaGCCAa
+
+E.telfairi.1                       CAUCAGAUUUAUGUGAGACAAUUGAAAGAGGCUUUAAAGGCACGAGGAGU
+R.norvegicus.1                     CAUGAGGUCUUUGUGAAACAAUUAAAAGAGGCAUUAAAGGUUCGAGGAGU
+M.mulatta.1                        CAUCAAAUCUAUGUAGGACAAUUAAAAGAGGCUUUAAAGAUACGAGGAGU
+P.anubis.1                         CAUCAGAUCUAUGUAGGACAAUUAAAAGAGGCUUUAAAGAUACGAGGAGU
+M.murinus.1                        CAUCAAUUGUAUGUAACACAAUUGAGGGAAGUGUUAAAUACACGAAGAGU
+Simian_retrovirus_2.1              CAUGAACUUUAUGUAGAACAGUUAAAAAAGGCUCUAAAGACACGGGGAGU
+Simian_retrovirus_2.2              CAUGAACUCUAUGUAGAACAAUUAAAAAAGGCUCUAAAGACACGGGGAGU
+Mason-Pfizer_monkey_.1             CAUGAACGUUAUGUAGAACAAUUGAAGCAGGCUUUAAAGACACGGGGAGU
+Simian_retrovirus_1.1              CACGAACGUUAUGUGGAACAAUUAAAACAGGCUUUAAAGACACGGGGAGU
+#=GC SS_cons                       .............................>>>.>>>......<<<<<<<<
+#=GC RF                            CAuGAACguUAUGUAGAACAAUUAAAAaAGGCUuuaAAGACACggggagu
+
+E.telfairi.1                       AAAGGUGAAUAGUGAGGAUUUAUUCAAAUUUUUUGGCUUUAUAAAAGAUA
+R.norvegicus.1                     AAAGGUAAAAACCAACGAUCUGUUUACAUUUUUUGAUUUUGUUAAGGAUC
+M.mulatta.1                        AAAGGUUAAAUGUAAUGAUUUGUUUAAAUUUUUUGAUUUUGUAAAAGACA
+P.anubis.1                         AAAGGUUAAAGGUAAUGAUUUGUUUAAGUUUUUUGAUUUUGUAAAAGAUA
+M.murinus.1                        AAAGGUUGCAAAAGCAGAUUUGUUUAGAUUCUUUGAUUUUAUAAAGGAUG
+Simian_retrovirus_2.1              AAAGGUUAAGGGUAAUGAUUUACUCAAAUUCUUUGAUUUUGUAAAGGAUA
+Simian_retrovirus_2.2              AAAGGUUAAGGGUAAUGAUUUGCUCAAAUUCUUUGAUUUUGUAAAGGAUA
+Mason-Pfizer_monkey_.1             AAAGGUUAAAUAUGCUGAUCUUUUGAAAUUUUUUGAUUUUGUGAAGGAUA
+Simian_retrovirus_1.1              AAAGGUUAAAUAUGCUGAUCUCUUAAAGUUUUUUGAUUUUGUAAAGGAUA
+#=GC SS_cons                       ..<<<<<<.......>>>>>>......>>>>>>>>........<<<<<<.
+#=GC RF                            AAagguuaAauaUaaugaucuauUaAAauucuuuGAUUUUGUAaaGGauA
+
+E.telfairi.1                       UGUGUCGUU
+R.norvegicus.1                     UUUGUCCUU
+M.mulatta.1                        CUUGCCCUU
+P.anubis.1                         CUUGCCCUU
+M.murinus.1                        UGUGCCCCU
+Simian_retrovirus_2.1              CCUGCCCUU
+Simian_retrovirus_2.2              CCUGCCCUU
+Mason-Pfizer_monkey_.1             CUUGUCCUU
+Simian_retrovirus_1.1              CUUGUCCUU
+#=GC SS_cons                       ...>>>>>>
+#=GC RF                            CuUguCCuu
+//

@@ -1,0 +1,72 @@
+# STOCKHOLM 1.0
+#=GF ID    IS102
+#=GF AC    RF00124
+#=GF DE    IS102 RNA
+#=GF AU    Moxon SJ
+#=GF GA    29.0
+#=GF NC    27.7
+#=GF TC    38.2
+#=GF SE    Hershberg R
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; sRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000655 SO:ncRNA
+#=GF RN    [1]
+#=GF RM    12202758
+#=GF RT    Transcriptome analysis of Escherichia coli using high-density
+#=GF RT    oligonucleotide probe arrays.
+#=GF RA    Tjaden B, Saxena RM, Stolyar S, Haynor DR, Kolker E, Rosenow C;
+#=GF RL    Nucleic Acids Res 2002;30:3732-3738.
+#=GF CC    This family consists of a group of Shigella flexneri and Escherichia coli
+#=GF CC    RNA genes which are 208 bases in length and are found between the yeeP and
+#=GF CC    flu genes. The function of this RNA is unknown.
+#=GF WK    http://en.wikipedia.org/wiki/IS102_RNA
+#=GF SQ    5
+
+#=GS E.coli.1               AC    U24429.1/2410-2615
+#=GS E.coli.2               AC    X16664.4/58046-58251
+#=GS Escherichia_coli_CFT.1 AC    AE014075.1/1225384-1225586
+#=GS E.coli.3               AC    AF233272.1/74-277
+#=GS Shigella_flexneri_2a.1 AC    AF200692.2/35693-35898
+
+E.coli.1                           ACGAUCAAUAUCGAUUUAAUCGAUCGUUUAUAUCGAUCGAUUAGCUAAUA
+E.coli.2                           ACGAUCGAUACCUAUUUCACCGAUCGUUAAUAUCGAUCGUUAUGCUAAUA
+Escherichia_coli_CFT.1             ACGAUCGAUAACUAUUUAAUCGAUCGUUUAUAUCGAUCGUUAUGCUAAUA
+E.coli.3                           ACGAUCGAUAUCUAUUUUAUCGAUCGUUUAUAUCGAUCGAUAAGCUAAUA
+Shigella_flexneri_2a.1             ACGAUCGAUACCUAUUUUACCGAUCGUUAAUAUCGAUCGUUAUGCUAAUA
+#=GC SS_cons                       .................<<<<<<<<<.......>>>>>>>>>........
+#=GC RF                            ACGAUCgAUAuCuAUUUuauCGauCGUUaAUAUCGauCGauaaGCUAAUA
+
+E.coli.1                           AUAACCUUUGUCAGUAACAUGCACAGAUAUGUUACCAGA.AAGACAUUCC
+E.coli.2                           AUAACUCAUGUUAGCAACGUGCGCAGAUACACA..CAGUCAUGAGAUUCA
+Escherichia_coli_CFT.1             AUAACACCCGUUAGCAAUGUAUGCAGACAC..A..CAGACAUGAGAUUCA
+E.coli.3                           AUAACCUUUGUCAGUAACAUGCACAGAUACGUA..CAGA.AAGACAUUCA
+Shigella_flexneri_2a.1             AUAACUCCUGUUAGCAACGUGCGCAGAUACACA..CAGACAUGAGAUUCA
+#=GC SS_cons                       .........<<<.<<.......>>.>>>......................
+#=GC RF                            AUAACuuuUgucAGcAACaUGCgCAgauAcauA..CAGAcAaGAgAUUCA
+
+E.coli.1                           GGGAACAACAGAACCACAAUUCAGAAAUUCCCA.CAGCCGGACCUCCGGC
+E.coli.2                           GGGAACAACAGAGCCACACGUCAGAAACUUCCGUCAGCCGGACCUCCGGC
+Escherichia_coli_CFT.1             GGGAACAACAGAGCCACACGUCAGAAACUUCCAUCAGCCGGAUCUGCGGC
+E.coli.3                           GGGAACAACAGAACCACAAUUCAGAAACUCCCA.CAGCCGGACCUCCGGC
+Shigella_flexneri_2a.1             GGGAACAACAGAGCCACACGUCAGAAACUUCCGUCAGCCGGACCUCCGGC
+#=GC SS_cons                       <<<.................................<<<<<....>>>>>
+#=GC RF                            GGGAACAACAGAaCCACAauUCAGAAAcUuCCauCAGCCGGACCUCCGGC
+
+E.coli.1                           ACUGUAACCCUUUACCUGCCGGUAUCCACGUUUGUGGGUACCGGCUUUUU
+E.coli.2                           ACUGUAACCCUUUACCUGCCGGUAUCCACAUCUGUGGAUACCGGCUUUUU
+Escherichia_coli_CFT.1             ACUGUAACCCUUCACCUGCAGGUAUCCACAUUUGUGGAUACCGGC.UUUU
+E.coli.3                           ACUGUAACCCUUUACCUGCCGGUAUCCACGUUUGUGGGUACCGGCUUUUU
+Shigella_flexneri_2a.1             ACUGUAACCCUUUACCUGCCGGUAUCCACAUCUGUGGAUACCGGCUUUUU
+#=GC SS_cons                       .......>>>.......<<<<<<<<<<<<<..>>>>>>>>>>>>>.....
+#=GC RF                            ACUGUAACCCUUUACCUGCCGGuauCCaCaUuuGuGGauaCCGGCUUUUU
+
+E.coli.1                           UAUUCACC
+E.coli.2                           UAUUCACC
+Escherichia_coli_CFT.1             UAUUCACC
+E.coli.3                           UAUUCACC
+Shigella_flexneri_2a.1             UAUUCACC
+#=GC SS_cons                       ........
+#=GC RF                            UAUUCACC
+//

@@ -1,0 +1,54 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-996
+#=GF AC    RF00948
+#=GF DE    microRNA mir-996
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    32.2
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000449
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    6
+
+#=GS D.willistoni.1       AC    AAQB01008976.1/70319-70416
+#=GS D.melanogaster.1     AC    AABU01002774.1/21461087-21461183
+#=GS A.gambiae.1          AC    AAAB01008898.1/1736132-1736227
+#=GS A.aegypti.1          AC    AAGE02017556.1/112170-112272
+#=GS C.quinquefasciatus.1 AC    AAWU01001985.1/4234-4335
+#=GS A.mellifera.1        AC    AADG05002101.1/44624-44716
+
+D.willistoni.1                   CUUGACUCUAUUUU..GUCGGCGAACAUGG.AUCUAGUGCACGGUUU...
+D.melanogaster.1                 UCUGACUCUAUUUU..GUCGGCGAACAUGG.AUCUAGUGCACG.GUG...
+A.gambiae.1                      UUAUUCUCCGCUUU..GUAGGCGUGCAUGUUUUCUAGUACACG.UU....
+A.aegypti.1                      AGAAACUCAAUUUUC.GUCGGCGUGCAUGA.AUCUGGUGCACG.GUU...
+C.quinquefasciatus.1             UUGAACUCAAUUUUC.GUCGGCGUGCAUGU.AUCUGGUGCACG.GUUUUC
+A.mellifera.1                    UAAAACAGAUAAUUCCAUAGGCGAGUAUGA.AUGUGGUGCACG.UU....
+#=GC SS_cons                     .<<<<<<<.<<<<...<<.<<<<<<<<<<<.<<<<<<<.<<<<.......
+#=GC RF                          acggacccaacuucu.guaGgcGagcauGu.aucuaGugcacG.guu...
+
+D.willistoni.1                   .GUUCAUGAUUAAG.....UUCGUGACUAGAUUUCAUGCUCGUCUAUUAA
+D.melanogaster.1                 .GUUCAUGAUUAAG.....UUCGUGACUAGAUUUCAUGCUCGUCUAUUAA
+A.gambiae.1                      ..UUCAGUUAAAGU.....UUCGUGACUAGAUUACAUGCUCGUCUAUAAU
+A.aegypti.1                      .UUCCAGUUGUAAUAUCGCUUCGUGACUAGAUUACAUGCUCGUCUAUGAA
+C.quinquefasciatus.1             AGUUGCAAUAUAGC.....UUCGUGACUAGAUUACAUGCUCGUCUAUGAA
+A.mellifera.1                    .....UUGAUUUAU.....UUCGUGACUAGAU.ACAUACUCGUCUACGGU
+#=GC SS_cons                     .....................>>>>>>>>>>>.>>>>>>>>>>>.>>.>>
+#=GC RF                          .guucAaauauAau.....uuCgugaCuagauuaCaugcuCguCuaugaa
+
+D.willistoni.1                   GUUGGGUCAG
+D.melanogaster.1                 GUUGGGUCAG
+A.gambiae.1                      ACUGAGAUCG
+A.aegypti.1                      GUUGAGAUCC
+C.quinquefasciatus.1             GUUGGGACCG
+A.mellifera.1                    AAUCUGUUUU
+#=GC SS_cons                     >>.>>>>>>>
+#=GC RF                          guuggguccg
+//

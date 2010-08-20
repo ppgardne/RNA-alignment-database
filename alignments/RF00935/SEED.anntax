@@ -1,0 +1,39 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-876
+#=GF AC    RF00935
+#=GF DE    microRNA mir-876
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    22.0
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000430
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    4
+
+#=GS O.cuniculus.1  AC    AAGW01639530.1/1761-1843
+#=GS M.musculus.1   AC    AAHY01034957.1/14912-14992
+#=GS R.norvegicus.1 AC    AAHX01036095.1/17211-17291
+#=GS C.lupus.1      AC    AACN010229644.1/1222-1302
+
+O.cuniculus.1              UGGAGUGCUGUGGAUUUCUUUUGUGAAUCACCAUAUCUAAGCUAAUGGGG
+M.musculus.1               UCACGUGCUAUGGAUUUCUCU.GUGAAUCACUAUAUCAAAUCUAGUGUGG
+R.norvegicus.1             UCAAGUGCUGUGGAUUUCUCU.GUGAAUCACCAUAUCAAAUCUAAUGUGG
+C.lupus.1                  UGAAGUGCUGUGGAUUUCUUU.GUGAAUCACCAUAUCUAAGCUAAUGUGG
+#=GC SS_cons               <<<<<<<<<<<<<<<<<<<<<.<<<<<<<<<<<.................
+#=GC RF                    ugaagcgcuguggauuccucu.gugaaccaccauAucaAAacuAaugugg
+
+O.cuniculus.1              UGGGCGGUUACCAAGGUAAUUCAUAGUGCUUCA
+M.musculus.1               UAGUGGUUUAC.AAAGUAAUUCAUAGUGCUUCA
+R.norvegicus.1             UGGUGGUUUGC.AAAGUAAUUCAUAGUGCUUCA
+C.lupus.1                  UGGUGGUUUAC.AAAGUAAUUCAUAGUGCUUCA
+#=GC SS_cons               >>>>>>>>>>>.>>>>>>>>>>>>>>>>>>>>>
+#=GC RF                    uggugguucac.agaggaauccacagcgcuuca
+//

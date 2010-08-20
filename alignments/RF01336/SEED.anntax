@@ -1,0 +1,28 @@
+# STOCKHOLM 1.0
+#=GF ID    CRISPR-DR23
+#=GF AC    RF01336
+#=GF DE    CRISPR RNA direct repeat element
+#=GF AU    Wilkinson A
+#=GF GA    24.0
+#=GF NC    23.6
+#=GF TC    25.2
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; CRISPR;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    URL; http://crispr.u-psud.fr/crispr/CRISPRHomePage.php
+#=GF DR    SO:0001459 SO:CRISPR
+#=GF WK    http://en.wikipedia.org/wiki/CRISPR
+#=GF SQ    3
+
+#=GS Myxococcus_xanthus_D.1 AC    CP000113.1/8888031-8888066
+#=GS Myxococcus_xanthus_D.2 AC    CP000113.1/8860814-8860849
+#=GS Myxococcus_xanthus_D.3 AC    CP000113.1/8862320-8862355
+
+Myxococcus_xanthus_D.1             GUGCUCAACGCCUUCCGGCAUCACGGCGAGCGGCAC
+Myxococcus_xanthus_D.2             ACGCUCAACGCCUUUCGGCAUCACGGCGAGCGGGAC
+Myxococcus_xanthus_D.3             GUGCUCAACGCCUUUCGGCAUCACGGCGAGCGGGAC
+#=GC SS_cons                       .<<<<...<<<<............>>>>>>>>....
+#=GC RF                            GuGCucAACGCCUUucGGcAUcAcGGCGaGCgGgAc
+//

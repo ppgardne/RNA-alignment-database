@@ -1,0 +1,60 @@
+# STOCKHOLM 1.0
+#=GF ID    snosnR71
+#=GF AC    RF00479
+#=GF DE    Small nucleolar RNA snR71
+#=GF AU    Moxon SJ
+#=GF GA    34.0
+#=GF NC    28.8
+#=GF TC    36.2
+#=GF SE    Moxon SJ
+#=GF SS    Predicted; Moxon SJ
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF RN    [1]
+#=GF RM    12007400
+#=GF RT    Small nucleolar RNAs: an abundant group of noncoding RNAs with
+#=GF RT    diverse cellular functions.
+#=GF RA    Kiss T;
+#=GF RL    Cell 2002;109:145-148.
+#=GF RN    [2]
+#=GF RM    10024243
+#=GF RT    A computational screen for methylation guide snoRNAs in yeast.
+#=GF RA    Lowe TM, Eddy SR;
+#=GF RL    Science 1999;283:1168-1171.
+#=GF CC    snR71 is a member of the C/D class of snoRNA which contain the C (UGAUGA)
+#=GF CC    and  D (CUGA) box motifs. Most of the members of the box C/D family
+#=GF CC    function in directing site-specific 2'-O-methylation of substrate RNAs
+#=GF CC    [1].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_snR71
+#=GF SQ    7
+
+#=GS Y.lipolytica.1         AC    CR382130.1/3357485-3357571
+#=GS D.hansenii.1           AC    CR382137.2/1877647-1877739
+#=GS Ashbya_gossypii_ATCC.1 AC    AE016819.4/1625939-1626030
+#=GS K.lactis.1             AC    CR382123.1/242465-242557
+#=GS C.glabrata.1           AC    CR380956.2/779063-779158
+#=GS S.cerevisiae.1         AC    U10397.1/27874-27969
+#=GS S.cerevisiae.2         AC    AF064283.1/1-90
+
+Y.lipolytica.1                     UUUG..AUGAUGAAACACU.UA.CUCAGCUCACUCAGA.GC.UCUGCAAU
+D.hansenii.1                       UGUU..AUGAUGAUAACCU.AA.CUCAGCUCACUCUUAGUCAAUGACGAU
+Ashbya_gossypii_ATCC.1             UCUUACAUGAUGAUAACUU.A..CUCAGCUCACUCAGA.AAUACA....U
+K.lactis.1                         AUUUACGUGAUGAUAACCU.UA.CUCAGCUCACUCAGA.UUAUCCG...U
+C.glabrata.1                       GUGUUUAUGAUGACAAACUAUAUCUCAGCUCACUCAGA.UCACCCG...U
+S.cerevisiae.1                     UGUUAUAUGAUGAUAACCU.U..CUCAGCUCACUCAGA.UCUUUUGAUAU
+S.cerevisiae.2                     .GUUAUAUGAUGAUAACCU.U..CUCAGCUCACUCAGA.UCUUUUGAUAU
+#=GC SS_cons                       <<<<..............................................
+
+Y.lipolytica.1                     GCU.GAUAA......CCUUCCUAACAACGCAACAAUAACCUGACCCUUAC
+D.hansenii.1                       GCU.GAUAACCUUUU..UUUCCAACAUUCAUCAAUUUAUCUGAUUCAAUA
+Ashbya_gossypii_ATCC.1             GAUUGAGAACUUUUCCUAAUCCAACAUUCAUCAAUAUAUCUGACUAGAAG
+K.lactis.1                         GAUCGA.AAGCAUUUCCUAUCCAACAUUCAUCAAAAUAUCUGAUCAAAAU
+C.glabrata.1                       GAUUGAUAAUAUAUUCCUAUCCAACAUUCAUCAAUUUACCUGACUUUUAU
+S.cerevisiae.1                     GAUUGAUAAAAAUUUCCUAUCCAACAUUCAUCAAUUUAUCUGACCAAACA
+S.cerevisiae.2                     GAUUGAUAAAAAUUUCCUAUCCAACAUUCAUCAAUUUAUCUGACC.....
+#=GC SS_cons                       ..............................................>>>>
+//

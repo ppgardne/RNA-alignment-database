@@ -1,0 +1,109 @@
+# STOCKHOLM 1.0
+#=GF ID    snoR16
+#=GF AC    RF00296
+#=GF DE    Small nucleolar RNA R16
+#=GF AU    Moxon SJ
+#=GF GA    32.0
+#=GF NC    0.0
+#=GF TC    36.7
+#=GF SE    Moxon SJ
+#=GF SS    Predicted; PFOLD; Moxon SJ, Daub J
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Arabidopsis_thaliana300027
+#=GF RN    [1]
+#=GF RM    12215523
+#=GF RT    Purified box C/D snoRNPs are able to reproduce site-specific
+#=GF RT    2'-O-methylation of target RNA in vitro.
+#=GF RA    Galardi S, Fatica A, Bachi A, Scaloni A, Presutti C, Bozzoni I;
+#=GF RL    Mol Cell Biol 2002;22:6663-6668.
+#=GF RN    [2]
+#=GF RM    12477388
+#=GF RT    Experimental RNomics: identification of 140 candidates for small
+#=GF RT    non-messenger RNAs in the plant Arabidopsis thaliana.
+#=GF RA    Marker C, Zemann A, Terhorst T, Kiefmann M, Kastenmayer JP, Green P,
+#=GF RA    Bachellerie JP, Brosius J, Huttenhofer A;
+#=GF RL    Curr Biol 2002;12:2002-2013.
+#=GF CC    snoR16 is a member of the C/D class of snoRNA which contain the C (UGAUGA)
+#=GF CC    and D (CUGA) box motifs. Most of the members of the box C/D family function
+#=GF CC    in directing site-specific 2'-O-methylation of substrate RNAs [1].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_R16
+#=GF SQ    22
+
+#=GS O.sativa.1       AC    AJ532540.1/1-88
+#=GS O.sativa.2       AC    AP008209.1/5126801-5126888
+#=GS O.sativa.3       AC    AJ532541.1/1-85
+#=GS O.sativa.4       AC    AC115687.1/128663-128753
+#=GS O.sativa.5       AC    AJ536402.1/1-77
+#=GS O.sativa.6       AC    AP008209.1/12687983-12688063
+#=GS O.sativa.7       AC    AP008209.1/5126982-5127072
+#=GS O.sativa.8       AC    AC121491.2/45673-45753
+#=GS O.sativa.9       AC    AC115687.1/128847-128934
+#=GS O.sativa.10      AC    AC116426.1/42034-42121
+#=GS O.sativa.11      AC    AC116426.1/41850-41940
+#=GS Z.mays.1         AC    AY559178.1/865-955
+#=GS Z.mays.2         AC    AY559178.1/1040-1124
+#=GS V.vinifera.1     AC    AM460165.1/25995-26075
+#=GS S.lycopersicum.1 AC    CU459062.7/46553-46628
+#=GS R.communis.1     AC    AASG02000069.1/78455-78538
+#=GS P.trichocarpa.1  AC    AARH01006167.1/50772-50855
+#=GS A.thaliana.1     AC    AF317964.1/1-81
+#=GS A.thaliana.2     AC    AC025808.8/30370-30454
+#=GS A.thaliana.3     AC    AC025814.7/53931-54017
+#=GS A.thaliana.4     AC    DQ108830.1/335-421
+#=GS B.rapa.1         AC    AC189493.2/8156-8242
+
+O.sativa.1                   GGUGGCAAAUGAUGUGAAA.ACAAUCUUAUCCUA.CACAC....UGAAUC
+O.sativa.2                   GGUGGCAAAUGAUUUGAAA.ACAAUCUUAUCCUA.CACAC....UGAAUC
+O.sativa.3                   ...GGCAAGUGAUGUGA...ACAUUUAUAUGCUAUCACUCAA..UGGAAA
+O.sativa.4                   GUCGGCAAGUGAUGUGA...ACAUUUAUAUGCUAUCACUCAA..UGGAAA
+O.sativa.5                   ..UGGCAUGUGAUGC.....ACAAUCUUAUCCUA.CACAC....UGAAUG
+O.sativa.6                   AAUGGCAUGUGAUGC.....ACAAUCUUAUCCUA.CACAC....UGAAUA
+O.sativa.7                   GUCGGCAAGUGAUGUGA...ACAUUUAUAUGCUAUCACUCAA..UGGAAA
+O.sativa.8                   AAUGGCAUGUGAUGC.....ACAAUCUUAUCCUA.CACAC....UGAAUA
+O.sativa.9                   GGUGGCAAAUGAUUUGAAA.ACAAUCUUAUCCUA.CACAC....UGAAUC
+O.sativa.10                  GGUGGCAAAUGAUUUGAAA.ACAAUCUUAUCCUA.CACAC....UGAAUC
+O.sativa.11                  GUCGGCAAGUGAUGUGA...ACAUUUAUAUGCUAUCACUCAA..UGGAAA
+Z.mays.1                     GACGGCAAGCGAUGUGC...AAAACUUUAUCCUA.CACACUUAAUGGAAU
+Z.mays.2                     UGUGGCAAGUGAUGCAGAAGUUAAUAUUAUGCUA.UACAC....UGAAAC
+V.vinifera.1                 GAAGGCAAAUGAUGAAA...AUAGUCUUAUCCUA.CACUC....UGAAGU
+S.lycopersicum.1             UUUGGCAAAUGACGA..........UUCACUGUA.AAUAC....UG.AAU
+R.communis.1                 AGUGGCAUGUGAUGAAU...AAGUUCUUAUCCUA.CACAC....UGAAUU
+P.trichocarpa.1              GAAGGCAAAUGAUGGAAAA.AAAUUCUUAUCCUA.CACAC....UGAAUU
+A.thaliana.1                 ..UGGCAAAUGAUGAGU...AGAAUCUUAUCCUA.CACAC....AG.AUG
+A.thaliana.2                 AUUGGCAAAUGAUGAGU...AGAAUCUUAUCCUA.CACAC....AG.AUG
+A.thaliana.3                 AUUGGCAAAUGAAGAAUUGAUUAAUUUAUGCUUA.ACCAC....UG.AUG
+A.thaliana.4                 AUUGGCAAAUGAAGAAUUGAUUAAUUUAUGCUUA.ACCAC....UG.AUG
+B.rapa.1                     UAUGGCAGAUGAUGAAUUG.AUUACUUGUGCUUAAAUCAC....AGAAUA
+#=GC SS_cons                 ..<<<<<...........................................
+#=GC RF                      aauGGCAAgUGAUGaga...AuAAUuUUAUccUA.cACAC....UGaAaa
+
+O.sativa.1                   UUUG...AUGUGUGGACAAACA.UCUCCGCUUAUUAUCUGAUGCCACU
+O.sativa.2                   UUUG...AUGUGUGGACAAACA.UCUCCGCUUAUUAUCUGAUGCCACU
+O.sativa.3                   UUUCC..AUGUGUGGACCAAUAAUCUCCGCUUAUUAUCUGAUGCC...
+O.sativa.4                   UUUCC..AUGUGUGGACCAAUAAUCUCCGCUUAUUAUCUGAUGCCUUC
+O.sativa.5                   CA.....AUGUGUGGACAAAUA..CUCUGCUUAUUAUCUGAUGCCA..
+O.sativa.6                   CA.....AUGUGUGGACAAAUA..CUCUGCUUAUUAUCUGAUGCCACC
+O.sativa.7                   UUUCC..AUGUGUGGACCAAUAAUCUCCGCUUAUUAUCUGAUGCCUUC
+O.sativa.8                   CA.....AUGUGUGGACAAAUA..CUCUGCUUAUUAUCUGAUGCCACC
+O.sativa.9                   UUUG...AUGUGUGGACAAACA.UCUCCGCUUAUUAUCUGAUGCCACU
+O.sativa.10                  UUUG...AUGUGUGGACAAACA.UCUCCGCUUAUUAUCUGAUGCCACU
+O.sativa.11                  UUUCC..AUGUGUGGACCAAUAAUCUCCGCUUAUUAUCUGAUGCCUUC
+Z.mays.1                     UACUGCCAUGUGUGGACUAAU...CUCCGCUUAUUAUCUGAUGCUUUU
+Z.mays.2                     U.......UUUGUGGACAAAAA.ACUCCGCUUAUUAUCUGAUGCCACA
+V.vinifera.1                 UA.......AUGUAGACUAUAA..CUCCGCUUAUUAUCUGAUGCCUUC
+S.lycopersicum.1             AAUC...AUG..UCGAUUAUCA.ACUCCGCUUAUUAUCUGAUGCCUUU
+R.communis.1                 UG.....UUGUGUUGACUACUU.ACUCCGCUUAUUAUCUGAUGCCGUU
+P.trichocarpa.1              AA.......AUGUGGACCAAAA.ACUCCGCUUAUUAUCUGAUGCCUUU
+A.thaliana.1                 UAUC...A.GUGUUGACUACCAAUCUCUGCUUAUUAUCUGAUGCCA..
+A.thaliana.2                 UAUC...A.GUGUUGACUACCAAUCUCUGCUUAUUAUCUGAUGCCAUA
+A.thaliana.3                 AACA...GUG.UUGACAAAACA.UCUCCGCUUAUUAUCUGAUGCCAUA
+A.thaliana.4                 AACA...GUG.UUGACAAAACA.UCUCCGCUUAUUAUCUGAUGCCAUA
+B.rapa.1                     AU......AGUGUUGACAAACAAUCUCCGCUUAUUAUCUGAUGCCAUG
+#=GC SS_cons                 .........................................>>>>>..
+#=GC RF                      uAua...AUGUGUGGAcaAAuA.uCUCcGCUUAUUAUCUGAUGCCaua
+//

@@ -1,0 +1,69 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-160
+#=GF AC    RF00247
+#=GF DE    mir-160 microRNA precursor family
+#=GF AU    Griffiths-Jones SR, Daub J
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    35.3
+#=GF SE    Griffiths-Jones SR
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000032
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF RN    [1]
+#=GF RM    12202040
+#=GF RT    Prediction of plant microRNA targets.
+#=GF RA    Rhoades MW, Reinhart BJ, Lim LP, Burge CB, Bartel B, Bartel DP;
+#=GF RL    Cell 2002;110:513-520.
+#=GF CC    miR-160 has been predicted or experimentally confirmed in a range
+#=GF CC    of plant species including Arabidopsis and rice
+#=GF CC    (MIPF:MIPF0000032). miR-160 is predicted to bind complementary
+#=GF CC    sites in the untranslated regions of auxin response factor genes
+#=GF CC    to regulate their expression [1].The hairpin precursors
+#=GF CC    (represented here) are predicted based on base pairing and
+#=GF CC    cross-species conservation -- their extents are not known.  In
+#=GF CC    this case the mature sequence is excised from the 5' arm of the
+#=GF CC    hairpin.
+#=GF WK    http://en.wikipedia.org/wiki/mir-160_microRNA_precursor_family
+#=GF SQ    7
+
+#=GS O.sativa.1   AC    AC084320.10/152194-152329
+#=GS O.sativa.2   AC    AP004591.3/100727-100819
+#=GS O.sativa.3   AC    AK071620.1/251-338
+#=GS O.sativa.4   AC    AK101881.1/424-511
+#=GS A.thaliana.1 AC    AL161547.2/49332-49418
+#=GS A.thaliana.2 AC    AC004697.3/97725-97809
+#=GS A.thaliana.3 AC    AB022221.1/11075-11161
+
+O.sativa.1               AUAUGCCUGGCUCCCUGUAUGCCACUCGCGUAGCUGCCAAACUCAGUUGA
+O.sativa.2               AUGUGCCUGGCUCCCUGUAUGCCACUCAUCUAGAGCAACAAACUUCUGCG
+O.sativa.3               GCGUGCCUGGCUCCCUGUAUGCCACUCAUGUAGCCCAAUCCAUGGUGUGU
+O.sativa.4               GUGUGCCUGGCUCCCUGUAUGCCACACAUGUAGACCAACCCAUGGUGUCU
+A.thaliana.1             UCGUGCCUGGCUCCCUGUAUGCCACAAGAAAACAUCGAUUUAGUUUC...
+A.thaliana.2             GUAUGCCUGGCUCCCUGUAUGCCAUAUGCUGAGCCCAUCGAGUAUCGAUG
+A.thaliana.3             UUAUGCCUGGCUCCCUGUAUGCCACGAGUGGAUACCGAUUUUGGUUUU..
+#=GC SS_cons             <<<<<<.<<<<<<<.<<<<<<<<<..<<<.....................
+
+O.sativa.1               AACAACUGCCUUCUCCCGGCGAGAUUCAGGCAUUGUGUUCGUACGUUUGG
+O.sativa.2               AGAG...........................................GUU
+O.sativa.3               U................................................U
+O.sativa.4               G..............................................GUU
+A.thaliana.1             ...............................................AAA
+A.thaliana.2             A.................................................
+A.thaliana.3             ...............................................AAA
+#=GC SS_cons             ..................................................
+
+O.sativa.1               CUCUACUGCGGAUGGCGUGCG.AGGAGCCAAGCAUGA
+O.sativa.2               GCCUAUGAUGGAUGGCGUGCA.CGGAGCCAAGCAUAU
+O.sativa.3               GGAUGCUGUGGGUGGCGUGCA.AGGAGCCAAGCAUGC
+O.sativa.4               GCCUACUG..GGUGGCGUGCA.AGGAGCCAAGCAUGC
+A.thaliana.1             AUCGAUCACUAGUGGCGUACAGAGUAGUCAAGCAUGA
+A.thaliana.2             ..CCUCCGUGGAUGGCGUAUG.AGGAGCCAUGCAUAU
+A.thaliana.3             AUCGGCUGCCGGUGGCGUACA.AGGAGUCAAGCAUGA
+#=GC SS_cons             .......>>>..>>>>>>>>>..>>>>>>>.>>>>>>
+//

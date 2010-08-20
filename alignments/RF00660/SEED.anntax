@@ -1,0 +1,62 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-214
+#=GF AC    RF00660
+#=GF DE    microRNA mir-214
+#=GF AU    Wilkinson A
+#=GF GA    40.0
+#=GF NC    38.6
+#=GF TC    46.5
+#=GF SE    miRBase; Wilkinson A, Daub J
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000062
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    8
+
+#=GS O.latipes.1            AC    BAAF04061048.1/6848-6953
+#=GS O.latipes.2            AC    BAAF04076833.1/6408-6509
+#=GS Gasterosteus_aculeat.1 AC    AANH01005434.1/26064-26173
+#=GS T.rubripes.1           AC    CAAB01001079.1/28431-28538
+#=GS T.nigroviridis.1       AC    CAAE01014542.1/502846-502955
+#=GS D.rerio.1              AC    BX470128.8/142390-142495
+#=GS G.gallus.1             AC    AADN02033953.1/92-201
+#=GS H.sapiens.1            AC    AADB02000995.1/244760-244869
+
+O.latipes.1                        G...AAAAGAGCUAAAGUUGCAGUGUGUCUGCCUAUCUACACUUGCUGUG
+O.latipes.2                        CGUCAGAC......CUGUUGUGGUGUGUCUGCCUGUCUACACUUGCUGUG
+Gasterosteus_aculeat.1             CCAACUGGCUGAAGGAGUUGCAGUGUGUCUGCCUAUCUACACUUGCUGUG
+T.rubripes.1                       GUGGCAGGAUGAGACUGUUGUGGUGUGUCUGCCUGUCUACACUUGCUGUG
+T.nigroviridis.1                   GCACCUGGCUGGAGGAGUUGCAGUGUGUCUGCCUAUCUCCACUUGCUGUG
+D.rerio.1                          GCCAUUGACUGAGAGC...GUUGUCUGUCUGCCUGUCUACACUUGCUGUG
+G.gallus.1                         GGACUGGCUGUUCGGAGUUGUCAUGUGUCUGUCUGUCUACACUUGCUGUC
+H.sapiens.1                        GGCCUGGCUGGACAGAGUUGUCAUGUGUCUGCCUGUCUACACUUGCUGUG
+#=GC SS_cons                       .<<...>>........<<<<<<<<<<<<<<<<<<<<<<...<<<<<<<<<
+#=GC RF                            ggcauagcaggAaagagcuGccauguGuCuGCCuGuCuAcACuuGCuGug
+
+O.latipes.1                        CAGAAUAUCCUCCAACCUGUACAGCAGGCACAGACAGGCAGAUAAACAA.
+O.latipes.2                        CAGACCUUCUG..CUCCUGUACAGCAGGCACAGACAGGCAGACAGAUGGC
+Gasterosteus_aculeat.1             CAGAAUAACCUCCAACCUGUACAGCAGGCACAGACAGGCAGAUAGACGUC
+T.rubripes.1                       CAGACCUUCUG..CUCCUGUACAGCAGGCACAGACAGGCAGACAGAUGGC
+T.nigroviridis.1                   CAGAAUAUCCUCCAACCUGUACAGCAGGCACAGACAGGCAGAUAGACAUC
+D.rerio.1                          CAGAACUUCCU.GCACCUGUACAGCAGGCACAGACAGGCAGACAGAUGGC
+G.gallus.1                         CAUAACAUCCACUCACCUGUACAGCGGGAACAGACAGGCAGUCACCUGAC
+H.sapiens.1                        CAGAACAUCCGCUCACCUGUACAGCAGGCACAGACAGGCAGUCACAUGAC
+#=GC SS_cons                       <<<.............>>>>>>>>>>>>...>>>>>>>>>>>>>>>>>>>
+#=GC RF                            CaGAacaucugaucacCuGuaCaGCagGcAcaGaCaGGCaGaCacauggC
+
+O.latipes.1                        AACAGAGCGC
+O.latipes.2                        AGCCCCCCCC
+Gasterosteus_aculeat.1             AGCCUGCCCC
+T.rubripes.1                       AGCCCCACUG
+T.nigroviridis.1                   AGCCCAUCGA
+D.rerio.1                          AGCCCGCCUG
+G.gallus.1                         AACCCAGCCU
+H.sapiens.1                        AACCCAGCCU
+#=GC SS_cons                       >>>.......
+#=GC RF                            agcccagacu
+//

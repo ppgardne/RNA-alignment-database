@@ -1,0 +1,51 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORD95
+#=GF AC    RF00189
+#=GF DE    Small nucleolar RNA SNORD95
+#=GF AU    Moxon SJ
+#=GF GA    22.0
+#=GF NC    21.9
+#=GF TC    22.0
+#=GF PI    U95
+#=GF SE    PMID:14602913
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Mus_musculus300114
+#=GF DR    snoopy; Loxodonta_africana300342
+#=GF RN    [1]
+#=GF RM    14602913
+#=GF RT    Identification of 13 novel human modification guide RNAs.
+#=GF RA    Vitali P, Royo H, Seitz H, Bachellerie JP, Huttenhofer A, Cavaille J;
+#=GF RL    Nucleic Acids Res 2003;31:6543-6551.
+#=GF CC    snoRNA U95 (also referred to as Z38 ) is a member of the C/D
+#=GF CC    class of snoRNA which contain the C (UGAUGA) and D (CUGA) box
+#=GF CC    motifs. This family is predicted to target two neighbouring
+#=GF CC    2'-O-methylations, Cm2801 and Am2792, in 28S rRNA [1].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_SNORD95
+#=GF SQ    5
+
+#=GS M.musculus.1   AC    AL645849.17/62862-62929
+#=GS M.musculus.2   AC    AF295529.1/6463-6530
+#=GS M.musculus.3   AC    AL645849.17/60589-60655
+#=GS M.musculus.4   AC    AJ240055.1/1-68
+#=GS R.norvegicus.1 AC    AJ240056.1/1-68
+
+M.musculus.1               CCAACAGUGAUGACCACAACAUGCCAUCUGAGUUGCUUUGCUGAAAUCCA
+M.musculus.2               CCAACAGUGAUGACCACAACAUGCCAUCUGAGUUGCUUUGCUGAAAUCCA
+M.musculus.3               GAG.CAAUGAUGACCCCAACAUGCCAUCUGAGUGGCUUUGCUGAAAUCCA
+M.musculus.4               CCAACAGUGAUGACCACAACAUGCCAUCUGAGUUGCUUUGCUGAAAUCCA
+R.norvegicus.1             CCAACAGUGAUGACCACAACAUGCCAUCUGAGUUGCUUUGCUGAAAUCCA
+#=GC SS_cons               ....<<<<..........................................
+
+M.musculus.1               GAGGCUGUUUCUGAGCUG
+M.musculus.2               GAGGCUGUUUCUGAGCUG
+M.musculus.3               GAGGCUGUUUCUGAGCUG
+M.musculus.4               GAGGCUGUUUCUGAGCUG
+R.norvegicus.1             GAGGCUGUUUCUGAGCUG
+#=GC SS_cons               ..............>>>>
+//

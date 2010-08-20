@@ -1,0 +1,83 @@
+# STOCKHOLM 1.0
+#=GF ID    Pospi_RY
+#=GF AC    RF00362
+#=GF DE    Pospiviroid RY motif stem loop
+#=GF AU    Moxon SJ
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    31.4
+#=GF SE    PMID:14500815
+#=GF SS    Published; PMID:14500815
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    14500815
+#=GF RT    Characterization of the RNA motif responsible for the specific
+#=GF RT    interaction of potato spindle tuber viroid RNA (PSTVd) and the tomato
+#=GF RT    protein Virp1.
+#=GF RA    Gozmanova M, Denti MA, Minkov IN, Tsagris M, Tabler M;
+#=GF RL    Nucleic Acids Res 2003;31:5534-5543.
+#=GF CC    This family consists of several Pospiviroid sequences which are related to
+#=GF CC    the potato spindle tuber viroid (PSTVd) RY motif stem-loop. The RY motif
+#=GF CC    (5'-ACAGG and CUCUUCC-5') in PSTVd, is thought to bind with the tomato
+#=GF CC    protein Virp1. The exact function of this motif and the significance of
+#=GF CC    Virp1 binding is unknown. It is however thought that RY motifs are
+#=GF CC    essential for establishing a viroid infection [1].
+#=GF WK    http://en.wikipedia.org/wiki/Pospiviroid_RY_motif_stem_loop
+#=GF SQ    16
+
+#=GS P.spindle.1            AC    Y09887.1/145-223
+#=GS P.spindle.2            AC    AY492077.1/144-222
+#=GS P.spindle.3            AC    Y09886.1/145-223
+#=GS T.apical.1             AC    K00818.1/146-224
+#=GS P.spindle.4            AC    Z34272.1/136-214
+#=GS Tomato_apical_stunt_.1 AC    X95293.1/144-221
+#=GS P.spindle.5            AC    AF458995.1/144-222
+#=GS P.spindle.6            AC    X17268.1/143-221
+#=GS P.spindle.7            AC    AY493559.1/145-223
+#=GS P.spindle.8            AC    AY492076.1/144-222
+#=GS P.spindle.9            AC    AF536193.1/30-108
+#=GS P.spindle.10           AC    AY492083.2/145-223
+#=GS C.latent.1             AC    X15663.1/149-228
+#=GS P.spindle.11           AC    U51895.1/143-221
+#=GS P.spindle.12           AC    AY492079.1/144-222
+#=GS P.spindle.13           AC    AY492080.1/145-223
+
+P.spindle.1                        GGCC.GACAGGAGUAAUUCCCGCCGAAACAGGGUUUUCACCCUCCCUUUC
+P.spindle.2                        GGCC.GACAGGAGUAAUUCCUGCCGAAACAGGGUUUUCACCCUUCCUUUC
+P.spindle.3                        GGCC.GACAGGAGUAAUUCCCGCCGAAACAGGGUUUUCACCCCUCCUUUC
+T.apical.1                         UUGA.GACAGGAGUAAUCCCAGCUGAAACAGGGUUUUCACCCUUCCUUUC
+P.spindle.4                        GGCC.GACAGGAGUAAUUCCCGCCGAAACAGGGUUUUCACCCUUCCUUUC
+Tomato_apical_stunt_.1             UUGA.GACAGGUGUAA.CCCAGCUGAAACAGGGUUUUCACCCUUCCUUUC
+P.spindle.5                        GGCC.GACAGGAGUAAUUCCCGCCGAAACAGGGUUUUCACCCUUCCUUUC
+P.spindle.6                        GGCC.GACAGGAGUAAUUCCUGCUGAAACAGGGUUUUCACCCUUCCUUUC
+P.spindle.7                        GGCC.GACAGGAGUAAUUCCCGCCGAAACGGGGUUUUCACCCUUCCUUUC
+P.spindle.8                        GGCC.GACAGGAGUAAUUCCUGCUGAAACAGGGUUUUCACCCUUCCUUUC
+P.spindle.9                        GGCC.GACAGGAGUAAUUCCCGCCGAAACAGGGUUUUCACCCUUCCUUUC
+P.spindle.10                       AGCC.GACAGGAGUAAUUCCCGCCGAAACAGGGUUUUCACCCUUCCUUUC
+C.latent.1                         GUUCAGACAGGAGUAAUCCCAGCUGAAACAGGGUUUUCACCCUUCCUUUC
+P.spindle.11                       GGCC.GACAGGAGUAAUUCCUGCUGAAACAGGGUUUUCACCCUUCCUUUC
+P.spindle.12                       GGCC.GACAGGAGUAAUUCCCGCCGAAACAGGGUUUUCACCCUUCCUUUC
+P.spindle.13                       GGCC.GACAGGAGUAAUUCCUGCCGAAACAGGGUUUUCACCCUUCCUUUC
+#=GC SS_cons                       <<<<.<<.<<<<......<<<<..<<<<.<<<<<....>>>>>...>>>>
+
+P.spindle.1                        UUCGGGUGUCCUUCCUC.GCGCCCGCAGGAC
+P.spindle.2                        UUCAGGUGUCCUUCCUC.GCGCCCGCAGGAC
+P.spindle.3                        UUCGGGUGUCCUUCCUC.GCGCCCGCAGGAC
+T.apical.1                         UUCUGGUUUCCUUCCUC.UCGCCGGAAGGUC
+P.spindle.4                        UUCGGGUGUCCUUCCUC.GCGCCCGCAGGUC
+Tomato_apical_stunt_.1             UUCUGGUUUCCAUCCUC.UCGCCGGAAGGUC
+P.spindle.5                        UUCGGGUGUCCUUCCUC.GCGCCCGCAGGAC
+P.spindle.6                        UUCGGGUUUCCUUCCUC.GCGCCCGCAGGAU
+P.spindle.7                        UUCGGGUGUCCUUCCUC.GCGCCCGCAGGAC
+P.spindle.8                        UUCGGGUGUCCUUCCUC.GCGCCCGCAGGAC
+P.spindle.9                        UUCGGGUUUCCUUCCUC.GCGCCCGCAGGAC
+P.spindle.10                       UUCGGGUGUCCUUCCUC.GCGCCCGCAGGAC
+C.latent.1                         UUCUGGUUUCCUUCCUCUGCUUCAGC.GGCC
+P.spindle.11                       UUCAGGUUUCCUUCCUC.GCGCCCGCAGGAU
+P.spindle.12                       UUCAGGUGUCCUUCCUC.GCGCCCGCAGGAC
+P.spindle.13                       UUCGGGUGUCCUUCCUC.GCGCCCGCAGGAC
+#=GC SS_cons                       ..>>>>..>>>>...>>.>.>>>........
+//

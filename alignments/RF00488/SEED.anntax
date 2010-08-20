@@ -1,0 +1,140 @@
+# STOCKHOLM 1.0
+#=GF ID    U1_yeast
+#=GF AC    RF00488
+#=GF DE    Yeast U1 spliceosomal RNA
+#=GF AU    Griffiths-Jones SR
+#=GF GA    100.0
+#=GF NC    19.7
+#=GF TC    130.4
+#=GF SE    Zwieb C, The uRNA database, PMID:9016512
+#=GF SS    Published; PMID:2405391
+#=GF TP    Gene; snRNA; splicing;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0000391 SO:U1_snRNA
+#=GF DR    GO:0000368 GO:U2-type nuclear mRNA 5'-splice site recognition
+#=GF DR    GO:0030627 GO:pre-mRNA 5'-splice site binding
+#=GF DR    GO:0005685 GO:snRNP U1
+#=GF RN    [1]
+#=GF RM    9016512
+#=GF RT    The uRNA database.
+#=GF RA    Zwieb C;
+#=GF RL    Nucleic Acids Res 1997;25:102-103.
+#=GF RN    [2]
+#=GF RM    2405391
+#=GF RT    Saccharomyces cerevisiae U1 small nuclear RNA secondary structure
+#=GF RT    contains both universal and yeast-specific domains.
+#=GF RA    Kretzner L, Krol A, Rosbash M;
+#=GF RL    Proc Natl Acad Sci U S A 1990;87:851-855.
+#=GF CC    U1 is a small nuclear RNA (snRNA) component of the spliceosome
+#=GF CC    (involved in pre-mRNA splicing). Its 5' end forms complementary
+#=GF CC    base pairs with the 5' splice junction, thus defining the 5'
+#=GF CC    donor site of an intron.
+#=GF CC    There are significant differences in sequence and secondary
+#=GF CC    structure between metazoan and yeast U1 snRNAs, the latter being
+#=GF CC    much longer (568 nucleotides as compared to 164 nucleotides in
+#=GF CC    human). Nevertheless, secondary structure predictions suggest
+#=GF CC    that all U1 snRNAs share a 'common core' consisting of helices I,
+#=GF CC    II, the proximal region of III, and IV [1].
+#=GF CC    This family represents the larger yeast sequences.  Family
+#=GF CC    Rfam:RF00003 contains the metazoan U1 sequences.
+#=GF WK    http://en.wikipedia.org/wiki/Yeast_U1_spliceosomal_RNA
+#=GF SQ    5
+
+#=GS K.lactis.1     AC    U03475.1/1-528
+#=GS C.glabrata.1   AC    CR380957.2/492841-493435
+#=GS S.cerevisiae.1 AC    M17411.1/141-708
+#=GS S.bayanus.1    AC    U03476.1/1-572
+#=GS S.cerevisiae.2 AC    M17205.1/245-812
+
+K.lactis.1                 AUACUUACCUUAAGAUGUCAACAGAGAUCAUGAAGUUUG.UUGACCGGGU
+C.glabrata.1               AUACUUACCUUAAGAUGUCAGAGGAGAUCAAGAAGUCCUUCUGACCAGGC
+S.cerevisiae.1             AUACUUACCUUAAGAUAUCAGAGGAGAUCAAGAAGUCCUACUGAUCAAAC
+S.bayanus.1                AUACUUACCUUAAGAUAUCAGAGGAGAUCAAGAAGUCCUACUGAUCAAAC
+S.cerevisiae.2             AUACUUACCUUAAGAUAUCAGAGGAGAUCAAGAAGUCCUACUGAUCAAAC
+#=GC SS_cons               .........<<<<<<.<<<<<<<<<..........>>>>.>>>>><<<<<
+
+K.lactis.1                 AUGA..GGUUUUCAAGGAAAUACCGGAAUGGUAUUGUUUUCUCGGAGAUG
+C.glabrata.1               AUCGUUUUUUUCCAAUUUAGAG.GGAAGUUAUGCAUUU...CCUGCAUUG
+S.cerevisiae.1             AUGC..GCUUCCAAUAGUAGAA.GGACGUUAAGCAUUUAUCAUUGAACUA
+S.bayanus.1                AUGC..GCUUCCAAUGGUAGAA.GGAUGUUAAGCAUUUAUCUCUGAAUUA
+S.cerevisiae.2             AUGC..GCUUCCAAUAGUAGAA.GGACGUUAAGCAUUUAUCAUUGAACUA
+#=GC SS_cons               <<<<...<<<<<..............<<<.....................
+
+K.lactis.1                 AUACUUACAGCUUUUACAUUUACA...UUUUAUCUGUACGGUUUUC....
+C.glabrata.1               G.AA..GUUCUC.UGAUCUUUUGGGAUAAGAAAACUUCUUUUUGCUCCAA
+S.cerevisiae.1             U.AAUUGUUCAU.UGAAGUCAUUG...AUGCAAACUCC............
+S.bayanus.1                UUAAUAAUUCUC.UGAAAUAAUUG...AUGCAAACUCC............
+S.cerevisiae.2             U.AAUUGUUCAU.UGAAGUCAUUG...AUGCAAACUCC............
+#=GC SS_cons               ..................................................
+
+K.lactis.1                 ..............CUG.CAAUCCACACAUAUUUGGCAAACCUGGUACCU
+C.glabrata.1               UUGAUGUAAACUCCCUGGUCACUUGCACAUACUU.GCGGAAAAGGUGUCU
+S.cerevisiae.1             ..............UUGGUCACACACACAUACGGCGCGGAAGGCGUGUUU
+S.bayanus.1                ..............UUGGUCACUUACACAUACAUUGCGGAAGGCGUGUUU
+S.cerevisiae.2             ..............UUGGUCACACACACAUACGGCGCGGAAGGCGUGUUU
+#=GC SS_cons               ..............................>>>....>>>>>>>>>>>>>
+
+K.lactis.1                 GCUGACAUUUCG.UUCUCCCGUUACUUUUU.UGGAGGCC........UUG
+C.glabrata.1               GCUGACGUUUCG.UUCCCCAAUUCCAAUAAGUGGGUUAAUUUCUUUGUUU
+S.cerevisiae.1             GCUGACGUUUCCAUUCCCUUGUUUCAAUCA.UUGGUUAA.UCCCUUGAUU
+S.bayanus.1                GCUGACGUUCCG.UUCCCUUGUUUCAAUCA.UCGAUUAU.CCCUGUGGUU
+S.cerevisiae.2             GCUGACGUUUCCAUUCCCUUGUUUCAAUCA.UUGGUUAA.UCCCUUGAUU
+#=GC SS_cons               >....<<<<<<...<<<<<<<<<<<<<....<<<<<..........<<<<
+
+K.lactis.1                 GU..UUA.....ACC.........UCGACUCCACUAGAGUAGCCCUUUUU
+C.glabrata.1               UUUCUUAAUUGCAAAAGCUUGGAUUUUUAUCUACUUUUGGAGUCCUGUGU
+S.cerevisiae.1             CCU.UUG.....GGGAUUUUUGGGUUAAACUGAUUUUUGGGGCCCUUUGU
+S.bayanus.1                UCU.UUG.....GAAAUCGCGGGGUUCAAUUGAUUUUUGAGGCCCUUUGU
+S.cerevisiae.2             CCU.UUG.....GGGAUUUUUGGGUUAAACUGAUUUUUGGGGCCCUUUGU
+#=GC SS_cons               <<..........>>>>>>..........>>>>>...>>>>>>>.......
+
+K.lactis.1                 UCCUUCUGCCUGGAGAAGAAUGGUACU.GA..UUACAAGUCAGUGCUGGG
+C.glabrata.1               UCAUUCUGCCUGGAGAAUUAUGGCACC.AGGUAUUAUAACUGGUGCUUGG
+S.cerevisiae.1             UUCUUCUGCCUGGAGAAGUUUGACACC.AA..AUUCAAAUUGGUGUUAGG
+S.bayanus.1                UUCUUCUGCCUGGAGAAGUUUGACACC.AA..AUUCAAAUUGGUGUUAGG
+S.cerevisiae.2             UUCUUCUGCCUGGAGAAGUUUGACACCCAA..AUUCAAAUUGGUGUUAGG
+#=GC SS_cons               ..<<<<<......>>>>>....<<<<<.<<.........>>>>>>>.>>>
+
+K.lactis.1                 AGAGUCAUCGC..UGUGGCCAGUUUAGUUUCAUUUUAAUGAUCUGGGCUC
+C.glabrata.1               GGAGCUGGUUAC.UGUAUGGUAUUCAGAUUCGAGGGCAU..UUUGUCCUA
+S.cerevisiae.1             GGAGCUGGGGCCUUUCAAAAGAGAGCUUUGUAGAGGCAUUCUUUUUGACU
+S.bayanus.1                GGAGUUGGGGCCUUUUAGAAGAGAGUGUUGUUGAGGUAUUCUUAUAGUGU
+S.cerevisiae.2             GGAGCUGGGGCCUUUCAAAAGAGAGCUUUGUAGAGGCAUUCUUUUUGACU
+#=GC SS_cons               >>>...............................................
+
+K.lactis.1                 AAGGA.AUGUCAUGAAAGGCUGACUUACUAGUCUCUGAUCUAUUC.AUUA
+C.glabrata.1               AUUGGGAUUCCAGUUUAAGUAAUCAUAGUUG.CUUUGAGGAAGCC.AAGG
+S.cerevisiae.1             ACUUU.UCUCUAGCGUGCCAUUUUAGUUUUU.GACGGCAGAUUCGAAUGA
+S.bayanus.1                ACUUU.CCUCUAGCGCACCGUUCAAUCUUUUAGAUGGCUGAUUCUCAUGG
+S.cerevisiae.2             ACUUU.UCUCUAGCGUGCCAUUUUAGUUUUU.GACGGA.GAUUCGAAUGA
+#=GC SS_cons               ..................................................
+
+K.lactis.1                 ACUU..GUUUACAGGUUU...........AUGGGUGAGAGGU........
+C.glabrata.1               UGUU..A.UGACUGGUUC..UUCUUAACAUUGGGUGAUGACUAUUGCUCU
+S.cerevisiae.1             ACUU.AAGUUUAUGAUGAAGGUAUGGCUGUUGAGAUUAUUUGGUCGGGAU
+S.bayanus.1                ACUUUUAGUUCAUGAUGAAGGUAUAGCCGUUGGGGUUGGCCGGUCAGGAC
+S.cerevisiae.2             ACUU.AAGUUUAUGAUGAAGGUAUGGCUGUUGAGAUUAUUUGGUCGGGAU
+#=GC SS_cons               ..................................................
+
+K.lactis.1                 ..............AGAAACUUUGAGUCAGAAAUUCUG.UCAUUUC.UCC
+C.glabrata.1               UUUGAGUAG.UAUGAAAUUAUCUGAAGUGGAGGUUCUGGUAAUAGCAUAA
+S.cerevisiae.1             U....GUAG.UUUGAAGAUGUGCUCUUUUGAGCAGUCU.CAACUUU.GCU
+S.bayanus.1                U....GUAUAUUUGAGGAUGCGUUCUUUUGAGCAAUCU.CGGUUUC.ACU
+S.cerevisiae.2             U....GUAG.UUUGAAGAUGUGCUCUUUUGAGCAGUCU.CAACUUU.GCU
+#=GC SS_cons               ..................................................
+
+K.lactis.1                 GGUUCAGGAA.ACUUGUUCAGAAAGGCUGCAUCCGUGGUAGAAAUGGGUG
+C.glabrata.1               AGAUGCUG...AUAGUCCUUAUUACCCAAUAUUC.UCAUGGAGGCCACUG
+S.cerevisiae.1             CGUUCCCGUU.AUGGGAAAAAUUUUGGAAGGUCU.UGGUAGGAACGGGUG
+S.bayanus.1                CGUUGUCAUUUAUGAGAAAAAUUCUGGAAGGUCU.UGGUAGGAACGGGUG
+S.cerevisiae.2             CGUUCCCGUU.AUGGGAAAAAUUUUGGAAGGUCU.UGGUAGGAACGGGUG
+#=GC SS_cons               ....<<<<....>>>>........................>>>>>>....
+
+K.lactis.1                 GAUCUUAUAAUUUUUGAGUA.UUUC
+C.glabrata.1               AUUCU..AGGUUUU.CAAUC.UAUG
+S.cerevisiae.1             GAUCUUAUAAUUUUUGAUUUAUUUU
+S.bayanus.1                GAUCUUAUAAUUUUUGAUUUAUUUU
+S.cerevisiae.2             GAUCUUAUAAUUUUUGAUUUAUUUU
+#=GC SS_cons               ..>>>..>>>...............
+//

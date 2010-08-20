@@ -1,0 +1,172 @@
+# STOCKHOLM 1.0
+#=GF ID    sucA
+#=GF AC    RF01070
+#=GF DE    SucA RNA motif
+#=GF AU    Weinberg Z, Gardner PP
+#=GF GA    26.0
+#=GF NC    15.2
+#=GF TC    33.8
+#=GF SE    Published; PMID:17621584; Weinberg Z
+#=GF SS    Published; PMID:17621584; Weinberg Z
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    17621584
+#=GF RT    Identification of 22 candidate structured RNAs in bacteria using
+#=GF RT    the CMfinder comparative genomics pipeline.
+#=GF RA    Weinberg Z, Barrick JE, Yao Z, Roth A, Kim JN, Gore J, Wang JX,
+#=GF RA    Lee ER, Block KF, Sudarsan N, Neph S, Tompa M, Ruzzo WL, Breaker
+#=GF RA    RR
+#=GF RL    Nucleic Acids Res. 2007;35:4809-4819.
+#=GF WK    http://en.wikipedia.org/wiki/SucA_RNA_motif
+#=GF SQ    35
+
+#=GS B.bronchiseptica.1     AC    BX640448.1/54535-54616
+#=GS Burkholderia_xenovor.1 AC    CP000270.1/1834738-1834820
+#=GS Burkholderia_phymatu.1 AC    CP001043.1/1962161-1962243
+#=GS Burkholderia_vietnam.1 AC    CP000614.1/1585413-1585495
+#=GS Burkholderia.1         AC    CP000151.1/1635431-1635513
+#=GS Burkholderia_cenocep.1 AC    CP000458.1/1665648-1665730
+#=GS Burkholderia_oklahom.1 AC    ABBG01000184.1/3298-3380
+#=GS Burkholderia_pseudom.1 AC    CP000572.1/1733374-1733456
+#=GS C.necator.1            AC    X91877.1/1118-1200
+#=GS Ralstonia_metallidur.1 AC    CP000352.1/2222325-2222407
+#=GS Ralstonia_eutropha_J.1 AC    CP000090.1/2249994-2250076
+#=GS Polynucleobacter_nec.1 AC    CP000655.1/832933-833015
+#=GS Ralstonia_solanacear.1 AC    AAKL01000042.1/24618-24699
+#=GS Ralstonia_pickettii_.1 AC    ABDZ01000006.1/261374-261456
+#=GS Ralstonia_solanacear.2 AC    AL646052.1/1348533-1348615
+#=GS Acidovorax_citrulli_.1 AC    CP000512.1/3588752-3588834
+#=GS Acidovorax.1           AC    CP000539.1/1894099-1894180
+#=GS Comamonas_testostero.1 AC    AAUJ02000001.1/2879727-2879809
+#=GS Delftia_acidovorans_.1 AC    CP000884.1/3831654-3831736
+#=GS Polaromonas_naphthal.1 AC    CP000529.1/1977317-1977408
+#=GS Polaromonas.1          AC    CP000316.1/2758597-2758688
+#=GS Rhodoferax_ferriredu.1 AC    CP000267.1/2549056-2549148
+#=GS Verminephrobacter_ei.1 AC    CP000542.1/4367052-4367133
+#=GS Methylibium_petrolei.1 AC    CP000555.1/2158977-2159060
+#=GS H.arsenicoxydans.1     AC    CU207211.1/1785482-1785563
+#=GS Janthinobacterium.1    AC    CP000269.1/1701914-1701996
+#=GS metag._sequence.1      AC    AAFX01033646.1/36-119
+#=GS marine_metag.1         AC    AACY023344455.1/854-936
+#=GS marine_metag.2         AC    AACY020300513.1/871-953
+#=GS marine_metag.3         AC    AACY023317617.1/85-166
+#=GS marine_metag.4         AC    AACY023427272.1/893-974
+#=GS marine_metag.5         AC    AACY020173447.1/1452-1533
+#=GS marine_metag.6         AC    AACY021530903.1/682-764
+#=GS marine_metag.7         AC    AACY020696236.1/535-616
+#=GS marine_metag.8         AC    AACY023318756.1/1434-1516
+
+B.bronchiseptica.1                 CUGCUAUCCGCUAAACGGGAAGCCCGUGUCGCGGAAGG..UUUU......
+Burkholderia_xenovor.1             GCGCAAUCCGCUAAACGGUCAGGCCGUGUCGCGGAAGGUUCUGU......
+Burkholderia_phymatu.1             GCGCAAUCCGCUAAACGGUCAGGCCGUGUCGCGGAAGGUUCAGU......
+Burkholderia_vietnam.1             UCGCAAUCCGCUAAACGGUCAGGCCGUGUCGCGGAAGGUUGAGC......
+Burkholderia.1                     UCGCAAUCCGCUAAACGGUCAGGCCGUGUCGCGGAAGGUUGAGU......
+Burkholderia_cenocep.1             UCGCAAUCCGCUAAACGGUCAGGCCGUGUCGCGGAAGGUUGAGU......
+Burkholderia_oklahom.1             GCGCAAUCCGCUAAACGGUCAGGCCGUGUCGCGGAAGGUUGAGC......
+Burkholderia_pseudom.1             GCGCAAUCCGCUAAACGGUCAGGCCGUGUCGCGGAAGGUUGAGU......
+C.necator.1                        UUGCGAUCCGCUAACCGGUCAAGCCGUGUCGCGGAAGGUUGAAU......
+Ralstonia_metallidur.1             UUGCAAUCCGCUAACCGGUCGAGCCGUGUCGCGGAAGGUUGAUG......
+Ralstonia_eutropha_J.1             UUGCGAUCCGCUAACCGGUCAAGCCGUGUCGCGGAAGGUUGAAU......
+Polynucleobacter_nec.1             GAUCAAUUCGUGAAACGGUACAGCCGUGUAACGAAUGGUUAU........
+Ralstonia_solanacear.1             UUGCGAUCCGCUAACCGGUCAAGCCGUGUCGCGGAAGGUUGAUG......
+Ralstonia_pickettii_.1             UUGCGAUCCGCUAACCGGUCAAGCCGUGUCGCGGAAGGUUGAUG......
+Ralstonia_solanacear.2             UUGCGAUCCGCUAACCGGUCAAGCCGUGUCGCGGAAGGUUGAUG......
+Acidovorax_citrulli_.1             UCGC.AUCCGCCAACCGGUUCAGCCGUGUCGCGGAAGGUUUUACC.....
+Acidovorax.1                       UCGC.AUCCGCCAACCGGUUCAGCCGUGACGCGGAAGGUUUGUU......
+Comamonas_testostero.1             UCGC.AUCCGCCAAUCGGUACAGCCGUGUCGCGGGAGGUUCCACA.....
+Delftia_acidovorans_.1             UCGC.AUCCGCCAAUCGGUACAGCCGUGUCGCGGAAGGUUCCACA.....
+Polaromonas_naphthal.1             UCGC.AUCCGCUAAUCGGUUCAGCCGUGUUGCGGAAGGUUAAUUAA.CCA
+Polaromonas.1                      UCGC.AUCCGCUAAUCGGUCCAGCCGUGUUGCGGAAGGUUAAUCAA.CCA
+Rhodoferax_ferriredu.1             UCGC.AUCCGCCAAACGGUCAAGCCGUGACGCGGAAGGUUUUUAAAAACA
+Verminephrobacter_ei.1             UCGC.AUCCGCCAACCGGUCCAGCCGUGUCGCGGAAGGUUUUCC......
+Methylibium_petrolei.1             UCGCAAUCCGCCAACCGGUCCAGCCGUGUCGCGGAAGGUUUUUC......
+H.arsenicoxydans.1                 GUGCAAUCCGCUAAACGGUCAGGCCGUGUCGCGGAAGGUUGAAU......
+Janthinobacterium.1                GUGCAAUCCGCUAACCGGUCAGGCCGUGCCGCGGAAGGUUAAAU......
+metag._sequence.1                  UCGC.AUCCGCCAUCCGGUUCAGCCGUGUCGCGGAAGGUUUCUCA.....
+marine_metag.1                     GAUCAAUUCGCGAAACGGUAUAGCCGCGUAACGAAUGGUUUU........
+marine_metag.2                     UCGC.AUCCGCCAAUCGGUCCAGCCGUGUCGCGGAAGGUUGUUU......
+marine_metag.3                     UCGC.AUCCGCCAACCGGUCCAGCCGUGUCGCGGAAGGUAGUUC......
+marine_metag.4                     UUGCGUUCUGCUAAUCGGUGAAGCCGUGUCGCAGAUGGUUUA........
+marine_metag.5                     UUGCGUUCUGCUAAUCGGUAAAGCCGUGUCGCAGAUGGUUUU........
+marine_metag.6                     GAUCAAUUCGUAAACCGGUUAAGCCGGAGAGCGAAUGGUUUU........
+marine_metag.7                     UCGC.AUCCGCCAACCGGUUCAGCCGUGUCGCGGAAGGUUUCUC......
+marine_metag.8                     GAUCAAUUCGUGAAGCGGUAUAGCCGUAGAGCGGAUGGUUUU........
+#=GC SS_cons                       .<<<..<<<<<....<<<<...>>>>....>>>>>.<<<<..........
+
+B.bronchiseptica.1                 .......CCUGCAUCGUAU.CGAGUGAAG..CACU.CG.UCAAGGUGAAG
+Burkholderia_xenovor.1             .....AACC..CGCUAUU.UCUCGAGAAA..CUCGAAGAAA..GGUGA.G
+Burkholderia_phymatu.1             .....AACC..CGCUAUU.UCUCGAGAAG..CUCGAAGAAA..GGUGA.G
+Burkholderia_vietnam.1             .....AACC..CGCUAUU.UCUCGAGAAG..CUCGAAGAAA..GGUGA.G
+Burkholderia.1                     .....AACC..CGCUAUU.UCUCGAGAAA..CUCGAAGAAA..GGUGA.G
+Burkholderia_cenocep.1             .....AACC..CGCUAUU.UCUCGAGAAG..CUCGAAGAAA..GGUGA.G
+Burkholderia_oklahom.1             .....AACC..CGCUAUU.UCUCGAGAAG..CUCGAAGAAA..GGUGA.G
+Burkholderia_pseudom.1             .....AACC..CGCUAUU.UCUCGAGAAG..CUCGAAGAAA..GGUGA.G
+C.necator.1                        .....AACC..CGCUGAA..CUCCGGCAUUCCCGG.AG.AAU.AGUGA.G
+Ralstonia_metallidur.1             .....AACC..CGCUUAA..CUCCGGCAUUCCCGG.AG.AAU.AGUGA.G
+Ralstonia_eutropha_J.1             .....AACC..CGCUGAA..CUCCGGCAUACCCGG.AG.AAA.AGUGA.G
+Polynucleobacter_nec.1             .....AACCACAGUUUUUA.UUCGGGAAA..CCCG.AU.GAAAGGUGA.G
+Ralstonia_solanacear.1             .....AACC..CGCUGAA..CUCCGGCAGACCCGG.AG.AA..GGUGA.G
+Ralstonia_pickettii_.1             .....AACC..CGCUGAA..CUCCGGCAGACCCGG.AG.AAA.AGUGA.G
+Ralstonia_solanacear.2             .....AACC..CGCUGAA..CUCCGGCAGACCCGG.AG.AAA.GGUGA.G
+Acidovorax_citrulli_.1             .....AACC..AGCUAAU.GCUUCCCGCA..GGGA.AGCGGA.GGUCA.G
+Acidovorax.1                       .....AACC..AGCUAAC.GCUUCCUUCA..GGGA.AGUGGA.GGUCA.G
+Comamonas_testostero.1             .....AACC..AGCUAAU.GCUUUCCGAA..GGAA.AGCGGA.GGUCA.G
+Delftia_acidovorans_.1             .....AACC..AGCUAAU.GCCUCCUUCA..GGGA.GGCUGA.GGUCA.G
+Polaromonas_naphthal.1             GCUUUAACC..AGCUAAU.GUUUCCCAAA..GGGA.AACGGA.GGUCA.G
+Polaromonas.1                      GCUUUAACC..AGCUAAU.GUUUCCCCAA..GGGA.AACGGA.GGUCA.G
+Rhodoferax_ferriredu.1             GCUUUAACC..AGCUCAA.GUUUCCUGCA..GGGA.AACGGA.GGUCA.G
+Verminephrobacter_ei.1             .....AACC..AACUCAU.GCUUUCCGCA..GGAA.AGCGCA.GGUCA.G
+Methylibium_petrolei.1             .....AACC..AGCCAAC.GUCCUGGAUA..CCAG.GGUGAAAGGUGA.G
+H.arsenicoxydans.1                 .....AACC..CGCUAAU..CUCGCGAAG..CGCGAAG.AAA.GGUGA.G
+Janthinobacterium.1                ....UAACC..CGCUAAU..CUCGCGAAA..CGCGAAG.AAA.GGUGA.G
+metag._sequence.1                  .....AACC..AGCCAAU.GCCUCCCGCA..GGGA.GGCGGAAAGUAU.G
+marine_metag.1                     .....AACCACAGUUUUUA.AUCGGGAAA..CCCG.AU.GAAAGGUGA.G
+marine_metag.2                     .....AACC.AGUUCAAA.GUUUCCUGCA..GGGA.AACGGA.GGUCA.G
+marine_metag.3                     .....AACC..AACUAAU.GUUCCCUGAA..GGGG.AGCGAA.GGUCA.G
+marine_metag.4                     .....AACCACAGUUU...UUUUCGGGAUACCCGAUGAAA...GGUGA.G
+marine_metag.5                     .....AACCACAGUUU...UUUUCGGGAUACCCGAUGAAA...GGUGA.G
+marine_metag.6                     .....AACCACAGUUUUUA.UUCGGGAAA..CCCG.AU.GAAAGGUGA.G
+marine_metag.7                     .....AACC..AGCUAAU.GCUUUCCCAA..GGAA.AGCGGA.GGUCA.G
+marine_metag.8                     .....AACCACAGUUUUUA.AUCGGGAAA..CCCG.AU.GAAAGGUGA.G
+#=GC SS_cons                       .....>>>>..<<<<....<<<<<<<.....>>>>.>>>....>>>>..>
+
+B.bronchiseptica.1                 CG
+Burkholderia_xenovor.1             CG
+Burkholderia_phymatu.1             CG
+Burkholderia_vietnam.1             CG
+Burkholderia.1                     CG
+Burkholderia_cenocep.1             CG
+Burkholderia_oklahom.1             CG
+Burkholderia_pseudom.1             CG
+C.necator.1                        CG
+Ralstonia_metallidur.1             CG
+Ralstonia_eutropha_J.1             CG
+Polynucleobacter_nec.1             CA
+Ralstonia_solanacear.1             CG
+Ralstonia_pickettii_.1             CG
+Ralstonia_solanacear.2             CG
+Acidovorax_citrulli_.1             CG
+Acidovorax.1                       CG
+Comamonas_testostero.1             CG
+Delftia_acidovorans_.1             CG
+Polaromonas_naphthal.1             CG
+Polaromonas.1                      CG
+Rhodoferax_ferriredu.1             CG
+Verminephrobacter_ei.1             CG
+Methylibium_petrolei.1             CG
+H.arsenicoxydans.1                 CA
+Janthinobacterium.1                CA
+metag._sequence.1                  CG
+marine_metag.1                     CA
+marine_metag.2                     CG
+marine_metag.3                     CG
+marine_metag.4                     CA
+marine_metag.5                     CA
+marine_metag.6                     CA
+marine_metag.7                     CG
+marine_metag.8                     CA
+#=GC SS_cons                       >>
+//

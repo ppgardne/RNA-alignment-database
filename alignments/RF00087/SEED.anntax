@@ -1,0 +1,96 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORD26
+#=GF AC    RF00087
+#=GF DE    Small nucleolar RNA SNORD26
+#=GF AU    Griffiths-Jones SR
+#=GF GA    22.0
+#=GF NC    21.4
+#=GF TC    22.8
+#=GF PI    U26
+#=GF SE    Griffiths-Jones SR, INFERNAL
+#=GF SS    Predicted; PFOLD; Griffiths-Jones SR
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Mus_musculus300710
+#=GF DR    snoopy; Oryctolagus_cuniculus300341
+#=GF RN    [1]
+#=GF RM    8559254
+#=GF RT    A mammalian gene with introns instead of exons generating stable RNA
+#=GF RT    products.
+#=GF RA    Tycowski KT, Shu MD, Steitz JA;
+#=GF RL    Nature 1996;379:464-466.
+#=GF RN    [2]
+#=GF RM    8962077
+#=GF RT    A small nucleolar RNA requirement for site-specific ribose
+#=GF RT    methylation of rRNA in Xenopus.
+#=GF RA    Tycowski KT, Smith CM, Shu MD, Steitz JA;
+#=GF RL    Proc Natl Acad Sci U S A 1996;93:14480-14485.
+#=GF CC    U26 is a member of the C/D class of snoRNA which contain the
+#=GF CC    C (UGAUGA) and D (CUGA) box motifs.  U26 is encoded within the 
+#=GF CC    U22 snoRNA host gene (UHG) in mammals [1] and is thought to act 
+#=GF CC    as a 2'-O-ribose methylation guide for ribosomal RNA.  
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_SNORD26
+#=GF SQ    17
+
+#=GS X.laevis.1             AC    U72856.1/1-73
+#=GS X.laevis.2             AC    U72857.1/1-72
+#=GS A.carolinensis.1       AC    AAWZ01042849.1/2111-2185
+#=GS O.cuniculus.1          AC    AAGW01079383.1/281-354
+#=GS M.musculus.1           AC    U40654.1/922-996
+#=GS R.norvegicus.1         AC    AAHX01009401.1/26618-26692
+#=GS Spermophilus_tridece.1 AC    AAQQ01114995.1/2785-2859
+#=GS M.mulatta.1            AC    AANU01214137.1/3030-3103
+#=GS H.sapiens.1            AC    U40580.1/1015-1089
+#=GS P.troglodytes.1        AC    AADA01100603.1/10415-10491
+#=GS M.murinus.1            AC    ABDC01493902.1/1712-1788
+#=GS Otolemur_garnettii_s.1 AC    AAQR01443282.1/456-531
+#=GS C.lupus.1              AC    AAEX02030073.1/88494-88569
+#=GS F.catus.1              AC    AANG01067642.1/1362-1437
+#=GS B.taurus.1             AC    AAFC03036502.1/32141-32216
+#=GS M.lucifugus.1          AC    AAPE01449351.1/1412-1483
+#=GS E.caballus.1           AC    AAWR02037725.1/18278-18353
+
+X.laevis.1                         CCGCACUGAUGAUACCUA....UGAACUCUCUCUUACUGAGCUUCCAGUG
+X.laevis.2                         CUGCACUGAUGAUACCUA....UGAACUCUCUCUUACUGAGCUUCCAGUG
+A.carolinensis.1                   CUACAGAGAUGAGAAACA....UGAACUCUCUCUUUCUGAAGCUUCAGUG
+O.cuniculus.1                      CUACGGGGAUGAUUGCGACACUUGAACUCUCUCUUGCUGAGGGGCUAGUG
+M.musculus.1                       CUACGGGGAUGAUAUGAA.AACUGAACUCUCUCUUUCUGAUGGUUUAGUG
+R.norvegicus.1                     CUACGGGGAUGAUUUAGA.AGCUGAACUCUCUCUUUCUGAUGGUUUAGUG
+Spermophilus_tridece.1             CUACAGGGAUGAUUUACG.AUUUGAACUCUCUCUUUCUGAUGGUUUAGUG
+M.mulatta.1                        CUACGGGGAUGAUUUUACAAACUGAACUCUCUCUUUCUGAUGGAUUAGUG
+H.sapiens.1                        CUACGGGGAUGAUUUUACGAACUGAACUCUCUCUUUCUGAUGGAUUAGUG
+P.troglodytes.1                    CUACGGGGAUGAUUUUACGAACUGAACUCUCUCUUUCUGAUGGAUUAGUG
+M.murinus.1                        CUACGGUGAUGAUUUUAAGAAUUGAACUCUCUCUUUCUGAUGAAUUAAUG
+Otolemur_garnettii_s.1             CUACGGUGAUGAUUUUAAAAACUGAGCUCUCUCUUGCUGAUGUGUUAGUG
+C.lupus.1                          CUACGGGGAUGAUACUAGGAAUUGAACUCUCUCUUUCUGAUGGGUUGGUG
+F.catus.1                          CUACGGGGAUGAUACUAAGGAUUGAACUCUCUCUUUCUGAUGGAGUAGUG
+B.taurus.1                         CUACGGGGAUGAUUUCAAAAACUGAACUCUCUCUUUCUGAUGGAUUAGUG
+M.lucifugus.1                      CUACGGGGAUGAUAAAAA...CUGAACUCUCUCUUUCUGAUGGAUUGGUG
+E.caballus.1                       CUACGGGGAUGAUUUCAAGCACUGAACUCUCUCUUUCUGAUGGCUUAGUG
+#=GC SS_cons                       <<<<..............................................
+#=GC RF                            CuaCaggGAUGAUAuuaA.AAcUGAACUCUCUCUUaCUGAugguuuAGUG
+
+X.laevis.1                         GAGACAAGACUUU..AUAAUCUGAGUGGC
+X.laevis.2                         GAGACA.GACUUU..AUAAUCUGAGUUGC
+A.carolinensis.1                   GAGAAAAACAUUAGCAGAUUCUGAGUAGC
+O.cuniculus.1                      GAGAAAAUGCAAA..UU...CUGAGCAGC
+M.musculus.1                       GAGAAAACAAAAA..UUC.UCUGAGUAGC
+R.norvegicus.1                     GAGAAAUCAAAAA..UAC.UCUGAGUAGC
+Spermophilus_tridece.1             GAGAAAAUGUAAA..AGU.UCUGAGUAGC
+M.mulatta.1                        GAGAAAACAAAAA..UU...CUGAGUAGC
+H.sapiens.1                        GAGAAAACAGAAA..AU..UCUGAGUAGC
+P.troglodytes.1                    GAGAAAACACAGA..AAAUUCUGAGUAGC
+M.murinus.1                        GAGAAAGCACAAA..AAAUUCUGAGUAGC
+Otolemur_garnettii_s.1             GAGAAA.GCGUAA..AAAUUCUGAGUAGU
+C.lupus.1                          GAGAAA.AUGUAA..AGAUUCUGAGUAGC
+F.catus.1                          GAGAAAGCCUAAG..AGU.UCUGAGUAGC
+B.taurus.1                         GAGAAAACAUAAA..AAC.UCUGAGUAGC
+M.lucifugus.1                      GAGAAGUGUAUAC..AU..UCUGAGUAGC
+E.caballus.1                       GAGAAAACGUAAA..AAC.UCUGAGUAGC
+#=GC SS_cons                       ........................>>>>.
+#=GC RF                            GAGAaAAgAaaaa..AUaAUCUGAGuaGC
+//

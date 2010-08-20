@@ -1,0 +1,64 @@
+# STOCKHOLM 1.0
+#=GF ID    REN-SRE
+#=GF AC    RF00180
+#=GF DE    Renin stability regulatory element (REN-SRE)
+#=GF AU    Moxon SJ
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    23.6
+#=GF SE    PMID:12933794
+#=GF SS    Published; PMID:12933794
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000205 SO:three_prime_UTR
+#=GF RN    [1]
+#=GF RM    12933794
+#=GF RT    HADHB, HuR, and CP1 Bind to the Distal 3'-Untranslated Region of
+#=GF RT    Human Renin mRNA and Differentially Modulate Renin Expression.
+#=GF RA    Adams DJ, Beveridge DJ, Van Der Weyden L, Mangs H, Leedman PJ, Morris
+#=GF RA    BJ;
+#=GF RL    J Biol Chem 2003;278:44894-44903.
+#=GF CC    This family represents a cis-acting element in the 3'-UTR of the
+#=GF CC    renin (REN) gene called renin stability regulatory element (REN-SRE) which
+#=GF CC    acts to regulate renin production. REN-SRE is thought to destabilise the
+#=GF CC    mRNA, promoting degradation of the sequence. It has been found that a
+#=GF CC    number of proteins bind to the REN-SRE to stabilise the mRNA and promote
+#=GF CC    translation.
+#=GF CC    Renin is secreted by renal juxtaglomerular cells and catalyses
+#=GF CC    the conversion of angiotensinogen into angiotensin I which is the
+#=GF CC    rate-limiting step in the production of angiotensin II. Angiotensin II
+#=GF CC    induces hypertension and REN therefore requires tight control to ensure
+#=GF CC    expression appropriate to need [1].
+#=GF WK    http://en.wikipedia.org/wiki/Renin_stability_regulatory_element_(REN-SRE)
+#=GF SQ    13
+
+#=GS M.musculus.1    AC    BC011157.1/1366-1401
+#=GS M.musculus.2    AC    M32352.1/10852-10887
+#=GS M.musculus.3    AC    BC011473.1/1364-1399
+#=GS R.norvegicus.1  AC    M37278.1/12220-12256
+#=GS R.norvegicus.2  AC    J02941.1/1579-1615
+#=GS R.norvegicus.3  AC    X07033.1/1395-1431
+#=GS H.sapiens.1     AC    X00063.1/1061-1096
+#=GS H.sapiens.2     AC    L00073.1/390-426
+#=GS H.sapiens.3     AC    M10152.1/338-374
+#=GS H.sapiens.4     AC    M26901.1/338-374
+#=GS H.sapiens.5     AC    BC047752.1/1408-1444
+#=GS P.troglodytes.1 AC    AF193456.1/318-354
+#=GS O.aries.1       AC    L43524.1/1381-1415
+
+M.musculus.1                .UGCUUUAAGGAAAAACCGAAUAAAGAUUUCAUGUUU
+M.musculus.2                .UGCUUUAAGGAAAAACCGAAUAAAGAUUUCAUGUUU
+M.musculus.3                .UGCUUUAAGGAAAAACCGAAUAAAGAUUUCAUGUUU
+R.norvegicus.1              CUGCUUUAGGGAAAAACAGAAUAAAGACUGCAUGUUU
+R.norvegicus.2              CUGCUUUGAGGAAAAACAGAAUAAAGACUGCAUGUUU
+R.norvegicus.3              CUGCUUUGAGGAAAAACAGAAUAAAGACUGCAUGUUU
+H.sapiens.1                 CUGCUUUGAGGACAAAGAGAAUAAAGACUUCAUGUU.
+H.sapiens.2                 CUGCUUUGAGGACAAAGAGAAUAAAGACUUCAUGUUC
+H.sapiens.3                 CUGCUUUGAGGACAAAGAGAAUAAAGACUUCAUGUUC
+H.sapiens.4                 CUGCUUUGAGGACAAAGAGAAUAAAGACUUCAUGUUC
+H.sapiens.5                 CUGCUUUGAGGACAAAGAGAAUAAAGACUUCAUGUUC
+P.troglodytes.1             CUGCUUUGAGGACAAAGAGAAUAAAGACUUCAUGUUC
+O.aries.1                   .UUCUUUGAGGACCA.CAAAAUAAAGACUUCAUGUUU
+#=GC SS_cons                <<.<<<<......>>>>>>..................
+//

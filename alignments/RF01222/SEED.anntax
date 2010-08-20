@@ -1,0 +1,42 @@
+# STOCKHOLM 1.0
+#=GF ID    sn2417
+#=GF AC    RF01222
+#=GF DE    Small nucleolar RNA sn2417
+#=GF AU    Wilkinson A
+#=GF GA    80.0
+#=GF NC    23.6
+#=GF TC    108.8
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    URL; http://snoopy.med.miyazaki-u.ac.jp/view.cgi?id=CEL30011
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF WK    http://en.wikipedia.org/wiki/SnoRNA
+#=GF SQ    3
+
+#=GS C.brenneri.1 AC    ABEG01001728.1/36270-36391
+#=GS C.briggsae.1 AC    DQ789410.1/2-123
+#=GS C.elegans.1  AC    AY948656.1/6-128
+
+C.brenneri.1             GAGGAGUUGAUGAAAACUCUAAUCCAUUCUCUGAGCGAGAAGGAUGGCCG
+C.briggsae.1             GAGGAGUUGAUGAGAACUCUAAUCCAUUCUCUGAGCGAGAAGGAUGGCCA
+C.elegans.1              GAGGAGUUGAUGAGAACUCUAAUCCAUUCUCUGAGCGAGAAGGAUGGCCG
+#=GC SS_cons             ..<<..............................................
+#=GC RF                  GAGGAGUUGAUGAGAACUCUAAUCCAUUCUCUGAGCGAGAAGGAUGGCCG
+
+C.brenneri.1             AAGCGGGCUCGCAUUAGAGGCAU.AAGGUAGACGACAGAGUUCUUCUGAA
+C.briggsae.1             AAGCGGGUUCGCAUUGAAGGC.UUAAGGUAGACGAAAGAGUUCUUCUGAC
+C.elegans.1              AAGCGGGUUCGCAUUUGAGGCAUUAAGGUAGACGACAGAGUUCUUCUGGA
+#=GC SS_cons             ..................................................
+#=GC RF                  AAGCGGGUUCGCAUUUGAGGCAUUAAGGUAGACGACAGAGUUCUUCUGGA
+
+C.brenneri.1             GACUACUGCCUCGCGCUGAAACC
+C.briggsae.1             GACUACUGCCUUGCGCUGAAGCC
+C.elegans.1              AACUACUGCCUCGCGCUGACGUC
+#=GC SS_cons             .....................>>
+#=GC RF                  AACUACUGCCUCGCGCUGACGUC
+//

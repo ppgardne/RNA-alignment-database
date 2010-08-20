@@ -1,0 +1,93 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORD72
+#=GF AC    RF00577
+#=GF DE    Small nucleolar RNA SNORD72
+#=GF AU    Marantidis E.
+#=GF GA    38.0
+#=GF NC    29.7
+#=GF TC    42.7
+#=GF PI    snoHBII-240
+#=GF SE    Marantidis E, INFERNAL
+#=GF SS    Predicted; RNAalifold_manual; Daub J
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Mus_musculus300852
+#=GF DR    snoopy; Gasterosteus_aculeatus300131
+#=GF RN    [1]
+#=GF RM    11387227
+#=GF RT    RNomics: an experimental approach that identifies 201 candidates for
+#=GF RT    novel, small, non-messenger RNAs in mouse.
+#=GF RA    Huttenhofer A, Kiefmann M, Meier-Ewert S, O'Brien J, Lehrach H,
+#=GF RA    Bachellerie JP, Brosius J;
+#=GF RL    EMBO J. 2001;20:2943-2953.
+#=GF RN    [2]
+#=GF RM    16381836
+#=GF RT    snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D box
+#=GF RT    snoRNAs.
+#=GF RA    Lestrade L, Weber MJ;
+#=GF RL    Nucleic Acids Res. 2006;34:D158-D162.
+#=GF CC    snoRNA HBII-240 belongs to the CD family of snoRNAs. It is the
+#=GF CC    human orthologue of the mouse MBII-240 and is predicted to guide
+#=GF CC    2'O-ribose methylation of the large 28S rRNA at residue U4590.
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_SNORD72
+#=GF SQ    16
+
+#=GS Gasterosteus_aculeat.1 AC    AANH01004731.1/3925-4003
+#=GS G.gallus.1             AC    AADN02052362.1/4577-4656
+#=GS L.africana.1           AC    AAGU02880785.1/845-924
+#=GS E.telfairi.1           AC    AAIY01747932.1/617-696
+#=GS M.musculus.1           AC    AC135079.9/151906-151986
+#=GS R.norvegicus.1         AC    AAHX01013454.1/14613-14692
+#=GS Spermophilus_tridece.1 AC    AAQQ01294809.1/310-389
+#=GS Macaca_fascicularis_.1 AC    AB168634.1/2269-2348
+#=GS H.sapiens.1            AC    AK124098.1/2478-2557
+#=GS M.murinus.1            AC    ABDC01624612.1/532-609
+#=GS Otolemur_garnettii_s.1 AC    AAQR01251644.1/8673-8753
+#=GS C.lupus.1              AC    AACN010405140.1/739-818
+#=GS B.taurus.1             AC    AAFC03009010.1/3701-3782
+#=GS M.lucifugus.1          AC    AAPE01518232.1/490-569
+#=GS E.caballus.1           AC    AAWR02016450.1/68382-68461
+#=GS Monodelphis_domestic.1 AC    AAFR03031361.1/8719-8798
+
+Gasterosteus_aculeat.1             UGCUUACCAAUGAUGCUG.AAAAA..UAAAUGUCUGAACAAAUGAUUU.C
+G.gallus.1                         AGCUUGUCAAUGAUGUUUCUUACU..AAAAUGUCUGAACAUAUGAACU.U
+L.africana.1                       AGCUUAUCAGUGAUGUCAUAAAAA..UAAAUGUCUGAACAUAUGAAUA.C
+E.telfairi.1                       AGCUUAUCGGUGAUGUUGUAAAAA..UAAAUGUCUGAACAUAUGAGUA.C
+M.musculus.1                       AGCUUAUCAAUGAUGUCCUAAAAAA.UAAAUGUCUGAACAUAUGACUG.C
+R.norvegicus.1                     AGCUUAUCGAUGAUGUCCUAAAAG..UAAAUGUCUGAACAUAUGAAUG.C
+Spermophilus_tridece.1             AGCUUAUCGGUGAUGUUGUACAAA..UAAAUGUCUGAACAUAUGAAUG.C
+Macaca_fascicularis_.1             AGCUUAUCAGUGAUGUUGUAAAAA..UAAAUGUCUGAACAUAUGAAUG.C
+H.sapiens.1                        AGCUUAUCAGUGAUGUUGUAAAAA..UAAAUGUCUGAACAUAUGAAUG.C
+M.murinus.1                        AGCUUAUCAGUGAUGUUGUAAAAA..UAAAUGUCUGAACAUAUGAAUA.A
+Otolemur_garnettii_s.1             CUAUUAUCAGUGAUGUUGUAAAAA..UAAAUGUCUGAGCAUAUGAAUUAC
+C.lupus.1                          AGCUUAUCAAUGAUGUUGUAAAAA..UAAAUGUCUGAACAUAUGAAUU.U
+B.taurus.1                         AGCUUAUCGGUGAUGUUCUAAAAAAAUAAAUGUCUGAACUUAUGAAUU.C
+M.lucifugus.1                      AGCUUAUCAGUGAUGCUGUACAAA..UAAAUGUCUGAACAUAUGAAUU.C
+E.caballus.1                       AGCUUAUCUGUGAUGUUGUAAAGA..UAAAUGUCUGAACAUAUGAAUU.C
+Monodelphis_domestic.1             AGCUUGUCAGUGAUGUACUUUGAAA.AAAAUGUCUGAACAUAUGAAUU..
+#=GC SS_cons                       .<<<<<<<..........................................
+#=GC RF                            AGCuuauCagUGAUGUugUAAAAA..UAAAUGUCUGAACAUAUGAAUa.c
+
+Gasterosteus_aculeat.1             UAUA.UGAUAUCAACAUUUUCUCUGAGGUAAGCU
+G.gallus.1                         CAUAGUGAUUUCAGUGCAUUA.CUGAGAUAAGCU
+L.africana.1                       AAUACUGAUUUCAGCAUUUGC.CUGAGAUAAGCU
+E.telfairi.1                       AAUAAUGAUUUCAGCAUCAAA.CUGAGAUGAGCU
+M.musculus.1                       UAUAAUGAUUUCAGCAUUUAA.CUGAGAUAAGCU
+R.norvegicus.1                     UAUACUGAUUUCAGCAUUUAA.CUGAGAUAAGCU
+Spermophilus_tridece.1             AAUAAUGAUUUCAGCAUUUAA.CUGAGAUAAGCU
+Macaca_fascicularis_.1             AGUACUGAUUUCAGCAUUUAA.CUGAGAUAAGCG
+H.sapiens.1                        AGUAUUGAUUUCAGCAUUUAA.CUGAGAUAAGCG
+M.murinus.1                        CAU..UGAUUUCAGCAUUUAA.CUGAGAUAAGCU
+Otolemur_garnettii_s.1             CAUAUUGAUUUCAGCAGUAGA.CUGAGAUUAAAA
+C.lupus.1                          GAUACUGAUUUCAGCAUUUAA.CUGAGAUAAGCU
+B.taurus.1                         AAUAUUGAUUUCAUCAUCUAA.CUGAGAUAAGCU
+M.lucifugus.1                      AAUAUUGAUUUCAACAUAUAA.CUGAGAUAAGCU
+E.caballus.1                       GAUACUGAUUUCAGCAUUUAA.CUGAGAUAAGCU
+Monodelphis_domestic.1             AAUAGUGAUUUCAGCAUUUAA.CUGAGAUGAGCU
+#=GC SS_cons                       ..........................>>>>>>>.
+#=GC RF                            AAUAaUGAUUUCAgCAUuUAA.CUGAGauaaGCU
+//

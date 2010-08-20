@@ -1,0 +1,72 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-150
+#=GF AC    RF00767
+#=GF DE    microRNA mir-150
+#=GF AU    Wilkinson A
+#=GF GA    25.0
+#=GF NC    23.6
+#=GF TC    27.7
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000197
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    15
+
+#=GS Gasterosteus_aculeat.1 AC    AANH01011205.1/15427-15513
+#=GS O.princeps.1           AC    AAYZ01332954.1/31-116
+#=GS R.norvegicus.1         AC    AABR04002127.1/8149-8233
+#=GS Spermophilus_tridece.1 AC    AAQQ01016809.1/78-162
+#=GS H.sapiens.1            AC    AC010619.7/87956-88039
+#=GS M.murinus.1            AC    ABDC01415302.1/6591-6674
+#=GS T.belangeri.1          AC    AAPY01553607.1/1213-1296
+#=GS C.lupus.1              AC    AACN010859833.1/16-100
+#=GS F.catus.1              AC    AANG01189373.1/783-867
+#=GS B.taurus.1             AC    AAFC03061346.1/17848-17932
+#=GS M.lucifugus.1          AC    AAPE01604113.1/5180-5260
+#=GS S.araneus.1            AC    AALT01365871.1/7792-7873
+#=GS E.caballus.1           AC    AAWR02030682.1/18885-18969
+#=GS Monodelphis_domestic.1 AC    AAFR03057352.1/4345-4428
+#=GS O.anatinus.1           AC    AAPN01015410.1/1836-1922
+
+Gasterosteus_aculeat.1             UUCCUUGGUCUGGUCACUCCCAAUCCUUGUACCAGUGUCGUUACCACGGU
+O.princeps.1                       CUCCUCACGGCCCUGUCUCCCAACCCUCGUACCAGUGUUG.CACAAUAG.
+R.norvegicus.1                     CUUCUCAAGGCCCUGUCUCCCAACCCUUGUACCAGUGCUG.UGCCUCAG.
+Spermophilus_tridece.1             UUCCUCAAGGCCCUGUCUCCCAACCCUUGUACCAGUGCUG.UGCCUUAG.
+H.sapiens.1                        CUCCCCAUGGCCCUGUCUCCCAACCCUUGUACCAGUGCUG.GGC.UCAG.
+M.murinus.1                        CUCCUCAUGGCCCUGUCUCCCAACCCUUGUACCAGUGCUG.CCC.UCAG.
+T.belangeri.1                      CUGCCCUCGUCCCCGUCUCCCAACCCUCGUACCAGGGCCA.UGC.UCAG.
+C.lupus.1                          CUCCUCUCGGCCCUGUCUCCCAACCCUUGUACCAGUGCUG.UGCCUCAG.
+F.catus.1                          CUCCUCACGGCCCUGUCUCCCAACCCUUGUACCAGUGCUG.UGGCUCAG.
+B.taurus.1                         CUCCUCACGGCCCUGUCUCCCAACCCUUGUACCAGUG.UG.UGUCUCAG.
+M.lucifugus.1                      CUCCUCAAGGCCCCGUCUCCCAAC.CCUGUACCAUGG.UG.UGC..CAG.
+S.araneus.1                        CUCCUCAGGGCCCUGUCUCCCAACCCUUGUACCAGCGCU...GCCA.AG.
+E.caballus.1                       CUCCCCACGGCCCUGUCUCCCAACCCUUGUACCAGUGCUG.UGCCUCGG.
+Monodelphis_domestic.1             CCCUCCGGGGCCCCUUCUCCCAACCCUUGUACCAGAG.UC.CAUCAGAG.
+O.anatinus.1                       CCCCUCGGCGCCCCCUCUCCCAACCCUUGUACCAGAGCAU.AAACUGAA.
+#=GC SS_cons                       .<<<<<<.<.<<<<<<<<<<<<...<<<<<<<<<<.<<<<......>>>.
+#=GC RF                            ccccccgaggccccgccccccaAcccccguaccaGagcug.aaaaacag.
+
+Gasterosteus_aculeat.1             GACGCUGG.ACAGGUU..UGGGG.G.GGGCUGUGCCAAGGAC
+O.princeps.1                       .ACACUGGUACAGGAU..UGGGG.GCUCAGGGACCUGGGGAC
+R.norvegicus.1                     .ACCCUGGUACAGGCC..UGGGG.G.ACAGGGACUUGGGGAC
+Spermophilus_tridece.1             .ACCCUGGUACAGGUC..UGGGG.G.UCAGGGACCUGUGGAC
+H.sapiens.1                        .ACCCUGGUACAGGCC..UGGGG.G.ACAGGGACCUGGGGAC
+M.murinus.1                        .ACCCUGGUACGGGCG..UGGGG.G.GCAGGGACCUGGGGAC
+T.belangeri.1                      .ACCCUGGUGCAGGGA..UGGGG.G.GCAGGGCCGUGGGGAC
+C.lupus.1                          UACCCUGGUACAGGCA..UGGGG.G.GCAGGGACU.GGGGAC
+F.catus.1                          .UCCCUGGUACAGGUA..UGGGG.G.GCAGGGACGUGUGGAC
+B.taurus.1                         .ACCCUGGUACAGGUA..CGGGGAG.GCAGGGACCUGGGGGA
+M.lucifugus.1                      .UCCCUGGUACAGGCA..UGGGG.G.GCAGGGACCUGGGGAC
+S.araneus.1                        .UUGCUGGUACAGGUU..UGGGG.G.GCAGGGACCUGGGGAC
+E.caballus.1                       .UCCCUGGUACAGGCA..UGGGG.G.GCAGGGACCUGGGGGC
+Monodelphis_domestic.1             .ACCC.GGUACGGGCU.GUGGGG.G.ACGGGGAGUCGGGGCU
+O.anatinus.1                       .CCCCUGGUACGGGGCCGUGGGA.G.AGGGGGAGCCGGGGCC
+#=GC SS_cons                       ..>.>>>>>>>>>>....>>>>>.>.>>>>>>.>.>>>>>>.
+#=GC RF                            .acaCugguacgggaa..ugggg.g.gcggggAcacggggga
+//

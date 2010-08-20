@@ -1,0 +1,26 @@
+# STOCKHOLM 1.0
+#=GF ID    CRISPR-DR65
+#=GF AC    RF01378
+#=GF DE    CRISPR RNA direct repeat element
+#=GF AU    Wilkinson A
+#=GF GA    43.0
+#=GF NC    28.5
+#=GF TC    51.3
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; CRISPR;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    URL; http://crispr.u-psud.fr/crispr/CRISPRHomePage.php
+#=GF DR    SO:0001459 SO:CRISPR
+#=GF WK    http://en.wikipedia.org/wiki/CRISPR
+#=GF SQ    2
+
+#=GS Methanococcus_aeolic.1 AC    CP000743.1/48406-48442
+#=GS M.vannielii.1          AC    CP000742.1/270079-270115
+
+Methanococcus_aeolic.1             AUUUCAAAGCUUGUUUUAGUGCAUUAUGCUAUUUUAC
+M.vannielii.1                      GUUUCAAUGCUUGUUCUAAUGCAUUAUGCUCUUUUAC
+#=GC SS_cons                       .....<<.<<.<<<......>>>....>>..>>....
+#=GC RF                            RUUUCAAWGCUUGUUYUARUGCAUUAUGCUMUUUUAC
+//

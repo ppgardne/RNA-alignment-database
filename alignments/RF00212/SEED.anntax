@@ -1,0 +1,67 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORD38
+#=GF AC    RF00212
+#=GF DE    Small nucleolar RNA SNORD38
+#=GF AU    Griffiths-Jones SR
+#=GF GA    34.0
+#=GF NC    32.1
+#=GF TC    34.2
+#=GF PI    U38
+#=GF SE    Griffiths-Jones SR
+#=GF SS    Predicted; PFOLD, Griffiths-Jones SR
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Mus_musculus300955
+#=GF DR    snoopy; Homo_sapiens300161
+#=GF RN    [1]
+#=GF RM    8764399
+#=GF RT    Intron-encoded, antisense small nucleolar RNAs: the characterization
+#=GF RT    of nine novel species points to their direct role as guides for the
+#=GF RT    2'-O-ribose methylation of rRNAs.
+#=GF RA    Nicoloso M, Qu LH, Michot B, Bachellerie JP;
+#=GF RL    J Mol Biol 1996;260:178-195.
+#=GF RN    [2]
+#=GF RM    11387227
+#=GF RT    RNomics: an experimental approach that identifies 201 candidates for
+#=GF RT    novel, small, non-messenger RNAs in mouse.
+#=GF RA    Huttenhofer A, Kiefmann M, Meier-Ewert S, O'Brien J, Lehrach H,
+#=GF RA    Bachellerie JP, Brosius J;
+#=GF RL    EMBO J 2001;20:2943-2953.
+#=GF CC    U38 is a member of the C/D class of snoRNA which contain the
+#=GF CC    C (UGAUGA) and D (CUGA) box motifs.  U38 is located in introns 4 and
+#=GF CC    5 of ribosomal protein S8 in human and in homologous genes in 
+#=GF CC    mouse and cow [1].  U38 guides the methylation of 2'-O-ribose 
+#=GF CC    residues in 28S rRNA.  Mouse MBII-329 snoRNA is homologous to U38 [2].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_SNORD38
+#=GF SQ    7
+
+#=GS M.musculus.1 AC    AF357365.1/1-59
+#=GS M.musculus.2 AC    X94603.1/205-273
+#=GS H.sapiens.1  AC    X67247.1/3039-3107
+#=GS H.sapiens.2  AC    X97583.1/1-69
+#=GS H.sapiens.3  AC    X97582.1/2-71
+#=GS H.sapiens.4  AC    X67247.1/2492-2561
+#=GS B.taurus.1   AC    AF270686.1/237-307
+
+M.musculus.1             .........UGAAAAUACUGUCCAGUUCUGCUACUGA..AGGAAUGAGAU
+M.musculus.2             UCUCGGUGAUGAGAACUUUGUCCAGUUCUGCUGCUGA.UCUCUAAGUGAG
+H.sapiens.1              UCUCAGUGAUGAAAACUUUGUCCAGUUCUGCUACUGA..CAGUAAGUGAA
+H.sapiens.2              UCUCAGUGAUGAAAACUUUGUCCAGUUCUGCUACUGA..CAGUAAGUGAA
+H.sapiens.3              UCUC.GUGAUGAAAACUCUGUCCAGUUCUGCUACUGA.AGGGAGAGAGAU
+H.sapiens.4              UCUC.GUGAUGAAAACUCUGUCCAGUUCUGCUACUGA.AGGGAGAGAGAU
+B.taurus.1               UCUCAGUGAUGAAAACUUUGUCCAGUUCUGCUACUGAUUUUCAAAGUGAU
+#=GC SS_cons             <<<<..................<<<<......>>>>..............
+
+M.musculus.1             GAACA..CUUUAGUGCUGAAGA..
+M.musculus.2             GAUGA..AGU.UAU.CUGAGGAGA
+H.sapiens.1              GAUAA..AGUGUGU.CUGAGGAGA
+H.sapiens.2              GAUAA..AGUGUGU.CUGAGGAGA
+H.sapiens.3              GAGAGCCUUUUAGG.CUGAGGA.A
+H.sapiens.4              GAGAGCCUUUUAGG.CUGAGGA.A
+B.taurus.1               GAUAA..AGUAUAU.CUGAGGAGA
+#=GC SS_cons             ....................>>>>
+//

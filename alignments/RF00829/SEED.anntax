@@ -1,0 +1,36 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-149
+#=GF AC    RF00829
+#=GF DE    microRNA mir-149
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    72.5
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000274
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    3
+
+#=GS M.musculus.1 AC    CAAA01040434.1/8817-8905
+#=GS M.mulatta.1  AC    AANU01125201.1/15585-15673
+#=GS B.taurus.1   AC    AAFC03011974.1/2395-2483
+
+M.musculus.1             GCCAGUGCCCAGGCUCUGGCUCCGUGUCUUCACUCCCGUGUUUGUCCGAG
+M.mulatta.1              GCCGGCGCCCAAGCUCUGGCUCCGUGUCUUCACUCCCGUGUUUGUCCGAG
+B.taurus.1               GCCGGCGCCCAGGCUCUGGCUCCGUGUCUUCACUCCCGUGUGUGUCCACC
+#=GC SS_cons             .<<<<<<<<<.<<<.<.<.<<<<<<.<<<<<.<<<<<.<.<<<....>>>
+#=GC RF                  gccggcgcccAagcucuggccccgugccuccAcucccgugcucguaagag
+
+M.musculus.1             GAGGGAGGGAGGGACGGGGGCGGUGCUGGGGCAACUGGA
+M.mulatta.1              GAGGGAGGGAGGGACGGGGGCUGUGCUGGGGCAGCCGGA
+B.taurus.1               GAGGGAGGGAGGGACGGGGGCUGUGCUGGGGCGGCCGGG
+#=GC SS_cons             .>>>>>>>>>>>.>>>>>>.>.>.>>>.>>>>.>>>>>.
+#=GC RF                  gagggagggagggacgggggcugugcuggggcAgccggA
+//

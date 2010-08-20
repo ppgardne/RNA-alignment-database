@@ -1,0 +1,44 @@
+# STOCKHOLM 1.0
+#=GF ID    isrD
+#=GF AC    RF01388
+#=GF DE    isrD Hfq binding RNA
+#=GF AU    Daub J, Gardner PP
+#=GF GA    35.0
+#=GF NC    23.2
+#=GF TC    54.7
+#=GF SE    Predicted; WAR; Infernal
+#=GF SS    Predicted; WAR
+#=GF TP    Gene; sRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF RN    [1]
+#=GF RM    18725932
+#=GF RT    Deep sequencing analysis of small noncoding RNA and mRNA targets
+#=GF RT    of the global post-transcriptional regulator, Hfq.
+#=GF RA    Sittka A, Lucchini S, Papenfort K, Sharma CM, Rolle K, Binnewies
+#=GF RA    TT, Hinton JC, Vogel J;
+#=GF RL    PLoS Genet. 2008;4:e1000163.
+#=GF RN    [2]
+#=GF RM    18267966
+#=GF RT    Small RNAs encoded within genetic islands of Salmonella
+#=GF RT    typhimurium show host-induced expression and role in virulence.
+#=GF RA    Padalon-Brauch G, Hershberg R, Elgrably-Weiss M, Baruch K,
+#=GF RA    Rosenshine I, Margalit H, Altuvia S
+#=GF RL    Nucleic Acids Res. 2008;36:1913-1927.
+#=GF WK    http://en.wikipedia.org/wiki/Hfq_binding_sRNA
+#=GF SQ    2
+
+#=GS Salmonella_enterica_.1 AC    CP000026.1/1653079-1653129
+#=GS Salmonella_enterica_.2 AC    AM933173.1/1925685-1925735
+
+Salmonella_enterica_.1             UGCAUUUAUUUCAACAGAAACUCAGCGGCCACCGCGCAGGUGGCCUUUUU
+Salmonella_enterica_.2             UGCACUUAUUUCAACAGAAACUCAGCGGCCACCGCGCAGGUGGCCUUUUU
+#=GC SS_cons                       .<<.....<<<<....>>>>....>><<<<<<<.....>>>>>>>.....
+#=GC RF                            UGCAYUUAUUUCAACAGAAACUCAGCGGCCACCGCGCAGGUGGCCUUUUU
+
+Salmonella_enterica_.1             U
+Salmonella_enterica_.2             U
+#=GC SS_cons                       .
+#=GC RF                            U
+//

@@ -1,0 +1,73 @@
+# STOCKHOLM 1.0
+#=GF ID    snoZ242
+#=GF AC    RF00441
+#=GF DE    Small nucleolar RNA Z242
+#=GF AU    Moxon SJ
+#=GF GA    35.0
+#=GF NC    29.3
+#=GF TC    93.5
+#=GF SE    Moxon SJ, INFERNAL
+#=GF SS    Predicted; PFOLD; Moxon SJ
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF RN    [1]
+#=GF RM    12007400
+#=GF RT    Small nucleolar RNAs: an abundant group of noncoding RNAs with
+#=GF RT    diverse cellular functions.
+#=GF RA    Kiss T;
+#=GF RL    Cell 2002;109:145-148.
+#=GF RN    [2]
+#=GF RM    12736310
+#=GF RT    The high diversity of snoRNAs in plants: identification and
+#=GF RT    comparative study of 120 snoRNA genes from Oryza sativa.
+#=GF RA    Chen CL, Liang D, Zhou H, Zhuo M, Chen YQ, Qu LH;
+#=GF RL    Nucleic Acids Res 2003;31:2601-2613.
+#=GF CC    Z242 is a member of the C/D class of snoRNA which contain the C (UGAUGA)
+#=GF CC    and  D (CUGA) box motifs. Most of the members of the box C/D family
+#=GF CC    function in directing site-specific 2'-O-methylation of substrate RNAs
+#=GF CC    [1].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_Z242
+#=GF SQ    5
+
+#=GS O.sativa.1 AC    AJ494948.1/1-194
+#=GS O.sativa.2 AC    AJ494949.1/1-198
+#=GS O.sativa.3 AC    AP004560.3/126790-126987
+#=GS O.sativa.4 AC    AP005501.3/23161-23358
+#=GS O.sativa.5 AC    AAAA02023133.1/34039-34236
+
+O.sativa.1             ..GGACCAGGAUGAUGACUGGCCAAAUCCAGCUGGUGAUGGAGCCGGAGG
+O.sativa.2             AGGGACCAGGAUGAUGGCUGACCAAAUCCAGCUGGUGAUGAAGCCGGAGG
+O.sativa.3             AGGGACCAAGAUGAUGGCUGACCAAAUCCAGCUGGUGAUGGAGCCGGAGG
+O.sativa.4             AGGGACCAGGAUGAUGGCUGGCCAAAUCCAGCUGGUCAUGGAGCCGGAGG
+O.sativa.5             AGGGACCAGGAUGAUGACUGGCCAAAUCCAGCUGGUGAUGGAGCCGGAGG
+#=GC SS_cons           .<<<<<<<<.........................................
+#=GC RF                AGggAcCAgGAUGAUGgCUGaCCAAAUCCAGCUGGUgAUGgAGCCGGAGG
+
+O.sativa.1             CGCGCGGUGACCGGAGGCGGUGGCCUGUCGUGCUGGCAGAAAUUGCGGAG
+O.sativa.2             UGCACGGCGGCCAGAGGCGGUGGCAUGUCGUGCCGGCAGAAACUGCAGAG
+O.sativa.3             CGCAUGGCGGCCAGAGGCGGUGUCAUGUUGUGCUGGCAGAAACAGCAUAG
+O.sativa.4             CACGCGGUGACCGGACGCGGUGGCCUGUCGUGCCGGCAGAAACUGCGGAG
+O.sativa.5             CGCGCGGUGACCGGAGGCGGUGGCCUGUCGUGCUGGCAGAAAUUGCGGAG
+#=GC SS_cons           .............................<<<<<<<<......<<<...>
+#=GC RF                cgCacGGuGaCCaGAgGCGGUGgCaUGUcGugCcGGCAGAAAcuGCagAG
+
+O.sativa.1             CAUGGUGGCCGGUCCGCAAUGAUAAUCUCAUCACAACAGCAGGUCGAUCU
+O.sativa.2             CAAGGUGGCCGGUACUCAGUGAUAAUCUCAUCACAGCAGCAGGUCGAAGU
+O.sativa.3             CAAGGUGGUCGGUACUCAGUGAUAAUCUCAUCACAGCAGCAGGUCGAAGU
+O.sativa.4             CAUGGUGACCGGUACACAAUGAUAAUCUCAUCACAGCAACAGGUCGAUCU
+O.sativa.5             CAUGGUGGCCGGUCCGCAAUGAUAAUCUCAUCACAACAGCAGGUCGAUCU
+#=GC SS_cons           >>.....>>>>>>>>...................................
+#=GC RF                CaaGGUGGCCgGuaCaCAaUGAUAAUCUCAUCACAgCAgCAGGUCGAagU
+
+O.sativa.1             UCAGUGUAGACCUGAACAUGAAAAUACUAAAACUCUGAACUGAUUU..
+O.sativa.2             GCAGUGCGGACCUACACAUGAAAAAUCUAAAAAUCUGAAUUGGUUUCU
+O.sativa.3             GCAGUGCAGACCUACACAUGAAAAAUCUAAAAAUCUGAAUUGGUUUCU
+O.sativa.4             UCUGUGUAGACCUGAACAUGAAAAUCCUAAAACUCUGAACUAAUUUCA
+O.sativa.5             UCAGUGUAGACCUGAACAUGAAAAUACUAAAACUCUGAACUGAUUUCA
+#=GC SS_cons           .......................................>>>>>>>>.
+#=GC RF                uCAGUGuAGACCUaaACAUGAAAAauCUAAAAaUCUGAAcUGgUuuCu
+//

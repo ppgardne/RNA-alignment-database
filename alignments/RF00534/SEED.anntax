@@ -1,0 +1,128 @@
+# STOCKHOLM 1.0
+#=GF ID    SgrS
+#=GF AC    RF00534
+#=GF DE    SgrS RNA
+#=GF AU    Moxon SJ, Daub J
+#=GF GA    29.0
+#=GF NC    26.0
+#=GF TC    29.3
+#=GF SE    Published;PMID:17383224
+#=GF SS    Predicted; RNAalifold
+#=GF TP    Gene; antisense;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000655 SO:ncRNA
+#=GF DR    GO:0032057 GO:negative regulation of translation initiation in response to stress
+#=GF DR    GO:0043488 GO:regulation of mRNA stability
+#=GF DR    GO:0030371 GO:translation repressor activity
+#=GF RN    [1]
+#=GF RM    17209026
+#=GF RT    The novel transcription factor SgrR coordinates the response to
+#=GF RT    glucose-phosphate stress.
+#=GF RA    Vanderpool CK, Gottesman S;
+#=GF RL    J Bacteriol. 2007;189:2238-2248.
+#=GF RN    [2]
+#=GF RM    17383224
+#=GF RT    Physiological consequences of small RNA-mediated regulation of
+#=GF RT    glucose-phosphate stress.
+#=GF RA    Vanderpool CK;
+#=GF RL    Curr Opin Microbiol. 2007;10:146-151.
+#=GF RN    [3]
+#=GF RM    17383928
+#=GF RT    Mechanism of RNA silencing by Hfq-binding small RNAs.
+#=GF RA    Aiba H;
+#=GF RL    Curr Opin Microbiol. 2007;10:134-139.
+#=GF CC    In sugar transport-related sRNA (SgrS) is induced under
+#=GF CC    conditions of glucose phosphate stress in E.coli. This
+#=GF CC    small RNA acts to negatively regulate the translation and
+#=GF CC    stability of the ptsG mRNA, which encodes the major glucose
+#=GF CC    transporter in E. coli [2].  SgrS forms a specific
+#=GF CC    ribonucleoprotein complex with RNAse E and the chaperone Hfq and
+#=GF CC    acts by base pairing with the ptsG mRNA. The crucial base-pairs
+#=GF CC    for action of SgrS are confined to the 6 nt region overlapping the
+#=GF CC    Shine-Dalgarno sequence of the ptsG mRNA [3].
+#=GF WK    http://en.wikipedia.org/wiki/SgrS_RNA
+#=GF SQ    9
+
+#=GS Aeromonas_hydrophila.1 AC    CP000462.1/540390-540605
+#=GS Aeromonas_salmonicid.1 AC    CP000644.1/4002190-4002404
+#=GS Enterobacter.1         AC    CP000653.1/698137-698383
+#=GS Escherichia_coli_K-1.1 AC    AY653237.1/1-227
+#=GS Escherichia_coli_CFT.1 AC    AE014075.1/81708-81934
+#=GS Klebsiella_pneumonia.1 AC    CP000647.1/81039-81262
+#=GS Pectobacterium_atros.1 AC    BX950851.1/4292300-4292548
+#=GS S.enterica.1           AC    AL627265.1/129989-130226
+#=GS marine_metag.1         AC    AACY022984628.1/11-235
+
+Aeromonas_hydrophila.1             CAUGAGCCAUGCCAAC..........CCCAUCAAAC.CGAACCGGAUCCA
+Aeromonas_salmonicid.1             CAUGAAC....CAGCA..........AAGCGCCCCCA.....AACCGAAC
+Enterobacter.1                     GAUGAAGCAAGGGAGUGAACGAUGAAGAGGUCAACCGCACGUCAGUUUUA
+Escherichia_coli_K-1.1             GAUGAAGCAAG...............GGGGUGCCCCAUGCGUCAGUUUUA
+Escherichia_coli_CFT.1             GAUGAAGCAAG...............GAGGUGCCCCAUGCGUCAGUUUUA
+Klebsiella_pneumonia.1             GAUGAAGCGAGGAGGUGAAUAUGAU.GAGGUCUACCGCAAAAUCGUUCUA
+Pectobacterium_atros.1             GGAG..GUGGCUCAUG..........ACAAUUUCCCGUUUGUC.CCAGUU
+S.enterica.1                       GAUGAAGCAAGAGGAA..........GAGGU.CACUAUGCGCCAGUUCUG
+marine_metag.1                     GAUGAAGCGAUGAGACAACGAA....GGGGUCAUCUAUGCGUCAGUUCUG
+#=GC SS_cons                       <<<<..<<<<<......................<<<<<<<<<<<<<<<<.
+#=GC RF                            gAUGAAgCaagcagaa..........gaGgUcacCCaugCguCaGuucua
+
+Aeromonas_hydrophila.1             GCA..GAUCCUGCGC......CGUUACUUCAAGCG.......GAUCCUGC
+Aeromonas_salmonicid.1             CGGAUCCAGCAAACCCUGCGUCGUUACUUCAAGCGGAUCCUGCCUCGC..
+Enterobacter.1                     UCAGCAGUACUUUUUAGCGACAAAAGGAGUGUCCUGGCUGGCCCGCCAGU
+Escherichia_coli_K-1.1             UCAGCACUAUUUUACCGCGACAGCGAAGUUGUGCUGGUUGCGUUGGUUAA
+Escherichia_coli_CFT.1             UCAGCACUAUUUUACCGCGACAGCGAAGUUGUGCUGGUUGCGUUGGUUAA
+Klebsiella_pneumonia.1             CCAACGCUACUUUUCUGCGACGCAGGAAGCGUCCUGGCUGGCCCGCCUGA
+Pectobacterium_atros.1             CUAUCGAACCUACUUAUCGACCUGUAAAGCGAAGUGGUUGCGAUGGAUAU
+S.enterica.1                       GUUGAGAUAUUUUGCCGCGACGGAAAAAACGUCCUGGCUGGCUUGCCUGA
+marine_metag.1                     GUUGGAGUACUUUACCACGACGGAAAAAUCGUCCUGGUUGGCUUGCCUGA
+#=GC SS_cons                       <<<<<<...........<<<<<<<<......>>>>.>>>>...<<<<<<<
+#=GC RF                            ucagcaaUaCUuuuCcgCgaCcGuuAAauCGagCgGGuuGgguugcuuga
+
+Aeromonas_hydrophila.1             CCAGGCCG..CUGACCCUGAUC....GA.GGAUCCCAU........GAGC
+Aeromonas_salmonicid.1             .CCGCUGACCCUGA..UCGAGGAUCCCA..............UGAGCCAG
+Enterobacter.1                     GCGCCGAGCAGCGGCUGAAAAUGCUGGA.AGAAUUGAUGCAGUGGGAGGU
+Escherichia_coli_K-1.1             GCGUCCCACAACGAUUAACCAUGCUUGA.AGGACUGAUGCAGUGGGAUGA
+Escherichia_coli_CFT.1             GCGUCCCACAACGAUUAACCAUGCUUGA.AGAGCUGAUGCAGUGGGAGGG
+Klebsiella_pneumonia.1             UGGCAGGAC.GACAGCAGGAAAUUCUGGGGGAACUGAUGCAGUGGGGAGU
+Pectobacterium_atros.1             CUACCCAACAGCGCGU.UGCAUUAUUGCAGCAGGCGACGCAGUGGCACCU
+S.enterica.1                       GCGCGCCGCAGCGCUUAAAAAUGCUCGC.GGAACUGAUGCAGUGGGAGGC
+marine_metag.1                     GCGCACCGCAGCGCUUAAAGAUGCUCGA.AGAACUGAUGCAGUGGGAGAU
+#=GC SS_cons                       .<<<......>>>.>>>>>>>>>>.>>>.>>>>>>>>>>>>.>>>>....
+#=GC RF                            gCgccccaCAgcGAucaagcaugcUuga.agaaCuGacGcaGuGGgAagu
+
+Aeromonas_hydrophila.1             CAGC.........UCAACCGCCUGAUGC.AGUGG.GAUAUGAACCAG...
+Aeromonas_salmonicid.1             CUCA.........ACCGCCUGAUGCAGU.....GGGACAUGCACCAG...
+Enterobacter.1                     UACGCAAACG...ACUUCUGAACGCUGA.CUUGCCUCGAUCAUGUGU...
+Escherichia_coli_K-1.1             CCGC.........AAUUCUGAAAGUUGA.CUUGCCUGCAUCAUGUGU...
+Escherichia_coli_CFT.1             GAGU.........CAUUCUGACUACUGA.UUUGCGGACAUCAUGUGU...
+Klebsiella_pneumonia.1             GACGUCAACG...ACCUCUGAUCAUUGA.CUUGCAGACAUCAUGUGU...
+Pectobacterium_atros.1             GAACGAAAUGUCCGACGACGAAUACC...GUCAUUGGCUCUAGGUGGUGC
+S.enterica.1                       GACC.........GAUU...GAAGCC.A.AUUGCAGACAUCAUGUGU...
+marine_metag.1                     GACAUCU......GACUCCUGAAUUGGAAAUUGCAGACAUCAUGUGU...
+#=GC SS_cons                       ................<<........>>.>>>>>...>>>>.........
+#=GC RF                            gAcc.........aacuCcGAAugcuGa.cuuGcaGACAUcAuGUGu...
+
+Aeromonas_hydrophila.1             ...........AUCGACGAUCGGGAGUAUCGCCGCCGCCUC....UGAGC
+Aeromonas_salmonicid.1             ...........AUCGAUGACAAGGAGUAUCGUCGCCGCCUCUGAGUGCAG
+Enterobacter.1                     ...........GACUGAGUAUUGGUGCU..................UAUC
+Escherichia_coli_K-1.1             ...........GACUGAGUAUUGGUGUA.................AAAUC
+Escherichia_coli_CFT.1             ...........GACUGAGUAUUGGUGUU.................AAUCG
+Klebsiella_pneumonia.1             ...........GACUGAGUAUUGGUGUU.................AUACU
+Pectobacterium_atros.1             GAGGAAAAGUAUUCUGAGUAAUGGUGAU.................AUUUC
+S.enterica.1                       ...........GACUGAGUAUUGGUGUAGGCGAUAGCCUA.....AAAUC
+marine_metag.1                     ...........GACUGAGUAUUGGUGCAGGCUGU...........AUCCU
+#=GC SS_cons                       ..................................................
+#=GC RF                            ...........gaCUGAGUAuuGGUGUA.................Auauc
+
+Aeromonas_hydrophila.1             CCCUCUCGCCCGGAUCGCGCAAGGGAGAACGCAGUU
+Aeromonas_salmonicid.1             CCCCGGUUGCUCAAAG...G..CGAGGCCCAUCGCC
+Enterobacter.1                     ACCCGCCAGCAAAAUGUUUU..UGCUGGCUUUUUUC
+Escherichia_coli_K-1.1             ACCCGCCAGCAGAUUAUACC..UGCUGGUUUUUUUU
+Escherichia_coli_CFT.1             CCACGCCAGCAGUGAUUAUC..UGCUGGCUUUUUUG
+Klebsiella_pneumonia.1             CGUC.........................GUUUUUC
+Pectobacterium_atros.1             ACCAACCAGCGAGUUUUC.U..CGCUGGUUUUUUUU
+S.enterica.1                       ACCCGCCAGCAGAUAAUAUC..UGCUGGCUUUUUU.
+marine_metag.1                     GCCA.........................UUAUAUC
+#=GC SS_cons                       ....<<<<<<<<.......>..>>>>>>>.......
+#=GC RF                            aCCcgcCagCagaauuUauc..uGcuGgcuuUUuUu
+//

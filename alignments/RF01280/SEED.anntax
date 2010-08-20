@@ -1,0 +1,56 @@
+# STOCKHOLM 1.0
+#=GF ID    snoR14
+#=GF AC    RF01280
+#=GF DE    Small nucleolar RNA snoR14
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    25.5
+#=GF SE    Predicted; Wilkinson A
+#=GF SS    Predicted; Wilkinson A
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    URL; http://lowelab.ucsc.edu/snoRNAdb/
+#=GF DR    URL; http://bioinf.scri.sari.ac.uk/cgi-bin/plant_snorna/home
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF WK    http://en.wikipedia.org/wiki/SnoRNA
+#=GF SQ    7
+
+#=GS O.sativa.1      AC    AJ532488.1/8-96
+#=GS V.vinifera.1    AC    AM480118.2/5459-5549
+#=GS L.japonicus.1   AC    AP004489.1/54753-54837
+#=GS M.truncatula.1  AC    AC146791.12/24523-24606
+#=GS R.communis.1    AC    AASG02003152.1/15361-15450
+#=GS P.trichocarpa.1 AC    AARH01008371.1/236979-237066
+#=GS A.thaliana.1    AC    AC005314.3/54045-54126
+
+O.sativa.1                  GCGAGGUGAUGAUGAAUGUAUGAAUGUCUGUCAAUCCCCUGA.......U
+V.vinifera.1                GCGAGGUGACGAUAGAA.UUCAUUGGUCUGUCAAUCCACUGA.......U
+L.japonicus.1               GCGAGGUGACGAUAUCACUUCAAUGGUAUGUCAAUUCACUGA.......U
+M.truncatula.1              GCGAGGUGAUGAUA.AAAUUCAUUUGUCUGUCAAUCCUCUGA.......U
+R.communis.1                GCGAGGUGACGAUAGAAAUUCAUUGGUCUGUCAAUCCACUGAAUAAACAU
+P.trichocarpa.1             GCGAGGUGAAGAUAGAAAUUCAU..GUCUGUCAAUCCACUGA.......C
+A.thaliana.1                UCGAGGUGACGAUAGAAAUUCACAGGUCUGUCAAUCCACUGA.......U
+#=GC SS_cons                <<<<..............................................
+
+O.sativa.1                  GUCAC....AA......AGUGAUGACUCCUCAUACAUCCCGACAGGCUCU
+V.vinifera.1                AUCAACAUCA.......GAUGAUGUUAAACAAUGAAUCCCGACAGGUUCU
+L.japonicus.1               AC.......UAU.....CGUGAUGUAUUCAUGAA..UCCCGACAGGUUCU
+M.truncatula.1              AU.......UC......UUUGAUGUUAUUUAUGAA.UCCCGACAGGUUCU
+R.communis.1                AA.......C.......UUUGAUGUUACUAUGAA..UCCCGACAGGUUCU
+P.trichocarpa.1             UU.......AGUAACUGUGUGAUGUUAUCUUGAA..UCCCGACAGGUUCU
+A.thaliana.1                AU.......A.......UGUGAUGUAAUUGUGU...UCUCGACAGGUUCU
+#=GC SS_cons                ..................................................
+
+O.sativa.1                  GAUCGC
+V.vinifera.1                GAUCGC
+L.japonicus.1               GAUCGC
+M.truncatula.1              GAUCGC
+R.communis.1                GAUCGC
+P.trichocarpa.1             GAUCGC
+A.thaliana.1                GAUCGA
+#=GC SS_cons                ..>>>>
+//

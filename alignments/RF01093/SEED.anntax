@@ -1,0 +1,67 @@
+# STOCKHOLM 1.0
+#=GF ID    RF_site5
+#=GF AC    RF01093
+#=GF DE    Ma3 gene ribosomal frameshift signal
+#=GF AU    Wilkinson A
+#=GF GA    34.0
+#=GF NC    0.0
+#=GF TC    40.7
+#=GF SE    Pseudobase
+#=GF SS    Pseudobase
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    PKBASE; PKB00258
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    16407312
+#=GF RT    A functional -1 ribosomal frameshift signal in the human
+#=GF RT    paraneoplastic Ma3 gene.
+#=GF RA    Wills NM, Moore B, Hammer A, Gesteland RF, Atkins JF;
+#=GF RL    J Biol Chem. 2006;281:7082-7088.
+#=GF WK    http://en.wikipedia.org/wiki/Ribosomal_frameshift
+#=GF SQ    12
+
+#=GS E.telfairi.1           AC    AAIY01564318.1/499-558
+#=GS M.musculus.1           AC    CAAA01115567.1/4565-4624
+#=GS Spermophilus_tridece.1 AC    AAQQ01394808.1/251-310
+#=GS H.sapiens.1            AC    AY121806.1/1715-1774
+#=GS P.troglodytes.1        AC    AACZ02226690.1/132-191
+#=GS M.murinus.1            AC    ABDC01277479.1/258-317
+#=GS Otolemur_garnettii_s.1 AC    AAQR01707772.1/317-376
+#=GS T.belangeri.1          AC    AAPY01451866.1/2180-2239
+#=GS M.lucifugus.1          AC    AAPE01554481.1/836-895
+#=GS E.europaeus.1          AC    AANN01419562.1/4949-5008
+#=GS E.caballus.1           AC    AAWR02040610.1/2027-2086
+#=GS Dasypus_novemcinctus.1 AC    AAGV020672825.1/544-603
+
+E.telfairi.1                       GGGAAACGGGGUGGGGGCUGGGGCAGUGAGCCACCCCAGGCCUUAAGCAG
+M.musculus.1                       GGGAAACAGGAGCUGGGCUUGGGAGAAGAGCCAUCCCAAGCCCAAGACCA
+Spermophilus_tridece.1             GGGAAACGGGAGCCGGGCUUGGGACAAGAGCCAUCCCAAGUCCAAGGCCA
+H.sapiens.1                        GGGAAACGAGGCAGGGGCUGGGGCCAUGAGCCAUCCCAAGCCCUGGGAAA
+P.troglodytes.1                    GGGAAACGGGAACUGGGCUUGGGACAAGAGCCAUCCCAAGUCCAAGGCCA
+M.murinus.1                        GGGAAACGAGAUGGGGGCUGGGGCUAUGAGCCAUCCCGAGCCCUAAGAAG
+Otolemur_garnettii_s.1             GGGAAAAGAGGAUAGGGCUUGGGACAUGAGCCACCCCGAGUCCUCAGGUG
+T.belangeri.1                      GGGAAACGAGAUAGGGGCUGGGGCCAUGAGCCACCCCAAGCCCUGGGAAG
+M.lucifugus.1                      GGGAAACGGCGACCGGGCUUGGGACAAGAGCCAUCCCAAGUCCAAGGCCA
+E.europaeus.1                      GGGAAACGAGCAGGGGGCUGGGGCAGUGAGCCAACCCAAGCCCUAGGAAG
+E.caballus.1                       GGGAAACGGGAGCUGGGCUUGGGACAAGAGCCAUCCCAAGCCCAAGGCCA
+Dasypus_novemcinctus.1             GGGAAACGGGAGCCGGGCUUGAGACGCGAGCCAUCCCAAGCCCAAGCCCA
+#=GC SS_cons                       .............<<<<<<<<<<<...AAAAA.>>>>>>>>>>>......
+#=GC RF                            GGGAAACGgGaaauGGGCuuGGGaaaaGAGCCAuCCCaaGCCCaAgGaaa
+
+E.telfairi.1                       UACAGGCUCA
+M.musculus.1                       AGUAGGCUCC
+Spermophilus_tridece.1             AGUAGGCUCU
+H.sapiens.1                        CAUAGGCUCA
+P.troglodytes.1                    AGUAGGCUCG
+M.murinus.1                        CAUAGGCUCA
+Otolemur_garnettii_s.1             AAUAGGCUCU
+T.belangeri.1                      CAUAGGCUCA
+M.lucifugus.1                      GAUAGGCUCA
+E.europaeus.1                      CAGAGGCUCG
+E.caballus.1                       AGUAGGCUCA
+Dasypus_novemcinctus.1             GGCAGGCUCA
+#=GC SS_cons                       ....aaaaa.
+#=GC RF                            aAuAGGCUCA
+//

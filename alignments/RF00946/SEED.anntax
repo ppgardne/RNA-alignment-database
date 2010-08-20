@@ -1,0 +1,62 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-1225
+#=GF AC    RF00946
+#=GF DE    microRNA mir-1225
+#=GF AU    Wilkinson A
+#=GF GA    35.0
+#=GF NC    0.0
+#=GF TC    41.9
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000445
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    8
+
+#=GS M.musculus.1           AC    AAHY01131651.1/4809-4902
+#=GS P.troglodytes.1        AC    AACZ02159465.1/8162-8251
+#=GS Otolemur_garnettii_s.1 AC    AAQR01647287.1/145-232
+#=GS C.lupus.1              AC    AAEX02026932.1/3103-3197
+#=GS F.catus.1              AC    AC145332.48/12564-12658
+#=GS B.taurus.1             AC    AAFC03060160.1/33630-33722
+#=GS E.europaeus.1          AC    AANN01125789.1/79-170
+#=GS E.caballus.1           AC    AAWR02040073.1/645-739
+
+M.musculus.1                       GUGGGUACGGCCCAGUGGGGGGGAGAGGGACACACCCUGGGUCU....CG
+P.troglodytes.1                    GUGGGUACGGCCCAGUGGGGGGGAGAGGGACACGCCCUGGGCUC....UG
+Otolemur_garnettii_s.1             GUGGGUACGGCCCAGUGGGGGGGAGAGGGACGCACCCUGGGUUC....A.
+C.lupus.1                          GUGGGUACGGCCCAGUGGGGGGGAGAGGGACACACCCUGGGCCC....AG
+F.catus.1                          GUGGGUACGGCCCAGUGGGGGGGAGAGGGACGCACCCUGGGCCC....AG
+B.taurus.1                         GUGGGUACGGCCCAG..GGGGGGAGAGGGACGCACCCUGGGCCC....AG
+E.europaeus.1                      GUGGGUACGGCCCAGUGGGGGGGAGAGGG..ACGCCCUGGGCCCACGUAG
+E.caballus.1                       GUGGGUACGGCCCAGUGGGGGGGAGAGGGACACGCCCUGGGCUC....AG
+#=GC SS_cons                       ...............<<<<<<<<<.<<<<.....................
+#=GC RF                            GUGGGUACGGCCCAGuGGGGGGGaGaGGGACACGCCCUGGGCUC....UG
+
+M.musculus.1                       CGAG.C.....CCAGGGUGCAGCCGGACUGACCGAGCCCCUGUGCCGCCC
+P.troglodytes.1                    .....C.....CCAGGGUGCAGCCGGACUGACUGAGCCCCUGUGCCGCCC
+Otolemur_garnettii_s.1             ...........CCAGGGUGCAGCCGGACUGACGGAGCCCCUGUGCCGCCC
+C.lupus.1                          GUGAGC.....CCAGGGUGCAGCCGGACUGACCGAGCCCCUGUGCCGCCC
+F.catus.1                          GGGAGC.....CCGGGGUGCAGCCGGACUGACGGAGCCCCUGUGCCGCCC
+B.taurus.1                         .....CAGAGCCCAGGGCGCAGCCGGACUGACCGAGCCCCUGUGCCGCCC
+E.europaeus.1                      .....C.....CCGGGGCGCAGCCGGACUGACCGAGCCCCUGUGCCGCCC
+E.caballus.1                       GUGAGC.....CCAGGGUGCAGCCGGACUGACUGAGCCCCUGUGCCGCCC
+#=GC SS_cons                       .....................................>>>>.>.>>.>>>
+#=GC RF                            .....C.....CCAGGGUGCAGCCGGACUGACUGAGCCCCuGuGCCGCCC
+
+M.musculus.1                       CCAG
+P.troglodytes.1                    CCAG
+Otolemur_garnettii_s.1             CCAG
+C.lupus.1                          CCAG
+F.catus.1                          CCAG
+B.taurus.1                         CCAG
+E.europaeus.1                      CCAG
+E.caballus.1                       CCAG
+#=GC SS_cons                       >>>.
+#=GC RF                            CCaG
+//

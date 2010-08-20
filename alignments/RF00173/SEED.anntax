@@ -1,0 +1,75 @@
+# STOCKHOLM 1.0
+#=GF ID    Hairpin
+#=GF AC    RF00173
+#=GF DE    Hairpin ribozyme
+#=GF AU    Griffiths-Jones SR
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    29.0
+#=GF SE    Griffiths-Jones SR
+#=GF SS    Published; PMID:7966321
+#=GF TP    Gene; ribozyme;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000374 SO:ribozyme
+#=GF RN    [1]
+#=GF RM    7966321
+#=GF RT    Structure-mapping of the hairpin ribozyme. Magnesium-dependent
+#=GF RT    folding and evidence for tertiary interactions within the
+#=GF RT    ribozyme-substrate complex.
+#=GF RA    Butcher SE, Burke JM;
+#=GF RL    J Mol Biol 1994;244:52-63.
+#=GF RN    [2]
+#=GF RM    9207012
+#=GF RT    Plant pathogenic RNAs and RNA catalysis.
+#=GF RA    Symons RH;
+#=GF RL    Nucleic Acids Res 1997;25:2683-2689.
+#=GF RN    [3]
+#=GF RM    11441810
+#=GF RT    Ribozyme structures and mechanisms.
+#=GF RA    Doherty EA, Doudna JA;
+#=GF RL    Annu Rev Biophys Biomol Struct 2001;30:457-475.
+#=GF RN    [4]
+#=GF RM    12440983
+#=GF RT    The hairpin ribozyme: from crystal structure to function.
+#=GF RA    Ferre-D'amare AR, Rupert PB;
+#=GF RL    Biochem Soc Trans 2002;30:1105-1109.
+#=GF CC    The hairpin ribozyme, like the hammerhead (RFAM:RF00008 and
+#=GF CC    RFAM:RF00163), is found in RNA satellites of plant viruses.
+#=GF CC    It was first identified in the minus strand of the tobacco
+#=GF CC    ringspot virus (TRSV) satellite RNA where it catalyses a 
+#=GF CC    self-cleavage reaction to process the products of rolling 
+#=GF CC    circle virus replication to unit-length satellite RNA.  
+#=GF CC    The structure consists of 2 domains, A and B.  The 3' arm of 
+#=GF CC    domain A, which closes helices 1 and 2, contains the cleavage 
+#=GF CC    site and is linked to helix 3 of domain B by a linker of 
+#=GF CC    variable length and sequence.  This region is thus not 
+#=GF CC    included in this family.  The hairpin ribozyme has been 
+#=GF CC    identified in only 3 plant satellite RNAs -- from TRSV,
+#=GF CC    chicory yellow mottle virus (CYMV) and arabis mosaic virus
+#=GF CC    (ARMV).
+#=GF WK    http://en.wikipedia.org/wiki/Hairpin_ribozyme
+#=GF SQ    5
+
+#=GS Arabis_mosaic_virus_.1 AC    M21212.1/106-157
+#=GS Chicory_yellow_mottl.1 AC    D00721.1/255-306
+#=GS Tobacco_ringspot_vir.1 AC    M14879.1/175-224
+#=GS Chicory_yellow_mottl.2 AC    D00685.1/255-306
+#=GS Tobacco_ringspot_vir.2 AC    M17439.1/177-226
+
+Arabis_mosaic_virus_.1             CAACAGCGAAGCGGAACGGCGAAACACACCUUGUGUGGUAUAUUACCCGU
+Chicory_yellow_mottl.1             CAACAGCGAAGCGCGCCAGGGAAACACACCAUGUGUGGUAUAUUAUCUGG
+Tobacco_ringspot_vir.1             AAACAGAGAAGUCAACCAGAGAAACACACGUUGUG..GUAUAUUACCUGG
+Chicory_yellow_mottl.2             CAACAGCGAAGCGCGCCAGGGAAACACACCAUGUGUGGUAUAUUAUCUGG
+Tobacco_ringspot_vir.2             AAACAGAGAAGUCAACCAGAGAAACACACGUUGUG..GUAUAUUACCUGG
+#=GC SS_cons                       ..............<<<<<.......<<<...>>>...........>>>>
+#=GC RF                            aAACAGaGAAGcgagcCgGaGAAACACaCcuUGuGuGGUAUAUUAcCcGg
+
+Arabis_mosaic_virus_.1             UG
+Chicory_yellow_mottl.1             CA
+Tobacco_ringspot_vir.1             UA
+Chicory_yellow_mottl.2             CA
+Tobacco_ringspot_vir.2             UA
+#=GC SS_cons                       >.
+#=GC RF                            cA
+//

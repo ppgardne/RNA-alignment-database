@@ -1,0 +1,120 @@
+# STOCKHOLM 1.0
+#=GF ID    t44
+#=GF AC    RF00127
+#=GF DE    t44 RNA
+#=GF AU    Moxon SJ, Bateman A, Daub J
+#=GF GA    32.0
+#=GF NC    27.8
+#=GF TC    34.3
+#=GF SE    Hershberg R
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; sRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000655 SO:ncRNA
+#=GF RN    [1]
+#=GF RM    12202758
+#=GF RT    Transcriptome analysis of Escherichia coli using high-density
+#=GF RT    oligonucleotide probe arrays.
+#=GF RA    Tjaden B, Saxena RM, Stolyar S, Haynor DR, Kolker E, Rosenow C;
+#=GF RL    Nucleic Acids Res 2002;30:3732-3738.
+#=GF CC    This family consists of a number of bacterial RNA genes of
+#=GF CC    between 135 and 170 bases in length. The t44 gene has been
+#=GF CC    identified in several species of enteric bacteria but homologs
+#=GF CC    have also been identified in Pseudomonas and Coxiella species.
+#=GF CC    The t44 gene is found between the map and rpsB genes in all
+#=GF CC    species in the full alignment apart from Shigella flexneri. The
+#=GF CC    function of this RNA is unknown.
+#=GF WK    http://en.wikipedia.org/wiki/t44_RNA
+#=GF SQ    20
+
+#=GS Saccharophagus_degra.1 AC    CP000282.1/3292739-3292846
+#=GS Shewanella.1           AC    CP000469.1/3362537-3362648
+#=GS Shewanella_baltica_O.1 AC    CP001252.1/3412028-3412139
+#=GS Shewanella_putrefaci.1 AC    AAWY01000002.1/222766-222877
+#=GS Shewanella_oneidensi.1 AC    AE014299.1/1711279-1711390
+#=GS Shewanella_woodyi_AT.1 AC    CP000961.1/4024381-4024480
+#=GS Shewanella_frigidima.1 AC    CP000447.1/1504117-1504225
+#=GS Enterobacter.1         AC    CP000653.1/805494-805587
+#=GS E.coli.1               AC    V00343.1/165-257
+#=GS Klebsiella_pneumonia.1 AC    CP000647.1/215602-215695
+#=GS Pectobacterium_atros.1 AC    BX950851.1/1154262-1154371
+#=GS Photorhabdus_lumines.1 AC    BX571861.1/73546-73657
+#=GS S.enterica.1           AC    AL627266.1/60-153
+#=GS Salmonella_enterica_.1 AC    CP001127.1/256594-256687
+#=GS Serratia_proteamacul.1 AC    CP000826.1/4190716-4190824
+#=GS S.glossinidius.1       AC    AP008232.1/3348358-3348461
+#=GS Yersinia_frederiksen.1 AC    AALE01000027.1/22023-22147
+#=GS Yersinia_pseudotuber.1 AC    BX936398.1/3542805-3542929
+#=GS Reinekea.1             AC    AAOE01000005.1/109412-109506
+#=GS Vibrio_cholerae_MAK_.1 AC    AAUS01000007.1/85221-85313
+
+Saccharophagus_degra.1             AGUUGG.GUAAAUU...UCUUAAACUA.UACGUCACACAUAUAUCGGCAC
+Shewanella.1                       AUACAU.GGCAAUU...UAUCUAAAUACUAAAUCACACACGUGUCGACAC
+Shewanella_baltica_O.1             AUACAU.GGCUAUU...UGUCUAAAUACUAAAUCACACACGUGUCGACAC
+Shewanella_putrefaci.1             AUACAU.GGCAAAU...UGUCUAAAUACUAAAUCACACACGUGUCGACAC
+Shewanella_oneidensi.1             AUACAU.GGCAAUU...UAUCUAAAUACUAAAUCACACACGUGUCGACAC
+Shewanella_woodyi_AT.1             AUACAU.GGCUAAC...U.UGUAAAUACUAAAUCACACACGUGUCGACAC
+Shewanella_frigidima.1             AAUUAA.CUUAAAU.....ACUAAAUC.....A..CACACGUAUCGACAC
+Enterobacter.1                     ACAAAU.CUCACUU...UGUGU.AAUU.....ACACACACGUAUCGGCAC
+E.coli.1                           AC.AAU.CUCACUU...UGUGU.AACA.....ACACACACGUAUCGGCAC
+Klebsiella_pneumonia.1             ACAUAG.CUCACUU...UGUGU.AAUA.....ACACACACGUAUCGGCAC
+Pectobacterium_atros.1             .CUAAA.CUCACUU...UGUGUAAAUA.....ACACACACAUGUCGGCAC
+Photorhabdus_lumines.1             AAACAUACUCAC.....UGUGUAAAUA.....ACACACACGGGUCGGCAC
+S.enterica.1                       ACAAAU.CUCACUU...UGUGU.AACA.....ACACACACGUAUCGGCAC
+Salmonella_enterica_.1             ACAAAU.CUCACUU...UGUGU.AACA.....ACACACACGUAUCGGCAC
+Serratia_proteamacul.1             GCA....CUCACUU...UGUGUAAAUA.....ACACACACGUAUCGGCAC
+S.glossinidius.1                   ACGAAA.CUCAA.U...UGUGU.UAUU.....ACACACACGUAUCGGCAC
+Yersinia_frederiksen.1             ACCAAU.CGCACUCAUAUGUGUAAAUA.....ACACACACGUGUCGACAC
+Yersinia_pseudotuber.1             ACCAAU.CGCACUCAUAUGUGUAAAUA.....ACACACACGUGUCGACAC
+Reinekea.1                         GAGUAC.UGGGCAU...UAACUUAACU.....UCUCACAUGCUUCGACAC
+Vibrio_cholerae_MAK_.1             ACAAAC.CUAAU.....UGUUUAAAUC.......ACACACAUUCCGACAC
+#=GC SS_cons                       .................<<<<<..........>>>>><<<<<<<<....<
+#=GC RF                            AaaaAa.cucAauu...uGuGuAAAUA.....aCaCaCACguguCGaCAC
+
+Saccharophagus_degra.1             ACUUGUCUGGGUGC.CC..UAGCUGUUAA...............AGCGGG
+Shewanella.1                       AUUCUUCGGGGUGC.CCUCAGCUGUUAAC...............UGCGGG
+Shewanella_baltica_O.1             AUUCUUCGGGGUGC.CCUCAGUUAUUAAU...............UGCGGG
+Shewanella_putrefaci.1             AUUCUUCGGGGUGC.CCUCAGCUGUUAAC...............UGCGGG
+Shewanella_oneidensi.1             AUUCUUCGGGGUGC.CCUCAGCUGUUAAC...............UGCGGG
+Shewanella_woodyi_AT.1             AUUCUCCGGGGUGC.CU...........C...............UAGAAG
+Shewanella_frigidima.1             AUUUUUCGGGGUGC.UUUCUCAUUCUUAACAGAAGU........UAGAAA
+Enterobacter.1                     AUAUUCCGGGGUGC.CC...........................CUAGGG
+E.coli.1                           AUAUUCCGGGGUGC.CC...........................UUUGGG
+Klebsiella_pneumonia.1             AUAUUCCGGGGUGC.CC...........................UUCGGG
+Pectobacterium_atros.1             GUUCGCCGGGGUGCUCCUGAGGUGUUUCACCG............GAUGGG
+Photorhabdus_lumines.1             AUACACCGGGGUGC.UCUCAUGCAGAACAUGCAGC.........UAAAGA
+S.enterica.1                       AUAUUCCGGGGUGC.CC...........................UUUGGG
+Salmonella_enterica_.1             AUAUUCCGGGGUGC.CC...........................UUUGGG
+Serratia_proteamacul.1             AUCCGCCGGGGUGC.CCUGAGGUGAUUUAUCACC..........GCCAGG
+S.glossinidius.1                   AUGCGCCGGGGUGC.UCUGAAUCACAAGG...............U.CGGG
+Yersinia_frederiksen.1             AUACGCCGGGGUGC.CCUAAAGUUUUUGAUUAUUAUCAAUCGCUUAUGGG
+Yersinia_pseudotuber.1             AUACACCGGGGUGC.CCUAAAGUUUUUGAUUGUUAUCAAUCGCUUAUGGG
+Reinekea.1                         AUGGUUCUGGGUGC.CC...........G...............AAAGGG
+Vibrio_cholerae_MAK_.1             GUAUUCCGGGGUGC.UC..........CA...............AGUGGA
+#=GC SS_cons                       <<.<<<<<.....<.<<...............................>>
+#=GC RF                            auacgcCgGGGUGC.cCuaaaguaauaaA...............uaugGg
+
+Saccharophagus_degra.1             GUUGGC.UUGUGGGAUAUAUGGAGGCCUAACC
+Shewanella.1                       GUCGAAGACAUGGGAUACGUGGAGGUCUAACC
+Shewanella_baltica_O.1             GUCGAAGACAUGGGAUGCGUGGAGGUCUAACC
+Shewanella_putrefaci.1             GUCGAAGACAUGGGAUACGUGGAGGUCUAACC
+Shewanella_oneidensi.1             GUCGAAGACAUGGGAUACGUGGAGGUCUAACC
+Shewanella_woodyi_AT.1             GUCGGAGAUAUGGGAUACGUGGAGGUCUAACC
+Shewanella_frigidima.1             GUCGAAA.CAUGGGAUGCGUGGAGGUCUAACC
+Enterobacter.1                     GUCGGUGAUAUGGGAUACGUGGAGGCAUAACC
+E.coli.1                           GUCGGUAAUAUGGGAUACGUGGAGGCAUAACC
+Klebsiella_pneumonia.1             GUCGGUAAUAUGGGAUACGUGGAGGCAUAACC
+Pectobacterium_atros.1             GUCGGCGUAAUGGGACAUGUGGAGGCAUAACC
+Photorhabdus_lumines.1             GUCGGUGUUAUGGGGCUCGUGGAGGCAUAACC
+S.enterica.1                       GUCGGUAAUAUGGGAUACGUGGAGGCAUAACC
+Salmonella_enterica_.1             GUCGGUAAUAUGGGAUACGUGGAGGCAUAACC
+Serratia_proteamacul.1             GUCGGCGUUAUGGGAUACGUGGAGGCAUAACC
+S.glossinidius.1                   GUCGGCCGUAUGGGAUACGUGGAGGCAUAACC
+Yersinia_frederiksen.1             GUCGGCGUUAUGGGACACGUGGAGGCAUAACC
+Yersinia_pseudotuber.1             GUCGGUGUUAUGGGACACGUGGAGGCAUAACC
+Reinekea.1                         GUUGGA.UCAUGGGAAGUGUGGAGGCCUAACC
+Vibrio_cholerae_MAK_.1             GUCGGAUAUACGGGGGAUGUGGAGGCCUAACC
+#=GC SS_cons                       >.>>>>>..>>>.>>>>>>>>...........
+#=GC RF                            GUcGgcgauauGGGacacGUGGAGGcaUAACC
+//

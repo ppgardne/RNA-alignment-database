@@ -1,0 +1,48 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-891
+#=GF AC    RF01042
+#=GF DE    microRNA mir-891
+#=GF AU    Wilkinson A
+#=GF GA    23.0
+#=GF NC    22.6
+#=GF TC    23.2
+#=GF SE    miRBase; Wilkinson A, Daub J
+#=GF SS    Predicted; RNAalifold
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000420
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    7
+
+#=GS P.capensis.1    AC    ABRQ01519725.1/3237-3315
+#=GS M.mulatta.1     AC    AANU01202537.1/38670-38748
+#=GS H.sapiens.1     AC    AL445258.4/159335-159413
+#=GS H.sapiens.2     AC    AL358174.12/10693-10771
+#=GS P.troglodytes.1 AC    AC193538.2/129508-129585
+#=GS P.troglodytes.2 AC    CU464034.1/156240-156317
+#=GS T.syrichta.1    AC    ABRT010818628.1/1390-1467
+
+P.capensis.1                CGUUAAUCCUUGCAACAGAUCUGUGUCAGUGAGUUAGUACAGGGGUCAGU
+M.mulatta.1                 CCUUAAUCCUUGCAACUUACCUGAGUCAUUGAUUCAGUAAAACAUUCAAU
+H.sapiens.1                 CCUUAAUCCUUGCAACUUACCUGAGUCAUUGAUUCAGUAAAACAUUCAAU
+H.sapiens.2                 CCUUAAUCCUUGCAACGAACCUGAGCCACUGAUUCAGUAAAAUACUCAGU
+P.troglodytes.1             CCUUAAUCCUUGCAACUUACCUGAGUCAUUGAUUCAGUAAAACAUUCAAU
+P.troglodytes.2             CCUUAAUCCUUGCAACGAACCUGAGCCAUUGAUUCAGUAAAAUACUCAGU
+T.syrichta.1                CUUCAAUCCUUGCAACAAACCUGUGGCAGUGAGUCAUUAAAACA.UCAUU
+#=GC SS_cons                .....<<<<<<<<<<<..<<.<<.<<<<<<<<.............>>>>>
+#=GC RF                     CCUUAauCCucgCaaCgaaCCuGAGcCacuGaUUCAGUAAAAuAuuCagu
+
+P.capensis.1                GACACAGAUUUGUCGUGAGGAUUAAAUGA
+M.mulatta.1                 GGCACAUGUUUGUUGUUAGGGUCAAAAGA
+H.sapiens.1                 GGCACAUGUUUGUUGUUAGGGUCAAAAGA
+H.sapiens.2                 GGCACAUGUUUGUUGUGAGGGUCAAAAGA
+P.troglodytes.1             GGCACAUGUUUGUUGUGAGGGUCAAAAG.
+P.troglodytes.2             GGCACAUGUUUGUUGUGGGGGUCAAAAG.
+T.syrichta.1                GCCACAUGUCUGUUGUGAGGGUCAAGGGA
+#=GC SS_cons                >>>.>>.>>..>>>>>>>>>>>.......
+#=GC RF                     GgCACaUGuUUGuuGugaGGguCAAAAGA
+//

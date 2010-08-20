@@ -1,0 +1,100 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORD78
+#=GF AC    RF00592
+#=GF DE    Small nucleolar RNA SNORD78
+#=GF AU    Marantidis E.
+#=GF GA    25.0
+#=GF NC    24.8
+#=GF TC    25.0
+#=GF PI    snoU78
+#=GF SE    Marantidis E, INFERNAL
+#=GF SS    Predicted; Daub J
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Oryctolagus_cuniculus300266
+#=GF DR    snoopy; Oryctolagus_cuniculus300001
+#=GF RN    [1]
+#=GF RM    15556860
+#=GF RT    Guide RNAs with 5' caps and novel box C/D snoRNA-like domains for
+#=GF RT    modification of snRNAs in metazoa.
+#=GF RA    Tycowski KT, Aab A, Steitz JA;
+#=GF RL    Curr Biol. 2004;14:1985-1995.
+#=GF RN    [2]
+#=GF RM    16381836
+#=GF RT    snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D box
+#=GF RT    snoRNAs.
+#=GF RA    Lestrade L, Weber MJ;
+#=GF RL    Nucleic Acids Res. 2006;34:D158-D162.
+#=GF CC    U78 belongs to the CD family of snoRNAs. It is predicted to guide
+#=GF CC    2'O-ribose methylation of the large 28S rRNA subunit at position
+#=GF CC    G4593. The snoRNAs U44, U47, U74, U75, U76, U77, U79, U80 and
+#=GF CC    U81, also of the C/D family, share the same host gene with U78
+#=GF CC    (protein non-coding).
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_SNORD78
+#=GF SQ    18
+
+#=GS G.gallus.1             AC    AADN02034182.1/3905-3971
+#=GS E.telfairi.1           AC    AAIY01534871.1/1323-1387
+#=GS O.cuniculus.1          AC    AAGW01454978.1/76-139
+#=GS O.princeps.1           AC    AAYZ01154867.1/102-165
+#=GS M.musculus.1           AC    BC055883.1/519-584
+#=GS Spermophilus_tridece.1 AC    AAQQ01328837.1/778-842
+#=GS M.mulatta.1            AC    AC143509.11/60545-60610
+#=GS H.sapiens.1            AC    AC092630.3/54523-54591
+#=GS H.sapiens.2            AC    AC073875.6/8012-8076
+#=GS H.sapiens.3            AC    AL591203.15/10035-10099
+#=GS M.murinus.1            AC    ABDC01272342.1/6406-6470
+#=GS T.belangeri.1          AC    AAPY01728088.1/8008-8072
+#=GS F.catus.1              AC    AANG01024596.1/1171-1235
+#=GS B.taurus.1             AC    AAFC03120161.1/29388-29452
+#=GS E.europaeus.1          AC    AANN01730354.1/1224-1287
+#=GS E.caballus.1           AC    AAWR02036950.1/20761-20825
+#=GS Dasypus_novemcinctus.1 AC    AAGV020273689.1/2172-2236
+#=GS Monodelphis_domestic.1 AC    AAFR03026464.1/110466-110530
+
+G.gallus.1                         UUGUAAUGAUGUUG.UCAAAUGUCUGACCUGAAACUACUAAUGUAGAUUU
+E.telfairi.1                       UUACAAUGAUGUUUAACGAAUGUCUGACCUGAAGAGAGCA.UGUAGACAA
+O.cuniculus.1                      UUGUAAUGAUGUUGAUCAAAUGUCUGAUCUGAAAAGAGCA.UGUAGACAA
+O.princeps.1                       CUGUAAUGAUGUUGAUCAAAUGUCUGACCUGAAGCAAGCA.UGUGGACAA
+M.musculus.1                       UUGUAAUGAUGUUGAUCAAAUGUCUGAGCUGAAAAUAACU.UGUAGACAA
+Spermophilus_tridece.1             UUGUAAUGAUGUUGUUCAAAUGUCUGACCUGAAAUGAGCA.UGUAGACAA
+M.mulatta.1                        GUGUAAUGAUGUUGAUCAAAUGUCUGACCUGAAAUGAGCG.UGUAGACAG
+H.sapiens.1                        AUGUAAUAAUGUUCAUCAAAUGUCUGACCUGAAAUGAGCA.UGUAGACAA
+H.sapiens.2                        CUGUAAUGAUGUUGCUCAAAUAUCUGACCUGAAAUGAUUA.UAUAGACCA
+H.sapiens.3                        GUGUAAUGAUGUUGAUCAAAUGUCUGACCUGAAAUGAGCA.UGUAGACAA
+M.murinus.1                        CUGCAAUGAUGUUGAUCAAAUGUCUUACCUAAAAUGAGCA.UGUAGACAA
+T.belangeri.1                      UUGUAAUGAUGUUGAUCAAAUGUCUGACCUGAAGUAAGCA.UGUAGACAA
+F.catus.1                          UUGAAAUGAUGUUGACCAAAUGUCUGACUGAAAGUGAGCA.UGUAGACAA
+B.taurus.1                         UUGCAAUGAUGUUGAGCAAAUGUCUGACCUGAAAUUAGCA.UGUUGACAA
+E.europaeus.1                      UUGUAAUGAUGUUGACCAAAUGUCUGACCUGAAAUAAGUA.UGUAGACAA
+E.caballus.1                       UUGUAAUGAUGUUGAUCAAAUGUCUGACCUGAAAUGAGCA.UGUAGACAA
+Dasypus_novemcinctus.1             UUAAAAUGAUGGUGAUCAAAUGUCUGGCCUGAAAUGAACA.UGUAGAAAA
+Monodelphis_domestic.1             UUAUAAUGAUGU.CCUCAAAUGUCUGACCUGAAAUCAGCA.UGUAGAUAA
+#=GC SS_cons                       ..................................................
+#=GC RF                            uUGUAAUGAUGUUGAUCAAAUGUCUGAcCUGAAAuGAgcA.UGUAGACAA
+
+G.gallus.1                         C..UUUUUUUUACUGAAAAA
+E.telfairi.1                       ....AUUUAACACUGAAAAG
+O.cuniculus.1                      ...AUGU..GUACUGAAGAA
+O.princeps.1                       ...GAGU..GUGCUGAAGAA
+M.musculus.1                       ...UUUUUAACACUGAAGAA
+Spermophilus_tridece.1             ....GUUUUAUGCUGAAGAA
+M.mulatta.1                        ...AAGGUAACACUGAAGAA
+H.sapiens.1                        GUUAAUUUAACACUGAAGAA
+H.sapiens.2                        ....AUUUAAUACUGAAGAA
+H.sapiens.3                        ...AGGU.AACACUGAAGAA
+M.murinus.1                        ....AUUUAAUACUGAAGGA
+T.belangeri.1                      ....ACAUAGCACUGAAAAG
+F.catus.1                          ....AUUUAACACUGAAGAA
+B.taurus.1                         ....GUCUAACUCUGAAGAA
+E.europaeus.1                      .....GUUAACACUGAAGAA
+E.caballus.1                       ....AUUUAACACUGAAGAA
+Dasypus_novemcinctus.1             ....AUUUAAUACUGAAGAA
+Monodelphis_domestic.1             ...AUCACAGCACUGAAGUG
+#=GC SS_cons                       ....................
+#=GC RF                            ...AAuUUAAcACUGAAGAA
+//

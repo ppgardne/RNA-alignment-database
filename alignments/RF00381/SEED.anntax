@@ -1,0 +1,80 @@
+# STOCKHOLM 1.0
+#=GF ID    Antizyme_FSE
+#=GF AC    RF00381
+#=GF DE    Antizyme RNA frameshifting stimulation element
+#=GF AU    Moxon SJ
+#=GF GA    23.0
+#=GF NC    22.2
+#=GF TC    27.4
+#=GF SE    PMID:15147837
+#=GF SS    Published; PMID:15147837
+#=GF TP    Cis-reg; frameshift_element;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000233 SO:mature_transcript
+#=GF RN    [1]
+#=GF RM    15147837
+#=GF RT    Identification of a new antizyme mRNA +1 frameshifting stimulatory
+#=GF RT    pseudoknot in a subset of diverse invertebrates and its apparent
+#=GF RT    absence in intermediate species.
+#=GF RA    Ivanov IP, Anderson CB, Gesteland RF, Atkins JF;
+#=GF RL    J Mol Biol 2004;339:495-504.
+#=GF CC    This family represents a structural element which is found in antizyme
+#=GF CC    mRNA and is known to promote frameshifting. Antizyme genes have have two
+#=GF CC    partially overlapping open reading frames, the second, which encodes the
+#=GF CC    functional protein requires +1 translational frameshifting. This frameshift
+#=GF CC    is stimulated by a pseudoknot present 3' of the frameshift site in the
+#=GF CC    antizyme mRNA. The frameshifting efficiency is dependent on the level of
+#=GF CC    polyamines in the cell, when the polyamine concentration is high
+#=GF CC    frameshifting is more likely to occur which leads to an increase in the
+#=GF CC    quantity of functional antizyme produced. The functional antizyme acts to
+#=GF CC    reduce ornithine decarboxylase (ODC) activity which leads to a drop in
+#=GF CC    polyamines present in the cell. Therefore, this family can be thought of as
+#=GF CC    a biosensor for intracellular free polyamines [1].
+#=GF WK    http://en.wikipedia.org/wiki/Antizyme_RNA_frameshifting_stimulation_element
+#=GF SQ    13
+
+#=GS T.marmorata.1  AC    AF291576.1/215-270
+#=GS D.rerio.1      AC    AB017117.1/228-286
+#=GS D.rerio.2      AC    BC054690.1/204-259
+#=GS D.rerio.3      AC    BC056833.1/241-299
+#=GS M.musculus.1   AC    AC127562.3/159515-159570
+#=GS R.norvegicus.1 AC    D11373.1/473-530
+#=GS R.norvegicus.2 AC    D10706.1/256-314
+#=GS H.sapiens.1    AC    AC004152.1/16641-16699
+#=GS H.sapiens.2    AC    AF293339.1/257-315
+#=GS H.sapiens.3    AC    AF242520.1/225-280
+#=GS S.scrofa.1     AC    AF196332.1/69-127
+#=GS M.eugenii.1    AC    AC145407.3/104311-104366
+#=GS T.scripta.1    AC    AF258463.1/230-288
+
+T.marmorata.1              UGAUGCCCCUCACCCAUCAGUGAAGAUCCCGGGUGGGCGAGGGAACGG..
+D.rerio.1                  UGAUGUCCCUCUCCCACCCCUGAAGAUCCCAGGUGGGCGAGGGAAUGAUC
+D.rerio.2                  UGAUGCCCCUCUCCCACUAACGAAGAUCCCGGGUGGGCGAGGG.ACGGGC
+D.rerio.3                  UGAUGCCCCUCACCCACCUCUGAAGAUCCCAGGUGGGCGAGGGAACGGAG
+M.musculus.1               UGAUGCCCCUCACCCACUGUCGAAGAUCCCCGGAGGGCAAGGGGGCGGC.
+R.norvegicus.1             UGAUGUCCCUCACCCAGCCCUGAAGAGCCCAGGUGGGCGAGGGAACAGUC
+R.norvegicus.2             UGAUGUCCCUCACCCACCCCUGAAGAUCCCAGGUGGGCGAGGGAACAGUC
+H.sapiens.1                UGAUGCCCCUCACCCACCCCUGAAGAUCCCAGGUGGGCGAGGGAAUAGUC
+H.sapiens.2                UGAUGUCCCUCACCCACCCCUGAAGAUCCCAGGUGGGCGAGGGGAUAGCC
+H.sapiens.3                UGAUGCCCCUCACCCACUGUCGAAGAUCCCCGGUGGGCGAGGGGGCGGC.
+S.scrofa.1                 UGAUGUCCCUCACCCACCCCUGAAGAUCCCAGGUGGGCGAGGGAAUAGUC
+M.eugenii.1                UGAUGCCCCUCACCCACUGUUGAAGACCCUCAGUGGGUGAGGGGGCGGC.
+T.scripta.1                UGAUGUCCCUCACCCACCCCUGAAGAUCCCAGGUGGGCGAGGGAAUAGUC
+#=GC SS_cons               .....<<<<<<.<<<<<<......AAAAAA.>>>>>>.>>>>>>......
+
+T.marmorata.1              .AAGGGAUC
+D.rerio.1                  AGCGGGAUC
+D.rerio.2                  A..GGGAUC
+D.rerio.3                  CACGGGAUC
+M.musculus.1               ..AGGGAUU
+R.norvegicus.1             AGC.GGAUC
+R.norvegicus.2             AGCGGGAUC
+H.sapiens.1                AGAGGGAUC
+H.sapiens.2                AGAGGGAUC
+H.sapiens.3                ..AGGGAUC
+S.scrofa.1                 AGAGGGACC
+M.eugenii.1                ..AAGGAUC
+T.scripta.1                AGAGGGAUC
+#=GC SS_cons               ...aaaaaa
+//

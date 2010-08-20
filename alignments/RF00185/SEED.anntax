@@ -1,0 +1,380 @@
+# STOCKHOLM 1.0
+#=GF ID    Flavi_CRE
+#=GF AC    RF00185
+#=GF DE    Flavivirus 3' UTR cis-acting replication element (CRE)
+#=GF AU    Bateman A, Moxon SJ, Weinberg Z
+#=GF GA    26.0
+#=GF NC    24.2
+#=GF TC    26.1
+#=GF PI    Flavi_pk3
+#=GF SE    Bateman A, Moxon SJ, Weinberg Z
+#=GF SS    Published; PMID:9696848; Bateman A, Moxon SJ, Weinberg Z
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000205 SO:three_prime_UTR
+#=GF RN    [1]
+#=GF RM    9696848
+#=GF RT    Identification of specific nucleotide sequences within the conserved
+#=GF RT    3'-SL in the dengue type 2 virus genome required for replication.
+#=GF RA    Zeng L, Falgout B, Markoff L;
+#=GF RL    J Virol 1998;72:7510-7522.
+#=GF RN    [2]
+#=GF RM    8672458
+#=GF RT    Evidence for the existence of a pseudoknot structure at the 3'
+#=GF RT    terminus of the flavivirus genomic RNA.
+#=GF RA    Shi PY, Brinton MA, Veal JM, Zhong YY, Wilson WD;
+#=GF RL    Biochemistry 1996;35:4222-4230.
+#=GF CC    This family represents the Flavivirus 3'-SL cis-acting replication
+#=GF CC    element (CRE). The family is thought to play a crucial role in replication
+#=GF CC    and is thought to be needed for the formation of a "replication complex"
+#=GF CC    [1].  Although evidence has been presented for an existence
+#=GF CC    of a pseudoknot structure in this RNA [2], it does not appear to be
+#=GF CC    well conserved across flaviviruses.  Deletions of the 3' UTR of 
+#=GF CC    flaviviruses have been shown to be lethal for infectious clones.
+#=GF WK    http://en.wikipedia.org/wiki/Flavivirus_3'_UTR_cis-acting_replication_element_(CRE)
+#=GF SQ    84
+
+#=GS Dengue_virus_2.1        AC    AF022438.1/10631-10723
+#=GS Dengue_virus_3.1        AC    AY099346.1/2415-2507
+#=GS Dengue_virus_1.1        AC    AF350498.1/10643-10735
+#=GS Dengue_virus_2.2        AC    U87412.1/10631-10697
+#=GS Dengue_virus_1.2        AC    AY145122.1/10643-10733
+#=GS Dengue_virus_2.3        AC    M19197.1/10611-10703
+#=GS Dengue_virus_4.1        AC    AF326825.1/10557-10649
+#=GS Dengue_virus_3.2        AC    AY679147.1/10615-10703
+#=GS Dengue_virus_1.3        AC    AF310147.1/373-455
+#=GS Dengue_virus_1.4        AC    AB074761.1/10643-10735
+#=GS Dengue_virus_2.4        AC    AF119661.1/10631-10723
+#=GS Dengue_virus_4.2        AC    AF310153.1/295-377
+#=GS Dengue_virus_2.5        AC    AF169684.1/10631-10723
+#=GS Dengue_virus_1.5        AC    AB074760.1/10643-10735
+#=GS Dengue_virus_3.3        AC    AF310149.1/353-435
+#=GS Dengue_virus_4.3        AC    AF289029.1/10573-10665
+#=GS Dengue_virus_1.6        AC    U88537.1/10643-10735
+#=GS Dengue_virus_2.6        AC    FJ850060.1/10610-10676
+#=GS Dengue_virus_2.7        AC    AF204178.1/10631-10723
+#=GS Dengue_virus_2.8        AC    AF022440.1/10631-10723
+#=GS Dengue_virus_2.9        AC    AF204177.1/10631-10723
+#=GS Dengue_virus_1.7        AC    AF226686.1/10643-10735
+#=GS Dengue_virus_2.10       AC    M84727.1/10631-10723
+#=GS Dengue_virus_2.11       AC    M84728.1/10631-10723
+#=GS Dengue_virus_2.12       AC    AF022439.1/10631-10723
+#=GS Japanese_encephaliti.1  AC    AY303796.1/10878-10969
+#=GS Murray_Valley_enceph.1  AC    AF161266.1/10915-11014
+#=GS Japanese_encephaliti.2  AC    AF075723.1/10877-10976
+#=GS Japanese_encephaliti.3  AC    U47032.1/10877-10976
+#=GS Japanese_encephaliti.4  AC    AF306514.1/473-572
+#=GS Japanese_encephaliti.5  AC    AY303794.1/10878-10969
+#=GS Japanese_encephaliti.6  AC    AF045551.2/10864-10963
+#=GS West_Nile_virus.1       AC    AB185914.2/10936-11029
+#=GS Japanese_encephaliti.7  AC    AY184212.1/10878-10978
+#=GS Japanese_encephaliti.8  AC    AF416457.1/10877-10976
+#=GS West_Nile_virus.2       AC    EF571854.1/10936-11009
+#=GS Japanese_encephaliti.9  AC    AF486638.1/10878-10977
+#=GS Japanese_encephaliti.10 AC    M14933.1/102-200
+#=GS Kunjin_virus.1          AC    AY274505.1/10929-11022
+#=GS West_Nile_virus.3       AC    AY688948.1/10964-11057
+#=GS West_Nile_virus.4       AC    M12294.2/10869-10962
+#=GS Japanese_encephaliti.11 AC    AF069076.1/10878-10977
+#=GS West_Nile_virus.5       AC    AY262283.1/10899-10984
+#=GS Japanese_encephaliti.12 AC    AF098737.1/10877-10976
+#=GS Japanese_encephaliti.13 AC    AY303795.1/10878-10969
+#=GS Japanese_encephaliti.14 AC    L48961.1/10877-10976
+#=GS Japanese_encephaliti.15 AC    AF217620.1/10865-10964
+#=GS Japanese_encephaliti.16 AC    AF306516.1/477-576
+#=GS Japanese_encephaliti.17 AC    U14163.1/10877-10976
+#=GS Japanese_encephaliti.18 AC    AY585243.1/10869-10968
+#=GS Japanese_encephaliti.19 AC    AF254453.1/10878-10969
+#=GS Yellow_fever_virus.1    AC    AY326415.1/368-467
+#=GS Yellow_fever_virus.2    AC    U21056.1/10762-10860
+#=GS Yellow_fever_virus.3    AC    U52393.1/369-467
+#=GS Yellow_fever_virus.4    AC    U52399.1/343-441
+#=GS Yellow_fever_virus.5    AC    U52423.1/369-467
+#=GS Yellow_fever_virus.6    AC    AY640589.1/10762-10860
+#=GS Yellow_fever_virus.7    AC    AY326413.1/368-466
+#=GS Yellow_fever_virus.8    AC    U17066.1/10762-10860
+#=GS Yellow_fever_virus.9    AC    AY326414.1/369-467
+#=GS Yellow_fever_virus.10   AC    U52417.1/345-443
+#=GS Yellow_fever_virus.11   AC    U54798.1/10762-10860
+#=GS Omsk_hemorrhagic_fev.1  AC    AY193805.1/10685-10787
+#=GS Powassan_virus.1        AC    L06436.1/10738-10839
+#=GS Langat_virus.1          AC    AF253420.1/10842-10943
+#=GS Tick-borne_encephali.1  AC    AB049398.1/628-730
+#=GS Tick-borne_encephali.2  AC    AB049396.1/620-721
+#=GS Powassan_virus.2        AC    AF310931.1/380-461
+#=GS Tick-borne_encephali.3  AC    L40361.3/10825-10927
+#=GS Tick-borne_encephali.4  AC    AF069066.1/10825-10927
+#=GS Powassan_virus.3        AC    AF310930.1/376-457
+#=GS Tick-borne_encephali.5  AC    M76660.1/535-636
+#=GS Deer_tick_virus.1       AC    AF357219.1/530-631
+#=GS Powassan_virus.4        AC    AF310929.1/376-458
+#=GS Powassan_virus.5        AC    AF310933.1/378-458
+#=GS Tick-borne_encephali.6  AC    AB049400.1/627-729
+#=GS Tick-borne_encephali.7  AC    AB049391.1/623-725
+#=GS Powassan_virus.6        AC    AF310926.1/379-460
+#=GS Tick-borne_encephali.8  AC    U27496.1/624-726
+#=GS Tick-borne_encephali.9  AC    U27494.1/1000-1101
+#=GS Tick-borne_encephali.10 AC    U27495.1/11040-11141
+#=GS Tick-borne_encephali.11 AC    AB049399.1/627-729
+#=GS Louping_ill_virus.1     AC    Y07863.1/10770-10871
+#=GS Powassan_virus.7        AC    EU670438.1/10738-10819
+
+Dengue_virus_2.1                    CUGG.GAA.AGACCAG...AGAU.CCUGCUG..UCUCCC.....C.AG.C
+Dengue_virus_3.1                    CUGG.GAG.AGACCAG...AGAU.CCUGCUG..UCUCCU.....C.AG.C
+Dengue_virus_1.1                    CUGG.GAG.AGACCAG...AGAU.CCUGCUG..UCUCUA.....C.AG.C
+Dengue_virus_2.2                    CUGG.GAA.AGACCAG...AGAU.CCUGCUG..UCUCCU.....C.AG.C
+Dengue_virus_1.2                    CUGG.GAG.AGACCAG...AGAU.CU.GCUG..UCUCUA.....C.AG.C
+Dengue_virus_2.3                    CUGG.GAA.AGACCAG...AGAU.CCUGCUG..UCUCCU.....C.AG.C
+Dengue_virus_4.1                    CUGG.GAA.AGACCAG...AGAU.CCUGCUG..UCUCUG.....C.AA.C
+Dengue_virus_3.2                    CUGG.GAG.AGACCAG...AGAU.CCUGCUG..UCUCCU.....C.AG.C
+Dengue_virus_1.3                    CUGG.GAG.AGACCAG...AGAU.CCUGCUG..UCUCUA.....C.AG.C
+Dengue_virus_1.4                    CUGG.GAG.AGACCAG...AGAU.CCUGCUG..UCUCUA.....C.AG.C
+Dengue_virus_2.4                    CUGG.GAA.AGACCAG...AGAU.CCUGCUG..UCUCCU.....C.AG.C
+Dengue_virus_4.2                    CUGG.GAA.AGACCAG...AGAU.CCUGCUG..UCUCUG.....C.AA.C
+Dengue_virus_2.5                    CUGG.GAA.AGACCAG...AGAU.CCUGCUG..UCUCCU.....C.AG.C
+Dengue_virus_1.5                    CUGG.GAG.AGACCAG...AGAU.CCUGCUG..UCUCUA.....C.AG.C
+Dengue_virus_3.3                    CUGG.GAG.AGACCAG...AGAU.CCUGCUG..UCUCCU.....C.AG.C
+Dengue_virus_4.3                    CUGG.GAA.AGACCAG...AGAU.CCUGCUG..UCUCUA.....C.AA.C
+Dengue_virus_1.6                    CUGG.GAG.AGACCAG...AGAU.CCUGCUG..UCUCUA.....C.AG.C
+Dengue_virus_2.6                    CUGG.GAA.AGACCAG...AGAU.CCUGCUG..UCUCCU.....C.AG.C
+Dengue_virus_2.7                    CUGG.GAA.AGACCAG...AGAU.CCUGCCG..UCUCCU.....C.AG.C
+Dengue_virus_2.8                    AUGG.GAA.AGACCAG...AGAU.CCUGCUG..UCUCCU.....C.AG.C
+Dengue_virus_2.9                    CUGG.GAA.AGACCAG...AGAU.CCUGCUG..UCUCCU.....C.AG.C
+Dengue_virus_1.7                    CUGG.GAG.AGACCAG...AGAU.CCUGCUG..UCUCUA.....C.AG.C
+Dengue_virus_2.10                   CUGG.GAC.AGACCAG...AAAU.CCAACUA..UCUACU.....C.AG.C
+Dengue_virus_2.11                   CUGG.GAA.AGACCAG...AAAU.ACUACUA..UCUACU.....C.AG.C
+Dengue_virus_2.12                   CUGG.GAA.AGACCAG...AGAU.CCUGCUG..UUUCCU.....C.AG.C
+Japanese_encephaliti.1              CUGG.GAAUAGACUAGG..AGAU.CUU.CUGC.UCUAUCU....C.AA.C
+Murray_Valley_enceph.1              CUGG.GAAAAGACUAGG..AGAU.CUU.CUGC.UCUAUU.....C.CAAC
+Japanese_encephaliti.2              CUGG.GAAUAGACUGGG..AGAU.CUU.CUGC.UCUAUCU....C.AA.C
+Japanese_encephaliti.3              CUGG.GAAUAGACUAGG..AGAU.CUU.CUGC.UCUAUCU....C.AA.C
+Japanese_encephaliti.4              CUGG.GAAUAGAGUGGG..AGAU.CUU.CUGC.UCUAUCU....C.AA.C
+Japanese_encephaliti.5              CUGG.GAAUAGACUGGG..AGA..UCUUCUGC.UCUAUCU....C.AA.C
+Japanese_encephaliti.6              CUGG.GAAUAGAGUGGG..AGAU.CUU.CUGC.UCUAUCU....C.AA.C
+West_Nile_virus.1                   CUGG.GAU.AGACUAGG..AGAU.CCU.CUGC.UCUG.......C.AC.A
+Japanese_encephaliti.7              CUGG.GAAUAGACUAGG..AGAU.CUU.CUGC.UCUAUCU....C.AA.C
+Japanese_encephaliti.8              CUGG.GAAUAGACUGGG..AGAU.CUU.CUGC.UCUAUCU....C.AA.C
+West_Nile_virus.2                   CUGG.GAU.AGACUAGG..AGAU.CU.UCUGC.UCUGCA.....CAAC.C
+Japanese_encephaliti.9              CUGG.GAAUAUACUGGG..AGAU.CUU.CUGC.UCUAUCU....C.AA.C
+Japanese_encephaliti.10             CUGG.GAAUAGACUGGG..AGAU.CUU.CUGC.UCUAUCU....C.AA.C
+Kunjin_virus.1                      CUGG.GAU.AGACUAGG..AGAU.CUU.CUGC.UCUG.......C.AC.A
+West_Nile_virus.3                   CUGG.GAU.AGACUAGG..GGAU.CUU.CUGC.UCUG.......C.AC.A
+West_Nile_virus.4                   CUGG.GAU.AGACUAGG..GGAU.CUU.CUGC.UCUG.......C.AC.A
+Japanese_encephaliti.11             CUGG.GAAUAGACUGGG..AGAU.CUU.CUGC.UCUAUCU....C.AA.C
+West_Nile_virus.5                   CUGG.GAU.AGACUAGG..AGA..UCUUCUGC.UCUG.......C.AC.A
+Japanese_encephaliti.12             CUGGAGAU.AGACUGGG..AGAU.CUU.CUGC.UCUAUCU....C.AA.C
+Japanese_encephaliti.13             CUGG.GAAUAGACUAGG..AGAU.CUU.CUGC.UCUAUCU....C.AA.C
+Japanese_encephaliti.14             CUGG.GAAUAGACUGGG..AGAU.CUU.CUGC.UCUAUCU....C.AA.C
+Japanese_encephaliti.15             CUGG.GAAUAGACUGGG..AGAU.CUU.CUGC.UCUAUCU....C.AA.C
+Japanese_encephaliti.16             CUGG.GAAUAGACUGGG..AGAU.CUU.CUGC.UCUAUCU....C.AA.C
+Japanese_encephaliti.17             CUGG.GAAUAGACUGGG..AGAU.CUU.CUGC.UCUAUCU....C.AA.C
+Japanese_encephaliti.18             CUGG.GAAUAGACUGGG..AGAU.CUU.CUGC.UCUAUCU....C.AA.C
+Japanese_encephaliti.19             CUGG.GAAUAGACUGGG..AGAU.CUU.CUGC.UCUAUCU....C.AA.C
+Yellow_fever_virus.1                CAGG.GAA.AGACCGGAG.UGG..UCU.CUGCUUUUCCU.....C.CA.A
+Yellow_fever_virus.2                CAGG.GAA.AGACCGGAG.UGGU.UCU.CUGCUUUUCCU.....C.CA.G
+Yellow_fever_virus.3                CAGG.GAA.AGACCGGAG.UGGU.UCU.CUGCUUUUCCU.....C.CA.G
+Yellow_fever_virus.4                CAGG.GAA.AGACCGGAG.UGGU.UCU.CUGCUUUUCCU.....C.CG.G
+Yellow_fever_virus.5                CAGG.GAA.AGACCGGAG.UGGU.UCU.CUGCUUUUCCU.....C.CA.G
+Yellow_fever_virus.6                CAGG.GAA.AGACCGGAG.UGGU.UCU.CUGCUUUUCCU.....C.CA.G
+Yellow_fever_virus.7                CAAG.GAA.AGACCGGAG.UGGU.UCU.CUGCUUUUCCU.....C.CA.G
+Yellow_fever_virus.8                CAGG.GAA.AGACCGGAG.UGGU.UCU.CUGCUUUUCCU.....C.CA.G
+Yellow_fever_virus.9                CAGG.GAA.AGACCGGAG.UGGG.UCU.UUGCUUUUUCU.....U.CA.A
+Yellow_fever_virus.10               CAGG.GAA.AGACCGGAG.UGGU.UCU.CUGCUUUUCCU.....C.CA.G
+Yellow_fever_virus.11               CAGG.GAA.AGACCGGAG.UGGU.UCU.CUGCUUUUCCU.....C.CA.G
+Omsk_hemorrhagic_fev.1              CCCU.CAUCUGAGGGGG..GGC..GGUUCUUGUUCUCCCUGAGCC.AC.C
+Powassan_virus.1                    CCAG.G...AAACUGGGGGGGC..GGUUCUUGUUCUCCCUGAGCC.AC.C
+Langat_virus.1                      CCUC.GUC.AGAGGGGG..GGC..GGUUCUUGUUCUCCCUGAGCC.AC.C
+Tick-borne_encephali.1              CCCU.CAAUAGAGGGGG..GGC..GGUUCUUGUUCUCCCUGAGCC.AC.C
+Tick-borne_encephali.2              CCUC.AAU.AGAGGGGG..GGC..GGUUCUUGUUCUCCCUGAGCC.AC.C
+Powassan_virus.2                    CCAG.G...AAACUGGGG.GGG.CGGUUCUUGUUCUCCCUGAGCU.AC.C
+Tick-borne_encephali.3              CCCU.CAACAGAGGGGG..GGC..GGUUCUUGUUCUCCCUGAGCC.AC.C
+Tick-borne_encephali.4              CCCU.CAACAGAGGGGG..GGC..GGUUCUUGUUCUCCCUGAGCC.AC.C
+Powassan_virus.3                    CCCA.GGA.AGCUGGGGG.GGC..GUU.CUUGUUCUCCCUGAGCC.AC.C
+Tick-borne_encephali.5              CCUC.GGU.AGAGGGGG..GGC..GGUUCUUGUUCUCCCUGAGCC.AC.C
+Deer_tick_virus.1                   CCAG.G...AAACUGGGGGGGC..GGUUCUUGUUCUCCCUGAGCC.AC.C
+Powassan_virus.4                    CCCA.GGA.AGCUGGGGG.GGC..GGUUCUUGUUCUCCCUGAUCC.AC.C
+Powassan_virus.5                    CCAG.G...AAACUGGGG.GGG.CGUU.CUUGUUCUCCCUGAGCC.AC.C
+Tick-borne_encephali.6              CCCU.CAAUAGAGGGGG..GGC..GGUUCUUGUUCUCCCUGAGCC.AC.C
+Tick-borne_encephali.7              CCCU.CAAUAGAGGGGG..GGC..GGUUCUUGUUCUCCCUGAGCC.AC.C
+Powassan_virus.6                    CCAG.G...AAACUGGGG.GGG.CGGUUCUUGUUCUCCCUGAGCC.AC.C
+Tick-borne_encephali.8              CCCU.CAAUAGAGGGGG..GGC..GGUUCUUGUUCUCCCUGAGCC.AC.C
+Tick-borne_encephali.9              CCUC.GGC.AGAGGGGG..GGC..GGUUCUUGUUCUCCCUGAGCC.AC.C
+Tick-borne_encephali.10             CCUC.GGU.AGAGGGGG..GGC..GGUUCUUGUUCUCCCUGAGCC.AC.C
+Tick-borne_encephali.11             CCCU.CAAUAGAGGGGG..GGC..GGUUCUUGUUCUCCCUGAGCC.AC.C
+Louping_ill_virus.1                 CCUC.GAC.AGAGGGGG..GGC..GGUUCUUGUUCUCCCUGAGCC.AC.C
+Powassan_virus.7                    CCAG.G...AAACUGGGG.GGG.CGGUUCUUGUUCUCCCUGAGCC.AC.C
+#=GC SS_cons                        <<<<........>>>>...<<<..<<<.................<.<<.<
+
+Dengue_virus_2.1                    AUCA..UUC.CAGGCACAGAACGCCAG..AAAAUG.GAA.UGGUG.CUGU
+Dengue_virus_3.1                    AUCA..UUC.CAGGCACAGAACGCCAG..AAAAUG.GAA.UGGUG.CUGU
+Dengue_virus_1.1                    AUCA..UUC.CAGGCACAGAACGCCAG..AAAAUG.GAA.UGGUG.CUGU
+Dengue_virus_2.2                    AUCA..UUC.CAGGCACAGAACGCCAG..A......AAA.UGGA......
+Dengue_virus_1.2                    AUCA..UUC.CAGGCACAGAACGCCAG..AAAAUG.GAA.UGGUG.CUGU
+Dengue_virus_2.3                    AUCA..UUC.CAGGCACAGGACGCCAG..AAAAUG.GAA.UGGUG.CUGU
+Dengue_virus_4.1                    AUCA..AUC.CAGGCACAGAGCGCCGC..AAGAUG.GAU.UGGUG.UUG.
+Dengue_virus_3.2                    AUCA..UUC.CAGGCACAGAACGCCAG..AAAAUG.GAA.UGGUG.CUGU
+Dengue_virus_1.3                    AUCA..UUC.CAGGCACAGAACGCCAG..AAAAUC.GAA.UGGUG.CUGU
+Dengue_virus_1.4                    AUCA..AUC.CAGGCACAGAGCACCAG..AAAAUG.GAA.UGGUG.CUGU
+Dengue_virus_2.4                    AUCA..UUC.CAGGCACAGAACGCCAG..AAAAUG.GAA.UGGUC.CUGU
+Dengue_virus_4.2                    AUCA..AUC.CAGGCACAGAGCGCCGC..AAGAUC.GAA.UGGUG.CUGU
+Dengue_virus_2.5                    AUCA..UUC.CAGGCACAGAACGCCAG..AAAAUG.GAA.UGGUG.CUGU
+Dengue_virus_1.5                    AUCA..UUC.CAGGCACAGAGCGCCAG..AAAAUG.GAA.UGGUG.CUGU
+Dengue_virus_3.3                    AUCA..UUC.CAGGCACAGAACGCCAG..AAAAUC.GAA.UGGUG.CUGU
+Dengue_virus_4.3                    AUCA..AUC.CAGGCACAGAGCGCCGC..GAGAUG.GAU.UGGUG.UUG.
+Dengue_virus_1.6                    AUCA..UUC.CAGGCACAGAACGCCAA..AAAAUG.GAA.UGGUG.CUGU
+Dengue_virus_2.6                    AUCA..UUC.CAGGCACAGAACGCCAG..A......AAA.UGGA......
+Dengue_virus_2.7                    AUCA..UUC.CAGGCACAGAACGCCAG..AAAAUG.GAA.UGGUG.CUGU
+Dengue_virus_2.8                    AUCA..UUC.CAGGCACAGAACGCCAG..AAAAUG.GAA.UGGUG.CUGU
+Dengue_virus_2.9                    AUCA..UUC.CAGGCACAGAGCGCCAG..AAAAUG.GAA.UGGUG.CUGU
+Dengue_virus_1.7                    AUCA..UUC.CAGGCACAGAACGCCAG..AAAAUG.GAA.UGGUG.CUGU
+Dengue_virus_2.10                   AUCA..UUC.UAGGCACAGAACGCCAG..AAAAUG.GAA.UGGUG.CUGU
+Dengue_virus_2.11                   AUCA..UUC.CAGGCACAGAACGCCAG..AAAAUG.GAA.UGGUG.CUGU
+Dengue_virus_2.12                   AUCA..UUC.CAGGCACAGAACGCCAG..AAAAUG.GAA.UGGUG.CUGU
+Japanese_encephaliti.1              AUCAG.CUACUAGGCACAGAGCGCCGA..AGUAUG.UAGCUGGUG.GUGA
+Murray_Valley_enceph.1              AUCAG.UCACAAGGCACCGAGCGCCGA..ACACUG.UGACUGAUGGGGG.
+Japanese_encephaliti.2              AUCAG.CUACUAGGCACAGAGCGCCGA..AGUAUG.UGGCUGGUG.GUGA
+Japanese_encephaliti.3              AUCAG.CUACUAGGCACAGAGCGCCGA..AGUAUG.UAGCUGGUG.GUGA
+Japanese_encephaliti.4              AUCAG.UUAAUAGGCACAGAGCGCCGA..AGUAUG.UAGCUGGUG.GUGA
+Japanese_encephaliti.5              AUCAG.CUACUAGGCACAGAGCGCCGA..AGUAUG.UAGCUGGUG.GUGA
+Japanese_encephaliti.6              AUCAG.CUAAUAGGCACAGAGCGCCGA..AGUAUG.UAGCUGGUG.GUGA
+West_Nile_virus.1                   ACCAG.CCACACGGCACAGUGCGCCGA..CAAUGG.UGGCUGGUG.GUG.
+Japanese_encephaliti.7              AUCAAGCCACUAGGCACAGAGCGCCGA..AGUAUG.UAGCUGGUG.GUGA
+Japanese_encephaliti.8              AUCAG.CUACUAGGCACAGAGCGCCGA..AGUAUG.UACGUGGUG.GUGA
+West_Nile_virus.2                   AGC...CAC.ACGGCACAGUGCGCC.G..ACAAUG.GUG..GCUG...GU
+Japanese_encephaliti.9              AUCAG.CUACUAGGCACAGAGCGCCGA..AGUAUG.UAGCUUGUG.GUGA
+Japanese_encephaliti.10             AUCAG.CUA.CUAGCACAGAGCGCCGA..AGUAUG.UAGCUUGUG.GUGA
+Kunjin_virus.1                      ACCAG.CCACACGGCACAGUGCGCCGA..CAAUGG.UGGCUGGUG.GUG.
+West_Nile_virus.3                   ACCAG.CCACACGGCACAGUGCGCCGA..UAUAGG.UGGCUGGUG.GUG.
+West_Nile_virus.4                   ACCAG.CCACACGGCACAGUGCGCCGA..CAUAGG.UGGCUGGUG.GUG.
+Japanese_encephaliti.11             AUCAG.CUACUAGGCACAGAGCGCCGA..AGUAUG.UAGCUGGUG.GUGA
+West_Nile_virus.5                   ACCAG.CCACACGGCACAGUGCGCCGA..CAAUGG.UGGCUGGUG.GUGC
+Japanese_encephaliti.12             AUCAG.CUACUAGGCACAGAGCGCCGA..AGUAUG.UAGCUGGUG.GUGA
+Japanese_encephaliti.13             AUCAG.CUACUAGGCACAGAGCGCCGA..AGUAUG.UAGCUGGUG.GUGA
+Japanese_encephaliti.14             AUCAG.CUACUAGGCACAGAGCGCCGA..AGUAUG.UAGCUUGUG.GUGA
+Japanese_encephaliti.15             AUCAG.CUACUAGGCACAGAGCGCCGA..AACAUG.UAGCUGGUG.GUGA
+Japanese_encephaliti.16             AUCAG.CUAAUAGGCACAGAGCGCCGA..AGUAUG.UAGCUGGUG.GUGA
+Japanese_encephaliti.17             AUCAG.CUACUAGGCACAGAGCGCCGA..AGUAUG.UAGCUGGUA.GUGA
+Japanese_encephaliti.18             AUCAG.CUACUAGGCACAGAGCGCCGA..AGUAUG.UAGCUGGUG.GUGA
+Japanese_encephaliti.19             AUCAG.CUACUAGGCACAGAGCGCCGA..AGUAUG.UAGCUGGUG.GUGA
+Yellow_fever_virus.1                GGGUC.UGC..GAGCACAGUUUGCUU.UUAAAAGAAGCAGACCUUUUGGA
+Yellow_fever_virus.2                AGGUC.UGU..GAGCACAGUUUGCUCA..AGAAUAAGCAGACCUU.UGGA
+Yellow_fever_virus.3                GGGUC.UGU..GAGCACAGUUUGCUCU..AGAAGAAGCAGACCUU.UGGA
+Yellow_fever_virus.4                AGGUC.UGU..GAGCACAGUUUGCUCA..AGAAUAAGCAGACCUU.UGGA
+Yellow_fever_virus.5                GGGUC.UGC..GAGCACAGUUUGCUCU..AGAAGAAGCAGACCUU.UGGA
+Yellow_fever_virus.6                GGGUC.UGU..GAGCACAGUUUGCUCA..AGAAUAAGCAGACCUU.UGGA
+Yellow_fever_virus.7                GGGUC.UGC..GAGCACAGUUUGCUCU..AGAAGAAGCAGACCUU.UGGA
+Yellow_fever_virus.8                AGGUC.UGU..GAGCACAGUUUGCUCA..AGAAUAAGCAGACCUU.UGGA
+Yellow_fever_virus.9                GGGUC.UGC..GAGCACAGUUUGCUUU..AUAAGAAGCAGACCUU.UGGA
+Yellow_fever_virus.10               AGGUC.UGU..GAGCACAGUCUGCUCA..AGAAUAAGCAGACCUU.UGGA
+Yellow_fever_virus.11               AGGUC.UGU..GAGCACAGUUUGCUCA..AGAAUAAGCAGACCUU.UGGU
+Omsk_hemorrhagic_fev.1              AUCA..CCC..AGACACAGGCAGUCUA..ACAAGG.AGG.UGAUGUGUGA
+Powassan_virus.1                    ACCA..UCC..AGGCACAGAUAGCCUG..ACAAGG.AGA.UGGUGUGUGA
+Langat_virus.1                      AUCA..CCU..AGACACAGAUAGUCUG..AAAAGG.AGG.UGAUGCGUGU
+Tick-borne_encephali.1              AUCA..CCC..AGACACAGAUAGUCUG..AGAAGG.AGG.UGAUGUGUGA
+Tick-borne_encephali.2              AUCA..CCC..AGACACAGAUAGUCUG..ACAAGG.AGG.UGAUGUGUGA
+Powassan_virus.2                    ACCA..UCC..AGGCACAGAUAGCCUG..ACAAGG.AGA.UGGUG..UGU
+Tick-borne_encephali.3              AUCA..CCC..AGACACAGAUAGUCUG..ACAAGG.AGG.UGAUGUGUGA
+Tick-borne_encephali.4              AUCA..CCC..AGACACAGACAGUCUG..ACAAGG.AGG.UGAUGUGUGA
+Powassan_virus.3                    ACCA..UCC..AGGCACAGACAGCCUG..ACAAGG.AGA.UGGUG..AGU
+Tick-borne_encephali.5              AUCA..CCC..AGACACAGAUAGUCUG..ACAAGG.AGG.UGAUGUGUGA
+Deer_tick_virus.1                   GCCA..UCC..AGGCACAGAUAGCCUG..ACAAGG.AGA.UGGUGAGUGA
+Powassan_virus.4                    ACCA..UCC..AGGCACAGACAGCCUG..ACAAGG.AGA.UGGUG..AUU
+Powassan_virus.5                    GCCA..UCC..AGGCACAGAUAGCCUG..ACAAGG.AGA.UGGUG..AGU
+Tick-borne_encephali.6              AUCA..CCC..AGACACAGAUAGUCUG..ACAAGG.AGG.UGAUGCGUGA
+Tick-borne_encephali.7              AUCA..CCC..AGACACAGAUAGUCUG..ACAAGG.AGG.UGAUGAGUGA
+Powassan_virus.6                    ACCA..UCC..AGGCACAGAUAGCCUG..ACAAGG.AGA.UGGUG..UGU
+Tick-borne_encephali.8              AUCA..CCC..AGACACAGAUAGUCUG..ACAAGG.AGG.UGAUGUGUGA
+Tick-borne_encephali.9              AUCA..CCC..AGACACAGAUAGUCUG..ACAAGG.AGG.UGAUGUGUGA
+Tick-borne_encephali.10             AUCA..CCC..AGACACAGGUAGUCUG..ACAAGG.AGG.UGAUGUGUGA
+Tick-borne_encephali.11             AUCA..CCC..AGACACAGACAGUCUG..ACAAGG.AAG.UGAUGUGUGA
+Louping_ill_virus.1                 AUCA..CCC..AGACACAGAUAGUCUG..ACAAGG.AGG.UGAUGUGUGA
+Powassan_virus.7                    ACCA..UCC..AGGCACAGAUAGCCUG..ACAAGG.AGA.UGGUG..UGU
+#=GC SS_cons                        <<<<..<<<...<<<.......>>>...........>>>.>>>>>.>>>.
+
+Dengue_virus_2.1                    UG.AAUC.AACAGGUUCU
+Dengue_virus_3.1                    UG.AAUC.AACAGGUUCU
+Dengue_virus_1.1                    UG.AAUC.AACAGGUUCG
+Dengue_virus_2.2                    ..................
+Dengue_virus_1.2                    UG.AAUC.AAC.GGAUCU
+Dengue_virus_2.3                    UG.AAUC.AACAGGUUCU
+Dengue_virus_4.1                    UU.GAUCCAACAGGUUCU
+Dengue_virus_3.2                    UG.AAUC.AACGGG....
+Dengue_virus_1.3                    UGAAUC............
+Dengue_virus_1.4                    UG.AAUC.AACAGGUUCU
+Dengue_virus_2.4                    UG.AAUC.AACAGGUUCU
+Dengue_virus_4.2                    UGAAUC............
+Dengue_virus_2.5                    UG.AAUC.AACAGGUUCU
+Dengue_virus_1.5                    UG.AAUC.AACAGGUUCU
+Dengue_virus_3.3                    UGAAUC............
+Dengue_virus_4.3                    UU.GAUCCAACAGGUUCU
+Dengue_virus_1.6                    UG.AAUC.AACAGGUUCU
+Dengue_virus_2.6                    ..................
+Dengue_virus_2.7                    UG.AAUC.AACAGGUUCU
+Dengue_virus_2.8                    UG.AAUC.AACAGGUUCU
+Dengue_virus_2.9                    UG.AAUC.AACAGGUUCC
+Dengue_virus_1.7                    UG.AAUC.AACAGGUUCU
+Dengue_virus_2.10                   UG.AAUC.AACAGGUUCU
+Dengue_virus_2.11                   UG.AAUC.AACAGGUUCU
+Dengue_virus_2.12                   UG.AAUC.AACAGGUUCU
+Japanese_encephaliti.1              GG.........AAGAACA
+Murray_Valley_enceph.1              AG.AAGACCACAGGAUCU
+Japanese_encephaliti.2              GG.AAGAACACAGGAUCU
+Japanese_encephaliti.3              GG.AAGAACACAAGAUCU
+Japanese_encephaliti.4              GG.AAGAACACAGGAUCU
+Japanese_encephaliti.5              GGAAAAACA.........
+Japanese_encephaliti.6              GG.AAGAACACAGGAUCU
+West_Nile_virus.1                   CG.AGAA.CACAGGAUCU
+Japanese_encephaliti.7              GG.AAGAACACAGGAUCU
+Japanese_encephaliti.8              GG.AAGAACACAGGAUCU
+West_Nile_virus.2                   ..................
+Japanese_encephaliti.9              GG.AAGAACACAGGAUCU
+Japanese_encephaliti.10             GG.AAGAACACAGGAUCU
+Kunjin_virus.1                      CG.AGAA.CACAGGAUCU
+West_Nile_virus.3                   CU.AGAA.CACAGGAUCU
+West_Nile_virus.4                   CU.AGAA.CACAGGAUCU
+Japanese_encephaliti.11             GU.AAGAACACAGGAUCU
+West_Nile_virus.5                   GAGAACA...........
+Japanese_encephaliti.12             GG.AAGAACACAGGAUCU
+Japanese_encephaliti.13             GG.........AGAAACA
+Japanese_encephaliti.14             GG.AAGAACACAGGAUCU
+Japanese_encephaliti.15             GG.AAGAACACAGGAUCU
+Japanese_encephaliti.16             GG.AAGAACACAGGAUCU
+Japanese_encephaliti.17             GG.AAGAACACAGGAUCU
+Japanese_encephaliti.18             GG.AAGAACACAGGAUCU
+Japanese_encephaliti.19             GG.........AAGAACA
+Yellow_fever_virus.1                UG.AAAAACACAAAACCA
+Yellow_fever_virus.2                UG.AAAAACACAAAACCA
+Yellow_fever_virus.3                UG.AAAAACACAAAACCA
+Yellow_fever_virus.4                UG.AAAAACACAAAACCA
+Yellow_fever_virus.5                UG.AAAAACACAAAACCA
+Yellow_fever_virus.6                UG.AAAAACACAAAACCA
+Yellow_fever_virus.7                UG.AAAAACACAAAACCA
+Yellow_fever_virus.8                UG.ACAAACACAAAACCA
+Yellow_fever_virus.9                UG.AAAAACACAAAACCA
+Yellow_fever_virus.10               UG.AAAAACACAAAACCA
+Yellow_fever_virus.11               UG.ACAAACACAAAACCA
+Omsk_hemorrhagic_fev.1              CUCGGAACAACACCCGCU
+Powassan_virus.1                    CUCGGAAAAACACCCGCU
+Langat_virus.1                      CUCGGAAAAACACCCGCU
+Tick-borne_encephali.1              CUCGGAAAAACACCCGCU
+Tick-borne_encephali.2              CUCGGAAAAACACCCGCU
+Powassan_virus.2                    ..................
+Tick-borne_encephali.3              CUCGGAAAAACACCCGCU
+Tick-borne_encephali.4              CUCGGAAAAACACCCGCU
+Powassan_virus.3                    ..................
+Tick-borne_encephali.5              CUCGGAAAAACACCCGCU
+Deer_tick_virus.1                   CUCGGAAAAACACCCGCU
+Powassan_virus.4                    ..................
+Powassan_virus.5                    ..................
+Tick-borne_encephali.6              CUCGGAAAAACACCCGCU
+Tick-borne_encephali.7              CUCGGAAAAACACCCGCU
+Powassan_virus.6                    ..................
+Tick-borne_encephali.8              CUCGGAAAAACACCCGCU
+Tick-borne_encephali.9              CUCGGAAAAACACCCGCU
+Tick-borne_encephali.10             CUCGGAAAAACACCCGCU
+Tick-borne_encephali.11             CUCGGAAAAACACCCGCU
+Louping_ill_virus.1                 CUCGGAAAAACACCCGCU
+Powassan_virus.7                    ..................
+#=GC SS_cons                        ...........>>>.>>>
+//

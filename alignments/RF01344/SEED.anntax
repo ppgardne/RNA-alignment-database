@@ -1,0 +1,32 @@
+# STOCKHOLM 1.0
+#=GF ID    CRISPR-DR34
+#=GF AC    RF01344
+#=GF DE    CRISPR RNA direct repeat element
+#=GF AU    Wilkinson A
+#=GF GA    24.0
+#=GF NC    23.4
+#=GF TC    25.1
+#=GF SE    Predicted; WAR; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; CRISPR;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    URL; http://crispr.u-psud.fr/crispr/CRISPRHomePage.php
+#=GF DR    SO:0001459 SO:CRISPR
+#=GF WK    http://en.wikipedia.org/wiki/CRISPR
+#=GF SQ    5
+
+#=GS Neisseria_gonorrhoea.1 AC    AE004969.1/81551-81586
+#=GS Neisseria_meningitid.1 AC    AL157959.1/609469-609504
+#=GS Actinobacillus_succi.1 AC    CP000746.1/436802-436837
+#=GS Haemophilus_somnus_1.1 AC    CP000019.1/4748-4783
+#=GS Pasteurella_multocid.1 AC    AE004439.1/1319982-1320017
+
+Neisseria_gonorrhoea.1             GUUAUUGCUCCCGUUCUCAUUUCGCAGUGCUACAAU
+Neisseria_meningitid.1             GUUGUAGCUCCCUUUCUCAUUUCGCAGUGCUACAAU
+Actinobacillus_succi.1             GUUGUAGCUCCCUUUUUCAUUUCGCAGUGCUAUAAU
+Haemophilus_somnus_1.1             GUUUUAACUCCCUUUCUCAUUUCGCAAUGCUACAAU
+Pasteurella_multocid.1             GUUGUAGUUCCCUCUCUCAUUUCGCAGUGCUACAAU
+#=GC SS_cons                       <<<<<<<<....................>>>>>>>>
+#=GC RF                            guuGuaGcUCCCUuUCUCAUUUCGCAGUgCuaCaau
+//

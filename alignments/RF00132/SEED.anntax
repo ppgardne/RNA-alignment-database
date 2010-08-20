@@ -1,0 +1,75 @@
+# STOCKHOLM 1.0
+#=GF ID    snoR24
+#=GF AC    RF00132
+#=GF DE    Small nucleolar RNA R24
+#=GF AU    Moxon SJ
+#=GF GA    23.0
+#=GF NC    0.0
+#=GF TC    24.5
+#=GF SE    Griffiths-Jones SR
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF RN    [1]
+#=GF RM    12477388
+#=GF RT    Experimental RNomics. Identification of 140 Candidates for Small
+#=GF RT    Non-Messenger RNAs in the Plant Arabidopsis thaliana.
+#=GF RA    Marker C, Zemann A, Terhorst T, Kiefmann M, Kastenmayer JP, Green P,
+#=GF RA    Bachellerie JP, Brosius J, Huttenhofer A;
+#=GF RL    Curr Biol 2002;12:2002-2013.
+#=GF RN    [2]
+#=GF RM    12007400
+#=GF RT    Small nucleolar RNAs: an abundant group of noncoding RNAs with
+#=GF RT    diverse cellular functions.
+#=GF RA    Kiss T;
+#=GF RL    Cell 2002;109:145-148.
+#=GF CC    snoR24 is a C/D box small nucleolar RNA which acts as a methylation
+#=GF CC    guide for 18S ribosomal RNA in plants [1].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_R24
+#=GF SQ    12
+
+#=GS O.sativa.1   AC    AJ532532.1/14-104
+#=GS O.sativa.2   AC    AJ532531.1/1-77
+#=GS O.sativa.3   AC    AJ532535.1/5-95
+#=GS O.sativa.4   AC    AJ532530.1/1-91
+#=GS O.sativa.5   AC    AJ532533.1/1-91
+#=GS O.sativa.6   AC    AJ532534.1/5-96
+#=GS A.thaliana.1 AC    AF317982.1/2-94
+#=GS A.thaliana.2 AC    AL161574.2/197270-197366
+#=GS A.thaliana.3 AC    AL161574.2/196892-196988
+#=GS A.thaliana.4 AC    AL161574.2/197042-197138
+#=GS A.thaliana.5 AC    AL161574.2/196728-196824
+#=GS A.thaliana.6 AC    AF326224.1/1-93
+
+O.sativa.1               GCAGCUGUGAUGAGCCG..UAACACAUAAGGAGGCC.AACCGAUCAAUUG
+O.sativa.2               GCUGCUGUGA................UAAGAAGGCC.AACCGAUCAAUUG
+O.sativa.3               GCUGCUGUGAUGAGCCG..UAACACAUAAGAAGGCC.AACCGAUCAAUUG
+O.sativa.4               ACUGCUGUGAUGAGCCG..UAACACAUAAGGAGGCC.AACCGAUCAAUUG
+O.sativa.5               GCUGCUGUGAUAAGCCG..UAACACAUAAGAAGGCC.AACCGAUCAAUUG
+O.sativa.6               GCAGCUGUGAUGAGACG..UAACACAUAAGAAGGCCAAACCGAUCAAUUG
+A.thaliana.1             ..AUCAGUGAUGAGAAAGCUAACACGUAAGAAGAGGUACUCCUUUGUGGU
+A.thaliana.2             UGAGCUGUGAUGAGAAAGCUAACACGUAAGAAGAGGUAUUCCUUUGUGGG
+A.thaliana.3             UUAGCUGUGAUGAGAAAGCUAACACGUAAGAAGAAGUACUCCUUUGUGGU
+A.thaliana.4             UGAGCUGUGAUGAGAAAGCUAACACGUAAGAAGGGGUACUCCUUUGUGGG
+A.thaliana.5             CUAUCAGUGAUGAGAAAGCUAACACGUAAGAAGAGGUACUCCUUUGUGGU
+A.thaliana.6             ..AGCUGUGAUGAGAAAGCUAACACGUAAGAAGGGGUACUCCUUUGUGGG
+#=GC SS_cons             ..<<<.............................................
+
+O.sativa.1               G...UUCUUCAAUGAAAUACUCUUGUUACGCUUGGCUUCUGAGCAUU
+O.sativa.2               G...UUCUUUGAUGAAAUACUCUUGUUACACUUGGCUUCUGAGCGUC
+O.sativa.3               G...UUCUUCGAUGACAAAUACUUGUUACGCUUGGCUUCUGAGCAGA
+O.sativa.4               G...UUCUUCAAUGAAAUACUCUUGUUACGCUUGGCUUCUGAGCAUU
+O.sativa.5               G...UUCUUUGAUGAAAUACUCUUGUUACGCUUGGCUUCUGAGCGAC
+O.sativa.6               G...UUCUUCGAUGAAAUAUAUUUGUUACGCUUGGCUUCUGAGCUGA
+A.thaliana.1             GUAUUUCUUCUAUGAAAUAUAUUUGUUACGCUUGGCUUCUGAGAU..
+A.thaliana.2             GUAUUUCUUCAAUGAAAUACAUUUGUUACGCUUGGCUUCUGAGCUAU
+A.thaliana.3             GUAUUUCUUCAAUGAAAUACAUUUGUUACGCUUGGCUUCUGAGUUAA
+A.thaliana.4             GUGUUUCUUCAAUGAAAUACAUUUGUUACGCUUGGCUUCUGAGCUAA
+A.thaliana.5             GUAUUUCUUCUAUGAAAUAUAUUUGUUACGCUUGGCUUCUGAGAUAA
+A.thaliana.6             GUGUUUCUUCAAUGAAAUACAUUUGUUACGCUUGGCUUCUGAGCU..
+#=GC SS_cons             ..........................................>>>..
+//

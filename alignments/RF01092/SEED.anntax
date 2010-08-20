@@ -1,0 +1,37 @@
+# STOCKHOLM 1.0
+#=GF ID    GP_knot2
+#=GF AC    RF01092
+#=GF DE    Gag/pol translational readthrough site
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    0.0
+#=GF TC    27.3
+#=GF SE    Pseudobase
+#=GF SS    Pseudobase
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    PKBASE; PKB00048
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    8076609
+#=GF RT    Pseudoknot-dependent read-through of retroviral gag termination
+#=GF RT    codons: importance of sequences in the spacer and loop 2.
+#=GF RA    Wills NM, Gesteland RF, Atkins JF;
+#=GF RL    EMBO J. 1994;13:4137-4144.
+#=GF WK    http://en.wikipedia.org/wiki/Gag/pol_translational_readthrough_site
+#=GF SQ    2
+
+#=GS Reticuloendotheliosi.1 AC    DQ003591.1/2531-2591
+#=GS Spleen_necrosis_viru.1 AC    M54993.1/172-232
+
+Reticuloendotheliosi.1             UAGGGCCGUCAGGGUUCUCCCGCCCUCCGUGAACCCAGGCUAAAAGUUAA
+Spleen_necrosis_viru.1             UAGGGCCGUCAGGGUUCUCCCGCCCUCCGUGAACCCAGGCUAAAAGUUAA
+#=GC SS_cons                       ...........<<<<<<.<..AAAAAAA>.>>>>>>..............
+#=GC RF                            UAGGGCCGUCAGGGuuCUCCCGCCCUCCGUGaaCCCAGGCUAAAAGUUAA
+
+Reticuloendotheliosi.1             GGUAGGGGGGC
+Spleen_necrosis_viru.1             GGUAGGGGGGC
+#=GC SS_cons                       ....aaaaaaa
+#=GC RF                            GGUAGGGGGGC
+//

@@ -1,0 +1,104 @@
+# STOCKHOLM 1.0
+#=GF ID    SNORD52
+#=GF AC    RF00276
+#=GF DE    Small nucleolar RNA SNORD52
+#=GF AU    Moxon SJ
+#=GF GA    25.0
+#=GF NC    24.6
+#=GF TC    25.0
+#=GF PI    U52
+#=GF SE    Moxon SJ, INFERNAL
+#=GF SS    Predicted; PFOLD; Moxon SJ, Daub J
+#=GF TP    Gene; snRNA; snoRNA; CD-box;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000593 SO:C_D_box_snoRNA
+#=GF DR    GO:0006396 GO:RNA processing
+#=GF DR    GO:0005730 GO:nucleolus
+#=GF DR    snoopy; Mus_musculus300615
+#=GF DR    snoopy; Takifugu_rubripes300021
+#=GF RN    [1]
+#=GF RM    12215523
+#=GF RT    Purified box C/D snoRNPs are able to reproduce site-specific
+#=GF RT    2'-O-methylation of target RNA in vitro.
+#=GF RA    Galardi S, Fatica A, Bachi A, Scaloni A, Presutti C, Bozzoni I;
+#=GF RL    Mol Cell Biol 2002;22:6663-6668.
+#=GF RN    [2]
+#=GF RM    8674114
+#=GF RT    Site-specific ribose methylation of preribosomal RNA: a novel
+#=GF RT    function for small nucleolar RNAs.
+#=GF RA    Kiss-Laszlo Z, Henry Y, Bachellerie JP, Caizergues-Ferrer M, Kiss T;
+#=GF RL    Cell 1996;85:1077-1088.
+#=GF CC    U52 belongs to the C/D class of snoRNA which contain the C (UGAUGA)
+#=GF CC    and D (CUGA) box motifs. Most of the members of the box C/D family function
+#=GF CC    in directing site-specific 2'-O-methylation of substrate RNAs [1].
+#=GF WK    http://en.wikipedia.org/wiki/Small_nucleolar_RNA_SNORD52
+#=GF SQ    20
+
+#=GS T.rubripes.1           AC    CAAB01000553.1/37106-37174
+#=GS D.rerio.1              AC    BX511233.10/65902-65968
+#=GS E.telfairi.1           AC    AAIY01395239.1/290-353
+#=GS O.cuniculus.1          AC    AAGW01366054.1/4703-4769
+#=GS O.princeps.1           AC    AAYZ01082793.1/2695-2761
+#=GS C.porcellus.1          AC    AAKN02021588.1/41687-41753
+#=GS M.musculus.1           AC    AF109906.1/100281-100346
+#=GS R.norvegicus.1         AC    X77209.1/590-655
+#=GS Spermophilus_tridece.1 AC    AAQQ01546498.1/489-555
+#=GS H.sapiens.1            AC    X96651.1/1-66
+#=GS M.murinus.1            AC    ABDC01612123.1/482-549
+#=GS C.lupus.1              AC    AAEX02010238.1/35942-36009
+#=GS F.catus.1              AC    AANG01354597.1/381-449
+#=GS B.taurus.1             AC    AAFC03050905.1/46467-46533
+#=GS S.scrofa.1             AC    AL773527.8/126549-126615
+#=GS M.lucifugus.1          AC    AAPE01191513.1/308-370
+#=GS M.lucifugus.2          AC    AAPE01229091.1/3255-3322
+#=GS E.europaeus.1          AC    AANN01754372.1/2152-2219
+#=GS S.araneus.1            AC    AALT01488983.1/2001-2067
+#=GS E.caballus.1           AC    AAWR02009906.1/28300-28367
+
+T.rubripes.1                       UGGAAUGAUGAUU.UUGCAGACUAGAGUCUCUGAAAA.UCCUGAAGUAGC
+D.rerio.1                          UGCAGUGAUGAUU.CCAUAGACUAGAGUCUCUGAUAA.CAACAUGAAGAU
+E.telfairi.1                       GGGAAUGAUGAUU.UCUCAGACUAGAGUCUCUGA..C.UGGUCUUGAUGU
+O.cuniculus.1                      GGGGAUGAUGAUU.UCACAGACUAGAGUCUCUGACCC.UGGUCCUGAUGU
+O.princeps.1                       GGGAAUGAUGAUC.UCACAGACUAGAGUCUCUGACAC.UGGUUCUGAUGU
+C.porcellus.1                      GGGAAUGAUGAUU.UCACAGACUAGAGUCUCUGACAC.UGGUUCUGAUGU
+M.musculus.1                       GAGAGUGAUGAUU.UCACAGACUAGAGUCUCUGACGC.UGUCCUUGAUGU
+R.norvegicus.1                     GAGAAUGAUGAUU.UCACAGACUAGAGUCUCUGACUC.UGCCCUUGAUGU
+Spermophilus_tridece.1             GAGAAUGAUGAAU.UUACAGACUAGAGUCUCUGAGGC.UGGUCCUGAUGU
+H.sapiens.1                        GGGAAUGAUGAUU.UCACAGACUAGAGUCUCCGAUGC.UGGUCAUGAUGU
+M.murinus.1                        GGGAAUGAUGAUU.UCACAGACUAGAGUCUCUGACACAUGGUCAUGAUGU
+C.lupus.1                          GGGAAUGAUGAUU.UCUCAGACUAGAGUCUCUGACAC.UGGUCUUGAUGU
+F.catus.1                          GGGAAUGAUGAUUGUCUCAGACUAGAGUCUCUGAUGC.UGGACUUGAUGU
+B.taurus.1                         GGGAAUGAUGAUU.UCUCAGACUAGAGUCUCUGAUAC.UGGUUUUGAUGU
+S.scrofa.1                         GGGAAUGAUGAUU.UCUCAGACUAGAGUCUCUGAUGC.UGGUCCUGAUGU
+M.lucifugus.1                      GGGAAUGAUGAGU.UCUCAGACUAUAGUCGCUGAUGU.UGGUUCUGAAGU
+M.lucifugus.2                      GGGAAUGAUGAUU.UCUCAGACUAGAGUCUCUGACGC.UGGCUCUGAAGU
+E.europaeus.1                      GGGAAUGAUGAUU.CUUAAGACUAGAGUCUCUGACGC.UGGUUCUGAUGG
+S.araneus.1                        GGGAAUGAUGAUU.UCACAGACUAGAGUCUCUGACAC.UAGGCCUGAUGU
+E.caballus.1                       GGGAAUGAUGAUU.UCUCAGACUAGAGUCUCUGAUGC.UGGUUCUGAUGU
+#=GC SS_cons                       <<<...............................................
+#=GC RF                            GgGAAUGAUGAUU.UcaCAGACUAGAGUCUCUGAcaC.UGGucuUGAUGU
+
+T.rubripes.1                       UU.UCUUUUAUUGCACUGACCA
+D.rerio.1                          CU.ACACA..UUUCUCUGAGCA
+E.telfairi.1                       CU.UUUUG..UUGU.CUGACUC
+O.cuniculus.1                      CA.AAAAU..GAGUUCUGACUC
+O.princeps.1                       CA.AACUU..AAGUUCUGACUC
+C.porcellus.1                      CA.AAAAU..AAUGUCUGACUC
+M.musculus.1                       CA.GCUAU..AAAU.CUGACUC
+R.norvegicus.1                     CA.ACUAU..AAAU.CUGACUC
+Spermophilus_tridece.1             CA.AAAGU..AAGUUCUGACUC
+H.sapiens.1                        CA.AAACU..AAGUUCUGA.UC
+M.murinus.1                        CA.AAACU..AAGUUCUGACUC
+C.lupus.1                          CAAAAAUU..ACGUUCUGACUC
+F.catus.1                          CAAAAAUU..AAGUUCUGACUC
+B.taurus.1                         CA.AAAUU..GAUUUCUGACUC
+S.scrofa.1                         CA.AAAUU..AAUUUCUGACUC
+M.lucifugus.1                      GA.A......AAGUUCUGACUC
+M.lucifugus.2                      GAAAAAUU..AAGUUCUGACUC
+E.europaeus.1                      CAGAAAUU..AGUUUCUGAUUC
+S.araneus.1                        CA.AAUUU..ACAUUCUGACUC
+E.caballus.1                       CA.AAACUU.AAGUUCUGACUC
+#=GC SS_cons                       ...................>>>
+#=GC RF                            CA.AAAuU..AAgUUCUGACuC
+//

@@ -1,0 +1,210 @@
+# STOCKHOLM 1.0
+#=GF ID    RNAIII
+#=GF AC    RF00503
+#=GF DE    RNAIII
+#=GF AU    Moxon SJ
+#=GF GA    94.0
+#=GF NC    82.9
+#=GF TC    97.7
+#=GF SE    PMID:10836788
+#=GF SS    Published; PMID:10836788
+#=GF TP    Gene;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    10836788
+#=GF RT    Probing the structure of RNAIII, the Staphylococcus aureus agr
+#=GF RT    regulatory RNA, and identification of the RNA domain involved in
+#=GF RT    repression of protein A expression.
+#=GF RA    Benito Y, Kolb FA, Romby P, Lina G, Etienne J, Vandenesch F;
+#=GF RL    RNA 2000;6:668-679.
+#=GF CC    This family represents RNAIII which is known to regulate the expression of
+#=GF CC    many Staphylococcus aureus genes encoding exoproteins and cell wall
+#=GF CC    associated proteins. In S.aureus, RNAIII acts as the effector of the agr
+#=GF CC    system and is transcribed from the P3 operon. The RNAIII transcript
+#=GF CC    also contains the 26 amino acid delta-haemolysin gene (hld) [1].
+#=GF WK    http://en.wikipedia.org/wiki/RNAIII
+#=GF SQ    11
+
+#=GS S.epidermidis.1        AC    AY183373.1/3-566
+#=GS Staphylococcus_aureu.1 AC    BX571857.1/2086458-2086973
+#=GS S.aureus.1             AC    AF288215.1/1-517
+#=GS Staphylococcus_aureu.2 AC    BX571856.1/2183350-2183866
+#=GS S.aureus.2             AC    AB043554.1/1-293
+#=GS S.epidermidis.2        AC    Z49220.1/1-557
+#=GS S.warneri.1            AC    AJ223776.1/232-759
+#=GS S.epidermidis.3        AC    AF012132.1/3204-3767
+#=GS S.aureus.3             AC    AF230358.1/4-492
+#=GS S.aureus.4             AC    AB043555.1/1-291
+#=GS S.epidermidis.4        AC    AJ223774.1/71-632
+
+S.epidermidis.1                    GACUCAUAUCACAGAUGAUGUGAUUGAAAGAUAGUUGA...AAAAUUUGC
+Staphylococcus_aureu.1             UAACUAGAUCACAGA.GAUGUGAUGGAAA.AUAGUUGA...UGA.GUUGU
+S.aureus.1                         UAACUAGAUUACAGA.GAUGUGAUGGAAA.AUAGUUGA...UGA.GUUGU
+Staphylococcus_aureu.2             UAACUAGAUCACAGA.GAUGUGAUGGAAA.AUAGUUGA...UGA.GUUGU
+S.aureus.2                         UAACUAGAUCACAGA.GAUGUGAUGGAAA.AUAGUUGA...UGA.GUUGU
+S.epidermidis.2                    GACUCAUAUCACAGAUGAUGUGAUUGAAAGAUAGUUGA...AAAAUUUGC
+S.warneri.1                        UCAUUAACACUGUGA.AAAAAUUCCAAAA.AUAAUUU.UUUCUA.GUUAG
+S.epidermidis.3                    GACUCAUAUCACAGU.GAUGUGAUUGAAAGAUAGUUGA...AAAAUUUGC
+S.aureus.3                         UAACUAGAUCACAGA.GAUGUGAUGGAAA.AUAGUUGA...UGA.GUUGU
+S.aureus.4                         UAACUAGAUCACAGA.GAUGUGAUGGAAA.AUAGUUGA...UGA.GUUGU
+S.epidermidis.4                    GACUCAUAUCACAGAUGAUGUGAUUGAAAGAUAGUUGA...AAAAUUUGC
+#=GC SS_cons                       .......<<<<<<.....>>>>>>......<<<<<<<.....<<.<<<<.
+
+S.epidermidis.1                    UUAAUCUAG.UCGAGUGAAUG....UUA.AAUUCAUUCGUAUCCAUUACC
+Staphylococcus_aureu.1             UUAAU....UU.UAA.GAAUU....UUU.A...........UCU.UAA..
+S.aureus.1                         UUAAU....UU.UAA.GAAUU....UUUUA...........UCU.UAA..
+Staphylococcus_aureu.2             UUAAU....UU.UAA.GAAUU....UUU.A...........UCU.UAA..
+S.aureus.2                         UUAAU....UU.UAA.GAAUU....UUU.A...........UCU.UAA..
+S.epidermidis.2                    UUAAUCUAG.UCGAGUGAAUG....UUA.AAUUCAUUCGUAUCCAUUACC
+S.warneri.1                        UUAAG....AU.GAG.UAUUUAGGAUUU.A...........CAA.UAA..
+S.epidermidis.3                    UUAAUCUAG.UCGAGUGAAUG....UUA.AAUUCAUUCGUAUCCAUUACC
+S.aureus.3                         UUAAU....UU.UAA.GAAUU....UUU.A...........UCU.UAA..
+S.aureus.4                         UUAAU....UU.UAA.GAAUU....UUU.A...........UCU.UAA..
+S.epidermidis.4                    UUAAUCUAG.UCGAGUGAAUG....UUA.AAUUCAUUCGUAUCCAUUACC
+#=GC SS_cons                       <<<.......<.<<<.<<.......................>>>.>>>..
+
+S.epidermidis.1                    UUAAUUCGAAAGGAGUGA..AGUUAUGAUGGCAGCAGAUAUCAUUUCUAC
+Staphylococcus_aureu.1             UUAA...GGAAGGAGUGA..UUUCA..AUGGCACAAGAUAUCAUUUCAAC
+S.aureus.1                         UUAA...GGAAGGAGUGA..UUUCA..AUGGCACAAGAUAUCAUUUCAAC
+Staphylococcus_aureu.2             UUAA...GGAAGGAGUGA..UUUCA..AUGGCACAAGAUAUCAUUUCAAC
+S.aureus.2                         UUAA...GGAAGGAGUGA..UUUCA..AUGGCACAAGAUAUCAUUUCAAC
+S.epidermidis.2                    UUAAUUCGAAAGGAGUGA..AGUUAUGAUGGCAGCAGAUAUCAUUUCUAC
+S.warneri.1                        UUCAAAUGGAAGGAGUGA..UUUCA..AUGACUGCAGAUAUCAUUUCAAC
+S.epidermidis.3                    UUAAUUCGAAAGGAGUGAAGUUAUA..AUGGCAGCAGAUAUCAUUUCUAC
+S.aureus.3                         UUAA...GGAAGGAGUGA..UUUCA..AUGGCACAAGAUAUCAUUUCAAC
+S.aureus.4                         UUAA...GGAAGGAGUGA..UUUCA..AUGGCACAAGAUAUCAUUUCGAC
+S.epidermidis.4                    UUAAUUCGAAAGGAGUGA..AGUUAUGAUGGCAGCAGAUAUCAUUUCUAC
+#=GC SS_cons                       ...........<<<<<<<..<.<<............>>.>>>>>>>>...
+
+S.epidermidis.1                    AAUCGGUGAUUUAGUAAAAUGGAUUAUCGAUACAGUUAAUAAAUU..C.A
+Staphylococcus_aureu.1             AAUCAGUGACUUAGUAAAAUGGAUUAUCGACACAGUGAACAAAUUCACU.
+S.aureus.1                         AAUCAGUGACUUAGUAAAAUGGAUUAUCGACACAGUGAACAAAUUCACU.
+Staphylococcus_aureu.2             AAUCGGUGACUUAGUAAAAUGGAUUAUCGACACAGUGAACAAAUUCACU.
+S.aureus.2                         AAUCGGUGACUUAGUAAAAUGGAUUAUCGACACAGUGAACAAAUUCACU.
+S.epidermidis.2                    AAUCGGUGAUUUAGUAAAAUGGAUUAUCGAUACAGUUAAUAAAUU..C.A
+S.warneri.1                        AAUUGGUGAUUUUGUAAAAUGGAUUUUAGAUACAGUAAAAAAAUUCACU.
+S.epidermidis.3                    AAUCGGUGAUUUAGUAAAAUGGAUUAUCGAUACAGUUAAUAAAUU..C.A
+S.aureus.3                         AAUCGGUGACUUAGUAAAAUGGAUUAUCGACACAGUGAACAAAUUCACU.
+S.aureus.4                         AAUCGGUGACUUAGUAAAAUGGAUUAUCGACACAGUGAACAAAUUCACU.
+S.epidermidis.4                    AAUCGGUGAUUUAGUAAAAUGGAUUAUCGAUACAGUUAAUAAAUU..C.A
+#=GC SS_cons                       ..<<<<<<<<...........>.>>>>>>>...<<<<<<....>>>>>>.
+
+S.epidermidis.1                    AAAAAUAAU.UUUUGAAUGAGUCUAUUGUAACUUU...UGUAACUUUGUU
+Staphylococcus_aureu.1             ..AAAAAAUAAGAUGAAUAAUUA.AUU...ACUUUCAUUGUAAAUUUGUU
+S.aureus.1                         ..AAAAAAUAAGAUGAAUAAUUA.AUU...ACUUUCAUUGUAAAUUUGUU
+Staphylococcus_aureu.2             ..AAAAAAUAAGAUGAAUAAUUA.AUU...ACUUUCAUUGUAAAUUUGUU
+S.aureus.2                         ..AAAAAAUAAGAUGAAUAAUUA.AUU...ACUUUCAUUGUAAAUUUGUU
+S.epidermidis.2                    AAAAAUAAU.UUUUGAAUGAGUCUAUUGUAACUUU...UGUAACUUUGUU
+S.warneri.1                        .....AAAUAAUAGUAGAAAUUC.AUU............GUAACUUUGUU
+S.epidermidis.3                    AAAAAUAAU.UUUUGAAUGAGUCUAUUGUAACUUU...UGUAACUUUGUU
+S.aureus.3                         ..AAAAAAUAAGAUGAAUAAUUA.AUU...ACUUUCAUUGUAAAUUUGUU
+S.aureus.4                         ..AAAAAAUAAGAUGAAUAAUUA.AUU...ACUUUCAUUGUAAAUUUGUU
+S.epidermidis.4                    AAAAAUAAU.UUUUGAAUGAGUCUAUUGUAACUUU...UGUAACUUUGUU
+#=GC SS_cons                       ..........<<<<.<<<<<.....<<...<<.......>>>>..>>>>>
+
+S.epidermidis.1                    UUCUUCGUAUAAUUAAUACUAUUAGUGAGUUGUUGAGCCAUCCCAACUUA
+Staphylococcus_aureu.1             AUCUUCGUAUAG.UACUAAAAGUAUG.AGUUAUUAAGCCAUCCCAACUUA
+S.aureus.1                         AUCUUCGUAUAG.UACUAAAAGUAUG.AGUUAUUAAGCCAUCCCAACUUA
+Staphylococcus_aureu.2             AUCUUCGUAUAG.UACUAAAAGUAUG.AGUUAUUAAGCCAUCCCAACUUA
+S.aureus.2                         AUCUUGGUAUAG.UACUAAAAGUAUG.AGUUAUUAAGCCGUCCCAACUUA
+S.epidermidis.2                    UUCUUCGUAUAAUUAAUACUAUUAGUGAGUUGUUGAGCCAUCCCAACUUA
+S.warneri.1                        UUCUUCGUAUAA.AAG.....GUG...AGUUAUUAAGCCAUCCCAACUUA
+S.epidermidis.3                    UUCUUCGUAUAAUUAAUAUUAUUAGUGAGUUGUUGAGCCAUCCCAACUUA
+S.aureus.3                         AUCUUCGUAUAG.UACUAAAAGUAUG.AGUUAUUAAGCCAUCCCAACUUA
+S.aureus.4                         AUCUUCGUAUAG.UACUAAAAGUAUG.AGUUAUUAAGCCAUCCCAACUUA
+S.epidermidis.4                    UUCUUCGUAUAAUUAAUACUAUUAGUGAGUUGUUGAGCCAUCCCAACUUA
+#=GC SS_cons                       >>>>..<<.<<<.<<.<....<<<<<..<<<<<<<<<.........>>>>
+
+S.epidermidis.1                    AUAAUUUACUAAUAUAAACUAAGCAAGUGAGAAG.CAUUUGCU.AGU.AA
+Staphylococcus_aureu.1             AUAAC.....CAUGUAAAAUUAGCAAGUGAGUAA.CAUUUGCUAGUA.GA
+S.aureus.1                         AUAAC.....CAUGUAAAAUUAGCAAGUGAGUAA.CAUUUGCUAGUA.GA
+Staphylococcus_aureu.2             AUAAC.....CAUGUAAAAUUAGCAAGUGAGUAA.CAUUUGCUAGUA.GA
+S.aureus.2                         AUAAC.....CAUGUAAAAUUAGCAAGUGAGUAA.CAUUUGCUAGU....
+S.epidermidis.2                    AUAAUUUACUAAUAUAAACUAAGCAAGUGAGAAG.CAUUUGCU.AGU.AA
+S.warneri.1                        AUAAC.....U.UGCAACAUUAGUAGGUGACCAAACAUUUACUAAUAUGA
+S.epidermidis.3                    AUAAUUUACUAAUAUAAACUAAGCAAGUGAGAAG.CAUUUGCU.AGUAG.
+S.aureus.3                         AUAAC.....CAUGUAAAAUUAGCAAGUGAGUAA.CAUUUGCUAGUA.GA
+S.aureus.4                         AUAAC.....CAUGUAAAAUUAGCAAGUGAGUAA.CAUUUGCUA......
+S.epidermidis.4                    AUAAUUUACUAAUAUAAACUAAGCAAGUGAGAAG.CAUUUGCU.AGU.AA
+#=GC SS_cons                       >>>>>.....>>>>>...<<<<<<<<<<<......>>>>>>>>>>>..<<
+
+S.epidermidis.1                    CUGUAGUUUCCUU.GGACUCAGUGUUACGUAUUAUUCUUAGCUACC.UUA
+Staphylococcus_aureu.1             GU.UAGUUUCCUU.GGACUCAGUGCUAUGUAUUUUUCUUAAUUAUCAUUA
+S.aureus.1                         GU.UAGUUUCCUU.GGACUCAGUGCUAUGUAUUUUUCUUAAUUAUCAUUA
+Staphylococcus_aureu.2             GU.UAGUUUCCUU.GGACUCAGUGCUAUGUAUUUUUCUUAAUUAUCAUUA
+S.aureus.2                         ..................................................
+S.epidermidis.2                    CUGUAGUUUCCUU.GGACUCAGUGUUACGUAUUAUUCUUAGCUACC.UUA
+S.warneri.1                        CUGUAGUUUUCCUUGGACUCAGUGUUACGUAUUAUUCUUAGCUACCUUUA
+S.epidermidis.3                    CUGUAGUUUCCUU.GGACUCAGUGUUACGUAUUAUUCUUAGCUACC.UUA
+S.aureus.3                         GU.UAGUUUCCUU.GGACUCAGUGCUAUGUAUUUUUCUUAAUUAUCAUUA
+S.aureus.4                         ..................................................
+S.epidermidis.4                    CUGUAGUUUCCUU.GGACUCAGUGUUACGUAUUAUUCUUAGCUACC.UUA
+#=GC SS_cons                       .<.<...........>>.>>>.>>>>>.>>........<<<<<<<<....
+
+S.epidermidis.1                    AAUAGGUAAUUA..UUUCUAGCAUGUAAGCUAUCGU.AAACAACAUUCAA
+Staphylococcus_aureu.1             CA..GAUAAUUA..UUUCUAGCAUGUAAGCUAUCGU.AAACAACAUCG.A
+S.aureus.1                         CA..GAUAAUUA..UUUCUAGCAUGUAAGCUAUCGU.AAACAACAUCG.A
+Staphylococcus_aureu.2             CA..GAUAAUUA..UUUCUAGCAUGUAAGCUAUCGU.AAACAACAUCG.A
+S.aureus.2                         ..................................................
+S.epidermidis.2                    AAUAGGUAAUUA..UUUCUAGCAUGUAAGCUAUCGU.AAACAACAUUCAA
+S.warneri.1                        ....AUUAGGUAUUUUUCUAACAUGUAAGCUAUCGUAAAACAACAUUCAA
+S.epidermidis.3                    AAUAGGUAAUUA..UUUCUAGCAUGUAAGCUAUCGU.AAACAACAUUCAA
+S.aureus.3                         CA..GAUAAUUA..UUUCUAGCAUGUAAGCUAUCGU.AAACAACAUCG.A
+S.aureus.4                         ..................................................
+S.epidermidis.4                    AAUAGGUAAUUA..UUUCUAGCAUGUAAGCUAUCGU.AAACAACAUUCAA
+#=GC SS_cons                       ....>>>>>>>>......<<<<......>>>>...>.>>.>>>>.>>..<
+
+S.epidermidis.1                    UUUAUCAUGUUAAAU.....AGAUAAAU......UCACUAAA.AUUUUUU
+Staphylococcus_aureu.1             UUUAUCAUU...AUU.....UGAUAAAU.....A.....AAA.UUUUUUU
+S.aureus.1                         UUUAUCAUU...AUU.....UGAUAAAU.....A.....AAA.UUUUUUU
+Staphylococcus_aureu.2             UUUAUCAUU...AUU.....UGAUAAAU.....A.....AAAUUUUUUUU
+S.aureus.2                         ..................................................
+S.epidermidis.2                    UUUAUCAUGUUAAAU.....AGAUAAAU......UCACUAAA.AUUUUUU
+S.warneri.1                        UUUAUCAUU...AUAAAAAGAGAUAAAU......UCACUAAA.AUUUUUU
+S.epidermidis.3                    UUUAUCAUGUUAAAU.....AGAUAAAUUCACUA.....AAA.AUUUUUU
+S.aureus.3                         UUUAUCAUU...AUU.....UGAUAAAU.....A.....AAA.UUUUUUU
+S.aureus.4                         ..................................................
+S.epidermidis.4                    UUUAUCAUGUUAAAU.....AGAUAAAUUCACUA.....AAA.UUUUUU.
+#=GC SS_cons                       <<<<<<...............>>>>>>>................<<<<<<
+
+S.epidermidis.1                    CAUAAUUAAUAACAUCCCCAAAAA.AUAGAUUGAAAAAAUAACUGUAAAA
+Staphylococcus_aureu.1             CAUAAUUAAUAACAUCCCCAAAA..AUAGAUUGAAAAAAUAACUGU.AAA
+S.aureus.1                         CAUAAUUAAUAACAUCCCCAAAA..AUAGAUUGAAAAAAUAACUGU.AAA
+Staphylococcus_aureu.2             CAUAAUUAAUAACAUCCCCAAAA..AUAGAUUGAAAAAAUAACUGU.AAA
+S.aureus.2                         ..................................................
+S.epidermidis.2                    CAUAAUUAAUAACAUCCCCAAAAA.AUAGAUUGAAAAAAUAACUGU.AAA
+S.warneri.1                        CAUAAUUAAUAACAUCCCCAAAAAAAUAGAUUGAAAAAAUAACUGUAAAA
+S.epidermidis.3                    CAUAAUUAAUAACAUCCCCAAAAA.AUAGAUUGAAAAAAUAACUGUAAAA
+S.aureus.3                         CAUAAUUAAUAACAUCCCCAAAA..AUAGAUUGAAAAAAUAACUGU.AAA
+S.aureus.4                         ..................................................
+S.epidermidis.4                    CAUAAUUAAUAACAUCCCCAAAAA.AUAGAUUG.AAAAAUAACUGU.AAA
+#=GC SS_cons                       <<..<<<.<<...............>>.>>>>>>>>>>>>>>>>>>....
+
+S.epidermidis.1                    ACAUUCCCUUAAUAAUAAGUUAUCA..A..GCCGUGAGUCUCUCCCAAGC
+Staphylococcus_aureu.1             ACAUUCCCUUAAUAAUAAGU.AU....G..GUCGUGAGCCCCUCCCAAGC
+S.aureus.1                         ACAUUCCCUUAAUAAUAAGU.AU....G..GUCGUGAGCCCCUCCCAAGC
+Staphylococcus_aureu.2             ACAUUCCCUUAAUAAUAAGU.AU....G..GUCGUGAGCCCCUCCCAAGC
+S.aureus.2                         ..................................................
+S.epidermidis.2                    ACAUUCCCUUAAUAAUAAGUUAU....CAAGCCGUGAGUCUCUCCCAAGC
+S.warneri.1                        ACAUUCCCUUAAUAAUAAGUUAUCAAAA..GCCGUGAGCCCCUCCCAAGC
+S.epidermidis.3                    ACAUUCCCUUAAUAAUAAGUUAUCA..A..GCCGUGAGUCUCUCCCAAGC
+S.aureus.3                         ACAUUCCCUUAAUAAUAAGU.AG....G......................
+S.aureus.4                         ..................................................
+S.epidermidis.4                    ACAUUCCCUUAAUAAUAAGUUAUCA..A..GCCGUGAGUCUCUCCCAAGC
+#=GC SS_cons                       ..............................<<<<<<<<<.........>>
+
+S.epidermidis.1                    UCACGGC
+Staphylococcus_aureu.1             UCGCGGC
+S.aureus.1                         UCGCGGC
+Staphylococcus_aureu.2             UCGCGGC
+S.aureus.2                         .......
+S.epidermidis.2                    U......
+S.warneri.1                        UCACGGU
+S.epidermidis.3                    UCACGGC
+S.aureus.3                         .......
+S.aureus.4                         .......
+S.epidermidis.4                    UCACGGC
+#=GC SS_cons                       >>>>>>>
+//

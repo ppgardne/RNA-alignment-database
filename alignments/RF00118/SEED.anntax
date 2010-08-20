@@ -1,0 +1,56 @@
+# STOCKHOLM 1.0
+#=GF ID    rydB
+#=GF AC    RF00118
+#=GF DE    rydB RNA
+#=GF AU    Moxon SJ
+#=GF GA    48.0
+#=GF NC    0.0
+#=GF TC    58.0
+#=GF SE    Hershberg R
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; sRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    SO:0000655 SO:ncRNA
+#=GF RN    [1]
+#=GF RM    11445539
+#=GF RT    Identification of novel small RNAs using comparative genomics and
+#=GF RT    microarrays.
+#=GF RA    Wassarman KM, Repoila F, Rosenow C, Storz G, Gottesman S;
+#=GF RL    Genes Dev 2001;15:1637-1651.
+#=GF CC    This family consists of several bacterial sequences from E. coli, Shigella
+#=GF CC    flexneri and Salmonella species. This RNA gene was discovered by an RNA
+#=GF CC    screen [1] between the ydiC and ydiH in E. coli. This gene is only 67
+#=GF CC    bases in length and is composed of a hairpin like structure.  The
+#=GF CC    function of this RNA is unknown.
+#=GF WK    http://en.wikipedia.org/wiki/rydB_RNA
+#=GF SQ    7
+
+#=GS E.coli.1               AC    CP000802.1/1786737-1786804
+#=GS Escherichia_coli_O15.1 AC    AE005174.2/2439620-2439687
+#=GS Escherichia_coli_APE.1 AC    CP000468.1/1781699-1781766
+#=GS Klebsiella_pneumonia.1 AC    CP000647.1/2118026-2118092
+#=GS S.enterica.1           AC    AL627271.1/102967-103033
+#=GS Salmonella_enterica_.1 AC    CP001113.1/1449830-1449896
+#=GS marine_metag.1         AC    AACY020350585.1/119-186
+
+E.coli.1                           CUACCCCAUCCGGCGCUUAUCUCCGGCACUCUCAGUGGCUUAGCUCUUGA
+Escherichia_coli_O15.1             CUACCCCAUCCGGCGCUUAUCUCCGGCACUCUCAGUGGCUUGGCUCUUGA
+Escherichia_coli_APE.1             CUACCCCAUCCGGCGCUUAUCUCCGGCACUCACAGUGGCUUAGCUCUUGA
+Klebsiella_pneumonia.1             GGACCCCAUCCGGCGCUUAUCUCCGGCACUCAUGAUGGCUUAGCUCUUGA
+S.enterica.1                       CGGCCCCAUCCGGCGCUUAUCUCCGGCACUCUUAAUGGCUUAGCUCUUGA
+Salmonella_enterica_.1             CGGCCCCAUCCGGCGCUUAUCUCCGGCACUCCUAAUGGCUUAGCUCUUGA
+marine_metag.1                     CGGCCCCAUCCGGCGCUUAUCUCCGGCACUCACGAUGGCUUAGCUCUUGA
+#=GC SS_cons                       ...<<<<.<<.<<.<<<.......<<<<<.....>>>.>>.>>>.>>.>>
+#=GC RF                            cGGCCCCAuCcgGcGCuUAUcUccgGCacUcUUAguGGCuUaGCUCuUGa
+
+E.coli.1                           AGGGGCGAUAAGAAUAAU
+Escherichia_coli_O15.1             AGGGGCGAUAAGAAUAAU
+Escherichia_coli_APE.1             AGGGGCGAUAAGGAUAAU
+Klebsiella_pneumonia.1             AGGGGC.AUCAGAAUAAU
+S.enterica.1                       AGGGGC.AUAAGAAUAAU
+Salmonella_enterica_.1             AGGGGC.AUAAGAAUAAU
+marine_metag.1                     AGGGGCGAUAAGAAGAAU
+#=GC SS_cons                       .>>>>.............
+#=GC RF                            AGGGGc.AUAAGAAUAAU
+//

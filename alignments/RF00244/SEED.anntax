@@ -1,0 +1,65 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-26
+#=GF AC    RF00244
+#=GF DE    mir-26 microRNA precursor family
+#=GF AU    Griffiths-Jones SR, Daub J
+#=GF GA    28.0
+#=GF NC    0.0
+#=GF TC    29.1
+#=GF SE    Griffiths-Jones SR
+#=GF SS    Predicted; PFOLD
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 169604 -E 1000  --toponly  CM SEQDB
+#=GF DR    MIR; MI0000083
+#=GF DR    MIR; MI0000084
+#=GF DR    MIR; MI0000573
+#=GF DR    MIR; MI0000575
+#=GF DR    MIR; MI0000706
+#=GF DR    MIR; MI0000750
+#=GF DR    MIPF; MIPF0000043
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035195 GO:miRNA-mediated gene silencing
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF RN    [1]
+#=GF RM    11679670
+#=GF RT    Identification of novel genes coding for small expressed RNAs.
+#=GF RA    Lagos-Quintana M, Rauhut R, Lendeckel W, Tuschl T;
+#=GF RL    Science 2001;294:853-858.
+#=GF RN    [2]
+#=GF RM    12007417
+#=GF RT    Identification of tissue-specific microRNAs from mouse.
+#=GF RA    Lagos-Quintana M, Rauhut R, Yalcin A, Meyer J, Lendeckel W, Tuschl T;
+#=GF RL    Curr Biol 2002;12:735-739.
+#=GF CC    miR-26 is processed from multiple predicted precursor hairpins in
+#=GF CC    both mouse (MIR:MI0000573, MIR:MI0000575, MIR:MI0000706) and
+#=GF CC    human (MIR:MI0000083, MIR:MI0000084, and MIR:MI0000750) [1,2].
+#=GF CC    miR-26 appears to be a vertebrate specific miRNA and has now been
+#=GF CC    predicted or experimentally validated in many vertebrate species
+#=GF CC    (MIPF:MIPF0000043). The hairpin precursors (represented here) are
+#=GF CC    predicted based on base pairing and cross-species conservation --
+#=GF CC    their extents are not known.  In this case the mature sequence is
+#=GF CC    excised from the 5' arm of the hairpin.
+#=GF WK    http://en.wikipedia.org/wiki/mir-26_microRNA_precursor_family
+#=GF SQ    5
+
+#=GS T.rubripes.1 AC    AC099740.2/37649-37721
+#=GS M.musculus.1 AC    AC055818.9/198123-198196
+#=GS H.sapiens.1  AC    AC121759.9/5238-5311
+#=GS H.sapiens.2  AC    AF229163.1/26516-26586
+#=GS H.sapiens.3  AC    AP000497.1/44360-44431
+
+T.rubripes.1             CAACCGGGUUCAAGUAAUCCAGGAUAGGCUCUGUAUCUGUCUU..GGCCU
+M.musculus.1             UGGCCUCGUUCAAGUAAUCCAGGAUAGGCUGUGCAGGUCCCAAGGGGCCU
+H.sapiens.1              UGGCUGGAUUCAAGUAAUCCAGGAUAGGCUGUU.UCCAUCUGUGAGGCCU
+H.sapiens.2              GGACCCAGUUCAAGUAAUUCAGGAUAGGUUGUG.UGCUGUCCA...GCCU
+H.sapiens.3              UGGCCUCGUUCAAGUAAUCCAGGAUAGGCUGUGCAGGUCCCAAUG.GCCU
+#=GC SS_cons             ..........<<<<<<<<<.<<<<<<<<<.................>>>>
+
+T.rubripes.1             AUGCUUGAUUACUUG.CUCUUGGAGG
+M.musculus.1             AUUCUUGGUUACUUG.CACG.GGGAC
+H.sapiens.1              AUUCUUGAUUACUUGUUUCU.GGAGG
+H.sapiens.2              GUUCUCCAUUACUUGGCUCG.GGGAC
+H.sapiens.3              AU.CUUGGUUACUUG.CACG.GGGAC
+#=GC SS_cons             >>>>>.>>>>>>>>>...........
+//
